@@ -35,8 +35,15 @@ export function AuthProvider({ children }) {
     setIsAuthenticated(false);
   };
 
+  /** Cập nhật user data trong state và localStorage (dùng sau khi update profile) */
+  const updateUser = (userData) => {
+    const merged = { ...user, ...userData };
+    localStorage.setItem('user', JSON.stringify(merged));
+    setUser(merged);
+  };
+
   return (
-    <AuthContext.Provider value={{ user, isAuthenticated, login, logout }}>
+    <AuthContext.Provider value={{ user, isAuthenticated, login, logout, updateUser }}>
       {children}
     </AuthContext.Provider>
   );

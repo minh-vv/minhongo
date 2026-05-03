@@ -2,11 +2,11 @@ import { NavLink, Outlet, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 
 // Paths that belong to the "Học bài" section
-const STUDY_PATHS = ['/hantu', '/tuvung', '/nguphap', '/lotrinh', '/tuhoc', '/deck', '/study'];
+const STUDY_PATHS = ['/kanji', '/vocabulary', '/grammar', '/roadmap', '/self-study', '/deck', '/study'];
 
 const studyAdminTabs = [
   {
-    path: '/hantu',
+    path: '/kanji',
     label: 'Hán tự',
     icon: (
       <span className="text-base font-bold leading-none" style={{ fontFamily: 'serif' }}>
@@ -15,7 +15,7 @@ const studyAdminTabs = [
     ),
   },
   {
-    path: '/tuvung',
+    path: '/vocabulary',
     label: 'Từ vựng',
     icon: (
       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -24,7 +24,7 @@ const studyAdminTabs = [
     ),
   },
   {
-    path: '/nguphap',
+    path: '/grammar',
     label: 'Ngữ pháp',
     icon: (
       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -36,7 +36,7 @@ const studyAdminTabs = [
 
 const studyPersonalTabs = [
   {
-    path: '/lotrinh',
+    path: '/roadmap',
     label: 'Lộ trình',
     badge: 'AI',
     icon: (
@@ -46,7 +46,7 @@ const studyPersonalTabs = [
     ),
   },
   {
-    path: '/tuhoc',
+    path: '/self-study',
     label: 'Tự học',
     icon: (
       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -195,7 +195,7 @@ export default function Layout() {
 
             {/* "Học bài" tab — active when on any study route */}
             <NavLink
-              to="/hantu"
+              to="/kanji"
               className={() =>
                 `${headerTabBase} ${isStudySection ? headerTabActive : headerTabInactive}`
               }

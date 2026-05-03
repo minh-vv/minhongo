@@ -46,6 +46,21 @@ export class FlashcardsService {
     });
   }
 
+  /** Lấy chi tiết một deck công khai kèm thẻ — không yêu cầu đăng nhập */
+  async getPublicDeckById(id: string) {
+    const deck = await this.prisma.deck.findUnique({
+      where: { id, isPublic: true },
+      include: {
+        cards: { orderBy: { createdAt: 'asc' } },
+        user: { select: { id: true, name: true } },
+        _count: { select: { cards: true } },
+      },
+    });
+
+    if (!deck) throw new NotFoundException('Deck công khai không tồn tại');
+    return deck;
+  }
+
   async getDeckById(id: string, userId: string) {
     const deck = await this.prisma.deck.findUnique({
       where: { id },
@@ -409,6 +424,9 @@ export class FlashcardsService {
       romajiField?: string;
       exampleField?: string;
       tagsField?: string;
+      isPublic?: boolean;
+      category?: string;
+      jlptLevel?: number;
     },
   ) {
     // Parse APKG file (zip format)
@@ -476,6 +494,11 @@ export class FlashcardsService {
       const tagsField = options.tagsField;
 
       // Tạo deck mới
+      // isPublic có thể đến dưới dạng string "true"/"false" từ FormData
+      const isPublicBool =
+        options.isPublic === true ||
+        (options.isPublic as unknown as string) === 'true';
+
       const deck = await this.prisma.deck.create({
         data: {
           name: options.deckName,
@@ -483,6 +506,9 @@ export class FlashcardsService {
             options.description ||
             `Import từ Anki - ${new Date().toLocaleDateString()}`,
           userId,
+          isPublic: isPublicBool,
+          category: (options.category as any) ?? 'TUHOC',
+          jlptLevel: options.jlptLevel ? Number(options.jlptLevel) : null,
         },
       });
 

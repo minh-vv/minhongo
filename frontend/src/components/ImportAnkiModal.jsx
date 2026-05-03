@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import { useMutation } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
 
-export default function ImportAnkiModal({ isOpen, onClose, onSuccess }) {
+export default function ImportAnkiModal({ isOpen, onClose, onSuccess, isAdmin = false, defaultCategory = 'TUVUNG' }) {
   const fileInputRef = useRef(null);
   const [selectedFile, setSelectedFile] = useState(null);
   const [preview, setPreview] = useState(null);
@@ -16,6 +16,10 @@ export default function ImportAnkiModal({ isOpen, onClose, onSuccess }) {
     backField: '',
     romajiField: '',
     exampleField: '',
+    // admin-only
+    isPublic: false,
+    category: defaultCategory,
+    jlptLevel: '',
   });
 
   const handleFileSelect = async (e) => {
@@ -54,7 +58,10 @@ export default function ImportAnkiModal({ isOpen, onClose, onSuccess }) {
   };
 
   const importMutation = useMutation({
-    mutationFn: () => flashcardApi.importAnkiFile(selectedFile, formData),
+    mutationFn: () => flashcardApi.importAnkiFile(selectedFile, {
+      ...formData,
+      jlptLevel: formData.jlptLevel ? parseInt(formData.jlptLevel, 10) : undefined,
+    }),
     onSuccess: (data) => {
       if (onSuccess) {
         onSuccess(data);
@@ -197,6 +204,66 @@ export default function ImportAnkiModal({ isOpen, onClose, onSuccess }) {
               placeholder="Mô tả ngắn về deck..."
             />
           </div>
+
+          {/* Admin: Publish settings */}
+          {isAdmin && (
+            <div className="border border-amber-200 bg-amber-50 rounded-lg p-4 space-y-3">
+              <div className="flex items-center gap-2 mb-1">
+                <svg className="w-4 h-4 text-amber-600" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                </svg>
+                <span className="text-sm font-bold text-amber-800">Cài đặt Admin — Publish cho tất cả</span>
+              </div>
+
+              <label className="flex items-center gap-3 cursor-pointer">
+                <div className="relative">
+                  <input
+                    type="checkbox"
+                    checked={formData.isPublic}
+                    onChange={(e) => setFormData({ ...formData, isPublic: e.target.checked })}
+                    className="sr-only"
+                  />
+                  <div className={`w-10 h-6 rounded-full transition-colors ${formData.isPublic ? 'bg-amber-500' : 'bg-gray-300'}`} />
+                  <div className={`absolute top-1 w-4 h-4 bg-white rounded-full shadow transition-transform ${formData.isPublic ? 'translate-x-5' : 'translate-x-1'}`} />
+                </div>
+                <span className="text-sm font-medium text-gray-700">
+                  {formData.isPublic ? 'Công khai — mọi user đều học được' : 'Riêng tư'}
+                </span>
+              </label>
+
+              {formData.isPublic && (
+                <div className="grid grid-cols-2 gap-3 pt-1">
+                  <div>
+                    <label className="block text-xs font-semibold text-gray-600 mb-1">Danh mục</label>
+                    <select
+                      value={formData.category}
+                      onChange={(e) => setFormData({ ...formData, category: e.target.value })}
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-amber-400"
+                    >
+                      <option value="TUVUNG">Từ vựng</option>
+                      <option value="HANTU">Hán tự</option>
+                      <option value="NGUPHAP">Ngữ pháp</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label className="block text-xs font-semibold text-gray-600 mb-1">Cấp độ JLPT</label>
+                    <select
+                      value={formData.jlptLevel}
+                      onChange={(e) => setFormData({ ...formData, jlptLevel: e.target.value })}
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-amber-400"
+                    >
+                      <option value="">Không xác định</option>
+                      <option value="5">N5</option>
+                      <option value="4">N4</option>
+                      <option value="3">N3</option>
+                      <option value="2">N2</option>
+                      <option value="1">N1</option>
+                    </select>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Field Mapping */}
           <div className="border-t pt-4">

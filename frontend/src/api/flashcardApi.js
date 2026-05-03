@@ -12,6 +12,11 @@ export const flashcardApi = {
     return response.data;
   },
 
+  getPublicDeck: async (deckId) => {
+    const response = await api.get(`/flashcards/public/${deckId}`);
+    return response.data;
+  },
+
   getDeck: async (deckId) => {
     const response = await api.get(`/flashcards/${deckId}`);
     return response.data;
@@ -83,6 +88,9 @@ export const flashcardApi = {
     formData.append('backField', options.backField || '');
     formData.append('romajiField', options.romajiField || '');
     formData.append('exampleField', options.exampleField || '');
+    if (options.isPublic !== undefined) formData.append('isPublic', String(options.isPublic));
+    if (options.category)   formData.append('category', options.category);
+    if (options.jlptLevel)  formData.append('jlptLevel', String(options.jlptLevel));
     const response = await api.post('/flashcards/import', formData, {
       headers: { 'Content-Type': 'multipart/form-data' },
     });

@@ -1,4 +1,6 @@
-import { IsOptional, IsString } from 'class-validator';
+import { IsOptional, IsString, IsBoolean, IsNumber } from 'class-validator';
+import { Transform } from 'class-transformer';
+import { DeckCategory } from './flashcard.dto';
 
 export class ImportDeckDto {
   @IsString()
@@ -28,4 +30,19 @@ export class ImportDeckDto {
   @IsOptional()
   @IsString()
   tagsField?: string;
+
+  // Admin-only: publish settings
+  @IsOptional()
+  @Transform(({ value }) => value === 'true' || value === true)
+  @IsBoolean()
+  isPublic?: boolean;
+
+  @IsOptional()
+  @IsString()
+  category?: DeckCategory;
+
+  @IsOptional()
+  @Transform(({ value }) => (value ? parseInt(value, 10) : undefined))
+  @IsNumber()
+  jlptLevel?: number;
 }

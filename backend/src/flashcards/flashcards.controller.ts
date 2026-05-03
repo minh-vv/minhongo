@@ -10,6 +10,7 @@ import {
   Request,
   UseInterceptors,
   UploadedFile,
+  ForbiddenException,
 } from '@nestjs/common';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { FlashcardsService } from './flashcards.service';
@@ -27,6 +28,7 @@ interface RequestWithUser extends Request {
   user: {
     id: string;
     email: string;
+    isAdmin?: boolean;
   };
 }
 
@@ -39,6 +41,11 @@ export class FlashcardsController {
   @Get('public')
   getPublicDecks() {
     return this.flashcardsService.getPublicDecks();
+  }
+
+  @Get('public/:deckId')
+  getPublicDeckById(@Param('deckId') deckId: string) {
+    return this.flashcardsService.getPublicDeckById(deckId);
   }
 
   @Get(':deckId')
@@ -158,11 +165,17 @@ export class FlashcardsController {
       limits: { fileSize: 50 * 1024 * 1024 },
     }),
   )
-  importAnkiDeck(
+  async importAnkiDeck(
     @UploadedFile() file: Express.Multer.File,
     @Body() dto: ImportDeckDto,
     @Request() req: RequestWithUser,
   ) {
+    // Chỉ admin mới được import deck công khai
+    // dto.isPublic có thể là string "true" từ FormData
+    const wantsPublic = dto.isPublic === true || (dto.isPublic as unknown as string) === 'true';
+    if (wantsPublic && !req.user.isAdmin) {
+      throw new ForbiddenException('Chỉ admin mới có thể tạo deck công khai');
+    }
     return this.flashcardsService.importAnkiDeck(req.user.id, file.buffer, dto);
   }
 }

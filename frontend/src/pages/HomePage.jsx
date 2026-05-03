@@ -7,7 +7,7 @@ const features = [
     bg: 'bg-indigo-50',
     title: 'Hán tự theo JLPT',
     desc: 'Học kanji từ N5 đến N1 với ví dụ câu và bài tập thực tế.',
-    path: '/hantu',
+    path: '/kanji',
     color: 'indigo',
   },
   {
@@ -19,7 +19,7 @@ const features = [
     bg: 'bg-blue-50',
     title: 'Từ vựng có chủ đề',
     desc: 'Từ vựng nhóm theo chủ đề, kèm phiên âm romaji và câu ví dụ.',
-    path: '/tuvung',
+    path: '/vocabulary',
     color: 'blue',
   },
   {
@@ -31,7 +31,7 @@ const features = [
     bg: 'bg-sky-50',
     title: 'Ngữ pháp dễ hiểu',
     desc: 'Giải thích ngữ pháp bằng tiếng Việt, kèm công thức và ví dụ.',
-    path: '/nguphap',
+    path: '/grammar',
     color: 'sky',
   },
   {
@@ -44,7 +44,7 @@ const features = [
     title: 'Lộ trình AI',
     badge: 'AI',
     desc: 'AI phân tích trình độ và tạo lộ trình học tối ưu riêng cho bạn.',
-    path: '/lotrinh',
+    path: '/roadmap',
     color: 'violet',
     requireAuth: true,
   },
@@ -57,7 +57,7 @@ const features = [
     bg: 'bg-purple-50',
     title: 'Tự học & Flashcard',
     desc: 'Tạo bộ thẻ riêng, import Anki, ôn tập bằng thuật toán SRS.',
-    path: '/tuhoc',
+    path: '/self-study',
     color: 'purple',
     requireAuth: true,
   },
@@ -103,10 +103,14 @@ export default function HomePage() {
               Học miễn phí ngay
             </Link>
             <Link
-              to="/hantu"
-              className="px-7 py-3 bg-white text-gray-700 font-semibold rounded-xl border-2 border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-colors text-sm"
+              to="/browse"
+              className="px-7 py-3 bg-white text-indigo-700 font-semibold rounded-xl border-2 border-indigo-200 hover:border-indigo-300 hover:bg-indigo-50 transition-colors text-sm flex items-center gap-1.5"
             >
-              Xem nội dung học thử
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              Thử flashcard ngay
             </Link>
           </div>
 
@@ -203,10 +207,10 @@ export default function HomePage() {
                 Đăng ký miễn phí
               </Link>
               <Link
-                to="/hantu"
+                to="/browse"
                 className="px-6 py-2.5 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 border border-white/20 transition-all text-sm"
               >
-                Xem nội dung thử
+                Duyệt khóa học
               </Link>
             </div>
           </div>

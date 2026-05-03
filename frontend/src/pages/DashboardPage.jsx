@@ -23,25 +23,25 @@ function getDateStr() {
 /* ── quick-start cards ─────────────────────────────────────── */
 const quickCards = [
   {
-    path: '/hantu', label: 'Hán tự', desc: 'Kanji theo JLPT',
+    path: '/kanji', label: 'Hán tự', desc: 'Kanji theo JLPT',
     accent: 'var(--primary)', accentEnd: 'var(--primary-container)',
     ghostChar: '漢',
     icon: <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>,
   },
   {
-    path: '/tuvung', label: 'Từ vựng', desc: 'Mở rộng vốn từ',
+    path: '/vocabulary', label: 'Từ vựng', desc: 'Mở rộng vốn từ',
     accent: '#1565c0', accentEnd: '#1976d2',
     ghostChar: '語',
     icon: <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h16M4 14h10M4 18h7"/></svg>,
   },
   {
-    path: '/nguphap', label: 'Ngữ pháp', desc: 'Cấu trúc câu',
+    path: '/grammar', label: 'Ngữ pháp', desc: 'Cấu trúc câu',
     accent: '#006064', accentEnd: '#00838f',
     ghostChar: '文',
     icon: <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 7v14"/><path strokeLinecap="round" strokeLinejoin="round" d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>,
   },
   {
-    path: '/tuhoc', label: 'Học Flashcard', desc: 'Ghi nhớ với SRS',
+    path: '/self-study', label: 'Học Flashcard', desc: 'Ghi nhớ với SRS',
     accent: 'var(--secondary)', accentEnd: 'var(--secondary-container)',
     ghostChar: '覚',
     icon: <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/></svg>,
@@ -137,7 +137,7 @@ export default function DashboardPage() {
             </p>
 
             <Link
-              to="/tuhoc"
+              to="/self-study"
               className="mt-6 self-start px-6 py-2.5 font-bold text-sm uppercase tracking-wider inline-flex items-center gap-2 transition-colors"
               style={{ background: 'var(--secondary)', color: 'var(--on-secondary)' }}
               onMouseEnter={e => e.currentTarget.style.background = 'var(--secondary-dim)'}
@@ -229,7 +229,7 @@ export default function DashboardPage() {
           {/* Big card — lộ trình AI */}
           <div className="md:col-span-3 md:row-span-2 animate-fade-up" style={{ animationDelay: '80ms' }}>
             <button
-              onClick={() => navigate('/lotrinh')}
+              onClick={() => navigate('/roadmap')}
               className="group relative h-full flex flex-col justify-between p-8 md:p-10 overflow-hidden transition-all hover:sharp-shadow active:opacity-95 w-full text-left"
               style={{ minHeight: 280 }}
             >
@@ -302,7 +302,7 @@ export default function DashboardPage() {
           {/* Small card 2 — từ vựng */}
           <div className="md:col-span-2 animate-fade-up" style={{ animationDelay: '240ms' }}>
             <button
-              onClick={() => navigate('/tuvung')}
+              onClick={() => navigate('/vocabulary')}
               className="group h-full p-6 md:p-7 bg-surface-container-lowest flex flex-col justify-between transition-all hover:sharp-shadow active:opacity-95 relative overflow-hidden w-full text-left"
               style={{ border: '1px solid rgba(0,0,0,0.06)', minHeight: 160 }}
             >
