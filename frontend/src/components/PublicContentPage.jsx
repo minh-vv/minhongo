@@ -41,7 +41,7 @@ function DeckCard({ deck, accentColor }) {
 
       <div className="flex items-start justify-between">
         <span className="px-2.5 py-1 text-xs font-bold uppercase tracking-wider"
-          style={{ background: `${accentColor}18`, color: accentColor }}>
+          style={{ background: `color-mix(in srgb, ${accentColor} 10%, transparent)`, color: accentColor }}>
           JLPT N{deck.jlptLevel || '?'}
         </span>
         <span className="flex items-center gap-1.5 text-sm text-on-surface-variant">
@@ -73,7 +73,7 @@ function DeckCard({ deck, accentColor }) {
 function EmptyState({ hasFilter, onClear, ghostChar, accentColor }) {
   return (
     <div className="flex flex-col items-center justify-center py-32">
-      <div className="font-black mb-4 select-none leading-none" style={{ fontFamily: 'serif', fontSize: 72, color: `${accentColor}18` }}>
+      <div className="font-black mb-4 select-none leading-none" style={{ fontFamily: 'serif', fontSize: 72, color: `color-mix(in srgb, ${accentColor} 10%, transparent)` }}>
         {ghostChar}
       </div>
       <p className="text-on-surface-variant font-medium mb-3">
@@ -190,7 +190,7 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
       <div className="flex flex-col md:flex-row gap-4 md:items-center justify-between border-b pb-5 mb-8"
         style={{ borderColor: 'rgba(0,0,0,0.07)' }}>
 
-        <div className="flex gap-2 overflow-x-auto w-full min-w-0 md:w-auto pb-1 md:pb-0 scrollbar-hide">
+        <div className="flex gap-2 overflow-x-auto w-full min-w-0 md:w-auto pb-1 md:pb-0 no-scrollbar">
           <button
             onClick={() => setSelectedLevel(null)}
             className="whitespace-nowrap px-4 py-2 text-sm font-bold transition-all shadow-sm uppercase tracking-wider shrink-0"

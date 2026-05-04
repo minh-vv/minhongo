@@ -235,6 +235,7 @@ export default function SelfStudyPage() {
 
       {showImportModal && (
         <ImportAnkiModal
+          isOpen={true}
           onClose={() => setShowImportModal(false)}
           onSuccess={() => { setShowImportModal(false); fetchDecks(); }}
         />

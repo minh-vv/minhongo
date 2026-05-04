@@ -10,6 +10,7 @@ import {
   UploadedFile,
   BadRequestException,
 } from '@nestjs/common';
+import type { Request as ExpressRequest } from 'express';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { diskStorage } from 'multer';
 import { extname, join } from 'path';
@@ -29,10 +30,8 @@ class UpdateProfileDto {
   learningGoal?: string;
 }
 
-interface RequestWithUser extends Request {
+interface RequestWithUser extends ExpressRequest {
   user: { id: string; email: string; isAdmin?: boolean };
-  protocol: string;
-  get(name: string): string;
 }
 
 /** Cấu hình multer: lưu vào uploads/avatars/, đặt tên theo userId */

@@ -8,11 +8,12 @@ import {
   Request,
   UseGuards,
 } from '@nestjs/common';
+import type { Request as ExpressRequest } from 'express';
 import { JwtAuthGuard } from 'src/auth/guards/jwt-auth.guard';
 import { AdminGuard } from './admin.guard';
 import { AdminService } from './admin.service';
 
-interface RequestWithUser extends Request {
+interface RequestWithUser extends ExpressRequest {
   user: { id: string; email: string; isAdmin?: boolean };
 }
 
