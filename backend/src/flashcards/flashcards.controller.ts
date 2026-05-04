@@ -131,6 +131,24 @@ export class FlashcardsController {
     );
   }
 
+  @UseGuards(JwtAuthGuard)
+  @Get('stats/gamification')
+  getGamificationSummary(@Request() req: RequestWithUser) {
+    return this.flashcardsService.getGamificationSummary(req.user.id);
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Get('stats/leaderboard')
+  getLeaderboard(
+    @Query('days') days?: string,
+    @Query('limit') limit?: string,
+  ) {
+    return this.flashcardsService.getLeaderboard(
+      days ? parseInt(days, 10) : 30,
+      limit ? parseInt(limit, 10) : 20,
+    );
+  }
+
   // ========== SRS ROUTES ==========
 
   @UseGuards(JwtAuthGuard)

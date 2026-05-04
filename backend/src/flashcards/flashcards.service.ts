@@ -422,11 +422,10 @@ export class FlashcardsService {
     const totalReviewed = logs.length;
     const totalRemembered = logs.filter((l) => l.quality >= 2).length;
 
-    // Tính streak (ngày liên tiếp gần nhất có ôn)
+    // Tính current streak (ngày liên tiếp gần nhất có ôn), tối đa theo khoảng days truyền vào
     let streak = 0;
-    const today = new Date().toISOString().slice(0, 10);
-    const days7 = history.slice(-7).reverse();
-    for (const day of days7) {
+    const daysDesc = [...history].reverse();
+    for (const day of daysDesc) {
       if (day.total > 0) streak++;
       else break;
     }
@@ -441,6 +440,106 @@ export class FlashcardsService {
         activeDays: history.filter((d) => d.total > 0).length,
       },
     };
+  }
+
+  /** Gamification summary: XP, level, badge, streak (dựa trên review logs) */
+  async getGamificationSummary(userId: string) {
+    const logs = await this.prisma.reviewLog.findMany({
+      where: { userId },
+      select: { reviewedAt: true, quality: true },
+      orderBy: { reviewedAt: 'asc' },
+    });
+
+    // XP rule: Again=2, Hard=5, Good=10, Easy=15
+    const xpByQuality = [2, 5, 10, 15];
+    const totalXp = logs.reduce((sum, l) => sum + (xpByQuality[l.quality] ?? 0), 0);
+
+    // Level curve: 100 XP / level (simple and predictable for MVP)
+    const level = Math.max(1, Math.floor(totalXp / 100) + 1);
+    const currentLevelXp = totalXp % 100;
+    const nextLevelXp = 100;
+
+    // Badge by streak
+    const history30 = await this.getStudyHistory(userId, 30);
+    const streak = history30.summary.streak;
+
+    const badge =
+      streak >= 30
+        ? { id: 'master', label: 'Master', icon: '🏆' }
+        : streak >= 14
+          ? { id: 'samurai', label: 'Samurai', icon: '⚔️' }
+          : streak >= 7
+            ? { id: 'warrior', label: 'Warrior', icon: '🛡️' }
+            : streak >= 3
+              ? { id: 'apprentice', label: 'Apprentice', icon: '🥋' }
+              : { id: 'rookie', label: 'Rookie', icon: '🌱' };
+
+    const achievements = [
+      { id: 'first_review', unlocked: logs.length >= 1, label: 'Lần ôn đầu tiên' },
+      { id: 'streak_7', unlocked: streak >= 7, label: 'Streak 7 ngày' },
+      { id: 'reviews_100', unlocked: logs.length >= 100, label: '100 lượt ôn' },
+      { id: 'level_10', unlocked: level >= 10, label: 'Đạt level 10' },
+    ];
+
+    return {
+      xp: totalXp,
+      level,
+      currentLevelXp,
+      nextLevelXp,
+      streak,
+      badge,
+      totalReviews: logs.length,
+      achievements,
+    };
+  }
+
+  /** Leaderboard theo XP trong N ngày gần nhất */
+  async getLeaderboard(days = 30, limit = 20) {
+    const since = new Date();
+    since.setDate(since.getDate() - days);
+
+    const logs = await this.prisma.reviewLog.findMany({
+      where: { reviewedAt: { gte: since } },
+      select: { userId: true, quality: true },
+    });
+
+    const xpByQuality = [2, 5, 10, 15];
+    const byUser = new Map<string, { xp: number; reviews: number }>();
+
+    for (const log of logs) {
+      const prev = byUser.get(log.userId) ?? { xp: 0, reviews: 0 };
+      prev.xp += xpByQuality[log.quality] ?? 0;
+      prev.reviews += 1;
+      byUser.set(log.userId, prev);
+    }
+
+    const userIds = Array.from(byUser.keys());
+    if (userIds.length === 0) return { days, leaderboard: [] };
+
+    const users = await this.prisma.user.findMany({
+      where: { id: { in: userIds } },
+      select: { id: true, name: true, email: true, avatarUrl: true },
+    });
+    const userMap = new Map(users.map((u) => [u.id, u]));
+
+    const leaderboard = userIds
+      .map((id) => {
+        const user = userMap.get(id);
+        const stat = byUser.get(id)!;
+        return {
+          userId: id,
+          name: user?.name || user?.email?.split('@')[0] || 'Người dùng',
+          avatarUrl: user?.avatarUrl || null,
+          xp: stat.xp,
+          reviews: stat.reviews,
+          level: Math.max(1, Math.floor(stat.xp / 100) + 1),
+        };
+      })
+      .sort((a, b) => b.xp - a.xp)
+      .slice(0, limit)
+      .map((row, idx) => ({ rank: idx + 1, ...row }));
+
+    return { days, leaderboard };
   }
 
   // Helper method để tạo thông báo

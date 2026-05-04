@@ -24,6 +24,7 @@ import BrowsePage from './pages/BrowsePage';
 import DemoPage from './pages/DemoPage';
 import ExercisePage from './pages/ExercisePage';
 import ProgressPage from './pages/ProgressPage';
+import LeaderboardPage from './pages/LeaderboardPage';
 import CommunityPage from './pages/CommunityPage';
 import UpgradePage from './pages/UpgradePage';
 
@@ -77,6 +78,7 @@ function AppRoutes() {
         <Route path="/demo/:deckId" element={<DemoPage />} />
         <Route path="/exercises/:deckId" element={<ExercisePage />} />
         <Route path="/progress" element={<ProgressPage />} />
+        <Route path="/leaderboard" element={<LeaderboardPage />} />
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/upgrade" element={<UpgradePage />} />
         {/* Legacy redirects */}

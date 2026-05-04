@@ -169,6 +169,11 @@ export default function ProgressPage() {
     queryFn: () => flashcardApi.getStudyHistory(period),
     staleTime: 60_000,
   });
+  const { data: gamification, isLoading: loadingGamification } = useQuery({
+    queryKey: ['gamificationSummary'],
+    queryFn: flashcardApi.getGamificationSummary,
+    staleTime: 60_000,
+  });
 
   const summary = data?.summary;
   const history = data?.history || [];
@@ -221,6 +226,94 @@ export default function ProgressPage() {
               <div className="absolute -right-1 -bottom-1 text-4xl opacity-[0.05] select-none pointer-events-none">{icon}</div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* ── GAMIFICATION ── */}
+      <section>
+        <SectionHeader title="Gamification & Motivation" />
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          {/* Level + XP */}
+          <div className="lg:col-span-2 bg-surface-container-lowest p-6"
+            style={{ border: '1px solid rgba(0,0,0,0.07)' }}>
+            {loadingGamification ? (
+              <div className="flex justify-center py-8">
+                <div className="w-5 h-5 border-2 border-outline-variant border-t-secondary animate-spin rounded-full" />
+              </div>
+            ) : (
+              <>
+                <div className="flex items-center justify-between mb-4">
+                  <div>
+                    <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1">Level hiện tại</p>
+                    <p className="text-3xl font-black text-on-surface">
+                      Lv.{gamification?.level ?? 1}
+                    </p>
+                  </div>
+                  <div className="text-right">
+                    <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1">XP tổng</p>
+                    <p className="text-2xl font-black" style={{ color: 'var(--secondary)' }}>
+                      {gamification?.xp ?? 0}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="space-y-2 mb-4">
+                  <div className="h-2.5 bg-surface-container overflow-hidden"
+                    style={{ border: '1px solid rgba(0,0,0,0.06)' }}>
+                    <div
+                      className="h-full transition-all duration-700"
+                      style={{
+                        width: `${Math.min(100, Math.round(((gamification?.currentLevelXp ?? 0) / (gamification?.nextLevelXp ?? 100)) * 100))}%`,
+                        background: 'var(--secondary)',
+                      }}
+                    />
+                  </div>
+                  <p className="text-xs text-on-surface-variant">
+                    {gamification?.currentLevelXp ?? 0}/{gamification?.nextLevelXp ?? 100} XP để lên level tiếp theo
+                  </p>
+                </div>
+
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="bg-surface-container p-3">
+                    <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1">Streak</p>
+                    <p className="text-xl font-black text-on-surface">🔥 {gamification?.streak ?? 0} ngày</p>
+                  </div>
+                  <div className="bg-surface-container p-3">
+                    <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1">Tổng lượt ôn</p>
+                    <p className="text-xl font-black text-on-surface">📚 {gamification?.totalReviews ?? 0}</p>
+                  </div>
+                </div>
+              </>
+            )}
+          </div>
+
+          {/* Badge + achievements */}
+          <div className="bg-surface-container-lowest p-6"
+            style={{ border: '1px solid rgba(0,0,0,0.07)' }}>
+            <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-3">
+              Badge hiện tại
+            </p>
+            <div className="text-center py-3 mb-4 bg-surface-container">
+              <p className="text-4xl mb-1">{gamification?.badge?.icon ?? '🌱'}</p>
+              <p className="text-lg font-black text-on-surface">{gamification?.badge?.label ?? 'Rookie'}</p>
+            </div>
+
+            <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-2">
+              Thành tựu
+            </p>
+            <div className="space-y-2">
+              {(gamification?.achievements ?? []).map((a) => (
+                <div key={a.id} className="flex items-center gap-2 text-xs"
+                  style={{
+                    color: a.unlocked ? 'var(--on-surface)' : 'var(--on-surface-variant)',
+                    opacity: a.unlocked ? 1 : 0.55,
+                  }}>
+                  <span>{a.unlocked ? '✅' : '⬜'}</span>
+                  <span>{a.label}</span>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 

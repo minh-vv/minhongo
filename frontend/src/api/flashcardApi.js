@@ -17,6 +17,16 @@ export const flashcardApi = {
     return response.data;
   },
 
+  getGamificationSummary: async () => {
+    const response = await api.get('/flashcards/stats/gamification');
+    return response.data;
+  },
+
+  getLeaderboard: async (days = 30, limit = 20) => {
+    const response = await api.get(`/flashcards/stats/leaderboard?days=${days}&limit=${limit}`);
+    return response.data;
+  },
+
   getPublicDeck: async (deckId) => {
     const response = await api.get(`/flashcards/public/${deckId}`);
     return response.data;

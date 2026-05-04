@@ -23,6 +23,7 @@ const IconSettings = () => <svg className="w-6 h-6" fill="none" stroke="currentC
 const IconShield   = () => <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" aria-hidden><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>;
 const IconGlobe    = () => <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" aria-hidden><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>;
 const IconChart    = () => <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" aria-hidden><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>;
+const IconTrophy   = () => <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" aria-hidden><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0V4z"/><path d="M5 9H4a2 2 0 0 1-2-2V5h5"/><path d="M19 9h1a2 2 0 0 0 2-2V5h-5"/></svg>;
 
 const navItems = [
   { path: '/dashboard',  label: 'Trang chủ',    end: true, icon: <IconHome /> },
@@ -33,6 +34,7 @@ const navItems = [
   { path: '/roadmap',    label: 'Lộ trình',                icon: <IconMap />,    badge: 'AI' },
   { path: '/self-study', label: 'Học Flashcard',           icon: <IconLayers /> },
   { path: '/progress',   label: 'Tiến độ học',             icon: <IconChart /> },
+  { path: '/leaderboard',label: 'Bảng xếp hạng',           icon: <IconTrophy /> },
   { path: '/community',  label: 'Cộng đồng',               icon: <IconPeople /> },
 ];
 
