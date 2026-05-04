@@ -41,7 +41,7 @@ function DeckCard({ deck, accentColor }) {
 
       <div className="flex items-start justify-between">
         <span className="px-2.5 py-1 text-xs font-bold uppercase tracking-wider"
-          style={{ background: `${accentColor}18`, color: accentColor }}>
+          style={{ background: `color-mix(in srgb, ${accentColor} 10%, transparent)`, color: accentColor }}>
           JLPT N{deck.jlptLevel || '?'}
         </span>
         <span className="flex items-center gap-1.5 text-sm text-on-surface-variant">
@@ -73,7 +73,7 @@ function DeckCard({ deck, accentColor }) {
 function EmptyState({ hasFilter, onClear, ghostChar, accentColor }) {
   return (
     <div className="flex flex-col items-center justify-center py-32">
-      <div className="font-black mb-4 select-none leading-none" style={{ fontFamily: 'serif', fontSize: 72, color: `${accentColor}18` }}>
+      <div className="font-black mb-4 select-none leading-none" style={{ fontFamily: 'serif', fontSize: 72, color: `color-mix(in srgb, ${accentColor} 10%, transparent)` }}>
         {ghostChar}
       </div>
       <p className="text-on-surface-variant font-medium mb-3">

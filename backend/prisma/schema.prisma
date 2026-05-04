@@ -22,7 +22,8 @@ model User {
   passwordResetToken   String?
   passwordResetExpires DateTime?
 
-  decks Deck[]
+  decks        Deck[]
+  cardProgress CardProgress[]
 }
 
 enum DeckCategory {
@@ -67,6 +68,7 @@ model CardProgress {
   id              String   @id @default(uuid())
   userId          String
   cardId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   card            Card     @relation(fields: [cardId], references: [id], onDelete: Cascade)
   
   // SM-2 parameters

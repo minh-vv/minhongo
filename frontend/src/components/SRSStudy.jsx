@@ -17,7 +17,7 @@ export default function SRSStudy({ dueData, onComplete }) {
   const [showResult, setShowResult] = useState(false);
   const [lastResult, setLastResult] = useState(null);
 
-  const cards = dueData.dueCards || [];
+  const cards = dueData?.dueCards ?? [];
   const currentCard = cards[currentIndex];
   const progress = cards.length > 0 ? ((currentIndex + 1) / cards.length) * 100 : 0;
 
@@ -39,7 +39,7 @@ export default function SRSStudy({ dueData, onComplete }) {
           // Hoàn thành tất cả thẻ
           if (onComplete) {
             onComplete({
-              deckId: dueData.deck.id,
+              deckId: dueData?.deck?.id,
               totalCards: cards.length,
               reviewedCards: cards.length,
             });
@@ -51,6 +51,7 @@ export default function SRSStudy({ dueData, onComplete }) {
   });
 
   const handleReview = (quality) => {
+    if (!currentCard) return;
     if (!isFlipped) {
       setIsFlipped(true);
     }

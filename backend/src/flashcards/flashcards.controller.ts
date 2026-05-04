@@ -12,6 +12,7 @@ import {
   UploadedFile,
   ForbiddenException,
 } from '@nestjs/common';
+import type { Request as ExpressRequest } from 'express';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { FlashcardsService } from './flashcards.service';
 import {
@@ -24,7 +25,7 @@ import {
 } from './dto';
 import { JwtAuthGuard } from 'src/auth/guards/jwt-auth.guard';
 
-interface RequestWithUser extends Request {
+interface RequestWithUser extends ExpressRequest {
   user: {
     id: string;
     email: string;
