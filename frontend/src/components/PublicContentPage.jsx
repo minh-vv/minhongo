@@ -190,7 +190,7 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
       <div className="flex flex-col md:flex-row gap-4 md:items-center justify-between border-b pb-5 mb-8"
         style={{ borderColor: 'rgba(0,0,0,0.07)' }}>
 
-        <div className="flex gap-2 overflow-x-auto w-full min-w-0 md:w-auto pb-1 md:pb-0 scrollbar-hide">
+        <div className="flex gap-2 overflow-x-auto w-full min-w-0 md:w-auto pb-1 md:pb-0 no-scrollbar">
           <button
             onClick={() => setSelectedLevel(null)}
             className="whitespace-nowrap px-4 py-2 text-sm font-bold transition-all shadow-sm uppercase tracking-wider shrink-0"
