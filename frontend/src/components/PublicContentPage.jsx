@@ -10,6 +10,25 @@ import ImportAnkiModal from './ImportAnkiModal';
 
 const JLPT_LEVELS = [5, 4, 3, 2, 1];
 
+/** Chủ đề học — keyword matching trên tên/mô tả deck */
+const THEMES = [
+  { id: 'travel',   icon: '✈️',  label: 'Du lịch',   keywords: ['du lịch', 'travel', 'airport', 'sân bay', 'khách sạn', 'hotel'] },
+  { id: 'work',     icon: '💼',  label: 'Công việc', keywords: ['công việc', 'business', 'work', 'văn phòng', 'office', 'phỏng vấn'] },
+  { id: 'food',     icon: '🍱',  label: 'Ẩm thực',  keywords: ['ẩm thực', 'đồ ăn', 'food', 'nhà hàng', 'restaurant', 'nấu ăn'] },
+  { id: 'family',   icon: '👨‍👩‍👧', label: 'Gia đình', keywords: ['gia đình', 'family', 'bố', 'mẹ', 'anh', 'chị', 'em'] },
+  { id: 'school',   icon: '🏫',  label: 'Học đường', keywords: ['trường', 'school', 'học sinh', 'giáo viên', 'lớp học', 'education'] },
+  { id: 'shopping', icon: '🛍️', label: 'Mua sắm',   keywords: ['mua sắm', 'shopping', 'chợ', 'cửa hàng', 'store', 'price'] },
+  { id: 'health',   icon: '🏥',  label: 'Sức khỏe', keywords: ['bệnh viện', 'sức khỏe', 'health', 'bác sĩ', 'doctor', 'thuốc'] },
+  { id: 'nature',   icon: '🌿',  label: 'Thiên nhiên', keywords: ['thiên nhiên', 'nature', 'động vật', 'animal', 'thời tiết', 'weather'] },
+  { id: 'daily',    icon: '🏠',  label: 'Hằng ngày', keywords: ['hằng ngày', 'daily', 'thói quen', 'routine', 'sinh hoạt', 'nhà'] },
+];
+
+/** Kiểm tra deck có thuộc theme không dựa trên keyword matching */
+function deckMatchesTheme(deck, theme) {
+  const text = `${deck.name} ${deck.description || ''}`.toLowerCase();
+  return theme.keywords.some((kw) => text.includes(kw.toLowerCase()));
+}
+
 const SORT_OPTIONS = [
   { value: 'newest', label: 'Mới nhất' },
   { value: 'oldest', label: 'Cũ nhất' },
@@ -105,6 +124,7 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
   const [decks, setDecks]     = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedLevel, setSelectedLevel] = useState(null);
+  const [selectedTheme, setSelectedTheme] = useState(null);
   const [search, setSearch]   = useState('');
   const [sort, setSort]       = useState('newest');
   const [showUpload, setShowUpload] = useState(false);
@@ -119,9 +139,19 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
 
   useEffect(() => { fetchDecks(); }, []);
 
+  // Danh sách theme có ít nhất 1 deck phù hợp (để ẩn theme trống)
+  const activeThemes = useMemo(
+    () => THEMES.filter((t) => decks.some((d) => deckMatchesTheme(d, t))),
+    [decks],
+  );
+
   const filtered = useMemo(() => {
     let result = decks;
     if (selectedLevel) result = result.filter((d) => d.jlptLevel === selectedLevel);
+    if (selectedTheme) {
+      const theme = THEMES.find((t) => t.id === selectedTheme);
+      if (theme) result = result.filter((d) => deckMatchesTheme(d, theme));
+    }
     if (search.trim()) {
       const q = search.trim().toLowerCase();
       result = result.filter((d) =>
@@ -129,7 +159,7 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
       );
     }
     return sortDecks(result, sort);
-  }, [decks, selectedLevel, search, sort]);
+  }, [decks, selectedLevel, selectedTheme, search, sort]);
 
   return (
     <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
@@ -160,7 +190,7 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
 
           {/* Clear filter */}
           <button
-            onClick={() => { setSearch(''); setSelectedLevel(null); }}
+            onClick={() => { setSearch(''); setSelectedLevel(null); setSelectedTheme(null); }}
             className="p-2.5 text-on-surface-variant hover:bg-surface-container transition-colors shrink-0"
             style={{ border: '1px solid rgba(0,0,0,0.12)' }}
             title="Xoá bộ lọc"
@@ -216,6 +246,30 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
           ))}
         </div>
 
+        {/* Theme chips — chỉ hiện khi có ít nhất 1 theme có data */}
+        {activeThemes.length > 0 && (
+          <div className="flex gap-2 flex-wrap mt-3 md:mt-0 w-full md:w-auto">
+            {activeThemes.map((theme) => {
+              const isActive = selectedTheme === theme.id;
+              return (
+                <button
+                  key={theme.id}
+                  onClick={() => setSelectedTheme(isActive ? null : theme.id)}
+                  className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold transition-all"
+                  style={{
+                    border: `1px solid ${isActive ? accentColor : 'rgba(0,0,0,0.1)'}`,
+                    background: isActive ? `color-mix(in srgb, ${accentColor} 10%, transparent)` : 'var(--surface)',
+                    color: isActive ? accentColor : 'var(--on-surface-variant)',
+                  }}
+                >
+                  <span>{theme.icon}</span>
+                  {theme.label}
+                </button>
+              );
+            })}
+          </div>
+        )}
+
         <div className="flex items-center gap-3 shrink-0">
           <span className="text-sm font-bold text-on-surface-variant uppercase tracking-wider">Sắp xếp</span>
           <select
@@ -247,16 +301,26 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
         </div>
       ) : filtered.length === 0 ? (
         <EmptyState
-          hasFilter={selectedLevel !== null || search.trim() !== ''}
-          onClear={() => { setSelectedLevel(null); setSearch(''); }}
+          hasFilter={selectedLevel !== null || selectedTheme !== null || search.trim() !== ''}
+          onClear={() => { setSelectedLevel(null); setSelectedTheme(null); setSearch(''); }}
           ghostChar={ghostChar}
           accentColor={accentColor}
         />
       ) : (
         <>
-          <p className="text-sm text-on-surface-variant mb-5">
-            Hiển thị <span className="font-bold text-on-surface">{filtered.length}</span> / {decks.length} deck
-          </p>
+          <div className="flex items-center gap-3 mb-5">
+            <p className="text-sm text-on-surface-variant">
+              Hiển thị <span className="font-bold text-on-surface">{filtered.length}</span> / {decks.length} deck
+            </p>
+            {selectedTheme && (
+              <span className="flex items-center gap-1 px-2.5 py-1 text-xs font-semibold"
+                style={{ background: `color-mix(in srgb, ${accentColor} 12%, transparent)`, color: accentColor }}>
+                {THEMES.find((t) => t.id === selectedTheme)?.icon}{' '}
+                {THEMES.find((t) => t.id === selectedTheme)?.label}
+                <button onClick={() => setSelectedTheme(null)} className="ml-1 opacity-60 hover:opacity-100">×</button>
+              </span>
+            )}
+          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {filtered.map((deck) => (
               <DeckCard key={deck.id} deck={deck} accentColor={accentColor} />

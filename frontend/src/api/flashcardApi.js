@@ -12,6 +12,11 @@ export const flashcardApi = {
     return response.data;
   },
 
+  getStudyHistory: async (days = 30) => {
+    const response = await api.get(`/flashcards/stats/history?days=${days}`);
+    return response.data;
+  },
+
   getPublicDeck: async (deckId) => {
     const response = await api.get(`/flashcards/public/${deckId}`);
     return response.data;

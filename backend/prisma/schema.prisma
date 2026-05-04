@@ -63,6 +63,18 @@ model Card {
   progress     CardProgress[]
 }
 
+// Log từng lần ôn tập — dùng để vẽ biểu đồ lịch sử học
+model ReviewLog {
+  id         String   @id @default(uuid())
+  userId     String
+  cardId     String
+  deckId     String
+  quality    Int      // 0-3 (SM-2 quality)
+  reviewedAt DateTime @default(now())
+
+  @@index([userId, reviewedAt])
+}
+
 // Lưu tiến độ học của user với mỗi thẻ (SM-2 algorithm)
 model CardProgress {
   id              String   @id @default(uuid())

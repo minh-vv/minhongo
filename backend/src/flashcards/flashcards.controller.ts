@@ -6,6 +6,7 @@ import {
   Delete,
   Body,
   Param,
+  Query,
   UseGuards,
   Request,
   UseInterceptors,
@@ -114,6 +115,20 @@ export class FlashcardsController {
   @Delete('cards/:cardId')
   deleteCard(@Param('cardId') cardId: string, @Request() req: RequestWithUser) {
     return this.flashcardsService.deleteCard(cardId, req.user.id);
+  }
+
+  // ========== STUDY HISTORY ==========
+
+  @UseGuards(JwtAuthGuard)
+  @Get('stats/history')
+  getStudyHistory(
+    @Request() req: RequestWithUser,
+    @Query('days') days?: string,
+  ) {
+    return this.flashcardsService.getStudyHistory(
+      req.user.id,
+      days ? parseInt(days, 10) : 30,
+    );
   }
 
   // ========== SRS ROUTES ==========

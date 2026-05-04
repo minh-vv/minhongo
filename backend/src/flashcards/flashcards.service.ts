@@ -357,31 +357,18 @@ export class FlashcardsService {
     const nextReviewDate = new Date();
     nextReviewDate.setDate(nextReviewDate.getDate() + interval);
 
-    // Cập nhật hoặc tạo progress
-    const progress = await this.prisma.cardProgress.upsert({
-      where: {
-        userId_cardId: {
-          userId,
-          cardId,
-        },
-      },
-      update: {
-        easeFactor,
-        interval,
-        repetitions,
-        nextReviewDate,
-        lastReviewDate: new Date(),
-      },
-      create: {
-        userId,
-        cardId,
-        easeFactor,
-        interval,
-        repetitions,
-        nextReviewDate,
-        lastReviewDate: new Date(),
-      },
-    });
+    // Cập nhật hoặc tạo progress + ghi ReviewLog song song
+    const [progress] = await Promise.all([
+      this.prisma.cardProgress.upsert({
+        where: { userId_cardId: { userId, cardId } },
+        update: { easeFactor, interval, repetitions, nextReviewDate, lastReviewDate: new Date() },
+        create: { userId, cardId, easeFactor, interval, repetitions, nextReviewDate, lastReviewDate: new Date() },
+      }),
+      // Ghi log từng lần ôn tập để vẽ biểu đồ lịch sử
+      this.prisma.reviewLog.create({
+        data: { userId, cardId, deckId: card.deckId, quality },
+      }),
+    ]);
 
     return {
       cardId,
@@ -391,6 +378,68 @@ export class FlashcardsService {
       repetitions,
       nextReviewDate: progress.nextReviewDate,
       message: this.getReviewMessage(quality, interval),
+    };
+  }
+
+  /** Lịch sử ôn tập theo ngày — dùng cho biểu đồ tiến độ */
+  async getStudyHistory(userId: string, days = 30) {
+    const since = new Date();
+    since.setDate(since.getDate() - days);
+
+    const logs = await this.prisma.reviewLog.findMany({
+      where: { userId, reviewedAt: { gte: since } },
+      select: { reviewedAt: true, quality: true },
+      orderBy: { reviewedAt: 'asc' },
+    });
+
+    // Group by date (yyyy-mm-dd, Vietnam UTC+7)
+    const map = new Map<string, { total: number; remembered: number }>();
+
+    for (let i = 0; i < days; i++) {
+      const d = new Date();
+      d.setDate(d.getDate() - (days - 1 - i));
+      const key = d.toISOString().slice(0, 10);
+      map.set(key, { total: 0, remembered: 0 });
+    }
+
+    for (const log of logs) {
+      const key = log.reviewedAt.toISOString().slice(0, 10);
+      const entry = map.get(key);
+      if (entry) {
+        entry.total += 1;
+        if (log.quality >= 2) entry.remembered += 1;
+      }
+    }
+
+    const history = Array.from(map.entries()).map(([date, { total, remembered }]) => ({
+      date,
+      total,
+      remembered,
+      forgot: total - remembered,
+      rate: total > 0 ? Math.round((remembered / total) * 100) : 0,
+    }));
+
+    const totalReviewed = logs.length;
+    const totalRemembered = logs.filter((l) => l.quality >= 2).length;
+
+    // Tính streak (ngày liên tiếp gần nhất có ôn)
+    let streak = 0;
+    const today = new Date().toISOString().slice(0, 10);
+    const days7 = history.slice(-7).reverse();
+    for (const day of days7) {
+      if (day.total > 0) streak++;
+      else break;
+    }
+
+    return {
+      history,
+      summary: {
+        totalReviewed,
+        totalRemembered,
+        overallRate: totalReviewed > 0 ? Math.round((totalRemembered / totalReviewed) * 100) : 0,
+        streak,
+        activeDays: history.filter((d) => d.total > 0).length,
+      },
     };
   }
 

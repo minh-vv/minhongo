@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import { Navigate, Link } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { useAuth } from '../hooks/useAuth';
@@ -394,40 +394,245 @@ export default function ProfilePage() {
             </div>
           </section>
 
-          {/* ── Save button + links ── */}
-          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-4">
-            <div className="flex items-center gap-4">
-              <button
-                type="submit"
-                disabled={updateMutation.isPending || !hasChanges}
-                className="px-8 py-2.5 text-sm font-bold text-on-secondary uppercase tracking-wider transition-all disabled:opacity-40 hover:bg-secondary-dim"
-                style={{ background: 'var(--secondary)' }}
-              >
-                {updateMutation.isPending ? 'Đang lưu...' : 'Lưu thay đổi'}
-              </button>
-              {hasChanges && (
-                <span className="text-xs text-on-surface-variant">Có thay đổi chưa lưu</span>
-              )}
-            </div>
-
-            <Link
-              to="/forgot-password"
-              className="text-xs font-semibold text-on-surface-variant hover:text-on-surface transition-colors flex items-center gap-1.5"
+          {/* ── Save button ── */}
+          <div className="flex items-center gap-4 pb-2">
+            <button
+              type="submit"
+              disabled={updateMutation.isPending || !hasChanges}
+              className="px-8 py-2.5 text-sm font-bold text-on-secondary uppercase tracking-wider transition-all disabled:opacity-40 hover:bg-secondary-dim"
+              style={{ background: 'var(--secondary)' }}
             >
-              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                  d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
-              </svg>
-              Đổi mật khẩu
-            </Link>
+              {updateMutation.isPending ? 'Đang lưu...' : 'Lưu thay đổi'}
+            </button>
+            {hasChanges && (
+              <span className="text-xs text-on-surface-variant">Có thay đổi chưa lưu</span>
+            )}
           </div>
         </form>
       )}
+
+      {/* ── Đổi mật khẩu ── */}
+      {!isLoading && <ChangePasswordSection onToast={setToast} />}
 
       {/* Toast */}
       {toast && (
         <Toast message={toast.message} type={toast.type} onClose={() => setToast(null)} />
       )}
     </div>
+  );
+}
+
+// ===== Change Password Section (tách riêng để có state độc lập) =====
+function ChangePasswordSection({ onToast }) {
+  const [open, setOpen] = useState(false);
+  const [form, setForm] = useState({ currentPassword: '', newPassword: '', confirmPassword: '' });
+  const [validationError, setValidationError] = useState('');
+
+  const mutation = useMutation({
+    mutationFn: userApi.changePassword,
+    onSuccess: () => {
+      onToast({ message: 'Đổi mật khẩu thành công!', type: 'success' });
+      setForm({ currentPassword: '', newPassword: '', confirmPassword: '' });
+      setOpen(false);
+    },
+    onError: (err) => {
+      onToast({
+        message: err?.response?.data?.message || 'Mật khẩu hiện tại không đúng',
+        type: 'error',
+      });
+    },
+  });
+
+  const handleSubmit = useCallback((e) => {
+    e.preventDefault();
+    setValidationError('');
+
+    if (form.newPassword.length < 6) {
+      setValidationError('Mật khẩu mới phải có ít nhất 6 ký tự');
+      return;
+    }
+    if (form.newPassword !== form.confirmPassword) {
+      setValidationError('Mật khẩu xác nhận không khớp');
+      return;
+    }
+    if (form.currentPassword === form.newPassword) {
+      setValidationError('Mật khẩu mới phải khác mật khẩu hiện tại');
+      return;
+    }
+
+    mutation.mutate({
+      currentPassword: form.currentPassword,
+      newPassword: form.newPassword,
+    });
+  }, [form, mutation]);
+
+  return (
+    <section className="pb-8">
+      <SectionHeader title="Bảo mật" />
+      <div className="bg-surface-container-lowest" style={{ border: '1px solid rgba(0,0,0,0.07)' }}>
+
+        {/* Toggle row */}
+        <button
+          type="button"
+          onClick={() => { setOpen((o) => !o); setValidationError(''); mutation.reset(); }}
+          className="w-full flex items-center justify-between p-5 text-left transition-colors hover:bg-surface-container-low"
+        >
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 flex items-center justify-center"
+              style={{ background: 'rgba(0,0,0,0.04)', border: '1px solid rgba(0,0,0,0.08)' }}>
+              <svg className="w-4 h-4 text-on-surface-variant" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                  d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
+              </svg>
+            </div>
+            <div>
+              <p className="text-sm font-semibold text-on-surface">Đổi mật khẩu</p>
+              <p className="text-xs text-on-surface-variant mt-0.5">Thay đổi mật khẩu đăng nhập hiện tại</p>
+            </div>
+          </div>
+          <svg
+            className={`w-4 h-4 text-on-surface-variant transition-transform ${open ? 'rotate-180' : ''}`}
+            fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+
+        {/* Form (collapsible) */}
+        {open && (
+          <div className="border-t px-5 pb-5 pt-4 space-y-4"
+            style={{ borderColor: 'rgba(0,0,0,0.06)' }}>
+
+            {/* Validation / server error */}
+            {(validationError || mutation.isError) && (
+              <div className="flex items-start gap-2 p-3 text-sm"
+                style={{ background: 'rgba(198,40,40,0.07)', border: '1px solid rgba(198,40,40,0.2)', color: 'var(--secondary)' }}>
+                <svg className="w-4 h-4 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
+                </svg>
+                {validationError || mutation.error?.response?.data?.message || 'Có lỗi xảy ra'}
+              </div>
+            )}
+
+            <form onSubmit={handleSubmit} className="space-y-4">
+              {/* Mật khẩu hiện tại */}
+              <div>
+                <label className="block text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
+                  Mật khẩu hiện tại
+                </label>
+                <input
+                  type="password"
+                  required
+                  value={form.currentPassword}
+                  onChange={(e) => setForm({ ...form, currentPassword: e.target.value })}
+                  placeholder="Nhập mật khẩu đang dùng"
+                  className="w-full px-4 py-2.5 bg-surface text-on-surface text-sm outline-none transition-all"
+                  style={{ border: '1px solid rgba(0,0,0,0.15)' }}
+                  onFocus={(e) => e.target.style.borderColor = 'var(--secondary)'}
+                  onBlur={(e) => e.target.style.borderColor = 'rgba(0,0,0,0.15)'}
+                />
+              </div>
+
+              {/* Mật khẩu mới */}
+              <div>
+                <label className="block text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
+                  Mật khẩu mới
+                </label>
+                <input
+                  type="password"
+                  required
+                  minLength={6}
+                  value={form.newPassword}
+                  onChange={(e) => setForm({ ...form, newPassword: e.target.value })}
+                  placeholder="Ít nhất 6 ký tự"
+                  className="w-full px-4 py-2.5 bg-surface text-on-surface text-sm outline-none transition-all"
+                  style={{ border: '1px solid rgba(0,0,0,0.15)' }}
+                  onFocus={(e) => e.target.style.borderColor = 'var(--secondary)'}
+                  onBlur={(e) => e.target.style.borderColor = 'rgba(0,0,0,0.15)'}
+                />
+              </div>
+
+              {/* Xác nhận mật khẩu */}
+              <div>
+                <label className="block text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
+                  Xác nhận mật khẩu mới
+                </label>
+                <input
+                  type="password"
+                  required
+                  value={form.confirmPassword}
+                  onChange={(e) => setForm({ ...form, confirmPassword: e.target.value })}
+                  placeholder="Nhập lại mật khẩu mới"
+                  className="w-full px-4 py-2.5 bg-surface text-on-surface text-sm outline-none transition-all"
+                  style={{
+                    border: `1px solid ${
+                      form.confirmPassword && form.confirmPassword !== form.newPassword
+                        ? 'var(--secondary)'
+                        : 'rgba(0,0,0,0.15)'
+                    }`,
+                  }}
+                  onFocus={(e) => e.target.style.borderColor = 'var(--secondary)'}
+                  onBlur={(e) => {
+                    e.target.style.borderColor =
+                      form.confirmPassword && form.confirmPassword !== form.newPassword
+                        ? 'var(--secondary)'
+                        : 'rgba(0,0,0,0.15)';
+                  }}
+                />
+                {form.confirmPassword && form.confirmPassword !== form.newPassword && (
+                  <p className="text-xs mt-1" style={{ color: 'var(--secondary)' }}>
+                    Mật khẩu không khớp
+                  </p>
+                )}
+              </div>
+
+              {/* Strength hint */}
+              {form.newPassword.length > 0 && (
+                <div className="flex items-center gap-2">
+                  {['Yếu', 'Trung bình', 'Mạnh'].map((label, i) => {
+                    const strength =
+                      form.newPassword.length < 6 ? 0
+                      : form.newPassword.length < 10 ? 1
+                      : /[A-Z]/.test(form.newPassword) && /[0-9]/.test(form.newPassword) ? 3
+                      : 2;
+                    return (
+                      <div key={label} className="flex items-center gap-1">
+                        <div className="h-1.5 w-10 transition-all"
+                          style={{ background: i < strength ? ['#ef5350', '#ffa726', '#66bb6a'][i] : 'rgba(0,0,0,0.1)' }} />
+                        {i === strength - 1 && (
+                          <span className="text-[10px] font-semibold" style={{ color: ['#ef5350', '#ffa726', '#66bb6a'][i] }}>
+                            {label}
+                          </span>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+
+              {/* Buttons */}
+              <div className="flex gap-3 pt-1">
+                <button
+                  type="submit"
+                  disabled={mutation.isPending}
+                  className="px-6 py-2.5 text-sm font-bold text-on-secondary uppercase tracking-wider transition-all disabled:opacity-40 hover:bg-secondary-dim"
+                  style={{ background: 'var(--secondary)' }}
+                >
+                  {mutation.isPending ? 'Đang đổi...' : 'Xác nhận đổi mật khẩu'}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => { setOpen(false); setForm({ currentPassword: '', newPassword: '', confirmPassword: '' }); setValidationError(''); }}
+                  className="px-5 py-2.5 text-sm font-medium text-on-surface hover:bg-surface-container transition-colors"
+                  style={{ border: '1px solid rgba(0,0,0,0.1)' }}
+                >
+                  Hủy
+                </button>
+              </div>
+            </form>
+          </div>
+        )}
+      </div>
+    </section>
   );
 }
