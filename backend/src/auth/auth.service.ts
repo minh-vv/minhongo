@@ -7,6 +7,7 @@ import {
 } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import { PrismaService } from 'src/prisma/prisma.service';
+import { SystemConfigService } from 'src/system-config/system-config.service';
 import * as bcrypt from 'bcrypt';
 import * as crypto from 'crypto';
 // nodemailer dùng require để tránh lỗi ESM/CJS interop với emitDecoratorMetadata
@@ -26,6 +27,7 @@ export class AuthService {
   constructor(
     private prisma: PrismaService,
     private jwtService: JwtService,
+    private systemConfig: SystemConfigService,
   ) {}
 
   async validateUser(email: string, password: string): Promise<SafeUser> {
@@ -59,6 +61,13 @@ export class AuthService {
   }
 
   async register(email: string, password: string, name?: string) {
+    const regOpen = await this.systemConfig.isRegistrationAllowed();
+    if (!regOpen) {
+      throw new ForbiddenException(
+        'Đăng ký tạm thời đã đóng. Vui lòng quay lại sau hoặc liên hệ quản trị viên.',
+      );
+    }
+
     const existingUser = await this.prisma.user.findUnique({
       where: { email },
     });

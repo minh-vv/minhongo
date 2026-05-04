@@ -1,6 +1,8 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useMemo } from 'react';
 import { NavLink, Outlet, useNavigate, Link } from 'react-router-dom';
+import { useQuery } from '@tanstack/react-query';
 import { useAuth } from '../hooks/useAuth';
+import { systemApi } from '../api/systemApi';
 
 const LANGUAGES = [
   { code: 'vi', label: 'Tiếng Việt', flag: '🇻🇳' },
@@ -24,6 +26,7 @@ const IconShield   = () => <svg className="w-6 h-6" fill="none" stroke="currentC
 const IconGlobe    = () => <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" aria-hidden><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>;
 const IconChart    = () => <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" aria-hidden><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>;
 const IconTrophy   = () => <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" aria-hidden><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0V4z"/><path d="M5 9H4a2 2 0 0 1-2-2V5h5"/><path d="M19 9h1a2 2 0 0 0 2-2V5h-5"/></svg>;
+const IconFolder   = () => <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" aria-hidden><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>;
 
 const navItems = [
   { path: '/dashboard',  label: 'Trang chủ',    end: true, icon: <IconHome /> },
@@ -46,6 +49,20 @@ export default function AppLayout() {
   const [language, setLanguage]           = useState('vi');
   const dropdownRef = useRef(null);
   const settingsRef = useRef(null);
+
+  const { data: publicConfig } = useQuery({
+    queryKey: ['publicSystemConfig'],
+    queryFn: systemApi.getPublicConfig,
+    staleTime: 60_000,
+    retry: 1,
+  });
+
+  const showSystemBanner = useMemo(() => {
+    const msg = publicConfig?.announcementMessage?.trim();
+    return !!(publicConfig?.maintenanceMode || msg);
+  }, [publicConfig]);
+
+  const bodyPadTop = showSystemBanner ? 92 : 50;
 
   const handleLogout = () => { setDropdownOpen(false); logout(); navigate('/'); };
 
@@ -120,14 +137,31 @@ export default function AppLayout() {
         )}
       </header>
 
+      {/* Thông báo / bảo trì từ cấu hình hệ thống */}
+      {showSystemBanner && (
+        <div
+          className="fixed left-0 right-0 z-[38] px-4 py-2 text-center text-xs font-semibold leading-snug"
+          style={{
+            top: 50,
+            background: publicConfig?.maintenanceMode ? 'rgba(180, 83, 9, 0.95)' : 'rgba(26, 35, 126, 0.92)',
+            color: '#fff',
+          }}
+        >
+          {publicConfig?.maintenanceMode && (
+            <span className="font-black uppercase tracking-wider mr-2">Bảo trì</span>
+          )}
+          {publicConfig?.announcementMessage?.trim() || (publicConfig?.maintenanceMode ? 'Hệ thống có thể chậm hoặc thay đổi trong thời gian này.' : '')}
+        </div>
+      )}
+
       {/* ── BODY (below header) ────────────────────────────────── */}
-      <div className="flex pt-[50px] min-w-0 w-full relative">
+      <div className="flex min-w-0 w-full relative" style={{ paddingTop: bodyPadTop }}>
 
         {/* ── FIXED SIDEBAR ──────────────────────────────────── */}
         <aside className="fixed left-0 top-0 hidden md:flex flex-col h-screen w-64 bg-surface-container-lowest z-30 border-r asanoha-bg"
           style={{ borderColor: 'rgba(0,0,0,0.07)' }}>
 
-          <div className="pt-[50px] flex-1 overflow-y-auto no-scrollbar">
+          <div className="flex-1 overflow-y-auto no-scrollbar" style={{ paddingTop: bodyPadTop }}>
             <nav className="flex-1 space-y-0.5 px-3 py-3">
               {navItems.map((item) => (
                 <NavLink
@@ -178,6 +212,40 @@ export default function AppLayout() {
                       <IconShield />
                     </span>
                     <span className="flex-1">Quản lý Users</span>
+                  </>
+                )}
+              </NavLink>
+              <NavLink
+                to="/admin/content"
+                className={({ isActive }) =>
+                  isActive
+                    ? 'flex items-center gap-4 px-4 py-3.5 text-base transition-all duration-150 vermilion-active font-bold'
+                    : 'flex items-center gap-4 px-4 py-3.5 text-base transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                }
+              >
+                {({ isActive }) => (
+                  <>
+                    <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }}>
+                      <IconFolder />
+                    </span>
+                    <span className="flex-1">Nội dung</span>
+                  </>
+                )}
+              </NavLink>
+              <NavLink
+                to="/admin/settings"
+                className={({ isActive }) =>
+                  isActive
+                    ? 'flex items-center gap-4 px-4 py-3.5 text-base transition-all duration-150 vermilion-active font-bold'
+                    : 'flex items-center gap-4 px-4 py-3.5 text-base transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                }
+              >
+                {({ isActive }) => (
+                  <>
+                    <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }}>
+                      <IconSettings />
+                    </span>
+                    <span className="flex-1">Cấu hình</span>
                   </>
                 )}
               </NavLink>

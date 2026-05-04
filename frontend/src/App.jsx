@@ -17,6 +17,8 @@ import StudyPage from './pages/StudyPage';
 import QuizPage from './pages/QuizPage';
 import LessonPage from './pages/LessonPage';
 import AdminUsersPage from './pages/AdminUsersPage';
+import AdminContentPage from './pages/AdminContentPage';
+import AdminSettingsPage from './pages/AdminSettingsPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import ResetPasswordPage from './pages/ResetPasswordPage';
 import ProfilePage from './pages/ProfilePage';
@@ -73,6 +75,8 @@ function AppRoutes() {
         <Route path="/quiz/:deckId" element={<QuizPage />} />
         <Route path="/lesson/:deckId" element={<LessonPage />} />
         <Route path="/admin/users" element={<AdminUsersPage />} />
+        <Route path="/admin/content" element={<AdminContentPage />} />
+        <Route path="/admin/settings" element={<AdminSettingsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/browse" element={<BrowsePage />} />
         <Route path="/demo/:deckId" element={<DemoPage />} />

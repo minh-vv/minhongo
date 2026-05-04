@@ -97,3 +97,11 @@ model CardProgress {
 
   @@unique([userId, cardId]) // Mỗi user chỉ có 1 progress cho mỗi thẻ
 }
+
+// Cặp key–value cấu hình hệ thống (admin chỉnh, ứng dụng đọc)
+model SystemSetting {
+  id        String   @id @default(uuid())
+  key       String   @unique
+  value     String
+  updatedAt DateTime @updatedAt
+}

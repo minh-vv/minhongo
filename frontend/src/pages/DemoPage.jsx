@@ -2,8 +2,9 @@ import { useState, useCallback } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
+import { systemApi } from '../api/systemApi';
 
-const DEMO_LIMIT = 5; // Số thẻ tối đa guest được thử
+const DEFAULT_DEMO_LIMIT = 5;
 
 // ===== Flip Card =====
 function FlipCard({ card, isFlipped, onFlip, onSpeak }) {
@@ -163,7 +164,18 @@ export default function DemoPage() {
     staleTime: 60_000,
   });
 
-  const demoCards = deck?.cards?.slice(0, DEMO_LIMIT) ?? [];
+  const { data: publicCfg } = useQuery({
+    queryKey: ['publicSystemConfig'],
+    queryFn: systemApi.getPublicConfig,
+    staleTime: 60_000,
+    retry: 1,
+  });
+
+  const demoLimit = typeof publicCfg?.guestDemoCards === 'number' && publicCfg.guestDemoCards > 0
+    ? Math.min(50, publicCfg.guestDemoCards)
+    : DEFAULT_DEMO_LIMIT;
+
+  const demoCards = deck?.cards?.slice(0, demoLimit) ?? [];
   const current = demoCards[currentIndex];
   const progress = demoCards.length > 0
     ? Math.round((currentIndex / demoCards.length) * 100)
