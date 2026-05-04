@@ -1,13 +1,87 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Get a free hosted Postgres database in seconds: `npx create-db`
-
 generator client {
-  provider = "prisma-client"
-  output   = "../generated/prisma"
+  provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  password     String
+  name         String?
+  avatarUrl    String?  // URL ảnh đại diện
+  learningGoal String?  // Mục tiêu học tập cá nhân
+  isAdmin      Boolean  @default(false)
+  isBlocked    Boolean  @default(false)
+  createdAt    DateTime @default(now())
+
+  // Forgot-password reset
+  passwordResetToken   String?
+  passwordResetExpires DateTime?
+
+  decks        Deck[]
+  cardProgress CardProgress[]
+}
+
+enum DeckCategory {
+  HANTU     // Hán tự (Kanji)
+  TUVUNG    // Từ vựng (Vocabulary)
+  NGUPHAP   // Ngữ pháp (Grammar)
+  TUHOC     // Tự học (User created)
+}
+
+model Deck {
+  id          String       @id @default(uuid())
+  name        String
+  description String?
+  isPublic    Boolean      @default(false)
+  category    DeckCategory @default(TUHOC)
+  jlptLevel   Int?         // JLPT level: 5, 4, 3, 2, 1
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+  userId      String
+  user        User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  cards       Card[]
+}
+
+model Card {
+  id           String         @id @default(uuid())
+  front        String
+  back        String
+  romaji       String?
+  example      String?
+  audioUrl     String?
+  imageUrl     String?
+  jlptLevel    Int?
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+  deckId       String
+  deck         Deck           @relation(fields: [deckId], references: [id], onDelete: Cascade)
+  progress     CardProgress[]
+}
+
+// Lưu tiến độ học của user với mỗi thẻ (SM-2 algorithm)
+model CardProgress {
+  id              String   @id @default(uuid())
+  userId          String
+  cardId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  card            Card     @relation(fields: [cardId], references: [id], onDelete: Cascade)
+  
+  // SM-2 parameters
+  easeFactor      Float    @default(2.5)    // Hệ số dễ (2.5 là mặc định)
+  interval        Int      @default(0)      // Khoảng cách ngày đến lần ôn tiếp
+  repetitions     Int      @default(0)      // Số lần lặp thành công
+  
+  // Review tracking
+  nextReviewDate  DateTime @default(now()) // Ngày ôn tập tiếp theo
+  lastReviewDate  DateTime?
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@unique([userId, cardId]) // Mỗi user chỉ có 1 progress cho mỗi thẻ
 }

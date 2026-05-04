@@ -1,3 +1,107 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ── Global base size — scales all rem-based Tailwind classes ── */
+html {
+  font-size: 17px;
+}
+
+/* ── Design Tokens (Material You – warm Japanese palette) ─── */
+:root {
+  --primary:           #1a237e;
+  --primary-container: #283593;
+  --secondary:         #c62828;
+  --secondary-dim:     #d32f2f;
+  --secondary-container: #b71c1c;
+  --on-secondary:      #ffffff;
+  --tertiary:          #4a6741;
+  --on-primary:        #ffffff;
+
+  --surface:                  #f8f4ef;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low:    #f2ece4;
+  --surface-container:        #ece4da;
+  --surface-container-high:   #e4dbd0;
+  --on-surface:               #1c1b18;
+  --on-surface-variant:       #6b6055;
+  --outline-variant:          #cec4ba;
+}
+
+/* ── Semantic colour utilities ──────────────────────────────── */
+@layer utilities {
+  .bg-surface                  { background-color: var(--surface); }
+  .bg-surface-container-lowest { background-color: var(--surface-container-lowest); }
+  .bg-surface-container-low    { background-color: var(--surface-container-low); }
+  .bg-surface-container        { background-color: var(--surface-container); }
+  .bg-surface-container-high   { background-color: var(--surface-container-high); }
+  .text-on-surface             { color: var(--on-surface); }
+  .text-on-surface-variant     { color: var(--on-surface-variant); }
+  .bg-primary                  { background-color: var(--primary); }
+  .bg-primary-container        { background-color: var(--primary-container); }
+  .bg-secondary                { background-color: var(--secondary); }
+  .bg-secondary-dim            { background-color: var(--secondary-dim); }
+  .text-primary                { color: var(--primary); }
+  .text-secondary              { color: var(--secondary); }
+  .border-secondary            { border-color: var(--secondary); }
+  .border-outline-variant      { border-color: var(--outline-variant); }
+  .bg-on-secondary             { background-color: var(--on-secondary); }
+  .text-on-primary             { color: var(--on-primary); }
+  .border-outline-variant-30   { border-color: rgba(206,196,186,0.3); }
+
+  /* ── Asanoha (hemp leaf) — subtle Japanese textile bg ─── */
+  .asanoha-bg {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Cg fill='none' stroke='%23000' stroke-width='0.4' opacity='0.07'%3E%3Cpolygon points='20,2 37,11 37,29 20,38 3,29 3,11'/%3E%3Cpolygon points='20,10 29,15 29,25 20,30 11,25 11,15'/%3E%3Cline x1='20' y1='2' x2='20' y2='10'/%3E%3Cline x1='37' y1='11' x2='29' y2='15'/%3E%3Cline x1='37' y1='29' x2='29' y2='25'/%3E%3Cline x1='20' y1='38' x2='20' y2='30'/%3E%3Cline x1='3' y1='29' x2='11' y2='25'/%3E%3Cline x1='3' y1='11' x2='11' y2='15'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 40px 40px;
+  }
+
+  /* ── Glass panel (header) ────────────────────────────────── */
+  .glass-panel {
+    background-color: rgba(248, 244, 239, 0.88);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  }
+
+  /* ── Sharp shadow (flat, no blur — Japanese "kiri-kage") ─── */
+  .sharp-shadow   { box-shadow: 3px 3px 0 0 rgba(0,0,0,0.08); }
+  .sharp-shadow-sm { box-shadow: 2px 2px 0 0 rgba(0,0,0,0.06); }
+
+  /* ── Vermilion active nav state ──────────────────────────── */
+  .vermilion-active {
+    border-left: 3px solid var(--secondary) !important;
+    background-color: rgba(198, 40, 40, 0.06);
+    color: var(--secondary);
+    font-weight: 700;
+  }
+
+  /* ── Font helpers ────────────────────────────────────────── */
+  .font-headline {
+    font-family: system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.01em;
+  }
+  .font-jp {
+    font-family: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", Georgia, serif;
+  }
+
+  /* ── Fade-in animations ──────────────────────────────────── */
+  @keyframes fadeSlideUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeSlideLeft {
+    from { opacity: 0; transform: translateX(-12px); }
+    to   { opacity: 1; transform: translateX(0); }
+  }
+  .animate-fade-up   { animation: fadeSlideUp  0.5s ease forwards; }
+  .animate-fade-left { animation: fadeSlideLeft 0.4s ease forwards; }
+
+  /* delay helpers */
+  .delay-100 { animation-delay: 0.1s; }
+  .delay-200 { animation-delay: 0.2s; }
+  .delay-300 { animation-delay: 0.3s; }
+
+  /* ── Misc ────────────────────────────────────────────────── */
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+}
