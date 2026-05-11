@@ -3,6 +3,7 @@ import {
   Get,
   Post,
   Put,
+  Patch,
   Delete,
   Body,
   Param,
@@ -87,6 +88,36 @@ export class FlashcardsController {
   @Delete(':deckId')
   deleteDeck(@Param('deckId') deckId: string, @Request() req: RequestWithUser) {
     return this.flashcardsService.deleteDeck(deckId, req.user.id);
+  }
+
+  // ========== COMMUNITY: PUBLISH & CLONE ==========
+
+  /**
+   * PATCH /flashcards/:deckId/publish
+   * Toggle trạng thái công khai của deck (chỉ chủ sở hữu).
+   * Body: { isPublic: boolean }
+   */
+  @UseGuards(JwtAuthGuard)
+  @Patch(':deckId/publish')
+  publishDeck(
+    @Param('deckId') deckId: string,
+    @Request() req: RequestWithUser,
+    @Body('isPublic') isPublic: boolean,
+  ) {
+    return this.flashcardsService.publishDeck(deckId, req.user.id, isPublic);
+  }
+
+  /**
+   * POST /flashcards/:deckId/clone
+   * Clone một deck công khai về thư viện cá nhân của user.
+   */
+  @UseGuards(JwtAuthGuard)
+  @Post(':deckId/clone')
+  cloneDeck(
+    @Param('deckId') deckId: string,
+    @Request() req: RequestWithUser,
+  ) {
+    return this.flashcardsService.cloneDeck(deckId, req.user.id);
   }
 
   // ========== CARD ROUTES ==========

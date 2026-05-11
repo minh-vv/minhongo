@@ -851,6 +851,96 @@ export class FlashcardsService {
     return mapping;
   }
 
+  // ========== COMMUNITY: PUBLISH & CLONE ==========
+
+  /**
+   * Toggle trạng thái công khai của một deck.
+   * Chỉ chủ sở hữu mới được phép thay đổi.
+   * Trả về deck sau khi cập nhật.
+   */
+  async publishDeck(deckId: string, userId: string, isPublic: boolean) {
+    const deck = await this.prisma.deck.findUnique({ where: { id: deckId } });
+
+    if (!deck) {
+      throw new NotFoundException('Deck không tồn tại');
+    }
+
+    if (deck.userId !== userId) {
+      throw new ForbiddenException('Bạn không có quyền thay đổi trạng thái deck này');
+    }
+
+    return this.prisma.deck.update({
+      where: { id: deckId },
+      data: { isPublic },
+      include: {
+        _count: { select: { cards: true } },
+      },
+    });
+  }
+
+  /**
+   * Clone một deck công khai về thư viện cá nhân của user.
+   * - Tạo deck mới thuộc userId
+   * - Sao chép toàn bộ card (không sao chép progress)
+   * - Deck clone luôn isPublic = false
+   */
+  async cloneDeck(deckId: string, userId: string) {
+    // Lấy deck nguồn (phải là public)
+    const source = await this.prisma.deck.findUnique({
+      where: { id: deckId, isPublic: true },
+      include: {
+        cards: { orderBy: { createdAt: 'asc' } },
+        user: { select: { name: true } },
+      },
+    });
+
+    if (!source) {
+      throw new NotFoundException('Deck công khai không tồn tại');
+    }
+
+    // Không cho clone deck của chính mình (đã có rồi)
+    if (source.userId === userId) {
+      throw new ForbiddenException('Đây là deck của bạn, không cần clone');
+    }
+
+    // Tạo deck mới
+    const clonedDeck = await this.prisma.deck.create({
+      data: {
+        name: `${source.name} (bản sao)`,
+        description: source.description
+          ? `${source.description}\n\n[Sao chép từ: ${source.user?.name || 'Minhongo'}]`
+          : `[Sao chép từ: ${source.user?.name || 'Minhongo'}]`,
+        isPublic: false,           // Clone luôn là private
+        category: source.category,
+        jlptLevel: source.jlptLevel,
+        userId,
+      },
+    });
+
+    // Sao chép toàn bộ card theo batch
+    if (source.cards.length > 0) {
+      await this.prisma.card.createMany({
+        data: source.cards.map((card) => ({
+          front: card.front,
+          back: card.back,
+          romaji: card.romaji,
+          example: card.example,
+          audioUrl: card.audioUrl,
+          imageUrl: card.imageUrl,
+          jlptLevel: card.jlptLevel,
+          deckId: clonedDeck.id,
+        })),
+      });
+    }
+
+    return {
+      deckId: clonedDeck.id,
+      deckName: clonedDeck.name,
+      cardCount: source.cards.length,
+      message: `Đã sao chép ${source.cards.length} thẻ vào thư viện cá nhân`,
+    };
+  }
+
   // Helper: Loại bỏ HTML tags
   private cleanHtml(text: string): string {
     return text
