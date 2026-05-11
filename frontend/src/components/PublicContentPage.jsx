@@ -161,53 +161,90 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
     return sortDecks(result, sort);
   }, [decks, selectedLevel, selectedTheme, search, sort]);
 
+  const totalCards = decks.reduce((sum, d) => sum + (d._count?.cards || 0), 0);
+
   return (
-    <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+    <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-8">
 
-      {/* ── Header + Search ──────────────────────────────────── */}
-      <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
-        <div>
-          <h1 className="text-3xl font-headline font-bold text-on-surface mb-2">{title}</h1>
-          <p className="text-on-surface-variant">{subtitle}</p>
-        </div>
+      {/* ── HERO ─────────────────────────────────────────────── */}
+      <section className="relative overflow-hidden animate-fade-up" style={{ minHeight: 130 }}>
+        <div className="absolute inset-0" style={{
+          background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 60%, #0d1b5e 100%)'
+        }} />
+        <div className="absolute inset-0 asanoha-bg opacity-20" />
+        <div className="absolute right-0 top-0 bottom-0 w-1" style={{ background: 'var(--secondary)' }} />
 
-        <div className="flex items-center gap-3 w-full md:w-auto">
-          {/* Search */}
-          <div className="relative flex-1 md:w-80">
-            <svg className="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5 text-on-surface-variant pointer-events-none"
-              fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-              <circle cx="11" cy="11" r="8"/><path strokeLinecap="round" strokeLinejoin="round" d="m21 21-4.34-4.34"/>
-            </svg>
-            <input
-              type="text"
-              placeholder="Tìm kiếm deck..."
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              className="w-full pl-10 pr-4 py-2.5 text-base bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant focus:outline-none transition-all"
-              style={{ border: '1px solid rgba(0,0,0,0.12)' }}
-            />
+        <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div className="min-w-0">
+            <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4"
+              style={{ backdropFilter: 'blur(4px)' }}>
+              <span className="w-1.5 h-1.5 rotate-45" style={{ background: 'var(--secondary)' }} />
+              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">
+                JLPT N5 → N1
+              </span>
+            </div>
+            <h1 className="font-headline text-3xl font-bold text-white"
+              style={{ letterSpacing: '-0.02em' }}>
+              {title}
+            </h1>
+            <p className="text-white/50 text-sm mt-2 max-w-lg">{subtitle}</p>
           </div>
 
-          {/* Clear filter */}
+          {/* Stats */}
+          <div className="flex gap-3 flex-shrink-0">
+            <div className="text-center bg-white/10 px-5 py-3"
+              style={{ backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.1)' }}>
+              <p className="text-2xl font-black text-white leading-none">{decks.length}</p>
+              <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Bộ thẻ</p>
+            </div>
+            <div className="text-center bg-white/10 px-5 py-3"
+              style={{ backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.1)' }}>
+              <p className="text-2xl font-black text-white leading-none">{totalCards}</p>
+              <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Thẻ học</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="absolute -right-4 -bottom-4 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none"
+          style={{ fontSize: 160 }}>
+          {ghostChar}
+        </div>
+      </section>
+
+      {/* ── Search + Admin upload ────────────────────────────── */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div className="relative flex-1 sm:max-w-md">
+          <svg className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-on-surface-variant pointer-events-none"
+            fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"/><path strokeLinecap="round" strokeLinejoin="round" d="m21 21-4.34-4.34"/>
+          </svg>
+          <input
+            type="text"
+            placeholder="Tìm kiếm bộ thẻ..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="w-full pl-10 pr-4 py-2.5 text-sm bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant focus:outline-none"
+            style={{ border: '1px solid rgba(0,0,0,0.12)' }}
+          />
+        </div>
+
+        <div className="flex items-center gap-2">
           <button
             onClick={() => { setSearch(''); setSelectedLevel(null); setSelectedTheme(null); }}
-            className="p-2.5 text-on-surface-variant hover:bg-surface-container transition-colors shrink-0"
+            className="px-3 py-2.5 text-xs font-semibold uppercase tracking-wider text-on-surface-variant hover:bg-surface-container transition-colors"
             style={{ border: '1px solid rgba(0,0,0,0.12)' }}
             title="Xoá bộ lọc"
           >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M10 20a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341L21.74 4.67A1 1 0 0 0 21 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14z"/>
-            </svg>
+            Xoá lọc
           </button>
 
-          {/* Admin upload */}
           {isAdmin && (
             <button
               onClick={() => setShowUpload(true)}
-              className="flex items-center gap-2 px-4 py-2.5 text-sm font-bold uppercase tracking-wider text-white transition-colors hover:opacity-90 shrink-0"
+              className="flex items-center gap-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors"
               style={{ background: 'var(--secondary)' }}
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
               </svg>
               Upload Anki
@@ -217,28 +254,28 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
       </div>
 
       {/* ── Filter + Sort bar ────────────────────────────────── */}
-      <div className="flex flex-col md:flex-row gap-4 md:items-center justify-between border-b pb-5 mb-8"
-        style={{ borderColor: 'rgba(0,0,0,0.07)' }}>
+      <div className="flex flex-col md:flex-row gap-4 md:items-center justify-between pb-5"
+        style={{ borderBottom: '1px solid rgba(0,0,0,0.07)' }}>
 
-        <div className="flex gap-2 overflow-x-auto w-full min-w-0 md:w-auto pb-1 md:pb-0 no-scrollbar">
+        <div className="flex gap-1 overflow-x-auto w-full min-w-0 md:w-auto pb-1 md:pb-0 no-scrollbar">
           <button
             onClick={() => setSelectedLevel(null)}
-            className="whitespace-nowrap px-4 py-2 text-sm font-bold transition-all shadow-sm uppercase tracking-wider shrink-0"
+            className="whitespace-nowrap px-3.5 py-1.5 text-xs font-bold transition-colors uppercase tracking-wider shrink-0"
             style={selectedLevel === null
               ? { background: accentColor, color: '#fff' }
-              : { background: 'var(--surface-container-low)', color: 'var(--on-surface-variant)' }
+              : { background: 'var(--surface-container-low)', color: 'var(--on-surface-variant)', border: '1px solid rgba(0,0,0,0.06)' }
             }
           >
-            Tất cả cấp độ
+            Tất cả
           </button>
           {JLPT_LEVELS.map((level) => (
             <button
               key={level}
               onClick={() => setSelectedLevel(level)}
-              className="whitespace-nowrap px-4 py-2 text-sm font-bold transition-all shadow-sm uppercase tracking-wider shrink-0"
+              className="whitespace-nowrap px-3.5 py-1.5 text-xs font-bold transition-colors uppercase tracking-wider shrink-0"
               style={selectedLevel === level
                 ? { background: accentColor, color: '#fff' }
-                : { background: 'var(--surface-container-low)', color: 'var(--on-surface-variant)' }
+                : { background: 'var(--surface-container-low)', color: 'var(--on-surface-variant)', border: '1px solid rgba(0,0,0,0.06)' }
               }
             >
               N{level}
@@ -270,12 +307,12 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
           </div>
         )}
 
-        <div className="flex items-center gap-3 shrink-0">
-          <span className="text-sm font-bold text-on-surface-variant uppercase tracking-wider">Sắp xếp</span>
+        <div className="flex items-center gap-2 shrink-0">
+          <span className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest">Sắp xếp</span>
           <select
             value={sort}
             onChange={(e) => setSort(e.target.value)}
-            className="px-4 py-2.5 text-sm font-bold bg-surface text-on-surface focus:outline-none transition-colors cursor-pointer uppercase tracking-wider appearance-none pr-8"
+            className="px-3 py-1.5 text-xs font-semibold bg-surface text-on-surface focus:outline-none transition-colors cursor-pointer uppercase tracking-wider appearance-none pr-8"
             style={{
               border: '1px solid rgba(0,0,0,0.15)',
               backgroundImage: `url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e")`,
