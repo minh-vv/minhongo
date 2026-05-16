@@ -3,6 +3,9 @@ import { Navigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { useAuth } from '../hooks/useAuth';
 import { flashcardApi } from '../api/flashcardApi';
+import {
+  IconBookMarked, IconBrain, IconFlame, IconCalendar, IconChart,
+} from '../components/Icons';
 
 // ===== Helpers =====
 
@@ -31,7 +34,7 @@ function BarChart({ data, accentColor = 'var(--secondary)' }) {
   if (data.every((d) => d.total === 0)) {
     return (
       <div className="flex flex-col items-center justify-center py-10 text-on-surface-variant">
-        <p className="text-3xl mb-2">📊</p>
+        <div className="flex justify-center text-on-surface-variant mb-2"><IconChart className="w-8 h-8" /></div>
         <p className="text-sm">Chưa có dữ liệu ôn tập</p>
         <p className="text-xs mt-1">Bắt đầu ôn thẻ SRS để xem biểu đồ</p>
       </div>
@@ -211,10 +214,10 @@ export default function ProgressPage() {
         <SectionHeader title="Tổng quan" />
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
           {[
-            { label: 'Tổng lượt ôn',   value: summary?.totalReviewed ?? '—', icon: '📚', color: 'var(--primary)' },
-            { label: 'Tỉ lệ ghi nhớ',  value: summary?.totalReviewed ? `${summary.overallRate}%` : '—', icon: '🧠', color: '#2e7d32' },
-            { label: 'Streak hiện tại', value: summary?.streak ? `${summary.streak} ngày` : '—', icon: '🔥', color: '#e65100' },
-            { label: 'Ngày học tích cực', value: summary?.activeDays ?? '—', icon: '📅', color: 'var(--secondary)' },
+            { label: 'Tổng lượt ôn',   value: summary?.totalReviewed ?? '—', icon: <IconBookMarked className="w-5 h-5" />, color: 'var(--primary)' },
+            { label: 'Tỉ lệ ghi nhớ',  value: summary?.totalReviewed ? `${summary.overallRate}%` : '—', icon: <IconBrain className="w-5 h-5" />, color: '#2e7d32' },
+            { label: 'Streak hiện tại', value: summary?.streak ? `${summary.streak} ngày` : '—', icon: <IconFlame className="w-5 h-5" />, color: '#e65100' },
+            { label: 'Ngày học tích cực', value: summary?.activeDays ?? '—', icon: <IconCalendar className="w-5 h-5" />, color: 'var(--secondary)' },
           ].map(({ label, value, icon, color }) => (
             <div key={label} className="bg-surface-container-lowest p-5 relative overflow-hidden animate-fade-up"
               style={{ border: '1px solid rgba(0,0,0,0.07)' }}>
@@ -223,7 +226,7 @@ export default function ProgressPage() {
                 <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1.5">{label}</p>
                 <p className="text-2xl font-black text-on-surface leading-none">{value}</p>
               </div>
-              <div className="absolute -right-1 -bottom-1 text-4xl opacity-[0.05] select-none pointer-events-none">{icon}</div>
+              <div className="absolute -right-1 -bottom-1 text-on-surface-variant opacity-[0.06] select-none pointer-events-none">{icon}</div>
             </div>
           ))}
         </div>
@@ -276,11 +279,11 @@ export default function ProgressPage() {
                 <div className="grid grid-cols-2 gap-3">
                   <div className="bg-surface-container p-3">
                     <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1">Streak</p>
-                    <p className="text-xl font-black text-on-surface">🔥 {gamification?.streak ?? 0} ngày</p>
+                    <p className="text-xl font-black text-on-surface"><IconFlame className="w-5 h-5 inline-block text-orange-500 mr-1" />{gamification?.streak ?? 0} ngày</p>
                   </div>
                   <div className="bg-surface-container p-3">
                     <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1">Tổng lượt ôn</p>
-                    <p className="text-xl font-black text-on-surface">📚 {gamification?.totalReviews ?? 0}</p>
+                    <p className="text-xl font-black text-on-surface"><IconBookMarked className="w-5 h-5 inline-block text-primary mr-1" />{gamification?.totalReviews ?? 0}</p>
                   </div>
                 </div>
               </>

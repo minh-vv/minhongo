@@ -118,7 +118,7 @@ export class AuthService {
     });
 
     const frontendUrl =
-      process.env.FRONTEND_URL || 'http://localhost:5175';
+      process.env.FRONTEND_URL || 'http://localhost:5173';
     const resetUrl = `${frontendUrl}/reset-password?token=${token}`;
 
     // In ra console để dev có thể test mà không cần SMTP

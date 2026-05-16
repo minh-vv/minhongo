@@ -11,6 +11,11 @@ import { useState, useCallback, useMemo, useRef, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
+import {
+  IconType, IconPen, IconShuffle, IconHeadphones, IconRefresh,
+  IconChevronLeft, IconCheckCircle, IconXCircle, IconCheck,
+  IconTrophy, IconStar, IconBookMarked, IconTarget, IconVolume,
+} from '../components/Icons';
 
 // ===== Utilities =====
 
@@ -67,10 +72,10 @@ function buildExercise(card, allCards, type) {
 // ===== Setup Screen =====
 
 const EXERCISE_TYPES = [
-  { id: 'multiple-choice', icon: '🔤', label: 'Trắc nghiệm',   desc: 'Chọn nghĩa đúng trong 4 đáp án' },
-  { id: 'fill-in-blank',   icon: '✏️',  label: 'Điền từ',      desc: 'Gõ nghĩa tiếng Việt của từ' },
-  { id: 'arrangement',     icon: '🔀',  label: 'Sắp xếp câu',  desc: 'Sắp xếp từ thành câu hoàn chỉnh' },
-  { id: 'listening',       icon: '🎧',  label: 'Nghe - Điền',  desc: 'Nghe phát âm rồi điền nghĩa' },
+  { id: 'multiple-choice', icon: <IconType className="w-6 h-6" />, label: 'Trắc nghiệm',   desc: 'Chọn nghĩa đúng trong 4 đáp án' },
+  { id: 'fill-in-blank',   icon: <IconPen className="w-6 h-6" />,  label: 'Điền từ',      desc: 'Gõ nghĩa tiếng Việt của từ' },
+  { id: 'arrangement',     icon: <IconShuffle className="w-6 h-6" />,  label: 'Sắp xếp câu',  desc: 'Sắp xếp từ thành câu hoàn chỉnh' },
+  { id: 'listening',       icon: <IconHeadphones className="w-6 h-6" />,  label: 'Nghe - Điền',  desc: 'Nghe phát âm rồi điền nghĩa' },
 ];
 
 function SetupScreen({ deck, onStart }) {
@@ -91,9 +96,7 @@ function SetupScreen({ deck, onStart }) {
       <div>
         <Link to={`/deck/${deck.id}`}
           className="flex items-center gap-2 text-sm text-on-surface-variant hover:text-on-surface mb-4">
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
+          <IconChevronLeft className="w-4 h-4" />
           Quay lại bộ thẻ
         </Link>
         <h1 className="font-headline text-2xl font-bold text-on-surface" style={{ letterSpacing: '-0.01em' }}>
@@ -122,7 +125,7 @@ function SetupScreen({ deck, onStart }) {
                   opacity: disabled ? 0.4 : 1,
                   cursor: disabled ? 'not-allowed' : 'pointer',
                 }}>
-                <span className="text-2xl flex-shrink-0">{icon}</span>
+                <span className="flex-shrink-0 text-on-surface-variant">{icon}</span>
                 <div className="flex-1">
                   <p className="font-semibold text-sm text-on-surface">{label}
                     {disabled && <span className="ml-2 text-[10px] text-on-surface-variant">(cần có câu ví dụ)</span>}
@@ -130,10 +133,7 @@ function SetupScreen({ deck, onStart }) {
                   <p className="text-xs text-on-surface-variant mt-0.5">{desc}</p>
                 </div>
                 {active && (
-                  <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"
-                    style={{ color: 'var(--secondary)' }}>
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
+                  <IconCheckCircle className="w-5 h-5 flex-shrink-0" style={{ color: 'var(--secondary)' }} />
                 )}
               </button>
             );
@@ -453,10 +453,10 @@ function ExerciseRunner({ exercises, deckId, deckName, onComplete }) {
   };
 
   const typeLabel = {
-    'multiple-choice': '🔤 Trắc nghiệm',
-    'fill-in-blank': '✏️ Điền từ',
-    'arrangement': '🔀 Sắp xếp câu',
-    'listening': '🎧 Nghe - Điền',
+    'multiple-choice': <><IconType className="w-4 h-4 inline mr-1" /> Trắc nghiệm</>,
+    'fill-in-blank': <><IconPen className="w-4 h-4 inline mr-1" /> Điền từ</>,
+    'arrangement': <><IconShuffle className="w-4 h-4 inline mr-1" /> Sắp xếp câu</>,
+    'listening': <><IconHeadphones className="w-4 h-4 inline mr-1" /> Nghe - Điền</>,
   };
 
   return (
@@ -521,7 +521,7 @@ function ExerciseRunner({ exercises, deckId, deckName, onComplete }) {
               background: lastCorrect ? 'rgba(76,175,80,0.1)' : 'rgba(198,40,40,0.08)',
               color: lastCorrect ? '#2e7d32' : 'var(--secondary)',
             }}>
-            <span className="text-xl">{lastCorrect ? '✅' : '❌'}</span>
+            <span className="text-xl">{lastCorrect ? <IconCheckCircle className="w-5 h-5" /> : <IconXCircle className="w-5 h-5" />}</span>
             {lastCorrect ? 'Chính xác!' : 'Chưa đúng rồi!'}
           </div>
           <button onClick={handleNext}
@@ -539,16 +539,16 @@ function ExerciseRunner({ exercises, deckId, deckName, onComplete }) {
 function ResultsScreen({ results, total, deckId, deckName, onRetry }) {
   const correct = results.filter(Boolean).length;
   const pct = Math.round((correct / total) * 100);
-  const [emoji, label, color] = pct >= 90 ? ['🏆', 'Xuất sắc!', '#b45309']
-    : pct >= 75 ? ['⭐', 'Tốt lắm!', '#2e7d32']
-    : pct >= 50 ? ['📚', 'Khá tốt!', 'var(--primary)']
-    : ['💪', 'Cần luyện thêm!', 'var(--secondary)'];
+  const [emoji, label, color] = pct >= 90 ? [<IconTrophy className="w-10 h-10" />, 'Xuất sắc!', '#b45309']
+    : pct >= 75 ? [<IconStar className="w-10 h-10" />, 'Tốt lắm!', '#2e7d32']
+    : pct >= 50 ? [<IconBookMarked className="w-10 h-10" />, 'Khá tốt!', 'var(--primary)']
+    : [<IconTarget className="w-10 h-10" />, 'Cần luyện thêm!', 'var(--secondary)'];
 
   return (
     <div className="max-w-md mx-auto p-6 space-y-5">
       <div className="bg-surface-container-lowest p-8 text-center"
         style={{ border: '1px solid rgba(0,0,0,0.07)' }}>
-        <div className="text-4xl mb-3">{emoji}</div>
+        <div className="flex justify-center mb-3" style={{ color }}>{emoji}</div>
         <p className="text-xl font-bold mb-1" style={{ color }}>{label}</p>
         <p className="text-sm text-on-surface-variant mb-4">{deckName}</p>
         <p className="text-5xl font-black text-on-surface my-4">{pct}%</p>
@@ -576,9 +576,7 @@ function ResultsScreen({ results, total, deckId, deckName, onRetry }) {
         <button onClick={onRetry}
           className="py-3 text-sm font-bold text-on-secondary uppercase tracking-wider hover:bg-secondary-dim transition-all flex items-center justify-center gap-2"
           style={{ background: 'var(--secondary)' }}>
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-          </svg>
+          <IconRefresh className="w-4 h-4" />
           Luyện lại
         </button>
         <Link to={`/deck/${deckId}`}

@@ -8,7 +8,7 @@ RUN npm ci
 COPY . .
 
 # VITE_ vars are embedded at build time — pass the real backend URL here
-ARG VITE_API_URL=http://localhost:3002
+ARG VITE_API_URL=http://localhost:3000
 ENV VITE_API_URL=$VITE_API_URL
 
 RUN npm run build

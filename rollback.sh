@@ -106,7 +106,7 @@ esac
 # ── Post-rollback health check ────────────────────────────────────────────────
 echo ""
 info "Waiting for health check..."
-BACKEND_PORT="${BACKEND_PORT:-3002}"
+BACKEND_PORT="${BACKEND_PORT:-3000}"
 
 for i in $(seq 1 20); do
   if curl -sf "http://localhost:${BACKEND_PORT}/health" > /dev/null 2>&1; then

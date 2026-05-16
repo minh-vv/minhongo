@@ -98,7 +98,7 @@ docker compose up ${BUILD_FLAG} -d
 echo ""
 info "Waiting for services to become healthy..."
 
-BACKEND_PORT="${BACKEND_PORT:-3002}"
+BACKEND_PORT="${BACKEND_PORT:-3000}"
 
 # Wait for backend health
 MAX_RETRIES=30

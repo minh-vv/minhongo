@@ -39,7 +39,7 @@ RUN mkdir -p uploads/avatars
 
 ENV NODE_ENV=production
 
-EXPOSE 3002
+EXPOSE 3000
 
 # Run migrations before starting the server
 CMD ["sh", "-c", "node_modules/.bin/prisma migrate deploy && node dist/main.js"]

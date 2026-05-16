@@ -18,7 +18,7 @@ async function bootstrap() {
 
   const allowedOrigins = process.env.CORS_ORIGIN
     ? process.env.CORS_ORIGIN.split(',').map((o) => o.trim())
-    : ['http://localhost:5174', 'http://localhost:5175'];
+    : ['http://localhost:5173'];
   app.enableCors({
     origin: allowedOrigins,
     credentials: true,
@@ -36,7 +36,7 @@ async function bootstrap() {
   // eslint-disable-next-line @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access
   app.use('/uploads', express.static(join(process.cwd(), 'uploads')));
 
-  await app.listen(process.env.PORT ?? 3002);
+  await app.listen(process.env.PORT ?? 3000);
 }
 bootstrap().catch((err) => {
   console.error('Failed to start application:', err);

@@ -30,7 +30,7 @@ Minhongo là ứng dụng web học tiếng Nhật với hệ thống flashcard 
 
 ```
 minhongo/
-├── backend/          # NestJS API (port 3002)
+├── backend/          # NestJS API (port 3000)
 │   ├── src/
 │   │   ├── auth/         # Đăng nhập, đăng ký, JWT, reset password
 │   │   ├── users/        # Quản lý người dùng
@@ -89,7 +89,7 @@ docker compose up --build -d
 Sau khi build xong:
 
 - Frontend: [http://localhost](http://localhost)
-- Backend API: [http://localhost:3002](http://localhost:3002)
+- Backend API: [http://localhost:3000](http://localhost:3000)
 
 ### 3. Seed dữ liệu mẫu (tuỳ chọn)
 
@@ -115,13 +115,13 @@ npm run seed           # dữ liệu mẫu
 npm run start:dev
 ```
 
-API chạy tại `http://localhost:3002`.
+API chạy tại `http://localhost:3000`.
 
 ### Frontend
 
 ```bash
 cd frontend
-echo "VITE_API_URL=http://localhost:3002" > .env
+echo "VITE_API_URL=http://localhost:3000" > .env
 npm install
 npm run dev
 ```
@@ -151,7 +151,7 @@ SMTP_USER=your_gmail@gmail.com
 SMTP_PASS=your_gmail_app_password
 
 # URL backend (baked vào bundle frontend lúc build)
-VITE_API_URL=http://localhost:3002
+VITE_API_URL=http://localhost:3000
 ```
 
 ## Triển khai lên VPS
@@ -161,7 +161,7 @@ VITE_API_URL=http://localhost:3002
    ```env
    CORS_ORIGIN=http://<IP-server>
    FRONTEND_URL=http://<IP-server>
-   VITE_API_URL=http://<IP-server>:3002
+   VITE_API_URL=http://<IP-server>:3000
    ```
 3. Chạy `docker compose up --build -d`
 

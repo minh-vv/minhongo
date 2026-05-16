@@ -3,18 +3,23 @@ import { Navigate, Link } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { useAuth } from '../hooks/useAuth';
 import { userApi } from '../api/userApi';
+import {
+  IconTarget, IconTrophy, IconPlane, IconBriefcase, IconTv,
+  IconHeart, IconCamera, IconKey, IconChevronDown, IconCheck,
+  IconCheckCircle, IconXCircle, IconAlertCircle, IconMail,
+} from '../components/Icons';
 
 // ===== Predefined learning goals =====
 const LEARNING_GOALS = [
-  { value: 'jlpt_n5', label: 'Thi JLPT N5', icon: '🎯' },
-  { value: 'jlpt_n4', label: 'Thi JLPT N4', icon: '🎯' },
-  { value: 'jlpt_n3', label: 'Thi JLPT N3', icon: '🎯' },
-  { value: 'jlpt_n2', label: 'Thi JLPT N2', icon: '🎯' },
-  { value: 'jlpt_n1', label: 'Thi JLPT N1', icon: '🏆' },
-  { value: 'travel', label: 'Du lịch Nhật Bản', icon: '✈️' },
-  { value: 'work', label: 'Làm việc tại Nhật', icon: '💼' },
-  { value: 'anime', label: 'Xem anime / manga', icon: '🎌' },
-  { value: 'interest', label: 'Yêu thích ngôn ngữ', icon: '❤️' },
+  { value: 'jlpt_n5', label: 'Thi JLPT N5', icon: <IconTarget className="w-4 h-4" /> },
+  { value: 'jlpt_n4', label: 'Thi JLPT N4', icon: <IconTarget className="w-4 h-4" /> },
+  { value: 'jlpt_n3', label: 'Thi JLPT N3', icon: <IconTarget className="w-4 h-4" /> },
+  { value: 'jlpt_n2', label: 'Thi JLPT N2', icon: <IconTarget className="w-4 h-4" /> },
+  { value: 'jlpt_n1', label: 'Thi JLPT N1', icon: <IconTrophy className="w-4 h-4" /> },
+  { value: 'travel', label: 'Du lịch Nhật Bản', icon: <IconPlane className="w-4 h-4" /> },
+  { value: 'work', label: 'Làm việc tại Nhật', icon: <IconBriefcase className="w-4 h-4" /> },
+  { value: 'anime', label: 'Xem anime / manga', icon: <IconTv className="w-4 h-4" /> },
+  { value: 'interest', label: 'Yêu thích ngôn ngữ', icon: <IconHeart className="w-4 h-4" /> },
 ];
 
 // ===== Section Header — app design system =====
@@ -80,11 +85,7 @@ function AvatarSection({ profile, onAvatarChange, isUploading }) {
           {isUploading ? (
             <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
           ) : (
-            <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 13a3 3 0 11-6 0 3 3 0 016 0" />
-            </svg>
+            <IconCamera className="w-7 h-7 text-white" />
           )}
         </button>
 
@@ -120,7 +121,7 @@ function Toast({ message, type = 'success', onClose }) {
           background: type === 'success' ? 'var(--primary)' : 'var(--secondary)',
           color: '#fff',
         }}>
-        <span className="text-lg">{type === 'success' ? '✅' : '❌'}</span>
+        <span className="text-lg">{type === 'success' ? <IconCheckCircle className="w-5 h-5" /> : <IconXCircle className="w-5 h-5" />}</span>
         <span className="text-sm font-semibold">{message}</span>
         <button onClick={onClose} className="ml-2 opacity-60 hover:opacity-100 text-lg leading-none">×</button>
       </div>
@@ -309,10 +310,7 @@ export default function ProfilePage() {
                 </label>
                 <div className="flex items-center gap-3 px-4 py-2.5 bg-surface-container text-sm"
                   style={{ border: '1px solid rgba(0,0,0,0.1)' }}>
-                  <svg className="w-4 h-4 text-on-surface-variant flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
+                  <IconMail className="w-4 h-4 text-on-surface-variant flex-shrink-0" />
                   <span className="text-on-surface flex-1">{profile?.email}</span>
                   <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5"
                     style={{ background: 'rgba(0,0,0,0.05)', color: 'var(--on-surface-variant)' }}>
@@ -363,9 +361,7 @@ export default function ProfilePage() {
                       <span className="text-base flex-shrink-0">{goal.icon}</span>
                       <span className="text-xs font-semibold leading-tight">{goal.label}</span>
                       {isSelected && (
-                        <svg className="w-3.5 h-3.5 ml-auto flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                        </svg>
+                        <IconCheck className="w-3.5 h-3.5 ml-auto flex-shrink-0" />
                       )}
                     </button>
                   );
@@ -480,22 +476,16 @@ function ChangePasswordSection({ onToast }) {
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 flex items-center justify-center"
               style={{ background: 'rgba(0,0,0,0.04)', border: '1px solid rgba(0,0,0,0.08)' }}>
-              <svg className="w-4 h-4 text-on-surface-variant" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                  d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
-              </svg>
+              <IconKey className="w-4 h-4 text-on-surface-variant" />
             </div>
             <div>
               <p className="text-sm font-semibold text-on-surface">Đổi mật khẩu</p>
               <p className="text-xs text-on-surface-variant mt-0.5">Thay đổi mật khẩu đăng nhập hiện tại</p>
             </div>
           </div>
-          <svg
+          <IconChevronDown
             className={`w-4 h-4 text-on-surface-variant transition-transform ${open ? 'rotate-180' : ''}`}
-            fill="none" stroke="currentColor" viewBox="0 0 24 24"
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-          </svg>
+          />
         </button>
 
         {/* Form (collapsible) */}
@@ -507,9 +497,7 @@ function ChangePasswordSection({ onToast }) {
             {(validationError || mutation.isError) && (
               <div className="flex items-start gap-2 p-3 text-sm"
                 style={{ background: 'rgba(198,40,40,0.07)', border: '1px solid rgba(198,40,40,0.2)', color: 'var(--secondary)' }}>
-                <svg className="w-4 h-4 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-                </svg>
+                <IconAlertCircle className="w-4 h-4 flex-shrink-0 mt-0.5" />
                 {validationError || mutation.error?.response?.data?.message || 'Có lỗi xảy ra'}
               </div>
             )}
