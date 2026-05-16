@@ -9,6 +9,14 @@ const STATUS_LABEL = {
   PASSED: { label: 'Đã pass', color: 'bg-emerald-100 text-emerald-700' },
 };
 
+const SKILL_LABELS = {
+  VOCABULARY: { label: 'Từ vựng', color: 'bg-blue-100 text-blue-700' },
+  KANJI: { label: 'Hán tự', color: 'bg-red-100 text-red-700' },
+  GRAMMAR: { label: 'Ngữ pháp', color: 'bg-purple-100 text-purple-700' },
+  READING: { label: 'Đọc hiểu', color: 'bg-orange-100 text-orange-700' },
+  LISTENING: { label: 'Nghe hiểu', color: 'bg-teal-100 text-teal-700' },
+};
+
 function formatDate(d) {
   if (!d) return null;
   const dt = new Date(d);
@@ -38,8 +46,21 @@ function LessonRow({ lesson }) {
         <div className="font-semibold text-gray-900 truncate">
           {lesson.title}
         </div>
+        {lesson.skills && lesson.skills.length > 0 && (
+          <div className="flex gap-1.5 mt-1">
+            {lesson.skills.map((skill) => {
+              const s = SKILL_LABELS[skill];
+              if (!s) return null;
+              return (
+                <span key={skill} className={`px-1.5 py-0.5 text-[10px] font-bold rounded-sm uppercase tracking-wider ${s.color}`}>
+                  {s.label}
+                </span>
+              );
+            })}
+          </div>
+        )}
         {lesson.summary && (
-          <div className="text-sm text-gray-500 truncate">{lesson.summary}</div>
+          <div className="text-sm text-gray-500 truncate mt-1">{lesson.summary}</div>
         )}
         <div className="flex gap-2 mt-1 text-xs text-gray-400">
           <span>~{lesson.estimatedMin} phút</span>

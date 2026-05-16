@@ -3,10 +3,9 @@ import {
   NotFoundException,
   ForbiddenException,
 } from '@nestjs/common';
-import { writeFileSync } from 'fs';
 import AdmZip from 'adm-zip';
-import Database from 'better-sqlite3';
-import * as tmp from 'tmp';
+import initSqlJs from 'sql.js';
+import * as fzstd from 'fzstd';
 import { PrismaService } from 'src/prisma/prisma.service';
 import {
   CreateDeckDto,
@@ -585,23 +584,21 @@ export class FlashcardsService {
       jlptLevel?: number;
     },
   ) {
-    const { db, fieldNames, tmpFile } = this.openAnkiDatabase(fileBuffer);
+    const { db, fieldNames } = await this.openAnkiDatabase(fileBuffer);
 
     try {
-      // Lấy notes và cards
-      const notes = db
-        .prepare(
-          `
-        SELECT 
-          notes.id,
-          notes.mid,
-          notes.tags,
-          notes.flds,
-          notes.sfld
-        FROM notes
-      `,
-        )
-        .all() as { id: number; mid: number; tags: string; flds: string; sfld: string }[];
+      // Lấy notes
+      const notesRes = db.exec('SELECT id, mid, tags, flds, sfld FROM notes');
+      let notes: { id: number; mid: number; tags: string; flds: string; sfld: string }[] = [];
+      if (notesRes.length > 0) {
+        notes = notesRes[0].values.map((row: any[]) => ({
+          id: Number(row[0]),
+          mid: Number(row[1]),
+          tags: String(row[2] || ''),
+          flds: String(row[3] || ''),
+          sfld: String(row[4] || '')
+        }));
+      }
 
       // Map fields theo config hoặc mặc định
       const frontField = options.frontField || fieldNames[0] || 'Front';
@@ -688,7 +685,6 @@ export class FlashcardsService {
       }
 
       db.close();
-      tmpFile.removeCallback();
 
       return {
         deckId: deck.id,
@@ -705,27 +701,25 @@ export class FlashcardsService {
    * Lấy danh sách trường có sẵn từ file Anki (preview)
    */
   async previewAnkiFile(fileBuffer: Buffer) {
-    const { db, fieldNames, tmpFile } = this.openAnkiDatabase(fileBuffer);
+    const { db, fieldNames } = await this.openAnkiDatabase(fileBuffer);
 
     try {
-
       // Lấy số lượng notes
-      const countResult = db
-        .prepare('SELECT COUNT(*) as count FROM notes')
-        .get() as { count: number } | undefined;
-      const count = countResult?.count || 0;
+      let count = 0;
+      const countRes = db.exec('SELECT COUNT(*) FROM notes');
+      if (countRes.length > 0) {
+        count = Number(countRes[0].values[0][0]);
+      }
 
       // Lấy 1 sample note
-      const sampleNote = db
-        .prepare('SELECT notes.flds FROM notes LIMIT 1')
-        .get() as { flds: string } | undefined;
       let sampleFields: string[] = [];
-      if (sampleNote) {
-        sampleFields = sampleNote.flds.split('\x1f');
+      const sampleRes = db.exec('SELECT flds FROM notes LIMIT 1');
+      if (sampleRes.length > 0) {
+        const flds = String(sampleRes[0].values[0][0] || '');
+        sampleFields = flds.split('\x1f');
       }
 
       db.close();
-      tmpFile.removeCallback();
 
       return {
         fieldNames,
@@ -742,29 +736,69 @@ export class FlashcardsService {
    * Mở file Anki (.apkg) và trả về DB instance + danh sách field names.
    * Caller chịu trách nhiệm gọi db.close() và tmpFile.removeCallback().
    */
-  private openAnkiDatabase(fileBuffer: Buffer): {
-    db: InstanceType<typeof Database>;
-    fieldNames: string[];
-    tmpFile: tmp.FileResult;
-  } {
+  private async openAnkiDatabase(fileBuffer: Buffer) {
     const zip = new AdmZip(fileBuffer);
-    const dbEntry = zip
-      .getEntries()
-      .find((e) => e.entryName.endsWith('.anki2'));
+    
+    let dbBuffer: Buffer;
+    
+    // Support modern anki21b (zstd compressed) and legacy formats
+    const anki21b = zip.getEntries().find(e => e.entryName === 'collection.anki21b');
+    const anki21 = zip.getEntries().find(e => e.entryName === 'collection.anki21');
+    const anki2 = zip.getEntries().find(e => e.entryName === 'collection.anki2');
 
-    if (!dbEntry) {
+    if (anki21b) {
+      const compressed = anki21b.getData();
+      const decompressed = fzstd.decompress(new Uint8Array(compressed));
+      dbBuffer = Buffer.from(decompressed);
+    } else if (anki21) {
+      dbBuffer = anki21.getData();
+    } else if (anki2) {
+      dbBuffer = anki2.getData();
+    } else {
       throw new NotFoundException('Không tìm thấy database trong file Anki');
     }
 
-    const tmpFile = tmp.fileSync({ postfix: '.anki2' });
-    writeFileSync(tmpFile.name, dbEntry.getData());
+    const SQL = await initSqlJs();
+    const db = new SQL.Database(dbBuffer);
+    
+    let fieldNames: string[] = [];
+    
+    try {
+      // Check for tables
+      const tablesRes = db.exec("SELECT name FROM sqlite_master WHERE type='table'");
+      const tables = tablesRes.length > 0 ? tablesRes[0].values.map(row => row[0] as string) : [];
+      
+      const hasFields = tables.includes('fields');
+      const hasCol = tables.includes('col');
+      
+      if (hasFields) {
+        const fieldsRes = db.exec('SELECT ntid, name FROM fields ORDER BY ntid, ord');
+        if (fieldsRes.length > 0) {
+          const allFields = fieldsRes[0].values;
+          // Determine the most used model
+          const midsRes = db.exec('SELECT mid, COUNT(*) as c FROM notes GROUP BY mid ORDER BY c DESC LIMIT 1');
+          let targetMid = allFields[0][0]; // default to first
+          if (midsRes.length > 0) {
+            targetMid = midsRes[0].values[0][0];
+          }
+          fieldNames = allFields.filter(f => f[0] === targetMid).map(f => f[1] as string);
+        }
+      } else if (hasCol) {
+        const colRes = db.exec('SELECT models FROM col');
+        if (colRes.length > 0 && colRes[0].values.length > 0) {
+          const modelsStr = colRes[0].values[0][0] as string;
+          if (modelsStr) {
+            const models = JSON.parse(modelsStr);
+            const model = Object.values(models)[0] as any;
+            fieldNames = model?.flds?.map((f: any) => f.name) ?? [];
+          }
+        }
+      }
+    } catch (error) {
+      console.warn("Could not extract field names from Anki DB:", error);
+    }
 
-    const db = new Database(tmpFile.name, { readonly: true });
-    const col = db.prepare('SELECT models FROM col').get() as { models: string };
-    const model = Object.values(JSON.parse(col.models))[0] as any;
-    const fieldNames: string[] = model?.flds?.map((f: any) => f.name) ?? [];
-
-    return { db, fieldNames, tmpFile };
+    return { db, fieldNames };
   }
 
   // Helper: Suggest field mapping dựa trên tên trường

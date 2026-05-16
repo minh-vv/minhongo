@@ -4,12 +4,21 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import ReactMarkdown from 'react-markdown';
 import { coursesApi } from '../api/coursesApi';
 import { flashcardApi } from '../api/flashcardApi';
+import { ArrowLeft, ArrowRight, RotateCw, Check } from 'lucide-react';
 
 const PHASE = {
   THEORY: 'theory',
   REVIEW: 'review',
   TEST: 'test',
   RESULT: 'result',
+};
+
+const SKILL_LABELS = {
+  VOCABULARY: { label: 'Từ vựng', color: 'bg-blue-100 text-blue-700' },
+  KANJI: { label: 'Hán tự', color: 'bg-red-100 text-red-700' },
+  GRAMMAR: { label: 'Ngữ pháp', color: 'bg-purple-100 text-purple-700' },
+  READING: { label: 'Đọc hiểu', color: 'bg-orange-100 text-orange-700' },
+  LISTENING: { label: 'Nghe hiểu', color: 'bg-teal-100 text-teal-700' },
 };
 
 /** Fisher–Yates shuffle (immutable). */
@@ -68,6 +77,19 @@ function TheoryPhase({ lesson, onContinue }) {
           <span className="px-2 py-0.5 bg-indigo-100 text-indigo-700 text-xs font-bold rounded">
             Bài {lesson.order}
           </span>
+          {lesson.skills && lesson.skills.length > 0 && (
+            <div className="flex gap-1.5">
+              {lesson.skills.map((skill) => {
+                const s = SKILL_LABELS[skill];
+                if (!s) return null;
+                return (
+                  <span key={skill} className={`px-1.5 py-0.5 text-[10px] font-bold rounded-sm uppercase tracking-wider ${s.color}`}>
+                    {s.label}
+                  </span>
+                );
+              })}
+            </div>
+          )}
           <span className="text-xs text-gray-500">
             ~{lesson.estimatedMin} phút
           </span>
@@ -110,13 +132,20 @@ function ReviewPhase({ cards, onContinue }) {
     }
   };
 
+  const prev = () => {
+    if (idx > 0) {
+      setIdx(idx - 1);
+      setFlipped(false);
+    }
+  };
+
   if (!card) {
     return (
-      <div className="max-w-2xl mx-auto p-8 text-center">
-        <p className="text-gray-600">Bài này chưa có từ vựng để ôn.</p>
+      <div className="max-w-2xl mx-auto p-8 text-center flex flex-col items-center">
+        <p className="text-xl text-slate-500 font-medium mb-6">Bài này chưa có từ vựng để ôn.</p>
         <button
           onClick={onContinue}
-          className="mt-4 px-5 py-2 bg-indigo-600 text-white rounded-lg"
+          className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 shadow-lg shadow-indigo-200 transition-all"
         >
           Sang phần kiểm tra →
         </button>
@@ -126,64 +155,112 @@ function ReviewPhase({ cards, onContinue }) {
 
   return (
     <div className="max-w-2xl mx-auto p-6 md:p-8">
-      <div className="mb-4 text-center text-sm text-gray-500">
-        Từ {idx + 1} / {cards.length}
-      </div>
-      <div className="h-1 bg-gray-200 rounded-full mb-6 overflow-hidden">
-        <div
-          className="h-full bg-indigo-500 transition-all"
-          style={{ width: `${((idx + 1) / cards.length) * 100}%` }}
-        />
+      {/* Header & Progress */}
+      <div className="mb-8">
+        <div className="flex items-end justify-between mb-3">
+          <div>
+            <h1 className="text-2xl font-extrabold text-slate-900 tracking-tight">Ôn tập từ vựng</h1>
+            <p className="text-sm font-medium text-slate-400 mt-1">Ghi nhớ nhanh trước khi kiểm tra</p>
+          </div>
+          <div className="text-right">
+            <span className="text-2xl font-bold text-indigo-600">{idx + 1}</span>
+            <span className="text-slate-400 font-medium"> / {cards.length}</span>
+          </div>
+        </div>
+
+        <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden shadow-inner">
+          <div
+            className="h-full bg-gradient-to-r from-indigo-500 to-violet-500 rounded-full transition-all duration-500 ease-out"
+            style={{ width: `${((idx + 1) / cards.length) * 100}%` }}
+          />
+        </div>
       </div>
 
+      {/* 3D Flashcard */}
       <div
+        className="relative h-96 w-full cursor-pointer mb-8 group [perspective:1500px]"
         onClick={() => setFlipped(!flipped)}
-        className="cursor-pointer bg-white rounded-2xl shadow-md p-8 md:p-12 mb-4 min-h-[260px] flex flex-col items-center justify-center text-center select-none hover:shadow-lg transition-shadow"
       >
-        {!flipped ? (
-          <>
-            <div className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">
+        <div
+          className="relative w-full h-full transition-transform duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] [transform-style:preserve-3d]"
+          style={{ transform: flipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
+        >
+          {/* Front */}
+          <div
+            className="absolute inset-0 bg-white/80 backdrop-blur-xl border border-slate-100 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col items-center justify-center p-8 group-hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all [backface-visibility:hidden]"
+          >
+            <div className="absolute top-6 left-8 text-xs font-bold tracking-widest text-slate-400 uppercase">
+              Mặt trước
+            </div>
+            
+            <p className="text-6xl md:text-7xl font-extrabold text-slate-800 text-center mb-6 tracking-tight">
               {card.front}
-            </div>
+            </p>
             {card.romaji && (
-              <div className="text-base text-gray-500 italic">{card.romaji}</div>
+              <p className="text-xl md:text-2xl text-slate-400 font-medium tracking-wide">
+                {card.romaji}
+              </p>
             )}
-            <div className="mt-6 text-xs text-gray-400">Bấm để xem nghĩa</div>
-          </>
-        ) : (
-          <>
-            <div className="text-2xl md:text-3xl font-semibold text-indigo-700 mb-3">
-              {card.back}
+
+            <div className="absolute bottom-8 flex items-center gap-2 text-sm font-semibold text-slate-300 group-hover:text-indigo-400 transition-colors">
+              <RotateCw className="w-4 h-4" /> Nhấn để lật
             </div>
+          </div>
+
+          {/* Back */}
+          <div
+            className="absolute inset-0 bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-600 rounded-[2rem] shadow-[0_8px_30px_rgb(79,70,229,0.3)] flex flex-col items-center justify-center p-8 text-white [backface-visibility:hidden]"
+            style={{ transform: 'rotateY(180deg)' }}
+          >
+            <div className="absolute top-6 left-8 text-xs font-bold tracking-widest text-indigo-200 uppercase">
+              Mặt sau
+            </div>
+            
+            <p className="text-4xl md:text-5xl font-bold text-center mb-8 drop-shadow-sm">
+              {card.back}
+            </p>
+            
             {card.example && (
-              <div className="text-sm text-gray-600 mt-3 italic">
-                {card.example}
+              <div className="mt-2 p-5 bg-white/10 backdrop-blur-md rounded-2xl w-full max-w-sm border border-white/20 shadow-inner">
+                <p className="text-xs text-indigo-200 uppercase font-bold mb-2 tracking-wider">Ví dụ</p>
+                <p className="text-lg md:text-xl text-white font-medium leading-relaxed">
+                  {card.example}
+                </p>
               </div>
             )}
-            <div className="mt-6 text-xs text-gray-400">Bấm để lật lại</div>
-          </>
-        )}
+
+            <div className="absolute bottom-8 flex items-center gap-2 text-sm font-medium text-indigo-200 group-hover:text-white transition-colors">
+              <RotateCw className="w-4 h-4" /> Nhấn để lật lại
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className="flex justify-between gap-3">
+      {/* Controls */}
+      <div className="flex justify-between gap-4 w-full">
         <button
-          onClick={() => {
-            if (idx > 0) {
-              setIdx(idx - 1);
-              setFlipped(false);
-            }
-          }}
+          onClick={prev}
           disabled={idx === 0}
-          className="px-5 py-2.5 text-gray-700 bg-white border border-gray-300 rounded-xl hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed"
+          className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-white border border-slate-200 text-slate-600 rounded-2xl hover:bg-slate-50 hover:border-slate-300 disabled:opacity-40 disabled:cursor-not-allowed transition-all font-semibold shadow-sm"
         >
-          ← Trước
+          <ArrowLeft className="w-5 h-5" /> <span className="hidden sm:inline">Trước</span>
         </button>
-        <button
-          onClick={next}
-          className="flex-1 px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl"
-        >
-          {isLast ? 'Làm bài kiểm tra →' : 'Tiếp theo →'}
-        </button>
+
+        {isLast ? (
+          <button
+            onClick={next}
+            className="flex-[2] flex items-center justify-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-2xl font-bold shadow-[0_8px_20px_rgb(16,185,129,0.3)] transition-all hover:-translate-y-0.5 active:translate-y-0"
+          >
+            Kiểm tra <Check className="w-5 h-5" />
+          </button>
+        ) : (
+          <button
+            onClick={next}
+            className="flex-[2] flex items-center justify-center gap-2 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-2xl font-bold shadow-[0_8px_20px_rgb(79,70,229,0.3)] transition-all hover:-translate-y-0.5 active:translate-y-0"
+          >
+            Tiếp theo <ArrowRight className="w-5 h-5" />
+          </button>
+        )}
       </div>
     </div>
   );

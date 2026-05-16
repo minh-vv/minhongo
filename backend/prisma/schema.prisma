@@ -119,6 +119,15 @@ model SystemSetting {
 // Mỗi Lesson có theory (markdown), tham chiếu tới 0–N Deck để ôn tập SM-2,
 // và một LessonTest (1:1) trỏ tới Deck dùng làm quiz để pass bài.
 
+enum SkillType {
+  VOCABULARY // Từ vựng (Goi)
+  KANJI      // Hán tự (Moji)
+  GRAMMAR    // Ngữ pháp (Bunpou)
+  READING    // Đọc hiểu (Dokkai)
+  LISTENING  // Nghe hiểu (Choukai)
+}
+
+
 model Course {
   id          String   @id @default(uuid())
   slug        String   @unique // "minna-n5", "minna-n4", ...
@@ -142,6 +151,7 @@ model Lesson {
   courseId      String
   order         Int      // Thứ tự trong course (1, 2, 3, ...)
   title         String   // "Bài 1 - Watashi wa ..."
+  skills        SkillType[] // 1 bài có thể cover 1 hoặc nhiều kỹ năng
   summary       String?  // Tóm tắt ngắn 1 dòng cho UI list
   theoryMd      String   @db.Text // Nội dung lí thuyết dạng markdown
   estimatedMin  Int      @default(30)

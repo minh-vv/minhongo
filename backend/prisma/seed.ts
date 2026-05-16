@@ -1,4 +1,4 @@
-import { PrismaClient, DeckCategory, LessonDeckRole } from '@prisma/client';
+import { PrismaClient, DeckCategory, LessonDeckRole, SkillType } from '@prisma/client';
 import * as bcrypt from 'bcrypt';
 import 'dotenv/config';
 import { MINNA_N5_LESSONS } from './seed/minna-n5';
@@ -272,6 +272,7 @@ async function main() {
         title: lessonData.title,
         summary: lessonData.summary,
         theoryMd: lessonData.theoryMd,
+        skills: [SkillType.VOCABULARY, SkillType.GRAMMAR],
         estimatedMin: 30,
       },
       create: {
@@ -280,6 +281,7 @@ async function main() {
         title: lessonData.title,
         summary: lessonData.summary,
         theoryMd: lessonData.theoryMd,
+        skills: [SkillType.VOCABULARY, SkillType.GRAMMAR],
         estimatedMin: 30,
       },
     });

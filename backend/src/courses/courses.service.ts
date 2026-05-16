@@ -86,6 +86,7 @@ export class CoursesService {
         order: lesson.order,
         title: lesson.title,
         summary: lesson.summary,
+        skills: lesson.skills,
         estimatedMin: lesson.estimatedMin,
         hasTest: !!lesson.test,
         deckCount: lesson.decks.length,
@@ -243,6 +244,7 @@ export class CoursesService {
       order: lesson.order,
       title: lesson.title,
       summary: lesson.summary,
+      skills: lesson.skills,
       theoryMd: lesson.theoryMd,
       estimatedMin: lesson.estimatedMin,
       course: lesson.course,
@@ -284,7 +286,7 @@ export class CoursesService {
           include: {
             lessons: {
               orderBy: { order: 'asc' },
-              select: { id: true, order: true, title: true, estimatedMin: true },
+              select: { id: true, order: true, title: true, estimatedMin: true, skills: true },
             },
           },
         },
@@ -324,6 +326,7 @@ export class CoursesService {
         id: next.id,
         order: next.order,
         title: next.title,
+        skills: next.skills,
         estimatedMin: next.estimatedMin,
         status,
       },

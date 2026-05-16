@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { ArrowLeft, ArrowRight, Check, RotateCw, ArrowLeftCircle } from 'lucide-react';
 
 export default function FlashcardStudy({ deck, onComplete }) {
   const navigate = useNavigate();
@@ -45,152 +46,149 @@ export default function FlashcardStudy({ deck, onComplete }) {
 
   if (!cards.length) {
     return (
-      <div className="text-center py-20">
-        <p className="text-xl text-gray-500">Bộ thẻ này chưa có thẻ nào.</p>
+      <div className="text-center py-20 flex flex-col items-center">
+        <p className="text-xl text-slate-500 font-medium mb-6">Bộ thẻ này chưa có thẻ nào.</p>
         <button
           onClick={() => navigate('/dashboard')}
-          className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+          className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 shadow-lg shadow-indigo-200 transition-all"
         >
-          Quay lại
+          Quay lại Dashboard
         </button>
       </div>
     );
   }
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="max-w-2xl mx-auto px-4 md:px-0">
       {/* Header */}
-      <div className="mb-6">
+      <div className="mb-8">
         <button
           onClick={() => navigate('/dashboard')}
-          className="text-gray-500 hover:text-gray-700 flex items-center gap-2 mb-4"
+          className="inline-flex items-center gap-2 text-sm font-semibold text-slate-500 hover:text-indigo-600 transition-colors mb-6"
         >
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
+          <ArrowLeftCircle className="w-5 h-5" />
           Quay lại
         </button>
 
-        <div className="flex items-center justify-between mb-2">
-          <h1 className="text-2xl font-bold text-gray-900">{deck.name}</h1>
-          <span className="text-gray-500">
-            {currentIndex + 1} / {cards.length}
-          </span>
+        <div className="flex items-end justify-between mb-3">
+          <div>
+            <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">{deck.name}</h1>
+            <p className="text-sm font-medium text-slate-400 mt-1">Ôn tập thẻ ghi nhớ</p>
+          </div>
+          <div className="text-right">
+            <span className="text-2xl font-bold text-indigo-600">{currentIndex + 1}</span>
+            <span className="text-slate-400 font-medium"> / {cards.length}</span>
+          </div>
         </div>
 
         {/* Progress Bar */}
-        <div className="w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+        <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden shadow-inner">
           <div
-            className="h-full bg-blue-600 transition-all duration-300"
+            className="h-full bg-gradient-to-r from-indigo-500 to-violet-500 rounded-full transition-all duration-500 ease-out"
             style={{ width: `${progress}%` }}
           />
         </div>
       </div>
 
-      {/* Flashcard */}
+      {/* Flashcard 3D */}
       <div
-        className="relative h-80 cursor-pointer mb-6"
+        className="relative h-96 w-full cursor-pointer mb-8 group [perspective:1500px]"
         onClick={handleFlip}
-        style={{ perspective: '1000px' }}
       >
         <div
-          className={`absolute inset-0 w-full h-full transition-transform duration-500 transform-style-preserve-3d ${
-            isFlipped ? 'rotate-y-180' : ''
-          }`}
-          style={{
-            transformStyle: 'preserve-3d',
-            transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
-          }}
+          className="relative w-full h-full transition-transform duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] [transform-style:preserve-3d]"
+          style={{ transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
         >
           {/* Front */}
           <div
-            className="absolute inset-0 bg-white border-2 border-blue-200 rounded-2xl shadow-lg flex flex-col items-center justify-center p-6"
-            style={{ backfaceVisibility: 'hidden' }}
+            className="absolute inset-0 bg-white/80 backdrop-blur-xl border border-slate-100 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col items-center justify-center p-8 group-hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all [backface-visibility:hidden]"
           >
-            <p className="text-sm text-blue-500 mb-2">Tiếng Nhật</p>
-            <p className="text-4xl font-bold text-gray-900 text-center mb-2">
+            <div className="absolute top-6 left-8 text-xs font-bold tracking-widest text-slate-400 uppercase">
+              Mặt trước
+            </div>
+            {currentCard.jlptLevel && (
+              <div className="absolute top-6 right-8 px-3 py-1 bg-indigo-50 text-indigo-600 text-xs font-bold rounded-full border border-indigo-100">
+                N{currentCard.jlptLevel}
+              </div>
+            )}
+            
+            <p className="text-6xl md:text-7xl font-extrabold text-slate-800 text-center mb-6 tracking-tight">
               {currentCard.front}
             </p>
             {currentCard.romaji && (
-              <p className="text-lg text-gray-500">{currentCard.romaji}</p>
+              <p className="text-xl md:text-2xl text-slate-400 font-medium tracking-wide">
+                {currentCard.romaji}
+              </p>
             )}
-            {currentCard.jlptLevel && (
-              <span className="mt-4 px-3 py-1 bg-yellow-100 text-yellow-700 text-sm rounded-full">
-                JLPT N{currentCard.jlptLevel}
-              </span>
-            )}
-            <p className="mt-6 text-sm text-gray-400">Nhấn để lật</p>
+
+            <div className="absolute bottom-8 flex items-center gap-2 text-sm font-semibold text-slate-300 group-hover:text-indigo-400 transition-colors">
+              <RotateCw className="w-4 h-4" /> Nhấn để lật
+            </div>
           </div>
 
           {/* Back */}
           <div
-            className="absolute inset-0 bg-blue-50 border-2 border-blue-200 rounded-2xl shadow-lg flex flex-col items-center justify-center p-6"
-            style={{
-              backfaceVisibility: 'hidden',
-              transform: 'rotateY(180deg)',
-            }}
+            className="absolute inset-0 bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-600 rounded-[2rem] shadow-[0_8px_30px_rgb(79,70,229,0.3)] flex flex-col items-center justify-center p-8 text-white [backface-visibility:hidden]"
+            style={{ transform: 'rotateY(180deg)' }}
           >
-            <p className="text-sm text-blue-500 mb-2">Nghĩa tiếng Việt</p>
-            <p className="text-3xl font-bold text-gray-900 text-center mb-4">
+            <div className="absolute top-6 left-8 text-xs font-bold tracking-widest text-indigo-200 uppercase">
+              Mặt sau
+            </div>
+            
+            <p className="text-4xl md:text-5xl font-bold text-center mb-8 drop-shadow-sm">
               {currentCard.back}
             </p>
+            
             {currentCard.example && (
-              <div className="mt-4 p-4 bg-white rounded-lg w-full">
-                <p className="text-sm text-gray-500 mb-1">Ví dụ:</p>
-                <p className="text-gray-700">{currentCard.example}</p>
+              <div className="mt-2 p-5 bg-white/10 backdrop-blur-md rounded-2xl w-full max-w-sm border border-white/20 shadow-inner">
+                <p className="text-xs text-indigo-200 uppercase font-bold mb-2 tracking-wider">Ví dụ</p>
+                <p className="text-lg md:text-xl text-white font-medium leading-relaxed">
+                  {currentCard.example}
+                </p>
               </div>
             )}
+
+            <div className="absolute bottom-8 flex items-center gap-2 text-sm font-medium text-indigo-200 group-hover:text-white transition-colors">
+              <RotateCw className="w-4 h-4" /> Nhấn để lật lại
+            </div>
           </div>
         </div>
       </div>
 
       {/* Controls */}
-      <div className="flex items-center justify-center gap-4">
+      <div className="flex items-center justify-between gap-4 w-full">
         <button
           onClick={handlePrev}
           disabled={currentIndex === 0}
-          className="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+          className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-white border border-slate-200 text-slate-600 rounded-2xl hover:bg-slate-50 hover:border-slate-300 disabled:opacity-40 disabled:cursor-not-allowed transition-all font-semibold shadow-sm"
         >
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
-          Trước
-        </button>
-
-        <button
-          onClick={handleFlip}
-          className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium"
-        >
-          {isFlipped ? 'Lật lại' : 'Xem đáp án'}
+          <ArrowLeft className="w-5 h-5" /> <span className="hidden sm:inline">Trước</span>
         </button>
 
         {currentIndex === cards.length - 1 ? (
           <button
             onClick={handleComplete}
-            className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 flex items-center gap-2"
+            className="flex-[2] flex items-center justify-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-2xl font-bold shadow-[0_8px_20px_rgb(16,185,129,0.3)] transition-all hover:-translate-y-0.5 active:translate-y-0"
           >
-            Hoàn thành
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-            </svg>
+            Hoàn thành <Check className="w-5 h-5" />
           </button>
         ) : (
           <button
             onClick={handleNext}
-            className="px-6 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 flex items-center gap-2"
+            className="flex-[2] flex items-center justify-center gap-2 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-2xl font-bold shadow-[0_8px_20px_rgb(79,70,229,0.3)] transition-all hover:-translate-y-0.5 active:translate-y-0"
           >
-            Tiếp
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
+            Tiếp theo <ArrowRight className="w-5 h-5" />
           </button>
         )}
       </div>
 
-      {/* Stats */}
-      <div className="mt-8 text-center text-sm text-gray-500">
-        Đã học: {studiedCards.size} / {cards.length} thẻ
+      {/* Stats Footer */}
+      <div className="mt-8 text-center">
+        <span className="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 text-slate-500 rounded-full text-sm font-semibold">
+          Đã học: {studiedCards.size} / {cards.length} thẻ
+        </span>
       </div>
     </div>
   );
 }
+
