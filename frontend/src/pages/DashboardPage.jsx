@@ -5,6 +5,7 @@ import { flashcardApi } from '../api/flashcardApi';
 import { useAuth } from '../hooks/useAuth';
 import DeckList from '../components/DeckList';
 import ImportAnkiModal from '../components/ImportAnkiModal';
+import TodaysLessonCard from '../components/TodaysLessonCard';
 
 /* ── helpers ────────────────────────────────────────────────── */
 function getTimeInfo() {
@@ -176,6 +177,12 @@ export default function DashboardPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* ── TODAY'S LESSON ─────────────────────────────────── */}
+      <section>
+        <SectionHeader title="Lộ trình hôm nay" />
+        <TodaysLessonCard />
       </section>
 
       {/* ── QUICK START ─────────────────────────────────────── */}

@@ -66,4 +66,36 @@ export const adminApi = {
     const response = await api.patch('/admin/settings', payload);
     return response.data;
   },
+
+  // ========== COURSE / LESSON CONTENT ==========
+
+  listCourses: async () => {
+    const response = await api.get('/admin/courses');
+    return response.data;
+  },
+
+  getCourse: async (slug) => {
+    const response = await api.get(`/admin/courses/${slug}`);
+    return response.data;
+  },
+
+  attachDeckToLesson: async (lessonId, payload) => {
+    const response = await api.post(`/admin/lessons/${lessonId}/decks`, payload);
+    return response.data;
+  },
+
+  detachDeckFromLesson: async (lessonId, deckId) => {
+    const response = await api.delete(`/admin/lessons/${lessonId}/decks/${deckId}`);
+    return response.data;
+  },
+
+  setLessonTest: async (lessonId, payload) => {
+    const response = await api.put(`/admin/lessons/${lessonId}/test`, payload);
+    return response.data;
+  },
+
+  removeLessonTest: async (lessonId) => {
+    const response = await api.delete(`/admin/lessons/${lessonId}/test`);
+    return response.data;
+  },
 };

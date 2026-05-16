@@ -261,6 +261,13 @@ export default function AdminContentPage() {
             <p className="text-white/50 text-sm mt-2">
               Duyệt deck, chỉnh sửa hiển thị công khai và xóa nội dung không phù hợp
             </p>
+            <Link
+              to="/admin/courses"
+              className="mt-4 inline-block px-4 py-2 bg-white/10 hover:bg-white/20 text-white text-xs font-bold uppercase tracking-wider transition-colors"
+              style={{ backdropFilter: 'blur(4px)' }}
+            >
+              Quản lý lộ trình & bài học →
+            </Link>
           </div>
           <div className="flex-shrink-0 text-center bg-white/10 px-8 py-4"
             style={{ backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.1)' }}>

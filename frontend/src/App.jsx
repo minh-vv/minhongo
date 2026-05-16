@@ -16,8 +16,11 @@ import DeckDetailPage from './pages/DeckDetailPage';
 import StudyPage from './pages/StudyPage';
 import QuizPage from './pages/QuizPage';
 import LessonPage from './pages/LessonPage';
+import CourseLessonPage from './pages/CourseLessonPage';
+import CoursePage from './pages/CoursePage';
 import AdminUsersPage from './pages/AdminUsersPage';
 import AdminContentPage from './pages/AdminContentPage';
+import AdminCoursesPage from './pages/AdminCoursesPage';
 import AdminSettingsPage from './pages/AdminSettingsPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import ResetPasswordPage from './pages/ResetPasswordPage';
@@ -74,8 +77,11 @@ function AppRoutes() {
         <Route path="/study/:deckId" element={<StudyPage />} />
         <Route path="/quiz/:deckId" element={<QuizPage />} />
         <Route path="/lesson/:deckId" element={<LessonPage />} />
+        <Route path="/courses/:slug" element={<CoursePage />} />
+        <Route path="/learn/:lessonId" element={<CourseLessonPage />} />
         <Route path="/admin/users" element={<AdminUsersPage />} />
         <Route path="/admin/content" element={<AdminContentPage />} />
+        <Route path="/admin/courses" element={<AdminCoursesPage />} />
         <Route path="/admin/settings" element={<AdminSettingsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/browse" element={<BrowsePage />} />

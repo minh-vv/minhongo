@@ -35,6 +35,3 @@ coverage/
 # Misc
 *.tgz
 .cache/
-
-.cursor
-.cursorrules

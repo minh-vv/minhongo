@@ -1,6 +1,17 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Minhongo — Docker Compose (Production)
+# ─────────────────────────────────────────────────────────────────────────────
+# Usage:
+#   cp .env.example .env   # fill in real values
+#   docker compose up --build -d
+#
+# Health check:
+#   curl http://localhost:3002/health
+# ─────────────────────────────────────────────────────────────────────────────
+
 services:
 
-  # ── PostgreSQL ────────────────────────────────────────────────────────────
+  # ── PostgreSQL ──────────────────────────────────────────────────────────────
   db:
     image: postgres:16-alpine
     restart: unless-stopped
@@ -12,15 +23,32 @@ services:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-minhongo}"]
-      interval: 5s
+      interval: 10s
       timeout: 5s
-      retries: 10
+      retries: 5
+      start_period: 30s
+    # Database is NOT exposed to host by default (security)
+    # Uncomment below for debugging only:
+    # ports:
+    #   - "5432:5432"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+        reservations:
+          memory: 128M
 
 
-  # ── NestJS Backend ────────────────────────────────────────────────────────
+  # ── NestJS Backend ──────────────────────────────────────────────────────────
   backend:
     build:
       context: ./backend
+      dockerfile: Dockerfile
     restart: unless-stopped
     environment:
       NODE_ENV:      production
@@ -37,26 +65,63 @@ services:
     volumes:
       - uploads_data:/app/uploads
     ports:
-      - "3002:3002"
+      - "${BACKEND_PORT:-3002}:3002"
     depends_on:
       db:
         condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:3002/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "5"
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+        reservations:
+          memory: 256M
 
 
-  # ── React Frontend (Nginx) ────────────────────────────────────────────────
+  # ── React Frontend (Nginx) ─────────────────────────────────────────────────
   frontend:
     build:
       context: ./frontend
+      dockerfile: Dockerfile
       args:
-        # Baked in at build time — must be the publicly reachable backend URL
         VITE_API_URL: ${VITE_API_URL:-http://localhost:3002}
     restart: unless-stopped
     ports:
       - "${FRONTEND_PORT:-80}:80"
     depends_on:
-      - backend
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:80/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    deploy:
+      resources:
+        limits:
+          memory: 128M
+        reservations:
+          memory: 32M
 
 
 volumes:
   postgres_data:
+    driver: local
   uploads_data:
+    driver: local

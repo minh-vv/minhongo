@@ -34,7 +34,7 @@ const navItems = [
   { path: '/kanji',      label: 'Hán tự',                  icon: <IconKanji /> },
   { path: '/vocabulary', label: 'Từ vựng',                 icon: <IconList /> },
   { path: '/grammar',    label: 'Ngữ pháp',                icon: <IconBook /> },
-  { path: '/roadmap',    label: 'Lộ trình',                icon: <IconMap />,    badge: 'AI' },
+  { path: '/roadmap',    label: 'Lộ trình',                icon: <IconMap /> },
   { path: '/self-study', label: 'Học Flashcard',           icon: <IconLayers /> },
   { path: '/progress',   label: 'Tiến độ học',             icon: <IconChart /> },
   { path: '/leaderboard',label: 'Bảng xếp hạng',           icon: <IconTrophy /> },

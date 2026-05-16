@@ -3,6 +3,10 @@ import {
   NotFoundException,
   ForbiddenException,
 } from '@nestjs/common';
+import { writeFileSync } from 'fs';
+import AdmZip from 'adm-zip';
+import Database from 'better-sqlite3';
+import * as tmp from 'tmp';
 import { PrismaService } from 'src/prisma/prisma.service';
 import {
   CreateDeckDto,
@@ -328,22 +332,23 @@ export class FlashcardsService {
     const existingProgress = card.progress[0];
 
     // Tính toán SM-2
-    let easeFactor = existingProgress?.easeFactor || 2.5;
-    let interval = existingProgress?.interval || 0;
-    let repetitions = existingProgress?.repetitions || 0;
+    let easeFactor = existingProgress?.easeFactor ?? 2.5;
+    let interval = existingProgress?.interval ?? 0;
+    let repetitions = existingProgress?.repetitions ?? 0;
 
     if (quality < ReviewQuality.GOOD) {
-      // Chất lượng kém (< 2): reset
+      // Chất lượng kém (< 2): reset về trạng thái học lại
       repetitions = 0;
       interval = 1;
     } else {
-      // Chất lượng tốt (>= 2)
+      // Chất lượng tốt (>= 2) — SM-2 chuẩn
       if (repetitions === 0) {
         interval = 1;
       } else if (repetitions === 1) {
         interval = 6;
       } else {
-        interval = Math.round(interval * easeFactor);
+        // Đảm bảo interval tối thiểu là 1 để tránh Math.round(0 * EF) = 0
+        interval = Math.max(1, Math.round(interval * easeFactor));
       }
       repetitions++;
     }
@@ -498,9 +503,14 @@ export class FlashcardsService {
     const since = new Date();
     since.setDate(since.getDate() - days);
 
+    // Giới hạn records lấy về để tránh load toàn bộ bảng vào memory.
+    // Lấy (limit * 5) rows để có đủ dữ liệu sau khi group, sau đó sort + slice.
+    const MAX_ROWS = limit * 5;
     const logs = await this.prisma.reviewLog.findMany({
       where: { reviewedAt: { gte: since } },
       select: { userId: true, quality: true },
+      take: MAX_ROWS,
+      orderBy: { reviewedAt: 'desc' },
     });
 
     const xpByQuality = [2, 5, 10, 15];
@@ -555,8 +565,6 @@ export class FlashcardsService {
 
   // ========== IMPORT ANKI ==========
 
-  /* eslint-disable @typescript-eslint/no-require-imports, @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-return, @typescript-eslint/no-unused-vars, @typescript-eslint/require-await, @typescript-eslint/no-unsafe-argument */
-
   /**
    * Import deck từ file Anki (.apkg)
    * .apkg là file zip chứa database SQLite
@@ -577,44 +585,9 @@ export class FlashcardsService {
       jlptLevel?: number;
     },
   ) {
-    // Parse APKG file (zip format)
-    const AdmZip = require('adm-zip');
-    const zip = new AdmZip(fileBuffer);
-    const zipEntries = zip.getEntries();
-
-    // Tìm file .anki2 (SQLite database)
-    const dbEntry = zipEntries.find((entry) =>
-      entry.entryName.endsWith('.anki2'),
-    );
-
-    if (!dbEntry) {
-      throw new NotFoundException('Không tìm thấy database trong file Anki');
-    }
-
-    // Đọc SQLite database từ buffer
-    const dbBuffer = dbEntry.getData();
-
-    // Tạo temporary file để đọc với SQLite
-    const Database = require('better-sqlite3');
-    const tmp = require('tmp');
-    const tmpFile = tmp.fileSync({ suffix: '.anki2' });
-    require('fs').writeFileSync(tmpFile.name, dbBuffer);
+    const { db, fieldNames, tmpFile } = this.openAnkiDatabase(fileBuffer);
 
     try {
-      const db = new Database(tmpFile.name, { readonly: true });
-
-      // Lấy danh sách models (templates) để biết các trường
-      const models = db.prepare('SELECT models FROM col').get();
-      const modelsJson = JSON.parse(models.models);
-      const model = Object.values(modelsJson)[0] as any;
-
-      // Lấy danh sách trường có sẵn
-      const availableFields = model?.flds?.map((f) => f.name) || [];
-
-      // Lấy thông tin deck từ Anki
-      const decks = db.prepare('SELECT decks FROM col').get();
-      const decksJson = JSON.parse(decks.decks);
-
       // Lấy notes và cards
       const notes = db
         .prepare(
@@ -628,10 +601,7 @@ export class FlashcardsService {
         FROM notes
       `,
         )
-        .all();
-
-      // Lấy field names từ model
-      const fieldNames = availableFields;
+        .all() as { id: number; mid: number; tags: string; flds: string; sfld: string }[];
 
       // Map fields theo config hoặc mặc định
       const frontField = options.frontField || fieldNames[0] || 'Front';
@@ -639,14 +609,9 @@ export class FlashcardsService {
         options.backField || fieldNames[1] || fieldNames[0] || 'Back';
       const romajiField = options.romajiField;
       const exampleField = options.exampleField;
-      const tagsField = options.tagsField;
 
       // Tạo deck mới
-      // isPublic có thể đến dưới dạng string "true"/"false" từ FormData
-      const isPublicBool =
-        options.isPublic === true ||
-        (options.isPublic as unknown as string) === 'true';
-
+      // isPublic đã được @Transform trong ImportDeckDto chuyển về boolean
       const deck = await this.prisma.deck.create({
         data: {
           name: options.deckName,
@@ -654,9 +619,9 @@ export class FlashcardsService {
             options.description ||
             `Import từ Anki - ${new Date().toLocaleDateString()}`,
           userId,
-          isPublic: isPublicBool,
+          isPublic: options.isPublic ?? false,
           category: (options.category as any) ?? 'TUHOC',
-          jlptLevel: options.jlptLevel ? Number(options.jlptLevel) : null,
+          jlptLevel: options.jlptLevel ?? null,
         },
       });
 
@@ -740,43 +705,20 @@ export class FlashcardsService {
    * Lấy danh sách trường có sẵn từ file Anki (preview)
    */
   async previewAnkiFile(fileBuffer: Buffer) {
-    const AdmZip = require('adm-zip');
-    const zip = new AdmZip(fileBuffer);
-    const zipEntries = zip.getEntries();
-
-    const dbEntry = zipEntries.find((entry) =>
-      entry.entryName.endsWith('.anki2'),
-    );
-
-    if (!dbEntry) {
-      throw new NotFoundException('Không tìm thấy database trong file Anki');
-    }
-
-    const dbBuffer = dbEntry.getData();
-    const tmp = require('tmp');
-    const tmpFile = tmp.fileSync({ suffix: '.anki2' });
-    require('fs').writeFileSync(tmpFile.name, dbBuffer);
+    const { db, fieldNames, tmpFile } = this.openAnkiDatabase(fileBuffer);
 
     try {
-      const Database = require('better-sqlite3');
-      const db = new Database(tmpFile.name, { readonly: true });
-
-      // Lấy model để biết các trường
-      const models = db.prepare('SELECT models FROM col').get();
-      const modelsJson = JSON.parse(models.models);
-      const model = Object.values(modelsJson)[0] as any;
-      const fieldNames = model?.flds?.map((f) => f.name) || [];
 
       // Lấy số lượng notes
       const countResult = db
         .prepare('SELECT COUNT(*) as count FROM notes')
-        .get();
+        .get() as { count: number } | undefined;
       const count = countResult?.count || 0;
 
       // Lấy 1 sample note
       const sampleNote = db
         .prepare('SELECT notes.flds FROM notes LIMIT 1')
-        .get();
+        .get() as { flds: string } | undefined;
       let sampleFields: string[] = [];
       if (sampleNote) {
         sampleFields = sampleNote.flds.split('\x1f');
@@ -796,7 +738,34 @@ export class FlashcardsService {
     }
   }
 
-  /* eslint-enable @typescript-eslint/no-require-imports */
+  /**
+   * Mở file Anki (.apkg) và trả về DB instance + danh sách field names.
+   * Caller chịu trách nhiệm gọi db.close() và tmpFile.removeCallback().
+   */
+  private openAnkiDatabase(fileBuffer: Buffer): {
+    db: InstanceType<typeof Database>;
+    fieldNames: string[];
+    tmpFile: tmp.FileResult;
+  } {
+    const zip = new AdmZip(fileBuffer);
+    const dbEntry = zip
+      .getEntries()
+      .find((e) => e.entryName.endsWith('.anki2'));
+
+    if (!dbEntry) {
+      throw new NotFoundException('Không tìm thấy database trong file Anki');
+    }
+
+    const tmpFile = tmp.fileSync({ postfix: '.anki2' });
+    writeFileSync(tmpFile.name, dbEntry.getData());
+
+    const db = new Database(tmpFile.name, { readonly: true });
+    const col = db.prepare('SELECT models FROM col').get() as { models: string };
+    const model = Object.values(JSON.parse(col.models))[0] as any;
+    const fieldNames: string[] = model?.flds?.map((f: any) => f.name) ?? [];
+
+    return { db, fieldNames, tmpFile };
+  }
 
   // Helper: Suggest field mapping dựa trên tên trường
   private suggestFieldMapping(

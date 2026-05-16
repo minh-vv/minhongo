@@ -16,14 +16,17 @@ model User {
   learningGoal String?  // Mục tiêu học tập cá nhân
   isAdmin      Boolean  @default(false)
   isBlocked    Boolean  @default(false)
+  onboardedAt  DateTime? // Đã hoàn tất onboarding lộ trình chưa
   createdAt    DateTime @default(now())
 
   // Forgot-password reset
   passwordResetToken   String?
   passwordResetExpires DateTime?
 
-  decks        Deck[]
-  cardProgress CardProgress[]
+  decks         Deck[]
+  cardProgress  CardProgress[]
+  courseEnrolls UserCourseProgress[]
+  lessonProgress UserLessonProgress[]
 }
 
 enum DeckCategory {
@@ -45,6 +48,8 @@ model Deck {
   userId      String
   user        User         @relation(fields: [userId], references: [id], onDelete: Cascade)
   cards       Card[]
+  lessonDecks LessonDeck[]
+  lessonTests LessonTest[]
 }
 
 model Card {
@@ -104,4 +109,127 @@ model SystemSetting {
   key       String   @unique
   value     String
   updatedAt DateTime @updatedAt
+}
+
+// ============================================================================
+// COURSE / LESSON / ROADMAP
+// ============================================================================
+// Course = một lộ trình học (ví dụ "Minna no Nihongo N5") gồm nhiều Lesson
+// có thứ tự cố định. User enroll vào course → có UserCourseProgress.
+// Mỗi Lesson có theory (markdown), tham chiếu tới 0–N Deck để ôn tập SM-2,
+// và một LessonTest (1:1) trỏ tới Deck dùng làm quiz để pass bài.
+
+model Course {
+  id          String   @id @default(uuid())
+  slug        String   @unique // "minna-n5", "minna-n4", ...
+  title       String
+  description String?
+  jlptLevel   Int      // 5, 4, 3, 2, 1
+  textbookRef String?  // "Minna no Nihongo I", "Genki I", ...
+  isDefault   Boolean  @default(false) // Course mặc định cho level
+  isPublic    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  lessons   Lesson[]
+  enrolls   UserCourseProgress[]
+
+  @@index([jlptLevel, isDefault])
+}
+
+model Lesson {
+  id            String   @id @default(uuid())
+  courseId      String
+  order         Int      // Thứ tự trong course (1, 2, 3, ...)
+  title         String   // "Bài 1 - Watashi wa ..."
+  summary       String?  // Tóm tắt ngắn 1 dòng cho UI list
+  theoryMd      String   @db.Text // Nội dung lí thuyết dạng markdown
+  estimatedMin  Int      @default(30)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  course   Course       @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  decks    LessonDeck[]
+  test     LessonTest?
+  progress UserLessonProgress[]
+
+  @@unique([courseId, order])
+  @@index([courseId])
+}
+
+enum LessonDeckRole {
+  VOCAB   // Từ vựng để ôn flashcard SM-2
+  KANJI   // Hán tự
+  GRAMMAR // Ngữ pháp
+}
+
+// Bảng nối Lesson ↔ Deck cho các deck "học/ôn" trong bài
+// (không phải deck dùng làm bài test cuối bài — cái đó là LessonTest)
+model LessonDeck {
+  lessonId String
+  deckId   String
+  role     LessonDeckRole @default(VOCAB)
+  order    Int            @default(0)
+
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  deck   Deck   @relation(fields: [deckId], references: [id], onDelete: Cascade)
+
+  @@id([lessonId, deckId])
+  @@index([deckId])
+}
+
+// Test cuối bài — tham chiếu một Deck đã có (dùng làm pool câu hỏi quiz)
+// 1 lesson chỉ có tối đa 1 test (1:1)
+model LessonTest {
+  id         String @id @default(uuid())
+  lessonId   String @unique
+  deckId     String
+  passScore  Int    @default(70) // % để pass (0-100)
+  questionCount Int @default(10)  // Số câu trong 1 lượt test
+
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  deck   Deck   @relation(fields: [deckId], references: [id])
+
+  @@index([deckId])
+}
+
+// Tiến độ user trong một course (1 user enroll 1 course = 1 row)
+model UserCourseProgress {
+  id         String   @id @default(uuid())
+  userId     String
+  courseId   String
+  startedAt  DateTime @default(now())
+  targetDate DateTime? // Ngày mục tiêu hoàn thành (deadline) — null = không đặt
+  goal       String?   // Free-text mục tiêu (ví dụ "Thi N5 12/2026")
+  isActive   Boolean  @default(true) // user có thể tạm dừng course
+  updatedAt  DateTime @updatedAt
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, courseId])
+}
+
+enum LessonStatus {
+  NOT_STARTED
+  IN_PROGRESS
+  PASSED
+}
+
+model UserLessonProgress {
+  id          String       @id @default(uuid())
+  userId      String
+  lessonId    String
+  status      LessonStatus @default(NOT_STARTED)
+  score       Int?         // điểm test gần nhất (0-100)
+  attemptCount Int         @default(0)
+  startedAt   DateTime?
+  completedAt DateTime?
+  updatedAt   DateTime     @updatedAt
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, lessonId])
+  @@index([userId, status])
 }

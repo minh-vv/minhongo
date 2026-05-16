@@ -7,6 +7,8 @@ import { AuthModule } from './auth/auth.module';
 import { FlashcardsModule } from './flashcards/flashcards.module';
 import { AdminModule } from './admin/admin.module';
 import { SystemConfigModule } from './system-config/system-config.module';
+import { CoursesModule } from './courses/courses.module';
+import { HealthModule } from './health/health.module';
 
 @Module({
   imports: [
@@ -16,6 +18,8 @@ import { SystemConfigModule } from './system-config/system-config.module';
     FlashcardsModule,
     SystemConfigModule,
     AdminModule,
+    CoursesModule,
+    HealthModule,
   ],
   controllers: [AppController],
   providers: [AppService],
