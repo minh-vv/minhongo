@@ -7,7 +7,7 @@ import {
   IconHome, IconGlobe, IconList, IconBook, IconMap, IconLayers,
   IconChart, IconTrophy, IconPeople, IconStar, IconShield,
   IconFolder, IconSettings, IconUser, IconLogOut, IconChevronDown,
-  IconCheck, IconKanji,
+  IconCheck, IconKanji, IconBot,
 } from './Icons';
 
 const LANGUAGES = [
@@ -21,6 +21,7 @@ const navItems = [
   { path: '/kanji',      label: 'Hán tự',                  icon: <IconKanji /> },
   { path: '/vocabulary', label: 'Từ vựng',                 icon: <IconList /> },
   { path: '/grammar',    label: 'Ngữ pháp',                icon: <IconBook /> },
+  { path: '/ai-chat',    label: 'Luyện Chat AI',           icon: <IconBot />,    badge: 'Mới' },
   { path: '/roadmap',    label: 'Lộ trình',                icon: <IconMap /> },
   { path: '/self-study', label: 'Học Flashcard',           icon: <IconLayers /> },
   { path: '/progress',   label: 'Tiến độ học',             icon: <IconChart /> },

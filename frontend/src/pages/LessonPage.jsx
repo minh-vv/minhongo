@@ -1,7 +1,9 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
+import ReactMarkdown from 'react-markdown';
 import { flashcardApi } from '../api/flashcardApi';
+import aiTutorApi from '../api/aiTutorApi';
 
 // ===== Utilities =====
 
@@ -179,6 +181,20 @@ function OverviewSlide({ words, onNext }) {
 function LearnSlide({ card, index, total, onNext }) {
   const [revealed, setRevealed] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [aiExplanation, setAiExplanation] = useState(null);
+  const [isExplaining, setIsExplaining] = useState(false);
+
+  const handleAskAI = async () => {
+    setIsExplaining(true);
+    try {
+      const res = await aiTutorApi.explain({ text: card.front, context: card.example });
+      setAiExplanation(res.explanation);
+    } catch (err) {
+      setAiExplanation('Xin lỗi, Sensei đang bận. Bạn vui lòng thử lại sau nhé!');
+    } finally {
+      setIsExplaining(false);
+    }
+  };
 
   const handleSpeak = useCallback(() => {
     speakJapanese(card.front);
@@ -190,6 +206,7 @@ function LearnSlide({ card, index, total, onNext }) {
   useEffect(() => {
     setRevealed(false);
     setIsSpeaking(false);
+    setAiExplanation(null);
     const t = setTimeout(() => {
       handleSpeak();
     }, 400);
@@ -287,6 +304,29 @@ function LearnSlide({ card, index, total, onNext }) {
                   </button>
                 </div>
               )}
+
+              {/* AI Explain Area */}
+              <div className="bg-indigo-50 rounded-xl p-4 mt-4">
+                <div className="flex items-center justify-between mb-2">
+                  <p className="text-xs font-semibold text-indigo-500 uppercase tracking-wider flex items-center gap-1">
+                    <span className="text-sm">✨</span> Giải thích từ Sensei
+                  </p>
+                  {!aiExplanation && (
+                    <button 
+                      onClick={handleAskAI}
+                      disabled={isExplaining}
+                      className="text-xs px-3 py-1.5 bg-indigo-100 text-indigo-700 font-bold rounded-full hover:bg-indigo-200 transition-colors disabled:opacity-50"
+                    >
+                      {isExplaining ? 'Đang hỏi...' : 'Hỏi AI chi tiết'}
+                    </button>
+                  )}
+                </div>
+                {aiExplanation && (
+                  <div className="prose prose-sm max-w-none text-gray-800 prose-p:leading-relaxed">
+                    <ReactMarkdown>{aiExplanation}</ReactMarkdown>
+                  </div>
+                )}
+              </div>
 
               <button
                 onClick={onNext}

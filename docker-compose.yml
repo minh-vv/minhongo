@@ -62,8 +62,12 @@ services:
       SMTP_USER:     ${SMTP_USER:-}
       SMTP_PASS:     ${SMTP_PASS:-}
       SMTP_FROM:     ${SMTP_FROM:-}
-    volumes:
-      - uploads_data:/app/uploads
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      AWS_ACCESS_KEY_ID:     ${AWS_ACCESS_KEY_ID:-}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY:-}
+      AWS_REGION:            ${AWS_REGION:-ap-southeast-1}
+      AWS_S3_BUCKET:         ${AWS_S3_BUCKET:-}
+      AWS_S3_CUSTOM_DOMAIN:  ${AWS_S3_CUSTOM_DOMAIN:-}
     ports:
       - "${BACKEND_PORT:-3000}:3000"
     depends_on:
@@ -122,6 +126,4 @@ services:
 
 volumes:
   postgres_data:
-    driver: local
-  uploads_data:
     driver: local

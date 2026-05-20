@@ -10,7 +10,9 @@
 import { useState, useCallback, useMemo, useRef, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
+import ReactMarkdown from 'react-markdown';
 import { flashcardApi } from '../api/flashcardApi';
+import aiTutorApi from '../api/aiTutorApi';
 import {
   IconType, IconPen, IconShuffle, IconHeadphones, IconRefresh,
   IconChevronLeft, IconCheckCircle, IconXCircle, IconCheck,
@@ -229,8 +231,10 @@ function FillInBlankEx({ exercise, onAnswer }) {
   const [value, setValue] = useState('');
   const [answered, setAnswered] = useState(false);
   const [correct, setCorrect] = useState(null);
+  const [aiFeedback, setAiFeedback] = useState(null);
+  const [isEvaluating, setIsEvaluating] = useState(false);
   const inputRef = useRef(null);
-  useEffect(() => { setValue(''); setAnswered(false); setCorrect(null); inputRef.current?.focus(); }, [exercise.card.id]);
+  useEffect(() => { setValue(''); setAnswered(false); setCorrect(null); setAiFeedback(null); inputRef.current?.focus(); }, [exercise.card.id]);
 
   const handleSubmit = () => {
     if (answered || !value.trim()) return;
@@ -238,6 +242,22 @@ function FillInBlankEx({ exercise, onAnswer }) {
     setCorrect(ok); setAnswered(true);
     if (ok) setTimeout(() => onAnswer(true), 1200);
     else onAnswer(false);
+  };
+
+  const handleAskAI = async () => {
+    setIsEvaluating(true);
+    try {
+      const res = await aiTutorApi.evaluate({ 
+        userAnswer: value, 
+        question: exercise.card.front, 
+        expectedAnswer: exercise.card.back 
+      });
+      setAiFeedback(res.feedback + (res.suggestion ? `\n\n**Gợi ý:** ${res.suggestion}` : ''));
+    } catch (err) {
+      setAiFeedback('Xin lỗi, Sensei không thể chấm điểm lúc này.');
+    } finally {
+      setIsEvaluating(false);
+    }
   };
 
   return (
@@ -253,9 +273,30 @@ function FillInBlankEx({ exercise, onAnswer }) {
           background: !answered ? 'var(--surface-container-lowest)' : correct ? 'rgba(76,175,80,0.06)' : 'rgba(198,40,40,0.06)',
         }} />
       {answered && !correct && (
-        <p className="text-sm px-1" style={{ color: '#2e7d32' }}>
-          Đáp án đúng: <strong>{exercise.card.back}</strong>
-        </p>
+        <div className="space-y-2">
+          <p className="text-sm px-1" style={{ color: '#2e7d32' }}>
+            Đáp án đúng: <strong>{exercise.card.back}</strong>
+          </p>
+          <div className="bg-indigo-50 rounded-xl p-3 border border-indigo-100 mt-2">
+            <div className="flex items-center justify-between mb-1">
+              <span className="text-xs font-semibold text-indigo-600 flex items-center gap-1">✨ AI Nhận Xét</span>
+              {!aiFeedback && (
+                <button 
+                  onClick={handleAskAI}
+                  disabled={isEvaluating}
+                  className="text-[10px] px-2 py-1 bg-indigo-100 text-indigo-700 font-bold rounded-full hover:bg-indigo-200 transition-colors disabled:opacity-50"
+                >
+                  {isEvaluating ? 'Đang phân tích...' : 'Vì sao sai?'}
+                </button>
+              )}
+            </div>
+            {aiFeedback && (
+              <div className="prose prose-sm max-w-none text-gray-800 text-xs">
+                <ReactMarkdown>{aiFeedback}</ReactMarkdown>
+              </div>
+            )}
+          </div>
+        </div>
       )}
       {!answered && (
         <button onClick={handleSubmit} disabled={!value.trim()}
@@ -350,8 +391,10 @@ function ListeningEx({ exercise, onAnswer }) {
   const [answered, setAnswered] = useState(false);
   const [correct, setCorrect] = useState(null);
   const [played, setPlayed] = useState(false);
+  const [aiFeedback, setAiFeedback] = useState(null);
+  const [isEvaluating, setIsEvaluating] = useState(false);
   const inputRef = useRef(null);
-  useEffect(() => { setValue(''); setAnswered(false); setCorrect(null); setPlayed(false); }, [exercise.card.id]);
+  useEffect(() => { setValue(''); setAnswered(false); setCorrect(null); setPlayed(false); setAiFeedback(null); }, [exercise.card.id]);
 
   const handlePlay = () => {
     speakJP(exercise.card.front);
@@ -365,6 +408,22 @@ function ListeningEx({ exercise, onAnswer }) {
     setCorrect(ok); setAnswered(true);
     if (ok) setTimeout(() => onAnswer(true), 1200);
     else onAnswer(false);
+  };
+
+  const handleAskAI = async () => {
+    setIsEvaluating(true);
+    try {
+      const res = await aiTutorApi.evaluate({ 
+        userAnswer: value, 
+        question: exercise.card.front, 
+        expectedAnswer: exercise.card.back 
+      });
+      setAiFeedback(res.feedback + (res.suggestion ? `\n\n**Gợi ý:** ${res.suggestion}` : ''));
+    } catch (err) {
+      setAiFeedback('Xin lỗi, Sensei không thể chấm điểm lúc này.');
+    } finally {
+      setIsEvaluating(false);
+    }
   };
 
   return (
@@ -404,9 +463,30 @@ function ListeningEx({ exercise, onAnswer }) {
             Từ: <strong className="font-jp text-xl">{exercise.card.front}</strong>
           </p>
           {!correct && (
-            <p className="text-sm" style={{ color: '#2e7d32' }}>
-              Đáp án đúng: <strong>{exercise.card.back}</strong>
-            </p>
+            <div>
+              <p className="text-sm mb-2" style={{ color: '#2e7d32' }}>
+                Đáp án đúng: <strong>{exercise.card.back}</strong>
+              </p>
+              <div className="bg-indigo-50 rounded-xl p-3 border border-indigo-100">
+                <div className="flex items-center justify-between mb-1">
+                  <span className="text-xs font-semibold text-indigo-600 flex items-center gap-1">✨ AI Nhận Xét</span>
+                  {!aiFeedback && (
+                    <button 
+                      onClick={handleAskAI}
+                      disabled={isEvaluating}
+                      className="text-[10px] px-2 py-1 bg-indigo-100 text-indigo-700 font-bold rounded-full hover:bg-indigo-200 transition-colors disabled:opacity-50"
+                    >
+                      {isEvaluating ? 'Đang phân tích...' : 'Vì sao sai?'}
+                    </button>
+                  )}
+                </div>
+                {aiFeedback && (
+                  <div className="prose prose-sm max-w-none text-gray-800 text-xs">
+                    <ReactMarkdown>{aiFeedback}</ReactMarkdown>
+                  </div>
+                )}
+              </div>
+            </div>
           )}
         </div>
       )}

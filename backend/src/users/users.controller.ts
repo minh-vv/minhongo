@@ -13,8 +13,8 @@ import {
 } from '@nestjs/common';
 import type { Request as ExpressRequest } from 'express';
 import { FileInterceptor } from '@nestjs/platform-express';
-import { diskStorage } from 'multer';
-import { extname, join } from 'path';
+import { memoryStorage } from 'multer';
+import { extname } from 'path';
 import { IsOptional, IsString, MaxLength, MinLength } from 'class-validator';
 import { JwtAuthGuard } from 'src/auth/guards/jwt-auth.guard';
 import { UsersService } from './users.service';
@@ -44,15 +44,8 @@ interface RequestWithUser extends ExpressRequest {
   user: { id: string; email: string; isAdmin?: boolean };
 }
 
-/** Cấu hình multer: lưu vào uploads/avatars/, đặt tên theo userId */
-const avatarStorage = diskStorage({
-  destination: join(process.cwd(), 'uploads', 'avatars'),
-  filename: (req, file, cb) => {
-    const userId = (req as unknown as RequestWithUser).user?.id || 'unknown';
-    const ext = extname(file.originalname).toLowerCase();
-    cb(null, `${userId}${ext}`);
-  },
-});
+/** Multer: giữ file trong memory, upload lên S3 sau */
+const avatarMemoryStorage = memoryStorage();
 
 function imageFileFilter(
   _req: unknown,
@@ -106,7 +99,7 @@ export class UsersController {
   @UseGuards(JwtAuthGuard)
   @UseInterceptors(
     FileInterceptor('avatar', {
-      storage: avatarStorage,
+      storage: avatarMemoryStorage,
       limits: { fileSize: 5 * 1024 * 1024 }, // 5 MB
       fileFilter: imageFileFilter,
     }),
@@ -116,13 +109,8 @@ export class UsersController {
     @Request() req: RequestWithUser,
   ) {
     if (!file) throw new BadRequestException('Vui lòng chọn file ảnh');
-
-    // Xây dựng base URL từ request để trả về URL đầy đủ
-    const protocol = req.protocol;
-    const host = req.get('host');
-    const serverUrl = `${protocol}://${host}`;
-
-    return this.usersService.updateAvatar(req.user.id, file.filename, serverUrl);
+    const ext = extname(file.originalname).toLowerCase();
+    return this.usersService.updateAvatar(req.user.id, file.buffer, file.mimetype, ext);
   }
 
   @Delete('me/avatar')

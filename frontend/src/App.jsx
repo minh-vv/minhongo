@@ -11,6 +11,7 @@ import KanjiPage from './pages/KanjiPage';
 import VocabularyPage from './pages/VocabularyPage';
 import GrammarPage from './pages/GrammarPage';
 import RoadmapPage from './pages/RoadmapPage';
+import CustomRoadmapPage from './pages/CustomRoadmapPage';
 import SelfStudyPage from './pages/SelfStudyPage';
 import DeckDetailPage from './pages/DeckDetailPage';
 import StudyPage from './pages/StudyPage';
@@ -32,6 +33,7 @@ import ProgressPage from './pages/ProgressPage';
 import LeaderboardPage from './pages/LeaderboardPage';
 import CommunityPage from './pages/CommunityPage';
 import UpgradePage from './pages/UpgradePage';
+import AiChatPage from './pages/AiChatPage';
 
 const queryClient = new QueryClient();
 
@@ -72,6 +74,7 @@ function AppRoutes() {
         <Route path="/vocabulary" element={<VocabularyPage />} />
         <Route path="/grammar" element={<GrammarPage />} />
         <Route path="/roadmap" element={<RoadmapPage />} />
+        <Route path="/custom-roadmap/:id" element={<CustomRoadmapPage />} />
         <Route path="/self-study" element={<SelfStudyPage />} />
         <Route path="/deck/:deckId" element={<DeckDetailPage />} />
         <Route path="/study/:deckId" element={<StudyPage />} />
@@ -91,6 +94,7 @@ function AppRoutes() {
         <Route path="/leaderboard" element={<LeaderboardPage />} />
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/upgrade" element={<UpgradePage />} />
+        <Route path="/ai-chat" element={<AiChatPage />} />
         {/* Legacy redirects */}
         <Route path="/hantu" element={<Navigate to="/kanji" replace />} />
         <Route path="/tuvung" element={<Navigate to="/vocabulary" replace />} />

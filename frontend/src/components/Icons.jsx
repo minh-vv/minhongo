@@ -24,6 +24,7 @@ export {
   Shield as IconShield,
   FolderOpen as IconFolder,
   Settings as IconSettings,
+  Bot as IconBot,
 
   // ── User / auth ───────────────────────────────────────────
   User as IconUser,
