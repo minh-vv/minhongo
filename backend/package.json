@@ -18,7 +18,11 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "seed": "ts-node prisma/seed.ts"
+    "seed": "ts-node prisma/seed.ts",
+    "crawl:jisho": "ts-node prisma/scripts/crawl-jisho.ts",
+    "build:lessons": "ts-node prisma/scripts/build-lessons.ts",
+    "generate:theory": "ts-node prisma/scripts/generate-theory.ts",
+    "translate": "ts-node prisma/scripts/translate-cards.ts"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1049.0",

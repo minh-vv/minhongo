@@ -34,74 +34,73 @@ export default function StudyPage() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-xl text-gray-500">Đang tải...</div>
+      <div className="flex flex-col items-center justify-center py-32 animate-fade-up">
+        <div className="animate-spin w-8 h-8 border-2 border-outline-variant border-t-secondary rounded-full" />
+        <p className="text-on-surface-variant text-sm font-semibold mt-4">Đang tải dữ liệu học...</p>
       </div>
     );
   }
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-center">
-          <p className="text-xl text-red-500 mb-4">Có lỗi xảy ra!</p>
-          <p className="text-gray-500">{error.message}</p>
-          <Link
-            to="/dashboard"
-            className="mt-4 inline-block px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
-          >
-            Quay lại Dashboard
-          </Link>
-        </div>
+      <div className="max-w-md mx-auto p-8 text-center py-16 animate-fade-up">
+        <p className="font-headline text-lg font-bold text-secondary mb-2">Có lỗi xảy ra!</p>
+        <p className="text-on-surface-variant text-sm mb-4">{error.message}</p>
+        <Link
+          to="/dashboard"
+          className="px-4 py-2 border border-outline-variant bg-surface hover:bg-surface-container text-on-surface text-xs font-bold uppercase tracking-wider transition-all"
+        >
+          Quay lại Dashboard
+        </Link>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8 px-4">
+    <div className="max-w-3xl mx-auto px-4 py-8 space-y-6 animate-fade-up">
       {/* Stats Bar */}
       {stats && (
-        <div className="max-w-2xl mx-auto mb-6">
-          <div className="bg-white rounded-xl p-4 shadow-sm flex justify-around text-center">
+        <div className="max-w-2xl mx-auto">
+          <div className="bg-surface-container-lowest border border-outline-variant/30 sharp-shadow-sm flex justify-around py-4 text-center">
             <div>
-              <div className="text-2xl font-bold text-blue-600">{stats.newCards}</div>
-              <div className="text-xs text-gray-500">Mới</div>
+              <div className="text-2xl font-black text-blue-600 leading-none">{stats.newCards}</div>
+              <div className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mt-1.5">Mới</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-orange-500">{stats.learning}</div>
-              <div className="text-xs text-gray-500">Đang học</div>
+              <div className="text-2xl font-black text-amber-600 leading-none">{stats.learning}</div>
+              <div className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mt-1.5">Đang học</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-green-500">{stats.review}</div>
-              <div className="text-xs text-gray-500"> Ôn tập</div>
+              <div className="text-2xl font-black text-green-600 leading-none">{stats.review}</div>
+              <div className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mt-1.5">Ôn tập</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-purple-500">{stats.mastered}</div>
-              <div className="text-xs text-gray-500">Thành thạo</div>
+              <div className="text-2xl font-black text-purple-600 leading-none">{stats.mastered}</div>
+              <div className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mt-1.5">Thành thạo</div>
             </div>
           </div>
         </div>
       )}
 
       {/* Mode Toggle */}
-      <div className="max-w-2xl mx-auto mb-6">
-        <div className="flex bg-gray-100 rounded-lg p-1">
+      <div className="max-w-2xl mx-auto">
+        <div className="flex bg-surface-container-low border border-outline-variant/30 p-1">
           <Link
             to={`/study/${deckId}?mode=normal`}
-            className={`flex-1 py-2 px-4 rounded-md text-center font-medium transition-colors ${
+            className={`flex-1 py-2 text-center text-xs font-bold uppercase tracking-wider transition-colors ${
               mode === 'normal'
-                ? 'bg-white text-blue-600 shadow-sm'
-                : 'text-gray-600 hover:text-gray-900'
+                ? 'bg-surface-container-lowest text-secondary shadow-sm'
+                : 'text-on-surface-variant hover:text-on-surface'
             }`}
           >
             Học thường
           </Link>
           <Link
             to={`/study/${deckId}?mode=srs`}
-            className={`flex-1 py-2 px-4 rounded-md text-center font-medium transition-colors ${
+            className={`flex-1 py-2 text-center text-xs font-bold uppercase tracking-wider transition-colors ${
               mode === 'srs'
-                ? 'bg-white text-blue-600 shadow-sm'
-                : 'text-gray-600 hover:text-gray-900'
+                ? 'bg-surface-container-lowest text-secondary shadow-sm'
+                : 'text-on-surface-variant hover:text-on-surface'
             }`}
           >
             SRS ({dueData?.dueCount || 0} due)

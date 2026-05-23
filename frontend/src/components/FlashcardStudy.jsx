@@ -47,12 +47,13 @@ export default function FlashcardStudy({ deck, onComplete }) {
   if (!cards.length) {
     return (
       <div className="text-center py-20 flex flex-col items-center">
-        <p className="text-xl text-slate-500 font-medium mb-6">Bộ thẻ này chưa có thẻ nào.</p>
+        <p className="text-sm font-medium text-on-surface-variant mb-6">Bộ thẻ này chưa có thẻ ghi nhớ nào.</p>
         <button
-          onClick={() => navigate('/dashboard')}
-          className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 shadow-lg shadow-indigo-200 transition-all"
+          onClick={() => navigate(`/deck/${deck.id}`)}
+          className="px-5 py-2.5 text-on-secondary hover:bg-secondary-dim text-xs font-bold uppercase tracking-wider transition-all"
+          style={{ background: 'var(--secondary)' }}
         >
-          Quay lại Dashboard
+          Quay lại bộ thẻ
         </button>
       </div>
     );
@@ -61,31 +62,31 @@ export default function FlashcardStudy({ deck, onComplete }) {
   return (
     <div className="max-w-2xl mx-auto px-4 md:px-0">
       {/* Header */}
-      <div className="mb-8">
+      <div className="mb-6">
         <button
-          onClick={() => navigate('/dashboard')}
-          className="inline-flex items-center gap-2 text-sm font-semibold text-slate-500 hover:text-indigo-600 transition-colors mb-6"
+          onClick={() => navigate(`/deck/${deck.id}`)}
+          className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors mb-6"
         >
-          <ArrowLeftCircle className="w-5 h-5" />
-          Quay lại
+          <ArrowLeftCircle className="w-4 h-4" />
+          Quay lại bộ thẻ
         </button>
 
         <div className="flex items-end justify-between mb-3">
           <div>
-            <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">{deck.name}</h1>
-            <p className="text-sm font-medium text-slate-400 mt-1">Ôn tập thẻ ghi nhớ</p>
+            <h1 className="font-headline text-2xl font-bold text-on-surface tracking-tight">{deck.name}</h1>
+            <p className="text-xs font-bold uppercase tracking-widest text-on-surface-variant mt-1">Ôn tập thẻ ghi nhớ</p>
           </div>
           <div className="text-right">
-            <span className="text-2xl font-bold text-indigo-600">{currentIndex + 1}</span>
-            <span className="text-slate-400 font-medium"> / {cards.length}</span>
+            <span className="text-2xl font-black text-secondary">{currentIndex + 1}</span>
+            <span className="text-on-surface-variant text-sm font-medium"> / {cards.length}</span>
           </div>
         </div>
 
         {/* Progress Bar */}
-        <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden shadow-inner">
+        <div className="w-full h-2 bg-surface-container border border-outline-variant/20 overflow-hidden">
           <div
-            className="h-full bg-gradient-to-r from-indigo-500 to-violet-500 rounded-full transition-all duration-500 ease-out"
-            style={{ width: `${progress}%` }}
+            className="h-full transition-all duration-500 ease-out"
+            style={{ width: `${progress}%`, background: 'var(--secondary)' }}
           />
         </div>
       </div>
@@ -101,55 +102,56 @@ export default function FlashcardStudy({ deck, onComplete }) {
         >
           {/* Front */}
           <div
-            className="absolute inset-0 bg-white/80 backdrop-blur-xl border border-slate-100 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col items-center justify-center p-8 group-hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all [backface-visibility:hidden]"
+            className="absolute inset-0 bg-surface-container-lowest border border-outline-variant sharp-shadow flex flex-col items-center justify-center p-8 transition-all [backface-visibility:hidden]"
           >
-            <div className="absolute top-6 left-8 text-xs font-bold tracking-widest text-slate-400 uppercase">
+            <div className="absolute top-6 left-8 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">
               Mặt trước
             </div>
             {currentCard.jlptLevel && (
-              <div className="absolute top-6 right-8 px-3 py-1 bg-indigo-50 text-indigo-600 text-xs font-bold rounded-full border border-indigo-100">
+              <div className="absolute top-6 right-8 px-2.5 py-0.5 bg-amber-400/10 border border-amber-400/30 text-amber-800 text-[10px] font-bold uppercase tracking-wider">
                 N{currentCard.jlptLevel}
               </div>
             )}
             
-            <p className="text-6xl md:text-7xl font-extrabold text-slate-800 text-center mb-6 tracking-tight">
+            <p className="font-jp text-5xl md:text-6xl font-bold text-on-surface text-center mb-4 tracking-tight leading-normal">
               {currentCard.front}
             </p>
             {currentCard.romaji && (
-              <p className="text-xl md:text-2xl text-slate-400 font-medium tracking-wide">
+              <p className="text-lg md:text-xl text-on-surface-variant font-medium tracking-wide">
                 {currentCard.romaji}
               </p>
             )}
 
-            <div className="absolute bottom-8 flex items-center gap-2 text-sm font-semibold text-slate-300 group-hover:text-indigo-400 transition-colors">
-              <RotateCw className="w-4 h-4" /> Nhấn để lật
+            <div className="absolute bottom-8 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-on-surface-variant hover:text-secondary transition-colors">
+              <RotateCw className="w-3.5 h-3.5" /> Nhấn để lật
             </div>
           </div>
 
           {/* Back */}
           <div
-            className="absolute inset-0 bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-600 rounded-[2rem] shadow-[0_8px_30px_rgb(79,70,229,0.3)] flex flex-col items-center justify-center p-8 text-white [backface-visibility:hidden]"
+            className="absolute inset-0 bg-gradient-to-br from-[#801c1c] to-[#c62828] sharp-shadow flex flex-col items-center justify-center p-8 text-white [backface-visibility:hidden] relative overflow-hidden"
             style={{ transform: 'rotateY(180deg)' }}
           >
-            <div className="absolute top-6 left-8 text-xs font-bold tracking-widest text-indigo-200 uppercase">
+            <div className="absolute inset-0 asanoha-bg opacity-10 pointer-events-none" />
+            <div className="absolute top-6 left-8 text-[10px] font-bold uppercase tracking-widest text-white/60">
               Mặt sau
             </div>
             
-            <p className="text-4xl md:text-5xl font-bold text-center mb-8 drop-shadow-sm">
+            <p className="text-3xl md:text-4xl font-bold text-center mb-6 leading-relaxed">
               {currentCard.back}
             </p>
             
             {currentCard.example && (
-              <div className="mt-2 p-5 bg-white/10 backdrop-blur-md rounded-2xl w-full max-w-sm border border-white/20 shadow-inner">
-                <p className="text-xs text-indigo-200 uppercase font-bold mb-2 tracking-wider">Ví dụ</p>
-                <p className="text-lg md:text-xl text-white font-medium leading-relaxed">
+              <div className="mt-2 p-5 bg-white/10 backdrop-blur-md border border-white/20 shadow-inner w-full max-w-sm">
+                <p className="text-[10px] text-white/60 uppercase font-bold mb-1.5 tracking-wider">Ví dụ câu</p>
+                <p className="text-base md:text-lg text-white font-medium leading-relaxed font-jp">
                   {currentCard.example}
                 </p>
               </div>
             )}
 
-            <div className="absolute bottom-8 flex items-center gap-2 text-sm font-medium text-indigo-200 group-hover:text-white transition-colors">
-              <RotateCw className="w-4 h-4" /> Nhấn để lật lại
+            <div className="absolute bottom-8 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white/70 hover:text-white transition-colors">
+              <RotateCw className="w-3.5 h-3.5" /> Nhấn để lật lại
             </div>
           </div>
         </div>
@@ -160,31 +162,32 @@ export default function FlashcardStudy({ deck, onComplete }) {
         <button
           onClick={handlePrev}
           disabled={currentIndex === 0}
-          className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-white border border-slate-200 text-slate-600 rounded-2xl hover:bg-slate-50 hover:border-slate-300 disabled:opacity-40 disabled:cursor-not-allowed transition-all font-semibold shadow-sm"
+          className="flex-1 flex items-center justify-center gap-2 px-6 py-3.5 border border-outline-variant bg-surface-container-lowest text-on-surface hover:bg-surface-container text-xs font-bold uppercase tracking-wider disabled:opacity-40 disabled:cursor-not-allowed transition-all shadow-sm"
         >
-          <ArrowLeft className="w-5 h-5" /> <span className="hidden sm:inline">Trước</span>
+          <ArrowLeft className="w-4 h-4" /> <span className="hidden sm:inline">Trước</span>
         </button>
 
         {currentIndex === cards.length - 1 ? (
           <button
             onClick={handleComplete}
-            className="flex-[2] flex items-center justify-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-2xl font-bold shadow-[0_8px_20px_rgb(16,185,129,0.3)] transition-all hover:-translate-y-0.5 active:translate-y-0"
+            className="flex-[2] flex items-center justify-center gap-2 px-8 py-3.5 text-on-secondary hover:bg-secondary-dim text-xs font-bold uppercase tracking-wider transition-all shadow-sm"
+            style={{ background: 'var(--secondary)' }}
           >
-            Hoàn thành <Check className="w-5 h-5" />
+            Hoàn thành <Check className="w-4 h-4" />
           </button>
         ) : (
           <button
             onClick={handleNext}
-            className="flex-[2] flex items-center justify-center gap-2 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-2xl font-bold shadow-[0_8px_20px_rgb(79,70,229,0.3)] transition-all hover:-translate-y-0.5 active:translate-y-0"
+            className="flex-[2] flex items-center justify-center gap-2 px-8 py-3.5 bg-primary hover:bg-primary-container text-on-primary text-xs font-bold uppercase tracking-wider transition-all shadow-sm"
           >
-            Tiếp theo <ArrowRight className="w-5 h-5" />
+            Tiếp theo <ArrowRight className="w-4 h-4" />
           </button>
         )}
       </div>
 
       {/* Stats Footer */}
       <div className="mt-8 text-center">
-        <span className="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 text-slate-500 rounded-full text-sm font-semibold">
+        <span className="inline-flex items-center gap-2 px-4 py-1.5 border border-outline-variant/30 bg-surface-container-low text-on-surface-variant text-xs font-bold uppercase tracking-wider">
           Đã học: {studiedCards.size} / {cards.length} thẻ
         </span>
       </div>
