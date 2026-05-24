@@ -175,17 +175,17 @@ export default function SRSStudy({ dueData, onComplete }) {
             }}
           >
             <div className="absolute inset-0 asanoha-bg opacity-10 pointer-events-none" />
-            <p className="text-[10px] font-bold uppercase tracking-widest text-white/60 mb-2">Nghĩa tiếng Việt</p>
-            <p className="text-2xl md:text-3xl font-bold text-center mb-4 leading-relaxed">
+            <p className="text-[10px] font-bold uppercase tracking-widest text-white/60 mb-2" style={{ color: 'rgba(255,255,255,0.6)' }}>Nghĩa tiếng Việt</p>
+            <p className="text-2xl md:text-3xl font-bold text-center mb-4 leading-relaxed text-white" style={{ color: '#ffffff' }}>
               {currentCard.back}
             </p>
             {currentCard.example && (
               <div className="mt-2 p-4 bg-white/10 backdrop-blur-md border border-white/20 shadow-inner w-full max-w-md">
-                <p className="text-[10px] text-white/60 uppercase font-bold mb-1 tracking-wider">Ví dụ</p>
-                <p className="text-sm md:text-base text-white font-medium leading-relaxed font-jp">{currentCard.example}</p>
+                <p className="text-[10px] text-white/60 uppercase font-bold mb-1 tracking-wider" style={{ color: 'rgba(255,255,255,0.6)' }}>Ví dụ</p>
+                <p className="text-sm md:text-base text-white font-medium leading-relaxed font-jp" style={{ color: '#ffffff' }}>{currentCard.example}</p>
               </div>
             )}
-            <p className="absolute bottom-6 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white/70 hover:text-white transition-colors">
+            <p className="absolute bottom-6 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white/70 hover:text-white transition-colors" style={{ color: 'rgba(255,255,255,0.7)' }}>
               Nhấn để lật lại
             </p>
           </div>

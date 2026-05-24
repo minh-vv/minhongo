@@ -217,7 +217,7 @@ function MultipleChoiceEx({ exercise, onAnswer }) {
               style={{ background: 'rgba(0,0,0,0.06)' }}>
               {String.fromCharCode(65 + i)}
             </span>
-            <p className="leading-relaxed text-on-surface flex-1">{opt}</p>
+            <p className="leading-relaxed text-inherit flex-1">{opt}</p>
           </button>
         ))}
       </div>

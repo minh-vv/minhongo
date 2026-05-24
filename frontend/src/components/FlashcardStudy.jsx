@@ -133,24 +133,24 @@ export default function FlashcardStudy({ deck, onComplete }) {
             style={{ transform: 'rotateY(180deg)' }}
           >
             <div className="absolute inset-0 asanoha-bg opacity-10 pointer-events-none" />
-            <div className="absolute top-6 left-8 text-[10px] font-bold uppercase tracking-widest text-white/60">
+            <div className="absolute top-6 left-8 text-[10px] font-bold uppercase tracking-widest text-white/60" style={{ color: 'rgba(255,255,255,0.6)' }}>
               Mặt sau
             </div>
             
-            <p className="text-3xl md:text-4xl font-bold text-center mb-6 leading-relaxed">
+            <p className="text-3xl md:text-4xl font-bold text-center mb-6 leading-relaxed text-white" style={{ color: '#ffffff' }}>
               {currentCard.back}
             </p>
             
             {currentCard.example && (
               <div className="mt-2 p-5 bg-white/10 backdrop-blur-md border border-white/20 shadow-inner w-full max-w-sm">
-                <p className="text-[10px] text-white/60 uppercase font-bold mb-1.5 tracking-wider">Ví dụ câu</p>
-                <p className="text-base md:text-lg text-white font-medium leading-relaxed font-jp">
+                <p className="text-[10px] text-white/60 uppercase font-bold mb-1.5 tracking-wider" style={{ color: 'rgba(255,255,255,0.6)' }}>Ví dụ câu</p>
+                <p className="text-base md:text-lg text-white font-medium leading-relaxed font-jp" style={{ color: '#ffffff' }}>
                   {currentCard.example}
                 </p>
               </div>
             )}
 
-            <div className="absolute bottom-8 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white/70 hover:text-white transition-colors">
+            <div className="absolute bottom-8 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white/70 hover:text-white transition-colors" style={{ color: 'rgba(255,255,255,0.7)' }}>
               <RotateCw className="w-3.5 h-3.5" /> Nhấn để lật lại
             </div>
           </div>
