@@ -7,7 +7,7 @@ import {
   IconHome, IconGlobe, IconList, IconBook, IconMap, IconLayers,
   IconChart, IconTrophy, IconPeople, IconStar, IconShield,
   IconFolder, IconSettings, IconUser, IconLogOut, IconChevronDown,
-  IconCheck, IconKanji, IconBot,
+  IconCheck, IconKanji, IconBot, IconHeadphones,
 } from './Icons';
 
 const LANGUAGES = [
@@ -21,6 +21,7 @@ const navItems = [
   { path: '/kanji',      label: 'Hán tự',                  icon: <IconKanji /> },
   { path: '/vocabulary', label: 'Từ vựng',                 icon: <IconList /> },
   { path: '/grammar',    label: 'Ngữ pháp',                icon: <IconBook /> },
+  { path: '/listening',  label: 'Luyện nghe',              icon: <IconHeadphones /> },
   { path: '/ai-chat',    label: 'Luyện Chat AI',           icon: <IconBot />,    badge: 'Mới' },
   { path: '/roadmap',    label: 'Lộ trình',                icon: <IconMap /> },
   { path: '/self-study', label: 'Học Flashcard',           icon: <IconLayers /> },
@@ -77,41 +78,53 @@ export default function AppLayout() {
         </Link>
 
         {isAuthenticated ? (
-          <div className="relative" ref={dropdownRef}>
-            <button
-              onClick={() => setDropdownOpen((o) => !o)}
-              className="flex items-center gap-1.5 px-2 py-1 hover:bg-surface-container transition-colors"
+          <div className="flex items-center gap-2">
+            {/* Leaderboard Link next to avatar */}
+            <Link
+              to="/leaderboard"
+              className="p-1.5 hover:bg-surface-container transition-colors text-on-surface-variant hover:text-on-surface flex items-center justify-center"
+              title="Bảng xếp hạng"
             >
-              <div className="w-7 h-7 overflow-hidden" style={{ border: '1.5px solid rgba(198,40,40,0.3)' }}>
-                {user?.avatarUrl ? (
-                  <img src={user.avatarUrl} alt="Avatar" className="w-full h-full object-cover" />
-                ) : (
-                  <div className="w-full h-full bg-red-100 flex items-center justify-center">
-                    <span className="text-[11px] font-bold" style={{ color: 'var(--secondary)' }}>{initials}</span>
-                  </div>
-                )}
-              </div>
-              <span className="text-xs font-medium text-on-surface-variant hidden sm:block">{displayName}</span>
-              <IconChevronDown className="w-3 h-3" />
-            </button>
+              <IconTrophy className="w-5 h-5" />
+            </Link>
 
-            {dropdownOpen && (
-              <div className="absolute right-0 top-full mt-1 w-52 bg-surface-container-lowest border border-outline-variant/40 py-1 z-50 sharp-shadow">
-                <div className="px-4 py-2.5 border-b border-outline-variant/20">
-                  <p className="text-sm font-semibold text-on-surface truncate">{displayName}</p>
-                  <p className="text-xs text-on-surface-variant truncate">{user?.email}</p>
+            {/* Dropdown Profile */}
+            <div className="relative" ref={dropdownRef}>
+              <button
+                onClick={() => setDropdownOpen((o) => !o)}
+                className="flex items-center gap-1.5 px-2 py-1 hover:bg-surface-container transition-colors"
+              >
+                <div className="w-7 h-7 overflow-hidden" style={{ border: '1.5px solid rgba(198,40,40,0.3)' }}>
+                  {user?.avatarUrl ? (
+                    <img src={user.avatarUrl} alt="Avatar" className="w-full h-full object-cover" />
+                  ) : (
+                    <div className="w-full h-full bg-red-100 flex items-center justify-center">
+                      <span className="text-[11px] font-bold" style={{ color: 'var(--secondary)' }}>{initials}</span>
+                    </div>
+                  )}
                 </div>
-                <Link to="/profile" onClick={() => setDropdownOpen(false)}
-                  className="flex items-center gap-2.5 px-4 py-2 text-sm text-on-surface hover:bg-surface-container transition-colors">
-                  <IconUser /> Hồ sơ cá nhân
-                </Link>
-                <button onClick={handleLogout}
-                  className="w-full flex items-center gap-2.5 px-4 py-2 text-sm hover:bg-surface-container transition-colors"
-                  style={{ color: 'var(--secondary)' }}>
-                  <IconLogOut /> Đăng xuất
-                </button>
-              </div>
-            )}
+                <span className="text-xs font-medium text-on-surface-variant hidden sm:block">{displayName}</span>
+                <IconChevronDown className="w-3 h-3" />
+              </button>
+
+              {dropdownOpen && (
+                <div className="absolute right-0 top-full mt-1 w-52 bg-surface-container-lowest border border-outline-variant/40 py-1 z-50 sharp-shadow">
+                  <div className="px-4 py-2.5 border-b border-outline-variant/20">
+                    <p className="text-sm font-semibold text-on-surface truncate">{displayName}</p>
+                    <p className="text-xs text-on-surface-variant truncate">{user?.email}</p>
+                  </div>
+                  <Link to="/profile" onClick={() => setDropdownOpen(false)}
+                    className="flex items-center gap-2.5 px-4 py-2 text-sm text-on-surface hover:bg-surface-container transition-colors">
+                    <IconUser /> Hồ sơ cá nhân
+                  </Link>
+                  <button onClick={handleLogout}
+                    className="w-full flex items-center gap-2.5 px-4 py-2 text-sm hover:bg-surface-container transition-colors"
+                    style={{ color: 'var(--secondary)' }}>
+                    <IconLogOut /> Đăng xuất
+                  </button>
+                </div>
+              )}
+            </div>
           </div>
         ) : (
           <div className="flex items-center gap-3">

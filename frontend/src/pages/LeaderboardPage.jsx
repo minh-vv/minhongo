@@ -33,13 +33,14 @@ export default function LeaderboardPage() {
   const { isAuthenticated, user } = useAuth();
   const [period, setPeriod] = useState(30);
 
-  if (!isAuthenticated) return <Navigate to="/login" replace />;
-
   const { data, isLoading } = useQuery({
     queryKey: ['leaderboard', period],
     queryFn: () => flashcardApi.getLeaderboard(period, 20),
     staleTime: 60_000,
+    enabled: isAuthenticated,
   });
+
+  if (!isAuthenticated) return <Navigate to="/login" replace />;
 
   const rows = data?.leaderboard || [];
   const me = rows.find((r) => r.userId === user?.id);

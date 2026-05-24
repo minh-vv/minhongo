@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useMutation } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
@@ -17,6 +17,16 @@ export default function SRSStudy({ dueData, onComplete }) {
   const [showResult, setShowResult] = useState(false);
   const [lastResult, setLastResult] = useState(null);
 
+  const timerRef = useRef(null);
+
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) {
+        clearTimeout(timerRef.current);
+      }
+    };
+  }, []);
+
   const cards = dueData?.dueCards ?? [];
   const currentCard = cards[currentIndex];
   const progress = cards.length > 0 ? ((currentIndex + 1) / cards.length) * 100 : 0;
@@ -28,7 +38,7 @@ export default function SRSStudy({ dueData, onComplete }) {
       setShowResult(true);
 
       // Tự động chuyển sang thẻ tiếp theo sau 1.5s
-      setTimeout(() => {
+      timerRef.current = setTimeout(() => {
         setShowResult(false);
         setLastResult(null);
         setIsFlipped(false);
@@ -205,7 +215,7 @@ export default function SRSStudy({ dueData, onComplete }) {
           <div className="grid grid-cols-4 gap-2">
             <button
               onClick={() => handleReview(REVIEW_QUALITY.AGAIN)}
-              disabled={reviewMutation.isPending}
+              disabled={reviewMutation.isPending || showResult}
               className="py-3 bg-red-700 text-white hover:bg-red-800 disabled:opacity-50 transition-colors sharp-shadow-sm border border-red-800"
             >
               <span className="block text-sm font-bold uppercase tracking-wider">Again</span>
@@ -213,7 +223,7 @@ export default function SRSStudy({ dueData, onComplete }) {
             </button>
             <button
               onClick={() => handleReview(REVIEW_QUALITY.HARD)}
-              disabled={reviewMutation.isPending}
+              disabled={reviewMutation.isPending || showResult}
               className="py-3 bg-amber-600 text-white hover:bg-amber-700 disabled:opacity-50 transition-colors sharp-shadow-sm border border-amber-700"
             >
               <span className="block text-sm font-bold uppercase tracking-wider">Hard</span>
@@ -223,7 +233,7 @@ export default function SRSStudy({ dueData, onComplete }) {
             </button>
             <button
               onClick={() => handleReview(REVIEW_QUALITY.GOOD)}
-              disabled={reviewMutation.isPending}
+              disabled={reviewMutation.isPending || showResult}
               className="py-3 bg-green-700 text-white hover:bg-green-800 disabled:opacity-50 transition-colors sharp-shadow-sm border border-green-800"
             >
               <span className="block text-sm font-bold uppercase tracking-wider">Good</span>
@@ -233,7 +243,7 @@ export default function SRSStudy({ dueData, onComplete }) {
             </button>
             <button
               onClick={() => handleReview(REVIEW_QUALITY.EASY)}
-              disabled={reviewMutation.isPending}
+              disabled={reviewMutation.isPending || showResult}
               className="py-3 bg-blue-700 text-white hover:bg-blue-800 disabled:opacity-50 transition-colors sharp-shadow-sm border border-blue-800"
             >
               <span className="block text-sm font-bold uppercase tracking-wider">Easy</span>

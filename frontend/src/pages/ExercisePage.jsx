@@ -7,7 +7,7 @@
  *  3. arrangement      — Sắp xếp câu: click từng từ đúng thứ tự
  *  4. listening        — Nghe-điền: nghe TTS rồi gõ nghĩa
  */
-import { useState, useCallback, useMemo, useRef, useEffect } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import ReactMarkdown from 'react-markdown';
@@ -189,7 +189,6 @@ function SetupScreen({ deck, onStart }) {
 function MultipleChoiceEx({ exercise, onAnswer }) {
   const [selected, setSelected] = useState(null);
   const [answered, setAnswered] = useState(false);
-  useEffect(() => { setSelected(null); setAnswered(false); }, [exercise.card.id]);
 
   const handleSelect = (opt) => {
     if (answered) return;
@@ -238,7 +237,7 @@ function FillInBlankEx({ exercise, onAnswer }) {
   const [aiFeedback, setAiFeedback] = useState(null);
   const [isEvaluating, setIsEvaluating] = useState(false);
   const inputRef = useRef(null);
-  useEffect(() => { setValue(''); setAnswered(false); setCorrect(null); setAiFeedback(null); inputRef.current?.focus(); }, [exercise.card.id]);
+  useEffect(() => { inputRef.current?.focus(); }, []);
 
   const handleSubmit = () => {
     if (answered || !value.trim()) return;
@@ -257,7 +256,7 @@ function FillInBlankEx({ exercise, onAnswer }) {
         expectedAnswer: exercise.card.back 
       });
       setAiFeedback(res.feedback + (res.suggestion ? `\n\n**Gợi ý:** ${res.suggestion}` : ''));
-    } catch (err) {
+    } catch {
       setAiFeedback('Xin lỗi, Sensei không thể chấm điểm lúc này.');
     } finally {
       setIsEvaluating(false);
@@ -320,7 +319,6 @@ function ArrangementEx({ exercise, onAnswer }) {
   const [remaining, setRemaining] = useState(exercise.shuffled);
   const [answered, setAnswered] = useState(false);
   const [correct, setCorrect] = useState(null);
-  useEffect(() => { setPlaced([]); setRemaining(exercise.shuffled); setAnswered(false); setCorrect(null); }, [exercise.card.id]);
 
   const addWord = (word, idx) => {
     if (answered) return;
@@ -398,7 +396,6 @@ function ListeningEx({ exercise, onAnswer }) {
   const [aiFeedback, setAiFeedback] = useState(null);
   const [isEvaluating, setIsEvaluating] = useState(false);
   const inputRef = useRef(null);
-  useEffect(() => { setValue(''); setAnswered(false); setCorrect(null); setPlayed(false); setAiFeedback(null); }, [exercise.card.id]);
 
   const handlePlay = () => {
     speakJP(exercise.card.front);
@@ -423,7 +420,7 @@ function ListeningEx({ exercise, onAnswer }) {
         expectedAnswer: exercise.card.back 
       });
       setAiFeedback(res.feedback + (res.suggestion ? `\n\n**Gợi ý:** ${res.suggestion}` : ''));
-    } catch (err) {
+    } catch {
       setAiFeedback('Xin lỗi, Sensei không thể chấm điểm lúc này.');
     } finally {
       setIsEvaluating(false);
@@ -510,7 +507,7 @@ function ListeningEx({ exercise, onAnswer }) {
 }
 
 // ===== Exercise Runner =====
-function ExerciseRunner({ exercises, deckId, deckName, onComplete }) {
+function ExerciseRunner({ exercises, onComplete }) {
   const [idx, setIdx] = useState(0);
   const [results, setResults] = useState([]);
   const [answered, setAnswered] = useState(false);
@@ -752,8 +749,6 @@ export default function ExercisePage() {
   if (phase === 'exercises') return (
     <ExerciseRunner
       exercises={exercises}
-      deckId={deckId}
-      deckName={deck.name}
       onComplete={handleComplete}
     />
   );

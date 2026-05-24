@@ -165,18 +165,20 @@ export default function ProgressPage() {
   const { isAuthenticated } = useAuth();
   const [period, setPeriod] = useState(30);
 
-  if (!isAuthenticated) return <Navigate to="/login" replace />;
-
   const { data, isLoading } = useQuery({
     queryKey: ['studyHistory', period],
     queryFn: () => flashcardApi.getStudyHistory(period),
     staleTime: 60_000,
+    enabled: isAuthenticated,
   });
   const { data: gamification, isLoading: loadingGamification } = useQuery({
     queryKey: ['gamificationSummary'],
     queryFn: flashcardApi.getGamificationSummary,
     staleTime: 60_000,
+    enabled: isAuthenticated,
   });
+
+  if (!isAuthenticated) return <Navigate to="/login" replace />;
 
   const summary = data?.summary;
   const history = data?.history || [];

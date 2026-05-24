@@ -34,6 +34,7 @@ import LeaderboardPage from './pages/LeaderboardPage';
 import CommunityPage from './pages/CommunityPage';
 import UpgradePage from './pages/UpgradePage';
 import AiChatPage from './pages/AiChatPage';
+import ListeningPage from './pages/ListeningPage';
 
 const queryClient = new QueryClient();
 
@@ -95,6 +96,7 @@ function AppRoutes() {
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/upgrade" element={<UpgradePage />} />
         <Route path="/ai-chat" element={<AiChatPage />} />
+        <Route path="/listening" element={<ListeningPage />} />
         {/* Legacy redirects */}
         <Route path="/hantu" element={<Navigate to="/kanji" replace />} />
         <Route path="/tuvung" element={<Navigate to="/vocabulary" replace />} />

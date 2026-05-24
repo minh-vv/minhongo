@@ -54,10 +54,11 @@ function AvatarSection({ profile, onAvatarChange, isUploading }) {
     onAvatarChange(file);
   };
 
-  // Sync preview khi avatarUrl thay đổi từ server
-  useEffect(() => {
-    if (profile?.avatarUrl) setPreview(null);
-  }, [profile?.avatarUrl]);
+  const [prevAvatarUrl, setPrevAvatarUrl] = useState(profile?.avatarUrl);
+  if (profile?.avatarUrl !== prevAvatarUrl) {
+    setPrevAvatarUrl(profile?.avatarUrl);
+    setPreview(null);
+  }
 
   return (
     <div className="flex flex-col items-center gap-4">
@@ -138,23 +139,24 @@ export default function ProfilePage() {
   const [toast, setToast] = useState(null);
   const [hasChanges, setHasChanges] = useState(false);
 
-  if (!isAuthenticated) return <Navigate to="/login" replace />;
-
   // ── Fetch profile ──
   const { data: profile, isLoading } = useQuery({
     queryKey: ['myProfile'],
     queryFn: userApi.getProfile,
+    enabled: isAuthenticated,
     onSuccess: (data) => {
       setFormData({ name: data.name || '', learningGoal: data.learningGoal || '' });
     },
   });
 
   // Sync form khi profile load xong
-  useEffect(() => {
+  const [prevProfile, setPrevProfile] = useState(null);
+  if (profile !== prevProfile) {
+    setPrevProfile(profile);
     if (profile) {
       setFormData({ name: profile.name || '', learningGoal: profile.learningGoal || '' });
     }
-  }, [profile]);
+  }
 
   const handleFormChange = (field, value) => {
     setFormData((prev) => ({ ...prev, [field]: value }));
@@ -187,6 +189,8 @@ export default function ProfilePage() {
       setToast({ message: 'Upload ảnh thất bại. Kiểm tra định dạng và kích thước.', type: 'error' });
     },
   });
+
+  if (!isAuthenticated) return <Navigate to="/login" replace />;
 
   const handleSubmit = (e) => {
     e.preventDefault();

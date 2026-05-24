@@ -118,15 +118,14 @@ export default function AdminUsersPage() {
 
   const handleStatusChange = useCallback((s) => { setStatusFilter(s); setPage(1); }, []);
 
-  // Guard
-  if (!isAuthenticated) return <Navigate to="/login" replace />;
-  if (currentUser && !currentUser.isAdmin) return <Navigate to="/dashboard" replace />;
+  const isAdmin = isAuthenticated && currentUser?.isAdmin;
 
   // ── Stats ──
   const { data: stats } = useQuery({
     queryKey: ['adminStats'],
     queryFn: adminApi.getStats,
     staleTime: 30_000,
+    enabled: !!isAdmin,
   });
 
   // ── Users ──
@@ -134,6 +133,7 @@ export default function AdminUsersPage() {
     queryKey: ['adminUsers', debouncedSearch, statusFilter, page],
     queryFn: () => adminApi.getUsers({ search: debouncedSearch, status: statusFilter, page }),
     keepPreviousData: true,
+    enabled: !!isAdmin,
   });
 
   // ── Mutations ──
@@ -153,6 +153,10 @@ export default function AdminUsersPage() {
       setDeletingUser(null);
     },
   });
+
+  // Guard
+  if (!isAuthenticated) return <Navigate to="/login" replace />;
+  if (currentUser && !currentUser.isAdmin) return <Navigate to="/dashboard" replace />;
 
   const users = usersData?.users || [];
   const totalPages = usersData?.totalPages || 1;
