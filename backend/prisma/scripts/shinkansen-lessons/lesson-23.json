@@ -1,0 +1,35 @@
+{
+  "theoryMd": "# Bài 23: Lẽ thường / Giới hạn (〜ものだ, 〜というものだ, 〜にすぎない, 〜にほかならない, 〜に越したことはない)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜ものだ\n- **Ý nghĩa:** Đưa ra một chân lí, sự thật, lẽ thường.\n- **Cách kết hợp:** V る/Vない・Aい・Naな + ものだ\n- **Giải thích:** Không sử dụng với dạng quá khứ. Chủ ngữ không phải là người cá biệt, mà là một tập thể, tập hợp.\n\n#### Ví dụ:\n- 自分では気が付きにくいが、どんな人にもくせがあるものだ → *Dù bản thân khó nhận ra, nhưng ai cũng có những thói xấu.*\n- 人間というのは本来一人では生きられないものだ → *Con người vốn là không thể sống một mình được.*\n\n### 2. 〜というものだ\n- **Ý nghĩa:** Theo lẽ thường thì đúng là…\n- **Cách kết hợp:** Thể thông thường (N・Naだ) + というものだ\n- **Giải thích:** Dùng lẽ thường để đánh giá một sự việc trong hoàn cảnh xác định. Không dùng với từ thể hiện cảm xúc người nói.\n\n#### Ví dụ:\n- 今日中にアメリカまで荷物を届けると言われても、それは無理というものだ → *Dù nói là hành lí có thể đến Mỹ trong ngày, nhưng theo lẽ thường thì đúng là không thể.*\n\n### 3. 〜にすぎない\n- **Ý nghĩa:** Chỉ vậy, không quá.\n- **Cách kết hợp:** N・Thể thông thường (N・Naだ -である) + にすぎない\n- **Giải thích:** Dùng để nêu suy nghĩ của người nói về một sự vật sự việc rằng không phải trọng yếu, không phải đặc biệt, chỉ ít.\n\n#### Ví dụ:\n- 調査では、お米を全く食べないと答えた人は１。２％にすぎなかった → *Theo điều tra, số người trả lời rằng hoàn toàn không ăn gạo chiếm không quá 1.2%*\n- 一社員にすぎない私に、会社の経営のことなど決められない → *Tôi chỉ là một nhân viên, không thể quyết định được chuyện kinh doanh của công ty.*\n\n### 4. 〜にほかならない\n- **Ý nghĩa:** Chính là. Không phải gì khác.\n- **Cách kết hợp:** N + にほかならない\n- **Giải thích:** Là cách nói thể hiện phán đoán mang tính kết luận của người nói.\n\n#### Ví dụ:\n- 将来この国を支えるのは、若い君たちにほかならない → *Những người hỗ trợ cho đất nước trong tương lai, không ai khác chính là những người trẻ tuổi.*\n- 人間も自然の一部にほかならないということ忘れてはならない → *Không được phép quên rằng con người chính là một phần của tự nhiên.*\n\n### 5. 〜に越したことはない\n- **Ý nghĩa:** Đưa ra một điều không nhất thiết phải có, nhưng nên như vậy.\n- **Cách kết hợp:** Thể thông thường hiện tại (N・Naだ -である) + に越したことはない\n- **Giải thích:** Đưa ra ý kiến chủ quan về một điều rằng có thể không đến mức bắt buộc, nhưng nếu có được như vậy thì tốt.\n\n#### Ví dụ:\n- 旅行の荷物は軽いに越したことはない → *Đồ đi du lịch nên nhẹ là tốt nhất.*\n- 値段に関係なく質のいいものを買いたいが、安く買えるに越したことはない → *Không nói đến giá cả thì tôi muốn mua đồ chất lượng tốt, nhưng nếu giá rẻ thì vẫn là tốt nhất.*",
+  "cards": [
+    {
+      "front": "〜ものだ",
+      "back": "Đưa ra một chân lí, sự thật, lẽ thường.",
+      "romaji": "mono da",
+      "example": "自分では気が付きにくいが、どんな人にもくせがあるものだ。(Dù bản thân khó nhận ra, nhưng ai cũng có những thói xấu.)"
+    },
+    {
+      "front": "〜というものだ",
+      "back": "Theo lẽ thường thì đúng là… (dùng để đánh giá sự việc).",
+      "romaji": "to iu mono da",
+      "example": "今日中にアメリカまで荷物を届けると言われても、それは無理というものだ。(Dù nói là hành lí có thể đến Mỹ trong ngày, nhưng theo lẽ thường thì đúng là không thể.)"
+    },
+    {
+      "front": "〜にすぎない",
+      "back": "Chỉ vậy, không quá (nêu suy nghĩ không trọng yếu, chỉ ít).",
+      "romaji": "ni suginai",
+      "example": "一社員にすぎない私に、会社の経営のことなど決められない。(Tôi chỉ là một nhân viên, không thể quyết định được chuyện kinh doanh của công ty.)"
+    },
+    {
+      "front": "〜にほかならない",
+      "back": "Chính là... không phải gì khác (phán đoán kết luận).",
+      "romaji": "ni hokanaranai",
+      "example": "将来この国を支えるのは、若い君たちにほかならない。(Những người hỗ trợ cho đất nước trong tương lai, không ai khác chính là những người trẻ tuổi.)"
+    },
+    {
+      "front": "〜に越したことはない",
+      "back": "Không nhất thiết phải có nhưng nên như vậy là tốt nhất.",
+      "romaji": "ni koshita koto wa nai",
+      "example": "旅行の荷物は軽いに越したことはない。(Đồ đi du lịch nên nhẹ là tốt nhất.)"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "theoryMd": "# Bài 25: Cảm xúc (〜てしかたがない, 〜てならない, 〜ないではいられない, 〜ないわけに（は）いかない, 〜ざるを得ない)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜てしかたがない・〜てしょうがない・〜てたまらない\n- **Ý nghĩa:** Rất, không thể chịu được.\n- **Cách kết hợp:** Vて・Aくて・Naで + しかたがない・しょうがない・たまらない\n- **Giải thích:** Đi kèm với những từ biểu hiện mong muốn, cảm giác của người nói. Đặc biệt てたまらない thường đi với cảm giác cơ thể. Khi chủ ngữ là ngôi thứ ba cần đi kèm ようだ, らしい.\n\n#### Ví dụ:\n- 近所にあったスーパーが閉店してしまって、不便でしかたがない → *Siêu thị ở gần đây đã đóng cửa rồi nên rất bất tiện*\n- 久しぶりに彼女に会えるのが嬉しくてしょうがない → *Lâu rồi mới được gặp lại cô ấy nên tôi rất vui*\n- 虫に刺されたところがかゆくてたまらない → *Chỗ bị côn trùng đốt ngứa không chịu nổi*\n\n### 2. 〜てならない\n- **Ý nghĩa:** Cảm xúc rất…\n- **Cách kết hợp:** Vて・Aくて・Naで + ならない\n- **Giải thích:** Đi với những từ thể hiện cảm giác cơ thể, cảm xúc người nói hay những động từ thể hiện cảm nghĩ tự nhiên (気がする、思える、感じられる). Hay đi với cảm giác tiêu cực. Khi chủ ngữ là ngôi thứ ba cần đi kèm ようだ, らしい.\n\n#### Ví dụ:\n- 明日の面接うまく話せるかどうか、心配でならない → *Buổi phỏng vấn ngày mai không biết có nói trôi chảy không, tôi rất lo lắng*\n\n### 3. 〜ないではいられない・〜ずにはいられない\n- **Ý nghĩa:** Không kìm nén được.\n- **Cách kết hợp:** Vない + ではいられない / Vない + ずにはいられない (する=>せずに)\n- **Giải thích:** Biểu hiện những hành động, cảm giác mang tính cá nhân xuất hiện tự nhiên. Khi chủ ngữ là ngôi thứ ba cần đi kèm ようだ, らしい.\n\n#### Ví dụ:\n- この曲が聞こえてくると、体を動かさないではいられない → *Cứ nghe thấy bài hát ấy, cơ thể sẽ cử động theo*\n- その選手の一生懸命な姿を見て、誰もが応援せずにはいられなかった → *Khi nhìn vào bóng dáng nỗ lực của tuyển thủ đó, ai cũng sẽ phải ủng hộ*\n\n### 4. 〜ないわけに（は）いかない\n- **Ý nghĩa:** Phải làm gì đó trong một tình huống cụ thể.\n- **Cách kết hợp:** Vない + わけに（は）いかない\n- **Giải thích:** Đi với những động từ có ý chí. Chủ ngữ không phải là ngôi thứ ba, thường là ngôi thứ nhất, ít được dùng trong văn bản. Thường dùng với lẽ thường trong đời sống xã hội.\n\n#### Ví dụ:\n- 親友の結婚式だから、忙しくても出席しないわけにはいかない → *Vì là lễ kết hôn của bạn thân, nên dù bận cũng phải tham dự*\n\n### 5. 〜ざるを得ない\n- **Ý nghĩa:** Không muốn nhưng đành phải.\n- **Cách kết hợp:** Vない + ざるを得ない (する=>せざる)\n- **Giải thích:** Đi kèm với động từ có ý chí. Chủ ngữ không phải là ngôi thứ ba, thường là ngôi thứ nhất, ít được dùng trong văn bản.\n\n#### Ví dụ:\n- これだけ反対の証拠が多いから、彼の説は間違っていたと言わざるを得ない → *Có nhiều chứng cứ phản đối đến mức này, nên đành phải nói là giả thuyết của anh ấy đã sai.*",
+  "cards": [
+    {
+      "front": "〜てしかたがない・〜てしょうがない・〜てたまらない",
+      "back": "Rất, không thể chịu được. Dùng cho cảm xúc, mong muốn, cảm giác cơ thể.",
+      "romaji": "te shikata ga nai / te shou ga nai / te tamaranai",
+      "example": "近所にあったスーパーが閉店してしまって、不便でしかたがない。(Siêu thị ở gần đây đã đóng cửa rồi nên rất bất tiện.)"
+    },
+    {
+      "front": "〜てならない",
+      "back": "Cảm xúc rất... (mức độ cao). Dùng cho cảm xúc tự nhiên hoặc cảm giác cơ thể.",
+      "romaji": "te naranai",
+      "example": "明日の面接うまく話せるかどうか、心配でならない。(Buổi phỏng vấn ngày mai không biết có nói trôi chảy không, tôi rất lo lắng.)"
+    },
+    {
+      "front": "〜ないではいられない・〜ずにはいられない",
+      "back": "Không kìm nén được cảm xúc, phải hành động một cách tự nhiên.",
+      "romaji": "nai de wa irarenai / zu ni wa irarenai",
+      "example": "この曲が聞こえてくると、体を動かさないではいられない。(Cứ nghe thấy bài hát ấy, cơ thể sẽ cử động theo.)"
+    },
+    {
+      "front": "〜ないわけに（は）いかない",
+      "back": "Phải làm việc gì đó do tình huống, trách nhiệm, lẽ thường.",
+      "romaji": "nai wake ni wa ikanai",
+      "example": "親友の結婚式だから、忙しくても出席しないわけにはいかない。(Vì là lễ kết hôn của bạn thân, nên dù bận cũng phải tham dự.)"
+    },
+    {
+      "front": "〜ざるを得ない",
+      "back": "Không muốn làm nhưng đành phải làm do hoàn cảnh ép buộc.",
+      "romaji": "zaru o enai",
+      "example": "これだけ反対の証拠が多いから、彼の説は間違っていたと言わざるを得ない。(Có nhiều chứng cứ phản đối đến mức này, nên đành phải nói là giả thuyết của anh ấy đã sai.)"
+    }
+  ]
+}

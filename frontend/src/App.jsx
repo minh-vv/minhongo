@@ -10,6 +10,7 @@ import DashboardPage from './pages/DashboardPage';
 import KanjiPage from './pages/KanjiPage';
 import VocabularyPage from './pages/VocabularyPage';
 import GrammarPage from './pages/GrammarPage';
+import GrammarLessonPage from './pages/GrammarLessonPage';
 import RoadmapPage from './pages/RoadmapPage';
 import CustomRoadmapPage from './pages/CustomRoadmapPage';
 import SelfStudyPage from './pages/SelfStudyPage';
@@ -74,6 +75,7 @@ function AppRoutes() {
         <Route path="/kanji" element={<KanjiPage />} />
         <Route path="/vocabulary" element={<VocabularyPage />} />
         <Route path="/grammar" element={<GrammarPage />} />
+        <Route path="/grammar/:deckId" element={<GrammarLessonPage />} />
         <Route path="/roadmap" element={<RoadmapPage />} />
         <Route path="/custom-roadmap/:id" element={<CustomRoadmapPage />} />
         <Route path="/self-study" element={<SelfStudyPage />} />

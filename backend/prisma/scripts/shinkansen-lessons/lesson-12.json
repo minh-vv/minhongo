@@ -1,0 +1,35 @@
+{
+  "theoryMd": "# Bài 12: Phủ định (〜わけがない, 〜どころではない・〜どころか, 〜ものか, 〜わけではない, 〜というものではない)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜わけがない\n- **Ý nghĩa:** Tuyệt đối không, không thể có chuyện.\n- **Cách kết hợp:** Thể thông thường (Na だ – な / -である・N だ – の / -である) + わけがない\n- **Giải thích:** Là cách nói dùng khi người nói xác nhận lại là không thể có chuyện đó, không có lí nào chuyện đó xảy ra.\n\n#### Ví dụ:\n- この仕事を今日中に全部ですか。私一人でできるわけがありませんよ。 → *Công việc này phải làm hết tất cả trong hôm nay ư. Chỉ có mình tôi thì chắc chắn không thể làm được.*\n- A 先生の試験がそんなにかんたんなわけがない。寂しいことで有名な先生なのだ。 → *Bài thi của thầy A chắc chắn không thể đơn giản thế này được. Thầy ấy nổi tiếng vì nghiêm khắc mà.*\n\n### 2. 〜どころではない・〜どころか\n- **Ý nghĩa:** Không chỉ ở mức độ này, mà còn hơn thế.\n- **Cách kết hợp:** N・Thể thông thường (Na だ – な / -である・N だ -である) + どころではない・どころか\n- **Giải thích:** Vế trước và sau của どころか thể hiện mức độ có độ lớn khác nhau, hoặc trái ngược nhau. Thường hay dùng để nói trạng thái sau mức độ tệ hơn trạng thái trước.\n\n#### Ví dụ:\n- せきが出るので風邪かなと思っていたが、ただの風邪どころではなく、肺炎だった。 → *Vì bị ho nên tôi nghĩ là mình bị cảm lạnh, nhưng không chỉ là cảm lạnh, mà là viêm phổi.*\n- こんな下手なチームでは、何度試合をしても一度も勝てないどころか、１点も入れられない。 → *Một đội yếu như thế này, không chỉ thi đấu bao lần cũng không thắng được, mà cả một điểm cũng không ghi được.*\n\n### 3. 〜ものか\n- **Ý nghĩa:** Tuyệt đối không, không thể có chuyện (ngôn ngữ nói).\n- **Cách kết hợp:** Thể thông thường (Na だ – な・N だ -な) + ものか\n- **Giải thích:** Là câu phủ định, có đưa cảm giác cá nhân vào một chút. Có dạng khác là 〜もんか. Với con gái thì thường hay dùng 〜ものですか và 〜もんですか.\n\n#### Ví dụ:\n- 駅から歩いて４０分。バースもない。こんな不便などころに住めるものか。 → *Đi từ ga mất 40 phút. Không có bus. Không thể có chuyện có thể sống ở nơi bất tiện thế này.*\n- あの人が正直なもんか。嘘ばかり言う人だ。 → *Làm gì có chuyện anh ta là người chính trực. Anh ta là người chỉ toàn nói dối thôi.*\n\n### 4. 〜わけではない・〜というわけだはない\n- **Ý nghĩa:** Không phải tất cả, không hẳn là.\n- **Cách kết hợp:** Thể thông thường (Na だ – な / -である・N だ – の / -な / -である) + わけではない; Thể thông thường (Na だ・N だ) + というわけだはない\n- **Giải thích:** Trong trường hợp muốn phủ định một phần, thường hay đi kèm với những từ thể hiện tính toàn bộ như いつも, だれでも, どこでも… hoặc 必ずしも (không phải lúc nào cũng).\n\n#### Ví dụ:\n- 携帯電話を持っていても、いつでも電話に出られるわけではない。 → *Dù có mang theo điện thoại di động, nhưng không hẳn là lúc nào cũng có thể bắt máy.*\n- 親の気持ちもわからないわけではないが、自分の進路は自分で決めたい。 → *Không phải là tôi không hiểu cảm xúc của bố mẹ, nhưng tôi muốn tự quyết định con đường của mình.*\n\n### 5. 〜というものではない・〜というものでもない\n- **Ý nghĩa:** Không phải cứ đáp ứng được điều kiện là được.\n- **Cách kết hợp:** Thể thông thường (Na だ・N だ) + というものではない・というものでもない\n- **Giải thích:** Là cách nói thể hiện quan điểm, cảm nhận của người nói về bản chất của sự việc. Thường đi với cách nói thể điều kiện hay là からといって. Trong hai cách nói thì というものでもない là cách nói mềm hơn.\n\n#### Ví dụ:\n- 医師の仕事は資格をとればできるというものではない。常に最新の治療法を研究する姿勢がなければいけない。 → *Công việc của bác sĩ không phải cứ có bằng cấp là làm được. Phải luôn trong tư thế nghiên cứu những phương pháp trị liệu mới nhất nữa.*\n- 努力すれば必ず成功するというものではない。チャンスも必要だ。 → *Không phải cứ nỗ lực là sẽ thành công. Còn cần cả cơ hội nữa.*",
+  "cards": [
+    {
+      "front": "〜わけがない",
+      "back": "Tuyệt đối không, không thể có chuyện (xác nhận lại là không thể có chuyện đó).",
+      "romaji": "wake ga nai",
+      "example": "私一人でできるわけがありませんよ。(Chỉ có mình tôi thì chắc chắn không thể làm được.)"
+    },
+    {
+      "front": "〜どころではない・〜どころか",
+      "back": "Không chỉ ở mức độ này, mà còn hơn thế (thể hiện mức độ chênh lệch hoặc trái ngược).",
+      "romaji": "dokoro de wa nai / dokoro ka",
+      "example": "ただの風邪どころではなく、肺炎だった。(Không chỉ là cảm lạnh, mà là viêm phổi.)"
+    },
+    {
+      "front": "〜ものか",
+      "back": "Tuyệt đối không, không thể có chuyện (cách nói mang tính cá nhân, khẩu ngữ).",
+      "romaji": "mono ka",
+      "example": "あの人が正直なもんか。(Làm gì có chuyện anh ta là người chính trực.)"
+    },
+    {
+      "front": "〜わけではない",
+      "back": "Không phải tất cả, không hẳn là (phủ định một phần).",
+      "romaji": "wake de wa nai",
+      "example": "いつでも電話に出られるわけではない。(Không hẳn là lúc nào cũng có thể bắt máy.)"
+    },
+    {
+      "front": "〜というものではない",
+      "back": "Không phải cứ đáp ứng được điều kiện là được (quan điểm về bản chất sự việc).",
+      "romaji": "to iu mono de wa nai",
+      "example": "努力すれば必ず成功するというものではない。(Không phải cứ nỗ lực là sẽ thành công.)"
+    }
+  ]
+}

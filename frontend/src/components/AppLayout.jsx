@@ -26,7 +26,6 @@ const navItems = [
   { path: '/roadmap',    label: 'Lộ trình',                icon: <IconMap /> },
   { path: '/self-study', label: 'Học Flashcard',           icon: <IconLayers /> },
   { path: '/progress',   label: 'Tiến độ học',             icon: <IconChart /> },
-  { path: '/leaderboard',label: 'Bảng xếp hạng',           icon: <IconTrophy /> },
   { path: '/community',  label: 'Cộng đồng',               icon: <IconPeople /> },
 ];
 

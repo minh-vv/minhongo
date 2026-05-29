@@ -1,0 +1,35 @@
+{
+  "theoryMd": "# Bài 9: Thay đổi cùng chiều / Sự tương ứng (〜につれて・〜にしたがって, 〜に伴って・〜とともに, 〜次第だ, 〜応じて, 〜につけて)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜につれて・〜にしたがって\n- **Ý nghĩa:** Cùng với sự thay đổi theo một chiều hướng của một sự vật, hiện tượng, cũng có một sự vật hiện tượng khác thay đổi theo một chiều hướng.\n- **Cách kết hợp:** Nする・Vる ＋ につれて・にしたがって\n- **Giải thích:** Vế trước là những từ thể hiện sự thay đổi dần dần (進む・上がる・多くなる…). Trong đó につれて chỉ dùng cho trường hợp cùng thay đổi theo một chiều hướng (A tăng thì B tăng, A giảm thì B giảm). Còn にしたがって không thay đổi theo một chiều hướng cũng được (Có thể A tăng thì B giảm hoặc ngược lại).\n\n#### Ví dụ:\n- 台風の接近につれて、雨や風が強くなってきた → *Cơn bão càng tiến gần, mưa và gió càng trở nên mạnh.*\n- 車のスピードが上がるにしたがって、事故の危険性も高くなる → *Càng tăng tốc độ chạy xe, nguy cơ xảy ra tai nạn càng tăng cao.*\n\n### 2. 〜に伴って・〜とともに\n- **Ý nghĩa:** Cùng với sự thay đổi theo một chiều hướng của một sự vật, hiện tượng, cũng có một sự vật hiện tượng khác thay đổi, không theo chiều hướng rõ ràng.\n- **Cách kết hợp:** Nする・Vる ＋ に伴って・とともに / Nする + に伴う + N\n- **Giải thích:** Vế trước và sau đều là câu thể hiện sự thay đổi. Với とともに sự thay đổi ở hai vế trước và sau là cùng chiều (A càng xấu thì B càng xấu, A càng tốt thì B càng tốt). に伴って không cần cùng chiều cũng được.\n\n#### Ví dụ:\n- 入学する留学生数の変化に伴って、クラス数を変える必要がある → *Với lượng du học sinh nhập học thay đổi kéo theo số lớp học cũng cần thay đổi.*\n- 経済の回復とともに、人々の表情も明るなってきた → *Kinh tế hồi phục kéo theo việc biểu cảm của mọi người rạng rỡ hơn.*\n\n### 3. 〜次第だ\n- **Ý nghĩa:** Nếu yếu tố nào thay đổi thì kết quả cũng thay đổi. Quyết định phụ thuộc vào một yếu tố.\n- **Cách kết hợp:** N ＋ 次第だ\n- **Giải thích:** Đi kèm với những từ thể hiện sự đa dạng, có nhiều cái khác nhau. Vế sau là sự thay đổi ứng với phần đằng trước hoặc đưa ra quyết định.\n\n#### Ví dụ:\n- 人生が楽しいかどうかは考え方次第だ → *Cuộc sống có vui hay không là phụ thuộc vào cách suy nghĩ.*\n- この夏のトレーニング次第で秋の試合に勝てるかどうかが決まる → *Phụ thuộc vào luyện tập trong mùa hè mà việc có thể thắng trận đấu mùa thu hay không sẽ được quyết định.*\n\n### 4. 〜応じて\n- **Ý nghĩa:** Sự thay đổi cho phù hợp, ứng với điều gì đó.\n- **Cách kết hợp:** N ＋ に応じて / N ＋ に応じた + N\n- **Giải thích:** Đi với những từ thể hiện sự thay đổi có thể dự đoán được (thể lực, tuổi tác, thời tiết…). Vế sau là câu mang ý nghĩa thay đổi cho phù hợp, ứng với điều đó.\n\n#### Ví dụ:\n- お子さんの年齢に応じて本を選んであげてください → *Hãy chọn sách ứng với lứa tuổi của con bạn.*\n- 無理をしないで体力に応じた運動をしましょう → *Đừng quá sức, hãy vận động phù hợp với thể lực của mình nào.*\n\n### 5. 〜につけて\n- **Ý nghĩa:** Mỗi khi làm điều gì thì có cảm xúc thế nào.\n- **Cách kết hợp:** Vる ＋ につけて\n- **Giải thích:** Vế sau là câu liên quan đến cảm giác, cảm xúc. Ngoài ra, 何かにつけて là cách nói thông dụng có nghĩa là “Mỗi khi có điều gì đó xảy ra”, với trường hợp này có thể không phải là câu thể hiện cảm xúc cũng được.\n\n#### Ví dụ:\n- この絵を見るにつけて、心に希望がわいてくる → *Mỗi lần ngắm bức tranh này, hi vọng trong tim tôi lại sôi sục.*\n- 彼女のうわさを聞くにつけて、心配になる → *Mỗi lần nghe tin đồn về cô ấy, tôi lại thấy lo lắng.*",
+  "cards": [
+    {
+      "front": "〜につれて・〜にしたがって",
+      "back": "Cùng với sự thay đổi của A thì B cũng thay đổi (tỷ lệ thuận hoặc cùng chiều hướng).",
+      "romaji": "ni tsurete / ni shitagatte",
+      "example": "台風の接近につれて、雨や風が強くなってきた (Cơn bão càng tiến gần, mưa và gió càng trở nên mạnh.)"
+    },
+    {
+      "front": "〜に伴って・〜とともに",
+      "back": "Cùng với sự thay đổi của A thì B cũng thay đổi (sự thay đổi đồng thời).",
+      "romaji": "ni tomonatte / to tomo ni",
+      "example": "経済の回復とともに、人々の表情も明るなってきた (Kinh tế hồi phục kéo theo việc biểu cảm của mọi người rạng rỡ hơn.)"
+    },
+    {
+      "front": "〜次第だ",
+      "back": "Phụ thuộc vào, tùy thuộc vào.",
+      "romaji": "shidai da",
+      "example": "人生が楽しいかどうかは考え方次第だ (Cuộc sống có vui hay không là phụ thuộc vào cách suy nghĩ.)"
+    },
+    {
+      "front": "〜応じて",
+      "back": "Ứng với, phù hợp với.",
+      "romaji": "ni oujite",
+      "example": "お子さんの年齢に応じて本を選んであげてください (Hãy chọn sách ứng với lứa tuổi của con bạn.)"
+    },
+    {
+      "front": "〜につけて",
+      "back": "Mỗi khi (làm gì đó) thì luôn có cảm xúc...",
+      "romaji": "ni tsukete",
+      "example": "この絵を見るにつけて、心に希望がわいてくる (Mỗi lần ngắm bức tranh này, hi vọng trong tim tôi lại sôi sục.)"
+    }
+  ]
+}

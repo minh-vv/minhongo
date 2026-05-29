@@ -1,0 +1,35 @@
+{
+  "theoryMd": "# Bài 3: Trình tự thời gian (〜てはじめて, 〜上で, 〜次第, 〜て以来・〜てこのかた, 〜てからでないと・〜てからでなければ)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜てはじめて\n- **Ý nghĩa:** Sau khi trải qua một sự kiện thì xảy ra một điều chưa từng có từ trước đến nay.\n- **Cách kết hợp:** Vて + はじめて\n- **Giải thích:** Vế sau là câu thể hiện ý nghĩa nhận ra một điều, xảy ra một điều mới.\n\n#### Ví dụ:\n- 実際に現地の様子を見てはじめて、今回の地震のひどさを知った。 → *Sau khi nhìn tận mắt tình hình nơi địa phương đó, tôi đã hiểu sự dữ dội của trận động đất lần này.*\n- 相手の話の途中で話を始まるくせがあると、人に言われてはじめて気がついた。 → *Thói xấu xen vào khi người khác đang nói, sau khi bị người khác bảo thì mới nhận ra.*\n\n### 2. 〜上で\n- **Ý nghĩa:** Phải làm một hành động trước, như là một sự chuẩn bị, sau đó mới tiếp tục thực hiện hành động sau.\n- **Cách kết hợp:** Vた + 上で / Nの + 上（で）\n- **Giải thích:** Mẫu câu có cùng chủ ngữ. Vế phía sau là kết quả sau hành động đằng trước, là hành vi mang ý chí của người nói. Trường hợp đi với danh từ thì có thể bỏ で. Mẫu câu không dùng cho trường hợp hành động xảy ra theo lẽ đương nhiên.\n\n#### Ví dụ:\n- 文書が保存されていることを確かめた上でパソコンをシャットダウンしてください。 → *Sau khi xác nhận tài liệu đã được lưu, hãy tắt máy tính.*\n- 経済的なことをよく考えた上で、進路を決める必要がある。 → *Chúng ta cần quyết định lộ trình sau khi suy nghĩ kĩ càng về tính kinh tế.*\n\n### 3. 〜次第\n- **Ý nghĩa:** Sau khi xong một việc gì thì thực hiện một việc khác ngay sau.\n- **Cách kết hợp:** Vます + 次第\n- **Giải thích:** Đi kèm với những sự việc chỉ còn phụ thuộc vào thời gian để hoàn thành. Theo sau đó là sự việc, hành động thể hiện nguyện vọng, ý chí của người nói.\n\n#### Ví dụ:\n- 全員集まり次第、出発します。 → *Sau khi tất cả mọi người tập trung đủ, chúng ta sẽ xuất phát.*\n- 留学期間が終わり次第、帰国して就職するつもりです。 → *Sau khi hết thời hạn du học, tôi dự định sẽ về nước tìm việc.*\n\n### 4. 〜て以来・〜てこのかた\n- **Ý nghĩa:** Sau một sự việc, sự kiện xảy ra thì có một tình trạng cứ mãi tiếp diễn.\n- **Cách kết hợp:** Vて + 以来・このかた\n- **Giải thích:** Đi kèm với thời điểm trong quá khứ (không dùng quá khứ gần). Vế sau là một điều cứ tiếp diễn cho đến nay. Không dùng cho tương lai. \"〜てこのかた\" mang tính lịch sự hơn \"〜て以来\".\n\n#### Ví dụ:\n- 父は新しい職場に移って以来、ずっと何か悩んでいるようです。 → *Từ sau khi bố tôi chuyển đến nơi làm mới, hình như ông ấy cứ mãi muộn phiền điều gì đó.*\n- 母がいなくなってこのかた、母のことを考えない日はない。 → *Từ sau khi mẹ mất, không có ngày nào tôi không nghĩ về mẹ.*\n\n### 5. 〜てからでないと・〜てからでなければ\n- **Ý nghĩa:** Nếu chưa hoàn thành một việc gì, thì một việc khác không thể thực hiện được.\n- **Cách kết hợp:** Vて + からでないと・からでなければ\n- **Giải thích:** Vế phía sau mang ý nghĩa phủ định.\n\n#### Ví dụ:\n- もっと情報を集めてからでないと、その話が本当かどうか判断できない。 → *Nếu chưa thu thập thêm thông tin, tôi không thể phán đoán câu chuyện đó có thật hay không.*\n- この家を買うかどうかは、家族でよく話し合ってからでなければ、お返事できません。 → *Về việc có mua ngôi nhà này hay không, nếu chưa thảo luận kĩ với gia đình, tôi chưa thể trả lời được.*",
+  "cards": [
+    {
+      "front": "〜てはじめて",
+      "back": "Sau khi trải qua một sự kiện thì mới nhận ra hoặc xảy ra điều mới.",
+      "romaji": "te hajimete",
+      "example": "実際に現地の様子を見てはじめて、今回の地震のひどさを知った。(Sau khi nhìn tận mắt tình hình nơi địa phương đó, tôi đã hiểu sự dữ dội của trận động đất lần này.)"
+    },
+    {
+      "front": "〜上で",
+      "back": "Làm hành động A trước như là sự chuẩn bị, rồi mới làm hành động B (cùng chủ ngữ, mang ý chí).",
+      "romaji": "ue de",
+      "example": "文書が保存されていることを確かめた上でパソコンをシャットダウンしてください。(Sau khi xác nhận tài liệu đã được lưu, hãy tắt máy tính.)"
+    },
+    {
+      "front": "〜次第",
+      "back": "Ngay sau khi việc A xong, thì làm ngay việc B (mang ý chí người nói).",
+      "romaji": "shidai",
+      "example": "全員集まり次第、出発します。(Sau khi tất cả mọi người tập trung đủ, chúng ta sẽ xuất phát.)"
+    },
+    {
+      "front": "〜て以来・〜てこのかた",
+      "back": "Kể từ sau khi việc A xảy ra, tình trạng B cứ tiếp diễn liên tục đến nay.",
+      "romaji": "te irai / te kono kata",
+      "example": "母がいなくなってこのかた、母のことを考えない日はない。(Từ sau khi mẹ mất, không có ngày nào tôi không nghĩ về mẹ.)"
+    },
+    {
+      "front": "〜てからでないと・〜てからでなければ",
+      "back": "Nếu không hoàn thành A thì không thể thực hiện được B (vế sau luôn phủ định).",
+      "romaji": "te kara denai to / te kara de nakereba",
+      "example": "もっと情報を集めてからでないと、その話が本当かどうか判断できない。(Nếu chưa thu thập thêm thông tin, tôi không thể phán đoán câu chuyện đó có thật hay không.)"
+    }
+  ]
+}

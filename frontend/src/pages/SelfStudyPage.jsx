@@ -22,19 +22,77 @@ function SectionHeader({ title, action }) {
   );
 }
 
+// Category definitions
+const CATEGORIES = [
+  {
+    value: 'ALL',
+    label: 'Tất cả',
+    icon: (
+      <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+      </svg>
+    ),
+  },
+  {
+    value: 'TUHOC',
+    label: 'Tự học',
+    icon: (
+      <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+      </svg>
+    ),
+    ghost: '覚',
+    color: 'var(--secondary)',
+  },
+  {
+    value: 'TUVUNG',
+    label: 'Từ vựng',
+    icon: (
+      <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+      </svg>
+    ),
+    ghost: '語',
+    color: '#1565c0',
+  },
+  {
+    value: 'NGUPHAP',
+    label: 'Ngữ pháp',
+    icon: (
+      <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+      </svg>
+    ),
+    ghost: '文',
+    color: '#006064',
+  },
+  {
+    value: 'HANTU',
+    label: 'Hán tự',
+    icon: (
+      <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+      </svg>
+    ),
+    ghost: '漢',
+    color: '#b45309',
+  },
+];
+
 function DeckCard({ deck }) {
+  const cat = CATEGORIES.find((c) => c.value === deck.category);
   return (
     <Link to={`/deck/${deck.id}`}
       className="group relative bg-surface-container-lowest p-5 flex flex-col gap-3 transition-all hover:sharp-shadow-sm overflow-hidden"
       style={{ border: '1px solid rgba(0,0,0,0.07)' }}
     >
       <div className="absolute top-0 left-0 right-0 h-0.5 opacity-0 group-hover:opacity-100 transition-opacity"
-        style={{ background: 'var(--secondary)' }} />
+        style={{ background: cat?.color || 'var(--secondary)' }} />
 
       <div className="flex items-start justify-between">
         <span className="px-2 py-px text-[9px] font-bold uppercase tracking-wider"
-          style={{ background: 'rgba(198,40,40,0.08)', color: 'var(--secondary)' }}>
-          Tự học
+          style={{ background: `${cat?.color || 'var(--secondary)'}18`, color: cat?.color || 'var(--secondary)' }}>
+          {cat?.label || 'Tự học'}
         </span>
         <span className="flex items-center gap-1 text-xs text-on-surface-variant">
           <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -54,7 +112,7 @@ function DeckCard({ deck }) {
       </div>
 
       <div className="flex items-center gap-1 text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity mt-auto"
-        style={{ color: 'var(--secondary)' }}>
+        style={{ color: cat?.color || 'var(--secondary)' }}>
         Mở bộ thẻ
         <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m-7-7 7 7-7 7" />
@@ -62,7 +120,7 @@ function DeckCard({ deck }) {
       </div>
 
       <div className="absolute -right-2 -bottom-2 font-jp font-bold leading-none select-none pointer-events-none text-on-surface/[0.03]"
-        style={{ fontSize: 72 }}>覚</div>
+        style={{ fontSize: 72 }}>{cat?.ghost || '覚'}</div>
     </Link>
   );
 }
@@ -78,7 +136,7 @@ function EmptyState({ onCreateClick }) {
           <path strokeLinecap="round" strokeLinejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
         </svg>
       </div>
-      <h3 className="font-semibold text-on-surface text-sm mb-1">Bạn chưa có bộ thẻ nào</h3>
+      <h3 className="font-semibold text-on-surface text-sm mb-1">Chưa có bộ thẻ nào</h3>
       <p className="text-xs text-on-surface-variant mb-5 max-w-xs leading-relaxed">
         Tạo bộ flashcard riêng hoặc import từ Anki để bắt đầu luyện tập theo cách của bạn.
       </p>
@@ -97,8 +155,9 @@ export default function SelfStudyPage() {
   const [loading, setLoading] = useState(true);
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [showImportModal, setShowImportModal] = useState(false);
-  const [newDeck, setNewDeck] = useState({ name: '', description: '' });
+  const [newDeck, setNewDeck] = useState({ name: '', description: '', category: 'TUHOC' });
   const [creating, setCreating] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState('ALL');
 
   const fetchDecks = () => {
     setLoading(true);
@@ -127,7 +186,7 @@ export default function SelfStudyPage() {
     setCreating(true);
     try {
       await axios.post('/flashcards', newDeck);
-      setNewDeck({ name: '', description: '' });
+      setNewDeck({ name: '', description: '', category: 'TUHOC' });
       setShowCreateModal(false);
       fetchDecks();
     } catch (err) {
@@ -136,6 +195,13 @@ export default function SelfStudyPage() {
       setCreating(false);
     }
   };
+
+  const filteredDecks = selectedCategory === 'ALL'
+    ? decks
+    : decks.filter((d) => d.category === selectedCategory);
+
+  const countByCategory = (cat) =>
+    cat === 'ALL' ? decks.length : decks.filter((d) => d.category === cat).length;
 
   const actions = (
     <div className="flex items-center gap-2">
@@ -207,9 +273,48 @@ export default function SelfStudyPage() {
           style={{ fontSize: 160 }}>覚</div>
       </section>
 
-      {/* ── DECK LIST ───────────────────────────────────────── */}
+      {/* ── CATEGORY FOLDER TABS ─────────────────────────────── */}
       <section>
-        <SectionHeader title="Bộ thẻ của bạn" action={actions} />
+        <div className="flex items-center gap-1 overflow-x-auto no-scrollbar pb-1 border-b border-outline-variant/30 mb-6">
+          {CATEGORIES.map((cat) => {
+            const count = countByCategory(cat.value);
+            const isActive = selectedCategory === cat.value;
+            return (
+              <button
+                key={cat.value}
+                onClick={() => setSelectedCategory(cat.value)}
+                className="flex items-center gap-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wider whitespace-nowrap transition-all shrink-0 border-b-2 -mb-px"
+                style={isActive
+                  ? { color: 'var(--secondary)', borderColor: 'var(--secondary)', background: 'rgba(198,40,40,0.04)' }
+                  : { color: 'var(--on-surface-variant)', borderColor: 'transparent' }
+                }
+              >
+                <span style={{ color: isActive ? (cat.color || 'var(--secondary)') : 'var(--on-surface-variant)' }}>
+                  {cat.icon}
+                </span>
+                {cat.label}
+                <span
+                  className="px-1.5 py-px text-[10px] font-black leading-none"
+                  style={{
+                    background: isActive ? 'var(--secondary)' : 'rgba(0,0,0,0.07)',
+                    color: isActive ? '#fff' : 'var(--on-surface-variant)',
+                  }}
+                >
+                  {count}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+
+        <SectionHeader
+          title={
+            selectedCategory === 'ALL'
+              ? 'Tất cả bộ thẻ'
+              : `${CATEGORIES.find((c) => c.value === selectedCategory)?.label} — Bộ thẻ của bạn`
+          }
+          action={actions}
+        />
 
         {loading ? (
           <div className="flex flex-col items-center justify-center py-20 gap-3">
@@ -217,11 +322,11 @@ export default function SelfStudyPage() {
               style={{ borderRadius: '50%' }} />
             <p className="text-xs text-on-surface-variant font-mono tracking-widest uppercase">Đang tải...</p>
           </div>
-        ) : decks.length === 0 ? (
+        ) : filteredDecks.length === 0 ? (
           <EmptyState onCreateClick={() => setShowCreateModal(true)} />
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            {decks.map((deck) => <DeckCard key={deck.id} deck={deck} />)}
+            {filteredDecks.map((deck) => <DeckCard key={deck.id} deck={deck} />)}
           </div>
         )}
       </section>
@@ -252,6 +357,19 @@ export default function SelfStudyPage() {
                   placeholder="VD: Từ vựng bài 1, Ngữ pháp N3..."
                   className="w-full px-3 py-2 bg-surface text-on-surface text-sm outline-none"
                   style={{ border: '1px solid rgba(0,0,0,0.15)' }} />
+              </div>
+              <div>
+                <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-1.5">
+                  Danh mục
+                </label>
+                <select value={newDeck.category}
+                  onChange={(e) => setNewDeck({ ...newDeck, category: e.target.value })}
+                  className="w-full px-3 py-2 bg-surface text-on-surface text-sm outline-none"
+                  style={{ border: '1px solid rgba(0,0,0,0.15)' }}>
+                  {CATEGORIES.filter(c => c.value !== 'ALL').map(c => (
+                    <option key={c.value} value={c.value}>{c.label}</option>
+                  ))}
+                </select>
               </div>
               <div>
                 <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-1.5">

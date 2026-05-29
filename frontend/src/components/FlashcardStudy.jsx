@@ -91,18 +91,30 @@ export default function FlashcardStudy({ deck, onComplete }) {
         </div>
       </div>
 
-      {/* Flashcard 3D */}
+      {/* ── Flashcard 3D ─────────────────────────────────────────────────────
+          FIX: Dùng style object cho perspective + transformStyle thay vì
+               Tailwind classes để tránh purge/conflict. Mặt sau chỉ dùng
+               `absolute inset-0` — KHÔNG thêm `relative` (sẽ override absolute).
+      ──────────────────────────────────────────────────────────────────────── */}
       <div
-        className="relative h-96 w-full cursor-pointer mb-8 group [perspective:1500px]"
+        className="w-full cursor-pointer mb-8 min-h-[384px]"
+        style={{ height: 384, perspective: '1500px' }}
         onClick={handleFlip}
       >
+        {/* Inner rotating element */}
         <div
-          className="relative w-full h-full transition-transform duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] [transform-style:preserve-3d]"
-          style={{ transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
+          className="w-full h-full"
+          style={{
+            position: 'relative',
+            transformStyle: 'preserve-3d',
+            transition: 'transform 0.7s cubic-bezier(0.4,0,0.2,1)',
+            transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
+          }}
         >
-          {/* Front */}
+          {/* ── Front face ── */}
           <div
-            className="absolute inset-0 bg-surface-container-lowest border border-outline-variant sharp-shadow flex flex-col items-center justify-center p-8 transition-all [backface-visibility:hidden]"
+            className="absolute inset-0 bg-surface-container-lowest border border-outline-variant sharp-shadow flex flex-col items-center justify-center p-8"
+            style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}
           >
             <div className="absolute top-6 left-8 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">
               Mặt trước
@@ -112,7 +124,7 @@ export default function FlashcardStudy({ deck, onComplete }) {
                 N{currentCard.jlptLevel}
               </div>
             )}
-            
+
             <p className="font-jp text-5xl md:text-6xl font-bold text-on-surface text-center mb-4 tracking-tight leading-normal">
               {currentCard.front}
             </p>
@@ -127,30 +139,60 @@ export default function FlashcardStudy({ deck, onComplete }) {
             </div>
           </div>
 
-          {/* Back */}
+          {/* ── Back face ──
+              QUAN TRỌNG: chỉ dùng `absolute inset-0`. KHÔNG dùng `relative`
+              vì nó sẽ override `absolute` và phá vỡ 3D positioning.
+          ── */}
           <div
-            className="absolute inset-0 bg-gradient-to-br from-[#801c1c] to-[#c62828] sharp-shadow flex flex-col items-center justify-center p-8 text-white [backface-visibility:hidden] relative overflow-hidden"
-            style={{ transform: 'rotateY(180deg)' }}
+            className="absolute inset-0 flex flex-col items-center justify-center p-8 overflow-hidden"
+            style={{
+              backfaceVisibility: 'hidden',
+              WebkitBackfaceVisibility: 'hidden',
+              transform: 'rotateY(180deg)',
+              background: 'linear-gradient(135deg, #801c1c 0%, #c62828 100%)',
+            }}
           >
+            {/* Asanoha texture overlay */}
             <div className="absolute inset-0 asanoha-bg opacity-10 pointer-events-none" />
-            <div className="absolute top-6 left-8 text-[10px] font-bold uppercase tracking-widest text-white/60" style={{ color: 'rgba(255,255,255,0.6)' }}>
+
+            <div
+              className="absolute top-6 left-8 text-[10px] font-bold uppercase tracking-widest"
+              style={{ color: 'rgba(255,255,255,0.6)' }}
+            >
               Mặt sau
             </div>
-            
-            <p className="text-3xl md:text-4xl font-bold text-center mb-6 leading-relaxed text-white" style={{ color: '#ffffff' }}>
+
+            <p
+              className="relative z-10 text-3xl md:text-4xl font-bold text-center mb-6 leading-relaxed"
+              style={{ color: '#ffffff' }}
+            >
               {currentCard.back}
             </p>
-            
+
             {currentCard.example && (
-              <div className="mt-2 p-5 bg-white/10 backdrop-blur-md border border-white/20 shadow-inner w-full max-w-sm">
-                <p className="text-[10px] text-white/60 uppercase font-bold mb-1.5 tracking-wider" style={{ color: 'rgba(255,255,255,0.6)' }}>Ví dụ câu</p>
-                <p className="text-base md:text-lg text-white font-medium leading-relaxed font-jp" style={{ color: '#ffffff' }}>
+              <div
+                className="relative z-10 mt-2 p-5 w-full max-w-sm"
+                style={{
+                  background: 'rgba(255,255,255,0.12)',
+                  border: '1px solid rgba(255,255,255,0.2)',
+                }}
+              >
+                <p
+                  className="text-[10px] font-bold mb-1.5 tracking-wider uppercase"
+                  style={{ color: 'rgba(255,255,255,0.6)' }}
+                >
+                  Ví dụ câu
+                </p>
+                <p className="text-base md:text-lg font-medium leading-relaxed font-jp" style={{ color: '#ffffff' }}>
                   {currentCard.example}
                 </p>
               </div>
             )}
 
-            <div className="absolute bottom-8 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white/70 hover:text-white transition-colors" style={{ color: 'rgba(255,255,255,0.7)' }}>
+            <div
+              className="absolute bottom-8 flex items-center gap-2 text-xs font-bold uppercase tracking-wider"
+              style={{ color: 'rgba(255,255,255,0.7)' }}
+            >
               <RotateCw className="w-3.5 h-3.5" /> Nhấn để lật lại
             </div>
           </div>
@@ -194,4 +236,3 @@ export default function FlashcardStudy({ deck, onComplete }) {
     </div>
   );
 }
-

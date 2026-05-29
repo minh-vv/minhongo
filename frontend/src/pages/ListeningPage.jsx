@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { useQuery } from '@tanstack/react-query';
+import { useSearchParams } from 'react-router-dom';
 import { flashcardApi } from '../api/flashcardApi';
 import { useAuth } from '../hooks/useAuth';
 import {
@@ -111,7 +112,9 @@ const SYSTEM_SENTENCES = [
 
 export default function ListeningPage() {
   const { isAuthenticated } = useAuth();
+  const [searchParams] = useSearchParams();
   const [activeTab, setActiveTab] = useState('dialogue'); // 'dialogue' | 'sentence' | 'shadowing'
+  const [customSentence, setCustomSentence] = useState(null);
   
   // ── HOÀN CẢNH TTS ──────────────────────────────────────────
   const [speechRate, setSpeechRate] = useState(1.0); // 0.5, 0.8, 1.0
@@ -247,6 +250,7 @@ export default function ListeningPage() {
   });
 
   const sentences = useMemo(() => {
+    if (sentSource === 'custom' && customSentence) return [customSentence];
     if (sentSource === 'system') return SYSTEM_SENTENCES;
     if (sentSource === 'deck' && currentDeckData?.cards) {
       // Convert cards having 'example' into sentence objects
@@ -263,7 +267,7 @@ export default function ListeningPage() {
       }
     }
     return [];
-  }, [sentSource, currentDeckData]);
+  }, [sentSource, currentDeckData, customSentence]);
 
   const [currentSentIdx, setCurrentSentIdx] = useState(0);
   const activeSent = sentences[currentSentIdx] || null;
@@ -340,9 +344,63 @@ export default function ListeningPage() {
   // ============================================================
   // TAB 3: LUYỆN NÓI ĐUỔI (SHADOWING)
   // ============================================================
-  const [shadowSentences] = useState(SYSTEM_SENTENCES);
+  const [shadowSentences, setShadowSentences] = useState(SYSTEM_SENTENCES);
   const [shadowIdx, setShadowIdx] = useState(0);
   const activeShadow = shadowSentences[shadowIdx] || null;
+
+  // Handle URL query parameters for direct grammar redirects
+  useEffect(() => {
+    const mode = searchParams.get('mode');
+    const deckId = searchParams.get('deckId');
+
+    if (deckId) {
+      setSentSource('deck');
+      setSelectedDeckId(deckId);
+      setActiveTab('sentence');
+      if (mode === 'dictation') {
+        setSentMode('dictation');
+      } else {
+        setSentMode('cloze');
+      }
+    } else if (mode === 'cloze' || mode === 'dictation') {
+      const japanese = searchParams.get('japanese');
+      const keyword = searchParams.get('keyword');
+      const romaji = searchParams.get('romaji');
+      const translation = searchParams.get('translation');
+      
+      if (japanese) {
+        const custom = {
+          id: 'custom-sent-gram',
+          level: 'Ngữ pháp',
+          japanese,
+          romaji: romaji || '',
+          translation: translation || '',
+          keyword: keyword || '',
+        };
+        setCustomSentence(custom);
+        setSentSource('custom');
+        setSentMode(mode);
+        setActiveTab('sentence');
+      }
+    } else if (mode === 'shadowing') {
+      const japanese = searchParams.get('japanese');
+      const romaji = searchParams.get('romaji');
+      const translation = searchParams.get('translation');
+      
+      if (japanese) {
+        const customShadow = {
+          id: 'custom-shadow-gram',
+          level: 'Ngữ pháp',
+          japanese,
+          romaji: romaji || '',
+          translation: translation || '',
+        };
+        setShadowSentences([customShadow, ...SYSTEM_SENTENCES]);
+        setShadowIdx(0);
+        setActiveTab('shadowing');
+      }
+    }
+  }, [searchParams]);
 
   const [speechSupported, setSpeechSupported] = useState(false);
   const [micPermission, setMicPermission] = useState('unknown'); // 'granted' | 'denied' | 'unknown'

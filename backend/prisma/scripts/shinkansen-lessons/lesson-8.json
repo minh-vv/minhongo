@@ -1,0 +1,35 @@
+{
+  "theoryMd": "# Bài 8: Dựa trên / Dành cho (〜をもとに（して）, 〜に基づいて, 〜に沿って, 〜のもとで・〜のもとに, 〜向けだ)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜をもとに（して）\n- **Ý nghĩa:** Từ dữ kiện, nền tảng cơ bản để làm ra cái gì đó mới.\n- **Cách kết hợp:** N + をもとに（して）, N + をもとにした + N\n- **Giải thích:** Không dùng với nguyên liệu mang tính vật chất thực tế. Vế sau thường là câu có động từ thể hiện ý nghĩa làm ra cái gì mới.\n\n#### Ví dụ:\n- 漢字をもとにしてひらがなとカタカナができた → *Hiragana và Katakana được tạo nên từ Kanji*\n- あのアメリカの映画は日本の実話をもとにして作られたものだそうだ → *Nghe nói bộ phim Mỹ đó được làm nên từ câu chuyện có thật ở Nhật Bản*\n\n### 2. 〜に基づいて\n- **Ý nghĩa:** Dựa theo dữ liệu, cơ sở rõ ràng để làm điều gì đó.\n- **Cách kết hợp:** N + に基づいて, N + に基づく・に基づいた + N\n- **Giải thích:** Thường đi kèm với những từ mang ý nghĩa chuẩn mực, rõ ràng (phương pháp, dữ liệu, kế hoạch, phương châm, kết quả điều tra…). Vế sau là từ thể hiện hành động.\n\n#### Ví dụ:\n- 最新おデータに基づいて売り上げ計画を立てたいと思います → *Tôi muốn lên kế hoạch bán hàng dựa vào dữ liệu mới nhất*\n- 今日の留学説明会で実際の経験に基づいくいい話を聞くことができた → *Tại buổi thuyết trình về du học hôm nay, có thể nghe những câu chuyện hay dựa theo những kinh nghiệm thực tế*\n\n### 3. 〜に沿って\n- **Ý nghĩa:** Tuân theo, dựa theo, không thể lệch khỏi điều gì.\n- **Cách kết hợp:** N + に沿って, N + に沿う・に沿った+ N\n- **Giải thích:** Thường đi với những từ mang tính quy tắc, chuẩn mực (Luật, phương châm, quy định…). Vế sau là câu thể hiện hành động tuân theo chuẩn mực đó.\n\n#### Ví dụ:\n- 日本の運動会はプログラムに沿って順番に進めています → *Hội thể thao của Nhật Bản dựa theo chương trình mà lần lượt tiến hành*\n- 新人の店員たちはアニュアルに沿ってやり方でお客様に応対している → *Các nhân viên của hàng mới dựa theo cách làm hàng năm mà đối đãi với khách hàng*\n\n### 4. 〜のもとで・〜のもとに\n- **Ý nghĩa:** Chịu sự ảnh hưởng của điều gì, dưới sự bảo vệ của điều gì.\n- **Cách kết hợp:** N + のもとで・のもとに\n- **Giải thích:** のもとで đi với từ chỉ người là chính, mang ý nghĩa là chịu sự ảnh hưởng của người đó. Vế sau hay là câu thể hiện hành vi. のもとにđi với danh từ thể hiện trạng thái là chính, mang ý nghĩa là trong trạng thái đó, trong tình huống đó. Vế sau là câu thể hiện hành vi, thái độ.\n\n#### Ví dụ:\n- チームは新しい監督のもとで練習に励んでいる → *Đội bóng đang nỗ lực luyện tập dưới sự chỉ đạo của quản lí mới.*\n- 公園は国の保護のもとに、環境守られている → *Công viên này dưới sự bảo trợ của quốc gia, môi trường được bảo vệ.*\n\n### 5. 〜向けだ\n- **Ý nghĩa:** Hướng đến đối tượng đặc biệt.\n- **Cách kết hợp:** N + 向けだ\n- **Giải thích:** Chủ yếu đi kèm với những danh từ chỉ người. Vế sau thường là câu đi với các động từ có ý nghĩa là làm, thiết kế,.. dành cho đối tượng đó.\n\n#### Ví dụ:\n- これは理科が好きな子供向けに編集された雑誌 → *Đây là tạp chí được biên tập dành cho trẻ em yêu thích khoa học*\n- このマンションは一人暮らしの高齢者向けに設計されています → *Tòa nhà này được thiết kế dành cho người cao tuổi sống một mình*",
+  "cards": [
+    {
+      "front": "〜をもとに（して）",
+      "back": "Từ dữ kiện/nền tảng cơ bản để làm ra cái mới.",
+      "romaji": "wo moto ni (shite)",
+      "example": "漢字をもとにしてひらがなとカタカナができた。(Hiragana và Katakana được tạo nên từ Kanji.)"
+    },
+    {
+      "front": "〜に基づいて",
+      "back": "Dựa theo dữ liệu, cơ sở rõ ràng để làm điều gì đó.",
+      "romaji": "ni motozuite",
+      "example": "最新おデータに基づいて売り上げ計画を立てたいと思います。(Tôi muốn lên kế hoạch bán hàng dựa vào dữ liệu mới nhất.)"
+    },
+    {
+      "front": "〜に沿って",
+      "back": "Tuân theo, dựa theo (quy tắc, chuẩn mực).",
+      "romaji": "ni sotte",
+      "example": "日本の運動会はプログラムに沿って順番に進めています。(Hội thể thao của Nhật Bản dựa theo chương trình mà lần lượt tiến hành.)"
+    },
+    {
+      "front": "〜のもとで・〜のもとに",
+      "back": "Chịu sự ảnh hưởng, sự bảo vệ của ai/điều gì.",
+      "romaji": "no moto de / no moto ni",
+      "example": "チームは新しい監督のもとで練習に励んでいる。(Đội bóng đang nỗ lực luyện tập dưới sự chỉ đạo của quản lí mới.)"
+    },
+    {
+      "front": "〜向けだ",
+      "back": "Hướng đến đối tượng đặc biệt.",
+      "romaji": "muke da",
+      "example": "このマンションは一人暮らしの高齢者向けに設計されています。(Tòa nhà này được thiết kế dành cho người cao tuổi sống một mình.)"
+    }
+  ]
+}

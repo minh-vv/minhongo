@@ -1,0 +1,35 @@
+{
+  "theoryMd": "# Bài 17: Lý do đưa ra sau (〜ことだし, 〜のことだから, 〜だけに, 〜ばかりに, 〜からには・〜以上(は)・〜上は)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜ことだし\n- **Ý nghĩa:** Có nhiều lí do khác nữa, nhưng trước hết là vì lí do này.\n- **Cách kết hợp:** Thể thông thường (Naだ -な /-である・Nだ – の/- である) + ことだし\n- **Giải thích:** Vế sau là câu mang ý chí, nguyện vọng, phán đoán của người nói, hoặc là lời mời, rủ.\n\n#### Ví dụ:\n- 来週はお客様が来ることだし、いえのなかの大掃除をしなくちゃ → *Vì sau có khách tới, nên phải tổng vệ sinh trong nhà thôi*\n- 明日はお父さんも休みのことだし、みんなで買い物でも行かない? → *Ngày mai bố cũng được nghỉ, nên mọi người cùng đi mua đồ chứ?*\n\n### 2. 〜のことだから\n- **Ý nghĩa:** Dựa vào tính cách hay hay thái độ thông thường của một sự vật, để đưa ra suy luận.\n- **Cách kết hợp:** N + のことだから\n- **Giải thích:** Chủ yếu đi với từ chỉ người. Vế phía sau là suy luận, phán đoán của người nói. Cũng có trường hợp được dùng đứng cuối câu.\n\n#### Ví dụ:\n- 頑張り屋のAさんのことだから、きっと今度のテストでもいい点を取りますよ → *Vì là A-san, kiểu người luôn cố gắng, nhất định cậu ấy sẽ đạt điểm tốt trong bài kiểm tra tới*\n- Bの帰りが遅いね。でも、あの子のことだ。どこかの本屋で立ち読みでもして時間が経つのを忘れているんだろう → *B về muộn nhỉ. Nhưng vì đó là con bé mà. Chắc lại đứng đọc sách ở cửa hàng nào đó quên bẵng thời gian trôi qua thôi*\n\n### 3. 〜だけに\n- **Ý nghĩa:** Chính bởi lí do này mà kết quả đằng sau là đương nhiên.\n- **Cách kết hợp:** N ・ Thể thông thường (Naだ -な /-である・N – である) + だけに\n- **Giải thích:** Vế sau là câu thể hiện trạng thái phù hợp với lí do đằng trước. Không dùng để đưa lời mời.\n\n#### Ví dụ:\n- 母は花が好きなだけに、花をもらうと大喜びする → *Mẹ tôi là một người thích hoa, nên mỗi khi nhận được hoa lại rất vui*\n- あそこは有名なレストランだけに、客に出した料理に問題があったとわかったときは大ニュースになった → *Nhà hàng đó là nhà hàng có tiếng, nên khi biết chuyện đồ ăn mang ra cho khách có vấn đề, điều này đã trở thành một tin lớn*\n\n### 4. 〜ばかりに\n- **Ý nghĩa:** Vì một nguyên nhân mà gây ra kết quả xấu không dự đoán trước.\n- **Cách kết hợp:** Thể thông thường (Naだ -な /-である・Nだ – である) + ばかりに\n- **Giải thích:** Mẫu câu thể hiện kết quả xấu không dự đoán trước, không đi thể hiện ý hướng, nguyện vọng của người nói. Khi đi kèm với động từ thể たい, vế sau là câu thể hiện việc tốn công tốn sức cho mong muốn ở trước.\n\n#### Ví dụ:\n- 家のかぎを忘れて出かけたばかりに、家族が帰ってくるまで家に入れなかった → *Vì tôi ra khỏi nhà mà quên chìa khóa, tôi không thể vào nhà cho tới khi gia đình về*\n- テレビで見たこの村の人たちに会いたいばかりに、はるばる日本からやってきた → *Chỉ vì muốn gặp những người trong ngôi làng tôi thấy trên TV, tôi đã vượt đường xá xa xôi tới Nhật Bản*\n\n### 5. 〜からには・〜以上(は)・〜上は\n- **Ý nghĩa:** Vì lí do đó nên muốn làm gì, có dự định gì.\n- **Cách kết hợp:** Thể thông thường (Naだ -な /-である・Nだ – である) + からには・〜以上(は) ; Vる・Vた +上は\n- **Giải thích:** Cả câu thể hiện một điều mang ý hiển nhiên, thông thường. Vế sau là câu thể hiện nguyện vọng, ý hướng, phán đoán của người nói, hoặc câu mời, rủ.\n\n#### Ví dụ:\n- 留学するからには、ちゃんと目的があるでしょうね → *Vì du học, nên phải có mục đích rõ ràng đúng không?*\n- 専門職である以上は、常に新しい知識を身につけなければならないと思う → *Vì là công việc chuyên ngành, tôi nghĩ cần phải luôn nắm bắt kiến thức mới*\n- オリンピック出場を目指す上は、中途半端な気持ちではだめだ → *Vì nhắm tới mục tiêu tham dự olympic, quyết tâm nửa vời là không được*",
+  "cards": [
+    {
+      "front": "〜ことだし",
+      "back": "Có nhiều lí do khác nữa, nhưng trước hết là vì lí do này. Vế sau là ý chí, nguyện vọng, lời mời.",
+      "romaji": "koto dashi",
+      "example": "来週はお客様が来ることだし、いえのなかの大掃除をしなくちゃ。(Vì sau có khách tới, nên phải tổng vệ sinh trong nhà thôi.)"
+    },
+    {
+      "front": "〜のことだから",
+      "back": "Dựa vào tính cách/thái độ thông thường của đối phương để đưa ra suy luận/phán đoán.",
+      "romaji": "no koto dakara",
+      "example": "頑張り屋のAさんのことだから、きっと今度のテストでもいい点を取りますよ。(Vì là A-san, kiểu người luôn cố gắng, nhất định cậu ấy sẽ đạt điểm tốt trong bài kiểm tra tới.)"
+    },
+    {
+      "front": "〜だけに",
+      "back": "Chính bởi vì lý do đó mà kết quả phía sau là đương nhiên. Vế sau thể hiện trạng thái tương ứng.",
+      "romaji": "dake ni",
+      "example": "母は花が好きなだけに、花をもらうと大喜びする。(Mẹ tôi là một người thích hoa, nên mỗi khi nhận được hoa lại rất vui.)"
+    },
+    {
+      "front": "〜ばかりに",
+      "back": "Vì một nguyên nhân duy nhất mà dẫn đến kết quả xấu không dự đoán trước.",
+      "romaji": "bakari ni",
+      "example": "家のかぎを忘れて出かけたばかりに、家族が帰ってくるまで家に入れなかった。(Vì tôi ra khỏi nhà mà quên chìa khóa, tôi không thể vào nhà cho tới khi gia đình về.)"
+    },
+    {
+      "front": "〜からには・〜以上(は)・〜上は",
+      "back": "Vì lí do đó (hiển nhiên) nên muốn làm gì, có dự định/quyết tâm gì.",
+      "romaji": "kara ni wa / ijou (wa) / ue wa",
+      "example": "留学するからには、ちゃんと目的があるでしょうね。(Vì du học, nên phải có mục đích rõ ràng đúng không?)"
+    }
+  ]
+}

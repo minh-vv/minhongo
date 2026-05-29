@@ -1,0 +1,35 @@
+{
+  "theoryMd": "# Bài 7: Liên quan đến đối tượng (〜に関して, 〜をめぐって, 〜にかけては, 〜に対して, 〜にこたえて)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜に関して\n- **Ý nghĩa:** Liên quan đến nội dung hoặc thông tin cụ thể.\n- **Cách kết hợp:** N + に関して; N + に関する + N\n- **Giải thích:** Vế sau hay đi với câu có động từ thể hiện việc có được thông tin (điều tra, thuyết minh...). Khác với \"について\" chỉ trực tiếp đối tượng, \"に関して\" chỉ đối tượng và bao hàm cả những vấn đề liên quan đối tượng.\n\n#### Ví dụ:\n- 警察では、犯行の動機に関して、詳しい調査を開始した。 → *Cảnh sát bắt đầu điều tra cụ thể về động cơ gây án.*\n- 高齢者の生活に関するアンケートにご協力ください。 → *Xin hãy giúp chúng tôi làm khảo sát liên quan đến cuộc sống người cao tuổi.*\n\n### 2. 〜をめぐって\n- **Ý nghĩa:** Tranh luận, đưa nhiều ý kiến đối lập về một vấn đề.\n- **Cách kết hợp:** N + をめぐって; N + をめぐる + N\n- **Giải thích:** Chủ thể thực hiện hành động là số nhiều. Vế sau là câu chứa động từ thể hiện ý nhiều người đấu tranh, tranh luận về một điều gì đó.\n\n#### Ví dụ:\n- 親が残した土地をめぐって親族が争ってる。 → *Họ hàng tranh giành nhau về mảnh đất mà cha mẹ để lại.*\n- 彼女の行動をめぐるうわさはたちまち社内に広がった。 → *Lời đồn về hành động của cô ấy nhanh chóng lan rộng trong công ty.*\n\n### 3. 〜にかけては\n- **Ý nghĩa:** Giỏi nhất về điều gì đó.\n- **Cách kết hợp:** N + にかけては\n- **Giải thích:** Đi kèm với từ thể hiện năng lực, kĩ thuật. Câu mang ý nghĩa có năng lực giỏi nhất về điều gì.\n\n#### Ví dụ:\n- 私は安い材料でおいしい料理を作ることにかけてはだれも負けませんよ。 → *Về khoản nấu đồ ăn ngon từ nguyên liệu rẻ thì tôi không thua ai đâu.*\n- ボール運びのうまさにかけてはA選手の右に出るものはいない。 → *Về việc chuyền bóng giỏi thì không ai hơn tuyển thủ A cả.*\n\n### 4. 〜に対して\n- **Ý nghĩa:** \n  a. Đưa ra đối tượng để thể hiện thái độ, ý kiến (đối tượng).\n  b. Thể hiện sự đối lập, khác hẳn nhau giữa hai đối tượng (đối lập).\n- **Cách kết hợp:** N + に対して; N + 対する + N\n- **Giải thích:** \n  a. Trước に対して thường là từ thể hiện chủ đề, người, quan điểm. Vế sau thể hiện hành vi, thái độ, cảm xúc trực tiếp đối với đối tượng.\n  b. Chủ thể ở cả vế trước và vế sau cùng cấp tương đương và có phương diện trái ngược nhau.\n\n#### Ví dụ:\n- 目上の人に対してそんな乱暴な言い方をしてはいけません。 → *Không được có cách nói hỗn láo như vậy với người trên.*\n- 政府の案に対して住民は大反対した。 → *Dân chúng phản đối mạnh với đề án của chính phủ.*\n- やる気がなかった前の会長に対して、新しい会長は素晴らしい行動力がある。 → *Đối lập với vị chủ tịch trước không có động lực làm việc, chủ tịch mới có năng lực tuyệt vời.*\n\n### 5. 〜にこたえて\n- **Ý nghĩa:** Làm điều gì đó để mong chờ, kì vọng thành hiện thực.\n- **Cách kết hợp:** N + にこたえて; N + にこたえる + N\n- **Giải thích:** Đi kèm với những từ thể hiện nguyện vọng như “Kì vọng, yêu cầu, hi vọng...”. Vế sau là câu mang động từ.\n\n#### Ví dụ:\n- 応援してくれる人の気持ちにこたえて立派な試合をしよう。 → *Đáp lại cảm xúc của những người tới cổ vũ, hãy chơi một trận đấu tuyệt vời nào.*\n- 皆様のご期待にこたえて精いっぱい頑張ります。 → *Đáp lại kì vọng của mọi người, tôi sẽ cố gắng hết sức.*",
+  "cards": [
+    {
+      "front": "〜に関して",
+      "back": "Liên quan đến, về việc...",
+      "romaji": "ni kanshite",
+      "example": "高齢者の生活に関するアンケートにご協力ください。(Xin hãy giúp chúng tôi làm khảo sát liên quan đến cuộc sống người cao tuổi.)"
+    },
+    {
+      "front": "〜をめぐって",
+      "back": "Xoay quanh (vấn đề gì đó), tranh luận về...",
+      "romaji": "o megutte",
+      "example": "親が残した土地をめぐって親族が争ってる。(Họ hàng tranh giành nhau về mảnh đất mà cha mẹ để lại.)"
+    },
+    {
+      "front": "〜にかけては",
+      "back": "Về khoản..., giỏi nhất về...",
+      "romaji": "ni kakete wa",
+      "example": "ボール運びのうまさにかけてはA選手の右に出るものはいない。(Về việc chuyền bóng giỏi thì không ai hơn tuyển thủ A cả.)"
+    },
+    {
+      "front": "〜に対して",
+      "back": "Đối với..., trái ngược với...",
+      "romaji": "ni taishite",
+      "example": "政府の案に対して住民は大反対した。(Dân chúng phản đối mạnh với đề án của chính phủ.)"
+    },
+    {
+      "front": "〜にこたえて",
+      "back": "Đáp lại (kỳ vọng, yêu cầu)...",
+      "romaji": "ni kotaete",
+      "example": "皆様のご期待にこたえて精いっぱい頑張ります。(Đáp lại kì vọng của mọi người, tôi sẽ cố gắng hết sức.)"
+    }
+  ]
+}

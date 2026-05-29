@@ -1,0 +1,35 @@
+{
+  "theoryMd": "# Bài 16: Nguyên nhân / Lý do (〜によって, 〜ものながら・〜もので, 〜おかげだ / 〜せいだ, 〜あまり・〜あまりの〜に, 〜につき)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜によって\n- **Ý nghĩa:** Vì nguyên nhân nào đó mà gây ra kết quả. Bằng phương pháp, cách thức nào đó.\n- **Cách kết hợp:** N + によって / N + による + N\n- **Giải thích:** Với ý nghĩa chỉ cách thức, mẫu khó dùng với trường hợp sử dụng đồ thường ngày cho mục đích cá nhân (điện thoại, bút, xe điện…), nhưng có thể dùng ở dạng bổ nghĩa cho danh từ.\n\n#### Ví dụ:\n- 合否の結果は後日書面で連絡します。電話による問い合わせは受け付けません。 → *Kết quả đỗ hay trượt, chúng tôi sẽ liên lạc qua thư. Chúng tôi không nhận câu hỏi qua điện thoại.*\n- 会長が交替したことによって、会の雰囲気が多く変わった → *Vì việc thay đổi giám đốc, bầu không khí của công ty đã thay đổi nhiều*\n\n### 2. 〜ものながら・〜もので・〜もの\n- **Ý nghĩa:** Đưa ra lời lẽ, lí do bao biện. Dùng trong ngôn ngữ nói.\n- **Cách kết hợp:** Thể thông thường (Na・Nだ –である) + ものながら・もので / Thể thông thường + もの\n- **Giải thích:** Dùng đưa ra lí lẽ mang tính cá nhân. Vế sau không đưa mệnh lệnh hoặc thể ý hướng. \"もの\" chủ yếu đứng cuối câu, đặc biệt sử dụng nhiều với phụ nữ và trẻ con.\n\n#### Ví dụ:\n- このところ忙しかったもので、お返事が遅れてしまいました。ごめんなさい → *Vì dạo này bận nên tôi đã trả lời chậm mất. Thật xin lỗi*\n- あの人の言うことはよくわからないよ。言葉が難しんだもの → *Tôi không hiểu rõ những lời người đó nói. Từ ngữ khó hiểu quá mà.*\n\n### 3. 〜おかげだ / 〜せいだ\n- **Ý nghĩa:** Nhờ có điều gì mà có được kết quả tốt / Vì điều gì mà bị kết quả xấu.\n- **Cách kết hợp:** Nの・Thể thông thường (Naだ -な) + おかげだ / せいだ\n- **Giải thích:** Vế trước là nguyên nhân gây ảnh hưởng. Vế sau \"おかげで\" là kết quả tốt, vế sau \"せいで\" là kết quả xấu. Không dùng với từ thể hiện ý hướng của người nói.\n\n#### Ví dụ:\n- 今年の春は気温が低い日が多かったせいで、桜の開花が遅い → *Mùa xuân năm nay có nhiều ngày nhiệt độ thấp, nên hoa anh đào nở muộn*\n- 私が大学に合格できたのは、A先生のおかげです → *Tôi có thể đỗ được đại học, là nhờ công thầy A*\n\n### 4. 〜あまり・〜あまりの〜に\n- **Ý nghĩa:** Vì quá mức điều gì đó mà tạo ra một kết quả.\n- **Cách kết hợp:** Nの・Thể thông thường (Naだ -な) + あまり / あまりの + N + に\n- **Giải thích:** Vế sau là kết quả không thường thấy (phần lớn là kết quả xấu). Không thể hiện mong muốn, ý hướng của người nói.\n\n#### Ví dụ:\n- １０年ぶり兄に合った。兄のあまりの変化に言葉が出なかった → *Tôi gặp lại anh trai sau 10 năm. Anh ấy thay đổi nhiều đến mức tôi không nói nên lời*\n- 当然勝つと思っていた試合で最後に逆転負けし、悔しさのあまりぼろぼろ泣いた → *Trận đấu nghĩ là đương nhiên thắng rồi, đến cuối cùng lại bị đảo ngược thành thua, tôi không cam lòng đến phát khóc*\n\n### 5. 〜につき\n- **Ý nghĩa:** Nêu lí do, dùng cho thông báo.\n- **Cách kết hợp:** N + につき\n- **Giải thích:** Đi kèm với những từ thể hiện trạng thái ở thời điểm hiện tại. Thường thấy trên bảng tin, thông báo.\n\n#### Ví dụ:\n- トイレはただ清掃中につき、ご利用になれません → *Toilet đang dọn dẹp, xin không sử dụng*\n- 本日は祝日につき、閉館しております → *Hôm nay là ngày lễ, quán xin được đóng cửa*",
+  "cards": [
+    {
+      "front": "〜によって",
+      "back": "Vì nguyên nhân nào đó mà gây ra kết quả hoặc bằng cách thức nào đó.",
+      "romaji": "ni yotte",
+      "example": "会長が交替したことによって、会の雰囲気が多く変わった。(Vì việc thay đổi giám đốc, bầu không khí của công ty đã thay đổi nhiều)"
+    },
+    {
+      "front": "〜ものながら・〜もので・〜もの",
+      "back": "Đưa ra lời lẽ, lí do bao biện (dùng trong ngôn ngữ nói).",
+      "romaji": "mononagara / monde / mon",
+      "example": "このところ忙しかったもので、お返事が遅れてしまいました。(Vì dạo này bận nên tôi đã trả lời chậm mất.)"
+    },
+    {
+      "front": "〜おかげだ / 〜せいだ",
+      "back": "Nhờ có (tốt) / Vì (xấu) điều gì mà dẫn đến kết quả tương ứng.",
+      "romaji": "okageda / seida",
+      "example": "私が大学に合格できたのは、A先生のおかげです。(Tôi có thể đỗ được đại học, là nhờ công thầy A.)"
+    },
+    {
+      "front": "〜あまり・〜あまりの〜に",
+      "back": "Vì quá mức... mà dẫn đến kết quả xấu không dự đoán trước.",
+      "romaji": "amari / amarino... ni",
+      "example": "悔しさのあまりぼろぼろ泣いた。(Tôi không cam lòng đến phát khóc.)"
+    },
+    {
+      "front": "〜につき",
+      "back": "Nêu lý do, thường dùng trong thông báo.",
+      "romaji": "ni tsuki",
+      "example": "本日は祝日につき、閉館しております。(Hôm nay là ngày lễ, quán xin được đóng cửa.)"
+    }
+  ]
+}

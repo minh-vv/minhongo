@@ -1,0 +1,23 @@
+{
+  "theoryMd": "# Bài 1: Thời điểm, cơ hội (〜祭（に）, 〜に際して・〜にあたって)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜祭（に）\n- **Ý nghĩa:** Khi..., vào lúc...\n- **Cách kết hợp:** N ・ Vる・ Vた + 祭（に）\n- **Giải thích:** Ý nghĩa giống với とき nhưng mang sắc thái cứng hơn, trang trọng hơn. Đi kèm với danh từ, động từ thể hiện hành vi có chủ đích. Thường dùng trong thông báo công cộng, không dùng trong đời sống thường ngày.\n\n#### Ví dụ:\n- こちらの会議室をご利用になる際に、受付で必要事項をご記入ください。 → *Khi sử dụng phòng họp, hãy điền vào mẫu yêu cầu ở quầy lễ tân.*\n- お食事の際は、こちらのテーブルをお使いいただけます。 → *Khi dùng bữa, có thể sử dụng cái bàn này.*\n\n### 2. 〜に際して・〜にあたって\n- **Ý nghĩa:** Khi..., vào lúc..., nhân dịp...\n- **Cách kết hợp:** N ・ Vる + に際して・にあたって\n- **Giải thích:** Cả hai đều có nghĩa là \"khi\". \"に際して\" dùng với trường hợp cụ thể, trang trọng. \"にあたって\" dùng trong dịp vui, mang tính tích cực hơn, thường không dùng cho trường hợp tiêu cực (nhập viện, phá sản...). Dùng với những từ thể hiện thời gian đặc biệt, có chủ ý, thường chỉ xảy ra một lần (kết hôn, mở cửa hàng...)\n\n#### Ví dụ:\n- 父は手術を受けるに際して、医者にいろいろ質問した。 → *Trước khi bố tôi phẫu thuật, ông đã hỏi bác sĩ rất nhiều điều.*\n- 新しく事業を始めるにあたって、しっかりと準備をしようと思っております。 → *Khi chuẩn bị bắt đầu sự nghiệp mới, tôi sẽ chuẩn bị kĩ càng.*",
+  "cards": [
+    {
+      "front": "〜祭（に）",
+      "back": "Ý nghĩa: Khi..., vào lúc... (Sắc thái cứng, trang trọng hơn 'toki'). Thường dùng trong thông báo.",
+      "romaji": "sai (ni)",
+      "example": "お食事の際は、こちらのテーブルをお使いいただけます。(Khi dùng bữa, có thể sử dụng cái bàn này.)"
+    },
+    {
+      "front": "〜に際して",
+      "back": "Ý nghĩa: Khi..., vào lúc... (Dùng trong trường hợp cụ thể, trang trọng, dịp đặc biệt).",
+      "romaji": "ni saishite",
+      "example": "父は手術を受けるに際して、医者にいろいろ質問した。(Trước khi bố tôi phẫu thuật, ông đã hỏi bác sĩ rất nhiều điều.)"
+    },
+    {
+      "front": "〜にあたって",
+      "back": "Ý nghĩa: Khi..., nhân dịp... (Dùng cho dịp vui, tích cực, không dùng cho trường hợp tiêu cực).",
+      "romaji": "ni atatte",
+      "example": "新しく事業を始めるにあたって、しっかりと準備をしようと思っております。(Khi chuẩn bị bắt đầu sự nghiệp mới, tôi sẽ chuẩn bị kĩ càng.)"
+    }
+  ]
+}
