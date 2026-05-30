@@ -42,10 +42,7 @@ export class CoursesController {
 
   @UseGuards(JwtAuthGuard)
   @Get('courses/:slug')
-  getCourse(
-    @Param('slug') slug: string,
-    @Request() req: RequestWithUser,
-  ) {
+  getCourse(@Param('slug') slug: string, @Request() req: RequestWithUser) {
     return this.coursesService.getCourseBySlug(slug, req.user.id);
   }
 
@@ -63,19 +60,13 @@ export class CoursesController {
 
   @UseGuards(JwtAuthGuard)
   @Get('lessons/:id')
-  getLesson(
-    @Param('id') id: string,
-    @Request() req: RequestWithUser,
-  ) {
+  getLesson(@Param('id') id: string, @Request() req: RequestWithUser) {
     return this.coursesService.getLessonById(id, req.user.id);
   }
 
   @UseGuards(JwtAuthGuard)
   @Post('lessons/:id/start')
-  startLesson(
-    @Param('id') id: string,
-    @Request() req: RequestWithUser,
-  ) {
+  startLesson(@Param('id') id: string, @Request() req: RequestWithUser) {
     return this.coursesService.startLesson(id, req.user.id);
   }
 

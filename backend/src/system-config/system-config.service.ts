@@ -44,7 +44,12 @@ export class SystemConfigService implements OnModuleInit {
     return raw === 'true' || raw === '1';
   }
 
-  private parseIntSafe(raw: string | undefined, fallback: number, min: number, max: number): number {
+  private parseIntSafe(
+    raw: string | undefined,
+    fallback: number,
+    min: number,
+    max: number,
+  ): number {
     const n = parseInt(raw ?? '', 10);
     if (Number.isNaN(n)) return fallback;
     return Math.min(max, Math.max(min, n));

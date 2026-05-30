@@ -51,7 +51,11 @@ export class CoursesService {
           orderBy: { order: 'asc' },
           include: {
             test: true,
-            decks: { include: { deck: { include: { _count: { select: { cards: true } } } } } },
+            decks: {
+              include: {
+                deck: { include: { _count: { select: { cards: true } } } },
+              },
+            },
           },
         },
       },
@@ -59,8 +63,13 @@ export class CoursesService {
 
     if (!course) throw new NotFoundException('Lộ trình không tồn tại');
 
-    let progressMap = new Map<string, { status: LessonStatus; score: number | null }>();
-    let enroll: Awaited<ReturnType<typeof this.prisma.userCourseProgress.findUnique>> = null;
+    let progressMap = new Map<
+      string,
+      { status: LessonStatus; score: number | null }
+    >();
+    let enroll: Awaited<
+      ReturnType<typeof this.prisma.userCourseProgress.findUnique>
+    > = null;
 
     if (userId) {
       enroll = await this.prisma.userCourseProgress.findUnique({
@@ -122,7 +131,11 @@ export class CoursesService {
 
   // ========== ENROLLMENT ==========
 
-  async enroll(slug: string, userId: string, dto: { targetDate?: string; goal?: string }) {
+  async enroll(
+    slug: string,
+    userId: string,
+    dto: { targetDate?: string; goal?: string },
+  ) {
     const course = await this.prisma.course.findUnique({ where: { slug } });
     if (!course) throw new NotFoundException('Lộ trình không tồn tại');
 
@@ -176,7 +189,10 @@ export class CoursesService {
     });
     const passedByCourse = new Map<string, number>();
     for (const lesson of lessons) {
-      passedByCourse.set(lesson.courseId, (passedByCourse.get(lesson.courseId) ?? 0) + 1);
+      passedByCourse.set(
+        lesson.courseId,
+        (passedByCourse.get(lesson.courseId) ?? 0) + 1,
+      );
     }
 
     return enrolls.map((e) => ({
@@ -286,7 +302,13 @@ export class CoursesService {
           include: {
             lessons: {
               orderBy: { order: 'asc' },
-              select: { id: true, order: true, title: true, estimatedMin: true, skills: true },
+              select: {
+                id: true,
+                order: true,
+                title: true,
+                estimatedMin: true,
+                skills: true,
+              },
             },
           },
         },
@@ -342,15 +364,20 @@ export class CoursesService {
   ) {
     if (!enroll.targetDate) return null;
 
-    const passed = progress.filter((p) => p.status === LessonStatus.PASSED).length;
+    const passed = progress.filter(
+      (p) => p.status === LessonStatus.PASSED,
+    ).length;
     const remaining = totalLessons - passed;
     const now = new Date();
     const daysLeft = Math.max(
       1,
-      Math.ceil((enroll.targetDate.getTime() - now.getTime()) / (1000 * 60 * 60 * 24)),
+      Math.ceil(
+        (enroll.targetDate.getTime() - now.getTime()) / (1000 * 60 * 60 * 24),
+      ),
     );
     const lessonsPerWeek = Math.ceil((remaining / daysLeft) * 7);
-    const overdue = enroll.targetDate.getTime() < now.getTime() && remaining > 0;
+    const overdue =
+      enroll.targetDate.getTime() < now.getTime() && remaining > 0;
 
     return {
       totalLessons,
@@ -365,14 +392,18 @@ export class CoursesService {
   // ========== LESSON ACTIONS ==========
 
   async startLesson(lessonId: string, userId: string) {
-    const lesson = await this.prisma.lesson.findUnique({ where: { id: lessonId } });
+    const lesson = await this.prisma.lesson.findUnique({
+      where: { id: lessonId },
+    });
     if (!lesson) throw new NotFoundException('Bài học không tồn tại');
 
     return this.prisma.userLessonProgress.upsert({
       where: { userId_lessonId: { userId, lessonId } },
       update: {
         status: LessonStatus.IN_PROGRESS,
-        startedAt: { set: new Date() } as Prisma.DateTimeFieldUpdateOperationsInput,
+        startedAt: {
+          set: new Date(),
+        } as Prisma.DateTimeFieldUpdateOperationsInput,
       },
       create: {
         userId,

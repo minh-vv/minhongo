@@ -149,7 +149,7 @@ export default function FlashcardStudy({ deck, onComplete }) {
               backfaceVisibility: 'hidden',
               WebkitBackfaceVisibility: 'hidden',
               transform: 'rotateY(180deg)',
-              background: 'linear-gradient(135deg, #801c1c 0%, #c62828 100%)',
+              background: 'linear-gradient(135deg, #1a237e 0%, #283593 60%, #1565c0 100%)',
             }}
           >
             {/* Asanoha texture overlay */}

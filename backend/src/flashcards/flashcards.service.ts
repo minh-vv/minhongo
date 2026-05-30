@@ -365,8 +365,22 @@ export class FlashcardsService {
     const [progress] = await Promise.all([
       this.prisma.cardProgress.upsert({
         where: { userId_cardId: { userId, cardId } },
-        update: { easeFactor, interval, repetitions, nextReviewDate, lastReviewDate: new Date() },
-        create: { userId, cardId, easeFactor, interval, repetitions, nextReviewDate, lastReviewDate: new Date() },
+        update: {
+          easeFactor,
+          interval,
+          repetitions,
+          nextReviewDate,
+          lastReviewDate: new Date(),
+        },
+        create: {
+          userId,
+          cardId,
+          easeFactor,
+          interval,
+          repetitions,
+          nextReviewDate,
+          lastReviewDate: new Date(),
+        },
       }),
       // Ghi log từng lần ôn tập để vẽ biểu đồ lịch sử
       this.prisma.reviewLog.create({
@@ -415,13 +429,15 @@ export class FlashcardsService {
       }
     }
 
-    const history = Array.from(map.entries()).map(([date, { total, remembered }]) => ({
-      date,
-      total,
-      remembered,
-      forgot: total - remembered,
-      rate: total > 0 ? Math.round((remembered / total) * 100) : 0,
-    }));
+    const history = Array.from(map.entries()).map(
+      ([date, { total, remembered }]) => ({
+        date,
+        total,
+        remembered,
+        forgot: total - remembered,
+        rate: total > 0 ? Math.round((remembered / total) * 100) : 0,
+      }),
+    );
 
     const totalReviewed = logs.length;
     const totalRemembered = logs.filter((l) => l.quality >= 2).length;
@@ -439,7 +455,10 @@ export class FlashcardsService {
       summary: {
         totalReviewed,
         totalRemembered,
-        overallRate: totalReviewed > 0 ? Math.round((totalRemembered / totalReviewed) * 100) : 0,
+        overallRate:
+          totalReviewed > 0
+            ? Math.round((totalRemembered / totalReviewed) * 100)
+            : 0,
         streak,
         activeDays: history.filter((d) => d.total > 0).length,
       },
@@ -456,7 +475,10 @@ export class FlashcardsService {
 
     // XP rule: Again=2, Hard=5, Good=10, Easy=15
     const xpByQuality = [2, 5, 10, 15];
-    const totalXp = logs.reduce((sum, l) => sum + (xpByQuality[l.quality] ?? 0), 0);
+    const totalXp = logs.reduce(
+      (sum, l) => sum + (xpByQuality[l.quality] ?? 0),
+      0,
+    );
 
     // Level curve: 100 XP / level (simple and predictable for MVP)
     const level = Math.max(1, Math.floor(totalXp / 100) + 1);
@@ -479,7 +501,11 @@ export class FlashcardsService {
               : { id: 'rookie', label: 'Rookie', icon: '🌱' };
 
     const achievements = [
-      { id: 'first_review', unlocked: logs.length >= 1, label: 'Lần ôn đầu tiên' },
+      {
+        id: 'first_review',
+        unlocked: logs.length >= 1,
+        label: 'Lần ôn đầu tiên',
+      },
       { id: 'streak_7', unlocked: streak >= 7, label: 'Streak 7 ngày' },
       { id: 'reviews_100', unlocked: logs.length >= 100, label: '100 lượt ôn' },
       { id: 'level_10', unlocked: level >= 10, label: 'Đạt level 10' },
@@ -589,14 +615,20 @@ export class FlashcardsService {
     try {
       // Lấy notes
       const notesRes = db.exec('SELECT id, mid, tags, flds, sfld FROM notes');
-      let notes: { id: number; mid: number; tags: string; flds: string; sfld: string }[] = [];
+      let notes: {
+        id: number;
+        mid: number;
+        tags: string;
+        flds: string;
+        sfld: string;
+      }[] = [];
       if (notesRes.length > 0) {
         notes = notesRes[0].values.map((row: any[]) => ({
           id: Number(row[0]),
           mid: Number(row[1]),
           tags: String(row[2] || ''),
           flds: String(row[3] || ''),
-          sfld: String(row[4] || '')
+          sfld: String(row[4] || ''),
         }));
       }
 
@@ -738,13 +770,19 @@ export class FlashcardsService {
    */
   private async openAnkiDatabase(fileBuffer: Buffer) {
     const zip = new AdmZip(fileBuffer);
-    
+
     let dbBuffer: Buffer;
-    
+
     // Support modern anki21b (zstd compressed) and legacy formats
-    const anki21b = zip.getEntries().find(e => e.entryName === 'collection.anki21b');
-    const anki21 = zip.getEntries().find(e => e.entryName === 'collection.anki21');
-    const anki2 = zip.getEntries().find(e => e.entryName === 'collection.anki2');
+    const anki21b = zip
+      .getEntries()
+      .find((e) => e.entryName === 'collection.anki21b');
+    const anki21 = zip
+      .getEntries()
+      .find((e) => e.entryName === 'collection.anki21');
+    const anki2 = zip
+      .getEntries()
+      .find((e) => e.entryName === 'collection.anki2');
 
     if (anki21b) {
       const compressed = anki21b.getData();
@@ -760,28 +798,39 @@ export class FlashcardsService {
 
     const SQL = await initSqlJs();
     const db = new SQL.Database(dbBuffer);
-    
+
     let fieldNames: string[] = [];
-    
+
     try {
       // Check for tables
-      const tablesRes = db.exec("SELECT name FROM sqlite_master WHERE type='table'");
-      const tables = tablesRes.length > 0 ? tablesRes[0].values.map(row => row[0] as string) : [];
-      
+      const tablesRes = db.exec(
+        "SELECT name FROM sqlite_master WHERE type='table'",
+      );
+      const tables =
+        tablesRes.length > 0
+          ? tablesRes[0].values.map((row) => row[0] as string)
+          : [];
+
       const hasFields = tables.includes('fields');
       const hasCol = tables.includes('col');
-      
+
       if (hasFields) {
-        const fieldsRes = db.exec('SELECT ntid, name FROM fields ORDER BY ntid, ord');
+        const fieldsRes = db.exec(
+          'SELECT ntid, name FROM fields ORDER BY ntid, ord',
+        );
         if (fieldsRes.length > 0) {
           const allFields = fieldsRes[0].values;
           // Determine the most used model
-          const midsRes = db.exec('SELECT mid, COUNT(*) as c FROM notes GROUP BY mid ORDER BY c DESC LIMIT 1');
+          const midsRes = db.exec(
+            'SELECT mid, COUNT(*) as c FROM notes GROUP BY mid ORDER BY c DESC LIMIT 1',
+          );
           let targetMid = allFields[0][0]; // default to first
           if (midsRes.length > 0) {
             targetMid = midsRes[0].values[0][0];
           }
-          fieldNames = allFields.filter(f => f[0] === targetMid).map(f => f[1] as string);
+          fieldNames = allFields
+            .filter((f) => f[0] === targetMid)
+            .map((f) => f[1] as string);
         }
       } else if (hasCol) {
         const colRes = db.exec('SELECT models FROM col');
@@ -795,7 +844,7 @@ export class FlashcardsService {
         }
       }
     } catch (error) {
-      console.warn("Could not extract field names from Anki DB:", error);
+      console.warn('Could not extract field names from Anki DB:', error);
     }
 
     return { db, fieldNames };
@@ -869,7 +918,9 @@ export class FlashcardsService {
     }
 
     if (deck.userId !== userId) {
-      throw new ForbiddenException('Bạn không có quyền thay đổi trạng thái deck này');
+      throw new ForbiddenException(
+        'Bạn không có quyền thay đổi trạng thái deck này',
+      );
     }
 
     return this.prisma.deck.update({
@@ -913,7 +964,7 @@ export class FlashcardsService {
         description: source.description
           ? `${source.description}\n\n[Sao chép từ: ${source.user?.name || 'Minhongo'}]`
           : `[Sao chép từ: ${source.user?.name || 'Minhongo'}]`,
-        isPublic: false,           // Clone luôn là private
+        isPublic: false, // Clone luôn là private
         category: source.category,
         jlptLevel: source.jlptLevel,
         userId,

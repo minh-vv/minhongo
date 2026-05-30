@@ -56,12 +56,7 @@ export class AdminService {
   /**
    * Lấy danh sách người dùng có phân trang, tìm kiếm và lọc trạng thái.
    */
-  async getUsers(
-    search?: string,
-    page = 1,
-    limit = 20,
-    status?: string,
-  ) {
+  async getUsers(search?: string, page = 1, limit = 20, status?: string) {
     const where: Prisma.UserWhereInput = {};
 
     if (search) {

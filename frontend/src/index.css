@@ -47,6 +47,7 @@ html {
   .border-outline-variant      { border-color: var(--outline-variant); }
   .bg-on-secondary             { background-color: var(--on-secondary); }
   .text-on-primary             { color: var(--on-primary); }
+  .text-on-secondary           { color: var(--on-secondary); }
   .border-outline-variant-30   { border-color: rgba(206,196,186,0.3); }
 
   /* ── Asanoha (hemp leaf) — subtle Japanese textile bg ─── */

@@ -53,7 +53,10 @@ function imageFileFilter(
   cb: (error: Error | null, acceptFile: boolean) => void,
 ) {
   if (!file.mimetype.match(/^image\/(jpeg|png|webp|gif)$/)) {
-    cb(new BadRequestException('Chỉ chấp nhận file ảnh (jpg, png, webp, gif)'), false);
+    cb(
+      new BadRequestException('Chỉ chấp nhận file ảnh (jpg, png, webp, gif)'),
+      false,
+    );
     return;
   }
   cb(null, true);
@@ -110,7 +113,12 @@ export class UsersController {
   ) {
     if (!file) throw new BadRequestException('Vui lòng chọn file ảnh');
     const ext = extname(file.originalname).toLowerCase();
-    return this.usersService.updateAvatar(req.user.id, file.buffer, file.mimetype, ext);
+    return this.usersService.updateAvatar(
+      req.user.id,
+      file.buffer,
+      file.mimetype,
+      ext,
+    );
   }
 
   @Delete('me/avatar')

@@ -1,4 +1,8 @@
-import { Injectable, BadRequestException, NotFoundException } from '@nestjs/common';
+import {
+  Injectable,
+  BadRequestException,
+  NotFoundException,
+} from '@nestjs/common';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { PrismaService } from '../prisma/prisma.service';
 
@@ -31,7 +35,9 @@ export class AiRoadmapService {
 
   async generateRoadmap(userId: string, dto: GenerateRoadmapDto) {
     if (!process.env.GEMINI_API_KEY || process.env.GEMINI_API_KEY === 'dummy') {
-      throw new BadRequestException('Chưa cấu hình GEMINI_API_KEY trong file .env');
+      throw new BadRequestException(
+        'Chưa cấu hình GEMINI_API_KEY trong file .env',
+      );
     }
 
     // 1. Lấy TẤT CẢ bài học trong hệ thống, có đầy đủ thông tin
@@ -53,7 +59,11 @@ export class AiRoadmapService {
       where: { userId },
       include: {
         lesson: {
-          select: { title: true, skills: true, course: { select: { title: true, jlptLevel: true } } },
+          select: {
+            title: true,
+            skills: true,
+            course: { select: { title: true, jlptLevel: true } },
+          },
         },
       },
       orderBy: { updatedAt: 'desc' },
@@ -64,8 +74,12 @@ export class AiRoadmapService {
     );
 
     // 3. Lọc và format danh sách bài học chưa học
-    const notYetStudied = availableLessons.filter((l) => !passedLessonIds.has(l.id));
-    const alreadyStudied = availableLessons.filter((l) => passedLessonIds.has(l.id));
+    const notYetStudied = availableLessons.filter(
+      (l) => !passedLessonIds.has(l.id),
+    );
+    const alreadyStudied = availableLessons.filter((l) =>
+      passedLessonIds.has(l.id),
+    );
 
     const formatLesson = (l: (typeof availableLessons)[0]) =>
       `  - ID="${l.id}" | [N${l.course.jlptLevel}] ${l.course.title} › ${l.title} | Kỹ năng: ${l.skills.join(',')} | ~${l.estimatedMin}ph`;
@@ -78,7 +92,9 @@ export class AiRoadmapService {
     const alreadyStr =
       alreadyStudied.length > 0
         ? `\nBÀI HỌC ĐÃ HOÀN THÀNH (bỏ qua hoặc chỉ ôn nhanh):\n` +
-          alreadyStudied.map((l) => `  - [N${l.course.jlptLevel}] ${l.title}`).join('\n')
+          alreadyStudied
+            .map((l) => `  - [N${l.course.jlptLevel}] ${l.title}`)
+            .join('\n')
         : '';
 
     // 4. Context thành tích + kết quả kiểm tra
@@ -90,7 +106,10 @@ export class AiRoadmapService {
       dto.testResults && dto.testResults.length > 0
         ? `\nKẾT QUẢ KIỂM TRA:\n` +
           dto.testResults
-            .map((t) => `  - ${t.lessonTitle}: ${t.score}%${t.date ? ` (${t.date})` : ''}`)
+            .map(
+              (t) =>
+                `  - ${t.lessonTitle}: ${t.score}%${t.date ? ` (${t.date})` : ''}`,
+            )
             .join('\n')
         : '';
 
@@ -100,7 +119,8 @@ export class AiRoadmapService {
     });
 
     // Tính toán số ngày học mỗi tuần (5–6 ngày/tuần tùy phút học)
-    const studyDaysPerWeek = dto.minutesPerDay >= 60 ? 5 : dto.minutesPerDay >= 30 ? 5 : 4;
+    const studyDaysPerWeek =
+      dto.minutesPerDay >= 60 ? 5 : dto.minutesPerDay >= 30 ? 5 : 4;
     const totalStudyDays = dto.targetMonths * 4 * studyDaysPerWeek;
 
     const prompt = `Bạn là Sensei AI — chuyên gia thiết kế lộ trình học tiếng Nhật cá nhân hóa dựa trên dữ liệu thực tế.
@@ -172,7 +192,9 @@ Trả về JSON theo đúng cấu trúc sau:
         parsedData = JSON.parse(responseText);
       } catch (parseError) {
         console.error('Lỗi parse JSON từ LLM:', responseText.substring(0, 800));
-        throw new BadRequestException('AI trả về dữ liệu không hợp lệ. Vui lòng thử lại.');
+        throw new BadRequestException(
+          'AI trả về dữ liệu không hợp lệ. Vui lòng thử lại.',
+        );
       }
 
       // Validate và normalize lessonIds (chỉ giữ ID hợp lệ)
@@ -180,7 +202,9 @@ Trả về JSON theo đúng cấu trúc sau:
       for (const phase of parsedData.phases || []) {
         for (const item of phase.items || []) {
           if (item.lessonId && !validLessonIds.has(item.lessonId)) {
-            console.warn(`Invalid lessonId from AI: ${item.lessonId} — setting to null`);
+            console.warn(
+              `Invalid lessonId from AI: ${item.lessonId} — setting to null`,
+            );
             item.lessonId = null;
           }
         }
@@ -197,19 +221,23 @@ Trả về JSON theo đúng cấu trúc sau:
           goal: dto.goal,
           targetDate,
           phases: {
-            create: (parsedData.phases || []).map((phase: any, index: number) => ({
-              order: phase.order || index + 1,
-              title: phase.title,
-              description: phase.description,
-              items: {
-                create: (phase.items || []).map((item: any, iIndex: number) => ({
-                  order: item.order || iIndex + 1,
-                  customTitle: item.customTitle,
-                  customDesc: item.customDesc,
-                  lessonId: item.lessonId || null,
-                })),
-              },
-            })),
+            create: (parsedData.phases || []).map(
+              (phase: any, index: number) => ({
+                order: phase.order || index + 1,
+                title: phase.title,
+                description: phase.description,
+                items: {
+                  create: (phase.items || []).map(
+                    (item: any, iIndex: number) => ({
+                      order: item.order || iIndex + 1,
+                      customTitle: item.customTitle,
+                      customDesc: item.customDesc,
+                      lessonId: item.lessonId || null,
+                    }),
+                  ),
+                },
+              }),
+            ),
           },
         },
         include: {
@@ -224,7 +252,9 @@ Trả về JSON theo đúng cấu trúc sau:
                       skills: true,
                       estimatedMin: true,
                       summary: true,
-                      course: { select: { title: true, jlptLevel: true, slug: true } },
+                      course: {
+                        select: { title: true, jlptLevel: true, slug: true },
+                      },
                     },
                   },
                 },
@@ -240,7 +270,9 @@ Trả về JSON theo đúng cấu trúc sau:
     } catch (error) {
       if (error instanceof BadRequestException) throw error;
       console.error(error);
-      throw new BadRequestException('Không thể sinh lộ trình lúc này. Lỗi: ' + error.message);
+      throw new BadRequestException(
+        'Không thể sinh lộ trình lúc này. Lỗi: ' + error.message,
+      );
     }
   }
 
@@ -274,7 +306,9 @@ Trả về JSON theo đúng cấu trúc sau:
                     skills: true,
                     estimatedMin: true,
                     summary: true,
-                    course: { select: { title: true, jlptLevel: true, slug: true } },
+                    course: {
+                      select: { title: true, jlptLevel: true, slug: true },
+                    },
                   },
                 },
               },
@@ -287,7 +321,9 @@ Trả về JSON theo đúng cấu trúc sau:
     });
 
     if (!roadmap || roadmap.userId !== userId) {
-      throw new BadRequestException('Lộ trình không tồn tại hoặc không có quyền truy cập');
+      throw new BadRequestException(
+        'Lộ trình không tồn tại hoặc không có quyền truy cập',
+      );
     }
 
     return roadmap;
@@ -304,7 +340,9 @@ Trả về JSON theo đúng cấu trúc sau:
     });
 
     if (!item || item.phase.roadmap.userId !== userId) {
-      throw new NotFoundException('Không tìm thấy item hoặc không có quyền truy cập');
+      throw new NotFoundException(
+        'Không tìm thấy item hoặc không có quyền truy cập',
+      );
     }
 
     return this.prisma.customRoadmapItem.update({
@@ -317,9 +355,13 @@ Trả về JSON theo đúng cấu trúc sau:
   }
 
   async deleteRoadmap(userId: string, id: string) {
-    const roadmap = await this.prisma.customRoadmap.findUnique({ where: { id } });
+    const roadmap = await this.prisma.customRoadmap.findUnique({
+      where: { id },
+    });
     if (!roadmap || roadmap.userId !== userId) {
-      throw new BadRequestException('Lộ trình không tồn tại hoặc không có quyền');
+      throw new BadRequestException(
+        'Lộ trình không tồn tại hoặc không có quyền',
+      );
     }
     return this.prisma.customRoadmap.delete({ where: { id } });
   }

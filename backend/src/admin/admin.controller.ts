@@ -54,18 +54,12 @@ export class AdminController {
   }
 
   @Patch('users/:id/toggle-block')
-  toggleBlockUser(
-    @Param('id') id: string,
-    @Request() req: RequestWithUser,
-  ) {
+  toggleBlockUser(@Param('id') id: string, @Request() req: RequestWithUser) {
     return this.adminService.toggleBlockUser(id, req.user.id);
   }
 
   @Delete('users/:id')
-  deleteUser(
-    @Param('id') id: string,
-    @Request() req: RequestWithUser,
-  ) {
+  deleteUser(@Param('id') id: string, @Request() req: RequestWithUser) {
     return this.adminService.deleteUser(id, req.user.id);
   }
 

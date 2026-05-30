@@ -117,8 +117,7 @@ export class AuthService {
       data: { passwordResetToken: token, passwordResetExpires: expiry },
     });
 
-    const frontendUrl =
-      process.env.FRONTEND_URL || 'http://localhost:5173';
+    const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
     const resetUrl = `${frontendUrl}/reset-password?token=${token}`;
 
     // In ra console để dev có thể test mà không cần SMTP
@@ -128,9 +127,11 @@ export class AuthService {
     console.log('─────────────────────────────────────────\n');
 
     // Gửi email nếu SMTP được cấu hình
-    await this.sendResetEmail(email, user.name, resetUrl).catch((err: Error) => {
-      console.warn('[ForgotPassword] Gửi email thất bại:', err.message);
-    });
+    await this.sendResetEmail(email, user.name, resetUrl).catch(
+      (err: Error) => {
+        console.warn('[ForgotPassword] Gửi email thất bại:', err.message);
+      },
+    );
   }
 
   /**
@@ -182,7 +183,6 @@ export class AuthService {
     const port = parseInt(process.env.SMTP_PORT || '587', 10);
     const secure = port === 465; // port 465 = SSL, 587 = STARTTLS
 
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access
     const transporter = nodemailer.createTransport({
       host: smtpHost,
       port,
@@ -268,17 +268,18 @@ export class AuthService {
 </body>
 </html>`;
 
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access
-    const info = await transporter.sendMail({
+    const info = (await transporter.sendMail({
       from: fromField,
       to,
       subject: '[Minhongo] Đặt lại mật khẩu của bạn',
       html,
       // Fallback text cho client không render HTML
       text: `Xin chào ${name || 'bạn'},\n\nĐặt lại mật khẩu tại: ${resetUrl}\n\nLink hết hạn sau 1 giờ.\n\n© 2026 Minhongo`,
-    }) as { messageId: string };
+    })) as { messageId: string };
 
-    console.log(`[Mail] ✅ Đã gửi email tới ${to} — messageId: ${info.messageId}`);
+    console.log(
+      `[Mail] ✅ Đã gửi email tới ${to} — messageId: ${info.messageId}`,
+    );
   }
 
   // ========== LOGIN ==========

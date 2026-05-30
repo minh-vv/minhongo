@@ -46,7 +46,9 @@ export class UsersService {
       where: { id: userId },
       data: {
         ...(dto.name !== undefined && { name: dto.name }),
-        ...(dto.learningGoal !== undefined && { learningGoal: dto.learningGoal }),
+        ...(dto.learningGoal !== undefined && {
+          learningGoal: dto.learningGoal,
+        }),
       },
       select: {
         id: true,
@@ -98,7 +100,11 @@ export class UsersService {
       },
     });
 
-    return { user: updated, avatarUrl, message: 'Ảnh đại diện đã được cập nhật' };
+    return {
+      user: updated,
+      avatarUrl,
+      message: 'Ảnh đại diện đã được cập nhật',
+    };
   }
 
   /**

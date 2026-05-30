@@ -16,7 +16,9 @@ export class AiTutorService {
 
   private getModel() {
     if (!process.env.GEMINI_API_KEY || process.env.GEMINI_API_KEY === 'dummy') {
-      throw new BadRequestException('Chưa cấu hình GEMINI_API_KEY trong file .env');
+      throw new BadRequestException(
+        'Chưa cấu hình GEMINI_API_KEY trong file .env',
+      );
     }
     return this.genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
   }
@@ -86,12 +88,12 @@ Trả về dữ liệu dạng JSON thuần túy (không bọc trong markdown tic
     try {
       const model = this.genAI.getGenerativeModel({
         model: 'gemini-2.5-flash',
-        systemInstruction: systemInstruction
+        systemInstruction: systemInstruction,
       });
 
-      const formattedHistory = dto.history.map(msg => ({
+      const formattedHistory = dto.history.map((msg) => ({
         role: msg.role,
-        parts: [{ text: msg.parts }]
+        parts: [{ text: msg.parts }],
       }));
 
       const chat = model.startChat({

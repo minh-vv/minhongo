@@ -178,10 +178,7 @@ export class FlashcardsController {
 
   @UseGuards(JwtAuthGuard)
   @Get(':deckId')
-  getDeck(
-    @Param('deckId') deckId: string,
-    @Request() req: RequestWithUser,
-  ) {
+  getDeck(@Param('deckId') deckId: string, @Request() req: RequestWithUser) {
     return this.flashcardsService.getDeckById(deckId, req.user.id);
   }
 
@@ -222,10 +219,7 @@ export class FlashcardsController {
    */
   @UseGuards(JwtAuthGuard)
   @Post(':deckId/clone')
-  cloneDeck(
-    @Param('deckId') deckId: string,
-    @Request() req: RequestWithUser,
-  ) {
+  cloneDeck(@Param('deckId') deckId: string, @Request() req: RequestWithUser) {
     return this.flashcardsService.cloneDeck(deckId, req.user.id);
   }
 

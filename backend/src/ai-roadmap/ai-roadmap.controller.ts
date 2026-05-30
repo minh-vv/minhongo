@@ -1,4 +1,14 @@
-import { Controller, Post, Get, Patch, Delete, Body, UseGuards, Request, Param } from '@nestjs/common';
+import {
+  Controller,
+  Post,
+  Get,
+  Patch,
+  Delete,
+  Body,
+  UseGuards,
+  Request,
+  Param,
+} from '@nestjs/common';
 import { AiRoadmapService } from './ai-roadmap.service';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 import type { Request as ExpressRequest } from 'express';
@@ -42,19 +52,28 @@ export class AiRoadmapController {
 
   @UseGuards(JwtAuthGuard)
   @Get(':id')
-  async getRoadmapById(@Request() req: RequestWithUser, @Param('id') id: string) {
+  async getRoadmapById(
+    @Request() req: RequestWithUser,
+    @Param('id') id: string,
+  ) {
     return this.aiRoadmapService.getRoadmapById(req.user.id, id);
   }
 
   @UseGuards(JwtAuthGuard)
   @Patch('items/:itemId/complete')
-  async completeItem(@Request() req: RequestWithUser, @Param('itemId') itemId: string) {
+  async completeItem(
+    @Request() req: RequestWithUser,
+    @Param('itemId') itemId: string,
+  ) {
     return this.aiRoadmapService.completeItem(req.user.id, itemId);
   }
 
   @UseGuards(JwtAuthGuard)
   @Delete(':id')
-  async deleteRoadmap(@Request() req: RequestWithUser, @Param('id') id: string) {
+  async deleteRoadmap(
+    @Request() req: RequestWithUser,
+    @Param('id') id: string,
+  ) {
     return this.aiRoadmapService.deleteRoadmap(req.user.id, id);
   }
 }
