@@ -493,12 +493,14 @@ export default function AdminUsersPage() {
       </section>
 
       {/* Delete confirm modal */}
-      <DeleteConfirmModal
-        user={deletingUser}
-        onConfirm={() => deleteMutation.mutate(deletingUser?.id)}
-        onCancel={() => setDeletingUser(null)}
-        isPending={deleteMutation.isPending}
-      />
+      {deletingUser && (
+        <DeleteConfirmModal
+          user={deletingUser}
+          onConfirm={() => deleteMutation.mutate(deletingUser?.id)}
+          onCancel={() => setDeletingUser(null)}
+          isPending={deleteMutation.isPending}
+        />
+      )}
     </div>
   );
 }

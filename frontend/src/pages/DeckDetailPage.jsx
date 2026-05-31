@@ -516,27 +516,33 @@ export default function DeckDetailPage() {
       </div>
 
       {/* Modals */}
-      <CardModal
-        isOpen={showAddCard}
-        onClose={() => setShowAddCard(false)}
-        onSave={createCardMutation.mutate}
-        deckId={deckId}
-      />
+      {showAddCard && (
+        <CardModal
+          isOpen={showAddCard}
+          onClose={() => setShowAddCard(false)}
+          onSave={createCardMutation.mutate}
+          deckId={deckId}
+        />
+      )}
 
-      <CardModal
-        isOpen={!!editingCard}
-        onClose={() => setEditingCard(null)}
-        onSave={(data) => updateCardMutation.mutate({ cardId: editingCard.id, data })}
-        card={editingCard}
-        deckId={deckId}
-      />
+      {editingCard && (
+        <CardModal
+          isOpen={!!editingCard}
+          onClose={() => setEditingCard(null)}
+          onSave={(data) => updateCardMutation.mutate({ cardId: editingCard.id, data })}
+          card={editingCard}
+          deckId={deckId}
+        />
+      )}
 
-      <DeckEditModal
-        isOpen={showEditDeck}
-        onClose={() => setShowEditDeck(false)}
-        onSave={updateDeckMutation.mutate}
-        deck={deck}
-      />
+      {showEditDeck && (
+        <DeckEditModal
+          isOpen={showEditDeck}
+          onClose={() => setShowEditDeck(false)}
+          onSave={updateDeckMutation.mutate}
+          deck={deck}
+        />
+      )}
     </div>
   );
 }

@@ -463,11 +463,13 @@ export default function DashboardPage() {
         </div>
       )}
 
-      <ImportAnkiModal
-        isOpen={showImportModal}
-        onClose={() => setShowImportModal(false)}
-        onSuccess={handleImportSuccess}
-      />
+      {showImportModal && (
+        <ImportAnkiModal
+          isOpen={showImportModal}
+          onClose={() => setShowImportModal(false)}
+          onSuccess={handleImportSuccess}
+        />
+      )}
     </div>
   );
 }

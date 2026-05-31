@@ -687,7 +687,7 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
       )}
 
       {/* Admin: Import Anki Modal */}
-      {isAdmin && (
+      {isAdmin && showUpload && (
         <ImportAnkiModal
           isOpen={showUpload}
           onClose={() => setShowUpload(false)}

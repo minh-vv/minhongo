@@ -464,18 +464,22 @@ export default function AdminContentPage() {
         </div>
       </section>
 
-      <DeckEditModal
-        deck={editingDeck}
-        onClose={() => setEditingDeck(null)}
-        onSave={(payload) => updateMutation.mutate({ id: editingDeck.id, payload })}
-        isPending={updateMutation.isPending}
-      />
-      <DeleteDeckModal
-        deck={deletingDeck}
-        onConfirm={() => deleteMutation.mutate(deletingDeck.id)}
-        onCancel={() => setDeletingDeck(null)}
-        isPending={deleteMutation.isPending}
-      />
+      {editingDeck && (
+        <DeckEditModal
+          deck={editingDeck}
+          onClose={() => setEditingDeck(null)}
+          onSave={(payload) => updateMutation.mutate({ id: editingDeck.id, payload })}
+          isPending={updateMutation.isPending}
+        />
+      )}
+      {deletingDeck && (
+        <DeleteDeckModal
+          deck={deletingDeck}
+          onConfirm={() => deleteMutation.mutate(deletingDeck.id)}
+          onCancel={() => setDeletingDeck(null)}
+          isPending={deleteMutation.isPending}
+        />
+      )}
     </div>
   );
 }
