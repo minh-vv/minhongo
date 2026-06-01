@@ -1,0 +1,29 @@
+{
+  "theoryMd": "# Bài 5: Giới hạn (〜に限り, 〜限り（は）, 〜に限りでは, 〜に限って)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜に限り\n- **Ý nghĩa:** Ngoại lệ, đặc biệt chỉ giới hạn dành cho một số đối tượng\n- **Cách kết hợp:** N + に限り\n- **Giải thích:** Là cách nói được dùng khi trình bày với mọi người nói chung, với công chúng. Đi kèm với những từ thể hiện sự đối đãi khác biệt, ngoại lệ. Vế phía sau thể hiện sự đối đãi ngoại lệ dành cho đối tượng đó. Thường không dùng thể phủ định.\n\n#### Ví dụ:\n- 欠席理由が正当な場合に限り出席扱いにしますが、それ以外の欠席は認めません。 → *Chỉ đối với trường hợp vắng mặt có lí do chính đáng thì mới được coi là có mặt, ngoài ra các trường hợp vắng mặt khác không được chấp nhận.*\n- この病院は午後６時までですが、急を要す患者さんに限り、時間外でも診察いたします。 → *Bệnh viện này làm việc đến 6 giờ, nhưng chỉ đối với những bệnh nhân cần được khám gấp, chúng tôi sẽ làm việc ngoài giờ.*\n\n### 2. 〜限り（は）\n- **Ý nghĩa:** Trong giới hạn khoảng thời gian một trạng thái tiếp diễn, cũng có một trạng thái khác diễn ra liên tục.\n- **Cách kết hợp:** Thể thông thường (Na だ – な / -である・Nだ -である) + 限り（は）\n- **Giải thích:** Cả vế trước và vế sau đều là từ thể hiện trạng thái. Vì là mẫu câu mang ý nghĩa điều kiện, nên vế phía sau không dùng thể quá khứ.\n\n#### Ví dụ:\n- 足が丈夫な限り、まだまだ山登りが楽しめるだろう。 → *Chừng nào chân còn khỏe thì vẫn còn tận hưởng việc leo núi được phải không.*\n- この町に住んでいる限り、いつでも新鮮な食べ物が手に入れる。ここは野菜も魚も豊富だ。 → *Chừng nào còn sống ở thị trấn này thì lúc nào cũng có đồ ăn tươi. Ở đây cả rau, cả cá đều phong phú.*\n\n### 3. 〜に限りでは\n- **Ý nghĩa:** Trong giới hạn phạm vi của nguồn thông tin, có thể nói được điều gì.\n- **Cách kết hợp:** Nの・Vる・Vた・Vている + に限りでは\n- **Giải thích:** Đi kèm với những từ liên quan tới việc có được thông tin (nhìn, nghe, nhớ, biết, điều tra…) Vế sau là câu thể hiện thông tin hoặc phán đoán.\n\n#### Ví dụ:\n- 私が知っている限りでは、この近所に花屋はありません。 → *Trong giới hạn những gì tôi biết, ở gần đây không có cửa hàng hoa nào cả.*\n- 今回の調査の限りでは、書類にミスはなかった。 → *Trong giới hạn lần kiểm tra này, trong tài liệu không có sai sót nào cả.*\n\n### 4. 〜に限って\n- **Ý nghĩa:** 〜に限って được dùng với 3 ý nghĩa: a) Khác với bình thường; b) Điều không may xảy đến đúng lúc không nên; c) Vì đặc biệt tin tưởng, nên chắc chắn là không có chuyện xấu.\n- **Cách kết hợp:** N + に限って\n- **Giải thích:** \n  a) Thể hiện bình thường luôn luôn thế này, nhưng chỉ riêng lần đó là không như vậy.\n  b) Vế sau mang ý nghĩa tình huống xấu xảy ra, thể hiện sự bất mãn.\n  c) Vế sau dùng phủ định, thể hiện phán đoán chắc chắn không xảy ra chuyện xấu.\n\n#### Ví dụ:\n- ふだん酒あまり飲まない彼が、今日に限ってかなり飲んだ。何かあったのだろうか。 → *Anh ấy bình thường không mấy uống rượu, chỉ riêng hôm nay lại uống khá nhiều. Hình như là có chuyện gì đó nhỉ.*\n- 庭の手入れをしようと思っている日に限って雨が降る。 → *Đúng cái ngày tôi định dọn vườn thì trời mưa.*\n- うちの子に限って友達をいじめることはないと思いますが…。とても優しい子なんですよ。 → *Riêng con nhà tôi thì tôi nghĩ không có chuyện bắt nạt bạn bè đâu… Nó là một đứa trẻ rất tốt bụng.*\n- あのレストランに限って古い食材など使うはずはないとおもっていたのに…。 → *Riêng nhà hàng đó thì tôi nghĩ không có chuyện sử dụng nguyên liệu cũ đâu, vậy mà…*",
+  "cards": [
+    {
+      "front": "〜に限り",
+      "back": "Ngoại lệ, chỉ giới hạn cho một số đối tượng. Dùng trong thông báo.",
+      "romaji": "ni kagiri",
+      "example": "欠席理由が正当な場合に限り出席扱いにします。(Chỉ đối với trường hợp vắng mặt có lí do chính đáng thì mới được coi là có mặt.)"
+    },
+    {
+      "front": "〜限り（は）",
+      "back": "Trong chừng mực mà trạng thái đó còn tiếp diễn thì trạng thái khác cũng tiếp diễn.",
+      "romaji": "kagiri (wa)",
+      "example": "足が丈夫な限り、まだまだ山登りが楽しめるだろう。(Chừng nào chân còn khỏe thì vẫn còn tận hưởng việc leo núi được.)"
+    },
+    {
+      "front": "〜に限りでは",
+      "back": "Trong giới hạn nguồn thông tin có được thì có thể nói...",
+      "romaji": "ni kagiri dewa",
+      "example": "私が知っている限りでは、この近所に花屋はありません。(Trong giới hạn những gì tôi biết, ở gần đây không có cửa hàng hoa nào cả.)"
+    },
+    {
+      "front": "〜に限って",
+      "back": "Khác với bình thường / Đúng lúc không may / Riêng đối với ai đó thì tin tưởng (phủ định).",
+      "romaji": "ni kagitte",
+      "example": "庭の手入れをしようと思っている日に限って雨が降る。(Đúng cái ngày tôi định dọn vườn thì trời mưa.)"
+    }
+  ]
+}

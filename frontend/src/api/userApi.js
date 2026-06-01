@@ -24,4 +24,12 @@ export const userApi = {
     const response = await api.delete('/users/me/avatar');
     return response.data;
   },
+
+  changePassword: async ({ currentPassword, newPassword }) => {
+    const response = await api.post('/users/me/change-password', {
+      currentPassword,
+      newPassword,
+    });
+    return response.data;
+  },
 };

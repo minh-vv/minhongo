@@ -5,6 +5,12 @@ import { flashcardApi } from '../api/flashcardApi';
 import { useAuth } from '../hooks/useAuth';
 import DeckList from '../components/DeckList';
 import ImportAnkiModal from '../components/ImportAnkiModal';
+import TodaysLessonCard from '../components/TodaysLessonCard';
+import {
+  IconBook, IconList, IconLayers, IconMap, IconArrowRight,
+  IconArrowUpRight, IconUpload, IconPlus, IconFlame, IconBookMarked,
+  IconTimer, IconTarget,
+} from '../components/Icons';
 
 /* ── helpers ────────────────────────────────────────────────── */
 function getTimeInfo() {
@@ -26,34 +32,34 @@ const quickCards = [
     path: '/kanji', label: 'Hán tự', desc: 'Kanji theo JLPT',
     accent: 'var(--primary)', accentEnd: 'var(--primary-container)',
     ghostChar: '漢',
-    icon: <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>,
+    icon: <IconBook className="w-5 h-5" />,
   },
   {
     path: '/vocabulary', label: 'Từ vựng', desc: 'Mở rộng vốn từ',
     accent: '#1565c0', accentEnd: '#1976d2',
     ghostChar: '語',
-    icon: <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h16M4 14h10M4 18h7"/></svg>,
+    icon: <IconList className="w-5 h-5" />,
   },
   {
     path: '/grammar', label: 'Ngữ pháp', desc: 'Cấu trúc câu',
     accent: '#006064', accentEnd: '#00838f',
     ghostChar: '文',
-    icon: <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 7v14"/><path strokeLinecap="round" strokeLinejoin="round" d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>,
+    icon: <IconBook className="w-5 h-5" />,
   },
   {
     path: '/self-study', label: 'Học Flashcard', desc: 'Ghi nhớ với SRS',
     accent: 'var(--secondary)', accentEnd: 'var(--secondary-container)',
     ghostChar: '覚',
-    icon: <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/></svg>,
+    icon: <IconLayers className="w-5 h-5" />,
   },
 ];
 
 /* ── stat cards ─────────────────────────────────────────────── */
 const statItems = [
-  { label: 'Streak',    value: '0', sub: 'ngày liên tiếp',  icon: '🔥' },
-  { label: 'Đã luyện', value: '0', sub: 'thẻ hôm nay',    icon: '📚' },
-  { label: 'Giờ học',  value: '—', sub: 'tổng cộng',       icon: '⏱' },
-  { label: 'Chính xác',value: '—', sub: 'trung bình',      icon: '🎯' },
+  { label: 'Streak',    value: '0', sub: 'ngày liên tiếp',  icon: <IconFlame className="w-5 h-5" /> },
+  { label: 'Đã luyện', value: '0', sub: 'thẻ hôm nay',    icon: <IconBookMarked className="w-5 h-5" /> },
+  { label: 'Giờ học',  value: '—', sub: 'tổng cộng',       icon: <IconTimer className="w-5 h-5" /> },
+  { label: 'Chính xác',value: '—', sub: 'trung bình',      icon: <IconTarget className="w-5 h-5" /> },
 ];
 
 /* ── section header component ───────────────────────────────── */
@@ -144,9 +150,7 @@ export default function DashboardPage() {
               onMouseLeave={e => e.currentTarget.style.background = 'var(--secondary)'}
             >
               Bắt đầu học ngay
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m-7-7 7 7-7 7"/>
-              </svg>
+              <IconArrowRight className="w-4 h-4" />
             </Link>
           </div>
 
@@ -168,7 +172,7 @@ export default function DashboardPage() {
             <div className="grid grid-cols-2 gap-3">
               {statItems.map((s) => (
                 <div key={s.label} className="bg-surface-container-lowest p-4 text-center" style={{ border: '1px solid rgba(0,0,0,0.06)' }}>
-                  <p className="text-xl mb-0.5">{s.icon}</p>
+                  <div className="flex justify-center text-on-surface-variant mb-0.5">{s.icon}</div>
                   <p className="text-2xl font-black text-on-surface leading-none mb-1">{s.value}</p>
                   <p className="text-[9px] font-bold text-on-surface-variant uppercase tracking-wider">{s.label}</p>
                 </div>
@@ -176,6 +180,12 @@ export default function DashboardPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* ── TODAY'S LESSON ─────────────────────────────────── */}
+      <section>
+        <SectionHeader title="Lộ trình hôm nay" />
+        <TodaysLessonCard />
       </section>
 
       {/* ── QUICK START ─────────────────────────────────────── */}
@@ -203,10 +213,7 @@ export default function DashboardPage() {
                 <h3 className="font-headline font-bold text-on-surface mb-1.5 text-sm md:text-base flex items-center gap-1.5">
                   {c.label}
                   {/* Arrow appears on hover */}
-                  <svg className="w-3.5 h-3.5 text-on-surface-variant opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all"
-                    fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M7 7h10v10M7 17 17 7"/>
-                  </svg>
+                  <IconArrowUpRight className="w-3.5 h-3.5 text-on-surface-variant opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
                 </h3>
                 <p className="text-xs text-on-surface-variant leading-relaxed flex-1">{c.desc}</p>
 
@@ -244,9 +251,7 @@ export default function DashboardPage() {
 
               <div className="relative z-10">
                 <div className="p-3 w-fit mb-6 text-white" style={{ background: 'var(--secondary)' }}>
-                  <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
-                  </svg>
+                  <IconMap className="w-7 h-7" />
                 </div>
                 <h3 className="text-2xl md:text-3xl font-headline font-bold text-on-surface mb-3" style={{ letterSpacing: '-0.02em' }}>
                   Lộ trình học AI
@@ -259,9 +264,7 @@ export default function DashboardPage() {
               <span className="relative z-10 mt-8 px-6 py-2.5 text-white font-bold w-fit transition-colors text-sm uppercase tracking-wider inline-flex items-center gap-2"
                 style={{ background: 'var(--secondary)' }}>
                 Xem lộ trình
-                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m-7-7 7 7-7 7"/>
-                </svg>
+                <IconArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </span>
 
               {/* Ghost kanji */}
@@ -284,9 +287,7 @@ export default function DashboardPage() {
               <div className="relative z-10 flex flex-col justify-between h-full text-white">
                 <div>
                   <div className="bg-white/15 p-2.5 w-fit mb-4" style={{ backdropFilter: 'blur(4px)' }}>
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 7v14"/><path strokeLinecap="round" strokeLinejoin="round" d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/>
-                    </svg>
+                    <IconBook className="w-5 h-5" />
                   </div>
                   <h4 className="font-headline font-bold text-lg mb-1.5">Ngữ pháp</h4>
                   <p className="text-white/60 text-sm leading-relaxed">Giải thích bằng tiếng Việt, kèm công thức và ví dụ thực tế.</p>
@@ -311,9 +312,7 @@ export default function DashboardPage() {
 
               <div>
                 <div className="p-2.5 w-fit mb-4 text-white" style={{ background: 'var(--primary)' }}>
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h16M4 14h10M4 18h7"/>
-                  </svg>
+                  <IconList className="w-5 h-5" />
                 </div>
                 <h4 className="font-headline font-bold text-on-surface text-lg mb-1.5">Từ vựng</h4>
                 <p className="text-on-surface-variant text-sm leading-relaxed">Nhóm theo chủ đề, kèm phiên âm và ví dụ câu.</p>
@@ -321,9 +320,7 @@ export default function DashboardPage() {
 
               <span className="mt-5 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant group-hover:text-secondary transition-colors inline-flex items-center gap-1.5">
                 Học ngay
-                <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m-7-7 7 7-7 7"/>
-                </svg>
+                <IconArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
               </span>
 
               <div className="absolute -right-2 -bottom-3 font-jp font-bold text-on-surface/[0.03] leading-none select-none pointer-events-none"
@@ -351,17 +348,13 @@ export default function DashboardPage() {
             <button onClick={() => setShowImportModal(true)}
               className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-on-surface-variant border transition-colors hover:bg-surface-container"
               style={{ borderColor: 'rgba(0,0,0,0.1)' }}>
-              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
-              </svg>
+              <IconUpload className="w-3.5 h-3.5" />
               Import Anki
             </button>
             <button onClick={() => setShowCreateModal(true)}
               className="flex items-center gap-1.5 px-4 py-1.5 text-xs font-bold text-on-secondary uppercase tracking-wider transition-colors hover:bg-secondary-dim"
               style={{ background: 'var(--secondary)' }}>
-              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4"/>
-              </svg>
+              <IconPlus className="w-3.5 h-3.5" />
               Tạo bộ thẻ
             </button>
           </div>
@@ -373,7 +366,7 @@ export default function DashboardPage() {
           </div>
         ) : deckCount === 0 ? (
           <div className="flex flex-col items-center justify-center py-14 border-2 border-dashed border-outline-variant/40 text-center">
-            <p className="text-3xl mb-3">🗂️</p>
+            <div className="flex justify-center text-on-surface-variant mb-3"><IconLayers className="w-8 h-8" /></div>
             <p className="font-semibold text-on-surface text-sm mb-1">Chưa có bộ thẻ nào</p>
             <p className="text-xs text-on-surface-variant mb-5">Tạo bộ thẻ đầu tiên hoặc import từ Anki</p>
             <button onClick={() => setShowCreateModal(true)}
@@ -416,9 +409,7 @@ export default function DashboardPage() {
             <span className="px-7 py-3 bg-white font-bold text-sm uppercase tracking-wider flex-shrink-0 group-hover:bg-white/90 transition-colors inline-flex items-center gap-2"
               style={{ color: '#5865F2' }}>
               Vào Discord
-              <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m-7-7 7 7-7 7"/>
-              </svg>
+              <IconArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </span>
           </div>
 
@@ -472,11 +463,13 @@ export default function DashboardPage() {
         </div>
       )}
 
-      <ImportAnkiModal
-        isOpen={showImportModal}
-        onClose={() => setShowImportModal(false)}
-        onSuccess={handleImportSuccess}
-      />
+      {showImportModal && (
+        <ImportAnkiModal
+          isOpen={showImportModal}
+          onClose={() => setShowImportModal(false)}
+          onSuccess={handleImportSuccess}
+        />
+      )}
     </div>
   );
 }

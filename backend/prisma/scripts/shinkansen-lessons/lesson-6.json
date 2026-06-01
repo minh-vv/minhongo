@@ -1,0 +1,35 @@
+{
+  "theoryMd": "# Bài 6: Không chỉ (〜に限らず, 〜のみならず, 〜ばかりか, 〜はもとより, 〜上（に）)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜に限らず\n- **Ý nghĩa:** Không chỉ trong phạm vi này, mà trong cả phạm vi lớn hơn thế.\n- **Cách kết hợp:** N + に限らず\n- **Giải thích:** Vế sau thường có \"も\" thể hiện ý nghĩa còn cái khác cũng thế, thường có từ biểu hiện phạm vi rộng hơn (mọi người, nhiều, luôn luôn…)\n\n#### Ví dụ:\n- うちに限らず近所の住民はみんな夜中のバイクの音に悩まされている → *Không chỉ nhà tôi mà tất cả người dân quanh đây đều bị làm phiền bởi tiếng xe máy lúc nửa đêm.*\n- 近年、地方の町に限らず大都会でも書店の閉店が相次いでいる → *Những năm gần đây, không chỉ ở các thị trấn địa phương mà cả ở các đô thị lớn, các cửa hàng sách liên tục đóng cửa.*\n\n### 2. 〜のみならず\n- **Ý nghĩa:** Không chỉ cái này, mà cả cái khác.\n- **Cách kết hợp:** N ・ Thể thông thường (Na だ / -である・Nだ -である) + のみならず\n- **Giải thích:** Khác với に限らず, mẫu câu này có thể dùng trong trường hợp thứ khác cũng vậy là thứ cùng cấp độ, cùng dạng (không cần có phạm vi lớn hơn). Vế phía sau thường có \"も\" thể hiện ý nghĩa cái khác cũng thế.\n\n#### Ví dụ:\n- 電気代のみならず、ガス代や水道代も値上がりするようだ → *Không chỉ tiền điện, cả tiền gas và tiền nước cũng tăng giá.*\n- Aさんは、差別的な発言をしたのみならず、それについて謝ることもなかった → *A-san không chỉ nói những lời phân biệt đối xử, anh ấy còn không xin lỗi vì chuyện đó.*\n\n### 3. 〜ばかりか\n- **Ý nghĩa:** Không chỉ vậy, mà còn hơn nữa.\n- **Cách kết hợp:** N ・ Thể thông thường (Na だ – な / -である・Nだ -である) + ばかりか\n- **Giải thích:** Ở vế trước của câu nói một điều không xảy ra thường xuyên, ở vế sau là điều khác nữa thêm vào, có cảm giác ngoài dự đoán.\n\n#### Ví dụ:\n- A先生の説明は、子供にわかりやすいばかりか、非常に面白くてためになる → *Bài thuyết minh của thầy A không chỉ dễ hiểu với trẻ em mà còn rất thú vị và hữu ích.*\n- 友達ばかりかおお親兄弟も彼の居場所を知らない → *Không chỉ bạn bè, mà cả bố mẹ, anh em cũng không biết nơi ở của anh ấy.*\n\n### 4. 〜はもとより\n- **Ý nghĩa:** Với việc này, thứ này thì đương nhiên, với việc khác, thứ khác cũng vậy.\n- **Cách kết hợp:** N (+trợ từ) + はもとより\n- **Giải thích:** Đi kèm với những từ chỉ ví dụ mà người nói nghĩ là đương nhiên. Vế sau là một ví dụ khác được thêm vào. Câu thường đi kèm với \"も\" để thiện ý còn có khác nữa.\n\n#### Ví dụ:\n- たばこは本人はもとより、周りの人にも害を及ぼす → *Thuốc lá đối với người hút thì đương nhiên, nhưng với cả những người xung quanh cũng có hại.*\n- この学校は、教室内ではもとより教室の外でも禁煙を守ってください → *Tại ngôi trường này, trong lớp học thì đương nhiên, nhưng cả ngoài lớp học cũng hãy tuân thủ quy định cấm hút thuốc.*\n\n### 5. 〜上（に）\n- **Ý nghĩa:** Hơn nữa, thêm vào đó.\n- **Cách kết hợp:** Thể thông thường (Na だ – な / -である・Nだ -の -である) + 上（に）\n- **Giải thích:** Vế trước và vế sau cùng một dạng đánh giá, tốt cùng tốt, xấu cùng xấu. Không dùng hai vế trái ngược nhau hoặc không liên quan đến nhau.\n\n#### Ví dụ:\n- 今日は寝不足の上、少し熱がある。はやく帰りたい → *Hôm nay tôi thiếu ngủ, hơn nữa còn sốt. Tôi muốn về sớm.*\n- ここは空気がきれいな上、近くに明るいところがないので星がよく見える → *Nơi này không khí trong sạch, hơn nữa gần đây còn không có nơi nào sáng, nên có thể thấy rõ được trời sao.*",
+  "cards": [
+    {
+      "front": "〜に限らず",
+      "back": "Không chỉ (phạm vi A mà cả phạm vi rộng hơn B cũng vậy).",
+      "romaji": "ni kagirazu",
+      "example": "うちに限らず近所の住民はみんな夜中のバイクの音に悩まされている。(Không chỉ nhà tôi mà tất cả người dân quanh đây đều bị làm phiền bởi tiếng xe máy lúc nửa đêm.)"
+    },
+    {
+      "front": "〜のみならず",
+      "back": "Không chỉ cái này, mà còn cái khác (cùng cấp độ).",
+      "romaji": "nominarazu",
+      "example": "電気代のみならず、ガス代や水道代も値上がりするようだ。(Không chỉ tiền điện, cả tiền gas và tiền nước cũng tăng giá.)"
+    },
+    {
+      "front": "〜ばかりか",
+      "back": "Không chỉ vậy (điều bất ngờ thêm vào).",
+      "romaji": "bakari ka",
+      "example": "A先生の説明は、子供にわかりやすいばかりか、非常に面白くてためになる。(Bài thuyết minh của thầy A không chỉ dễ hiểu với trẻ em mà còn rất thú vị và hữu ích.)"
+    },
+    {
+      "front": "〜はもとより",
+      "back": "Việc này thì đương nhiên, và cả việc khác cũng vậy.",
+      "romaji": "wa motoyori",
+      "example": "たばこは本人はもとより、周りの人にも害を及ぼす。(Thuốc lá đối với người hút thì đương nhiên, nhưng với cả những người xung quanh cũng có hại.)"
+    },
+    {
+      "front": "〜上（に）",
+      "back": "Hơn nữa, thêm vào đó (cùng trạng thái tốt hoặc xấu).",
+      "romaji": "ue (ni)",
+      "example": "今日は寝不足の上、少し熱がある。(Hôm nay tôi thiếu ngủ, hơn nữa còn sốt.)"
+    }
+  ]
+}

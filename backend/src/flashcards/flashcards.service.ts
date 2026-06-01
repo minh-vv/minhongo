@@ -3,6 +3,9 @@ import {
   NotFoundException,
   ForbiddenException,
 } from '@nestjs/common';
+import AdmZip from 'adm-zip';
+import initSqlJs from 'sql.js';
+import * as fzstd from 'fzstd';
 import { PrismaService } from 'src/prisma/prisma.service';
 import {
   CreateDeckDto,
@@ -328,22 +331,23 @@ export class FlashcardsService {
     const existingProgress = card.progress[0];
 
     // Tính toán SM-2
-    let easeFactor = existingProgress?.easeFactor || 2.5;
-    let interval = existingProgress?.interval || 0;
-    let repetitions = existingProgress?.repetitions || 0;
+    let easeFactor = existingProgress?.easeFactor ?? 2.5;
+    let interval = existingProgress?.interval ?? 0;
+    let repetitions = existingProgress?.repetitions ?? 0;
 
     if (quality < ReviewQuality.GOOD) {
-      // Chất lượng kém (< 2): reset
+      // Chất lượng kém (< 2): reset về trạng thái học lại
       repetitions = 0;
       interval = 1;
     } else {
-      // Chất lượng tốt (>= 2)
+      // Chất lượng tốt (>= 2) — SM-2 chuẩn
       if (repetitions === 0) {
         interval = 1;
       } else if (repetitions === 1) {
         interval = 6;
       } else {
-        interval = Math.round(interval * easeFactor);
+        // Đảm bảo interval tối thiểu là 1 để tránh Math.round(0 * EF) = 0
+        interval = Math.max(1, Math.round(interval * easeFactor));
       }
       repetitions++;
     }
@@ -357,31 +361,32 @@ export class FlashcardsService {
     const nextReviewDate = new Date();
     nextReviewDate.setDate(nextReviewDate.getDate() + interval);
 
-    // Cập nhật hoặc tạo progress
-    const progress = await this.prisma.cardProgress.upsert({
-      where: {
-        userId_cardId: {
+    // Cập nhật hoặc tạo progress + ghi ReviewLog song song
+    const [progress] = await Promise.all([
+      this.prisma.cardProgress.upsert({
+        where: { userId_cardId: { userId, cardId } },
+        update: {
+          easeFactor,
+          interval,
+          repetitions,
+          nextReviewDate,
+          lastReviewDate: new Date(),
+        },
+        create: {
           userId,
           cardId,
+          easeFactor,
+          interval,
+          repetitions,
+          nextReviewDate,
+          lastReviewDate: new Date(),
         },
-      },
-      update: {
-        easeFactor,
-        interval,
-        repetitions,
-        nextReviewDate,
-        lastReviewDate: new Date(),
-      },
-      create: {
-        userId,
-        cardId,
-        easeFactor,
-        interval,
-        repetitions,
-        nextReviewDate,
-        lastReviewDate: new Date(),
-      },
-    });
+      }),
+      // Ghi log từng lần ôn tập để vẽ biểu đồ lịch sử
+      this.prisma.reviewLog.create({
+        data: { userId, cardId, deckId: card.deckId, quality },
+      }),
+    ]);
 
     return {
       cardId,
@@ -392,6 +397,184 @@ export class FlashcardsService {
       nextReviewDate: progress.nextReviewDate,
       message: this.getReviewMessage(quality, interval),
     };
+  }
+
+  /** Lịch sử ôn tập theo ngày — dùng cho biểu đồ tiến độ */
+  async getStudyHistory(userId: string, days = 30) {
+    const since = new Date();
+    since.setDate(since.getDate() - days);
+
+    const logs = await this.prisma.reviewLog.findMany({
+      where: { userId, reviewedAt: { gte: since } },
+      select: { reviewedAt: true, quality: true },
+      orderBy: { reviewedAt: 'asc' },
+    });
+
+    // Group by date (yyyy-mm-dd, Vietnam UTC+7)
+    const map = new Map<string, { total: number; remembered: number }>();
+
+    for (let i = 0; i < days; i++) {
+      const d = new Date();
+      d.setDate(d.getDate() - (days - 1 - i));
+      const key = d.toISOString().slice(0, 10);
+      map.set(key, { total: 0, remembered: 0 });
+    }
+
+    for (const log of logs) {
+      const key = log.reviewedAt.toISOString().slice(0, 10);
+      const entry = map.get(key);
+      if (entry) {
+        entry.total += 1;
+        if (log.quality >= 2) entry.remembered += 1;
+      }
+    }
+
+    const history = Array.from(map.entries()).map(
+      ([date, { total, remembered }]) => ({
+        date,
+        total,
+        remembered,
+        forgot: total - remembered,
+        rate: total > 0 ? Math.round((remembered / total) * 100) : 0,
+      }),
+    );
+
+    const totalReviewed = logs.length;
+    const totalRemembered = logs.filter((l) => l.quality >= 2).length;
+
+    // Tính current streak (ngày liên tiếp gần nhất có ôn), tối đa theo khoảng days truyền vào
+    let streak = 0;
+    const daysDesc = [...history].reverse();
+    for (const day of daysDesc) {
+      if (day.total > 0) streak++;
+      else break;
+    }
+
+    return {
+      history,
+      summary: {
+        totalReviewed,
+        totalRemembered,
+        overallRate:
+          totalReviewed > 0
+            ? Math.round((totalRemembered / totalReviewed) * 100)
+            : 0,
+        streak,
+        activeDays: history.filter((d) => d.total > 0).length,
+      },
+    };
+  }
+
+  /** Gamification summary: XP, level, badge, streak (dựa trên review logs) */
+  async getGamificationSummary(userId: string) {
+    const logs = await this.prisma.reviewLog.findMany({
+      where: { userId },
+      select: { reviewedAt: true, quality: true },
+      orderBy: { reviewedAt: 'asc' },
+    });
+
+    // XP rule: Again=2, Hard=5, Good=10, Easy=15
+    const xpByQuality = [2, 5, 10, 15];
+    const totalXp = logs.reduce(
+      (sum, l) => sum + (xpByQuality[l.quality] ?? 0),
+      0,
+    );
+
+    // Level curve: 100 XP / level (simple and predictable for MVP)
+    const level = Math.max(1, Math.floor(totalXp / 100) + 1);
+    const currentLevelXp = totalXp % 100;
+    const nextLevelXp = 100;
+
+    // Badge by streak
+    const history30 = await this.getStudyHistory(userId, 30);
+    const streak = history30.summary.streak;
+
+    const badge =
+      streak >= 30
+        ? { id: 'master', label: 'Master', icon: '🏆' }
+        : streak >= 14
+          ? { id: 'samurai', label: 'Samurai', icon: '⚔️' }
+          : streak >= 7
+            ? { id: 'warrior', label: 'Warrior', icon: '🛡️' }
+            : streak >= 3
+              ? { id: 'apprentice', label: 'Apprentice', icon: '🥋' }
+              : { id: 'rookie', label: 'Rookie', icon: '🌱' };
+
+    const achievements = [
+      {
+        id: 'first_review',
+        unlocked: logs.length >= 1,
+        label: 'Lần ôn đầu tiên',
+      },
+      { id: 'streak_7', unlocked: streak >= 7, label: 'Streak 7 ngày' },
+      { id: 'reviews_100', unlocked: logs.length >= 100, label: '100 lượt ôn' },
+      { id: 'level_10', unlocked: level >= 10, label: 'Đạt level 10' },
+    ];
+
+    return {
+      xp: totalXp,
+      level,
+      currentLevelXp,
+      nextLevelXp,
+      streak,
+      badge,
+      totalReviews: logs.length,
+      achievements,
+    };
+  }
+
+  /** Leaderboard theo XP trong N ngày gần nhất */
+  async getLeaderboard(days = 30, limit = 20) {
+    const since = new Date();
+    since.setDate(since.getDate() - days);
+
+    // Giới hạn records lấy về để tránh load toàn bộ bảng vào memory.
+    // Lấy (limit * 5) rows để có đủ dữ liệu sau khi group, sau đó sort + slice.
+    const MAX_ROWS = limit * 5;
+    const logs = await this.prisma.reviewLog.findMany({
+      where: { reviewedAt: { gte: since } },
+      select: { userId: true, quality: true },
+      take: MAX_ROWS,
+      orderBy: { reviewedAt: 'desc' },
+    });
+
+    const xpByQuality = [2, 5, 10, 15];
+    const byUser = new Map<string, { xp: number; reviews: number }>();
+
+    for (const log of logs) {
+      const prev = byUser.get(log.userId) ?? { xp: 0, reviews: 0 };
+      prev.xp += xpByQuality[log.quality] ?? 0;
+      prev.reviews += 1;
+      byUser.set(log.userId, prev);
+    }
+
+    const userIds = Array.from(byUser.keys());
+    if (userIds.length === 0) return { days, leaderboard: [] };
+
+    const users = await this.prisma.user.findMany({
+      where: { id: { in: userIds } },
+      select: { id: true, name: true, email: true, avatarUrl: true },
+    });
+    const userMap = new Map(users.map((u) => [u.id, u]));
+
+    const leaderboard = userIds
+      .map((id) => {
+        const user = userMap.get(id);
+        const stat = byUser.get(id)!;
+        return {
+          userId: id,
+          name: user?.name || user?.email?.split('@')[0] || 'Người dùng',
+          avatarUrl: user?.avatarUrl || null,
+          xp: stat.xp,
+          reviews: stat.reviews,
+          level: Math.max(1, Math.floor(stat.xp / 100) + 1),
+        };
+      })
+      .sort((a, b) => b.xp - a.xp)
+      .slice(0, limit)
+      .map((row, idx) => ({ rank: idx + 1, ...row }));
+
+    return { days, leaderboard };
   }
 
   // Helper method để tạo thông báo
@@ -406,8 +589,6 @@ export class FlashcardsService {
   }
 
   // ========== IMPORT ANKI ==========
-
-  /* eslint-disable @typescript-eslint/no-require-imports, @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-return, @typescript-eslint/no-unused-vars, @typescript-eslint/require-await, @typescript-eslint/no-unsafe-argument */
 
   /**
    * Import deck từ file Anki (.apkg)
@@ -429,61 +610,27 @@ export class FlashcardsService {
       jlptLevel?: number;
     },
   ) {
-    // Parse APKG file (zip format)
-    const AdmZip = require('adm-zip');
-    const zip = new AdmZip(fileBuffer);
-    const zipEntries = zip.getEntries();
-
-    // Tìm file .anki2 (SQLite database)
-    const dbEntry = zipEntries.find((entry) =>
-      entry.entryName.endsWith('.anki2'),
-    );
-
-    if (!dbEntry) {
-      throw new NotFoundException('Không tìm thấy database trong file Anki');
-    }
-
-    // Đọc SQLite database từ buffer
-    const dbBuffer = dbEntry.getData();
-
-    // Tạo temporary file để đọc với SQLite
-    const Database = require('better-sqlite3');
-    const tmp = require('tmp');
-    const tmpFile = tmp.fileSync({ suffix: '.anki2' });
-    require('fs').writeFileSync(tmpFile.name, dbBuffer);
+    const { db, fieldNames } = await this.openAnkiDatabase(fileBuffer);
 
     try {
-      const db = new Database(tmpFile.name, { readonly: true });
-
-      // Lấy danh sách models (templates) để biết các trường
-      const models = db.prepare('SELECT models FROM col').get();
-      const modelsJson = JSON.parse(models.models);
-      const model = Object.values(modelsJson)[0] as any;
-
-      // Lấy danh sách trường có sẵn
-      const availableFields = model?.flds?.map((f) => f.name) || [];
-
-      // Lấy thông tin deck từ Anki
-      const decks = db.prepare('SELECT decks FROM col').get();
-      const decksJson = JSON.parse(decks.decks);
-
-      // Lấy notes và cards
-      const notes = db
-        .prepare(
-          `
-        SELECT 
-          notes.id,
-          notes.mid,
-          notes.tags,
-          notes.flds,
-          notes.sfld
-        FROM notes
-      `,
-        )
-        .all();
-
-      // Lấy field names từ model
-      const fieldNames = availableFields;
+      // Lấy notes
+      const notesRes = db.exec('SELECT id, mid, tags, flds, sfld FROM notes');
+      let notes: {
+        id: number;
+        mid: number;
+        tags: string;
+        flds: string;
+        sfld: string;
+      }[] = [];
+      if (notesRes.length > 0) {
+        notes = notesRes[0].values.map((row: any[]) => ({
+          id: Number(row[0]),
+          mid: Number(row[1]),
+          tags: String(row[2] || ''),
+          flds: String(row[3] || ''),
+          sfld: String(row[4] || ''),
+        }));
+      }
 
       // Map fields theo config hoặc mặc định
       const frontField = options.frontField || fieldNames[0] || 'Front';
@@ -491,14 +638,9 @@ export class FlashcardsService {
         options.backField || fieldNames[1] || fieldNames[0] || 'Back';
       const romajiField = options.romajiField;
       const exampleField = options.exampleField;
-      const tagsField = options.tagsField;
 
       // Tạo deck mới
-      // isPublic có thể đến dưới dạng string "true"/"false" từ FormData
-      const isPublicBool =
-        options.isPublic === true ||
-        (options.isPublic as unknown as string) === 'true';
-
+      // isPublic đã được @Transform trong ImportDeckDto chuyển về boolean
       const deck = await this.prisma.deck.create({
         data: {
           name: options.deckName,
@@ -506,9 +648,9 @@ export class FlashcardsService {
             options.description ||
             `Import từ Anki - ${new Date().toLocaleDateString()}`,
           userId,
-          isPublic: isPublicBool,
+          isPublic: options.isPublic ?? false,
           category: (options.category as any) ?? 'TUHOC',
-          jlptLevel: options.jlptLevel ? Number(options.jlptLevel) : null,
+          jlptLevel: options.jlptLevel ?? null,
         },
       });
 
@@ -575,7 +717,6 @@ export class FlashcardsService {
       }
 
       db.close();
-      tmpFile.removeCallback();
 
       return {
         deckId: deck.id,
@@ -592,50 +733,25 @@ export class FlashcardsService {
    * Lấy danh sách trường có sẵn từ file Anki (preview)
    */
   async previewAnkiFile(fileBuffer: Buffer) {
-    const AdmZip = require('adm-zip');
-    const zip = new AdmZip(fileBuffer);
-    const zipEntries = zip.getEntries();
-
-    const dbEntry = zipEntries.find((entry) =>
-      entry.entryName.endsWith('.anki2'),
-    );
-
-    if (!dbEntry) {
-      throw new NotFoundException('Không tìm thấy database trong file Anki');
-    }
-
-    const dbBuffer = dbEntry.getData();
-    const tmp = require('tmp');
-    const tmpFile = tmp.fileSync({ suffix: '.anki2' });
-    require('fs').writeFileSync(tmpFile.name, dbBuffer);
+    const { db, fieldNames } = await this.openAnkiDatabase(fileBuffer);
 
     try {
-      const Database = require('better-sqlite3');
-      const db = new Database(tmpFile.name, { readonly: true });
-
-      // Lấy model để biết các trường
-      const models = db.prepare('SELECT models FROM col').get();
-      const modelsJson = JSON.parse(models.models);
-      const model = Object.values(modelsJson)[0] as any;
-      const fieldNames = model?.flds?.map((f) => f.name) || [];
-
       // Lấy số lượng notes
-      const countResult = db
-        .prepare('SELECT COUNT(*) as count FROM notes')
-        .get();
-      const count = countResult?.count || 0;
+      let count = 0;
+      const countRes = db.exec('SELECT COUNT(*) FROM notes');
+      if (countRes.length > 0) {
+        count = Number(countRes[0].values[0][0]);
+      }
 
       // Lấy 1 sample note
-      const sampleNote = db
-        .prepare('SELECT notes.flds FROM notes LIMIT 1')
-        .get();
       let sampleFields: string[] = [];
-      if (sampleNote) {
-        sampleFields = sampleNote.flds.split('\x1f');
+      const sampleRes = db.exec('SELECT flds FROM notes LIMIT 1');
+      if (sampleRes.length > 0) {
+        const flds = String(sampleRes[0].values[0][0] || '');
+        sampleFields = flds.split('\x1f');
       }
 
       db.close();
-      tmpFile.removeCallback();
 
       return {
         fieldNames,
@@ -648,7 +764,91 @@ export class FlashcardsService {
     }
   }
 
-  /* eslint-enable @typescript-eslint/no-require-imports */
+  /**
+   * Mở file Anki (.apkg) và trả về DB instance + danh sách field names.
+   * Caller chịu trách nhiệm gọi db.close() và tmpFile.removeCallback().
+   */
+  private async openAnkiDatabase(fileBuffer: Buffer) {
+    const zip = new AdmZip(fileBuffer);
+
+    let dbBuffer: Buffer;
+
+    // Support modern anki21b (zstd compressed) and legacy formats
+    const anki21b = zip
+      .getEntries()
+      .find((e) => e.entryName === 'collection.anki21b');
+    const anki21 = zip
+      .getEntries()
+      .find((e) => e.entryName === 'collection.anki21');
+    const anki2 = zip
+      .getEntries()
+      .find((e) => e.entryName === 'collection.anki2');
+
+    if (anki21b) {
+      const compressed = anki21b.getData();
+      const decompressed = fzstd.decompress(new Uint8Array(compressed));
+      dbBuffer = Buffer.from(decompressed);
+    } else if (anki21) {
+      dbBuffer = anki21.getData();
+    } else if (anki2) {
+      dbBuffer = anki2.getData();
+    } else {
+      throw new NotFoundException('Không tìm thấy database trong file Anki');
+    }
+
+    const SQL = await initSqlJs();
+    const db = new SQL.Database(dbBuffer);
+
+    let fieldNames: string[] = [];
+
+    try {
+      // Check for tables
+      const tablesRes = db.exec(
+        "SELECT name FROM sqlite_master WHERE type='table'",
+      );
+      const tables =
+        tablesRes.length > 0
+          ? tablesRes[0].values.map((row) => row[0] as string)
+          : [];
+
+      const hasFields = tables.includes('fields');
+      const hasCol = tables.includes('col');
+
+      if (hasFields) {
+        const fieldsRes = db.exec(
+          'SELECT ntid, name FROM fields ORDER BY ntid, ord',
+        );
+        if (fieldsRes.length > 0) {
+          const allFields = fieldsRes[0].values;
+          // Determine the most used model
+          const midsRes = db.exec(
+            'SELECT mid, COUNT(*) as c FROM notes GROUP BY mid ORDER BY c DESC LIMIT 1',
+          );
+          let targetMid = allFields[0][0]; // default to first
+          if (midsRes.length > 0) {
+            targetMid = midsRes[0].values[0][0];
+          }
+          fieldNames = allFields
+            .filter((f) => f[0] === targetMid)
+            .map((f) => f[1] as string);
+        }
+      } else if (hasCol) {
+        const colRes = db.exec('SELECT models FROM col');
+        if (colRes.length > 0 && colRes[0].values.length > 0) {
+          const modelsStr = colRes[0].values[0][0] as string;
+          if (modelsStr) {
+            const models = JSON.parse(modelsStr);
+            const model = Object.values(models)[0] as any;
+            fieldNames = model?.flds?.map((f: any) => f.name) ?? [];
+          }
+        }
+      }
+    } catch (error) {
+      console.warn('Could not extract field names from Anki DB:', error);
+    }
+
+    return { db, fieldNames };
+  }
 
   // Helper: Suggest field mapping dựa trên tên trường
   private suggestFieldMapping(
@@ -701,6 +901,98 @@ export class FlashcardsService {
     }
 
     return mapping;
+  }
+
+  // ========== COMMUNITY: PUBLISH & CLONE ==========
+
+  /**
+   * Toggle trạng thái công khai của một deck.
+   * Chỉ chủ sở hữu mới được phép thay đổi.
+   * Trả về deck sau khi cập nhật.
+   */
+  async publishDeck(deckId: string, userId: string, isPublic: boolean) {
+    const deck = await this.prisma.deck.findUnique({ where: { id: deckId } });
+
+    if (!deck) {
+      throw new NotFoundException('Deck không tồn tại');
+    }
+
+    if (deck.userId !== userId) {
+      throw new ForbiddenException(
+        'Bạn không có quyền thay đổi trạng thái deck này',
+      );
+    }
+
+    return this.prisma.deck.update({
+      where: { id: deckId },
+      data: { isPublic },
+      include: {
+        _count: { select: { cards: true } },
+      },
+    });
+  }
+
+  /**
+   * Clone một deck công khai về thư viện cá nhân của user.
+   * - Tạo deck mới thuộc userId
+   * - Sao chép toàn bộ card (không sao chép progress)
+   * - Deck clone luôn isPublic = false
+   */
+  async cloneDeck(deckId: string, userId: string) {
+    // Lấy deck nguồn (phải là public)
+    const source = await this.prisma.deck.findUnique({
+      where: { id: deckId, isPublic: true },
+      include: {
+        cards: { orderBy: { createdAt: 'asc' } },
+        user: { select: { name: true } },
+      },
+    });
+
+    if (!source) {
+      throw new NotFoundException('Deck công khai không tồn tại');
+    }
+
+    // Không cho clone deck của chính mình (đã có rồi)
+    if (source.userId === userId) {
+      throw new ForbiddenException('Đây là deck của bạn, không cần clone');
+    }
+
+    // Tạo deck mới
+    const clonedDeck = await this.prisma.deck.create({
+      data: {
+        name: `${source.name} (bản sao)`,
+        description: source.description
+          ? `${source.description}\n\n[Sao chép từ: ${source.user?.name || 'Minhongo'}]`
+          : `[Sao chép từ: ${source.user?.name || 'Minhongo'}]`,
+        isPublic: false, // Clone luôn là private
+        category: source.category,
+        jlptLevel: source.jlptLevel,
+        userId,
+      },
+    });
+
+    // Sao chép toàn bộ card theo batch
+    if (source.cards.length > 0) {
+      await this.prisma.card.createMany({
+        data: source.cards.map((card) => ({
+          front: card.front,
+          back: card.back,
+          romaji: card.romaji,
+          example: card.example,
+          audioUrl: card.audioUrl,
+          imageUrl: card.imageUrl,
+          jlptLevel: card.jlptLevel,
+          deckId: clonedDeck.id,
+        })),
+      });
+    }
+
+    return {
+      deckId: clonedDeck.id,
+      deckName: clonedDeck.name,
+      cardCount: source.cards.length,
+      message: `Đã sao chép ${source.cards.length} thẻ vào thư viện cá nhân`,
+    };
   }
 
   // Helper: Loại bỏ HTML tags

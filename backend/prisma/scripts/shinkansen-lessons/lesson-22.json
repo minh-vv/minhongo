@@ -1,0 +1,35 @@
+{
+  "theoryMd": "# Bài 22: Phán đoán (〜とみえる, 〜かねない, 〜おそれがある, 〜に違いない・に相違ない, 〜にきまっている)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜とみえる\n- **Ý nghĩa:** Hình như là, có vẻ như là.\n- **Cách kết hợp:** Thể thông thường + とみえる\n- **Giải thích:** Dựa vào chứng cứ thấy được để suy đoán điều gì đó. Chủ yếu dùng khi nhìn vào tình hình, trạng thái của người khác để lấy đó làm chứng cứ suy đoán.\n\n#### Ví dụ:\n- 朝からパチンコに行くなんて、ずいぶん暇だとみえる → *Từ sáng đã đi chơi pachinko như vậy, trông có vẻ khá là rảnh*\n- あまり食べないところを見ると、うちの猫はこのえさは好きではないとみえる → *Thấy nó hầu như chẳng ăn gì, trông có vẻ con mèo nhà tôi không thích đồ ăn này rồi*\n\n### 2. 〜かねない\n- **Ý nghĩa:** Có khả năng sẽ xảy ra kết quả không tốt.\n- **Cách kết hợp:** Vます + かねない\n- **Giải thích:** Sử dụng với ý nghĩa nếu suy từ trạng thái hiện tại thì có thể kết quả xấu sẽ xảy ra. Mẫu câu này nói rõ về nguyên nhân hơn \"おそれがある\".\n\n#### Ví dụ:\n- うわさはどんどん変な方向へ発展していきかねない → *Có khả năng tin đồn sẽ dần phát triển theo chiều hướng xấu.*\n- 大事なことはみんなに相談しないと、後で文句を言われかねませんよ → *Chuyện quan trọng nếu không bàn với mọi người, sau đó có thể sẽ bị phàn nàn đấy.*\n\n### 3. 〜おそれがある\n- **Ý nghĩa:** E rằng, có khả năng có chuyện xấu xảy ra.\n- **Cách kết hợp:** Nの・Vる/Vない + おそれがある\n- **Giải thích:** Sử dụng với ý nghĩa có thể có sự việc không tốt xảy ra. Thường sử dụng trên thời sự, khi trình bày, thuyết minh.\n\n#### Ví dụ:\n- 今夜から明日にかけて東日本で大雨のおそれがあります → *Từ đêm nay tới ngày mai, e rằng phía đông Nhật Bản sẽ có mưa lớn*\n- 今後インフルエンザが広い範囲に広がるおそれはないだろう → *E rằng sau này dịch cúm sẽ lan ra phạm vi rộng*\n\n### 4. 〜に違いない・に相違ない\n- **Ý nghĩa:** Chắc chắn là, không thể nhầm lẫn được.\n- **Cách kết hợp:** Thể thông thường (N・Naだ -である) + に違いない・に相違ない\n- **Giải thích:** Từ chứng cứ có được để phán đoán chắc chắn. \"に相違ない\" là cách nói cứng hơn so với \"に違いない\". Đứng ở cuối câu, liền ngay trước đó là điều được phán đoán.\n\n#### Ví dụ:\n- 日本に１年住んでいるのだから、彼も少しは生活に慣れたに違いない → *Đã sống ở Nhật Bản 1 năm, anh ấy chắc hẳn đã ít nhiều quen với cuộc sống ở đó rồi*\n- 彼があれだけ強く主張するのは、何かはっきりした証拠があるからに相違ない → *Anh ấy khẳng định mạnh đến như vậy, chắc hẳn là đã có chứng cứ gì đó rõ ràng rồi.*\n\n### 5. 〜にきまっている\n- **Ý nghĩa:** Nhất định là, chắc chắn là.\n- **Cách kết hợp:** Thể thông thường (N・Naだ) + にきまっている\n- **Giải thích:** Nêu phán đoán chủ quan chắc chắn. Khác với \"に違いない\" là dựa vào chứng cứ để phán đoán, \"にきまっている\" là cách nói mang tính chủ quan, trực cảm, mang ý là dù là ai cũng sẽ nghĩ vậy.\n\n#### Ví dụ:\n- こんな派手な色のお菓子、体に悪いにきまっています → *Thứ bánh kẹo màu sặc sỡ này, chắc chắn là có hại cho sức khỏe*",
+  "cards": [
+    {
+      "front": "〜とみえる",
+      "back": "Ý nghĩa: Hình như là, có vẻ như là (dựa trên chứng cứ thấy được).",
+      "romaji": "to mieru",
+      "example": "朝からパチンコに行くなんて、ずいぶん暇だとみえる。(Từ sáng đã đi chơi pachinko như vậy, trông có vẻ khá là rảnh.)"
+    },
+    {
+      "front": "〜かねない",
+      "back": "Ý nghĩa: Có khả năng gây ra kết quả không tốt.",
+      "romaji": "kanenai",
+      "example": "うわさはどんどん変な方向へ発展していきかねない。(Có khả năng tin đồn sẽ dần phát triển theo chiều hướng xấu.)"
+    },
+    {
+      "front": "〜おそれがある",
+      "back": "Ý nghĩa: E rằng, có khả năng chuyện xấu xảy ra (thường dùng trong thông báo, thời sự).",
+      "romaji": "osore ga aru",
+      "example": "今夜から明日にかけて東日本で大雨のおそれがあります。(Từ đêm nay tới ngày mai, e rằng phía đông Nhật Bản sẽ có mưa lớn.)"
+    },
+    {
+      "front": "〜に違いない・に相違ない",
+      "back": "Ý nghĩa: Chắc chắn là, không sai vào đâu được (dựa vào chứng cứ).",
+      "romaji": "ni chigainai / ni souinai",
+      "example": "日本に１年住んでいるのだから、彼も少しは生活に慣れたに違いない。(Đã sống ở Nhật Bản 1 năm, anh ấy chắc hẳn đã ít nhiều quen với cuộc sống ở đó rồi.)"
+    },
+    {
+      "front": "〜にきまっている",
+      "back": "Ý nghĩa: Chắc chắn là, nhất định là (phán đoán chủ quan, trực cảm).",
+      "romaji": "ni kimatte iru",
+      "example": "こんな派手な色のお菓子、体に悪いにきまっています。(Thứ bánh kẹo màu sặc sỡ này, chắc chắn là có hại cho sức khỏe.)"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "theoryMd": "# Bài 10: Liệt kê ví dụ / Đánh giá (〜やら〜やら, 〜というか〜というか, 〜にしても・〜にしろ, 〜といった)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜やら〜やら\n- **Ý nghĩa:** Đưa ra ví dụ, ngoài ví dụ đưa ra còn có nhiều cái khác nữa.\n- **Cách kết hợp:** N・Vる・Aい + やら\n- **Giải thích:** Dùng với những từ cùng một nhóm cạnh nhau, nhấn mạnh là có rất nhiều ví dụ, khi đưa ra không có sắp xếp theo thứ tự. Hay dùng với những trường hợp người nói nghĩ là có quá nhiều ví dụ, hoặc là không thể giới hạn rõ ràng được.\n\n#### Ví dụ:\n- 娘の結婚式の日は、うれしいやら寂しいやら複雑な気持ちだった。 → *Vào ngày cưới của con gái, cảm xúc của tôi thật phức tạp, có vui, có cô đơn,…*\n- テーブルの上には四角いものやら丸いものやらいろいろな形の皿が置いてあった。 → *Trên bàn có đặt nhiều đĩa nhiều loại hình thù, như hình tròn, hình tứ giác…*\n\n### 2. 〜というか〜というか\n- **Ý nghĩa:** Có thể nói cách này, hay có thể nói cách khác.\n- **Cách kết hợp:** Thể thông thường (N・Naだ) + というか\n- **Giải thích:** Dùng khi giải thích về một sự vật, hiện tượng, đưa ra hai cách nói, nhận định nhưng không thể xác định rõ cái nào chính xác hơn.\n\n#### Ví dụ:\n- あの子は元気がいいというか落ち着きがないというか、静かにじっとしていない子です。 → *Đứa bé ấy có thể nói là năng động, hay có thể nói là không bình tĩnh được, nó là một đứa bé không thể ngồi yên một chỗ.*\n- この部屋は、仕事場というか物置というか、とにかく仕事に必要な物が全部おいてあるんです。 → *Căn phòng này, có thể nói là nơi dành cho công việc, hay là nơi để đồ, nói chung là toàn bộ những đồ cần thiết cho công việc thì để ở đây.*\n\n### 3. 〜にしても〜にしても・〜にしろ〜にしろ・〜にしよ〜にちよ\n- **Ý nghĩa:** Dù với ví dụ này hay với ví dụ khác thì đều có thể nói cùng một điều.\n- **Cách kết hợp:** N・Vる・Vない + にしても・にしろ・にしよ\n- **Giải thích:** Đưa ra hai ví dụ cùng loại, hoặc có ý nghĩa đối lập. Vế sau thường là câu thể hiện phán đoán của người nói. にしよ〜にちよ là cách nói mềm hơn.\n\n#### Ví dụ:\n- 野菜にしても魚にしても、料理の材料は新鮮さが第一です。 → *Dù là rau hay là cá, với nguyên liệu nấu ăn thì độ tươi luôn đặt lên trên hết.*\n- テレビにしろ新聞にしろ、ニュースには主観が入ってはいけません。 → *Dù là trên TV hay báo chí, trên tin tức thì không được đưa ý kiến chủ quan của mình vào.*\n- 論文を書くにせよ討論をするにせよ、十分にデータを集めておく必要がある。 → *Dù là viết luận văn hay là thảo luận, việc thu thập dữ liệu một cách đầy đủ là cần thiết.*\n\n### 4. 〜といった\n- **Ý nghĩa:** Đưa ra một loạt ví dụ để sau đó tóm lại điểm chung của các ví dụ.\n- **Cách kết hợp:** N + といった + N\n- **Giải thích:** Đi với những từ thể hiện rằng có nhiều ví dụ có thể đưa ra. Tổ hợp や, とか được sử dụng khá nhiều.\n\n#### Ví dụ:\n- 京都とか鎌倉といった古い街には寺が多い。 → *Ở những con phố cổ như ở Kyoto hay Kamakura, có rất nhiều chùa.*\n- 私はケーキ、ポテトチップス、ハンバーガーといったカロリーの高いものが大好きなんです。 → *Tôi thích những thứ có lượng calo cao như bánh, khoai tây chiên hay hambuger.*",
+  "cards": [
+    {
+      "front": "〜やら〜やら",
+      "back": "Liệt kê nhiều ví dụ không theo thứ tự, nhấn mạnh là có rất nhiều (thường dùng cho cảm xúc phức tạp).",
+      "romaji": "yara ~ yara",
+      "example": "娘の結婚式の日は、うれしいやら寂しいやら複雑な気持ちだった。(Vào ngày cưới của con gái, cảm xúc của tôi thật phức tạp, có vui, có cô đơn,…)"
+    },
+    {
+      "front": "〜というか〜というか",
+      "back": "Có thể nói là thế này, cũng có thể nói là thế kia (nhận định không rõ ràng).",
+      "romaji": "to iu ka ~ to iu ka",
+      "example": "あの子は元気がいいというか落ち着きがないというか、静かにじっとしていない子です。(Đứa bé ấy có thể nói là năng động, hay có thể nói là không bình tĩnh được...)"
+    },
+    {
+      "front": "〜にしても〜にしても / 〜にしろ〜にしろ",
+      "back": "Dù là A hay là B (đều cùng một kết quả/nhận định).",
+      "romaji": "ni shite mo ~ ni shite mo / ni shiro ~ ni shiro",
+      "example": "野菜にしても魚にしても、料理の材料は新鮮さが第一です。(Dù là rau hay là cá, nguyên liệu nấu ăn thì độ tươi luôn đặt lên trên hết.)"
+    },
+    {
+      "front": "〜といった",
+      "back": "Đưa ra các ví dụ để tóm tắt điểm chung (như là...).",
+      "romaji": "to itta",
+      "example": "京都とか鎌倉といった古い街には寺が多い。(Ở những con phố cổ như ở Kyoto hay Kamakura, có rất nhiều chùa.)"
+    }
+  ]
+}

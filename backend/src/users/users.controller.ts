@@ -2,6 +2,7 @@ import {
   Controller,
   Get,
   Patch,
+  Post,
   Delete,
   Body,
   Request,
@@ -12,9 +13,9 @@ import {
 } from '@nestjs/common';
 import type { Request as ExpressRequest } from 'express';
 import { FileInterceptor } from '@nestjs/platform-express';
-import { diskStorage } from 'multer';
-import { extname, join } from 'path';
-import { IsOptional, IsString, MaxLength } from 'class-validator';
+import { memoryStorage } from 'multer';
+import { extname } from 'path';
+import { IsOptional, IsString, MaxLength, MinLength } from 'class-validator';
 import { JwtAuthGuard } from 'src/auth/guards/jwt-auth.guard';
 import { UsersService } from './users.service';
 
@@ -30,19 +31,21 @@ class UpdateProfileDto {
   learningGoal?: string;
 }
 
+class ChangePasswordDto {
+  @IsString()
+  currentPassword: string;
+
+  @IsString()
+  @MinLength(6, { message: 'Mật khẩu mới phải có ít nhất 6 ký tự' })
+  newPassword: string;
+}
+
 interface RequestWithUser extends ExpressRequest {
   user: { id: string; email: string; isAdmin?: boolean };
 }
 
-/** Cấu hình multer: lưu vào uploads/avatars/, đặt tên theo userId */
-const avatarStorage = diskStorage({
-  destination: join(process.cwd(), 'uploads', 'avatars'),
-  filename: (req, file, cb) => {
-    const userId = (req as unknown as RequestWithUser).user?.id || 'unknown';
-    const ext = extname(file.originalname).toLowerCase();
-    cb(null, `${userId}${ext}`);
-  },
-});
+/** Multer: giữ file trong memory, upload lên S3 sau */
+const avatarMemoryStorage = memoryStorage();
 
 function imageFileFilter(
   _req: unknown,
@@ -50,7 +53,10 @@ function imageFileFilter(
   cb: (error: Error | null, acceptFile: boolean) => void,
 ) {
   if (!file.mimetype.match(/^image\/(jpeg|png|webp|gif)$/)) {
-    cb(new BadRequestException('Chỉ chấp nhận file ảnh (jpg, png, webp, gif)'), false);
+    cb(
+      new BadRequestException('Chỉ chấp nhận file ảnh (jpg, png, webp, gif)'),
+      false,
+    );
     return;
   }
   cb(null, true);
@@ -77,13 +83,26 @@ export class UsersController {
     return this.usersService.updateProfile(req.user.id, dto);
   }
 
+  @Post('me/change-password')
+  @UseGuards(JwtAuthGuard)
+  changePassword(
+    @Request() req: RequestWithUser,
+    @Body() dto: ChangePasswordDto,
+  ) {
+    return this.usersService.changePassword(
+      req.user.id,
+      dto.currentPassword,
+      dto.newPassword,
+    );
+  }
+
   // ── Avatar ───────────────────────────────────────────────────────────
 
   @Patch('me/avatar')
   @UseGuards(JwtAuthGuard)
   @UseInterceptors(
     FileInterceptor('avatar', {
-      storage: avatarStorage,
+      storage: avatarMemoryStorage,
       limits: { fileSize: 5 * 1024 * 1024 }, // 5 MB
       fileFilter: imageFileFilter,
     }),
@@ -93,13 +112,13 @@ export class UsersController {
     @Request() req: RequestWithUser,
   ) {
     if (!file) throw new BadRequestException('Vui lòng chọn file ảnh');
-
-    // Xây dựng base URL từ request để trả về URL đầy đủ
-    const protocol = req.protocol;
-    const host = req.get('host');
-    const serverUrl = `${protocol}://${host}`;
-
-    return this.usersService.updateAvatar(req.user.id, file.filename, serverUrl);
+    const ext = extname(file.originalname).toLowerCase();
+    return this.usersService.updateAvatar(
+      req.user.id,
+      file.buffer,
+      file.mimetype,
+      ext,
+    );
   }
 
   @Delete('me/avatar')

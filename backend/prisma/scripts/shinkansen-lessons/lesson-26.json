@@ -1,0 +1,41 @@
+{
+  "theoryMd": "# Bài cuối: Nguyện vọng / Cảm nhận (〜たいものだ, 〜ものだ, 〜ないもの（だろう）か, 〜ものがある, 〜ことだ, 〜ことだろう・〜ことか)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜たいものだ・〜てほしいものだ\n- **Ý nghĩa:** Nhấn mạnh ý muốn điều gì, muốn làm gì.\n- **Cách kết hợp:** Vます + たいものだ / Vて・Vないで + ほしいものだ\n- **Giải thích:** Dùng trong trường hợp muốn thể hiện nguyện vọng, mong muốn trong lòng người nói. Không dùng để nói trực tiếp yêu cầu hay nguyện vọng cụ thể.\n\n#### Ví dụ:\n- そんなにきれいな絵なら、ぜひ一度見てみたいものです → *Nếu bức tranh đẹp đến vậy, tôi muốn nhất định phải đến xem một lần*\n- 今度こそ実験が成功してほしいものだ → *Chính lần này tôi muốn thí nghiệm thành công*\n\n### 2. 〜ものだ\n- **Ý nghĩa:** Hồi tưởng lại thói quen trong quá khứ / Nhấn mạnh cảm xúc về một sự vật, sự việc.\n- **Cách kết hợp:** Vた + ものだ\n- **Giải thích:** \n    a, Khi dùng để nói về thói quen trong quá khứ, vì là thói quen nên không dùng cho sự việc chỉ xảy ra một lần.\n    b, Không dùng cho hành vi mang ý chí của người nói. Thường hay đi kèm với tính từ, phó từ (よく、ずいぶん…) thể hiện chủ quan của người nói.\n\n#### Ví dụ:\n- 子供のころ、夏になるとこの川で泳いだものです → *Hồi nhỏ, khi mùa hè đến, tôi hay bơi ở dòng sông này.*\n- 祖父が生きていたころは、毎年お正月になると親戚が集まったものだ → *Hồi ông tôi còn sống, mỗi năm tết đến, họ hàng lại tập trung lại.*\n- 卒業してからもう１０年か。時間が過ぎるのは早いものだ → *Đã 10 năm kể từ khi tốt nghiệp rồi sao. Thời gian trôi qua nhanh thật.*\n\n### 3. 〜ないもの（だろう）か\n- **Ý nghĩa:** Mong muốn một việc xảy ra dù hiện thực khó có thể xảy ra được.\n- **Cách kết hợp:** Vない + もの（だろう）か\n- **Giải thích:** Đi với động từ thể khả năng hoặc động từ không chứa ý chí người nói.\n\n#### Ví dụ:\n- どうにかして母の病気が治らないものか → *Tôi muốn bệnh của mẹ khỏi bằng bất kì giá nào*\n- 誰かこの仕事を引き受けてくれる人はいないものだろうか → *Tôi muốn có ai đó nhận công việc này*\n\n### 4. 〜ものがある\n- **Ý nghĩa:** Có cảm giác gì đó.\n- **Cách kết hợp:** Thể thông thường hiện tại (Na + な) + ものがある\n- **Giải thích:** Đi kèm với những từ thể hiện cảm tưởng của người nói.\n\n#### Ví dụ:\n- ここまれ完成しているのにあきらめなければならないなんて、残念なものがある → *Đã thành công đến mức này rồi mà phải bỏ cuộc, đáng tiếc quá*\n\n### 5. 〜ことだ\n- **Ý nghĩa:** Cảm giác thật là…\n- **Cách kết hợp:** Na + な・A + い + ことだ\n- **Giải thích:** Đi kèm với những tính từ thể hiện chủ quan người nói. Khi sử dụng động từ có tính chất như tính từ, động từ đó ở thể Vた.\n\n#### Ví dụ:\n- 大きくなりすぎたからとペットを簡単に捨てる人がいる。なんとひどいことだ。 → *Có những người khi thú nuôi lớn quá lại vứt bỏ dễ dàng. Thật là quá đáng*\n- いくら電話しても出ない。まったく困ったことだ → *Gọi điện bao lần cũng không nhấc máy. Thật là nan giải quá.*\n\n### 6. 〜ことだろう・〜ことか\n- **Ý nghĩa:** Rất nhiều, biết bao.\n- **Cách kết hợp:** Từ nghi vấn + Thể thông thường (Na・N + な/- である) + ことだろう・ことか\n- **Giải thích:** Đi với từ nghi vấn thể hiện mức độ (どんなに, 何回) hay (なんと, いったい).\n\n#### Ví dụ:\n- 離れて暮らしているあなたのことを、ご両親はどんなに心配していることか → *Bố mẹ lo lắng rất nhiều cho bạn khi tách ra sống riêng.*",
+  "cards": [
+    {
+      "front": "〜たいものだ・〜てほしいものだ",
+      "back": "Nhấn mạnh ý muốn điều gì, muốn làm gì.",
+      "romaji": "tai mono da / te hoshii mono da",
+      "example": "そんなにきれいな絵なら、ぜひ一度見てみたいものです。(Nếu bức tranh đẹp đến vậy, tôi muốn nhất định phải đến xem một lần)"
+    },
+    {
+      "front": "〜ものだ",
+      "back": "Hồi tưởng thói quen quá khứ hoặc nhấn mạnh cảm xúc/lẽ thường.",
+      "romaji": "mono da",
+      "example": "子供のころ、夏になるとこの川で泳いだものです。(Hồi nhỏ, khi mùa hè đến, tôi hay bơi ở dòng sông này.)"
+    },
+    {
+      "front": "〜ないもの（だろう）か",
+      "back": "Mong muốn một việc xảy ra dù hiện thực khó có thể xảy ra.",
+      "romaji": "nai mono (darou) ka",
+      "example": "どうにかして母の病気が治らないものか。(Tôi muốn bệnh của mẹ khỏi bằng bất kì giá nào)"
+    },
+    {
+      "front": "〜ものがある",
+      "back": "Có cảm giác gì đó.",
+      "romaji": "mono ga aru",
+      "example": "ここまれ完成しているのにあきらめなければならないなんて、残念なものがある。(Đã thành công đến mức này rồi mà phải bỏ cuộc, đáng tiếc quá)"
+    },
+    {
+      "front": "〜ことだ",
+      "back": "Cảm giác thật là... (thể hiện cảm xúc mạnh).",
+      "romaji": "koto da",
+      "example": "なんとひどいことだ。(Thật là quá đáng.)"
+    },
+    {
+      "front": "〜ことだろう・〜ことか",
+      "back": "Rất nhiều, biết bao (thể hiện mức độ cảm xúc/trạng thái).",
+      "romaji": "koto darou / koto ka",
+      "example": "ご両親はどんなに心配していることか。(Bố mẹ lo lắng rất nhiều cho bạn biết bao.)"
+    }
+  ]
+}

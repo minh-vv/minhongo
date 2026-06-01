@@ -1,0 +1,35 @@
+{
+  "theoryMd": "# Bài 14: Dù... nhưng... (〜にもかかわらず, 〜ものの・〜とはいうものの, 〜ながら（も）, 〜つつ（も）, 〜といっても)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜にもかかわらず\n- **Ý nghĩa:** Mặc dù... nhưng..., bất chấp...\n- **Cách kết hợp:** N・Thể thông thường (Na・Nだ + である) + にもかかわらず\n- **Giải thích:** Thực hiện một hành động mà không bị ảnh hưởng bởi tác động khác. Toàn thể câu thể hiện cảm giác bất ngờ đối với việc hành động này không bị ảnh hưởng bởi tác động đằng trước. Vế phía sau không dùng động từ thể hiện ý hướng của tác giả.\n\n#### Ví dụ:\n- A先生はお忙しいにもかかわらず、快く僕のレポートをチェックしてくださった。 → *Thầy A mặc cho bận rộn, nhưng thầy vẫn sẵn lòng kiểm tra báo cáo của tôi.*\n- 足を痛めたにもかかわらず、A選手はマラソンコースを最後まで走った → *Mặc cho đau chân, tuyển thủ A vẫn chạy tới cuối cùng trong cuộc đua maraton*\n\n### 2. 〜ものの・〜とはいうものの\n- **Ý nghĩa:** Dù là... nhưng..., mặc dù...\n- **Cách kết hợp:** V thể thông thường (Naだ + -な / -である) + ものの; N ・Thể thông thường (Naだ) とはいうものの\n- **Giải thích:** Không xảy ra điều đúng như tưởng tượng rằng đương nhiên sẽ xảy ra. Đi kèm với những từ thể hiện sự thật, sự việc có tính xác thực cao. Vế phía sau không theo đúng tưởng tượng của người nói.\n\n#### Ví dụ:\n- 高価な着物を買ったものの、着るチャンスがない → *Dù đã mua kimono đắt tiền, nhưng tôi không có cơ hội mặc nó*\n- 手術は成功したとはいうものの、、まだ心配です → *Dù đã phẫu thuật thành công, nhưng tôi vẫn thấy lo.*\n\n### 3. 〜ながら（も）\n- **Ý nghĩa:** Dù... nhưng..., mặc dù...\n- **Cách kết hợp:** Vます・Aい・Naであり・Nであり+ ながら（も）\n- **Giải thích:** Nêu lên điều trái với dự đoán suy ra từ một trạng thái nào đó. Hay đi kèm với những từ thể hiện trạng thái. Vế trước và sau cùng chủ ngữ.\n\n#### Ví dụ:\n- あの子は子供ながら、社会の働きをよく知っていますね → *Cô bé đó dù là trẻ con, nhưng hiểu khá rõ về xã hội đấy nhỉ*\n- 毎日この道を通ってうながら、ここにこんな素敵な店があるとは気が付かなかった → *Dù mỗi ngày tôi đều đi qua đây, tôi đã không nhận ra ở đây có một cửa hàng tuyệt vời thế này*\n\n### 4. 〜つつ（も）\n- **Ý nghĩa:** Mặc dù... nhưng...\n- **Cách kết hợp:** Vます + つつ（も）\n- **Giải thích:** Hành động khác với suy nghĩ trong lòng. Thường đi kèm với những động từ liên quan đến hoạt động ngôn ngữ hoặc nội tâm (nói, nghĩ, biết…) Vế sau là từ thể hiện suy đoán, ý hướng, nguyện vọng của người nói. Hai vế trước và sau cùng chủ ngữ.\n\n#### Ví dụ:\n- 危険だと知りつつ、山道を登り続けた → *Dù biết là nguy hiểm, tôi vẫn tiếp tục leo núi*\n- 体に良くないと思いつつも、毎日インスタント書屋品ばかり食べています → *Dù nghĩ là sẽ không tốt cho cơ thể, hàng ngày tôi chỉ toàn ăn thực phẩm ăn liền.*\n\n### 5. 〜といっても\n- **Ý nghĩa:** Dù nói là... nhưng...\n- **Cách kết hợp:** N・Thể thông thường + といっても\n- **Giải thích:** Sự thực trái với hình ảnh tưởng tượng ra. Vế sau là câu ý nghĩa khác với hình ảnh tưởng tượng ra theo thông tin được biết từ vế trước.\n\n#### Ví dụ:\n- 料理ができるといっても、私が作れるのはかんたんなものだけです → *Dù nói là có thể nấu ăn, tôi chỉ nấu được những món đơn giản thôi*\n- 今私の仕事はきつ。でも、きついといっても、前の会社にいたときほどではない → *Hiện tại công việc của tôi thật vất vả. Nhưng mà, dù nói là vất vả, cũng không đến mức như ở công ty cũ của tôi*",
+  "cards": [
+    {
+      "front": "〜にもかかわらず",
+      "back": "Mặc dù... nhưng..., bất chấp (Sự việc xảy ra bất chấp điều kiện bất lợi).",
+      "romaji": "ni mo kakawarazu",
+      "example": "足を痛めたにもかかわらず、A選手はマラソンコースを最後まで走った。(Mặc cho đau chân, tuyển thủ A vẫn chạy tới cuối cùng trong cuộc đua maraton)"
+    },
+    {
+      "front": "〜ものの・〜とはいうものの",
+      "back": "Dù là... nhưng..., mặc dù (Sự thật trái với tưởng tượng đương nhiên).",
+      "romaji": "monono / to wa iu mono no",
+      "example": "手術は成功したとはいうものの、まだ心配です。(Dù đã phẫu thuật thành công, nhưng tôi vẫn thấy lo.)"
+    },
+    {
+      "front": "〜ながら（も）",
+      "back": "Dù... nhưng..., mặc dù (Trái với dự đoán dựa trên trạng thái).",
+      "romaji": "nagara (mo)",
+      "example": "あの子は子供ながら、社会の働きをよく知っていますね。(Cô bé đó dù là trẻ con, nhưng hiểu khá rõ về xã hội đấy nhỉ)"
+    },
+    {
+      "front": "〜つつ（も）",
+      "back": "Mặc dù... nhưng... (Hành động trái với suy nghĩ trong lòng).",
+      "romaji": "tsutsu (mo)",
+      "example": "危険だと知りつつ、山道を登り続けた。(Dù biết là nguy hiểm, tôi vẫn tiếp tục leo núi)"
+    },
+    {
+      "front": "〜といっても",
+      "back": "Dù nói là... nhưng... (Sự thực trái với hình ảnh tưởng tượng).",
+      "romaji": "to itte mo",
+      "example": "料理ができるといっても、私が作れるのはかんたんなものだけです。(Dù nói là có thể nấu ăn, tôi chỉ nấu được những món đơn giản thôi)"
+    }
+  ]
+}

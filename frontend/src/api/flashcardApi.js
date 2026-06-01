@@ -1,7 +1,8 @@
 import api from './axios';
 
 export const flashcardApi = {
-  // Deck APIs
+  // ========== DECK APIs ==========
+
   getDecks: async () => {
     const response = await api.get('/flashcards');
     return response.data;
@@ -37,7 +38,27 @@ export const flashcardApi = {
     return response.data;
   },
 
-  // Card APIs
+  /**
+   * Toggle trạng thái công khai của deck (chỉ chủ sở hữu).
+   * @param {string} deckId
+   * @param {boolean} isPublic - true: publish ra cộng đồng, false: chuyển về private
+   */
+  publishDeck: async (deckId, isPublic) => {
+    const response = await api.patch(`/flashcards/${deckId}/publish`, { isPublic });
+    return response.data;
+  },
+
+  /**
+   * Clone một deck công khai về thư viện cá nhân.
+   * @param {string} deckId - ID của deck công khai cần clone
+   */
+  cloneDeck: async (deckId) => {
+    const response = await api.post(`/flashcards/${deckId}/clone`);
+    return response.data;
+  },
+
+  // ========== CARD APIs ==========
+
   createCard: async (deckId, data) => {
     const response = await api.post(`/flashcards/${deckId}/cards`, data);
     return response.data;
@@ -53,7 +74,25 @@ export const flashcardApi = {
     return response.data;
   },
 
-  // SRS APIs
+  // ========== STATS APIs ==========
+
+  getStudyHistory: async (days = 30) => {
+    const response = await api.get(`/flashcards/stats/history?days=${days}`);
+    return response.data;
+  },
+
+  getGamificationSummary: async () => {
+    const response = await api.get('/flashcards/stats/gamification');
+    return response.data;
+  },
+
+  getLeaderboard: async (days = 30, limit = 20) => {
+    const response = await api.get(`/flashcards/stats/leaderboard?days=${days}&limit=${limit}`);
+    return response.data;
+  },
+
+  // ========== SRS APIs ==========
+
   getDueCards: async (deckId) => {
     const response = await api.get(`/flashcards/${deckId}/due`);
     return response.data;
@@ -69,7 +108,8 @@ export const flashcardApi = {
     return response.data;
   },
 
-  // Import Anki APIs
+  // ========== IMPORT ANKI APIs ==========
+
   previewAnkiFile: async (file) => {
     const formData = new FormData();
     formData.append('file', file);

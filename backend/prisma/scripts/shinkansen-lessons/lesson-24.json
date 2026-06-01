@@ -1,0 +1,41 @@
+{
+  "theoryMd": "# Bài 24: Khuyên bảo / Phủ định ý định (〜（よ）うではないか, 〜ことだ, 〜ものだ/〜ものではない, 〜ことはない)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜（よ）うではないか\n- **Ý nghĩa:** Đưa ra lời rủ, lời kêu gọi.\n- **Cách kết hợp:** Vよう + ではないか\n- **Giải thích:** Là cách nói mạnh mẽ để mời gọi, thường người dùng là nam, lớn tuổi, những người có chức quyền như chính trị gia, giám đốc khi kêu gọi số đông. Không dùng trong đời sống thường ngày.\n\n#### Ví dụ:\n- 環境を守るために何ができるか、考えてみようではないか → *Có thể làm được gì để bảo vệ môi trường, chúng ta cùng nhau suy nghĩ chứ?*\n\n### 2. 〜ことだ\n- **Ý nghĩa:** Đưa ra lời khuyên, trong tình huống cụ thể.\n- **Cách kết hợp:** Vる・Vない + ことだ\n- **Giải thích:** Không dùng dạng quá khứ, phủ định, nghi vấn. Đi với động từ thể hiện ý chí. Là cách nói đưa ra lời khuyên, lời cảnh báo, nên không nên dùng với người vế trên.\n\n#### Ví dụ:\n- 太りたくなければ、夜遅く食べないことです → *Nếu không muốn béo lên thì đừng nên ăn vào đêm muộn.*\n\n### 3. 〜ものだ / 〜ものではない\n- **Ý nghĩa:** Nên làm gì, phải làm gì / Không nên làm gì, không được làm gì.\n- **Cách kết hợp:** Vる・Vない + ものだ / Vる + ものではない\n- **Giải thích:** Dùng cho những tri thức lẽ thường. Không dùng trong trường hợp xác định được đối tượng hay người được nhắm đến mà chỉ nói chung, hướng tới tất cả mọi người. Không nên dùng với người vế trên.\n\n#### Ví dụ:\n- 人との出会いは大切にするものだ → *Nên trân trọng những cuộc gặp gỡ với mọi người.*\n- 気軽に人にお金を貸すものではない → *Đừng nên tùy tiện cho người khác vay tiền.*\n\n### 4. 〜ことはない\n- **Ý nghĩa:** Không cần thiết phải làm gì.\n- **Cách kết hợp:** Vる + ことはない\n- **Giải thích:** Đưa ra phán đoán của người nói. Không dùng ở dạng câu hỏi. Hầu như không dùng nói về bản thân người nói. Không dùng trong trường hợp điều không cần thiết đã được xác định ngay từ đầu.\n\n#### Ví dụ:\n- 彼の言葉など気にすることはないよ。いつもきつい言い方をする人だから → *Không cần phải bận tâm với những lời anh ấy nói. Anh ấy là người có cách nói chuyện lúc nào cũng cay nghiệt.*\n\n### 5. 〜まい / 〜(よ)うか〜まいか\n- **Ý nghĩa:** Không có ý định làm gì.\n- **Cách kết hợp:** Vる + まい / Vよう + か + Vる + まいか\n- **Giải thích:** Trong trường hợpまい không mang ý chí người nói, cần có thêm 〜と思っているようだ hay 〜としている. Khi đi kèm với những từ này thì thể hiện ý suy luận của người nói.\n\n#### Ví dụ:\n- こんなばかな失敗は二度とするまい。 → *Tôi sẽ không mắc lỗi ngớ ngẩn này lần thứ hai.*\n- 掃除ロボットを買おうか買うまいか決心がつかない。 → *Tôi vẫn chưa quyết định được có mua hay không mua robot quét dọn.*\n\n### 6. 〜ものか\n- **Ý nghĩa:** Tuyệt đối không có ý định làm gì.\n- **Cách kết hợp:** Vる + ものか\n- **Giải thích:** Là cách nói mang cảm tính người nói, nhấn mạnh ý phủ định. Có thể dùng 〜もんか cũng tương tự.\n\n#### Ví dụ:\n- あんな無責任な人とはもう一緒に仕事をするものか → *Tôi tuyệt đối sẽ không làm việc cùng người vô trách nhiệm như vậy đâu.*",
+  "cards": [
+    {
+      "front": "〜（よ）うではないか",
+      "back": "Đưa ra lời rủ, lời kêu gọi một cách mạnh mẽ (thường là nam giới, người có chức quyền).",
+      "romaji": "you dewa nai ka",
+      "example": "環境を守るために何ができるか、考えてみようではないか。(Có thể làm được gì để bảo vệ môi trường, chúng ta cùng nhau suy nghĩ chứ?)"
+    },
+    {
+      "front": "〜ことだ",
+      "back": "Đưa ra lời khuyên hoặc cảnh báo (không dùng cho cấp trên).",
+      "romaji": "koto da",
+      "example": "太りたくなければ、夜遅く食べないことです。(Nếu không muốn béo lên thì đừng nên ăn vào đêm muộn.)"
+    },
+    {
+      "front": "〜ものだ / 〜ものではない",
+      "back": "Nên làm gì / Không nên làm gì (mang tính lẽ thường, chân lý).",
+      "romaji": "mono da / mono dewa nai",
+      "example": "人との出会いは大切にするものだ。(Nên trân trọng những cuộc gặp gỡ với mọi người.)"
+    },
+    {
+      "front": "〜ことはない",
+      "back": "Không cần thiết phải làm gì.",
+      "romaji": "koto wa nai",
+      "example": "彼の言葉など気にすることはないよ。(Không cần phải bận tâm với những lời anh ấy nói.)"
+    },
+    {
+      "front": "〜まい / 〜(よ)うか〜まいか",
+      "back": "Không có ý định làm gì / Phân vân có làm hay không.",
+      "romaji": "mai / you ka mai ka",
+      "example": "こんなばかな失敗は二度とするまい。(Tôi sẽ không mắc lỗi ngớ ngẩn này lần thứ hai.)"
+    },
+    {
+      "front": "〜ものか",
+      "back": "Tuyệt đối không có ý định làm gì (nhấn mạnh ý phủ định).",
+      "romaji": "mono ka",
+      "example": "あんな無責任な人とはもう一緒に仕事をするものか。(Tôi tuyệt đối sẽ không làm việc cùng người vô trách nhiệm như vậy đâu.)"
+    }
+  ]
+}

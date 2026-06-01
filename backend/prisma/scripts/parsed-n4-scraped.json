@@ -1,0 +1,5346 @@
+[
+  {
+    "kanji": "踏む",
+    "reading": "ふむ",
+    "meaning": "to step on, to tread on",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～区",
+    "reading": "～く",
+    "meaning": "~ district, ~ ward, ~ borough",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "すっと",
+    "reading": "すっと",
+    "meaning": "straight, quickly",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "盗む",
+    "reading": "ぬすむ",
+    "meaning": "rob",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "大抵",
+    "reading": "たいてい",
+    "meaning": "generally, usually",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "とうとう",
+    "reading": "とうとう",
+    "meaning": "finally, at last",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ガソリン",
+    "reading": "ガソリン",
+    "meaning": "gasoline, petrol",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "鳴る",
+    "reading": "なる",
+    "meaning": "to sound, to ring (v.i.)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "しっかり",
+    "reading": "しっかり",
+    "meaning": "firmly, steady",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "生きる",
+    "reading": "いきる",
+    "meaning": "live",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "苦い",
+    "reading": "にがい",
+    "meaning": "bitter",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "沸く",
+    "reading": "わく",
+    "meaning": "to boil, to grow hot",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "意見",
+    "reading": "いけん",
+    "meaning": "opinion, view, idea",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "やっぱり",
+    "reading": "やっぱり",
+    "meaning": "as I thought, absolutely",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "漫画",
+    "reading": "まんが",
+    "meaning": "comic (book), cartoon",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ステレオ",
+    "reading": "ステレオ",
+    "meaning": "stereo",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "医学",
+    "reading": "いがく",
+    "meaning": "science",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "テキスト",
+    "reading": "テキスト",
+    "meaning": "book",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～月",
+    "reading": "～つき",
+    "meaning": "month",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "折る",
+    "reading": "おる",
+    "meaning": "to snap, to break; to bend",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～会",
+    "reading": "～かい",
+    "meaning": "meeting",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "うかがう",
+    "reading": "うかがう",
+    "meaning": "ask",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "聞こえる",
+    "reading": "きこえる",
+    "meaning": "to be heard, to be audible",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "僕",
+    "reading": "ぼく",
+    "meaning": "status)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "必ず",
+    "reading": "かならず",
+    "meaning": "surely, certainly",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "壊す",
+    "reading": "こわす",
+    "meaning": "to break, to break down",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "怒る",
+    "reading": "おこる",
+    "meaning": "angrily",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "床屋",
+    "reading": "とこや",
+    "meaning": "(shop)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "オートバイ",
+    "reading": "オートバイ",
+    "meaning": "auto-bi(ke))",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "運動",
+    "reading": "うんどうする",
+    "meaning": "exercise",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "止む",
+    "reading": "やむ",
+    "meaning": "to cease, to stop",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "もし",
+    "reading": "もし",
+    "meaning": "if",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "表",
+    "reading": "おもて",
+    "meaning": "outside",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "大学生",
+    "reading": "だいがくせい",
+    "meaning": "college student, university student",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "運転手",
+    "reading": "うんてんしゅ",
+    "meaning": "occupation)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "予習",
+    "reading": "よしゅう",
+    "meaning": "class)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "心配",
+    "reading": "しんぱいする",
+    "meaning": "worry, concern",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "別",
+    "reading": "べつ",
+    "meaning": "distinction, different",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "非常に",
+    "reading": "ひじょうに",
+    "meaning": "very",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "お宅",
+    "reading": "おたく",
+    "meaning": "--",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "柔らかい",
+    "reading": "やわらかい",
+    "meaning": "soft (in reference to texture), tender",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "拾う",
+    "reading": "ひろう",
+    "meaning": "to pick up (something), to find",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～ございます",
+    "reading": "～ございます",
+    "meaning": "to be (polite), to exist",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "気",
+    "reading": "き",
+    "meaning": "spirit, mood",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "比べる",
+    "reading": "くらべる",
+    "meaning": "compare",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ほとんど",
+    "reading": "ほとんど",
+    "meaning": "mostly, almost",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "つもり",
+    "reading": "つもり",
+    "meaning": "intention, plan",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "郊外",
+    "reading": "こうがい",
+    "meaning": "suburb, outskirts",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "だめ",
+    "reading": "だめ",
+    "meaning": "useless, no good, hopeless",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "売り場",
+    "reading": "うりば",
+    "meaning": "sold",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "正月",
+    "reading": "しょうがつ",
+    "meaning": "New Year, New Year's Day",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "規則",
+    "reading": "きそく",
+    "meaning": "rule, regulation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "うん",
+    "reading": "うん",
+    "meaning": "yes (informal), all right (ok)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "発音",
+    "reading": "はつおん",
+    "meaning": "pronunciation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "焼く",
+    "reading": "やく",
+    "meaning": "to bake, to grill",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "屋上",
+    "reading": "おくじょう",
+    "meaning": "rooftop",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "失礼",
+    "reading": "しつれい",
+    "meaning": "discourtesy, impoliteness; Excuse me",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ごみ",
+    "reading": "ごみ",
+    "meaning": "trash, garbage",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "アフリカ",
+    "reading": "アフリカ",
+    "meaning": "Africa",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "点",
+    "reading": "てん",
+    "meaning": "mark, score, grade; point, dot",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "一生懸命",
+    "reading": "いっしょうけんめい",
+    "meaning": "very hard (as in \"\"to work hard\"\"), with utmost effort",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "今度",
+    "reading": "こんど",
+    "meaning": "now, this time, near future, one of these days, next time",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "機会",
+    "reading": "きかい",
+    "meaning": "chance, opportunity",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "建てる",
+    "reading": "たてる",
+    "meaning": "build",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "複雑",
+    "reading": "ふくざつ",
+    "meaning": "complexity, complication",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "彼",
+    "reading": "かれ",
+    "meaning": "he, boyfriend",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "いらっしゃる",
+    "reading": "いらっしゃる",
+    "meaning": "-- honorific expression for いく, くる, and いる --",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "布団",
+    "reading": "ふとん",
+    "meaning": "futon",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "大事",
+    "reading": "だいじ",
+    "meaning": "important, valuable, serious matter",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "贈り物",
+    "reading": "おくりもの",
+    "meaning": "present",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "泥棒",
+    "reading": "どろぼう",
+    "meaning": "burglar",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～製",
+    "reading": "～せい",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "注意",
+    "reading": "ちゅうい",
+    "meaning": "caution, attention",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "台風",
+    "reading": "たいふう",
+    "meaning": "typhoon",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "日",
+    "reading": "ひ",
+    "meaning": "sun, sunshine, day",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～軒",
+    "reading": "～けん",
+    "meaning": "houses",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "そう",
+    "reading": "そう",
+    "meaning": "really, (is that) so; yes, right",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "通る",
+    "reading": "とおる",
+    "meaning": "to pass (by), to go through",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "過ぎる",
+    "reading": "すぎる",
+    "meaning": "to exceed, to go beyond",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "リポート",
+    "reading": "リポート",
+    "meaning": "report",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "葉",
+    "reading": "は",
+    "meaning": "leaf",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "必要",
+    "reading": "ひつよう",
+    "meaning": "necessary",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "課長",
+    "reading": "かちょう",
+    "meaning": "manager",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "地震",
+    "reading": "じしん",
+    "meaning": "earthquake",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "すると",
+    "reading": "すると",
+    "meaning": "and, then",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "止める",
+    "reading": "やめる",
+    "meaning": "to end, to stop",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ガラス",
+    "reading": "ガラス",
+    "meaning": "glass, pane",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～学部",
+    "reading": "～がくぶ",
+    "meaning": "university",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "厳しい",
+    "reading": "きびしい",
+    "meaning": "strict",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "エスカレーター",
+    "reading": "エスカレーター",
+    "meaning": "escalator",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "人口",
+    "reading": "じんこう",
+    "meaning": "population",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "月",
+    "reading": "つき",
+    "meaning": "moon",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "絹",
+    "reading": "きぬ",
+    "meaning": "silk",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ちっとも",
+    "reading": "ちっとも",
+    "meaning": "verb)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "深い",
+    "reading": "ふかい",
+    "meaning": "deep, profound",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "壊れる",
+    "reading": "こわれる",
+    "meaning": "to be broken, to break",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "揺れる",
+    "reading": "ゆれる",
+    "meaning": "to shake, to sway",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "落る",
+    "reading": "おちる",
+    "meaning": "to fall, to drop",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "できるだけ",
+    "reading": "できるだけ",
+    "meaning": "if at all possible, as much as possible",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "悲しい",
+    "reading": "かなしい",
+    "meaning": "sad, sorrowful",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "中学校",
+    "reading": "ちゅうがっこう",
+    "meaning": "pupil",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ガス",
+    "reading": "ガス",
+    "meaning": "gas",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "祈る",
+    "reading": "いのる",
+    "meaning": "wish",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "盛ん",
+    "reading": "さかん",
+    "meaning": "prosperous, active, thriving",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "アルバイト",
+    "reading": "アルバイト",
+    "meaning": "job",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "起こす",
+    "reading": "おこす",
+    "meaning": "up",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "致す",
+    "reading": "いたす",
+    "meaning": "--",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "噛む",
+    "reading": "かむ",
+    "meaning": "to bite, to chew",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "赤ちゃん",
+    "reading": "あかちゃん",
+    "meaning": "baby, infant",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "浅い",
+    "reading": "あさい",
+    "meaning": "shallow, superficial",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "嘘",
+    "reading": "うそ",
+    "meaning": "lie",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "小説",
+    "reading": "しょうせつ",
+    "meaning": "novel",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "親",
+    "reading": "おや",
+    "meaning": "parent",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "それに",
+    "reading": "それに",
+    "meaning": "besides",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "西洋",
+    "reading": "せいよう",
+    "meaning": "the West, Western countries",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "思う",
+    "reading": "おもう",
+    "meaning": "to think, to feel",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "(タイム)",
+    "reading": "(タイム)",
+    "meaning": "employees)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "時代",
+    "reading": "じだい",
+    "meaning": "age, period, epoch, era",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "申し上げる",
+    "reading": "もうしあげる",
+    "meaning": "(humble)to say, to tell",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～式",
+    "reading": "～しき",
+    "meaning": "style",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "出席",
+    "reading": "しゅっせきする",
+    "meaning": "attendance",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～家",
+    "reading": "～か",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "迎える",
+    "reading": "むかえる",
+    "meaning": "greet",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "触る",
+    "reading": "さわる",
+    "meaning": "to touch, to feel",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "建て",
+    "reading": "～だて",
+    "meaning": "~ storied, separate housing",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "社長",
+    "reading": "しゃちょう",
+    "meaning": "company",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "動物園",
+    "reading": "どうぶつえん",
+    "meaning": "zoo",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "捕まえる",
+    "reading": "つかまえる",
+    "meaning": "to catch, to arrest",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "季節",
+    "reading": "きせつ",
+    "meaning": "weather)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "寄る",
+    "reading": "よる",
+    "meaning": "by",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "決まる",
+    "reading": "きまる",
+    "meaning": "(v.i.)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "開く",
+    "reading": "ひらく",
+    "meaning": "event)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "逃げる",
+    "reading": "にげる",
+    "meaning": "to escape, to run away",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "だから",
+    "reading": "だから",
+    "meaning": "therefore",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "残念",
+    "reading": "ざんねん",
+    "meaning": "regrettable",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "畳",
+    "reading": "たたみ",
+    "meaning": "mat)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "丁寧",
+    "reading": "ていねい",
+    "meaning": "polite, courteous, careful",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "地理",
+    "reading": "ちり",
+    "meaning": "geography",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "さっき",
+    "reading": "さっき",
+    "meaning": "ago",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "怖い",
+    "reading": "こわい",
+    "meaning": "scary, frightening",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "包む",
+    "reading": "つつむ",
+    "meaning": "to wrap, to cover",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "なるべく",
+    "reading": "なるべく",
+    "meaning": "if possible, as much as possible",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "無理",
+    "reading": "むり",
+    "meaning": "unreasonable, impossible",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "サンドイッチ",
+    "reading": "サンドイッチ",
+    "meaning": "sandwich",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "会議室",
+    "reading": "かいぎしつ",
+    "meaning": "room",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "品物",
+    "reading": "しなもの",
+    "meaning": "goods",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "人形",
+    "reading": "にんぎょう",
+    "meaning": "doll, figure",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "利用",
+    "reading": "りよう",
+    "meaning": "use, utilization",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "飾る",
+    "reading": "かざる",
+    "meaning": "to decorate, to adorn",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "止める",
+    "reading": "とめる",
+    "meaning": "(something)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "恥ずかしい",
+    "reading": "はずかしい",
+    "meaning": "ashamed, embarrassed",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "いくら～ても",
+    "reading": "いくら～ても",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "用事",
+    "reading": "ようじ",
+    "meaning": "errands",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ビル",
+    "reading": "ビル",
+    "meaning": "building",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "けんかする",
+    "reading": "けんかする",
+    "meaning": "quarrel",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "頑張る",
+    "reading": "がんばる",
+    "meaning": "to try one's best, to try hard, to persist",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "投げる",
+    "reading": "なげる",
+    "meaning": "to pitch, to cast away",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "故障",
+    "reading": "こしょうする",
+    "meaning": "breakdown",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "力",
+    "reading": "ちから",
+    "meaning": "strength, power",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "受ける",
+    "reading": "うける",
+    "meaning": "to take (an examination, interview, etc.); to receive",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "気分",
+    "reading": "きぶん",
+    "meaning": "feeling, mood",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "間違える",
+    "reading": "まちがえる",
+    "meaning": "mistake",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "そんな",
+    "reading": "そんな",
+    "meaning": "such, like that, that sort of",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "星",
+    "reading": "ほし",
+    "meaning": "star",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "場合",
+    "reading": "ばあい",
+    "meaning": "case, situation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "やっと",
+    "reading": "やっと",
+    "meaning": "at last, finally",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "足りる",
+    "reading": "たりる",
+    "meaning": "enough",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "行う",
+    "reading": "おこなう",
+    "meaning": "language)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ぶどう",
+    "reading": "ぶどう",
+    "meaning": "grapes",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "無くなる",
+    "reading": "なくなる",
+    "meaning": "to disappear, to get lost",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "準備",
+    "reading": "じゅんびする",
+    "meaning": "prepare",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "世界",
+    "reading": "せかい",
+    "meaning": "world",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "住所",
+    "reading": "じゅうしょ",
+    "meaning": "residence",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "再来月",
+    "reading": "さらいげつ",
+    "meaning": "next",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "林",
+    "reading": "はやし",
+    "meaning": "woods, forest",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "倍",
+    "reading": "ばい",
+    "meaning": "double",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "痩せる",
+    "reading": "やせる",
+    "meaning": "weight",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "線",
+    "reading": "せん",
+    "meaning": "line, wire",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "戦争",
+    "reading": "せんそう",
+    "meaning": "war",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "決める",
+    "reading": "きめる",
+    "meaning": "(v.t.)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "調べる",
+    "reading": "しらべる",
+    "meaning": "search",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "寝坊",
+    "reading": "ねぼう",
+    "meaning": "late",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "パパ",
+    "reading": "パパ",
+    "meaning": "papa, daddy",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "光る",
+    "reading": "ひかる",
+    "meaning": "to shine, to glitter",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "夫",
+    "reading": "おっと",
+    "meaning": "husband",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "雲",
+    "reading": "くも",
+    "meaning": "cloud",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "坂",
+    "reading": "さか",
+    "meaning": "slope, hill",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "しまう",
+    "reading": "しまう",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "飛行場",
+    "reading": "ひこうじょう",
+    "meaning": "airport",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "柔道",
+    "reading": "じゅうどう",
+    "meaning": "judo",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "決して",
+    "reading": "けっして",
+    "meaning": "never",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "事務所",
+    "reading": "じむしょ",
+    "meaning": "office",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "連絡",
+    "reading": "れんらく",
+    "meaning": "communication, contact, connection",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "小学校",
+    "reading": "しょうがっこう",
+    "meaning": "school",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "客",
+    "reading": "きゃく",
+    "meaning": "guest, customer",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "昔",
+    "reading": "むかし",
+    "meaning": "past",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "美しい",
+    "reading": "うつくしい",
+    "meaning": "beautiful, lovely",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "捨てる",
+    "reading": "すてる",
+    "meaning": "throw away (trash), dump, discard",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "なさる",
+    "reading": "なさる",
+    "meaning": "--",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "事",
+    "reading": "こと",
+    "meaning": "thing(s), matter(s), fact",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "どんどん",
+    "reading": "どんどん",
+    "meaning": "pace",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "試合",
+    "reading": "しあい",
+    "meaning": "match, game, competition",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "適当",
+    "reading": "てきとう",
+    "meaning": "fitness, suitability",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "素晴らしい",
+    "reading": "すばらしい",
+    "meaning": "terrific",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "美術館",
+    "reading": "びじゅつかん",
+    "meaning": "art gallery, art museum",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "文法",
+    "reading": "ぶんぽう",
+    "meaning": "grammar",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "終わり",
+    "reading": "おわり",
+    "meaning": "end",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "壁",
+    "reading": "かべ",
+    "meaning": "wall",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "一度",
+    "reading": "いちど",
+    "meaning": "once, one time",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "お礼",
+    "reading": "おれい",
+    "meaning": "bow",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "親切",
+    "reading": "しんせつ",
+    "meaning": "kindness",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "知らせる",
+    "reading": "しらせる",
+    "meaning": "notify",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "歯医者",
+    "reading": "はいしゃ",
+    "meaning": "dentist",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "熱心",
+    "reading": "ねっしん",
+    "meaning": "enthusiasm",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "始める",
+    "reading": "はじめる",
+    "meaning": "to start, to begin",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "もらう",
+    "reading": "もらう",
+    "meaning": "receive",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "泣く",
+    "reading": "なく",
+    "meaning": "cry",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "治る",
+    "reading": "なおる",
+    "meaning": "(v.i.)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "熱",
+    "reading": "ねつ",
+    "meaning": "fever, temperature",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "お祭り",
+    "reading": "おまつり",
+    "meaning": "festival",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "水道",
+    "reading": "すいどう",
+    "meaning": "water service, water line",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "匂い",
+    "reading": "におい",
+    "meaning": "odor, smell",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ベル",
+    "reading": "ベル",
+    "meaning": "bell",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "赤ん坊",
+    "reading": "あかんぼう",
+    "meaning": "baby",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "おかしい",
+    "reading": "おかしい",
+    "meaning": "funny",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "事故",
+    "reading": "じこ",
+    "meaning": "accident",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "変",
+    "reading": "へん",
+    "meaning": "strange, odd",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "辞典",
+    "reading": "じてん",
+    "meaning": "encyclopedia, reference book",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "残る",
+    "reading": "のこる",
+    "meaning": "to remain (v.i.), to be left",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "立てる",
+    "reading": "たてる",
+    "meaning": "to stand (something) up, to erect (something)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "くれる",
+    "reading": "くれる",
+    "meaning": "to give, to do for",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～員",
+    "reading": "～いん",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "原因",
+    "reading": "げんいん",
+    "meaning": "cause, origin, source",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "驚く",
+    "reading": "おどろく",
+    "meaning": "to be surprised, to be astonished",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "いただく",
+    "reading": "頂く",
+    "meaning": "--",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "祖母",
+    "reading": "そぼ",
+    "meaning": "grandmother",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "場所",
+    "reading": "ばしょ",
+    "meaning": "place, location",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "答",
+    "reading": "こたえ",
+    "meaning": "answer, response",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "もちろん",
+    "reading": "もちろん",
+    "meaning": "certainly, of course",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "漬ける",
+    "reading": "つける",
+    "meaning": "to soak, to moisten, to pickle",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "受付",
+    "reading": "うけつけ",
+    "meaning": "desk",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "内",
+    "reading": "うち",
+    "meaning": "within, inside",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "スクリーン",
+    "reading": "スクリーン",
+    "meaning": "screen",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "増える",
+    "reading": "ふえる",
+    "meaning": "to increase, to multiply",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "または",
+    "reading": "または",
+    "meaning": "or, otherwise",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "けがする",
+    "reading": "けがする",
+    "meaning": "injury (to animate object), hurt",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "以下",
+    "reading": "いか",
+    "meaning": "less than, below",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "選ぶ",
+    "reading": "えらぶ",
+    "meaning": "select",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～ばかり",
+    "reading": "～ばかり",
+    "meaning": "just did ~, only",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "心",
+    "reading": "こころ",
+    "meaning": "heart, mind",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～だす",
+    "reading": "～だす",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "サラダ",
+    "reading": "サラダ",
+    "meaning": "salad",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "届ける",
+    "reading": "とどける",
+    "meaning": "(v.t.)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "挨拶",
+    "reading": "あいさつする",
+    "meaning": "greet(ing)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "景色",
+    "reading": "けしき",
+    "meaning": "scenery, landscape",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "確か",
+    "reading": "たしか",
+    "meaning": "if I remember correctly; certain, definite",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ステーキ",
+    "reading": "ステーキ",
+    "meaning": "steak",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "食料品",
+    "reading": "しょくりょうひん",
+    "meaning": "foodstuff, groceries",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "森",
+    "reading": "もり",
+    "meaning": "forest",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "以内",
+    "reading": "いない",
+    "meaning": "within, less (no more) than",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "予定",
+    "reading": "よてい",
+    "meaning": "plans, arrangement, schedule",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "オーバー",
+    "reading": "オーバー",
+    "meaning": "overcoat; over, exceeding, exaggeration",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "乾く",
+    "reading": "かわく",
+    "meaning": "dry",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "石",
+    "reading": "いし",
+    "meaning": "stone",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "思い出す",
+    "reading": "おもいだす",
+    "meaning": "to recall, to remember",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "踊る",
+    "reading": "おどる",
+    "meaning": "dance",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "細かい",
+    "reading": "こまかい",
+    "meaning": "small; fine, minute",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "塗る",
+    "reading": "ぬる",
+    "meaning": "to paint, to plaster",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ご主人",
+    "reading": "ごしゅじん",
+    "meaning": "(your, her) husband",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "珍しい",
+    "reading": "めずらしい",
+    "meaning": "unusual, rare",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "用",
+    "reading": "よう",
+    "meaning": "errand, task, business (to take care of)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "公務員",
+    "reading": "こうむいん",
+    "meaning": "government worker, public servant",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "お嬢さん",
+    "reading": "おじょうさん",
+    "meaning": "(polite)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "用意",
+    "reading": "ようい",
+    "meaning": "preparation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "探す",
+    "reading": "さがす",
+    "meaning": "to search, to seek, to look for",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "形",
+    "reading": "かたち",
+    "meaning": "shape",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "運転",
+    "reading": "うんてんする",
+    "meaning": "driving",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "すっかり",
+    "reading": "すっかり",
+    "meaning": "all, completely",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "アナウンサー",
+    "reading": "アナウンサー",
+    "meaning": "announcer",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "お土産",
+    "reading": "おみやげ",
+    "meaning": "souvenir",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "消しゴム",
+    "reading": "けしゴム",
+    "meaning": "eraser",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "旅館",
+    "reading": "りょかん",
+    "meaning": "inn",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "海岸",
+    "reading": "かいがん",
+    "meaning": "coast, seashore",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "寂しい",
+    "reading": "さびしい",
+    "meaning": "lonely, lonesome",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "火",
+    "reading": "ひ",
+    "meaning": "fire",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "育てる",
+    "reading": "そだてる",
+    "meaning": "up",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "味噌",
+    "reading": "みそ",
+    "meaning": "miso, bean paste",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "お祝い",
+    "reading": "おいわい",
+    "meaning": "congratulation, celebration",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "乗り物",
+    "reading": "のりもの",
+    "meaning": "vehicle",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "案内",
+    "reading": "あんないする",
+    "meaning": "information, guidance",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "通う",
+    "reading": "かよう",
+    "meaning": "commute",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "連れる",
+    "reading": "つれる",
+    "meaning": "to lead, to take (a person)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "技術",
+    "reading": "ぎじゅつ",
+    "meaning": "technique, technology, skill",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "小鳥",
+    "reading": "ことり",
+    "meaning": "bird",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "下宿",
+    "reading": "げしゅく",
+    "meaning": "lodging, boarding house",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ジャム",
+    "reading": "ジャム",
+    "meaning": "jam",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "招待",
+    "reading": "しょうたいする",
+    "meaning": "invitation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "鏡",
+    "reading": "かがみ",
+    "meaning": "mirror",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "はず",
+    "reading": "はず",
+    "meaning": "so",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "法律",
+    "reading": "ほうりつ",
+    "meaning": "law",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "進む",
+    "reading": "すすむ",
+    "meaning": "to advance, to proceed",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "楽む",
+    "reading": "たのしむ",
+    "meaning": "enjoy",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "貿易",
+    "reading": "ぼうえき",
+    "meaning": "trade",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "反対",
+    "reading": "はんたい",
+    "meaning": "oppose, opposition, resistance",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "おる",
+    "reading": "おる",
+    "meaning": "--",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "申す",
+    "reading": "もうす",
+    "meaning": "--",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "試験",
+    "reading": "しけん",
+    "meaning": "exam",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "真面目",
+    "reading": "まじめ",
+    "meaning": "diligent, serious",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ごらんになる",
+    "reading": "--",
+    "meaning": "JLPT_N4",
+    "tags": [
+      "k(j]!OR1gM"
+    ]
+  },
+  {
+    "kanji": "店員",
+    "reading": "てんいん",
+    "meaning": "shop-employee",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "泊まる",
+    "reading": "とまる",
+    "meaning": "(v.i.)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "よろしい",
+    "reading": "よろしい",
+    "meaning": "(hon.) good, OK, all right",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "今夜",
+    "reading": "こんや",
+    "meaning": "this evening, tonight",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "おつり",
+    "reading": "おつり",
+    "meaning": "purchaser",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "チェックする",
+    "reading": "チェックする",
+    "meaning": "check",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "会話",
+    "reading": "かいわ",
+    "meaning": "conversation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "空気",
+    "reading": "くうき",
+    "meaning": "air, atmosphere",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "交通",
+    "reading": "こうつう",
+    "meaning": "traffic, transportation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ワープロ",
+    "reading": "ワープロ",
+    "meaning": "processor",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "喜ぶ",
+    "reading": "よろこぶ",
+    "meaning": "to rejoice, to be delighted, to be glad",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "急行",
+    "reading": "きゅうこう",
+    "meaning": "bus",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "皆",
+    "reading": "みな",
+    "meaning": "everyone",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "味",
+    "reading": "あじ",
+    "meaning": "flavor, taste",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "空港",
+    "reading": "くうこう",
+    "meaning": "airport",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "手袋",
+    "reading": "てぶくろ",
+    "meaning": "glove(s)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "校長",
+    "reading": "こうちょう",
+    "meaning": "principal, headmaster",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ごちそう",
+    "reading": "ごちそう",
+    "meaning": "feast, treating (someone)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "踊り",
+    "reading": "おどり",
+    "meaning": "dance",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "興味",
+    "reading": "きょうみ",
+    "meaning": "something)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "引っ越す",
+    "reading": "ひっこす",
+    "meaning": "residence",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "冷房",
+    "reading": "れいぼう",
+    "meaning": "cooling, air conditioning",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "都合",
+    "reading": "つごう",
+    "meaning": "circumstances, convenience",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "遠慮",
+    "reading": "えんりょする",
+    "meaning": "restraint, reserve, hesitate",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "亡くなる",
+    "reading": "なくなる",
+    "meaning": "away",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "科学",
+    "reading": "かがく",
+    "meaning": "science",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "はっきり",
+    "reading": "はっきり",
+    "meaning": "clearly, distinctly",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "差し上げる",
+    "reading": "さしあげる",
+    "meaning": "--",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "気持ち",
+    "reading": "きもち",
+    "meaning": "feeling, sensation, mood",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "祖父",
+    "reading": "そふ",
+    "meaning": "grandfather",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "港",
+    "reading": "みなと",
+    "meaning": "harbor, port",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "予約",
+    "reading": "よやく",
+    "meaning": "reservation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "凄い",
+    "reading": "すごい",
+    "meaning": "terrific, great",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "入学",
+    "reading": "にゅうがくする",
+    "meaning": "university",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "片付ける",
+    "reading": "かたづける",
+    "meaning": "to (clean) tidy up (v.t.), to put away",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "写す",
+    "reading": "うつす",
+    "meaning": "photograph",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "パソコン",
+    "reading": "パソコン",
+    "meaning": "computer",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "部長",
+    "reading": "ぶちょう",
+    "meaning": "manager",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "火事",
+    "reading": "かじ",
+    "meaning": "fire",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "足す",
+    "reading": "たす",
+    "meaning": "(numbers)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "教会",
+    "reading": "きょうかい",
+    "meaning": "church",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "彼ら",
+    "reading": "かれら",
+    "meaning": "male)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "一杯",
+    "reading": "いっぱい",
+    "meaning": "full, to the utmost",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "アメリカ",
+    "reading": "アメリカ",
+    "meaning": "America, U.S.A.",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "男性",
+    "reading": "だんせい",
+    "meaning": "male",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "理由",
+    "reading": "りゆう",
+    "meaning": "reason",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "生産",
+    "reading": "せいさんする",
+    "meaning": "produce",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "着物",
+    "reading": "きもの",
+    "meaning": "dress",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "おもちゃ",
+    "reading": "おもちゃ",
+    "meaning": "toy",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "暮れる",
+    "reading": "くれる",
+    "meaning": "to get dark, to come to an end",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "釣る",
+    "reading": "つる",
+    "meaning": "fish",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～ちゃん",
+    "reading": "～ちゃん",
+    "meaning": "person",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "打つ",
+    "reading": "うつ",
+    "meaning": "to hit, to strike",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "あんな",
+    "reading": "あんな",
+    "meaning": "such, like that",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "謝る",
+    "reading": "あやまる",
+    "meaning": "apologize",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "昼間",
+    "reading": "ひるま",
+    "meaning": "daytime, during the day",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "教育",
+    "reading": "きょういく",
+    "meaning": "education",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "女性",
+    "reading": "じょせい",
+    "meaning": "woman",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "米",
+    "reading": "こめ",
+    "meaning": "rice",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "邪魔",
+    "reading": "じゃま",
+    "meaning": "hindrance, intrusion",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "国際",
+    "reading": "こくさい",
+    "meaning": "international",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "隅",
+    "reading": "すみ",
+    "meaning": "corner",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "伺う",
+    "reading": "うかがう",
+    "meaning": "humble form of 行く (いく), 聞く (きく) and 来る (くる)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "再来週",
+    "reading": "さらいしゅう",
+    "meaning": "next",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "夢",
+    "reading": "ゆめ",
+    "meaning": "dream",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "喉",
+    "reading": "のど",
+    "meaning": "throat",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "最近",
+    "reading": "さいきん",
+    "meaning": "recently, nowadays, in recent years, most recent, latest",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "周り",
+    "reading": "まわり",
+    "meaning": "surroundings",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "歴史",
+    "reading": "れきし",
+    "meaning": "history",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "不便",
+    "reading": "ふべん",
+    "meaning": "inconvenience",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "血",
+    "reading": "ち",
+    "meaning": "blood",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～続ける",
+    "reading": "～つづける",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "毛",
+    "reading": "け",
+    "meaning": "hair, fur",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ひどい",
+    "reading": "ひどい",
+    "meaning": "terrible, awful, unfair, cruel",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "例えば",
+    "reading": "たとえば",
+    "meaning": "for example, e.g.",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "中々",
+    "reading": "なかなか",
+    "meaning": "very, considerably, quite",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "随分",
+    "reading": "ずいぶん",
+    "meaning": "extremely",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～やすい",
+    "reading": "～やすい",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "押し入れ",
+    "reading": "おしいれ",
+    "meaning": "closet",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "電灯",
+    "reading": "でんとう",
+    "meaning": "light",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "叱る",
+    "reading": "しかる",
+    "meaning": "scold",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "サンダル",
+    "reading": "サンダル",
+    "meaning": "sandal",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "びっくりする",
+    "reading": "びっくりする",
+    "meaning": "surprised",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "うまい",
+    "reading": "うまい",
+    "meaning": "fortunate",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "変える",
+    "reading": "かえる",
+    "meaning": "to change, to alter, to vary",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "講堂",
+    "reading": "こうどう",
+    "meaning": "auditorium",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "子",
+    "reading": "こ",
+    "meaning": "child",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "沸かす",
+    "reading": "わかす",
+    "meaning": "boil",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "レジ",
+    "reading": "レジ",
+    "meaning": "register",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "しばらく",
+    "reading": "しばらく",
+    "meaning": "while",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "特に",
+    "reading": "とくに",
+    "meaning": "particularly",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "空く",
+    "reading": "あく",
+    "meaning": "to open, to become empty (vacant)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "計画",
+    "reading": "けいかくする",
+    "meaning": "plan, project, schedule",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "通り",
+    "reading": "とおり",
+    "meaning": "~ Street, ~ Avenue",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "下着",
+    "reading": "したぎ",
+    "meaning": "underwear",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "経済",
+    "reading": "けいざい",
+    "meaning": "economics, finance, economy",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "こう",
+    "reading": "こう",
+    "meaning": "like this, this way",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "是非",
+    "reading": "ぜひ",
+    "meaning": "certainly, by all means; without fail",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "裏",
+    "reading": "うら",
+    "meaning": "reverse side, back",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "為",
+    "reading": "ため",
+    "meaning": "good, advantage, in order to",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "おいでになる",
+    "reading": "おいでになる",
+    "meaning": "be",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "変わる",
+    "reading": "かわる",
+    "meaning": "to change (v.i.), to be transformed, to vary",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "以外",
+    "reading": "いがい",
+    "meaning": "other than, with the exception of, excepting",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "済む",
+    "reading": "すむ",
+    "meaning": "to finish, to end",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ハンバーグ",
+    "reading": "ハンバーグ",
+    "meaning": "steak",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "市",
+    "reading": "し",
+    "meaning": "city",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "引き出し",
+    "reading": "ひきだし",
+    "meaning": "drawer",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "遊び",
+    "reading": "あそび",
+    "meaning": "play",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "支度",
+    "reading": "したくする",
+    "meaning": "preparation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～始める",
+    "reading": "～はじめる",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "見える",
+    "reading": "みえる",
+    "meaning": "--",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "十分",
+    "reading": "じゅうぶん",
+    "meaning": "enough",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "音",
+    "reading": "おと",
+    "meaning": "sound, note",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "きっと",
+    "reading": "きっと",
+    "meaning": "surely, definitely, undoubtedly, certainly",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "まず",
+    "reading": "まず",
+    "meaning": "first (of all), to start with",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "遠く",
+    "reading": "とおく",
+    "meaning": "far away, distant",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "大体",
+    "reading": "だいたい",
+    "meaning": "もともと)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "折れる",
+    "reading": "おれる",
+    "meaning": "to break, to be folded, to give in; to turn (a corner)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "正しい",
+    "reading": "ただしい",
+    "meaning": "correct",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "輸入",
+    "reading": "ゆにゅう",
+    "meaning": "import",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "返事",
+    "reading": "へんじ",
+    "meaning": "reply, answer",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "都",
+    "reading": "と",
+    "meaning": "metropolitan",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "産業",
+    "reading": "さんぎょう",
+    "meaning": "industry",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "伝える",
+    "reading": "つたえる",
+    "meaning": "to convey (a message); to tell, to report",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "お金持ち",
+    "reading": "おかねもち",
+    "meaning": "person",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "説明",
+    "reading": "せつめい",
+    "meaning": "explanation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "島",
+    "reading": "しま",
+    "meaning": "island",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "道具",
+    "reading": "どうぐ",
+    "meaning": "tool",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "滑る",
+    "reading": "すべる",
+    "meaning": "to slide, to slip",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "それほど",
+    "reading": "それほど",
+    "meaning": "extent",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "以上",
+    "reading": "いじょう",
+    "meaning": "all",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～まま",
+    "reading": "～まま",
+    "meaning": "is",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "特急",
+    "reading": "とっきゅう",
+    "meaning": "express)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "プレゼント",
+    "reading": "プレゼント",
+    "meaning": "present, gift",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "よると",
+    "reading": "よると",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "妻",
+    "reading": "つま",
+    "meaning": "(humble)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "帰り",
+    "reading": "かえり",
+    "meaning": "return, coming back",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "具合",
+    "reading": "ぐあい",
+    "meaning": "condition, state, health",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "固い",
+    "reading": "かたい",
+    "meaning": "solid, hard, firm",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "駐車場",
+    "reading": "ちゅうしゃじょう",
+    "meaning": "lot",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "スーツ",
+    "reading": "スーツ",
+    "meaning": "suit",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "危険",
+    "reading": "きけん",
+    "meaning": "danger, risk, hazard",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "髪",
+    "reading": "かみ",
+    "meaning": "hair",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "天気予報",
+    "reading": "てんきよほう",
+    "meaning": "forecast",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "彼女",
+    "reading": "かのじょ",
+    "meaning": "she",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "間",
+    "reading": "あいだ",
+    "meaning": "space, interval",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "卒業",
+    "reading": "そつぎょう",
+    "meaning": "graduation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "それで",
+    "reading": "それで",
+    "meaning": "and (conj.), thereupon, because of that",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "枝",
+    "reading": "えだ",
+    "meaning": "branch, twig",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "専門",
+    "reading": "せんもん",
+    "meaning": "speciality",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "そろそろ",
+    "reading": "そろそろ",
+    "meaning": "gradually, soon",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "送る",
+    "reading": "おくる",
+    "meaning": "to send, to dispatch",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "あげる",
+    "reading": "あげる",
+    "meaning": "give",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "騒ぐ",
+    "reading": "さわぐ",
+    "meaning": "to make noise, to clamor",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "尋ねる",
+    "reading": "たずねる",
+    "meaning": "質問する)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "放送",
+    "reading": "ほうそうする",
+    "meaning": "broadcasting",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "政治",
+    "reading": "せいじ",
+    "meaning": "politics",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "市民",
+    "reading": "しみん",
+    "meaning": "citizen",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ファックス",
+    "reading": "ファックス",
+    "meaning": "fax",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "負ける",
+    "reading": "まける",
+    "meaning": "to lose (a game) (v.i.), to be defeated",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "指輪",
+    "reading": "ゆびわ",
+    "meaning": "ring",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "田舎",
+    "reading": "いなか",
+    "meaning": "rural, countryside",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "見つける",
+    "reading": "みつける",
+    "meaning": "to discover, to find (v.t.)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "高校生",
+    "reading": "こうこうせい",
+    "meaning": "student",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "講義",
+    "reading": "こうぎ",
+    "meaning": "lecture",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "そんなに",
+    "reading": "そんなに",
+    "meaning": "so much, like that",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "昼休み",
+    "reading": "ひるやすみ",
+    "meaning": "lunch break, noon recess",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "忘れ物",
+    "reading": "わすれもの",
+    "meaning": "lost article, something forgotten",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "下りる",
+    "reading": "おりる",
+    "meaning": "to get down, to go; come down",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "腕",
+    "reading": "うで",
+    "meaning": "body)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "訳",
+    "reading": "わけ",
+    "meaning": "explanation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "承知",
+    "reading": "しょうちする",
+    "meaning": "consent, acceptance",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "日記",
+    "reading": "にっき",
+    "meaning": "diary, journal",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "高等学校",
+    "reading": "こうとうがっこう",
+    "meaning": "school",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "似る",
+    "reading": "にる",
+    "meaning": "to resemble, to be similar",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～おわる",
+    "reading": "～おわる",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "暖房",
+    "reading": "だんぼう",
+    "meaning": "heating",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "留守",
+    "reading": "るす",
+    "meaning": "home",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "割合",
+    "reading": "わりあい",
+    "meaning": "rate, ratio, percentage",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "寺",
+    "reading": "てら",
+    "meaning": "temple",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "慣れる",
+    "reading": "なれる",
+    "meaning": "to",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "普通",
+    "reading": "ふつう",
+    "meaning": "usual",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "手伝う",
+    "reading": "てつだう",
+    "meaning": "help",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "なるほど",
+    "reading": "なるほど",
+    "meaning": "understand",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "くださる",
+    "reading": "くださる",
+    "meaning": "(hon.) to give, to confer",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "息子",
+    "reading": "むすこ",
+    "meaning": "son",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "お子さん",
+    "reading": "おこさん",
+    "meaning": "(polite)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "会場",
+    "reading": "かいじょう",
+    "meaning": "venue, meeting place",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "笑う",
+    "reading": "わらう",
+    "meaning": "to laugh, to smile",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "運ぶ",
+    "reading": "はこぶ",
+    "meaning": "to transport, to carry",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "文学",
+    "reading": "ぶんがく",
+    "meaning": "literature",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "光",
+    "reading": "ひかり",
+    "meaning": "light",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "お見舞い",
+    "reading": "おみまい",
+    "meaning": "calling on someone who is ill, visit",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "席",
+    "reading": "せき",
+    "meaning": "seat",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～様",
+    "reading": "～さま",
+    "meaning": "Mr., Mrs., Ms.",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ご存じ",
+    "reading": "ごぞんじ",
+    "meaning": "knowing, acquaintance",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "下る",
+    "reading": "さがる",
+    "meaning": "to descend, to drop, to fall",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "字",
+    "reading": "じ",
+    "meaning": "character",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "アジア",
+    "reading": "アジア",
+    "meaning": "Asia",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "褒める",
+    "reading": "ほめる",
+    "meaning": "things",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "空く",
+    "reading": "すく",
+    "meaning": "to be empty (in reference to people), to be less crowded",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "あ",
+    "reading": "あ",
+    "meaning": "Ah",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "最も",
+    "reading": "もっとも",
+    "meaning": "most",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "合う",
+    "reading": "あう",
+    "meaning": "to fit, to match",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～代",
+    "reading": "～だい",
+    "meaning": "period",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "最後",
+    "reading": "さいご",
+    "meaning": "last, end",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "値段",
+    "reading": "ねだん",
+    "meaning": "price",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "退院",
+    "reading": "たいいんする",
+    "meaning": "hospital",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "展覧会",
+    "reading": "てんらんかい",
+    "meaning": "exhibition",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "久しぶり",
+    "reading": "ひさしぶり",
+    "meaning": "time",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "カーテン",
+    "reading": "カーテン",
+    "meaning": "curtain",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "汽車",
+    "reading": "きしゃ",
+    "meaning": "(steam)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "遅れる",
+    "reading": "おくれる",
+    "meaning": "late",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "見つかる",
+    "reading": "みつかる",
+    "meaning": "to be found (v.i.), to be discovered",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "召し上がる",
+    "reading": "めしあがる",
+    "meaning": "--",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "太る",
+    "reading": "ふとる",
+    "meaning": "weight",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "注射",
+    "reading": "ちゅうしゃ",
+    "meaning": "injection",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "様",
+    "reading": "よう",
+    "meaning": "way, manner, kind",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～おき",
+    "reading": "～おき",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "最初",
+    "reading": "さいしょ",
+    "meaning": "beginning, first",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "御～",
+    "reading": "ご～",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "安心",
+    "reading": "あんしん",
+    "meaning": "peace of mind, relief",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "直る",
+    "reading": "なおる",
+    "meaning": "fixed",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "集める",
+    "reading": "あつめる",
+    "meaning": "to collect, to gather (v.t.), to assemble",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "直す",
+    "reading": "なおす",
+    "meaning": "fix",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "続く",
+    "reading": "つづく",
+    "meaning": "continued",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "先輩",
+    "reading": "せんぱい",
+    "meaning": "group",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "約束",
+    "reading": "やくそく",
+    "meaning": "arrangement, appointment, promise",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "世話",
+    "reading": "せわする",
+    "meaning": "after",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "近所",
+    "reading": "きんじょ",
+    "meaning": "neighborhood",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "将来",
+    "reading": "しょうらい",
+    "meaning": "prospects",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "億",
+    "reading": "おく",
+    "meaning": "million",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "数学",
+    "reading": "すうがく",
+    "meaning": "mathematics",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "文化",
+    "reading": "ぶんか",
+    "meaning": "culture",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "払う",
+    "reading": "はらう",
+    "meaning": "pay",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "習慣",
+    "reading": "しゅうかん",
+    "meaning": "culture)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "焼ける",
+    "reading": "やける",
+    "meaning": "to burn, to be roasted",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "君",
+    "reading": "きみ",
+    "meaning": "men)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "冷える",
+    "reading": "ひえる",
+    "meaning": "to grow cold, to cool down",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "点く",
+    "reading": "つく",
+    "meaning": "to be started, to be switched on",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "この間",
+    "reading": "このあいだ",
+    "meaning": "the other day, recently",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "格好",
+    "reading": "かっこう",
+    "meaning": "appearance, manner, shape, form, posture",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "かまう",
+    "reading": "to mind, to care about, to be concerned about",
+    "meaning": "JLPT_N4",
+    "tags": [
+      "l%US3Ov|)s"
+    ]
+  },
+  {
+    "kanji": "続ける",
+    "reading": "つづける",
+    "meaning": "to continue, to keep up",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "落す",
+    "reading": "おとす",
+    "meaning": "to drop, to lose",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "明日",
+    "reading": "あす",
+    "meaning": "tomorrow",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "出発",
+    "reading": "しゅっぱつする",
+    "meaning": "departure",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "拝見",
+    "reading": "はいけんする",
+    "meaning": "(humble) (polite) seeing, look at",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "割れる",
+    "reading": "われる",
+    "meaning": "break",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "背中",
+    "reading": "せなか",
+    "meaning": "body)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "新聞社",
+    "reading": "しんぶんしゃ",
+    "meaning": "company",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "いじめる",
+    "reading": "いじめる",
+    "meaning": "to bully, to torment",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "回る、回す",
+    "reading": "まわる、まわす",
+    "meaning": "to go around, to revolve",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～君",
+    "reading": "～くん",
+    "meaning": "Mr. (junior) ~, master ~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "おっしゃる",
+    "reading": "おっしゃる",
+    "meaning": "--",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "眠い",
+    "reading": "ねむい",
+    "meaning": "sleepy, drowsy",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "濡れる",
+    "reading": "ぬれる",
+    "meaning": "wet",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "倒れる",
+    "reading": "たおれる",
+    "meaning": "to collapse, to break down",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "(マーケット)",
+    "reading": "(マーケット)",
+    "meaning": "supermarket",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "アクセサリー",
+    "reading": "アクセサリー",
+    "meaning": "accessory",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "考える",
+    "reading": "かんがえる",
+    "meaning": "consider",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "向かう",
+    "reading": "むかう",
+    "meaning": "to face, to go towards",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "自由",
+    "reading": "じゆう",
+    "meaning": "freedom",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "仕方",
+    "reading": "しかた",
+    "meaning": "something)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "首",
+    "reading": "くび",
+    "meaning": "neck",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "程",
+    "reading": "ほど",
+    "meaning": "degree, extent",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "代わり",
+    "reading": "かわり",
+    "meaning": "substitute, replacement",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "失敗",
+    "reading": "しっぱい",
+    "meaning": "failure, mistake",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "工業",
+    "reading": "こうぎょう",
+    "meaning": "industry",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "移る",
+    "reading": "うつる",
+    "meaning": "shift",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "スーツケース",
+    "reading": "スーツケース",
+    "meaning": "suitcase",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ひげ",
+    "reading": "ひげ",
+    "meaning": "beard",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "研究室",
+    "reading": "けんきゅうしつ",
+    "meaning": "laboratory",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "工場",
+    "reading": "こうじょう",
+    "meaning": "factory",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "紹介",
+    "reading": "しょうかい",
+    "meaning": "introduction",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "けれども",
+    "reading": "けれども",
+    "meaning": "but, although",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "舟",
+    "reading": "ふね",
+    "meaning": "ship, boat",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "動く",
+    "reading": "うごく",
+    "meaning": "move",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ついて",
+    "reading": "ついて",
+    "meaning": "about, concerning",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "コンサート",
+    "reading": "コンサート",
+    "meaning": "concert",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "虫",
+    "reading": "むし",
+    "meaning": "insect",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "優しい",
+    "reading": "やさしい",
+    "meaning": "kind (person), gentle (person), easy (problem)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "コンピューター",
+    "reading": "コンピューター",
+    "meaning": "computer",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "植える",
+    "reading": "うえる",
+    "meaning": "plant",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "両方",
+    "reading": "りょうほう",
+    "meaning": "both sides, both parties",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "汚れる",
+    "reading": "よごれる",
+    "meaning": "dirty",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "水泳",
+    "reading": "すいえい",
+    "meaning": "swimming",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "経験",
+    "reading": "けいけんする",
+    "meaning": "experience",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "勝つ",
+    "reading": "かつ",
+    "meaning": "win",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "砂",
+    "reading": "すな",
+    "meaning": "sand",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "警察",
+    "reading": "けいさつ",
+    "meaning": "station",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "取り替える",
+    "reading": "とりかえる",
+    "meaning": "to exchange, to replace",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "急ぐ",
+    "reading": "いそぐ",
+    "meaning": "to hurry, to be in a hurry, to rush",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "簡単",
+    "reading": "かんたん",
+    "meaning": "simple",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "参る",
+    "reading": "まいる",
+    "meaning": "来る",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "全然",
+    "reading": "ぜんぜん",
+    "meaning": "not at all; wholly, entirely",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "特別",
+    "reading": "とくべつ",
+    "meaning": "special",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "復習",
+    "reading": "ふくしゅう",
+    "meaning": "review (of lessons), revision",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "間に合う",
+    "reading": "まにあう",
+    "meaning": "for",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "役に立つ",
+    "reading": "やくにたつ",
+    "meaning": "to be helpful, to be useful",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "もうすぐ",
+    "reading": "もうすぐ",
+    "meaning": "days",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "真中",
+    "reading": "まんなか",
+    "meaning": "middle, center",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "戻る",
+    "reading": "もどる",
+    "meaning": "back",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "研究",
+    "reading": "けんきゅう",
+    "meaning": "study, research, investigation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ケーキ",
+    "reading": "ケーキ",
+    "meaning": "cake",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "草",
+    "reading": "くさ",
+    "meaning": "grass",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "込む",
+    "reading": "こむ",
+    "meaning": "crowded",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "この頃",
+    "reading": "このごろ",
+    "meaning": "these days, nowadays",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "訪ねる",
+    "reading": "たずねる",
+    "meaning": "visit",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "下げる",
+    "reading": "さげる",
+    "meaning": "hang",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "花見",
+    "reading": "はなみ",
+    "meaning": "viewing",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "途中",
+    "reading": "とちゅう",
+    "meaning": "on the way, midway",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "入院",
+    "reading": "にゅういんする",
+    "meaning": "hospitalization",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "乗り換える",
+    "reading": "のりかえる",
+    "meaning": "to transfer (trains), to change (bus, train, etc.)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "別れる",
+    "reading": "わかれる",
+    "meaning": "to part from, to separate",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～町",
+    "reading": "～ちょう",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "安全",
+    "reading": "あんぜん",
+    "meaning": "safety, security",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "看護婦",
+    "reading": "かんごふ",
+    "meaning": "nurse",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "見物",
+    "reading": "けんぶつ",
+    "meaning": "sightseeing",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "相談",
+    "reading": "そうだんする",
+    "meaning": "consultation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ガソリンスタンド",
+    "reading": "ガソリンスタンド",
+    "meaning": "gas station, service station",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "テニス",
+    "reading": "テニス",
+    "meaning": "tennis",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "眠る",
+    "reading": "ねむる",
+    "meaning": "sleep",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "上がる",
+    "reading": "あがる",
+    "meaning": "to rise, to go up",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "翻訳",
+    "reading": "ほんやく",
+    "meaning": "translation",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "食事",
+    "reading": "しょくじする",
+    "meaning": "meal",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "お陰",
+    "reading": "おかげ",
+    "meaning": "to",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "娘",
+    "reading": "むすめ",
+    "meaning": "(humble)",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "湯",
+    "reading": "ゆ",
+    "meaning": "water",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "競争",
+    "reading": "きょうそう",
+    "meaning": "competition, contest",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "会議",
+    "reading": "かいぎ",
+    "meaning": "conference",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "湖",
+    "reading": "みずうみ",
+    "meaning": "lake",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "集まる",
+    "reading": "あつまる",
+    "meaning": "to gather (v.i.), to collect",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～にくい",
+    "reading": "～にくい",
+    "meaning": "~",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "生活",
+    "reading": "せいかつする",
+    "meaning": "living, life; to live",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "糸",
+    "reading": "いと",
+    "meaning": "thread",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "関係",
+    "reading": "かんけい",
+    "meaning": "relation(ship), connection",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ピアノ",
+    "reading": "ピアノ",
+    "meaning": "piano",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "～目",
+    "reading": "～め",
+    "meaning": "number ~ sequence, ~nd; ~th",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "番組",
+    "reading": "ばんぐみ",
+    "meaning": "program",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "急",
+    "reading": "きゅう",
+    "meaning": "urgent, sudden; steep",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "棚",
+    "reading": "たな",
+    "meaning": "shelves, rack",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "木綿",
+    "reading": "もめん",
+    "meaning": "cotton",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "輸出",
+    "reading": "ゆしゅつする",
+    "meaning": "export",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "タイプ",
+    "reading": "タイプ",
+    "meaning": "type, style",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "すり",
+    "reading": "すり",
+    "meaning": "pickpocket",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "嬉しい",
+    "reading": "うれしい",
+    "meaning": "glad",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "アルコール",
+    "reading": "アルコール",
+    "meaning": "alcohol",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "ソフト",
+    "reading": "ソフト",
+    "meaning": "software",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "神社",
+    "reading": "じんじゃ",
+    "meaning": "shrine",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "大分",
+    "reading": "だいぶ",
+    "meaning": "fairly well, to a large extent, considerably, pretty much",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "楽しみ",
+    "reading": "たのしみ",
+    "meaning": "pleasure, joy",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "趣味",
+    "reading": "しゅみ",
+    "meaning": "pastime",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "電報",
+    "reading": "でんぽう",
+    "meaning": "telegram",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "家内",
+    "reading": "かない",
+    "meaning": "wife",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "指",
+    "reading": "ゆび",
+    "meaning": "finger",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "これから",
+    "reading": "これから",
+    "meaning": "from now on, after this",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "たまに",
+    "reading": "たまに",
+    "meaning": "occasionally",
+    "tags": [
+      "JLPT_N4"
+    ]
+  },
+  {
+    "kanji": "社会",
+    "reading": "しゃかい",
+    "meaning": "society",
+    "tags": [
+      "JLPT_N4"
+    ]
+  }
+]

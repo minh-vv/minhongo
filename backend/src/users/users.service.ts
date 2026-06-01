@@ -1,7 +1,12 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
+import {
+  Injectable,
+  NotFoundException,
+  BadRequestException,
+  UnauthorizedException,
+} from '@nestjs/common';
 import { PrismaService } from 'src/prisma/prisma.service';
-import { join, extname } from 'path';
-import * as fs from 'fs';
+import { S3Service } from 'src/s3/s3.service';
+import * as bcrypt from 'bcrypt';
 
 export interface UpdateProfileInput {
   name?: string;
@@ -10,7 +15,10 @@ export interface UpdateProfileInput {
 
 @Injectable()
 export class UsersService {
-  constructor(private prisma: PrismaService) {}
+  constructor(
+    private prisma: PrismaService,
+    private s3: S3Service,
+  ) {}
 
   /** Lấy thông tin profile của user hiện tại (không bao gồm mật khẩu) */
   async getProfile(userId: string) {
@@ -38,7 +46,9 @@ export class UsersService {
       where: { id: userId },
       data: {
         ...(dto.name !== undefined && { name: dto.name }),
-        ...(dto.learningGoal !== undefined && { learningGoal: dto.learningGoal }),
+        ...(dto.learningGoal !== undefined && {
+          learningGoal: dto.learningGoal,
+        }),
       },
       select: {
         id: true,
@@ -54,29 +64,28 @@ export class UsersService {
   }
 
   /**
-   * Lưu file avatar đã upload và cập nhật avatarUrl trong DB.
-   * Xóa avatar cũ nếu tồn tại.
+   * Upload avatar lên S3, xóa ảnh cũ trên S3 nếu có.
    */
-  async updateAvatar(userId: string, filename: string, serverUrl: string) {
-    // Xóa avatar cũ nếu có
+  async updateAvatar(
+    userId: string,
+    buffer: Buffer,
+    mimetype: string,
+    ext: string,
+  ) {
+    // Xóa avatar cũ trên S3 nếu có
     const existing = await this.prisma.user.findUnique({
       where: { id: userId },
       select: { avatarUrl: true },
     });
 
     if (existing?.avatarUrl) {
-      try {
-        const oldFilename = existing.avatarUrl.split('/uploads/avatars/').pop();
-        if (oldFilename) {
-          const oldPath = join(process.cwd(), 'uploads', 'avatars', oldFilename);
-          if (fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
-        }
-      } catch {
-        // Bỏ qua lỗi xóa file cũ
-      }
+      const oldKey = this.s3.extractKey(existing.avatarUrl);
+      if (oldKey) await this.s3.delete(oldKey);
     }
 
-    const avatarUrl = `${serverUrl}/uploads/avatars/${filename}`;
+    // Upload ảnh mới lên S3
+    const key = `avatars/${userId}${ext}`;
+    const avatarUrl = await this.s3.upload(key, buffer, mimetype);
 
     const updated = await this.prisma.user.update({
       where: { id: userId },
@@ -91,10 +100,50 @@ export class UsersService {
       },
     });
 
-    return { user: updated, avatarUrl, message: 'Ảnh đại diện đã được cập nhật' };
+    return {
+      user: updated,
+      avatarUrl,
+      message: 'Ảnh đại diện đã được cập nhật',
+    };
   }
 
-  /** Xóa avatar (set về null) */
+  /**
+   * Đổi mật khẩu khi đang đăng nhập.
+   * Yêu cầu xác nhận mật khẩu hiện tại trước khi cho đổi.
+   */
+  async changePassword(
+    userId: string,
+    currentPassword: string,
+    newPassword: string,
+  ) {
+    if (newPassword.length < 6) {
+      throw new BadRequestException('Mật khẩu mới phải có ít nhất 6 ký tự');
+    }
+
+    const user = await this.prisma.user.findUnique({ where: { id: userId } });
+    if (!user) throw new NotFoundException('Người dùng không tồn tại');
+
+    /* eslint-disable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access */
+    const isValid = await bcrypt.compare(currentPassword, user.password);
+    /* eslint-enable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access */
+
+    if (!isValid) {
+      throw new UnauthorizedException('Mật khẩu hiện tại không đúng');
+    }
+
+    /* eslint-disable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access */
+    const hashed = await bcrypt.hash(newPassword, 10);
+    /* eslint-enable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access */
+
+    await this.prisma.user.update({
+      where: { id: userId },
+      data: { password: hashed },
+    });
+
+    return { message: 'Đổi mật khẩu thành công' };
+  }
+
+  /** Xóa avatar: xóa khỏi S3 và set về null trong DB */
   async removeAvatar(userId: string) {
     const existing = await this.prisma.user.findUnique({
       where: { id: userId },
@@ -102,15 +151,8 @@ export class UsersService {
     });
 
     if (existing?.avatarUrl) {
-      try {
-        const oldFilename = existing.avatarUrl.split('/uploads/avatars/').pop();
-        if (oldFilename) {
-          const oldPath = join(process.cwd(), 'uploads', 'avatars', oldFilename);
-          if (fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
-        }
-      } catch {
-        // Bỏ qua lỗi xóa file
-      }
+      const key = this.s3.extractKey(existing.avatarUrl);
+      if (key) await this.s3.delete(key);
     }
 
     await this.prisma.user.update({

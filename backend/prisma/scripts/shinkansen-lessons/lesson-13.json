@@ -1,0 +1,35 @@
+{
+  "theoryMd": "# Bài 13: Định nghĩa / Liên tưởng (〜とは, 〜といえば, 〜というと, 〜（こと）となると, 〜といったら)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜とは\n- **Ý nghĩa:** Đưa ra định nghĩa, thuyết minh.\n- **Cách kết hợp:** N + とは\n- **Giải thích:** Là cách nói cứng hơn của というのは. Vế sau là câu đưa ra định nghĩa, giải thích về bản chất, ý nghĩa của từ đứng trước. Thường kết thúc ở dạng khẳng định như 〜だ、〜である、〜という意味である、〜のことである.\n\n#### Ví dụ:\n- 「正義」とはどういう意味ですか → *Chính nghĩa có nghĩa là gì ?*\n- 人生とは本人が主役のドラマみたいなものだ → *Cuộc đời như là một bộ phim mà mỗi người là diễn viên chính*\n\n### 2. 〜といえば\n- **Ý nghĩa:** Dùng để gợi liên tưởng hoặc chấp nhận quan điểm.\n- **Cách kết hợp:** \n  - Vế 1: Từ đã được đưa ra ở trước + 〜といえば\n  - Vế 2: Thể thông thường (N・Naだ) + といえば\n- **Giải thích:** \n  a, Từ một chủ đề được đưa ra, gợi liên tưởng đến một câu chuyện liên quan.\n  b, Chấp nhận với ý kiến ở vế trước, rồi đưa ra điều muốn nói thực sự ở vế sau.\n\n#### Ví dụ:\n- このコーヒ、ハワイのお土産ですか。ハワイといえば、Aさんが来月ハワイで結婚式をするんだそうです → *Cà phê này là quà từ Hawaii à. Nhắc đến Hawaii thì nghe nói A-san tháng tới sẽ tổ chức đám cưới ở Hawaii đấy*\n- 今のアパート、駅から遠いので不便といえば不便ですが、静かでいいですよ → *Căn hộ này, xa nhà ga nên bất tiện thì đúng là bất tiện thật, nhưng yên tĩnh nên cũng tốt mà.*\n\n### 3. 〜というと・〜といえば・〜といったら\n- **Ý nghĩa:** Nhắc đến điều gì thì nghĩ ngay đến điều gì. Xác nhận thông tin.\n- **Cách kết hợp:** N・V thể thông thường + というと・〜といえば・〜といったら\n- **Giải thích:** Điều được nghĩ đến chính là điều đặc trưng, tiêu biểu của điều được nhắc đến. Khi được dùng để xác nhận thông tin, cuối câu thường hay đi kèm 〜か・〜など.\n\n#### Ví dụ:\n- オーストラリアといえば、すぐにコアラとかカンガルーを思い浮かべる。 → *Nhắc đến Australia, ngay lập tức tôi nghĩ đến Koala và Kangaroo*\n- ここに身分を証明するものが必要と書いてありますが、身分を証明するものというとパスポートでもいいでしょうか → *Ở đây có ghi là cần phải có giấy tờ chứng minh nhân thân, giấy tờ chứng minh nhân thân là passport được chứ?*\n\n### 4. 〜（こと）となると\n- **Ý nghĩa:** Cứ động đến, nhắc đến điều gì thì thế nào\n- **Cách kết hợp:** N + （のこと）となると\n- **Giải thích:** Vế phía sau mang ý nghĩa có thái độ thay đổi khác thường mỗi khi động đến chủ đề nào đó.\n\n#### Ví dụ:\n- 弟は、車のこととなると急に専門家みたいになる → *Em trai tôi cứ động đến ô tô là cứ như chuyên gia vậy*\n- Aさんは、好きな歌手のこととなると、話が止まらない → *A-san cứ động đến ca sĩ yêu thích là nói chuyện không ngừng*\n\n### 5. 〜といったら\n- **Ý nghĩa:** Nhấn mạnh mức độ lớn hơn bình thường khi nhắc đến chủ đề nào đó.\n- **Cách kết hợp:** N + といったら\n- **Giải thích:** Vế phía sau là câu thể hiện mức độ không bình thường, thể hiện sự kinh ngạc, bất ngờ. Có trường hợp câu được ngắt ở といったら, phía sau được giản lược đi.\n\n#### Ví dụ:\n- 締め切り前の仕事が忙しさといったら、君には想像もできないと思うよ → *Nhắc đến công việc trước deadline bận rộn thế nào, tôi nghĩ anh không thể tưởng tượng được đâu.*\n- 暗い山道を一人で歩いたときの怖さといったら。。。 → *Nhắc đến việc đi một mình trên đường núi tối tăm đáng sợ thế nào thì…*",
+  "cards": [
+    {
+      "front": "〜とは",
+      "back": "Đưa ra định nghĩa, giải thích bản chất của danh từ.",
+      "romaji": "〜towa",
+      "example": "「正義」とはどういう意味ですか。(Chính nghĩa có nghĩa là gì?)"
+    },
+    {
+      "front": "〜といえば",
+      "back": "Nhắc đến chủ đề nào đó để gợi liên tưởng hoặc để đối lập (chấp nhận một phần).",
+      "romaji": "〜toieba",
+      "example": "ハワイといえば、Aさんが来月結婚式をするんだそうです。(Nhắc đến Hawaii, nghe nói A-san tháng tới sẽ làm đám cưới.)"
+    },
+    {
+      "front": "〜というと / 〜といえば / 〜といったら",
+      "back": "Nhắc đến A thì nghĩ ngay đến đặc trưng B, hoặc dùng để xác nhận thông tin.",
+      "romaji": "〜to iu to / 〜to ieba / 〜to ittara",
+      "example": "オーストラリアといえば、コアラを思い浮かべる。(Nhắc đến Úc, tôi nghĩ ngay đến Koala.)"
+    },
+    {
+      "front": "〜（こと）となると",
+      "back": "Cứ hễ động đến chủ đề nào đó thì thái độ/trạng thái thay đổi.",
+      "romaji": "〜(koto) to naru to",
+      "example": "弟は、車のこととなると急に専門家みたいになる。(Em trai tôi hễ nhắc đến xe hơi là lại như chuyên gia.)"
+    },
+    {
+      "front": "〜といったら",
+      "back": "Nhấn mạnh mức độ kinh ngạc/bất ngờ của sự vật, sự việc.",
+      "romaji": "〜to ittara",
+      "example": "暗い山道を一人で歩いたときの怖さといったら。(Sự đáng sợ khi đi một mình trong đường núi tối tăm thật không sao kể xiết.)"
+    }
+  ]
+}

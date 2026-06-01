@@ -1,11 +1,30 @@
-import { PrismaClient, DeckCategory } from '@prisma/client';
+import { PrismaClient, DeckCategory, LessonDeckRole, SkillType } from '@prisma/client';
 import * as bcrypt from 'bcrypt';
 import 'dotenv/config';
+import { MINNA_N5_LESSONS } from './seed/minna-n5';
 
 const prisma = new PrismaClient();
 
 async function main() {
   const password = await bcrypt.hash('123456', 10);
+
+  const adminEmail = process.env.ADMIN_EMAIL ?? 'admin@minhongo.com';
+  const adminPassword = process.env.ADMIN_PASSWORD
+    ? await bcrypt.hash(process.env.ADMIN_PASSWORD, 10)
+    : password;
+
+  const admin = await prisma.user.upsert({
+    where: { email: adminEmail },
+    update: {},
+    create: {
+      email: adminEmail,
+      password: adminPassword,
+      name: 'Admin',
+      isAdmin: true,
+    },
+  });
+
+  console.log('Admin:', admin.email);
 
   const user = await prisma.user.upsert({
     where: { email: 'test@example.com' },
@@ -171,6 +190,132 @@ async function main() {
       userId: user.id,
     },
   });
+
+  // ========== COURSE: MINNA NO NIHONGO N5 ==========
+  // Lộ trình mặc định cho người mới bắt đầu, bám theo cấu trúc bài Minna.
+  // Nội dung được viết lại bằng tiếng Việt — không sao chép từ sách gốc.
+  const minnaN5 = await prisma.course.upsert({
+    where: { slug: 'minna-n5' },
+    update: {
+      title: 'Minna no Nihongo I — JLPT N5',
+      description:
+        'Lộ trình học tiếng Nhật cho người mới bắt đầu, bám cấu trúc 25 bài của Minna no Nihongo I. MVP hiện có 5 bài đầu.',
+      jlptLevel: 5,
+      textbookRef: 'Minna no Nihongo I',
+      isDefault: true,
+      isPublic: true,
+    },
+    create: {
+      slug: 'minna-n5',
+      title: 'Minna no Nihongo I — JLPT N5',
+      description:
+        'Lộ trình học tiếng Nhật cho người mới bắt đầu, bám cấu trúc 25 bài của Minna no Nihongo I. MVP hiện có 5 bài đầu.',
+      jlptLevel: 5,
+      textbookRef: 'Minna no Nihongo I',
+      isDefault: true,
+      isPublic: true,
+    },
+  });
+
+  for (const lessonData of MINNA_N5_LESSONS) {
+    // Tạo deck từ vựng cho bài
+    const vocabDeckId = `minna-n5-bai-${lessonData.order}-vocab`;
+    const vocabDeck = await prisma.deck.upsert({
+      where: { id: vocabDeckId },
+      update: {
+        name: `Minna N5 — Bài ${lessonData.order} — Từ vựng`,
+        description: `Từ vựng bài ${lessonData.order}: ${lessonData.title}`,
+        isPublic: true,
+        category: DeckCategory.TUVUNG,
+        jlptLevel: 5,
+      },
+      create: {
+        id: vocabDeckId,
+        name: `Minna N5 — Bài ${lessonData.order} — Từ vựng`,
+        description: `Từ vựng bài ${lessonData.order}: ${lessonData.title}`,
+        isPublic: true,
+        category: DeckCategory.TUVUNG,
+        jlptLevel: 5,
+        userId: admin.id,
+      },
+    });
+
+    // Thêm các thẻ vào deck (upsert mỗi thẻ theo id để idempotent)
+    for (let i = 0; i < lessonData.vocab.length; i++) {
+      const v = lessonData.vocab[i];
+      const cardId = `${vocabDeckId}-${i + 1}`;
+      await prisma.card.upsert({
+        where: { id: cardId },
+        update: {
+          front: v.front,
+          back: v.back,
+          romaji: v.romaji,
+          example: v.example,
+          jlptLevel: 5,
+        },
+        create: {
+          id: cardId,
+          front: v.front,
+          back: v.back,
+          romaji: v.romaji,
+          example: v.example,
+          jlptLevel: 5,
+          deckId: vocabDeck.id,
+        },
+      });
+    }
+
+    // Tạo Lesson
+    const lesson = await prisma.lesson.upsert({
+      where: { courseId_order: { courseId: minnaN5.id, order: lessonData.order } },
+      update: {
+        title: lessonData.title,
+        summary: lessonData.summary,
+        theoryMd: lessonData.theoryMd,
+        skills: [SkillType.VOCABULARY, SkillType.GRAMMAR],
+        estimatedMin: 30,
+      },
+      create: {
+        courseId: minnaN5.id,
+        order: lessonData.order,
+        title: lessonData.title,
+        summary: lessonData.summary,
+        theoryMd: lessonData.theoryMd,
+        skills: [SkillType.VOCABULARY, SkillType.GRAMMAR],
+        estimatedMin: 30,
+      },
+    });
+
+    // Gắn deck từ vựng vào lesson
+    await prisma.lessonDeck.upsert({
+      where: { lessonId_deckId: { lessonId: lesson.id, deckId: vocabDeck.id } },
+      update: { role: LessonDeckRole.VOCAB, order: 0 },
+      create: {
+        lessonId: lesson.id,
+        deckId: vocabDeck.id,
+        role: LessonDeckRole.VOCAB,
+        order: 0,
+      },
+    });
+
+    // Tạo LessonTest dùng chính deck từ vựng làm pool quiz
+    await prisma.lessonTest.upsert({
+      where: { lessonId: lesson.id },
+      update: {
+        deckId: vocabDeck.id,
+        passScore: 70,
+        questionCount: Math.min(10, lessonData.vocab.length),
+      },
+      create: {
+        lessonId: lesson.id,
+        deckId: vocabDeck.id,
+        passScore: 70,
+        questionCount: Math.min(10, lessonData.vocab.length),
+      },
+    });
+  }
+
+  console.log(`Created course "minna-n5" với ${MINNA_N5_LESSONS.length} bài`);
 
   console.log('Seed completed!');
 }

@@ -1,0 +1,41 @@
+{
+  "theoryMd": "# Bài 18: Không thể làm gì (〜がたい, 〜わけにはいかない, 〜かねる, 〜ようがない, 〜どころではない, 〜得る/〜得ない)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. 〜がたい\n- **Ý nghĩa:** Khó làm, không thể làm việc gì.\n- **Cách kết hợp:** Vます + がたい\n- **Giải thích:** Không sử dụng với ý nghĩa “không thể” mang tính khả năng. Chủ yếu dùng với những động từ liên quan đến phát ngôn (nói, biểu đạt…) hoặc động từ liên quan đến cảm xúc, tâm lí (cảm tưởng, lí giải, tin tưởng…)\n\n#### Ví dụ:\n- あの優しい彼がそんなひどいことをしたは信じがたい → *Thật khó tin là người tốt bụng như anh ấy lại làm điều tồi tệ như vậy.*\n- あの料理はなんとも言いがたい初めての味だ → *Món ăn này có vị gì đó tôi mới gặp lần đầu, rất khó nói.*\n\n### 2. 〜わけにはいかない・〜わけにもいかない\n- **Ý nghĩa:** Vì trái với lẽ thường trong xã hội, vì trái với lương tâm nên không thể làm việc gì.\n- **Cách kết hợp:** Vる + わけにはいかない・わけにもいかない\n- **Giải thích:** Không sử dụng với ý nghĩa “không thể” mang tính khả năng. Chủ ngữ thường là ngôi thứ nhất.\n\n#### Ví dụ:\n- 病気の子供を一人家において、仕事に行くわけにはいかない → *Vì con đang ốm ở nhà một mình, tôi không thể đi làm được.*\n- もう終電は終わってしまった。会社に泊まるわけにもいかず、困っている → *Chuyến tàu điện cuối qua rồi. Cũng không thể ở lại công ty thật, khổ quá.*\n\n### 3. 〜かねる\n- **Ý nghĩa:** Trong trường hợp, trong điều kiện, lập trường của người nói thì không thể làm được.\n- **Cách kết hợp:** Vます + かねる\n- **Giải thích:** Không sử dụng với ý nghĩa “không thể” mang tính khả năng. Thường dùng trong trường hợp từ chối một cách lịch sự.\n\n#### Ví dụ:\n- メールでのご質問だけでは診断しかねます.一度病院にいらっしゃってください → *Chỉ qua mail thì tôi khó có thể chẩn đoán vấn đề này được. Xin hãy tới bệnh viện một lần đi.*\n- あなたの気持ちも理解できますが、その案には賛成しかねます → *Tôi có thể hiểu được cảm giác của anh, nhưng tôi khó mà tán thành phương án này.*\n\n### 4. 〜ようがない\n- **Ý nghĩa:** Dù muốn làm nhưng không biết làm thế nào thì được, hoàn toàn không có khả năng làm được.\n- **Cách kết hợp:** Vます + ようがない\n- **Giải thích:** Dùng với ý nghĩa hoàn toàn không có cách làm gì đó. Nhấn mạnh sắc thái “không thể”.\n\n#### Ví dụ:\n- 実力はあるのだから、今回の結果には運がなかったとしか言いようがない → *Vì có thực lực, nên kết quả lần này chỉ có thể nói là không may thôi.*\n- これだけしっかり準備したのだ。悪い結果になりようがないだろう → *Đã chuẩn bị kĩ càng thế này rồi. Chắc chắn kết quả không thể không tốt được.*\n\n### 5. 〜どころではない\n- **Ý nghĩa:** Không phải là lúc, không phải trong trạng thái có thể làm gì.\n- **Cách kết hợp:** N・Vる + どころではない\n- **Giải thích:** Sử dụng với ý nghĩa vì tình trạng không thuận lợi (không có tiền, không có thời gian, tiếng ồn, đang bệnh…) nên điều kì vọng, điều tưởng tượng không thực hiện được.\n\n#### Ví dụ:\n- 仕事が忙しくて、旅行どころではない → *Vì công việc bận rộn, không thể đi du lịch được.*\n- 隣のテーブルの人たちがうるさくて、ゆっくり食事を楽しむどころではなかった → *Bàn bên cạnh ồn quá, không thể từ tốn dùng bữa được.*\n\n### 6. 〜得る/〜得ない\n- **Ý nghĩa:** Có thể, có khả năng / Không thể, không có khả năng.\n- **Cách kết hợp:** Vます + 得る/〜得ない\n- **Giải thích:** Động từ得る có hai cách đọc là える và うる, với cách sử dụng này thì thường đọc là うる, phủ định là えない. Mẫu câu không dùng để nói về khả năng bản thân.\n\n#### Ví dụ:\n- がんは誰でもかかり得る病気だ → *Ung thư là bệnh mà ai cũng có thể mắc phải.*\n- 人間が１００メートルを５秒で走るなんてあり得ない話だ → *Không thể nào có chuyện có người chạy 100m trong vòng 5s.*",
+  "cards": [
+    {
+      "front": "〜がたい",
+      "back": "Khó làm (dùng cho tâm lý, cảm xúc). Không dùng cho khả năng.",
+      "romaji": "gatai",
+      "example": "あの優しい彼がそんなひどいことをしたは信じがたい。(Thật khó tin là người tốt bụng như anh ấy lại làm điều tồi tệ như vậy.)"
+    },
+    {
+      "front": "〜わけにはいかない",
+      "back": "Không thể làm do trái lương tâm hoặc lẽ thường.",
+      "romaji": "wake ni wa ikanai",
+      "example": "病気の子供を一人家において、仕事に行くわけにはいかない。(Vì con đang ốm ở nhà một mình, tôi không thể đi làm được.)"
+    },
+    {
+      "front": "〜かねる",
+      "back": "Không thể/Khó lòng làm gì (dùng để từ chối lịch sự).",
+      "romaji": "kaneru",
+      "example": "あなたの気持ちも理解できますが、その案には賛成しかねます。(Tôi có thể hiểu được cảm giác của anh, nhưng tôi khó mà tán thành phương án này.)"
+    },
+    {
+      "front": "〜ようがない",
+      "back": "Hoàn toàn không có cách làm nào, không có khả năng làm.",
+      "romaji": "you ga nai",
+      "example": "実力はあるのだから、今回の結果には運がなかったとしか言いようがない。(Vì có thực lực, nên kết quả lần này chỉ có thể nói là không may thôi.)"
+    },
+    {
+      "front": "〜どころではない",
+      "back": "Không phải lúc để làm gì, không ở trong trạng thái làm được gì.",
+      "romaji": "dokoro de wa nai",
+      "example": "仕事が忙しくて、旅行どころではない。(Vì công việc bận rộn, không thể đi du lịch được.)"
+    },
+    {
+      "front": "〜得る/〜得ない",
+      "back": "Có thể/Không thể (về lý thuyết hoặc khả năng xảy ra).",
+      "romaji": "uru / enai",
+      "example": "がんは誰でもかかり得る病気だ。(Ung thư là bệnh mà ai cũng có thể mắc phải.)"
+    }
+  ]
+}

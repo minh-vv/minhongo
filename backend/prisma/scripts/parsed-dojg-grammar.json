@@ -1,0 +1,1423 @@
+[
+  {
+    "concept": "あげる",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 63",
+    "english": "Give"
+  },
+  {
+    "concept": "あげる",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 65",
+    "english": "Do something for someone; do someone a favour by doing something"
+  },
+  {
+    "concept": "間・あいだ(に)",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 67",
+    "english": "During (the time when); while"
+  },
+  {
+    "concept": "あまり",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 72",
+    "english": "(not) very much; (not) very"
+  },
+  {
+    "concept": "ある",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 73",
+    "english": "Be; exist; have"
+  },
+  {
+    "concept": "ある",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 76",
+    "english": "Have been done; be done"
+  },
+  {
+    "concept": "あとで",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 78",
+    "english": "After"
+  },
+  {
+    "concept": "ば",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 81",
+    "english": "If"
+  },
+  {
+    "concept": "ばかり",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 84",
+    "english": "Only; just; be ready to do something; have just done something; just did something; be just doing something; about"
+  },
+  {
+    "concept": "ばよかった",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 87",
+    "english": "I wish ~ had done something"
+  },
+  {
+    "concept": "だい",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 90",
+    "english": ""
+  },
+  {
+    "concept": "だけ",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 93",
+    "english": "Only; just; alone; merely; that’s all"
+  },
+  {
+    "concept": "だけで(は)なく~(も)",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 97",
+    "english": "Not only ~ but also ~"
+  },
+  {
+    "concept": "だろう",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 100",
+    "english": "Probably"
+  },
+  {
+    "concept": "出す・だす",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 102",
+    "english": "Out; begin to; start to"
+  },
+  {
+    "concept": "で",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 105",
+    "english": "At; in; on"
+  },
+  {
+    "concept": "で",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 106",
+    "english": "By; for; from; in; on; using; with"
+  },
+  {
+    "concept": "で",
+    "subEntry": "3",
+    "volume": "basic",
+    "page": "B. 107",
+    "english": "And; because of; due to; because"
+  },
+  {
+    "concept": "で",
+    "subEntry": "4",
+    "volume": "basic",
+    "page": "B. 109",
+    "english": "At; on; in"
+  },
+  {
+    "concept": "でも",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 111",
+    "english": "Even"
+  },
+  {
+    "concept": "どう",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 114",
+    "english": "How; in what way"
+  },
+  {
+    "concept": "へ",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 116",
+    "english": "To; towards"
+  },
+  {
+    "concept": "が",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 118",
+    "english": ""
+  },
+  {
+    "concept": "が",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 120",
+    "english": "But"
+  },
+  {
+    "concept": "がる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 123",
+    "english": "Show signs of ~"
+  },
+  {
+    "concept": "ごろ",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 126",
+    "english": "About; around"
+  },
+  {
+    "concept": "ごとに",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 128",
+    "english": "Every"
+  },
+  {
+    "concept": "始める・はじめる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 131",
+    "english": "Begin to"
+  },
+  {
+    "concept": "はず",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 133",
+    "english": "I expect that ~; it is expected that ~; ~ is expected to; I am fairly certain that ~; should; ought to; it is natural that ~; no wonder ~"
+  },
+  {
+    "concept": "ほど",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 135",
+    "english": "To the extent of; to the extent that ~; (not as) ~ as ~; about"
+  },
+  {
+    "concept": "ほうがいい",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 138",
+    "english": "Had better do something"
+  },
+  {
+    "concept": "ほうが~より",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 140",
+    "english": "~ be more (adjective) than ~; ~ do something more (adverb) than ~ do"
+  },
+  {
+    "concept": "欲しい・ほしい",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 144",
+    "english": "Want (something)"
+  },
+  {
+    "concept": "欲しい・ほしい",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 146",
+    "english": "Want (someone) to do (something)"
+  },
+  {
+    "concept": "一番・いちばん",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 148",
+    "english": "Most"
+  },
+  {
+    "concept": "行く・いく",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 149",
+    "english": "Go; come"
+  },
+  {
+    "concept": "行く・いく",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 151",
+    "english": "Go on ~ing; continue; grow; become"
+  },
+  {
+    "concept": "いる",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 153",
+    "english": "Be; exist; stay"
+  },
+  {
+    "concept": "いる",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 155",
+    "english": ">Be ~ing; have done (something)"
+  },
+  {
+    "concept": "要る・いる",
+    "subEntry": "3",
+    "volume": "basic",
+    "page": "B. 157",
+    "english": "Need"
+  },
+  {
+    "concept": "自分・じぶん",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 159",
+    "english": "~ self; own"
+  },
+  {
+    "concept": "自分・じぶん",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 161",
+    "english": "~ self; own"
+  },
+  {
+    "concept": "か",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 164",
+    "english": "(either) ~ or ~"
+  },
+  {
+    "concept": "か",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 166",
+    "english": "Whether; if"
+  },
+  {
+    "concept": "か(どうか)",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 168",
+    "english": "Whether or not; if (~ or not)"
+  },
+  {
+    "concept": "かい",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 170",
+    "english": ""
+  },
+  {
+    "concept": "かもしれない",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 173",
+    "english": "Might"
+  },
+  {
+    "concept": "から",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 176",
+    "english": "From; since; out of"
+  },
+  {
+    "concept": "から",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 177",
+    "english": "After; having done something; since (time)"
+  },
+  {
+    "concept": "から",
+    "subEntry": "3",
+    "volume": "basic",
+    "page": "B. 179",
+    "english": "So; since; because"
+  },
+  {
+    "concept": "かしら",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 181",
+    "english": "I wonder"
+  },
+  {
+    "concept": "方・かた",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 183",
+    "english": "A way of; a manner of; how to"
+  },
+  {
+    "concept": "代わりに・かわりに",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 184",
+    "english": "In place of ~; instead of; to make up for ~; although; but"
+  },
+  {
+    "concept": "けれども",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 187",
+    "english": "Although; though"
+  },
+  {
+    "concept": "聞こえる・きこえる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 188",
+    "english": "Audible; (can) hear; it sounds"
+  },
+  {
+    "concept": "嫌いだ・きらいだ",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 190",
+    "english": "Don’t like; dislike"
+  },
+  {
+    "concept": "こと",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 191",
+    "english": "Thing; what"
+  },
+  {
+    "concept": "こと",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 193",
+    "english": "To ~; ~ing; that"
+  },
+  {
+    "concept": "ことがある",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 196",
+    "english": "Someone has done something; someone has had an experience doing something; there was a time when ~"
+  },
+  {
+    "concept": "ことがある",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 198",
+    "english": ""
+  },
+  {
+    "concept": "ことが出来る・できる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 200",
+    "english": "Can; be able to"
+  },
+  {
+    "concept": "ことになる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 202",
+    "english": "It will be decided that ~; come about ~; be arranged that ~; turn out that ~"
+  },
+  {
+    "concept": "ことにする",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 204",
+    "english": "Decide to"
+  },
+  {
+    "concept": "ことは",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 206",
+    "english": "Indeed one does something alright, (but ~); indeed ~ (but ~); do ~ (but ~)"
+  },
+  {
+    "concept": "下さい・ください",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 209",
+    "english": "Please do something"
+  },
+  {
+    "concept": "君・くん",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 211",
+    "english": ""
+  },
+  {
+    "concept": "くらい",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 212",
+    "english": "Approximately; about"
+  },
+  {
+    "concept": "呉れる・くれる",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 213",
+    "english": "Give"
+  },
+  {
+    "concept": "呉れる・くれる",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 216",
+    "english": "Do something (for me or someone); do me or someone a favour by doing something"
+  },
+  {
+    "concept": "来る・くる",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 219",
+    "english": "Come; visit; show up"
+  },
+  {
+    "concept": "来る・くる",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 221",
+    "english": "Come about; grow; come to; begin to"
+  },
+  {
+    "concept": "まだ",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 224",
+    "english": "Still; (not) yet"
+  },
+  {
+    "concept": "まで",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 225",
+    "english": "As far as; till; up to; until; through; even"
+  },
+  {
+    "concept": "までに",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 228",
+    "english": "By; by the time (when)"
+  },
+  {
+    "concept": "前に・まえに",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 231",
+    "english": "Before; in front of"
+  },
+  {
+    "concept": "毎・まい",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 233",
+    "english": "Every; per"
+  },
+  {
+    "concept": "まま",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 236",
+    "english": "As it is; unchanged; undisturbed; leave as is; remain"
+  },
+  {
+    "concept": "ましょう",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 240",
+    "english": "I/We will do something; Let’s do something."
+  },
+  {
+    "concept": "見える・みえる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 243",
+    "english": "Be visible; (can) see; look ~"
+  },
+  {
+    "concept": "みる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 246",
+    "english": "Do something and see; try to do something"
+  },
+  {
+    "concept": "も",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 247",
+    "english": "Too; also; (not) ~ either"
+  },
+  {
+    "concept": "も",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 250",
+    "english": "Even; as many/much/long/...as; (not) even (one); (not) any"
+  },
+  {
+    "concept": "もう",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 254",
+    "english": "(not) anymore; (not) any longer; already; yet; now"
+  },
+  {
+    "concept": "も~も",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 255",
+    "english": "Both ~ and ~; neither ~ nor"
+  },
+  {
+    "concept": "もの(だ)",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 257",
+    "english": "Because; how could ~!; used to; should like to; should"
+  },
+  {
+    "concept": "もらう",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 261",
+    "english": "Get; receive; be given"
+  },
+  {
+    "concept": "もらう",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 263",
+    "english": "Receive benefit from an action by someone; have something done by someone; have someone do something."
+  },
+  {
+    "concept": "な",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 266",
+    "english": "Don't do ~"
+  },
+  {
+    "concept": "など",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 267",
+    "english": "And so on; and the like; for example; things like ~"
+  },
+  {
+    "concept": "ながら",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 269",
+    "english": "While; over; with"
+  },
+  {
+    "concept": "ないで",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 271",
+    "english": "Do not do something and; without doing ~"
+  },
+  {
+    "concept": "なければならない",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 274",
+    "english": "Have to; must; need"
+  },
+  {
+    "concept": "なくなる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 277",
+    "english": "Not ~ any more"
+  },
+  {
+    "concept": "なくて",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 279",
+    "english": "Do not do something and ~; is not ~ and ~; because ~ do not do something"
+  },
+  {
+    "concept": "なら",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 281",
+    "english": "If it is true that; if it is the case that; if; would; could"
+  },
+  {
+    "concept": "なさい",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 284",
+    "english": "Do something"
+  },
+  {
+    "concept": "ね",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 286",
+    "english": "English tag question (such as isn’t it?; is it?; don’t you?; do you?); you know"
+  },
+  {
+    "concept": "に",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 289",
+    "english": "At; in; on"
+  },
+  {
+    "concept": "に",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 291",
+    "english": "To; for"
+  },
+  {
+    "concept": "に",
+    "subEntry": "3",
+    "volume": "basic",
+    "page": "B. 292",
+    "english": "By; from"
+  },
+  {
+    "concept": "に",
+    "subEntry": "4",
+    "volume": "basic",
+    "page": "B. 295",
+    "english": "On; onto"
+  },
+  {
+    "concept": "に",
+    "subEntry": "5",
+    "volume": "basic",
+    "page": "B. 297",
+    "english": "To do something; in order to do something"
+  },
+  {
+    "concept": "に",
+    "subEntry": "6",
+    "volume": "basic",
+    "page": "B. 299",
+    "english": "In; at; on"
+  },
+  {
+    "concept": "に",
+    "subEntry": "7",
+    "volume": "basic",
+    "page": "B. 302",
+    "english": "To; toward."
+  },
+  {
+    "concept": "に違いない・にちがいない",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 304",
+    "english": "There is no doubt that ~; must be ~; no doubt"
+  },
+  {
+    "concept": "難い・にくい",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 307",
+    "english": "Hard to ~; difficult to ~; don’t do something easily; not readily; not prone to ~"
+  },
+  {
+    "concept": "にしては",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 309",
+    "english": "For ~; considering that ~"
+  },
+  {
+    "concept": "にする",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 310",
+    "english": "Decide on ~; make it ~"
+  },
+  {
+    "concept": "の",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 312",
+    "english": "‘s; of; in; at; for; by; from"
+  },
+  {
+    "concept": "の",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 315",
+    "english": "One"
+  },
+  {
+    "concept": "の",
+    "subEntry": "3",
+    "volume": "basic",
+    "page": "B. 318",
+    "english": "That ~; to do something; doing something"
+  },
+  {
+    "concept": "の",
+    "subEntry": "4",
+    "volume": "basic",
+    "page": "B. 322",
+    "english": "It is that ~"
+  },
+  {
+    "concept": "のだ",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 325",
+    "english": "The explanation is that ~; The reason is that ~; The fact is that ~; It is that ~"
+  },
+  {
+    "concept": "ので",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 328",
+    "english": "So; since; because"
+  },
+  {
+    "concept": "のに",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 331",
+    "english": "Even though; despite the fact that ~; although; but; in spite of the fact that ~"
+  },
+  {
+    "concept": "のに",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 335",
+    "english": "In the process of doing ~; (in order) to do ~; for the purpose of ~"
+  },
+  {
+    "concept": "のは~だ",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 337",
+    "english": "It is ~ that ~; the one who ~ is ~; the place where ~ is ~; the reason why ~ is ~; the time when ~ is ~; what ~ is ~"
+  },
+  {
+    "concept": "お",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 343",
+    "english": ""
+  },
+  {
+    "concept": "を",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 347",
+    "english": ""
+  },
+  {
+    "concept": "を",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 349",
+    "english": "In; on; across; through; along; over"
+  },
+  {
+    "concept": "を",
+    "subEntry": "3",
+    "volume": "basic",
+    "page": "B. 351",
+    "english": ""
+  },
+  {
+    "concept": "を",
+    "subEntry": "4",
+    "volume": "basic",
+    "page": "B. 352",
+    "english": ""
+  },
+  {
+    "concept": "多い・おおい",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 354",
+    "english": "Many; a lot of; much"
+  },
+  {
+    "concept": "おく",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 357",
+    "english": "Do something in advance; go ahead and do something; let someone/something remain as he/it is"
+  },
+  {
+    "concept": "お~になる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 358",
+    "english": ""
+  },
+  {
+    "concept": "お~する",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 360",
+    "english": ""
+  },
+  {
+    "concept": "終わる・おわる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 362",
+    "english": "Finish; end"
+  },
+  {
+    "concept": "られる",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 364",
+    "english": "Be –ed; get –ed"
+  },
+  {
+    "concept": "られる",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 370",
+    "english": "Be able to do something; can do something; be –able; ~ can be done"
+  },
+  {
+    "concept": "らしい",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 373",
+    "english": "Seem; look like; apparently; I heard"
+  },
+  {
+    "concept": "Relative Clause",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 376",
+    "english": ""
+  },
+  {
+    "concept": "さ",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 381",
+    "english": "-ness; -ly"
+  },
+  {
+    "concept": "様・さま",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 384",
+    "english": "Mr; Miss; Ms; Mrs"
+  },
+  {
+    "concept": "させる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 387",
+    "english": "Make someone/something do something; cause someone/something to do something; let someone/something do something; allow someone/something to do something; have someone/something do something; get someone/something to do something."
+  },
+  {
+    "concept": "せっかく",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 392",
+    "english": "With effort; at great pain; take the trouble to do ~"
+  },
+  {
+    "concept": "し",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 395",
+    "english": "And what’s more; not only ~ but also ~; so"
+  },
+  {
+    "concept": "しい",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 397",
+    "english": ""
+  },
+  {
+    "concept": "しか",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 398",
+    "english": "Nothing/nobody/no ~ but; only"
+  },
+  {
+    "concept": "しまう",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 403",
+    "english": "Have dome something; finish doing something; finish something up"
+  },
+  {
+    "concept": "知る・しる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 406",
+    "english": "Get to know"
+  },
+  {
+    "concept": "そうだ",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 407",
+    "english": "I hear that ~; I heard that ~; people say that ~"
+  },
+  {
+    "concept": "そうだ",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 410",
+    "english": "Look; look like; appear; seem; feel like"
+  },
+  {
+    "concept": "それで",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 413",
+    "english": "And; because of that; that is why; therefore; so"
+  },
+  {
+    "concept": "それでは",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 414",
+    "english": "If so; then; well then"
+  },
+  {
+    "concept": "それから",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 416",
+    "english": "After that; and then; in addition to that"
+  },
+  {
+    "concept": "それなら",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 419",
+    "english": "Then; in that case"
+  },
+  {
+    "concept": "それとも",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 421",
+    "english": "Or; either ~ or ~"
+  },
+  {
+    "concept": "そして",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 422",
+    "english": "And; and then"
+  },
+  {
+    "concept": "過ぎる・すぎる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 423",
+    "english": "Too; do something too much/often; over-"
+  },
+  {
+    "concept": "好きだ・すきだ",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 426",
+    "english": "Like; be fond of"
+  },
+  {
+    "concept": "少ない・すくない",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 427",
+    "english": "Few; a small number of; little; a small quantity of ~"
+  },
+  {
+    "concept": "する",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 428",
+    "english": "Do; make; play; play the role of ~; wear"
+  },
+  {
+    "concept": "する",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 434",
+    "english": "Have"
+  },
+  {
+    "concept": "する",
+    "subEntry": "3",
+    "volume": "basic",
+    "page": "B. 435",
+    "english": "Fear; smell; hear"
+  },
+  {
+    "concept": "する",
+    "subEntry": "4",
+    "volume": "basic",
+    "page": "B. 436",
+    "english": "Cost; lapse"
+  },
+  {
+    "concept": "すると",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 437",
+    "english": "Thereupon ~; then ~; and ~"
+  },
+  {
+    "concept": "たい",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 441",
+    "english": "Want (to do something); would like (to do something)"
+  },
+  {
+    "concept": "堪らない・たまらない",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 445",
+    "english": "Unbearably ~; extremely; be dying to do ~"
+  },
+  {
+    "concept": "為(に)・ため(に)",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 447",
+    "english": "On account of ~; for the benefit of ~; for the good of ~; for the sake of ~; on behalf of ~; for the purpose of ~; in order to ~; because of ~; owing to ~"
+  },
+  {
+    "concept": "たら",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 452",
+    "english": "If; when; after"
+  },
+  {
+    "concept": "たらどうですか",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 457",
+    "english": "Why don't you do ~?; what about doing ~?"
+  },
+  {
+    "concept": "たり~たりする",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 458",
+    "english": "Do things like ~ and ~; sometimes ~ and sometimes ~"
+  },
+  {
+    "concept": "たって",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 461",
+    "english": "Even if ~"
+  },
+  {
+    "concept": "て",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 464",
+    "english": "And; -ing"
+  },
+  {
+    "concept": "ても",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 468",
+    "english": "Even if; although"
+  },
+  {
+    "concept": "てもいい",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 471",
+    "english": "May; It is all right if"
+  },
+  {
+    "concept": "と",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 473",
+    "english": "And"
+  },
+  {
+    "concept": "と",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 476",
+    "english": "With; as; from"
+  },
+  {
+    "concept": "と",
+    "subEntry": "3",
+    "volume": "basic",
+    "page": "B. 478",
+    "english": "That; with the sound of; in the manner of"
+  },
+  {
+    "concept": "と",
+    "subEntry": "4",
+    "volume": "basic",
+    "page": "B. 480",
+    "english": "If; when"
+  },
+  {
+    "concept": "と言えば",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 484",
+    "english": "Speaking of ~"
+  },
+  {
+    "concept": "という",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 486",
+    "english": "Called; that says ~; that"
+  },
+  {
+    "concept": "とか",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 488",
+    "english": "And; or"
+  },
+  {
+    "concept": "時・とき",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 490",
+    "english": "At the time when; when"
+  },
+  {
+    "concept": "ところだ",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 495",
+    "english": "~ is (in) a place where it takes ~ to get to"
+  },
+  {
+    "concept": "ところだ",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 496",
+    "english": "Be just about to do something; be in the midst of doing something; have just done something; have been doing something; almost did something"
+  },
+  {
+    "concept": "として",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 501",
+    "english": "As; in the capacity of"
+  },
+  {
+    "concept": "としては",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 502",
+    "english": "For"
+  },
+  {
+    "concept": "つもり",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 503",
+    "english": "Intend to ~; be convinced that ~; believe; feel sure that ~; be going to; mean"
+  },
+  {
+    "concept": "って",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 507",
+    "english": "Speaking of ~"
+  },
+  {
+    "concept": "って",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 510",
+    "english": "That"
+  },
+  {
+    "concept": "うちに",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 512",
+    "english": "While; before; during"
+  },
+  {
+    "concept": "は",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 516",
+    "english": "Talking about ~; as for ~; the"
+  },
+  {
+    "concept": "わ",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 520",
+    "english": ""
+  },
+  {
+    "concept": "は~だ",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 521",
+    "english": ""
+  },
+  {
+    "concept": "は~が",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 525",
+    "english": ""
+  },
+  {
+    "concept": "はいけない",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 528",
+    "english": "Cannot do something; must not do something; don’t do something; should not do something"
+  },
+  {
+    "concept": "分かる・わかる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 529",
+    "english": "Be comprehensible; understand; can tell; figure out"
+  },
+  {
+    "concept": "わけだ",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 531",
+    "english": "No wonder; so it means that ~; that's why; should ~; I take it that ~; naturally"
+  },
+  {
+    "concept": "屋・や",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 535",
+    "english": "Store"
+  },
+  {
+    "concept": "や",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 536",
+    "english": "And"
+  },
+  {
+    "concept": "やはり",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 538",
+    "english": "Still; also; after all; as expected; you know"
+  },
+  {
+    "concept": "易い・やすい",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 541",
+    "english": "Easy to; ready to; be apt to; prone to; do something easily"
+  },
+  {
+    "concept": "ようだ",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 547",
+    "english": "Look like; look as if; be like; appear; seem"
+  },
+  {
+    "concept": "ように",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 553",
+    "english": "So that"
+  },
+  {
+    "concept": "ように",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 554",
+    "english": "As; like"
+  },
+  {
+    "concept": "ように言う",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 556",
+    "english": "Tell ~ to ~; say ~ in such a way"
+  },
+  {
+    "concept": "ようになる",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 559",
+    "english": "Reach the point where ~; come to ~; it has come to be that ~; have finally become"
+  },
+  {
+    "concept": "ようにする",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 562",
+    "english": "Do ~ in such a way that ~; see to it that ~; make sure that ~; bring it about that ~"
+  },
+  {
+    "concept": "より",
+    "subEntry": "1",
+    "volume": "basic",
+    "page": "B. 564",
+    "english": "Than; rather ~ than ~; more ~ than ~"
+  },
+  {
+    "concept": "より",
+    "subEntry": "2",
+    "volume": "basic",
+    "page": "B. 567",
+    "english": "In ~ of; inside; outside; before; after"
+  },
+  {
+    "concept": "ようと思う",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 569",
+    "english": "~ think ~ will"
+  },
+  {
+    "concept": "ずつ",
+    "subEntry": "",
+    "volume": "basic",
+    "page": "B. 572",
+    "english": "By; at a time."
+  }
+]

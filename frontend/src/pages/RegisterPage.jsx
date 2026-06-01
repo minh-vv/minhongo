@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { useMutation } from '@tanstack/react-query';
+import { useMutation, useQuery } from '@tanstack/react-query';
 import { authApi } from '../api/authApi';
+import { systemApi } from '../api/systemApi';
 import { useAuth } from '../hooks/useAuth';
 
 export default function RegisterPage() {
@@ -9,6 +10,14 @@ export default function RegisterPage() {
   const { login } = useAuth();
   const [formData, setFormData] = useState({ name: '', email: '', password: '', confirmPassword: '' });
   const [error, setError] = useState('');
+
+  const { data: publicCfg } = useQuery({
+    queryKey: ['publicSystemConfig'],
+    queryFn: systemApi.getPublicConfig,
+    staleTime: 60_000,
+    retry: 1,
+  });
+  const registrationClosed = publicCfg && publicCfg.allowRegistration === false;
 
   const registerMutation = useMutation({
     mutationFn: ({ email, password, name }) => authApi.register(email, password, name),
@@ -94,6 +103,15 @@ export default function RegisterPage() {
             </Link>
           </p>
 
+          {registrationClosed && (
+            <div className="mb-5 flex items-start gap-2 p-3 bg-amber-50 border border-amber-200 rounded-xl text-sm text-amber-900">
+              <svg className="w-4 h-4 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
+              </svg>
+              <span>Đăng ký tạm thời đã đóng. Vui lòng quay lại sau hoặc liên hệ quản trị viên.</span>
+            </div>
+          )}
+
           {error && (
             <div className="mb-5 flex items-start gap-2 p-3 bg-red-50 border border-red-200 rounded-xl text-sm text-red-700">
               <svg className="w-4 h-4 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -108,28 +126,28 @@ export default function RegisterPage() {
               <label className="block text-sm font-medium text-gray-700 mb-1.5">
                 Họ tên <span className="text-gray-400 font-normal">(tùy chọn)</span>
               </label>
-              <input name="name" type="text" value={formData.name} onChange={handleChange}
+              <input name="name" type="text" value={formData.name} onChange={handleChange} disabled={registrationClosed}
                 placeholder="Nguyễn Văn A" className={inputClass} />
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1.5">Email</label>
-              <input name="email" type="email" required value={formData.email} onChange={handleChange}
+              <input name="email" type="email" required value={formData.email} onChange={handleChange} disabled={registrationClosed}
                 placeholder="you@example.com" className={inputClass} />
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1.5">Mật khẩu</label>
               <input name="password" type="password" required minLength={6} value={formData.password}
-                onChange={handleChange} placeholder="Ít nhất 6 ký tự" className={inputClass} />
+                onChange={handleChange} disabled={registrationClosed} placeholder="Ít nhất 6 ký tự" className={inputClass} />
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1.5">Xác nhận mật khẩu</label>
               <input name="confirmPassword" type="password" required minLength={6}
-                value={formData.confirmPassword} onChange={handleChange} placeholder="••••••••" className={inputClass} />
+                value={formData.confirmPassword} onChange={handleChange} disabled={registrationClosed} placeholder="••••••••" className={inputClass} />
             </div>
 
             <button
               type="submit"
-              disabled={registerMutation.isPending}
+              disabled={registerMutation.isPending || registrationClosed}
               className="w-full py-3 bg-indigo-600 text-white font-semibold rounded-xl hover:bg-indigo-700 disabled:opacity-60 disabled:cursor-not-allowed transition-colors shadow-sm shadow-indigo-200 text-sm mt-2"
             >
               {registerMutation.isPending ? (
