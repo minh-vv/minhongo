@@ -1,218 +1,268 @@
-import { Link, Navigate } from 'react-router-dom';
+import { useNavigate, Link, Navigate } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
-
-const features = [
-  {
-    icon: <span className="text-2xl font-black text-indigo-700" style={{ fontFamily: 'serif' }}>漢</span>,
-    bg: 'bg-indigo-50',
-    title: 'Hán tự theo JLPT',
-    desc: 'Học kanji từ N5 đến N1 với ví dụ câu và bài tập thực tế.',
-    path: '/kanji',
-    color: 'indigo',
-  },
-  {
-    icon: (
-      <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 10h16M4 14h10M4 18h7" />
-      </svg>
-    ),
-    bg: 'bg-blue-50',
-    title: 'Từ vựng có chủ đề',
-    desc: 'Từ vựng nhóm theo chủ đề, kèm phiên âm romaji và câu ví dụ.',
-    path: '/vocabulary',
-    color: 'blue',
-  },
-  {
-    icon: (
-      <svg className="w-6 h-6 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-      </svg>
-    ),
-    bg: 'bg-sky-50',
-    title: 'Ngữ pháp dễ hiểu',
-    desc: 'Giải thích ngữ pháp bằng tiếng Việt, kèm công thức và ví dụ.',
-    path: '/grammar',
-    color: 'sky',
-  },
-  {
-    icon: (
-      <svg className="w-6 h-6 text-violet-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-      </svg>
-    ),
-    bg: 'bg-violet-50',
-    title: 'Lộ trình AI',
-    badge: 'AI',
-    desc: 'AI phân tích trình độ và tạo lộ trình học tối ưu riêng cho bạn.',
-    path: '/roadmap',
-    color: 'violet',
-    requireAuth: true,
-  },
-  {
-    icon: (
-      <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-      </svg>
-    ),
-    bg: 'bg-purple-50',
-    title: 'Tự học & Flashcard',
-    desc: 'Tạo bộ thẻ riêng, import Anki, ôn tập bằng thuật toán SRS.',
-    path: '/self-study',
-    color: 'purple',
-    requireAuth: true,
-  },
-];
-
-const steps = [
-  { num: '01', title: 'Chọn cấp độ', desc: 'Từ N5 cho người mới bắt đầu đến N1 cho trình độ cao.' },
-  { num: '02', title: 'Học mỗi ngày', desc: 'Kanji, từ vựng, ngữ pháp — hệ thống và có định hướng.' },
-  { num: '03', title: 'Ôn tập SRS', desc: 'Thuật toán nhắc ôn đúng lúc, giúp nhớ bền vững lâu dài.' },
-];
+import {
+  IconBook,
+  IconList,
+  IconGlobe,
+  IconLayers,
+  IconArrowRight,
+  IconSparkles,
+  IconStar,
+  IconCheckCircle,
+  IconHeadphones,
+} from '../components/Icons';
 
 export default function HomePage() {
-  const { isAuthenticated } = useAuth();
+  const { isAuthenticated, openLogin, openRegister } = useAuth();
+  const navigate = useNavigate();
 
+  // If already authenticated, redirect to /dashboard
   if (isAuthenticated) {
     return <Navigate to="/dashboard" replace />;
   }
 
+  const guestFeatures = [
+    {
+      path: '/kanji',
+      label: 'Hán tự (Kanji)',
+      desc: 'Học kanji từ N5 đến N1 có câu ví dụ, âm Hán Việt và bài tập kiểm tra.',
+      accent: 'var(--primary)',
+      ghostChar: '漢',
+      icon: <IconBook className="w-5 h-5" />,
+    },
+    {
+      path: '/vocabulary',
+      label: 'Từ vựng chủ đề',
+      desc: 'Kho từ vựng khổng lồ chia theo các chủ đề hữu ích và cấp độ JLPT.',
+      accent: '#1565c0',
+      ghostChar: '語',
+      icon: <IconList className="w-5 h-5" />,
+    },
+    {
+      path: '/grammar',
+      label: 'Ngữ pháp chi tiết',
+      desc: 'Giải thích ngữ pháp rõ ràng bằng tiếng Việt, đi kèm các câu ví dụ cụ thể.',
+      accent: '#006064',
+      ghostChar: '文',
+      icon: <IconBook className="w-5 h-5" />,
+    },
+    {
+      path: '/browse',
+      label: 'Khóa học tiếng Nhật',
+      desc: 'Xem và ôn luyện các bài học theo giáo trình tiếng Nhật chính thống.',
+      accent: 'var(--secondary)',
+      ghostChar: '課',
+      icon: <IconGlobe className="w-5 h-5" />,
+    },
+  ];
+
   return (
-    <div className="bg-white">
-      {/* ── HERO ─────────────────────────────────────────────── */}
-      <section className="py-20 px-6 bg-gradient-to-b from-indigo-50/70 to-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <span className="inline-flex items-center gap-2 px-3 py-1.5 bg-indigo-100 text-indigo-700 text-xs font-semibold rounded-full mb-6">
-            <span className="w-1.5 h-1.5 bg-indigo-500 rounded-full animate-pulse" />
-            Nền tảng học tiếng Nhật cho người Việt
-          </span>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-5">
-            Học tiếng Nhật{' '}
-            <span className="text-indigo-600">đúng hướng</span>,<br />
-            nhớ lâu hơn mỗi ngày
+    <div className="max-w-6xl mx-auto w-full p-6 md:p-8 space-y-10 md:space-y-12">
+      {/* ── HERO BANNER ── */}
+      <section className="relative overflow-hidden animate-fade-up border border-outline-variant/30 sharp-shadow rounded-2xl bg-surface-container-lowest">
+        {/* Decorative elements */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 60%, #0c144e 100%)',
+          }}
+        />
+        <div className="absolute inset-0 asanoha-bg opacity-[0.15] pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-0 w-1.5" style={{ background: 'var(--secondary)' }} />
+
+        {/* Hero Content */}
+        <div className="relative z-10 p-8 md:p-12 flex flex-col justify-center min-h-[260px] md:min-h-[300px] text-white">
+          <div
+            className="inline-flex items-center gap-2 bg-white/10 px-3 py-1.5 w-fit mb-5"
+            style={{ backdropFilter: 'blur(4px)' }}
+          >
+            <span className="w-1.5 h-1.5 rotate-45 flex-shrink-0" style={{ background: 'var(--secondary)' }} />
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/90">
+              Cổng học tập Minhongo
+            </span>
+          </div>
+
+          <h1 className="font-headline text-3xl md:text-4xl font-extrabold text-white mb-4 leading-tight">
+            Học tiếng Nhật đúng hướng,<br />
+            ghi nhớ hiệu quả mỗi ngày
           </h1>
-          <p className="text-lg text-gray-500 mb-8 max-w-xl mx-auto leading-relaxed">
-            Hán tự, từ vựng và ngữ pháp có hệ thống. Lộ trình AI cá nhân hóa.
-            Thuật toán SRS giúp bạn không bao giờ quên những gì đã học.
+
+          <p className="text-white/70 text-sm max-w-xl leading-relaxed mb-8">
+            Hệ thống ôn luyện Hán tự, từ vựng và ngữ pháp tiếng Nhật một cách khoa học.
+            Hoàn toàn miễn phí cho các bài học cơ bản, không yêu cầu đăng ký ban đầu.
           </p>
 
-          <div className="flex flex-wrap justify-center gap-3 mb-10">
-            <Link
-              to="/register"
-              className="px-7 py-3 bg-indigo-600 text-white font-semibold rounded-xl hover:bg-indigo-700 transition-colors shadow-md shadow-indigo-200 text-sm"
+          <div className="flex flex-wrap gap-3">
+            <button
+              onClick={openRegister}
+              className="px-6 py-2.5 bg-secondary hover:bg-secondary-dim text-white text-xs font-bold uppercase tracking-wider rounded transition cursor-pointer flex items-center gap-1.5"
             >
-              Học miễn phí ngay
-            </Link>
-            <Link
-              to="/browse"
-              className="px-7 py-3 bg-white text-indigo-700 font-semibold rounded-xl border-2 border-indigo-200 hover:border-indigo-300 hover:bg-indigo-50 transition-colors text-sm flex items-center gap-1.5"
+              Bắt đầu miễn phí
+              <IconArrowRight className="w-3.5 h-3.5" />
+            </button>
+            <button
+              onClick={openLogin}
+              className="px-6 py-2.5 bg-white/10 hover:bg-white/20 text-white text-xs font-bold uppercase tracking-wider rounded border border-white/20 transition cursor-pointer"
             >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-              </svg>
-              Thử flashcard ngay
-            </Link>
+              Đã có tài khoản
+            </button>
           </div>
+        </div>
 
-          <div className="flex flex-wrap justify-center gap-5 text-sm text-gray-500">
-            {['Miễn phí hoàn toàn', 'Không cần cài đặt', 'Tiếng Việt 100%'].map((t) => (
-              <span key={t} className="flex items-center gap-1.5">
-                <svg className="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                {t}
-              </span>
-            ))}
-          </div>
+        {/* Large decorative Kanji watermark */}
+        <div
+          className="absolute -right-6 -bottom-8 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none"
+          style={{ fontSize: '220px' }}
+        >
+          日
         </div>
       </section>
 
-      {/* ── FEATURES ─────────────────────────────────────────── */}
-      <section className="py-16 px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-10">
-            <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-2">
-              5 tính năng trong một nền tảng
-            </h2>
-            <p className="text-gray-500 text-sm">
-              Chọn một tab bất kỳ ở trên để bắt đầu — 3 tab đầu hoàn toàn miễn phí, không cần đăng nhập.
-            </p>
-          </div>
+      {/* ── QUICK START (PUBLIC FEATURES) ── */}
+      <section className="space-y-6">
+        <div className="flex items-center gap-3">
+          <div className="w-1.5 h-6 flex-shrink-0" style={{ background: 'var(--secondary)' }} />
+          <h2 className="text-lg font-headline font-bold text-on-surface">
+            Bắt đầu học miễn phí
+          </h2>
+          <div className="flex-1 h-px bg-gradient-to-r from-outline-variant/30 to-transparent ml-1" />
+        </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {features.map((f) => (
-              <Link
-                key={f.path}
-                to={f.path}
-                className="group relative bg-white rounded-2xl border-2 border-gray-100 hover:border-indigo-200 hover:shadow-lg hover:shadow-indigo-50 transition-all p-5"
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {guestFeatures.map((feat, i) => (
+            <div
+              key={feat.path}
+              className="animate-fade-up"
+              style={{ animationDelay: `${i * 80}ms` }}
+            >
+              <button
+                onClick={() => navigate(feat.path)}
+                className="group relative flex flex-col p-5 md:p-6 bg-surface-container-lowest overflow-hidden transition-all hover:sharp-shadow active:scale-[0.98] h-full w-full text-left border border-outline-variant/30 rounded-xl"
               >
-                {f.requireAuth && (
-                  <span className="absolute top-4 right-4 flex items-center gap-1 text-[10px] text-gray-400 font-medium">
-                    <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                    </svg>
-                    Cần đăng nhập
-                  </span>
-                )}
-                <div className={`w-11 h-11 ${f.bg} rounded-xl flex items-center justify-center mb-3`}>
-                  {f.icon}
+                {/* Accent top line on hover */}
+                <div
+                  className="absolute top-0 left-0 right-0 h-1 opacity-0 group-hover:opacity-100 transition-opacity"
+                  style={{ background: feat.accent }}
+                />
+
+                {/* Feature Icon */}
+                <div
+                  className="p-3 w-fit mb-5 text-white transition-transform group-hover:scale-110 group-hover:rotate-[-3deg] rounded-lg"
+                  style={{ background: feat.accent }}
+                >
+                  {feat.icon}
                 </div>
-                <h3 className="font-bold text-gray-900 mb-1 flex items-center gap-1.5 text-sm">
-                  {f.title}
-                  {f.badge && (
-                    <span className="px-1.5 py-0.5 bg-amber-400 text-amber-900 text-[9px] font-black rounded-full">AI</span>
-                  )}
+
+                {/* Text Content */}
+                <h3 className="font-headline font-bold text-on-surface mb-2 text-sm md:text-base flex items-center justify-between w-full">
+                  {feat.label}
+                  <IconArrowRight className="w-3.5 h-3.5 text-on-surface-variant opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all" />
                 </h3>
-                <p className="text-gray-500 text-xs leading-relaxed">{f.desc}</p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+                
+                <p className="text-xs text-on-surface-variant leading-relaxed flex-1">
+                  {feat.desc}
+                </p>
 
-      {/* ── HOW IT WORKS ─────────────────────────────────────── */}
-      <section className="py-16 px-6 bg-gray-50/60">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl font-extrabold text-gray-900 mb-10">Bắt đầu trong 3 bước đơn giản</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {steps.map((s, i) => (
-              <div key={i}>
-                <div className="w-12 h-12 bg-indigo-600 text-white rounded-2xl flex items-center justify-center text-lg font-bold mx-auto mb-3 shadow-md shadow-indigo-200">
-                  {s.num}
+                {/* Decorative Kanji watermark */}
+                <div
+                  className="absolute -right-3 -bottom-3 opacity-[0.03] group-hover:opacity-[0.07] transition-opacity pointer-events-none font-jp font-bold leading-none text-on-surface select-none"
+                  style={{ fontSize: '80px' }}
+                >
+                  {feat.ghostChar}
                 </div>
-                <h3 className="font-bold text-gray-900 mb-1 text-sm">{s.title}</h3>
-                <p className="text-gray-500 text-xs leading-relaxed">{s.desc}</p>
-              </div>
-            ))}
-          </div>
+              </button>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* ── CTA ──────────────────────────────────────────────── */}
-      <section className="py-16 px-6">
-        <div className="max-w-2xl mx-auto">
-          <div className="bg-gradient-to-br from-indigo-600 to-violet-600 rounded-3xl p-10 text-white text-center shadow-xl shadow-indigo-200">
-            <div className="text-4xl font-black mb-3 select-none" style={{ fontFamily: 'serif' }}>
-              日本語
+      {/* ── BENEFITS OF SIGNING UP ── */}
+      <section className="grid grid-cols-1 md:grid-cols-5 gap-6">
+        {/* Left Column: Benefits list */}
+        <div className="md:col-span-3 bg-surface-container-low border border-outline-variant/30 rounded-2xl p-6 md:p-8 flex flex-col justify-between animate-fade-up">
+          <div>
+            <div className="flex items-center gap-2 mb-4">
+              <IconSparkles className="w-5 h-5 text-amber-500 animate-pulse" />
+              <h3 className="text-base font-bold uppercase tracking-wider text-on-surface">
+                Tính năng thành viên vượt trội
+              </h3>
             </div>
-            <h2 className="text-2xl font-extrabold mb-2">Sẵn sàng bắt đầu chưa?</h2>
-            <p className="text-indigo-200 text-sm mb-6">
-              Tạo tài khoản miễn phí và bắt đầu ngay hôm nay.
+            
+            <p className="text-xs text-on-surface-variant mb-6">
+              Đăng ký tài khoản miễn phí trong 30 giây để kích hoạt các công cụ học tập thông minh nhất:
             </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link
-                to="/register"
-                className="px-6 py-2.5 bg-white text-indigo-600 font-bold rounded-xl hover:bg-gray-50 transition-all text-sm"
-              >
-                Đăng ký miễn phí
-              </Link>
-              <Link
-                to="/browse"
-                className="px-6 py-2.5 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 border border-white/20 transition-all text-sm"
-              >
-                Duyệt khóa học
-              </Link>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {[
+                {
+                  title: 'Lộ trình cá nhân hóa AI',
+                  desc: 'Hệ thống tự động phân tích điểm mạnh/yếu để định hướng bài học mỗi ngày.',
+                },
+                {
+                  title: 'Học Flashcard SRS',
+                  desc: 'Thuật toán lặp lại ngắt quãng tối ưu thời gian ôn tập, giúp nhớ từ vựng vĩnh viễn.',
+                },
+                {
+                  title: 'Báo cáo & thống kê',
+                  desc: 'Theo dõi tiến trình học chi tiết, duy trì chuỗi streak học tập hàng ngày.',
+                },
+                {
+                  title: 'Luyện nghe & Luyện nói',
+                  desc: 'Trải nghiệm các nội dung nghe nâng cao và chat AI sửa lỗi câu.',
+                },
+              ].map((item, idx) => (
+                <div key={idx} className="flex gap-2.5">
+                  <IconCheckCircle className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <h4 className="text-xs font-bold text-on-surface">{item.title}</h4>
+                    <p className="text-[10px] text-on-surface-variant leading-relaxed mt-0.5">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
             </div>
+          </div>
+
+          <div className="mt-8 border-t border-outline-variant/30 pt-5 flex items-center justify-between flex-wrap gap-4">
+            <span className="text-[10px] text-on-surface-variant font-medium">
+              🎁 Hoàn toàn miễn phí · Không cần thẻ tín dụng
+            </span>
+            <button
+              onClick={openRegister}
+              className="px-5 py-2 bg-secondary hover:bg-secondary-dim text-white text-xs font-bold uppercase tracking-wider rounded transition cursor-pointer"
+            >
+              Đăng ký ngay
+            </button>
+          </div>
+        </div>
+
+        {/* Right Column: Premium callout banner */}
+        <div className="md:col-span-2 bg-gradient-to-br from-[#1a237e] to-[#0c144e] text-white border border-[#1a237e]/30 rounded-2xl p-6 md:p-8 flex flex-col justify-between relative overflow-hidden animate-fade-up delay-100">
+          <div className="absolute inset-0 asanoha-bg opacity-10 pointer-events-none" />
+          
+          <div className="relative z-10">
+            <div className="p-2.5 bg-white/10 w-fit mb-5 rounded-lg" style={{ backdropFilter: 'blur(4px)' }}>
+              <IconStar className="w-5 h-5 text-amber-300" />
+            </div>
+            <h3 className="text-xl font-headline font-bold text-white mb-2">
+              Chinh phục Tiếng Nhật
+            </h3>
+            <p className="text-indigo-200 text-xs leading-relaxed">
+              Minhongo đồng hành cùng bạn trên con đường từ con số 0 đến làm chủ các chứng chỉ JLPT N5, N4, N3, N2, N1.
+            </p>
+          </div>
+
+          <button
+            onClick={openLogin}
+            className="relative z-10 mt-8 w-full py-2.5 bg-white hover:bg-indigo-50 text-indigo-900 font-bold text-xs uppercase tracking-wider rounded transition cursor-pointer text-center"
+          >
+            Đăng nhập tài khoản
+          </button>
+
+          <div
+            className="absolute -right-4 -bottom-6 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none"
+            style={{ fontSize: '130px' }}
+          >
+            学
           </div>
         </div>
       </section>

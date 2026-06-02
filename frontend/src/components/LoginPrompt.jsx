@@ -1,8 +1,7 @@
-import { Link, useLocation } from 'react-router-dom';
+import { useAuth } from '../hooks/useAuth';
 
 export default function LoginPrompt({ title, description, ghostChar = '錠' }) {
-  const location = useLocation();
-  const returnTo = encodeURIComponent(location.pathname);
+  const { openLogin, openRegister } = useAuth();
 
   return (
     <div className="max-w-2xl mx-auto w-full p-6 md:p-8">
@@ -44,22 +43,22 @@ export default function LoginPrompt({ title, description, ghostChar = '錠' }) {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3">
-            <Link
-              to={`/login?return=${returnTo}`}
-              className="px-7 py-2.5 text-sm font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors inline-flex items-center justify-center gap-2"
+            <button
+              onClick={openLogin}
+              className="px-7 py-2.5 text-sm font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors inline-flex items-center justify-center gap-2 cursor-pointer"
               style={{ background: 'var(--secondary)' }}
             >
               Đăng nhập
               <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m-7-7 7 7-7 7" />
               </svg>
-            </Link>
-            <Link
-              to="/register"
-              className="px-7 py-2.5 text-sm font-bold uppercase tracking-wider text-on-surface bg-surface-container hover:bg-surface-container-high transition-colors"
+            </button>
+            <button
+              onClick={openRegister}
+              className="px-7 py-2.5 text-sm font-bold uppercase tracking-wider text-on-surface bg-surface-container hover:bg-surface-container-high transition-colors cursor-pointer"
             >
               Tạo tài khoản miễn phí
-            </Link>
+            </button>
           </div>
         </div>
 
@@ -72,3 +71,4 @@ export default function LoginPrompt({ title, description, ghostChar = '錠' }) {
     </div>
   );
 }
+

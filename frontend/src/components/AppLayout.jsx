@@ -3,6 +3,7 @@ import { NavLink, Outlet, useNavigate, Link } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { useAuth } from '../hooks/useAuth';
 import { systemApi } from '../api/systemApi';
+import AuthModal from './AuthModal';
 import {
   IconHome, IconGlobe, IconList, IconBook, IconMap, IconLayers,
   IconChart, IconTrophy, IconPeople, IconStar, IconShield,
@@ -30,7 +31,7 @@ const navItems = [
 ];
 
 export default function AppLayout() {
-  const { isAuthenticated, user, logout } = useAuth();
+  const { isAuthenticated, user, logout, openLogin, openRegister } = useAuth();
   const navigate = useNavigate();
   const [dropdownOpen, setDropdownOpen]   = useState(false);
   const [settingsOpen, setSettingsOpen]   = useState(false);
@@ -127,12 +128,19 @@ export default function AppLayout() {
           </div>
         ) : (
           <div className="flex items-center gap-3">
-            <Link to="/login" className="text-sm text-on-surface-variant hover:text-on-surface transition-colors">Đăng nhập</Link>
-            <Link to="/register"
-              className="px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors"
-              style={{ background: 'var(--secondary)' }}>
+            <button
+              onClick={openLogin}
+              className="text-sm text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer"
+            >
+              Đăng nhập
+            </button>
+            <button
+              onClick={openRegister}
+              className="px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors cursor-pointer"
+              style={{ background: 'var(--secondary)' }}
+            >
               Đăng ký
-            </Link>
+            </button>
           </div>
         )}
       </header>
@@ -324,6 +332,7 @@ export default function AppLayout() {
           <Outlet />
         </main>
       </div>
+      <AuthModal />
     </div>
   );
 }
