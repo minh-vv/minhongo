@@ -162,8 +162,21 @@ export default function FlashcardStudy({ deck, onComplete }) {
               Mặt sau
             </div>
 
+            <div className="relative z-10 flex flex-col items-center justify-center">
+              <p className="text-[10px] font-bold uppercase tracking-widest mb-1" style={{ color: 'rgba(255,255,255,0.6)' }}>Tiếng Nhật</p>
+              <p className="font-jp text-3xl md:text-4xl font-bold text-center mb-1 leading-normal text-white" style={{ color: '#ffffff' }}>
+                {currentCard.front}
+              </p>
+              {currentCard.romaji && (
+                <p className="text-xs text-white/70 tracking-wide mb-3" style={{ color: 'rgba(255,255,255,0.7)' }}>{currentCard.romaji}</p>
+              )}
+            </div>
+
+            <div className="relative z-10 w-12 h-px bg-white/20 mb-3" />
+
+            <p className="text-[10px] font-bold uppercase tracking-widest mb-1" style={{ color: 'rgba(255,255,255,0.6)' }}>Nghĩa tiếng Việt</p>
             <p
-              className="relative z-10 text-3xl md:text-4xl font-bold text-center mb-6 leading-relaxed"
+              className="relative z-10 text-2xl md:text-3xl font-bold text-center mb-4 leading-relaxed text-white"
               style={{ color: '#ffffff' }}
             >
               {currentCard.back}
@@ -171,7 +184,7 @@ export default function FlashcardStudy({ deck, onComplete }) {
 
             {currentCard.example && (
               <div
-                className="relative z-10 mt-2 p-5 w-full max-w-sm"
+                className="relative z-10 p-4 w-full max-w-sm"
                 style={{
                   background: 'rgba(255,255,255,0.12)',
                   border: '1px solid rgba(255,255,255,0.2)',
@@ -183,7 +196,7 @@ export default function FlashcardStudy({ deck, onComplete }) {
                 >
                   Ví dụ câu
                 </p>
-                <p className="text-base md:text-lg font-medium leading-relaxed font-jp" style={{ color: '#ffffff' }}>
+                <p className="text-sm md:text-base font-medium leading-relaxed font-jp" style={{ color: '#ffffff' }}>
                   {currentCard.example}
                 </p>
               </div>

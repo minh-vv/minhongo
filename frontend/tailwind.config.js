@@ -7,7 +7,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['"Plus Jakarta Sans"', '"Noto Sans JP"', 'system-ui', '-apple-system', 'sans-serif'],
+        serif: ['"Noto Serif JP"', '"Yu Mincho"', 'serif'],
+      },
+    },
   },
   plugins: [tailwindcssTypography],
 }

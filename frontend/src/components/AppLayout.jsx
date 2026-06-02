@@ -22,10 +22,8 @@ const navItems = [
   { path: '/vocabulary', label: 'Từ vựng',                 icon: <IconList /> },
   { path: '/grammar',    label: 'Ngữ pháp',                icon: <IconBook /> },
   { path: '/listening',  label: 'Luyện nghe',              icon: <IconHeadphones /> },
-  { path: '/ai-chat',    label: 'Luyện Chat AI',           icon: <IconBot />,    badge: 'Mới' },
   { path: '/roadmap',    label: 'Lộ trình',                icon: <IconMap /> },
   { path: '/self-study', label: 'Kho cá nhân',           icon: <IconLayers /> },
-  { path: '/progress',   label: 'Tiến độ học',             icon: <IconChart /> },
   { path: '/community',  label: 'Cộng đồng',               icon: <IconPeople /> },
 ];
 
@@ -71,13 +69,21 @@ export default function AppLayout() {
 
       {/* ── FIXED HEADER ──────────────────────────────────────── */}
       <header className="fixed top-0 w-full z-40 glass-panel flex justify-between items-center px-5 py-2.5">
-        <Link to="/" className="text-base font-black text-on-surface tracking-tight font-headline flex items-center gap-2">
-          <img src="/logo_main.png" alt="Minhongo" className="w-6 h-6 object-contain" />
-          Minhongo
+        <Link to="/" className="flex items-center">
+          <img src="/logo_main.png" alt="Minhongo" className="h-9 w-auto object-contain" />
         </Link>
 
         {isAuthenticated ? (
           <div className="flex items-center gap-2">
+            {/* Progress Link next to avatar */}
+            <Link
+              to="/progress"
+              className="p-1.5 hover:bg-surface-container transition-colors text-on-surface-variant hover:text-on-surface flex items-center justify-center"
+              title="Tiến độ học"
+            >
+              <IconChart className="w-5 h-5" />
+            </Link>
+
             {/* Leaderboard Link next to avatar */}
             <Link
               to="/leaderboard"

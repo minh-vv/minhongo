@@ -10,6 +10,25 @@ const REVIEW_QUALITY = {
   EASY: 3,
 };
 
+const getNextInterval = (card, quality) => {
+  const progress = card?.progress;
+  const easeFactor = progress?.easeFactor ?? 2.5;
+  const interval = progress?.interval ?? 0;
+  const repetitions = progress?.repetitions ?? 0;
+
+  if (quality < 2) {
+    return 1;
+  } else {
+    if (repetitions === 0) {
+      return 1;
+    } else if (repetitions === 1) {
+      return 6;
+    } else {
+      return Math.max(1, Math.round(interval * easeFactor));
+    }
+  }
+};
+
 export default function SRSStudy({ dueData, onComplete }) {
   const navigate = useNavigate();
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -185,7 +204,18 @@ export default function SRSStudy({ dueData, onComplete }) {
             }}
           >
             <div className="absolute inset-0 asanoha-bg opacity-10 pointer-events-none" />
-            <p className="text-[10px] font-bold uppercase tracking-widest text-white/60 mb-2" style={{ color: 'rgba(255,255,255,0.6)' }}>Nghĩa tiếng Việt</p>
+            
+            <p className="text-[10px] font-bold uppercase tracking-widest text-white/60 mb-1" style={{ color: 'rgba(255,255,255,0.6)' }}>Tiếng Nhật</p>
+            <p className="font-jp text-3xl md:text-4xl font-bold text-center mb-1 leading-normal text-white" style={{ color: '#ffffff' }}>
+              {currentCard.front}
+            </p>
+            {currentCard.romaji && (
+              <p className="text-xs text-white/70 tracking-wide mb-3" style={{ color: 'rgba(255,255,255,0.7)' }}>{currentCard.romaji}</p>
+            )}
+
+            <div className="w-12 h-px bg-white/20 mb-3" />
+
+            <p className="text-[10px] font-bold uppercase tracking-widest text-white/60 mb-1" style={{ color: 'rgba(255,255,255,0.6)' }}>Nghĩa tiếng Việt</p>
             <p className="text-2xl md:text-3xl font-bold text-center mb-4 leading-relaxed text-white" style={{ color: '#ffffff' }}>
               {currentCard.back}
             </p>
@@ -228,7 +258,7 @@ export default function SRSStudy({ dueData, onComplete }) {
             >
               <span className="block text-sm font-bold uppercase tracking-wider">Hard</span>
               <span className="block text-[10px] opacity-80 mt-0.5">
-                {lastResult?.interval || '?'} ngày
+                {getNextInterval(currentCard, REVIEW_QUALITY.HARD)} ngày
               </span>
             </button>
             <button
@@ -238,7 +268,7 @@ export default function SRSStudy({ dueData, onComplete }) {
             >
               <span className="block text-sm font-bold uppercase tracking-wider">Good</span>
               <span className="block text-[10px] opacity-80 mt-0.5">
-                {lastResult?.interval || '?'} ngày
+                {getNextInterval(currentCard, REVIEW_QUALITY.GOOD)} ngày
               </span>
             </button>
             <button
@@ -248,7 +278,7 @@ export default function SRSStudy({ dueData, onComplete }) {
             >
               <span className="block text-sm font-bold uppercase tracking-wider">Easy</span>
               <span className="block text-[10px] opacity-80 mt-0.5">
-                {lastResult?.interval || '?'} ngày
+                {getNextInterval(currentCard, REVIEW_QUALITY.EASY)} ngày
               </span>
             </button>
           </div>
