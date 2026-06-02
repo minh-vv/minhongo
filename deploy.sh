@@ -135,16 +135,20 @@ echo ""
 
 # ── Summary ───────────────────────────────────────────────────────────────────
 FRONTEND_PORT="${FRONTEND_PORT:-80}"
+REAL_FRONTEND="${FRONTEND_URL:-http://localhost:${FRONTEND_PORT}}"
+REAL_BACKEND="${VITE_API_URL:-http://localhost:${BACKEND_PORT}}"
+
 echo ""
 success "═══════════════════════════════════════════════════════════════"
 success "  Minhongo deployed successfully!"
 success "═══════════════════════════════════════════════════════════════"
 echo ""
-info "  Frontend:  http://localhost:${FRONTEND_PORT}"
-info "  Backend:   http://localhost:${BACKEND_PORT}"
-info "  Health:    http://localhost:${BACKEND_PORT}/health"
+info "  Frontend:  ${REAL_FRONTEND}"
+info "  Backend:   ${REAL_BACKEND}"
+info "  Health:    ${REAL_BACKEND}/health"
 echo ""
 info "  Logs:      docker compose logs -f"
 info "  Stop:      docker compose down"
 info "  Rollback:  ./rollback.sh"
 echo ""
+
