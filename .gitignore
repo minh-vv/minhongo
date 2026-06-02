@@ -35,3 +35,6 @@ coverage/
 # Misc
 *.tgz
 .cache/
+
+# Local deployment documentation
+deploy-commands.md
