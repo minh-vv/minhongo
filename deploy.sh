@@ -112,7 +112,7 @@ BACKEND_PORT="${BACKEND_PORT:-3000}"
 MAX_RETRIES=30
 RETRY_INTERVAL=5
 for i in $(seq 1 $MAX_RETRIES); do
-  if curl -sf "http://localhost:${BACKEND_PORT}/health" > /dev/null 2>&1; then
+  if curl -sf "http://localhost:${BACKEND_PORT}/api/health" > /dev/null 2>&1; then
     success "Backend is healthy (attempt $i/$MAX_RETRIES)"
     break
   fi
@@ -132,8 +132,8 @@ done
 # Show health response
 echo ""
 info "Health check response:"
-curl -s "http://localhost:${BACKEND_PORT}/health" | python3 -m json.tool 2>/dev/null || \
-  curl -s "http://localhost:${BACKEND_PORT}/health"
+curl -s "http://localhost:${BACKEND_PORT}/api/health" | python3 -m json.tool 2>/dev/null || \
+  curl -s "http://localhost:${BACKEND_PORT}/api/health"
 echo ""
 
 # Check all containers are running
