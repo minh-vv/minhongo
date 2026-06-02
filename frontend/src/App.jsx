@@ -27,7 +27,6 @@ import AdminSettingsPage from './pages/AdminSettingsPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import ResetPasswordPage from './pages/ResetPasswordPage';
 import ProfilePage from './pages/ProfilePage';
-import BrowsePage from './pages/BrowsePage';
 import DemoPage from './pages/DemoPage';
 import ExercisePage from './pages/ExercisePage';
 import ProgressPage from './pages/ProgressPage';
@@ -90,7 +89,6 @@ function AppRoutes() {
         <Route path="/admin/courses" element={<AdminCoursesPage />} />
         <Route path="/admin/settings" element={<AdminSettingsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/browse" element={<BrowsePage />} />
         <Route path="/demo/:deckId" element={<DemoPage />} />
         <Route path="/exercises/:deckId" element={<ExercisePage />} />
         <Route path="/progress" element={<ProgressPage />} />

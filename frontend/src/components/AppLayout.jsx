@@ -18,7 +18,6 @@ const LANGUAGES = [
 
 const navItems = [
   { path: '/dashboard',  label: 'Trang chủ',    end: true, icon: <IconHome /> },
-  { path: '/browse',     label: 'Khóa học',                icon: <IconGlobe />,  badge: 'Mới' },
   { path: '/kanji',      label: 'Hán tự',                  icon: <IconKanji /> },
   { path: '/vocabulary', label: 'Từ vựng',                 icon: <IconList /> },
   { path: '/grammar',    label: 'Ngữ pháp',                icon: <IconBook /> },

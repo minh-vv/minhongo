@@ -46,14 +46,6 @@ export default function HomePage() {
       ghostChar: '文',
       icon: <IconBook className="w-5 h-5" />,
     },
-    {
-      path: '/browse',
-      label: 'Khóa học tiếng Nhật',
-      desc: 'Xem và ôn luyện các bài học theo giáo trình tiếng Nhật chính thống.',
-      accent: 'var(--secondary)',
-      ghostChar: '課',
-      icon: <IconGlobe className="w-5 h-5" />,
-    },
   ];
 
   return (
@@ -128,7 +120,7 @@ export default function HomePage() {
           <div className="flex-1 h-px bg-gradient-to-r from-outline-variant/30 to-transparent ml-1" />
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {guestFeatures.map((feat, i) => (
             <div
               key={feat.path}
