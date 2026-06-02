@@ -55,19 +55,27 @@ success "Required environment variables are set"
 if [ "${JWT_SECRET}" = "replace_with_a_long_random_secret" ] || [ "${JWT_SECRET}" = "your-super-secret-jwt-key-change-in-production" ]; then
   warn "JWT_SECRET is still the default value. Generate a proper secret:"
   echo "  node -e \"console.log(require('crypto').randomBytes(64).toString('hex'))\""
-  read -p "Continue anyway? (y/N) " -n 1 -r
-  echo
-  if [[ ! $REPLY =~ ^[Yy]$ ]]; then
-    exit 1
+  if [ "${NON_INTERACTIVE:-false}" = "true" ]; then
+    warn "Non-interactive mode active. Continuing with default/weak JWT_SECRET."
+  else
+    read -p "Continue anyway? (y/N) " -n 1 -r
+    echo
+    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+      exit 1
+    fi
   fi
 fi
 
 if [ "${POSTGRES_PASSWORD}" = "changeme_strong_password" ] || [ "${POSTGRES_PASSWORD}" = "123456" ]; then
   warn "POSTGRES_PASSWORD is weak. Use a strong password for production!"
-  read -p "Continue anyway? (y/N) " -n 1 -r
-  echo
-  if [[ ! $REPLY =~ ^[Yy]$ ]]; then
-    exit 1
+  if [ "${NON_INTERACTIVE:-false}" = "true" ]; then
+    warn "Non-interactive mode active. Continuing with default/weak POSTGRES_PASSWORD."
+  else
+    read -p "Continue anyway? (y/N) " -n 1 -r
+    echo
+    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+      exit 1
+    fi
   fi
 fi
 
