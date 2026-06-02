@@ -1,5 +1,5 @@
 # ─── Stage 1: Build ───────────────────────────────────────────────────────────
-FROM node:20-alpine AS builder
+FROM node:22-alpine AS builder
 WORKDIR /app
 
 # build-base + python3 needed to compile bcrypt and better-sqlite3
@@ -15,7 +15,7 @@ RUN npx prisma generate && npm run build
 
 
 # ─── Stage 2: Production ──────────────────────────────────────────────────────
-FROM node:20-alpine AS runner
+FROM node:22-alpine AS runner
 WORKDIR /app
 
 # Same build tools needed to recompile native addons for this exact environment
