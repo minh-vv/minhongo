@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "minna-n5",
+    "title": "Minna no Nihongo I — JLPT N5",
+    "description": "Lộ trình học tiếng Nhật cho người mới bắt đầu, bám cấu trúc 25 bài của Minna no Nihongo I. MVP hiện có 5 bài đầu.",
+    "jlptLevel": 5,
+    "textbookRef": "Minna no Nihongo I",
+    "isDefault": true,
+    "isPublic": true
+  },
+  {
+    "slug": "minna-n4",
+    "title": "Minna no Nihongo II — JLPT N4",
+    "description": "Lộ trình học từ vựng và lý thuyết cấp độ JLPT N4 theo giáo trình Minna no Nihongo II (Bài 26 → 50).",
+    "jlptLevel": 4,
+    "textbookRef": "Minna no Nihongo II",
+    "isDefault": true,
+    "isPublic": true
+  },
+  {
+    "slug": "jlpt-n3",
+    "title": "JLPT N3 — Lộ trình học tổng hợp",
+    "description": "Lộ trình từ vựng và ngữ pháp tổng hợp chuẩn JLPT N3 biên soạn theo giáo trình Soumatome & Shinkanzen Master N3.",
+    "jlptLevel": 3,
+    "textbookRef": "Soumatome & Shinkanzen N3",
+    "isDefault": true,
+    "isPublic": true
+  },
+  {
+    "slug": "jlpt-n2",
+    "title": "JLPT N2 — Lộ trình học tổng hợp",
+    "description": "Lộ trình từ vựng và ngữ pháp nâng cao cấp độ JLPT N2 biên soạn theo giáo trình Soumatome & Shinkanzen Master N2.",
+    "jlptLevel": 2,
+    "textbookRef": "Soumatome & Shinkanzen N2",
+    "isDefault": true,
+    "isPublic": true
+  },
+  {
+    "slug": "shinkansen-n2-bunpou",
+    "title": "Shinkanzen Master N2 — Ngữ pháp",
+    "description": "Khóa học ôn luyện ngữ pháp JLPT N2 bám sát giáo trình Shinkanzen Master bản dịch tiếng Việt.",
+    "jlptLevel": 2,
+    "textbookRef": "Shinkanzen Master N2",
+    "isDefault": false,
+    "isPublic": true
+  },
+  {
+    "slug": "jlpt-n1",
+    "title": "JLPT N1 — Lộ trình học tổng hợp",
+    "description": "Lộ trình từ vựng và lý thuyết cao cấp nhất cấp độ JLPT N1 biên soạn theo giáo trình Soumatome & Shinkanzen Master N1.",
+    "jlptLevel": 1,
+    "textbookRef": "Soumatome & Shinkanzen N1",
+    "isDefault": true,
+    "isPublic": true
+  }
+]
