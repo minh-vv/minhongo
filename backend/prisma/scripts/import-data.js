@@ -1,12 +1,12 @@
-import { PrismaClient, DeckCategory } from '@prisma/client';
-import * as fs from 'fs';
-import * as path from 'path';
-import 'dotenv/config';
+const { PrismaClient } = require('@prisma/client');
+const fs = require('fs');
+const path = require('path');
+require('dotenv/config');
 
 const prisma = new PrismaClient();
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
-function getDeckId(courseSlug: string, lessonOrder: number, deckRole: string): string {
+function getDeckId(courseSlug, lessonOrder, deckRole) {
   const roleLower = deckRole.toLowerCase();
   if (courseSlug === 'shinkansen-n2-bunpou') {
     return `shinkansen-n2-bai-${lessonOrder}-${roleLower}`;
@@ -181,7 +181,7 @@ async function main() {
           },
         });
 
-        let firstDeckId: string | null = null;
+        let firstDeckId = null;
 
         // Upsert Decks & Cards trong lesson
         for (const ld of lessonData.decks) {

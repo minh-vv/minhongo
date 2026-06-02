@@ -19,7 +19,7 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "seed": "ts-node prisma/seed.ts",
-    "import:data": "ts-node prisma/scripts/import-data.ts",
+    "import:data": "node prisma/scripts/import-data.js",
     "crawl:jisho": "ts-node prisma/scripts/crawl-jisho.ts",
     "build:lessons": "ts-node prisma/scripts/build-lessons.ts",
     "generate:theory": "ts-node prisma/scripts/generate-theory.ts",
