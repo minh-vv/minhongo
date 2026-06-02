@@ -47,7 +47,7 @@ const quickCards = [
     icon: <IconBook className="w-5 h-5" />,
   },
   {
-    path: '/self-study', label: 'Học Flashcard', desc: 'Ghi nhớ với SRS',
+    path: '/self-study', label: 'Kho cá nhân', desc: 'Ghi nhớ với SRS',
     accent: 'var(--secondary)', accentEnd: 'var(--secondary-container)',
     ghostChar: '覚',
     icon: <IconLayers className="w-5 h-5" />,

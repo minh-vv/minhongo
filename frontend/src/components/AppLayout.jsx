@@ -24,7 +24,7 @@ const navItems = [
   { path: '/listening',  label: 'Luyện nghe',              icon: <IconHeadphones /> },
   { path: '/ai-chat',    label: 'Luyện Chat AI',           icon: <IconBot />,    badge: 'Mới' },
   { path: '/roadmap',    label: 'Lộ trình',                icon: <IconMap /> },
-  { path: '/self-study', label: 'Học Flashcard',           icon: <IconLayers /> },
+  { path: '/self-study', label: 'Kho cá nhân',           icon: <IconLayers /> },
   { path: '/progress',   label: 'Tiến độ học',             icon: <IconChart /> },
   { path: '/community',  label: 'Cộng đồng',               icon: <IconPeople /> },
 ];

@@ -191,7 +191,7 @@ export default function HomePage() {
                   desc: 'Hệ thống tự động phân tích điểm mạnh/yếu để định hướng bài học mỗi ngày.',
                 },
                 {
-                  title: 'Học Flashcard SRS',
+                  title: 'Kho cá nhân (Flashcard SRS)',
                   desc: 'Thuật toán lặp lại ngắt quãng tối ưu thời gian ôn tập, giúp nhớ từ vựng vĩnh viễn.',
                 },
                 {
