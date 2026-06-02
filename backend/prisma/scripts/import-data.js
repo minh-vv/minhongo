@@ -64,6 +64,7 @@ async function main() {
       update: {
         name: `[Jisho] Từ vựng N${level} (${cards.length} từ)`,
         description: `Toàn bộ từ vựng JLPT N${level} cào từ Jisho.org`,
+        isPublic: true,
       },
       create: {
         id: deckId,
@@ -196,6 +197,7 @@ async function main() {
               description: ld.deck.description,
               category: ld.deck.category,
               jlptLevel: ld.deck.jlptLevel,
+              isPublic: true,
             },
             create: {
               id: deckId,
@@ -203,6 +205,7 @@ async function main() {
               description: ld.deck.description,
               category: ld.deck.category,
               jlptLevel: ld.deck.jlptLevel,
+              isPublic: true,
               userId: admin.id,
             },
           });
