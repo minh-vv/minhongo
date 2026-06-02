@@ -39,9 +39,7 @@ export class AuthService {
       throw new UnauthorizedException('Email hoặc mật khẩu không đúng');
     }
 
-    /* eslint-disable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access */
     const isPasswordValid = await bcrypt.compare(password, user.password);
-    /* eslint-enable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access */
 
     if (!isPasswordValid) {
       throw new UnauthorizedException('Email hoặc mật khẩu không đúng');
@@ -54,9 +52,8 @@ export class AuthService {
       );
     }
 
-    /* eslint-disable @typescript-eslint/no-unused-vars */
     const { password: _, ...result } = user;
-    /* eslint-enable @typescript-eslint/no-unused-vars */
+
     return result;
   }
 
@@ -76,23 +73,20 @@ export class AuthService {
       throw new ConflictException('Email đã được sử dụng');
     }
 
-    /* eslint-disable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access */
     const hashedPassword = await bcrypt.hash(password, 10);
-    /* eslint-enable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access */
 
     const user = await this.prisma.user.create({
       data: {
         email,
-        /* eslint-disable @typescript-eslint/no-unsafe-assignment */
+
         password: hashedPassword,
-        /* eslint-enable @typescript-eslint/no-unsafe-assignment */
+
         name,
       },
     });
 
-    /* eslint-disable @typescript-eslint/no-unused-vars */
     const { password: _, ...result } = user;
-    /* eslint-enable @typescript-eslint/no-unused-vars */
+
     return result;
   }
 
@@ -151,9 +145,7 @@ export class AuthService {
       );
     }
 
-    /* eslint-disable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access */
     const hashedPassword = await bcrypt.hash(newPassword, 10);
-    /* eslint-enable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access */
 
     await this.prisma.user.update({
       where: { id: user.id },
