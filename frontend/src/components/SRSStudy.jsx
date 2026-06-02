@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useMutation } from '@tanstack/react-query';
+import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
 
 const REVIEW_QUALITY = {
@@ -10,8 +10,28 @@ const REVIEW_QUALITY = {
   EASY: 3,
 };
 
+const getNextInterval = (card, quality) => {
+  const progress = card?.progress;
+  const easeFactor = progress?.easeFactor ?? 2.5;
+  const interval = progress?.interval ?? 0;
+  const repetitions = progress?.repetitions ?? 0;
+
+  if (quality < 2) {
+    return 1;
+  } else {
+    if (repetitions === 0) {
+      return 1;
+    } else if (repetitions === 1) {
+      return 6;
+    } else {
+      return Math.max(1, Math.round(interval * easeFactor));
+    }
+  }
+};
+
 export default function SRSStudy({ dueData, onComplete }) {
   const navigate = useNavigate();
+  const queryClient = useQueryClient();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [showResult, setShowResult] = useState(false);
@@ -34,6 +54,10 @@ export default function SRSStudy({ dueData, onComplete }) {
   const reviewMutation = useMutation({
     mutationFn: ({ cardId, quality }) => flashcardApi.reviewCard(cardId, quality),
     onSuccess: (data) => {
+      // Invalidate queries to update stats and due cards count in real-time
+      queryClient.invalidateQueries({ queryKey: ['deckStats', dueData?.deck?.id] });
+      queryClient.invalidateQueries({ queryKey: ['dueCards', dueData?.deck?.id] });
+
       setLastResult(data);
       setShowResult(true);
 
@@ -91,23 +115,12 @@ export default function SRSStudy({ dueData, onComplete }) {
 
   return (
     <div className="max-w-2xl mx-auto animate-fade-up">
-      {/* Header */}
+      {/* Header - Session Progress Only */}
       <div className="mb-6">
-        <button
-          onClick={() => navigate(`/deck/${dueData.deck.id}`)}
-          className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors mb-4"
-        >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
-          Quay lại bộ thẻ
-        </button>
-
         <div className="flex items-center justify-between mb-2">
-          <div>
-            <h1 className="font-headline text-2xl font-bold text-on-surface">{dueData.deck.name}</h1>
-            <p className="text-xs font-bold uppercase tracking-widest text-on-surface-variant mt-1">Spaced Repetition (SRS)</p>
-          </div>
+          <span className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant">
+            Tiến trình ôn tập
+          </span>
           <span className="text-on-surface-variant text-sm font-semibold">
             {currentIndex + 1} / {cards.length}
           </span>
@@ -119,16 +132,6 @@ export default function SRSStudy({ dueData, onComplete }) {
             className="h-full transition-all duration-300"
             style={{ width: `${progress}%`, background: 'var(--secondary)' }}
           />
-        </div>
-
-        {/* Stats */}
-        <div className="flex gap-4 mt-3 text-xs font-semibold uppercase tracking-wider text-on-surface-variant">
-          <span>
-            Tổng: {dueData.deck.totalCards} thẻ
-          </span>
-          <span className="text-secondary">
-            Cần ôn: {cards.length - currentIndex} thẻ
-          </span>
         </div>
       </div>
 
@@ -185,7 +188,18 @@ export default function SRSStudy({ dueData, onComplete }) {
             }}
           >
             <div className="absolute inset-0 asanoha-bg opacity-10 pointer-events-none" />
-            <p className="text-[10px] font-bold uppercase tracking-widest text-white/60 mb-2" style={{ color: 'rgba(255,255,255,0.6)' }}>Nghĩa tiếng Việt</p>
+            
+            <p className="text-[10px] font-bold uppercase tracking-widest text-white/60 mb-1" style={{ color: 'rgba(255,255,255,0.6)' }}>Tiếng Nhật</p>
+            <p className="font-jp text-3xl md:text-4xl font-bold text-center mb-1 leading-normal text-white" style={{ color: '#ffffff' }}>
+              {currentCard.front}
+            </p>
+            {currentCard.romaji && (
+              <p className="text-xs text-white/70 tracking-wide mb-3" style={{ color: 'rgba(255,255,255,0.7)' }}>{currentCard.romaji}</p>
+            )}
+
+            <div className="w-12 h-px bg-white/20 mb-3" />
+
+            <p className="text-[10px] font-bold uppercase tracking-widest text-white/60 mb-1" style={{ color: 'rgba(255,255,255,0.6)' }}>Nghĩa tiếng Việt</p>
             <p className="text-2xl md:text-3xl font-bold text-center mb-4 leading-relaxed text-white" style={{ color: '#ffffff' }}>
               {currentCard.back}
             </p>
@@ -228,7 +242,7 @@ export default function SRSStudy({ dueData, onComplete }) {
             >
               <span className="block text-sm font-bold uppercase tracking-wider">Hard</span>
               <span className="block text-[10px] opacity-80 mt-0.5">
-                {lastResult?.interval || '?'} ngày
+                {getNextInterval(currentCard, REVIEW_QUALITY.HARD)} ngày
               </span>
             </button>
             <button
@@ -238,7 +252,7 @@ export default function SRSStudy({ dueData, onComplete }) {
             >
               <span className="block text-sm font-bold uppercase tracking-wider">Good</span>
               <span className="block text-[10px] opacity-80 mt-0.5">
-                {lastResult?.interval || '?'} ngày
+                {getNextInterval(currentCard, REVIEW_QUALITY.GOOD)} ngày
               </span>
             </button>
             <button
@@ -248,7 +262,7 @@ export default function SRSStudy({ dueData, onComplete }) {
             >
               <span className="block text-sm font-bold uppercase tracking-wider">Easy</span>
               <span className="block text-[10px] opacity-80 mt-0.5">
-                {lastResult?.interval || '?'} ngày
+                {getNextInterval(currentCard, REVIEW_QUALITY.EASY)} ngày
               </span>
             </button>
           </div>

@@ -21,11 +21,16 @@ export function AuthProvider({ children }) {
   const [user, setUser] = useState(initialState.user);
   const [isAuthenticated, setIsAuthenticated] = useState(initialState.isAuthenticated);
 
+  // Authentication Modal States
+  const [authModalOpen, setAuthModalOpen] = useState(false);
+  const [authModalMode, setAuthModalMode] = useState('login'); // 'login' | 'register' | 'forgot-password'
+
   const login = (token, userData) => {
     localStorage.setItem('access_token', token);
     localStorage.setItem('user', JSON.stringify(userData));
     setUser(userData);
     setIsAuthenticated(true);
+    setAuthModalOpen(false); // Auto close modal on successful login
   };
 
   const logout = () => {
@@ -42,9 +47,44 @@ export function AuthProvider({ children }) {
     setUser(merged);
   };
 
+  const openLogin = () => {
+    setAuthModalMode('login');
+    setAuthModalOpen(true);
+  };
+
+  const openRegister = () => {
+    setAuthModalMode('register');
+    setAuthModalOpen(true);
+  };
+
+  const openForgotPassword = () => {
+    setAuthModalMode('forgot-password');
+    setAuthModalOpen(true);
+  };
+
+  const closeAuthModal = () => {
+    setAuthModalOpen(false);
+  };
+
   return (
-    <AuthContext.Provider value={{ user, isAuthenticated, login, logout, updateUser }}>
+    <AuthContext.Provider
+      value={{
+        user,
+        isAuthenticated,
+        login,
+        logout,
+        updateUser,
+        authModalOpen,
+        authModalMode,
+        setAuthModalMode,
+        openLogin,
+        openRegister,
+        openForgotPassword,
+        closeAuthModal,
+      }}
+    >
       {children}
     </AuthContext.Provider>
   );
 }
+

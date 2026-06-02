@@ -47,19 +47,11 @@ const quickCards = [
     icon: <IconBook className="w-5 h-5" />,
   },
   {
-    path: '/self-study', label: 'Học Flashcard', desc: 'Ghi nhớ với SRS',
+    path: '/self-study', label: 'Kho cá nhân', desc: 'Ghi nhớ với SRS',
     accent: 'var(--secondary)', accentEnd: 'var(--secondary-container)',
     ghostChar: '覚',
     icon: <IconLayers className="w-5 h-5" />,
   },
-];
-
-/* ── stat cards ─────────────────────────────────────────────── */
-const statItems = [
-  { label: 'Streak',    value: '0', sub: 'ngày liên tiếp',  icon: <IconFlame className="w-5 h-5" /> },
-  { label: 'Đã luyện', value: '0', sub: 'thẻ hôm nay',    icon: <IconBookMarked className="w-5 h-5" /> },
-  { label: 'Giờ học',  value: '—', sub: 'tổng cộng',       icon: <IconTimer className="w-5 h-5" /> },
-  { label: 'Chính xác',value: '—', sub: 'trung bình',      icon: <IconTarget className="w-5 h-5" /> },
 ];
 
 /* ── section header component ───────────────────────────────── */
@@ -85,6 +77,26 @@ export default function DashboardPage() {
   const [newDeck, setNewDeck] = useState({ name: '', description: '', isPublic: false });
 
   const { data: myDecks, isLoading } = useQuery({ queryKey: ['myDecks'], queryFn: flashcardApi.getDecks });
+
+  const { data: gamification } = useQuery({
+    queryKey: ['gamificationSummary'],
+    queryFn: flashcardApi.getGamificationSummary,
+  });
+
+  const { data: historyData } = useQuery({
+    queryKey: ['studyHistory'],
+    queryFn: () => flashcardApi.getStudyHistory(7),
+  });
+
+  const todayStats = historyData?.history?.[historyData.history.length - 1];
+  const reviewedToday = todayStats?.total ?? 0;
+
+  const statItems = [
+    { label: 'Streak',    value: String(gamification?.streak ?? 0), sub: 'ngày liên tiếp',  icon: <IconFlame className="w-5 h-5" /> },
+    { label: 'Đã luyện', value: String(reviewedToday),             sub: 'thẻ hôm nay',    icon: <IconBookMarked className="w-5 h-5" /> },
+    { label: 'Tổng ôn',   value: String(gamification?.totalReviews ?? 0), sub: 'lượt ôn',  icon: <IconTimer className="w-5 h-5" /> },
+    { label: 'Chính xác',value: historyData?.summary?.overallRate !== undefined ? `${historyData.summary.overallRate}%` : '—', sub: 'trung bình',      icon: <IconTarget className="w-5 h-5" /> },
+  ];
 
   const createDeckMutation = useMutation({
     mutationFn: flashcardApi.createDeck,
@@ -139,7 +151,7 @@ export default function DashboardPage() {
             </h1>
 
             <p className="text-white/60 text-base leading-relaxed animate-fade-up delay-300">
-              {userName} ơi, {timeInfo.sub}.
+              Chào {userName} (Lv.{gamification?.level ?? 1} · {gamification?.xp ?? 0} XP), {timeInfo.sub}.
             </p>
 
             <Link

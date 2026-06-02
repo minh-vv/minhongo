@@ -55,7 +55,7 @@ const SKILLS = [
     label: 'Đọc hiểu',
     jp: '読解',
     desc: 'Luyện đọc văn bản theo trình độ JLPT với chú thích từ vựng và ngữ pháp.',
-    path: '/browse',
+    path: '/roadmap',
     accent: '#1565c0',
     accentEnd: '#1976d2',
     ghost: '読',

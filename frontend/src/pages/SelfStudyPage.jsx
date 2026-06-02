@@ -246,7 +246,7 @@ export default function SelfStudyPage() {
             </div>
             <h1 className="font-headline text-3xl font-bold text-white"
               style={{ letterSpacing: '-0.02em' }}>
-              Học Flashcard
+              Kho cá nhân
             </h1>
             <p className="text-white/50 text-sm mt-2 max-w-md">
               Tạo bộ thẻ riêng hoặc import từ Anki, ôn tập theo thuật toán SRS để ghi nhớ lâu.

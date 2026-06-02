@@ -78,11 +78,14 @@ html {
 
   /* ── Font helpers ────────────────────────────────────────── */
   .font-headline {
-    font-family: system-ui, -apple-system, sans-serif;
-    letter-spacing: -0.01em;
+    font-family: 'Plus Jakarta Sans', 'Noto Sans JP', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.015em;
   }
   .font-jp {
-    font-family: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", Georgia, serif;
+    font-family: 'Noto Serif JP', 'Yu Mincho', 'Hiragino Mincho ProN', Georgia, serif;
+  }
+  .font-jp-sans {
+    font-family: 'Noto Sans JP', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   }
 
   /* ── Fade-in animations ──────────────────────────────────── */

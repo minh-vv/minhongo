@@ -3,6 +3,7 @@ import { NavLink, Outlet, useNavigate, Link } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { useAuth } from '../hooks/useAuth';
 import { systemApi } from '../api/systemApi';
+import AuthModal from './AuthModal';
 import {
   IconHome, IconGlobe, IconList, IconBook, IconMap, IconLayers,
   IconChart, IconTrophy, IconPeople, IconStar, IconShield,
@@ -17,20 +18,17 @@ const LANGUAGES = [
 
 const navItems = [
   { path: '/dashboard',  label: 'Trang chủ',    end: true, icon: <IconHome /> },
-  { path: '/browse',     label: 'Khóa học',                icon: <IconGlobe />,  badge: 'Mới' },
   { path: '/kanji',      label: 'Hán tự',                  icon: <IconKanji /> },
   { path: '/vocabulary', label: 'Từ vựng',                 icon: <IconList /> },
   { path: '/grammar',    label: 'Ngữ pháp',                icon: <IconBook /> },
   { path: '/listening',  label: 'Luyện nghe',              icon: <IconHeadphones /> },
-  { path: '/ai-chat',    label: 'Luyện Chat AI',           icon: <IconBot />,    badge: 'Mới' },
   { path: '/roadmap',    label: 'Lộ trình',                icon: <IconMap /> },
-  { path: '/self-study', label: 'Học Flashcard',           icon: <IconLayers /> },
-  { path: '/progress',   label: 'Tiến độ học',             icon: <IconChart /> },
+  { path: '/self-study', label: 'Kho cá nhân',           icon: <IconLayers /> },
   { path: '/community',  label: 'Cộng đồng',               icon: <IconPeople /> },
 ];
 
 export default function AppLayout() {
-  const { isAuthenticated, user, logout } = useAuth();
+  const { isAuthenticated, user, logout, openLogin, openRegister } = useAuth();
   const navigate = useNavigate();
   const [dropdownOpen, setDropdownOpen]   = useState(false);
   const [settingsOpen, setSettingsOpen]   = useState(false);
@@ -71,13 +69,21 @@ export default function AppLayout() {
 
       {/* ── FIXED HEADER ──────────────────────────────────────── */}
       <header className="fixed top-0 w-full z-40 glass-panel flex justify-between items-center px-5 py-2.5">
-        <Link to="/" className="text-base font-black text-on-surface tracking-tight font-headline flex items-center gap-2">
-          <img src="/logo_main.png" alt="Minhongo" className="w-6 h-6 object-contain" />
-          Minhongo
+        <Link to="/" className="flex items-center">
+          <img src="/logo_main.png" alt="Minhongo" className="h-9 w-auto object-contain" />
         </Link>
 
         {isAuthenticated ? (
           <div className="flex items-center gap-2">
+            {/* Progress Link next to avatar */}
+            <Link
+              to="/progress"
+              className="p-1.5 hover:bg-surface-container transition-colors text-on-surface-variant hover:text-on-surface flex items-center justify-center"
+              title="Tiến độ học"
+            >
+              <IconChart className="w-5 h-5" />
+            </Link>
+
             {/* Leaderboard Link next to avatar */}
             <Link
               to="/leaderboard"
@@ -127,12 +133,19 @@ export default function AppLayout() {
           </div>
         ) : (
           <div className="flex items-center gap-3">
-            <Link to="/login" className="text-sm text-on-surface-variant hover:text-on-surface transition-colors">Đăng nhập</Link>
-            <Link to="/register"
-              className="px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors"
-              style={{ background: 'var(--secondary)' }}>
+            <button
+              onClick={openLogin}
+              className="text-sm text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer"
+            >
+              Đăng nhập
+            </button>
+            <button
+              onClick={openRegister}
+              className="px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors cursor-pointer"
+              style={{ background: 'var(--secondary)' }}
+            >
               Đăng ký
-            </Link>
+            </button>
           </div>
         )}
       </header>
@@ -324,6 +337,7 @@ export default function AppLayout() {
           <Outlet />
         </main>
       </div>
+      <AuthModal />
     </div>
   );
 }

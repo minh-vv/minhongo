@@ -138,10 +138,10 @@ function DemoComplete({ deck, demoCount, onRestart }) {
           style={{ border: '1px solid rgba(0,0,0,0.1)' }}>
           Học lại từ đầu
         </button>
-        <Link to="/browse"
+        <Link to="/"
           className="px-8 py-3 text-sm font-semibold text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors"
           style={{ border: '1px solid rgba(0,0,0,0.1)' }}>
-          Xem bộ thẻ khác
+          Quay lại trang chủ
         </Link>
       </div>
     </div>
@@ -233,8 +233,8 @@ export default function DemoPage() {
       <div className="max-w-2xl mx-auto p-8 text-center py-16">
         <p className="text-2xl mb-3">😢</p>
         <p className="font-semibold text-on-surface mb-4">Không tìm thấy bộ thẻ này</p>
-        <Link to="/browse" className="text-secondary text-sm font-semibold hover:underline">
-          ← Quay lại danh sách
+        <Link to="/" className="text-secondary text-sm font-semibold hover:underline">
+          ← Quay lại trang chủ
         </Link>
       </div>
     );
@@ -245,8 +245,8 @@ export default function DemoPage() {
       <div className="max-w-2xl mx-auto p-8 text-center py-16">
         <p className="text-2xl mb-3">📭</p>
         <p className="font-semibold text-on-surface mb-4">Bộ thẻ này chưa có thẻ nào</p>
-        <Link to="/browse" className="text-secondary text-sm font-semibold hover:underline">
-          ← Xem bộ thẻ khác
+        <Link to="/" className="text-secondary text-sm font-semibold hover:underline">
+          ← Quay lại trang chủ
         </Link>
       </div>
     );
@@ -267,13 +267,13 @@ export default function DemoPage() {
       {/* ── Header ── */}
       <div className="flex items-center justify-between animate-fade-up">
         <button
-          onClick={() => navigate('/browse')}
+          onClick={() => navigate('/')}
           className="flex items-center gap-2 text-sm text-on-surface-variant hover:text-on-surface transition-colors"
         >
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
-          Danh sách khóa học
+          Quay lại trang chủ
         </button>
 
         <div className="flex items-center gap-2">

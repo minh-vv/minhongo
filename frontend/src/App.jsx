@@ -27,14 +27,12 @@ import AdminSettingsPage from './pages/AdminSettingsPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import ResetPasswordPage from './pages/ResetPasswordPage';
 import ProfilePage from './pages/ProfilePage';
-import BrowsePage from './pages/BrowsePage';
 import DemoPage from './pages/DemoPage';
 import ExercisePage from './pages/ExercisePage';
 import ProgressPage from './pages/ProgressPage';
 import LeaderboardPage from './pages/LeaderboardPage';
 import CommunityPage from './pages/CommunityPage';
 import UpgradePage from './pages/UpgradePage';
-import AiChatPage from './pages/AiChatPage';
 import ListeningPage from './pages/ListeningPage';
 
 const queryClient = new QueryClient();
@@ -90,14 +88,12 @@ function AppRoutes() {
         <Route path="/admin/courses" element={<AdminCoursesPage />} />
         <Route path="/admin/settings" element={<AdminSettingsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/browse" element={<BrowsePage />} />
         <Route path="/demo/:deckId" element={<DemoPage />} />
         <Route path="/exercises/:deckId" element={<ExercisePage />} />
         <Route path="/progress" element={<ProgressPage />} />
         <Route path="/leaderboard" element={<LeaderboardPage />} />
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/upgrade" element={<UpgradePage />} />
-        <Route path="/ai-chat" element={<AiChatPage />} />
         <Route path="/listening" element={<ListeningPage />} />
         {/* Legacy redirects */}
         <Route path="/hantu" element={<Navigate to="/kanji" replace />} />
