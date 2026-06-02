@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useMutation } from '@tanstack/react-query';
+import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
 
 const REVIEW_QUALITY = {
@@ -31,6 +31,7 @@ const getNextInterval = (card, quality) => {
 
 export default function SRSStudy({ dueData, onComplete }) {
   const navigate = useNavigate();
+  const queryClient = useQueryClient();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [showResult, setShowResult] = useState(false);
@@ -53,6 +54,10 @@ export default function SRSStudy({ dueData, onComplete }) {
   const reviewMutation = useMutation({
     mutationFn: ({ cardId, quality }) => flashcardApi.reviewCard(cardId, quality),
     onSuccess: (data) => {
+      // Invalidate queries to update stats and due cards count in real-time
+      queryClient.invalidateQueries({ queryKey: ['deckStats', dueData?.deck?.id] });
+      queryClient.invalidateQueries({ queryKey: ['dueCards', dueData?.deck?.id] });
+
       setLastResult(data);
       setShowResult(true);
 
@@ -110,23 +115,12 @@ export default function SRSStudy({ dueData, onComplete }) {
 
   return (
     <div className="max-w-2xl mx-auto animate-fade-up">
-      {/* Header */}
+      {/* Header - Session Progress Only */}
       <div className="mb-6">
-        <button
-          onClick={() => navigate(`/deck/${dueData.deck.id}`)}
-          className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors mb-4"
-        >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
-          Quay lại bộ thẻ
-        </button>
-
         <div className="flex items-center justify-between mb-2">
-          <div>
-            <h1 className="font-headline text-2xl font-bold text-on-surface">{dueData.deck.name}</h1>
-            <p className="text-xs font-bold uppercase tracking-widest text-on-surface-variant mt-1">Spaced Repetition (SRS)</p>
-          </div>
+          <span className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant">
+            Tiến trình ôn tập
+          </span>
           <span className="text-on-surface-variant text-sm font-semibold">
             {currentIndex + 1} / {cards.length}
           </span>
@@ -138,16 +132,6 @@ export default function SRSStudy({ dueData, onComplete }) {
             className="h-full transition-all duration-300"
             style={{ width: `${progress}%`, background: 'var(--secondary)' }}
           />
-        </div>
-
-        {/* Stats */}
-        <div className="flex gap-4 mt-3 text-xs font-semibold uppercase tracking-wider text-on-surface-variant">
-          <span>
-            Tổng: {dueData.deck.totalCards} thẻ
-          </span>
-          <span className="text-secondary">
-            Cần ôn: {cards.length - currentIndex} thẻ
-          </span>
         </div>
       </div>
 

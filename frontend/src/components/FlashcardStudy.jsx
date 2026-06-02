@@ -61,21 +61,12 @@ export default function FlashcardStudy({ deck, onComplete }) {
 
   return (
     <div className="max-w-2xl mx-auto px-4 md:px-0">
-      {/* Header */}
+      {/* Header - Session Progress Only */}
       <div className="mb-6">
-        <button
-          onClick={() => navigate(`/deck/${deck.id}`)}
-          className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors mb-6"
-        >
-          <ArrowLeftCircle className="w-4 h-4" />
-          Quay lại bộ thẻ
-        </button>
-
         <div className="flex items-end justify-between mb-3">
-          <div>
-            <h1 className="font-headline text-2xl font-bold text-on-surface tracking-tight">{deck.name}</h1>
-            <p className="text-xs font-bold uppercase tracking-widest text-on-surface-variant mt-1">Ôn tập thẻ ghi nhớ</p>
-          </div>
+          <span className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant">
+            Tiến trình ôn tập
+          </span>
           <div className="text-right">
             <span className="text-2xl font-black text-secondary">{currentIndex + 1}</span>
             <span className="text-on-surface-variant text-sm font-medium"> / {cards.length}</span>
