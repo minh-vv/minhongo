@@ -16,13 +16,30 @@ export class AiTutorService {
     this.genAI = new GoogleGenerativeAI(apiKey || 'dummy');
   }
 
-  private getModel() {
+  private getModel(modelName = 'gemini-2.5-flash') {
     if (!process.env.GEMINI_API_KEY || process.env.GEMINI_API_KEY === 'dummy') {
       throw new BadRequestException(
         'Chưa cấu hình GEMINI_API_KEY trong file .env',
       );
     }
-    return this.genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+    return this.genAI.getGenerativeModel({ model: modelName });
+  }
+
+  private async generateContentWithFallback(prompt: string) {
+    try {
+      return await withRetry(
+        () => this.getModel('gemini-2.5-flash').generateContent(prompt),
+        { logger: this.logger },
+      );
+    } catch (primaryError: any) {
+      this.logger.warn(
+        `Primary model gemini-2.5-flash failed: ${primaryError.message}. Falling back to gemini-1.5-flash...`,
+      );
+      return await withRetry(
+        () => this.getModel('gemini-1.5-flash').generateContent(prompt),
+        { logger: this.logger },
+      );
+    }
   }
 
   // 1. AI Giải thích chi tiết
@@ -39,10 +56,7 @@ Nhiệm vụ của bạn:
 Trả về bằng định dạng Markdown ngắn gọn, dễ hiểu.`;
 
     try {
-      const result = await withRetry(
-        () => this.getModel().generateContent(prompt),
-        { logger: this.logger },
-      );
+      const result = await this.generateContentWithFallback(prompt);
       return { explanation: result.response.text() };
     } catch (error: any) {
       throw new BadRequestException('Lỗi AI: ' + error.message);
@@ -70,15 +84,12 @@ Trả về dữ liệu dạng JSON thuần túy (không bọc trong markdown tic
 }`;
 
     try {
-      const result = await withRetry(
-        () => this.getModel().generateContent(prompt),
-        { logger: this.logger },
-      );
+      const result = await this.generateContentWithFallback(prompt);
       let text = result.response.text().trim();
-      if (text.startsWith('\`\`\`json')) {
-        text = text.replace(/^\`\`\`json\n?/, '').replace(/\n?\`\`\`$/, '');
-      } else if (text.startsWith('\`\`\`')) {
-        text = text.replace(/^\`\`\`\n?/, '').replace(/\n?\`\`\`$/, '');
+      if (text.startsWith('```json')) {
+        text = text.replace(/^```json\n?/, '').replace(/\n?```$/, '');
+      } else if (text.startsWith('```')) {
+        text = text.replace(/^```\n?/, '').replace(/\n?```$/, '');
       }
       return JSON.parse(text);
     } catch (error: any) {
@@ -93,16 +104,16 @@ Trả về dữ liệu dạng JSON thuần túy (không bọc trong markdown tic
 - Nếu người dùng dùng sai ngữ pháp tiếng Nhật, hãy chỉ ra lỗi sai một cách khéo léo trước khi trả lời.
 - Trả lời ngắn gọn, tự nhiên, giống một cuộc hội thoại thực tế.`;
 
+    const formattedHistory = dto.history.map((msg) => ({
+      role: msg.role,
+      parts: [{ text: msg.parts }],
+    }));
+
     try {
       const model = this.genAI.getGenerativeModel({
         model: 'gemini-2.5-flash',
         systemInstruction: systemInstruction,
       });
-
-      const formattedHistory = dto.history.map((msg) => ({
-        role: msg.role,
-        parts: [{ text: msg.parts }],
-      }));
 
       const chat = model.startChat({
         history: formattedHistory,
@@ -112,8 +123,28 @@ Trả về dữ liệu dạng JSON thuần túy (không bọc trong markdown tic
         logger: this.logger,
       });
       return { reply: result.response.text() };
-    } catch (error: any) {
-      throw new BadRequestException('Lỗi AI Chat: ' + error.message);
+    } catch (primaryError: any) {
+      this.logger.warn(
+        `Primary model gemini-2.5-flash chat failed: ${primaryError.message}. Falling back to gemini-1.5-flash...`,
+      );
+
+      try {
+        const fallbackModel = this.genAI.getGenerativeModel({
+          model: 'gemini-1.5-flash',
+          systemInstruction: systemInstruction,
+        });
+
+        const chat = fallbackModel.startChat({
+          history: formattedHistory,
+        });
+
+        const result = await withRetry(() => chat.sendMessage(dto.message), {
+          logger: this.logger,
+        });
+        return { reply: result.response.text() };
+      } catch (error: any) {
+        throw new BadRequestException('Lỗi AI Chat: ' + error.message);
+      }
     }
   }
 }

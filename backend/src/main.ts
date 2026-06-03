@@ -18,8 +18,19 @@ async function bootstrap() {
   const allowedOrigins = process.env.CORS_ORIGIN
     ? process.env.CORS_ORIGIN.split(',').map((o) => o.trim())
     : ['http://localhost:5173'];
+
+  // Automatically add the 'www.' version of each origin if not already present
+  const extendedOrigins = [...allowedOrigins];
+  allowedOrigins.forEach((origin) => {
+    if (origin.startsWith('https://') && !origin.includes('://www.')) {
+      extendedOrigins.push(origin.replace('https://', 'https://www.'));
+    } else if (origin.startsWith('http://') && !origin.includes('://www.')) {
+      extendedOrigins.push(origin.replace('http://', 'http://www.'));
+    }
+  });
+
   app.enableCors({
-    origin: allowedOrigins,
+    origin: extendedOrigins,
     credentials: true,
   });
 
