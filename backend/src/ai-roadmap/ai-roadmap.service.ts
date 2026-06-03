@@ -2,9 +2,11 @@ import {
   Injectable,
   BadRequestException,
   NotFoundException,
+  Logger,
 } from '@nestjs/common';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { PrismaService } from '../prisma/prisma.service';
+import { withRetry } from '../common/utils/gemini-retry';
 
 interface TestResult {
   lessonTitle: string;
@@ -23,6 +25,7 @@ interface GenerateRoadmapDto {
 
 @Injectable()
 export class AiRoadmapService {
+  private readonly logger = new Logger(AiRoadmapService.name);
   private genAI: GoogleGenerativeAI;
 
   constructor(private prisma: PrismaService) {
@@ -178,7 +181,10 @@ Trả về JSON theo đúng cấu trúc sau:
 }`;
 
     try {
-      const result = await model.generateContent(prompt);
+      const result = await withRetry(
+        () => model.generateContent(prompt),
+        { logger: this.logger },
+      );
       let responseText = result.response.text();
 
       responseText = responseText

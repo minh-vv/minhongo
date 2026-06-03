@@ -1,9 +1,11 @@
-import { Injectable, BadRequestException } from '@nestjs/common';
+import { Injectable, BadRequestException, Logger } from '@nestjs/common';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { ExplainDto, EvaluateDto, ChatDto } from './dto/ai-tutor.dto';
+import { withRetry } from '../common/utils/gemini-retry';
 
 @Injectable()
 export class AiTutorService {
+  private readonly logger = new Logger(AiTutorService.name);
   private genAI: GoogleGenerativeAI;
 
   constructor() {
@@ -37,7 +39,10 @@ Nhiệm vụ của bạn:
 Trả về bằng định dạng Markdown ngắn gọn, dễ hiểu.`;
 
     try {
-      const result = await this.getModel().generateContent(prompt);
+      const result = await withRetry(
+        () => this.getModel().generateContent(prompt),
+        { logger: this.logger },
+      );
       return { explanation: result.response.text() };
     } catch (error: any) {
       throw new BadRequestException('Lỗi AI: ' + error.message);
@@ -65,7 +70,10 @@ Trả về dữ liệu dạng JSON thuần túy (không bọc trong markdown tic
 }`;
 
     try {
-      const result = await this.getModel().generateContent(prompt);
+      const result = await withRetry(
+        () => this.getModel().generateContent(prompt),
+        { logger: this.logger },
+      );
       let text = result.response.text().trim();
       if (text.startsWith('\`\`\`json')) {
         text = text.replace(/^\`\`\`json\n?/, '').replace(/\n?\`\`\`$/, '');
@@ -100,7 +108,10 @@ Trả về dữ liệu dạng JSON thuần túy (không bọc trong markdown tic
         history: formattedHistory,
       });
 
-      const result = await chat.sendMessage(dto.message);
+      const result = await withRetry(
+        () => chat.sendMessage(dto.message),
+        { logger: this.logger },
+      );
       return { reply: result.response.text() };
     } catch (error: any) {
       throw new BadRequestException('Lỗi AI Chat: ' + error.message);

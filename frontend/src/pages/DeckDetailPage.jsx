@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { createPortal } from 'react-dom';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
@@ -22,7 +23,7 @@ function CardModal({ isOpen, onClose, onSave, card }) {
 
   if (!isOpen) return null;
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-up">
       <div className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow p-6 w-full max-w-lg max-h-[90vh] overflow-y-auto">
         <h3 className="font-headline text-lg font-bold text-on-surface mb-4 border-b border-outline-variant/20 pb-2">
@@ -114,7 +115,8 @@ function CardModal({ isOpen, onClose, onSave, card }) {
           </div>
         </form>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
 
@@ -132,7 +134,7 @@ function DeckEditModal({ isOpen, onClose, onSave, deck }) {
 
   if (!isOpen) return null;
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-up">
       <div className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow p-6 w-full max-w-md">
         <h3 className="font-headline text-lg font-bold text-on-surface mb-4 border-b border-outline-variant/20 pb-2">Chỉnh sửa bộ thẻ</h3>
@@ -190,7 +192,8 @@ function DeckEditModal({ isOpen, onClose, onSave, deck }) {
           </div>
         </form>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
 
