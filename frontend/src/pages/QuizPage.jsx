@@ -2,25 +2,22 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
+import {
+  shuffleArray,
+  fuzzyMatch,
+  generateDistractors,
+  formatTime,
+  getDirectionLabels,
+} from '../utils/quizUtils';
 
-// ===== Utilities =====
-
-/** Fisher-Yates shuffle — trả về mảng mới, không mutate đầu vào */
-function shuffleArray(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
+// ===== Question generation =====
 
 /**
- * Sinh danh sách câu hỏi từ cards của deck.
+ * Sinh danh sách câu hỏi từ cards.
  *
- * @param {object[]} cards   - Mảng card từ API
+ * @param {object[]} cards
  * @param {'multiple-choice'|'fill-in-blank'} mode
- * @param {'normal'|'reverse'} direction  - normal: JP→VI, reverse: VI→JP
+ * @param {'normal'|'reverse'} direction
  * @param {'10'|'20'|'all'} count
  */
 function generateQuestions(cards, mode, direction, count) {
@@ -32,24 +29,16 @@ function generateQuestions(cards, mode, direction, count) {
       ? shuffled
       : shuffled.slice(0, Math.min(parseInt(count, 10), shuffled.length));
 
+  const answerField = direction === 'normal' ? 'back' : 'front';
+
   return selected.map((card) => {
     const question = direction === 'normal' ? card.front : card.back;
     const answer = direction === 'normal' ? card.back : card.front;
-    // Romaji chỉ hiển thị khi hướng normal (câu hỏi là tiếng Nhật)
+    // Romaji hint chỉ hiển thị khi question là tiếng Nhật (normal mode)
     const hint = direction === 'normal' ? card.romaji || null : null;
 
     if (mode === 'multiple-choice') {
-      // 3 lựa chọn nhiễu từ các card khác trong deck
-      const otherCards = cards.filter((c) => c.id !== card.id);
-      const distractors = shuffleArray(otherCards)
-        .slice(0, 3)
-        .map((c) => (direction === 'normal' ? c.back : c.front));
-
-      // Pad nếu deck < 4 thẻ
-      while (distractors.length < 3) {
-        distractors.push(`Phương án ${distractors.length + 2}`);
-      }
-
+      const distractors = generateDistractors(answer, cards, card.id, answerField, 3);
       return {
         id: card.id,
         question,
@@ -70,13 +59,14 @@ function SetupScreen({ deck, onStart }) {
   const [mode, setMode] = useState('multiple-choice');
   const [direction, setDirection] = useState('normal');
   const [count, setCount] = useState('10');
+  const [timer, setTimer] = useState('off');
   const cardCount = deck?.cards?.length || 0;
 
   return (
     <div className="max-w-md mx-auto p-4 md:p-8 space-y-6 animate-fade-up">
       <div className="bg-surface-container-lowest border border-outline-variant/30 sharp-shadow p-6 md:p-8 text-center relative overflow-hidden">
         <div className="absolute inset-0 asanoha-bg opacity-5 pointer-events-none" />
-        {/* Tiêu đề */}
+        {/* Title */}
         <div className="mb-6 relative z-10">
           <div className="w-14 h-14 bg-surface-container border border-outline-variant/30 flex items-center justify-center mx-auto mb-4">
             <svg className="w-6 h-6 text-secondary animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -90,7 +80,7 @@ function SetupScreen({ deck, onStart }) {
           <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mt-0.5">Sẵn có {cardCount} thẻ trong bộ</p>
         </div>
 
-        {/* Dạng câu hỏi */}
+        {/* Question type */}
         <div className="mb-5 text-left relative z-10">
           <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-2">Dạng câu hỏi</label>
           <div className="grid grid-cols-2 gap-3">
@@ -117,7 +107,7 @@ function SetupScreen({ deck, onStart }) {
           </div>
         </div>
 
-        {/* Hướng kiểm tra */}
+        {/* Direction */}
         <div className="mb-5 text-left relative z-10">
           <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-2">Hướng kiểm tra</label>
           <div className="grid grid-cols-2 gap-3">
@@ -144,8 +134,8 @@ function SetupScreen({ deck, onStart }) {
           </div>
         </div>
 
-        {/* Số câu hỏi */}
-        <div className="mb-6 text-left relative z-10">
+        {/* Question count */}
+        <div className="mb-5 text-left relative z-10">
           <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-2">Số câu hỏi</label>
           <div className="flex gap-2">
             {['10', '20', 'all'].map((c) => {
@@ -172,9 +162,41 @@ function SetupScreen({ deck, onStart }) {
           </div>
         </div>
 
-        {/* Nút bắt đầu */}
+        {/* Timer option */}
+        <div className="mb-6 text-left relative z-10">
+          <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-2">
+            ⏱️ Giới hạn thời gian mỗi câu
+          </label>
+          <div className="flex gap-2">
+            {[
+              { value: 'off', label: 'Tắt' },
+              { value: '15', label: '15s' },
+              { value: '30', label: '30s' },
+              { value: '60', label: '60s' },
+            ].map(({ value, label }) => {
+              const active = timer === value;
+              return (
+                <button
+                  key={value}
+                  onClick={() => setTimer(value)}
+                  className="flex-1 py-2 text-xs font-bold uppercase tracking-wider transition-all"
+                  style={{
+                    border: `2px solid ${active ? 'var(--secondary)' : 'rgba(0,0,0,0.1)'}`,
+                    background: active ? 'rgba(198,40,40,0.05)' : 'var(--surface)',
+                    color: active ? 'var(--secondary)' : 'var(--on-surface)',
+                    cursor: 'pointer',
+                  }}
+                >
+                  {label}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Start button */}
         <button
-          onClick={() => onStart({ mode, direction, count })}
+          onClick={() => onStart({ mode, direction, count, timer })}
           disabled={cardCount < 2}
           className="w-full py-3 text-sm font-bold text-on-secondary uppercase tracking-wider hover:bg-secondary-dim transition-all disabled:opacity-40"
           style={{ background: 'var(--secondary)' }}
@@ -200,37 +222,88 @@ function SetupScreen({ deck, onStart }) {
 
 // ===== Quiz Screen =====
 
-function QuizScreen({ questions, onFinish }) {
+function QuizScreen({ questions, onFinish, timerSeconds, direction }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
   const [inputValue, setInputValue] = useState('');
   const [isAnswered, setIsAnswered] = useState(false);
-  const [isCorrect, setIsCorrect] = useState(null);
+  const [matchResult, setMatchResult] = useState(null); // { isExact, isFuzzy, distance }
   const [results, setResults] = useState([]);
+  const [timeLeft, setTimeLeft] = useState(timerSeconds || 0);
   const inputRef = useRef(null);
+  const timerRef = useRef(null);
 
   const current = questions[currentIndex];
   const progressPct = (currentIndex / questions.length) * 100;
   const correctSoFar = results.filter((r) => r.isCorrect).length;
+  const labels = getDirectionLabels(direction);
 
-  // Focus input khi sang câu mới (fill-in-blank)
+  // Timer countdown
+  useEffect(() => {
+    if (!timerSeconds || isAnswered) {
+      clearInterval(timerRef.current);
+      return;
+    }
+    setTimeLeft(timerSeconds);
+    timerRef.current = setInterval(() => {
+      setTimeLeft((prev) => {
+        if (prev <= 1) {
+          clearInterval(timerRef.current);
+          // Auto-submit as wrong when time runs out
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+    return () => clearInterval(timerRef.current);
+  }, [currentIndex, timerSeconds, isAnswered]);
+
+  // When timer hits 0, record as wrong
+  useEffect(() => {
+    if (timerSeconds && timeLeft === 0 && !isAnswered) {
+      recordResult('(hết giờ)', false, null);
+    }
+  }, [timeLeft, timerSeconds, isAnswered]);
+
+  // Focus input on new fill-in-blank question
   useEffect(() => {
     if (current?.mode === 'fill-in-blank' && !isAnswered) {
       inputRef.current?.focus();
     }
   }, [currentIndex, isAnswered, current?.mode]);
 
+  // Keyboard shortcuts
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (current?.mode === 'multiple-choice' && !isAnswered) {
+        const keyMap = { '1': 0, '2': 1, '3': 2, '4': 3, a: 0, b: 1, c: 2, d: 3 };
+        const idx = keyMap[e.key.toLowerCase()];
+        if (idx !== undefined && idx < current.options.length) {
+          handleMultipleChoiceSelect(current.options[idx]);
+        }
+      }
+      if (e.key === 'Enter' && isAnswered) {
+        handleNext();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [current, isAnswered, currentIndex, results]);
+
   const recordResult = useCallback(
-    (userAnswer, correct) => {
-      setIsCorrect(correct);
+    (userAnswer, correct, match) => {
+      setMatchResult(match);
       setIsAnswered(true);
+      clearInterval(timerRef.current);
       setResults((prev) => [
         ...prev,
         {
+          cardId: current.id,
           question: current.question,
           answer: current.answer,
           userAnswer,
           isCorrect: correct,
+          isFuzzy: match?.isFuzzy && !match?.isExact,
           hint: current.hint,
         },
       ]);
@@ -241,14 +314,15 @@ function QuizScreen({ questions, onFinish }) {
   const handleMultipleChoiceSelect = (option) => {
     if (isAnswered) return;
     setSelectedOption(option);
-    recordResult(option, option === current.answer);
+    const match = fuzzyMatch(option, current.answer);
+    recordResult(option, match.isExact, match);
   };
 
   const handleFillInBlankSubmit = () => {
     if (isAnswered || !inputValue.trim()) return;
-    const trimmed = inputValue.trim().toLowerCase();
-    const correct = trimmed === current.answer.trim().toLowerCase();
-    recordResult(inputValue.trim(), correct);
+    const match = fuzzyMatch(inputValue.trim(), current.answer);
+    // Accept both exact and fuzzy matches as correct
+    recordResult(inputValue.trim(), match.isExact || match.isFuzzy, match);
   };
 
   const handleNext = () => {
@@ -259,43 +333,68 @@ function QuizScreen({ questions, onFinish }) {
       setSelectedOption(null);
       setInputValue('');
       setIsAnswered(false);
-      setIsCorrect(null);
+      setMatchResult(null);
     }
   };
+
+  const isCorrect = results.length > 0 ? results[results.length - 1]?.isCorrect : null;
 
   const getOptionStyle = (option) => {
     if (!isAnswered)
       return { border: '1px solid rgba(0,0,0,0.12)', bg: 'bg-surface-container-lowest text-on-surface hover:border-secondary hover:bg-secondary/5' };
     if (option === current.answer)
       return { border: '2px solid #4caf50', bg: 'bg-green-500/10 text-green-800' };
-    if (option === selectedOption)
+    if (option === selectedOption && option !== current.answer)
       return { border: '2px solid var(--secondary)', bg: 'bg-secondary/10 text-secondary' };
     return { border: '1px solid rgba(0,0,0,0.06)', bg: 'bg-surface-container-low text-on-surface-variant/40 opacity-50' };
   };
 
+  const timerPct = timerSeconds ? (timeLeft / timerSeconds) * 100 : 0;
+  const timerUrgent = timerSeconds && timeLeft <= 5;
+
   return (
     <div className="max-w-2xl mx-auto p-4 md:p-6 space-y-6 animate-fade-up">
-      {/* Header: progress + điểm tạm */}
-      <div className="flex items-center gap-3">
-        <div className="flex-1 h-2 bg-surface-container border border-outline-variant/20 overflow-hidden">
-          <div
-            className="h-full transition-all duration-500"
-            style={{ width: `${progressPct}%`, background: 'var(--secondary)' }}
-          />
+      {/* Header: progress + score */}
+      <div className="space-y-1.5">
+        <div className="flex items-center gap-3">
+          <div className="flex-1 h-2 bg-surface-container border border-outline-variant/20 overflow-hidden">
+            <div
+              className="h-full transition-all duration-500"
+              style={{ width: `${progressPct}%`, background: 'var(--secondary)' }}
+            />
+          </div>
+          <div className="flex items-center gap-3 text-xs font-bold uppercase tracking-wider text-on-surface-variant whitespace-nowrap">
+            <span className="text-green-600">{correctSoFar} ✓</span>
+            <span>{currentIndex + 1} / {questions.length}</span>
+          </div>
         </div>
-        <div className="flex items-center gap-3 text-xs font-bold uppercase tracking-wider text-on-surface-variant whitespace-nowrap">
-          <span className="text-green-600">{correctSoFar} ✓</span>
-          <span>{currentIndex + 1} / {questions.length}</span>
-        </div>
+
+        {/* Timer bar */}
+        {timerSeconds > 0 && !isAnswered && (
+          <div className="h-1.5 bg-surface-container border border-outline-variant/10 overflow-hidden">
+            <div
+              className="h-full transition-all duration-1000 ease-linear"
+              style={{
+                width: `${timerPct}%`,
+                background: timerUrgent ? '#ef4444' : 'var(--secondary)',
+              }}
+            />
+          </div>
+        )}
+        {timerSeconds > 0 && !isAnswered && (
+          <p className={`text-right text-[10px] font-bold uppercase tracking-widest ${timerUrgent ? 'text-red-600 animate-pulse' : 'text-on-surface-variant'}`}>
+            ⏱️ {formatTime(timeLeft)}
+          </p>
+        )}
       </div>
 
-      {/* Thẻ câu hỏi */}
+      {/* Question card */}
       <div className="bg-surface-container-lowest border border-outline-variant/30 sharp-shadow p-6 md:p-8 text-center relative overflow-hidden">
         <div className="absolute inset-0 asanoha-bg opacity-5 pointer-events-none" />
         <p className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-4">
-          {current.mode === 'multiple-choice' ? 'Chọn nghĩa tiếng Việt đúng' : 'Gõ nghĩa từ này'}
+          {current.mode === 'multiple-choice' ? labels.questionLabel : labels.answerInstruction}
         </p>
-        <p className="font-jp text-4xl font-bold text-on-surface leading-tight break-words mb-3 relative z-10">
+        <p className={`${direction === 'normal' ? 'font-jp' : ''} text-4xl font-bold text-on-surface leading-tight break-words mb-3 relative z-10`}>
           {current.question}
         </p>
         {current.hint && (
@@ -303,11 +402,12 @@ function QuizScreen({ questions, onFinish }) {
         )}
       </div>
 
-      {/* Vùng trả lời — Multiple Choice */}
+      {/* Answer area — Multiple Choice */}
       {current.mode === 'multiple-choice' && (
         <div className="grid grid-cols-2 gap-3 mb-6 relative z-10">
           {current.options.map((option, i) => {
             const optStyle = getOptionStyle(option);
+            const shortcutKey = String.fromCharCode(65 + i);
             return (
               <button
                 key={i}
@@ -315,8 +415,8 @@ function QuizScreen({ questions, onFinish }) {
                 className={`p-4 text-left transition-all ${optStyle.bg}`}
                 style={{ border: optStyle.border }}
               >
-                <span className="inline-block w-5 h-5 bg-surface border border-outline-variant/30 text-on-surface-variant text-[10px] font-bold text-center leading-5 mb-2">
-                  {String.fromCharCode(65 + i)}
+                <span className="inline-flex items-center justify-center w-5 h-5 bg-surface border border-outline-variant/30 text-on-surface-variant text-[10px] font-bold mb-2">
+                  {shortcutKey}
                 </span>
                 <p className="text-xs font-semibold leading-relaxed">{option}</p>
               </button>
@@ -325,7 +425,7 @@ function QuizScreen({ questions, onFinish }) {
         </div>
       )}
 
-      {/* Vùng trả lời — Fill in blank */}
+      {/* Answer area — Fill in blank */}
       {current.mode === 'fill-in-blank' && (
         <div className="mb-6 space-y-3 relative z-10">
           <input
@@ -335,7 +435,7 @@ function QuizScreen({ questions, onFinish }) {
             onChange={(e) => setInputValue(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' && !isAnswered && handleFillInBlankSubmit()}
             disabled={isAnswered}
-            placeholder="Nhập nghĩa tiếng Việt..."
+            placeholder={labels.answerPlaceholder}
             className="w-full px-4 py-3 text-base border bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant outline-none transition-all"
             style={{
               border: isAnswered
@@ -350,6 +450,13 @@ function QuizScreen({ questions, onFinish }) {
                 : 'var(--surface-container-lowest)',
             }}
           />
+          {/* Fuzzy match feedback */}
+          {isAnswered && matchResult?.isFuzzy && !matchResult?.isExact && isCorrect && (
+            <div className="p-3 bg-amber-500/10 border border-amber-500/20 text-amber-800 text-xs font-semibold uppercase tracking-wider flex items-center gap-2">
+              <span>✨</span>
+              <span>Gần đúng! Đáp án chính xác: <strong className="normal-case">{current.answer}</strong></span>
+            </div>
+          )}
           {isAnswered && !isCorrect && (
             <div className="p-3 bg-green-500/10 border border-green-500/20 text-green-800 text-xs font-semibold uppercase tracking-wider flex items-center gap-2">
               <span>✓</span>
@@ -371,7 +478,7 @@ function QuizScreen({ questions, onFinish }) {
         </div>
       )}
 
-      {/* Phản hồi + nút Tiếp theo */}
+      {/* Feedback + Next button */}
       {isAnswered && (
         <div className="space-y-3 relative z-10 animate-fade-up">
           <div className="flex items-center gap-2 p-3 border font-semibold text-xs uppercase tracking-wider"
@@ -387,7 +494,7 @@ function QuizScreen({ questions, onFinish }) {
             onClick={handleNext}
             className="w-full py-3.5 bg-primary hover:bg-primary-container text-on-primary text-xs font-bold uppercase tracking-wider transition-all"
           >
-            {currentIndex + 1 >= questions.length ? 'Xem kết quả 🏁' : 'Câu tiếp theo →'}
+            {currentIndex + 1 >= questions.length ? 'Xem kết quả 🏁' : 'Câu tiếp theo → (Enter)'}
           </button>
         </div>
       )}
@@ -397,7 +504,7 @@ function QuizScreen({ questions, onFinish }) {
 
 // ===== Results Screen =====
 
-function ResultsScreen({ results, deckId, deckName, onRetry }) {
+function ResultsScreen({ results, deckId, deckName, onRetry, onRetryWrong, srsStatus }) {
   const correctCount = results.filter((r) => r.isCorrect).length;
   const totalCount = results.length;
   const percentage = totalCount > 0 ? Math.round((correctCount / totalCount) * 100) : 0;
@@ -412,7 +519,7 @@ function ResultsScreen({ results, deckId, deckName, onRetry }) {
 
   return (
     <div className="max-w-2xl mx-auto p-4 md:p-8 space-y-5 animate-fade-up">
-      {/* Thẻ điểm */}
+      {/* Score card */}
       <div className="bg-surface-container-lowest border border-outline-variant/30 sharp-shadow p-6 md:p-8 text-center relative overflow-hidden">
         <div className="absolute inset-0 asanoha-bg opacity-5 pointer-events-none" />
         <div className="text-4xl mb-3 relative z-10">{grade.emoji}</div>
@@ -432,7 +539,7 @@ function ResultsScreen({ results, deckId, deckName, onRetry }) {
           />
         </div>
 
-        {/* Breakdown mini */}
+        {/* Breakdown */}
         <div className="grid grid-cols-2 gap-3 mt-5 relative z-10">
           <div className="bg-surface border border-outline-variant/20 p-3 text-center">
             <div className="text-xl font-black text-green-700">{correctCount}</div>
@@ -443,10 +550,32 @@ function ResultsScreen({ results, deckId, deckName, onRetry }) {
             <div className="text-[9px] font-bold uppercase tracking-wider text-on-surface-variant mt-0.5">Sai</div>
           </div>
         </div>
+
+        {/* SRS sync status */}
+        {srsStatus && (
+          <div className="mt-4 p-3 border border-outline-variant/20 bg-surface text-center relative z-10">
+            {srsStatus === 'syncing' && (
+              <p className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant flex items-center justify-center gap-2">
+                <span className="inline-block w-3 h-3 border-2 border-outline-variant border-t-secondary animate-spin rounded-full" />
+                Đang đồng bộ tiến độ SRS...
+              </p>
+            )}
+            {srsStatus === 'synced' && (
+              <p className="text-[10px] font-bold uppercase tracking-wider text-green-700 flex items-center justify-center gap-2">
+                ✅ Đã cập nhật lịch ôn tập SRS
+              </p>
+            )}
+            {srsStatus === 'error' && (
+              <p className="text-[10px] font-bold uppercase tracking-wider text-secondary flex items-center justify-center gap-2">
+                ⚠️ Không thể đồng bộ SRS (kết quả quiz vẫn được lưu)
+              </p>
+            )}
+          </div>
+        )}
       </div>
 
-      {/* Nút hành động */}
-      <div className="grid grid-cols-2 gap-3">
+      {/* Action buttons */}
+      <div className={`grid gap-3 ${wrongAnswers.length > 0 ? 'grid-cols-3' : 'grid-cols-2'}`}>
         <button
           onClick={onRetry}
           className="py-3 text-xs font-bold text-on-secondary uppercase tracking-wider hover:bg-secondary-dim transition-all flex items-center justify-center gap-1.5"
@@ -457,6 +586,17 @@ function ResultsScreen({ results, deckId, deckName, onRetry }) {
           </svg>
           Làm lại
         </button>
+        {wrongAnswers.length > 0 && (
+          <button
+            onClick={onRetryWrong}
+            className="py-3 text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-1.5 border-2 border-secondary text-secondary hover:bg-secondary/5"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+            </svg>
+            Ôn câu sai ({wrongAnswers.length})
+          </button>
+        )}
         <Link
           to={`/deck/${deckId}`}
           className="py-3 border border-outline-variant bg-surface-container-lowest hover:bg-surface-container text-on-surface text-xs font-bold uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
@@ -468,7 +608,7 @@ function ResultsScreen({ results, deckId, deckName, onRetry }) {
         </Link>
       </div>
 
-      {/* Danh sách câu sai */}
+      {/* Wrong answers list */}
       {wrongAnswers.length > 0 ? (
         <div className="bg-surface-container-lowest border border-outline-variant/30 sharp-shadow p-6 animate-fade-up">
           <h3 className="font-headline text-sm font-bold text-on-surface mb-4 border-b border-outline-variant/20 pb-2 flex items-center gap-2">
@@ -514,11 +654,26 @@ export default function QuizPage() {
   const [questions, setQuestions] = useState([]);
   const [quizConfig, setQuizConfig] = useState(null);
   const [quizResults, setQuizResults] = useState([]);
+  const [srsStatus, setSrsStatus] = useState(null); // null | 'syncing' | 'synced' | 'error'
 
   const { data: deck, isLoading, error } = useQuery({
     queryKey: ['deck', deckId],
     queryFn: () => flashcardApi.getDeck(deckId),
   });
+
+  // Sync quiz results to SRS
+  const syncSRS = useCallback(async (results) => {
+    setSrsStatus('syncing');
+    try {
+      const promises = results.map((r) =>
+        flashcardApi.reviewCard(r.cardId, r.isCorrect ? 2 : 0) // GOOD=2, AGAIN=0
+      );
+      await Promise.allSettled(promises);
+      setSrsStatus('synced');
+    } catch {
+      setSrsStatus('error');
+    }
+  }, []);
 
   const handleStart = useCallback(
     (config) => {
@@ -530,19 +685,41 @@ export default function QuizPage() {
       );
       setQuestions(generated);
       setQuizConfig(config);
+      setSrsStatus(null);
       setPhase('quiz');
     },
     [deck],
   );
 
-  const handleFinish = (results) => {
+  const handleFinish = useCallback((results) => {
     setQuizResults(results);
     setPhase('results');
-  };
+    syncSRS(results);
+  }, [syncSRS]);
 
   const handleRetry = () => {
     if (quizConfig) handleStart(quizConfig);
   };
+
+  const handleRetryWrong = useCallback(() => {
+    if (!quizConfig || !deck?.cards) return;
+    const wrongCardIds = new Set(quizResults.filter((r) => !r.isCorrect).map((r) => r.cardId));
+    const wrongCards = deck.cards.filter((c) => wrongCardIds.has(c.id));
+    if (wrongCards.length < 2) {
+      // If only 1 wrong, still create quiz with that card + 1 random
+      const otherCards = deck.cards.filter((c) => !wrongCardIds.has(c.id));
+      if (otherCards.length > 0) wrongCards.push(otherCards[0]);
+    }
+    const generated = generateQuestions(
+      wrongCards,
+      quizConfig.mode,
+      quizConfig.direction,
+      'all',
+    );
+    setQuestions(generated);
+    setSrsStatus(null);
+    setPhase('quiz');
+  }, [quizConfig, quizResults, deck]);
 
   if (isLoading) {
     return (
@@ -564,16 +741,27 @@ export default function QuizPage() {
     );
   }
 
+  const timerSeconds = quizConfig?.timer && quizConfig.timer !== 'off' ? parseInt(quizConfig.timer, 10) : 0;
+
   return (
     <>
       {phase === 'setup' && <SetupScreen deck={deck} onStart={handleStart} />}
-      {phase === 'quiz' && <QuizScreen questions={questions} onFinish={handleFinish} />}
+      {phase === 'quiz' && (
+        <QuizScreen
+          questions={questions}
+          onFinish={handleFinish}
+          timerSeconds={timerSeconds}
+          direction={quizConfig?.direction || 'normal'}
+        />
+      )}
       {phase === 'results' && (
         <ResultsScreen
           results={quizResults}
           deckId={deckId}
           deckName={deck.name}
           onRetry={handleRetry}
+          onRetryWrong={handleRetryWrong}
+          srsStatus={srsStatus}
         />
       )}
     </>

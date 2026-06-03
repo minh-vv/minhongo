@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
+import { useAuth } from '../hooks/useAuth';
 
 const JLPT_LEVELS = [5, 4, 3, 2, 1];
 
@@ -197,6 +198,7 @@ export default function DeckDetailPage() {
   const { deckId } = useParams();
   const navigate = useNavigate();
   const queryClient = useQueryClient();
+  const { user } = useAuth();
 
   const [showAddCard, setShowAddCard] = useState(false);
   const [editingCard, setEditingCard] = useState(null);
@@ -292,6 +294,14 @@ export default function DeckDetailPage() {
     );
   }
 
+  // Quyền chỉnh sửa
+  const isOwner = deck?.userId === user?.id;
+  const isAdmin = user?.isAdmin ?? false;
+  const isCuratedDeck =
+    deck?.isPublic ||
+    ['HANTU', 'TUVUNG', 'NGUPHAP'].includes(deck?.category);
+  const canModify = isCuratedDeck ? isAdmin : isOwner;
+
   return (
     <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-8 animate-fade-up">
       {/* Header / Hero */}
@@ -318,25 +328,27 @@ export default function DeckDetailPage() {
               <p className="text-white/60 text-xs mt-1.5 max-w-lg leading-relaxed">{deck.description}</p>
             )}
           </div>
-          <div className="flex items-center gap-2 flex-shrink-0">
-            <button
-              onClick={() => setShowEditDeck(true)}
-              className="px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-white bg-white/10 hover:bg-white/20 border border-white/20 transition-colors"
-            >
-              Chỉnh sửa
-            </button>
-            <button
-              onClick={() => {
-                if (confirm('Bạn có chắc muốn xóa bộ thẻ này?')) {
-                  deleteDeckMutation.mutate();
-                }
-              }}
-              className="px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors"
-              style={{ background: 'var(--secondary)' }}
-            >
-              Xóa bộ thẻ
-            </button>
-          </div>
+          {canModify && (
+            <div className="flex items-center gap-2 flex-shrink-0">
+              <button
+                onClick={() => setShowEditDeck(true)}
+                className="px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-white bg-white/10 hover:bg-white/20 border border-white/20 transition-colors"
+              >
+                Chỉnh sửa
+              </button>
+              <button
+                onClick={() => {
+                  if (confirm('Bạn có chắc muốn xóa bộ thẻ này?')) {
+                    deleteDeckMutation.mutate();
+                  }
+                }}
+                className="px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors"
+                style={{ background: 'var(--secondary)' }}
+              >
+                Xóa bộ thẻ
+              </button>
+            </div>
+          )}
         </div>
       </section>
 
@@ -430,16 +442,18 @@ export default function DeckDetailPage() {
               style={{ border: '1px solid rgba(0,0,0,0.12)' }}
             />
           </div>
-          <button
-            onClick={() => setShowAddCard(true)}
-            className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors flex items-center gap-1.5"
-            style={{ background: 'var(--secondary)' }}
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
-            </svg>
-            Thêm thẻ
-          </button>
+          {canModify && (
+            <button
+              onClick={() => setShowAddCard(true)}
+              className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors flex items-center gap-1.5"
+              style={{ background: 'var(--secondary)' }}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
+              </svg>
+              Thêm thẻ
+            </button>
+          )}
         </div>
       </div>
 
@@ -461,7 +475,9 @@ export default function DeckDetailPage() {
                   <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Romaji</th>
                   <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Nghĩa tiếng Việt</th>
                   <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-24">Cấp độ</th>
-                  <th className="px-6 py-3.5 text-right text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-28">Hành động</th>
+                  {canModify && (
+                    <th className="px-6 py-3.5 text-right text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-28">Hành động</th>
+                  )}
                 </tr>
               </thead>
               <tbody className="divide-y divide-outline-variant/20">
@@ -483,30 +499,32 @@ export default function DeckDetailPage() {
                         </span>
                       )}
                     </td>
-                    <td className="px-6 py-4 text-right">
-                      <div className="flex justify-end gap-1">
-                        <button
-                          onClick={() => setEditingCard(card)}
-                          className="p-1.5 text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container rounded"
-                        >
-                          <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                          </svg>
-                        </button>
-                        <button
-                          onClick={() => {
-                            if (confirm('Bạn có chắc muốn xóa thẻ này?')) {
-                              deleteCardMutation.mutate(card.id);
-                            }
-                          }}
-                          className="p-1.5 text-on-surface-variant hover:text-secondary transition-colors hover:bg-surface-container rounded"
-                        >
-                          <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                          </svg>
-                        </button>
-                      </div>
-                    </td>
+                    {canModify && (
+                      <td className="px-6 py-4 text-right">
+                        <div className="flex justify-end gap-1">
+                          <button
+                            onClick={() => setEditingCard(card)}
+                            className="p-1.5 text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container rounded"
+                          >
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                            </svg>
+                          </button>
+                          <button
+                            onClick={() => {
+                              if (confirm('Bạn có chắc muốn xóa thẻ này?')) {
+                                deleteCardMutation.mutate(card.id);
+                              }
+                            }}
+                            className="p-1.5 text-on-surface-variant hover:text-secondary transition-colors hover:bg-surface-container rounded"
+                          >
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                            </svg>
+                          </button>
+                        </div>
+                      </td>
+                    )}
                   </tr>
                 ))}
               </tbody>

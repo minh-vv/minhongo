@@ -155,13 +155,22 @@ export class FlashcardsController {
     @Request() req: RequestWithUser,
     @Body() dto: UpdateCardDto,
   ) {
-    return this.flashcardsService.updateCard(cardId, req.user.id, dto);
+    return this.flashcardsService.updateCard(
+      cardId,
+      req.user.id,
+      dto,
+      req.user.isAdmin,
+    );
   }
 
   @UseGuards(JwtAuthGuard)
   @Delete('cards/:cardId')
   deleteCard(@Param('cardId') cardId: string, @Request() req: RequestWithUser) {
-    return this.flashcardsService.deleteCard(cardId, req.user.id);
+    return this.flashcardsService.deleteCard(
+      cardId,
+      req.user.id,
+      req.user.isAdmin,
+    );
   }
 
   @UseGuards(JwtAuthGuard)
@@ -189,13 +198,22 @@ export class FlashcardsController {
     @Request() req: RequestWithUser,
     @Body() dto: UpdateDeckDto,
   ) {
-    return this.flashcardsService.updateDeck(deckId, req.user.id, dto);
+    return this.flashcardsService.updateDeck(
+      deckId,
+      req.user.id,
+      dto,
+      req.user.isAdmin,
+    );
   }
 
   @UseGuards(JwtAuthGuard)
   @Delete(':deckId')
   deleteDeck(@Param('deckId') deckId: string, @Request() req: RequestWithUser) {
-    return this.flashcardsService.deleteDeck(deckId, req.user.id);
+    return this.flashcardsService.deleteDeck(
+      deckId,
+      req.user.id,
+      req.user.isAdmin,
+    );
   }
 
   /**
@@ -210,7 +228,12 @@ export class FlashcardsController {
     @Request() req: RequestWithUser,
     @Body('isPublic') isPublic: boolean,
   ) {
-    return this.flashcardsService.publishDeck(deckId, req.user.id, isPublic);
+    return this.flashcardsService.publishDeck(
+      deckId,
+      req.user.id,
+      isPublic,
+      req.user.isAdmin,
+    );
   }
 
   /**
@@ -230,7 +253,12 @@ export class FlashcardsController {
     @Request() req: RequestWithUser,
     @Body() dto: CreateCardDto,
   ) {
-    return this.flashcardsService.createCard(deckId, req.user.id, dto);
+    return this.flashcardsService.createCard(
+      deckId,
+      req.user.id,
+      dto,
+      req.user.isAdmin,
+    );
   }
 
   @UseGuards(JwtAuthGuard)

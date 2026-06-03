@@ -98,16 +98,19 @@ export class FlashcardsService {
     });
   }
 
-  async updateDeck(id: string, userId: string, dto: UpdateDeckDto) {
+  async updateDeck(
+    id: string,
+    userId: string,
+    dto: UpdateDeckDto,
+    isAdmin = false,
+  ) {
     const deck = await this.prisma.deck.findUnique({ where: { id } });
 
     if (!deck) {
       throw new NotFoundException('Deck không tồn tại');
     }
 
-    if (deck.userId !== userId) {
-      throw new ForbiddenException('Bạn không có quyền chỉnh sửa deck này');
-    }
+    this.assertCanModifyDeck(deck, userId, isAdmin);
 
     return this.prisma.deck.update({
       where: { id },
@@ -115,32 +118,33 @@ export class FlashcardsService {
     });
   }
 
-  async deleteDeck(id: string, userId: string) {
+  async deleteDeck(id: string, userId: string, isAdmin = false) {
     const deck = await this.prisma.deck.findUnique({ where: { id } });
 
     if (!deck) {
       throw new NotFoundException('Deck không tồn tại');
     }
 
-    if (deck.userId !== userId) {
-      throw new ForbiddenException('Bạn không có quyền xóa deck này');
-    }
+    this.assertCanModifyDeck(deck, userId, isAdmin);
 
     return this.prisma.deck.delete({ where: { id } });
   }
 
   // ========== CARD CRUD ==========
 
-  async createCard(deckId: string, userId: string, dto: CreateCardDto) {
+  async createCard(
+    deckId: string,
+    userId: string,
+    dto: CreateCardDto,
+    isAdmin = false,
+  ) {
     const deck = await this.prisma.deck.findUnique({ where: { id: deckId } });
 
     if (!deck) {
       throw new NotFoundException('Deck không tồn tại');
     }
 
-    if (deck.userId !== userId) {
-      throw new ForbiddenException('Bạn không có quyền thêm thẻ vào deck này');
-    }
+    this.assertCanModifyDeck(deck, userId, isAdmin);
 
     return this.prisma.card.create({
       data: {
@@ -150,7 +154,12 @@ export class FlashcardsService {
     });
   }
 
-  async updateCard(id: string, userId: string, dto: UpdateCardDto) {
+  async updateCard(
+    id: string,
+    userId: string,
+    dto: UpdateCardDto,
+    isAdmin = false,
+  ) {
     const card = await this.prisma.card.findUnique({
       where: { id },
       include: { deck: true },
@@ -160,9 +169,7 @@ export class FlashcardsService {
       throw new NotFoundException('Thẻ không tồn tại');
     }
 
-    if (card.deck.userId !== userId) {
-      throw new ForbiddenException('Bạn không có quyền chỉnh sửa thẻ này');
-    }
+    this.assertCanModifyDeck(card.deck, userId, isAdmin);
 
     return this.prisma.card.update({
       where: { id },
@@ -170,7 +177,7 @@ export class FlashcardsService {
     });
   }
 
-  async deleteCard(id: string, userId: string) {
+  async deleteCard(id: string, userId: string, isAdmin = false) {
     const card = await this.prisma.card.findUnique({
       where: { id },
       include: { deck: true },
@@ -180,9 +187,7 @@ export class FlashcardsService {
       throw new NotFoundException('Thẻ không tồn tại');
     }
 
-    if (card.deck.userId !== userId) {
-      throw new ForbiddenException('Bạn không có quyền xóa thẻ này');
-    }
+    this.assertCanModifyDeck(card.deck, userId, isAdmin);
 
     return this.prisma.card.delete({ where: { id } });
   }
@@ -577,6 +582,36 @@ export class FlashcardsService {
     return { days, leaderboard };
   }
 
+  /**
+   * Kiểm tra quyền chỉnh sửa / xóa deck.
+   * - Deck công khai hoặc thuộc nội dung hệ thống (HANTU, TUVUNG, NGUPHAP)
+   *   → chỉ admin mới được phép.
+   * - Deck cá nhân (private, category TUHOC) → chỉ chủ sở hữu.
+   */
+  private assertCanModifyDeck(
+    deck: { userId: string; isPublic: boolean; category: string },
+    userId: string,
+    isAdmin: boolean,
+  ) {
+    const isCuratedContent =
+      deck.isPublic ||
+      ['HANTU', 'TUVUNG', 'NGUPHAP'].includes(deck.category);
+
+    if (isCuratedContent) {
+      if (!isAdmin) {
+        throw new ForbiddenException(
+          'Chỉ admin mới có quyền sửa/xóa nội dung hệ thống',
+        );
+      }
+      return;
+    }
+
+    // Deck cá nhân — chỉ owner
+    if (deck.userId !== userId) {
+      throw new ForbiddenException('Bạn không có quyền thao tác deck này');
+    }
+  }
+
   // Helper method để tạo thông báo
   private getReviewMessage(quality: ReviewQuality, interval: number): string {
     const messages = {
@@ -910,14 +945,20 @@ export class FlashcardsService {
    * Chỉ chủ sở hữu mới được phép thay đổi.
    * Trả về deck sau khi cập nhật.
    */
-  async publishDeck(deckId: string, userId: string, isPublic: boolean) {
+  async publishDeck(
+    deckId: string,
+    userId: string,
+    isPublic: boolean,
+    isAdmin = false,
+  ) {
     const deck = await this.prisma.deck.findUnique({ where: { id: deckId } });
 
     if (!deck) {
       throw new NotFoundException('Deck không tồn tại');
     }
 
-    if (deck.userId !== userId) {
+    // Chỉ owner hoặc admin mới được thay đổi trạng thái công khai
+    if (deck.userId !== userId && !isAdmin) {
       throw new ForbiddenException(
         'Bạn không có quyền thay đổi trạng thái deck này',
       );
