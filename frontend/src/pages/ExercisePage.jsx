@@ -182,13 +182,13 @@ function MultipleChoiceEx({ exercise, onAnswer }) {
   const [selected, setSelected] = useState(null);
   const [answered, setAnswered] = useState(false);
 
-  const handleSelect = (opt) => {
+  const handleSelect = useCallback((opt) => {
     if (answered) return;
     const match = fuzzyMatch(opt, exercise.card.back);
     setSelected(opt);
     setAnswered(true);
     onAnswer(match.isExact, opt);
-  };
+  }, [answered, exercise.card.back, onAnswer]);
 
   const style = (opt) => {
     if (!answered) return { border: '1px solid rgba(0,0,0,0.12)', background: 'var(--surface)', cursor: 'pointer' };
@@ -209,7 +209,7 @@ function MultipleChoiceEx({ exercise, onAnswer }) {
     };
     window.addEventListener('keydown', handleKey);
     return () => window.removeEventListener('keydown', handleKey);
-  }, [answered, exercise.options]);
+  }, [answered, exercise.options, handleSelect]);
 
   return (
     <div className="space-y-4">
@@ -569,15 +569,15 @@ function ExerciseRunner({ exercises, onComplete }) {
   const progress = Math.round((idx / exercises.length) * 100);
   const correctSoFar = results.filter((r) => r.correct).length;
 
-  if (!current) return null;
+  // --- Declare handlers BEFORE useEffect ---
 
-  const handleAnswer = (correct, userAnswer = '') => {
+  const handleAnswer = useCallback((correct, userAnswer = '') => {
     setLastCorrect(correct);
     setAnswered(true);
-    setResults((r) => [...r, { correct, userAnswer, card: current.card, type: current.type }]);
-  };
+    setResults((r) => [...r, { correct, userAnswer, card: current?.card, type: current?.type }]);
+  }, [current]);
 
-  const handleNext = () => {
+  const handleNext = useCallback(() => {
     if (idx + 1 >= exercises.length) {
       onComplete([...results]);
     } else {
@@ -585,7 +585,7 @@ function ExerciseRunner({ exercises, onComplete }) {
       setAnswered(false);
       setLastCorrect(null);
     }
-  };
+  }, [idx, exercises.length, onComplete, results]);
 
   // Keyboard: Enter to advance
   useEffect(() => {
@@ -596,7 +596,7 @@ function ExerciseRunner({ exercises, onComplete }) {
     };
     window.addEventListener('keydown', handleKey);
     return () => window.removeEventListener('keydown', handleKey);
-  }, [answered, idx, results]);
+  }, [answered, handleNext]);
 
   const typeLabel = {
     'multiple-choice': 'Trắc nghiệm',
@@ -604,6 +604,9 @@ function ExerciseRunner({ exercises, onComplete }) {
     'arrangement': 'Sắp xếp câu',
     'listening': 'Nghe - Điền',
   };
+
+  // Early return AFTER all hooks
+  if (!current) return null;
 
   return (
     <div className="max-w-xl mx-auto p-4 md:p-6 space-y-6 animate-fade-up">

@@ -238,6 +238,57 @@ function QuizScreen({ questions, onFinish, timerSeconds, direction }) {
   const correctSoFar = results.filter((r) => r.isCorrect).length;
   const labels = getDirectionLabels(direction);
 
+  // --- Declare all handler functions BEFORE useEffects that reference them ---
+
+  const recordResult = useCallback(
+    (userAnswer, correct, match) => {
+      setMatchResult(match);
+      setIsAnswered(true);
+      clearInterval(timerRef.current);
+      setResults((prev) => [
+        ...prev,
+        {
+          cardId: current.id,
+          question: current.question,
+          answer: current.answer,
+          userAnswer,
+          isCorrect: correct,
+          isFuzzy: match?.isFuzzy && !match?.isExact,
+          hint: current.hint,
+        },
+      ]);
+    },
+    [current],
+  );
+
+  const handleMultipleChoiceSelect = useCallback((option) => {
+    if (isAnswered) return;
+    setSelectedOption(option);
+    const match = fuzzyMatch(option, current.answer);
+    recordResult(option, match.isExact, match);
+  }, [isAnswered, current, recordResult]);
+
+  const handleNext = useCallback(() => {
+    if (currentIndex + 1 >= questions.length) {
+      onFinish([...results]);
+    } else {
+      setCurrentIndex((i) => i + 1);
+      setSelectedOption(null);
+      setInputValue('');
+      setIsAnswered(false);
+      setMatchResult(null);
+    }
+  }, [currentIndex, questions.length, onFinish, results]);
+
+  const handleFillInBlankSubmit = () => {
+    if (isAnswered || !inputValue.trim()) return;
+    const match = fuzzyMatch(inputValue.trim(), current.answer);
+    // Accept both exact and fuzzy matches as correct
+    recordResult(inputValue.trim(), match.isExact || match.isFuzzy, match);
+  };
+
+  // --- useEffects (all handlers are now declared above) ---
+
   // Timer countdown
   useEffect(() => {
     if (!timerSeconds || isAnswered) {
@@ -249,7 +300,6 @@ function QuizScreen({ questions, onFinish, timerSeconds, direction }) {
       setTimeLeft((prev) => {
         if (prev <= 1) {
           clearInterval(timerRef.current);
-          // Auto-submit as wrong when time runs out
           return 0;
         }
         return prev - 1;
@@ -263,7 +313,7 @@ function QuizScreen({ questions, onFinish, timerSeconds, direction }) {
     if (timerSeconds && timeLeft === 0 && !isAnswered) {
       recordResult('(hết giờ)', false, null);
     }
-  }, [timeLeft, timerSeconds, isAnswered]);
+  }, [timeLeft, timerSeconds, isAnswered, recordResult]);
 
   // Focus input on new fill-in-blank question
   useEffect(() => {
@@ -288,54 +338,7 @@ function QuizScreen({ questions, onFinish, timerSeconds, direction }) {
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [current, isAnswered, currentIndex, results]);
-
-  const recordResult = useCallback(
-    (userAnswer, correct, match) => {
-      setMatchResult(match);
-      setIsAnswered(true);
-      clearInterval(timerRef.current);
-      setResults((prev) => [
-        ...prev,
-        {
-          cardId: current.id,
-          question: current.question,
-          answer: current.answer,
-          userAnswer,
-          isCorrect: correct,
-          isFuzzy: match?.isFuzzy && !match?.isExact,
-          hint: current.hint,
-        },
-      ]);
-    },
-    [current],
-  );
-
-  const handleMultipleChoiceSelect = (option) => {
-    if (isAnswered) return;
-    setSelectedOption(option);
-    const match = fuzzyMatch(option, current.answer);
-    recordResult(option, match.isExact, match);
-  };
-
-  const handleFillInBlankSubmit = () => {
-    if (isAnswered || !inputValue.trim()) return;
-    const match = fuzzyMatch(inputValue.trim(), current.answer);
-    // Accept both exact and fuzzy matches as correct
-    recordResult(inputValue.trim(), match.isExact || match.isFuzzy, match);
-  };
-
-  const handleNext = () => {
-    if (currentIndex + 1 >= questions.length) {
-      onFinish([...results]);
-    } else {
-      setCurrentIndex((i) => i + 1);
-      setSelectedOption(null);
-      setInputValue('');
-      setIsAnswered(false);
-      setMatchResult(null);
-    }
-  };
+  }, [current, isAnswered, handleMultipleChoiceSelect, handleNext]);
 
   const isCorrect = results.length > 0 ? results[results.length - 1]?.isCorrect : null;
 
