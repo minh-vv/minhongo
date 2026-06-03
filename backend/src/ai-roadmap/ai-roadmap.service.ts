@@ -116,10 +116,7 @@ export class AiRoadmapService {
             .join('\n')
         : '';
 
-    const model = this.genAI.getGenerativeModel({
-      model: 'gemini-2.5-flash',
-      generationConfig: { responseMimeType: 'application/json' },
-    });
+    // Model will be instantiated dynamically below to support model fallback
 
     // Tính toán số ngày học mỗi tuần (5–6 ngày/tuần tùy phút học)
     const studyDaysPerWeek =
@@ -181,10 +178,28 @@ Trả về JSON theo đúng cấu trúc sau:
 }`;
 
     try {
-      const result = await withRetry(() => model.generateContent(prompt), {
-        logger: this.logger,
-      });
-      let responseText = result.response.text();
+      let result;
+      try {
+        const model = this.genAI.getGenerativeModel({
+          model: 'gemini-2.5-flash',
+          generationConfig: { responseMimeType: 'application/json' },
+        });
+        result = await withRetry(() => model.generateContent(prompt), {
+          logger: this.logger,
+        });
+      } catch (primaryError: any) {
+        this.logger.warn(
+          `Primary model gemini-2.5-flash failed: ${primaryError.message}. Falling back to gemini-1.5-flash...`,
+        );
+        const fallbackModel = this.genAI.getGenerativeModel({
+          model: 'gemini-1.5-flash',
+          generationConfig: { responseMimeType: 'application/json' },
+        });
+        result = await withRetry(() => fallbackModel.generateContent(prompt), {
+          logger: this.logger,
+        });
+      }
+      let responseText = result.response.text() as string;
 
       responseText = responseText
         .replace(/^```json\n?/, '')
