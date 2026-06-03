@@ -181,10 +181,9 @@ Trả về JSON theo đúng cấu trúc sau:
 }`;
 
     try {
-      const result = await withRetry(
-        () => model.generateContent(prompt),
-        { logger: this.logger },
-      );
+      const result = await withRetry(() => model.generateContent(prompt), {
+        logger: this.logger,
+      });
       let responseText = result.response.text();
 
       responseText = responseText
@@ -207,7 +206,7 @@ Trả về JSON theo đúng cấu trúc sau:
       const validLessonIds = new Set(availableLessons.map((l) => l.id));
       for (const phase of parsedData.phases || []) {
         for (const item of phase.items || []) {
-          if (item.lessonId && !validLessonIds.has(item.lessonId)) {
+          if (item.lessonId && !validLessonIds.has(item.lessonId as string)) {
             console.warn(
               `Invalid lessonId from AI: ${item.lessonId} — setting to null`,
             );

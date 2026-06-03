@@ -594,8 +594,7 @@ export class FlashcardsService {
     isAdmin: boolean,
   ) {
     const isCuratedContent =
-      deck.isPublic ||
-      ['HANTU', 'TUVUNG', 'NGUPHAP'].includes(deck.category);
+      deck.isPublic || ['HANTU', 'TUVUNG', 'NGUPHAP'].includes(deck.category);
 
     if (isCuratedContent) {
       if (!isAdmin) {
@@ -821,7 +820,9 @@ export class FlashcardsService {
 
     if (anki21b) {
       const compressed = anki21b.getData();
-      const decompressed = fzstd.decompress(new Uint8Array(compressed));
+      const decompressed = fzstd.decompress(
+        new Uint8Array(compressed) as Uint8Array,
+      );
       dbBuffer = Buffer.from(decompressed);
     } else if (anki21) {
       dbBuffer = anki21.getData();
@@ -872,7 +873,7 @@ export class FlashcardsService {
         if (colRes.length > 0 && colRes[0].values.length > 0) {
           const modelsStr = colRes[0].values[0][0] as string;
           if (modelsStr) {
-            const models = JSON.parse(modelsStr);
+            const models = JSON.parse(modelsStr) as Record<string, unknown>;
             const model = Object.values(models)[0] as any;
             fieldNames = model?.flds?.map((f: any) => f.name) ?? [];
           }

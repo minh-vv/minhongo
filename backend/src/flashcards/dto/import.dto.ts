@@ -42,7 +42,7 @@ export class ImportDeckDto {
   category?: DeckCategory;
 
   @IsOptional()
-  @Transform(({ value }) => (value ? parseInt(value, 10) : undefined))
+  @Transform(({ value }) => (value ? parseInt(value as string, 10) : undefined))
   @IsNumber()
   jlptLevel?: number;
 }

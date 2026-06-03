@@ -108,10 +108,9 @@ Trả về dữ liệu dạng JSON thuần túy (không bọc trong markdown tic
         history: formattedHistory,
       });
 
-      const result = await withRetry(
-        () => chat.sendMessage(dto.message),
-        { logger: this.logger },
-      );
+      const result = await withRetry(() => chat.sendMessage(dto.message), {
+        logger: this.logger,
+      });
       return { reply: result.response.text() };
     } catch (error: any) {
       throw new BadRequestException('Lỗi AI Chat: ' + error.message);
