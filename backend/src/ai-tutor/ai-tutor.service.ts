@@ -1,6 +1,6 @@
 import { Injectable, BadRequestException, Logger } from '@nestjs/common';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { ExplainDto, EvaluateDto, ChatDto } from './dto/ai-tutor.dto';
+import { ExplainDto, EvaluateDto, ChatDto, GrammarExampleDto } from './dto/ai-tutor.dto';
 import { withRetry } from '../common/utils/gemini-retry';
 
 @Injectable()
@@ -145,6 +145,37 @@ Trả về dữ liệu dạng JSON thuần túy (không bọc trong markdown tic
       } catch (error: any) {
         throw new BadRequestException('Lỗi AI Chat: ' + error.message);
       }
+    }
+  }
+
+  // 4. AI Tạo ví dụ mới cho ngữ pháp
+  async generateGrammarExample(dto: GrammarExampleDto) {
+    const prompt = `Bạn là Sensei tiếng Nhật chuyên nghiệp. Hãy tạo ra 1 câu ví dụ tiếng Nhật mới và độc đáo sử dụng cấu trúc ngữ pháp sau:
+Cấu trúc: "${dto.grammarStructure}"
+Ý nghĩa/Cách dùng: "${dto.meaning}"
+
+Yêu cầu:
+1. Câu ví dụ phải tự nhiên, thực tế và sử dụng chính xác cấu trúc ngữ pháp đó.
+2. Cung cấp câu tiếng Nhật (có kanji), phiên âm Romaji đầy đủ, và bản dịch tiếng Việt tương ứng.
+
+Hãy trả về duy nhất dữ liệu dạng JSON thuần túy (không bọc trong markdown tick) với cấu trúc sau:
+{
+  "japanese": "[Câu ví dụ tiếng Nhật]",
+  "romaji": "[Phiên âm Romaji]",
+  "vietnamese": "[Bản dịch tiếng Việt]"
+}`;
+
+    try {
+      const result = await this.generateContentWithFallback(prompt);
+      let text = result.response.text().trim();
+      if (text.startsWith('```json')) {
+        text = text.replace(/^```json\n?/, '').replace(/\n?```$/, '');
+      } else if (text.startsWith('```')) {
+        text = text.replace(/^```\n?/, '').replace(/\n?```$/, '');
+      }
+      return JSON.parse(text);
+    } catch (error: any) {
+      throw new BadRequestException('Lỗi sinh câu ví dụ AI: ' + error.message);
     }
   }
 }

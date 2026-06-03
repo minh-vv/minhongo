@@ -51,3 +51,13 @@ export class ChatDto {
   @IsNotEmpty()
   message: string;
 }
+
+export class GrammarExampleDto {
+  @IsString()
+  @IsNotEmpty()
+  grammarStructure: string;
+
+  @IsString()
+  @IsNotEmpty()
+  meaning: string;
+}

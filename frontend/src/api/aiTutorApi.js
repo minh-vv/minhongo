@@ -27,6 +27,15 @@ const aiTutorApi = {
     const response = await axiosInstance.post('/ai-tutor/chat', data);
     return response.data;
   },
+
+  /**
+   * Tạo ví dụ mới cho ngữ pháp từ AI
+   * @param {Object} data - { grammarStructure, meaning }
+   */
+  grammarExample: async (data) => {
+    const response = await axiosInstance.post('/ai-tutor/grammar-example', data);
+    return response.data;
+  },
 };
 
 export default aiTutorApi;
