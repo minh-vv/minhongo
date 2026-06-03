@@ -1,6 +1,6 @@
 import { Controller, Post, Body, UseGuards } from '@nestjs/common';
 import { AiTutorService } from './ai-tutor.service';
-import { ExplainDto, EvaluateDto, ChatDto } from './dto/ai-tutor.dto';
+import { ExplainDto, EvaluateDto, ChatDto, GrammarExampleDto } from './dto/ai-tutor.dto';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 
 @Controller('ai-tutor')
@@ -21,5 +21,10 @@ export class AiTutorController {
   @Post('chat')
   chat(@Body() chatDto: ChatDto) {
     return this.aiTutorService.chat(chatDto);
+  }
+
+  @Post('grammar-example')
+  generateGrammarExample(@Body() grammarExampleDto: GrammarExampleDto) {
+    return this.aiTutorService.generateGrammarExample(grammarExampleDto);
   }
 }
