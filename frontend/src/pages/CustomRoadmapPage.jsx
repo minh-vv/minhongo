@@ -11,7 +11,7 @@ import {
 } from 'lucide-react';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
-const COLS = 5;
+const COLS = 7;
 
 const SKILL_META = {
   VOCABULARY: { label: '語', name: 'Từ vựng' },
@@ -517,7 +517,7 @@ export default function CustomRoadmapPage() {
 
   return (
     <div className="bg-surface min-h-screen">
-      <div className="max-w-2xl mx-auto px-4 pb-16 pt-4">
+      <div className="max-w-5xl mx-auto p-6 md:p-8">
 
         {/* Back */}
         <Link
