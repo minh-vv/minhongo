@@ -55,7 +55,7 @@ const SKILLS = [
     label: 'Đọc hiểu',
     jp: '読解',
     desc: 'Luyện đọc văn bản theo trình độ JLPT với chú thích từ vựng và ngữ pháp.',
-    path: '/roadmap',
+    path: '/self-study',
     accent: '#1565c0',
     accentEnd: '#1976d2',
     ghost: '読',
@@ -112,8 +112,7 @@ function StepDot({ step, current, label }) {
   const active = current === step;
   return (
     <div className="flex flex-col items-center gap-1">
-      <div className={`w-8 h-8 flex items-center justify-center text-sm font-bold transition-all
-        ${done ? '' : active ? '' : ''}`}
+      <div className="w-8 h-8 flex items-center justify-center text-sm font-bold transition-all"
         style={{
           background: done ? '#22c55e' : active ? 'var(--primary)' : 'rgba(0,0,0,0.07)',
           color: done || active ? '#fff' : 'var(--on-surface-variant)',
@@ -235,8 +234,9 @@ function AiModal({ onClose, onSuccess, userProgress }) {
   const autoFillFromSystem = () => {
     if (!userProgress || userProgress.length === 0) return;
     const lines = userProgress
-      .filter((p) => p.status === 'PASSED')
-      .map((p) => `✅ Đã hoàn thành: ${p.lessonTitle || p.title}${p.score ? ` (Điểm: ${p.score}%)` : ''}`);
+      .filter((p) => p.passedLessons > 0)
+      .map((p) => `✅ ${p.title} (N${p.jlptLevel}): ${p.passedLessons}/${p.totalLessons} bài hoàn thành${p.goal ? ` — Mục tiêu: ${p.goal}` : ''}`);
+    if (lines.length === 0) return;
     setFormData((f) => ({
       ...f,
       achievements: (f.achievements ? f.achievements + '\n' : '') + lines.join('\n'),

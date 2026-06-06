@@ -2,6 +2,8 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { useState, Fragment } from 'react';
 import { aiApi } from '../api/aiApi';
+import { useAuth } from '../hooks/useAuth';
+import LoginPrompt from '../components/LoginPrompt';
 import {
   ArrowLeft, Sparkles, Play, CheckCircle2, Clock,
   BookOpen, Trophy, X, Trash2, RotateCcw, Flag,
@@ -9,14 +11,14 @@ import {
 } from 'lucide-react';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
-const COLS = 3;
+const COLS = 5;
 
 const SKILL_META = {
-  VOCABULARY: { label: '語', bg: 'bg-blue-100 text-blue-700', name: 'Từ vựng' },
-  KANJI:      { label: '漢', bg: 'bg-rose-100 text-rose-700', name: 'Hán tự' },
-  GRAMMAR:    { label: '文', bg: 'bg-violet-100 text-violet-700', name: 'Ngữ pháp' },
-  READING:    { label: '読', bg: 'bg-teal-100 text-teal-700', name: 'Đọc hiểu' },
-  LISTENING:  { label: '聴', bg: 'bg-amber-100 text-amber-700', name: 'Nghe hiểu' },
+  VOCABULARY: { label: '語', name: 'Từ vựng' },
+  KANJI:      { label: '漢', name: 'Hán tự' },
+  GRAMMAR:    { label: '文', name: 'Ngữ pháp' },
+  READING:    { label: '読', name: 'Đọc hiểu' },
+  LISTENING:  { label: '聴', name: 'Nghe hiểu' },
 };
 
 // Extract short label from "Ngày X: ..." titles
@@ -33,25 +35,32 @@ function DayNode({ item, dayNum, isSelected, isNext, onSelect }) {
   const hasLesson = !!item.lessonId;
   const label = shortLabel(item.customTitle, dayNum);
 
+  const nodeStyle = done
+    ? { background: 'var(--tertiary)', borderColor: 'var(--tertiary)', color: '#fff' }
+    : isNext
+      ? { background: 'var(--primary)', borderColor: 'var(--primary)', color: '#fff' }
+      : hasLesson
+        ? { background: 'var(--surface-container-lowest)', borderColor: 'var(--primary)', color: 'var(--primary)' }
+        : { background: 'var(--surface-container-lowest)', borderColor: 'var(--outline-variant)', color: 'var(--on-surface-variant)' };
+
   return (
     <div className="flex flex-col items-center flex-shrink-0" style={{ width: 64 }}>
       <button
         onClick={() => onSelect(item)}
         title={item.customTitle}
-        className={[
-          'relative w-14 h-14 rounded-full border-[3px] flex items-center justify-center',
-          'font-black text-sm transition-all duration-200 select-none outline-none',
-          isSelected
-            ? 'ring-4 ring-offset-2 ring-indigo-300 scale-110 z-10'
-            : 'hover:scale-110 active:scale-95',
-          done
-            ? 'bg-emerald-400 border-emerald-500 text-white shadow-lg shadow-emerald-200'
-            : isNext
-              ? 'bg-indigo-600 border-indigo-500 text-white shadow-xl shadow-indigo-200'
-              : hasLesson
-                ? 'bg-white border-indigo-300 text-indigo-600 shadow-md shadow-indigo-100'
-                : 'bg-white border-slate-200 text-slate-400 shadow-sm',
-        ].join(' ')}
+        className="relative w-14 h-14 border-[3px] flex items-center justify-center font-black text-sm transition-all duration-200 select-none outline-none"
+        style={{
+          ...nodeStyle,
+          transform: isSelected ? 'scale(1.1)' : undefined,
+          zIndex: isSelected ? 10 : undefined,
+          boxShadow: isSelected
+            ? '0 0 0 4px rgba(26,35,126,0.2)'
+            : done
+              ? '2px 2px 0 0 rgba(74,103,65,0.15)'
+              : isNext
+                ? '3px 3px 0 0 rgba(26,35,126,0.15)'
+                : '2px 2px 0 0 rgba(0,0,0,0.06)',
+        }}
       >
         {done
           ? <CheckCircle2 className="w-6 h-6" />
@@ -62,17 +71,19 @@ function DayNode({ item, dayNum, isSelected, isNext, onSelect }) {
 
         {/* Pulse ring for next lesson */}
         {isNext && !done && (
-          <span className="absolute inset-0 rounded-full border-[3px] border-indigo-400 animate-ping opacity-40 pointer-events-none" />
+          <span
+            className="absolute inset-0 border-[3px] animate-ping opacity-40 pointer-events-none"
+            style={{ borderColor: 'var(--primary)' }}
+          />
         )}
       </button>
 
       {/* Day label below node */}
       <span
-        className={[
-          'mt-1.5 text-[9px] font-semibold text-center leading-tight',
-          'max-w-[64px] line-clamp-2',
-          done ? 'text-emerald-500' : isNext ? 'text-indigo-600' : 'text-slate-400',
-        ].join(' ')}
+        className="mt-1.5 text-[9px] font-semibold text-center leading-tight max-w-[64px] line-clamp-2"
+        style={{
+          color: done ? 'var(--tertiary)' : isNext ? 'var(--primary)' : 'var(--on-surface-variant)',
+        }}
       >
         {label}
       </span>
@@ -85,10 +96,11 @@ function HConn({ done }) {
   return (
     <div className="flex-1 flex items-center" style={{ marginTop: 28 }}>
       <div
-        className={[
-          'w-full border-t-2',
-          done ? 'border-emerald-300' : 'border-dashed border-indigo-200',
-        ].join(' ')}
+        className="w-full border-t-2"
+        style={{
+          borderColor: done ? 'var(--tertiary)' : 'var(--outline-variant)',
+          borderStyle: done ? 'solid' : 'dashed',
+        }}
       />
     </div>
   );
@@ -96,11 +108,9 @@ function HConn({ done }) {
 
 // ─── Turn connector between rows ──────────────────────────────────────────────
 function TurnConn({ isLTR }) {
-  // After LTR row: curve down on the RIGHT edge
-  // After RTL row: curve down on the LEFT edge
   const borderSide = isLTR
-    ? { borderRight: '2px dashed #c7d2fe', borderBottomRightRadius: 20, right: 4 }
-    : { borderLeft: '2px dashed #c7d2fe', borderBottomLeftRadius: 20, left: 4 };
+    ? { borderRight: '2px dashed var(--outline-variant)', right: 4 }
+    : { borderLeft: '2px dashed var(--outline-variant)', left: 4 };
 
   return (
     <div className="relative" style={{ height: 32 }}>
@@ -108,7 +118,7 @@ function TurnConn({ isLTR }) {
         className="absolute"
         style={{
           ...borderSide,
-          borderBottom: '2px dashed #c7d2fe',
+          borderBottom: '2px dashed var(--outline-variant)',
           width: '28%',
           top: 0,
           bottom: 0,
@@ -126,27 +136,28 @@ function PhaseBanner({ phase, doneCount }) {
 
   return (
     <div className="relative flex items-center gap-3 my-6">
-      <div className="flex-1 h-px bg-gradient-to-r from-transparent via-indigo-200 to-indigo-200" />
+      <div className="flex-1 h-px" style={{ background: 'linear-gradient(to right, transparent, var(--outline-variant))' }} />
       <div
-        className={[
-          'flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold border shadow-sm whitespace-nowrap',
-          allDone
-            ? 'bg-emerald-50 border-emerald-200 text-emerald-700'
-            : 'bg-white border-indigo-100 text-indigo-700 shadow-indigo-50',
-        ].join(' ')}
+        className="flex items-center gap-2 px-4 py-1.5 text-xs font-bold border whitespace-nowrap"
+        style={{
+          background: allDone ? 'rgba(74,103,65,0.08)' : 'var(--surface-container-lowest)',
+          borderColor: allDone ? 'var(--tertiary)' : 'var(--outline-variant)',
+          color: allDone ? 'var(--tertiary)' : 'var(--primary)',
+        }}
       >
         {allDone ? <Trophy className="w-3.5 h-3.5" /> : <Flag className="w-3.5 h-3.5" />}
         {phase.title}
         <span
-          className={[
-            'text-[10px] font-bold px-1.5 py-0.5 rounded-full',
-            allDone ? 'bg-emerald-100 text-emerald-600' : 'bg-indigo-50 text-indigo-400',
-          ].join(' ')}
+          className="text-[10px] font-bold px-1.5 py-0.5"
+          style={{
+            background: allDone ? 'rgba(74,103,65,0.12)' : 'rgba(26,35,126,0.06)',
+            color: allDone ? 'var(--tertiary)' : 'var(--primary)',
+          }}
         >
           {pct}%
         </span>
       </div>
-      <div className="flex-1 h-px bg-gradient-to-l from-transparent via-indigo-200 to-indigo-200" />
+      <div className="flex-1 h-px" style={{ background: 'linear-gradient(to left, transparent, var(--outline-variant))' }} />
     </div>
   );
 }
@@ -183,12 +194,10 @@ function PhaseSection({ phase, dayOffset, selectedId, nextItemId, onSelect }) {
               >
                 {displayItems.map((item, colIdx) => {
                   // Calculate actual day number
-                  // displayItems is reversed for RTL, so we need the original index
                   const origIdx = isLTR
                     ? rowIdx * COLS + colIdx
                     : rowIdx * COLS + (rowItems.length - 1 - colIdx);
                   const dayNum = dayOffset + origIdx + 1;
-                  // Connector done state: the connector between two nodes is "done" if both nodes are done
                   const nextItem = displayItems[colIdx + 1];
                   const connDone = item.isCompleted && nextItem?.isCompleted;
 
@@ -246,13 +255,13 @@ function NodeDetailPanel({ node, dayNum, phaseTitle, onClose, onToggle, isToggli
 
       {/* Bottom sheet */}
       <div
-        className="fixed bottom-0 left-0 right-0 z-50 bg-white rounded-t-3xl shadow-2xl"
-        style={{ maxHeight: '80vh', overflowY: 'auto' }}
+        className="fixed bottom-0 left-0 right-0 z-50 bg-surface-container-lowest border-t-2"
+        style={{ maxHeight: '80vh', overflowY: 'auto', borderColor: 'var(--primary)' }}
         onClick={(e) => e.stopPropagation()}
       >
         {/* Handle */}
         <div className="flex justify-center pt-3 pb-1">
-          <div className="w-10 h-1 bg-slate-200 rounded-full" />
+          <div className="w-10 h-1" style={{ background: 'var(--outline-variant)' }} />
         </div>
 
         <div className="px-5 pb-8 pt-2">
@@ -261,21 +270,25 @@ function NodeDetailPanel({ node, dayNum, phaseTitle, onClose, onToggle, isToggli
             <div className="min-w-0">
               {/* Day / Phase context */}
               <div className="flex items-center gap-2 mb-1.5">
-                <span className="text-xs font-bold text-indigo-500 bg-indigo-50 px-2.5 py-0.5 rounded-full">
+                <span
+                  className="text-xs font-bold px-2.5 py-0.5"
+                  style={{ background: 'rgba(26,35,126,0.08)', color: 'var(--primary)' }}
+                >
                   Ngày {dayNum}
                 </span>
-                <span className="text-xs text-slate-400">{phaseTitle}</span>
+                <span className="text-xs text-on-surface-variant">{phaseTitle}</span>
               </div>
 
               {/* Title */}
-              <h2 className="text-lg font-extrabold text-slate-800 leading-snug">
+              <h2 className="text-lg font-headline font-extrabold text-on-surface leading-snug">
                 {node.customTitle?.replace(/^Ngày\s*\d+\s*[:\-–]\s*/i, '') || node.customTitle}
               </h2>
             </div>
 
             <button
               onClick={onClose}
-              className="p-2 text-slate-400 hover:text-slate-600 bg-slate-100 rounded-full transition-colors flex-shrink-0"
+              className="p-2 text-on-surface-variant hover:text-on-surface transition-colors flex-shrink-0"
+              style={{ background: 'var(--surface-container)' }}
             >
               <X className="w-4 h-4" />
             </button>
@@ -283,35 +296,46 @@ function NodeDetailPanel({ node, dayNum, phaseTitle, onClose, onToggle, isToggli
 
           {/* Lesson info card (if linked) */}
           {hasLesson && (
-            <div className="bg-gradient-to-br from-indigo-50 to-slate-50 rounded-2xl p-4 mb-4 border border-indigo-100">
+            <div
+              className="p-4 mb-4 border"
+              style={{ background: 'rgba(26,35,126,0.04)', borderColor: 'rgba(26,35,126,0.15)' }}
+            >
               <div className="flex items-center gap-2 mb-2">
-                <span className="text-xs font-bold text-indigo-600 bg-indigo-100 px-2 py-0.5 rounded-md">
+                <span
+                  className="text-xs font-bold px-2 py-0.5"
+                  style={{ background: 'var(--primary)', color: 'var(--on-primary)' }}
+                >
                   N{lesson.course?.jlptLevel}
                 </span>
-                <span className="text-xs text-slate-500 font-medium">{lesson.course?.title}</span>
+                <span className="text-xs text-on-surface-variant font-medium">{lesson.course?.title}</span>
                 {lesson.estimatedMin && (
-                  <span className="ml-auto flex items-center gap-1 text-xs text-slate-400">
+                  <span className="ml-auto flex items-center gap-1 text-xs text-on-surface-variant">
                     <Clock className="w-3 h-3" />
                     {lesson.estimatedMin} phút
                   </span>
                 )}
               </div>
 
-              <p className="font-bold text-slate-800 mb-2">{lesson.title}</p>
+              <p className="font-bold text-on-surface mb-2">{lesson.title}</p>
 
               {lesson.summary && (
-                <p className="text-sm text-slate-500 leading-relaxed mb-3">{lesson.summary}</p>
+                <p className="text-sm text-on-surface-variant leading-relaxed mb-3">{lesson.summary}</p>
               )}
 
               {/* Skill badges */}
               {lesson.skills && lesson.skills.length > 0 && (
                 <div className="flex flex-wrap gap-1.5">
                   {lesson.skills.map((skill) => {
-                    const meta = SKILL_META[skill] || { label: skill, bg: 'bg-slate-100 text-slate-600' };
+                    const meta = SKILL_META[skill] || { label: skill, name: skill };
                     return (
                       <span
                         key={skill}
-                        className={`px-2.5 py-0.5 text-xs font-bold rounded-lg ${meta.bg}`}
+                        className="px-2.5 py-0.5 text-xs font-bold font-jp-sans"
+                        style={{
+                          background: 'rgba(26,35,126,0.08)',
+                          color: 'var(--primary)',
+                          border: '1px solid rgba(26,35,126,0.15)',
+                        }}
                         title={meta.name}
                       >
                         {meta.label} {meta.name}
@@ -326,17 +350,20 @@ function NodeDetailPanel({ node, dayNum, phaseTitle, onClose, onToggle, isToggli
           {/* Description (when no lesson or extra notes) */}
           {node.customDesc && (
             <div className="mb-4">
-              <p className="text-sm text-slate-600 leading-relaxed">{node.customDesc}</p>
+              <p className="text-sm text-on-surface-variant leading-relaxed">{node.customDesc}</p>
             </div>
           )}
 
           {/* Completion status */}
           {node.isCompleted && (
-            <div className="flex items-center gap-2 bg-emerald-50 border border-emerald-200 rounded-xl px-4 py-2.5 mb-4">
-              <CheckCircle2 className="w-4 h-4 text-emerald-500" />
-              <span className="text-sm font-semibold text-emerald-700">Đã hoàn thành</span>
+            <div
+              className="flex items-center gap-2 px-4 py-2.5 mb-4 border"
+              style={{ background: 'rgba(74,103,65,0.06)', borderColor: 'rgba(74,103,65,0.2)' }}
+            >
+              <CheckCircle2 className="w-4 h-4" style={{ color: 'var(--tertiary)' }} />
+              <span className="text-sm font-semibold" style={{ color: 'var(--tertiary)' }}>Đã hoàn thành</span>
               {node.completedAt && (
-                <span className="ml-auto text-xs text-emerald-400">
+                <span className="ml-auto text-xs text-on-surface-variant">
                   {new Date(node.completedAt).toLocaleDateString('vi-VN')}
                 </span>
               )}
@@ -349,12 +376,11 @@ function NodeDetailPanel({ node, dayNum, phaseTitle, onClose, onToggle, isToggli
             {hasLesson && (
               <Link
                 to={`/learn/${node.lessonId}`}
-                className={[
-                  'flex items-center justify-center gap-2 w-full py-3.5 rounded-2xl font-bold text-sm transition-all',
-                  node.isCompleted
-                    ? 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-                    : 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200',
-                ].join(' ')}
+                className="flex items-center justify-center gap-2 w-full py-3.5 font-bold text-sm transition-all"
+                style={{
+                  background: node.isCompleted ? 'var(--surface-container)' : 'var(--primary)',
+                  color: node.isCompleted ? 'var(--on-surface)' : 'var(--on-primary)',
+                }}
               >
                 {node.isCompleted ? (
                   <><RotateCcw className="w-4 h-4" /> Ôn lại bài học</>
@@ -368,13 +394,12 @@ function NodeDetailPanel({ node, dayNum, phaseTitle, onClose, onToggle, isToggli
             <button
               onClick={() => onToggle(node.id)}
               disabled={isToggling}
-              className={[
-                'flex items-center justify-center gap-2 w-full py-3 rounded-2xl font-semibold text-sm transition-all border-2',
-                node.isCompleted
-                  ? 'border-rose-200 text-rose-500 hover:bg-rose-50'
-                  : 'border-emerald-300 text-emerald-600 hover:bg-emerald-50',
-                'disabled:opacity-50',
-              ].join(' ')}
+              className="flex items-center justify-center gap-2 w-full py-3 font-semibold text-sm transition-all border-2 disabled:opacity-50"
+              style={{
+                borderColor: node.isCompleted ? 'var(--secondary)' : 'var(--tertiary)',
+                color: node.isCompleted ? 'var(--secondary)' : 'var(--tertiary)',
+                background: 'transparent',
+              }}
             >
               {isToggling ? (
                 <span className="animate-pulse">Đang cập nhật...</span>
@@ -394,14 +419,20 @@ function NodeDetailPanel({ node, dayNum, phaseTitle, onClose, onToggle, isToggli
 // ─── Loading skeleton ─────────────────────────────────────────────────────────
 function LoadingRoad() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white flex flex-col items-center justify-center gap-4">
+    <div className="min-h-screen bg-surface flex flex-col items-center justify-center gap-4">
       <div className="relative">
-        <div className="w-16 h-16 rounded-full bg-indigo-100 flex items-center justify-center">
-          <Sparkles className="w-8 h-8 text-indigo-500 animate-pulse" />
+        <div
+          className="w-16 h-16 flex items-center justify-center"
+          style={{ background: 'rgba(26,35,126,0.08)' }}
+        >
+          <Sparkles className="w-8 h-8 animate-pulse" style={{ color: 'var(--primary)' }} />
         </div>
-        <div className="absolute inset-0 rounded-full border-4 border-indigo-500 border-t-transparent animate-spin" />
+        <div
+          className="absolute inset-0 border-4 animate-spin"
+          style={{ borderColor: 'var(--primary)', borderTopColor: 'transparent' }}
+        />
       </div>
-      <p className="text-slate-500 font-medium">Đang tải lộ trình...</p>
+      <p className="text-on-surface-variant font-medium">Đang tải lộ trình...</p>
     </div>
   );
 }
@@ -411,6 +442,7 @@ export default function CustomRoadmapPage() {
   const { id } = useParams();
   const navigate = useNavigate();
   const queryClient = useQueryClient();
+  const { isAuthenticated } = useAuth();
   const [selectedNode, setSelectedNode] = useState(null);
   const [selectedPhaseTitle, setSelectedPhaseTitle] = useState('');
   const [selectedDayNum, setSelectedDayNum] = useState(1);
@@ -419,6 +451,7 @@ export default function CustomRoadmapPage() {
   const { data: roadmap, isLoading } = useQuery({
     queryKey: ['custom-roadmap', id],
     queryFn: () => aiApi.getRoadmapById(id),
+    enabled: isAuthenticated,
   });
 
   const toggleMutation = useMutation({
@@ -440,12 +473,22 @@ export default function CustomRoadmapPage() {
     onError: () => alert('Không thể xóa lộ trình.'),
   });
 
+  if (!isAuthenticated) {
+    return (
+      <LoginPrompt
+        title="Đăng nhập để xem lộ trình"
+        description="Đăng ký miễn phí để theo dõi tiến độ học của bạn."
+        ghostChar="道"
+      />
+    );
+  }
+
   if (isLoading) return <LoadingRoad />;
   if (!roadmap) {
     return (
       <div className="text-center py-20">
-        <p className="text-lg font-bold text-slate-700 mb-2">Không tìm thấy lộ trình</p>
-        <Link to="/roadmap" className="text-indigo-600 hover:underline font-medium">← Quay lại</Link>
+        <p className="text-lg font-bold text-on-surface mb-2">Không tìm thấy lộ trình</p>
+        <Link to="/roadmap" className="font-medium hover:underline" style={{ color: 'var(--primary)' }}>← Quay lại</Link>
       </div>
     );
   }
@@ -473,55 +516,63 @@ export default function CustomRoadmapPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 via-indigo-50/20 to-white">
-      <div className="max-w-sm mx-auto px-4 pb-16 pt-4">
+    <div className="bg-surface min-h-screen">
+      <div className="max-w-2xl mx-auto px-4 pb-16 pt-4">
 
         {/* Back */}
         <Link
           to="/roadmap"
-          className="inline-flex items-center gap-1.5 text-slate-500 hover:text-indigo-600 mb-5 text-sm font-medium transition-colors"
+          className="inline-flex items-center gap-1.5 text-on-surface-variant hover:text-primary mb-5 text-sm font-medium transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Quay lại
         </Link>
 
         {/* ── Hero header ──────────────────────────────────────────────────── */}
-        <div className="relative bg-gradient-to-br from-indigo-600 via-violet-600 to-indigo-800 rounded-3xl p-6 text-white mb-8 overflow-hidden shadow-xl shadow-indigo-200">
-          {/* Background dots */}
-          <div
-            className="absolute inset-0 opacity-10"
-            style={{
-              backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
-              backgroundSize: '24px 24px',
-            }}
-          />
+        <div
+          className="relative p-6 text-white mb-8 overflow-hidden animate-fade-up"
+          style={{
+            background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 60%, #0d1b5e 100%)',
+          }}
+        >
+          {/* Asanoha pattern */}
+          <div className="absolute inset-0 asanoha-bg opacity-20" />
+          {/* Right accent bar */}
+          <div className="absolute right-0 top-0 bottom-0 w-1" style={{ background: 'var(--secondary)' }} />
+
           {/* Ghost kanji */}
-          <div className="absolute -right-6 -bottom-8 text-white/5 font-bold leading-none select-none pointer-events-none" style={{ fontSize: 140 }}>道</div>
+          <div
+            className="absolute -right-6 -bottom-8 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none"
+            style={{ fontSize: 140 }}
+          >道</div>
 
           <div className="relative z-10">
             <div className="flex items-center gap-2 mb-2">
-              <Sparkles className="w-4 h-4 text-indigo-200" />
-              <span className="text-xs font-bold text-indigo-200 uppercase tracking-wider">Lộ trình AI cá nhân</span>
+              <Sparkles className="w-4 h-4 text-white/60" />
+              <span className="text-[10px] font-bold text-white/60 uppercase tracking-[0.2em]">Lộ trình AI cá nhân</span>
             </div>
-            <h1 className="text-xl font-extrabold leading-snug mb-1">{roadmap.title}</h1>
-            <p className="text-indigo-200 text-sm leading-relaxed mb-4 line-clamp-2">{roadmap.description}</p>
+            <h1 className="font-headline text-xl font-extrabold leading-snug mb-1">{roadmap.title}</h1>
+            <p className="text-white/60 text-sm leading-relaxed mb-4 line-clamp-2">{roadmap.description}</p>
 
-            <div className="inline-flex items-center gap-1.5 bg-white/15 rounded-xl px-3 py-1.5 text-xs font-semibold mb-5">
+            <div
+              className="inline-flex items-center gap-1.5 bg-white/10 px-3 py-1.5 text-xs font-semibold mb-5"
+              style={{ backdropFilter: 'blur(4px)' }}
+            >
               🎯 {roadmap.goal}
             </div>
 
             {/* Progress */}
             <div>
               <div className="flex justify-between text-xs mb-1.5">
-                <span className="text-indigo-200">{completedItems}/{totalItems} ngày hoàn thành</span>
+                <span className="text-white/60">{completedItems}/{totalItems} ngày hoàn thành</span>
                 <span className="font-black text-xl leading-none">{overallPct}%</span>
               </div>
-              <div className="h-2.5 bg-white/20 rounded-full overflow-hidden">
+              <div className="h-2.5 bg-white/20 overflow-hidden">
                 <div
-                  className="h-full bg-white rounded-full transition-all duration-700"
+                  className="h-full bg-white transition-all duration-700"
                   style={{ width: `${overallPct}%` }}
                 />
               </div>
-              <p className="text-indigo-300 text-[11px] mt-1.5">
+              <p className="text-white/40 text-[11px] mt-1.5">
                 {roadmap.phases.length} tuần · {linkedCount}/{totalItems} bài liên kết thực tế
               </p>
             </div>
@@ -532,12 +583,15 @@ export default function CustomRoadmapPage() {
         <div>
           {/* START marker */}
           <div className="flex items-center gap-3 mb-4">
-            <div className="flex-1 h-px bg-gradient-to-r from-transparent to-indigo-200" />
-            <div className="flex items-center gap-1.5 px-3 py-1 bg-white rounded-full border border-indigo-100 shadow-sm">
-              <span className="w-2 h-2 rounded-full bg-indigo-500" />
-              <span className="text-[11px] font-bold text-indigo-600">BẮT ĐẦU</span>
+            <div className="flex-1 h-px" style={{ background: 'linear-gradient(to right, transparent, var(--outline-variant))' }} />
+            <div
+              className="flex items-center gap-1.5 px-3 py-1 border"
+              style={{ background: 'var(--surface-container-lowest)', borderColor: 'var(--outline-variant)' }}
+            >
+              <span className="w-2 h-2 rotate-45" style={{ background: 'var(--primary)' }} />
+              <span className="text-[11px] font-bold uppercase tracking-wider" style={{ color: 'var(--primary)' }}>BẮT ĐẦU</span>
             </div>
-            <div className="flex-1 h-px bg-gradient-to-l from-transparent to-indigo-200" />
+            <div className="flex-1 h-px" style={{ background: 'linear-gradient(to left, transparent, var(--outline-variant))' }} />
           </div>
 
           {roadmap.phases.map((phase, phaseIdx) => (
@@ -558,32 +612,41 @@ export default function CustomRoadmapPage() {
 
           {/* END marker */}
           <div className="flex items-center gap-3 mt-4 mb-8">
-            <div className="flex-1 h-px bg-gradient-to-r from-transparent to-amber-200" />
-            <div className="flex items-center gap-1.5 px-3 py-1 bg-amber-50 rounded-full border border-amber-200 shadow-sm">
-              <Trophy className="w-3.5 h-3.5 text-amber-500" />
-              <span className="text-[11px] font-bold text-amber-600">ĐÍCH ĐẾN</span>
+            <div className="flex-1 h-px" style={{ background: 'linear-gradient(to right, transparent, var(--secondary))' }} />
+            <div
+              className="flex items-center gap-1.5 px-3 py-1 border"
+              style={{ background: 'rgba(198,40,40,0.06)', borderColor: 'var(--secondary)' }}
+            >
+              <Trophy className="w-3.5 h-3.5" style={{ color: 'var(--secondary)' }} />
+              <span className="text-[11px] font-bold uppercase tracking-wider" style={{ color: 'var(--secondary)' }}>ĐÍCH ĐẾN</span>
             </div>
-            <div className="flex-1 h-px bg-gradient-to-l from-transparent to-amber-200" />
+            <div className="flex-1 h-px" style={{ background: 'linear-gradient(to left, transparent, var(--secondary))' }} />
           </div>
         </div>
 
         {/* ── Legend ───────────────────────────────────────────────────────── */}
-        <div className="bg-white rounded-2xl border border-slate-100 p-4 mb-8 shadow-sm">
-          <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Chú thích</p>
+        <div className="bg-surface-container-lowest border border-outline-variant/30 p-4 mb-8 sharp-shadow-sm">
+          <p className="text-xs font-bold text-on-surface-variant uppercase tracking-wider mb-3">Chú thích</p>
           <div className="grid grid-cols-2 gap-2.5">
             {[
-              { dot: 'bg-emerald-400 border-emerald-500', label: 'Đã hoàn thành' },
-              { dot: 'bg-indigo-600 border-indigo-500', label: 'Bài học tiếp theo', pulse: true },
-              { dot: 'bg-white border-indigo-300', label: 'Có bài học liên kết' },
-              { dot: 'bg-white border-slate-200', label: 'Chưa có bài liên kết' },
+              { style: { background: 'var(--tertiary)', borderColor: 'var(--tertiary)' }, label: 'Đã hoàn thành' },
+              { style: { background: 'var(--primary)', borderColor: 'var(--primary)' }, label: 'Bài học tiếp theo', pulse: true },
+              { style: { background: 'var(--surface-container-lowest)', borderColor: 'var(--primary)' }, label: 'Có bài học liên kết' },
+              { style: { background: 'var(--surface-container-lowest)', borderColor: 'var(--outline-variant)' }, label: 'Chưa có bài liên kết' },
             ].map((item) => (
               <div key={item.label} className="flex items-center gap-2">
-                <div className={`relative w-5 h-5 rounded-full border-2 flex-shrink-0 ${item.dot}`}>
+                <div
+                  className="relative w-5 h-5 border-2 flex-shrink-0"
+                  style={item.style}
+                >
                   {item.pulse && (
-                    <span className="absolute inset-0 rounded-full border-2 border-indigo-400 animate-ping opacity-40" />
+                    <span
+                      className="absolute inset-0 border-2 animate-ping opacity-40"
+                      style={{ borderColor: 'var(--primary)' }}
+                    />
                   )}
                 </div>
-                <span className="text-xs text-slate-500">{item.label}</span>
+                <span className="text-xs text-on-surface-variant">{item.label}</span>
               </div>
             ))}
           </div>
@@ -593,26 +656,31 @@ export default function CustomRoadmapPage() {
         {!showDelete ? (
           <button
             onClick={() => setShowDelete(true)}
-            className="flex items-center gap-2 text-sm text-slate-400 hover:text-rose-500 transition-colors font-medium w-full justify-center py-2"
+            className="flex items-center gap-2 text-sm text-on-surface-variant hover:text-secondary transition-colors font-medium w-full justify-center py-2"
           >
             <Trash2 className="w-4 h-4" /> Xóa lộ trình này
           </button>
         ) : (
-          <div className="bg-rose-50 border border-rose-200 rounded-2xl p-4 flex flex-col gap-3">
-            <p className="text-sm text-rose-700 font-semibold text-center">
+          <div
+            className="border p-4 flex flex-col gap-3"
+            style={{ background: 'rgba(198,40,40,0.04)', borderColor: 'var(--secondary)' }}
+          >
+            <p className="text-sm font-semibold text-center" style={{ color: 'var(--secondary)' }}>
               Xóa lộ trình? Hành động này không thể hoàn tác.
             </p>
             <div className="flex gap-2">
               <button
                 onClick={() => setShowDelete(false)}
-                className="flex-1 py-2 text-sm font-semibold bg-white border border-slate-200 rounded-xl text-slate-600 hover:bg-slate-50 transition-colors"
+                className="flex-1 py-2 text-sm font-semibold border text-on-surface-variant hover:bg-surface-container transition-colors"
+                style={{ background: 'var(--surface-container-lowest)', borderColor: 'var(--outline-variant)' }}
               >
                 Hủy
               </button>
               <button
                 onClick={() => deleteMutation.mutate()}
                 disabled={deleteMutation.isPending}
-                className="flex-1 py-2 text-sm font-bold bg-rose-500 text-white rounded-xl hover:bg-rose-600 transition-colors disabled:opacity-60"
+                className="flex-1 py-2 text-sm font-bold text-white transition-colors disabled:opacity-60"
+                style={{ background: 'var(--secondary)' }}
               >
                 {deleteMutation.isPending ? 'Đang xóa...' : 'Xóa'}
               </button>

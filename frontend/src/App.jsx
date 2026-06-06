@@ -34,6 +34,9 @@ import LeaderboardPage from './pages/LeaderboardPage';
 import CommunityPage from './pages/CommunityPage';
 import UpgradePage from './pages/UpgradePage';
 import ListeningPage from './pages/ListeningPage';
+import ListeningDialogue from './pages/Listening/ListeningDialogue';
+import ListeningSentence from './pages/Listening/ListeningSentence';
+import ListeningShadowing from './pages/Listening/ListeningShadowing';
 
 const queryClient = new QueryClient();
 
@@ -95,6 +98,9 @@ function AppRoutes() {
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/upgrade" element={<UpgradePage />} />
         <Route path="/listening" element={<ListeningPage />} />
+        <Route path="/listening/dialogue" element={<ListeningDialogue />} />
+        <Route path="/listening/sentence" element={<ListeningSentence />} />
+        <Route path="/listening/shadowing" element={<ListeningShadowing />} />
         {/* Legacy redirects */}
         <Route path="/hantu" element={<Navigate to="/kanji" replace />} />
         <Route path="/tuvung" element={<Navigate to="/vocabulary" replace />} />
