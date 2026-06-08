@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { DIALOGUES } from './ListeningData';
 import {
   Volume2, Play, Pause, RotateCw, BookOpen, CheckCircle2,
@@ -22,15 +22,15 @@ export default function ListeningDialogue() {
   useEffect(() => {
     stopAutoPlay();
     resetDiagQuiz();
-  }, [activeDiag]);
+  }, [activeDiag, stopAutoPlay]);
 
   useEffect(() => {
     return () => {
       stopAutoPlay();
     };
-  }, []);
+  }, [stopAutoPlay]);
 
-  const stopAutoPlay = () => {
+  const stopAutoPlay = useCallback(() => {
     setIsPlayingAll(false);
     setCurrentLineIndex(-1);
     if (playAllTimeout.current) {
@@ -38,7 +38,7 @@ export default function ListeningDialogue() {
       playAllTimeout.current = null;
     }
     if (synth) synth.cancel();
-  };
+  }, [synth]);
 
   const startAutoPlay = () => {
     if (isPlayingAll) {

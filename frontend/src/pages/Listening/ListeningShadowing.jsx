@@ -59,45 +59,6 @@ export default function ListeningShadowing() {
   const [recordedAudioUrl, setRecordedAudioUrl] = useState('');
   const [isFallbackRecording, setIsFallbackRecording] = useState(false);
 
-  useEffect(() => {
-    // Check SpeechRecognition support
-    const SpeechRecognition = typeof window !== 'undefined' ? (window.SpeechRecognition || window.webkitSpeechRecognition) : null;
-    if (SpeechRecognition) {
-      setSpeechSupported(true);
-      const rec = new SpeechRecognition();
-      rec.continuous = false;
-      rec.lang = 'ja-JP';
-      rec.interimResults = false;
-      rec.maxAlternatives = 1;
-
-      rec.onstart = () => {
-        setIsRecording(true);
-        setShadowTranscript('');
-        setShadowScore(null);
-      };
-
-      rec.onresult = (event) => {
-        const resultText = event.results[0][0].transcript;
-        setShadowTranscript(resultText);
-        calculateShadowScore(resultText);
-      };
-
-      rec.onerror = (e) => {
-        console.error('Speech recognition error:', e.error);
-        setIsRecording(false);
-        if (e.error === 'not-allowed') {
-          setMicPermission('denied');
-        }
-      };
-
-      rec.onend = () => {
-        setIsRecording(false);
-      };
-
-      recognitionRef.current = rec;
-    }
-  }, []);
-
   const cleanString = (str) => {
     return str
       .toLowerCase()
@@ -139,6 +100,50 @@ export default function ListeningShadowing() {
     setShadowScore(percentage);
     setShadowFeedbacks(feedbacks);
   };
+
+  const calculateShadowScoreRef = useRef(calculateShadowScore);
+  useEffect(() => {
+    calculateShadowScoreRef.current = calculateShadowScore;
+  });
+
+  useEffect(() => {
+    // Check SpeechRecognition support
+    const SpeechRecognition = typeof window !== 'undefined' ? (window.SpeechRecognition || window.webkitSpeechRecognition) : null;
+    if (SpeechRecognition) {
+      setSpeechSupported(true);
+      const rec = new SpeechRecognition();
+      rec.continuous = false;
+      rec.lang = 'ja-JP';
+      rec.interimResults = false;
+      rec.maxAlternatives = 1;
+
+      rec.onstart = () => {
+        setIsRecording(true);
+        setShadowTranscript('');
+        setShadowScore(null);
+      };
+
+      rec.onresult = (event) => {
+        const resultText = event.results[0][0].transcript;
+        setShadowTranscript(resultText);
+        calculateShadowScoreRef.current(resultText);
+      };
+
+      rec.onerror = (e) => {
+        console.error('Speech recognition error:', e.error);
+        setIsRecording(false);
+        if (e.error === 'not-allowed') {
+          setMicPermission('denied');
+        }
+      };
+
+      rec.onend = () => {
+        setIsRecording(false);
+      };
+
+      recognitionRef.current = rec;
+    }
+  }, []);
 
   // Fallback physical audio recording playback
   const startPhysicalAudioRecording = async () => {

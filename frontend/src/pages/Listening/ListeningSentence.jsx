@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { flashcardApi } from '../../api/flashcardApi';
@@ -22,14 +22,14 @@ export default function ListeningSentence() {
   const [speechRate, setSpeechRate] = useState(1.0); // 0.5, 0.8, 1.0
   const synth = typeof window !== 'undefined' ? window.speechSynthesis : null;
 
-  const playTTS = (text, rateOverride) => {
+  const playTTS = useCallback((text, rateOverride) => {
     if (!synth) return;
     synth.cancel(); // Stop playing currently speaking text
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'ja-JP';
     utterance.rate = rateOverride || speechRate;
     synth.speak(utterance);
-  };
+  }, [synth, speechRate]);
 
   // ── THÔNG TIN DECK ──────────────────────────────────────────
   const { data: publicDecks = [] } = useQuery({
@@ -127,7 +127,7 @@ export default function ListeningSentence() {
       }, 500);
       return () => clearTimeout(t);
     }
-  }, [activeSent]);
+  }, [activeSent, playTTS]);
 
   // Reset states when changing source, deck or sentence
   const resetSentenceState = () => {

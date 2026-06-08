@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { getKanjiData } from '../utils/kanjiDataN5';
 
 export default function KanjiInteractiveWorkspace({ card, onClose, accentColor = 'var(--primary)' }) {
@@ -117,15 +117,15 @@ export default function KanjiInteractiveWorkspace({ card, onClose, accentColor =
   }, [isScriptLoaded, kanjiChar, accentColor]);
 
   // 3. Xử lý các chế độ tương tác
-  const handlePlayAnimation = () => {
+  const handlePlayAnimation = useCallback(() => {
     if (!writerInstance) return;
     setQuizSuccess(false);
     safeCancel(writerInstance);
     writerInstance.showCharacter();
     writerInstance.animateCharacter();
-  };
+  }, [writerInstance]);
 
-  const handleStartQuiz = () => {
+  const handleStartQuiz = useCallback(() => {
     if (!writerInstance) return;
     setQuizSuccess(false);
     safeCancel(writerInstance);
@@ -135,7 +135,7 @@ export default function KanjiInteractiveWorkspace({ card, onClose, accentColor =
         console.log('Quiz hoàn thành:', summary);
       }
     });
-  };
+  }, [writerInstance]);
 
   const handleReset = () => {
     if (!writerInstance) return;
@@ -157,7 +157,7 @@ export default function KanjiInteractiveWorkspace({ card, onClose, accentColor =
     } else {
       handlePlayAnimation();
     }
-  }, [practiceMode, writerInstance]);
+  }, [practiceMode, writerInstance, handlePlayAnimation, handleStartQuiz]);
 
   return (
     <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-in">
