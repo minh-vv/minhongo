@@ -19,6 +19,7 @@ interface CourseConfig {
   textbookRef: string;
   totalLessons: number;
   prefix: string; // e.g. "Bài" or "Bài học"
+  deckPrefix: string; // e.g. "Minna no Nihongo N5" or "Soumatome & Shinkanzen N3"
 }
 
 const COURSE_CONFIGS: Record<number, CourseConfig> = {
@@ -29,6 +30,7 @@ const COURSE_CONFIGS: Record<number, CourseConfig> = {
     textbookRef: 'Minna no Nihongo I',
     totalLessons: 25,
     prefix: 'Bài',
+    deckPrefix: 'Minna no Nihongo N5',
   },
   4: {
     slug: 'minna-n4',
@@ -37,6 +39,7 @@ const COURSE_CONFIGS: Record<number, CourseConfig> = {
     textbookRef: 'Minna no Nihongo II',
     totalLessons: 25,
     prefix: 'Bài',
+    deckPrefix: 'Minna no Nihongo N4',
   },
   3: {
     slug: 'jlpt-n3',
@@ -45,6 +48,7 @@ const COURSE_CONFIGS: Record<number, CourseConfig> = {
     textbookRef: 'Soumatome & Shinkanzen N3',
     totalLessons: 50,
     prefix: 'Bài học',
+    deckPrefix: 'Soumatome & Shinkanzen N3',
   },
   2: {
     slug: 'jlpt-n2',
@@ -53,6 +57,7 @@ const COURSE_CONFIGS: Record<number, CourseConfig> = {
     textbookRef: 'Soumatome & Shinkanzen N2',
     totalLessons: 50,
     prefix: 'Bài học',
+    deckPrefix: 'Soumatome & Shinkanzen N2',
   },
   1: {
     slug: 'jlpt-n1',
@@ -61,6 +66,7 @@ const COURSE_CONFIGS: Record<number, CourseConfig> = {
     textbookRef: 'Soumatome & Shinkanzen N1',
     totalLessons: 80,
     prefix: 'Bài học',
+    deckPrefix: 'Soumatome & Shinkanzen N1',
   },
 };
 
@@ -100,23 +106,53 @@ function cleanText(str: string): string {
     .trim();
 }
 
-function generatePlaceholderTheoryMd(title: string, summary: string, level: number): string {
-  return `# ${title}
+// Generate premium formatted lesson theory in markdown dynamically
+function generateRealTheoryMd(lessonTitle: string, lessonSummary: string, level: number, cards: ScrapedVNJP[]): string {
+  let markdown = `# ${lessonTitle}\n\n`;
+  markdown += `## 📌 Tóm tắt\n\n${lessonSummary}\n\n`;
+  markdown += `## 📚 Ngữ pháp chi tiết\n\n`;
 
-## Tóm tắt
+  if (cards.length === 0) {
+    markdown += `> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được biên soạn.*\n`;
+    return markdown;
+  }
 
-${summary}
+  cards.forEach((card, index) => {
+    const cleanFront = cleanText(card.front);
+    const cleanBack = cleanText(card.back);
+    
+    markdown += `### ${index + 1}. ${cleanFront}\n\n`;
+    
+    markdown += `#### 💡 Cấu trúc & Ý nghĩa\n`;
+    // If the back contains formula and meaning, format it cleanly
+    const backParts = cleanBack.split('\n\n');
+    if (backParts.length >= 2) {
+      markdown += `> 🔧 **Cấu trúc:** \`${backParts[0].trim()}\`\n`;
+      markdown += `>\n`;
+      markdown += `> 📖 **Ý nghĩa:** *${backParts.slice(1).join('\n\n').trim()}*\n\n`;
+    } else {
+      markdown += `\`\`\`text\n${cleanBack}\n\`\`\`\n\n`;
+    }
 
-## Ngữ pháp bài học
+    if (card.example && card.example.trim()) {
+      markdown += `#### 📝 Ví dụ minh họa\n`;
+      const examples = card.example.split('\n\n');
+      examples.forEach((ex) => {
+        const lines = ex.split('\n');
+        if (lines.length >= 2) {
+          const jp = cleanText(lines[0]);
+          const vi = cleanText(lines[1]);
+          markdown += `- **${jp}**\n  *→ ${vi}*\n`;
+        } else if (lines.length === 1 && lines[0].trim()) {
+          markdown += `- ${cleanText(lines[0])}\n`;
+        }
+      });
+      markdown += `\n`;
+    }
+    markdown += `---\n\n`;
+  });
 
-Học các thẻ ngữ pháp trong bài trước khi làm bài kiểm tra.
-
-## Cấu trúc chi tiết
-
-> 📝 **Nội dung lý thuyết chi tiết đang được biên soạn.**
->
-> Nội dung lý thuyết ngữ pháp tiếng Nhật cho bài học cấp độ N${level} này sẽ sớm được cập nhật tự động.
-`;
+  return markdown;
 }
 
 async function main() {
@@ -235,13 +271,14 @@ async function main() {
       update: {
         title: lessonTitle,
         summary: lessonSummary,
+        theoryMd: generateRealTheoryMd(lessonTitle, lessonSummary, level, batchCards),
       },
       create: {
         courseId: course.id,
         order: order,
         title: lessonTitle,
         summary: lessonSummary,
-        theoryMd: generatePlaceholderTheoryMd(lessonTitle, lessonSummary, level),
+        theoryMd: generateRealTheoryMd(lessonTitle, lessonSummary, level, batchCards),
         skills: [SkillType.VOCABULARY, SkillType.GRAMMAR],
         estimatedMin: 30,
       },
@@ -252,13 +289,13 @@ async function main() {
     const lessonDeck = await prisma.deck.upsert({
       where: { id: lessonDeckId },
       update: {
-        name: `${courseConfig.slug.toUpperCase()} — ${courseConfig.prefix} ${displayOrder} — Ngữ pháp`,
-        description: `Ngữ pháp ${courseConfig.prefix.toLowerCase()} số ${displayOrder} cấp độ JLPT N${level}.`,
+        name: `${courseConfig.deckPrefix} — ${courseConfig.prefix} ${displayOrder} — Ngữ pháp`,
+        description: `Ngữ pháp theo giáo trình ${courseConfig.deckPrefix}, ${courseConfig.prefix.toLowerCase()} số ${displayOrder} cấp độ JLPT N${level}.`,
       },
       create: {
         id: lessonDeckId,
-        name: `${courseConfig.slug.toUpperCase()} — ${courseConfig.prefix} ${displayOrder} — Ngữ pháp`,
-        description: `Ngữ pháp ${courseConfig.prefix.toLowerCase()} số ${displayOrder} cấp độ JLPT N${level}.`,
+        name: `${courseConfig.deckPrefix} — ${courseConfig.prefix} ${displayOrder} — Ngữ pháp`,
+        description: `Ngữ pháp theo giáo trình ${courseConfig.deckPrefix}, ${courseConfig.prefix.toLowerCase()} số ${displayOrder} cấp độ JLPT N${level}.`,
         isPublic: true,
         category: DeckCategory.NGUPHAP,
         jlptLevel: level,
@@ -299,7 +336,7 @@ async function main() {
     }
 
     if (batchCards.length > 0) {
-      console.log(`   ✅ Bài ${displayOrder} (Lesson ${order}): Tạo xong Deck con ${lessonDeck.name} chứa ${batchCards.length} thẻ ngữ pháp.`);
+      console.log(`   ✅ Bài ${displayOrder} (Lesson ${order}): Tạo xong Deck con ${lessonDeck.name} chứa ${batchCards.length} thẻ ngữ pháp và cập nhật lý thuyết.`);
     }
   }
 

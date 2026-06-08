@@ -15,7 +15,7 @@ const JLPT_LEVELS = [5, 4, 3, 2, 1];
 
 /** Sắp xếp số bài của giáo trình */
 const getLessonNumber = (name) => {
-  const match = name.match(/Bài\s*(\d+)/i);
+  const match = name.match(/Bài\s*(?:học\s*)?(\d+)/i);
   return match ? parseInt(match[1]) : 999;
 };
 
@@ -23,7 +23,7 @@ const getBookInfo = (deck) => {
   const nameLower = deck.name.toLowerCase();
   const descLower = (deck.description || '').toLowerCase();
   
-  if (nameLower.includes('minna') || nameLower.includes('nihongo') || descLower.includes('minna')) {
+  if (nameLower.includes('minna') || nameLower.includes('nihongo') || descLower.includes('minna') || nameLower === 'minna') {
     return {
       id: 'minna',
       title: 'Minna no Nihongo',
@@ -31,8 +31,17 @@ const getBookInfo = (deck) => {
       description: 'Giáo trình cốt lõi và phổ biến nhất cho người mới học tiếng Nhật.',
     };
   }
+
+  if (nameLower.includes('soumatome & shinkanzen') || nameLower.includes('soumatome and shinkanzen') || nameLower.includes('soumatome-shinkanzen') || nameLower === 'soumatome-shinkanzen') {
+    return {
+      id: 'soumatome-shinkanzen',
+      title: 'Soumatome & Shinkanzen',
+      japaneseTitle: '総まとめ & 新完全マスター',
+      description: 'Giáo trình tổng hợp và luyện thi JLPT từ trung cấp đến cao cấp.',
+    };
+  }
   
-  if (nameLower.includes('kanzen') || nameLower.includes('shin kanzen') || nameLower.includes('shinkanzen') || descLower.includes('kanzen')) {
+  if (nameLower.includes('kanzen') || nameLower.includes('shin kanzen') || nameLower.includes('shinkanzen') || descLower.includes('kanzen') || nameLower === 'kanzen') {
     return {
       id: 'kanzen',
       title: 'Shin Kanzen Master',
@@ -41,7 +50,7 @@ const getBookInfo = (deck) => {
     };
   }
 
-  if (nameLower.includes('soumatome') || nameLower.includes('somatome') || descLower.includes('soumatome')) {
+  if (nameLower.includes('soumatome') || nameLower.includes('somatome') || descLower.includes('soumatome') || nameLower === 'soumatome') {
     return {
       id: 'soumatome',
       title: 'Nihongo Soumatome',
@@ -50,7 +59,7 @@ const getBookInfo = (deck) => {
     };
   }
 
-  if (nameLower.includes('mimikara') || nameLower.includes('mimi kara') || descLower.includes('mimikara')) {
+  if (nameLower.includes('mimikara') || nameLower.includes('mimi kara') || descLower.includes('mimikara') || nameLower === 'mimikara') {
     return {
       id: 'mimikara',
       title: 'Mimikara Oboeru',
@@ -59,7 +68,7 @@ const getBookInfo = (deck) => {
     };
   }
 
-  if (nameLower.includes('try') || descLower.includes('try!')) {
+  if (nameLower.includes('try') || descLower.includes('try!') || nameLower === 'try') {
     return {
       id: 'try',
       title: 'Try! Tăng cường ngữ pháp',
@@ -68,7 +77,7 @@ const getBookInfo = (deck) => {
     };
   }
 
-  if (nameLower.includes('genki') || descLower.includes('genki')) {
+  if (nameLower.includes('genki') || descLower.includes('genki') || nameLower === 'genki') {
     return {
       id: 'genki',
       title: 'Genki',
@@ -77,7 +86,7 @@ const getBookInfo = (deck) => {
     };
   }
 
-  if (nameLower.includes('dekiru') || descLower.includes('dekiru')) {
+  if (nameLower.includes('dekiru') || descLower.includes('dekiru') || nameLower === 'dekiru') {
     return {
       id: 'dekiru',
       title: 'Dekiru Nihongo',
@@ -109,6 +118,13 @@ const getBookLevelCardMeta = (bookId, level) => {
         bottomDesc: `Minna no Nihongo Sơ cấp 2 - ${typeText}`,
       };
     }
+  }
+
+  if (bookId === 'soumatome-shinkanzen') {
+    return {
+      topText: `総まとめ & 新完全マスター N${level}`,
+      bottomDesc: `Giáo trình Soumatome & Shinkanzen N${level} - ${typeText}`,
+    };
   }
 
   if (bookId === 'kanzen') {
@@ -183,7 +199,7 @@ const groupDecksByBookAndLevel = (decks) => {
     booksMap[book.id].levels[level].push(deck);
   });
 
-  const BOOK_ORDER = ['minna', 'kanzen', 'soumatome', 'mimikara', 'try', 'genki', 'dekiru', 'other'];
+  const BOOK_ORDER = ['minna', 'soumatome-shinkanzen', 'kanzen', 'soumatome', 'mimikara', 'try', 'genki', 'dekiru', 'other'];
 
   return Object.values(booksMap)
     .map((book) => {
@@ -203,12 +219,150 @@ const groupDecksByBookAndLevel = (decks) => {
     .sort((a, b) => BOOK_ORDER.indexOf(a.id) - BOOK_ORDER.indexOf(b.id));
 };
 
+const groupDecksIntoParts = (decksList, bookId, level) => {
+  if (!decksList || decksList.length === 0) return [];
+  
+  const sortedDecks = [...decksList].sort((a, b) => {
+    const numA = getLessonNumber(a.name);
+    const numB = getLessonNumber(b.name);
+    if (numA !== numB) return numA - numB;
+    return a.name.localeCompare(b.name);
+  });
+
+  if (bookId === 'minna') {
+    const parts = [];
+    const startLesson = level === 4 ? 26 : 1;
+    const endLesson = level === 4 ? 50 : 25;
+    
+    for (let i = startLesson; i <= endLesson; i += 5) {
+      const partStart = i;
+      const partEnd = Math.min(i + 4, endLesson);
+      const partDecks = sortedDecks.filter((d) => {
+        const num = getLessonNumber(d.name);
+        return num >= partStart && num <= partEnd;
+      });
+      
+      if (partDecks.length > 0) {
+        parts.push({
+          title: `Bài học ${partStart} - ${partEnd}`,
+          decks: partDecks,
+        });
+      }
+    }
+    
+    const matchedDecks = new Set(parts.flatMap(p => p.decks.map(d => d.id)));
+    const otherDecks = sortedDecks.filter(d => !matchedDecks.has(d.id));
+    if (otherDecks.length > 0) {
+      parts.push({
+        title: 'Tài liệu bổ trợ',
+        decks: otherDecks,
+      });
+    }
+    
+    return parts;
+  }
+
+  if (bookId === 'soumatome-shinkanzen') {
+    const parts = [];
+    if (level === 3 || level === 2) {
+      for (let week = 1; week <= 7; week++) {
+        const partStart = (week - 1) * 7 + 1;
+        const partEnd = Math.min(week * 7, 50);
+        const partDecks = sortedDecks.filter((d) => {
+          const num = getLessonNumber(d.name);
+          return num >= partStart && num <= partEnd;
+        });
+        
+        if (partDecks.length > 0) {
+          parts.push({
+            title: `Tuần ${week} (Bài học ${partStart} - ${partEnd})`,
+            decks: partDecks,
+          });
+        }
+      }
+    } else if (level === 1) {
+      for (let p = 1; p <= 8; p++) {
+        const partStart = (p - 1) * 10 + 1;
+        const partEnd = p * 10;
+        const partDecks = sortedDecks.filter((d) => {
+          const num = getLessonNumber(d.name);
+          return num >= partStart && num <= partEnd;
+        });
+        
+        if (partDecks.length > 0) {
+          parts.push({
+            title: `Chương ${p} (Bài học ${partStart} - ${partEnd})`,
+            decks: partDecks,
+          });
+        }
+      }
+    } else {
+      for (let i = 1; i <= sortedDecks.length; i += 10) {
+        const partStart = i;
+        const partEnd = Math.min(i + 9, sortedDecks.length);
+        const partDecks = sortedDecks.slice(partStart - 1, partEnd);
+        parts.push({
+          title: `Phần ${Math.floor(i/10) + 1}`,
+          decks: partDecks,
+        });
+      }
+    }
+    
+    const matchedDecks = new Set(parts.flatMap(p => p.decks.map(d => d.id)));
+    const otherDecks = sortedDecks.filter(d => !matchedDecks.has(d.id));
+    if (otherDecks.length > 0) {
+      parts.push({
+        title: 'Tài liệu bổ trợ',
+        decks: otherDecks,
+      });
+    }
+    
+    return parts;
+  }
+
+  if (bookId === 'kanzen') {
+    const parts = [];
+    const totalLessons = 26;
+    for (let i = 1; i <= totalLessons; i += 5) {
+      const partStart = i;
+      const partEnd = Math.min(i + 4, totalLessons);
+      const partDecks = sortedDecks.filter((d) => {
+        const num = getLessonNumber(d.name);
+        return num >= partStart && num <= partEnd;
+      });
+      
+      if (partDecks.length > 0) {
+        parts.push({
+          title: `Chương ${Math.floor((i - 1) / 5) + 1} (Bài ${partStart} - ${partEnd})`,
+          decks: partDecks,
+        });
+      }
+    }
+    
+    const matchedDecks = new Set(parts.flatMap(p => p.decks.map(d => d.id)));
+    const otherDecks = sortedDecks.filter(d => !matchedDecks.has(d.id));
+    if (otherDecks.length > 0) {
+      parts.push({
+        title: 'Tài liệu bổ trợ',
+        decks: otherDecks,
+      });
+    }
+    
+    return parts;
+  }
+
+  return [{
+    title: 'Danh sách bài học',
+    decks: sortedDecks,
+  }];
+};
+
 export default function GrammarPage() {
   const navigate = useNavigate();
 
   const [decks, setDecks] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [selectedLevel, setSelectedLevel] = useState(null);
+  const [selectedLevel, setSelectedLevel] = useState(5);
   const [selectedBookLevel, setSelectedBookLevel] = useState(null); // { bookId, level }
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -223,7 +377,7 @@ export default function GrammarPage() {
       .finally(() => setLoading(false));
   }, []);
 
-  const isSearchingGlobally = !!(searchQuery.trim() || selectedLevel) && !selectedBookLevel;
+  const isSearchingGlobally = !!searchQuery.trim() && !selectedBookLevel;
 
   const filteredDecks = useMemo(() => {
     let result = decks;
@@ -256,8 +410,11 @@ export default function GrammarPage() {
 
   const groupedBooks = useMemo(() => {
     if (isSearchingGlobally || selectedBookLevel) return [];
-    return groupDecksByBookAndLevel(decks);
-  }, [decks, isSearchingGlobally, selectedBookLevel]);
+    const filtered = selectedLevel !== null
+      ? decks.filter((d) => d.jlptLevel === selectedLevel)
+      : decks;
+    return groupDecksByBookAndLevel(filtered);
+  }, [decks, isSearchingGlobally, selectedBookLevel, selectedLevel]);
 
   const totalGrammarPoints = decks.reduce((sum, d) => sum + (d._count?.cards || 0), 0);
 
@@ -367,7 +524,7 @@ export default function GrammarPage() {
             <div className="flex items-center gap-2 text-xs font-semibold text-on-surface-variant/80">
               <span className="cursor-pointer hover:text-primary transition-colors" onClick={() => setSelectedBookLevel(null)}>Tất cả giáo trình</span>
               <ChevronRight className="w-3.5 h-3.5 opacity-60" />
-              <span>{getBookInfo({ name: selectedBookLevel.bookId === 'minna' ? 'Minna' : selectedBookLevel.bookId === 'kanzen' ? 'Kanzen' : selectedBookLevel.bookId === 'soumatome' ? 'Soumatome' : '' }).title}</span>
+              <span>{getBookInfo({ name: selectedBookLevel.bookId }).title}</span>
               <ChevronRight className="w-3.5 h-3.5 opacity-60" />
               <span className="font-bold text-on-surface">Cấp độ N{selectedBookLevel.level}</span>
             </div>
@@ -462,69 +619,139 @@ export default function GrammarPage() {
             Hãy thử đổi cấp độ JLPT hoặc từ khóa tìm kiếm khác.
           </p>
           <button
-            onClick={() => { setSelectedLevel(null); setSearchQuery(''); setSelectedBookLevel(null); }}
+            onClick={() => { setSelectedLevel(5); setSearchQuery(''); setSelectedBookLevel(null); }}
             className="mt-4 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-primary border-2 border-primary hover:bg-primary hover:text-white transition-all sharp-shadow-sm"
           >
             Đặt lại bộ lọc
           </button>
         </div>
       ) : (
-        <div className="space-y-4">
+        <div className="space-y-8">
           <div className="flex items-center justify-between text-sm text-on-surface-variant px-1">
             <p>
               Hiển thị <span className="font-bold text-on-surface">{filteredDecks.length}</span> bài học ngữ pháp
             </p>
           </div>
 
-          {/* Lesson cards grid — click to navigate */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {filteredDecks.map((deck) => (
-              <button
-                key={deck.id}
-                onClick={() => navigate(`/grammar/${deck.id}`)}
-                className="group bg-surface-container-lowest border-2 border-outline-variant/50 overflow-hidden transition-all sharp-shadow hover:sharp-shadow-sm hover:-translate-y-0.5 text-left w-full"
-              >
-                <div
-                  className="h-1 w-full transition-all"
-                  style={{ background: 'var(--primary)', opacity: 0 }}
-                  ref={(el) => {
-                    if (el) {
-                      el.closest('button').addEventListener('mouseenter', () => { el.style.opacity = '1'; });
-                      el.closest('button').addEventListener('mouseleave', () => { el.style.opacity = '0'; });
-                    }
-                  }}
-                />
-                <div className="p-5">
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-primary/5 text-primary flex-shrink-0 flex flex-col items-center justify-center border border-primary/20">
-                      <span className="text-[10px] font-bold text-primary/75 leading-none">JLPT</span>
-                      <span className="text-lg font-bold leading-none mt-0.5">N{deck.jlptLevel || '?'}</span>
-                    </div>
-
-                    <div className="min-w-0 flex-1">
-                      <h3 className="font-jp font-bold text-on-surface text-base leading-snug group-hover:text-primary transition-colors">
-                        {deck.name}
-                      </h3>
-                      {deck.description && (
-                        <p className="text-xs text-on-surface-variant line-clamp-2 mt-1 leading-relaxed">
-                          {deck.description}
-                        </p>
-                      )}
-                    </div>
+          {selectedBookLevel ? (
+            <div className="space-y-12">
+              {groupDecksIntoParts(filteredDecks, selectedBookLevel.bookId, selectedBookLevel.level).map((part, pIdx) => (
+                <div key={pIdx} className="space-y-4">
+                  <div className="flex items-center gap-2 border-b border-outline-variant/30 pb-2">
+                    <span className="w-1.5 h-6 bg-primary" />
+                    <h3 className="font-bold text-on-surface text-lg">{part.title}</h3>
+                    <span className="text-xs text-on-surface-variant bg-surface-container-low px-2 py-0.5 font-bold border border-outline-variant/20">
+                      {part.decks.length} bài học
+                    </span>
                   </div>
 
-                  <div className="flex items-center justify-between mt-4 pt-3 border-t border-outline-variant/20">
-                    <span className="text-xs font-semibold px-2 py-1 bg-surface-container text-on-surface border border-outline-variant/40">
-                      {deck._count?.cards || 0} điểm ngữ pháp
-                    </span>
-                    <span className="inline-flex items-center gap-1 text-xs font-bold text-primary opacity-0 group-hover:opacity-100 transition-opacity">
-                      Xem lý thuyết <ChevronRight className="w-3.5 h-3.5" />
-                    </span>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {part.decks.map((deck) => (
+                      <button
+                        key={deck.id}
+                        onClick={() => navigate(`/grammar/${deck.id}`)}
+                        className="group bg-surface-container-lowest border-2 border-outline-variant/50 overflow-hidden transition-all sharp-shadow hover:sharp-shadow-sm hover:-translate-y-0.5 text-left w-full"
+                      >
+                        <div
+                          className="h-1 w-full transition-all"
+                          style={{ background: 'var(--primary)', opacity: 0 }}
+                          ref={(el) => {
+                            if (el) {
+                              const btn = el.closest('button');
+                              if (btn) {
+                                btn.addEventListener('mouseenter', () => { el.style.opacity = '1'; });
+                                btn.addEventListener('mouseleave', () => { el.style.opacity = '0'; });
+                              }
+                            }
+                          }}
+                        />
+                        <div className="p-5">
+                          <div className="flex items-start gap-4">
+                            <div className="w-12 h-12 bg-primary/5 text-primary flex-shrink-0 flex flex-col items-center justify-center border border-primary/20">
+                              <span className="text-[10px] font-bold text-primary/75 leading-none">JLPT</span>
+                              <span className="text-lg font-bold leading-none mt-0.5">N{deck.jlptLevel || '?'}</span>
+                            </div>
+
+                            <div className="min-w-0 flex-1">
+                              <h3 className="font-jp font-bold text-on-surface text-base leading-snug group-hover:text-primary transition-colors">
+                                {deck.name}
+                              </h3>
+                              {deck.description && (
+                                <p className="text-xs text-on-surface-variant line-clamp-2 mt-1 leading-relaxed">
+                                  {deck.description}
+                                </p>
+                              )}
+                            </div>
+                          </div>
+
+                          <div className="flex items-center justify-between mt-4 pt-3 border-t border-outline-variant/20">
+                            <span className="text-xs font-semibold px-2 py-1 bg-surface-container text-on-surface border border-outline-variant/40">
+                              {deck._count?.cards || 0} cấu trúc
+                            </span>
+                            <span className="inline-flex items-center gap-1 text-xs font-bold text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                              Xem lý thuyết <ChevronRight className="w-3.5 h-3.5" />
+                            </span>
+                          </div>
+                        </div>
+                      </button>
+                    ))}
                   </div>
                 </div>
-              </button>
-            ))}
-          </div>
+              ))}
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {filteredDecks.map((deck) => (
+                <button
+                  key={deck.id}
+                  onClick={() => navigate(`/grammar/${deck.id}`)}
+                  className="group bg-surface-container-lowest border-2 border-outline-variant/50 overflow-hidden transition-all sharp-shadow hover:sharp-shadow-sm hover:-translate-y-0.5 text-left w-full"
+                >
+                  <div
+                    className="h-1 w-full transition-all"
+                    style={{ background: 'var(--primary)', opacity: 0 }}
+                    ref={(el) => {
+                      if (el) {
+                        const btn = el.closest('button');
+                        if (btn) {
+                          btn.addEventListener('mouseenter', () => { el.style.opacity = '1'; });
+                          btn.addEventListener('mouseleave', () => { el.style.opacity = '0'; });
+                        }
+                      }
+                    }}
+                  />
+                  <div className="p-5">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-primary/5 text-primary flex-shrink-0 flex flex-col items-center justify-center border border-primary/20">
+                        <span className="text-[10px] font-bold text-primary/75 leading-none">JLPT</span>
+                        <span className="text-lg font-bold leading-none mt-0.5">N{deck.jlptLevel || '?'}</span>
+                      </div>
+
+                      <div className="min-w-0 flex-1">
+                        <h3 className="font-jp font-bold text-on-surface text-base leading-snug group-hover:text-primary transition-colors">
+                          {deck.name}
+                        </h3>
+                        {deck.description && (
+                          <p className="text-xs text-on-surface-variant line-clamp-2 mt-1 leading-relaxed">
+                            {deck.description}
+                          </p>
+                        )}
+                      </div>
+                    </div>
+
+                    <div className="flex items-center justify-between mt-4 pt-3 border-t border-outline-variant/20">
+                      <span className="text-xs font-semibold px-2 py-1 bg-surface-container text-on-surface border border-outline-variant/40">
+                        {deck._count?.cards || 0} điểm ngữ pháp
+                      </span>
+                      <span className="inline-flex items-center gap-1 text-xs font-bold text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                        Xem lý thuyết <ChevronRight className="w-3.5 h-3.5" />
+                      </span>
+                    </div>
+                  </div>
+                </button>
+              ))}
+            </div>
+          )}
         </div>
       )}
     </div>
