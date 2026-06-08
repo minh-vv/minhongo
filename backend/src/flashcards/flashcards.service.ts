@@ -70,6 +70,11 @@ export class FlashcardsService {
       include: {
         cards: {
           orderBy: { createdAt: 'asc' },
+          include: {
+            progress: {
+              where: { userId },
+            },
+          },
         },
       },
     });
