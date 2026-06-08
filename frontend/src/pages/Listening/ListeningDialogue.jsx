@@ -18,6 +18,16 @@ export default function ListeningDialogue() {
   const playAllTimeout = useRef(null);
   const synth = typeof window !== 'undefined' ? window.speechSynthesis : null;
 
+  const stopAutoPlay = useCallback(() => {
+    setIsPlayingAll(false);
+    setCurrentLineIndex(-1);
+    if (playAllTimeout.current) {
+      clearTimeout(playAllTimeout.current);
+      playAllTimeout.current = null;
+    }
+    if (synth) synth.cancel();
+  }, [synth]);
+
   // Clear auto play when changing active dialogue
   useEffect(() => {
     stopAutoPlay();
@@ -29,16 +39,6 @@ export default function ListeningDialogue() {
       stopAutoPlay();
     };
   }, [stopAutoPlay]);
-
-  const stopAutoPlay = useCallback(() => {
-    setIsPlayingAll(false);
-    setCurrentLineIndex(-1);
-    if (playAllTimeout.current) {
-      clearTimeout(playAllTimeout.current);
-      playAllTimeout.current = null;
-    }
-    if (synth) synth.cancel();
-  }, [synth]);
 
   const startAutoPlay = () => {
     if (isPlayingAll) {
