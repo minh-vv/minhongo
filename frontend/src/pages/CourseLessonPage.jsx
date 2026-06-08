@@ -61,6 +61,8 @@ function buildQuestions(cards, count) {
 // THEORY PHASE
 // ============================================================
 function TheoryPhase({ lesson, onContinue }) {
+  const grammarDeck = lesson.decks?.find((d) => d.role === 'GRAMMAR');
+
   return (
     <div className="max-w-3xl mx-auto p-6 md:p-8">
       <div className="mb-4">
@@ -102,6 +104,24 @@ function TheoryPhase({ lesson, onContinue }) {
           <ReactMarkdown>{lesson.theoryMd}</ReactMarkdown>
         </article>
       </div>
+
+      {grammarDeck && (
+        <div className="bg-purple-55 border border-purple-200 rounded-2xl p-6 mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4" style={{ backgroundColor: '#faf5ff' }}>
+          <div>
+            <h3 className="font-bold text-purple-900 text-base">Thẻ ghi nhớ Ngữ pháp</h3>
+            <p className="text-sm text-purple-700 mt-1">
+              Bài học này bao gồm bộ thẻ luyện tập {grammarDeck.cardCount} mẫu cấu trúc ngữ pháp (Nghe phát âm, chép chính tả, shadowing & AI đặt câu).
+            </p>
+          </div>
+          <Link
+            to={`/grammar/${grammarDeck.deckId}`}
+            target="_blank"
+            className="inline-flex items-center justify-center px-5 py-2.5 bg-purple-600 hover:bg-purple-700 text-white text-xs font-bold rounded-xl uppercase tracking-wider transition-all shadow-sm shrink-0"
+          >
+            Luyện ngữ pháp
+          </Link>
+        </div>
+      )}
 
       <button
         onClick={onContinue}

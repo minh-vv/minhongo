@@ -2,7 +2,7 @@
  * PublicContentPage — shared layout for admin-curated content pages
  * (Kanji, Vocabulary, Grammar). Admin can upload Anki decks; all users can study.
  */
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import axios from '../api/axios';
 import { useAuth } from '../hooks/useAuth';
@@ -313,15 +313,15 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
   const [sort, setSort]       = useState('newest');
   const [showUpload, setShowUpload] = useState(false);
 
-  const fetchDecks = () => {
+  const fetchDecks = useCallback(() => {
     setLoading(true);
     axios.get('/flashcards/public')
       .then((res) => setDecks(res.data.filter((d) => d.category === category)))
       .catch(console.error)
       .finally(() => setLoading(false));
-  };
+  }, [category]);
 
-  useEffect(() => { fetchDecks(); }, []);
+  useEffect(() => { fetchDecks(); }, [fetchDecks]);
 
   const activeThemes = useMemo(
     () => THEMES.filter((t) => decks.some((d) => deckMatchesTheme(d, t))),

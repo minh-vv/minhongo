@@ -96,7 +96,15 @@ export class AiRoadmapService {
       alreadyStudied.length > 0
         ? `\nBÀI HỌC ĐÃ HOÀN THÀNH (bỏ qua hoặc chỉ ôn nhanh):\n` +
           alreadyStudied
-            .map((l) => `  - [N${l.course.jlptLevel}] ${l.title}`)
+            .map((l) => {
+              const progress = userProgress.find(
+                (p) => p.lessonId === l.id && p.status === 'PASSED',
+              );
+              const scoreStr = progress?.score
+                ? ` (Score: ${progress.score}%)`
+                : '';
+              return `  - [N${l.course.jlptLevel}] ${l.title} | ${l.skills.join(',')}${scoreStr}`;
+            })
             .join('\n')
         : '';
 

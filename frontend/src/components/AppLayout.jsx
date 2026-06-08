@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useMemo } from 'react';
-import { NavLink, Outlet, useNavigate, Link } from 'react-router-dom';
+import { NavLink, Outlet, useNavigate, Link, useLocation } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { useAuth } from '../hooks/useAuth';
 import { systemApi } from '../api/systemApi';
@@ -21,7 +21,16 @@ const navItems = [
   { path: '/kanji',      label: 'Hán tự',                  icon: <IconKanji /> },
   { path: '/vocabulary', label: 'Từ vựng',                 icon: <IconList /> },
   { path: '/grammar',    label: 'Ngữ pháp',                icon: <IconBook /> },
-  { path: '/listening',  label: 'Luyện nghe',              icon: <IconHeadphones /> },
+  {
+    path: '/listening',
+    label: 'Luyện nghe',
+    icon: <IconHeadphones />,
+    children: [
+      { path: '/listening/dialogue', label: 'Nghe hội thoại' },
+      { path: '/listening/sentence', label: 'Điền từ & chép câu' },
+      { path: '/listening/shadowing', label: 'Nói đuổi Shadowing' },
+    ]
+  },
   { path: '/roadmap',    label: 'Lộ trình',                icon: <IconMap /> },
   { path: '/self-study', label: 'Kho cá nhân',           icon: <IconLayers /> },
   { path: '/community',  label: 'Cộng đồng',               icon: <IconPeople /> },
@@ -30,9 +39,25 @@ const navItems = [
 export default function AppLayout() {
   const { isAuthenticated, user, logout, openLogin, openRegister } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
   const [dropdownOpen, setDropdownOpen]   = useState(false);
   const [settingsOpen, setSettingsOpen]   = useState(false);
   const [language, setLanguage]           = useState('vi');
+  const [listeningOpen, setListeningOpen] = useState(() => location.pathname.startsWith('/listening'));
+  const prevPathnameRef = useRef(location.pathname);
+
+  useEffect(() => {
+    const wasListening = prevPathnameRef.current.startsWith('/listening');
+    const isListening = location.pathname.startsWith('/listening');
+    
+    if (!wasListening && isListening) {
+      setListeningOpen(true);
+    } else if (!isListening) {
+      setListeningOpen(false);
+    }
+    
+    prevPathnameRef.current = location.pathname;
+  }, [location.pathname]);
   const dropdownRef = useRef(null);
   const settingsRef = useRef(null);
 
@@ -176,47 +201,95 @@ export default function AppLayout() {
 
           <div className="flex-1 overflow-y-auto no-scrollbar" style={{ paddingTop: bodyPadTop }}>
             <nav className="flex-1 space-y-0.5 px-3 py-3">
-              {navItems.map((item) => (
-                <NavLink
-                  key={item.path}
-                  to={item.path}
-                  end={item.end}
-                  className={({ isActive }) =>
-                    isActive
-                      ? 'flex items-center gap-4 px-4 py-3.5 text-base transition-all duration-150 vermilion-active font-bold'
-                      : 'flex items-center gap-4 px-4 py-3.5 text-base transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
-                  }
-                >
-                  {({ isActive }) => (
-                    <>
-                      <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }}>
-                        {item.icon}
-                      </span>
-                      <span className="flex-1">{item.label}</span>
-                      {item.badge && (
-                        <span className="px-1.5 py-px bg-amber-400 text-amber-900 text-[9px] font-black leading-none">
-                          {item.badge}
+              {navItems.map((item) => {
+                if (item.children) {
+                  const isListeningActive = location.pathname.startsWith('/listening');
+                  return (
+                    <div key={item.path} className="flex flex-col">
+                      <NavLink
+                        to={item.path}
+                        onClick={(e) => {
+                          if (isListeningActive) {
+                            e.preventDefault();
+                          }
+                          setListeningOpen(!listeningOpen);
+                        }}
+                        className={
+                          isListeningActive
+                            ? 'flex items-center gap-4 px-4 py-3 text-base transition-all duration-150 vermilion-active font-bold'
+                            : 'flex items-center gap-4 px-4 py-3 text-base transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                        }
+                      >
+                        <span style={{ color: isListeningActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }}>
+                          {item.icon}
                         </span>
+                        <span className="flex-1">{item.label}</span>
+                        <IconChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${listeningOpen ? 'rotate-180' : ''}`} />
+                      </NavLink>
+                      
+                      {listeningOpen && (
+                        <div className="flex flex-col mt-0.5 space-y-0.5 animate-fade-up">
+                          {item.children.map((child) => (
+                            <NavLink
+                              key={child.path}
+                              to={child.path}
+                              className={({ isActive }) =>
+                                isActive
+                                  ? 'flex items-center gap-3 pl-12 pr-4 py-2 text-sm transition-all duration-150 text-secondary font-bold border-l-[3px] border-secondary bg-secondary/5'
+                                  : 'flex items-center gap-3 pl-12 pr-4 py-2 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                              }
+                            >
+                              <span className="w-1.5 h-1.5 rounded-full bg-current flex-shrink-0 animate-fade-up" />
+                              <span className="flex-1">{child.label}</span>
+                            </NavLink>
+                          ))}
+                        </div>
                       )}
-                    </>
-                  )}
-                </NavLink>
-              ))}
+                    </div>
+                  );
+                }
+
+                return (
+                  <NavLink
+                    key={item.path}
+                    to={item.path}
+                    end={item.end}
+                    className={({ isActive }) =>
+                      isActive
+                        ? 'flex items-center gap-4 px-4 py-3 text-base transition-all duration-150 vermilion-active font-bold'
+                        : 'flex items-center gap-4 px-4 py-3 text-base transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                    }
+                  >
+                    {({ isActive }) => (
+                      <>
+                        <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }}>
+                          {item.icon}
+                        </span>
+                        <span className="flex-1">{item.label}</span>
+                        {item.badge && (
+                          <span className="px-1.5 py-px bg-amber-400 text-amber-900 text-[9px] font-black leading-none">
+                            {item.badge}
+                          </span>
+                        )}
+                      </>
+                    )}
+                  </NavLink>
+                );
+              })}
             </nav>
-          </div>
 
           {/* ── ADMIN SECTION (chỉ hiện với admin) ──────────────── */}
           {user?.isAdmin && (
             <div className="px-3 pb-1 border-t" style={{ borderColor: 'rgba(0,0,0,0.07)' }}>
-              <p className="px-4 pt-3 pb-1 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant opacity-60">
+              <p className="px-4 pt-2 pb-0.5 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant opacity-60">
                 Quản trị
               </p>
               <NavLink
                 to="/admin/users"
                 className={({ isActive }) =>
                   isActive
-                    ? 'flex items-center gap-4 px-4 py-3.5 text-base transition-all duration-150 vermilion-active font-bold'
-                    : 'flex items-center gap-4 px-4 py-3.5 text-base transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                    ? 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 vermilion-active font-bold'
+                    : 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
                 }
               >
                 {({ isActive }) => (
@@ -232,8 +305,8 @@ export default function AppLayout() {
                 to="/admin/content"
                 className={({ isActive }) =>
                   isActive
-                    ? 'flex items-center gap-4 px-4 py-3.5 text-base transition-all duration-150 vermilion-active font-bold'
-                    : 'flex items-center gap-4 px-4 py-3.5 text-base transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                    ? 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 vermilion-active font-bold'
+                    : 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
                 }
               >
                 {({ isActive }) => (
@@ -249,8 +322,8 @@ export default function AppLayout() {
                 to="/admin/settings"
                 className={({ isActive }) =>
                   isActive
-                    ? 'flex items-center gap-4 px-4 py-3.5 text-base transition-all duration-150 vermilion-active font-bold'
-                    : 'flex items-center gap-4 px-4 py-3.5 text-base transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                    ? 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 vermilion-active font-bold'
+                    : 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
                 }
               >
                 {({ isActive }) => (
@@ -264,16 +337,17 @@ export default function AppLayout() {
               </NavLink>
             </div>
           )}
+          </div>
 
           {/* ── BOTTOM ACTIONS ──────────────────────────────────── */}
-          <div className="border-t" style={{ borderColor: 'rgba(0,0,0,0.07)' }}>
+          <div className="flex-shrink-0 border-t" style={{ borderColor: 'rgba(0,0,0,0.07)' }}>
 
             {/* Upgrade button */}
-            <div className="px-3 pt-3 pb-1">
+            <div className="px-3 pt-2 pb-0.5">
               <NavLink
                 to="/upgrade"
                 className={({ isActive }) =>
-                  `flex items-center gap-4 px-4 py-3.5 text-base font-bold w-full transition-all duration-150 border-l-[3px] ${
+                  `flex items-center gap-4 px-4 py-2.5 text-sm font-bold w-full transition-all duration-150 border-l-[3px] ${
                     isActive ? 'border-amber-400' : 'border-transparent hover:bg-surface-container'
                   }`
                 }
@@ -288,10 +362,10 @@ export default function AppLayout() {
             </div>
 
             {/* Settings button + panel */}
-            <div className="px-3 pb-3 relative" ref={settingsRef}>
+            <div className="px-3 pb-2 relative" ref={settingsRef}>
               <button
                 onClick={() => setSettingsOpen((o) => !o)}
-                className={`flex items-center gap-4 px-4 py-3.5 text-base font-medium w-full transition-all duration-150 border-l-[3px] ${
+                className={`flex items-center gap-4 px-4 py-2.5 text-sm font-medium w-full transition-all duration-150 border-l-[3px] ${
                   settingsOpen
                     ? 'border-outline-variant/40 bg-surface-container text-on-surface'
                     : 'border-transparent text-on-surface-variant hover:bg-surface-container hover:text-on-surface'

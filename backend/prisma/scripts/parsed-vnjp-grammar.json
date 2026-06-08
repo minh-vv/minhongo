@@ -1,0 +1,1717 @@
+[
+  {
+    "front": "Trợ từ に &#8211; Ở…, đến…, cho…",
+    "back": "３時に会う／月曜日に始まる\n\nÝ nghĩa: Thời điểm xác định",
+    "romaji": "joshi-ni-n4",
+    "example": "午後３時に会議が始まります。\nCuộc họp bắt đầu lúc 3 giờ chiều.\n\n駅に着いたら電話して。\nĐến ga thì gọi nhé.\n\n机にパソコンがあります。\nCó máy tính trên bàn.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "Trợ từ も &#8211; Cũng…, tận…, cả …",
+    "back": "名詞 + も\n\nÝ nghĩa: cũng / ngay cả",
+    "romaji": "joshi-mo-n4",
+    "example": "私も行きます。\nTôi cũng đi.\n\n彼は英語も日本語も話せる。\nAnh ấy nói được cả tiếng Anh lẫn tiếng Nhật.\n\n誰も来なかった。\nKhông ai đến cả.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～たことがある &#8211; Đã từng…",
+    "back": "日本へ行ったことがある\n\nÝ nghĩa: Đã từng (kinh nghiệm)",
+    "romaji": "ta-koto-ga-aru",
+    "example": "富士山に登ったことがある？\nBạn đã từng leo núi Phú Sĩ chưa?\n\n北海道へは行ったことがありません。\nTôi chưa từng đi Hokkaido.\n\n彼と会ったことがある気がする。\nTôi cảm giác là đã từng gặp anh ấy.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～たときに &#8211; Khi…",
+    "back": "家に帰ったときに、電話した。\n\nÝ nghĩa: 家に帰ったときに、電話した。",
+    "romaji": "ta-toki-ni",
+    "example": "日本に来たときに、たくさんの友だちができた。\nKhi đã đến Nhật, tôi đã có nhiều bạn.\n\n家に帰ったときに、鍵がないことに気づいた。\nKhi về đến nhà rồi, tôi mới nhận ra là không có chìa khóa.\n\n会議が終わったときに、部長に呼ばれた。\nKhi cuộc họp kết thúc, tôi bị trưởng phòng gọi.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～たところ &#8211; Vừa mới…, ngay sau khi…",
+    "back": "問い合わせてみたところ、在庫はなかった。\n\nÝ nghĩa: 問い合わせてみたところ、在庫はなかった。",
+    "romaji": "ta-tokoro",
+    "example": "店に問い合わせてみたところ、すでに売り切れていた。\nKhi tôi thử liên hệ với cửa hàng, thì đã bán hết mất rồi.\n\n申し込んだところ、締め切られていた。\nSau khi nộp đăng ký thì biết là đã hết hạn.\n\n医者に診てもらったところ、インフルエンザだと言われた。\nKhám bác sĩ xong thì được nói là bị cúm.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～るときに &#8211; Khi…",
+    "back": "V-る + とき(に)\n\nÝ nghĩa: 出かけるとき(に)",
+    "romaji": "ru-toki-ni",
+    "example": "日本へ行くときに、カメラを買った。\nMua máy ảnh trước khi đi Nhật.\n\n日本へ行ったときに、カメラを買った。\nMua máy ảnh khi đã đến Nhật.\n\n出かけるときは、電気を消してください。\nKhi ra ngoài, hãy tắt điện.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～るところ &#8211; Đang chuẩn bị làm…",
+    "back": "V-る + ところ (だ/です)\n\nÝ nghĩa: 出かけるところだ",
+    "romaji": "ru-tokoro",
+    "example": "これから食べるところだ。\nTôi sắp ăn đây.\n\n出発するところに、上司から電話が入った。\nĐúng lúc sắp xuất phát thì nhận điện thoại của sếp.\n\n寝るところを、子どもに起こされた。\nĐang chuẩn bị ngủ thì bị con đánh thức.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ている &#8211; Đang…, lặp lại, trạng thái",
+    "back": "Vて + いる\n\nÝ nghĩa: 今、昼ごはんを食べている。",
+    "romaji": "te-iru",
+    "example": "今、会議をしています。\nTôi đang họp bây giờ.\n\n電気がついているから、誰かが中にいるはずだ。\nĐèn đang sáng nên chắc có ai trong đó.\n\n彼はIT企業で働いている。\nAnh ấy làm việc ở công ty IT.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ているところ &#8211; Đang lúc…",
+    "back": "Vている + ところ（だ／です）\n\nÝ nghĩa: 今、出かけているところです。",
+    "romaji": "te-iru-tokoro",
+    "example": "今、会議をしているところです。後でかけ直します。\nBây giờ tôi đang họp. Tôi sẽ gọi lại sau.\n\nちょうど出かけているところに、部長が来た。\nĐúng lúc tôi đang ra ngoài thì trưởng phòng đến.\n\n説明しているところを、邪魔しないでください。\nĐang giải thích, xin đừng làm phiền.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～の間に &#8211; Trong lúc…, trong khi…",
+    "back": "夏休みの間に旅行した。\n\nÝ nghĩa: Trong khoảng thời gian N, xảy ra sự kiện 1 lần/ít lần",
+    "romaji": "no-aida-ni",
+    "example": "夏休みの間に、祖父母の家へ行った。\nTrong kỳ nghỉ hè, tôi đã đến nhà ông bà.\n\n子供が寝ている間に、洗濯を済ませた。\nTrong lúc con đang ngủ, tôi giặt đồ xong.\n\n留守の間に、泥棒が入った。\nKhi vắng nhà, trộm đã đột nhập.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ている間に &#8211; Trong lúc… thì…",
+    "back": "Vている + 間に\n\nÝ nghĩa: 昼寝している間に電話があった。",
+    "romaji": "te-iru-aida-ni",
+    "example": "私が寝ている間に、雪が降った。\nTrong lúc tôi đang ngủ thì trời đã đổ tuyết.\n\n父が留守にしている間に、泥棒が入った。\nTrong lúc bố vắng nhà thì trộm đã vào.\n\n映画を見ている間に、スマホが鳴った。\nTrong lúc đang xem phim, điện thoại reo.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～中 &#8211; Đang… / trong lúc…",
+    "back": "N + 中（ちゅう／じゅう）\n\nÝ nghĩa: Trong suốt…, trong khi đang…, khắp…, toàn bộ…",
+    "romaji": "chuu",
+    "example": "今、会議 中（ちゅう）です。\nHiện đang trong cuộc họp.\n\n授業 中にスマホを使ってはいけません。\nKhông được dùng điện thoại trong giờ học.\n\n日本では、桜は3月から4月 中（じゅう）に咲きます。\nỞ Nhật, hoa anh đào nở suốt từ tháng 3 đến tháng 4.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～たばかり &#8211; Vừa mới…",
+    "back": "Vた + ばかり\n\nÝ nghĩa: Vừa mới… / Mới chỉ…",
+    "romaji": "ta-bakari",
+    "example": "彼は会社に入っ たばかりなので、まだ仕事に慣れていない。\nVì anh ấy mới vào công ty nên vẫn chưa quen việc.\n\n昼ご飯を食べ たばかりだから、まだお腹が空いていない。\nTôi vừa ăn trưa nên chưa đói.\n\n日本に来 たばかりのころ、何も分からなかった。\nKhi mới đến Nhật, tôi chẳng hiểu gì cả.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～まで &#8211; Đến…",
+    "back": "N + まで\n\nÝ nghĩa: Đến / cho đến (điểm cuối của thời gian/địa điểm)",
+    "romaji": "made",
+    "example": "父が帰るまで待ちます。\nTôi đợi cho đến khi bố về.\n\n銀行まで歩いて行きます。\nTôi đi bộ đến ngân hàng.\n\n雨が止むまでここにいます。\nTôi ở đây cho đến khi mưa tạnh.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～までに &#8211; Trước…",
+    "back": "金曜までに提出\n\nÝ nghĩa: “trước/không muộn hơn …”",
+    "romaji": "made-ni",
+    "example": "レポートは明日までに提出してください。\nVui lòng nộp báo cáo trước ngày mai.\n\n5時までに駅に来てください。\nHãy đến nhà ga trước 5 giờ.\n\n会議が始まるまでに、資料を配っておいてください。\nTrước khi cuộc họp bắt đầu, hãy phát tài liệu sẵn.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～まま &#8211; Giữ nguyên…, cứ thế…",
+    "back": "靴のまま / 子どものまま\n\nÝ nghĩa: Giữ nguyên như N",
+    "romaji": "mama",
+    "example": "窓を開けたまま寝てしまった。\nTôi đã lỡ ngủ trong khi để cửa sổ mở.\n\n靴のまま部屋に入らないでください。\nXin đừng vào phòng mà vẫn mang giày.\n\n日本語が分からないまま帰国した。\nTôi về nước khi vẫn chưa hiểu tiếng Nhật.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てある &#8211; Có… sẵn (trạng thái kết quả)",
+    "back": "窓は閉めてある\n\nÝ nghĩa: 窓は閉めてある",
+    "romaji": "te-aru",
+    "example": "机の上にメモが置いてある。\nTrên bàn có tờ ghi chú đã được đặt sẵn.\n\n会場はすでに準備してある。\nHội trường đã được chuẩn bị sẵn.\n\n明日の会議の資料は印刷してあります。\nTài liệu họp ngày mai đã in sẵn.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ることがある &#8211; Thỉnh thoảng…",
+    "back": "忙しいときは昼ご飯を抜くことがある\n\nÝ nghĩa: 忙しいときは昼ご飯を抜くことがある",
+    "romaji": "ru-koto-ga-aru",
+    "example": "仕事が忙しいと、昼ご飯を食べないことがある。\nKhi bận công việc, cũng có lúc không ăn trưa.\n\nこの道は冬になると凍結することがある。\nCon đường này vào mùa đông có khi bị đóng băng.\n\n外国人にはこの漢字が読めないことがある。\nVới người nước ngoài, cũng có trường hợp không đọc được chữ Hán này.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ていく &#8211; Làm rồi đi / tiếp tục về phía trước",
+    "back": "勉強を続けていく\n\nÝ nghĩa: 勉強を続けていく",
+    "romaji": "te-iku",
+    "example": "これから日本語の勉強を続けていくつもりです。\nTừ giờ tôi dự định tiếp tục học tiếng Nhật.\n\n気温は夜になると下がっていきます。\nNhiệt độ sẽ giảm dần về đêm.\n\n荷物は私が持っていきます。\nĐồ đạc để tôi mang đi.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てくる &#8211; Làm và quay lại / trở nên dần…",
+    "back": "V-て + くる\n\nÝ nghĩa: 買ってくる／持ってくる",
+    "romaji": "te-kuru",
+    "example": "ちょっとコンビニで飲み物を買ってくるね。\nTớ đi mua đồ uống ở konbini rồi về nhé.\n\n資料をプリントしてきますから、少々お待ちください。\nTôi in tài liệu rồi mang về ngay, xin chờ một lát.\n\n雨が急に降ってきた。\nTrời đột nhiên đổ mưa.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～出す &#8211; Bắt đầu đột ngột…",
+    "back": "V-ます bỏ ます + 出す\n\nÝ nghĩa: 泣き出す／降り出す／笑い出す",
+    "romaji": "dasu",
+    "example": "空が暗くなったと思ったら、雨が降り出した。\nTưởng trời mới tối, thì mưa bỗng đổ xuống.\n\n子どもは理由もなく泣き出すことがある。\nTrẻ con đôi khi bỗng khóc òa không lý do.\n\n彼は突然歌い出して、みんなを驚かせた。\nAnh ấy bỗng hát lên, làm mọi người ngạc nhiên.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～終わる &#8211; Làm xong…",
+    "back": "V-ます bỏ ます + 終わる\n\nÝ nghĩa: 読み終わる／食べ終わる／やり終わる",
+    "romaji": "owaru",
+    "example": "宿題をやり終わったら、ゲームしてもいい。\nLàm xong bài tập thì có thể chơi.\n\nこの本は一日で読み終わった。\nTôi đọc xong cuốn sách này trong một ngày.\n\n食事を食べ終わったら、皿を下げてください。\nAnh/chị ăn xong thì vui lòng dọn đĩa.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～続ける &#8211; Tiếp tục…",
+    "back": "読み続ける、使い続ける\n\nÝ nghĩa: 読み続ける、使い続ける",
+    "romaji": "tsuzukeru",
+    "example": "彼は10年間、同じ会社で働き続けている。\nAnh ấy tiếp tục làm việc ở cùng một công ty suốt 10 năm.\n\n雨が降り続けて、川があふれた。\nMưa rơi liên tục khiến sông tràn bờ.\n\n諦めずに挑戦し続けることが大事だ。\nĐiều quan trọng là tiếp tục thử thách mà không bỏ cuộc.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てみる &#8211; Thử làm…",
+    "back": "質問してみる。\n\nÝ nghĩa: 質問してみる。",
+    "romaji": "te-miru",
+    "example": "一度再起動してみてください。\nHãy thử khởi động lại một lần.\n\nこの色、私に合うか着てみる。\nTôi sẽ thử mặc xem màu này có hợp không.\n\n説明が難しいので、図にしてみました。\nVì khó giải thích nên tôi thử vẽ thành sơ đồ.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ておく &#8211; Làm sẵn / chuẩn bị trước",
+    "back": "Vて + おく\n\nÝ nghĩa: チケットを予約しておく。",
+    "romaji": "te-oku",
+    "example": "旅行の前に、ホテルを予約しておくと安心だ。\nTrước chuyến đi, đặt phòng sẵn thì yên tâm.\n\n会議室はこのままにしておいてください。\nPhòng họp xin để nguyên như thế.\n\n締切に備えて、早めに提出しておきます。\nĐể phòng hạn chót, tôi sẽ nộp sớm.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てしまう &#8211; Lỡ…, làm xong hết…",
+    "back": "全部食べてしまう。\n\nÝ nghĩa: 全部食べてしまう。",
+    "romaji": "te-shimau",
+    "example": "レポートを昨夜のうちに書き終えてしまいました。\nTôi đã viết xong báo cáo từ tối qua.\n\n財布を落としてしまって、警察に届けた。\nTôi lỡ làm rơi ví nên đã trình báo cảnh sát.\n\nまたゲームに夢中になって時間を忘れちゃった。\nLại mải chơi game nên quên mất thời gian.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ちゃった &#8211; Lỡ…, mất rồi (dạng thân mật của ～てしまった)",
+    "back": "Vちゃった\n\nÝ nghĩa: Hoàn tất; lỡ/tiếc nuối (khẩu ngữ)",
+    "romaji": "chatta",
+    "example": "宿題、もう終わっちゃった。\nBài tập tớ làm xong mất rồi.\n\nごめん、君のプリン食べちゃった。\nXin lỗi, tớ lỡ ăn mất cái pudding của cậu rồi.\n\n寝坊しちゃって、電車に乗り遅れた。\nLỡ ngủ quên nên lỡ chuyến tàu.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "い",
+    "back": "Aな + にする\n\nÝ nghĩa: Làm cho trở nên…, biến thành…",
+    "romaji": "adj-ku-suru-ni-suru",
+    "example": "部屋をきれい にした。\nTôi đã làm cho phòng sạch.\n\n音を大き くしてください。\nVui lòng tăng âm lượng lên.\n\nこのスープをもっと熱 くしてください。\nLàm ơn hâm nóng súp hơn nữa.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "い",
+    "back": "Aい → Aくなる\n\nÝ nghĩa: Trở nên…, trở thành… (một cách tự nhiên/không do tác động trực tiếp của con người)",
+    "romaji": "adj-ku-naru-ni-naru",
+    "example": "涼し くなってきた。\nTrời bắt đầu trở nên mát mẻ.\n\n日本語が上手 になりました。\nTiếng Nhật của tôi đã trở nên giỏi hơn.\n\n最近忙し くなった。\nDạo này tôi trở nên bận rộn.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～にする &#8211; Chọn…, quyết định…",
+    "back": "N + にする\n\nÝ nghĩa: Quyết định chọn…, lấy…",
+    "romaji": "ni-suru",
+    "example": "昼ご飯はカレー にする。\nBữa trưa tôi chọn cà ri.\n\nデザートはアイスクリーム にします。\nMón tráng miệng tôi chọn kem.\n\nこの赤い服 にします。\nTôi chọn cái váy màu đỏ này.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～になる &#8211; Trở thành…",
+    "back": "医者になる。\n\nÝ nghĩa: 医者になる。",
+    "romaji": "ni-naru",
+    "example": "春になると、暖かくなる。\nHễ đến mùa xuân thì trở nên ấm áp.\n\nこの道をまっすぐ行くと海になります。\nĐi thẳng đường này sẽ đến biển.\n\n合計で1000円になります。\nTổng cộng là 1000 yên ạ.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ようにする &#8211; Cố gắng…",
+    "back": "毎日運動するようにする。\n\nÝ nghĩa: 毎日運動するようにする。",
+    "romaji": "you-ni-suru",
+    "example": "寝る前にスマホを見ないようにしている。\nTôi cố không nhìn điện thoại trước khi ngủ.\n\n挨拶は自分からするようにすると、人間関係が良くなる。\nNếu cố chủ động chào hỏi thì quan hệ sẽ tốt lên.\n\n締め切りを守るようにしてください。\nVui lòng cố gắng tuân thủ hạn chót.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ようになる &#8211; Trở nên…, bắt đầu có thể…",
+    "back": "日本語が話せるようになる。\n\nÝ nghĩa: 日本語が話せるようになる。",
+    "romaji": "you-ni-naru",
+    "example": "日本の生活に慣れて、電車で寝られるようになった。\nQuen với cuộc sống Nhật nên tôi đã có thể ngủ trên tàu.\n\n毎日練習したら、ピアノが弾けるようになるよ。\nNếu luyện tập mỗi ngày thì sẽ chơi piano được đấy.\n\n子どもが野菜を食べるようになった。\nĐứa trẻ đã bắt đầu ăn rau.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "Vながら &#8211; Vừa… vừa…",
+    "back": "Vます (bỏ ます) + ながら\n\nÝ nghĩa: Vừa… vừa…, thực hiện đồng thời hai hành động",
+    "romaji": "nagara",
+    "example": "歩き ながらスマホを見てはいけません。\nKhông được vừa đi vừa nhìn điện thoại.\n\nテレビを見 ながらご飯を食べる。\nVừa xem TV vừa ăn cơm.\n\n音楽を聞き ながら宿題をするのが好きです。\nTôi thích vừa nghe nhạc vừa làm bài tập.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～にくい &#8211; Khó…",
+    "back": "読みにくい字だ。\n\nÝ nghĩa: 読みにくい字だ。",
+    "romaji": "nikui",
+    "example": "この字は小さすぎて読みにくい。\nChữ này quá nhỏ nên khó đọc.\n\nその靴は滑りにくいから山登りに向いている。\nĐôi giày đó ít trơn trượt nên hợp leo núi.\n\n彼には頼みにくい雰囲気がある。\nAnh ta có không khí khiến người khác khó nhờ vả.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～やすい &#8211; Dễ…",
+    "back": "読みやすい文章だ。\n\nÝ nghĩa: 読みやすい文章だ。",
+    "romaji": "yasui",
+    "example": "このフォントは読みやすい。\nPhông chữ này dễ đọc.\n\n新しいUIは直感的で使いやすい。\nGiao diện mới trực quan, dễ dùng.\n\nガラスは割れやすいので注意してください。\nKính dễ vỡ nên xin chú ý.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～方 &#8211; Cách…",
+    "back": "V-ます bỏ ます + 方（かた）\n\nÝ nghĩa: 使い方／書き方／読み方",
+    "romaji": "kata",
+    "example": "漢字の書き方を教えてください。\nXin chỉ cho tôi cách viết kanji.\n\nこのアプリの使い方が分かりますか。\nBạn hiểu cách dùng ứng dụng này không?\n\n空港への行き方を教えていただけますか。\nCho tôi hỏi đường đi đến sân bay.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "Nばかり &#8211; Toàn…, cứ…, đầy…",
+    "back": "N + ばかり\n\nÝ nghĩa: Toàn…, chỉ toàn…, lúc nào cũng…",
+    "romaji": "bakari-n4",
+    "example": "あの人は文句 ばかり言っている。\nNgười đó lúc nào cũng chỉ toàn than phiền.\n\n子どもはゲーム ばかりして、勉強しない。\nBọn trẻ chỉ toàn chơi game, không chịu học.\n\n今日は雨 ばかり降っている。\nHôm nay chỉ toàn mưa.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ずつ &#8211; Mỗi…, từng…",
+    "back": "数＋助数詞＋ずつ\n\nÝ nghĩa: Mỗi…, chia đều theo đơn vị",
+    "romaji": "zutsu",
+    "example": "子どもたちにキャンディーを二つずつ配った。\nPhát cho bọn trẻ mỗi đứa hai viên kẹo.\n\n順番に一人ずつ面接室に入ってください。\nXin mời vào phòng phỏng vấn mỗi lần một người theo thứ tự.\n\n毎日、漢字を十個ずつ覚えている。\nMỗi ngày tôi học thuộc mười chữ Hán.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～は～ほど～ありません &#8211; Không… bằng…",
+    "back": "東京は大阪ほど暑くありません\n\nÝ nghĩa: 東京は大阪ほど暑くありません",
+    "romaji": "wa-hodo-arimasen",
+    "example": "私は兄ほど背が高くありません。\nTôi không cao bằng anh trai.\n\n日本語は英語ほど発音が難しくない。\nTiếng Nhật phát âm không khó bằng tiếng Anh.\n\n今年は去年ほど雪が降りません。\nNăm nay tuyết rơi không nhiều bằng năm ngoái.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～すぎる &#8211; Quá…",
+    "back": "V-ます bỏ ます ＋ すぎる\n\nÝ nghĩa: 食べすぎる／残業しすぎる",
+    "romaji": "sugiru",
+    "example": "この部屋は暑すぎる。\nPhòng này nóng quá.\n\n寝すぎて、頭が痛い。\nNgủ quá nên đau đầu.\n\nその説明は専門的すぎて、理解しにくい。\nGiải thích đó chuyên môn quá nên khó hiểu.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～しかない &#8211; Không còn cách nào ngoài…",
+    "back": "Danh từ + しか + ない\n\nÝ nghĩa: Chỉ có … (không còn gì khác)",
+    "romaji": "shika-nai-1",
+    "example": "現金は千円しかない。\nTiền mặt thì chỉ có 1.000 yên.\n\n会場には学生しかいない。\nỞ hội trường chỉ có sinh viên.\n\n電車が止まっているから、歩くしかない。\nTàu dừng nên đành phải đi bộ.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～だけしか～ない &#8211; Chỉ… mà thôi / ngoài ra không…",
+    "back": "お金だけしか持っていない。\n\nÝ nghĩa: お金だけしか持っていない。",
+    "romaji": "dake-shika-nai",
+    "example": "私は日本語だけしか話せない。\nTôi chỉ nói được tiếng Nhật (ngoài ra không nói được ngôn ngữ khác).\n\nここには水だけしかありません。\nỞ đây chỉ có nước.\n\nこの町にはバスだけしか走っていない。\nỞ thị trấn này chỉ có xe buýt chạy.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～しか～ない &#8211; Chỉ… / Không có ngoài…",
+    "back": "水しか飲まない\n\nÝ nghĩa: 水しか飲まない",
+    "romaji": "shika-nai-2",
+    "example": "お金が100円しか残っていない。\nChỉ còn 100 yên.\n\nここでしか買えない限定商品だ。\nLà sản phẩm giới hạn chỉ mua được ở đây.\n\n今日は時間がないから、コンビニでしか食べられない。\nHôm nay không có thời gian nên chỉ có thể ăn ở cửa hàng tiện lợi.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ないといけない &#8211; Phải…",
+    "back": "早く寝ないといけない\n\nÝ nghĩa: 早く寝ないといけない",
+    "romaji": "nai-to-ikenai",
+    "example": "明日までに報告書を出さないといけない。\nTôi phải nộp báo cáo trước ngày mai.\n\n健康のために運動しないといけません。\nVì sức khỏe nên phải tập thể dục.\n\n電車がないから、早く帰らないといけない。\nVì hết tàu nên phải về sớm.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～なきゃいけない &#8211; Phải… (nói tự nhiên)",
+    "back": "急がなきゃいけない\n\nÝ nghĩa: 急がなきゃいけない",
+    "romaji": "nakya-ikenai",
+    "example": "そろそろ寝なきゃいけない。\nĐến giờ phải ngủ rồi.\n\n締め切りだから急がなきゃ。\nSắp đến hạn nên phải nhanh thôi. (lược đuôi)\n\n明日、早く起きなきゃいけないんだ。\nNgày mai mình phải dậy sớm.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～なくちゃいけない &#8211; Phải… (thân mật)",
+    "back": "行かない → 行かなくちゃいけない\n\nÝ nghĩa: 行かない → 行かなくちゃいけない",
+    "romaji": "nakucha-ikenai",
+    "example": "明日早く起きなくちゃいけない。\nTôi phải dậy sớm vào ngày mai.\n\n締め切りまでに提出しなくちゃいけない。\nPhải nộp trước hạn.\n\nここは静かでなくちゃいけないから、電話は外でして。\nỞ đây phải yên tĩnh nên gọi điện ra ngoài nhé.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～なくてはいけない &#8211; Phải… (lịch sự)",
+    "back": "申請しなくてはいけない\n\nÝ nghĩa: 申請しなくてはいけない",
+    "romaji": "nakute-wa-ikenai",
+    "example": "この書類は今週中に提出しなくてはいけない。\nTài liệu này phải nộp trong tuần.\n\n入場するには会員でなくてはいけません。\nMuốn vào thì phải là hội viên.\n\n製品は安全でなくてはいけない。\nSản phẩm phải an toàn.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～なければならない &#8211; Phải… (bắt buộc mạnh)",
+    "back": "報告しなければならない\n\nÝ nghĩa: 報告しなければならない",
+    "romaji": "nakereba-naranai",
+    "example": "労働法を遵守しなければならない。\nPhải tuân thủ luật lao động.\n\n応募書類は日本語でなければならない。\nHồ sơ ứng tuyển phải bằng tiếng Nhật.\n\n安全基準は常に満たされなければならない。\nTiêu chuẩn an toàn phải luôn được đáp ứng.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ないほうがいい &#8211; Không nên…",
+    "back": "夜更かししないほうがいい。\n\nÝ nghĩa: 夜更かししないほうがいい。",
+    "romaji": "nai-hou-ga-ii",
+    "example": "今日は無理をしないほうがいいよ。\nHôm nay cậu không nên gắng quá.\n\nその話は部長には言わないほうがいい。\nChuyện đó không nên nói với trưởng phòng.\n\n夜は一人で出歩かないほうがいいです。\nBan đêm không nên đi lang thang một mình.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～なくてもいい &#8211; Không cần…",
+    "back": "行かない → 行かなくてもいい\n\nÝ nghĩa: 行かない → 行かなくてもいい",
+    "romaji": "nakutemo-ii",
+    "example": "心配しなくてもいいよ。\nKhông cần lo đâu.\n\n今日は無理に来なくてもいいです。\nHôm nay không cần phải cố đến đâu ạ.\n\nこのイベントは会員でなくてもいい。\nSự kiện này không cần là hội viên cũng được.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てはいけない &#8211; Không được…",
+    "back": "ここでタバコを吸ってはいけません。\n\nÝ nghĩa: ここでタバコを吸ってはいけません。",
+    "romaji": "te-wa-ikenai",
+    "example": "ここで写真を撮ってはいけません。\nKhông được chụp ảnh ở đây.\n\n人をからかってはいけない。\nKhông được trêu chọc người khác.\n\n約束は破ってはならない。\nKhông được phá vỡ lời hứa.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～たほうがいい &#8211; Nên…",
+    "back": "V-た + ほうがいい\n\nÝ nghĩa: Nên làm V",
+    "romaji": "ta-hou-ga-ii",
+    "example": "頭が痛いなら、今日は早く寝たほうがいいよ。\nNếu đau đầu thì hôm nay nên ngủ sớm.\n\nその件は、上司に相談したほうがいいと思う。\nViệc đó tôi nghĩ là nên bàn với sếp.\n\n無理して働かないほうがいいです。\nKhông nên gắng sức làm việc.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ために &#8211; Vì…, để…",
+    "back": "V-る + ために\n\nÝ nghĩa: Để làm V (chủ ngữ có chủ ý)",
+    "romaji": "tame-ni",
+    "example": "日本に留学するために、日本語を勉強している。\nTôi đang học tiếng Nhật để du học Nhật.\n\n健康のために、毎朝30分歩いています。\nVì sức khỏe, mỗi sáng tôi đi bộ 30 phút.\n\n事故のため、電車が遅れています。\nDo tai nạn, tàu đang bị trễ.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "Vように &#8211; Để…, nhằm…",
+    "back": "Vる / Vない + ようにしてください\n\nÝ nghĩa: Hãy… / Xin hãy…",
+    "romaji": "you-ni",
+    "example": "彼に会え るように、祈っています。\nTôi cầu mong là có thể gặp được anh ấy.\n\n忘れ ないようにメモしてください。\nGhi chú lại để khỏi quên nhé.\n\n遅れ ないように気をつけてください。\nHãy chú ý để không bị trễ.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ので &#8211; Vì… nên…",
+    "back": "雨が降るので／雨が降ったので\n\nÝ nghĩa: 雨が降るので／雨が降ったので",
+    "romaji": "node",
+    "example": "雨が降っているので、出かけません。\nVì trời đang mưa nên tôi không ra ngoài.\n\nここは静かなので、勉強しやすいです。\nVì ở đây yên tĩnh nên dễ học.\n\n子どもなので、わがままを言うこともあります。\nVì là trẻ con nên đôi khi cũng ích kỷ.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～のです &#8211; Là vì…, đấy là…",
+    "back": "行くのです／行ったのです\n\nÝ nghĩa: 行くのです／行ったのです",
+    "romaji": "no-desu",
+    "example": "道が混んでいたのです。\nĐường bị tắc đấy (lý do là vậy).\n\nどうして来なかったんですか。\nTại sao bạn đã không đến vậy?\n\n実は、明日国へ帰るんです。\nThực ra, mai tôi về nước.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～んです &#8211; Là…, đấy là… (giải thích)",
+    "back": "V（普通形）+ んです\n\nÝ nghĩa: Đưa lý do/giải thích.",
+    "romaji": "n-desu",
+    "example": "どうしたんですか。\nCó chuyện gì vậy (vì sao)?\n\n遅れたんです。電車が止まっていたんです。\nTôi đến muộn. Vì tàu dừng chạy.\n\n実は、明日引っ越すんです。\nThật ra ngày mai tôi chuyển nhà.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "文～。それで文～。 &#8211; Và vì thế…, do đó…",
+    "back": "文。それで、文。\n\nÝ nghĩa: vì thế/do đó",
+    "romaji": "sorede",
+    "example": "雨が降っていた。それで、試合は中止になった。\nTrời mưa. Vì thế, trận đấu bị hủy.\n\n頭が痛かった。それで、早退した。\nĐầu tôi đau. Vì vậy tôi xin về sớm.\n\nプリンターが壊れた。それで、新しいのを買った。\nMáy in hỏng. Thế là tôi mua cái mới.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～つもり &#8211; Dự định…",
+    "back": "V-る + つもりだ\n\nÝ nghĩa: Dự định/sẽ làm V",
+    "romaji": "tsumori",
+    "example": "週末は家でゆっくり過ごすつもりだ。\nCuối tuần tôi định ở nhà thư giãn.\n\n今年は無駄遣いをしないつもりです。\nNăm nay tôi dự định không tiêu xài lãng phí.\n\n片付けたつもりだったが、まだ散らかっている。\nTưởng là đã dọn rồi mà vẫn bừa bộn.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ようと思う &#8211; Định…",
+    "back": "帰ろうと思う。\n\nÝ nghĩa: 帰ろうと思う。",
+    "romaji": "you-to-omou",
+    "example": "今日は早く帰ろうと思う。\nTôi nghĩ là hôm nay sẽ về sớm.\n\n来年、日本へ留学しようと思っています。\nTôi định sang Nhật du học năm tới (ý định đã có từ trước).\n\n喧嘩はやめて、話し合うことにしようと思う。\nTôi nghĩ là thôi cãi nhau, quyết định nói chuyện với nhau.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～と思う &#8211; Nghĩ là…",
+    "back": "明日は雨だと思う\n\nÝ nghĩa: 明日は雨だと思う",
+    "romaji": "to-omou",
+    "example": "この案が一番現実的だと思います。\nTôi nghĩ phương án này thực tế nhất.\n\n明日は雨だと思う。傘を持っていこう。\nTôi nghĩ mai trời mưa. Mang ô thôi.\n\n彼は真面目だと思わない。\nTôi không cho rằng anh ấy nghiêm túc.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ますように &#8211; Mong rằng…, cầu mong…",
+    "back": "V-ます + ように\n\nÝ nghĩa: Tôi hy vọng/s cầu mong…",
+    "romaji": "masu-you-ni",
+    "example": "明日、いい結果が出ますように。\nMong ngày mai sẽ có kết quả tốt.\n\nどうか手術が無事に終わりますように。\nXin mong ca phẫu thuật kết thúc suôn sẻ.\n\n雨が降りませんように。\nMong là trời không mưa.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～たらいい &#8211; Nếu… thì tốt",
+    "back": "Vた + らいい（です）\n\nÝ nghĩa: Nên/… thì tốt",
+    "romaji": "tara-ii",
+    "example": "疲れているなら、少し休んだらいいですよ。\nNếu mệt thì nghỉ một chút là tốt đấy.\n\n日本で働けたらいいな。\nƯớc gì có thể làm việc ở Nhật.\n\nこの問題はどうしたらいいですか。\nVấn đề này tôi nên làm thế nào?",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～といい &#8211; Nếu… thì tốt",
+    "back": "雨が降らないといいですね。早く終わるといいんですが。\n\nÝ nghĩa: Mong ước/hi vọng",
+    "romaji": "to-ii",
+    "example": "試験、うまくいくといいですね。\nHy vọng kỳ thi suôn sẻ nhỉ.\n\n忘れ物が見つかるといいんですが。\nMong là sẽ tìm thấy đồ thất lạc.\n\n時間があるといいね、映画に行こう。\nMong là có thời gian, đi xem phim nào.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ばいい &#8211; Nếu… thì tốt / nên…",
+    "back": "行けばいい／読めばいい\n\nÝ nghĩa: “nên/… là được” (điều kiện đủ)",
+    "romaji": "ba-ii",
+    "example": "どうすればいいですか。\nTôi nên làm thế nào?\n\n迷ったら、先生に聞けばいい。\nNếu bối rối thì hỏi thầy là được.\n\nそんなに心配しなければいい。\nKhông cần lo lắng đến thế đâu.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てほしい &#8211; Muốn (ai đó) làm…",
+    "back": "君に連絡してほしい。\n\nÝ nghĩa: 君に連絡してほしい。",
+    "romaji": "te-hoshii",
+    "example": "静かにしてほしい。\nTôi muốn mọi người giữ yên lặng.\n\nこの提案について意見を聞かせてほしい。\nTôi muốn nghe ý kiến về đề xuất này.\n\nそんな言い方はしないでほしい。\nMong bạn đừng nói theo cách đó.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ることにする &#8211; Quyết định…",
+    "back": "毎朝走ることにする\n\nÝ nghĩa: 毎朝走ることにする",
+    "romaji": "ru-koto-ni-suru",
+    "example": "今年から毎日英語を勉強することにする。\nTừ năm nay tôi quyết định học tiếng Anh mỗi ngày.\n\n健康のため、酒を飲まないことにした。\nVì sức khỏe, tôi đã quyết định không uống rượu.\n\n節約のため、外食は週一回にすることにしている。\nĐể tiết kiệm, tôi tự đặt quy tắc ăn ngoài mỗi tuần một lần.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ることになる &#8211; Thành ra sẽ…",
+    "back": "来月から大阪に転勤することになった\n\nÝ nghĩa: 来月から大阪に転勤することになった",
+    "romaji": "ru-koto-ni-naru",
+    "example": "諸事情により、イベントは延期することになりました。\nDo nhiều lý do, sự kiện đã được quyết định hoãn.\n\n私は来月から大阪に転勤することになった。\nTôi sẽ thuyên chuyển về Osaka từ tháng sau (do công ty quyết).\n\nこの学校では、教室での飲食は禁止ということになっている。\nỞ trường này, việc ăn uống trong lớp bị cấm theo quy định.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ないことにする &#8211; Quyết định không…",
+    "back": "甘い物は食べないことにする\n\nÝ nghĩa: Quyết định từ nay sẽ không…",
+    "romaji": "nai-koto-ni-suru",
+    "example": "健康のために、夜9時以降は食べないことにする。\nVì sức khỏe, tôi quyết định sau 9 giờ tối sẽ không ăn.\n\nお金を貯めたいので、外食はしないことにした。\nTôi đã quyết định không ăn ngoài để tiết kiệm.\n\n今月は無駄遣いをしないことにしている。\nTháng này tôi đang tự đặt quy tắc không tiêu xài hoang phí.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ないことになる &#8211; Thành ra không…",
+    "back": "来週は出張に行かないことになる\n\nÝ nghĩa: Kết cục/được quyết là sẽ không…",
+    "romaji": "nai-koto-ni-naru",
+    "example": "天候不良のため、遠足には行かないことになりました。\nDo thời tiết xấu, đã quyết định không đi dã ngoại.\n\n人事異動で、来月は大阪へは行かないことになった。\nVì điều chuyển nhân sự, tháng sau tôi hóa ra sẽ không đi Osaka.\n\n予算が削減されたので、海外出張はしないことになった。\nDo cắt giảm ngân sách, đã được quyết là không đi công tác nước ngoài.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～こと &#8211; Việc… / chuyện… (danh từ hóa)",
+    "back": "日本語を学ぶこと／雨が降ったこと\n\nÝ nghĩa: 日本語を学ぶこと／雨が降ったこと",
+    "romaji": "koto",
+    "example": "早寝早起きすることは健康にいい。\nĐi ngủ sớm dậy sớm là tốt cho sức khỏe.\n\nここではタバコを吸わないこと。\nỞ đây không được hút thuốc.\n\n大切なことは、続けることだ。\nĐiều quan trọng là tiếp tục.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てくださいませんか &#8211; Xin vui lòng…?",
+    "back": "見てくださいませんか\n\nÝ nghĩa: 見てくださいませんか",
+    "romaji": "te-kudasaimasenka",
+    "example": "この書類を確認してくださいませんか。\nNgài có thể vui lòng kiểm tra tài liệu này được không ạ?\n\nもう一度ご説明くださいませんか。\nXin vui lòng giải thích lại một lần nữa ạ.\n\n恐れ入りますが、明日までにご返信くださいませんか。\nThật xin lỗi, nhưng xin vui lòng phản hồi trước ngày mai ạ.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ていただけませんか &#8211; Có thể vui lòng…? (lịch sự)",
+    "back": "ゆっくり話していただけませんか。\n\nÝ nghĩa: ゆっくり話していただけませんか。",
+    "romaji": "te-itadakemasenka",
+    "example": "もう一度ゆっくり話していただけませんか。\nAnh/chị có thể nói chậm lại một lần nữa được không ạ?\n\nこちらにお名前をご記入いただけませんか。\nXin vui lòng điền tên vào đây ạ.\n\nお手数ですが、資料をメールで送っていただけませんか。\nPhiền anh/chị gửi tài liệu qua email giúp tôi được không ạ.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てもらえませんか &#8211; Nhờ giúp được không?",
+    "back": "ここを説明してもらえませんか\n\nÝ nghĩa: ここを説明してもらえませんか",
+    "romaji": "te-moraemasenka",
+    "example": "すみませんが、この書類を確認してもらえませんか。\nXin lỗi, anh/chị có thể kiểm tra giúp tài liệu này không?\n\n恐れ入りますが、明日までにご連絡してもらえませんか。\nPhiền anh/chị liên lạc giúp trước ngày mai được không ạ?\n\n田中さんに会議で説明してもらえませんか。\nCó thể nhờ anh Tanaka trình bày ở cuộc họp không?",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てくれませんか &#8211; Có thể… cho tôi không?",
+    "back": "V-て + くれませんか\n\nÝ nghĩa: 手伝ってくれませんか",
+    "romaji": "te-kuremasenka",
+    "example": "すみません、この席を譲ってくれませんか。\nXin lỗi, anh/chị nhường chỗ này cho tôi được không?\n\n窓を開けてくれませんか。ちょっと暑いので。\nAnh/chị mở cửa sổ giúp được không? Hơi nóng quá.\n\nもう一度ゆっくり説明してくれませんか。\nAnh/chị giải thích lại chậm một chút được không?",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～なさい &#8211; Hãy… (mệnh lệnh nhẹ nhàng)",
+    "back": "早く寝なさい。\n\nÝ nghĩa: 早く寝なさい。",
+    "romaji": "nasai",
+    "example": "静かにしなさい。\nHãy trật tự.\n\nここに名前を書きなさい。\nHãy viết tên vào đây.\n\n危ないから手をつないで歩きなさい。\nNguy hiểm nên hãy nắm tay mà đi.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～たらどうですか &#8211; Nếu… thì sao? (gợi ý)",
+    "back": "病院に行ったらどうですか。\n\nÝ nghĩa: 病院に行ったらどうですか。",
+    "romaji": "tara-dou-desu-ka",
+    "example": "頭が痛いなら、今日は早く寝たらどうですか。\nNếu đau đầu thì hôm nay sao không ngủ sớm đi.\n\nわからないところは先生に聞いたらどう？\nPhần không hiểu thì hỏi thầy cô xem sao?\n\nその靴、もう捨てたらどう。穴が開いてるよ。\nĐôi giày đó vứt đi cho rồi. Thủng rồi kìa.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～たらいかがですか &#8211; Nếu… thì sao? (lịch sự)",
+    "back": "Vた + らいかがですか\n\nÝ nghĩa: Hay là… thì sao?",
+    "romaji": "tara-ikaga-desu-ka",
+    "example": "お体の調子が悪いなら、病院で診てもらったらいかがですか。\nNếu sức khỏe không tốt, anh/chị thử đi khám xem?\n\n道に迷ったなら、交番で聞いたらいかがですか。\nNếu lạc đường, thử hỏi ở đồn cảnh sát xem?\n\nこのプランで進めたらいかがでしょうか。\nChúng ta thử triển khai theo kế hoạch này chứ?",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てもいい &#8211; Được phép…",
+    "back": "ここに座ってもいいですか。\n\nÝ nghĩa: ここに座ってもいいですか。",
+    "romaji": "te-mo-ii",
+    "example": "窓を開けてもいいですか。\nTôi mở cửa sổ được chứ?\n\nここに荷物を置いてもいいですよ。\nĐể hành lý ở đây cũng được.\n\n返事は明日でもいいです。\nTrả lời để ngày mai cũng được.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ように言う &#8211; Nói để (ai) làm…",
+    "back": "子どもに早く寝るように言う。\n\nÝ nghĩa: Bảo/nhắc “hãy …”.",
+    "romaji": "you-ni-iu",
+    "example": "先生は学生に、毎日復習するように言った。\nThầy bảo học sinh ôn bài mỗi ngày.\n\n部長に、資料を明日までに提出するように言われました。\nTôi được trưởng phòng dặn nộp tài liệu trước ngày mai.\n\n子どもに、危ないから川に近づかないように言う。\nTôi dặn con không được lại gần sông vì nguy hiểm.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～をあげる &#8211; Cho (ai)",
+    "back": "私は友だちにプレゼントをあげる\n\nÝ nghĩa: 私は友だちにプレゼントをあげる",
+    "romaji": "ageru",
+    "example": "私は友だちに花をあげた。\nTôi tặng hoa cho bạn.\n\n父が近所の子に本をあげることにした。\nBố tôi quyết định tặng sách cho bọn trẻ hàng xóm.\n\n彼女は後輩にアドバイスをあげた。\nCô ấy cho lời khuyên cho đàn em.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てあげる &#8211; Làm cho (ai đó)",
+    "back": "私は友だちにV-てあげる\n\nÝ nghĩa: 私は友だちにV-てあげる",
+    "romaji": "te-ageru",
+    "example": "私が彼に日本語を教えてあげます。\nTôi sẽ dạy tiếng Nhật cho anh ấy.\n\n子どもに本を読んであげた。\nTôi đã đọc sách cho con.\n\n駅まで送ってあげようか。\nTôi chở ra ga nhé?",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～をさしあげる &#8211; Biếu, dâng (khiêm nhường cho người trên)",
+    "back": "私どもがお客様に試供品を差し上げます\n\nÝ nghĩa: 私どもがお客様に試供品を差し上げます",
+    "romaji": "sashiageru",
+    "example": "私が先生に花束を差し上げました。\nTôi đã kính tặng bó hoa cho thầy.\n\n後ほど改めてご連絡を差し上げます。\nChúng tôi sẽ liên hệ lại sau.\n\nお客様に粗品を差し上げております。\nChúng tôi đang tặng quà nhỏ cho khách.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てさしあげる &#8211; Làm cho (kính trọng)",
+    "back": "私が手伝ってさしあげます。\n\nÝ nghĩa: 私が手伝ってさしあげます。",
+    "romaji": "te-sashiageru",
+    "example": "荷物をこちらでお預かりしてさしあげます。\nChúng tôi sẽ nhận giữ hành lý cho quý khách.\n\n出口までご案内してさしあげます。\nTôi sẽ dẫn quý khách ra lối ra.\n\nよろしければ、資料をコピーしてさしあげましょうか。\nNếu được, tôi photo tài liệu cho nhé?",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～をくれる &#8211; Cho (mình)",
+    "back": "友だちが私に本をくれた\n\nÝ nghĩa: 友だちが私に本をくれた",
+    "romaji": "kureru",
+    "example": "友だちが私に手作りのクッキーをくれた。\nBạn đã tặng tôi bánh quy tự làm.\n\n父が弟に新しい自転車をくれた。\nBố đã mua tặng em trai tôi một chiếc xe đạp mới.\n\n先生が娘に絵本をくれた。\nThầy đã tặng sách tranh cho con gái tôi. (người nhận thuộc phe tôi)",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てくれる &#8211; (Ai) làm cho mình",
+    "back": "V-て + くれる\n\nÝ nghĩa: 手伝ってくれる",
+    "romaji": "te-kureru",
+    "example": "友だちが宿題を手伝ってくれた。\nBạn đã giúp tôi làm bài tập.\n\n先生が発音を直してくれました。\nThầy đã sửa phát âm cho tôi.\n\nこの本を貸してくれて、本当に助かった。\nNhờ bạn cho mượn cuốn sách này, tôi được giúp nhiều lắm.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～をくださる &#8211; Cho (người trên cho mình)",
+    "back": "部長が私に資料をくださった\n\nÝ nghĩa: 部長が私に資料をくださった",
+    "romaji": "kudasaru",
+    "example": "部長が私に最新の資料をくださいました。\nTrưởng phòng đã tặng cho tôi tài liệu mới nhất.\n\nお客様が温かいお言葉をくださった。\nKhách hàng đã dành cho (chúng tôi) những lời ấm áp.\n\n祖父が娘に絵本をくださった。\nÔng đã tặng sách tranh cho con gái (của tôi).",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～をいただく &#8211; Nhận (khiêm nhường)",
+    "back": "私は先生から本をいただいた\n\nÝ nghĩa: 私は先生から本をいただいた",
+    "romaji": "itadaku",
+    "example": "先生から参考書をいただきました。\nTôi đã nhận được sách tham khảo từ thầy.\n\n皆さまから温かいご支援をいただき、心より感謝申し上げます。\nXin chân thành cảm ơn vì đã nhận được sự hỗ trợ nồng ấm từ quý vị.\n\n先輩に貴重なご意見をいただいた。\nTôi nhận được ý kiến quý báu từ đàn anh.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ていただく &#8211; Được (ai) làm cho (khiêm nhường)",
+    "back": "先生に教えていただく\n\nÝ nghĩa: 先生に教えていただく",
+    "romaji": "te-itadaku",
+    "example": "先生に推薦状を書いていただいた。\nTôi đã được thầy viết thư giới thiệu.\n\n本日はご出席いただき、誠にありがとうございます。\nTrân trọng cảm ơn quý vị đã tham dự hôm nay.\n\nこの件、明日までにご連絡いただけますか。\nViệc này, xin vui lòng liên lạc trước ngày mai được không ạ?",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ていただきたい &#8211; Muốn được (ai) làm cho",
+    "back": "田中さんに確認していただきたい\n\nÝ nghĩa: 田中さんに確認していただきたい",
+    "romaji": "te-itadakitai",
+    "example": "至急、内容をご確認いただきたいです。\nKhẩn trương, mong anh/chị vui lòng kiểm tra nội dung.\n\n明日までにご返信いただきたいと存じます。\nTôi xin phép mong nhận được phản hồi trước ngày mai.\n\n会議には必ずお越しいただきたい。\nMong anh/chị nhất định đến dự họp.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "Nをもらう &#8211; Nhận",
+    "back": "N を もらう\n\nÝ nghĩa: Nhận…, được nhận… (từ ai đó)",
+    "romaji": "morau",
+    "example": "先生に本 をもらいました。\nTôi đã nhận sách từ thầy giáo.\n\n母から手紙 をもらった。\nTôi nhận được thư từ mẹ.\n\n誕生日に友だちにケーキ をもらった。\nSinh nhật tôi được bạn tặng bánh kem.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てもらう &#8211; Nhờ (ai) làm cho",
+    "back": "私は先生に直してもらう\n\nÝ nghĩa: 私は先生に直してもらう",
+    "romaji": "te-morau",
+    "example": "友だちに宿題を手伝ってもらった。\nĐược bạn giúp làm bài tập.\n\n日本人の同僚に発音をチェックしてもらうつもりだ。\nTôi định nhờ đồng nghiệp người Nhật kiểm tra phát âm.\n\n田中さんに駅まで送ってもらいました。\nTôi đã được anh Tanaka đưa đến ga.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～てもらいたい &#8211; Muốn (ai) làm cho",
+    "back": "上司に確認してもらいたい。\n\nÝ nghĩa: 上司に確認してもらいたい。",
+    "romaji": "te-moraitai",
+    "example": "この件、至急確認してもらいたいんですが。\nVụ này, tôi muốn nhờ xác nhận gấp.\n\n専門家に意見を聞いてもらいたい。\nTôi muốn nhờ chuyên gia cho ý kiến.\n\nもう少し具体的に説明してもらいたいです。\nTôi muốn được giải thích cụ thể hơn một chút.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～られる &#8211; Bị / được / có thể… (bị động, khả năng)",
+    "back": "読む→読まれる書く→書かれる食べる→食べられる\n\nÝ nghĩa: 読む→読まれる書く→書かれる食べる→食べられる",
+    "romaji": "rareru",
+    "example": "私は先生に褒められた。\nTôi được thầy khen.\n\n大雨に降られて、試合が中止になった。\nBị mưa lớn nên trận đấu bị hủy.\n\nこの辛さは食べられない。\nĐộ cay này tôi không thể ăn được.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～させる &#8211; Làm cho / bắt… làm…",
+    "back": "V(辞書形) → 〜させる\n\nÝ nghĩa: Nは/が Nに Vさせる",
+    "romaji": "saseru",
+    "example": "先生は学生にスピーチをさせた。\nThầy bắt/cho học sinh thuyết trình.\n\n部長は私を先に帰らせてくれた。\nTrưởng phòng cho tôi về trước.\n\n親は子どもに自分で決めさせるべきだ。\nCha mẹ nên để con tự quyết định.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～させられる &#8211; Bị bắt phải… (bị động sai khiến)",
+    "back": "読む\n\nÝ nghĩa: 読ませる",
+    "romaji": "saserareru",
+    "example": "子どものころ、嫌いな野菜を無理やり食べさせられた。\nHồi nhỏ tôi bị ép ăn rau không thích.\n\n上司に休日出勤を頼まれて、結局働かされることになった。\nBị sếp nhờ nên rốt cuộc bị bắt đi làm ngày nghỉ.\n\nこの映画は社会問題について考えさせられる。\nBộ phim này khiến ta phải suy nghĩ về các vấn đề xã hội.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ることができる &#8211; Có thể…",
+    "back": "日本語を話すことができる\n\nÝ nghĩa: 日本語を話すことができる",
+    "romaji": "ru-koto-ga-dekiru",
+    "example": "私は日本語を話すことができます。\nTôi có thể nói tiếng Nhật.\n\nここではWi‑Fiを無料で利用することができます。\nỞ đây có thể sử dụng Wi‑Fi miễn phí.\n\n事故のため、今日は運転することができません。\nVì tai nạn nên hôm nay không thể lái xe.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～させてください &#8211; Hãy để tôi…",
+    "back": "V-ない形の語幹 + せる／させる\n\nÝ nghĩa: ～させてください",
+    "romaji": "sasete-kudasai",
+    "example": "もう一度説明させてください。\nXin cho tôi giải thích thêm một lần nữa.\n\n少し休ませてください。\nXin cho tôi nghỉ một chút.\n\n先に帰らせてください。\nXin cho tôi về trước.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～とか～とか &#8211; Như… hay…, chẳng hạn như…",
+    "back": "京都とか大阪とか\n\nÝ nghĩa: 京都とか大阪とか",
+    "romaji": "toka-toka",
+    "example": "週末は映画を見るとかカフェに行くとかして過ごします。\nCuối tuần tôi dành thời gian xem phim, đi cà phê, v.v.\n\n旅行は京都とか大阪とかに行きたい。\nDu lịch thì tôi muốn đi Kyoto, Osaka chẳng hạn.\n\n嫌いな食べ物はピーマンとかレバーとかです。\nMón tôi ghét là ớt xanh, gan, v.v.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～たり～たり &#8211; Lúc thì… lúc thì…",
+    "back": "読んだり、見たり する\n\nÝ nghĩa: 読んだり、見たり する",
+    "romaji": "tari-tari",
+    "example": "休みの日は本を読んだり映画を見たりします。\nNgày nghỉ tôi đọc sách, xem phim các kiểu.\n\n雨が降ったりやんだりしている。\nMưa lúc rơi lúc tạnh.\n\n彼は嬉しかったり悲しかったりする人だ。\nAnh ấy lúc vui lúc buồn.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～し、～し &#8211; Vừa… vừa…, lại còn…",
+    "back": "V普通形＋し\n\nÝ nghĩa: 頑張るし、続けるし",
+    "romaji": "shi-shi",
+    "example": "このアプリは無料だし、使いやすいし、おすすめです。\nỨng dụng này miễn phí, dễ dùng, tôi khuyên dùng.\n\n駅に近いし、静かだし、ここに住みたい。\nVừa gần ga vừa yên tĩnh, tôi muốn sống ở đây.\n\n今日は雨だし、寒いし、家にいよう。\nHôm nay mưa, lại lạnh, ở nhà thôi.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～という～ &#8211; … gọi là …",
+    "back": "東京という都市\n\nÝ nghĩa: 東京という都市",
+    "romaji": "toiu",
+    "example": "これは抹茶という日本のお茶です。\nĐây là loại trà Nhật gọi là matcha.\n\n山田さんが結婚したというニュースを聞いた。\nTôi nghe tin là anh Yamada đã kết hôn.\n\n彼が来ないという噂は本当かな。\nKhông biết tin đồn “anh ấy không đến” có thật không.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～っていう &#8211; Gọi là…, nói là…",
+    "back": "「Câu」+ って（言う／聞いた）／Mệnh đề + って\n\nÝ nghĩa: 「行かない」って言った",
+    "romaji": "tteiu",
+    "example": "彼は「今日は無理」って言ってた。\nAnh ấy bảo “hôm nay không được”.\n\nこのアプリ、使いやすいっていう評判だよ。\nỨng dụng này có tiếng là dễ dùng đấy.\n\n田中っていう医者を知ってる？\nCó biết vị bác sĩ tên Tanaka không?",
+    "jlptLevel": 4
+  },
+  {
+    "front": "文～。そのうえ～。 &#8211; Hơn nữa…",
+    "back": "文。そのうえ、文。\n\nÝ nghĩa: thêm thông tin cùng chiều",
+    "romaji": "sonoue",
+    "example": "この店は安い。そのうえ、品質もいい。\nQuán này rẻ. Hơn nữa, chất lượng cũng tốt.\n\n彼は親切だ。そのうえ、仕事も早い。\nAnh ấy tốt bụng. Thêm vào đó, làm việc cũng nhanh.\n\n昨日は寒かった。そのうえ、風も強かった。\nHôm qua lạnh. Hơn nữa, gió cũng mạnh.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "文～。それに～。 &#8211; Thêm nữa…",
+    "back": "今日は寒い。それに、雨も降っている。\n\nÝ nghĩa: 今日は寒い。それに、雨も降っている。",
+    "romaji": "soreni",
+    "example": "この店は安い。それに、品質もいい。\nCửa hàng này rẻ. Thêm nữa, chất lượng cũng tốt.\n\n今日は忙しい。それに、会議も三つある。\nHôm nay bận. Ngoài ra còn có ba cuộc họp.\n\nこの本は読みやすい。それに、図が多くて理解しやすい。\nCuốn sách này dễ đọc. Hơn nữa, có nhiều hình nên dễ hiểu.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～かもしれない &#8211; Có thể…, không chừng…",
+    "back": "V（普通形）+ かもしれない\n\nÝ nghĩa: 遅れるかもしれない",
+    "romaji": "kamoshirenai",
+    "example": "明日は雪になるかもしれない。\nNgày mai có khi trời sẽ tuyết.\n\n彼はもう家に帰ったかもしれない。\nAnh ấy có thể đã về nhà rồi.\n\nこの問題は思ったより難しいかもしれない。\nBài này có lẽ khó hơn đã nghĩ.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～だろう &#8211; Có lẽ…",
+    "back": "V-る／V-た／V-ない + だろう\n\nÝ nghĩa: 行くだろう／来ないだろう",
+    "romaji": "darou",
+    "example": "明日は雪が降るだろう。\nNgày mai chắc sẽ có tuyết.\n\n彼はもう家に着いているだろう。\nAnh ấy chắc đã về tới nhà rồi.\n\nそんな計画はうまくいかないだろう。\nKế hoạch đó có lẽ sẽ không suôn sẻ.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～でしょう &#8211; Có lẽ…, đúng không?",
+    "back": "雨が降るでしょう。\n\nÝ nghĩa: 雨が降るでしょう。",
+    "romaji": "deshou",
+    "example": "午後から雨が降るでしょう。\nChiều nay có lẽ sẽ mưa.\n\nこの問題は難しいでしょうから、よく読んでください。\nBài này chắc khó nên hãy đọc kỹ.\n\n彼ももう知っているでしょう。\nAnh ấy chắc cũng biết rồi.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～かどうか &#8211; … hay không",
+    "back": "V（普通形）+ かどうか\n\nÝ nghĩa: 行くかどうか、合格したかどうか",
+    "romaji": "ka-douka",
+    "example": "明日彼が来るかどうか、まだわからない。\nVẫn chưa biết liệu ngày mai anh ấy có đến hay không.\n\nこの方法が本当に効果的かどうかを検証する。\nKiểm chứng liệu phương pháp này có hiệu quả hay không.\n\nそれが必要かどうかは状況による。\nViệc có cần hay không còn tùy tình huống.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～かしら &#8211; Không biết có phải… (nữ dùng)",
+    "back": "Động từ thường + かしら\n\nÝ nghĩa: 来るかしら、間に合うかしら",
+    "romaji": "kashira",
+    "example": "明日は雨かしら。\nKhông biết mai có mưa không nhỉ.\n\nこの服、彼に似合うかしら。\nBộ này không biết có hợp với anh ấy không.\n\n時間に間に合うかしら。\nKhông biết có kịp giờ không.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～かなあ &#8211; Không biết…, chắc là…",
+    "back": "V-普通形 + かなあ\n\nÝ nghĩa: 受かるかなあ",
+    "romaji": "kanaa",
+    "example": "明日、晴れるかなあ。\nKhông biết mai trời có nắng không nhỉ.\n\n彼、来てくれるかなあ。\nKhông biết anh ấy có đến không ta.\n\n日本語、もっと上手に話せるかなあ。\nKhông biết mình có nói tiếng Nhật giỏi hơn được không.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～そうだ &#8211; Có vẻ…, nghe nói…",
+    "back": "降りそうだ、落ちそうだ\n\nÝ nghĩa: Vます-stem + そうだ",
+    "romaji": "souda",
+    "example": "そのケーキはおいしそうだ。\nCái bánh đó trông có vẻ ngon.\n\n彼は今日は元気そうだ。\nHôm nay trông anh ấy có vẻ khỏe.\n\n今にも雨が降りそうだ。\nMưa sắp rơi đến nơi rồi.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～みたいだ &#8211; Giống như…, có vẻ…",
+    "back": "雨が降るみたいだ\n\nÝ nghĩa: 雨が降るみたいだ",
+    "romaji": "mitai-da",
+    "example": "彼は子どもみたいだ。\nAnh ấy như trẻ con vậy.\n\n空が暗くなってきた。雨が降るみたいだ。\nTrời tối dần. Hình như sắp mưa.\n\n彼女は今日忙しいみたいだ。\nCó vẻ hôm nay cô ấy bận.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ようだ &#8211; Có vẻ…, hình như…",
+    "back": "V（普通形）+ ようだ\n\nÝ nghĩa: 雨が降っているようだ。",
+    "romaji": "youda",
+    "example": "外は雨が降っているようだ。\nBên ngoài hình như đang mưa.\n\n田中さんは忙しいようだ。\nAnh Tanaka có vẻ bận.\n\n彼は日本人のようだ。\nAnh ấy trông giống người Nhật.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "そんな～ &#8211; Như vậy…, kiểu đó…",
+    "back": "そんな人、そんな話、そんな店\n\nÝ nghĩa: そんな + 名詞",
+    "romaji": "sonna",
+    "example": "そんな人は信じられない。\nNgười như thế thì không thể tin.\n\nそんなことを言うべきではない。\nKhông nên nói những điều như vậy.\n\nそんなはずがない。\nLàm gì có chuyện như thế.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "そんなに～ &#8211; Đến mức đó, như thế",
+    "back": "そんなに + 高い／上手に\n\nÝ nghĩa: Đến mức đó",
+    "romaji": "sonnani",
+    "example": "この問題はそんなに難しくないよ。\nBài này không khó đến mức đó đâu.\n\n君はそんなに彼が好きなの？\nCậu thích anh ấy đến vậy sao?\n\n今日はそんなに暑くないですね。\nHôm nay không nóng đến thế nhỉ.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "どういう～ &#8211; … như thế nào?",
+    "back": "どういう人／本／意味\n\nÝ nghĩa: どういう人／本／意味",
+    "romaji": "douiu",
+    "example": "どういう映画が好きですか。\nBạn thích phim kiểu gì?\n\nそれはどういう意味ですか。\nCái đó có nghĩa là gì?\n\n昨日の発言はどういうつもりですか。\nPhát ngôn hôm qua của anh là với ý định gì vậy?",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～？それとも～？ &#8211; …? Hay là …?",
+    "back": "コーヒーにしますか？それとも紅茶にしますか？\n\nÝ nghĩa: コーヒーにしますか？それとも紅茶にしますか？",
+    "romaji": "soretomo",
+    "example": "コーヒーにしますか？それとも紅茶にしますか？\nChọn cà phê hay là trà?\n\n今夜は家で食べますか、それとも外食しますか？\nTối nay ăn ở nhà hay ra ngoài ăn?\n\nこの案でいきますか、それとも別の案にしますか？\nTa theo phương án này hay chọn phương án khác?",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～ても/でも &#8211; Dù… cũng…",
+    "back": "何度聞いても分からない。\n\nÝ nghĩa: 何度聞いても分からない。",
+    "romaji": "temo-demo",
+    "example": "忙しくても運動する時間を作る。\nDù bận cũng dành thời gian vận động.\n\n説明を聞いてもまだ分からない。\nDù đã nghe giải thích vẫn chưa hiểu.\n\n雨でも試合を行います。\nDù trời mưa vẫn tiến hành trận đấu.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "～のに &#8211; Mặc dù…, thế mà…",
+    "back": "頑張ったのに／雨が降るのに\n\nÝ nghĩa: 頑張ったのに／雨が降るのに",
+    "romaji": "noni",
+    "example": "たくさん勉強したのに、合格できなかった。\nMặc dù đã học rất nhiều nhưng tôi vẫn không đỗ.\n\n雨なのに、傘を持ってこなかった。\nDù trời mưa mà tôi lại không mang ô.\n\n彼は日本人なのに、漢字が読めない。\nAnh ấy là người Nhật vậy mà không đọc được kanji.",
+    "jlptLevel": 4
+  },
+  {
+    "front": "Trợ từ は &#8211; Chủ đề của câu",
+    "back": "私は学生です。\n\nÝ nghĩa: 私は学生です。",
+    "romaji": "joshi-ha",
+    "example": "私はベトナム人です。\nTôi là người Việt Nam.\n\n日本は山が多い。\nNước Nhật có nhiều núi.\n\n今日は会議がない。\nHôm nay không có họp.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "Trợ từ も &#8211; Cũng, giống như",
+    "back": "私も行く。\n\nÝ nghĩa: 私も行く。",
+    "romaji": "joshi-mo",
+    "example": "私も参加します。\nTôi cũng tham gia.\n\n兄も弟もサッカーが好きだ。\nAnh cũng như em đều thích bóng đá.\n\n会議は1時間も延びた。\nCuộc họp kéo dài tận 1 tiếng.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "Trợ từ が &#8211; Chủ ngữ, đối tượng nhấn mạnh",
+    "back": "Danh từ + が\n\nÝ nghĩa: Xác định chủ ngữ, nhấn mạnh đối tượng, diễn tả trạng thái hoặc khả năng",
+    "romaji": "joshi-ga",
+    "example": "犬がいます。\nCó con chó.\n\nここに本があります。\nỞ đây có quyển sách.\n\n日本語がわかります。\nTôi hiểu tiếng Nhật.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "Trợ từ を &#8211; Tân ngữ, đối tượng hành động",
+    "back": "ドアを開ける。\n\nÝ nghĩa: Động từ tác động trực tiếp lên N.",
+    "romaji": "joshi-wo",
+    "example": "窓を閉める。\nĐóng cửa sổ.\n\n道を歩く。\nĐi bộ trên/men theo con đường.\n\n駅を出る。\nRa khỏi nhà ga.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "Trợ từ に &#8211; Nơi chốn, thời điểm, mục đích",
+    "back": "学校に行く\n\nÝ nghĩa: 学校に行く",
+    "romaji": "joshi-ni",
+    "example": "図書館に行きます。\nTôi đi đến thư viện.\n\n部屋に猫がいる。\nTrong phòng có con mèo.\n\n明日９時に会いましょう。\nNgày mai gặp lúc 9 giờ nhé.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "Trợ từ で &#8211; Nơi diễn ra hành động, phương tiện",
+    "back": "駅で待つ\n\nÝ nghĩa: 駅で待つ",
+    "romaji": "joshi-de",
+    "example": "公園で子どもたちが遊んでいる。\nTrẻ con đang chơi ở công viên.\n\n電車で会社へ行きます。\nTôi đi làm bằng tàu điện.\n\n日本語で自己紹介してください。\nHãy tự giới thiệu bằng tiếng Nhật.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "Trợ từ と &#8211; Và, cùng với, trích dẫn",
+    "back": "りんごとバナナ\n\nÝ nghĩa: りんごとバナナ",
+    "romaji": "joshi-to",
+    "example": "水と砂糖を混ぜる。\nTrộn nước và đường.\n\n彼と映画を見た。\nTôi xem phim với anh ấy.\n\n彼は「大丈夫」と言った。\nAnh ấy nói “Không sao”.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "Trợ từ の &#8211; Sở hữu, bổ nghĩa",
+    "back": "日本の文化 / 会社の方\n\nÝ nghĩa: “của, thuộc, về”; quan hệ danh từ - danh từ",
+    "romaji": "joshi-no",
+    "example": "日本の音楽が好きです。\nTôi thích nhạc Nhật.\n\n早く起きるのは健康にいい。\nViệc dậy sớm thì tốt cho sức khỏe.\n\n彼が来ないのを心配している。\nTôi lo việc anh ấy không đến.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～や～など～ &#8211; Liệt kê không đầy đủ",
+    "back": "パンや牛乳などを買う。\n\nÝ nghĩa: Như A, B, v.v…",
+    "romaji": "ya-nado",
+    "example": "朝ごはんにパンや卵などを食べる。\nĂn sáng những thứ như bánh mì, trứng, v.v.\n\n週末は読書やジョギングなどをして過ごす。\nCuối tuần tôi dành thời gian đọc sách, chạy bộ, v.v.\n\n動物園にはパンダやキリンなどがいる。\nỞ sở thú có gấu trúc, hươu cao cổ, v.v.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～から～まで &#8211; Từ… đến…",
+    "back": "駅から学校まで（歩く）\n\nÝ nghĩa: 駅から学校まで（歩く）",
+    "romaji": "kara-made",
+    "example": "東京から大阪まで新幹線で行きます。\nĐi từ Tokyo đến Osaka bằng shinkansen.\n\n会議は9時から11時までです。\nCuộc họp từ 9 giờ đến 11 giờ.\n\nここから駅までは歩いて10分くらいです。\nTừ đây đến ga đi bộ khoảng 10 phút.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～に～があります &#8211; Có (vật, địa điểm)",
+    "back": "[場所] に [物] が あります\n\nÝ nghĩa: 公園にベンチがあります",
+    "romaji": "ni-arimasu",
+    "example": "教室に学生がいます。\nTrong lớp có học sinh.\n\n冷蔵庫に水があります。\nTrong tủ lạnh có nước.\n\n公園に犬がいますか。— はい、います。\nCông viên có chó không? — Có.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～に行きます &#8211; Đi đến…",
+    "back": "Place + に/へ + 行きます\n\nÝ nghĩa: 学校へ行きます",
+    "romaji": "ni-ikimasu",
+    "example": "週末は京都へ行きます。\nCuối tuần tôi đi Kyoto.\n\n友だちと寿司を食べに行きます。\nTôi đi ăn sushi với bạn.\n\n新しい靴を買いにデパートへ行きました。\nTôi đã đi đến bách hóa để mua giày mới.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～に来ます &#8211; Đến (từ nơi khác)",
+    "back": "Place + に/へ + 来ます\n\nÝ nghĩa: 日本に来ます",
+    "romaji": "ni-kimasu",
+    "example": "友だちがうちに来ます。\nBạn tôi đến nhà tôi.\n\n図書館へ本を借りに来ました。\nTôi đã đến thư viện để mượn sách.\n\n日本へ留学しに来ました。\nTôi đã đến Nhật để du học.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～に帰ります &#8211; Trở về…",
+    "back": "N(địa điểm/nhà/quê) + に + 帰ります\n\nÝ nghĩa: 家に帰ります",
+    "romaji": "ni-kaerimasu",
+    "example": "毎日８時に家に帰ります。\nMỗi ngày tôi về nhà lúc 8 giờ.\n\n今週末、国に帰ります。\nCuối tuần này tôi sẽ về nước.\n\nお正月は実家に帰ります。\nTết Dương lịch tôi về nhà bố mẹ.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～に戻ります &#8211; Quay lại…",
+    "back": "N + に戻ります\n\nÝ nghĩa: Trở về / Quay lại (nơi, trạng thái, tình huống…)",
+    "romaji": "ni-modorimasu",
+    "example": "家に戻ります。\nTôi trở về nhà.\n\n会社に戻ります。\nTôi quay lại công ty.\n\n休みが終わって、また仕事に戻りました。\nKỳ nghỉ kết thúc và tôi lại quay về làm việc.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "い",
+    "back": "Gốc い → く + V\n\nÝ nghĩa: Trạng từ hóa i-tính từ",
+    "romaji": "i-adj-ku",
+    "example": "早く起きて、勉強する。\nDậy sớm rồi học.\n\n日本語を正しく使いましょう。\nHãy dùng tiếng Nhật cho đúng.\n\n天気が暖かくなってきた。\nThời tiết trở nên ấm dần.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "い",
+    "back": "Adjくない（です）\n\nÝ nghĩa: Adjくない（です）",
+    "romaji": "i-adj-kunai",
+    "example": "この店は高くないです。\nQuán này không đắt.\n\n今日はそんなに寒くない。\nHôm nay không lạnh đến thế.\n\nその考えはよくないと思います。\nTôi nghĩ ý tưởng đó không hay.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "い",
+    "back": "Adjくて、Mệnh đề 2\n\nÝ nghĩa: Adjくて、Mệnh đề 2",
+    "romaji": "i-adj-te",
+    "example": "このスマホは安くて便利だ。\nChiếc điện thoại này rẻ và tiện.\n\n部屋が明るくて気持ちがいい。\nPhòng sáng nên cảm giác dễ chịu.\n\n今日は忙しくて行けません。\nHôm nay bận nên không thể đi được.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "い",
+    "back": "N + を + Adjくします\n\nÝ nghĩa: N + を + Adjくします",
+    "romaji": "i-adj-kushimasu",
+    "example": "部屋を明るくします。\nTôi sẽ làm cho căn phòng sáng hơn.\n\n音を大きくしてください。\nXin hãy tăng âm lượng lên.\n\n価格をもう少し安くしてもらえますか。\nCó thể giảm giá thêm một chút được không?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "い",
+    "back": "い-Adj（bỏ い） + くなります\n\nÝ nghĩa: Trở nên… / Trở thành…",
+    "romaji": "i-adj-kunarimasu",
+    "example": "だんだん寒くなります。\nDần dần trời trở nên lạnh.\n\n日本語が上手くなりましたね。\nTiếng Nhật của bạn đã giỏi hơn rồi nhỉ.\n\n最近、忙しくなりました。\nDạo gần đây tôi bận hơn.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "な",
+    "back": "Adjに + 動詞\n\nÝ nghĩa: Adjに + 動詞",
+    "romaji": "na-adj-ni",
+    "example": "図書館では静かにしてください。\nTrong thư viện xin hãy giữ yên lặng.\n\n部屋をきれいにする。\nDọn cho phòng sạch.\n\n問題を簡単に説明します。\nTôi giải thích vấn đề một cách đơn giản.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "な",
+    "back": "Adjで、Mệnh đề 2\n\nÝ nghĩa: Adjで、Mệnh đề 2",
+    "romaji": "na-adj-de",
+    "example": "この部屋は静かで広い。\nCăn phòng này yên tĩnh và rộng.\n\n駅から遠くて、買い物に不便で困っています。\nVì xa ga nên bất tiện, tôi đang khổ sở.\n\n彼女は元気で明るい人だ。\nCô ấy khỏe khoắn và vui vẻ.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "な",
+    "back": "N（を）Aな + に + します\n\nÝ nghĩa: Làm/biến cho N trở thành A (chủ ý)",
+    "romaji": "na-adj-nishimasu",
+    "example": "部屋をきれいにします。\nTôi sẽ làm cho phòng sạch.\n\n会議室を静かにしてください。\nXin hãy làm cho phòng họp yên tĩnh.\n\n資料のデザインをシンプルにします。\nTôi sẽ làm thiết kế tài liệu thành đơn giản.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "な",
+    "back": "N（が/は）Aな + に + なります\n\nÝ nghĩa: Trở nên A (biến đổi trạng thái)",
+    "romaji": "na-adj-ninarimasu",
+    "example": "この町は夜静かになります。\nThị trấn này về đêm trở nên yên tĩnh.\n\n部屋がきれいになりました。\nCăn phòng đã trở nên sạch.\n\n来年大人になります。\nSang năm tôi sẽ trở thành người lớn.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "な",
+    "back": "N／な-Adj + じゃない（ではない）\n\nÝ nghĩa: Không phải là… / Không…",
+    "romaji": "na-adj-janai",
+    "example": "彼は先生じゃないです。\nAnh ấy không phải là giáo viên.\n\n今日は日曜日じゃないです。\nHôm nay không phải là Chủ nhật.\n\nここは静かじゃないです。\nNơi này không yên tĩnh.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～たいです &#8211; Muốn làm gì",
+    "back": "行きたいです・食べたいです\n\nÝ nghĩa: 行きたいです・食べたいです",
+    "romaji": "tai-desu",
+    "example": "日本へ行きたいです。\nTôi muốn đi Nhật.\n\n何が食べたいですか。\nBạn muốn ăn gì?\n\n今日は早く帰りたくないです。\nHôm nay tôi không muốn về sớm.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～がほしいです &#8211; Muốn có gì",
+    "back": "新しい靴がほしいです\n\nÝ nghĩa: Muốn có N (mong muốn vật)",
+    "romaji": "ga-hoshii-desu",
+    "example": "私は新しいカバンがほしいです。\nTôi muốn có một cái túi mới.\n\n今はお金より自由な時間がほしいです。\nHiện giờ tôi muốn thời gian rảnh hơn là tiền.\n\n誕生日に何がほしいですか。\nSinh nhật bạn muốn gì?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～ができます &#8211; Có thể làm gì",
+    "back": "日本語ができます\n\nÝ nghĩa: Có thể làm N/biết N",
+    "romaji": "ga-dekimasu",
+    "example": "私は日本語ができます。\nTôi có thể dùng tiếng Nhật.\n\nここでは写真を撮ることができません。\nỞ đây không thể chụp ảnh.\n\n駅前に新しいビルができました。\nMột tòa nhà mới đã được xây xong trước ga.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～にします &#8211; Quyết định chọn…",
+    "back": "N + にします\n\nÝ nghĩa: Chọn N",
+    "romaji": "ni-shimasu",
+    "example": "注文は何にしますか。— カレーにします。\nQuý khách dùng gì ạ? — Tôi chọn cà ri.\n\n会議は来週の火曜日にします。\nChúng ta ấn định cuộc họp vào thứ Ba tuần sau.\n\n部屋を明るくします。\nLàm cho phòng sáng lên.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～になります &#8211; Trở thành…",
+    "back": "先生になります\n\nÝ nghĩa: 先生になります",
+    "romaji": "ni-narimasu",
+    "example": "子どもは来年、小学生になります。\nCon tôi sang năm sẽ trở thành học sinh tiểu học.\n\n天気はだんだん暖かくなります。\nThời tiết dần dần trở nên ấm lên.\n\nこの掃除機で部屋がきれいになります。\nVới máy hút bụi này phòng sẽ trở nên sạch.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "V ること～ &#8211; Danh từ hóa động từ",
+    "back": "日本語を勉強すること\n\nÝ nghĩa: 日本語を勉強すること",
+    "romaji": "vru-koto",
+    "example": "日本語を勉強することは楽しいです。\nViệc học tiếng Nhật thì vui.\n\n音楽を聞くことが好きです。\nTôi thích việc nghe nhạc.\n\n趣味は本を読むことです。\nSở thích của tôi là đọc sách.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "V ることができます &#8211; Có thể (làm gì)",
+    "back": "泳ぐことができます\n\nÝ nghĩa: 泳ぐことができます",
+    "romaji": "vru-koto-ga-dekimasu",
+    "example": "私は泳ぐことができます。\nTôi có thể bơi.\n\nこの図書館で日本語の本を読むことができます。\nCó thể đọc sách tiếng Nhật ở thư viện này.\n\nここでは写真を撮ることができません。\nỞ đây không thể chụp ảnh.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "V るの～ &#8211; Danh từ hóa thân mật",
+    "back": "日本語を勉強するの\n\nÝ nghĩa: 日本語を勉強するの",
+    "romaji": "vru-no",
+    "example": "日本語を話すのが好きです。\nTôi thích nói tiếng Nhật.\n\n料理を作るのは楽しいです。\nNấu ăn thì vui.\n\n早く起きるのはちょっと苦手です。\nTôi hơi kém khoản dậy sớm.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～ましょう &#8211; Hãy cùng làm",
+    "back": "Vます (bỏ ます) + ましょう\n\nÝ nghĩa: Hãy cùng… / Chúng ta hãy… / Nào cùng…",
+    "romaji": "mashou",
+    "example": "一緒に映画を見ましょう。\nHãy cùng xem phim nhé.\n\n明日も頑張りましょう。\nNgày mai cùng cố gắng nhé.\n\n早く帰りましょう。\nHãy về sớm thôi nào.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "V ましょうか &#8211; Tôi làm nhé?",
+    "back": "行きましょうか / 手伝いましょうか\n\nÝ nghĩa: 行きましょうか / 手伝いましょうか",
+    "romaji": "mashouka",
+    "example": "ここで少し休みましょうか。\nChúng ta nghỉ một chút ở đây nhé?\n\n荷物を持ちましょうか。\nTôi mang hành lý giúp nhé?\n\n駅まで案内しましょうか。\nTôi dẫn bạn đến ga nhé?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "V ませんか &#8211; Cùng làm nhé?",
+    "back": "一緒に行きませんか\n\nÝ nghĩa: 一緒に行きませんか",
+    "romaji": "masenka",
+    "example": "一緒に映画を見ませんか。\nBạn xem phim cùng mình không?\n\nコーヒーを飲みませんか。\nBạn uống cà phê chứ?\n\n明日、図書館へ行きませんか。\nNgày mai đi thư viện nhé?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～て～ &#8211; Nối hai hành động",
+    "back": "Vて\n\nÝ nghĩa: Nối hai hay nhiều hành động / Mô tả trạng thái hoặc lý do",
+    "romaji": "v-te",
+    "example": "朝ご飯を食べて学校へ行きます。\nTôi ăn sáng rồi đi học.\n\nテレビを見て笑いました。\nTôi cười khi xem TV.\n\n先生にほめられてうれしいです。\nTôi vui vì được thầy khen.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～ています &#8211; Đang, thói quen",
+    "back": "Vて + いる／います\n\nÝ nghĩa: 今、食べています",
+    "romaji": "v-te-imasu",
+    "example": "今、昼ご飯を食べています。\nBây giờ tôi đang ăn trưa.\n\n彼は毎週末テニスをしています。\nAnh ấy chơi tennis mỗi cuối tuần.\n\n窓が開いています。\nCửa sổ đang mở (trạng thái).",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～てから～ &#8211; Sau khi…",
+    "back": "宿題をしてから、遊ぶ\n\nÝ nghĩa: Sau khi V1 xong thì V2",
+    "romaji": "v-te-kara",
+    "example": "朝ご飯を食べてから、会社に行きます。\nTôi đi làm sau khi ăn sáng.\n\n日本に来てから、寿司が好きになりました。\nTừ khi đến Nhật, tôi bắt đầu thích sushi.\n\n仕事が終わってから、電話します。\nTôi sẽ gọi điện sau khi xong việc.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～てください &#8211; Hãy làm…",
+    "back": "Vて + ください\n\nÝ nghĩa: 座ってください",
+    "romaji": "v-te-kudasai",
+    "example": "こちらに名前を書いてください。\nXin vui lòng ghi tên vào đây.\n\nゆっくり話してください。\nXin hãy nói chậm.\n\n写真を撮らないでください。\nXin đừng chụp ảnh.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～ないでください &#8211; Xin đừng…",
+    "back": "Vないでください\n\nÝ nghĩa: Xin vui lòng đừng… / Vui lòng không…",
+    "romaji": "naide-kudasai",
+    "example": "ここに入らないでください。\nXin vui lòng đừng vào đây.\n\nこのボタンを押さないでください。\nXin đừng nhấn nút này.\n\n私の話を途中で止めないでください。\nXin đừng ngắt lời tôi giữa chừng.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～が、～ &#8211; Nhưng mà…",
+    "back": "～が、～\n\nÝ nghĩa: 安いが、便利です。",
+    "romaji": "ga-but-however",
+    "example": "この店は小さいが、とても有名です。\nQuán này nhỏ nhưng rất nổi tiếng.\n\n日本語は難しいが、面白いです。\nTiếng Nhật khó nhưng thú vị.\n\n安いが、品質はいいです。\nRẻ nhưng chất lượng tốt.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～けど、～ &#8211; Tuy… nhưng…",
+    "back": "行くけど、あとで。\n\nÝ nghĩa: 行くけど、あとで。",
+    "romaji": "kedo",
+    "example": "雨だけど、出かけます。\nMưa nhưng tôi vẫn ra ngoài.\n\n日本語は難しいけど、面白いです。\nTiếng Nhật khó nhưng thú vị.\n\nすみませんですけど、もう一度お願いします。\nXin lỗi nhưng vui lòng nói lại lần nữa.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～けれど、～ &#8211; Dù… nhưng…",
+    "back": "V普通形＋けれど（も）/けど\n\nÝ nghĩa: 行くけれど、…／行ったけど…",
+    "romaji": "keredo",
+    "example": "疲れているけれど、もう少し頑張る。\nDù mệt nhưng tôi cố thêm chút nữa.\n\n日本は物価が高いけど、安全だ。\nNhật Bản giá cả cao nhưng an toàn.\n\nすみません、今日は無理なんですけど…。\nXin lỗi, hôm nay thì không được rồi…",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～。けれども、～ &#8211; Tuy nhiên…",
+    "back": "行きたい。けれども、時間がない。\n\nÝ nghĩa: 行きたい。けれども、時間がない。",
+    "romaji": "keredomo",
+    "example": "この靴はデザインがいい。けれども、少し高い。\nĐôi giày này thiết kế đẹp. Nhưng hơi đắt.\n\n行きたい。けれども、仕事がある。\nTôi muốn đi. Nhưng có việc.\n\n雨が降っている。けれども、試合は続ける。\nTrời mưa. Tuy vậy, trận đấu vẫn tiếp tục.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～。しかし、～ &#8211; Tuy nhiên…",
+    "back": "賛成だ。しかし、課題も残る。\n\nÝ nghĩa: 賛成だ。しかし、課題も残る。",
+    "romaji": "shikashi",
+    "example": "計画は順調だ。しかし、油断はできない。\nKế hoạch suôn sẻ. Tuy nhiên, không được lơ là.\n\n値段は高い。しかし、品質は抜群だ。\nGiá cao. Tuy nhiên, chất lượng xuất sắc.\n\nデータは増えた。しかし、精度は改善されていない。\nDữ liệu tăng. Tuy nhiên, độ chính xác chưa cải thiện.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～。でも、～ &#8211; Nhưng mà…",
+    "back": "行きたい。でも、時間がない。\n\nÝ nghĩa: 行きたい。でも、時間がない。",
+    "romaji": "demo",
+    "example": "日本語は難しい。でも、面白い。\nTiếng Nhật khó. Nhưng thú vị.\n\n行きたい。でも、時間がない。\nTôi muốn đi. Nhưng không có thời gian.\n\n彼は優しい。でも、時々厳しい。\nAnh ấy hiền. Nhưng đôi khi nghiêm khắc.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "だから、～ &#8211; Vì vậy…",
+    "back": "S1。だから、S2。\n\nÝ nghĩa: 寒いです。だから、外に出ません。",
+    "romaji": "dakara",
+    "example": "時間がありません。だから、今日は無理です。\nKhông có thời gian. Vì vậy hôm nay không được.\n\n危ないです。ですから、近づかないでください。\nNguy hiểm. Cho nên xin đừng lại gần.\n\n勉強が好きです。だから、よく図書館に行きます。\nThích học. Vì vậy hay đến thư viện.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "そして、～ &#8211; Và rồi…",
+    "back": "そして + Mệnh đề\n\nÝ nghĩa: Và / Hơn nữa / Sau đó",
+    "romaji": "soshite",
+    "example": "私は大学生です。そしてアルバイトもしています。\nTôi là sinh viên. Và tôi cũng làm thêm nữa.\n\n朝、起きました。そしてシャワーを浴びました。\nBuổi sáng tôi thức dậy. Sau đó tắm.\n\n日本の食べ物はおいしいです。そして健康にもいいです。\nĐồ ăn Nhật ngon và tốt cho sức khỏe.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "それから、～ &#8211; Sau đó…",
+    "back": "勉強した。それから、映画を見た。\n\nÝ nghĩa: 勉強した。それから、映画を見た。",
+    "romaji": "sorekara",
+    "example": "朝ごはんを食べました。それから、学校へ行きました。\nTôi ăn sáng. Sau đó, đến trường.\n\n宿題をして、それから、テレビを見ます。\nLàm bài tập rồi sau đó xem TV.\n\nパスポートを取って、それから空港へ行きます。\nLấy hộ chiếu, rồi đi ra sân bay.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～。では、～ &#8211; Vậy thì…",
+    "back": "ご質問がなければ、では、終わります。\n\nÝ nghĩa: ご質問がなければ、では、終わります。",
+    "romaji": "dewa",
+    "example": "会議を開始します。では、最初の議題です。\nChúng ta bắt đầu họp. Vậy thì đến nghị trình đầu tiên.\n\nここまで準備できました。では、実験を始めます。\nChuẩn bị đến đây là xong. Vậy thì bắt đầu thí nghiệm.\n\nそれは確認済みです。では、次の点に移りましょう。\nĐiều đó đã xác nhận xong. Vậy thì chuyển sang điểm tiếp theo.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～。それでは、～ &#8211; Vậy thì…",
+    "back": "以上です。それでは、質疑応答に移ります。\n\nÝ nghĩa: 以上です。それでは、質疑応答に移ります。",
+    "romaji": "soredewa",
+    "example": "時間になりました。それでは、始めます。\nĐến giờ rồi. Vậy thì chúng ta bắt đầu.\n\nご清聴ありがとうございました。それでは、失礼いたします。\nXin cảm ơn đã lắng nghe. Vậy thì tôi xin phép.\n\n以上で説明を終わります。それでは、質疑応答に移ります。\nPhần giải thích đến đây là hết. Vậy thì chuyển sang hỏi đáp.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～。それじゃ、～ &#8211; Thế thì…",
+    "back": "締切は今日まで？ それじゃ、今すぐ送ります。\n\nÝ nghĩa: 締切は今日まで？ それじゃ、今すぐ送ります。",
+    "romaji": "soreja",
+    "example": "明日は雨だって。それじゃ、ピクニックは中止だね。\nNghe nói ngày mai mưa. Vậy thì hủy buổi picnic nhé.\n\n申し込みは今日まで？ それじゃ、今すぐ送ります。\nĐăng ký chỉ đến hôm nay à? Vậy thì tôi gửi ngay.\n\n説明は以上です。それじゃ、確認お願いします。\nGiải thích đến đây là hết. Vậy thì xin hãy xác nhận.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～。じゃ、～ &#8211; Thế nhé…",
+    "back": "もう遅い。じゃ、今日はここまでにしよう。\n\nÝ nghĩa: もう遅い。じゃ、今日はここまでにしよう。",
+    "romaji": "ja-well-then-so",
+    "example": "もう遅い。じゃ、今日はここまでにしよう。\nMuộn rồi. Vậy thì hôm nay dừng ở đây nhé.\n\n雨が降ってきた。じゃ、タクシーで帰ろう。\nTrời bắt đầu mưa. Vậy thì về bằng taxi đi.\n\nそれは難しい。じゃ、別の方法を試そう。\nCái đó khó đấy. Thế thì thử cách khác.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～は～より～ &#8211; So sánh hơn",
+    "back": "東京は大阪より寒い。\n\nÝ nghĩa: 東京は大阪より寒い。",
+    "romaji": "ha-yori",
+    "example": "今年は去年より暑い。\nNăm nay nóng hơn năm ngoái.\n\nこのスマホは前のモデルより軽い。\nChiếc smartphone này nhẹ hơn mẫu trước.\n\n私は弟より背が高い。\nTôi cao hơn em trai.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～より～のほうが～ &#8211; Cái này hơn cái kia",
+    "back": "バスより電車のほうが 速い\n\nÝ nghĩa: バスより電車のほうが 速い",
+    "romaji": "yori-houga",
+    "example": "去年より今年のほうが忙しい。\nNăm nay bận hơn năm ngoái.\n\nバスより電車のほうが速い。\nTàu điện nhanh hơn xe buýt.\n\n犬より猫のほうが静かだ。\nMèo yên tĩnh hơn chó.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～がいちばん～ &#8211; Là nhất",
+    "back": "この店がいちばん安い。\n\nÝ nghĩa: この店がいちばん安い。",
+    "romaji": "ga-ichiban",
+    "example": "この映画がいちばん面白い。\nBộ phim này hay nhất.\n\n春と夏と秋と冬の中で、秋がいちばん好きです。\nTrong bốn mùa, tôi thích mùa thu nhất.\n\nクラスで田中さんがいちばん背が高い。\nTrong lớp, anh Tanaka cao nhất.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～と～とどちら～ &#8211; Cái nào hơn?",
+    "back": "AとBとどちらが高いですか。\n\nÝ nghĩa: AとBとどちらが高いですか。",
+    "romaji": "to-dochira",
+    "example": "東京と大阪とどちらが物価が高いですか。\nGiữa Tokyo và Osaka thì nơi nào có vật giá cao hơn?\n\n英語と中国語とどちらを勉強しますか。\nBạn học tiếng Anh hay tiếng Trung?\n\nバスと電車とどちらのほうが早いですか。\nXe buýt hay tàu thì cái nào nhanh hơn?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～は～が～ &#8211; Cấu trúc mô tả đặc điểm",
+    "back": "日本は四季がある。\n\nÝ nghĩa: Nói thuộc tính/đặc điểm của N1",
+    "romaji": "ha-ga",
+    "example": "日本は四季がある。\nNhật Bản thì có bốn mùa.\n\n私は猫が好きだ。\nTôi thích mèo.\n\n父は料理が上手だ。\nBố tôi nấu ăn giỏi.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～あとで &#8211; Sau khi…",
+    "back": "N + の + あとで\n\nÝ nghĩa: 授業のあとで",
+    "romaji": "atode",
+    "example": "授業のあとで、先生に質問します。\nSau giờ học, tôi hỏi thầy cô.\n\n昼ごはんを食べたあとで、散歩しました。\nSau khi ăn trưa, tôi đi dạo.\n\n仕事のあとで、一杯飲みに行きませんか。\nSau giờ làm, đi uống một ly không?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～の前に &#8211; Trước khi…",
+    "back": "N + の + 前に\n\nÝ nghĩa: 授業の前に",
+    "romaji": "no-maeni",
+    "example": "寝る前に、歯を磨きます。\nTrước khi ngủ, tôi đánh răng.\n\n出かける前に、天気予報を確認してください。\nTrước khi ra ngoài, hãy kiểm tra dự báo thời tiết.\n\n授業の前に、教室を掃除しました。\nTôi đã dọn lớp trước giờ học.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～くらい～ &#8211; Khoảng chừng…",
+    "back": "3時間くらい、1000円くらい\n\nÝ nghĩa: 3時間くらい、1000円くらい",
+    "romaji": "kurai",
+    "example": "ここから駅まで歩いて20分くらいです。\nTừ đây đến ga đi bộ khoảng 20 phút.\n\n千円くらいなら買えるよ。\nNếu khoảng 1000 yên thì mua được đấy.\n\n眠くて、立っていられないくらいだ。\nBuồn ngủ đến mức không đứng nổi.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～ぐらい～ &#8211; Khoảng chừng…",
+    "back": "二時間ぐらい、三回ぐらい\n\nÝ nghĩa: 二時間ぐらい、三回ぐらい",
+    "romaji": "gurai",
+    "example": "ここから駅まで歩いて15分ぐらいだよ。\nTừ đây đến ga đi bộ khoảng 15 phút đấy.\n\n三千円ぐらいで買えると思う。\nTôi nghĩ mua được với khoảng 3000 yên.\n\n泣いちゃうぐらいうれしかった。\nVui đến mức suýt khóc.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～ごろ～ &#8211; Vào khoảng (thời điểm)",
+    "back": "3時ごろ、6月ごろ、1990年ごろ\n\nÝ nghĩa: 3時ごろ、6月ごろ、1990年ごろ",
+    "romaji": "goro",
+    "example": "明日、3時ごろ伺います。\nNgày mai, tôi sẽ ghé vào khoảng 3 giờ.\n\n7月ごろ、日本へ行く予定だ。\nKhoảng tháng 7 tôi dự định đi Nhật.\n\n1990年ごろに生まれました。\nTôi sinh khoảng năm 1990.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～だけ～ &#8211; Chỉ, duy nhất",
+    "back": "一人だけ、今日だけ\n\nÝ nghĩa: Chỉ N; giới hạn phạm vi",
+    "romaji": "dake",
+    "example": "今日は水だけください。\nHôm nay cho tôi chỉ nước thôi.\n\nこの会議は関係者だけが入れます。\nCuộc họp này chỉ người liên quan mới được vào.\n\n見るだけ見て、買わなかった。\nChỉ nhìn thôi rồi không mua.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～か～か～ &#8211; Hoặc… hoặc…",
+    "back": "電車かバス\n\nÝ nghĩa: Chọn giữa A hoặc B",
+    "romaji": "ka-ka",
+    "example": "電車かバスか、どちらで行きますか。\nĐi bằng tàu hay xe buýt?\n\n明日行くか行かないか、まだ決めていません。\nNgày mai đi hay không đi thì tôi vẫn chưa quyết.\n\nこの案が安全か危険かは、専門家に聞いてみましょう。\nPhương án này an toàn hay nguy hiểm thì hãy hỏi chuyên gia.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "あまり～ありません &#8211; Không… lắm",
+    "back": "あまり食べません／あまり行かない\n\nÝ nghĩa: あまり食べません／あまり行かない",
+    "romaji": "amari-arimasen",
+    "example": "時間があまりありません。\nTôi không có nhiều thời gian.\n\nこの映画はあまり面白くありません。\nBộ phim này không hay lắm.\n\n肉はあまり食べません。\nTôi không ăn thịt nhiều.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "ぜんぜん～ &#8211; Hoàn toàn không",
+    "back": "ぜんぜん + Vない／Adj（phủ định）\n\nÝ nghĩa: Hoàn toàn không… / Chẳng … chút nào",
+    "romaji": "zenzen",
+    "example": "お金がぜんぜんありません。\nTôi hoàn toàn không có tiền.\n\nきのうはぜんぜん勉強しませんでした。\nHôm qua tôi chẳng học gì cả.\n\nこの映画はぜんぜんおもしろくないです。\nBộ phim này chẳng hay chút nào.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "ほとんど～ &#8211; Hầu như, gần như",
+    "back": "ほとんど + V/A/Adj/Adv\n\nÝ nghĩa: Hầu như, gần như (phần lớn)",
+    "romaji": "hotondo",
+    "example": "この映画はほとんど知っています。\nTôi biết gần như hết về bộ phim này.\n\n日本語はほとんど話せません。\nTôi hầu như không nói được tiếng Nhật.\n\nほとんどの学生がテストに合格しました。\nHầu hết sinh viên đã đỗ kỳ thi.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "だいたい～ &#8211; Đại khái, phần lớn",
+    "back": "だいたい + 数量/時間\n\nÝ nghĩa: だいたい5分／だいたい1000円",
+    "romaji": "daitai",
+    "example": "学校までだいたい20分です。\nĐến trường mất khoảng 20 phút.\n\nこの本の内容はだいたい分かりました。\nTôi hiểu đại khái nội dung cuốn sách.\n\n昼ごはんはだいたい500円ぐらいです。\nBữa trưa khoảng 500 yên.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "たいてい～ &#8211; Thường, đa số",
+    "back": "たいてい + V/Adj/Nだ\n\nÝ nghĩa: たいてい家にいます／たいてい静かです",
+    "romaji": "taitei",
+    "example": "私はたいてい6時に起きます。\nTôi thường dậy lúc 6 giờ.\n\n週末はたいてい家で映画を見ます。\nCuối tuần thường xem phim ở nhà.\n\nたいていの学生はアルバイトをします。\nPhần lớn sinh viên làm thêm.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "まあまあ～ &#8211; Tạm được, bình thường",
+    "back": "まあまあ寒い\n\nÝ nghĩa: まあまあ寒い",
+    "romaji": "maamaa",
+    "example": "この映画はまあまあ面白いです。\nBộ phim này cũng khá thú vị.\n\n日本語はまあまあ話せます。\nTôi nói tiếng Nhật tàm tạm.\n\nテストはまあまあでした。\nBài kiểm tra cũng tạm được.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "よく～ &#8211; Thường xuyên",
+    "back": "よく＋V（ます/辞書形）\n\nÝ nghĩa: よく映画を見ます",
+    "romaji": "yoku",
+    "example": "私は週末、よく公園へ行きます。\nCuối tuần tôi hay đi công viên.\n\n日本の音楽をよく聞きます。\nTôi thường nghe nhạc Nhật.\n\n彼は日本語がよく話せます。\nAnh ấy nói tiếng Nhật khá tốt.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "まだ～ &#8211; Vẫn còn",
+    "back": "まだ雨が降っています\n\nÝ nghĩa: まだ雨が降っています",
+    "romaji": "mada",
+    "example": "映画はまだやっています。\nPhim vẫn còn chiếu.\n\nもう夜ですが、彼はまだ起きています。\nDù đã tối, anh ấy vẫn còn thức.\n\n私はまだ学生です。\nTôi vẫn còn là sinh viên.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "まだ～ません &#8211; Vẫn chưa",
+    "back": "まだ行きません／まだ食べません\n\nÝ nghĩa: まだ行きません／まだ食べません",
+    "romaji": "mada-masen",
+    "example": "宿題はまだしていません。\nTôi vẫn chưa làm bài tập.\n\n雨はまだ降っていません。\nTrời vẫn chưa mưa.\n\n私はまだ行きません。\nTôi chưa đi bây giờ (sẽ đi sau).",
+    "jlptLevel": 5
+  },
+  {
+    "front": "もう～ &#8211; Đã, rồi",
+    "back": "もう食べました／もう終わった\n\nÝ nghĩa: もう食べました／もう終わった",
+    "romaji": "mou",
+    "example": "もう食べました。\nTôi đã ăn rồi.\n\nもう宿題をしましたか。\nBạn đã làm bài tập chưa?\n\nもう行きません。\nTôi không đi nữa.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "もうすぐ～ &#8211; Sắp, sắp sửa",
+    "back": "もうすぐ雨が降ります／もうすぐ出発する\n\nÝ nghĩa: もうすぐ雨が降ります／もうすぐ出発する",
+    "romaji": "mousugu",
+    "example": "電車はもうすぐ来ます。\nTàu sắp đến.\n\nもうすぐ三時です。\nSắp 3 giờ.\n\nもうすぐ春です。\nSắp đến mùa xuân.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "もっと～ &#8211; Hơn nữa",
+    "back": "もっと＋Aい\n\nÝ nghĩa: もっと早い電車",
+    "romaji": "motto",
+    "example": "もう少しもっとゆっくり話してください。\nXin hãy nói chậm hơn nữa một chút.\n\nこの本はおもしろい。もっと読みたい。\nCuốn sách này hay. Tôi muốn đọc thêm nữa.\n\n今日は寒い。明日はもっと寒いそうです。\nHôm nay lạnh. Nghe nói ngày mai còn lạnh hơn.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "すぐに～ &#8211; Ngay lập tức",
+    "back": "すぐに + V／N／～\n\nÝ nghĩa: Ngay lập tức / Ngay sau đó / Lập tức",
+    "romaji": "suguni",
+    "example": "今すぐに来てください。\nHãy đến ngay bây giờ.\n\n家に帰ったらすぐにシャワーを浴びます。\nVừa về nhà là tôi tắm liền.\n\n授業が終わってすぐに帰りました。\nTan học xong là tôi về ngay.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "さっき～ &#8211; Lúc nãy",
+    "back": "さっき会いました。\n\nÝ nghĩa: “Lúc nãy/vừa nãy” (quá khứ gần)",
+    "romaji": "sakki",
+    "example": "さっき、田中さんに会いました。\nVừa nãy tôi gặp anh Tanaka.\n\nさっきのメールを見ましたか。\nBạn đã xem email lúc nãy chưa?\n\nさっきから頭が痛いです。\nTừ nãy đến giờ tôi đau đầu.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "だれ～ &#8211; Ai",
+    "back": "だれ + が／を／に／と …\n\nÝ nghĩa: これはだれの本ですか。",
+    "romaji": "dare",
+    "example": "あの人はだれですか。\nNgười kia là ai?\n\nこれはだれのペンですか。\nCái này là bút của ai?\n\n入口にだれがいますか。\nỞ lối vào có ai không?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "だれか～ &#8211; Ai đó",
+    "back": "だれかが 来ます。\n\nÝ nghĩa: だれかが 来ます。",
+    "romaji": "dareka",
+    "example": "だれかが ドアを ノックしています。\nCó ai đó đang gõ cửa.\n\nだれか いますか。\nCó ai đó ở đây không?\n\nだれかを 探しています。\nTôi đang tìm ai đó.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "だれでも～ &#8211; Ai cũng",
+    "back": "だれでも わかります。\n\nÝ nghĩa: だれでも わかります。",
+    "romaji": "daredemo",
+    "example": "この図書館は だれでも 入れます。\nThư viện này ai cũng có thể vào.\n\nこの問題は だれでも わかります。\nBài này ai cũng hiểu.\n\nイベントは だれでも 参加できます。\nSự kiện ai cũng có thể tham gia.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "だれも～ません &#8211; Không ai cả",
+    "back": "だれも 来ません。\n\nÝ nghĩa: だれも 来ません。",
+    "romaji": "daremo-masen",
+    "example": "きょうは だれも 来ませんでした。\nHôm nay không ai đến cả.\n\nこのことを だれも 知りません。\nKhông ai biết chuyện này.\n\nパーティーで だれとも 話しませんでした。\nTôi đã không nói chuyện với ai tại bữa tiệc.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "どこ～ &#8211; Ở đâu",
+    "back": "どこに Nが あります／いますか。\n\nÝ nghĩa: … ở đâu?",
+    "romaji": "doko",
+    "example": "駅はどこにありますか。\nNhà ga ở đâu?\n\n先生はどこにいますか。\nThầy cô ở đâu?\n\nどこで昼ごはんを食べますか。\nAnh ăn trưa ở đâu?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "どこか～ &#8211; Ở đâu đó",
+    "back": "どこか + V/Adj/N\n\nÝ nghĩa: どこか + V/Adj/N",
+    "romaji": "dokoka",
+    "example": "週末はどこかへ行きましたか。\nCuối tuần bạn đã đi đâu đó chưa?\n\n財布をどこかに忘れました。\nTôi quên ví ở đâu đó.\n\n暑いですね。どこかで休みましょう。\nNóng quá. Mình nghỉ ở đâu đó đi.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "どこでも～ &#8211; Ở đâu cũng",
+    "back": "どこでも入れます／どこでも便利です\n\nÝ nghĩa: どこでも入れます／どこでも便利です",
+    "romaji": "dokodemo",
+    "example": "このカードはどこでも使えます。\nThẻ này dùng được ở bất cứ đâu.\n\n休みならどこへでも行きたいです。\nNếu nghỉ, tôi muốn đi đâu cũng được.\n\n座る場所はどこでもいいです。\nNgồi chỗ nào cũng được.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "どこにも～ません &#8211; Không ở đâu cả",
+    "back": "どこにも行きません／どこにもない\n\nÝ nghĩa: どこにも行きません／どこにもない",
+    "romaji": "dokonimo-masen",
+    "example": "今日はどこにも行きません。\nHôm nay tôi không đi đâu cả.\n\n財布がどこにもありません。\nKhông thấy ví ở đâu cả.\n\nこの本はどこにも売っていません。\nCuốn sách này không bán ở đâu cả.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "どこへも～ません &#8211; Không đi đâu cả",
+    "back": "どこへも行きません\n\nÝ nghĩa: どこへも行きません",
+    "romaji": "dokohemo-masen",
+    "example": "休みの日はどこへも行きません。\nNgày nghỉ tôi không đi đâu cả.\n\n台風だから、今日はどこへも出かけません。\nVì bão nên hôm nay tôi không ra ngoài đi đâu cả.\n\n去年はお金がなくてどこへも旅行できませんでした。\nNăm ngoái vì không có tiền nên tôi không thể đi du lịch đâu cả.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "どこも～ません &#8211; Không nơi nào",
+    "back": "どこも開いていません\n\nÝ nghĩa: どこも開いていません",
+    "romaji": "dokomo-masen",
+    "example": "もう夜遅いので、店はどこも開いていません。\nĐã khuya nên chẳng cửa hàng nào mở.\n\nこの町には静かな所がどこもありません。\nỞ thị trấn này không có nơi nào yên tĩnh.\n\nなくした鍵はどこも見つかりません。\nKhông tìm thấy chìa khóa ở đâu cả.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "どちら～ &#8211; Bên nào",
+    "back": "X と Y、どちらが〜ですか\n\nÝ nghĩa: X と Y、どちらが〜ですか",
+    "romaji": "dochira",
+    "example": "コーヒーと紅茶、どちらが好きですか。\nBạn thích cà phê hay trà (cái nào)?\n\n会議室はどちらですか。\nPhòng họp ở đâu ạ? (lịch sự)\n\nどちらの会社から来ましたか。\nBạn đến từ công ty nào?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "どなた～ &#8211; Vị nào (lịch sự)",
+    "back": "失礼ですが、どなたですか\n\nÝ nghĩa: 失礼ですが、どなたですか",
+    "romaji": "donata",
+    "example": "失礼ですが、どなたですか。\nXin lỗi, ai đấy ạ?\n\nこちらはどなたですか。\nĐây là ai vậy ạ? (khi xem ảnh/giới thiệu)\n\nこれはどなたのお荷物ですか。\nHành lý này là của ai ạ?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "どの～ &#8211; Cái nào (danh từ)",
+    "back": "どの本／どの人／どの部屋\n\nÝ nghĩa: どの本／どの人／どの部屋",
+    "romaji": "dono",
+    "example": "どの本が一番おもしろいですか。\nCuốn sách nào thú vị nhất?\n\nどの部屋ですか。\nLà phòng nào vậy?\n\nどのシャツが田中さんのですか。\nCái áo sơ mi nào là của anh Tanaka?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "どれでも～ &#8211; Bất kỳ cái nào",
+    "back": "どれでも + いい／大丈夫／構いません\n\nÝ nghĩa: Bất kỳ cái nào (trong các lựa chọn đã cho) cũng được",
+    "romaji": "doredemo",
+    "example": "この中からどれでも選んでください。\nHãy chọn bất kỳ cái nào trong số này.\n\n色はどれでも同じ価格です。\nMàu nào cũng cùng một giá.\n\nA：ケーキはチョコ、いちご、チーズがあります。B：どれでも大丈夫です。\nA: Có bánh sô cô la, dâu, phô mai. B: Cái nào cũng được.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "どんな～ &#8211; Như thế nào",
+    "back": "どんな人／どんな映画／どんな所\n\nÝ nghĩa: “… như thế nào/loại nào”",
+    "romaji": "donna",
+    "example": "どんな映画が好きですか。\nBạn thích phim thể loại nào?\n\n田中さんはどんな人ですか。\nAnh Tanaka là người như thế nào?\n\nこの料理はどんな味ですか。\nMón ăn này có vị như thế nào?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "なに～ &#8211; Cái gì",
+    "back": "何（なに）＋が\n\nÝ nghĩa: Cái gì (làm chủ ngữ)",
+    "romaji": "nani",
+    "example": "これは何ですか。\nCái này là gì?\n\n何を食べますか。\nBạn ăn gì?\n\n何が一番好きですか。\nBạn thích nhất cái gì?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "なにか～ &#8211; Cái gì đó",
+    "back": "何か＋V（ます）\n\nÝ nghĩa: Cái gì đó",
+    "romaji": "nanika",
+    "example": "何か食べたいです。\nTôi muốn ăn gì đó.\n\n飲み物は何かありますか。\nCó đồ uống gì không?\n\n何か質問がありますか。\nCó câu hỏi nào không?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "なにも～ません &#8211; Không gì cả",
+    "back": "何も＋Vません\n\nÝ nghĩa: Không … gì",
+    "romaji": "nanimo-masen",
+    "example": "今日は何も食べません。\nHôm nay tôi không ăn gì.\n\nここには何もありません。\nỞ đây không có gì cả.\n\n何も分かりません。\nTôi không hiểu gì cả.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "なん～ &#8211; Cái gì (dạng biến thể)",
+    "back": "それはなんですか。\n\nÝ nghĩa: Cái gì vậy?",
+    "romaji": "nan",
+    "example": "それはなんですか。\nĐó là cái gì vậy?\n\nこれはなんの本ですか。\nĐây là sách về cái gì?\n\nいまなんじですか。\nBây giờ là mấy giờ?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "なんで～ &#8211; Tại sao",
+    "back": "なんで来なかったんですか。\n\nÝ nghĩa: Tại sao? Vì sao?",
+    "romaji": "nande",
+    "example": "なんで遅れたんですか。\nTại sao bạn đến muộn vậy?\n\n学校へなんで行きますか。— バスで行きます。\nBạn đi đến trường bằng gì? — Tôi đi bằng xe buýt.\n\nなんで日本語を勉強しているんですか。\nTại sao bạn đang học tiếng Nhật?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "なんでも～ &#8211; Cái gì cũng",
+    "back": "なんでも食べます。\n\nÝ nghĩa: Cái gì cũng…/bất cứ gì cũng…",
+    "romaji": "nandemo",
+    "example": "私はなんでも食べます。\nTôi ăn gì cũng được/ăn món gì cũng ăn.\n\n飲み物はなんでもいいです。\nĐồ uống gì cũng được.\n\nこの店はなんでもあります。\nCửa hàng này cái gì cũng có.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～なんと言いますか &#8211; Gọi là gì nhỉ",
+    "back": "犬は英語でなんと言いますか。\n\nÝ nghĩa: 犬は英語でなんと言いますか。",
+    "romaji": "nanto-iimasu-ka",
+    "example": "これは日本語でなんと言いますか。\nCái này nói bằng tiếng Nhật là gì?\n\n犬は英語でなんと言いますか。\n“犬” tiếng Anh nói thế nào?\n\nこの記号「＠」は日本語でなんと言いますか。\nKý hiệu “@” tiếng Nhật gọi là gì?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～どう言いますか &#8211; Nói thế nào",
+    "back": "X は 言語＋で 何（なん）と言いますか。\n\nÝ nghĩa: X nói là gì bằng (ngôn ngữ)?",
+    "romaji": "dou-iimasu-ka",
+    "example": "「猫」は英語で何と言いますか。\n“猫” tiếng Anh nói là gì?\n\nこの気持ちは日本語でどう言いますか。\nCảm xúc này nói thế nào bằng tiếng Nhật?\n\n「ありがとう」は英語で何と言いますか。— “Thank you.”\n“ありがとう” tiếng Anh nói gì? — “Thank you.”",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～どうしますか &#8211; Làm sao bây giờ",
+    "back": "～、どうしますか。\n\nÝ nghĩa: 明日、どうしますか。",
+    "romaji": "dou-shimasu-ka",
+    "example": "夕ごはん、どうしますか。\nBữa tối, làm thế nào đây?/Mình ăn thế nào?\n\nこの箱は どうしますか。\nCái hộp này xử lý thế nào?\n\n明日、雨です。ピクニックは どうしますか。\nNgày mai mưa. Buổi picnic thì làm sao?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～どうですか &#8211; Thế nào",
+    "back": "N は どうですか。\n\nÝ nghĩa: この本は どうですか。",
+    "romaji": "dou-desu-ka",
+    "example": "この服、どうですか。\nBộ đồ này thế nào?\n\n日本の 生活は どうですか。\nCuộc sống ở Nhật thế nào?\n\nコーヒーは どうですか。\nCà phê thì sao? (mời dùng cà phê)",
+    "jlptLevel": 5
+  },
+  {
+    "front": "どうやって～ &#8211; Bằng cách nào",
+    "back": "どうやって + V（ます/る）+ か\n\nÝ nghĩa: Làm bằng cách nào?",
+    "romaji": "douyatte",
+    "example": "駅までどうやって行きますか。\nĐến ga thì đi bằng cách nào?\n\nこのアプリはどうやって使いますか。\nỨng dụng này dùng như thế nào?\n\n東京へはどうやって行くの？\nĐến Tokyo đi sao vậy?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～とき &#8211; Khi, lúc",
+    "back": "V-辞書形 + とき\n\nÝ nghĩa: 行くとき、電話します。",
+    "romaji": "toki",
+    "example": "日本へ行くとき、パスポートを持っていきます。\nKhi đi Nhật (trước khi đi), tôi mang hộ chiếu.\n\n日本へ行ったとき、京都を観光しました。\nKhi đã đi Nhật (lúc đó), tôi đã tham quan Kyoto.\n\n暇なとき、映画を見ます。\nKhi rảnh thì xem phim.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "ときどき～ &#8211; Thỉnh thoảng",
+    "back": "ときどき + V／A／Nです\n\nÝ nghĩa: Thỉnh thoảng, đôi khi",
+    "romaji": "tokidoki",
+    "example": "ときどきジョギングをします。\nThỉnh thoảng tôi chạy bộ.\n\n私はときどきコーヒーを飲みます。\nTôi thỉnh thoảng uống cà phê.\n\n時々雨が降ります。\nThỉnh thoảng trời mưa.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "いつも～ &#8211; Luôn luôn",
+    "back": "いつも 勉強します／いつも 元気です\n\nÝ nghĩa: Trước vị ngữ",
+    "romaji": "itsumo",
+    "example": "私はいつも 7時に起きます。\nTôi luôn dậy lúc 7 giờ.\n\n彼はいつも 元気です。\nAnh ấy lúc nào cũng khỏe.\n\nいつもは バスで行きませんが、今日は行きます。\nThường thì tôi không đi bằng xe buýt, nhưng hôm nay thì có.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "いつでも～ &#8211; Bất cứ khi nào",
+    "back": "いつでも 行けます／来てください\n\nÝ nghĩa: いつでも 行けます／来てください",
+    "romaji": "itsudemo",
+    "example": "何かあったら、いつでも 連絡してください。\nNếu có gì thì hãy liên lạc bất cứ lúc nào.\n\n私はいつでも 行けます。\nTôi có thể đi lúc nào cũng được.\n\nこの店はいつでも 開いています。\nCửa hàng này lúc nào cũng mở (bất cứ lúc nào cũng mở).",
+    "jlptLevel": 5
+  },
+  {
+    "front": "いつか～ &#8211; Một ngày nào đó",
+    "back": "いつか 行きたい／会う\n\nÝ nghĩa: Một ngày nào đó (mơ hồ)",
+    "romaji": "itsuka",
+    "example": "いつか日本へ行きたいです。\nTôi muốn đi Nhật một ngày nào đó.\n\nいつか自分の店を持ちます。\nMột lúc nào đó tôi sẽ có cửa hàng riêng.\n\nいつかは家を買いたいです。\nRồi thì tôi cũng muốn mua nhà.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "いくつ～ &#8211; Bao nhiêu (cái, tuổi)",
+    "back": "りんごは いくつ ありますか\n\nÝ nghĩa: りんごは いくつ ありますか",
+    "romaji": "ikutsu",
+    "example": "りんごはいくつありますか。\nCó bao nhiêu quả táo?\n\nケーキをいくつ食べましたか。\nBạn đã ăn mấy cái bánh?\n\nみかんをいくつ買いましたか。\nBạn đã mua mấy quả quýt?",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～にあげます &#8211; Cho (ai đó)",
+    "back": "私は友だちに本をあげます。\n\nÝ nghĩa: 私は友だちに本をあげます。",
+    "romaji": "ni-agemasu",
+    "example": "私は友だちにプレゼントをあげます。\nTôi tặng quà cho bạn.\n\n母は近所の子どもにお菓子をあげました。\nMẹ tôi đã cho kẹo cho bọn trẻ hàng xóm.\n\n兄は妹にお金をあげません。\nAnh trai không cho em gái tiền.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～にもらいます &#8211; Nhận từ (ai đó)",
+    "back": "私は友だちにプレゼントをもらいました。\n\nÝ nghĩa: 私は友だちにプレゼントをもらいました。",
+    "romaji": "ni-moraimasu",
+    "example": "私は友だちに花をもらいました。\nTôi nhận được hoa từ bạn.\n\n姉にお金をもらいませんでした。\nTôi đã không nhận tiền từ chị gái.\n\n先生に漢字を教えてもらいます。\nTôi được thầy dạy chữ Hán.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～からもらいます &#8211; Nhận từ (ai đó, nguồn)",
+    "back": "私は先生から本をもらいます。\n\nÝ nghĩa: 私は先生から本をもらいます。",
+    "romaji": "kara-moraimasu",
+    "example": "私は先生から本をもらいました。\nTôi đã nhận sách từ thầy giáo.\n\n会社からメールをもらいました。\nTôi nhận được email từ công ty.\n\n昨日、友だちから電話をもらいました。\nHôm qua, tôi nhận được cuộc gọi từ bạn.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～が私にくれます &#8211; Ai đó cho tôi",
+    "back": "友だちが私にプレゼントをくれます。\n\nÝ nghĩa: 友だちが私にプレゼントをくれます。",
+    "romaji": "ga-watashi-ni-kuremasu",
+    "example": "友だちが私にプレゼントをくれました。\nBạn đã tặng quà cho tôi.\n\n母が私に新しい靴をくれました。\nMẹ đã cho tôi đôi giày mới.\n\n会社が私に休みをくれました。\nCông ty cho tôi ngày nghỉ.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～いかがですか &#8211; Bạn thấy thế nào?",
+    "back": "～はいかがですか\n\nÝ nghĩa: Ngài thấy thế nào / Xin mời… / Có muốn… không?",
+    "romaji": "ikaga-desu-ka",
+    "example": "コーヒーはいかがですか。\nNgài dùng cà phê không ạ?\n\n旅行の計画はいかがですか。\nKế hoạch du lịch của anh/chị thế nào rồi ạ?\n\nこのスープはいかがですか。\nMón súp này thế nào ạ? (mời dùng thử)",
+    "jlptLevel": 5
+  },
+  {
+    "front": "こちら～ &#8211; Phía này / tôi / ở đây",
+    "back": "こちらは田中さんです。\n\nÝ nghĩa: “Vị này/lần này/cái này là …”",
+    "romaji": "kochira",
+    "example": "こちらは田中さんです。\nĐây là anh Tanaka.\n\nこちらへどうぞ。\nMời đi lối này.\n\nこちらがお手洗いです。\nĐây là nhà vệ sinh.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "そちら～ &#8211; Phía đó / bạn / ở đó",
+    "back": "そちら\n\nÝ nghĩa: Bên phía bạn/ở chỗ bạn; hướng kia (gần người nghe)",
+    "romaji": "sochira",
+    "example": "こんにちは。そちらは今、何時ですか。\nXin chào. Ở bên bạn bây giờ là mấy giờ?\n\n午後3時ごろそちらへ伺います。\nTầm 3 giờ chiều tôi sẽ ghé bên bạn.\n\n明日はそちらで会いましょう。\nNgày mai hãy gặp ở phía bạn nhé.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～はたいへんです &#8211; Rất vất vả, khó khăn",
+    "back": "N は たいへんです\n\nÝ nghĩa: 日本語はたいへんです。",
+    "romaji": "ha-taihen-desu",
+    "example": "日本語はたいへんです。\nTiếng Nhật thì vất vả/khó nhỉ.\n\n毎日残業はたいへんです。\nLàm thêm mỗi ngày thì mệt phết.\n\n引っ越しはたいへんでした。\nChuyển nhà thì đã rất vất vả.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～たり、～たりします &#8211; Liệt kê hành động",
+    "back": "映画を見たり、買い物したりします。\n\nÝ nghĩa: Liệt kê không toàn bộ",
+    "romaji": "tari-tari-shimasu",
+    "example": "週末は映画を見たり、友だちと遊んだりします。\nCuối tuần tôi xem phim, đi chơi với bạn (v.v.).\n\n旅行でお寺を回ったり、写真を撮ったりしました。\nĐi du lịch tôi đã thăm chùa, chụp ảnh (v.v.).\n\n休みの日に掃除をしたり、昼寝をしたりします。\nNgày nghỉ tôi dọn dẹp, ngủ trưa (v.v.).",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～あります &#8211; Có (vật vô tri)",
+    "back": "N + が + あります場所 + に + N + があります\n\nÝ nghĩa: Có (vật, sự vật, sự kiện…)",
+    "romaji": "arimasu",
+    "example": "机の上にペンがあります。\nTrên bàn có cây bút.\n\n公園に桜の木があります。\nTrong công viên có cây hoa anh đào.\n\n明日、会議があります。\nNgày mai có cuộc họp.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～から、～ &#8211; Vì… nên…",
+    "back": "V（普通形）＋から、～\n\nÝ nghĩa: Bởi vì… nên…",
+    "romaji": "kara-because",
+    "example": "雨だから、今日は家にいよう。\nVì trời mưa nên hôm nay ở nhà đi.\n\n日本語が好きだから、日本へ留学したい。\nVì thích tiếng Nhật nên tôi muốn du học Nhật.\n\n時間がないから、タクシーで行こう。\nVì không có thời gian nên đi taxi nhé.",
+    "jlptLevel": 5
+  },
+  {
+    "front": "～からです &#8211; Bởi vì…",
+    "back": "[Mệnh đề lý do] + からです。\n\nÝ nghĩa: 遅れました。道が混んでいた からです。",
+    "romaji": "kara-desu",
+    "example": "A: どうして来なかったんですか。 B: 体調が悪かった からです。\nA: Tại sao bạn không đến? B: Vì sức khỏe không tốt.\n\n遅れてすみません。電車が遅れた からです。\nXin lỗi vì đến muộn. Vì tàu bị trễ.\n\n今日は休みます。熱がある からです。\nHôm nay tôi nghỉ. Vì bị sốt.",
+    "jlptLevel": 5
+  }
+]
