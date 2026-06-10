@@ -5,6 +5,21 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
 import { useAuth } from '../hooks/useAuth';
 import KanjiInteractiveWorkspace from '../components/KanjiInteractiveWorkspace';
+import CollapsibleExample from '../components/CollapsibleExample';
+
+function speakJapanese(text) {
+  if (!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  
+  // Extract just Japanese text block
+  const jaText = text.split('\n')[0] || text;
+  
+  const utterance = new SpeechSynthesisUtterance(jaText);
+  utterance.lang = 'ja-JP';
+  utterance.rate = 0.85;
+  utterance.pitch = 1.0;
+  window.speechSynthesis.speak(utterance);
+}
 
 const JLPT_LEVELS = [5, 4, 3, 2, 1];
 
@@ -572,10 +587,10 @@ export default function DeckDetailPage() {
                 <thead>
                   <tr className="bg-surface-container-low border-b border-outline-variant/40">
                     <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-16">STT</th>
-                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Tiếng Nhật</th>
-                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Romaji</th>
-                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Nghĩa tiếng Việt</th>
-                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-24">Cấp độ</th>
+                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-36">Tiếng Nhật</th>
+                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-36">Hiragana</th>
+                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-48">Nghĩa tiếng Việt</th>
+                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Ví dụ</th>
                     {canModify && (
                       <th className="px-6 py-3.5 text-right text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-28">Hành động</th>
                     )}
@@ -585,20 +600,17 @@ export default function DeckDetailPage() {
                   {filteredCards?.map((card, index) => (
                     <tr key={card.id} className="hover:bg-surface-container/20 transition-colors">
                       <td className="px-6 py-4 text-xs font-semibold text-on-surface-variant tabular-nums">{index + 1}</td>
-                      <td className="px-6 py-4">
-                        <div className="font-jp font-bold text-xl text-on-surface">{card.front}</div>
-                        {card.example && (
-                          <div className="text-xs text-on-surface-variant mt-1 max-w-md leading-relaxed">{card.example}</div>
-                        )}
-                      </td>
-                      <td className="px-6 py-4 text-sm font-medium text-on-surface-variant">{card.romaji || '-'}</td>
+                      <td className="px-6 py-4 font-jp font-bold text-xl text-on-surface">{card.front}</td>
+                      <td className="px-6 py-4 text-sm font-medium text-on-surface-variant font-jp">{card.romaji || '-'}</td>
                       <td className="px-6 py-4 text-sm font-medium text-on-surface">{card.back}</td>
-                      <td className="px-6 py-4">
-                        {card.jlptLevel && (
-                          <span className="px-2.5 py-0.5 bg-amber-400/10 border border-amber-400/30 text-amber-800 text-[10px] font-bold uppercase tracking-wider">
-                            N{card.jlptLevel}
-                          </span>
-                        )}
+                      <td className="px-6 py-4 text-xs text-on-surface-variant leading-relaxed max-w-lg">
+                        {card.example ? (
+                          <CollapsibleExample 
+                            example={card.example} 
+                            onSpeak={speakJapanese} 
+                            variant="text"
+                          />
+                        ) : '-'}
                       </td>
                       {canModify && (
                         <td className="px-6 py-4 text-right">

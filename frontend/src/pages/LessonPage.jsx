@@ -4,6 +4,7 @@ import { useQuery } from '@tanstack/react-query';
 import ReactMarkdown from 'react-markdown';
 import { flashcardApi } from '../api/flashcardApi';
 import aiTutorApi from '../api/aiTutorApi';
+import CollapsibleExample from '../components/CollapsibleExample';
 
 // ===== Utilities =====
 
@@ -299,18 +300,12 @@ function LearnSlide({ card, index, total, onNext }) {
 
             {/* Ví dụ câu */}
             {card.example && (
-              <div className="bg-surface border border-outline-variant/30 p-4 sharp-shadow-sm">
-                <p className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-2">
-                  Ví dụ câu
-                </p>
-                <p className="text-on-surface text-sm font-jp leading-relaxed">{card.example}</p>
-                <button
-                  onClick={() => speakJapanese(card.example)}
-                  className="mt-2 text-[10px] font-bold uppercase tracking-wider text-secondary hover:underline flex items-center gap-1"
-                >
-                  🔊 Nghe câu ví dụ
-                </button>
-              </div>
+              <CollapsibleExample 
+                example={card.example} 
+                onSpeak={speakJapanese} 
+                containerClass="bg-surface border border-outline-variant/30 p-4 sharp-shadow-sm text-left"
+                maxHeightClass="max-h-[150px]"
+              />
             )}
 
             {/* AI Explain Area */}

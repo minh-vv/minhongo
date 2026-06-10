@@ -4,6 +4,21 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import ReactMarkdown from 'react-markdown';
 import { coursesApi } from '../api/coursesApi';
 import { flashcardApi } from '../api/flashcardApi';
+import CollapsibleExample from '../components/CollapsibleExample';
+
+function speakJapanese(text) {
+  if (!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  
+  // Extract just Japanese text block
+  const jaText = text.split('\n')[0] || text;
+  
+  const utterance = new SpeechSynthesisUtterance(jaText);
+  utterance.lang = 'ja-JP';
+  utterance.rate = 0.85;
+  utterance.pitch = 1.0;
+  window.speechSynthesis.speak(utterance);
+}
 import { ArrowLeft, ArrowRight, RotateCw, Check } from 'lucide-react';
 
 const PHASE = {
@@ -60,7 +75,7 @@ function buildQuestions(cards, count) {
 // ============================================================
 // THEORY PHASE
 // ============================================================
-function TheoryPhase({ lesson, onContinue }) {
+function TheoryPhase({ lesson, nextLesson, onContinue }) {
   const grammarDeck = lesson.decks?.find((d) => d.role === 'GRAMMAR');
 
   return (
@@ -123,12 +138,22 @@ function TheoryPhase({ lesson, onContinue }) {
         </div>
       )}
 
-      <button
-        onClick={onContinue}
-        className="w-full md:w-auto px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl shadow-sm transition-colors"
-      >
-        Tiếp theo: Học từ vựng →
-      </button>
+      <div className="flex flex-col sm:flex-row gap-3">
+        <button
+          onClick={onContinue}
+          className="flex-1 sm:flex-initial px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl shadow-sm transition-colors text-center"
+        >
+          Tiếp theo: Học từ vựng →
+        </button>
+        {nextLesson && !nextLesson.locked && (
+          <Link
+            to={`/learn/${nextLesson.id}`}
+            className="flex-1 sm:flex-initial px-6 py-3 bg-white border border-gray-300 hover:bg-gray-50 text-gray-700 font-semibold rounded-xl shadow-sm transition-colors text-center flex items-center justify-center"
+          >
+            Bài {nextLesson.order} →
+          </Link>
+        )}
+      </div>
     </div>
   );
 }
@@ -241,12 +266,15 @@ function ReviewPhase({ cards, onContinue }) {
             </p>
             
             {card.example && (
-              <div className="mt-2 p-5 bg-white/10 backdrop-blur-md rounded-2xl w-full max-w-sm border border-white/20 shadow-inner">
-                <p className="text-xs text-indigo-200 uppercase font-bold mb-2 tracking-wider">Ví dụ</p>
-                <p className="text-lg md:text-xl text-white font-medium leading-relaxed">
-                  {card.example}
-                </p>
-              </div>
+              <CollapsibleExample 
+                example={card.example} 
+                onSpeak={speakJapanese} 
+                containerClass="w-full mt-2 p-5 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-inner text-left text-white"
+                maxHeightClass="max-h-[140px]"
+                titleColorClass="text-indigo-200"
+                textColorClass="text-white"
+                secondaryTextColorClass="text-indigo-100"
+              />
             )}
 
             <div className="absolute bottom-8 flex items-center gap-2 text-sm font-medium text-indigo-200 group-hover:text-white transition-colors">
@@ -446,7 +474,7 @@ function ResultPhase({ result, lesson, onRetry }) {
             onClick={() => navigate(`/learn/${nextLessonId}`)}
             className="px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl"
           >
-            Bài tiếp theo →
+            Bài {lesson.order + 1} →
           </button>
         ) : passed ? (
           <Link
@@ -501,6 +529,17 @@ export default function CourseLessonPage() {
     queryFn: () => flashcardApi.getDeck(studyDeckId),
     enabled: !!studyDeckId,
   });
+
+  const { data: courseData } = useQuery({
+    queryKey: ['course', lesson?.course?.slug],
+    queryFn: () => coursesApi.getCourse(lesson.course.slug),
+    enabled: !!lesson?.course?.slug,
+  });
+
+  const nextLesson = useMemo(() => {
+    if (!courseData || !lesson) return null;
+    return courseData.lessons.find((l) => l.order === lesson.order + 1);
+  }, [courseData, lesson]);
 
   const startMutation = useMutation({
     mutationFn: () => coursesApi.startLesson(lessonId),
@@ -557,7 +596,7 @@ export default function CourseLessonPage() {
   // PHASE: THEORY
   if (phase === PHASE.THEORY) {
     return (
-      <TheoryPhase lesson={lesson} onContinue={() => setPhase(PHASE.REVIEW)} />
+      <TheoryPhase lesson={lesson} nextLesson={nextLesson} onContinue={() => setPhase(PHASE.REVIEW)} />
     );
   }
 

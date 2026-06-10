@@ -1,5 +1,20 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { getKanjiData } from '../utils/kanjiDataN5';
+import CollapsibleExample from './CollapsibleExample';
+
+function speakJapanese(text) {
+  if (!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  
+  // Extract just Japanese text block
+  const jaText = text.split('\n')[0] || text;
+  
+  const utterance = new SpeechSynthesisUtterance(jaText);
+  utterance.lang = 'ja-JP';
+  utterance.rate = 0.85;
+  utterance.pitch = 1.0;
+  window.speechSynthesis.speak(utterance);
+}
 
 export default function KanjiInteractiveWorkspace({ card, onClose, accentColor = 'var(--primary)' }) {
   const [isScriptLoaded, setIsScriptLoaded] = useState(false);
@@ -357,9 +372,13 @@ export default function KanjiInteractiveWorkspace({ card, onClose, accentColor =
 
             {/* Ví dụ của thẻ - di chuyển vào trong vùng cuộn để tạo trải nghiệm tự nhiên */}
             {card?.example && (
-              <div className="pt-4 border-t border-outline-variant/20 text-xs text-on-surface-variant leading-relaxed">
-                <span className="font-bold text-[10px] uppercase tracking-wider block mb-1">Ví dụ câu gốc:</span>
-                <p className="font-jp text-sm font-semibold text-on-surface">{card.example}</p>
+              <div className="pt-4 border-t border-outline-variant/20">
+                <CollapsibleExample 
+                  example={card.example} 
+                  onSpeak={speakJapanese} 
+                  containerClass="w-full p-3 bg-surface-container-low/40 border border-outline-variant/20 border-l-4 border-l-primary text-left rounded"
+                  maxHeightClass="max-h-[120px]"
+                />
               </div>
             )}
           </div>

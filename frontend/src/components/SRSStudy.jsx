@@ -3,6 +3,21 @@ import { useNavigate } from 'react-router-dom';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { RotateCw } from 'lucide-react';
 import { flashcardApi } from '../api/flashcardApi';
+import CollapsibleExample from './CollapsibleExample';
+
+function speakJapanese(text) {
+  if (!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  
+  // Extract Japanese part
+  const jaText = text.split('\n')[0] || text;
+  
+  const utterance = new SpeechSynthesisUtterance(jaText);
+  utterance.lang = 'ja-JP';
+  utterance.rate = 0.85;
+  utterance.pitch = 1.0;
+  window.speechSynthesis.speak(utterance);
+}
 
 const REVIEW_QUALITY = {
   AGAIN: 0,
@@ -11,28 +26,50 @@ const REVIEW_QUALITY = {
   EASY: 3,
 };
 
-const getNextInterval = (card, quality) => {
+const getNextIntervalLabel = (card, quality) => {
   const progress = card?.progress;
   const easeFactor = progress?.easeFactor ?? 2.5;
   const interval = progress?.interval ?? 0;
   const repetitions = progress?.repetitions ?? 0;
 
-  if (quality < 2) {
-    return 1;
-  } else {
+  if (quality === 0) { // AGAIN
+    return "< 1 phút";
+  } else if (quality === 1) { // HARD
     if (repetitions === 0) {
-      return 1;
+      return "10 phút";
     } else if (repetitions === 1) {
-      return 6;
+      return "30 phút";
     } else {
-      return Math.max(1, Math.round(interval * easeFactor));
+      const days = Math.max(1, Math.round(interval * 1.2));
+      return `${days} ngày`;
+    }
+  } else if (quality === 2) { // GOOD
+    if (repetitions === 0) {
+      return "30 phút";
+    } else if (repetitions === 1) {
+      return "1 ngày";
+    } else {
+      const days = Math.max(1, Math.round(interval * easeFactor));
+      return `${days} ngày`;
+    }
+  } else if (quality === 3) { // EASY
+    if (repetitions === 0) {
+      return "1 ngày";
+    } else if (repetitions === 1) {
+      return "3 ngày";
+    } else {
+      const days = Math.max(1, Math.round(interval * easeFactor * 1.3));
+      return `${days} ngày`;
     }
   }
+  return "";
 };
+
 
 export default function SRSStudy({ dueData, onComplete }) {
   const navigate = useNavigate();
   const queryClient = useQueryClient();
+  const [sessionCards, setSessionCards] = useState(() => dueData?.dueCards ?? []);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [showResult, setShowResult] = useState(false);
@@ -48,9 +85,19 @@ export default function SRSStudy({ dueData, onComplete }) {
     };
   }, []);
 
-  const cards = dueData?.dueCards ?? [];
+  // Sync session cards on deck ID change
+  const prevDeckIdRef = useRef(dueData?.deck?.id);
+  if (prevDeckIdRef.current !== dueData?.deck?.id) {
+    prevDeckIdRef.current = dueData?.deck?.id;
+    setSessionCards(dueData?.dueCards ?? []);
+    setCurrentIndex(0);
+  }
+
+  const cards = sessionCards;
   const currentCard = cards[currentIndex];
-  const progress = cards.length > 0 ? ((currentIndex + 1) / cards.length) * 100 : 0;
+  
+  const totalDueCount = dueData?.dueCards?.length ?? 0;
+  const progress = totalDueCount > 0 ? Math.min(100, ((currentIndex + 1) / totalDueCount) * 100) : 0;
 
   const reviewMutation = useMutation({
     mutationFn: ({ cardId, quality }) => flashcardApi.reviewCard(cardId, quality),
@@ -66,14 +113,33 @@ export default function SRSStudy({ dueData, onComplete }) {
         setLastResult(null);
         setIsFlipped(false);
 
-        if (currentIndex < cards.length - 1) {
+        const quality = data.quality;
+        const currentRepetitions = currentCard.progress?.repetitions ?? 0;
+        let newSessionCards = [...sessionCards];
+
+        // If Again (0) or Hard (1) (when repetitions was 0 or 1), push to the end for repeating in same session
+        if (quality === 0 || (quality === 1 && currentRepetitions <= 1)) {
+          const updatedCard = {
+            ...currentCard,
+            progress: {
+              ...currentCard.progress,
+              repetitions: quality === 0 ? 0 : currentRepetitions + 1,
+              interval: 0, // learning step
+              easeFactor: data.easeFactor,
+            }
+          };
+          newSessionCards.push(updatedCard);
+          setSessionCards(newSessionCards);
+        }
+
+        if (currentIndex < newSessionCards.length - 1) {
           setCurrentIndex(currentIndex + 1);
         } else {
           if (onComplete) {
             onComplete({
               deckId: dueData?.deck?.id,
-              totalCards: cards.length,
-              reviewedCards: cards.length,
+              totalCards: totalDueCount,
+              reviewedCards: totalDueCount,
             });
           }
           navigate('/dashboard');
@@ -216,11 +282,6 @@ export default function SRSStudy({ dueData, onComplete }) {
               <p className="font-jp text-5xl md:text-6xl font-bold text-on-surface text-center tracking-tight leading-snug">
                 {currentCard.front}
               </p>
-              {currentCard.romaji && (
-                <p className="text-lg md:text-xl text-on-surface-variant font-medium tracking-wide mt-3">
-                  {currentCard.romaji}
-                </p>
-              )}
             </div>
 
             {/* Bottom hint */}
@@ -251,22 +312,23 @@ export default function SRSStudy({ dueData, onComplete }) {
             {/* Middle Content */}
             <div className="flex-1 flex flex-col items-center justify-center w-full max-w-md my-auto gap-4">
               <div className="text-center w-full">
-                <p className="text-[9px] font-bold uppercase tracking-widest text-on-surface-variant/40 mb-1">Giải nghĩa</p>
+                <p className="text-[9px] font-bold uppercase tracking-widest text-on-surface-variant/40 mb-1">Giải nghĩa & Cách đọc</p>
+                {currentCard.romaji && (
+                  <p className="font-jp text-lg text-secondary font-bold mb-2">
+                    {currentCard.romaji}
+                  </p>
+                )}
                 <p className="text-2xl md:text-3xl font-black text-on-surface tracking-wide leading-snug">
                   {currentCard.back}
                 </p>
               </div>
 
               {currentCard.example && (
-                <div 
-                  className="w-full p-4 bg-surface-container-low/50 border border-outline-variant/30 overflow-y-auto max-h-[110px] custom-scrollbar border-l-4 border-l-secondary text-left"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <p className="text-[9px] font-bold text-on-surface-variant/50 uppercase mb-1 tracking-wider">Ví dụ câu</p>
-                  <p className="text-sm font-medium leading-relaxed font-jp text-on-surface">
-                    {currentCard.example}
-                  </p>
-                </div>
+                <CollapsibleExample 
+                  example={currentCard.example} 
+                  onSpeak={speakJapanese} 
+                  maxHeightClass="max-h-[110px]"
+                />
               )}
             </div>
 
@@ -309,7 +371,7 @@ export default function SRSStudy({ dueData, onComplete }) {
               <span className="text-[9px] font-black opacity-55 absolute top-1 right-2 bg-black/20 px-1 rounded">2</span>
               <span className="text-sm font-bold uppercase tracking-wider">Hard</span>
               <span className="text-[10px] opacity-80 mt-0.5">
-                {getNextInterval(currentCard, REVIEW_QUALITY.HARD)} ngày
+                {getNextIntervalLabel(currentCard, REVIEW_QUALITY.HARD)}
               </span>
             </button>
 
@@ -322,7 +384,7 @@ export default function SRSStudy({ dueData, onComplete }) {
               <span className="text-[9px] font-black opacity-55 absolute top-1 right-2 bg-black/20 px-1 rounded">3</span>
               <span className="text-sm font-bold uppercase tracking-wider">Good</span>
               <span className="text-[10px] opacity-80 mt-0.5">
-                {getNextInterval(currentCard, REVIEW_QUALITY.GOOD)} ngày
+                {getNextIntervalLabel(currentCard, REVIEW_QUALITY.GOOD)}
               </span>
             </button>
 
@@ -335,7 +397,7 @@ export default function SRSStudy({ dueData, onComplete }) {
               <span className="text-[9px] font-black opacity-55 absolute top-1 right-2 bg-black/20 px-1 rounded">4</span>
               <span className="text-sm font-bold uppercase tracking-wider">Easy</span>
               <span className="text-[10px] opacity-80 mt-0.5">
-                {getNextInterval(currentCard, REVIEW_QUALITY.EASY)} ngày
+                {getNextIntervalLabel(currentCard, REVIEW_QUALITY.EASY)}
               </span>
             </button>
           </div>

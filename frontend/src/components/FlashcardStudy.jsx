@@ -1,6 +1,21 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Check, RotateCw } from 'lucide-react';
+import CollapsibleExample from './CollapsibleExample';
+
+function speakJapanese(text) {
+  if (!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  
+  // Extract just the Japanese part if the block has translation in parentheses
+  const jaText = text.split('\n')[0] || text;
+  
+  const utterance = new SpeechSynthesisUtterance(jaText);
+  utterance.lang = 'ja-JP';
+  utterance.rate = 0.85;
+  utterance.pitch = 1.0;
+  window.speechSynthesis.speak(utterance);
+}
 
 export default function FlashcardStudy({ deck, onComplete }) {
   const navigate = useNavigate();
@@ -167,11 +182,6 @@ export default function FlashcardStudy({ deck, onComplete }) {
               <p className="font-jp text-5xl md:text-6xl font-bold text-on-surface text-center tracking-tight leading-snug">
                 {currentCard.front}
               </p>
-              {currentCard.romaji && (
-                <p className="text-lg md:text-xl text-on-surface-variant font-medium tracking-wide mt-3">
-                  {currentCard.romaji}
-                </p>
-              )}
             </div>
 
             {/* Bottom hint */}
@@ -204,22 +214,23 @@ export default function FlashcardStudy({ deck, onComplete }) {
             {/* Middle Content */}
             <div className="flex-1 flex flex-col items-center justify-center w-full max-w-md my-auto gap-4">
               <div className="text-center w-full">
-                <p className="text-[9px] font-bold uppercase tracking-widest text-on-surface-variant/40 mb-1">Giải nghĩa</p>
+                <p className="text-[9px] font-bold uppercase tracking-widest text-on-surface-variant/40 mb-1">Giải nghĩa & Cách đọc</p>
+                {currentCard.romaji && (
+                  <p className="font-jp text-lg text-secondary font-bold mb-2">
+                    {currentCard.romaji}
+                  </p>
+                )}
                 <p className="text-2xl md:text-3xl font-black text-on-surface tracking-wide leading-snug">
                   {currentCard.back}
                 </p>
               </div>
 
               {currentCard.example && (
-                <div
-                  className="w-full p-4 bg-surface-container-low/50 border border-outline-variant/30 overflow-y-auto max-h-[110px] custom-scrollbar border-l-4 border-l-secondary text-left"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <p className="text-[9px] font-bold text-on-surface-variant/50 uppercase mb-1 tracking-wider">Ví dụ câu</p>
-                  <p className="text-sm font-medium leading-relaxed font-jp text-on-surface">
-                    {currentCard.example}
-                  </p>
-                </div>
+                <CollapsibleExample 
+                  example={currentCard.example} 
+                  onSpeak={speakJapanese} 
+                  maxHeightClass="max-h-[110px]"
+                />
               )}
             </div>
 
