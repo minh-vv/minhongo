@@ -10,6 +10,17 @@ import {
   getDirectionLabels,
 } from '../utils/quizUtils';
 
+/** Phát âm tiếng Nhật qua Web Speech API */
+function speakJapanese(text) {
+  if (!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = 'ja-JP';
+  utterance.rate = 0.85;
+  utterance.pitch = 1.0;
+  window.speechSynthesis.speak(utterance);
+}
+
 // ===== Question generation =====
 
 /**
@@ -322,6 +333,19 @@ function QuizScreen({ questions, onFinish, timerSeconds, direction }) {
     }
   }, [currentIndex, isAnswered, current?.mode]);
 
+  // Tự động phát âm tiếng Nhật khi câu hỏi mới hiển thị (nếu là trắc nghiệm / điền từ ở chiều Nhật -> Việt)
+  useEffect(() => {
+    if (direction === 'normal' && current?.question) {
+      const t = setTimeout(() => {
+        speakJapanese(current.question);
+      }, 400);
+      return () => {
+        clearTimeout(t);
+        window.speechSynthesis?.cancel();
+      };
+    }
+  }, [currentIndex, current?.question, direction]);
+
   // Keyboard shortcuts
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -344,11 +368,11 @@ function QuizScreen({ questions, onFinish, timerSeconds, direction }) {
 
   const getOptionStyle = (option) => {
     if (!isAnswered)
-      return { border: '1px solid rgba(0,0,0,0.12)', bg: 'bg-surface-container-lowest text-on-surface hover:border-secondary hover:bg-secondary/5' };
+      return { border: '2px solid rgba(0,0,0,0.15)', bg: 'bg-surface-container-lowest text-on-surface hover:border-secondary hover:bg-secondary/5 hover:translate-y-[-1px] transition-all duration-150 sharp-shadow-sm' };
     if (option === current.answer)
-      return { border: '2px solid #4caf50', bg: 'bg-green-500/10 text-green-800' };
+      return { border: '2px solid #4caf50', bg: 'bg-green-500/10 text-green-800 sharp-shadow-sm' };
     if (option === selectedOption && option !== current.answer)
-      return { border: '2px solid var(--secondary)', bg: 'bg-secondary/10 text-secondary' };
+      return { border: '2px solid var(--secondary)', bg: 'bg-secondary/10 text-secondary sharp-shadow-sm' };
     return { border: '1px solid rgba(0,0,0,0.06)', bg: 'bg-surface-container-low text-on-surface-variant/40 opacity-50' };
   };
 
@@ -418,8 +442,8 @@ function QuizScreen({ questions, onFinish, timerSeconds, direction }) {
                 className={`p-4 text-left transition-all ${optStyle.bg}`}
                 style={{ border: optStyle.border }}
               >
-                <span className="inline-flex items-center justify-center w-5 h-5 bg-surface border border-outline-variant/30 text-on-surface-variant text-[10px] font-bold mb-2">
-                  {shortcutKey}
+                <span className="inline-flex items-center justify-center w-8 h-5 bg-surface border-2 border-secondary text-secondary text-[10px] font-black tracking-wider sharp-shadow-sm mb-2 mr-1">
+                  {shortcutKey} / {i + 1}
                 </span>
                 <p className="text-xs font-semibold leading-relaxed">{option}</p>
               </button>
@@ -439,13 +463,13 @@ function QuizScreen({ questions, onFinish, timerSeconds, direction }) {
             onKeyDown={(e) => e.key === 'Enter' && !isAnswered && handleFillInBlankSubmit()}
             disabled={isAnswered}
             placeholder={labels.answerPlaceholder}
-            className="w-full px-4 py-3 text-base border bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant outline-none transition-all"
+            className="w-full px-4 py-3 text-base border bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant outline-none transition-all focus:border-secondary focus:ring-1 focus:ring-secondary/50 sharp-shadow-sm"
             style={{
               border: isAnswered
                 ? isCorrect
                   ? '2px solid #4caf50'
                   : '2px solid var(--secondary)'
-                : '1px solid rgba(0,0,0,0.15)',
+                : '2px solid rgba(0,0,0,0.15)',
               background: isAnswered
                 ? isCorrect
                   ? 'rgba(76,175,80,0.06)'

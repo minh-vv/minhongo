@@ -335,7 +335,13 @@ export default function DeckDetailPage() {
         <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-4 text-white">
           <div className="min-w-0">
             <button
-              onClick={() => navigate('/dashboard')}
+              onClick={() => {
+                if (window.history.length > 1) {
+                  navigate(-1);
+                } else {
+                  navigate('/dashboard');
+                }
+              }}
               className="inline-flex items-center gap-1.5 text-white/70 hover:text-white mb-3 text-xs font-bold uppercase tracking-wider transition-colors"
             >
               <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">

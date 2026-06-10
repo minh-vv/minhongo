@@ -27,8 +27,70 @@ import {
 // ===== Utilities =====
 
 /** Tách câu ví dụ thành mảng từ (split trên khoảng trắng, giữ dấu câu) */
-function splitSentence(text) {
-  return text.trim().split(/\s+/).filter(Boolean);
+/** Tách câu ví dụ thành mảng cụm từ tiếng Nhật một cách chuẩn xác */
+function segmentJapaneseSentence(rawText) {
+  if (!rawText) return [];
+  
+  // 1. Clean parenthesized translation in Vietnamese or English
+  const text = rawText
+    .replace(/\s*[\(\uff08][^\)\uff09]*[A-Za-zà-ỹÀ-ỸđĐ\s,;.\-\?!]+[^\)\uff09]*[\)\uff09]/g, '')
+    .trim();
+
+  if (!text) return [];
+
+  // If the text has spaces, split on spaces
+  if (text.includes(' ') || text.includes('　')) {
+    return text.split(/[\s\u3000]+/).filter(Boolean);
+  }
+
+  // 2. Identify splitting points using particles and punctuation
+  const particles = ['は', 'が', 'を', 'に', 'と', 'で', 'も', 'へ', 'から', 'まで', '、', '。', '！', '？', '!', '?'];
+  const chunks = [];
+  let currentWord = '';
+
+  for (let i = 0; i < text.length; i++) {
+    const char = text[i];
+    currentWord += char;
+
+    const isParticle = particles.includes(char);
+    const nextChar = text[i + 1];
+    const nextIsParticle = nextChar && particles.includes(nextChar);
+
+    if (isParticle && !nextIsParticle) {
+      chunks.push(currentWord);
+      currentWord = '';
+    }
+  }
+  if (currentWord) {
+    chunks.push(currentWord);
+  }
+
+  // 3. Refine chunks: split any chunk that is too long (> 4 chars)
+  let finalChunks = [];
+  for (const chunk of chunks) {
+    if (chunk.length > 4) {
+      let temp = chunk;
+      while (temp.length > 0) {
+        if (temp.length <= 4) {
+          finalChunks.push(temp);
+          break;
+        } else {
+          const size = temp.length % 3 === 0 ? 3 : 2;
+          finalChunks.push(temp.slice(0, size));
+          temp = temp.slice(size);
+        }
+      }
+    } else {
+      finalChunks.push(chunk);
+    }
+  }
+
+  // If total chunks is still < 3, split the whole text into characters
+  if (finalChunks.length < 3) {
+    finalChunks = text.split('');
+  }
+
+  return finalChunks.filter(Boolean);
 }
 
 /** TTS phát âm tiếng Nhật */
@@ -53,7 +115,7 @@ function buildExercise(card, allCards, type) {
       return { card, type };
     case 'arrangement': {
       if (!card.example) return null;
-      const words = splitSentence(card.example);
+      const words = segmentJapaneseSentence(card.example);
       if (words.length < 3) return null;
       return { card, type, correct: words, shuffled: shuffleArray(words) };
     }
@@ -82,7 +144,7 @@ function SetupScreen({ deck, onStart }) {
     prev.includes(id) ? prev.filter((t) => t !== id) : [...prev, id]
   );
 
-  const hasExamples = (deck?.cards || []).some((c) => c.example && splitSentence(c.example).length >= 3);
+  const hasExamples = (deck?.cards || []).some((c) => c.example && segmentJapaneseSentence(c.example).length >= 3);
 
   return (
     <div className="max-w-xl mx-auto p-4 md:p-6 space-y-6 animate-fade-up">
@@ -191,10 +253,10 @@ function MultipleChoiceEx({ exercise, onAnswer }) {
   }, [answered, exercise.card.back, onAnswer]);
 
   const style = (opt) => {
-    if (!answered) return { border: '1px solid rgba(0,0,0,0.12)', background: 'var(--surface)', cursor: 'pointer' };
-    if (opt === exercise.card.back) return { border: '2px solid #2e7d32', background: 'rgba(76,175,80,0.06)', color: '#2e7d32' };
-    if (opt === selected) return { border: '2px solid var(--secondary)', background: 'rgba(198,40,40,0.06)', color: 'var(--secondary)' };
-    return { border: '1px solid rgba(0,0,0,0.08)', background: 'var(--surface)', opacity: 0.4 };
+    if (!answered) return { border: '2px solid rgba(0,0,0,0.15)', background: 'var(--surface)', cursor: 'pointer' };
+    if (opt === exercise.card.back) return { border: '2px solid #2e7d32', background: 'rgba(76,175,80,0.06)', color: '#2e7d32', boxShadow: 'none' };
+    if (opt === selected) return { border: '2px solid var(--secondary)', background: 'rgba(198,40,40,0.06)', color: 'var(--secondary)', boxShadow: 'none' };
+    return { border: '1px solid rgba(0,0,0,0.08)', background: 'var(--surface)', opacity: 0.4, boxShadow: 'none' };
   };
 
   // Keyboard shortcuts
@@ -216,13 +278,12 @@ function MultipleChoiceEx({ exercise, onAnswer }) {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
         {exercise.options.map((opt, i) => (
           <button key={i} onClick={() => handleSelect(opt)}
-            className="p-4 text-left transition-all text-xs font-bold flex gap-3 items-start"
+            className="p-4 text-left transition-all text-xs font-bold flex gap-3 items-start sharp-shadow-sm hover:-translate-y-0.5 active:translate-y-0 hover:shadow-md transition-all duration-150"
             style={style(opt)}>
-            <span className="inline-flex items-center justify-center w-5 h-5 text-center text-[10px] font-bold leading-5 shrink-0"
-              style={{ background: 'rgba(0,0,0,0.06)' }}>
+            <span className="inline-flex items-center justify-center w-5 h-5 text-center text-[10px] font-black leading-5 shrink-0 bg-surface border-2 border-secondary text-secondary sharp-shadow-sm">
               {String.fromCharCode(65 + i)}
             </span>
-            <p className="leading-relaxed text-inherit flex-1">{opt}</p>
+            <p className="leading-relaxed text-inherit flex-1 pt-0.5">{opt}</p>
           </button>
         ))}
       </div>
@@ -279,7 +340,7 @@ function FillInBlankEx({ exercise, onAnswer }) {
         onKeyDown={(e) => e.key === 'Enter' && handleSubmit()}
         disabled={answered}
         placeholder="Nhập nghĩa tiếng Việt..."
-        className="w-full px-4 py-3 text-sm outline-none transition-all"
+        className="w-full px-4 py-3 text-sm outline-none transition-all focus:border-secondary focus:ring-1 focus:ring-secondary/50 sharp-shadow-sm"
         style={{
           border: `2px solid ${!answered ? 'rgba(0,0,0,0.15)' : isCorrect ? '#2e7d32' : 'var(--secondary)'}`,
           background: !answered ? 'var(--surface)' : isCorrect ? 'rgba(76,175,80,0.04)' : 'rgba(198,40,40,0.04)',
@@ -421,6 +482,14 @@ function ListeningEx({ exercise, onAnswer }) {
     setTimeout(() => inputRef.current?.focus(), 600);
   };
 
+  // Tự động phát âm ngay khi dạng bài nghe tải lên
+  useEffect(() => {
+    const t = setTimeout(() => {
+      handlePlay();
+    }, 400);
+    return () => clearTimeout(t);
+  }, []);
+
   const handleSubmit = () => {
     if (answered || !value.trim()) return;
     const match = fuzzyMatch(value.trim(), exercise.card.back);
@@ -498,7 +567,7 @@ function ListeningEx({ exercise, onAnswer }) {
         onKeyDown={(e) => e.key === 'Enter' && handleSubmit()}
         disabled={answered || !played}
         placeholder={played ? 'Nghĩa tiếng Việt...' : 'Vui lòng nghe trước...'}
-        className="w-full px-4 py-3 text-sm outline-none transition-all"
+        className="w-full px-4 py-3 text-sm outline-none transition-all focus:border-secondary focus:ring-1 focus:ring-secondary/50 sharp-shadow-sm"
         style={{
           border: `2px solid ${!answered ? 'rgba(0,0,0,0.15)' : isCorrect ? '#2e7d32' : 'var(--secondary)'}`,
           background: !answered ? 'var(--surface)' : isCorrect ? 'rgba(76,175,80,0.04)' : 'rgba(198,40,40,0.04)',
@@ -568,6 +637,17 @@ function ExerciseRunner({ exercises, onComplete }) {
   const current = exercises[idx];
   const progress = Math.round((idx / exercises.length) * 100);
   const correctSoFar = results.filter((r) => r.correct).length;
+
+  // Tự động phát âm khi câu hỏi mới hiển thị (nếu là trắc nghiệm hoặc điền từ)
+  useEffect(() => {
+    if (!current) return;
+    if (current.type === 'multiple-choice' || current.type === 'fill-in-blank') {
+      const t = setTimeout(() => {
+        speakJP(current.card.front);
+      }, 400);
+      return () => clearTimeout(t);
+    }
+  }, [idx, current]);
 
   // --- Declare handlers BEFORE useEffect ---
 
