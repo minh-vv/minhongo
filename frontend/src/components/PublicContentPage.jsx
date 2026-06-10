@@ -3,7 +3,7 @@
  * (Kanji, Vocabulary, Grammar). Admin can upload Anki decks; all users can study.
  */
 import { useState, useEffect, useMemo, useCallback } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useParams, useNavigate, useLocation } from 'react-router-dom';
 import axios from '../api/axios';
 import { useAuth } from '../hooks/useAuth';
 import ImportAnkiModal from './ImportAnkiModal';
@@ -300,18 +300,30 @@ function EmptyState({ hasFilter, onClear, ghostChar, accentColor }) {
   );
 }
 
+const getLessonNumber = (name) => {
+  const match = name.match(/Bài\s*(?:học\s*)?(\d+)/i);
+  return match ? parseInt(match[1]) : 999;
+};
+
 export default function PublicContentPage({ title, subtitle, category, accentColor, ghostChar }) {
   const { user } = useAuth();
   const isAdmin = user?.isAdmin ?? false;
+  const navigate = useNavigate();
+  const location = useLocation();
+  const { bookId, level } = useParams();
+
+  const basePath = useMemo(() => {
+    return location.pathname.startsWith('/kanji') ? '/kanji' : '/vocabulary';
+  }, [location.pathname]);
 
   const [decks, setDecks]     = useState([]);
   const [loading, setLoading] = useState(true);
-  const [selectedLevel, setSelectedLevel] = useState(null);
-  const [selectedTheme, setSelectedTheme] = useState(null);
-  const [selectedBookLevel, setSelectedBookLevel] = useState(null); // { bookId, level }
-  const [search, setSearch]   = useState('');
-  const [sort, setSort]       = useState('newest');
   const [showUpload, setShowUpload] = useState(false);
+
+  const selectedBookLevel = useMemo(() => {
+    if (!bookId || !level) return null;
+    return { bookId, level: parseInt(level) };
+  }, [bookId, level]);
 
   const fetchDecks = useCallback(() => {
     setLoading(true);
@@ -323,13 +335,6 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
 
   useEffect(() => { fetchDecks(); }, [fetchDecks]);
 
-  const activeThemes = useMemo(
-    () => THEMES.filter((t) => decks.some((d) => deckMatchesTheme(d, t))),
-    [decks],
-  );
-
-  const isSearchingGlobally = !!(search.trim() || selectedTheme || selectedLevel) && !selectedBookLevel;
-
   const filtered = useMemo(() => {
     let result = decks;
 
@@ -339,73 +344,120 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
         const lvl = d.jlptLevel || 5;
         return book.id === selectedBookLevel.bookId && lvl === selectedBookLevel.level;
       });
-    } else {
-      if (selectedLevel) result = result.filter((d) => d.jlptLevel === selectedLevel);
     }
 
-    if (selectedTheme) {
-      const theme = THEMES.find((t) => t.id === selectedTheme);
-      if (theme) result = result.filter((d) => deckMatchesTheme(d, theme));
-    }
-
-    if (search.trim()) {
-      const q = search.trim().toLowerCase();
-      result = result.filter((d) =>
-        d.name.toLowerCase().includes(q) || d.description?.toLowerCase().includes(q)
-      );
-    }
-
-    return sortDecks(result, sort);
-  }, [decks, selectedBookLevel, selectedLevel, selectedTheme, search, sort]);
+    return result.sort((a, b) => {
+      const numA = getLessonNumber(a.name);
+      const numB = getLessonNumber(b.name);
+      if (numA !== numB) return numA - numB;
+      return a.name.localeCompare(b.name);
+    });
+  }, [decks, selectedBookLevel]);
 
   const groupedBooks = useMemo(() => {
-    if (isSearchingGlobally || selectedBookLevel) return [];
+    if (selectedBookLevel) return [];
     return groupDecksByBookAndLevel(decks, category);
-  }, [decks, category, isSearchingGlobally, selectedBookLevel]);
+  }, [decks, category, selectedBookLevel]);
 
   const totalCards = decks.reduce((sum, d) => sum + (d._count?.cards || 0), 0);
 
   return (
     <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-8">
 
-      {/* ── HERO ─────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden animate-fade-up" style={{ minHeight: 130 }}>
+      {/* ── HERO & BREADCRUMBS MERGED ─────────────────────────────── */}
+      <section className="relative overflow-hidden animate-fade-up" style={{ minHeight: selectedBookLevel ? undefined : 130 }}>
         <div className="absolute inset-0" style={{
           background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 60%, #0d1b5e 100%)'
         }} />
         <div className="absolute inset-0 asanoha-bg opacity-20" />
         <div className="absolute right-0 top-0 bottom-0 w-1" style={{ background: 'var(--secondary)' }} />
 
-        <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div className="min-w-0">
-            <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4"
-              style={{ backdropFilter: 'blur(4px)' }}>
-              <span className="w-1.5 h-1.5 rotate-45" style={{ background: 'var(--secondary)' }} />
-              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">
-                JLPT N5 → N1
-              </span>
+        {selectedBookLevel ? (
+          /* Merged layout when a book level is selected */
+          <div className="relative z-10 p-6 md:p-8 flex flex-col gap-6">
+            {/* Top row: Back button & Breadcrumbs */}
+            <div className="flex flex-wrap items-center gap-3 text-white/80">
+              <button
+                onClick={() => navigate(basePath)}
+                className="flex items-center gap-1.5 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-white border border-white/20 hover:bg-white/10 transition-all backdrop-blur-sm"
+              >
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                Quay lại
+              </button>
+              <div className="flex items-center gap-1.5 text-xs font-semibold text-white/85">
+                <span className="cursor-pointer hover:text-white transition-colors" onClick={() => navigate(basePath)}>Tất cả giáo trình</span>
+                <span className="text-white/40">/</span>
+                <span>{getBookInfo({ name: selectedBookLevel.bookId }).title}</span>
+                <span className="text-white/40">/</span>
+                <span className="font-bold text-white">Cấp độ N{selectedBookLevel.level}</span>
+              </div>
             </div>
-            <h1 className="font-headline text-3xl font-bold text-white"
-              style={{ letterSpacing: '-0.02em' }}>
-              {title}
-            </h1>
-            <p className="text-white/50 text-sm mt-2 max-w-lg">{subtitle}</p>
-          </div>
 
-          {/* Stats */}
-          <div className="flex gap-3 flex-shrink-0">
-            <div className="text-center bg-white/10 px-5 py-3"
-              style={{ backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.1)' }}>
-              <p className="text-2xl font-black text-white leading-none">{decks.length}</p>
-              <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Bộ thẻ</p>
-            </div>
-            <div className="text-center bg-white/10 px-5 py-3"
-              style={{ backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.1)' }}>
-              <p className="text-2xl font-black text-white leading-none">{totalCards}</p>
-              <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Thẻ học</p>
+            {/* Bottom row: Title & Stats / Actions */}
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+              <div>
+                <h1 className="font-headline text-2xl md:text-3xl font-bold text-white leading-tight">
+                  {getBookInfo({ name: selectedBookLevel.bookId }).title} N{selectedBookLevel.level}
+                </h1>
+                <p className="text-white/60 text-xs mt-1 font-medium">
+                  {getBookLevelCardMeta(selectedBookLevel.bookId, selectedBookLevel.level, category).bottomDesc}
+                </p>
+              </div>
+
+              {/* Stats & Actions */}
+              <div className="flex items-center gap-3 shrink-0 self-start md:self-auto">
+                <div className="flex gap-2 text-white text-xs font-bold bg-white/10 px-3 py-1.5 border border-white/10 backdrop-blur-sm">
+                  <span>{filtered.length} bài học</span>
+                  <span className="text-white/30">|</span>
+                  <span>{filtered.reduce((sum, d) => sum + (d._count?.cards || 0), 0)} {category === 'TUVUNG' ? 'từ vựng' : category === 'HANTU' ? 'hán tự' : 'thẻ'}</span>
+                </div>
+                {isAdmin && (
+                  <button
+                    onClick={() => setShowUpload(true)}
+                    className="flex items-center gap-2 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors"
+                    style={{ background: 'var(--secondary)' }}
+                  >
+                    Upload Anki
+                  </button>
+                )}
+              </div>
             </div>
           </div>
-        </div>
+        ) : (
+          /* Default full hero layout */
+          <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div className="min-w-0">
+              <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4"
+                style={{ backdropFilter: 'blur(4px)' }}>
+                <span className="w-1.5 h-1.5 rotate-45" style={{ background: 'var(--secondary)' }} />
+                <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">
+                  JLPT N5 → N1
+                </span>
+              </div>
+              <h1 className="font-headline text-3xl font-bold text-white"
+                style={{ letterSpacing: '-0.02em' }}>
+                {title}
+              </h1>
+              <p className="text-white/50 text-sm mt-2 max-w-lg">{subtitle}</p>
+            </div>
+
+            {/* Stats */}
+            <div className="flex gap-3 flex-shrink-0">
+              <div className="text-center bg-white/10 px-5 py-3"
+                style={{ backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.1)' }}>
+                <p className="text-2xl font-black text-white leading-none">{decks.length}</p>
+                <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Bộ thẻ</p>
+              </div>
+              <div className="text-center bg-white/10 px-5 py-3"
+                style={{ backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.1)' }}>
+                <p className="text-2xl font-black text-white leading-none">{totalCards}</p>
+                <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Thẻ học</p>
+              </div>
+            </div>
+          </div>
+        )}
 
         <div className="absolute -right-4 -bottom-4 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none"
           style={{ fontSize: 160 }}>
@@ -413,180 +465,18 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
         </div>
       </section>
 
-      {/* ── Search + Admin upload ────────────────────────────── */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-        <div className="relative flex-1 sm:max-w-md">
-          <svg className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-on-surface-variant pointer-events-none"
-            fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-            <circle cx="11" cy="11" r="8"/><path strokeLinecap="round" strokeLinejoin="round" d="m21 21-4.34-4.34"/>
-          </svg>
-          <input
-            type="text"
-            placeholder={selectedBookLevel ? "Tìm kiếm trong bài học..." : "Tìm kiếm bộ thẻ..."}
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            className="w-full pl-10 pr-4 py-2.5 text-sm bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant focus:outline-none"
-            style={{ border: '1px solid rgba(0,0,0,0.12)' }}
-          />
-        </div>
-
-        <div className="flex items-center gap-2">
+      {/* Admin Actions Bar (only home view) */}
+      {!selectedBookLevel && isAdmin && (
+        <div className="flex justify-end pb-2">
           <button
-            onClick={() => {
-              setSearch('');
-              setSelectedLevel(null);
-              setSelectedTheme(null);
-              setSelectedBookLevel(null);
-            }}
-            className="px-3 py-2.5 text-xs font-semibold uppercase tracking-wider text-on-surface-variant hover:bg-surface-container transition-colors"
-            style={{ border: '1px solid rgba(0,0,0,0.12)' }}
-            title="Xoá bộ lọc"
+            onClick={() => setShowUpload(true)}
+            className="flex items-center gap-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors"
+            style={{ background: 'var(--secondary)' }}
           >
-            Mặc định
+            Upload Anki
           </button>
-
-          {isAdmin && (
-            <button
-              onClick={() => setShowUpload(true)}
-              className="flex items-center gap-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors"
-              style={{ background: 'var(--secondary)' }}
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
-              </svg>
-              Upload Anki
-            </button>
-          )}
-        </div>
-      </div>
-
-      {/* ── Breadcrumb & Back button Header ────────────────────── */}
-      {selectedBookLevel && (
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-outline-variant/30">
-          <div className="flex items-center gap-3">
-            <button
-              onClick={() => setSelectedBookLevel(null)}
-              className="flex items-center gap-2 px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-primary border-2 border-primary/20 hover:bg-primary/5 transition-all"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-              </svg>
-              Quay lại
-            </button>
-            <div className="flex items-center gap-2 text-xs font-semibold text-on-surface-variant/80">
-              <span className="cursor-pointer hover:text-primary transition-colors" onClick={() => setSelectedBookLevel(null)}>Tất cả giáo trình</span>
-              <svg className="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-              </svg>
-              <span>{getBookInfo({ name: selectedBookLevel.bookId === 'minna' ? 'Minna' : selectedBookLevel.bookId === 'kanzen' ? 'Kanzen' : selectedBookLevel.bookId === 'soumatome' ? 'Soumatome' : '' }).title}</span>
-              <svg className="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-              </svg>
-              <span className="font-bold text-on-surface">Cấp độ N{selectedBookLevel.level}</span>
-            </div>
-          </div>
         </div>
       )}
-
-      {isSearchingGlobally && (
-        <div className="flex items-center justify-between pb-4 border-b border-outline-variant/30">
-          <div className="flex items-center gap-3">
-            <button
-              onClick={() => { setSearch(''); setSelectedLevel(null); setSelectedTheme(null); }}
-              className="flex items-center gap-2 px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-primary border-2 border-primary/20 hover:bg-primary/5 transition-all"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-              </svg>
-              Quay lại danh sách sách
-            </button>
-            <span className="text-xs font-bold text-on-surface-variant">
-              Kết quả tìm kiếm toàn hệ thống
-            </span>
-          </div>
-        </div>
-      )}
-
-      {/* ── Filter + Sort bar (only show JLPT tabs when NOT inside selected book-level) ────────────────── */}
-      <div className="flex flex-col md:flex-row gap-4 md:items-center justify-between pb-5"
-        style={{ borderBottom: '1px solid rgba(0,0,0,0.07)' }}>
-
-        {!selectedBookLevel ? (
-          <div className="flex gap-1 overflow-x-auto w-full min-w-0 md:w-auto pb-1 md:pb-0 no-scrollbar">
-            <button
-              onClick={() => setSelectedLevel(null)}
-              className="whitespace-nowrap px-3.5 py-1.5 text-xs font-bold transition-colors uppercase tracking-wider shrink-0"
-              style={selectedLevel === null
-                ? { background: accentColor, color: '#fff' }
-                : { background: 'var(--surface-container-low)', color: 'var(--on-surface-variant)', border: '1px solid rgba(0,0,0,0.06)' }
-              }
-            >
-              Tất cả cấp độ
-            </button>
-            {JLPT_LEVELS.map((level) => (
-              <button
-                key={level}
-                onClick={() => setSelectedLevel(level)}
-                className="whitespace-nowrap px-3.5 py-1.5 text-xs font-bold transition-colors uppercase tracking-wider shrink-0"
-                style={selectedLevel === level
-                  ? { background: accentColor, color: '#fff' }
-                  : { background: 'var(--surface-container-low)', color: 'var(--on-surface-variant)', border: '1px solid rgba(0,0,0,0.06)' }
-                }
-              >
-                N{level}
-              </button>
-            ))}
-          </div>
-        ) : (
-          <div className="text-xs font-bold text-on-surface-variant uppercase tracking-wider">
-            Bộ lọc & Sắp xếp bài học
-          </div>
-        )}
-
-        {/* Theme chips — chỉ hiện khi có ít nhất 1 theme có data */}
-        {activeThemes.length > 0 && (
-          <div className="flex gap-2 flex-wrap mt-3 md:mt-0 w-full md:w-auto">
-            {activeThemes.map((theme) => {
-              const isActive = selectedTheme === theme.id;
-              return (
-                <button
-                  key={theme.id}
-                  onClick={() => setSelectedTheme(isActive ? null : theme.id)}
-                  className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold transition-all"
-                  style={{
-                    border: `1px solid ${isActive ? accentColor : 'rgba(0,0,0,0.1)'}`,
-                    background: isActive ? `color-mix(in srgb, ${accentColor} 10%, transparent)` : 'var(--surface)',
-                    color: isActive ? accentColor : 'var(--on-surface-variant)',
-                  }}
-                >
-                  <span>{theme.icon}</span>
-                  {theme.label}
-                </button>
-              );
-            })}
-          </div>
-        )}
-
-        <div className="flex items-center gap-2 shrink-0">
-          <span className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest">Sắp xếp</span>
-          <select
-            value={sort}
-            onChange={(e) => setSort(e.target.value)}
-            className="px-3 py-1.5 text-xs font-semibold bg-surface text-on-surface focus:outline-none transition-colors cursor-pointer uppercase tracking-wider appearance-none pr-8"
-            style={{
-              border: '1px solid rgba(0,0,0,0.15)',
-              backgroundImage: `url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e")`,
-              backgroundRepeat: 'no-repeat',
-              backgroundPosition: 'right 0.5rem center',
-              backgroundSize: '1em',
-            }}
-          >
-            {SORT_OPTIONS.map((o) => (
-              <option key={o.value} value={o.value}>{o.label}</option>
-            ))}
-          </select>
-        </div>
-      </div>
 
       {/* ── Content ──────────────────────────────────────────── */}
       {loading ? (
@@ -596,9 +486,9 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
           </div>
           <p className="text-on-surface-variant font-medium mt-4">Đang tải...</p>
         </div>
-      ) : !selectedBookLevel && !isSearchingGlobally ? (
+      ) : !selectedBookLevel ? (
         /* Render Books & Levels cards */
-        <div className="space-y-12">
+        <div className="space-y-12 animate-fade-up">
           {groupedBooks.map((book) => (
             <div key={book.id} className="space-y-6">
               <div className="border-l-4 pl-3" style={{ borderColor: accentColor || 'var(--primary)' }}>
@@ -614,7 +504,7 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
                   return (
                     <button
                       key={level}
-                      onClick={() => setSelectedBookLevel({ bookId: book.id, level })}
+                      onClick={() => navigate(`${basePath}/${book.id}/${level}`)}
                       className="group relative flex flex-col justify-between bg-surface-container-lowest p-5 transition-all sharp-shadow hover:sharp-shadow-sm hover:-translate-y-0.5 text-left w-full border-2 border-outline-variant/50 overflow-hidden min-h-[180px]"
                     >
                       {/* Top accent line */}
@@ -658,32 +548,71 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
         </div>
       ) : filtered.length === 0 ? (
         <EmptyState
-          hasFilter={selectedLevel !== null || selectedTheme !== null || search.trim() !== ''}
-          onClear={() => { setSelectedLevel(null); setSelectedTheme(null); setSearch(''); setSelectedBookLevel(null); }}
+          hasFilter={!!selectedBookLevel}
+          onClear={() => navigate(basePath)}
           ghostChar={ghostChar}
           accentColor={accentColor}
         />
       ) : (
-        <>
-          <div className="flex items-center gap-3 mb-5">
-            <p className="text-sm text-on-surface-variant">
+        /* Render Decks in a timeline flow */
+        <div className="space-y-8 animate-fade-up">
+          <div className="flex items-center justify-between text-sm text-on-surface-variant px-1">
+            <p>
               Hiển thị <span className="font-bold text-on-surface">{filtered.length}</span> bài học
             </p>
-            {selectedTheme && (
-              <span className="flex items-center gap-1 px-2.5 py-1 text-xs font-semibold"
-                style={{ background: `color-mix(in srgb, ${accentColor} 12%, transparent)`, color: accentColor }}>
-                {THEMES.find((t) => t.id === selectedTheme)?.icon}{' '}
-                {THEMES.find((t) => t.id === selectedTheme)?.label}
-                <button onClick={() => setSelectedTheme(null)} className="ml-1 opacity-60 hover:opacity-100">×</button>
-              </span>
-            )}
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            {filtered.map((deck) => (
-              <DeckCard key={deck.id} deck={deck} accentColor={accentColor} />
-            ))}
+
+          <div className="relative border-l-2 border-primary/20 ml-6 pl-8 py-2 space-y-6">
+            {filtered.map((deck, index) => {
+              const lessonNum = getLessonNumber(deck.name);
+              const displayNum = lessonNum !== 999 ? lessonNum : index + 1;
+              
+              let unitText = 'thẻ';
+              if (category === 'TUVUNG') unitText = 'từ vựng';
+              else if (category === 'HANTU') unitText = 'hán tự';
+
+              return (
+                <div key={deck.id} className="relative">
+                  {/* Timeline Dot */}
+                  <div className="absolute -left-[46px] top-6 w-8 h-8 rounded-full bg-surface-container-lowest border-2 flex items-center justify-center text-xs font-black shadow-sm"
+                    style={{ borderColor: accentColor || 'var(--primary)', color: accentColor || 'var(--primary)' }}>
+                    {displayNum}
+                  </div>
+
+                  {/* Card Content */}
+                  <Link
+                    to={`/deck/${deck.id}`}
+                    className="group bg-surface-container-lowest border-2 border-outline-variant/50 p-5 flex flex-col md:flex-row md:items-center justify-between gap-4 transition-all sharp-shadow hover:sharp-shadow-sm hover:-translate-y-0.5 w-full text-left"
+                  >
+                    <div className="space-y-1">
+                      <h3 className="font-jp font-bold text-on-surface text-base group-hover:text-primary transition-colors">
+                        {deck.name}
+                      </h3>
+                      {deck.description && (
+                        <p className="text-xs text-on-surface-variant max-w-2xl leading-relaxed">
+                          {deck.description}
+                        </p>
+                      )}
+                    </div>
+
+                    <div className="flex items-center justify-between md:justify-end gap-6 shrink-0 border-t md:border-t-0 pt-3 md:pt-0 border-outline-variant/20">
+                      <span className="text-xs font-bold px-2.5 py-1 bg-surface-container text-on-surface border border-outline-variant/40">
+                        {deck._count?.cards || 0} {unitText}
+                      </span>
+                      <span className="inline-flex items-center gap-1 text-xs font-bold opacity-80 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all"
+                        style={{ color: accentColor || 'var(--primary)' }}>
+                        Học ngay
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                        </svg>
+                      </span>
+                    </div>
+                  </Link>
+                </div>
+              );
+            })}
           </div>
-        </>
+        </div>
       )}
 
       {/* Admin: Import Anki Modal */}

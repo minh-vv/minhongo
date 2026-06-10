@@ -1,19 +1,34 @@
 /**
- * Auto-seed — Tự động đồng bộ dữ liệu khóa học mỗi khi deploy.
+ * Auto-seed — Tự động đồng bộ dữ liệu khóa học khi database trống.
  * 
- * Script này chạy TỰ ĐỘNG mỗi khi container backend khởi động.
- * Sử dụng import-data.js (upsert) nên an toàn chạy nhiều lần —
- * data mới sẽ được cập nhật, data cũ giữ nguyên, không bị trùng lặp.
+ * Script này chạy mỗi khi container backend khởi động, nhưng CHỈ seed
+ * khi database chưa có dữ liệu khóa học (course.count === 0).
+ * Nếu database đã có dữ liệu, script sẽ bỏ qua để tiết kiệm thời gian.
  * 
- * Dùng: node prisma/scripts/auto-seed.js
+ * Để force re-seed: node prisma/scripts/import-data.js
  */
 
 const { execSync } = require('child_process');
 const path = require('path');
 const fs = require('fs');
+const { PrismaClient } = require('@prisma/client');
 
 async function main() {
-  console.log('\n📦 [Auto-Seed] Đồng bộ dữ liệu khóa học vào database...');
+  console.log('\n📦 [Auto-Seed] Kiểm tra dữ liệu khóa học...');
+
+  const prisma = new PrismaClient();
+  try {
+    const courseCount = await prisma.course.count();
+    if (courseCount > 0) {
+      console.log(`  ✅ Database đã có ${courseCount} khóa học. Bỏ qua seed.`);
+      console.log('  💡 Để force re-seed: node prisma/scripts/import-data.js\n');
+      return;
+    }
+
+    console.log('  📭 Database trống. Bắt đầu seed dữ liệu...');
+  } finally {
+    await prisma.$disconnect();
+  }
 
   const importScript = path.join(__dirname, 'import-data.js');
 
@@ -36,3 +51,4 @@ async function main() {
 }
 
 main();
+

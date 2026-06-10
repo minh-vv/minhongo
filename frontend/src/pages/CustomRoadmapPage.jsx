@@ -457,7 +457,7 @@ export default function CustomRoadmapPage() {
   const toggleMutation = useMutation({
     mutationFn: (itemId) => aiApi.completeItem(itemId),
     onSuccess: (updated) => {
-      queryClient.invalidateQueries(['custom-roadmap', id]);
+      queryClient.invalidateQueries({ queryKey: ['custom-roadmap', id] });
       // Update selectedNode locally for immediate UI feedback
       setSelectedNode((prev) => prev ? { ...prev, isCompleted: updated.isCompleted, completedAt: updated.completedAt } : prev);
     },
@@ -467,7 +467,7 @@ export default function CustomRoadmapPage() {
   const deleteMutation = useMutation({
     mutationFn: () => aiApi.deleteRoadmap(id),
     onSuccess: () => {
-      queryClient.invalidateQueries(['custom-roadmaps']);
+      queryClient.invalidateQueries({ queryKey: ['custom-roadmaps'] });
       navigate('/roadmap');
     },
     onError: () => alert('Không thể xóa lộ trình.'),

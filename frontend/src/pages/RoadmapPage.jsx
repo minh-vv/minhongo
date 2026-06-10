@@ -210,7 +210,7 @@ function AiModal({ onClose, onSuccess, userProgress }) {
   const generateMutation = useMutation({
     mutationFn: aiApi.generateRoadmap,
     onSuccess: () => {
-      queryClient.invalidateQueries(['custom-roadmaps']);
+      queryClient.invalidateQueries({ queryKey: ['custom-roadmaps'] });
       onSuccess();
     },
     onError: (err) => {

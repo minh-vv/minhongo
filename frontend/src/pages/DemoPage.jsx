@@ -3,6 +3,7 @@ import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
 import { systemApi } from '../api/systemApi';
+import CollapsibleExample from '../components/CollapsibleExample';
 
 const DEFAULT_DEMO_LIMIT = 5;
 
@@ -35,9 +36,6 @@ function FlipCard({ card, isFlipped, onFlip, onSpeak }) {
           <p className="font-jp text-5xl font-bold text-on-surface text-center leading-tight mb-3">
             {card.front}
           </p>
-          {card.romaji && (
-            <p className="text-lg text-on-surface-variant mt-1">{card.romaji}</p>
-          )}
           {card.jlptLevel && (
             <span className="mt-4 px-3 py-1 text-xs font-bold uppercase tracking-wider"
               style={{ background: 'rgba(245,158,11,0.12)', color: '#b45309' }}>
@@ -72,17 +70,21 @@ function FlipCard({ card, isFlipped, onFlip, onSpeak }) {
           <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-4">
             Nghĩa tiếng Việt
           </p>
+          {card.romaji && (
+            <p className="font-jp text-lg text-secondary font-bold mb-2">
+              {card.romaji}
+            </p>
+          )}
           <p className="font-headline text-3xl font-bold text-on-surface text-center leading-tight mb-4">
             {card.back}
           </p>
           {card.example && (
-            <div className="w-full p-4 bg-surface-container-lowest mt-2"
-              style={{ border: '1px solid rgba(0,0,0,0.06)' }}>
-              <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1.5">
-                Ví dụ
-              </p>
-              <p className="text-sm text-on-surface leading-relaxed">{card.example}</p>
-            </div>
+            <CollapsibleExample 
+              example={card.example} 
+              onSpeak={onSpeak} 
+              containerClass="w-full p-4 bg-surface-container-lowest mt-2 text-left"
+              maxHeightClass="max-h-[110px]"
+            />
           )}
         </div>
       </div>

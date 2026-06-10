@@ -74,8 +74,11 @@ function AppRoutes() {
         <Route path="/" element={<HomePage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/kanji" element={<KanjiPage />} />
+        <Route path="/kanji/:bookId/:level" element={<KanjiPage />} />
         <Route path="/vocabulary" element={<VocabularyPage />} />
+        <Route path="/vocabulary/:bookId/:level" element={<VocabularyPage />} />
         <Route path="/grammar" element={<GrammarPage />} />
+        <Route path="/grammar/:bookId/:level" element={<GrammarPage />} />
         <Route path="/grammar/:deckId" element={<GrammarLessonPage />} />
         <Route path="/roadmap" element={<RoadmapPage />} />
         <Route path="/custom-roadmap/:id" element={<CustomRoadmapPage />} />

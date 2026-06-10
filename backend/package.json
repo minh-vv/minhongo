@@ -20,7 +20,6 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "seed": "ts-node prisma/seed.ts",
     "import:data": "node prisma/scripts/import-data.js",
-    "crawl:jisho": "ts-node prisma/scripts/crawl-jisho.ts",
     "build:lessons": "ts-node prisma/scripts/build-lessons.ts",
     "generate:theory": "ts-node prisma/scripts/generate-theory.ts",
     "translate": "ts-node prisma/scripts/translate-cards.ts"

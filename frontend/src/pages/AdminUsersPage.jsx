@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Navigate } from 'react-router-dom';
-import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+import { useQuery, useMutation, useQueryClient, keepPreviousData } from '@tanstack/react-query';
 import { useAuth } from '../hooks/useAuth';
 import { adminApi } from '../api/adminApi';
 
@@ -132,7 +132,7 @@ export default function AdminUsersPage() {
   const { data: usersData, isLoading, isFetching } = useQuery({
     queryKey: ['adminUsers', debouncedSearch, statusFilter, page],
     queryFn: () => adminApi.getUsers({ search: debouncedSearch, status: statusFilter, page }),
-    keepPreviousData: true,
+    placeholderData: keepPreviousData,
     enabled: !!isAdmin,
   });
 

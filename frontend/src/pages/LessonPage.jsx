@@ -4,6 +4,7 @@ import { useQuery } from '@tanstack/react-query';
 import ReactMarkdown from 'react-markdown';
 import { flashcardApi } from '../api/flashcardApi';
 import aiTutorApi from '../api/aiTutorApi';
+import CollapsibleExample from '../components/CollapsibleExample';
 
 // ===== Utilities =====
 
@@ -224,6 +225,36 @@ function LearnSlide({ card, index, total, onNext }) {
     };
   }, [card.id, handleSpeak]);
 
+  // Hỗ trợ phím tắt bàn phím
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (document.activeElement?.tagName === 'INPUT' || document.activeElement?.tagName === 'TEXTAREA') {
+        return;
+      }
+      if (e.key === ' ' || e.key === 'Spacebar') {
+        e.preventDefault();
+        if (!revealed) {
+          setRevealed(true);
+        }
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (!revealed) {
+          setRevealed(true);
+        } else {
+          onNext();
+        }
+      } else if (e.key === 'ArrowRight') {
+        if (revealed) {
+          e.preventDefault();
+          onNext();
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [revealed, onNext]);
+
   return (
     <div className="max-w-xl mx-auto p-4 md:p-6 space-y-6 animate-fade-up">
       {/* Progress header */}
@@ -299,18 +330,12 @@ function LearnSlide({ card, index, total, onNext }) {
 
             {/* Ví dụ câu */}
             {card.example && (
-              <div className="bg-surface border border-outline-variant/30 p-4 sharp-shadow-sm">
-                <p className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-2">
-                  Ví dụ câu
-                </p>
-                <p className="text-on-surface text-sm font-jp leading-relaxed">{card.example}</p>
-                <button
-                  onClick={() => speakJapanese(card.example)}
-                  className="mt-2 text-[10px] font-bold uppercase tracking-wider text-secondary hover:underline flex items-center gap-1"
-                >
-                  🔊 Nghe câu ví dụ
-                </button>
-              </div>
+              <CollapsibleExample 
+                example={card.example} 
+                onSpeak={speakJapanese} 
+                containerClass="bg-surface border border-outline-variant/30 p-4 sharp-shadow-sm text-left"
+                maxHeightClass="max-h-[150px]"
+              />
             )}
 
             {/* AI Explain Area */}
@@ -727,12 +752,11 @@ export default function LessonPage() {
   const slide = slides[currentSlide];
   if (!slide) return null;
 
+  let slideContent = null;
   if (slide.type === 'overview') {
-    return <OverviewSlide words={lessonWords} onNext={handleSlideNext} />;
-  }
-
-  if (slide.type === 'learn') {
-    return (
+    slideContent = <OverviewSlide words={lessonWords} onNext={handleSlideNext} />;
+  } else if (slide.type === 'learn') {
+    slideContent = (
       <LearnSlide
         key={slide.card.id + '-learn-' + currentSlide}
         card={slide.card}
@@ -741,14 +765,10 @@ export default function LessonPage() {
         onNext={handleSlideNext}
       />
     );
-  }
-
-  if (slide.type === 'checkpoint') {
-    return <CheckpointSlide wordCount={lessonWords.length} onNext={handleSlideNext} />;
-  }
-
-  if (slide.type === 'quiz') {
-    return (
+  } else if (slide.type === 'checkpoint') {
+    slideContent = <CheckpointSlide wordCount={lessonWords.length} onNext={handleSlideNext} />;
+  } else if (slide.type === 'quiz') {
+    slideContent = (
       <QuizSlide
         key={slide.card.id + '-quiz-' + currentSlide}
         card={slide.card}
@@ -760,5 +780,23 @@ export default function LessonPage() {
     );
   }
 
-  return null;
+  return (
+    <div className="space-y-4">
+      <div className="max-w-xl mx-auto px-4 md:px-6 pt-4 flex items-center justify-between">
+        <Link
+          to={`/deck/${deckId}`}
+          className="inline-flex items-center gap-1.5 px-3 py-1.5 border border-outline-variant bg-surface-container-lowest hover:bg-surface-container text-on-surface text-xs font-bold uppercase tracking-wider transition-colors sharp-shadow-sm"
+        >
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+          Thoát học bài
+        </Link>
+        <span className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant bg-surface border border-outline-variant/30 px-2 py-1">
+          {deck.name}
+        </span>
+      </div>
+      {slideContent}
+    </div>
+  );
 }

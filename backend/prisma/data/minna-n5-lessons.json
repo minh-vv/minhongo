@@ -126,6 +126,67 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 1 — Ngữ pháp",
+          "description": "Ngữ pháp bài 1: Bài 1 — Tự giới thiệu (わたしは ◯◯ です)",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "N1 は N2 です",
+              "back": "Mẫu câu cơ bản: N1 は N2 です",
+              "romaji": "",
+              "example": "わたしは マイク です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "です",
+              "back": "Mẫu câu cơ bản: N1 は N2 です",
+              "romaji": "",
+              "example": "わたしは マイク です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "じゃ ありません",
+              "back": "Câu phủ định: じゃ ありません",
+              "romaji": "",
+              "example": "わたしは がくせい じゃ ありません。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "では ありません",
+              "back": "Câu phủ định: じゃ ありません",
+              "romaji": "",
+              "example": "わたしは がくせい じゃ ありません。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜ですか",
+              "back": "Câu hỏi: 〜ですか",
+              "romaji": "",
+              "example": "あなたは マイクさん ですか。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜さん",
+              "back": "Hậu tố 〜さん",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "さん",
+              "back": "Hậu tố 〜さん",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -137,7 +198,7 @@
     "order": 2,
     "title": "Bài 2 — これ・それ・あれ (Đồ vật xung quanh)",
     "summary": "Đại từ chỉ vật, trợ từ の sở hữu, câu hỏi なんですか.",
-    "theoryMd": "# Bài 2 — Đồ vật xung quanh\n\n## 1. これ・それ・あれ・どれ\n\nBa \"phạm vi khoảng cách\":\n\n- **これ** (kore) — *cái này* (gần người nói)\n- **それ** (sore) — *cái đó* (gần người nghe)\n- **あれ** (are) — *cái kia* (xa cả hai)\n- **どれ** (dore) — *cái nào* (câu hỏi)\n\n### Ví dụ\n\n- これは ほん です。 → *Đây là quyển sách.*\n- それは なん ですか。 → *Cái đó là gì?*\n\n## 2. この・その・あの + N\n\nĐứng **trước danh từ**:\n\n- この ほんは わたしの です。 → *Quyển sách này là của tôi.*\n\n## 3. Trợ từ `の` — \"của\"\n\n`N1 の N2` → N2 thuộc về / liên quan đến N1.\n\n- わたしの ほん → *sách của tôi*\n- にほんごの ほん → *sách tiếng Nhật*\n- マイクさんの かばん → *cặp của Mike*\n\n## 4. `そうです` / `そうじゃ ありません`\n\nTrả lời câu hỏi có/không khi không có nội dung cụ thể:\n\n- これは ペンですか。 — はい、**そうです**。\n- いいえ、**そうじゃ ありません**。\n\n## 5. `〜か、〜か` (Câu hỏi lựa chọn)\n\n- これは ペンですか、シャープペンシルですか。\n  → *Đây là bút bi hay bút chì kim?*\n\n---\n**Sau bài này bạn sẽ làm được:** chỉ và hỏi tên đồ vật xung quanh, nói \"của ai\".",
+    "theoryMd": "# Bài 2 — Đồ vật xung quanh\n\n## 1. これ・それ・あれ・どれ\n\nBa \"phạm vi khoảng cách\":\n\n- **これ** (kore) — *cái này* (gần người nói)\n- **それ** (sore) — *cái đó* (gần người nghe)\n- **あれ** (are) — *cái kia* (xa cả hai)\n- **どれ** (dore) — *cái nào* (câu hỏi)\n\n### Ví dụ\n\n- これは ほん です。 → *Đây là quyển sách.*\n- それは なん ですか。 → *Cái đó là gì?*\n\n## 2. この・その・あの + N\n\nĐứng **trước danh từ**:\n\n- この ほんは わたしの です。 → *Quyển sách này là của tôi.*\n\n## 3. Trợ từ `の` — \"của\"\n\n`N1 の N2` → N2 thuộc về / liên quan đến N1.\n\n- わたしの ほん → *sách của tôi*\n- にほんごの ほん → *sách tiếng Nhật*\n- マイクさんの かばん → *cặp của Mike*\n\n## 4. `そうです` / `そうじゃ ありません`\n\nTrả lời câu hỏi có/không khi không có nội dung cụ thể:\n\n- これは ペンですか。 — はい、**そうです**。\n- いいえ、**そうじゃ ありません**。\n\n## 5. `〜か、〜か` (Câu hỏi lựa chọn)\n\n- これは ペンですか、シャープペンシルですか。\n → *Đây là bút bi hay bút chì kim?*\n\n---\n**Sau bài này bạn sẽ làm được:** chỉ và hỏi tên đồ vật xung quanh, nói \"của ai\".",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -256,6 +317,60 @@
               "back": "\"Đúng vậy\"",
               "romaji": "sou desu",
               "example": "はい、そうです。",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 2 — Ngữ pháp",
+          "description": "Ngữ pháp bài 2: Bài 2 — これ・それ・あれ (Đồ vật xung quanh)",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "これ・それ・あれ・どれ",
+              "back": "これ・それ・あれ・どれ",
+              "romaji": "",
+              "example": "これは ほん です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "この・その・あの",
+              "back": "この・その・あの + N",
+              "romaji": "",
+              "example": "この ほんは わたしの です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N1 の N2",
+              "back": "Trợ từ の — \"của\"",
+              "romaji": "",
+              "example": "わたしの ほん",
+              "jlptLevel": 5
+            },
+            {
+              "front": "そうです",
+              "back": "そうです / そうじゃ ありません",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "そうじゃ ありません",
+              "back": "そうです / そうじゃ ありません",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜か、〜か",
+              "back": "〜か、〜か (Câu hỏi lựa chọn)",
+              "romaji": "",
+              "example": "",
               "jlptLevel": 5
             }
           ]
@@ -394,6 +509,46 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 3 — Ngữ pháp",
+          "description": "Ngữ pháp bài 3: Bài 3 — ここ・そこ・あそこ (Địa điểm)",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "ここ・そこ・あそこ・どこ",
+              "back": "ここ・そこ・あそこ・どこ",
+              "romaji": "",
+              "example": "ここは しょくどう です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "こちら・そちら・あちら・どちら",
+              "back": "こちら・そちら・あちら・どちら",
+              "romaji": "",
+              "example": "こちらは やまださんです。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N1 は N2 です",
+              "back": "Mẫu N1 は N2 です với địa điểm",
+              "romaji": "",
+              "example": "トイレは あそこ です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "いくら ですか",
+              "back": "Hỏi giá: いくら ですか",
+              "romaji": "",
+              "example": "これは いくら ですか。",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -524,6 +679,67 @@
               "back": "Ngày mai",
               "romaji": "ashita",
               "example": "あした 9じに きます。",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 4 — Ngữ pháp",
+          "description": "Ngữ pháp bài 4: Bài 4 — Giờ giấc & Động từ thể ます",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "いま 何時 (なんじ) ですか",
+              "back": "Hỏi giờ: いま 何時 (なんじ) ですか",
+              "romaji": "",
+              "example": "いま 9じ です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N (giờ) に〜ます",
+              "back": "Mẫu N (giờ) に〜ます",
+              "romaji": "",
+              "example": "7じ に おきます。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜ます",
+              "back": "Thể 〜ます của động từ",
+              "romaji": "",
+              "example": "きょう べんきょうしません。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜ません",
+              "back": "Thể 〜ます của động từ",
+              "romaji": "",
+              "example": "きのう 7じに おきました。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜ました",
+              "back": "Thể 〜ます của động từ",
+              "romaji": "",
+              "example": "きのう やすみませんでした。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜から〜まで",
+              "back": "〜から〜まで",
+              "romaji": "",
+              "example": "9じ **から** 5じ **まで** はたらきます。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "ます",
+              "back": "Thứ trong tuần",
+              "romaji": "",
+              "example": "",
               "jlptLevel": 5
             }
           ]
@@ -662,6 +878,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 5 — Ngữ pháp",
+          "description": "Ngữ pháp bài 5: Bài 5 — Động từ di chuyển (いきます／きます／かえります)",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "〜へ いきます／きます／かえります",
+              "back": "〜へ いきます／きます／かえります",
+              "romaji": "",
+              "example": "きょう がっこう へ いきます。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜で〜へ いきます",
+              "back": "Phương tiện: 〜で〜へ いきます",
+              "romaji": "",
+              "example": "でんしゃ **で** とうきょう **へ** いきます。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜と〜へ〜",
+              "back": "Cùng với ai: 〜と〜へ〜",
+              "romaji": "",
+              "example": "ともだち と デパートへ いきます。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "ひとりで",
+              "back": "Cùng với ai: 〜と〜へ〜",
+              "romaji": "",
+              "example": "ひとり で いきます。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "どこ へ いきますか",
+              "back": "Hỏi địa điểm: どこ へ いきますか",
+              "romaji": "",
+              "example": "どこ(へ) も いきませんでした。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "どこも",
+              "back": "Hỏi địa điểm: どこ へ いきますか",
+              "romaji": "",
+              "example": "どこ(へ) も いきませんでした。",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -673,7 +943,7 @@
     "order": 6,
     "title": "Bài 6 — Động từ nhóm 1 thể ます (Ăn, Uống, Nghe...)",
     "summary": "Động từ nhóm 1, trợ từ を cho tân ngữ, から/まで thời gian.",
-    "theoryMd": "# Bài 6 — Động từ nhóm 1 thể ます (Ăn, Uống, Nghe...)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Cấu trúc câu với Tân ngữ: `N を V ます`\nTrong tiếng Nhật, trợ từ `を` (đọc là \"o\") dùng để đánh dấu tân ngữ trực tiếp của hành động.\n- **Cấu trúc:** `Chủ ngữ は [Danh từ/Tân ngữ] を [Động từ] ます。`\n- **Ví dụ:** わたしは たばこを すいます。(Tôi hút thuốc lá.)\n\n### 2. Động từ nhóm 1 thể ます\nĐộng từ nhóm 1 là những động từ có âm cuối trước `ます` thuộc cột \"i\" (ví dụ: `い`, `き`, `し`, `ち`, `み`...).\n- **Ví dụ:** \n    - 書きます (kakimasu): Viết\n    - 飲みます (nomimasu): Uống\n    - 聞きます (kikimasu): Nghe\n\n### 3. Thời gian thực hiện: `N(thời gian) から N(thời gian) まで`\n`から` có nghĩa là \"từ\", `まで` có nghĩa là \"đến\". Cấu trúc này dùng để chỉ khoảng thời gian diễn ra hành động.\n- **Ví dụ:** 9時から 5時まで 仕事を します。(Tôi làm việc từ 9 giờ đến 5 giờ.)\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nわたしは 毎日 学校で 英語を 勉強します。9時から 12時まで 勉強します。そのあと、ジュースを 飲みます。午後は 本を 読みます。\n\n*Phiên âm (Romaji):*\nWatashi wa mainichi gakkō de eigo o benkyō shimasu. Kuji kara jūniji made benkyō shimasu. Sono ato, jūsu o nomimasu. Gogo wa hon o yomimasu.\n\n*Bản dịch tiếng Việt:*\nMỗi ngày tôi học tiếng Anh ở trường. Tôi học từ 9 giờ đến 12 giờ. Sau đó, tôi uống nước trái cây. Buổi chiều tôi đọc sách.\n\n**Câu hỏi trắc nghiệm:**\nわたしは 何時から 何時まで 英語を 勉強しますか。\n(Tôi học tiếng Anh từ mấy giờ đến mấy giờ?)\n\n**Các phương án:**\n1. 8時から 12時まで (Từ 8h đến 12h)\n2. 9時から 12時まで (Từ 9h đến 12h)\n3. 9時から 13時まで (Từ 9h đến 13h)\n4. 毎日 休みます (Mỗi ngày nghỉ)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Trong bài đọc ghi rõ \"9時から 12時まで 勉強します\" (Học từ 9 giờ đến 12 giờ), nên đáp án 2 là chính xác.\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: 佐藤さん、何を しますか。\nB: 昼ごはんを 食べます。それから、新聞を 読みます。\nA: そうですか。\n\n*Bản dịch tiếng Việt:*\nA: Anh Sato, anh làm gì thế?\nB: Tôi ăn cơm trưa. Sau đó, tôi đọc báo.\nA: Vậy à.\n\n**Câu hỏi trắc nghiệm:**\n佐藤さんは 何を しますか。\n(Anh Sato làm gì?)\n\n**Các phương án:**\n1. たばこを すいます。(Hút thuốc)\n2. 英語を 勉強します。(Học tiếng Anh)\n3. ごはんを 食べて、新聞を 読みます。(Ăn cơm và đọc báo)\n4. 音楽を 聞きます。(Nghe nhạc)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* B trả lời là \"昼ごはんを 食べます\" (Ăn cơm trưa) và \"新聞を 読みます\" (Đọc báo), trùng khớp với đáp án 3.\n\n---\n**Sau bài này bạn sẽ làm được:** \n- Sử dụng thành thạo trợ từ `を` để chỉ đối tượng của hành động.\n- Biết cách chia và sử dụng các động từ cơ bản nhóm 1 trong câu.\n- Diễn đạt khoảng thời gian thực hiện công việc (từ... đến...) một cách tự nhiên.",
+    "theoryMd": "# Bài 6 — Động từ nhóm 1 thể ます (Ăn, Uống, Nghe...)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Cấu trúc câu với Tân ngữ: `N を V ます`\nTrong tiếng Nhật, trợ từ `を` (đọc là \"o\") dùng để đánh dấu tân ngữ trực tiếp của hành động.\n- **Cấu trúc:** `Chủ ngữ は Danh từ/Tân ngữ を Động từ ます。`\n- **Ví dụ:** わたしは たばこを すいます。(Tôi hút thuốc lá.)\n\n### 2. Động từ nhóm 1 thể ます\nĐộng từ nhóm 1 là những động từ có âm cuối trước `ます` thuộc cột \"i\" (ví dụ: `い`, `き`, `し`, `ち`, `み`...).\n- **Ví dụ:** \n - 書きます (kakimasu): Viết\n - 飲みます (nomimasu): Uống\n - 聞きます (kikimasu): Nghe\n\n### 3. Thời gian thực hiện: `N(thời gian) から N(thời gian) まで`\n`から` có nghĩa là \"từ\", `まで` có nghĩa là \"đến\". Cấu trúc này dùng để chỉ khoảng thời gian diễn ra hành động.\n- **Ví dụ:** 9時から 5時まで 仕事を します。(Tôi làm việc từ 9 giờ đến 5 giờ.)\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nわたしは 毎日 学校で 英語を 勉強します。9時から 12時まで 勉強します。そのあと、ジュースを 飲みます。午後は 本を 読みます。\n\n*Phiên âm (Romaji):*\nWatashi wa mainichi gakkō de eigo o benkyō shimasu. Kuji kara jūniji made benkyō shimasu. Sono ato, jūsu o nomimasu. Gogo wa hon o yomimasu.\n\n*Bản dịch tiếng Việt:*\nMỗi ngày tôi học tiếng Anh ở trường. Tôi học từ 9 giờ đến 12 giờ. Sau đó, tôi uống nước trái cây. Buổi chiều tôi đọc sách.\n\n**Câu hỏi trắc nghiệm:**\nわたしは 何時から 何時まで 英語を 勉強しますか。\n(Tôi học tiếng Anh từ mấy giờ đến mấy giờ?)\n\n**Các phương án:**\n1. 8時から 12時まで (Từ 8h đến 12h)\n2. 9時から 12時まで (Từ 9h đến 12h)\n3. 9時から 13時まで (Từ 9h đến 13h)\n4. 毎日 休みます (Mỗi ngày nghỉ)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Trong bài đọc ghi rõ \"9時から 12時まで 勉強します\" (Học từ 9 giờ đến 12 giờ), nên đáp án 2 là chính xác.\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: 佐藤さん、何を しますか。\nB: 昼ごはんを 食べます。それから、新聞を 読みます。\nA: そうですか。\n\n*Bản dịch tiếng Việt:*\nA: Anh Sato, anh làm gì thế?\nB: Tôi ăn cơm trưa. Sau đó, tôi đọc báo.\nA: Vậy à.\n\n**Câu hỏi trắc nghiệm:**\n佐藤さんは 何を しますか。\n(Anh Sato làm gì?)\n\n**Các phương án:**\n1. たばこを すいます。(Hút thuốc)\n2. 英語を 勉強します。(Học tiếng Anh)\n3. ごはんを 食べて、新聞を 読みます。(Ăn cơm và đọc báo)\n4. 音楽を 聞きます。(Nghe nhạc)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* B trả lời là \"昼ごはんを 食べます\" (Ăn cơm trưa) và \"新聞を 読みます\" (Đọc báo), trùng khớp với đáp án 3.\n\n---\n**Sau bài này bạn sẽ làm được:** \n- Sử dụng thành thạo trợ từ `を` để chỉ đối tượng của hành động.\n- Biết cách chia và sử dụng các động từ cơ bản nhóm 1 trong câu.\n- Diễn đạt khoảng thời gian thực hiện công việc (từ... đến...) một cách tự nhiên.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -922,6 +1192,53 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 6 — Ngữ pháp",
+          "description": "Ngữ pháp bài 6: Bài 6 — Động từ nhóm 1 thể ます (Ăn, Uống, Nghe...)",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "N を V ます",
+              "back": "Cấu trúc câu với Tân ngữ: N を V ます",
+              "romaji": "",
+              "example": "**Cấu trúc:** Chủ ngữ は Danh từ/Tân ngữ を Động từ ます。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Chủ ngữ は Danh từ/Tân ngữ を Động từ ます。",
+              "back": "Cấu trúc câu với Tân ngữ: N を V ます",
+              "romaji": "",
+              "example": "わたしは たばこを すいます。(Tôi hút thuốc lá.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "ます",
+              "back": "Động từ nhóm 1 thể ます",
+              "romaji": "",
+              "example": "- 書きます (kakimasu): Viết",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N(thời gian) から N(thời gian) まで",
+              "back": "Thời gian thực hiện: N から N まで",
+              "romaji": "",
+              "example": "9時から 5時まで 仕事を します。(Tôi làm việc từ 9 giờ đến 5 giờ.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "から",
+              "back": "Thời gian thực hiện: N から N まで",
+              "romaji": "",
+              "example": "Sử dụng thành thạo trợ từ を để chỉ đối tượng của hành động.",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -933,7 +1250,7 @@
     "order": 7,
     "title": "Bài 7 — Địa điểm + Động từ di chuyển nâng cao",
     "summary": "に chỉ điểm đến, で chỉ phương tiện, と cùng với ai, ひとりで.",
-    "theoryMd": "# Bài 7 — Địa điểm + Động từ di chuyển nâng cao\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Trợ từ chỉ nơi đến: `N(địa điểm) へ [Động từ di chuyển]`\nDùng để chỉ hướng di chuyển đến một địa điểm nào đó. Các động từ di chuyển thường gặp là `いきます` (đi), `きます` (đến), `かえります` (về).\n*Lưu ý: `へ` đọc là \"e\".*\n- **Ví dụ:** わたしは **こうえんへ** いきます。(Tôi đi đến công viên.)\n\n### 2. Trợ từ chỉ phương tiện: `N(phương tiện) で [Động từ di chuyển]`\nTrợ từ `で` đặt sau danh từ chỉ phương tiện giao thông (xe đạp, xe máy, tàu điện, máy bay...) để diễn tả phương tiện được sử dụng để di chuyển.\n- **Ví dụ:** **ちかてつで** いきます。(Tôi đi bằng tàu điện ngầm.)\n\n### 3. Trợ từ chỉ đối tượng đồng hành: `N(người) と [Động từ]`\n`と` có nghĩa là \"với\", dùng để nối người cùng thực hiện hành động. Nếu không có ai đi cùng, ta dùng cụm từ `ひとりで` (một mình).\n- **Ví dụ:** **かぞくと** にほんへ きました。(Tôi đã đến Nhật cùng với gia đình.)\n- **Ví dụ:** **ひとりで** やまへ いきます。(Tôi đi lên núi một mình.)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nわたしはまいにち、じてんしゃでこうえんへいきます。ときどきかぞくとにほんへいきます。あした、ひとりでやまへいきます。\n\n*Phiên âm (Romaji):*\nWatashi wa mainichi, jitensha de kōen e ikimasu. Tokidoki kazoku to Nihon e ikimasu. Ashita, hitori de yama e ikimasu.\n\n*Bản dịch tiếng Việt:*\nHàng ngày, tôi đi đến công viên bằng xe đạp. Thỉnh thoảng tôi đi Nhật cùng gia đình. Ngày mai, tôi sẽ đi lên núi một mình.\n\n**Câu hỏi trắc nghiệm:**\nあした、だれとやまへいきますか。\n(Ngày mai, bạn đi lên núi với ai?)\n\n**Các phương án:**\n1. かぞくと いきます。(Đi cùng gia đình)\n2. ひとりで いきます。(Đi một mình)\n3. じてんしゃで いきます。(Đi bằng xe đạp)\n4. いきません。(Không đi)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Câu cuối của đoạn văn là \"あした、ひとりでやまへいきます\" (Ngày mai, tôi đi lên núi một mình), nên đáp án 2 là chính xác.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: きょうはどこへいきますか。\nB: ぎんこうへいきます。\nA: なんでいきますか。\nB: バスでいきます。\nA: だれとですか。\nB: ひとりでいきます。\n\n*Bản dịch tiếng Việt:*\nA: Hôm nay bạn đi đâu thế?\nB: Tôi đi đến ngân hàng.\nA: Bạn đi bằng gì?\nB: Tôi đi bằng xe buýt.\nA: Bạn đi cùng ai?\nB: Tôi đi một mình.\n\n**Câu hỏi trắc nghiệm:**\nBさんはなにでぎんこうへいきますか。\n(Bạn B đi đến ngân hàng bằng gì?)\n\n**Các phương án:**\n1. ちかてつ (Tàu điện ngầm)\n2. じてんしゃ (Xe đạp)\n3. バス (Xe buýt)\n4. タクシー (Taxi)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Khi được hỏi \"なんでいきますか\" (đi bằng gì?), B trả lời \"バスでいきます\" (đi bằng xe buýt), vì vậy đáp án đúng là 3.\n\n---\n**Sau bài này bạn sẽ làm được:** Diễn đạt việc đi đâu, đi bằng phương tiện gì và đi với ai trong tiếng Nhật một cách tự nhiên và chính xác.",
+    "theoryMd": "# Bài 7 — Địa điểm + Động từ di chuyển nâng cao\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Trợ từ chỉ nơi đến: `N(địa điểm) へ Động từ di chuyển`\nDùng để chỉ hướng di chuyển đến một địa điểm nào đó. Các động từ di chuyển thường gặp là `いきます` (đi), `きます` (đến), `かえります` (về).\n*Lưu ý: `へ` đọc là \"e\".*\n- **Ví dụ:** わたしは **こうえんへ** いきます。(Tôi đi đến công viên.)\n\n### 2. Trợ từ chỉ phương tiện: `N(phương tiện) で Động từ di chuyển`\nTrợ từ `で` đặt sau danh từ chỉ phương tiện giao thông (xe đạp, xe máy, tàu điện, máy bay...) để diễn tả phương tiện được sử dụng để di chuyển.\n- **Ví dụ:** **ちかてつで** いきます。(Tôi đi bằng tàu điện ngầm.)\n\n### 3. Trợ từ chỉ đối tượng đồng hành: `N(người) と Động từ`\n`と` có nghĩa là \"với\", dùng để nối người cùng thực hiện hành động. Nếu không có ai đi cùng, ta dùng cụm từ `ひとりで` (một mình).\n- **Ví dụ:** **かぞくと** にほんへ きました。(Tôi đã đến Nhật cùng với gia đình.)\n- **Ví dụ:** **ひとりで** やまへ いきます。(Tôi đi lên núi một mình.)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nわたしはまいにち、じてんしゃでこうえんへいきます。ときどきかぞくとにほんへいきます。あした、ひとりでやまへいきます。\n\n*Phiên âm (Romaji):*\nWatashi wa mainichi, jitensha de kōen e ikimasu. Tokidoki kazoku to Nihon e ikimasu. Ashita, hitori de yama e ikimasu.\n\n*Bản dịch tiếng Việt:*\nHàng ngày, tôi đi đến công viên bằng xe đạp. Thỉnh thoảng tôi đi Nhật cùng gia đình. Ngày mai, tôi sẽ đi lên núi một mình.\n\n**Câu hỏi trắc nghiệm:**\nあした、だれとやまへいきますか。\n(Ngày mai, bạn đi lên núi với ai?)\n\n**Các phương án:**\n1. かぞくと いきます。(Đi cùng gia đình)\n2. ひとりで いきます。(Đi một mình)\n3. じてんしゃで いきます。(Đi bằng xe đạp)\n4. いきません。(Không đi)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Câu cuối của đoạn văn là \"あした、ひとりでやまへいきます\" (Ngày mai, tôi đi lên núi một mình), nên đáp án 2 là chính xác.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: きょうはどこへいきますか。\nB: ぎんこうへいきます。\nA: なんでいきますか。\nB: バスでいきます。\nA: だれとですか。\nB: ひとりでいきます。\n\n*Bản dịch tiếng Việt:*\nA: Hôm nay bạn đi đâu thế?\nB: Tôi đi đến ngân hàng.\nA: Bạn đi bằng gì?\nB: Tôi đi bằng xe buýt.\nA: Bạn đi cùng ai?\nB: Tôi đi một mình.\n\n**Câu hỏi trắc nghiệm:**\nBさんはなにでぎんこうへいきますか。\n(Bạn B đi đến ngân hàng bằng gì?)\n\n**Các phương án:**\n1. ちかてつ (Tàu điện ngầm)\n2. じてんしゃ (Xe đạp)\n3. バス (Xe buýt)\n4. タクシー (Taxi)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Khi được hỏi \"なんでいきますか\" (đi bằng gì?), B trả lời \"バスでいきます\" (đi bằng xe buýt), vì vậy đáp án đúng là 3.\n\n---\n**Sau bài này bạn sẽ làm được:** Diễn đạt việc đi đâu, đi bằng phương tiện gì và đi với ai trong tiếng Nhật một cách tự nhiên và chính xác.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -1182,6 +1499,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 7 — Ngữ pháp",
+          "description": "Ngữ pháp bài 7: Bài 7 — Địa điểm + Động từ di chuyển nâng cao",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "N(địa điểm) へ Động từ di chuyển",
+              "back": "Trợ từ chỉ nơi đến: N へ Động từ di chuyển",
+              "romaji": "",
+              "example": "わたしは **こうえんへ** いきます。(Tôi đi đến công viên.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "いきます",
+              "back": "Trợ từ chỉ nơi đến: N へ Động từ di chuyển",
+              "romaji": "",
+              "example": "わたしは **こうえんへ** いきます。(Tôi đi đến công viên.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N(phương tiện) で Động từ di chuyển",
+              "back": "Trợ từ chỉ phương tiện: N で Động từ di chuyển",
+              "romaji": "",
+              "example": "**ちかてつで** いきます。(Tôi đi bằng tàu điện ngầm.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "ちかてつで",
+              "back": "Trợ từ chỉ phương tiện: N で Động từ di chuyển",
+              "romaji": "",
+              "example": "**ちかてつで** いきます。(Tôi đi bằng tàu điện ngầm.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N(người) と Động từ",
+              "back": "Trợ từ chỉ đối tượng đồng hành: N と Động từ",
+              "romaji": "",
+              "example": "**かぞくと** にほんへ きました。(Tôi đã đến Nhật cùng với gia đình.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "ひとりで",
+              "back": "Trợ từ chỉ đối tượng đồng hành: N と Động từ",
+              "romaji": "",
+              "example": "**ひとりで** やまへ いきます。(Tôi đi lên núi một mình.)",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -1193,7 +1564,7 @@
     "order": 8,
     "title": "Bài 8 — Tính từ đuôi い và な",
     "summary": "Hai loại tính từ, cách chia phủ định và quá khứ.",
-    "theoryMd": "# Bài 8 — Tính từ đuôi い và な\n\n## 📖 Lý thuyết Ngữ pháp\n\nTrong tiếng Nhật, tính từ được chia làm hai loại: Tính từ đuôi **い** (i-adjectives) và Tính từ đuôi **な** (na-adjectives).\n\n### 1. Cấu trúc câu khẳng định\n- **Tính từ đuôi い:** [N] は [Tính từ い] です。\n    - Ví dụ: この**はし**は **ふるい**です。(Cây cầu này cũ.)\n- **Tính từ đuôi な:** [N] は [Tính từ な (bỏ な)] です。\n    - Ví dụ: この**としょかん**は **しずか**です。(Thư viện này yên tĩnh.)\n\n### 2. Câu phủ định (Không ...)\n- **Tính từ đuôi い:** Bỏ **い** + **くない** です。\n    - Ví dụ: この**にく**は **おいしくない**です。(Thịt này không ngon.)\n- **Tính từ đuôi な:** Bỏ **な** + **じゃありません** (hoặc ではありません).\n    - Ví dụ: この**まち**は **にぎやかじゃありません**。(Thành phố này không nhộn nhịp.)\n\n### 3. Câu quá khứ\n- **Tính từ đuôi い:** Bỏ **い** + **かった** です。 (Phủ định quá khứ: Bỏ **い** + **くなかった** です。)\n- **Tính từ đuôi な:** Bỏ **な** + **でした**。 (Phủ định quá khứ: Bỏ **な** + **じゃありませんでした**。)\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n昨日は春のいい天気でした。公園はとてもにぎやかでした。図書館はしずかじゃありませんでした。でも、新しい本は面白かったです。\n\n*Phiên âm (Romaji):*\nKinō wa haru no ii tenki deshita. Kōen wa totemo nigiyaka deshita. Toshokan wa shizuka ja arimasen deshita. Demo, atarashii hon wa omoshirokatta desu.\n\n*Bản dịch tiếng Việt:*\nHôm qua là thời tiết mùa xuân đẹp. Công viên rất nhộn nhịp. Thư viện thì không yên tĩnh. Nhưng, những cuốn sách mới thì rất thú vị.\n\n**Câu hỏi trắc nghiệm:**\n図書館はどうでしたか。 (Thư viện như thế nào?)\n\n1. とてもにぎやかでした。(Rất nhộn nhịp)\n2. しずかじゃありませんでした。(Không yên tĩnh)\n3. とても面白かったです。(Rất thú vị)\n4. しずかでした。(Yên tĩnh)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Đoạn văn có câu \"図書館はしずかじゃありませんでした\" (Thư viện đã không yên tĩnh), khớp hoàn toàn với đáp án 2.\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: この自動車は新しいですか。\nB: いいえ、古いです。でも、色はきれいです。\n\n*Bản dịch tiếng Việt:*\nA: Chiếc xe ô tô này có mới không?\nB: Không, nó cũ rồi. Nhưng, màu sắc thì đẹp.\n\n**Câu hỏi trắc nghiệm:**\n自動車はどうですか。 (Chiếc xe ô tô như thế nào?)\n\n1. 新しいです。(Mới)\n2. 古いですが、色はきれいです。(Cũ nhưng màu đẹp)\n3. 古くて、色はきれいです。(Cũ và màu xấu)\n4. 新しくて、色はきれいです。(Mới và màu đẹp)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Nhân vật B trả lời \"いいえ、古いです\" (Không, nó cũ) và thêm \"でも、色はきれいです\" (Nhưng màu sắc đẹp), đáp ứng đúng nội dung câu 2.\n\n---\n**Sau bài này bạn sẽ làm được:** Phân biệt được tính từ đuôi い và な; biết cách miêu tả tính chất của sự vật, sự việc ở hiện tại và quá khứ; tự tin đặt câu phủ định cho các tính từ đơn giản.",
+    "theoryMd": "# Bài 8 — Tính từ đuôi い và な\n\n## 📖 Lý thuyết Ngữ pháp\n\nTrong tiếng Nhật, tính từ được chia làm hai loại: Tính từ đuôi **い** (i-adjectives) và Tính từ đuôi **な** (na-adjectives).\n\n### 1. Cấu trúc câu khẳng định\n- **Tính từ đuôi い:** N は Tính từ い です。\n - Ví dụ: この**はし**は **ふるい**です。(Cây cầu này cũ.)\n- **Tính từ đuôi な:** N は Tính từ な (bỏ な) です。\n - Ví dụ: この**としょかん**は **しずか**です。(Thư viện này yên tĩnh.)\n\n### 2. Câu phủ định (Không ...)\n- **Tính từ đuôi い:** Bỏ **い** + **くない** です。\n - Ví dụ: この**にく**は **おいしくない**です。(Thịt này không ngon.)\n- **Tính từ đuôi な:** Bỏ **な** + **じゃありません** (hoặc ではありません).\n - Ví dụ: この**まち**は **にぎやかじゃありません**。(Thành phố này không nhộn nhịp.)\n\n### 3. Câu quá khứ\n- **Tính từ đuôi い:** Bỏ **い** + **かった** です。 (Phủ định quá khứ: Bỏ **い** + **くなかった** です。)\n- **Tính từ đuôi な:** Bỏ **な** + **でした**。 (Phủ định quá khứ: Bỏ **な** + **じゃありませんでした**。)\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n昨日は春のいい天気でした。公園はとてもにぎやかでした。図書館はしずかじゃありませんでした。でも、新しい本は面白かったです。\n\n*Phiên âm (Romaji):*\nKinō wa haru no ii tenki deshita. Kōen wa totemo nigiyaka deshita. Toshokan wa shizuka ja arimasen deshita. Demo, atarashii hon wa omoshirokatta desu.\n\n*Bản dịch tiếng Việt:*\nHôm qua là thời tiết mùa xuân đẹp. Công viên rất nhộn nhịp. Thư viện thì không yên tĩnh. Nhưng, những cuốn sách mới thì rất thú vị.\n\n**Câu hỏi trắc nghiệm:**\n図書館はどうでしたか。 (Thư viện như thế nào?)\n\n1. とてもにぎやかでした。(Rất nhộn nhịp)\n2. しずかじゃありませんでした。(Không yên tĩnh)\n3. とても面白かったです。(Rất thú vị)\n4. しずかでした。(Yên tĩnh)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Đoạn văn có câu \"図書館はしずかじゃありませんでした\" (Thư viện đã không yên tĩnh), khớp hoàn toàn với đáp án 2.\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: この自動車は新しいですか。\nB: いいえ、古いです。でも、色はきれいです。\n\n*Bản dịch tiếng Việt:*\nA: Chiếc xe ô tô này có mới không?\nB: Không, nó cũ rồi. Nhưng, màu sắc thì đẹp.\n\n**Câu hỏi trắc nghiệm:**\n自動車はどうですか。 (Chiếc xe ô tô như thế nào?)\n\n1. 新しいです。(Mới)\n2. 古いですが、色はきれいです。(Cũ nhưng màu đẹp)\n3. 古くて、色はきれいです。(Cũ và màu xấu)\n4. 新しくて、色はきれいです。(Mới và màu đẹp)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Nhân vật B trả lời \"いいえ、古いです\" (Không, nó cũ) và thêm \"でも、色はきれいです\" (Nhưng màu sắc đẹp), đáp ứng đúng nội dung câu 2.\n\n---\n**Sau bài này bạn sẽ làm được:** Phân biệt được tính từ đuôi い và な; biết cách miêu tả tính chất của sự vật, sự việc ở hiện tại và quá khứ; tự tin đặt câu phủ định cho các tính từ đơn giản.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -1442,6 +1813,46 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 8 — Ngữ pháp",
+          "description": "Ngữ pháp bài 8: Bài 8 — Tính từ đuôi い và な",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "Tính từ đuôi い:",
+              "back": "Cấu trúc câu khẳng định",
+              "romaji": "",
+              "example": "**Tính từ đuôi い:** N は Tính từ い です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "はし",
+              "back": "Cấu trúc câu khẳng định",
+              "romaji": "",
+              "example": "Ví dụ: この**はし**は **ふるい**です。(Cây cầu này cũ.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "くない",
+              "back": "Câu phủ định",
+              "romaji": "",
+              "example": "Ví dụ: この**にく**は **おいしくない**です。(Thịt này không ngon.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "かった",
+              "back": "Câu quá khứ",
+              "romaji": "",
+              "example": "**Tính từ đuôi な:** Bỏ **な** + **でした**。 (Phủ định quá khứ: Bỏ **な** + **じゃありませんでした**。)",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -1453,7 +1864,7 @@
     "order": 9,
     "title": "Bài 9 — Danh từ + があります/います",
     "summary": "Diễn đạt \"có/tồn tại\" cho vật và người, vị trí với に.",
-    "theoryMd": "# Bài 9 — Danh từ + があります/います\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Sự tồn tại của vật: `N が あります`\nDùng để diễn tả sự tồn tại của vật vô tri (đồ vật, cây cối, tòa nhà...).\n- **Cấu trúc:** `N (vật) が あります。`\n- **Ví dụ:**\n  - 冷蔵庫に 野菜が あります。 (Trong tủ lạnh có rau.)\n  - 玄関に 靴が あります。 (Ở lối vào có đôi giày.)\n\n### 2. Sự tồn tại của người/động vật: `N が います`\nDùng để diễn tả sự tồn tại của người hoặc động vật (có khả năng di chuyển/có ý chí).\n- **Cấu trúc:** `N (người/đv) が います。`\n- **Ví dụ:**\n  - 教室に 学生が います。 (Trong lớp học có học sinh.)\n  - 公園に 猫が います。 (Ở công viên có con mèo.)\n\n### 3. Vị trí tồn tại: `N (địa điểm) に N (vật/người) が あります/います`\nTrợ từ `に` dùng để chỉ địa điểm mà tại đó có vật hoặc người tồn tại.\n- **Cấu trúc:** `[Địa điểm] に [Vật/Người] が あります/います。`\n- **Lưu ý:** Nếu muốn hỏi \"Có cái gì/ai ở đâu?\", ta dùng nghi vấn từ `なに` (cái gì) hoặc `だれ` (ai).\n  - 庭に 何が ありますか。 (Ở sân có cái gì?)\n  - 部屋に だれが いますか。 (Trong phòng có ai?)\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nわたしの家は 小さいです。玄関に 緑の 靴が あります。台所の 冷蔵庫に 紅茶と 野菜が あります。地下鉄の 駅の 前に 家族が います。\n\n*Phiên âm (Romaji):*\nWatashi no ie wa chiisai desu. Genkan ni midori no kutsu ga arimasu. Daidokoro no reizouko ni koucha to yasai ga arimasu. Chikatetsu no eki no mae ni kazoku ga imasu.\n\n*Bản dịch tiếng Việt:*\nNhà tôi thì nhỏ. Ở lối vào có đôi giày màu xanh lá cây. Trong tủ lạnh ở bếp có hồng trà và rau. Ở trước ga tàu điện ngầm có gia đình tôi.\n\n**Câu hỏi trắc nghiệm:**\n冷蔵庫に 何が ありますか。\n(Trong tủ lạnh có cái gì?)\n\n**Các phương án:**\n1. 紅茶だけあります。(Chỉ có hồng trà)\n2. 野菜だけあります。(Chỉ có rau)\n3. 紅茶と野菜があります。(Có hồng trà và rau)\n4. なにもありません。(Không có gì cả)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Dựa vào câu \"台所の 冷蔵庫に 紅茶と 野菜が あります\" (Trong tủ lạnh ở bếp có hồng trà và rau), đáp án 3 là chính xác.\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: すみません、わたしの 風呂に 鼻の 作文が ありますか。\nB: いいえ、ありません。作文は 部屋に あります。\nA: ああ、そうですか。ありがとうございます。\n\n*Bản dịch tiếng Việt:*\nA: Xin lỗi, trong bồn tắm của tôi có bài văn về cái mũi không?\nB: Không, không có ạ. Bài văn đó ở trong phòng.\nA: À, vậy sao. Cảm ơn bạn.\n\n**Câu hỏi trắc nghiệm:**\n作文は どこに ありますか。\n(Bài văn đang ở đâu?)\n\n**Các phương án:**\n1. 風呂の中 (Trong bồn tắm)\n2. 玄関 (Lối vào)\n3. 冷蔵庫の中 (Trong tủ lạnh)\n4. 部屋 (Trong phòng)\n\n*Đáp án đúng:* **4**\n*Giải thích chi tiết:* Nhân vật B đã trả lời rõ ràng là \"作文は 部屋に あります\" (Bài văn ở trong phòng), vì vậy đáp án 4 là đúng.\n\n---\n**Sau bài này bạn sẽ làm được:** Diễn đạt sự tồn tại của người và vật trong không gian; sử dụng trợ từ に chính xác để chỉ vị trí và hỏi đáp về vị trí của đồ vật, con người.",
+    "theoryMd": "# Bài 9 — Danh từ + があります/います\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Sự tồn tại của vật: `N が あります`\nDùng để diễn tả sự tồn tại của vật vô tri (đồ vật, cây cối, tòa nhà...).\n- **Cấu trúc:** `N (vật) が あります。`\n- **Ví dụ:**\n - 冷蔵庫に 野菜が あります。 (Trong tủ lạnh có rau.)\n - 玄関に 靴が あります。 (Ở lối vào có đôi giày.)\n\n### 2. Sự tồn tại của người/động vật: `N が います`\nDùng để diễn tả sự tồn tại của người hoặc động vật (có khả năng di chuyển/có ý chí).\n- **Cấu trúc:** `N (người/đv) が います。`\n- **Ví dụ:**\n - 教室に 学生が います。 (Trong lớp học có học sinh.)\n - 公園に 猫が います。 (Ở công viên có con mèo.)\n\n### 3. Vị trí tồn tại: `N (địa điểm) に N (vật/người) が あります/います`\nTrợ từ `に` dùng để chỉ địa điểm mà tại đó có vật hoặc người tồn tại.\n- **Cấu trúc:** `Địa điểm に Vật/Người が あります/います。`\n- **Lưu ý:** Nếu muốn hỏi \"Có cái gì/ai ở đâu?\", ta dùng nghi vấn từ `なに` (cái gì) hoặc `だれ` (ai).\n - 庭に 何が ありますか。 (Ở sân có cái gì?)\n - 部屋に だれが いますか。 (Trong phòng có ai?)\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nわたしの家は 小さいです。玄関に 緑の 靴が あります。台所の 冷蔵庫に 紅茶と 野菜が あります。地下鉄の 駅の 前に 家族が います。\n\n*Phiên âm (Romaji):*\nWatashi no ie wa chiisai desu. Genkan ni midori no kutsu ga arimasu. Daidokoro no reizouko ni koucha to yasai ga arimasu. Chikatetsu no eki no mae ni kazoku ga imasu.\n\n*Bản dịch tiếng Việt:*\nNhà tôi thì nhỏ. Ở lối vào có đôi giày màu xanh lá cây. Trong tủ lạnh ở bếp có hồng trà và rau. Ở trước ga tàu điện ngầm có gia đình tôi.\n\n**Câu hỏi trắc nghiệm:**\n冷蔵庫に 何が ありますか。\n(Trong tủ lạnh có cái gì?)\n\n**Các phương án:**\n1. 紅茶だけあります。(Chỉ có hồng trà)\n2. 野菜だけあります。(Chỉ có rau)\n3. 紅茶と野菜があります。(Có hồng trà và rau)\n4. なにもありません。(Không có gì cả)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Dựa vào câu \"台所の 冷蔵庫に 紅茶と 野菜が あります\" (Trong tủ lạnh ở bếp có hồng trà và rau), đáp án 3 là chính xác.\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: すみません、わたしの 風呂に 鼻の 作文が ありますか。\nB: いいえ、ありません。作文は 部屋に あります。\nA: ああ、そうですか。ありがとうございます。\n\n*Bản dịch tiếng Việt:*\nA: Xin lỗi, trong bồn tắm của tôi có bài văn về cái mũi không?\nB: Không, không có ạ. Bài văn đó ở trong phòng.\nA: À, vậy sao. Cảm ơn bạn.\n\n**Câu hỏi trắc nghiệm:**\n作文は どこに ありますか。\n(Bài văn đang ở đâu?)\n\n**Các phương án:**\n1. 風呂の中 (Trong bồn tắm)\n2. 玄関 (Lối vào)\n3. 冷蔵庫の中 (Trong tủ lạnh)\n4. 部屋 (Trong phòng)\n\n*Đáp án đúng:* **4**\n*Giải thích chi tiết:* Nhân vật B đã trả lời rõ ràng là \"作文は 部屋に あります\" (Bài văn ở trong phòng), vì vậy đáp án 4 là đúng.\n\n---\n**Sau bài này bạn sẽ làm được:** Diễn đạt sự tồn tại của người và vật trong không gian; sử dụng trợ từ に chính xác để chỉ vị trí và hỏi đáp về vị trí của đồ vật, con người.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -1702,6 +2113,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 9 — Ngữ pháp",
+          "description": "Ngữ pháp bài 9: Bài 9 — Danh từ + があります/います",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "N が あります",
+              "back": "Sự tồn tại của vật: N が あります",
+              "romaji": "",
+              "example": "**Cấu trúc:** N (vật) が あります。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N (vật) が あります。",
+              "back": "Sự tồn tại của vật: N が あります",
+              "romaji": "",
+              "example": "- 冷蔵庫に 野菜が あります。 (Trong tủ lạnh có rau.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N が います",
+              "back": "Sự tồn tại của người/động vật: N が います",
+              "romaji": "",
+              "example": "**Cấu trúc:** N (người/đv) が います。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N (người/đv) が います。",
+              "back": "Sự tồn tại của người/động vật: N が います",
+              "romaji": "",
+              "example": "- 教室に 学生が います。 (Trong lớp học có học sinh.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N (địa điểm) に N (vật/người) が あります/います",
+              "back": "Vị trí tồn tại: N に N が あります/います",
+              "romaji": "",
+              "example": "**Cấu trúc:** Địa điểm に Vật/Người が あります/います。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Địa điểm に Vật/Người が あります/います。",
+              "back": "Vị trí tồn tại: N に N が あります/います",
+              "romaji": "",
+              "example": "**Lưu ý:** Nếu muốn hỏi \"Có cái gì/ai ở đâu?\", ta dùng nghi vấn từ なに (cái gì) hoặc だれ (ai).",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -1713,7 +2178,7 @@
     "order": 10,
     "title": "Bài 10 — Đếm đồ vật và con người",
     "summary": "Lượng từ đếm: 枚, 本, 冊, 台, 匹... và câu hỏi いくつ/なんまい.",
-    "theoryMd": "# Bài 10 — Đếm đồ vật và con người\n\n## 📖 Lý thuyết Ngữ pháp\n\nTrong tiếng Nhật, khi đếm đồ vật, chúng ta cần sử dụng các \"hậu tố\" (trợ từ đếm) khác nhau tùy thuộc vào hình dáng hoặc tính chất của đồ vật đó.\n\n### 1. Cấu trúc đếm đồ vật: `[Danh từ] が [Số lượng] [Hậu tố] あります`\nDùng để nói về số lượng đồ vật đang sở hữu hoặc tồn tại ở đâu đó.\n- `枚` (mai): Đếm đồ vật mỏng (giấy, áo sơ mi, đĩa, ảnh).\n- `本` (hon): Đếm đồ vật dài (bút, chai, ô, cà vạt).\n- `冊` (satsu): Đếm sách, vở, tạp chí.\n- `台` (dai): Đếm máy móc, xe cộ.\n- `匹` (hiki): Đếm động vật nhỏ (chó, mèo, cá).\n\n**Ví dụ:**\n- 鞄が二つあります。(Có hai cái túi xách.) - *Lưu ý: Đếm đồ vật nói chung dùng hệ đếm `一つ, 二つ...`*\n- 万年筆が三本あります。(Có 3 cái bút máy.)\n\n### 2. Câu hỏi số lượng: `いくつ` và `なん[Hậu tố]`\n- **いくつ**: Dùng để hỏi số lượng đồ vật chung (không xác định hình dáng).\n- **なん[Hậu tố]**: Dùng để hỏi cụ thể số lượng của loại đồ vật đó.\n  - Ví dụ: `なんまい` (mấy tờ), `なんぼん` (mấy cái - vật dài), `なんさつ` (mấy quyển), `なんだい` (mấy cái - máy móc).\n\n### 3. Cách đếm người: `[Số người] います`\nĐối với con người, chúng ta dùng hậu tố `人` (nin).\n- Đặc biệt: 1 người (一人 - hitori), 2 người (二人 - futari), từ 3 người trở lên là `[Số] + にん`.\n- Để hỏi số lượng người: `なんにん` (bao nhiêu người).\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nわたしの部屋に本が五冊あります。机の上に灰皿が一つあります。鞄の中に万年筆が二本と、写真が三枚あります。そして、かわいい猫が二匹います。\n\n*Phiên âm (Romaji):*\nWatashi no heya ni hon ga gosatsu arimasu. Tsukue no ue ni haizara ga hitotsu arimasu. Kaban no naka ni mannenhitsu ga nihon to, shashin ga sanmai arimasu. Soshite, kawaii neko ga nihiki imasu.\n\n*Bản dịch tiếng Việt:*\nTrong phòng tôi có 5 quyển sách. Trên bàn có một cái gạt tàn. Trong túi xách có hai cái bút máy và ba tấm ảnh. Và, có hai con mèo dễ thương.\n\n**Câu hỏi trắc nghiệm:**\n鞄の中に何がありますか。\n(Trong túi xách có cái gì?)\n\n**Các phương án:**\n1. 本が五冊と灰皿が一つあります。\n2. 万年筆が二本と写真が三枚あります。\n3. 万年筆が三本と写真が二枚あります。\n4. 猫が二匹います。\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Câu trong bài là \"鞄の中に万年筆が二本と、写真が三枚あります\" (Trong túi có 2 bút máy và 3 tấm ảnh). Đáp án 2 hoàn toàn trùng khớp.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: すみません、その背広はいくらですか。\nB: これは二万円です。\nA: そうですか。じゃあ、そのネクタイを三本ください。\nB: はい、ありがとうございます。\n\n*Bản dịch tiếng Việt:*\nA: Xin lỗi, chiếc áo vest đó giá bao nhiêu vậy?\nB: Cái này là 2 vạn yên ạ.\nA: Vậy sao. Vậy cho tôi lấy 3 cái cà vạt nhé.\nB: Vâng, xin cảm ơn.\n\n**Câu hỏi trắc nghiệm:**\nAさんは何をいくつ買いましたか。\n(Anh A đã mua cái gì và mua bao nhiêu cái?)\n\n**Các phương án:**\n1. 背広を二枚買いました。\n2. 背広を三枚買いました。\n3. ネクタイを二本買いました。\n4. ネクタイを三本買いました。\n\n*Đáp án đúng:* **4**\n*Giải thích chi tiết:* A nói \"そのネクタイを三本ください\" (Cho tôi 3 cái cà vạt), vậy đáp án 4 là chính xác.\n\n---\n**Sau bài này bạn sẽ làm được:** Đếm được đồ vật, máy móc, sách vở và động vật; hỏi và trả lời về số lượng đồ vật, con người trong một không gian cụ thể.",
+    "theoryMd": "# Bài 10 — Đếm đồ vật và con người\n\n## 📖 Lý thuyết Ngữ pháp\n\nTrong tiếng Nhật, khi đếm đồ vật, chúng ta cần sử dụng các \"hậu tố\" (trợ từ đếm) khác nhau tùy thuộc vào hình dáng hoặc tính chất của đồ vật đó.\n\n### 1. Cấu trúc đếm đồ vật: `Danh từ が Số lượng Hậu tố あります`\nDùng để nói về số lượng đồ vật đang sở hữu hoặc tồn tại ở đâu đó.\n- `枚` (mai): Đếm đồ vật mỏng (giấy, áo sơ mi, đĩa, ảnh).\n- `本` (hon): Đếm đồ vật dài (bút, chai, ô, cà vạt).\n- `冊` (satsu): Đếm sách, vở, tạp chí.\n- `台` (dai): Đếm máy móc, xe cộ.\n- `匹` (hiki): Đếm động vật nhỏ (chó, mèo, cá).\n\n**Ví dụ:**\n- 鞄が二つあります。(Có hai cái túi xách.) - *Lưu ý: Đếm đồ vật nói chung dùng hệ đếm `一つ, 二つ...`*\n- 万年筆が三本あります。(Có 3 cái bút máy.)\n\n### 2. Câu hỏi số lượng: `いくつ` và `なんHậu tố`\n- **いくつ**: Dùng để hỏi số lượng đồ vật chung (không xác định hình dáng).\n- **なんHậu tố**: Dùng để hỏi cụ thể số lượng của loại đồ vật đó.\n - Ví dụ: `なんまい` (mấy tờ), `なんぼん` (mấy cái - vật dài), `なんさつ` (mấy quyển), `なんだい` (mấy cái - máy móc).\n\n### 3. Cách đếm người: `Số người います`\nĐối với con người, chúng ta dùng hậu tố `人` (nin).\n- Đặc biệt: 1 người (一人 - hitori), 2 người (二人 - futari), từ 3 người trở lên là `Số + にん`.\n- Để hỏi số lượng người: `なんにん` (bao nhiêu người).\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nわたしの部屋に本が五冊あります。机の上に灰皿が一つあります。鞄の中に万年筆が二本と、写真が三枚あります。そして、かわいい猫が二匹います。\n\n*Phiên âm (Romaji):*\nWatashi no heya ni hon ga gosatsu arimasu. Tsukue no ue ni haizara ga hitotsu arimasu. Kaban no naka ni mannenhitsu ga nihon to, shashin ga sanmai arimasu. Soshite, kawaii neko ga nihiki imasu.\n\n*Bản dịch tiếng Việt:*\nTrong phòng tôi có 5 quyển sách. Trên bàn có một cái gạt tàn. Trong túi xách có hai cái bút máy và ba tấm ảnh. Và, có hai con mèo dễ thương.\n\n**Câu hỏi trắc nghiệm:**\n鞄の中に何がありますか。\n(Trong túi xách có cái gì?)\n\n**Các phương án:**\n1. 本が五冊と灰皿が一つあります。\n2. 万年筆が二本と写真が三枚あります。\n3. 万年筆が三本と写真が二枚あります。\n4. 猫が二匹います。\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Câu trong bài là \"鞄の中に万年筆が二本と、写真が三枚あります\" (Trong túi có 2 bút máy và 3 tấm ảnh). Đáp án 2 hoàn toàn trùng khớp.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: すみません、その背広はいくらですか。\nB: これは二万円です。\nA: そうですか。じゃあ、そのネクタイを三本ください。\nB: はい、ありがとうございます。\n\n*Bản dịch tiếng Việt:*\nA: Xin lỗi, chiếc áo vest đó giá bao nhiêu vậy?\nB: Cái này là 2 vạn yên ạ.\nA: Vậy sao. Vậy cho tôi lấy 3 cái cà vạt nhé.\nB: Vâng, xin cảm ơn.\n\n**Câu hỏi trắc nghiệm:**\nAさんは何をいくつ買いましたか。\n(Anh A đã mua cái gì và mua bao nhiêu cái?)\n\n**Các phương án:**\n1. 背広を二枚買いました。\n2. 背広を三枚買いました。\n3. ネクタイを二本買いました。\n4. ネクタイを三本買いました。\n\n*Đáp án đúng:* **4**\n*Giải thích chi tiết:* A nói \"そのネクタイを三本ください\" (Cho tôi 3 cái cà vạt), vậy đáp án 4 là chính xác.\n\n---\n**Sau bài này bạn sẽ làm được:** Đếm được đồ vật, máy móc, sách vở và động vật; hỏi và trả lời về số lượng đồ vật, con người trong một không gian cụ thể.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -1962,6 +2427,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 10 — Ngữ pháp",
+          "description": "Ngữ pháp bài 10: Bài 10 — Đếm đồ vật và con người",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "Danh từ が Số lượng Hậu tố あります",
+              "back": "Cấu trúc đếm đồ vật: Danh từ が Số lượng Hậu tố あります",
+              "romaji": "",
+              "example": "枚 (mai): Đếm đồ vật mỏng (giấy, áo sơ mi, đĩa, ảnh).",
+              "jlptLevel": 5
+            },
+            {
+              "front": "一つ, 二つ...",
+              "back": "Cấu trúc đếm đồ vật: Danh từ が Số lượng Hậu tố あります",
+              "romaji": "",
+              "example": "本 (hon): Đếm đồ vật dài (bút, chai, ô, cà vạt).",
+              "jlptLevel": 5
+            },
+            {
+              "front": "いくつ",
+              "back": "Câu hỏi số lượng: いくつ và なんHậu tố",
+              "romaji": "",
+              "example": "**いくつ**: Dùng để hỏi số lượng đồ vật chung (không xác định hình dáng).",
+              "jlptLevel": 5
+            },
+            {
+              "front": "なんHậu tố",
+              "back": "Câu hỏi số lượng: いくつ và なんHậu tố",
+              "romaji": "",
+              "example": "**なんHậu tố**: Dùng để hỏi cụ thể số lượng của loại đồ vật đó.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Số người います",
+              "back": "Cách đếm người: Số người います",
+              "romaji": "",
+              "example": "Đặc biệt: 1 người (一人 - hitori), 2 người (二人 - futari), từ 3 người trở lên là Số + にん.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Số + にん",
+              "back": "Cách đếm người: Số người います",
+              "romaji": "",
+              "example": "Để hỏi số lượng người: なんにん (bao nhiêu người).",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -1973,7 +2492,7 @@
     "order": 11,
     "title": "Bài 11 — Muốn làm gì: ～たい",
     "summary": "Diễn đạt mong muốn với たい, hỏi và đáp về sở thích.",
-    "theoryMd": "# Bài 11 — Mong muốn của bản thân: ～たい\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Diễn đạt mong muốn: `V-ます bỏ ます + たい です`\nCấu trúc này dùng để diễn đạt nguyện vọng, mong muốn làm một việc gì đó của bản thân người nói.\n- **Lưu ý:** Chỉ dùng cho ngôi thứ nhất (Tôi).\n- **Ví dụ:** \n    - わたしは おみずを **のみたいです**。 (Tôi muốn uống nước.)\n    - わたしは くるまを **かいたいです**。 (Tôi muốn mua xe hơi.)\n\n### 2. Dạng phủ định: `V-たい → V-たくない です`\nKhi muốn nói không muốn làm gì đó, ta bỏ đuôi `い` của `たい` và thêm `くない`.\n- **Ví dụ:** \n    - わたしは いま、なにも **たべたくないです**。 (Bây giờ tôi không muốn ăn gì cả.)\n\n### 3. Câu hỏi về mong muốn: `〜たいですか`\nDùng để hỏi về nguyện vọng của đối phương.\n- **Ví dụ:**\n    - A: なにを **したいですか**。 (Bạn muốn làm gì?)\n    - B: にほんへ **いきたいです**。 (Tôi muốn đi Nhật.)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n今日、わたしはとてもつかれた。だから、どこもいきたくないです。うちでゆっくりしたいです。おいしいおちゃをのみたいです。そして、すきなほんをよみたいです。\n\n*Phiên âm (Romaji):*\nKyō, watashi wa totemo tsukareta. Dakara, doko mo ikitakunai desu. Uchi de yukkuri shitai desu. Oishii ocha o nomitai desu. Soshite, suki na hon o yomitai desu.\n\n*Bản dịch tiếng Việt:*\nHôm nay, tôi rất mệt. Vì thế, tôi không muốn đi đâu cả. Tôi muốn nghỉ ngơi thư giãn ở nhà. Tôi muốn uống trà ngon. Sau đó, tôi muốn đọc cuốn sách mình thích.\n\n**Câu hỏi trắc nghiệm:**\nわたしは 今日 何をしたいですか。\n(Hôm nay tôi muốn làm gì?)\n\n**Các phương án:**\n1. どこかへいきたいです。(Muốn đi đâu đó)\n2. おちゃをのみたいです。(Muốn uống trà)\n3. くるまをかいたいです。(Muốn mua xe hơi)\n4. はたらきたいです。(Muốn làm việc)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Đoạn văn ghi rõ \"おいしいおちゃをのみたいです\" (Tôi muốn uống trà ngon), các phương án còn lại đều sai hoặc không có trong bài.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: 明日、なにをしたいですか。\nB: そうですね。新しい車を見たいです。\nA: いいですね。わたしも車が好きです。いっしょにいきましょう。\n\n*Bản dịch tiếng Việt:*\nA: Ngày mai bạn muốn làm gì?\nB: Để xem nào. Tôi muốn đi xem xe hơi mới.\nA: Hay quá nhỉ. Tôi cũng thích xe hơi. Chúng ta cùng đi nhé.\n\n**Câu hỏi trắc nghiệm:**\n二人は明日何をしますか。\n(Hai người ngày mai sẽ làm gì?)\n\n**Các phương án:**\n1. ほんをよみます。(Đọc sách)\n2. おちゃをのみます。(Uống trà)\n3. くるまをみます。(Đi xem xe hơi)\n4. おやすみをします。(Nghỉ ngơi)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Bạn B nói \"新しい車を見たいです\" (Tôi muốn đi xem xe hơi mới) và bạn A đồng ý \"いっしょにいきましょう\" (Chúng ta cùng đi nhé), vì vậy hai người sẽ đi xem xe.\n\n---\n**Sau bài này bạn sẽ làm được:** Diễn đạt mong muốn của bản thân, hỏi về mong muốn của người khác và hiểu được các đoạn hội thoại ngắn về chủ đề sở thích, nguyện vọng.",
+    "theoryMd": "# Bài 11 — Mong muốn của bản thân: ～たい\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Diễn đạt mong muốn: `V-ます bỏ ます + たい です`\nCấu trúc này dùng để diễn đạt nguyện vọng, mong muốn làm một việc gì đó của bản thân người nói.\n- **Lưu ý:** Chỉ dùng cho ngôi thứ nhất (Tôi).\n- **Ví dụ:** \n - わたしは おみずを **のみたいです**。 (Tôi muốn uống nước.)\n - わたしは くるまを **かいたいです**。 (Tôi muốn mua xe hơi.)\n\n### 2. Dạng phủ định: `V-たい → V-たくない です`\nKhi muốn nói không muốn làm gì đó, ta bỏ đuôi `い` của `たい` và thêm `くない`.\n- **Ví dụ:** \n - わたしは いま、なにも **たべたくないです**。 (Bây giờ tôi không muốn ăn gì cả.)\n\n### 3. Câu hỏi về mong muốn: `〜たいですか`\nDùng để hỏi về nguyện vọng của đối phương.\n- **Ví dụ:**\n - A: なにを **したいですか**。 (Bạn muốn làm gì?)\n - B: にほんへ **いきたいです**。 (Tôi muốn đi Nhật.)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n今日、わたしはとてもつかれた。だから、どこもいきたくないです。うちでゆっくりしたいです。おいしいおちゃをのみたいです。そして、すきなほんをよみたいです。\n\n*Phiên âm (Romaji):*\nKyō, watashi wa totemo tsukareta. Dakara, doko mo ikitakunai desu. Uchi de yukkuri shitai desu. Oishii ocha o nomitai desu. Soshite, suki na hon o yomitai desu.\n\n*Bản dịch tiếng Việt:*\nHôm nay, tôi rất mệt. Vì thế, tôi không muốn đi đâu cả. Tôi muốn nghỉ ngơi thư giãn ở nhà. Tôi muốn uống trà ngon. Sau đó, tôi muốn đọc cuốn sách mình thích.\n\n**Câu hỏi trắc nghiệm:**\nわたしは 今日 何をしたいですか。\n(Hôm nay tôi muốn làm gì?)\n\n**Các phương án:**\n1. どこかへいきたいです。(Muốn đi đâu đó)\n2. おちゃをのみたいです。(Muốn uống trà)\n3. くるまをかいたいです。(Muốn mua xe hơi)\n4. はたらきたいです。(Muốn làm việc)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Đoạn văn ghi rõ \"おいしいおちゃをのみたいです\" (Tôi muốn uống trà ngon), các phương án còn lại đều sai hoặc không có trong bài.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: 明日、なにをしたいですか。\nB: そうですね。新しい車を見たいです。\nA: いいですね。わたしも車が好きです。いっしょにいきましょう。\n\n*Bản dịch tiếng Việt:*\nA: Ngày mai bạn muốn làm gì?\nB: Để xem nào. Tôi muốn đi xem xe hơi mới.\nA: Hay quá nhỉ. Tôi cũng thích xe hơi. Chúng ta cùng đi nhé.\n\n**Câu hỏi trắc nghiệm:**\n二人は明日何をしますか。\n(Hai người ngày mai sẽ làm gì?)\n\n**Các phương án:**\n1. ほんをよみます。(Đọc sách)\n2. おちゃをのみます。(Uống trà)\n3. くるまをみます。(Đi xem xe hơi)\n4. おやすみをします。(Nghỉ ngơi)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Bạn B nói \"新しい車を見たいです\" (Tôi muốn đi xem xe hơi mới) và bạn A đồng ý \"いっしょにいきましょう\" (Chúng ta cùng đi nhé), vì vậy hai người sẽ đi xem xe.\n\n---\n**Sau bài này bạn sẽ làm được:** Diễn đạt mong muốn của bản thân, hỏi về mong muốn của người khác và hiểu được các đoạn hội thoại ngắn về chủ đề sở thích, nguyện vọng.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -2222,6 +2741,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 11 — Ngữ pháp",
+          "description": "Ngữ pháp bài 11: Bài 11 — Muốn làm gì: ～たい",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "V-ます bỏ ます + たい です",
+              "back": "Diễn đạt mong muốn: V-ます bỏ ます + たい です",
+              "romaji": "",
+              "example": "- わたしは おみずを **のみたいです**。 (Tôi muốn uống nước.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "のみたいです",
+              "back": "Diễn đạt mong muốn: V-ます bỏ ます + たい です",
+              "romaji": "",
+              "example": "わたしは くるまを **かいたいです**。 (Tôi muốn mua xe hơi.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-たい → V-たくない です",
+              "back": "Dạng phủ định: V-たい → V-たくない です",
+              "romaji": "",
+              "example": "- わたしは いま、なにも **たべたくないです**。 (Bây giờ tôi không muốn ăn gì cả.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "たい",
+              "back": "Dạng phủ định: V-たい → V-たくない です",
+              "romaji": "",
+              "example": "- わたしは いま、なにも **たべたくないです**。 (Bây giờ tôi không muốn ăn gì cả.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜たいですか",
+              "back": "Câu hỏi về mong muốn: 〜たいですか",
+              "romaji": "",
+              "example": "- A: なにを **したいですか**。 (Bạn muốn làm gì?)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "したいですか",
+              "back": "Câu hỏi về mong muốn: 〜たいですか",
+              "romaji": "",
+              "example": "B: にほんへ **いきたいです**。 (Tôi muốn đi Nhật.)",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -2233,7 +2806,7 @@
     "order": 12,
     "title": "Bài 12 — Lời mời và đề nghị: ～ませんか / ましょう",
     "summary": "Cách mời ai làm gì cùng, từ chối lịch sự.",
-    "theoryMd": "# Bài 12 — Lời mời và đề nghị: ～ませんか / ましょう\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Mẫu câu mời: `V-ませんか (V-masen ka)`\nDùng để mời ai đó làm gì cùng với mình. Đây là cách nói lịch sự, mang tính gợi ý.\n- **Cấu trúc:** `[Địa điểm] へ いきませんか。` (Bạn có đi [địa điểm] không?)\n- **Ví dụ:** `えきへ いきませんか。` (Bạn có muốn đi đến nhà ga không?)\n\n### 2. Mẫu câu đề nghị/rủ rê: `V-ましょう (V-mashou)`\nDùng để thể hiện ý chí \"Chúng ta hãy cùng làm gì đó\" hoặc đồng ý với lời mời của người khác.\n- **Cấu trúc:** `～ましょう。` (Chúng ta cùng làm... nhé.)\n- **Ví dụ:** `えきへ いきましょう。` (Chúng ta cùng đi đến nhà ga nhé.)\n\n### 3. Cách từ chối lịch sự\nKhi muốn từ chối lời mời, người Nhật thường không nói thẳng \"Không\". Họ thường thêm cụm từ `すみません` (Xin lỗi) và `少し...` (một chút...) để giảm nhẹ sự từ chối.\n- **Ví dụ:** `すみません、少し...` (Xin lỗi, hơi khó một chút...)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nAさん：あした、いっしょに町へ いきませんか。\nBさん：すみません。あしたは しごとが あります。おわったら、また 連絡します。\nAさん：わかりました。\n\n*Phiên âm (Romaji):*\nA-san: Ashita, issho ni machi e ikimasen ka.\nB-san: Sumimasen. Ashita wa shigoto ga arimasu. Owattara, mata renraku shimasu.\nA-san: Wakarimashita.\n\n*Bản dịch tiếng Việt:*\nA: Ngày mai, bạn có muốn cùng tôi đi ra phố không?\nB: Xin lỗi bạn. Ngày mai tôi có việc. Sau khi xong việc, tôi sẽ liên lạc lại.\nA: Tôi hiểu rồi.\n\n**Câu hỏi trắc nghiệm:**\nBさんは あした 町へ いきますか。\n(Ngày mai bạn B có đi ra phố không?)\n\n**Các phương án:**\n1. はい、いきます。(Vâng, đi)\n2. いいえ、いきません。(Không, không đi)\n3. はい、いっしょに いきます。(Vâng, sẽ cùng đi)\n4. わかりません。(Không biết)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* B nói \"すみません\" (Xin lỗi) và giải thích \"shigoto ga arimasu\" (có công việc), điều này ngụ ý rằng bạn ấy không thể đi được.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nTanaka: あついですね。何か のみたいですね。\nSato: そうですね。あの おおきな えきで コーヒーを のみませんか。\nTanaka: いいですね。いきましょう。\n\n*Bản dịch tiếng Việt:*\nTanaka: Nóng nhỉ. Muốn uống cái gì đó quá.\nSato: Đúng vậy nhỉ. Chúng ta cùng uống cà phê ở nhà ga lớn kia nhé?\nTanaka: Được đấy. Cùng đi thôi.\n\n**Câu hỏi trắc nghiệm:**\n二人は 何を しますか。\n(Hai người họ sẽ làm gì?)\n\n**Các phương án:**\n1. いしゃへ いきます。(Đi đến bác sĩ)\n2. コーヒーを のみます。(Uống cà phê)\n3. まちを はしります。(Chạy bộ trên phố)\n4. 国へ かえります。(Về nước)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Anh Sato đề nghị \"コーヒーを のみませんか\" (Uống cà phê không?) và Tanaka đồng ý \"いきましょう\" (Đi thôi/Cùng làm thôi), xác nhận họ sẽ đi uống cà phê.\n\n---\n\n**Sau bài này bạn sẽ làm được:**\n1. Mời bạn bè, đồng nghiệp cùng tham gia các hoạt động.\n2. Biết cách sử dụng `V-masen ka` và `V-mashou` một cách tự nhiên.\n3. Biết cách từ chối lời mời một cách lịch sự, tế nhị theo văn hóa Nhật Bản.",
+    "theoryMd": "# Bài 12 — Lời mời và đề nghị: ～ませんか / ましょう\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Mẫu câu mời: `V-ませんか (V-masen ka)`\nDùng để mời ai đó làm gì cùng với mình. Đây là cách nói lịch sự, mang tính gợi ý.\n- **Cấu trúc:** `Địa điểm へ いきませんか。` (Bạn có đi địa điểm không?)\n- **Ví dụ:** `えきへ いきませんか。` (Bạn có muốn đi đến nhà ga không?)\n\n### 2. Mẫu câu đề nghị/rủ rê: `V-ましょう (V-mashou)`\nDùng để thể hiện ý chí \"Chúng ta hãy cùng làm gì đó\" hoặc đồng ý với lời mời của người khác.\n- **Cấu trúc:** `～ましょう。` (Chúng ta cùng làm... nhé.)\n- **Ví dụ:** `えきへ いきましょう。` (Chúng ta cùng đi đến nhà ga nhé.)\n\n### 3. Cách từ chối lịch sự\nKhi muốn từ chối lời mời, người Nhật thường không nói thẳng \"Không\". Họ thường thêm cụm từ `すみません` (Xin lỗi) và `少し...` (một chút...) để giảm nhẹ sự từ chối.\n- **Ví dụ:** `すみません、少し...` (Xin lỗi, hơi khó một chút...)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nAさん：あした、いっしょに町へ いきませんか。\nBさん：すみません。あしたは しごとが あります。おわったら、また 連絡します。\nAさん：わかりました。\n\n*Phiên âm (Romaji):*\nA-san: Ashita, issho ni machi e ikimasen ka.\nB-san: Sumimasen. Ashita wa shigoto ga arimasu. Owattara, mata renraku shimasu.\nA-san: Wakarimashita.\n\n*Bản dịch tiếng Việt:*\nA: Ngày mai, bạn có muốn cùng tôi đi ra phố không?\nB: Xin lỗi bạn. Ngày mai tôi có việc. Sau khi xong việc, tôi sẽ liên lạc lại.\nA: Tôi hiểu rồi.\n\n**Câu hỏi trắc nghiệm:**\nBさんは あした 町へ いきますか。\n(Ngày mai bạn B có đi ra phố không?)\n\n**Các phương án:**\n1. はい、いきます。(Vâng, đi)\n2. いいえ、いきません。(Không, không đi)\n3. はい、いっしょに いきます。(Vâng, sẽ cùng đi)\n4. わかりません。(Không biết)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* B nói \"すみません\" (Xin lỗi) và giải thích \"shigoto ga arimasu\" (có công việc), điều này ngụ ý rằng bạn ấy không thể đi được.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nTanaka: あついですね。何か のみたいですね。\nSato: そうですね。あの おおきな えきで コーヒーを のみませんか。\nTanaka: いいですね。いきましょう。\n\n*Bản dịch tiếng Việt:*\nTanaka: Nóng nhỉ. Muốn uống cái gì đó quá.\nSato: Đúng vậy nhỉ. Chúng ta cùng uống cà phê ở nhà ga lớn kia nhé?\nTanaka: Được đấy. Cùng đi thôi.\n\n**Câu hỏi trắc nghiệm:**\n二人は 何を しますか。\n(Hai người họ sẽ làm gì?)\n\n**Các phương án:**\n1. いしゃへ いきます。(Đi đến bác sĩ)\n2. コーヒーを のみます。(Uống cà phê)\n3. まちを はしります。(Chạy bộ trên phố)\n4. 国へ かえります。(Về nước)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Anh Sato đề nghị \"コーヒーを のみませんか\" (Uống cà phê không?) và Tanaka đồng ý \"いきましょう\" (Đi thôi/Cùng làm thôi), xác nhận họ sẽ đi uống cà phê.\n\n---\n\n**Sau bài này bạn sẽ làm được:**\n1. Mời bạn bè, đồng nghiệp cùng tham gia các hoạt động.\n2. Biết cách sử dụng `V-masen ka` và `V-mashou` một cách tự nhiên.\n3. Biết cách từ chối lời mời một cách lịch sự, tế nhị theo văn hóa Nhật Bản.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -2482,6 +3055,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 12 — Ngữ pháp",
+          "description": "Ngữ pháp bài 12: Bài 12 — Lời mời và đề nghị: ～ませんか / ましょう",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "V-ませんか (V-masen ka)",
+              "back": "Mẫu câu mời: V-ませんか",
+              "romaji": "",
+              "example": "**Cấu trúc:** Địa điểm へ いきませんか。 (Bạn có đi địa điểm không?)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Địa điểm へ いきませんか。",
+              "back": "Mẫu câu mời: V-ませんか",
+              "romaji": "",
+              "example": "えきへ いきませんか。 (Bạn có muốn đi đến nhà ga không?)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-ましょう (V-mashou)",
+              "back": "Mẫu câu đề nghị/rủ rê: V-ましょう",
+              "romaji": "",
+              "example": "**Cấu trúc:** ～ましょう。 (Chúng ta cùng làm... nhé.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜ましょう。",
+              "back": "Mẫu câu đề nghị/rủ rê: V-ましょう",
+              "romaji": "",
+              "example": "えきへ いきましょう。 (Chúng ta cùng đi đến nhà ga nhé.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "すみません",
+              "back": "Cách từ chối lịch sự",
+              "romaji": "",
+              "example": "すみません、少し... (Xin lỗi, hơi khó một chút...)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "少し...",
+              "back": "Cách từ chối lịch sự",
+              "romaji": "",
+              "example": "すみません、少し... (Xin lỗi, hơi khó một chút...)",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -2493,7 +3120,7 @@
     "order": 13,
     "title": "Bài 13 — Trợ từ で (phương tiện/nơi chốn) nâng cao",
     "summary": "で chỉ nguyên liệu, ngôn ngữ, phương tiện; と cùng nhau.",
-    "theoryMd": "# Bài 13 — Trợ từ で (phương tiện/ngôn ngữ) và と (cùng với)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Trợ từ `で` (Phương tiện/Công cụ)\nDùng để chỉ phương tiện, công cụ hoặc cách thức thực hiện hành động.\n- **Cấu trúc:** `Danh từ (phương tiện/công cụ) + で + Động từ`\n- **Ví dụ:** \n    - 日本語**で** 質問をします。 (Tôi đặt câu hỏi **bằng** tiếng Nhật.)\n    - 辞書**で** 調べます。 (Tôi tra cứu **bằng** từ điển.)\n\n### 2. Trợ từ `で` (Nguyên liệu/Cách thức)\nDùng để chỉ nguyên liệu làm ra vật gì đó hoặc cách thức thực hiện.\n- **Cấu trúc:** `Danh từ (nguyên liệu) + で + 作ります/書きます...`\n- **Ví dụ:** \n    - 日本語**で** 書きます。 (Tôi viết **bằng** tiếng Nhật.)\n    - 体を 大きくする ために、たくさん 食べます。 (Để cơ thể to lớn hơn, tôi ăn rất nhiều.)\n\n### 3. Trợ từ `と` (Cùng với)\nDùng để chỉ đối tượng cùng thực hiện hành động.\n- **Cấu trúc:** `Danh từ (người/động vật) + と + Động từ`\n- **Ví dụ:** \n    - 友達**と** 日本へ 行きます。 (Tôi đi Nhật **cùng với** bạn.)\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n昨夜、わたしは 友達と レストランへ 行きました。日本語で メニューを 読みました。とても 有名な レストランです。全部 食べました。とても 美味しかったです。\n\n*Phiên âm (Romaji):*\nYūbe, watashi wa tomodachi to resutoran e ikimashita. Nihongo de menyū o yomimashita. Totemo yūmeina resutoran desu. Zenbu tabemashita. Totemo oishikatta desu.\n\n*Bản dịch tiếng Việt:*\nTối qua, tôi đã đi nhà hàng cùng với bạn. Tôi đọc thực đơn bằng tiếng Nhật. Đó là một nhà hàng rất nổi tiếng. Tôi đã ăn hết tất cả. Nó rất ngon.\n\n**Câu hỏi trắc nghiệm:**\nわたしは どうやって メニューを 読みましたか。\n(Tôi đã đọc thực đơn bằng cách nào/bằng cái gì?)\n\n**Các phương án:**\n1. 友達と読みました (Đọc cùng bạn)\n2. 日本語で読みました (Đọc bằng tiếng Nhật)\n3. 英語で読みました (Đọc bằng tiếng Anh)\n4. 辞書で読みました (Đọc bằng từ điển)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Đoạn văn có câu \"日本語で メニューを 読みました\" (Đọc thực đơn bằng tiếng Nhật), vì vậy đáp án 2 là chính xác.\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: 午後、一人で 日本語を 勉強しますか。\nB: いいえ、田中さんと 一緒に 勉強します。辞書で 新しい 言葉を 調べます。\nA: 田中さんは 日本語が 上手ですね。\nB: はい、とても 強いです。\n\n*Bản dịch tiếng Việt:*\nA: Chiều nay, bạn tự học tiếng Nhật một mình à?\nB: Không, tôi học cùng với anh Tanaka. Tôi tra từ mới bằng từ điển.\nA: Anh Tanaka giỏi tiếng Nhật nhỉ.\nB: Vâng, anh ấy rất cừ (mạnh/giỏi).\n\n**Câu hỏi trắc nghiệm:**\nBさんは だれと 勉強しますか。\n(Bạn B học cùng với ai?)\n\n**Các phương án:**\n1. 一人で (Một mình)\n2. 先生と (Với giáo viên)\n3. 田中さんと (Với anh Tanaka)\n4. 友達と (Với bạn)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Trong hội thoại, B trả lời \"田中さんと 一緒に 勉強します\" (Tôi học cùng với anh Tanaka), nên đáp án 3 là đúng.\n\n---\n**Sau bài này bạn sẽ làm được:** sử dụng trợ từ `で` để diễn tả phương tiện, ngôn ngữ, nguyên liệu; sử dụng `と` để chỉ đối tượng đồng hành và hiểu các hội thoại cơ bản liên quan đến cách thức thực hiện công việc.",
+    "theoryMd": "# Bài 13 — Trợ từ で (phương tiện/ngôn ngữ) và と (cùng với)\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Trợ từ `で` (Phương tiện/Công cụ)\nDùng để chỉ phương tiện, công cụ hoặc cách thức thực hiện hành động.\n- **Cấu trúc:** `Danh từ (phương tiện/công cụ) + で + Động từ`\n- **Ví dụ:** \n - 日本語**で** 質問をします。 (Tôi đặt câu hỏi **bằng** tiếng Nhật.)\n - 辞書**で** 調べます。 (Tôi tra cứu **bằng** từ điển.)\n\n### 2. Trợ từ `で` (Nguyên liệu/Cách thức)\nDùng để chỉ nguyên liệu làm ra vật gì đó hoặc cách thức thực hiện.\n- **Cấu trúc:** `Danh từ (nguyên liệu) + で + 作ります/書きます...`\n- **Ví dụ:** \n - 日本語**で** 書きます。 (Tôi viết **bằng** tiếng Nhật.)\n - 体を 大きくする ために、たくさん 食べます。 (Để cơ thể to lớn hơn, tôi ăn rất nhiều.)\n\n### 3. Trợ từ `と` (Cùng với)\nDùng để chỉ đối tượng cùng thực hiện hành động.\n- **Cấu trúc:** `Danh từ (người/động vật) + と + Động từ`\n- **Ví dụ:** \n - 友達**と** 日本へ 行きます。 (Tôi đi Nhật **cùng với** bạn.)\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n昨夜、わたしは 友達と レストランへ 行きました。日本語で メニューを 読みました。とても 有名な レストランです。全部 食べました。とても 美味しかったです。\n\n*Phiên âm (Romaji):*\nYūbe, watashi wa tomodachi to resutoran e ikimashita. Nihongo de menyū o yomimashita. Totemo yūmeina resutoran desu. Zenbu tabemashita. Totemo oishikatta desu.\n\n*Bản dịch tiếng Việt:*\nTối qua, tôi đã đi nhà hàng cùng với bạn. Tôi đọc thực đơn bằng tiếng Nhật. Đó là một nhà hàng rất nổi tiếng. Tôi đã ăn hết tất cả. Nó rất ngon.\n\n**Câu hỏi trắc nghiệm:**\nわたしは どうやって メニューを 読みましたか。\n(Tôi đã đọc thực đơn bằng cách nào/bằng cái gì?)\n\n**Các phương án:**\n1. 友達と読みました (Đọc cùng bạn)\n2. 日本語で読みました (Đọc bằng tiếng Nhật)\n3. 英語で読みました (Đọc bằng tiếng Anh)\n4. 辞書で読みました (Đọc bằng từ điển)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Đoạn văn có câu \"日本語で メニューを 読みました\" (Đọc thực đơn bằng tiếng Nhật), vì vậy đáp án 2 là chính xác.\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: 午後、一人で 日本語を 勉強しますか。\nB: いいえ、田中さんと 一緒に 勉強します。辞書で 新しい 言葉を 調べます。\nA: 田中さんは 日本語が 上手ですね。\nB: はい、とても 強いです。\n\n*Bản dịch tiếng Việt:*\nA: Chiều nay, bạn tự học tiếng Nhật một mình à?\nB: Không, tôi học cùng với anh Tanaka. Tôi tra từ mới bằng từ điển.\nA: Anh Tanaka giỏi tiếng Nhật nhỉ.\nB: Vâng, anh ấy rất cừ (mạnh/giỏi).\n\n**Câu hỏi trắc nghiệm:**\nBさんは だれと 勉強しますか。\n(Bạn B học cùng với ai?)\n\n**Các phương án:**\n1. 一人で (Một mình)\n2. 先生と (Với giáo viên)\n3. 田中さんと (Với anh Tanaka)\n4. 友達と (Với bạn)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Trong hội thoại, B trả lời \"田中さんと 一緒に 勉強します\" (Tôi học cùng với anh Tanaka), nên đáp án 3 là đúng.\n\n---\n**Sau bài này bạn sẽ làm được:** sử dụng trợ từ `で` để diễn tả phương tiện, ngôn ngữ, nguyên liệu; sử dụng `と` để chỉ đối tượng đồng hành và hiểu các hội thoại cơ bản liên quan đến cách thức thực hiện công việc.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -2738,6 +3365,39 @@
               "back": "nhỏ, bé",
               "romaji": "ちいさい",
               "example": "小さい（ちいさい）",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 13 — Ngữ pháp",
+          "description": "Ngữ pháp bài 13: Bài 13 — Trợ từ で (phương tiện/nơi chốn) nâng cao",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "Danh từ (phương tiện/công cụ) + で + Động từ",
+              "back": "Trợ từ で",
+              "romaji": "",
+              "example": "**Cấu trúc:** Danh từ (phương tiện/công cụ) + で + Động từ",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Danh từ (nguyên liệu) + で + 作ります/書きます...",
+              "back": "Trợ từ で",
+              "romaji": "",
+              "example": "**Cấu trúc:** Danh từ (nguyên liệu) + で + 作ります/書きます...",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Danh từ (người/động vật) + と + Động từ",
+              "back": "Trợ từ と",
+              "romaji": "",
+              "example": "**Cấu trúc:** Danh từ (người/động vật) + と + Động từ",
               "jlptLevel": 5
             }
           ]
@@ -3002,6 +3662,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 14 — Ngữ pháp",
+          "description": "Ngữ pháp bài 14: Bài 14 — Cho và nhận: あげます/もらいます/くれます",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "N を あげます",
+              "back": "N を あげます",
+              "romaji": "",
+              "example": "**Cấu trúc:** Chủ ngữ は Người nhận に N を あげます",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Chủ ngữ は Người nhận に N を あげます",
+              "back": "N を あげます",
+              "romaji": "",
+              "example": "わたしは 弟に 魚を あげました。(Tôi đã cho em trai con cá.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N を もらいます",
+              "back": "N を もらいます",
+              "romaji": "",
+              "example": "**Cấu trúc:** Chủ ngữ は Người cho に/から N を もらいます",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Chủ ngữ は Người cho に/から N を もらいます",
+              "back": "N を もらいます",
+              "romaji": "",
+              "example": "わたしは お母さんに 本を もらいました。(Tôi đã nhận cuốn sách từ mẹ.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N を くれます",
+              "back": "N を くれます",
+              "romaji": "",
+              "example": "**Cấu trúc:** Người cho は わたし(たち) に N を くれます",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Người cho は わたし(たち) に N を くれます",
+              "back": "N を くれます",
+              "romaji": "",
+              "example": "警官が わたしに 道を 教えてくれました。(Cảnh sát đã chỉ đường cho tôi.)",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -3013,7 +3727,7 @@
     "order": 15,
     "title": "Bài 15 — Thể て (1): Nối câu và yêu cầu",
     "summary": "Chia động từ thể て, mẫu ～てください, ～ています.",
-    "theoryMd": "# Bài 15 — Thể て (1): Nối câu và yêu cầu\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Cách chia động từ thể て (Te-form)\nThể `て` là dạng liên kết quan trọng nhất trong tiếng Nhật. Tùy vào nhóm động từ mà cách chia sẽ khác nhau:\n- **Nhóm 1:** \n    - Kết thúc bằng `い, ち, り` → chuyển thành `って` (Ví dụ: 切る → 切って)\n    - Kết thúc bằng `み, び, に` → chuyển thành `んで` (Ví dụ: 読む → 読んで)\n    - Kết thúc bằng `き` → `いて`; `ぎ` → `いで`\n- **Nhóm 2:** Bỏ `る` thêm `て` (Ví dụ: 食べる → 食べて)\n- **Nhóm 3:** する → して; 来る → 来て\n\n### 2. Mẫu câu yêu cầu: `〜てください`\nDùng khi muốn yêu cầu hoặc nhờ vả ai đó làm gì một cách lịch sự.\n- **Cấu trúc:** `Động từ (thể て) + ください`\n- **Ví dụ:** 荷物を返してください。 (Hãy trả lại hành lý cho tôi.)\n\n### 3. Mẫu câu diễn tả hành động đang xảy ra: `〜ています`\nDùng để diễn tả một hành động đang diễn ra tại thời điểm nói.\n- **Cấu trúc:** `Động từ (thể て) + います`\n- **Ví dụ:** 私は今、手紙を書いています。 (Bây giờ tôi đang viết thư.)\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n田中さんは今、教室で本を読んでいます。机の上に荷物がたくさんあります。田中さんは「すみません、その本を貸してください」と言いました。私は「はい、どうぞ」と言って、本を返しました。\n\n*Phiên âm (Romaji):*\nTanaka-san wa ima, kyōshitsu de hon o yonde imasu. Tsukue no ue ni nimotsu ga takusan arimasu. Tanaka-san wa \"Sumimasen, sono hon o kashite kudasai\" to iimashita. Watashi wa \"Hai, dōzo\" to itte, hon o kaeshimashita.\n\n*Bản dịch tiếng Việt:*\nAnh Tanaka hiện đang đọc sách trong lớp học. Trên bàn có rất nhiều hành lý. Anh Tanaka nói: \"Xin lỗi, hãy cho tôi mượn cuốn sách đó\". Tôi nói: \"Vâng, xin mời\" và đã trả lại cuốn sách.\n\n**Câu hỏi trắc nghiệm:**\n田中さんは今、何をしていますか。 (Anh Tanaka hiện tại đang làm gì?)\n\n1. 荷物を返しています。(Đang trả lại hành lý)\n2. 本を貸しています。(Đang cho mượn sách)\n3. 本を読んでいます。(Đang đọc sách)\n4. 教室で寝ています。(Đang ngủ trong lớp)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Câu đầu tiên của đoạn văn \"田中さんは今、教室で本を読んでいます\" (Anh Tanaka hiện đang đọc sách trong lớp) khớp hoàn toàn với đáp án 3.\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: すみません、ちょっとペンを貸してください。\nB: はい、どうぞ。\nA: ありがとうございます。あ、この紙を切ってください。\nB: はい、いいですよ。\n\n*Bản dịch tiếng Việt:*\nA: Xin lỗi, cho tôi mượn cây bút một chút.\nB: Vâng, mời bạn.\nA: Cảm ơn bạn. À, hãy cắt tờ giấy này giúp tôi nhé.\nB: Vâng, được chứ.\n\n**Câu hỏi trắc nghiệm:**\nAさんはBさんに何を頼みましたか。 (Anh A đã nhờ anh B làm gì?)\n\n1. ペンを返すこと (Trả lại bút)\n2. ペンを貸すことと、紙を切ること (Cho mượn bút và cắt giấy)\n3. 荷物を運ぶこと (Vận chuyển hành lý)\n4. 本を読むこと (Đọc sách)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Anh A dùng cấu trúc `～てください` để nhờ hai việc: \"ペンを貸してください\" (Cho mượn bút) và sau đó là \"紙を切ってください\" (Cắt giấy).\n\n---\n**Sau bài này bạn sẽ làm được:** Chia các loại động từ sang thể て, biết cách nhờ vả người khác lịch sự trong đời sống hàng ngày và diễn tả hành động đang thực hiện.",
+    "theoryMd": "# Bài 15 — Thể て (1): Nối câu và yêu cầu\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Cách chia động từ thể て (Te-form)\nThể `て` là dạng liên kết quan trọng nhất trong tiếng Nhật. Tùy vào nhóm động từ mà cách chia sẽ khác nhau:\n- **Nhóm 1:** \n - Kết thúc bằng `い, ち, り` → chuyển thành `って` (Ví dụ: 切る → 切って)\n - Kết thúc bằng `み, び, に` → chuyển thành `んで` (Ví dụ: 読む → 読んで)\n - Kết thúc bằng `き` → `いて`; `ぎ` → `いで`\n- **Nhóm 2:** Bỏ `る` thêm `て` (Ví dụ: 食べる → 食べて)\n- **Nhóm 3:** する → して; 来る → 来て\n\n### 2. Mẫu câu yêu cầu: `〜てください`\nDùng khi muốn yêu cầu hoặc nhờ vả ai đó làm gì một cách lịch sự.\n- **Cấu trúc:** `Động từ (thể て) + ください`\n- **Ví dụ:** 荷物を返してください。 (Hãy trả lại hành lý cho tôi.)\n\n### 3. Mẫu câu diễn tả hành động đang xảy ra: `〜ています`\nDùng để diễn tả một hành động đang diễn ra tại thời điểm nói.\n- **Cấu trúc:** `Động từ (thể て) + います`\n- **Ví dụ:** 私は今、手紙を書いています。 (Bây giờ tôi đang viết thư.)\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n田中さんは今、教室で本を読んでいます。机の上に荷物がたくさんあります。田中さんは「すみません、その本を貸してください」と言いました。私は「はい、どうぞ」と言って、本を返しました。\n\n*Phiên âm (Romaji):*\nTanaka-san wa ima, kyōshitsu de hon o yonde imasu. Tsukue no ue ni nimotsu ga takusan arimasu. Tanaka-san wa \"Sumimasen, sono hon o kashite kudasai\" to iimashita. Watashi wa \"Hai, dōzo\" to itte, hon o kaeshimashita.\n\n*Bản dịch tiếng Việt:*\nAnh Tanaka hiện đang đọc sách trong lớp học. Trên bàn có rất nhiều hành lý. Anh Tanaka nói: \"Xin lỗi, hãy cho tôi mượn cuốn sách đó\". Tôi nói: \"Vâng, xin mời\" và đã trả lại cuốn sách.\n\n**Câu hỏi trắc nghiệm:**\n田中さんは今、何をしていますか。 (Anh Tanaka hiện tại đang làm gì?)\n\n1. 荷物を返しています。(Đang trả lại hành lý)\n2. 本を貸しています。(Đang cho mượn sách)\n3. 本を読んでいます。(Đang đọc sách)\n4. 教室で寝ています。(Đang ngủ trong lớp)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Câu đầu tiên của đoạn văn \"田中さんは今、教室で本を読んでいます\" (Anh Tanaka hiện đang đọc sách trong lớp) khớp hoàn toàn với đáp án 3.\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: すみません、ちょっとペンを貸してください。\nB: はい、どうぞ。\nA: ありがとうございます。あ、この紙を切ってください。\nB: はい、いいですよ。\n\n*Bản dịch tiếng Việt:*\nA: Xin lỗi, cho tôi mượn cây bút một chút.\nB: Vâng, mời bạn.\nA: Cảm ơn bạn. À, hãy cắt tờ giấy này giúp tôi nhé.\nB: Vâng, được chứ.\n\n**Câu hỏi trắc nghiệm:**\nAさんはBさんに何を頼みましたか。 (Anh A đã nhờ anh B làm gì?)\n\n1. ペンを返すこと (Trả lại bút)\n2. ペンを貸すことと、紙を切ること (Cho mượn bút và cắt giấy)\n3. 荷物を運ぶこと (Vận chuyển hành lý)\n4. 本を読むこと (Đọc sách)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Anh A dùng cấu trúc `～てください` để nhờ hai việc: \"ペンを貸してください\" (Cho mượn bút) và sau đó là \"紙を切ってください\" (Cắt giấy).\n\n---\n**Sau bài này bạn sẽ làm được:** Chia các loại động từ sang thể て, biết cách nhờ vả người khác lịch sự trong đời sống hàng ngày và diễn tả hành động đang thực hiện.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -3262,6 +3976,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 15 — Ngữ pháp",
+          "description": "Ngữ pháp bài 15: Bài 15 — Thể て (1): Nối câu và yêu cầu",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "い, ち, り",
+              "back": "Cách chia động từ thể て",
+              "romaji": "",
+              "example": "Kết thúc bằng い, ち, り",
+              "jlptLevel": 5
+            },
+            {
+              "front": "って",
+              "back": "Cách chia động từ thể て",
+              "romaji": "",
+              "example": "Kết thúc bằng み, び, に",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜てください",
+              "back": "Mẫu câu yêu cầu: 〜てください",
+              "romaji": "",
+              "example": "**Cấu trúc:** Động từ (thể て) + ください",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Động từ (thể て) + ください",
+              "back": "Mẫu câu yêu cầu: 〜てください",
+              "romaji": "",
+              "example": "荷物を返してください。 (Hãy trả lại hành lý cho tôi.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜ています",
+              "back": "Mẫu câu diễn tả hành động đang xảy ra: 〜ています",
+              "romaji": "",
+              "example": "**Cấu trúc:** Động từ (thể て) + います",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Động từ (thể て) + います",
+              "back": "Mẫu câu diễn tả hành động đang xảy ra: 〜ています",
+              "romaji": "",
+              "example": "私は今、手紙を書いています。 (Bây giờ tôi đang viết thư.)",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -3273,7 +4041,7 @@
     "order": 16,
     "title": "Bài 16 — Thể て (2): ～ています trạng thái",
     "summary": "Phân biệt ～ています tiếp diễn vs trạng thái kết quả.",
-    "theoryMd": "# Bài 16 — Thể て (2): ～ています Trạng thái\n\n## 📖 Lý thuyết Ngữ pháp\n\nTrong tiếng Nhật, cấu trúc `V-ています` không chỉ dùng để diễn tả hành động đang tiếp diễn mà còn dùng để mô tả **trạng thái kết quả** của một hành động đã xảy ra và kéo dài đến hiện tại.\n\n### 1. Trạng thái kết quả của hành động (`V-ています`)\nCấu trúc này dùng với các động từ chỉ sự thay đổi, kết thúc nhanh chóng (như: kết hôn, dán, biết, có, cất giữ...). Nó diễn tả một trạng thái đã hình thành và đang duy trì.\n*   **Cấu trúc:** `N が [V-て] います`\n*   **Ví dụ:**\n    *   壁に カレンダーが **貼ってあります**。(Trên tường có dán cuốn lịch - *Trạng thái dán vẫn còn đó*)\n    *   私は 結婚して **います**。(Tôi đã kết hôn - *Trạng thái đã kết hôn duy trì đến tận bây giờ*)\n\n### 2. Phân biệt Trạng thái kết quả vs. Tiếp diễn\n*   **Tiếp diễn (Đang làm gì đó):** Thường đi với động từ chỉ hoạt động (`食べる, 書く, 読む...`).\n    *   Ví dụ: 私は 本を **読んでいます**。(Tôi đang đọc sách).\n*   **Trạng thái (Kết quả của một hành động):** Thường đi với động từ chỉ sự thay đổi trạng thái (`結婚する, 知る, 住む, 持つ...`).\n    *   Ví dụ: 大阪に **住んでいます**。(Tôi đang sống ở Osaka - *Trạng thái cư trú*).\n\n### 3. Phủ định của thể trạng thái\nKhi muốn nói về trạng thái không tồn tại hoặc không biết, ta dùng `V-ていません`.\n*   **Ví dụ:**\n    *   私は あの人を **知りません**。(Tôi không biết người đó - *Lưu ý: Không dùng 知っていません*).\n    *   私は 車を **持っていません**。(Tôi không có xe hơi).\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n私の会社は大阪にあります。私は大阪の支店に勤めています。壁には綺麗な絵が貼ってあります。隣の席の佐藤さんは結婚しています。佐藤さんは今、果物を食べています。私は佐藤さんの電話番号を知りません。\n\n*Phiên âm (Romaji):*\nWatashi no kaisha wa Osaka ni arimasu. Watashi wa Osaka no shiten ni tsutomete imasu. Kabe ni wa kirei na e ga hatte arimasu. Tonari no seki no Sato-san wa kekkon shite imasu. Sato-san wa ima, kudamono o tabete imasu. Watashi wa Sato-san no denwa-bangou o shirimasen.\n\n*Bản dịch tiếng Việt:*\nCông ty của tôi ở Osaka. Tôi đang làm việc tại chi nhánh Osaka. Trên tường có dán một bức tranh đẹp. Anh Sato ngồi cạnh tôi đã kết hôn. Anh Sato hiện đang ăn hoa quả. Tôi không biết số điện thoại của anh Sato.\n\n**Câu hỏi trắc nghiệm:**\n佐藤さんについて、正しいものはどれですか。\n(Câu nào sau đây đúng về anh Sato?)\n\n1. 佐藤さんは大阪に住んでいません。(Anh Sato không sống ở Osaka)\n2. 佐藤さんは結婚しています。(Anh Sato đã kết hôn)\n3. 佐藤さんは果物が嫌いです。(Anh Sato ghét hoa quả)\n4. 佐藤さんは絵を描いています。(Anh Sato đang vẽ tranh)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Trong bài có câu \"佐藤さんは結婚しています\" (Anh Sato đã kết hôn). Các phương án 1, 3, 4 không được nhắc đến hoặc trái ngược với nội dung đoạn văn.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: ミラーさん、あのドアの横に貼ってある紙は何ですか。\nB: ああ、あれですか。あれは今週のパーティーの案内です。\nA: そうですか。大勢の人が来ますか。\nB: はい、たくさん来ますよ。\n\n*Bản dịch tiếng Việt:*\nA: Anh Miller, tờ giấy dán bên cạnh cửa kia là gì vậy?\nB: À, cái đó hả. Đó là thông báo về buổi tiệc tuần này.\nA: Vậy à. Có đông người đến không?\nB: Vâng, sẽ có nhiều người đến đấy.\n\n**Câu hỏi trắc nghiệm:**\n紙はどこにありますか。\n(Tờ giấy đó ở đâu?)\n\n1. 階段の右です。(Bên phải cầu thang)\n2. 窓の左です。(Bên trái cửa sổ)\n3. ドアの横です。(Bên cạnh cửa)\n4. 晩の食事の場所です。(Ở chỗ ăn tối)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Nhân vật A hỏi \"ドアの横に貼ってある紙\" (Tờ giấy dán bên cạnh cửa), nhân vật B xác nhận nội dung đó. Vì vậy đáp án 3 là chính xác.\n\n---\n**Sau bài này bạn sẽ làm được:** Phân biệt được khi nào dùng V-ています để diễn tả hành động đang thực hiện và khi nào dùng để mô tả trạng thái kết quả của sự việc, giúp câu văn tự nhiên như người bản xứ.",
+    "theoryMd": "# Bài 16 — Thể て (2): ～ています Trạng thái\n\n## 📖 Lý thuyết Ngữ pháp\n\nTrong tiếng Nhật, cấu trúc `V-ています` không chỉ dùng để diễn tả hành động đang tiếp diễn mà còn dùng để mô tả **trạng thái kết quả** của một hành động đã xảy ra và kéo dài đến hiện tại.\n\n### 1. Trạng thái kết quả của hành động (`V-ています`)\nCấu trúc này dùng với các động từ chỉ sự thay đổi, kết thúc nhanh chóng (như: kết hôn, dán, biết, có, cất giữ...). Nó diễn tả một trạng thái đã hình thành và đang duy trì.\n* **Cấu trúc:** `N が V-て います`\n* **Ví dụ:**\n * 壁に カレンダーが **貼ってあります**。(Trên tường có dán cuốn lịch - *Trạng thái dán vẫn còn đó*)\n * 私は 結婚して **います**。(Tôi đã kết hôn - *Trạng thái đã kết hôn duy trì đến tận bây giờ*)\n\n### 2. Phân biệt Trạng thái kết quả vs. Tiếp diễn\n* **Tiếp diễn (Đang làm gì đó):** Thường đi với động từ chỉ hoạt động (`食べる, 書く, 読む...`).\n * Ví dụ: 私は 本を **読んでいます**。(Tôi đang đọc sách).\n* **Trạng thái (Kết quả của một hành động):** Thường đi với động từ chỉ sự thay đổi trạng thái (`結婚する, 知る, 住む, 持つ...`).\n * Ví dụ: 大阪に **住んでいます**。(Tôi đang sống ở Osaka - *Trạng thái cư trú*).\n\n### 3. Phủ định của thể trạng thái\nKhi muốn nói về trạng thái không tồn tại hoặc không biết, ta dùng `V-ていません`.\n* **Ví dụ:**\n * 私は あの人を **知りません**。(Tôi không biết người đó - *Lưu ý: Không dùng 知っていません*).\n * 私は 車を **持っていません**。(Tôi không có xe hơi).\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n私の会社は大阪にあります。私は大阪の支店に勤めています。壁には綺麗な絵が貼ってあります。隣の席の佐藤さんは結婚しています。佐藤さんは今、果物を食べています。私は佐藤さんの電話番号を知りません。\n\n*Phiên âm (Romaji):*\nWatashi no kaisha wa Osaka ni arimasu. Watashi wa Osaka no shiten ni tsutomete imasu. Kabe ni wa kirei na e ga hatte arimasu. Tonari no seki no Sato-san wa kekkon shite imasu. Sato-san wa ima, kudamono o tabete imasu. Watashi wa Sato-san no denwa-bangou o shirimasen.\n\n*Bản dịch tiếng Việt:*\nCông ty của tôi ở Osaka. Tôi đang làm việc tại chi nhánh Osaka. Trên tường có dán một bức tranh đẹp. Anh Sato ngồi cạnh tôi đã kết hôn. Anh Sato hiện đang ăn hoa quả. Tôi không biết số điện thoại của anh Sato.\n\n**Câu hỏi trắc nghiệm:**\n佐藤さんについて、正しいものはどれですか。\n(Câu nào sau đây đúng về anh Sato?)\n\n1. 佐藤さんは大阪に住んでいません。(Anh Sato không sống ở Osaka)\n2. 佐藤さんは結婚しています。(Anh Sato đã kết hôn)\n3. 佐藤さんは果物が嫌いです。(Anh Sato ghét hoa quả)\n4. 佐藤さんは絵を描いています。(Anh Sato đang vẽ tranh)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Trong bài có câu \"佐藤さんは結婚しています\" (Anh Sato đã kết hôn). Các phương án 1, 3, 4 không được nhắc đến hoặc trái ngược với nội dung đoạn văn.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: ミラーさん、あのドアの横に貼ってある紙は何ですか。\nB: ああ、あれですか。あれは今週のパーティーの案内です。\nA: そうですか。大勢の人が来ますか。\nB: はい、たくさん来ますよ。\n\n*Bản dịch tiếng Việt:*\nA: Anh Miller, tờ giấy dán bên cạnh cửa kia là gì vậy?\nB: À, cái đó hả. Đó là thông báo về buổi tiệc tuần này.\nA: Vậy à. Có đông người đến không?\nB: Vâng, sẽ có nhiều người đến đấy.\n\n**Câu hỏi trắc nghiệm:**\n紙はどこにありますか。\n(Tờ giấy đó ở đâu?)\n\n1. 階段の右です。(Bên phải cầu thang)\n2. 窓の左です。(Bên trái cửa sổ)\n3. ドアの横です。(Bên cạnh cửa)\n4. 晩の食事の場所です。(Ở chỗ ăn tối)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Nhân vật A hỏi \"ドアの横に貼ってある紙\" (Tờ giấy dán bên cạnh cửa), nhân vật B xác nhận nội dung đó. Vì vậy đáp án 3 là chính xác.\n\n---\n**Sau bài này bạn sẽ làm được:** Phân biệt được khi nào dùng V-ています để diễn tả hành động đang thực hiện và khi nào dùng để mô tả trạng thái kết quả của sự việc, giúp câu văn tự nhiên như người bản xứ.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -3522,6 +4290,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 16 — Ngữ pháp",
+          "description": "Ngữ pháp bài 16: Bài 16 — Thể て (2): ～ています trạng thái",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "V-ています",
+              "back": "Trạng thái kết quả của hành động",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N が V-て います",
+              "back": "Trạng thái kết quả của hành động",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "食べる, 書く, 読む...",
+              "back": "Phân biệt Trạng thái kết quả vs. Tiếp diễn",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "結婚する, 知る, 住む, 持つ...",
+              "back": "Phân biệt Trạng thái kết quả vs. Tiếp diễn",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-ていません",
+              "back": "Phủ định của thể trạng thái",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "知りません",
+              "back": "Phủ định của thể trạng thái",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -3533,7 +4355,7 @@
     "order": 17,
     "title": "Bài 17 — Thể た (Quá khứ tự nhiên) và ～たことがあります",
     "summary": "Chia thể た, nói về trải nghiệm quá khứ.",
-    "theoryMd": "# Bài 17 — Thể た (Quá khứ tự nhiên) và ～たことがあります\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Cách chia động từ sang thể た (Thể quá khứ ngắn)\nThể た được chia tương tự như thể て. Đây là thể dùng để diễn tả các sự việc đã xảy ra hoặc dùng trong các mẫu câu về trải nghiệm.\n\n*   **Nhóm 1:**\n    *   `い/ち/り` → `った`: 会う → 会った (đã gặp)\n    *   `に/び/み` → `んだ`: 読む → 読んだ (đã đọc)\n    *   `き` → `いた` (ngoại lệ: 行く → 行った): 書く → 書いた (đã viết)\n    *   `ぎ` → `いだ`: 泳ぐ → 泳いだ (đã bơi)\n    *   `し` → `した`: 話す → 話した (đã nói chuyện)\n*   **Nhóm 2:** Bỏ `る` thêm `た`: 食べる → 食べた (đã ăn)\n*   **Nhóm 3:** する → した; 来る (くる) → 来た (きた)\n\n### 2. Mẫu câu trải nghiệm: `V-た ことがあります`\nDùng để nói về việc bạn đã từng có trải nghiệm đó trong quá khứ.\n*   **Cấu trúc:** `Động từ (thể た) + ことがあります`\n*   **Ví dụ:**\n    *   わたしは にほんへ いった ことがあります。\n        *(Tôi đã từng đi Nhật Bản.)*\n    *   おととし、すしを たべた ことがあります。\n        *(Năm kia, tôi đã từng ăn sushi.)*\n\n### 3. Mẫu câu liệt kê hành động: `V1-た り、V2-た り します`\nDùng để liệt kê một vài hành động tiêu biểu trong rất nhiều hành động đã thực hiện.\n*   **Ví dụ:**\n    *   きのう、本を よんだり、えいがを みたりしました。\n        *(Hôm qua, tôi đã làm những việc như đọc sách, xem phim...)*\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nわたしは留学生です。おととし、にほんへ行きました。にほんで、いろいろなことをしました。きれいな東の海で泳いだり、おいしい料理を食べたりしました。とても楽しかったです。また、富士山を見たことがあります。\n\n*Phiên âm (Romaji):*\nWatashi wa ryūgakusei desu. Ototoshi, Nihon e ikimashita. Nihon de, iroiro na koto o shimashita. Kirei na higashi no umi de oyoidari, oishii ryōri o tabetari shimashita. Totemo tanoshikatta desu. Mata, Fujisan o mita koto ga arimasu.\n\n*Bản dịch tiếng Việt:*\nTôi là du học sinh. Năm kia, tôi đã đi Nhật Bản. Ở Nhật, tôi đã làm nhiều việc. Tôi đã làm những việc như bơi ở vùng biển phía đông xinh đẹp, ăn món ăn ngon... Rất là vui. Ngoài ra, tôi đã từng nhìn thấy núi Phú Sĩ.\n\n**Câu hỏi trắc nghiệm:**\n留学生はにほんで何をしましたか。\n(Du học sinh đã làm gì ở Nhật?)\n\n1. 富士山に登りました (Leo núi Phú Sĩ)\n2. 海で泳いだり、料理を食べたりしました (Bơi ở biển, ăn đồ ăn...)\n3. 勉強をしませんでした (Đã không học tập)\n4. おととし、帰りました (Năm kia đã về nước)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Trong đoạn văn có câu \"きれいな東の海で泳いだり、おいしい料理を食べたりしました\" (Tôi đã bơi ở biển và ăn đồ ăn ngon). Đáp án 2 liệt kê chính xác các hành động này.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: Bさん、すしを たべた ことがありますか。\nB: はい、あります。おいしかったです。Aさんは？\nA: いいえ、まだです。一度 食べたいです。\n\n*Bản dịch tiếng Việt:*\nA: Anh B, anh đã từng ăn sushi bao giờ chưa?\nB: Vâng, tôi đã từng ăn rồi. Nó rất ngon. Còn anh A thì sao?\nA: Chưa, tôi chưa ăn. Tôi muốn thử ăn một lần.\n\n**Câu hỏi trắc nghiệm:**\nAさんは すしを たべたことがありますか。\n(Anh A đã từng ăn sushi chưa?)\n\n1. はい、たくさん 食べました (Vâng, đã ăn nhiều)\n2. いいえ、まだ ありません (Không, chưa từng)\n3. 毎日 食べています (Mỗi ngày đều ăn)\n4. 一度 食べました (Đã ăn một lần)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* A trả lời \"いいえ、まだです\" (Không, chưa) nên đáp án 2 là chính xác.\n\n---\n\n**Sau bài này bạn sẽ làm được:** Chia động từ thể た chính xác; kể lại các trải nghiệm cá nhân trong quá khứ; biết cách liệt kê các hành động đã thực hiện bằng cấu trúc ~たり ~たり.",
+    "theoryMd": "# Bài 17 — Thể た (Quá khứ tự nhiên) và ～たことがあります\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Cách chia động từ sang thể た (Thể quá khứ ngắn)\nThể た được chia tương tự như thể て. Đây là thể dùng để diễn tả các sự việc đã xảy ra hoặc dùng trong các mẫu câu về trải nghiệm.\n\n* **Nhóm 1:**\n * `い/ち/り` → `った`: 会う → 会った (đã gặp)\n * `に/び/み` → `んだ`: 読む → 読んだ (đã đọc)\n * `き` → `いた` (ngoại lệ: 行く → 行った): 書く → 書いた (đã viết)\n * `ぎ` → `いだ`: 泳ぐ → 泳いだ (đã bơi)\n * `し` → `した`: 話す → 話した (đã nói chuyện)\n* **Nhóm 2:** Bỏ `る` thêm `た`: 食べる → 食べた (đã ăn)\n* **Nhóm 3:** する → した; 来る (くる) → 来た (きた)\n\n### 2. Mẫu câu trải nghiệm: `V-た ことがあります`\nDùng để nói về việc bạn đã từng có trải nghiệm đó trong quá khứ.\n* **Cấu trúc:** `Động từ (thể た) + ことがあります`\n* **Ví dụ:**\n * わたしは にほんへ いった ことがあります。\n *(Tôi đã từng đi Nhật Bản.)*\n * おととし、すしを たべた ことがあります。\n *(Năm kia, tôi đã từng ăn sushi.)*\n\n### 3. Mẫu câu liệt kê hành động: `V1-た り、V2-た り します`\nDùng để liệt kê một vài hành động tiêu biểu trong rất nhiều hành động đã thực hiện.\n* **Ví dụ:**\n * きのう、本を よんだり、えいがを みたりしました。\n *(Hôm qua, tôi đã làm những việc như đọc sách, xem phim...)*\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nわたしは留学生です。おととし、にほんへ行きました。にほんで、いろいろなことをしました。きれいな東の海で泳いだり、おいしい料理を食べたりしました。とても楽しかったです。また、富士山を見たことがあります。\n\n*Phiên âm (Romaji):*\nWatashi wa ryūgakusei desu. Ototoshi, Nihon e ikimashita. Nihon de, iroiro na koto o shimashita. Kirei na higashi no umi de oyoidari, oishii ryōri o tabetari shimashita. Totemo tanoshikatta desu. Mata, Fujisan o mita koto ga arimasu.\n\n*Bản dịch tiếng Việt:*\nTôi là du học sinh. Năm kia, tôi đã đi Nhật Bản. Ở Nhật, tôi đã làm nhiều việc. Tôi đã làm những việc như bơi ở vùng biển phía đông xinh đẹp, ăn món ăn ngon... Rất là vui. Ngoài ra, tôi đã từng nhìn thấy núi Phú Sĩ.\n\n**Câu hỏi trắc nghiệm:**\n留学生はにほんで何をしましたか。\n(Du học sinh đã làm gì ở Nhật?)\n\n1. 富士山に登りました (Leo núi Phú Sĩ)\n2. 海で泳いだり、料理を食べたりしました (Bơi ở biển, ăn đồ ăn...)\n3. 勉強をしませんでした (Đã không học tập)\n4. おととし、帰りました (Năm kia đã về nước)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Trong đoạn văn có câu \"きれいな東の海で泳いだり、おいしい料理を食べたりしました\" (Tôi đã bơi ở biển và ăn đồ ăn ngon). Đáp án 2 liệt kê chính xác các hành động này.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: Bさん、すしを たべた ことがありますか。\nB: はい、あります。おいしかったです。Aさんは？\nA: いいえ、まだです。一度 食べたいです。\n\n*Bản dịch tiếng Việt:*\nA: Anh B, anh đã từng ăn sushi bao giờ chưa?\nB: Vâng, tôi đã từng ăn rồi. Nó rất ngon. Còn anh A thì sao?\nA: Chưa, tôi chưa ăn. Tôi muốn thử ăn một lần.\n\n**Câu hỏi trắc nghiệm:**\nAさんは すしを たべたことがありますか。\n(Anh A đã từng ăn sushi chưa?)\n\n1. はい、たくさん 食べました (Vâng, đã ăn nhiều)\n2. いいえ、まだ ありません (Không, chưa từng)\n3. 毎日 食べています (Mỗi ngày đều ăn)\n4. 一度 食べました (Đã ăn một lần)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* A trả lời \"いいえ、まだです\" (Không, chưa) nên đáp án 2 là chính xác.\n\n---\n\n**Sau bài này bạn sẽ làm được:** Chia động từ thể た chính xác; kể lại các trải nghiệm cá nhân trong quá khứ; biết cách liệt kê các hành động đã thực hiện bằng cấu trúc ~たり ~たり.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -3782,6 +4604,53 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 17 — Ngữ pháp",
+          "description": "Ngữ pháp bài 17: Bài 17 — Thể た (Quá khứ tự nhiên) và ～たことがあります",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "い/ち/り",
+              "back": "Cách chia động từ sang thể た",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "った",
+              "back": "Cách chia động từ sang thể た",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-た ことがあります",
+              "back": "Mẫu câu trải nghiệm: V-た ことがあります",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Động từ (thể た) + ことがあります",
+              "back": "Mẫu câu trải nghiệm: V-た ことがあります",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V1-た り、V2-た り します",
+              "back": "Mẫu câu liệt kê hành động: V1-た り、V2-た り します",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -3793,7 +4662,7 @@
     "order": 18,
     "title": "Bài 18 — Thể た: ～たり～たりします",
     "summary": "Liệt kê hành động không theo thứ tự với ～たり～たり.",
-    "theoryMd": "# Bài 18 — Liệt kê hành động với thể た: ～たり～たりします\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Thể た (た-form)\nThể た là dạng quá khứ ngắn gọn của động từ, dùng để chia trong các cấu trúc ngữ pháp như ～たり, ～たことがあります.\n- **Nhóm 1:** \n    - Đuôi `~u, ~tsu, ~ru` → `~tta` (VD: 会う → 会った, 待つ → 待った, 帰る → 帰った)\n    - Đuôi `~mu, ~nu, ~bu` → `~nda` (VD: 読む → 読んだ, 死ぬ → 死んだ, 遊ぶ → 遊んだ)\n    - Đuôi `~ku` → `~ita` (VD: 書く → 書いた), `~gu` → `~ida` (VD: 泳ぐ → 泳いだ)\n    - Đặc biệt: 行く → 行った\n- **Nhóm 2:** Bỏ `る` thêm `た` (VD: 食べる → 食べた, 教える → 教えた)\n- **Nhóm 3:** する → した, 来る → 来た\n\n### 2. Mẫu câu liệt kê: `V1-たり, V2-たり します`\nDùng để liệt kê một vài hành động tiêu biểu trong rất nhiều hành động mà người nói đã thực hiện. Mẫu câu này **không** nhấn mạnh trình tự thời gian.\n- **Cấu trúc:** `Động từ thể た + り, Động từ thể た + り します`\n- **Lưu ý:** Thì của câu được quyết định bởi đuôi `します` (hiện tại/tương lai) hoặc `しました` (quá khứ).\n\n#### Ví dụ\n- 日曜日は 本を読んだり、映画を見たりします。\n  *(Chủ nhật tôi làm những việc như đọc sách, xem phim...)*\n\n### 3. Mẫu câu hỏi địa điểm: `何処（どこ）`\n`どこ` là từ để hỏi về nơi chốn, địa điểm.\n- **Ví dụ:**\n  - どこに 住んでいますか。*(Bạn đang sống ở đâu?)*\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n週末、田中さんは忙しいです。土曜日は買い物に行ったり、友達と歩いたりします。日曜日は家で料理を食べたり、日本語を勉強したりします。とても楽しいです。\n\n*Phiên âm (Romaji):*\nShūmatsu, Tanaka-san wa isogashii desu. Doyōbi wa kaimono ni ittari, tomodachi to aruitari shimasu. Nichiyōbi wa ie de ryōri o tabetari, nihongo o benkyō shitari shimasu. Totemo tanoshii desu.\n\n*Bản dịch tiếng Việt:*\nCuối tuần, anh Tanaka rất bận rộn. Thứ Bảy, anh ấy làm những việc như đi mua sắm, đi dạo cùng bạn bè. Chủ nhật, anh ấy ăn các món ăn ở nhà, học tiếng Nhật. Rất là vui.\n\n**Câu hỏi trắc nghiệm:**\n田中さんは日曜日に何をしますか。\n(Anh Tanaka làm gì vào Chủ nhật?)\n\n**Các phương án:**\n1. 買い物に行きます。(Đi mua sắm)\n2. 友達と歩きます。(Đi dạo với bạn)\n3. 料理を食べたり、勉強したりします。(Ăn uống và học tập)\n4. 忙しいです。(Bận rộn)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Đoạn văn ghi rõ: \"日曜日は家で料理を食べたり、日本語を勉強したりします\" (Chủ nhật anh ấy ăn món ăn và học tiếng Nhật), khớp với phương án 3.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: 佐藤さん、休みの日、何をしますか。\nB: そうですね。本を読んだり、音楽を聞いたりします。あと、公園を散歩したりします。\n\n*Bản dịch tiếng Việt:*\nA: Anh Sato, ngày nghỉ anh làm gì?\nB: Để xem nào. Tôi đọc sách, nghe nhạc... Ngoài ra còn đi dạo ở công viên nữa.\n\n**Câu hỏi trắc nghiệm:**\n佐藤さんは休みの日に何をしませんか。\n(Anh Sato KHÔNG làm gì vào ngày nghỉ?)\n\n**Các phương án:**\n1. 本を読みます。(Đọc sách)\n2. 音楽を聞きます。(Nghe nhạc)\n3. 公園を散歩します。(Đi dạo ở công viên)\n4. 映画を見ます。(Xem phim)\n\n*Đáp án đúng:* **4**\n*Giải thích chi tiết:* Anh Sato chỉ liệt kê đọc sách, nghe nhạc và đi dạo. Không có thông tin về việc xem phim, nên 4 là phương án không được nhắc đến.\n\n---\n\n**Sau bài này bạn sẽ làm được:** Liệt kê các hành động không theo trình tự bằng mẫu câu ～たり～たり, nắm vững cách chia thể た của động từ, và mô tả các hoạt động trong ngày nghỉ một cách tự nhiên.",
+    "theoryMd": "# Bài 18 — Liệt kê hành động với thể た: ～たり～たりします\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Thể た (た-form)\nThể た là dạng quá khứ ngắn gọn của động từ, dùng để chia trong các cấu trúc ngữ pháp như ～たり, ～たことがあります.\n- **Nhóm 1:** \n - Đuôi `~u, ~tsu, ~ru` → `~tta` (VD: 会う → 会った, 待つ → 待った, 帰る → 帰った)\n - Đuôi `~mu, ~nu, ~bu` → `~nda` (VD: 読む → 読んだ, 死ぬ → 死んだ, 遊ぶ → 遊んだ)\n - Đuôi `~ku` → `~ita` (VD: 書く → 書いた), `~gu` → `~ida` (VD: 泳ぐ → 泳いだ)\n - Đặc biệt: 行く → 行った\n- **Nhóm 2:** Bỏ `る` thêm `た` (VD: 食べる → 食べた, 教える → 教えた)\n- **Nhóm 3:** する → した, 来る → 来た\n\n### 2. Mẫu câu liệt kê: `V1-たり, V2-たり します`\nDùng để liệt kê một vài hành động tiêu biểu trong rất nhiều hành động mà người nói đã thực hiện. Mẫu câu này **không** nhấn mạnh trình tự thời gian.\n- **Cấu trúc:** `Động từ thể た + り, Động từ thể た + り します`\n- **Lưu ý:** Thì của câu được quyết định bởi đuôi `します` (hiện tại/tương lai) hoặc `しました` (quá khứ).\n\n#### Ví dụ\n- 日曜日は 本を読んだり、映画を見たりします。\n *(Chủ nhật tôi làm những việc như đọc sách, xem phim...)*\n\n### 3. Mẫu câu hỏi địa điểm: `何処（どこ）`\n`どこ` là từ để hỏi về nơi chốn, địa điểm.\n- **Ví dụ:**\n - どこに 住んでいますか。*(Bạn đang sống ở đâu?)*\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n週末、田中さんは忙しいです。土曜日は買い物に行ったり、友達と歩いたりします。日曜日は家で料理を食べたり、日本語を勉強したりします。とても楽しいです。\n\n*Phiên âm (Romaji):*\nShūmatsu, Tanaka-san wa isogashii desu. Doyōbi wa kaimono ni ittari, tomodachi to aruitari shimasu. Nichiyōbi wa ie de ryōri o tabetari, nihongo o benkyō shitari shimasu. Totemo tanoshii desu.\n\n*Bản dịch tiếng Việt:*\nCuối tuần, anh Tanaka rất bận rộn. Thứ Bảy, anh ấy làm những việc như đi mua sắm, đi dạo cùng bạn bè. Chủ nhật, anh ấy ăn các món ăn ở nhà, học tiếng Nhật. Rất là vui.\n\n**Câu hỏi trắc nghiệm:**\n田中さんは日曜日に何をしますか。\n(Anh Tanaka làm gì vào Chủ nhật?)\n\n**Các phương án:**\n1. 買い物に行きます。(Đi mua sắm)\n2. 友達と歩きます。(Đi dạo với bạn)\n3. 料理を食べたり、勉強したりします。(Ăn uống và học tập)\n4. 忙しいです。(Bận rộn)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Đoạn văn ghi rõ: \"日曜日は家で料理を食べたり、日本語を勉強したりします\" (Chủ nhật anh ấy ăn món ăn và học tiếng Nhật), khớp với phương án 3.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: 佐藤さん、休みの日、何をしますか。\nB: そうですね。本を読んだり、音楽を聞いたりします。あと、公園を散歩したりします。\n\n*Bản dịch tiếng Việt:*\nA: Anh Sato, ngày nghỉ anh làm gì?\nB: Để xem nào. Tôi đọc sách, nghe nhạc... Ngoài ra còn đi dạo ở công viên nữa.\n\n**Câu hỏi trắc nghiệm:**\n佐藤さんは休みの日に何をしませんか。\n(Anh Sato KHÔNG làm gì vào ngày nghỉ?)\n\n**Các phương án:**\n1. 本を読みます。(Đọc sách)\n2. 音楽を聞きます。(Nghe nhạc)\n3. 公園を散歩します。(Đi dạo ở công viên)\n4. 映画を見ます。(Xem phim)\n\n*Đáp án đúng:* **4**\n*Giải thích chi tiết:* Anh Sato chỉ liệt kê đọc sách, nghe nhạc và đi dạo. Không có thông tin về việc xem phim, nên 4 là phương án không được nhắc đến.\n\n---\n\n**Sau bài này bạn sẽ làm được:** Liệt kê các hành động không theo trình tự bằng mẫu câu ～たり～たり, nắm vững cách chia thể た của động từ, và mô tả các hoạt động trong ngày nghỉ một cách tự nhiên.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -4042,6 +4911,46 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 18 — Ngữ pháp",
+          "description": "Ngữ pháp bài 18: Bài 18 — Thể た: ～たり～たりします",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "V1-たり, V2-たり します",
+              "back": "Mẫu câu liệt kê: V1-たり, V2-たり します",
+              "romaji": "",
+              "example": "**Cấu trúc:** Động từ thể た + り, Động từ thể た + り します",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Động từ thể た + り, Động từ thể た + り します",
+              "back": "Mẫu câu liệt kê: V1-たり, V2-たり します",
+              "romaji": "",
+              "example": "**Lưu ý:** Thì của câu được quyết định bởi đuôi します (hiện tại/tương lai) hoặc しました (quá khứ).",
+              "jlptLevel": 5
+            },
+            {
+              "front": "何処（どこ）",
+              "back": "Mẫu câu hỏi địa điểm: 何処（どこ）",
+              "romaji": "",
+              "example": "- どこに 住んでいますか。*(Bạn đang sống ở đâu?)*",
+              "jlptLevel": 5
+            },
+            {
+              "front": "どこ",
+              "back": "Mẫu câu hỏi địa điểm: 何処（どこ）",
+              "romaji": "",
+              "example": "- どこに 住んでいますか。*(Bạn đang sống ở đâu?)*",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -4053,7 +4962,7 @@
     "order": 19,
     "title": "Bài 19 — Thể ない: Phủ định dạng tự nhiên",
     "summary": "Chia thể ない, ～なければなりません, ～なくてもいいです.",
-    "theoryMd": "# Bài 19 — Thể ない: Phủ định dạng tự nhiên\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Cách chia động từ thể ない (Thể phủ định)\nThể ない là thể ngắn, dùng trong văn nói thân mật hoặc làm nền tảng để kết hợp các cấu trúc ngữ pháp khác.\n- **Nhóm 1:** Chuyển đuôi `u` sang `a` rồi thêm `ない`.\n  *Ví dụ:* `かします` (cho mượn) → `かさない` (không cho mượn).\n- **Nhóm 2:** Bỏ `ます` thêm `ない`.\n  *Ví dụ:* `おきます` (thức dậy) → `おきない`.\n- **Nhóm 3:** `します` → `しない`, `きます` → `こない`.\n\n### 2. Mẫu câu: `Vなければなりません` (Phải làm gì đó)\nDùng để diễn tả sự bắt buộc, nghĩa vụ.\n- **Cấu trúc:** `V-ない (bỏ ない) + なければなりません`\n- *Ví dụ:* `くすりを のまなければなりません。` (Tôi phải uống thuốc.)\n\n### 3. Mẫu câu: `Vなくてもいいです` (Không cần phải làm gì đó)\nDùng để diễn tả sự cho phép, không bắt buộc.\n- **Cấu trúc:** `V-ない (bỏ ない) + くてもいいです`\n- *Ví dụ:* `あしたは べんきょうしなくてもいいです。` (Ngày mai bạn không cần phải học cũng được.)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nあしたは やすみです。かいしゃへ いかなくてもいいです。でも、へやを きれいに しなければなりません。このほんを よまなければなりません。きょうは おそくまで あそびません。\n\n*Phiên âm (Romaji):*\nAshita wa yasumi desu. Kaisha e ikanakutemo ii desu. Demo, heya o kirei niしなければnarimasen. Kono hon o yomanakereba narimasen. Kyou wa osoku made asobimasen.\n\n*Bản dịch tiếng Việt:*\nNgày mai là ngày nghỉ. Tôi không cần phải đi đến công ty. Tuy nhiên, tôi phải dọn phòng cho sạch sẽ. Tôi phải đọc cuốn sách này. Hôm nay tôi sẽ không chơi đến tận khuya.\n\n**Câu hỏi trắc nghiệm:**\nあした、しなければならないことは なんですか。\n(Ngày mai, việc phải làm là gì?)\n\n**Các phương án:**\n1. かいしゃへ いきます。(Đi đến công ty.)\n2. おそくまで あそびます。(Chơi đến tận khuya.)\n3. へやを きれいにします。(Dọn phòng sạch sẽ.)\n4. なにも しません。(Không làm gì cả.)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Trong đoạn văn có câu \"へやを きれいに しなければなりません\" (phải dọn phòng cho sạch sẽ), nên đáp án 3 là đúng.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: 明日、雨が降りますか。(Ngày mai trời có mưa không?)\nB: はい、風が強いですから、外で遊ばないほうがいいです。(Vâng, vì gió mạnh nên không nên chơi ở ngoài trời đâu.)\nA: そうですか。じゃあ、家で勉強しなければなりませんね。(Vậy sao. Vậy thì tôi phải học bài ở nhà thôi.)\n\n*Bản dịch tiếng Việt:*\nA: Ngày mai trời có mưa không?\nB: Vâng, vì gió mạnh nên bạn không nên chơi ở ngoài trời.\nA: Vậy sao. Thế thì tôi phải học bài ở nhà rồi.\n\n**Câu hỏi trắc nghiệm:**\nAさんは あした なにを しますか。\n(Ngày mai anh A sẽ làm gì?)\n\n**Các phương án:**\n1. 外で あそびます。(Chơi ở ngoài.)\n2. 家で べんきょうします。(Học ở nhà.)\n3. かぜを ひきます。(Bị cảm lạnh.)\n4. かいしゃへ いきます。(Đi đến công ty.)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Sau khi nghe tin gió mạnh, anh A quyết định: \"家で勉強しなければなりません\" (Tôi phải học ở nhà), vì vậy đáp án 2 là chính xác.\n\n---\n\n**Sau bài này bạn sẽ làm được:** Chia động từ sang thể phủ định; biết cách diễn đạt các nghĩa vụ phải làm (phải làm) và các hành động không cần thiết (không cần làm).",
+    "theoryMd": "# Bài 19 — Thể ない: Phủ định dạng tự nhiên\n\n## 📖 Lý thuyết Ngữ pháp\n\n### 1. Cách chia động từ thể ない (Thể phủ định)\nThể ない là thể ngắn, dùng trong văn nói thân mật hoặc làm nền tảng để kết hợp các cấu trúc ngữ pháp khác.\n- **Nhóm 1:** Chuyển đuôi `u` sang `a` rồi thêm `ない`.\n *Ví dụ:* `かします` (cho mượn) → `かさない` (không cho mượn).\n- **Nhóm 2:** Bỏ `ます` thêm `ない`.\n *Ví dụ:* `おきます` (thức dậy) → `おきない`.\n- **Nhóm 3:** `します` → `しない`, `きます` → `こない`.\n\n### 2. Mẫu câu: `Vなければなりません` (Phải làm gì đó)\nDùng để diễn tả sự bắt buộc, nghĩa vụ.\n- **Cấu trúc:** `V-ない (bỏ ない) + なければなりません`\n- *Ví dụ:* `くすりを のまなければなりません。` (Tôi phải uống thuốc.)\n\n### 3. Mẫu câu: `Vなくてもいいです` (Không cần phải làm gì đó)\nDùng để diễn tả sự cho phép, không bắt buộc.\n- **Cấu trúc:** `V-ない (bỏ ない) + くてもいいです`\n- *Ví dụ:* `あしたは べんきょうしなくてもいいです。` (Ngày mai bạn không cần phải học cũng được.)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nあしたは やすみです。かいしゃへ いかなくてもいいです。でも、へやを きれいに しなければなりません。このほんを よまなければなりません。きょうは おそくまで あそびません。\n\n*Phiên âm (Romaji):*\nAshita wa yasumi desu. Kaisha e ikanakutemo ii desu. Demo, heya o kirei niしなければnarimasen. Kono hon o yomanakereba narimasen. Kyou wa osoku made asobimasen.\n\n*Bản dịch tiếng Việt:*\nNgày mai là ngày nghỉ. Tôi không cần phải đi đến công ty. Tuy nhiên, tôi phải dọn phòng cho sạch sẽ. Tôi phải đọc cuốn sách này. Hôm nay tôi sẽ không chơi đến tận khuya.\n\n**Câu hỏi trắc nghiệm:**\nあした、しなければならないことは なんですか。\n(Ngày mai, việc phải làm là gì?)\n\n**Các phương án:**\n1. かいしゃへ いきます。(Đi đến công ty.)\n2. おそくまで あそびます。(Chơi đến tận khuya.)\n3. へやを きれいにします。(Dọn phòng sạch sẽ.)\n4. なにも しません。(Không làm gì cả.)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Trong đoạn văn có câu \"へやを きれいに しなければなりません\" (phải dọn phòng cho sạch sẽ), nên đáp án 3 là đúng.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: 明日、雨が降りますか。(Ngày mai trời có mưa không?)\nB: はい、風が強いですから、外で遊ばないほうがいいです。(Vâng, vì gió mạnh nên không nên chơi ở ngoài trời đâu.)\nA: そうですか。じゃあ、家で勉強しなければなりませんね。(Vậy sao. Vậy thì tôi phải học bài ở nhà thôi.)\n\n*Bản dịch tiếng Việt:*\nA: Ngày mai trời có mưa không?\nB: Vâng, vì gió mạnh nên bạn không nên chơi ở ngoài trời.\nA: Vậy sao. Thế thì tôi phải học bài ở nhà rồi.\n\n**Câu hỏi trắc nghiệm:**\nAさんは あした なにを しますか。\n(Ngày mai anh A sẽ làm gì?)\n\n**Các phương án:**\n1. 外で あそびます。(Chơi ở ngoài.)\n2. 家で べんきょうします。(Học ở nhà.)\n3. かぜを ひきます。(Bị cảm lạnh.)\n4. かいしゃへ いきます。(Đi đến công ty.)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Sau khi nghe tin gió mạnh, anh A quyết định: \"家で勉強しなければなりません\" (Tôi phải học ở nhà), vì vậy đáp án 2 là chính xác.\n\n---\n\n**Sau bài này bạn sẽ làm được:** Chia động từ sang thể phủ định; biết cách diễn đạt các nghĩa vụ phải làm (phải làm) và các hành động không cần thiết (không cần làm).",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -4302,6 +5211,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 19 — Ngữ pháp",
+          "description": "Ngữ pháp bài 19: Bài 19 — Thể ない: Phủ định dạng tự nhiên",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "ない",
+              "back": "Cách chia động từ thể ない",
+              "romaji": "",
+              "example": "**Nhóm 1:** Chuyển đuôi u sang a rồi thêm ない.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "かします",
+              "back": "Cách chia động từ thể ない",
+              "romaji": "",
+              "example": "**Nhóm 2:** Bỏ ます thêm ない.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Vなければなりません",
+              "back": "Mẫu câu: Vなければなりません",
+              "romaji": "",
+              "example": "**Cấu trúc:** V-ない (bỏ ない) + なければなりません",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-ない (bỏ ない) + なければなりません",
+              "back": "Mẫu câu: Vなければなりません",
+              "romaji": "",
+              "example": "*Ví dụ:* くすりを のまなければなりません。 (Tôi phải uống thuốc.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Vなくてもいいです",
+              "back": "Mẫu câu: Vなくてもいいです",
+              "romaji": "",
+              "example": "**Cấu trúc:** V-ない (bỏ ない) + くてもいいです",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-ない (bỏ ない) + くてもいいです",
+              "back": "Mẫu câu: Vなくてもいいです",
+              "romaji": "",
+              "example": "*Ví dụ:* あしたは べんきょうしなくてもいいです。 (Ngày mai bạn không cần phải học cũng được.)",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -4313,7 +5276,7 @@
     "order": 20,
     "title": "Bài 20 — Thể từ điển: Khả năng và cho phép",
     "summary": "～ことができます (có thể), ～てもいいです (được phép).",
-    "theoryMd": "# Bài 20 — Thể từ điển: Khả năng và cho phép\n\n## 📖 Lý thuyết Ngữ pháp\n\nTrong bài này, chúng ta sẽ làm quen với \"Thể từ điển\" (辞書形 - Jishokei). Đây là dạng cơ bản nhất của động từ, dùng trong văn nói suồng sã hoặc làm cơ sở để chia các cấu trúc ngữ pháp khác.\n\n### 1. Diễn tả khả năng: `V-dạng từ điển + ことができます`\nCấu trúc này dùng để diễn tả năng lực hoặc khả năng thực hiện một hành động nào đó.\n- **Cấu trúc:** `[Danh từ / V-từ điển] ことができます`\n- **Ví dụ:**\n    - わたしは 日本語を **話す ことができます**。 (Tôi có thể nói tiếng Nhật.)\n    - わたしは 漢字を **書く ことができます**。 (Tôi có thể viết chữ Hán.)\n\n### 2. Xin phép và cho phép: `V-te + もいいです`\nDùng khi bạn muốn xin phép làm gì đó hoặc cho phép ai đó làm gì.\n- **Hỏi xin phép:** `V-te もいいですか。` (Tôi làm... có được không?)\n- **Cho phép:** `V-te もいいです。` (Bạn làm... cũng được.)\n- **Ví dụ:**\n    - ここで タバコを **吸っても いいですか**。 (Tôi hút thuốc ở đây có được không?)\n    - ええ、**吸っても いいです**。 (Vâng, hút cũng được.)\n\n### 3. Cấm đoán: `V-te + は いけません`\nDùng để diễn tả việc không được phép làm gì đó, mang tính chất cấm đoán hoặc quy định nghiêm ngặt.\n- **Ví dụ:**\n    - ここで くつを **脱いでは いけません**。 (Không được cởi giày ở đây.)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n図書館で田中さんと話しています。田中さんは「ここで 本を 読む ことができます。でも、大きい 声で 話しては いけません。携帯電話で 話す ことが できますか。」と 言いました。私は「いいえ、できません。ここで 使っては いけません。」と 答えました。\n\n*Phiên âm (Romaji):*\nToshokan de Tanaka-san to hanashite imasu. Tanaka-san wa \"Koko de hon o yomu koto ga dekimasu. Demo, ookii koe de hanashite wa ikemasen. Keitaidenwa de hanasu koto ga dekimasu ka.\" to iimashita. Watashi wa \"Iie, dekimasen. Koko de tsukatte wa ikemasen.\" to kotaemashita.\n\n*Bản dịch tiếng Việt:*\nTôi đang nói chuyện với anh Tanaka ở thư viện. Anh Tanaka nói: \"Ở đây có thể đọc sách. Nhưng không được nói chuyện bằng giọng lớn. Bạn có thể nói chuyện điện thoại được không?\". Tôi trả lời: \"Không, không được. Ở đây không được sử dụng (điện thoại)\".\n\n**Câu hỏi trắc nghiệm:**\n図書館で 何を しては いけませんか。 (Trong thư viện không được làm gì?)\n1. 本を 読むこと (Đọc sách)\n2. 携帯電話で 話すこと (Nói chuyện bằng điện thoại)\n3. 田中さんと 話すこと (Nói chuyện với anh Tanaka)\n4. 勉強すること (Học bài)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Trong đoạn văn, nhân vật chính nói \"ここで 使っては いけません\" (không được sử dụng ở đây) khi trả lời câu hỏi về việc dùng điện thoại, nên đáp án 2 là chính xác.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: すみません。ここで 写真を 撮っても いいですか。\nB: いいえ、すみません。そこは 狭いので、撮っては いけません。\nA: ああ、そうですか。わかりました。\n\n*Bản dịch tiếng Việt:*\nA: Xin lỗi, tôi chụp ảnh ở đây được không?\nB: Không, xin lỗi bạn. Ở đó chật lắm nên không được chụp đâu.\nA: À, vậy sao. Tôi hiểu rồi.\n\n**Câu hỏi trắc nghiệm:**\nAさんは 写真を 撮る ことが できますか。 (Anh A có thể chụp ảnh không?)\n1. はい、いいです。 (Vâng, được ạ)\n2. はい、撮ります。 (Vâng, tôi sẽ chụp)\n3. いいえ、できません。 (Không, không được ạ)\n4. いいえ、写真を 撮ります。 (Không, tôi sẽ chụp ảnh)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Người B đã từ chối (\"撮っては いけません\") nên người A không được phép chụp ảnh.\n\n---\n\n**Sau bài này bạn sẽ làm được:** \n- Diễn tả khả năng làm việc gì đó của bản thân.\n- Biết cách xin phép người khác một cách lịch sự.\n- Hiểu được các quy định cấm đoán thông qua cấu trúc ngữ pháp.",
+    "theoryMd": "# Bài 20 — Thể từ điển: Khả năng và cho phép\n\n## 📖 Lý thuyết Ngữ pháp\n\nTrong bài này, chúng ta sẽ làm quen với \"Thể từ điển\" (辞書形 - Jishokei). Đây là dạng cơ bản nhất của động từ, dùng trong văn nói suồng sã hoặc làm cơ sở để chia các cấu trúc ngữ pháp khác.\n\n### 1. Diễn tả khả năng: `V-dạng từ điển + ことができます`\nCấu trúc này dùng để diễn tả năng lực hoặc khả năng thực hiện một hành động nào đó.\n- **Cấu trúc:** `Danh từ / V-từ điển ことができます`\n- **Ví dụ:**\n - わたしは 日本語を **話す ことができます**。 (Tôi có thể nói tiếng Nhật.)\n - わたしは 漢字を **書く ことができます**。 (Tôi có thể viết chữ Hán.)\n\n### 2. Xin phép và cho phép: `V-te + もいいです`\nDùng khi bạn muốn xin phép làm gì đó hoặc cho phép ai đó làm gì.\n- **Hỏi xin phép:** `V-te もいいですか。` (Tôi làm... có được không?)\n- **Cho phép:** `V-te もいいです。` (Bạn làm... cũng được.)\n- **Ví dụ:**\n - ここで タバコを **吸っても いいですか**。 (Tôi hút thuốc ở đây có được không?)\n - ええ、**吸っても いいです**。 (Vâng, hút cũng được.)\n\n### 3. Cấm đoán: `V-te + は いけません`\nDùng để diễn tả việc không được phép làm gì đó, mang tính chất cấm đoán hoặc quy định nghiêm ngặt.\n- **Ví dụ:**\n - ここで くつを **脱いでは いけません**。 (Không được cởi giày ở đây.)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n図書館で田中さんと話しています。田中さんは「ここで 本を 読む ことができます。でも、大きい 声で 話しては いけません。携帯電話で 話す ことが できますか。」と 言いました。私は「いいえ、できません。ここで 使っては いけません。」と 答えました。\n\n*Phiên âm (Romaji):*\nToshokan de Tanaka-san to hanashite imasu. Tanaka-san wa \"Koko de hon o yomu koto ga dekimasu. Demo, ookii koe de hanashite wa ikemasen. Keitaidenwa de hanasu koto ga dekimasu ka.\" to iimashita. Watashi wa \"Iie, dekimasen. Koko de tsukatte wa ikemasen.\" to kotaemashita.\n\n*Bản dịch tiếng Việt:*\nTôi đang nói chuyện với anh Tanaka ở thư viện. Anh Tanaka nói: \"Ở đây có thể đọc sách. Nhưng không được nói chuyện bằng giọng lớn. Bạn có thể nói chuyện điện thoại được không?\". Tôi trả lời: \"Không, không được. Ở đây không được sử dụng (điện thoại)\".\n\n**Câu hỏi trắc nghiệm:**\n図書館で 何を しては いけませんか。 (Trong thư viện không được làm gì?)\n1. 本を 読むこと (Đọc sách)\n2. 携帯電話で 話すこと (Nói chuyện bằng điện thoại)\n3. 田中さんと 話すこと (Nói chuyện với anh Tanaka)\n4. 勉強すること (Học bài)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Trong đoạn văn, nhân vật chính nói \"ここで 使っては いけません\" (không được sử dụng ở đây) khi trả lời câu hỏi về việc dùng điện thoại, nên đáp án 2 là chính xác.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: すみません。ここで 写真を 撮っても いいですか。\nB: いいえ、すみません。そこは 狭いので、撮っては いけません。\nA: ああ、そうですか。わかりました。\n\n*Bản dịch tiếng Việt:*\nA: Xin lỗi, tôi chụp ảnh ở đây được không?\nB: Không, xin lỗi bạn. Ở đó chật lắm nên không được chụp đâu.\nA: À, vậy sao. Tôi hiểu rồi.\n\n**Câu hỏi trắc nghiệm:**\nAさんは 写真を 撮る ことが できますか。 (Anh A có thể chụp ảnh không?)\n1. はい、いいです。 (Vâng, được ạ)\n2. はい、撮ります。 (Vâng, tôi sẽ chụp)\n3. いいえ、できません。 (Không, không được ạ)\n4. いいえ、写真を 撮ります。 (Không, tôi sẽ chụp ảnh)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Người B đã từ chối (\"撮っては いけません\") nên người A không được phép chụp ảnh.\n\n---\n\n**Sau bài này bạn sẽ làm được:** \n- Diễn tả khả năng làm việc gì đó của bản thân.\n- Biết cách xin phép người khác một cách lịch sự.\n- Hiểu được các quy định cấm đoán thông qua cấu trúc ngữ pháp.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -4562,6 +5525,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 20 — Ngữ pháp",
+          "description": "Ngữ pháp bài 20: Bài 20 — Thể từ điển: Khả năng và cho phép",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "V-dạng từ điển + ことができます",
+              "back": "Diễn tả khả năng: V-dạng từ điển + ことができます",
+              "romaji": "",
+              "example": "**Cấu trúc:** Danh từ / V-từ điển ことができます",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Danh từ / V-từ điển ことができます",
+              "back": "Diễn tả khả năng: V-dạng từ điển + ことができます",
+              "romaji": "",
+              "example": "- わたしは 日本語を **話す ことができます**。 (Tôi có thể nói tiếng Nhật.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-te + もいいです",
+              "back": "Xin phép và cho phép: V-te + もいいです",
+              "romaji": "",
+              "example": "**Hỏi xin phép:** V-te もいいですか。 (Tôi làm... có được không?)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-te もいいですか。",
+              "back": "Xin phép và cho phép: V-te + もいいです",
+              "romaji": "",
+              "example": "**Cho phép:** V-te もいいです。 (Bạn làm... cũng được.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-te + は いけません",
+              "back": "Cấm đoán: V-te + は いけません",
+              "romaji": "",
+              "example": "- ここで くつを **脱いでは いけません**。 (Không được cởi giày ở đây.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "脱いでは いけません",
+              "back": "Cấm đoán: V-te + は いけません",
+              "romaji": "",
+              "example": "- ここで くつを **脱いでは いけません**。 (Không được cởi giày ở đây.)",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -4573,7 +5590,7 @@
     "order": 21,
     "title": "Bài 21 — Danh từ hóa: ～こと và ～の",
     "summary": "Biến mệnh đề thành danh từ, sở thích, khả năng.",
-    "theoryMd": "# Bài 21 — Danh từ hóa: ～こと và ～の\n\n## 📖 Lý thuyết Ngữ pháp\n\nTrong tiếng Nhật, để biến một động từ hoặc một mệnh đề thành một danh từ (giúp chúng có thể đóng vai trò là chủ ngữ hoặc tân ngữ trong câu), chúng ta thêm `こと` hoặc `の` vào sau động từ chia ở thể từ điển (thể ngắn).\n\n### 1. Danh từ hóa bằng `～こと` (Dùng trong các câu khẳng định/liệt kê)\n**Cấu trúc:** `[V-る] こと`\nDùng để nói về một hành động hoặc sự việc cụ thể. Đặc biệt thường dùng với các động từ chỉ sự yêu thích, ghét, giỏi, kém.\n- **Ví dụ:** 私の趣味は **お菓子を作ること** です。 (Sở thích của tôi là làm bánh kẹo.)\n\n### 2. Sự khác biệt giữa `～こと` và `～の`\nMặc dù đều có nghĩa là \"việc...\", nhưng `の` thường dùng cho các hành động mang tính chất cảm nhận trực tiếp bằng giác quan (nhìn thấy, nghe thấy).\n- **Ví dụ:** 田中さんが **車を磨いているの** を見ました。 (Tôi đã nhìn thấy anh Tanaka đang đánh bóng xe ô tô.)\n*Lưu ý:* Khi đi với các động từ như `分かります` (hiểu), `知っています` (biết), ta dùng `～こと`.\n- **Ví dụ:** 私は彼が日本へ行く **こと** を知っています。 (Tôi biết việc anh ấy đi Nhật.)\n\n### 3. Mẫu câu: `～は ～です` (Để giới thiệu sở thích)\n**Cấu trúc:** `[V-る] こと / N は [N] です`\nDùng để giải thích một danh từ hoặc một việc gì đó.\n- **Ví dụ:** 私の仕事は **夕飯を作ること** です。 (Công việc của tôi là nấu bữa tối.)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n私の趣味は料理です。特に、土曜日に黄色いお皿でケーキを食べることです。それから、賑やかな公園で鳥が鳴くのを聞くのが好きです。来週の２０日は友達に葉書を書くつもりです。\n\n*Phiên âm (Romaji):*\nWatashi no shumi wa ryouri desu. Tokuni, doyoubi ni kiiroi osara de keeki o taberu koto desu. Sorekara, nigiyaka na kouen de tori ga naku no o kiku no ga suki desu. Raishuu no hatsuka wa tomodachi ni hagaki o kaku tsumori desu.\n\n*Bản dịch tiếng Việt:*\nSở thích của tôi là nấu ăn. Đặc biệt là việc ăn bánh ngọt trên chiếc đĩa màu vàng vào thứ Bảy. Ngoài ra, tôi thích nghe tiếng chim hót ở công viên nhộn nhịp. Ngày 20 tuần tới, tôi dự định sẽ viết bưu thiếp cho bạn bè.\n\n**Câu hỏi trắc nghiệm:**\nこの人は何をするのが好きですか？\n(Người này thích làm gì?)\n\n1. 賑やかな公園でケーキを食べること。 (Ăn bánh ở công viên nhộn nhịp.)\n2. 公園で鳥が鳴くのを聞くこと。 (Nghe tiếng chim hót ở công viên.)\n3. 黄色いお皿を磨くこと。 (Đánh bóng chiếc đĩa màu vàng.)\n4. 友達に会いに行くこと。 (Đi gặp bạn bè.)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Đoạn văn có câu \"公園で鳥が鳴くのを聞くのが好きです\" (Thích việc nghe chim hót ở công viên). Đáp án 2 chính xác.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: 佐藤さん、趣味は何ですか。\nB: 私の趣味はシャツを洗うことと、Ｙシャツにアイロンをかけることです。\nA: へえ、すごいですね。\n\n*Bản dịch tiếng Việt:*\nA: Anh Sato, sở thích của anh là gì?\nB: Sở thích của tôi là giặt áo và là áo sơ mi.\nA: Chà, giỏi thật đấy.\n\n**Câu hỏi trắc nghiệm:**\n佐藤さんの趣味は何ですか？\n(Sở thích của anh Sato là gì?)\n\n1. 料理を作ること。 (Nấu ăn.)\n2. 賑やかな公園に行くこと。 (Đi đến công viên nhộn nhịp.)\n3. Ｙシャツを洗ったり、アイロンをかけたりすること。 (Giặt và là áo sơ mi.)\n4. 葉書を書くこと。 (Viết bưu thiếp.)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Anh Sato trả lời \"シャツを洗うことと、Ｙシャツにアイロンをかけること\" (Giặt áo và là áo sơ mi). Đáp án 3 khớp với nội dung.\n\n---\n**Sau bài này bạn sẽ làm được:** \n- Biến các động từ thành danh từ để diễn đạt sở thích và thói quen.\n- Phân biệt và sử dụng thành thạo cấu trúc danh từ hóa `～こと` và `～の` trong các tình huống giao tiếp thực tế.",
+    "theoryMd": "# Bài 21 — Danh từ hóa: ～こと và ～の\n\n## 📖 Lý thuyết Ngữ pháp\n\nTrong tiếng Nhật, để biến một động từ hoặc một mệnh đề thành một danh từ (giúp chúng có thể đóng vai trò là chủ ngữ hoặc tân ngữ trong câu), chúng ta thêm `こと` hoặc `の` vào sau động từ chia ở thể từ điển (thể ngắn).\n\n### 1. Danh từ hóa bằng `～こと` (Dùng trong các câu khẳng định/liệt kê)\n**Cấu trúc:** `V-る こと`\nDùng để nói về một hành động hoặc sự việc cụ thể. Đặc biệt thường dùng với các động từ chỉ sự yêu thích, ghét, giỏi, kém.\n- **Ví dụ:** 私の趣味は **お菓子を作ること** です。 (Sở thích của tôi là làm bánh kẹo.)\n\n### 2. Sự khác biệt giữa `～こと` và `～の`\nMặc dù đều có nghĩa là \"việc...\", nhưng `の` thường dùng cho các hành động mang tính chất cảm nhận trực tiếp bằng giác quan (nhìn thấy, nghe thấy).\n- **Ví dụ:** 田中さんが **車を磨いているの** を見ました。 (Tôi đã nhìn thấy anh Tanaka đang đánh bóng xe ô tô.)\n*Lưu ý:* Khi đi với các động từ như `分かります` (hiểu), `知っています` (biết), ta dùng `～こと`.\n- **Ví dụ:** 私は彼が日本へ行く **こと** を知っています。 (Tôi biết việc anh ấy đi Nhật.)\n\n### 3. Mẫu câu: `～は ～です` (Để giới thiệu sở thích)\n**Cấu trúc:** `V-る こと / N は N です`\nDùng để giải thích một danh từ hoặc một việc gì đó.\n- **Ví dụ:** 私の仕事は **夕飯を作ること** です。 (Công việc của tôi là nấu bữa tối.)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\n私の趣味は料理です。特に、土曜日に黄色いお皿でケーキを食べることです。それから、賑やかな公園で鳥が鳴くのを聞くのが好きです。来週の２０日は友達に葉書を書くつもりです。\n\n*Phiên âm (Romaji):*\nWatashi no shumi wa ryouri desu. Tokuni, doyoubi ni kiiroi osara de keeki o taberu koto desu. Sorekara, nigiyaka na kouen de tori ga naku no o kiku no ga suki desu. Raishuu no hatsuka wa tomodachi ni hagaki o kaku tsumori desu.\n\n*Bản dịch tiếng Việt:*\nSở thích của tôi là nấu ăn. Đặc biệt là việc ăn bánh ngọt trên chiếc đĩa màu vàng vào thứ Bảy. Ngoài ra, tôi thích nghe tiếng chim hót ở công viên nhộn nhịp. Ngày 20 tuần tới, tôi dự định sẽ viết bưu thiếp cho bạn bè.\n\n**Câu hỏi trắc nghiệm:**\nこの人は何をするのが好きですか？\n(Người này thích làm gì?)\n\n1. 賑やかな公園でケーキを食べること。 (Ăn bánh ở công viên nhộn nhịp.)\n2. 公園で鳥が鳴くのを聞くこと。 (Nghe tiếng chim hót ở công viên.)\n3. 黄色いお皿を磨くこと。 (Đánh bóng chiếc đĩa màu vàng.)\n4. 友達に会いに行くこと。 (Đi gặp bạn bè.)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Đoạn văn có câu \"公園で鳥が鳴くのを聞くのが好きです\" (Thích việc nghe chim hót ở công viên). Đáp án 2 chính xác.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: 佐藤さん、趣味は何ですか。\nB: 私の趣味はシャツを洗うことと、Ｙシャツにアイロンをかけることです。\nA: へえ、すごいですね。\n\n*Bản dịch tiếng Việt:*\nA: Anh Sato, sở thích của anh là gì?\nB: Sở thích của tôi là giặt áo và là áo sơ mi.\nA: Chà, giỏi thật đấy.\n\n**Câu hỏi trắc nghiệm:**\n佐藤さんの趣味は何ですか？\n(Sở thích của anh Sato là gì?)\n\n1. 料理を作ること。 (Nấu ăn.)\n2. 賑やかな公園に行くこと。 (Đi đến công viên nhộn nhịp.)\n3. Ｙシャツを洗ったり、アイロンをかけたりすること。 (Giặt và là áo sơ mi.)\n4. 葉書を書くこと。 (Viết bưu thiếp.)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Anh Sato trả lời \"シャツを洗うことと、Ｙシャツにアイロンをかけること\" (Giặt áo và là áo sơ mi). Đáp án 3 khớp với nội dung.\n\n---\n**Sau bài này bạn sẽ làm được:** \n- Biến các động từ thành danh từ để diễn đạt sở thích và thói quen.\n- Phân biệt và sử dụng thành thạo cấu trúc danh từ hóa `～こと` và `～の` trong các tình huống giao tiếp thực tế.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -4818,6 +5835,53 @@
               "back": "lớp học",
               "romaji": "クラス",
               "example": "クラス",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 21 — Ngữ pháp",
+          "description": "Ngữ pháp bài 21: Bài 21 — Danh từ hóa: ～こと và ～の",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "〜こと",
+              "back": "Danh từ hóa bằng ～こと",
+              "romaji": "",
+              "example": "私の趣味は **お菓子を作ること** です。 (Sở thích của tôi là làm bánh kẹo.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-る こと",
+              "back": "Danh từ hóa bằng ～こと",
+              "romaji": "",
+              "example": "私の趣味は **お菓子を作ること** です。 (Sở thích của tôi là làm bánh kẹo.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜の",
+              "back": "Sự khác biệt giữa ～こと và ～の",
+              "romaji": "",
+              "example": "私は彼が日本へ行く **こと** を知っています。 (Tôi biết việc anh ấy đi Nhật.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜は 〜です",
+              "back": "Mẫu câu: ～は ～です",
+              "romaji": "",
+              "example": "私の仕事は **夕飯を作ること** です。 (Công việc của tôi là nấu bữa tối.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-る こと / N は N です",
+              "back": "Mẫu câu: ～は ～です",
+              "romaji": "",
+              "example": "私の仕事は **夕飯を作ること** です。 (Công việc của tôi là nấu bữa tối.)",
               "jlptLevel": 5
             }
           ]
@@ -5082,6 +6146,46 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 22 — Ngữ pháp",
+          "description": "Ngữ pháp bài 22: Bài 22 — Điều kiện: ～とき và ～まえに/あとで",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "Vる / Vた + とき",
+              "back": "Diễn đạt thời điểm: Vる / Vた + とき",
+              "romaji": "",
+              "example": "**Vる + とき**: Khi làm gì đó (hành động chưa xảy ra hoặc đang diễn ra tại thời điểm đó).",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Vる + とき",
+              "back": "Diễn đạt thời điểm: Vる / Vた + とき",
+              "romaji": "",
+              "example": "**Vた + とき**: Khi đã làm xong gì đó.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Vる + まえに",
+              "back": "Hành động trước/sau: Vる + まえに và Vた + あとで",
+              "romaji": "",
+              "example": "**Vる + まえに**: Trước khi làm gì đó. (Lưu ý: Luôn dùng thể từ điển Vる).",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Vた + あとで",
+              "back": "Hành động trước/sau: Vる + まえに và Vた + あとで",
+              "romaji": "",
+              "example": "**Vた + あとで**: Sau khi làm gì đó. (Lưu ý: Luôn dùng thể quá khứ Vた).",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -5093,7 +6197,7 @@
     "order": 23,
     "title": "Bài 23 — Thể bình thường trong hội thoại",
     "summary": "Chuyển từ thể lịch sự sang thể bình thường (casual).",
-    "theoryMd": "# Bài 23 — Thể bình thường trong hội thoại\n\n## 📖 Lý thuyết Ngữ pháp\n\nTrong tiếng Nhật, thể lịch sự (thể Masu/Desu) dùng với người lạ hoặc cấp trên. Thể bình thường (Thể ngắn) dùng khi nói chuyện với bạn bè, người thân hoặc người nhỏ tuổi hơn.\n\n### 1. Khái niệm về thể bình thường\nThể bình thường là cách nói ngắn gọn của thể lịch sự.\n*   **Khẳng định hiện tại:** `です` (lịch sự) → `だ` (bình thường).\n*   **Phủ định hiện tại:** `じゃありません` (lịch sự) → `じゃない` (bình thường).\n*   **Quá khứ:** `でした` (lịch sự) → `だった` (bình thường).\n\n#### Ví dụ\n- Lịch sự: 今日は暑いですね。 (Hôm nay trời nóng nhỉ.)\n- Bình thường: 今日は暑いね。 (Hôm nay nóng nhỉ.)\n\n### 2. Cách chia động từ sang thể từ điển (Thể ngắn)\nĐộng từ thể ngắn (thể từ điển) là hình thức cơ bản nhất:\n- Nhóm I: Chuyển đuôi `u` thành `u` (cột u). Ví dụ: `行きます` → `行く`.\n- Nhóm II: Bỏ `ます` thêm `る`. Ví dụ: `食べます` → `食べる`.\n- Nhóm III: `します` → `する`, `来ます` → `来る`.\n\n### 3. Cách dùng thể bình thường trong câu hỏi\nTrong hội thoại thân mật, khi đặt câu hỏi, chúng ta bỏ trợ từ `か` ở cuối câu và lên giọng ở cuối từ cuối cùng.\n- Lịch sự: おととい、勉強しましたか。(Hôm kia bạn có học không?)\n- Bình thường: おととい、勉強した？ (Hôm kia học à?)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nおととい、田中くんはペットの猫と遊んだ。晩ご飯に醤油を使った料理を食べた。スプーンでスープを飲んだ。とても楽しかった。\n\n*Phiên âm (Romaji):*\nOto-toi, Tanaka-kun wa petto no neko to asonda. Bangohan ni shōyu o tsukatta ryōri o tabeta. Supūn de sūpu o nonda. Totemo tanoshikatta.\n\n*Bản dịch tiếng Việt:*\nHôm kia, Tanaka đã chơi với chú mèo cưng của mình. Bữa tối cậu ấy ăn món dùng nước tương. Cậu ấy dùng thìa để uống súp. Rất là vui.\n\n**Câu hỏi trắc nghiệm:**\n田中くんはおととい何をした？\n(Hôm kia Tanaka đã làm gì?)\n\n**Các phương án:**\n1. ペットと遊んだ。(Đã chơi với thú cưng)\n2. 醤油を買った。(Đã đi mua nước tương)\n3. ストーブを使った。(Đã dùng lò sưởi)\n4. スリッパを探した。(Đã tìm dép)\n\n*Đáp án đúng:* **1**\n*Giải thích chi tiết:* Đoạn văn có viết \"田中くんはペットの猫と遊んだ\" (Tanaka chơi với mèo cưng), trùng khớp với đáp án 1.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: 明日、１日に映画に行く？\nB: ごめん、１日は忙しい。３日ならいいよ。\nA: そうか。じゃあ、３日にしよう！\n\n*Bản dịch tiếng Việt:*\nA: Ngày mai, mùng 1 đi xem phim không?\nB: Xin lỗi, mùng 1 mình bận rồi. Mùng 3 thì được đấy.\nA: Thế à. Vậy thì mùng 3 nhé!\n\n**Câu hỏi trắc nghiệm:**\n二人はいつ映画に行く？\n(Hai người đi xem phim khi nào?)\n\n**Các phương án:**\n1. おととい (Hôm kia)\n2. １日 (Mùng 1)\n3. ３日 (Mùng 3)\n4. 明日 (Ngày mai)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Mặc dù A rủ đi mùng 1, nhưng B bận và đề xuất \"３日ならいいよ\" (Mùng 3 thì được). Sau đó A đồng ý \"３日にしよう\" (Vậy mùng 3 nhé).\n\n---\n**Sau bài này bạn sẽ làm được:** nhận diện và sử dụng thể ngắn trong giao tiếp hàng ngày; hiểu được sự khác biệt giữa văn phong lịch sự và văn phong thân mật; tự tin trò chuyện với bạn bè bằng tiếng Nhật tự nhiên hơn.",
+    "theoryMd": "# Bài 23 — Thể bình thường trong hội thoại\n\n## 📖 Lý thuyết Ngữ pháp\n\nTrong tiếng Nhật, thể lịch sự (thể Masu/Desu) dùng với người lạ hoặc cấp trên. Thể bình thường (Thể ngắn) dùng khi nói chuyện với bạn bè, người thân hoặc người nhỏ tuổi hơn.\n\n### 1. Khái niệm về thể bình thường\nThể bình thường là cách nói ngắn gọn của thể lịch sự.\n* **Khẳng định hiện tại:** `です` (lịch sự) → `だ` (bình thường).\n* **Phủ định hiện tại:** `じゃありません` (lịch sự) → `じゃない` (bình thường).\n* **Quá khứ:** `でした` (lịch sự) → `だった` (bình thường).\n\n#### Ví dụ\n- Lịch sự: 今日は暑いですね。 (Hôm nay trời nóng nhỉ.)\n- Bình thường: 今日は暑いね。 (Hôm nay nóng nhỉ.)\n\n### 2. Cách chia động từ sang thể từ điển (Thể ngắn)\nĐộng từ thể ngắn (thể từ điển) là hình thức cơ bản nhất:\n- Nhóm I: Chuyển đuôi `u` thành `u` (cột u). Ví dụ: `行きます` → `行く`.\n- Nhóm II: Bỏ `ます` thêm `る`. Ví dụ: `食べます` → `食べる`.\n- Nhóm III: `します` → `する`, `来ます` → `来る`.\n\n### 3. Cách dùng thể bình thường trong câu hỏi\nTrong hội thoại thân mật, khi đặt câu hỏi, chúng ta bỏ trợ từ `か` ở cuối câu và lên giọng ở cuối từ cuối cùng.\n- Lịch sự: おととい、勉強しましたか。(Hôm kia bạn có học không?)\n- Bình thường: おととい、勉強した？ (Hôm kia học à?)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nおととい、田中くんはペットの猫と遊んだ。晩ご飯に醤油を使った料理を食べた。スプーンでスープを飲んだ。とても楽しかった。\n\n*Phiên âm (Romaji):*\nOto-toi, Tanaka-kun wa petto no neko to asonda. Bangohan ni shōyu o tsukatta ryōri o tabeta. Supūn de sūpu o nonda. Totemo tanoshikatta.\n\n*Bản dịch tiếng Việt:*\nHôm kia, Tanaka đã chơi với chú mèo cưng của mình. Bữa tối cậu ấy ăn món dùng nước tương. Cậu ấy dùng thìa để uống súp. Rất là vui.\n\n**Câu hỏi trắc nghiệm:**\n田中くんはおととい何をした？\n(Hôm kia Tanaka đã làm gì?)\n\n**Các phương án:**\n1. ペットと遊んだ。(Đã chơi với thú cưng)\n2. 醤油を買った。(Đã đi mua nước tương)\n3. ストーブを使った。(Đã dùng lò sưởi)\n4. スリッパを探した。(Đã tìm dép)\n\n*Đáp án đúng:* **1**\n*Giải thích chi tiết:* Đoạn văn có viết \"田中くんはペットの猫と遊んだ\" (Tanaka chơi với mèo cưng), trùng khớp với đáp án 1.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: 明日、１日に映画に行く？\nB: ごめん、１日は忙しい。３日ならいいよ。\nA: そうか。じゃあ、３日にしよう！\n\n*Bản dịch tiếng Việt:*\nA: Ngày mai, mùng 1 đi xem phim không?\nB: Xin lỗi, mùng 1 mình bận rồi. Mùng 3 thì được đấy.\nA: Thế à. Vậy thì mùng 3 nhé!\n\n**Câu hỏi trắc nghiệm:**\n二人はいつ映画に行く？\n(Hai người đi xem phim khi nào?)\n\n**Các phương án:**\n1. おととい (Hôm kia)\n2. １日 (Mùng 1)\n3. ３日 (Mùng 3)\n4. 明日 (Ngày mai)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Mặc dù A rủ đi mùng 1, nhưng B bận và đề xuất \"３日ならいいよ\" (Mùng 3 thì được). Sau đó A đồng ý \"３日にしよう\" (Vậy mùng 3 nhé).\n\n---\n**Sau bài này bạn sẽ làm được:** nhận diện và sử dụng thể ngắn trong giao tiếp hàng ngày; hiểu được sự khác biệt giữa văn phong lịch sự và văn phong thân mật; tự tin trò chuyện với bạn bè bằng tiếng Nhật tự nhiên hơn.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -5335,6 +6439,46 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 23 — Ngữ pháp",
+          "description": "Ngữ pháp bài 23: Bài 23 — Thể bình thường trong hội thoại",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "です",
+              "back": "Khái niệm về thể bình thường",
+              "romaji": "",
+              "example": "Lịch sự: 今日は暑いですね。 (Hôm nay trời nóng nhỉ.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "じゃありません",
+              "back": "Khái niệm về thể bình thường",
+              "romaji": "",
+              "example": "Bình thường: 今日は暑いね。 (Hôm nay nóng nhỉ.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "行きます",
+              "back": "Cách chia động từ sang thể từ điển",
+              "romaji": "",
+              "example": "Nhóm I: Chuyển đuôi u thành u (cột u). Ví dụ: 行きます",
+              "jlptLevel": 5
+            },
+            {
+              "front": "行く",
+              "back": "Cách chia động từ sang thể từ điển",
+              "romaji": "",
+              "example": "Nhóm II: Bỏ ます thêm る. Ví dụ: 食べます",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -5346,7 +6490,7 @@
     "order": 24,
     "title": "Bài 24 — Điều kiện: ～と、～ば、～たら",
     "summary": "Ba cấu trúc điều kiện và sự khác biệt về sắc thái.",
-    "theoryMd": "# Bài 24 — Điều kiện: ～と、～ば、～たら\n\n## 📖 Lý thuyết Ngữ pháp\n\nTrong tiếng Nhật, có nhiều cách để diễn đạt câu điều kiện. Dưới đây là 3 cấu trúc phổ biến nhất:\n\n### 1. Mẫu câu: `V từ điển + と` (Hễ mà...)\nDùng để diễn tả một sự thật hiển nhiên, một kết quả tất yếu hoặc chỉ đường.\n- **Đặc điểm:** Vế sau không bao giờ đi với ý chí, nguyện vọng hay mệnh lệnh.\n- **Ví dụ:** ここを まっすぐ 行く**と**、入り口が あります。 (Nếu đi thẳng chỗ này, sẽ thấy lối vào.)\n\n### 2. Mẫu câu: `V (thể ば) / Adj-i (bỏ i -> ければ) + ば` (Nếu mà...)\nDiễn tả điều kiện cần thiết để thực hiện một việc gì đó.\n- **Cách chia:** \n    - Nhóm 1: `kaku` -> `kakeba` / Nhóm 2: `taberu` -> `tabereba` / Nhóm 3: `kuru` -> `kureba`.\n- **Ví dụ:** お金が あれば、旅行に 行きます。 (Nếu có tiền, tôi sẽ đi du lịch.)\n\n### 3. Mẫu câu: `V-ta / V-nai + ら` (Nếu/Sau khi...)\nĐây là cách dùng linh hoạt nhất, có thể dùng cho giả định hoặc diễn tả trình tự thời gian (\"Sau khi làm A thì làm B\").\n- **Ví dụ:** お金が あったら、新しい お皿を 買います。 (Nếu có tiền, tôi sẽ mua đĩa mới.)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nパーティーで お酒を 飲みます。もっと 飲みたかったら、店の人に 言ってください。もし 何時まで パーティーを するか 分からなかったら、此処で 聞いてください。\n\n*Phiên âm (Romaji):*\nPātī de osake o nomimasu. Motto nomitakattara, mise no hito ni itte kudasai. Moshi itsu made pātī o suru ka wakaranakattara, koko de kiite kudasai.\n\n*Bản dịch tiếng Việt:*\nTại bữa tiệc, bạn sẽ uống rượu. Nếu muốn uống thêm, hãy nói với nhân viên quán. Nếu không biết bữa tiệc tổ chức đến mấy giờ, hãy hỏi ở đây.\n\n**Câu hỏi trắc nghiệm:**\nパーティーで お酒が もっと 飲みたければ、どうしますか。\n(Nếu muốn uống thêm rượu ở bữa tiệc, bạn sẽ làm gì?)\n\n**Các phương án:**\n1. 何もしません。(Không làm gì cả)\n2. 出口で 聞きます。(Hỏi ở lối ra)\n3. 店の人に 言います。(Nói với người ở quán)\n4. 四時まで 待ちます。(Chờ đến 4 giờ)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Câu văn \"もっと 飲みたかったら、店の人に 言ってください\" (Nếu muốn uống thêm, hãy nói với nhân viên) trùng khớp với đáp án 3.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: この お皿は どこへ 置きますか。\nB: ああ、あちらの テーブルに 置いてください。もし お皿が 足りなかったら、また 持ってきます。\nA: はい、わかりました。\n\n*Bản dịch tiếng Việt:*\nA: Cái đĩa này để ở đâu vậy ạ?\nB: À, hãy để ở cái bàn đằng kia nhé. Nếu đĩa không đủ, tôi sẽ mang thêm đến.\nA: Vâng, tôi hiểu rồi ạ.\n\n**Câu hỏi trắc nghiệm:**\nお皿が 足りなかったら、Bさんは どうしますか。\n(Nếu không đủ đĩa, anh B sẽ làm gì?)\n\n**Các phương án:**\n1. テーブルを 買います。(Mua bàn)\n2. お皿を 持ってきます。(Mang đĩa đến)\n3. 入り口へ 行きます。(Đi đến lối vào)\n4. 他の 人に 言います。(Nói với người khác)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Trong kịch bản, anh B nói: \"もし お皿が 足りなかったら、また 持ってきます\" (Nếu không đủ đĩa, tôi sẽ mang thêm đến), nên đáp án 2 là chính xác.\n\n---\n\n**Sau bài này bạn sẽ làm được:** \n- Phân biệt và sử dụng thành thạo 3 cấu trúc điều kiện `～と`, `～ば`, `～たら`.\n- Diễn đạt được các tình huống giả định trong giao tiếp hàng ngày.\n- Tự tin đưa ra chỉ dẫn hoặc yêu cầu dựa trên các điều kiện thực tế.",
+    "theoryMd": "# Bài 24 — Điều kiện: ～と、～ば、～たら\n\n## 📖 Lý thuyết Ngữ pháp\n\nTrong tiếng Nhật, có nhiều cách để diễn đạt câu điều kiện. Dưới đây là 3 cấu trúc phổ biến nhất:\n\n### 1. Mẫu câu: `V từ điển + と` (Hễ mà...)\nDùng để diễn tả một sự thật hiển nhiên, một kết quả tất yếu hoặc chỉ đường.\n- **Đặc điểm:** Vế sau không bao giờ đi với ý chí, nguyện vọng hay mệnh lệnh.\n- **Ví dụ:** ここを まっすぐ 行く**と**、入り口が あります。 (Nếu đi thẳng chỗ này, sẽ thấy lối vào.)\n\n### 2. Mẫu câu: `V (thể ば) / Adj-i (bỏ i -> ければ) + ば` (Nếu mà...)\nDiễn tả điều kiện cần thiết để thực hiện một việc gì đó.\n- **Cách chia:** \n - Nhóm 1: `kaku` -> `kakeba` / Nhóm 2: `taberu` -> `tabereba` / Nhóm 3: `kuru` -> `kureba`.\n- **Ví dụ:** お金が あれば、旅行に 行きます。 (Nếu có tiền, tôi sẽ đi du lịch.)\n\n### 3. Mẫu câu: `V-ta / V-nai + ら` (Nếu/Sau khi...)\nĐây là cách dùng linh hoạt nhất, có thể dùng cho giả định hoặc diễn tả trình tự thời gian (\"Sau khi làm A thì làm B\").\n- **Ví dụ:** お金が あったら、新しい お皿を 買います。 (Nếu có tiền, tôi sẽ mua đĩa mới.)\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nパーティーで お酒を 飲みます。もっと 飲みたかったら、店の人に 言ってください。もし 何時まで パーティーを するか 分からなかったら、此処で 聞いてください。\n\n*Phiên âm (Romaji):*\nPātī de osake o nomimasu. Motto nomitakattara, mise no hito ni itte kudasai. Moshi itsu made pātī o suru ka wakaranakattara, koko de kiite kudasai.\n\n*Bản dịch tiếng Việt:*\nTại bữa tiệc, bạn sẽ uống rượu. Nếu muốn uống thêm, hãy nói với nhân viên quán. Nếu không biết bữa tiệc tổ chức đến mấy giờ, hãy hỏi ở đây.\n\n**Câu hỏi trắc nghiệm:**\nパーティーで お酒が もっと 飲みたければ、どうしますか。\n(Nếu muốn uống thêm rượu ở bữa tiệc, bạn sẽ làm gì?)\n\n**Các phương án:**\n1. 何もしません。(Không làm gì cả)\n2. 出口で 聞きます。(Hỏi ở lối ra)\n3. 店の人に 言います。(Nói với người ở quán)\n4. 四時まで 待ちます。(Chờ đến 4 giờ)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Câu văn \"もっと 飲みたかったら、店の人に 言ってください\" (Nếu muốn uống thêm, hãy nói với nhân viên) trùng khớp với đáp án 3.\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: この お皿は どこへ 置きますか。\nB: ああ、あちらの テーブルに 置いてください。もし お皿が 足りなかったら、また 持ってきます。\nA: はい、わかりました。\n\n*Bản dịch tiếng Việt:*\nA: Cái đĩa này để ở đâu vậy ạ?\nB: À, hãy để ở cái bàn đằng kia nhé. Nếu đĩa không đủ, tôi sẽ mang thêm đến.\nA: Vâng, tôi hiểu rồi ạ.\n\n**Câu hỏi trắc nghiệm:**\nお皿が 足りなかったら、Bさんは どうしますか。\n(Nếu không đủ đĩa, anh B sẽ làm gì?)\n\n**Các phương án:**\n1. テーブルを 買います。(Mua bàn)\n2. お皿を 持ってきます。(Mang đĩa đến)\n3. 入り口へ 行きます。(Đi đến lối vào)\n4. 他の 人に 言います。(Nói với người khác)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Trong kịch bản, anh B nói: \"もし お皿が 足りなかったら、また 持ってきます\" (Nếu không đủ đĩa, tôi sẽ mang thêm đến), nên đáp án 2 là chính xác.\n\n---\n\n**Sau bài này bạn sẽ làm được:** \n- Phân biệt và sử dụng thành thạo 3 cấu trúc điều kiện `～と`, `～ば`, `～たら`.\n- Diễn đạt được các tình huống giả định trong giao tiếp hàng ngày.\n- Tự tin đưa ra chỉ dẫn hoặc yêu cầu dựa trên các điều kiện thực tế.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -5588,6 +6732,46 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 24 — Ngữ pháp",
+          "description": "Ngữ pháp bài 24: Bài 24 — Điều kiện: ～と、～ば、～たら",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "V từ điển + と",
+              "back": "Mẫu câu: V từ điển + と",
+              "romaji": "",
+              "example": "ここを まっすぐ 行く**と**、入り口が あります。 (Nếu đi thẳng chỗ này, sẽ thấy lối vào.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V (thể ば) / Adj-i (bỏ i -> ければ) + ば",
+              "back": "Mẫu câu: V / Adj-i + ば",
+              "romaji": "",
+              "example": "お金が あれば、旅行に 行きます。 (Nếu có tiền, tôi sẽ đi du lịch.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-ta / V-nai + ら",
+              "back": "Mẫu câu: V-ta / V-nai + ら",
+              "romaji": "",
+              "example": "お金が あったら、新しい お皿を 買います。 (Nếu có tiền, tôi sẽ mua đĩa mới.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜と",
+              "back": "Mẫu câu: V-ta / V-nai + ら",
+              "romaji": "",
+              "example": "Phân biệt và sử dụng thành thạo 3 cấu trúc điều kiện ～と, ～ば, ～たら.",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -5599,7 +6783,7 @@
     "order": 25,
     "title": "Bài 25 — Ôn tập tổng kết N5",
     "summary": "Tổng hợp toàn bộ ngữ pháp N5, luyện tập tổng hợp.",
-    "theoryMd": "# Bài 25 — Ôn tập tổng kết N5\n\n## 📖 Lý thuyết Ngữ pháp cốt lõi\n\n### 1. Hệ thống Trợ từ (The Particles)\nTrợ từ là \"xương sống\" của tiếng Nhật. Bạn cần nhớ rõ:\n- **は (wa):** Đánh dấu chủ đề câu.\n- **が (ga):** Đánh dấu chủ ngữ hoặc đối tượng của tính từ/động từ chỉ trạng thái (như `あります`, `います`).\n- **に (ni):** Chỉ thời điểm, địa điểm tồn tại hoặc hướng di chuyển.\n- **で (de):** Chỉ nơi chốn diễn ra hành động hoặc phương tiện.\n- **を (o):** Chỉ đối tượng chịu tác động của hành động (tân ngữ).\n- **と (to):** Liệt kê hoặc chỉ đối tượng cùng làm gì đó (với ai).\n\n### 2. Sự khác biệt giữa あります và います\n- **あります (arimasu):** Dùng cho vật vô tri, cây cối.\n  *Ví dụ:* `テーブルの上にカレンダーがあります。` (Trên bàn có cuốn lịch).\n- **います (imasu):** Dùng cho người và động vật.\n  *Ví dụ:* `あちらに田中さんがいます。` (Ở đằng kia có anh Tanaka).\n\n### 3. Chia động từ và Tính từ\n- **Động từ:** Nắm vững thể **Masu** (lịch sự) và thể **Te** (nối câu, nhờ vả).\n- **Tính từ:** Tính từ đuôi **i** (bỏ `i` + `kute`) và đuôi **na** (bỏ `na` + `de`) để nối câu.\n  *Ví dụ:* `このスープは少しぬるいです。` (Món súp này hơi ấm/nguội).\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nあさって、デパートへいきます。カレンダーを買います。２０歳のいもうとといっしょにいきます。デパートのトイレはあちらです。そうして、４日に友だちがきます。\n\n*Phiên âm (Romaji):*\nAsatte, depāto e ikimasu. Karendā o kaimasu. Hatachi no imōto to issho ni ikimasu. Depāto no toire wa achira desu. Sōshite, yokka ni tomodachi ga kimasu.\n\n*Bản dịch tiếng Việt:*\nNgày kia, tôi sẽ đi đến cửa hàng bách hóa. Tôi sẽ mua lịch. Tôi sẽ đi cùng với em gái 20 tuổi của mình. Nhà vệ sinh của cửa hàng bách hóa ở đằng kia. Sau đó, ngày mùng 4 bạn tôi sẽ đến.\n\n**Câu hỏi trắc nghiệm:**\nいもうとはなんさいですか。 (Em gái bao nhiêu tuổi?)\n\n**Các phương án:**\n1. ４さい (4 tuổi)\n2. ２０さい (20 tuổi)\n3. ７さい (7 tuổi)\n4. あさって (Ngày kia)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Trong bài có đoạn \"２０歳のいもうと\" (Hatachi no imōto) nghĩa là em gái 20 tuổi. 20 tuổi trong tiếng Nhật gọi là \"はたち\" (Hatachi).\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: すみません、どれが２００グラムですか。\nB: それです。それはぬるいフィルムですが、２００グラムです。\nA: わかりました。では、７日にまたきます。\n\n*Bản dịch tiếng Việt:*\nA: Xin lỗi, cái nào là 200 gram vậy?\nB: Cái đó đó. Đó là cuộn phim hơi ấm, nhưng nó nặng 200 gram.\nA: Tôi hiểu rồi. Vậy thì, ngày mùng 7 tôi sẽ quay lại.\n\n**Câu hỏi trắc nghiệm:**\nAさんはいつまたきますか。 (Anh A khi nào sẽ quay lại?)\n\n**Các phương án:**\n1. ４日 (Ngày mùng 4)\n2. あさって (Ngày kia)\n3. ７日 (Ngày mùng 7)\n4. ２０日 (Ngày 20)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Nhân vật A nói \"７日にまたきます\" (Nanoka ni mata kimasu), nghĩa là ngày mùng 7 tôi sẽ quay lại.\n\n---\n\n**Sau bài này bạn sẽ làm được:** \n1. Hệ thống hóa toàn bộ kiến thức ngữ pháp cơ bản của trình độ N5.\n2. Phân biệt rõ cách dùng trợ từ và cách sử dụng động từ chỉ sự tồn tại.\n3. Tự tin bước vào kỳ thi đánh giá năng lực tiếng Nhật cấp độ sơ cấp.",
+    "theoryMd": "# Bài 25 — Ôn tập tổng kết N5\n\n## 📖 Lý thuyết Ngữ pháp cốt lõi\n\n### 1. Hệ thống Trợ từ (The Particles)\nTrợ từ là \"xương sống\" của tiếng Nhật. Bạn cần nhớ rõ:\n- **は (wa):** Đánh dấu chủ đề câu.\n- **が (ga):** Đánh dấu chủ ngữ hoặc đối tượng của tính từ/động từ chỉ trạng thái (như `あります`, `います`).\n- **に (ni):** Chỉ thời điểm, địa điểm tồn tại hoặc hướng di chuyển.\n- **で (de):** Chỉ nơi chốn diễn ra hành động hoặc phương tiện.\n- **を (o):** Chỉ đối tượng chịu tác động của hành động (tân ngữ).\n- **と (to):** Liệt kê hoặc chỉ đối tượng cùng làm gì đó (với ai).\n\n### 2. Sự khác biệt giữa あります và います\n- **あります (arimasu):** Dùng cho vật vô tri, cây cối.\n *Ví dụ:* `テーブルの上にカレンダーがあります。` (Trên bàn có cuốn lịch).\n- **います (imasu):** Dùng cho người và động vật.\n *Ví dụ:* `あちらに田中さんがいます。` (Ở đằng kia có anh Tanaka).\n\n### 3. Chia động từ và Tính từ\n- **Động từ:** Nắm vững thể **Masu** (lịch sự) và thể **Te** (nối câu, nhờ vả).\n- **Tính từ:** Tính từ đuôi **i** (bỏ `i` + `kute`) và đuôi **na** (bỏ `na` + `de`) để nối câu.\n *Ví dụ:* `このスープは少しぬるいです。` (Món súp này hơi ấm/nguội).\n\n---\n\n## 📖 Luyện Đọc Hiểu (読解 - Dokkai)\n\n**Đoạn văn:**\nあさって、デパートへいきます。カレンダーを買います。２０歳のいもうとといっしょにいきます。デパートのトイレはあちらです。そうして、４日に友だちがきます。\n\n*Phiên âm (Romaji):*\nAsatte, depāto e ikimasu. Karendā o kaimasu. Hatachi no imōto to issho ni ikimasu. Depāto no toire wa achira desu. Sōshite, yokka ni tomodachi ga kimasu.\n\n*Bản dịch tiếng Việt:*\nNgày kia, tôi sẽ đi đến cửa hàng bách hóa. Tôi sẽ mua lịch. Tôi sẽ đi cùng với em gái 20 tuổi của mình. Nhà vệ sinh của cửa hàng bách hóa ở đằng kia. Sau đó, ngày mùng 4 bạn tôi sẽ đến.\n\n**Câu hỏi trắc nghiệm:**\nいもうとはなんさいですか。 (Em gái bao nhiêu tuổi?)\n\n**Các phương án:**\n1. ４さい (4 tuổi)\n2. ２０さい (20 tuổi)\n3. ７さい (7 tuổi)\n4. あさって (Ngày kia)\n\n*Đáp án đúng:* **2**\n*Giải thích chi tiết:* Trong bài có đoạn \"２０歳のいもうと\" (Hatachi no imōto) nghĩa là em gái 20 tuổi. 20 tuổi trong tiếng Nhật gọi là \"はたち\" (Hatachi).\n\n---\n\n## 🎧 Luyện Nghe Hiểu (聴解 - Choukai)\n\n**Kịch bản hội thoại:**\nA: すみません、どれが２００グラムですか。\nB: それです。それはぬるいフィルムですが、２００グラムです。\nA: わかりました。では、７日にまたきます。\n\n*Bản dịch tiếng Việt:*\nA: Xin lỗi, cái nào là 200 gram vậy?\nB: Cái đó đó. Đó là cuộn phim hơi ấm, nhưng nó nặng 200 gram.\nA: Tôi hiểu rồi. Vậy thì, ngày mùng 7 tôi sẽ quay lại.\n\n**Câu hỏi trắc nghiệm:**\nAさんはいつまたきますか。 (Anh A khi nào sẽ quay lại?)\n\n**Các phương án:**\n1. ４日 (Ngày mùng 4)\n2. あさって (Ngày kia)\n3. ７日 (Ngày mùng 7)\n4. ２０日 (Ngày 20)\n\n*Đáp án đúng:* **3**\n*Giải thích chi tiết:* Nhân vật A nói \"７日にまたきます\" (Nanoka ni mata kimasu), nghĩa là ngày mùng 7 tôi sẽ quay lại.\n\n---\n\n**Sau bài này bạn sẽ làm được:** \n1. Hệ thống hóa toàn bộ kiến thức ngữ pháp cơ bản của trình độ N5.\n2. Phân biệt rõ cách dùng trợ từ và cách sử dụng động từ chỉ sự tồn tại.\n3. Tự tin bước vào kỳ thi đánh giá năng lực tiếng Nhật cấp độ sơ cấp.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR",
@@ -5838,6 +7022,53 @@
               "back": "polyethylene terephthalate, nhựa PET",
               "romaji": "ペット",
               "example": "ＰＥＴ（ペット）",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 25 — Ngữ pháp",
+          "description": "Ngữ pháp bài 25: Bài 25 — Ôn tập tổng kết N5",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "あります",
+              "back": "Hệ thống Trợ từ",
+              "romaji": "",
+              "example": "**は (wa):** Đánh dấu chủ đề câu.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "います",
+              "back": "Hệ thống Trợ từ",
+              "romaji": "",
+              "example": "**が (ga):** Đánh dấu chủ ngữ hoặc đối tượng của tính từ/động từ chỉ trạng thái (như あります, います).",
+              "jlptLevel": 5
+            },
+            {
+              "front": "テーブルの上にカレンダーがあります。",
+              "back": "Sự khác biệt giữa あります và います",
+              "romaji": "",
+              "example": "**あります (arimasu):** Dùng cho vật vô tri, cây cối.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "あちらに田中さんがいます。",
+              "back": "Sự khác biệt giữa あります và います",
+              "romaji": "",
+              "example": "**います (imasu):** Dùng cho người và động vật.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "このスープは少しぬるいです。",
+              "back": "Chia động từ và Tính từ",
+              "romaji": "",
+              "example": "",
               "jlptLevel": 5
             }
           ]

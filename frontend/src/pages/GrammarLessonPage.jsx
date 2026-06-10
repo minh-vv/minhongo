@@ -448,11 +448,17 @@ export default function GrammarLessonPage() {
         <div className="relative z-10 p-7 md:p-9">
           {/* Breadcrumb */}
           <button
-            onClick={() => navigate('/grammar')}
+            onClick={() => {
+              if (window.history.length > 1) {
+                navigate(-1);
+              } else {
+                navigate('/grammar');
+              }
+            }}
             className="inline-flex items-center gap-1.5 text-white/70 hover:text-white mb-4 text-xs font-bold uppercase tracking-wider transition-colors"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
-            Ngữ pháp
+            Quay lại
           </button>
 
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">

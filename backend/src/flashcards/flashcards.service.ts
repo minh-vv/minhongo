@@ -344,32 +344,54 @@ export class FlashcardsService {
     let easeFactor = existingProgress?.easeFactor ?? 2.5;
     let interval = existingProgress?.interval ?? 0;
     let repetitions = existingProgress?.repetitions ?? 0;
+    let minutesToAdd = 0;
 
-    if (quality < ReviewQuality.GOOD) {
-      // Chất lượng kém (< 2): reset về trạng thái học lại
+    if (quality === ReviewQuality.AGAIN) {
       repetitions = 0;
-      interval = 1;
-    } else {
-      // Chất lượng tốt (>= 2) — SM-2 chuẩn
+      interval = 0;
+      minutesToAdd = 1;
+      easeFactor = Math.max(1.3, easeFactor - 0.2);
+    } else if (quality === ReviewQuality.HARD) {
       if (repetitions === 0) {
-        interval = 1;
+        interval = 0;
+        minutesToAdd = 10;
       } else if (repetitions === 1) {
-        interval = 6;
+        interval = 0;
+        minutesToAdd = 30;
       } else {
-        // Đảm bảo interval tối thiểu là 1 để tránh Math.round(0 * EF) = 0
+        interval = Math.max(1, Math.round(interval * 1.2));
+      }
+      easeFactor = Math.max(1.3, easeFactor - 0.15);
+      repetitions++;
+    } else if (quality === ReviewQuality.GOOD) {
+      if (repetitions === 0) {
+        interval = 0;
+        minutesToAdd = 30;
+      } else if (repetitions === 1) {
+        interval = 1;
+      } else {
         interval = Math.max(1, Math.round(interval * easeFactor));
       }
       repetitions++;
+    } else if (quality === ReviewQuality.EASY) {
+      if (repetitions === 0) {
+        interval = 1;
+      } else if (repetitions === 1) {
+        interval = 3;
+      } else {
+        interval = Math.max(1, Math.round(interval * easeFactor * 1.3));
+      }
+      easeFactor = Math.min(3.0, easeFactor + 0.15);
+      repetitions++;
     }
-
-    // Cập nhật ease factor
-    easeFactor =
-      easeFactor + (0.1 - (3 - quality) * (0.08 + (3 - quality) * 0.02));
-    easeFactor = Math.max(1.3, easeFactor); // Tối thiểu 1.3
 
     // Tính ngày ôn tập tiếp theo
     const nextReviewDate = new Date();
-    nextReviewDate.setDate(nextReviewDate.getDate() + interval);
+    if (interval > 0) {
+      nextReviewDate.setDate(nextReviewDate.getDate() + interval);
+    } else {
+      nextReviewDate.setMinutes(nextReviewDate.getMinutes() + minutesToAdd);
+    }
 
     // Cập nhật hoặc tạo progress + ghi ReviewLog song song
     const [progress] = await Promise.all([
@@ -405,7 +427,7 @@ export class FlashcardsService {
       interval,
       repetitions,
       nextReviewDate: progress.nextReviewDate,
-      message: this.getReviewMessage(quality, interval),
+      message: this.getReviewMessage(quality, interval, minutesToAdd),
     };
   }
 
@@ -533,28 +555,31 @@ export class FlashcardsService {
     };
   }
 
-  /** Leaderboard theo XP trong N ngày gần nhất */
   async getLeaderboard(days = 30, limit = 20) {
     const since = new Date();
     since.setDate(since.getDate() - days);
 
-    // Giới hạn records lấy về để tránh load toàn bộ bảng vào memory.
-    // Lấy (limit * 5) rows để có đủ dữ liệu sau khi group, sau đó sort + slice.
-    const MAX_ROWS = limit * 5;
-    const logs = await this.prisma.reviewLog.findMany({
-      where: { reviewedAt: { gte: since } },
-      select: { userId: true, quality: true },
-      take: MAX_ROWS,
-      orderBy: { reviewedAt: 'desc' },
+    // Gom nhóm theo userId và quality trực tiếp dưới Database
+    const groupedLogs = await this.prisma.reviewLog.groupBy({
+      by: ['userId', 'quality'],
+      _count: {
+        _all: true,
+      },
+      where: {
+        reviewedAt: { gte: since },
+      },
     });
 
     const xpByQuality = [2, 5, 10, 15];
     const byUser = new Map<string, { xp: number; reviews: number }>();
 
-    for (const log of logs) {
+    for (const log of groupedLogs) {
+      const count = log._count._all;
+      const xp = (xpByQuality[log.quality] ?? 0) * count;
+
       const prev = byUser.get(log.userId) ?? { xp: 0, reviews: 0 };
-      prev.xp += xpByQuality[log.quality] ?? 0;
-      prev.reviews += 1;
+      prev.xp += xp;
+      prev.reviews += count;
       byUser.set(log.userId, prev);
     }
 
@@ -617,12 +642,17 @@ export class FlashcardsService {
   }
 
   // Helper method để tạo thông báo
-  private getReviewMessage(quality: ReviewQuality, interval: number): string {
+  private getReviewMessage(
+    quality: ReviewQuality,
+    interval: number,
+    minutesToAdd: number,
+  ): string {
+    const timeStr = interval > 0 ? `${interval} ngày` : `${minutesToAdd} phút`;
     const messages = {
       [ReviewQuality.AGAIN]: `Ôn lại ngay! Thẻ sẽ xuất hiện trong 1 phút.`,
-      [ReviewQuality.HARD]: `Khó nhớ! Thẻ sẽ xuất hiện lại sau ${interval} ngày.`,
-      [ReviewQuality.GOOD]: `Tốt! Thẻ sẽ xuất hiện lại sau ${interval} ngày.`,
-      [ReviewQuality.EASY]: `Dễ nhớ! Thẻ sẽ xuất hiện lại sau ${interval} ngày.`,
+      [ReviewQuality.HARD]: `Khó nhớ! Thẻ sẽ xuất hiện lại sau ${timeStr}.`,
+      [ReviewQuality.GOOD]: `Tốt! Thẻ sẽ xuất hiện lại sau ${timeStr}.`,
+      [ReviewQuality.EASY]: `Dễ nhớ! Thẻ sẽ xuất hiện lại sau ${timeStr}.`,
     };
     return messages[quality];
   }
