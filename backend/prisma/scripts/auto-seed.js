@@ -17,35 +17,57 @@ async function main() {
   console.log('\n📦 [Auto-Seed] Kiểm tra dữ liệu khóa học...');
 
   const prisma = new PrismaClient();
+  let needsSync = false;
   try {
     const courseCount = await prisma.course.count();
-    if (courseCount > 0) {
-      console.log(`  ✅ Database đã có ${courseCount} khóa học. Bỏ qua seed.`);
+    const lessonCount = await prisma.lesson.count();
+    const jishoCount = await prisma.deck.count({
+      where: { id: { startsWith: 'jisho-' } }
+    });
+
+    if (courseCount >= 8 && lessonCount >= 437 && jishoCount === 0) {
+      console.log(`  ✅ Database đã được đồng bộ đầy đủ (${courseCount} khóa học, ${lessonCount} bài học, 0 jisho). Bỏ qua seed.`);
       console.log('  💡 Để force re-seed: node prisma/scripts/import-data.js\n');
       return;
     }
 
-    console.log('  📭 Database trống. Bắt đầu seed dữ liệu...');
+    needsSync = true;
+    console.log(`  ⚠️ Dữ liệu chưa đồng bộ đủ hoặc thừa Jisho:`);
+    console.log(`    - Số khóa học hiện tại: ${courseCount} / 8`);
+    console.log(`    - Số bài học hiện tại: ${lessonCount} / 437`);
+    console.log(`    - Số lượng deck Jisho dư thừa: ${jishoCount}`);
+    console.log('  ⚙️ Bắt đầu dọn dẹp Jisho và đồng bộ dữ liệu chuẩn...');
+  } catch (err) {
+    console.error('   ❌ Lỗi khi kiểm tra DB:', err.message);
+    needsSync = true;
   } finally {
     await prisma.$disconnect();
   }
 
+  if (!needsSync) return;
+
+  const cleanScript = path.join(__dirname, 'clean-jisho.js');
   const importScript = path.join(__dirname, 'import-data.js');
 
-  if (!fs.existsSync(importScript)) {
-    console.error('   ❌ Không tìm thấy import-data.js! Bỏ qua seed.');
-    return;
-  }
-
   try {
-    execSync(`node "${importScript}"`, {
-      stdio: 'inherit',
-      env: process.env,
-    });
-    console.log('\n   🎉 [Auto-Seed] Đồng bộ dữ liệu hoàn tất!');
+    if (fs.existsSync(cleanScript)) {
+      console.log('   🧹 Đang chạy clean-jisho.js...');
+      execSync(`node "${cleanScript}"`, {
+        stdio: 'inherit',
+        env: process.env,
+      });
+    }
+
+    if (fs.existsSync(importScript)) {
+      console.log('   📥 Đang chạy import-data.js...');
+      execSync(`node "${importScript}"`, {
+        stdio: 'inherit',
+        env: process.env,
+      });
+    }
+    console.log('\n   🎉 [Auto-Seed] Đồng bộ và dọn dẹp dữ liệu hoàn tất!');
   } catch (err) {
-    console.error('   ❌ [Auto-Seed] Lỗi khi import:', err.message);
-    // Không exit(1) — cho server vẫn khởi động được dù seed lỗi
+    console.error('   ❌ [Auto-Seed] Lỗi khi đồng bộ:', err.message);
     console.error('   ⚠️  Server sẽ tiếp tục khởi động bình thường.');
   }
 }
