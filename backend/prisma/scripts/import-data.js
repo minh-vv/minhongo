@@ -8,18 +8,6 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 
 function getDeckId(courseSlug, lessonOrder, deckRole) {
   const roleLower = deckRole.toLowerCase();
-  if (courseSlug === 'shinkansen-n2-bunpou') {
-    return `shinkansen-n2-bai-${lessonOrder}-${roleLower}`;
-  }
-  if (courseSlug === 'minna-n5') {
-    return `minna-n5-bai-${lessonOrder}-${roleLower}`;
-  }
-  if (courseSlug === 'minna-n4') {
-    return `jlpt-n4-bai-${lessonOrder}-${roleLower}`;
-  }
-  if (courseSlug.startsWith('jlpt-')) {
-    return `${courseSlug}-bai-${lessonOrder}-${roleLower}`;
-  }
   return `${courseSlug}-bai-${lessonOrder}-${roleLower}`;
 }
 
