@@ -46,64 +46,7 @@ async function main() {
     console.log(`  ✅ Sử dụng tài khoản admin hiện tại: ${admin.email}`);
   }
 
-  // 2. Import Jisho Decks (N5, N4, N3, N2, N1)
-  console.log('\n--- 2. Import từ vựng Jisho ---');
-  for (const level of [5, 4, 3, 2, 1]) {
-    const filePath = path.join(DATA_DIR, `jisho-n${level}.json`);
-    if (!fs.existsSync(filePath)) {
-      console.log(`  ⏭️  jisho-n${level}.json không tìm thấy, bỏ qua`);
-      continue;
-    }
-
-    const cards = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-    const deckId = `jisho-tuvung-jlpt-n${level}`;
-
-    console.log(`  📦 Đang xử lý deck: ${deckId} (${cards.length} cards)...`);
-    const deck = await prisma.deck.upsert({
-      where: { id: deckId },
-      update: {
-        name: `[Jisho] Từ vựng N${level} (${cards.length} từ)`,
-        description: `Toàn bộ từ vựng JLPT N${level} cào từ Jisho.org`,
-        isPublic: true,
-      },
-      create: {
-        id: deckId,
-        name: `[Jisho] Từ vựng N${level} (${cards.length} từ)`,
-        description: `Toàn bộ từ vựng JLPT N${level} cào từ Jisho.org`,
-        isPublic: true,
-        category: 'TUVUNG',
-        jlptLevel: level,
-        userId: admin.id,
-      },
-    });
-
-    for (let i = 0; i < cards.length; i++) {
-      const card = cards[i];
-      const cardId = `${deckId}-${i + 1}`;
-      await prisma.card.upsert({
-        where: { id: cardId },
-        update: {
-          front: card.front,
-          back: card.back,
-          romaji: card.romaji,
-          example: card.example,
-          jlptLevel: level,
-        },
-        create: {
-          id: cardId,
-          front: card.front,
-          back: card.back,
-          romaji: card.romaji,
-          example: card.example,
-          jlptLevel: level,
-          deckId: deck.id,
-        },
-      });
-    }
-    console.log(`  ✅ Hoàn tất import deck ${deckId}`);
-  }
-
-  // 3. Import Courses
+  // 2. Import Courses
   console.log('\n--- 3. Import danh sách khóa học (courses.json) ---');
   const coursesFilePath = path.join(DATA_DIR, 'courses.json');
   if (fs.existsSync(coursesFilePath)) {
@@ -211,28 +154,33 @@ async function main() {
           });
 
           // Upsert Cards
-          for (let i = 0; i < ld.deck.cards.length; i++) {
-            const card = ld.deck.cards[i];
-            const cardId = `${deckId}-${i + 1}`;
-            await prisma.card.upsert({
-              where: { id: cardId },
-              update: {
-                front: card.front,
-                back: card.back,
-                romaji: card.romaji,
-                example: card.example,
-                jlptLevel: card.jlptLevel,
-              },
-              create: {
-                id: cardId,
-                front: card.front,
-                back: card.back,
-                romaji: card.romaji,
-                example: card.example,
-                jlptLevel: card.jlptLevel,
-                deckId: deckId,
-              },
-            });
+          const existingCardsCount = await prisma.card.count({ where: { deckId } });
+          if (existingCardsCount === ld.deck.cards.length) {
+            // Đã có đủ cards, bỏ qua loop
+          } else {
+            for (let i = 0; i < ld.deck.cards.length; i++) {
+              const card = ld.deck.cards[i];
+              const cardId = `${deckId}-${i + 1}`;
+              await prisma.card.upsert({
+                where: { id: cardId },
+                update: {
+                  front: card.front,
+                  back: card.back,
+                  romaji: card.romaji,
+                  example: card.example,
+                  jlptLevel: card.jlptLevel,
+                },
+                create: {
+                  id: cardId,
+                  front: card.front,
+                  back: card.back,
+                  romaji: card.romaji,
+                  example: card.example,
+                  jlptLevel: card.jlptLevel,
+                  deckId: deckId,
+                },
+              });
+            }
           }
 
           // Connect Lesson ↔ Deck

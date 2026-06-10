@@ -88,8 +88,8 @@ export default function FlashcardStudy({ deck, onComplete }) {
                `absolute inset-0` — KHÔNG thêm `relative` (sẽ override absolute).
       ──────────────────────────────────────────────────────────────────────── */}
       <div
-        className="w-full cursor-pointer mb-8 min-h-[384px]"
-        style={{ height: 384, perspective: '1500px' }}
+        className="w-full cursor-pointer mb-8"
+        style={{ minHeight: 384, perspective: '1500px' }}
         onClick={handleFlip}
       >
         {/* Inner rotating element */}
@@ -135,7 +135,7 @@ export default function FlashcardStudy({ deck, onComplete }) {
               vì nó sẽ override `absolute` và phá vỡ 3D positioning.
           ── */}
           <div
-            className="absolute inset-0 flex flex-col items-center justify-center p-8 overflow-hidden"
+            className="absolute inset-0 flex flex-col items-center justify-center p-8 pt-12 pb-14 overflow-y-auto"
             style={{
               backfaceVisibility: 'hidden',
               WebkitBackfaceVisibility: 'hidden',
@@ -175,11 +175,12 @@ export default function FlashcardStudy({ deck, onComplete }) {
 
             {currentCard.example && (
               <div
-                className="relative z-10 p-4 w-full max-w-sm"
+                className="relative z-10 p-4 w-full max-w-sm max-h-[120px] overflow-y-auto"
                 style={{
                   background: 'rgba(255,255,255,0.12)',
                   border: '1px solid rgba(255,255,255,0.2)',
                 }}
+                onClick={(e) => e.stopPropagation()}
               >
                 <p
                   className="text-[10px] font-bold mb-1.5 tracking-wider uppercase"

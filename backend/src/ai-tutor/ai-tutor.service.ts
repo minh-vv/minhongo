@@ -1,6 +1,11 @@
 import { Injectable, BadRequestException, Logger } from '@nestjs/common';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { ExplainDto, EvaluateDto, ChatDto, GrammarExampleDto } from './dto/ai-tutor.dto';
+import {
+  ExplainDto,
+  EvaluateDto,
+  ChatDto,
+  GrammarExampleDto,
+} from './dto/ai-tutor.dto';
 import { withRetry } from '../common/utils/gemini-retry';
 
 @Injectable()

@@ -126,6 +126,74 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 1 — Ngữ pháp",
+          "description": "Ngữ pháp bài 1: Bài 1 — Tự giới thiệu (わたしは ◯◯ です)",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "N1 は N2 です",
+              "back": "Mẫu câu cơ bản: N1 は N2 です",
+              "romaji": "",
+              "example": "わたしは マイク です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Chủ ngữ は Bổ ngữ です",
+              "back": "Mẫu câu cơ bản: N1 は N2 です",
+              "romaji": "",
+              "example": "あの ひとは せんせい です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "です",
+              "back": "Mẫu câu cơ bản: N1 は N2 です",
+              "romaji": "",
+              "example": "わたしは マイク です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "じゃ ありません",
+              "back": "Câu phủ định: じゃ ありません",
+              "romaji": "",
+              "example": "わたしは がくせい じゃ ありません。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "では ありません",
+              "back": "Câu phủ định: じゃ ありません",
+              "romaji": "",
+              "example": "わたしは がくせい じゃ ありません。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜ですか",
+              "back": "Câu hỏi: 〜ですか",
+              "romaji": "",
+              "example": "あなたは マイクさん ですか。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜さん",
+              "back": "Hậu tố 〜さん",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "さん",
+              "back": "Hậu tố 〜さん",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -256,6 +324,60 @@
               "back": "\"Đúng vậy\"",
               "romaji": "sou desu",
               "example": "はい、そうです。",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 2 — Ngữ pháp",
+          "description": "Ngữ pháp bài 2: Bài 2 — これ・それ・あれ (Đồ vật xung quanh)",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "これ・それ・あれ・どれ",
+              "back": "これ・それ・あれ・どれ",
+              "romaji": "",
+              "example": "これは ほん です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "この・その・あの",
+              "back": "この・その・あの + N",
+              "romaji": "",
+              "example": "この ほんは わたしの です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N1 の N2",
+              "back": "Trợ từ の — \"của\"",
+              "romaji": "",
+              "example": "わたしの ほん",
+              "jlptLevel": 5
+            },
+            {
+              "front": "そうです",
+              "back": "そうです / そうじゃ ありません",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "そうじゃ ありません",
+              "back": "そうです / そうじゃ ありません",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜か、〜か",
+              "back": "〜か、〜か (Câu hỏi lựa chọn)",
+              "romaji": "",
+              "example": "",
               "jlptLevel": 5
             }
           ]
@@ -394,6 +516,46 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 3 — Ngữ pháp",
+          "description": "Ngữ pháp bài 3: Bài 3 — ここ・そこ・あそこ (Địa điểm)",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "ここ・そこ・あそこ・どこ",
+              "back": "ここ・そこ・あそこ・どこ",
+              "romaji": "",
+              "example": "ここは しょくどう です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "こちら・そちら・あちら・どちら",
+              "back": "こちら・そちら・あちら・どちら",
+              "romaji": "",
+              "example": "こちらは やまださんです。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N1 は N2 です",
+              "back": "Mẫu N1 は N2 です với địa điểm",
+              "romaji": "",
+              "example": "トイレは あそこ です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "いくら ですか",
+              "back": "Hỏi giá: いくら ですか",
+              "romaji": "",
+              "example": "これは いくら ですか。",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -528,6 +690,67 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 4 — Ngữ pháp",
+          "description": "Ngữ pháp bài 4: Bài 4 — Giờ giấc & Động từ thể ます",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "いま 何時 (なんじ) ですか",
+              "back": "Hỏi giờ: いま 何時 (なんじ) ですか",
+              "romaji": "",
+              "example": "いま 9じ です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N (giờ) に〜ます",
+              "back": "Mẫu N (giờ) に〜ます",
+              "romaji": "",
+              "example": "7じ に おきます。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜ます",
+              "back": "Thể 〜ます của động từ",
+              "romaji": "",
+              "example": "きょう べんきょうしません。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜ません",
+              "back": "Thể 〜ます của động từ",
+              "romaji": "",
+              "example": "きのう 7じに おきました。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜ました",
+              "back": "Thể 〜ます của động từ",
+              "romaji": "",
+              "example": "きのう やすみませんでした。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜から〜まで",
+              "back": "〜から〜まで",
+              "romaji": "",
+              "example": "9じ **から** 5じ **まで** はたらきます。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "ます",
+              "back": "Thứ trong tuần",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -658,6 +881,60 @@
               "back": "Tuần trước",
               "romaji": "senshuu",
               "example": "せんしゅう ともだちと いきました。",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 5 — Ngữ pháp",
+          "description": "Ngữ pháp bài 5: Bài 5 — Động từ di chuyển (いきます／きます／かえります)",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "〜へ いきます／きます／かえります",
+              "back": "〜へ いきます／きます／かえります",
+              "romaji": "",
+              "example": "きょう がっこう へ いきます。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜で〜へ いきます",
+              "back": "Phương tiện: 〜で〜へ いきます",
+              "romaji": "",
+              "example": "でんしゃ **で** とうきょう **へ** いきます。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜と〜へ〜",
+              "back": "Cùng với ai: 〜と〜へ〜",
+              "romaji": "",
+              "example": "ともだち と デパートへ いきます。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "ひとりで",
+              "back": "Cùng với ai: 〜と〜へ〜",
+              "romaji": "",
+              "example": "ひとり で いきます。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "どこ へ いきますか",
+              "back": "Hỏi địa điểm: どこ へ いきますか",
+              "romaji": "",
+              "example": "どこ(へ) も いきませんでした。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "どこも",
+              "back": "Hỏi địa điểm: どこ へ いきますか",
+              "romaji": "",
+              "example": "どこ(へ) も いきませんでした。",
               "jlptLevel": 5
             }
           ]
@@ -922,6 +1199,53 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 6 — Ngữ pháp",
+          "description": "Ngữ pháp bài 6: Bài 6 — Động từ nhóm 1 thể ます (Ăn, Uống, Nghe...)",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "N を V ます",
+              "back": "Cấu trúc câu với Tân ngữ: N を V ます",
+              "romaji": "",
+              "example": "**Cấu trúc:** Chủ ngữ は [Danh từ/Tân ngữ] を [Động từ] ます。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Chủ ngữ は [Danh từ/Tân ngữ] を [Động từ] ます。",
+              "back": "Cấu trúc câu với Tân ngữ: N を V ます",
+              "romaji": "",
+              "example": "わたしは たばこを すいます。(Tôi hút thuốc lá.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "ます",
+              "back": "Động từ nhóm 1 thể ます",
+              "romaji": "",
+              "example": "- 書きます (kakimasu): Viết",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N(thời gian) から N(thời gian) まで",
+              "back": "Thời gian thực hiện: N から N まで",
+              "romaji": "",
+              "example": "9時から 5時まで 仕事を します。(Tôi làm việc từ 9 giờ đến 5 giờ.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "から",
+              "back": "Thời gian thực hiện: N から N まで",
+              "romaji": "",
+              "example": "Sử dụng thành thạo trợ từ を để chỉ đối tượng của hành động.",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -1178,6 +1502,60 @@
               "back": "làng",
               "romaji": "むら",
               "example": "村（むら）",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 7 — Ngữ pháp",
+          "description": "Ngữ pháp bài 7: Bài 7 — Địa điểm + Động từ di chuyển nâng cao",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "N(địa điểm) へ [Động từ di chuyển]",
+              "back": "Trợ từ chỉ nơi đến: N へ [Động từ di chuyển]",
+              "romaji": "",
+              "example": "わたしは **こうえんへ** いきます。(Tôi đi đến công viên.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "いきます",
+              "back": "Trợ từ chỉ nơi đến: N へ [Động từ di chuyển]",
+              "romaji": "",
+              "example": "わたしは **こうえんへ** いきます。(Tôi đi đến công viên.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N(phương tiện) で [Động từ di chuyển]",
+              "back": "Trợ từ chỉ phương tiện: N で [Động từ di chuyển]",
+              "romaji": "",
+              "example": "**ちかてつで** いきます。(Tôi đi bằng tàu điện ngầm.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "ちかてつで",
+              "back": "Trợ từ chỉ phương tiện: N で [Động từ di chuyển]",
+              "romaji": "",
+              "example": "**ちかてつで** いきます。(Tôi đi bằng tàu điện ngầm.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N(người) と [Động từ]",
+              "back": "Trợ từ chỉ đối tượng đồng hành: N と [Động từ]",
+              "romaji": "",
+              "example": "**かぞくと** にほんへ きました。(Tôi đã đến Nhật cùng với gia đình.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "ひとりで",
+              "back": "Trợ từ chỉ đối tượng đồng hành: N と [Động từ]",
+              "romaji": "",
+              "example": "**ひとりで** やまへ いきます。(Tôi đi lên núi một mình.)",
               "jlptLevel": 5
             }
           ]
@@ -1442,6 +1820,46 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 8 — Ngữ pháp",
+          "description": "Ngữ pháp bài 8: Bài 8 — Tính từ đuôi い và な",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "Tính từ đuôi い:",
+              "back": "Cấu trúc câu khẳng định",
+              "romaji": "",
+              "example": "**Tính từ đuôi い:** [N] は [Tính từ い] です。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "はし",
+              "back": "Cấu trúc câu khẳng định",
+              "romaji": "",
+              "example": "Ví dụ: この**はし**は **ふるい**です。(Cây cầu này cũ.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "くない",
+              "back": "Câu phủ định",
+              "romaji": "",
+              "example": "Ví dụ: この**にく**は **おいしくない**です。(Thịt này không ngon.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "かった",
+              "back": "Câu quá khứ",
+              "romaji": "",
+              "example": "**Tính từ đuôi な:** Bỏ **な** + **でした**。 (Phủ định quá khứ: Bỏ **な** + **じゃありませんでした**。)",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -1698,6 +2116,60 @@
               "back": "chữ Hán",
               "romaji": "かんじ",
               "example": "漢字（かんじ）",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 9 — Ngữ pháp",
+          "description": "Ngữ pháp bài 9: Bài 9 — Danh từ + があります/います",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "N が あります",
+              "back": "Sự tồn tại của vật: N が あります",
+              "romaji": "",
+              "example": "**Cấu trúc:** N (vật) が あります。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N (vật) が あります。",
+              "back": "Sự tồn tại của vật: N が あります",
+              "romaji": "",
+              "example": "- 冷蔵庫に 野菜が あります。 (Trong tủ lạnh có rau.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N が います",
+              "back": "Sự tồn tại của người/động vật: N が います",
+              "romaji": "",
+              "example": "**Cấu trúc:** N (người/đv) が います。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N (người/đv) が います。",
+              "back": "Sự tồn tại của người/động vật: N が います",
+              "romaji": "",
+              "example": "- 教室に 学生が います。 (Trong lớp học có học sinh.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N (địa điểm) に N (vật/người) が あります/います",
+              "back": "Vị trí tồn tại: N  に N  が あります/います",
+              "romaji": "",
+              "example": "**Cấu trúc:** [Địa điểm] に [Vật/Người] が あります/います。",
+              "jlptLevel": 5
+            },
+            {
+              "front": "[Địa điểm] に [Vật/Người] が あります/います。",
+              "back": "Vị trí tồn tại: N  に N  が あります/います",
+              "romaji": "",
+              "example": "**Lưu ý:** Nếu muốn hỏi \"Có cái gì/ai ở đâu?\", ta dùng nghi vấn từ なに (cái gì) hoặc だれ (ai).",
               "jlptLevel": 5
             }
           ]
@@ -1962,6 +2434,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 10 — Ngữ pháp",
+          "description": "Ngữ pháp bài 10: Bài 10 — Đếm đồ vật và con người",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "[Danh từ] が [Số lượng] [Hậu tố] あります",
+              "back": "Cấu trúc đếm đồ vật: [Danh từ] が [Số lượng] [Hậu tố] あります",
+              "romaji": "",
+              "example": "枚 (mai): Đếm đồ vật mỏng (giấy, áo sơ mi, đĩa, ảnh).",
+              "jlptLevel": 5
+            },
+            {
+              "front": "一つ, 二つ...",
+              "back": "Cấu trúc đếm đồ vật: [Danh từ] が [Số lượng] [Hậu tố] あります",
+              "romaji": "",
+              "example": "本 (hon): Đếm đồ vật dài (bút, chai, ô, cà vạt).",
+              "jlptLevel": 5
+            },
+            {
+              "front": "いくつ",
+              "back": "Câu hỏi số lượng: いくつ và なん[Hậu tố]",
+              "romaji": "",
+              "example": "**いくつ**: Dùng để hỏi số lượng đồ vật chung (không xác định hình dáng).",
+              "jlptLevel": 5
+            },
+            {
+              "front": "なん[Hậu tố]",
+              "back": "Câu hỏi số lượng: いくつ và なん[Hậu tố]",
+              "romaji": "",
+              "example": "**なん[Hậu tố]**: Dùng để hỏi cụ thể số lượng của loại đồ vật đó.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "[Số người] います",
+              "back": "Cách đếm người: [Số người] います",
+              "romaji": "",
+              "example": "Đặc biệt: 1 người (一人 - hitori), 2 người (二人 - futari), từ 3 người trở lên là [Số] + にん.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "[Số] + にん",
+              "back": "Cách đếm người: [Số người] います",
+              "romaji": "",
+              "example": "Để hỏi số lượng người: なんにん (bao nhiêu người).",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -2218,6 +2744,60 @@
               "back": "phía sau, đằng sau",
               "romaji": "うしろ",
               "example": "後ろ（うしろ）",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 11 — Ngữ pháp",
+          "description": "Ngữ pháp bài 11: Bài 11 — Muốn làm gì: ～たい",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "V-ます bỏ ます + たい です",
+              "back": "Diễn đạt mong muốn: V-ます bỏ ます + たい です",
+              "romaji": "",
+              "example": "- わたしは おみずを **のみたいです**。 (Tôi muốn uống nước.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "のみたいです",
+              "back": "Diễn đạt mong muốn: V-ます bỏ ます + たい です",
+              "romaji": "",
+              "example": "わたしは くるまを **かいたいです**。 (Tôi muốn mua xe hơi.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-たい → V-たくない です",
+              "back": "Dạng phủ định: V-たい → V-たくない です",
+              "romaji": "",
+              "example": "- わたしは いま、なにも **たべたくないです**。 (Bây giờ tôi không muốn ăn gì cả.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "たい",
+              "back": "Dạng phủ định: V-たい → V-たくない です",
+              "romaji": "",
+              "example": "- わたしは いま、なにも **たべたくないです**。 (Bây giờ tôi không muốn ăn gì cả.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜たいですか",
+              "back": "Câu hỏi về mong muốn: 〜たいですか",
+              "romaji": "",
+              "example": "- A: なにを **したいですか**。 (Bạn muốn làm gì?)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "したいですか",
+              "back": "Câu hỏi về mong muốn: 〜たいですか",
+              "romaji": "",
+              "example": "B: にほんへ **いきたいです**。 (Tôi muốn đi Nhật.)",
               "jlptLevel": 5
             }
           ]
@@ -2482,6 +3062,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 12 — Ngữ pháp",
+          "description": "Ngữ pháp bài 12: Bài 12 — Lời mời và đề nghị: ～ませんか / ましょう",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "V-ませんか (V-masen ka)",
+              "back": "Mẫu câu mời: V-ませんか",
+              "romaji": "",
+              "example": "**Cấu trúc:** [Địa điểm] へ いきませんか。 (Bạn có đi [địa điểm] không?)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "[Địa điểm] へ いきませんか。",
+              "back": "Mẫu câu mời: V-ませんか",
+              "romaji": "",
+              "example": "えきへ いきませんか。 (Bạn có muốn đi đến nhà ga không?)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-ましょう (V-mashou)",
+              "back": "Mẫu câu đề nghị/rủ rê: V-ましょう",
+              "romaji": "",
+              "example": "**Cấu trúc:** ～ましょう。 (Chúng ta cùng làm... nhé.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "～ましょう。",
+              "back": "Mẫu câu đề nghị/rủ rê: V-ましょう",
+              "romaji": "",
+              "example": "えきへ いきましょう。 (Chúng ta cùng đi đến nhà ga nhé.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "すみません",
+              "back": "Cách từ chối lịch sự",
+              "romaji": "",
+              "example": "すみません、少し... (Xin lỗi, hơi khó một chút...)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "少し...",
+              "back": "Cách từ chối lịch sự",
+              "romaji": "",
+              "example": "すみません、少し... (Xin lỗi, hơi khó một chút...)",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -2738,6 +3372,39 @@
               "back": "nhỏ, bé",
               "romaji": "ちいさい",
               "example": "小さい（ちいさい）",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 13 — Ngữ pháp",
+          "description": "Ngữ pháp bài 13: Bài 13 — Trợ từ で (phương tiện/nơi chốn) nâng cao",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "Danh từ (phương tiện/công cụ) + で + Động từ",
+              "back": "Trợ từ で",
+              "romaji": "",
+              "example": "**Cấu trúc:** Danh từ (phương tiện/công cụ) + で + Động từ",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Danh từ (nguyên liệu) + で + 作ります/書きます...",
+              "back": "Trợ từ で",
+              "romaji": "",
+              "example": "**Cấu trúc:** Danh từ (nguyên liệu) + で + 作ります/書きます...",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Danh từ (người/động vật) + と + Động từ",
+              "back": "Trợ từ と",
+              "romaji": "",
+              "example": "**Cấu trúc:** Danh từ (người/động vật) + と + Động từ",
               "jlptLevel": 5
             }
           ]
@@ -3002,6 +3669,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 14 — Ngữ pháp",
+          "description": "Ngữ pháp bài 14: Bài 14 — Cho và nhận: あげます/もらいます/くれます",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "N を あげます",
+              "back": "N を あげます",
+              "romaji": "",
+              "example": "**Cấu trúc:** Chủ ngữ は Người nhận に N を あげます",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Chủ ngữ は Người nhận に N を あげます",
+              "back": "N を あげます",
+              "romaji": "",
+              "example": "わたしは 弟に 魚を あげました。(Tôi đã cho em trai con cá.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N を もらいます",
+              "back": "N を もらいます",
+              "romaji": "",
+              "example": "**Cấu trúc:** Chủ ngữ は Người cho に/から N を もらいます",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Chủ ngữ は Người cho に/から N を もらいます",
+              "back": "N を もらいます",
+              "romaji": "",
+              "example": "わたしは お母さんに 本を もらいました。(Tôi đã nhận cuốn sách từ mẹ.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N を くれます",
+              "back": "N を くれます",
+              "romaji": "",
+              "example": "**Cấu trúc:** Người cho は わたし(たち) に N を くれます",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Người cho は わたし(たち) に N を くれます",
+              "back": "N を くれます",
+              "romaji": "",
+              "example": "警官が わたしに 道を 教えてくれました。(Cảnh sát đã chỉ đường cho tôi.)",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -3258,6 +3979,60 @@
               "back": "đẩy",
               "romaji": "おす",
               "example": "押す（おす）",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 15 — Ngữ pháp",
+          "description": "Ngữ pháp bài 15: Bài 15 — Thể て (1): Nối câu và yêu cầu",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "い, ち, り",
+              "back": "Cách chia động từ thể て",
+              "romaji": "",
+              "example": "Kết thúc bằng い, ち, り",
+              "jlptLevel": 5
+            },
+            {
+              "front": "って",
+              "back": "Cách chia động từ thể て",
+              "romaji": "",
+              "example": "Kết thúc bằng み, び, に",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜てください",
+              "back": "Mẫu câu yêu cầu: 〜てください",
+              "romaji": "",
+              "example": "**Cấu trúc:** Động từ (thể て) + ください",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Động từ (thể て) + ください",
+              "back": "Mẫu câu yêu cầu: 〜てください",
+              "romaji": "",
+              "example": "荷物を返してください。 (Hãy trả lại hành lý cho tôi.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "〜ています",
+              "back": "Mẫu câu diễn tả hành động đang xảy ra: 〜ています",
+              "romaji": "",
+              "example": "**Cấu trúc:** Động từ (thể て) + います",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Động từ (thể て) + います",
+              "back": "Mẫu câu diễn tả hành động đang xảy ra: 〜ています",
+              "romaji": "",
+              "example": "私は今、手紙を書いています。 (Bây giờ tôi đang viết thư.)",
               "jlptLevel": 5
             }
           ]
@@ -3522,6 +4297,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 16 — Ngữ pháp",
+          "description": "Ngữ pháp bài 16: Bài 16 — Thể て (2): ～ています trạng thái",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "V-ています",
+              "back": "Trạng thái kết quả của hành động",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "N が [V-て] います",
+              "back": "Trạng thái kết quả của hành động",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "食べる, 書く, 読む...",
+              "back": "Phân biệt Trạng thái kết quả vs. Tiếp diễn",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "結婚する, 知る, 住む, 持つ...",
+              "back": "Phân biệt Trạng thái kết quả vs. Tiếp diễn",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-ていません",
+              "back": "Phủ định của thể trạng thái",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "知りません",
+              "back": "Phủ định của thể trạng thái",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -3778,6 +4607,53 @@
               "back": "đặt",
               "romaji": "おく",
               "example": "置く（おく）",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 17 — Ngữ pháp",
+          "description": "Ngữ pháp bài 17: Bài 17 — Thể た (Quá khứ tự nhiên) và ～たことがあります",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "い/ち/り",
+              "back": "Cách chia động từ sang thể た",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "った",
+              "back": "Cách chia động từ sang thể た",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-た ことがあります",
+              "back": "Mẫu câu trải nghiệm: V-た ことがあります",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Động từ (thể た) + ことがあります",
+              "back": "Mẫu câu trải nghiệm: V-た ことがあります",
+              "romaji": "",
+              "example": "",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V1-た り、V2-た り します",
+              "back": "Mẫu câu liệt kê hành động: V1-た り、V2-た り します",
+              "romaji": "",
+              "example": "",
               "jlptLevel": 5
             }
           ]
@@ -4042,6 +4918,46 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 18 — Ngữ pháp",
+          "description": "Ngữ pháp bài 18: Bài 18 — Thể た: ～たり～たりします",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "V1-たり, V2-たり します",
+              "back": "Mẫu câu liệt kê: V1-たり, V2-たり します",
+              "romaji": "",
+              "example": "**Cấu trúc:** Động từ thể た + り, Động từ thể た + り します",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Động từ thể た + り, Động từ thể た + り します",
+              "back": "Mẫu câu liệt kê: V1-たり, V2-たり します",
+              "romaji": "",
+              "example": "**Lưu ý:** Thì của câu được quyết định bởi đuôi します (hiện tại/tương lai) hoặc しました (quá khứ).",
+              "jlptLevel": 5
+            },
+            {
+              "front": "何処（どこ）",
+              "back": "Mẫu câu hỏi địa điểm: 何処（どこ）",
+              "romaji": "",
+              "example": "- どこに 住んでいますか。*(Bạn đang sống ở đâu?)*",
+              "jlptLevel": 5
+            },
+            {
+              "front": "どこ",
+              "back": "Mẫu câu hỏi địa điểm: 何処（どこ）",
+              "romaji": "",
+              "example": "- どこに 住んでいますか。*(Bạn đang sống ở đâu?)*",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -4298,6 +5214,60 @@
               "back": "lạnh (khi chạm vào)",
               "romaji": "つめたい",
               "example": "冷たい（つめたい）",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 19 — Ngữ pháp",
+          "description": "Ngữ pháp bài 19: Bài 19 — Thể ない: Phủ định dạng tự nhiên",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "ない",
+              "back": "Cách chia động từ thể ない",
+              "romaji": "",
+              "example": "**Nhóm 1:** Chuyển đuôi u sang a rồi thêm ない.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "かします",
+              "back": "Cách chia động từ thể ない",
+              "romaji": "",
+              "example": "**Nhóm 2:** Bỏ ます thêm ない.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Vなければなりません",
+              "back": "Mẫu câu: Vなければなりません",
+              "romaji": "",
+              "example": "**Cấu trúc:** V-ない (bỏ ない) + なければなりません",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-ない (bỏ ない) + なければなりません",
+              "back": "Mẫu câu: Vなければなりません",
+              "romaji": "",
+              "example": "*Ví dụ:* くすりを のまなければなりません。 (Tôi phải uống thuốc.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Vなくてもいいです",
+              "back": "Mẫu câu: Vなくてもいいです",
+              "romaji": "",
+              "example": "**Cấu trúc:** V-ない (bỏ ない) + くてもいいです",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-ない (bỏ ない) + くてもいいです",
+              "back": "Mẫu câu: Vなくてもいいです",
+              "romaji": "",
+              "example": "*Ví dụ:* あしたは べんきょうしなくてもいいです。 (Ngày mai bạn không cần phải học cũng được.)",
               "jlptLevel": 5
             }
           ]
@@ -4562,6 +5532,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 20 — Ngữ pháp",
+          "description": "Ngữ pháp bài 20: Bài 20 — Thể từ điển: Khả năng và cho phép",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "V-dạng từ điển + ことができます",
+              "back": "Diễn tả khả năng: V-dạng từ điển + ことができます",
+              "romaji": "",
+              "example": "**Cấu trúc:** [Danh từ / V-từ điển] ことができます",
+              "jlptLevel": 5
+            },
+            {
+              "front": "[Danh từ / V-từ điển] ことができます",
+              "back": "Diễn tả khả năng: V-dạng từ điển + ことができます",
+              "romaji": "",
+              "example": "- わたしは 日本語を **話す ことができます**。 (Tôi có thể nói tiếng Nhật.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-te + もいいです",
+              "back": "Xin phép và cho phép: V-te + もいいです",
+              "romaji": "",
+              "example": "**Hỏi xin phép:** V-te もいいですか。 (Tôi làm... có được không?)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-te もいいですか。",
+              "back": "Xin phép và cho phép: V-te + もいいです",
+              "romaji": "",
+              "example": "**Cho phép:** V-te もいいです。 (Bạn làm... cũng được.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-te + は いけません",
+              "back": "Cấm đoán: V-te + は いけません",
+              "romaji": "",
+              "example": "- ここで くつを **脱いでは いけません**。 (Không được cởi giày ở đây.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "脱いでは いけません",
+              "back": "Cấm đoán: V-te + は いけません",
+              "romaji": "",
+              "example": "- ここで くつを **脱いでは いけません**。 (Không được cởi giày ở đây.)",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -4818,6 +5842,53 @@
               "back": "lớp học",
               "romaji": "クラス",
               "example": "クラス",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 21 — Ngữ pháp",
+          "description": "Ngữ pháp bài 21: Bài 21 — Danh từ hóa: ～こと và ～の",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "～こと",
+              "back": "Danh từ hóa bằng ～こと",
+              "romaji": "",
+              "example": "私の趣味は **お菓子を作ること** です。 (Sở thích của tôi là làm bánh kẹo.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "[V-る] こと",
+              "back": "Danh từ hóa bằng ～こと",
+              "romaji": "",
+              "example": "私の趣味は **お菓子を作ること** です。 (Sở thích của tôi là làm bánh kẹo.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "～の",
+              "back": "Sự khác biệt giữa ～こと và ～の",
+              "romaji": "",
+              "example": "私は彼が日本へ行く **こと** を知っています。 (Tôi biết việc anh ấy đi Nhật.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "～は ～です",
+              "back": "Mẫu câu: ～は ～です",
+              "romaji": "",
+              "example": "私の仕事は **夕飯を作ること** です。 (Công việc của tôi là nấu bữa tối.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "[V-る] こと / N は [N] です",
+              "back": "Mẫu câu: ～は ～です",
+              "romaji": "",
+              "example": "私の仕事は **夕飯を作ること** です。 (Công việc của tôi là nấu bữa tối.)",
               "jlptLevel": 5
             }
           ]
@@ -5082,6 +6153,46 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 22 — Ngữ pháp",
+          "description": "Ngữ pháp bài 22: Bài 22 — Điều kiện: ～とき và ～まえに/あとで",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "Vる / Vた + とき",
+              "back": "Diễn đạt thời điểm: Vる / Vた + とき",
+              "romaji": "",
+              "example": "**Vる + とき**: Khi làm gì đó (hành động chưa xảy ra hoặc đang diễn ra tại thời điểm đó).",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Vる + とき",
+              "back": "Diễn đạt thời điểm: Vる / Vた + とき",
+              "romaji": "",
+              "example": "**Vた + とき**: Khi đã làm xong gì đó.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Vる + まえに",
+              "back": "Hành động trước/sau: Vる + まえに và Vた + あとで",
+              "romaji": "",
+              "example": "**Vる + まえに**: Trước khi làm gì đó. (Lưu ý: Luôn dùng thể từ điển Vる).",
+              "jlptLevel": 5
+            },
+            {
+              "front": "Vた + あとで",
+              "back": "Hành động trước/sau: Vる + まえに và Vた + あとで",
+              "romaji": "",
+              "example": "**Vた + あとで**: Sau khi làm gì đó. (Lưu ý: Luôn dùng thể quá khứ Vた).",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -5331,6 +6442,46 @@
               "back": "cô, dì",
               "romaji": "おばさん",
               "example": "伯母さん（おばさん）",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 23 — Ngữ pháp",
+          "description": "Ngữ pháp bài 23: Bài 23 — Thể bình thường trong hội thoại",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "です",
+              "back": "Khái niệm về thể bình thường",
+              "romaji": "",
+              "example": "Lịch sự: 今日は暑いですね。 (Hôm nay trời nóng nhỉ.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "じゃありません",
+              "back": "Khái niệm về thể bình thường",
+              "romaji": "",
+              "example": "Bình thường: 今日は暑いね。 (Hôm nay nóng nhỉ.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "行きます",
+              "back": "Cách chia động từ sang thể từ điển",
+              "romaji": "",
+              "example": "Nhóm I: Chuyển đuôi u thành u (cột u). Ví dụ: 行きます",
+              "jlptLevel": 5
+            },
+            {
+              "front": "行く",
+              "back": "Cách chia động từ sang thể từ điển",
+              "romaji": "",
+              "example": "Nhóm II: Bỏ ます thêm る. Ví dụ: 食べます",
               "jlptLevel": 5
             }
           ]
@@ -5588,6 +6739,46 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 24 — Ngữ pháp",
+          "description": "Ngữ pháp bài 24: Bài 24 — Điều kiện: ～と、～ば、～たら",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "V từ điển + と",
+              "back": "Mẫu câu: V từ điển + と",
+              "romaji": "",
+              "example": "ここを まっすぐ 行く**と**、入り口が あります。 (Nếu đi thẳng chỗ này, sẽ thấy lối vào.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V (thể ば) / Adj-i (bỏ i -> ければ) + ば",
+              "back": "Mẫu câu: V  / Adj-i  + ば",
+              "romaji": "",
+              "example": "お金が あれば、旅行に 行きます。 (Nếu có tiền, tôi sẽ đi du lịch.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "V-ta / V-nai + ら",
+              "back": "Mẫu câu: V-ta / V-nai + ら",
+              "romaji": "",
+              "example": "お金が あったら、新しい お皿を 買います。 (Nếu có tiền, tôi sẽ mua đĩa mới.)",
+              "jlptLevel": 5
+            },
+            {
+              "front": "～と",
+              "back": "Mẫu câu: V-ta / V-nai + ら",
+              "romaji": "",
+              "example": "Phân biệt và sử dụng thành thạo 3 cấu trúc điều kiện ～と, ～ば, ～たら.",
+              "jlptLevel": 5
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -5838,6 +7029,53 @@
               "back": "polyethylene terephthalate, nhựa PET",
               "romaji": "ペット",
               "example": "ＰＥＴ（ペット）",
+              "jlptLevel": 5
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N5 — Bài 25 — Ngữ pháp",
+          "description": "Ngữ pháp bài 25: Bài 25 — Ôn tập tổng kết N5",
+          "category": "NGUPHAP",
+          "jlptLevel": 5,
+          "cards": [
+            {
+              "front": "あります",
+              "back": "Hệ thống Trợ từ",
+              "romaji": "",
+              "example": "**は (wa):** Đánh dấu chủ đề câu.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "います",
+              "back": "Hệ thống Trợ từ",
+              "romaji": "",
+              "example": "**が (ga):** Đánh dấu chủ ngữ hoặc đối tượng của tính từ/động từ chỉ trạng thái (như あります, います).",
+              "jlptLevel": 5
+            },
+            {
+              "front": "テーブルの上にカレンダーがあります。",
+              "back": "Sự khác biệt giữa あります và います",
+              "romaji": "",
+              "example": "**あります (arimasu):** Dùng cho vật vô tri, cây cối.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "あちらに田中さんがいます。",
+              "back": "Sự khác biệt giữa あります và います",
+              "romaji": "",
+              "example": "**います (imasu):** Dùng cho người và động vật.",
+              "jlptLevel": 5
+            },
+            {
+              "front": "このスープは少しぬるいです。",
+              "back": "Chia động từ và Tính từ",
+              "romaji": "",
+              "example": "",
               "jlptLevel": 5
             }
           ]

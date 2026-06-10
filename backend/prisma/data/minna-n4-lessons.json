@@ -189,6 +189,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 1 — Ngữ pháp",
+          "description": "Ngữ pháp bài 1: Bài 26 — Từ vựng JLPT N4 (Phần 1)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "〜て",
+              "back": "Cách dùng động từ thể 〜て kết hợp với あげる",
+              "romaji": "",
+              "example": "手（て）を 上（あ）げてください。 (Hãy giơ tay lên.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "あげる",
+              "back": "Cách dùng động từ thể 〜て kết hợp với あげる",
+              "romaji": "",
+              "example": "Lưu ý: 上げる (ageru) trong ngữ cảnh này mang nghĩa vật lý là đưa lên cao.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "[N] で",
+              "back": "Sử dụng trợ từ で chỉ phạm vi hoặc phương tiện",
+              "romaji": "",
+              "example": "動物園（どうぶつえん）で 写真（しゃしん）を 撮（と）ります。 (Tôi chụp ảnh ở vườn bách thú.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "動物園（どうぶつえん）で 写真（しゃしん）を 撮（と）ります。",
+              "back": "Sử dụng trợ từ で chỉ phạm vi hoặc phương tiện",
+              "romaji": "",
+              "example": "動物園（どうぶつえん）で 写真（しゃしん）を 撮（と）ります。 (Tôi chụp ảnh ở vườn bách thú.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "息子（むすこ）の 生活（せいかつ）",
+              "back": "Diễn tả ý sở hữu với の",
+              "romaji": "",
+              "example": "息子（むすこ）の 生活（せいかつ） (Cuộc sống của con trai tôi.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "上げる",
+              "back": "Diễn tả ý sở hữu với の",
+              "romaji": "",
+              "example": "息子（むすこ）の 生活（せいかつ） (Cuộc sống của con trai tôi.)",
+              "jlptLevel": 4
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -386,6 +440,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 2 — Ngữ pháp",
+          "description": "Ngữ pháp bài 2: Bài 27 — Từ vựng JLPT N4 (Phần 2)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "られる",
+              "back": "Thể khả năng",
+              "romaji": "",
+              "example": "**Nhóm 1:** Chuyển đuôi hàng u sang hàng e rồi thêm ru. (Ví dụ: 書く kak-u",
+              "jlptLevel": 4
+            },
+            {
+              "front": "れる",
+              "back": "Thể khả năng",
+              "romaji": "",
+              "example": "**Nhóm 2:** Bỏ ru thêm られる (hoặc rút gọn là れる). (Ví dụ: 見る mi-ru",
+              "jlptLevel": 4
+            },
+            {
+              "front": "見える / 聞こえる",
+              "back": "Phân biệt 見える / 聞こえる và 見られる / 聞ける",
+              "romaji": "",
+              "example": "**見える (Mieru) / 聞こえる (Kikoeru):** Khả năng tự nhiên, âm thanh hay hình ảnh tự lọt vào tai/mắt mà không cần nỗ lực hay chủ ý của người nói.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "見られる / 聞ける",
+              "back": "Phân biệt 見える / 聞こえる và 見られる / 聞ける",
+              "romaji": "",
+              "example": "**見られる (Mirare-ru) / 聞ける (Kike-ru):** Có thể xem, có thể nghe khi có cơ hội, điều kiện hoặc theo ý chí chủ quan.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "N しか + V Phủ định",
+              "back": "Cấu trúc giới hạn: N しか + V Phủ định",
+              "romaji": "",
+              "example": "Mang ý nghĩa \"chỉ...\", tương tự như だけ nhưng đi kèm với động từ ở dạng phủ định để nhấn mạnh sự ít ỏi, duy nhất.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "N しか 〜 ない",
+              "back": "Cấu trúc giới hạn: N しか + V Phủ định",
+              "romaji": "",
+              "example": "**会議**室には**赤ちゃん**しかいません。",
+              "jlptLevel": 4
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -572,6 +680,60 @@
               "back": "đồ chơi",
               "romaji": "おもちゃ",
               "example": "玩具（おもちゃ）",
+              "jlptLevel": 4
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 3 — Ngữ pháp",
+          "description": "Ngữ pháp bài 3: Bài 28 — Từ vựng JLPT N4 (Phần 3)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "N1 の N2",
+              "back": "Cấu trúc sở hữu và thuộc tính: N1 の N2",
+              "romaji": "",
+              "example": "歴史の本 (Rekishi no hon - Sách lịch sử); 経済の勉強 (Keizai no benkyou - Học về kinh tế).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "歴史の本",
+              "back": "Cấu trúc sở hữu và thuộc tính: N1 の N2",
+              "romaji": "",
+              "example": "歴史の本 (Rekishi no hon - Sách lịch sử); 経済の勉強 (Keizai no benkyou - Học về kinh tế).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "Vたほうが いいです",
+              "back": "Cách dùng \"Nên làm gì\": Vたほうが いいです",
+              "romaji": "",
+              "example": "台風が来るから、うちへ帰ったほうがいいです。 (Vì bão sắp tới, nên về nhà thì tốt hơn).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "台風が来るから、うちへ帰ったほうがいいです。",
+              "back": "Cách dùng \"Nên làm gì\": Vたほうが いいです",
+              "romaji": "",
+              "example": "台風が来るから、うちへ帰ったほうがいいです。 (Vì bão sắp tới, nên về nhà thì tốt hơn).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "〜から",
+              "back": "Cách diễn đạt \"Vì... nên\": 〜から",
+              "romaji": "",
+              "example": "残念ですが、今日は教会へ行けません。 (Thật đáng tiếc nhưng hôm nay tôi không thể đến nhà thờ được).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "残念ですが、今日は教会へ行けません。",
+              "back": "Cách diễn đạt \"Vì... nên\": 〜から",
+              "romaji": "",
+              "example": "残念ですが、今日は教会へ行けません。 (Thật đáng tiếc nhưng hôm nay tôi không thể đến nhà thờ được).",
               "jlptLevel": 4
             }
           ]
@@ -766,6 +928,46 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 4 — Ngữ pháp",
+          "description": "Ngữ pháp bài 4: Bài 29 — Từ vựng JLPT N4 (Phần 4)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "Danh từ 1 (loại hình) + の + Danh từ 2 (đối tượng)",
+              "back": "Cấu trúc danh từ hóa với の",
+              "romaji": "",
+              "example": "**Cấu trúc:** Danh từ 1 (loại hình) + の + Danh từ 2 (đối tượng)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "Địa điểm/Vật A + の + Bộ phận B",
+              "back": "Cách diễn đạt sở hữu hoặc vị trí với の",
+              "romaji": "",
+              "example": "**Cấu trúc:** Địa điểm/Vật A + の + Bộ phận B",
+              "jlptLevel": 4
+            },
+            {
+              "front": "入学する",
+              "back": "Cách dùng trợ từ に chỉ mục đích nhập học/tham gia",
+              "romaji": "",
+              "example": "**Cấu trúc:** Địa điểm + に + 入学します",
+              "jlptLevel": 4
+            },
+            {
+              "front": "Địa điểm + に + 入学します",
+              "back": "Cách dùng trợ từ に chỉ mục đích nhập học/tham gia",
+              "romaji": "",
+              "example": "- 大学に入学します (Daigaku ni nyūgaku shimasu): Nhập học đại học.",
+              "jlptLevel": 4
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -952,6 +1154,60 @@
               "back": "từ điển",
               "romaji": "じてん",
               "example": "辞典（じてん）",
+              "jlptLevel": 4
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 5 — Ngữ pháp",
+          "description": "Ngữ pháp bài 5: Bài 30 — Từ vựng JLPT N4 (Phần 5)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "へ / に",
+              "back": "Trợ từ chỉ phương hướng và mục đích: へ / に",
+              "romaji": "",
+              "example": "**へ (e):** Dùng với các động từ di chuyển (行きます - đi, 来ます - đến, 帰ります - về) để chỉ phương hướng.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "Danh từ (chỉ hành động) + に + 行きます/来ます",
+              "back": "Trợ từ chỉ phương hướng và mục đích: へ / に",
+              "romaji": "",
+              "example": "**に (ni):** Dùng để chỉ mục đích của hành động di chuyển.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "場所",
+              "back": "Sự khác biệt giữa 場所  và 乗り物",
+              "romaji": "",
+              "example": "**駐車場**に車を止めます。(Tôi đỗ xe ở bãi đỗ xe.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "乗り物",
+              "back": "Sự khác biệt giữa 場所  và 乗り物",
+              "romaji": "",
+              "example": "**布団**を部屋に敷きます。(Tôi trải nệm futon trong phòng.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "先輩 (Senpai):",
+              "back": "Cách diễn đạt \"Tiền bối\" và \"Phương Tây\"",
+              "romaji": "",
+              "example": "**先輩 (Senpai):** Người đi trước trong công ty hoặc trường học.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "西洋 (Seiyou):",
+              "back": "Cách diễn đạt \"Tiền bối\" và \"Phương Tây\"",
+              "romaji": "",
+              "example": "**西洋 (Seiyou):** Phương Tây. Thường dùng khi so sánh văn hóa hoặc phong cách sống.",
               "jlptLevel": 4
             }
           ]
@@ -1146,6 +1402,53 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 6 — Ngữ pháp",
+          "description": "Ngữ pháp bài 6: Bài 31 — Từ vựng JLPT N4 (Phần 6)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "~ています",
+              "back": "Cấu trúc mô tả trạng thái với ~ています",
+              "romaji": "",
+              "example": "壁にカレンダーが掛けてあります (Có cuốn lịch được treo trên tường). Tuy nhiên, nếu nói về sự việc đang xảy ra hoặc trạng thái duy trì: 彼には長い髭が生えています (Anh ấy đang để râu dài).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "V-ています",
+              "back": "Cấu trúc mô tả trạng thái với ~ています",
+              "romaji": "",
+              "example": "壁にカレンダーが掛けてあります (Có cuốn lịch được treo trên tường). Tuy nhiên, nếu nói về sự việc đang xảy ra hoặc trạng thái duy trì: 彼には長い髭が生えています (Anh ấy đang để râu dài).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "押入れに布団をしまいます",
+              "back": "Trợ từ に dùng với hành động/địa điểm",
+              "romaji": "",
+              "example": "押入れに布団をしまいます (Cất nệm vào trong tủ âm tường).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "皆 (みな)",
+              "back": "Cách dùng từ chỉ số lượng/tổng thể với 皆",
+              "romaji": "",
+              "example": "皆で喧嘩をしないでください (Mọi người đừng cãi vã nhé).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "皆で喧嘩をしないでください",
+              "back": "Cách dùng từ chỉ số lượng/tổng thể với 皆",
+              "romaji": "",
+              "example": "皆で喧嘩をしないでください (Mọi người đừng cãi vã nhé).",
+              "jlptLevel": 4
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -1332,6 +1635,60 @@
               "back": "gần đây, dạo gần đây",
               "romaji": "さいきん",
               "example": "最近（さいきん）",
+              "jlptLevel": 4
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 7 — Ngữ pháp",
+          "description": "Ngữ pháp bài 7: Bài 32 — Từ vựng JLPT N4 (Phần 7)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "Vる + ため（に）",
+              "back": "Cấu trúc Vる + ため（に）: Chỉ mục đích",
+              "romaji": "",
+              "example": "Ví dụ: 試験に合格するために、一生懸命勉強します。 (Để thi đỗ kỳ thi, tôi học tập hết sức mình.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "Động từ (thể từ điển) + ため(に)",
+              "back": "Cấu trúc Vる + ため（に）: Chỉ mục đích",
+              "romaji": "",
+              "example": "Ví dụ: 試験に合格するために、一生懸命勉強します。 (Để thi đỗ kỳ thi, tôi học tập hết sức mình.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "V (thể khả năng) + 見える",
+              "back": "Cấu trúc V  + 見える: Nhìn thấy/Trông có vẻ",
+              "romaji": "",
+              "example": "**見える (みえる):** Là tự động từ, chỉ việc hình ảnh tự nhiên lọt vào mắt (không chủ ý).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "窓から山が見えます。",
+              "back": "Cấu trúc V  + 見える: Nhìn thấy/Trông có vẻ",
+              "romaji": "",
+              "example": "Ví dụ: 窓から山が見えます。 (Từ cửa sổ có thể nhìn thấy núi.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "決して (けっして) + V (phủ định)",
+              "back": "Phó từ phủ định: 決して  + V",
+              "romaji": "",
+              "example": "Ví dụ: 私は決して失敗を恐れません。 (Tôi tuyệt đối không sợ thất bại.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "私は決して失敗を恐れません。",
+              "back": "Phó từ phủ định: 決して  + V",
+              "romaji": "",
+              "example": "Ví dụ: 私は決して失敗を恐れません。 (Tôi tuyệt đối không sợ thất bại.)",
               "jlptLevel": 4
             }
           ]
@@ -1526,6 +1883,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 8 — Ngữ pháp",
+          "description": "Ngữ pháp bài 8: Bài 33 — Từ vựng JLPT N4 (Phần 8)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "V-る + ことにする",
+              "back": "Cấu trúc V-る + ことにする",
+              "romaji": "",
+              "example": "今日、新しいパソコンを買うことにしました。(Hôm nay, tôi đã quyết định mua máy tính mới.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "Động từ thể từ điển (V-る) + ことにする",
+              "back": "Cấu trúc V-る + ことにする",
+              "romaji": "",
+              "example": "今日、新しいパソコンを買うことにしました。(Hôm nay, tôi đã quyết định mua máy tính mới.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "V-た + ことがある",
+              "back": "Cấu trúc V-た + ことがある",
+              "romaji": "",
+              "example": "私は日本料理を食べたことがあります。(Tôi đã từng ăn món Nhật rồi.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "Động từ thể quá khứ (V-た) + ことがある",
+              "back": "Cấu trúc V-た + ことがある",
+              "romaji": "",
+              "example": "私は日本料理を食べたことがあります。(Tôi đã từng ăn món Nhật rồi.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "合う",
+              "back": "Trợ từ に trong 合う",
+              "romaji": "",
+              "example": "この服は私に合いますか。(Bộ quần áo này có hợp với tôi không?)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "N + に + 合う (あう)",
+              "back": "Trợ từ に trong 合う",
+              "romaji": "",
+              "example": "この服は私に合いますか。(Bộ quần áo này có hợp với tôi không?)",
+              "jlptLevel": 4
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -1712,6 +2123,46 @@
               "back": "chỗ ngồi, ghế",
               "romaji": "せき",
               "example": "席（せき）",
+              "jlptLevel": 4
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 9 — Ngữ pháp",
+          "description": "Ngữ pháp bài 9: Bài 34 — Từ vựng JLPT N4 (Phần 9)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "V-ている + 途中 (とちゅう)",
+              "back": "Cấu trúc diễn tả hành động đang diễn ra trên đường: V-ている + 途中",
+              "romaji": "",
+              "example": "家へ帰る途中で、友達に会いました。(Tôi đã gặp bạn trong khi đang trên đường về nhà.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "N + に向かう (むかう)",
+              "back": "Cấu trúc diễn tả sự chuyển hướng hoặc thái độ: N + に向かう",
+              "romaji": "",
+              "example": "彼は駅に向かっています。(Anh ấy đang hướng về phía nhà ga.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "V-る + ことを起こす (おこす)",
+              "back": "Cấu trúc diễn tả nguyên nhân/kết quả: V-る + ことを起こす",
+              "romaji": "",
+              "example": "**Cách dùng:** 起こす mang nghĩa gây ra (một vụ tai nạn, một sự kiện, hoặc đánh thức ai đó).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "起こす",
+              "back": "Cấu trúc diễn tả nguyên nhân/kết quả: V-る + ことを起こす",
+              "romaji": "",
+              "example": "彼は大きな問題を起こしました。(Anh ấy đã gây ra một vấn đề lớn.)",
               "jlptLevel": 4
             }
           ]
@@ -1906,6 +2357,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 10 — Ngữ pháp",
+          "description": "Ngữ pháp bài 10: Bài 35 — Từ vựng JLPT N4 (Phần 10)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "原因 (げんいん)",
+              "back": "Cách dùng danh từ \"Nguyên nhân\": 原因",
+              "romaji": "",
+              "example": "**Cấu trúc:** [Sự việc] の 原因 は [N] です。",
+              "jlptLevel": 4
+            },
+            {
+              "front": "原因",
+              "back": "Cách dùng danh từ \"Nguyên nhân\": 原因",
+              "romaji": "",
+              "example": "火事の原因はタバコです。(Nguyên nhân vụ hỏa hoạn là thuốc lá.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "代わり (かわり)",
+              "back": "Sự thay thế: 代わり",
+              "romaji": "",
+              "example": "**Cấu trúc:** A の 代わりに B (Thay vì A thì làm B)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "代わり",
+              "back": "Sự thay thế: 代わり",
+              "romaji": "",
+              "example": "今日は仕事の代わりに、病院へ行きます。(Hôm nay thay vì đi làm, tôi đi bệnh viện.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "致す (いたす)",
+              "back": "Kính ngữ Khiêm tốn: 致す",
+              "romaji": "",
+              "example": "予約をいたします。(Tôi xin phép được đặt chỗ - thay vì 予約をします.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "する",
+              "back": "Kính ngữ Khiêm tốn: 致す",
+              "romaji": "",
+              "example": "予約をいたします。(Tôi xin phép được đặt chỗ - thay vì 予約をします.)",
+              "jlptLevel": 4
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -2092,6 +2597,60 @@
               "back": "niềm vui, sự thích thú",
               "romaji": "たのしみ",
               "example": "楽しみ（たのしみ）",
+              "jlptLevel": 4
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 11 — Ngữ pháp",
+          "description": "Ngữ pháp bài 11: Bài 36 — Từ vựng JLPT N4 (Phần 11)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "〜ように、〜",
+              "back": "Mẫu câu: 〜ように、〜",
+              "romaji": "",
+              "example": "忘れない**ように**、メモをします。(Tôi ghi chú **để** không quên.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "ように",
+              "back": "Mẫu câu: 〜ように、〜",
+              "romaji": "",
+              "example": "忘れない**ように**、メモをします。(Tôi ghi chú **để** không quên.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "〜ようになります",
+              "back": "Mẫu câu: 〜ようになります",
+              "romaji": "",
+              "example": "日本語が話せる**ようになります**。(Tôi **trở nên** nói được tiếng Nhật.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "ようになります",
+              "back": "Mẫu câu: 〜ようになります",
+              "romaji": "",
+              "example": "日本語が話せる**ようになります**。(Tôi **trở nên** nói được tiếng Nhật.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "〜ように してください",
+              "back": "Mẫu câu: 〜ように してください",
+              "romaji": "",
+              "example": "毎日、野菜を食べる**ように してください**。(Hãy cố gắng ăn rau mỗi ngày nhé.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "ように してください",
+              "back": "Mẫu câu: 〜ように してください",
+              "romaji": "",
+              "example": "毎日、野菜を食べる**ように してください**。(Hãy cố gắng ăn rau mỗi ngày nhé.)",
               "jlptLevel": 4
             }
           ]
@@ -2286,6 +2845,53 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 12 — Ngữ pháp",
+          "description": "Ngữ pháp bài 12: Bài 37 — Từ vựng JLPT N4 (Phần 12)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "〜以内 (いない)",
+              "back": "Giới hạn thời gian với 〜以内",
+              "romaji": "",
+              "example": "Ví dụ: 1週間以内にレポートを出してください。 (Hãy nộp báo cáo trong vòng 1 tuần.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "Khoảng thời gian + 以内 (いない)",
+              "back": "Giới hạn thời gian với 〜以内",
+              "romaji": "",
+              "example": "Ví dụ: 1週間以内にレポートを出してください。 (Hãy nộp báo cáo trong vòng 1 tuần.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "例えば (たとえば)",
+              "back": "Cấu trúc ví dụ với 例えば",
+              "romaji": "",
+              "example": "Ví dụ: 趣味はたくさんあります。例えば、映画やスポーツです。 (Tôi có nhiều sở thích. Ví dụ như phim ảnh và thể thao.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "例えば、AやBなどがあります。",
+              "back": "Cấu trúc ví dụ với 例えば",
+              "romaji": "",
+              "example": "Ví dụ: 趣味はたくさんあります。例えば、映画やスポーツです。 (Tôi có nhiều sở thích. Ví dụ như phim ảnh và thể thao.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "留守 (るす)",
+              "back": "Cách diễn đạt trạng thái vắng mặt: 留守",
+              "romaji": "",
+              "example": "Cách dùng: Thường đi kèm với cụm từ \"留守にする\" (làm cho vắng nhà) hoặc \"留守です\" (hiện tại không có ở đây).",
+              "jlptLevel": 4
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -2472,6 +3078,60 @@
               "back": "lịch sự, cẩn thận",
               "romaji": "ていねい",
               "example": "丁寧（ていねい）",
+              "jlptLevel": 4
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 13 — Ngữ pháp",
+          "description": "Ngữ pháp bài 13: Bài 38 — Từ vựng JLPT N4 (Phần 13)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "A は B の N 倍 です",
+              "back": "Cấu trúc so sánh bội số: A は B の N 倍 です",
+              "romaji": "",
+              "example": "**Cấu trúc:** Aは Bの [Số đếm] 倍 (ばい) です。",
+              "jlptLevel": 4
+            },
+            {
+              "front": "Aは Bの [Số đếm] 倍 (ばい) です。",
+              "back": "Cấu trúc so sánh bội số: A は B の N 倍 です",
+              "romaji": "",
+              "example": "この 港 (みなと) は あの 港 の 2 倍 の 大きさ です。",
+              "jlptLevel": 4
+            },
+            {
+              "front": "V (động từ) + に + 通う (かよう)",
+              "back": "Cấu trúc diễn tả sự di chuyển/thói quen: V  + に + 通う",
+              "romaji": "",
+              "example": "**Cấu trúc:** [Địa điểm] に 通う。",
+              "jlptLevel": 4
+            },
+            {
+              "front": "[Địa điểm] に 通う。",
+              "back": "Cấu trúc diễn tả sự di chuyển/thói quen: V  + に + 通う",
+              "romaji": "",
+              "example": "毎日、この 電車 で 高校 (こうこう) に 通っています。",
+              "jlptLevel": 4
+            },
+            {
+              "front": "A と B (の) 両方 (りょうほう)",
+              "back": "Cấu trúc liệt kê: A と B  両方",
+              "romaji": "",
+              "example": "**Cấu trúc:** A と B 両方 (りょうほう) が / を...",
+              "jlptLevel": 4
+            },
+            {
+              "front": "A と B 両方 (りょうほう) が / を...",
+              "back": "Cấu trúc liệt kê: A と B  両方",
+              "romaji": "",
+              "example": "虫 (むし) と 小鳥 (ことり)、両方 (りょうほう) が 好きです。",
               "jlptLevel": 4
             }
           ]
@@ -2666,6 +3326,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 14 — Ngữ pháp",
+          "description": "Ngữ pháp bài 14: Bài 39 — Từ vựng JLPT N4 (Phần 14)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "〜て",
+              "back": "Cấu trúc V-te/V-nai dùng để diễn đạt lý do",
+              "romaji": "",
+              "example": "ビールが**冷えて**いません。 (Bia không được làm lạnh - *Trạng thái*).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "〜ので/から",
+              "back": "Cấu trúc V-te/V-nai dùng để diễn đạt lý do",
+              "romaji": "",
+              "example": "**急な**用事があって、すみません。 (Xin lỗi, tôi có việc bận đột xuất).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "表 (おもて)",
+              "back": "Từ chỉ vị trí tương đối: 表  và 裏",
+              "romaji": "",
+              "example": "**表 (おもて):** Bề mặt, mặt phải, mặt trước.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "裏 (うら)",
+              "back": "Từ chỉ vị trí tương đối: 表  và 裏",
+              "romaji": "",
+              "example": "**裏 (うら):** Mặt sau, phía sau, mặt trái.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "遠慮 (えんりょ) しないで",
+              "back": "Cách dùng 遠慮  しないで",
+              "romaji": "",
+              "example": "**Cấu trúc:** 遠慮しないで + V (lời mời/đề nghị)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "遠慮しないで + V (lời mời/đề nghị)",
+              "back": "Cách dùng 遠慮  しないで",
+              "romaji": "",
+              "example": "**遠慮しないで**、たくさん食べてください。(Đừng ngại, hãy ăn nhiều vào nhé).",
+              "jlptLevel": 4
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -2852,6 +3566,60 @@
               "back": "ngâm, nhúng",
               "romaji": "つける",
               "example": "漬ける（つける）",
+              "jlptLevel": 4
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 15 — Ngữ pháp",
+          "description": "Ngữ pháp bài 15: Bài 40 — Từ vựng JLPT N4 (Phần 15)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "申します (もうします)",
+              "back": "Khiêm nhường ngữ: 申します",
+              "romaji": "",
+              "example": "わたしは タナカと 申します。(Tôi tên là Tanaka.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "言います",
+              "back": "Khiêm nhường ngữ: 申します",
+              "romaji": "",
+              "example": "わたしは タナカと 申します。(Tôi tên là Tanaka.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "写す (うつす)",
+              "back": "Sự khác biệt giữa 写す  và 引き出す",
+              "romaji": "",
+              "example": "**写す (うつす):** Dùng khi sao chép, chụp ảnh, hoặc chép lại nội dung từ chỗ này sang chỗ khác.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "引き出す (ひきだす)",
+              "back": "Sự khác biệt giữa 写す  và 引き出す",
+              "romaji": "",
+              "example": "**引き出す (ひきだす):** Nghĩa đen là kéo ra, rút ra. Thường dùng trong ngữ cảnh rút tiền từ máy ATM hoặc rút tài liệu từ ngăn kéo.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "〜は 不便 (ふべん) です",
+              "back": "Phủ định tính chất: 〜は 不便  です",
+              "romaji": "",
+              "example": "この アパートは 駅から 遠くて、不便です。(Căn hộ này xa nhà ga nên bất tiện.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "不便",
+              "back": "Phủ định tính chất: 〜は 不便  です",
+              "romaji": "",
+              "example": "この アパートは 駅から 遠くて、不便です。(Căn hộ này xa nhà ga nên bất tiện.)",
               "jlptLevel": 4
             }
           ]
@@ -3046,6 +3814,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 16 — Ngữ pháp",
+          "description": "Ngữ pháp bài 16: Bài 41 — Từ vựng JLPT N4 (Phần 16)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "V-る + つもりです",
+              "back": "Mẫu câu dự định: V-る + つもりです",
+              "romaji": "",
+              "example": "**Cấu trúc:** V (thể từ điển) + つもりです",
+              "jlptLevel": 4
+            },
+            {
+              "front": "V (thể từ điển) + つもりです",
+              "back": "Mẫu câu dự định: V-る + つもりです",
+              "romaji": "",
+              "example": "今日、早く**眠るつもりです**。(Hôm nay tôi dự định sẽ ngủ sớm.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "V-ます (bỏ ます) + つづける",
+              "back": "Mẫu câu tiếp diễn: V-ます  + つづける",
+              "romaji": "",
+              "example": "**Cấu trúc:** V-ます (bỏ ます) + つづけます",
+              "jlptLevel": 4
+            },
+            {
+              "front": "V-ます (bỏ ます) + つづけます",
+              "back": "Mẫu câu tiếp diễn: V-ます  + つづける",
+              "romaji": "",
+              "example": "彼は日本語の勉強を**つづけています**。(Anh ấy vẫn đang tiếp tục việc học tiếng Nhật.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "過ぎる (すぎる)",
+              "back": "Phân biệt 過ぎる  và 遅れる",
+              "romaji": "",
+              "example": "**過ぎる (過ぎる):** Có nghĩa là đi qua, vượt qua (thời gian, địa điểm).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "遅れる (おくれる)",
+              "back": "Phân biệt 過ぎる  và 遅れる",
+              "romaji": "",
+              "example": "Ví dụ: 12時を**過ぎました**。(Đã qua 12 giờ rồi.)",
+              "jlptLevel": 4
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -3232,6 +4054,53 @@
               "back": "xấu hổ, ngại ngùng",
               "romaji": "はずかしい",
               "example": "恥ずかしい（はずかしい）",
+              "jlptLevel": 4
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 17 — Ngữ pháp",
+          "description": "Ngữ pháp bài 17: Bài 42 — Từ vựng JLPT N4 (Phần 17)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "亡くなる",
+              "back": "Phân biệt 亡くなる  và 無くなる",
+              "romaji": "",
+              "example": "**亡くなる (Tử):** Chỉ sự qua đời của con người (mang tính trang trọng, giảm nhẹ).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "無くなる",
+              "back": "Phân biệt 亡くなる  và 無くなる",
+              "romaji": "",
+              "example": "Ví dụ: 先月、祖父が亡くなりました。(Tháng trước, ông tôi đã qua đời.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "V (thể ngắn) + はずです",
+              "back": "Cấu trúc V  + はずです",
+              "romaji": "",
+              "example": "Ví dụ: 彼は昨日帰ったはずです。(Chắc hẳn là anh ấy đã về từ hôm qua rồi - vì tôi đã thấy anh ấy chuẩn bị hành lý.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "以外",
+              "back": "Cách dùng trợ từ 以外",
+              "romaji": "",
+              "example": "Ví dụ: 私以外、みんな行きました。(Ngoài tôi ra, mọi người đều đã đi hết.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "N + 以外",
+              "back": "Cách dùng trợ từ 以外",
+              "romaji": "",
+              "example": "Ví dụ: 私以外、みんな行きました。(Ngoài tôi ra, mọi người đều đã đi hết.)",
               "jlptLevel": 4
             }
           ]
@@ -3426,6 +4295,53 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 18 — Ngữ pháp",
+          "description": "Ngữ pháp bài 18: Bài 43 — Từ vựng JLPT N4 (Phần 18)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "V-る + ことがあります",
+              "back": "Cấu trúc V-る + ことがあります",
+              "romaji": "",
+              "example": "週末、外で**踊る**ことがあります。",
+              "jlptLevel": 4
+            },
+            {
+              "front": "踊る",
+              "back": "Cấu trúc V-る + ことがあります",
+              "romaji": "",
+              "example": "週末、外で**踊る**ことがあります。",
+              "jlptLevel": 4
+            },
+            {
+              "front": "V-た + 後(あと)で",
+              "back": "Cấu trúc V-た + 後で",
+              "romaji": "",
+              "example": "部屋を**片付けた**後で、宿題を済ませます。",
+              "jlptLevel": 4
+            },
+            {
+              "front": "片付けた",
+              "back": "Cấu trúc V-た + 後で",
+              "romaji": "",
+              "example": "部屋を**片付けた**後で、宿題を済ませます。",
+              "jlptLevel": 4
+            },
+            {
+              "front": "とうとう",
+              "back": "Cách dùng từ とうとう",
+              "romaji": "",
+              "example": "ずっと雨が降っていましたが、**とうとう**止みました。",
+              "jlptLevel": 4
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -3612,6 +4528,46 @@
               "back": "đốt, nướng",
               "romaji": "やく",
               "example": "焼く（やく）",
+              "jlptLevel": 4
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 19 — Ngữ pháp",
+          "description": "Ngữ pháp bài 19: Bài 44 — Từ vựng JLPT N4 (Phần 19)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "参る (まいる)",
+              "back": "Kính ngữ khiêm nhường  cơ bản",
+              "romaji": "",
+              "example": "**参る (まいる)**: Là dạng khiêm nhường của 行く (đi) và 来る (đến).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "召し上がる (めしあがる)",
+              "back": "Kính ngữ khiêm nhường  cơ bản",
+              "romaji": "",
+              "example": "**召し上がる (めしあがる)**: Là dạng tôn kính ngữ của 食べる (ăn) và 飲む (uống).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "偶に (たまに)",
+              "back": "Trạng từ chỉ tần suất và mức độ",
+              "romaji": "",
+              "example": "**偶に (たまに)**: Thỉnh thoảng. Dùng để chỉ hành động không thường xuyên xảy ra.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "それ程 (それほど)",
+              "back": "Trạng từ chỉ tần suất và mức độ",
+              "romaji": "",
+              "example": "**それ程 (それほど)**: Đến mức đó, không đến mức độ như vậy (thường dùng trong câu phủ định).",
               "jlptLevel": 4
             }
           ]
@@ -3806,6 +4762,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 20 — Ngữ pháp",
+          "description": "Ngữ pháp bài 20: Bài 45 — Từ vựng JLPT N4 (Phần 20)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "割れる",
+              "back": "Phân biệt Nội động từ",
+              "romaji": "",
+              "example": "**Cấu trúc:** N が [Nội động từ]",
+              "jlptLevel": 4
+            },
+            {
+              "front": "折れる",
+              "back": "Phân biệt Nội động từ",
+              "romaji": "",
+              "example": "コップ**が**割れました。(Cái cốc bị vỡ.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "些とも (ちっとも)",
+              "back": "Trạng từ phủ định: 些とも",
+              "romaji": "",
+              "example": "**Lưu ý:** Sau ちっとも bắt buộc phải là động từ hoặc tính từ chia ở thể phủ định.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "ちっとも",
+              "back": "Trạng từ phủ định: 些とも",
+              "romaji": "",
+              "example": "今日は**ちっとも**寒くないです。(Hôm nay không lạnh chút nào cả.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "差し上げる (さしあげる)",
+              "back": "Khiêm nhường ngữ đơn giản: 差し上げる",
+              "romaji": "",
+              "example": "**Cấu trúc:** N1 に N2 を 差し上げます",
+              "jlptLevel": 4
+            },
+            {
+              "front": "差し上げる",
+              "back": "Khiêm nhường ngữ đơn giản: 差し上げる",
+              "romaji": "",
+              "example": "先生に花を差し上げました。(Tôi đã tặng hoa cho thầy giáo.)",
+              "jlptLevel": 4
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -3992,6 +5002,53 @@
               "back": "vải bông, sợi bông",
               "romaji": "もめん",
               "example": "木綿（もめん）",
+              "jlptLevel": 4
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 21 — Ngữ pháp",
+          "description": "Ngữ pháp bài 21: Bài 46 — Từ vựng JLPT N4 (Phần 21)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "ます",
+              "back": "Mẫu câu: V-ます + だす",
+              "romaji": "",
+              "example": "**Cách chia:** Bỏ ます của động từ thể lịch sự, thêm だす.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "だす",
+              "back": "Mẫu câu: V-ます + だす",
+              "romaji": "",
+              "example": "降り出す (Furidasu - Bắt đầu đổ mưa).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "沸く (わく):",
+              "back": "Mẫu câu: 〜 わく / 〜 つく",
+              "romaji": "",
+              "example": "**沸く (わく):** Chỉ nước hoặc chất lỏng sôi. (お湯が沸きました - Nước đã sôi rồi).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "付く (つく):",
+              "back": "Mẫu câu: 〜 わく / 〜 つく",
+              "romaji": "",
+              "example": "**付く (つく):** Chỉ vật gì đó được gắn, đính, dính vào. (ポケットにボタンが付いています - Cái cúc được đính trên túi).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "変える",
+              "back": "Mẫu câu: Sự thay đổi với động từ 変える",
+              "romaji": "",
+              "example": "計画を変えました。(Tôi đã thay đổi kế hoạch).",
               "jlptLevel": 4
             }
           ]
@@ -4186,6 +5243,53 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 22 — Ngữ pháp",
+          "description": "Ngữ pháp bài 22: Bài 47 — Từ vựng JLPT N4 (Phần 22)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "Danh từ (phương tiện/nguyên liệu) + で",
+              "back": "Trợ từ で diễn tả phương tiện hoặc nguyên liệu",
+              "romaji": "",
+              "example": "**Cấu trúc:** Danh từ (phương tiện/nguyên liệu) + で",
+              "jlptLevel": 4
+            },
+            {
+              "front": "〜が すきです",
+              "back": "Mẫu câu diễn đạt sở thích: 〜が すきです",
+              "romaji": "",
+              "example": "**Cấu trúc:** Danh từ + が すきです",
+              "jlptLevel": 4
+            },
+            {
+              "front": "すき",
+              "back": "Mẫu câu diễn đạt sở thích: 〜が すきです",
+              "romaji": "",
+              "example": "- わたしは サラダ**が** すきです。(Tôi thích món salad.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "ソフトな",
+              "back": "Từ chỉ trạng thái: ソフトな",
+              "romaji": "",
+              "example": "- この ベッドは ソフトです。(Cái giường này mềm.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "~が すきです",
+              "back": "Từ chỉ trạng thái: ソフトな",
+              "romaji": "",
+              "example": "彼は ソフトな 人です。(Anh ấy là một người dịu dàng.)",
+              "jlptLevel": 4
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -4372,6 +5476,60 @@
               "back": "dừng, ngừng, chấm dứt",
               "romaji": "やめる",
               "example": "止める（やめる）",
+              "jlptLevel": 4
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 23 — Ngữ pháp",
+          "description": "Ngữ pháp bài 23: Bài 48 — Từ vựng JLPT N4 (Phần 23)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "V (thể te) + あります",
+              "back": "Cấu trúc V  + あります",
+              "romaji": "",
+              "example": "ドアが開いてあります。(Cửa đang ở trạng thái mở).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "N が V (thể te) あります",
+              "back": "Cấu trúc V  + あります",
+              "romaji": "",
+              "example": "ドアが開いてあります。(Cửa đang ở trạng thái mở).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "N (lý do/nguyên nhân) + のおかげで",
+              "back": "Cấu trúc N  + のおかげで",
+              "romaji": "",
+              "example": "みんなのおかげで、仕事が終わりました。(Nhờ mọi người mà công việc đã xong).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "N/V(thể ngắn) + のおかげで",
+              "back": "Cấu trúc N  + のおかげで",
+              "romaji": "",
+              "example": "みんなのおかげで、仕事が終わりました。(Nhờ mọi người mà công việc đã xong).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "わけ (Wake)",
+              "back": "Cách dùng từ わけ",
+              "romaji": "",
+              "example": "忙しいわけです。(Thảo nào mà bận rộn như vậy).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "V/Adj/N (thể ngắn) + わけです",
+              "back": "Cách dùng từ わけ",
+              "romaji": "",
+              "example": "忙しいわけです。(Thảo nào mà bận rộn như vậy).",
               "jlptLevel": 4
             }
           ]
@@ -4566,6 +5724,60 @@
             }
           ]
         }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 24 — Ngữ pháp",
+          "description": "Ngữ pháp bài 24: Bài 49 — Từ vựng JLPT N4 (Phần 24)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "いらっしゃる",
+              "back": "Kính ngữ đặc biệt: いらっしゃる và おっしゃる",
+              "romaji": "",
+              "example": "**いらっしゃる (Irassharu):** Là dạng kính ngữ của 行く (đi), 来る (đến) và いる (ở).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "おっしゃる",
+              "back": "Kính ngữ đặc biệt: いらっしゃる và おっしゃる",
+              "romaji": "",
+              "example": "**おっしゃる (Ossharu):** Là dạng kính ngữ của 言う (nói).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "非常に",
+              "back": "Trạng từ chỉ mức độ và trạng thái: 非常に và すっかり",
+              "romaji": "",
+              "example": "**非常に (Hijou ni):** Dùng để nhấn mạnh mức độ, tương đương với \"vô cùng\", \"rất\". Mang tính trang trọng hơn \"とても\".",
+              "jlptLevel": 4
+            },
+            {
+              "front": "すっかり",
+              "back": "Trạng từ chỉ mức độ và trạng thái: 非常に và すっかり",
+              "romaji": "",
+              "example": "**すっかり (Sukkari):** Diễn tả trạng thái hoàn toàn, không còn sót lại gì.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "ようやく",
+              "back": "Trạng từ chỉ thời điểm: ようやく",
+              "romaji": "",
+              "example": "**やっと (Yatto / 漸と):** Diễn tả một sự việc khó khăn, mất nhiều thời gian cuối cùng cũng đạt được.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "やっと",
+              "back": "Trạng từ chỉ thời điểm: ようやく",
+              "romaji": "",
+              "example": "Sử dụng thành thạo các từ vựng chỉ trạng thái (すっかり, はっきり, 非常に).",
+              "jlptLevel": 4
+            }
+          ]
+        }
       }
     ],
     "test": {
@@ -4752,6 +5964,60 @@
               "back": "cạnh, mép, đầu",
               "romaji": "つま",
               "example": "端（つま）",
+              "jlptLevel": 4
+            }
+          ]
+        }
+      },
+      {
+        "role": "GRAMMAR",
+        "order": 1,
+        "deck": {
+          "name": "Minna N4 — Bài 25 — Ngữ pháp",
+          "description": "Ngữ pháp bài 25: Bài 50 — Từ vựng JLPT N4 (Phần 25)",
+          "category": "NGUPHAP",
+          "jlptLevel": 4,
+          "cards": [
+            {
+              "front": "ご覧になる",
+              "back": "Kính ngữ: Cách dùng ご覧になる",
+              "romaji": "",
+              "example": "**Cấu trúc:** Người (Kính ngữ) + が/は + ご覧になります",
+              "jlptLevel": 4
+            },
+            {
+              "front": "見る",
+              "back": "Kính ngữ: Cách dùng ご覧になる",
+              "romaji": "",
+              "example": "社長は資料をごらんになります。 (Giám đốc xem tài liệu ạ.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "すると",
+              "back": "Liên từ nối: すると  và それに",
+              "romaji": "",
+              "example": "**すると (Sau đó/Rồi):** Dùng để diễn tả một sự việc xảy ra ngay lập tức sau sự việc trước đó, mang tính bất ngờ hoặc kết quả trực tiếp.",
+              "jlptLevel": 4
+            },
+            {
+              "front": "それに",
+              "back": "Liên từ nối: すると  và それに",
+              "romaji": "",
+              "example": "*Ví dụ:* ドアを開けました。すると、猫がいました。(Tôi mở cửa ra. Thế là, có một chú mèo ở đó.)",
+              "jlptLevel": 4
+            },
+            {
+              "front": "この間",
+              "back": "Trạng từ chỉ thời gian: 先  và この間",
+              "romaji": "",
+              "example": "**さっき (Lúc nãy):** Chỉ một thời điểm rất gần với hiện tại (vừa mới xong).",
+              "jlptLevel": 4
+            },
+            {
+              "front": "さっき",
+              "back": "Trạng từ chỉ thời gian: 先  và この間",
+              "romaji": "",
+              "example": "**この間 (Hôm trước/Dạo gần đây):** Chỉ một thời điểm trong quá khứ không xác định rõ ngày giờ, nhưng không phải là quá lâu.",
               "jlptLevel": 4
             }
           ]

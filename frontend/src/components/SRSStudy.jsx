@@ -150,7 +150,7 @@ export default function SRSStudy({ dueData, onComplete }) {
 
       {/* Flashcard */}
       <div
-        className="relative h-80 cursor-pointer mb-6 group [perspective:1500px]"
+        className="relative h-96 cursor-pointer mb-6 group [perspective:1500px]"
         onClick={handleFlip}
       >
         <div
@@ -182,7 +182,7 @@ export default function SRSStudy({ dueData, onComplete }) {
 
           {/* Back */}
           <div
-            className="absolute inset-0 bg-gradient-to-br from-[#801c1c] to-[#c62828] sharp-shadow flex flex-col items-center justify-center p-6 text-white [backface-visibility:hidden] relative overflow-hidden"
+            className="absolute inset-0 bg-gradient-to-br from-[#801c1c] to-[#c62828] sharp-shadow flex flex-col items-center justify-center p-6 pt-10 pb-12 text-white [backface-visibility:hidden] overflow-y-auto"
             style={{
               transform: 'rotateY(180deg)',
             }}
@@ -204,7 +204,10 @@ export default function SRSStudy({ dueData, onComplete }) {
               {currentCard.back}
             </p>
             {currentCard.example && (
-              <div className="mt-2 p-4 bg-white/10 backdrop-blur-md border border-white/20 shadow-inner w-full max-w-md">
+              <div 
+                className="mt-2 p-4 bg-white/10 backdrop-blur-md border border-white/20 shadow-inner w-full max-w-md max-h-[100px] overflow-y-auto"
+                onClick={(e) => e.stopPropagation()}
+              >
                 <p className="text-[10px] text-white/60 uppercase font-bold mb-1 tracking-wider" style={{ color: 'rgba(255,255,255,0.6)' }}>Ví dụ</p>
                 <p className="text-sm md:text-base text-white font-medium leading-relaxed font-jp" style={{ color: '#ffffff' }}>{currentCard.example}</p>
               </div>

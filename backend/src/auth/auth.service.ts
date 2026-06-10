@@ -104,11 +104,12 @@ export class AuthService {
 
     // Tạo token ngẫu nhiên 32 bytes
     const token = crypto.randomBytes(32).toString('hex');
+    const hashedToken = crypto.createHash('sha256').update(token).digest('hex');
     const expiry = new Date(Date.now() + 60 * 60 * 1000); // 1 giờ
 
     await this.prisma.user.update({
       where: { id: user.id },
-      data: { passwordResetToken: token, passwordResetExpires: expiry },
+      data: { passwordResetToken: hashedToken, passwordResetExpires: expiry },
     });
 
     const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
@@ -132,9 +133,11 @@ export class AuthService {
    * Bước 2: Xác thực token và cập nhật mật khẩu mới.
    */
   async resetPassword(token: string, newPassword: string): Promise<void> {
+    const hashedToken = crypto.createHash('sha256').update(token).digest('hex');
+
     const user = await this.prisma.user.findFirst({
       where: {
-        passwordResetToken: token,
+        passwordResetToken: hashedToken,
         passwordResetExpires: { gt: new Date() },
       },
     });

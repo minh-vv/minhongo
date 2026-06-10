@@ -533,28 +533,31 @@ export class FlashcardsService {
     };
   }
 
-  /** Leaderboard theo XP trong N ngày gần nhất */
   async getLeaderboard(days = 30, limit = 20) {
     const since = new Date();
     since.setDate(since.getDate() - days);
 
-    // Giới hạn records lấy về để tránh load toàn bộ bảng vào memory.
-    // Lấy (limit * 5) rows để có đủ dữ liệu sau khi group, sau đó sort + slice.
-    const MAX_ROWS = limit * 5;
-    const logs = await this.prisma.reviewLog.findMany({
-      where: { reviewedAt: { gte: since } },
-      select: { userId: true, quality: true },
-      take: MAX_ROWS,
-      orderBy: { reviewedAt: 'desc' },
+    // Gom nhóm theo userId và quality trực tiếp dưới Database
+    const groupedLogs = await this.prisma.reviewLog.groupBy({
+      by: ['userId', 'quality'],
+      _count: {
+        _all: true,
+      },
+      where: {
+        reviewedAt: { gte: since },
+      },
     });
 
     const xpByQuality = [2, 5, 10, 15];
     const byUser = new Map<string, { xp: number; reviews: number }>();
 
-    for (const log of logs) {
+    for (const log of groupedLogs) {
+      const count = log._count._all;
+      const xp = (xpByQuality[log.quality] ?? 0) * count;
+
       const prev = byUser.get(log.userId) ?? { xp: 0, reviews: 0 };
-      prev.xp += xpByQuality[log.quality] ?? 0;
-      prev.reviews += 1;
+      prev.xp += xp;
+      prev.reviews += count;
       byUser.set(log.userId, prev);
     }
 
