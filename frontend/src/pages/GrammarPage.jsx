@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import {
   Search,
   BookOpen,
@@ -359,12 +359,15 @@ const groupDecksIntoParts = (decksList, bookId, level) => {
 
 export default function GrammarPage() {
   const navigate = useNavigate();
+  const { bookId, level } = useParams();
 
   const [decks, setDecks] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [selectedLevel, setSelectedLevel] = useState(5);
-  const [selectedBookLevel, setSelectedBookLevel] = useState(null); // { bookId, level }
-  const [searchQuery, setSearchQuery] = useState('');
+
+  const selectedBookLevel = useMemo(() => {
+    if (!bookId || !level) return null;
+    return { bookId, level: parseInt(level) };
+  }, [bookId, level]);
 
   useEffect(() => {
     setLoading(true);
@@ -377,8 +380,6 @@ export default function GrammarPage() {
       .finally(() => setLoading(false));
   }, []);
 
-  const isSearchingGlobally = !!searchQuery.trim() && !selectedBookLevel;
-
   const filteredDecks = useMemo(() => {
     let result = decks;
 
@@ -388,16 +389,6 @@ export default function GrammarPage() {
         const lvl = d.jlptLevel || 5;
         return book.id === selectedBookLevel.bookId && lvl === selectedBookLevel.level;
       });
-    } else {
-      if (selectedLevel !== null) result = result.filter((d) => d.jlptLevel === selectedLevel);
-    }
-
-    if (searchQuery.trim()) {
-      const q = searchQuery.trim().toLowerCase();
-      result = result.filter((d) =>
-        d.name.toLowerCase().includes(q) ||
-        d.description?.toLowerCase().includes(q)
-      );
     }
 
     return result.sort((a, b) => {
@@ -406,148 +397,100 @@ export default function GrammarPage() {
       if (numA !== numB) return numA - numB;
       return a.name.localeCompare(b.name);
     });
-  }, [decks, selectedBookLevel, selectedLevel, searchQuery]);
+  }, [decks, selectedBookLevel]);
 
   const groupedBooks = useMemo(() => {
-    if (isSearchingGlobally || selectedBookLevel) return [];
-    const filtered = selectedLevel !== null
-      ? decks.filter((d) => d.jlptLevel === selectedLevel)
-      : decks;
-    return groupDecksByBookAndLevel(filtered);
-  }, [decks, isSearchingGlobally, selectedBookLevel, selectedLevel]);
+    if (selectedBookLevel) return [];
+    return groupDecksByBookAndLevel(decks);
+  }, [decks, selectedBookLevel]);
 
   const totalGrammarPoints = decks.reduce((sum, d) => sum + (d._count?.cards || 0), 0);
 
   return (
     <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-8 min-h-screen">
 
-      {/* ── HERO BANNER ─────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden animate-fade-up border-2 border-primary" style={{ minHeight: 140 }}>
+      {/* ── HERO & BREADCRUMBS MERGED ─────────────────────────────── */}
+      <section className="relative overflow-hidden animate-fade-up border-2 border-primary" style={{ minHeight: selectedBookLevel ? undefined : 140 }}>
         <div className="absolute inset-0 bg-primary" />
         <div className="absolute inset-0 asanoha-bg opacity-15" />
         <div className="absolute right-0 top-0 bottom-0 w-2 bg-secondary" />
 
-        <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
-          <div className="min-w-0">
-            <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-3"
-              style={{ backdropFilter: 'blur(4px)' }}>
-              <span className="w-1.5 h-1.5 rotate-45 bg-secondary" />
-              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/90">
-                Học & Tra Cứu Chuyên Sâu
-              </span>
+        {selectedBookLevel ? (
+          /* Merged layout when a book level is selected */
+          <div className="relative z-10 p-6 md:p-8 flex flex-col gap-6">
+            {/* Top row: Back button & Breadcrumbs */}
+            <div className="flex flex-wrap items-center gap-3 text-white/80">
+              <button
+                onClick={() => navigate('/grammar')}
+                className="flex items-center gap-1.5 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-white border border-white/20 hover:bg-white/10 transition-all rounded backdrop-blur-sm"
+              >
+                <ArrowLeft className="w-3.5 h-3.5" />
+                Quay lại
+              </button>
+              <div className="flex items-center gap-1.5 text-xs font-semibold text-white/85">
+                <span className="cursor-pointer hover:text-white transition-colors" onClick={() => navigate('/grammar')}>Tất cả giáo trình</span>
+                <span className="text-white/40">/</span>
+                <span>{getBookInfo({ name: selectedBookLevel.bookId }).title}</span>
+                <span className="text-white/40">/</span>
+                <span className="font-bold text-white">Cấp độ N{selectedBookLevel.level}</span>
+              </div>
             </div>
-            <h1 className="font-jp text-3xl md:text-4xl font-bold text-white tracking-wide">
-              文法 • TRANG HỌC NGỮ PHÁP
-            </h1>
-            <p className="text-white/60 text-sm mt-2 max-w-xl font-medium">
-              Click vào bài học để xem lý thuyết đầy đủ, ví dụ thực tế và luyện tập ngay.
-            </p>
-          </div>
 
-          <div className="flex gap-3 flex-shrink-0">
-            <div className="text-center bg-white/5 px-5 py-3 border border-white/10 sharp-shadow-sm">
-              <p className="text-2xl font-black text-white leading-none">{decks.length}</p>
-              <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Bài học</p>
-            </div>
-            <div className="text-center bg-white/5 px-5 py-3 border border-white/10 sharp-shadow-sm">
-              <p className="text-2xl font-black text-white leading-none">{totalGrammarPoints}</p>
-              <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Cấu trúc</p>
+            {/* Bottom row: Title & Stats */}
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+              <div>
+                <h1 className="font-headline text-2xl md:text-3xl font-bold text-white leading-tight">
+                  {getBookInfo({ name: selectedBookLevel.bookId }).title} N{selectedBookLevel.level}
+                </h1>
+                <p className="text-white/60 text-xs mt-1 font-medium">
+                  {getBookLevelCardMeta(selectedBookLevel.bookId, selectedBookLevel.level).bottomDesc}
+                </p>
+              </div>
+
+              {/* Stats */}
+              <div className="flex gap-2 text-white text-xs font-bold bg-white/10 px-3 py-1.5 border border-white/10 backdrop-blur-sm shrink-0 self-start md:self-auto">
+                <span>{filteredDecks.length} bài học</span>
+                <span className="text-white/30">|</span>
+                <span>{filteredDecks.reduce((sum, d) => sum + (d._count?.cards || 0), 0)} cấu trúc</span>
+              </div>
             </div>
           </div>
-        </div>
+        ) : (
+          /* Default full hero layout */
+          <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+            <div className="min-w-0">
+              <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-3"
+                style={{ backdropFilter: 'blur(4px)' }}>
+                <span className="w-1.5 h-1.5 rotate-45 bg-secondary" />
+                <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/90">
+                  Học & Tra Cứu Chuyên Sâu
+                </span>
+              </div>
+              <h1 className="font-jp text-3xl md:text-4xl font-bold text-white tracking-wide">
+                文法 • TRANG HỌC NGỮ PHÁP
+              </h1>
+              <p className="text-white/60 text-sm mt-2 max-w-xl font-medium">
+                Click vào bài học để xem lý thuyết đầy đủ, ví dụ thực tế và luyện tập ngay.
+              </p>
+            </div>
+
+            <div className="flex gap-3 flex-shrink-0">
+              <div className="text-center bg-white/5 px-5 py-3 border border-white/10 sharp-shadow-sm">
+                <p className="text-2xl font-black text-white leading-none">{decks.length}</p>
+                <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Bài học</p>
+              </div>
+              <div className="text-center bg-white/5 px-5 py-3 border border-white/10 sharp-shadow-sm">
+                <p className="text-2xl font-black text-white leading-none">{totalGrammarPoints}</p>
+                <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Cấu trúc</p>
+              </div>
+            </div>
+          </div>
+        )}
 
         <div className="absolute -right-6 -bottom-6 font-jp font-bold text-white/[0.03] leading-none select-none pointer-events-none text-[180px]">
           文
         </div>
       </section>
-
-      {/* ── SEARCH & LEVEL FILTERS ────────────────────────────────── */}
-      <div className="flex flex-col md:flex-row gap-4 items-stretch md:items-center justify-between pb-4 border-b border-outline-variant/40">
-
-        {/* JLPT Level tabs — only show when not inside a selected book-level */}
-        {!selectedBookLevel ? (
-          <div className="flex gap-1 overflow-x-auto no-scrollbar pb-1 md:pb-0">
-            <button
-              onClick={() => setSelectedLevel(null)}
-              className="whitespace-nowrap px-4 py-2 text-xs font-bold transition-all uppercase tracking-wider border border-outline-variant/60 sharp-shadow-sm shrink-0"
-              style={selectedLevel === null
-                ? { background: 'var(--primary)', color: '#fff', borderColor: 'var(--primary)' }
-                : { background: 'var(--surface-container-lowest)', color: 'var(--on-surface-variant)' }
-              }
-            >
-              Tất cả cấp độ
-            </button>
-            {JLPT_LEVELS.map((level) => (
-              <button
-                key={level}
-                onClick={() => setSelectedLevel(level)}
-                className="whitespace-nowrap px-4 py-2 text-xs font-bold transition-all uppercase tracking-wider border border-outline-variant/60 sharp-shadow-sm shrink-0"
-                style={selectedLevel === level
-                  ? { background: 'var(--primary)', color: '#fff', borderColor: 'var(--primary)' }
-                  : { background: 'var(--surface-container-lowest)', color: 'var(--on-surface-variant)' }
-                }
-              >
-                JLPT N{level}
-              </button>
-            ))}
-          </div>
-        ) : (
-          <div className="text-xs font-bold text-on-surface-variant uppercase tracking-wider">
-            Bộ lọc & Sắp xếp bài học
-          </div>
-        )}
-
-        {/* Search */}
-        <div className="relative flex-1 max-w-md">
-          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-on-surface-variant pointer-events-none" />
-          <input
-            type="text"
-            placeholder={selectedBookLevel ? "Tìm kiếm trong bài học..." : "Tìm kiếm bài học ngữ pháp..."}
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full pl-10 pr-4 py-2.5 text-sm bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant focus:outline-none border-2 border-outline-variant/40"
-          />
-        </div>
-      </div>
-
-      {/* ── Breadcrumb & Back button Header ────────────────────── */}
-      {selectedBookLevel && (
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-outline-variant/30">
-          <div className="flex items-center gap-3">
-            <button
-              onClick={() => setSelectedBookLevel(null)}
-              className="flex items-center gap-2 px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-primary border-2 border-primary/20 hover:bg-primary/5 transition-all rounded"
-            >
-              <ArrowLeft className="w-4 h-4" />
-              Quay lại
-            </button>
-            <div className="flex items-center gap-2 text-xs font-semibold text-on-surface-variant/80">
-              <span className="cursor-pointer hover:text-primary transition-colors" onClick={() => setSelectedBookLevel(null)}>Tất cả giáo trình</span>
-              <ChevronRight className="w-3.5 h-3.5 opacity-60" />
-              <span>{getBookInfo({ name: selectedBookLevel.bookId }).title}</span>
-              <ChevronRight className="w-3.5 h-3.5 opacity-60" />
-              <span className="font-bold text-on-surface">Cấp độ N{selectedBookLevel.level}</span>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {isSearchingGlobally && (
-        <div className="flex items-center justify-between pb-4 border-b border-outline-variant/30">
-          <div className="flex items-center gap-3">
-            <button
-              onClick={() => { setSearchQuery(''); setSelectedLevel(null); }}
-              className="flex items-center gap-2 px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-primary border-2 border-primary/20 hover:bg-primary/5 transition-all rounded"
-            >
-              <ArrowLeft className="w-4 h-4" />
-              Quay lại danh sách sách
-            </button>
-            <span className="text-xs font-bold text-on-surface-variant">
-              Kết quả tìm kiếm toàn hệ thống
-            </span>
-          </div>
-        </div>
-      )}
 
       {/* ── CONTENT AREA ────────────────────────────────────────────────── */}
       {loading ? (
@@ -555,7 +498,7 @@ export default function GrammarPage() {
           <Loader2 className="w-12 h-12 text-primary animate-spin" />
           <p className="text-on-surface-variant font-medium">Đang nạp dữ liệu ngữ pháp...</p>
         </div>
-      ) : !selectedBookLevel && !isSearchingGlobally ? (
+      ) : !selectedBookLevel ? (
         /* Render Books & Levels cards */
         <div className="space-y-12">
           {groupedBooks.map((book) => (
@@ -573,7 +516,7 @@ export default function GrammarPage() {
                   return (
                     <button
                       key={level}
-                      onClick={() => setSelectedBookLevel({ bookId: book.id, level })}
+                      onClick={() => navigate(`/grammar/${book.id}/${level}`)}
                       className="group relative flex flex-col justify-between bg-surface-container-lowest p-5 transition-all sharp-shadow hover:sharp-shadow-sm hover:-translate-y-0.5 text-left w-full border-2 border-outline-variant/50 overflow-hidden min-h-[180px]"
                     >
                       {/* Top accent line */}
@@ -616,142 +559,64 @@ export default function GrammarPage() {
           <HelpCircle className="w-16 h-16 text-on-surface-variant/40 mb-4" />
           <h3 className="font-bold text-on-surface text-lg">Không tìm thấy bài học phù hợp</h3>
           <p className="text-on-surface-variant text-sm mt-1 max-w-md">
-            Hãy thử đổi cấp độ JLPT hoặc từ khóa tìm kiếm khác.
+            Hãy thử đặt lại bộ lọc để hiển thị toàn bộ bài học.
           </p>
           <button
-            onClick={() => { setSelectedLevel(5); setSearchQuery(''); setSelectedBookLevel(null); }}
+            onClick={() => { navigate('/grammar'); }}
             className="mt-4 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-primary border-2 border-primary hover:bg-primary hover:text-white transition-all sharp-shadow-sm"
           >
             Đặt lại bộ lọc
           </button>
         </div>
       ) : (
-        <div className="space-y-8">
+        /* Render Decks in a timeline flow */
+        <div className="space-y-8 animate-fade-up">
           <div className="flex items-center justify-between text-sm text-on-surface-variant px-1">
             <p>
               Hiển thị <span className="font-bold text-on-surface">{filteredDecks.length}</span> bài học ngữ pháp
             </p>
           </div>
 
-          {selectedBookLevel ? (
-            <div className="space-y-12">
-              {groupDecksIntoParts(filteredDecks, selectedBookLevel.bookId, selectedBookLevel.level).map((part, pIdx) => (
-                <div key={pIdx} className="space-y-4">
-                  <div className="flex items-center gap-2 border-b border-outline-variant/30 pb-2">
-                    <span className="w-1.5 h-6 bg-primary" />
-                    <h3 className="font-bold text-on-surface text-lg">{part.title}</h3>
-                    <span className="text-xs text-on-surface-variant bg-surface-container-low px-2 py-0.5 font-bold border border-outline-variant/20">
-                      {part.decks.length} bài học
-                    </span>
+          <div className="relative border-l-2 border-primary/20 ml-6 pl-8 py-2 space-y-6">
+            {filteredDecks.map((deck, index) => {
+              const lessonNum = getLessonNumber(deck.name);
+              const displayNum = lessonNum !== 999 ? lessonNum : index + 1;
+              return (
+                <div key={deck.id} className="relative">
+                  {/* Timeline Dot */}
+                  <div className="absolute -left-[46px] top-6 w-8 h-8 rounded-full bg-surface-container-lowest border-2 border-primary flex items-center justify-center text-xs font-black text-primary shadow-sm">
+                    {displayNum}
                   </div>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {part.decks.map((deck) => (
-                      <button
-                        key={deck.id}
-                        onClick={() => navigate(`/grammar/${deck.id}`)}
-                        className="group bg-surface-container-lowest border-2 border-outline-variant/50 overflow-hidden transition-all sharp-shadow hover:sharp-shadow-sm hover:-translate-y-0.5 text-left w-full"
-                      >
-                        <div
-                          className="h-1 w-full transition-all"
-                          style={{ background: 'var(--primary)', opacity: 0 }}
-                          ref={(el) => {
-                            if (el) {
-                              const btn = el.closest('button');
-                              if (btn) {
-                                btn.addEventListener('mouseenter', () => { el.style.opacity = '1'; });
-                                btn.addEventListener('mouseleave', () => { el.style.opacity = '0'; });
-                              }
-                            }
-                          }}
-                        />
-                        <div className="p-5">
-                          <div className="flex items-start gap-4">
-                            <div className="w-12 h-12 bg-primary/5 text-primary flex-shrink-0 flex flex-col items-center justify-center border border-primary/20">
-                              <span className="text-[10px] font-bold text-primary/75 leading-none">JLPT</span>
-                              <span className="text-lg font-bold leading-none mt-0.5">N{deck.jlptLevel || '?'}</span>
-                            </div>
+                  {/* Lesson card content */}
+                  <button
+                    onClick={() => navigate(`/grammar/${deck.id}`)}
+                    className="group bg-surface-container-lowest border-2 border-outline-variant/50 p-5 flex flex-col md:flex-row md:items-center justify-between gap-4 transition-all sharp-shadow hover:sharp-shadow-sm hover:-translate-y-0.5 w-full text-left"
+                  >
+                    <div className="space-y-1">
+                      <h3 className="font-jp font-bold text-on-surface text-base group-hover:text-primary transition-colors flex items-center gap-2">
+                        {deck.name}
+                      </h3>
+                      {deck.description && (
+                        <p className="text-xs text-on-surface-variant max-w-2xl leading-relaxed">
+                          {deck.description}
+                        </p>
+                      )}
+                    </div>
 
-                            <div className="min-w-0 flex-1">
-                              <h3 className="font-jp font-bold text-on-surface text-base leading-snug group-hover:text-primary transition-colors">
-                                {deck.name}
-                              </h3>
-                              {deck.description && (
-                                <p className="text-xs text-on-surface-variant line-clamp-2 mt-1 leading-relaxed">
-                                  {deck.description}
-                                </p>
-                              )}
-                            </div>
-                          </div>
-
-                          <div className="flex items-center justify-between mt-4 pt-3 border-t border-outline-variant/20">
-                            <span className="text-xs font-semibold px-2 py-1 bg-surface-container text-on-surface border border-outline-variant/40">
-                              {deck._count?.cards || 0} cấu trúc
-                            </span>
-                            <span className="inline-flex items-center gap-1 text-xs font-bold text-primary opacity-0 group-hover:opacity-100 transition-opacity">
-                              Xem lý thuyết <ChevronRight className="w-3.5 h-3.5" />
-                            </span>
-                          </div>
-                        </div>
-                      </button>
-                    ))}
-                  </div>
+                    <div className="flex items-center justify-between md:justify-end gap-6 shrink-0 border-t md:border-t-0 pt-3 md:pt-0 border-outline-variant/20">
+                      <span className="text-xs font-bold px-2.5 py-1 bg-surface-container text-on-surface border border-outline-variant/40">
+                        {deck._count?.cards || 0} cấu trúc
+                      </span>
+                      <span className="inline-flex items-center gap-1 text-xs font-bold text-primary opacity-80 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all">
+                        Xem lý thuyết <ChevronRight className="w-4.5 h-4.5" />
+                      </span>
+                    </div>
+                  </button>
                 </div>
-              ))}
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {filteredDecks.map((deck) => (
-                <button
-                  key={deck.id}
-                  onClick={() => navigate(`/grammar/${deck.id}`)}
-                  className="group bg-surface-container-lowest border-2 border-outline-variant/50 overflow-hidden transition-all sharp-shadow hover:sharp-shadow-sm hover:-translate-y-0.5 text-left w-full"
-                >
-                  <div
-                    className="h-1 w-full transition-all"
-                    style={{ background: 'var(--primary)', opacity: 0 }}
-                    ref={(el) => {
-                      if (el) {
-                        const btn = el.closest('button');
-                        if (btn) {
-                          btn.addEventListener('mouseenter', () => { el.style.opacity = '1'; });
-                          btn.addEventListener('mouseleave', () => { el.style.opacity = '0'; });
-                        }
-                      }
-                    }}
-                  />
-                  <div className="p-5">
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-primary/5 text-primary flex-shrink-0 flex flex-col items-center justify-center border border-primary/20">
-                        <span className="text-[10px] font-bold text-primary/75 leading-none">JLPT</span>
-                        <span className="text-lg font-bold leading-none mt-0.5">N{deck.jlptLevel || '?'}</span>
-                      </div>
-
-                      <div className="min-w-0 flex-1">
-                        <h3 className="font-jp font-bold text-on-surface text-base leading-snug group-hover:text-primary transition-colors">
-                          {deck.name}
-                        </h3>
-                        {deck.description && (
-                          <p className="text-xs text-on-surface-variant line-clamp-2 mt-1 leading-relaxed">
-                            {deck.description}
-                          </p>
-                        )}
-                      </div>
-                    </div>
-
-                    <div className="flex items-center justify-between mt-4 pt-3 border-t border-outline-variant/20">
-                      <span className="text-xs font-semibold px-2 py-1 bg-surface-container text-on-surface border border-outline-variant/40">
-                        {deck._count?.cards || 0} điểm ngữ pháp
-                      </span>
-                      <span className="inline-flex items-center gap-1 text-xs font-bold text-primary opacity-0 group-hover:opacity-100 transition-opacity">
-                        Xem lý thuyết <ChevronRight className="w-3.5 h-3.5" />
-                      </span>
-                    </div>
-                  </div>
-                </button>
-              ))}
-            </div>
-          )}
+              );
+            })}
+          </div>
         </div>
       )}
     </div>
