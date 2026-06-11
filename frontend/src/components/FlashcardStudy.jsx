@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Check, RotateCw, Shuffle } from 'lucide-react';
 import CollapsibleExample from './CollapsibleExample';
@@ -25,43 +25,48 @@ export default function FlashcardStudy({ deck, onComplete }) {
   const [isAutoplay, setIsAutoplay] = useState(false);
   const [isShuffled, setIsShuffled] = useState(false);
 
-  const cards = useMemo(() => {
+  const [cards, setCards] = useState(() => deck.cards || []);
+
+  useEffect(() => {
     const original = deck.cards || [];
-    if (!isShuffled) return original;
-    const shuffled = [...original];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    if (!isShuffled) {
+      setCards(original);
+    } else {
+      const shuffled = [...original];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      setCards(shuffled);
     }
-    return shuffled;
   }, [deck.cards, isShuffled]);
 
   const currentCard = cards[currentIndex];
   const progress = cards.length > 0 ? ((currentIndex + 1) / cards.length) * 100 : 0;
 
-  const handleFlip = () => {
+  const handleFlip = useCallback(() => {
     if (!currentCard) return;
     if (!isFlipped) {
       setStudiedCards((prev) => new Set([...prev, currentCard.id]));
     }
-    setIsFlipped(!isFlipped);
-  };
+    setIsFlipped((prev) => !prev);
+  }, [currentCard, isFlipped]);
 
-  const handleNext = () => {
+  const handleNext = useCallback(() => {
     if (currentIndex < cards.length - 1) {
-      setCurrentIndex(currentIndex + 1);
+      setCurrentIndex((prev) => prev + 1);
       setIsFlipped(false);
     } else if (isAutoplay) {
       setIsAutoplay(false);
     }
-  };
+  }, [currentIndex, cards.length, isAutoplay]);
 
-  const handlePrev = () => {
+  const handlePrev = useCallback(() => {
     if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
+      setCurrentIndex((prev) => prev - 1);
       setIsFlipped(false);
     }
-  };
+  }, [currentIndex]);
 
   const handleComplete = () => {
     if (onComplete) {
@@ -91,7 +96,7 @@ export default function FlashcardStudy({ deck, onComplete }) {
     }, 3000);
 
     return () => clearInterval(timer);
-  }, [isAutoplay, isFlipped, currentIndex, cards]);
+  }, [isAutoplay, isFlipped, currentIndex, cards.length, handleFlip, handleNext]);
 
   // Keyboard Navigation Hook
   useEffect(() => {
@@ -112,7 +117,7 @@ export default function FlashcardStudy({ deck, onComplete }) {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentIndex, isFlipped, cards]);
+  }, [currentIndex, isFlipped, cards, handleFlip, handleNext, handlePrev]);
 
   if (!cards.length) {
     return (

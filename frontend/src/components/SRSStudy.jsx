@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { RotateCw } from 'lucide-react';
@@ -148,18 +148,18 @@ export default function SRSStudy({ dueData, onComplete }) {
     },
   });
 
-  const handleReview = (quality) => {
+  const handleReview = useCallback((quality) => {
     if (!currentCard || reviewMutation.isPending || showResult) return;
     if (!isFlipped) {
       setIsFlipped(true);
     }
     reviewMutation.mutate({ cardId: currentCard.id, quality });
-  };
+  }, [currentCard, reviewMutation, showResult, isFlipped]);
 
-  const handleFlip = () => {
+  const handleFlip = useCallback(() => {
     if (showResult) return;
-    setIsFlipped(!isFlipped);
-  };
+    setIsFlipped((prev) => !prev);
+  }, [showResult]);
 
   // Keyboard navigation & Anki style shortcuts
   useEffect(() => {
@@ -192,7 +192,7 @@ export default function SRSStudy({ dueData, onComplete }) {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentIndex, isFlipped, currentCard, cards]);
+  }, [currentIndex, isFlipped, currentCard, cards, handleFlip, handleReview]);
 
   if (!cards.length) {
     return (
