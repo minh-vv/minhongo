@@ -76,6 +76,15 @@ export class FlashcardsService {
             },
           },
         },
+        lessonDecks: {
+          include: {
+            lesson: {
+              include: {
+                course: true,
+              },
+            },
+          },
+        },
       },
     });
 

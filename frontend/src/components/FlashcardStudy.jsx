@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, Check, RotateCw } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Check, RotateCw, Shuffle } from 'lucide-react';
 import CollapsibleExample from './CollapsibleExample';
 
 function speakJapanese(text) {
@@ -23,8 +23,19 @@ export default function FlashcardStudy({ deck, onComplete }) {
   const [isFlipped, setIsFlipped] = useState(false);
   const [studiedCards, setStudiedCards] = useState(new Set());
   const [isAutoplay, setIsAutoplay] = useState(false);
+  const [isShuffled, setIsShuffled] = useState(false);
 
-  const cards = deck.cards || [];
+  const cards = useMemo(() => {
+    const original = deck.cards || [];
+    if (!isShuffled) return original;
+    const shuffled = [...original];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  }, [deck.cards, isShuffled]);
+
   const currentCard = cards[currentIndex];
   const progress = cards.length > 0 ? ((currentIndex + 1) / cards.length) * 100 : 0;
 
@@ -243,43 +254,62 @@ export default function FlashcardStudy({ deck, onComplete }) {
       </div>
 
       {/* Sleek rect controls with sharp shadow matching the project template */}
-      <div className="flex items-center justify-between gap-3 w-full">
-        {/* Autoplay */}
-        <button
-          onClick={() => setIsAutoplay(!isAutoplay)}
-          className={`px-5 py-3 border-2 border-outline-variant bg-surface-container-lowest text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm ${
-            isAutoplay ? 'text-secondary border-secondary bg-secondary/5 font-black' : 'text-on-surface hover:bg-surface-container'
-          }`}
-        >
-          {isAutoplay ? 'Dừng chạy' : 'Tự chạy'}
-        </button>
-
-        {/* Prev */}
-        <button
-          onClick={handlePrev}
-          disabled={currentIndex === 0}
-          className="flex-1 flex items-center justify-center gap-2 px-6 py-3 border-2 border-outline-variant bg-surface-container-lowest text-on-surface hover:bg-surface-container text-xs font-bold uppercase tracking-wider disabled:opacity-40 disabled:cursor-not-allowed transition-all sharp-shadow-sm"
-        >
-          <ArrowLeft className="w-4 h-4" /> <span>Trước</span>
-        </button>
-
-        {/* Next/Complete */}
-        {currentIndex === cards.length - 1 ? (
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-3 w-full">
+        <div className="flex gap-2 w-full sm:w-auto">
+          {/* Autoplay */}
           <button
-            onClick={handleComplete}
-            className="flex-1 flex items-center justify-center gap-2 px-6 py-3 text-on-secondary hover:bg-secondary-dim text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm"
-            style={{ background: 'var(--secondary)' }}
+            onClick={() => setIsAutoplay(!isAutoplay)}
+            className={`flex-1 sm:flex-initial px-4 py-3 border-2 border-outline-variant bg-surface-container-lowest text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm ${
+              isAutoplay ? 'text-secondary border-secondary bg-secondary/5 font-black' : 'text-on-surface hover:bg-surface-container'
+            }`}
           >
-            Hoàn thành <Check className="w-4 h-4" />
+            {isAutoplay ? 'Dừng chạy' : 'Tự chạy'}
           </button>
-        ) : (
+
+          {/* Shuffle */}
           <button
-            onClick={handleNext}
-            className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-primary hover:bg-primary-container text-on-primary text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm"
+            onClick={() => {
+              setIsShuffled(!isShuffled);
+              setCurrentIndex(0);
+              setIsFlipped(false);
+            }}
+            className={`flex-1 sm:flex-initial px-4 py-3 border-2 border-outline-variant bg-surface-container-lowest text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm flex items-center justify-center gap-1.5 ${
+              isShuffled ? 'text-secondary border-secondary bg-secondary/5 font-black' : 'text-on-surface hover:bg-surface-container'
+            }`}
           >
-            Tiếp theo <ArrowRight className="w-4 h-4" />
+            <Shuffle className="w-3.5 h-3.5" />
+            <span>{isShuffled ? 'Thứ tự gốc' : 'Tráo thẻ'}</span>
           </button>
-        )}
+        </div>
+
+        <div className="flex gap-2 flex-1 w-full">
+          {/* Prev */}
+          <button
+            onClick={handlePrev}
+            disabled={currentIndex === 0}
+            className="flex-1 flex items-center justify-center gap-2 px-4 py-3 border-2 border-outline-variant bg-surface-container-lowest text-on-surface hover:bg-surface-container text-xs font-bold uppercase tracking-wider disabled:opacity-40 disabled:cursor-not-allowed transition-all sharp-shadow-sm"
+          >
+            <ArrowLeft className="w-4 h-4" /> <span>Trước</span>
+          </button>
+
+          {/* Next/Complete */}
+          {currentIndex === cards.length - 1 ? (
+            <button
+              onClick={handleComplete}
+              className="flex-1 flex items-center justify-center gap-2 px-4 py-3 text-on-secondary hover:bg-secondary-dim text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm"
+              style={{ background: 'var(--secondary)' }}
+            >
+              <span>Hoàn thành</span> <Check className="w-4 h-4" />
+            </button>
+          ) : (
+            <button
+              onClick={handleNext}
+              className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-primary hover:bg-primary-container text-on-primary text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm"
+            >
+              <span>Tiếp theo</span> <ArrowRight className="w-4 h-4" />
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Stats Footer & Keyboard shortcuts hint */}

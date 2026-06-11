@@ -145,13 +145,22 @@ function TheoryPhase({ lesson, nextLesson, onContinue }) {
         >
           Tiếp theo: Học từ vựng →
         </button>
-        {nextLesson && !nextLesson.locked && (
-          <Link
-            to={`/learn/${nextLesson.id}`}
-            className="flex-1 sm:flex-initial px-6 py-3 bg-white border border-gray-300 hover:bg-gray-50 text-gray-700 font-semibold rounded-xl shadow-sm transition-colors text-center flex items-center justify-center"
-          >
-            Bài {nextLesson.order} →
-          </Link>
+        {nextLesson && (
+          nextLesson.locked ? (
+            <button
+              disabled
+              className="flex-1 sm:flex-initial px-6 py-3 bg-gray-100 border border-gray-200 text-gray-400 font-semibold rounded-xl cursor-not-allowed text-center flex items-center justify-center gap-1.5"
+            >
+              🔒 Bài {nextLesson.order} →
+            </button>
+          ) : (
+            <Link
+              to={`/learn/${nextLesson.id}`}
+              className="flex-1 sm:flex-initial px-6 py-3 bg-white border border-gray-300 hover:bg-gray-50 text-gray-700 font-semibold rounded-xl shadow-sm transition-colors text-center flex items-center justify-center"
+            >
+              Bài {nextLesson.order} →
+            </Link>
+          )
         )}
       </div>
     </div>
@@ -161,7 +170,7 @@ function TheoryPhase({ lesson, nextLesson, onContinue }) {
 // ============================================================
 // REVIEW PHASE — flashcard quick
 // ============================================================
-function ReviewPhase({ cards, onContinue }) {
+function ReviewPhase({ cards, courseSlug, courseTitle, onContinue }) {
   const [idx, setIdx] = useState(0);
   const [flipped, setFlipped] = useState(false);
 
@@ -187,6 +196,16 @@ function ReviewPhase({ cards, onContinue }) {
   if (!card) {
     return (
       <div className="max-w-2xl mx-auto p-8 text-center flex flex-col items-center">
+        {courseSlug && (
+          <div className="mb-4 w-full text-left">
+            <Link
+              to={`/courses/${courseSlug}`}
+              className="text-sm text-indigo-600 hover:underline"
+            >
+              ← {courseTitle || 'Quay lại giáo trình'}
+            </Link>
+          </div>
+        )}
         <p className="text-xl text-slate-500 font-medium mb-6">Bài này chưa có từ vựng để ôn.</p>
         <button
           onClick={onContinue}
@@ -200,6 +219,14 @@ function ReviewPhase({ cards, onContinue }) {
 
   return (
     <div className="max-w-2xl mx-auto p-6 md:p-8">
+      <div className="mb-4">
+        <Link
+          to={`/courses/${courseSlug}`}
+          className="text-sm text-indigo-600 hover:underline"
+        >
+          ← {courseTitle}
+        </Link>
+      </div>
       {/* Header & Progress */}
       <div className="mb-8">
         <div className="flex items-end justify-between mb-3">
@@ -317,7 +344,7 @@ function ReviewPhase({ cards, onContinue }) {
 // ============================================================
 // TEST PHASE — multiple choice quiz
 // ============================================================
-function TestPhase({ questions, passScore, onFinish }) {
+function TestPhase({ questions, passScore, courseSlug, courseTitle, onFinish }) {
   const [idx, setIdx] = useState(0);
   const [answers, setAnswers] = useState({});
   const [selected, setSelected] = useState(null);
@@ -351,6 +378,16 @@ function TestPhase({ questions, passScore, onFinish }) {
   if (!q) {
     return (
       <div className="max-w-2xl mx-auto p-8 text-center text-gray-600">
+        {courseSlug && (
+          <div className="mb-4 text-left">
+            <Link
+              to={`/courses/${courseSlug}`}
+              className="text-sm text-indigo-600 hover:underline"
+            >
+              ← {courseTitle || 'Quay lại giáo trình'}
+            </Link>
+          </div>
+        )}
         Không có câu hỏi để kiểm tra.
       </div>
     );
@@ -360,6 +397,14 @@ function TestPhase({ questions, passScore, onFinish }) {
 
   return (
     <div className="max-w-2xl mx-auto p-6 md:p-8">
+      <div className="mb-4">
+        <Link
+          to={`/courses/${courseSlug}`}
+          className="text-sm text-indigo-600 hover:underline"
+        >
+          ← {courseTitle}
+        </Link>
+      </div>
       <div className="mb-2 flex items-center justify-between text-sm text-gray-500">
         <span>
           Câu {idx + 1} / {questions.length}
@@ -436,12 +481,21 @@ function TestPhase({ questions, passScore, onFinish }) {
 // ============================================================
 // RESULT PHASE
 // ============================================================
-function ResultPhase({ result, lesson, onRetry }) {
+function ResultPhase({ result, lesson, nextLesson, onRetry }) {
   const navigate = useNavigate();
-  const { passed, score, passScore, correct, total, nextLessonId } = result;
+  const { passed, score, passScore, correct, total } = result;
 
   return (
     <div className="max-w-2xl mx-auto p-6 md:p-8">
+      <div className="mb-4">
+        <Link
+          to={`/courses/${lesson.course.slug}`}
+          className="text-sm text-indigo-600 hover:underline"
+        >
+          ← {lesson.course.title}
+        </Link>
+      </div>
+
       <div
         className={`rounded-2xl shadow-md p-8 md:p-10 text-center text-white ${
           passed
@@ -469,33 +523,44 @@ function ResultPhase({ result, lesson, onRetry }) {
       </div>
 
       <div className="flex flex-col gap-2 mt-6">
-        {passed && nextLessonId ? (
-          <button
-            onClick={() => navigate(`/learn/${nextLessonId}`)}
-            className="px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl"
-          >
-            Bài {lesson.order + 1} →
-          </button>
-        ) : passed ? (
-          <Link
-            to={`/courses/${lesson.course.slug}`}
-            className="text-center px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl"
-          >
-            Quay lại lộ trình
-          </Link>
-        ) : (
+        {nextLesson && (
+          !nextLesson.locked ? (
+            <Link
+              to={`/learn/${nextLesson.id}`}
+              className="text-center px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl"
+            >
+              Bài {nextLesson.order} →
+            </Link>
+          ) : (
+            <button
+              disabled
+              className="px-5 py-3 bg-gray-100 border border-gray-200 text-gray-400 font-semibold rounded-xl cursor-not-allowed flex items-center justify-center gap-1.5"
+            >
+              🔒 Bài {nextLesson.order} →
+            </button>
+          )
+        )}
+
+        {!passed ? (
           <button
             onClick={onRetry}
             className="px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl"
           >
             Làm lại bài kiểm tra
           </button>
+        ) : (
+          <button
+            onClick={onRetry}
+            className="px-5 py-3 bg-white border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-50 transition-colors"
+          >
+            Làm lại bài kiểm tra (Cải thiện điểm)
+          </button>
         )}
         <Link
           to={`/courses/${lesson.course.slug}`}
           className="text-center px-5 py-3 bg-white border border-gray-300 text-gray-700 font-medium rounded-xl hover:bg-gray-50"
         >
-          Về lộ trình
+          Quay lại giáo trình
         </Link>
       </div>
     </div>
@@ -610,6 +675,8 @@ export default function CourseLessonPage() {
     return (
       <ReviewPhase
         cards={deckData.cards || []}
+        courseSlug={lesson.course.slug}
+        courseTitle={lesson.course.title}
         onContinue={() => setPhase(PHASE.TEST)}
       />
     );
@@ -639,6 +706,8 @@ export default function CourseLessonPage() {
       <TestPhase
         questions={questions}
         passScore={lesson.test?.passScore ?? 70}
+        courseSlug={lesson.course.slug}
+        courseTitle={lesson.course.title}
         onFinish={async ({ score, correct, total }) => {
           const apiResult = await completeMutation.mutateAsync(score);
           setResult({ ...apiResult, correct, total });
@@ -653,6 +722,7 @@ export default function CourseLessonPage() {
     <ResultPhase
       result={result}
       lesson={lesson}
+      nextLesson={nextLesson}
       onRetry={() => {
         setResult(null);
         setPhase(PHASE.TEST);
