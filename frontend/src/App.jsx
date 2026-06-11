@@ -16,7 +16,7 @@ import CustomRoadmapPage from './pages/CustomRoadmapPage';
 import SelfStudyPage from './pages/SelfStudyPage';
 import DeckDetailPage from './pages/DeckDetailPage';
 import StudyPage from './pages/StudyPage';
-import QuizPage from './pages/QuizPage';
+import PracticePage from './pages/PracticePage';
 import LessonPage from './pages/LessonPage';
 import CourseLessonPage from './pages/CourseLessonPage';
 import CoursePage from './pages/CoursePage';
@@ -28,7 +28,7 @@ import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import ResetPasswordPage from './pages/ResetPasswordPage';
 import ProfilePage from './pages/ProfilePage';
 import DemoPage from './pages/DemoPage';
-import ExercisePage from './pages/ExercisePage';
+
 import ProgressPage from './pages/ProgressPage';
 import LeaderboardPage from './pages/LeaderboardPage';
 import CommunityPage from './pages/CommunityPage';
@@ -85,7 +85,8 @@ function AppRoutes() {
         <Route path="/self-study" element={<SelfStudyPage />} />
         <Route path="/deck/:deckId" element={<DeckDetailPage />} />
         <Route path="/study/:deckId" element={<StudyPage />} />
-        <Route path="/quiz/:deckId" element={<QuizPage />} />
+        <Route path="/quiz/:deckId" element={<Navigate to={window.location.pathname.replace('/quiz/', '/practice/')} replace />} />
+        <Route path="/practice/:deckId" element={<PracticePage />} />
         <Route path="/lesson/:deckId" element={<LessonPage />} />
         <Route path="/courses/:slug" element={<CoursePage />} />
         <Route path="/learn/:lessonId" element={<CourseLessonPage />} />
@@ -95,7 +96,7 @@ function AppRoutes() {
         <Route path="/admin/settings" element={<AdminSettingsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/demo/:deckId" element={<DemoPage />} />
-        <Route path="/exercises/:deckId" element={<ExercisePage />} />
+        <Route path="/exercises/:deckId" element={<Navigate to={window.location.pathname.replace('/exercises/', '/practice/')} replace />} />
         <Route path="/progress" element={<ProgressPage />} />
         <Route path="/leaderboard" element={<LeaderboardPage />} />
         <Route path="/community" element={<CommunityPage />} />

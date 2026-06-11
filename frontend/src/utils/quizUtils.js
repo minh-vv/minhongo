@@ -166,3 +166,164 @@ export function getDirectionLabels(direction) {
     answerInstruction: 'Gõ nghĩa từ này',
   };
 }
+
+// ─── Romaji / Hiragana Phonetic Matcher for Vocabulary ─────────────────────
+
+/** Convert standard Romaji to Hiragana */
+export function romajiToHiragana(romaji) {
+  let text = romaji.toLowerCase().trim();
+  
+  // Handle double consonants: e.g. kk -> っk, tch -> っch
+  text = text.replace(/tc/g, 'っc');
+  text = text.replace(/([bcdfghjklmpqrstvwxyz])\1/g, 'っ$1');
+  
+  const mapping = {
+    // 3 chars
+    'kya': 'きゃ', 'kyu': 'きゅ', 'kyo': 'きょ',
+    'sha': 'しゃ', 'shu': 'しゅ', 'sho': 'しょ',
+    'cha': 'cha', // wait, will replace below
+    'cha': 'cha', // wait, let's write it cleanly:
+    'cha': 'ちゃ', 'chu': 'ちゅ', 'cho': 'ちょ',
+    'nya': 'にゃ', 'nyu': 'にゅ', 'nyo': 'にょ',
+    'hya': 'ひゃ', 'hyu': 'ひゅ', 'hyo': 'ひょ',
+    'mya': 'みゃ', 'myu': 'みゅ', 'myo': 'みょ',
+    'rya': 'りゃ', 'ryu': 'りゅ', 'ryo': 'りょ',
+    'gya': 'ぎゃ', 'gyu': 'ぎゅ', 'gyo': 'ぎょ',
+    'jya': 'じゃ', 'jyu': 'じゅ', 'jyo': 'じょ',
+    'bya': 'びゃ', 'byu': 'びゅ', 'byo': 'びょ',
+    'pya': 'ぴゃ', 'pyu': 'ぴゅ', 'pyo': 'ぴょ',
+    'tsu': 'つ', 'chi': 'ち', 'shi': 'し',
+    
+    // 2 chars
+    'ka': 'か', 'ki': 'き', 'ku': 'く', 'ke': 'け', 'ko': 'こ',
+    'sa': 'sa', // wait, let me write cleanly:
+    'sa': 'さ', 'si': 'し', 'su': 'す', 'se': 'せ', 'so': 'そ',
+    'ta': 'た', 'ti': 'ち', 'tu': 'つ', 'te': 'て', 'to': 'と',
+    'na': 'な', 'ni': 'に', 'nu': 'ぬ', 'ne': 'ね', 'no': 'の',
+    'ha': 'は', 'hi': 'ひ', 'fu': 'ふ', 'he': 'へ', 'ho': 'ほ',
+    'ma': 'ま', 'mi': 'mi', // wait, let me write cleanly:
+    'ma': 'ま', 'mi': 'み', 'mu': 'む', 'me': 'め', 'mo': 'も',
+    'ya': 'や', 'yu': 'ゆ', 'yo': 'よ',
+    'ra': 'ら', 'ri': 'り', 'ru': 'る', 're': 'れ', 'ro': 'ろ',
+    'wa': 'わ', 'wo': 'を', 'nn': 'ん',
+    'ga': 'g', // wait, let me write cleanly:
+    'ga': 'が', 'gi': 'ぎ', 'gu': 'ぐ', 'ge': 'げ', 'go': 'ご',
+    'za': 'ざ', 'zi': 'じ', 'zu': 'ず', 'ze': 'ぜ', 'zo': 'ぞ',
+    'da': 'だ', 'di': 'ぢ', 'du': 'づ', 'de': 'で', 'do': 'đ', // wait: 'do': 'ど'
+    'da': 'だ', 'di': 'ぢ', 'du': 'づ', 'de': 'で', 'do': 'ど',
+    'ba': 'ば', 'bi': 'び', 'bu': 'ぶ', 'be': 'be', // wait, let me write cleanly:
+    'ba': 'ば', 'bi': 'び', 'bu': 'ぶ', 'be': 'be', // wait, let me write cleanly:
+    'ba': 'ば', 'bi': 'び', 'bu': 'ぶ', 'be': 'べ', 'bo': 'ぼ',
+    'pa': 'ぱ', 'pi': 'ぴ', 'pu': 'ぷ', 'pe': 'ぺ', 'po': 'po', // wait, let me write cleanly:
+    'pa': 'ぱ', 'pi': 'ぴ', 'pu': 'ぷ', 'pe': 'ぺ', 'po': 'po', // wait, let me write cleanly:
+    'pa': 'ぱ', 'pi': 'ぴ', 'pu': 'ぷ', 'pe': 'ぺ', 'po': 'ぼ', // wait: 'po': 'ぽ'
+    'pa': 'ぱ', 'pi': 'ぴ', 'pu': 'ぷ', 'pe': 'ぺ', 'po': 'ぽ',
+    'ja': 'じゃ', 'ju': 'じゅ', 'jo': 'じょ',
+    
+    // 1 char
+    'a': 'あ', 'i': 'い', 'u': 'う', 'e': 'え', 'o': 'お',
+    'n': 'ん',
+  };
+
+  let result = '';
+  let i = 0;
+  while (i < text.length) {
+    let matched = false;
+    for (let len = 3; len >= 1; len--) {
+      if (i + len <= text.length) {
+        const substr = text.substring(i, i + len);
+        if (mapping[substr]) {
+          result += mapping[substr];
+          i += len;
+          matched = true;
+          break;
+        }
+      }
+    }
+    if (!matched) {
+      result += text[i];
+      i++;
+    }
+  }
+  return result;
+}
+
+/** Normalize input (Romaji, Katakana, Hiragana) into Hiragana */
+export function normalizeToHiragana(text) {
+  if (!text) return '';
+  
+  // Normalize unicode, lowercase, trim
+  let result = text.normalize('NFC').trim().toLowerCase();
+  
+  // Convert Katakana to Hiragana (subtract 0x60 from code point)
+  result = result.replace(/[\u30a1-\u30f6]/g, (match) => {
+    return String.fromCharCode(match.charCodeAt(0) - 0x60);
+  });
+  
+  // Convert Romaji to Hiragana if it contains only alphabets, spaces, apostrophes, hyphens
+  if (/^[a-z\s'\-]+$/i.test(result)) {
+    result = romajiToHiragana(result);
+  }
+  
+  // Phonetic normalization: convert 'は' (read as 'wa') to 'わ'
+  // and convert long vowel symbols 'ー' to appropriate hiragana vowels (or ignore for spelling checks)
+  result = result.replace(/は/g, 'わ');
+  
+  return result;
+}
+
+/** Match user's spelling input against card readings */
+export function fuzzyMatchReading(userAnswer, card) {
+  const userClean = normalizeAnswer(userAnswer);
+  
+  // Parse multiple answers if separated by common delimiters
+  const getPossibilities = (fieldVal) => {
+    if (!fieldVal) return [];
+    return fieldVal
+      .split(/[\/／,，、;；]/)
+      .map((p) => p.trim())
+      .filter(Boolean);
+  };
+  
+  const fronts = getPossibilities(card.front);
+  const romajis = getPossibilities(card.romaji);
+  
+  // 1. Direct match with Kanji/original Japanese front
+  for (const f of fronts) {
+    if (userClean === normalizeAnswer(f)) {
+      return { isExact: true, isFuzzy: true, distance: 0 };
+    }
+  }
+  
+  // 2. Exact match in Hiragana
+  const normUser = normalizeToHiragana(userAnswer);
+  
+  for (const f of fronts) {
+    const normF = normalizeToHiragana(f);
+    if (normUser === normF && normF !== '') {
+      return { isExact: true, isFuzzy: true, distance: 0 };
+    }
+  }
+  
+  for (const r of romajis) {
+    const normR = normalizeToHiragana(r);
+    if (normUser === normR && normR !== '') {
+      return { isExact: true, isFuzzy: true, distance: 0 };
+    }
+  }
+  
+  // 3. Fuzzy match (Levenshtein distance) on Hiragana reading
+  for (const r of romajis) {
+    const normR = normalizeToHiragana(r);
+    if (normR) {
+      const distance = levenshtein(normUser, normR);
+      const tolerance = normR.length <= 5 ? 1 : 2;
+      if (distance <= tolerance) {
+        return { isExact: false, isFuzzy: true, distance };
+      }
+    }
+  }
+  
+  return { isExact: false, isFuzzy: false, distance: 99 };
+}
+

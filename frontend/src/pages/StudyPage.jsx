@@ -73,16 +73,15 @@ export default function StudyPage() {
 
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
-            <h1 className="font-headline text-2xl font-bold text-on-surface">{deckName || 'Đang tải...'}</h1>
-            <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mt-1">
-              {mode === 'srs' ? 'Spaced Repetition (SRS)' : 'Ôn tập thẻ ghi nhớ'}
-            </p>
+            <h1 className="font-headline text-2xl font-bold text-on-surface">
+              {mode === 'srs' ? 'Học SRS' : 'Học Thẻ ghi nhớ (Flashcard)'}
+            </h1>
           </div>
         </div>
       </div>
 
       {/* Stats Bar */}
-      {stats && (
+      {stats && mode === 'srs' && (
         <div className="bg-surface-container-lowest border border-outline-variant/30 sharp-shadow-sm flex justify-around py-4 text-center">
           <div>
             <div className="text-2xl font-black text-blue-600 leading-none">{stats.newCards}</div>
@@ -102,30 +101,6 @@ export default function StudyPage() {
           </div>
         </div>
       )}
-
-      {/* Mode Toggle */}
-      <div className="flex bg-surface-container-low border border-outline-variant/30 p-1">
-        <Link
-          to={`/study/${deckId}?mode=normal`}
-          className={`flex-1 py-2 text-center text-xs font-bold uppercase tracking-wider transition-colors ${
-            mode === 'normal'
-              ? 'bg-surface-container-lowest text-secondary shadow-sm'
-              : 'text-on-surface-variant hover:text-on-surface'
-          }`}
-        >
-          Học thường
-        </Link>
-        <Link
-          to={`/study/${deckId}?mode=srs`}
-          className={`flex-1 py-2 text-center text-xs font-bold uppercase tracking-wider transition-colors ${
-            mode === 'srs'
-              ? 'bg-surface-container-lowest text-secondary shadow-sm'
-              : 'text-on-surface-variant hover:text-on-surface'
-          }`}
-        >
-          SRS ({dueData?.dueCount || 0} due)
-        </Link>
-      </div>
 
       {/* Study Content */}
       {mode === 'srs' ? (

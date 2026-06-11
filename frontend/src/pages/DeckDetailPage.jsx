@@ -1,11 +1,13 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { createPortal } from 'react-dom';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
+import { coursesApi } from '../api/coursesApi';
 import { useAuth } from '../hooks/useAuth';
 import KanjiInteractiveWorkspace from '../components/KanjiInteractiveWorkspace';
 import CollapsibleExample from '../components/CollapsibleExample';
+import { BookOpen, Layers, RefreshCw, HelpCircle, PenTool, CheckSquare, Lock } from 'lucide-react';
 
 function speakJapanese(text) {
   if (!window.speechSynthesis) return;
@@ -20,6 +22,40 @@ function speakJapanese(text) {
   utterance.pitch = 1.0;
   window.speechSynthesis.speak(utterance);
 }
+
+const getBookInfo = (deck) => {
+  if (!deck) return { id: 'other', title: 'Khác' };
+  const nameLower = deck.name.toLowerCase();
+  const descLower = (deck.description || '').toLowerCase();
+  
+  if (nameLower.includes('minna') || nameLower.includes('nihongo') || descLower.includes('minna')) {
+    return { id: 'minna', title: 'Minna no Nihongo' };
+  }
+  if (nameLower.includes('kanzen') || nameLower.includes('shin kanzen') || nameLower.includes('shinkanzen') || descLower.includes('kanzen')) {
+    return { id: 'kanzen', title: 'Shin Kanzen Master' };
+  }
+  if (nameLower.includes('soumatome') || nameLower.includes('somatome') || descLower.includes('soumatome')) {
+    return { id: 'soumatome', title: 'Nihongo Soumatome' };
+  }
+  if (nameLower.includes('mimikara') || nameLower.includes('mimi kara') || descLower.includes('mimikara')) {
+    return { id: 'mimikara', title: 'Mimikara Oboeru' };
+  }
+  if (nameLower.includes('try') || descLower.includes('try!')) {
+    return { id: 'try', title: 'Try! Tăng cường ngữ pháp' };
+  }
+  if (nameLower.includes('genki') || descLower.includes('genki')) {
+    return { id: 'genki', title: 'Genki' };
+  }
+  if (nameLower.includes('dekiru') || descLower.includes('dekiru')) {
+    return { id: 'dekiru', title: 'Dekiru Nihongo' };
+  }
+  return { id: 'other', title: 'Tài liệu khác' };
+};
+
+const getLessonNumber = (name) => {
+  const match = name.match(/Bài\s*(?:học\s*)?(\d+)/i);
+  return match ? parseInt(match[1]) : 999;
+};
 
 const JLPT_LEVELS = [5, 4, 3, 2, 1];
 
@@ -231,11 +267,68 @@ export default function DeckDetailPage() {
     queryFn: () => flashcardApi.getDeck(deckId),
   });
 
+  const associatedCourse = useMemo(() => {
+    return deck?.lessonDecks?.[0]?.lesson?.course;
+  }, [deck]);
+
+  const associatedLesson = useMemo(() => {
+    return deck?.lessonDecks?.[0]?.lesson;
+  }, [deck]);
+
+  // Lấy thông tin lộ trình khóa học nếu có khóa học liên kết
+  const { data: courseData } = useQuery({
+    queryKey: ['course', associatedCourse?.slug],
+    queryFn: () => coursesApi.getCourse(associatedCourse.slug),
+    enabled: !!associatedCourse?.slug,
+  });
+
+  // Lấy danh sách public decks để xác định bài tiếp theo trong cùng giáo trình
+  const { data: publicDecks } = useQuery({
+    queryKey: ['publicDecks', deck?.category],
+    queryFn: () => flashcardApi.getPublicDecks(),
+    enabled: !!deck?.category,
+  });
+
+  const nextDeck = useMemo(() => {
+    if (!deck || !publicDecks) return null;
+    const book = getBookInfo(deck);
+    const level = deck.jlptLevel || 5;
+
+    // Lọc các deck cùng giáo trình, cùng cấp độ và cùng category
+    const siblingDecks = publicDecks
+      .filter((d) => {
+        const dBook = getBookInfo(d);
+        const dLvl = d.jlptLevel || 5;
+        return d.category === deck.category && dBook.id === book.id && dLvl === level;
+      })
+      .sort((a, b) => {
+        const numA = getLessonNumber(a.name);
+        const numB = getLessonNumber(b.name);
+        if (numA !== numB) return numA - numB;
+        return a.name.localeCompare(b.name);
+      });
+
+    // Tìm index của deck hiện tại
+    const currentIndex = siblingDecks.findIndex((d) => d.id === deck.id);
+    if (currentIndex !== -1 && currentIndex < siblingDecks.length - 1) {
+      return siblingDecks[currentIndex + 1];
+    }
+    return null;
+  }, [deck, publicDecks]);
+
   // Lấy stats
   const { data: stats } = useQuery({
     queryKey: ['deckStats', deckId],
     queryFn: () => flashcardApi.getDeckStats(deckId),
   });
+
+  const hasExamples = useMemo(() => {
+    return deck?.cards?.some((c) => {
+      if (!c.example) return false;
+      const jpLine = c.example.split('\n')[0] || '';
+      return jpLine.includes(c.front);
+    }) ?? false;
+  }, [deck]);
 
   // Tạo thẻ mới
   const createCardMutation = useMutation({
@@ -285,14 +378,17 @@ export default function DeckDetailPage() {
   });
 
   // Lọc cards theo search
-  const filteredCards = deck?.cards?.filter((card) => {
+  const filteredCards = useMemo(() => {
+    const cards = deck?.cards || [];
     const search = searchTerm.toLowerCase();
-    return (
-      card.front.toLowerCase().includes(search) ||
-      card.back.toLowerCase().includes(search) ||
-      card.romaji?.toLowerCase().includes(search)
-    );
-  });
+    return cards.filter((card) => {
+      return (
+        card.front.toLowerCase().includes(search) ||
+        card.back.toLowerCase().includes(search) ||
+        card.romaji?.toLowerCase().includes(search)
+      );
+    });
+  }, [deck, searchTerm]);
 
   if (isLoading) {
     return (
@@ -320,6 +416,35 @@ export default function DeckDetailPage() {
   const isCuratedDeck =
     deck?.isPublic ||
     ['HANTU', 'TUVUNG', 'NGUPHAP'].includes(deck?.category);
+  const getParentPath = () => {
+    if (!deck) return '/dashboard';
+    
+    // Check if it belongs to a curated textbook
+    const book = getBookInfo(deck);
+    const level = deck.jlptLevel || 5;
+    let basePath = '/vocabulary';
+    if (deck.category === 'HANTU') basePath = '/kanji';
+    else if (deck.category === 'NGUPHAP') basePath = '/grammar';
+
+    if (book.id !== 'other') {
+      return `${basePath}/${book.id}/${level}`;
+    }
+
+    // Fallback if associated with a course
+    if (associatedCourse) {
+      return `/courses/${associatedCourse.slug}`;
+    }
+
+    // Curated non-textbook category
+    const isCuratedDeck = deck.isPublic || ['HANTU', 'TUVUNG', 'NGUPHAP'].includes(deck.category);
+    if (isCuratedDeck) {
+      return basePath;
+    }
+
+    // Personal deck
+    return '/self-study';
+  };
+  const parentPath = getParentPath();
   const canModify = isCuratedDeck ? isAdmin : isOwner;
 
   return (
@@ -334,131 +459,172 @@ export default function DeckDetailPage() {
 
         <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-4 text-white">
           <div className="min-w-0">
-            <button
-              onClick={() => {
-                if (window.history.length > 1) {
-                  navigate(-1);
-                } else {
-                  navigate('/dashboard');
-                }
-              }}
+            <Link
+              to={parentPath}
               className="inline-flex items-center gap-1.5 text-white/70 hover:text-white mb-3 text-xs font-bold uppercase tracking-wider transition-colors"
             >
               <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
               </svg>
               Quay lại
-            </button>
+            </Link>
             <h1 className="font-headline text-2xl md:text-3xl font-bold tracking-tight">{deck.name}</h1>
             {deck.description && (
               <p className="text-white/60 text-xs mt-1.5 max-w-lg leading-relaxed">{deck.description}</p>
             )}
           </div>
-          {canModify && (
-            <div className="flex items-center gap-2 flex-shrink-0">
-              <button
-                onClick={() => setShowEditDeck(true)}
-                className="px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-white bg-white/10 hover:bg-white/20 border border-white/20 transition-colors"
-              >
-                Chỉnh sửa
-              </button>
-              <button
-                onClick={() => {
-                  if (confirm('Bạn có chắc muốn xóa bộ thẻ này?')) {
-                    deleteDeckMutation.mutate();
-                  }
-                }}
-                className="px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors"
+          <div className="flex flex-wrap items-center gap-3 flex-shrink-0">
+            {nextDeck && (
+              <Link
+                to={`/deck/${nextDeck.id}`}
+                className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors rounded flex items-center gap-1.5 shadow-sm"
                 style={{ background: 'var(--secondary)' }}
               >
-                Xóa bộ thẻ
-              </button>
-            </div>
-          )}
+                Bài {getLessonNumber(nextDeck.name) !== 999 ? getLessonNumber(nextDeck.name) : nextDeck.name} →
+              </Link>
+            )}
+
+            {canModify && (
+              <>
+                <button
+                  onClick={() => setShowEditDeck(true)}
+                  className="px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-white bg-white/10 hover:bg-white/20 border border-white/20 transition-colors"
+                >
+                  Chỉnh sửa
+                </button>
+                <button
+                  onClick={() => {
+                    if (confirm('Bạn có chắc muốn xóa bộ thẻ này?')) {
+                      deleteDeckMutation.mutate();
+                    }
+                  }}
+                  className="px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors"
+                  style={{ background: 'var(--secondary)' }}
+                >
+                  Xóa bộ thẻ
+                </button>
+              </>
+            )}
+          </div>
         </div>
       </section>
 
       {/* Stats */}
       {stats && deck?.category !== 'HANTU' && (
-        <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
-          <div className="bg-surface-container-lowest p-4 text-center border border-outline-variant/30 sharp-shadow-sm">
-            <div className="text-2xl font-black text-on-surface leading-none">{stats.totalCards}</div>
-            <div className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mt-1.5">Tổng thẻ</div>
-          </div>
-          <div className="bg-surface-container-lowest p-4 text-center border border-outline-variant/30 border-t-2 border-t-blue-500 sharp-shadow-sm">
-            <div className="text-2xl font-black text-blue-600 leading-none">{stats.newCards}</div>
-            <div className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mt-1.5">Mới</div>
-          </div>
-          <div className="bg-surface-container-lowest p-4 text-center border border-outline-variant/30 border-t-2 border-t-amber-500 sharp-shadow-sm">
-            <div className="text-2xl font-black text-amber-600 leading-none">{stats.learning}</div>
-            <div className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mt-1.5">Đang học</div>
-          </div>
-          <div className="bg-surface-container-lowest p-4 text-center border border-outline-variant/30 border-t-2 border-t-green-600 sharp-shadow-sm">
-            <div className="text-2xl font-black text-green-600 leading-none">{stats.review}</div>
-            <div className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mt-1.5">Ôn tập</div>
-          </div>
-          <div className="bg-surface-container-lowest p-4 text-center border border-outline-variant/30 border-t-2 border-t-purple-600 sharp-shadow-sm">
-            <div className="text-2xl font-black text-purple-600 leading-none">{stats.mastered}</div>
-            <div className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mt-1.5">Thành thạo</div>
-          </div>
-        </div>
+        (() => {
+          const total = stats.totalCards || 1;
+          const newPct = (stats.newCards / total) * 100;
+          const learningPct = (stats.learning / total) * 100;
+          const reviewPct = (stats.review / total) * 100;
+          const masteredPct = (stats.mastered / total) * 100;
+          return (
+            <div className="bg-surface-container-lowest p-4 border border-outline-variant/30 rounded-lg space-y-3 shadow-sm">
+              <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-on-surface-variant">
+                <span>Tiến trình học tập</span>
+                <span className="text-on-surface">{stats.totalCards} từ vựng</span>
+              </div>
+              
+              {/* Segmented Progress Bar */}
+              <div className="w-full h-3 bg-slate-100 rounded-full flex overflow-hidden border border-outline-variant/20">
+                {stats.newCards > 0 && <div className="bg-blue-500 h-full transition-all" style={{ width: `${newPct}%` }} title={`Mới: ${stats.newCards}`} />}
+                {stats.learning > 0 && <div className="bg-amber-500 h-full transition-all" style={{ width: `${learningPct}%` }} title={`Đang học: ${stats.learning}`} />}
+                {stats.review > 0 && <div className="bg-emerald-600 h-full transition-all" style={{ width: `${reviewPct}%` }} title={`Ôn tập: ${stats.review}`} />}
+                {stats.mastered > 0 && <div className="bg-purple-600 h-full transition-all" style={{ width: `${masteredPct}%` }} title={`Thành thạo: ${stats.mastered}`} />}
+              </div>
+
+              {/* Legend Row */}
+              <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs font-semibold text-on-surface-variant">
+                <div className="flex items-center gap-2">
+                  <span className="w-2.5 h-2.5 bg-blue-500 rounded-full"></span>
+                  <span>Mới: <strong className="text-on-surface">{stats.newCards}</strong></span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-2.5 h-2.5 bg-amber-500 rounded-full"></span>
+                  <span>Đang học: <strong className="text-on-surface">{stats.learning}</strong></span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-2.5 h-2.5 bg-emerald-600 rounded-full"></span>
+                  <span>Ôn tập: <strong className="text-on-surface">{stats.review}</strong></span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-2.5 h-2.5 bg-purple-600 rounded-full"></span>
+                  <span>Thành thạo: <strong className="text-on-surface">{stats.mastered}</strong></span>
+                </div>
+              </div>
+            </div>
+          );
+        })()
       )}
 
-      {/* Actions */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-outline-variant/30">
-        {deck?.category !== 'HANTU' ? (
-          <div className="flex items-center gap-2 flex-wrap">
+      {/* Learning Modes Toolbar & Actions (Search, Add Card) */}
+      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-4 border-b border-outline-variant/30">
+        {deck?.category !== 'HANTU' && (
+          <div className="flex flex-wrap items-center gap-2.5">
+            {/* 1. Thẻ ghi nhớ */}
             <Link
               to={`/study/${deckId}?mode=normal`}
-              className="px-4 py-2 bg-primary hover:bg-primary-container text-on-primary text-xs font-bold uppercase tracking-wider transition-colors"
+              className="px-4 py-2.5 bg-emerald-50 text-emerald-800 border border-emerald-200 hover:bg-emerald-100 text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-2 rounded shadow-sm"
             >
-              Học thường
+              <Layers className="w-3.5 h-3.5 text-emerald-600" />
+              <span>Thẻ ghi nhớ</span>
             </Link>
+
+            {/* 2. Học SRS */}
             <Link
               to={`/study/${deckId}?mode=srs`}
-              className="px-4 py-2 bg-secondary hover:bg-secondary-dim text-on-secondary text-xs font-bold uppercase tracking-wider transition-colors"
-              style={{ background: 'var(--secondary)' }}
+              className="px-4 py-2.5 bg-indigo-50 text-indigo-800 border border-indigo-200 hover:bg-indigo-100 text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-2 rounded relative shadow-sm"
             >
-              Học SRS ({stats?.dueToday || 0})
+              <RefreshCw className="w-3.5 h-3.5 text-indigo-600" />
+              <span>Học SRS</span>
+              {stats?.dueToday > 0 && (
+                <span className="ml-1 bg-secondary text-white text-[9px] font-black px-1.5 py-0.5 rounded-full border border-surface-container-lowest">
+                  {stats.dueToday}
+                </span>
+              )}
             </Link>
+
+            {/* 3. Trắc nghiệm */}
             <Link
-              to={`/quiz/${deckId}`}
-              className="px-4 py-2 border border-outline-variant bg-surface hover:bg-surface-container text-on-surface-variant hover:text-on-surface text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-1.5"
+              to={`/practice/${deckId}?type=multiple-choice`}
+              className="px-4 py-2.5 bg-amber-50 text-amber-800 border border-amber-200 hover:bg-amber-100 text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-2 rounded shadow-sm"
             >
-              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5}
-                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"
-                />
-              </svg>
-              Làm Quiz
+              <HelpCircle className="w-3.5 h-3.5 text-amber-600" />
+              <span>Trắc nghiệm</span>
             </Link>
+
+            {/* 4. Tự luận */}
             <Link
-              to={`/exercises/${deckId}`}
-              className="px-4 py-2 border border-outline-variant bg-surface hover:bg-surface-container text-on-surface-variant hover:text-on-surface text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-1.5"
+              to={`/practice/${deckId}?type=type-japanese`}
+              className="px-4 py-2.5 bg-blue-50 text-blue-800 border border-blue-200 hover:bg-blue-100 text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-2 rounded shadow-sm"
             >
-              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5}
-                  d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
-              </svg>
-              Bài tập
+              <PenTool className="w-3.5 h-3.5 text-blue-600" />
+              <span>Tự luận</span>
             </Link>
-            <Link
-              to={`/lesson/${deckId}`}
-              className="px-4 py-2 border border-outline-variant bg-surface hover:bg-surface-container text-on-surface-variant hover:text-on-surface text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-1.5"
-            >
-              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5}
-                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                />
-              </svg>
-              Học bài
-            </Link>
+
+            {/* 5. Hoàn thành câu */}
+            {hasExamples ? (
+              <Link
+                to={`/practice/${deckId}?type=fill-sentence`}
+                className="px-4 py-2.5 bg-rose-50 text-rose-800 border border-rose-200 hover:bg-rose-100 text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-2 rounded shadow-sm"
+              >
+                <CheckSquare className="w-3.5 h-3.5 text-rose-600" />
+                <span>Hoàn thành câu</span>
+              </Link>
+            ) : (
+              <button
+                disabled
+                title="Cần câu ví dụ trong bộ thẻ để mở chế độ này"
+                className="px-4 py-2.5 bg-slate-50 border border-slate-200 text-slate-400 opacity-60 text-xs font-bold uppercase tracking-wider flex items-center gap-2 rounded cursor-not-allowed"
+              >
+                <Lock className="w-3.5 h-3.5 text-slate-400" />
+                <span>Hoàn thành câu</span>
+              </button>
+            )}
           </div>
-        ) : (
-          <div className="flex-1" />
         )}
-        <div className="flex items-center gap-2">
-          <div className="relative">
+
+        <div className="flex items-center gap-2 w-full lg:w-auto">
+          <div className="relative flex-1 lg:flex-initial">
             <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-on-surface-variant pointer-events-none"
               fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
               <circle cx="11" cy="11" r="8"/><path strokeLinecap="round" strokeLinejoin="round" d="m21 21-4.34-4.34"/>
@@ -468,14 +634,14 @@ export default function DeckDetailPage() {
               placeholder="Tìm kiếm thẻ..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="pl-8 pr-3 py-2 text-xs bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant focus:outline-none w-48 sm:w-60"
+              className="pl-8 pr-3 py-2 text-xs bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant focus:outline-none w-full lg:w-60"
               style={{ border: '1px solid rgba(0,0,0,0.12)' }}
             />
           </div>
           {canModify && (
             <button
               onClick={() => setShowAddCard(true)}
-              className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors flex items-center gap-1.5"
+              className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors flex items-center gap-1.5 shrink-0 rounded"
               style={{ background: 'var(--secondary)' }}
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">

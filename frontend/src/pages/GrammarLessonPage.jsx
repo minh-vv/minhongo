@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams, Link } from 'react-router-dom';
 import {
   ArrowLeft,
   Volume2,
@@ -446,20 +446,13 @@ export default function GrammarLessonPage() {
         <div className="absolute right-0 top-0 bottom-0 w-2 bg-secondary" />
 
         <div className="relative z-10 p-7 md:p-9">
-          {/* Breadcrumb */}
-          <button
-            onClick={() => {
-              if (window.history.length > 1) {
-                navigate(-1);
-              } else {
-                navigate('/grammar');
-              }
-            }}
+          <Link
+            to="/grammar"
             className="inline-flex items-center gap-1.5 text-white/70 hover:text-white mb-4 text-xs font-bold uppercase tracking-wider transition-colors"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
             Quay lại
-          </button>
+          </Link>
 
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
             <div>
