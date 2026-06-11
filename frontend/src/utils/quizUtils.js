@@ -181,8 +181,6 @@ export function romajiToHiragana(romaji) {
     // 3 chars
     'kya': 'きゃ', 'kyu': 'きゅ', 'kyo': 'きょ',
     'sha': 'しゃ', 'shu': 'しゅ', 'sho': 'しょ',
-    'cha': 'cha', // wait, will replace below
-    'cha': 'cha', // wait, let's write it cleanly:
     'cha': 'ちゃ', 'chu': 'ちゅ', 'cho': 'ちょ',
     'nya': 'にゃ', 'nyu': 'にゅ', 'nyo': 'にょ',
     'hya': 'ひゃ', 'hyu': 'ひゅ', 'hyo': 'ひょ',
@@ -196,27 +194,18 @@ export function romajiToHiragana(romaji) {
     
     // 2 chars
     'ka': 'か', 'ki': 'き', 'ku': 'く', 'ke': 'け', 'ko': 'こ',
-    'sa': 'sa', // wait, let me write cleanly:
     'sa': 'さ', 'si': 'し', 'su': 'す', 'se': 'せ', 'so': 'そ',
     'ta': 'た', 'ti': 'ち', 'tu': 'つ', 'te': 'て', 'to': 'と',
     'na': 'な', 'ni': 'に', 'nu': 'ぬ', 'ne': 'ね', 'no': 'の',
     'ha': 'は', 'hi': 'ひ', 'fu': 'ふ', 'he': 'へ', 'ho': 'ほ',
-    'ma': 'ま', 'mi': 'mi', // wait, let me write cleanly:
     'ma': 'ま', 'mi': 'み', 'mu': 'む', 'me': 'め', 'mo': 'も',
     'ya': 'や', 'yu': 'ゆ', 'yo': 'よ',
     'ra': 'ら', 'ri': 'り', 'ru': 'る', 're': 'れ', 'ro': 'ろ',
     'wa': 'わ', 'wo': 'を', 'nn': 'ん',
-    'ga': 'g', // wait, let me write cleanly:
     'ga': 'が', 'gi': 'ぎ', 'gu': 'ぐ', 'ge': 'げ', 'go': 'ご',
     'za': 'ざ', 'zi': 'じ', 'zu': 'ず', 'ze': 'ぜ', 'zo': 'ぞ',
-    'da': 'だ', 'di': 'ぢ', 'du': 'づ', 'de': 'で', 'do': 'đ', // wait: 'do': 'ど'
     'da': 'だ', 'di': 'ぢ', 'du': 'づ', 'de': 'で', 'do': 'ど',
-    'ba': 'ば', 'bi': 'び', 'bu': 'ぶ', 'be': 'be', // wait, let me write cleanly:
-    'ba': 'ば', 'bi': 'び', 'bu': 'ぶ', 'be': 'be', // wait, let me write cleanly:
     'ba': 'ば', 'bi': 'び', 'bu': 'ぶ', 'be': 'べ', 'bo': 'ぼ',
-    'pa': 'ぱ', 'pi': 'ぴ', 'pu': 'ぷ', 'pe': 'ぺ', 'po': 'po', // wait, let me write cleanly:
-    'pa': 'ぱ', 'pi': 'ぴ', 'pu': 'ぷ', 'pe': 'ぺ', 'po': 'po', // wait, let me write cleanly:
-    'pa': 'ぱ', 'pi': 'ぴ', 'pu': 'ぷ', 'pe': 'ぺ', 'po': 'ぼ', // wait: 'po': 'ぽ'
     'pa': 'ぱ', 'pi': 'ぴ', 'pu': 'ぷ', 'pe': 'ぺ', 'po': 'ぽ',
     'ja': 'じゃ', 'ju': 'じゅ', 'jo': 'じょ',
     
