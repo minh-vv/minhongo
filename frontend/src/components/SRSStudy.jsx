@@ -4,7 +4,7 @@ import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { RotateCw } from 'lucide-react';
 import { flashcardApi } from '../api/flashcardApi';
 import CollapsibleExample from './CollapsibleExample';
-import { useSettings } from '../contexts/SettingsContext';
+import { useSettings } from '../hooks/useSettings';
 
 function speakJapanese(text) {
   if (!window.speechSynthesis) return;

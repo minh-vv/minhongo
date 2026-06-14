@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Check, RotateCw, Shuffle } from 'lucide-react';
 import CollapsibleExample from './CollapsibleExample';
-import { useSettings } from '../contexts/SettingsContext';
+import { useSettings } from '../hooks/useSettings';
 
 function speakJapanese(text) {
   if (!window.speechSynthesis) return;

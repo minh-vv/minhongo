@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import { flashcardApi } from '../api/flashcardApi';
 import aiTutorApi from '../api/aiTutorApi';
 import CollapsibleExample from '../components/CollapsibleExample';
-import { useSettings } from '../contexts/SettingsContext';
+import { useSettings } from '../hooks/useSettings';
 
 // ===== Utilities =====
 

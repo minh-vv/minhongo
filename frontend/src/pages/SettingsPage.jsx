@@ -1,4 +1,4 @@
-import { useSettings } from '../contexts/SettingsContext';
+import { useSettings } from '../hooks/useSettings';
 import { IconSettings, IconVolume, IconCheck } from '../components/Icons';
 
 export default function SettingsPage() {

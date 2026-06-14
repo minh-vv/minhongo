@@ -9,7 +9,7 @@ import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
-import { useSettings } from '../contexts/SettingsContext';
+import { useSettings } from '../hooks/useSettings';
 import {
   IconType, IconPen, IconChevronLeft, IconCheck, IconXCircle,
   IconTrophy, IconStar, IconBookMarked, IconTarget, IconVolume,
