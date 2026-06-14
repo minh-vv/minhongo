@@ -1,0 +1,223 @@
+{
+  "order": 23,
+  "title": "Bài 48 — Từ vựng JLPT N4 (Phần 23)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 23/25.",
+  "theoryMd": "### 1. V-te + あります\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + が + V-te + あります\n- Ý nghĩa: Trạng thái kết quả của hành động có chủ đích.\n#### 📝 Ví dụ minh họa\n- 壁に絵が掛けてあります。(Bức tranh được treo trên tường.)\n\n### 2. のおかげで\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N/V (ngắn) + のおかげで\n- Ý nghĩa: Nhờ vào (kết quả tích cực).\n#### 📝 Ví dụ minh họa\n- 先生のおかげで合格しました。(Nhờ thầy giáo mà tôi đã đỗ.)\n\n### 3. わけです\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: V/Adj/N (ngắn) + わけです\n- Ý nghĩa: Thảo nào mà/Lý do là.\n#### 📝 Ví dụ minh họa\n- 忙しいわけです。(Thảo nào mà bận rộn như vậy.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 48 — Từ vựng",
+        "description": "Từ vựng bài số 48 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "亜細亜",
+            "back": "châu Á",
+            "romaji": "アジア",
+            "example": "亜細亜（アジア）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "チェック",
+            "back": "kẻ sọc, ca rô",
+            "romaji": "チェック",
+            "example": "チェック",
+            "jlptLevel": 4
+          },
+          {
+            "front": "サンダル",
+            "back": "dép xăng đan",
+            "romaji": "サンダル",
+            "example": "サンダル",
+            "jlptLevel": 4
+          },
+          {
+            "front": "スクリーン",
+            "back": "màn hình, màn chiếu",
+            "romaji": "スクリーン",
+            "example": "スクリーン",
+            "jlptLevel": 4
+          },
+          {
+            "front": "開く",
+            "back": "mở",
+            "romaji": "あく",
+            "example": "開く（あく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "一杯",
+            "back": "một cốc, một chén, một bát",
+            "romaji": "いっぱい",
+            "example": "一杯（いっぱい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "用",
+            "back": "việc, nhiệm vụ, công chuyện",
+            "romaji": "よう",
+            "example": "用（よう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "レジ",
+            "back": "quầy thu ngân",
+            "romaji": "レジ",
+            "example": "レジ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "内",
+            "back": "bên trong, trong vòng",
+            "romaji": "うち",
+            "example": "内（うち）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "訳",
+            "back": "lý do, nguyên nhân",
+            "romaji": "わけ",
+            "example": "訳（わけ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "お陰",
+            "back": "ơn huệ, phước lành",
+            "romaji": "おかげ",
+            "example": "お陰（おかげ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "もう直ぐ",
+            "back": "sắp sửa, chẳng bao lâu nữa",
+            "romaji": "もうすぐ",
+            "example": "もう直ぐ（もうすぐ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "君",
+            "back": "ông, cậu, thằng bé",
+            "romaji": "くん",
+            "example": "君（くん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "包む",
+            "back": "gói, bọc",
+            "romaji": "つつむ",
+            "example": "包む（つつむ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "毛",
+            "back": "tóc, lông",
+            "romaji": "け",
+            "example": "毛（け）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "泳ぎ方",
+            "back": "cách bơi",
+            "romaji": "およぎかた",
+            "example": "泳ぎ方（およぎかた）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "都",
+            "back": "thành phố lớn, thủ đô",
+            "romaji": "と",
+            "example": "都（と）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "家内",
+            "back": "vợ (của tôi)",
+            "romaji": "かない",
+            "example": "家内（かない）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "お見舞い",
+            "back": "thăm hỏi (người ốm, gặp nạn)",
+            "romaji": "おみまい",
+            "example": "お見舞い（おみまい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "そう",
+            "back": "có vẻ như, dường như",
+            "romaji": "そう",
+            "example": "そう",
+            "jlptLevel": 4
+          },
+          {
+            "front": "そんな",
+            "back": "như vậy, loại đó",
+            "romaji": "そんな",
+            "example": "そんな",
+            "jlptLevel": 4
+          },
+          {
+            "front": "若し",
+            "back": "nếu, trong trường hợp",
+            "romaji": "もし",
+            "example": "若し（もし）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "止める",
+            "back": "dừng, ngừng, chấm dứt",
+            "romaji": "やめる",
+            "example": "止める（やめる）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 23 — Ngữ pháp",
+        "description": "Ngữ pháp bài 23: Bài 48 — Từ vựng JLPT N4 (Phần 23)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "V-te + あります",
+            "back": "Ý nghĩa: Diễn tả trạng thái hiện tại của một vật là kết quả của một hành động có chủ ý.\nCấu trúc: N + が + V-te + あります",
+            "romaji": "v-te-arimasu",
+            "example": "ドアが開いてあります。\nCửa đang ở trạng thái mở (có ai đó đã mở).\n\n壁に絵が掛けてあります。\nBức tranh được treo trên tường.\n\nテーブルの上に料理が並べてあります。\nĐồ ăn đã được bày biện trên bàn.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "N/V + のおかげで",
+            "back": "Ý nghĩa: Nhờ có, nhờ vào (nguyên nhân tích cực).\nCấu trúc: N / V (thể ngắn) + のおかげで",
+            "romaji": "no-okagede",
+            "example": "みんなのおかげで、仕事が終わりました。\nNhờ mọi người mà công việc đã xong.\n\n先生のおかげで合格しました。\nNhờ thầy giáo mà tôi đã đỗ.\n\n雨が降らなかったおかげで、旅行は楽しかったです。\nNhờ trời không mưa mà chuyến đi rất vui.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "V/Adj/N + わけです",
+            "back": "Ý nghĩa: Là lý do, thảo nào mà... (giải thích sự việc).\nCấu trúc: V/Adj/N (thể ngắn) + わけです",
+            "romaji": "wake-desu",
+            "example": "忙しいわけです。\nThảo nào mà bận rộn như vậy.\n\n昨日寝ていないから、眠いわけです。\nVì hôm qua không ngủ nên thảo nào mà buồn ngủ.\n\n故障したわけです。\nThảo nào mà nó bị hỏng.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

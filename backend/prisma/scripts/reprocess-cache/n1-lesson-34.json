@@ -1,0 +1,42 @@
+{
+  "order": 34,
+  "title": "Bài 34 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 34/92).",
+  "theoryMd": "### 1. 〜といったらない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V/Adj/N + といったらない\n- **Ý nghĩa:** …hết sức, không thể tả được. Khác với hai cấu trúc trên, mẫu này dùng được cho cả cảm xúc tích cực và tiêu cực.\n\n#### 📝 Ví dụ minh họa\n- 合格の知らせを聞いて、嬉しいといったらない。\n- 彼の配慮の細やかさといったらない。\n- この道の暗さといったらない。危なくて歩けない。\n\n### 2. 〜ないものだろうか\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V-nai + ものだろうか\n- **Ý nghĩa:** Liệu có cách nào… không? (Diễn tả nguyện vọng, mong muốn hoặc sự băn khoăn về một điều gì đó khó thực hiện).\n\n#### 📝 Ví dụ minh họa\n- 事故をこれ以上増やさないものだろうか。\n- もう少し締め切りを延ばせないものだろうか。\n- 何とか解決できないものだろうか。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 34 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 34.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜といったらない",
+            "back": "Ý nghĩa: … hết sức / cực kỳ (dùng được cho cả nghĩa tích cực và tiêu cực).\nCấu trúc: V/Adj/N + といったらない",
+            "romaji": "to-ittara-nai",
+            "example": "合格の知らせを聞いて、嬉しいといったらない。\nNghe tin đậu, vui không tả nổi.\n\n彼の配慮の細やかさといったらない。\nSự tinh tế trong quan tâm của anh ấy thì hết chỗ khen.\n\nこの道の暗さといったらない。危なくて歩けない。\nĐộ tối của con đường này thật không tả, nguy hiểm không thể đi bộ.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜ないものだろうか",
+            "back": "Ý nghĩa: Liệu có cách nào làm được… không / Ước gì có thể…\nCấu trúc: V-nai + ものだろうか",
+            "romaji": "nai-mono-darouka",
+            "example": "事故をこれ以上増やさないものだろうか。\nLiệu không thể giảm thêm tai nạn sao?\n\nもう少し締め切りを延ばせないものだろうか。\nKhông thể gia hạn thêm hạn chót sao?\n\n何とか解決できないものだろうか。\nKhông có cách nào giải quyết được sao?",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

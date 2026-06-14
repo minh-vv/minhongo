@@ -1,0 +1,35 @@
+{
+  "order": 48,
+  "title": "48. ～（よ）うとする",
+  "summary": "Ngữ pháp bài số 48 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～（よ）うとする\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** Động từ (Thể ý hướng) + とする\n- **Ý nghĩa:** \n  - 「～（よ）うとする」: Định thực hiện hành động ngay tại thời điểm nói hoặc đang cố gắng làm gì.\n  - 「〜（よ）うとしない」: Hoàn toàn không có ý định làm gì (Thường dùng cho ngôi thứ 3, phê phán thái độ không hợp tác).\n\n#### 📝 Ví dụ minh họa\n- 出かけようとしたときに、雨が降り出した。\n(Đúng lúc tôi đang định đi ra ngoài thì trời đổ mưa.)\n- 彼は私の質問に答えようとしない。\n(Anh ấy hoàn toàn không có ý định trả lời câu hỏi của tôi.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 48 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 48 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜（よ）うとする",
+            "back": "Ý nghĩa: Định làm gì, cố gắng làm gì ngay tại thời điểm đó. Dạng 「〜（よ）うとしない」 diễn tả việc hoàn toàn không có ý định làm gì (chủ ngữ thường là người khác).\nCấu trúc: Động từ (Thể ý hướng) + とする",
+            "romaji": "(yo)u to suru",
+            "example": "出かけようとしたときに、雨が降り出した。\nĐúng lúc tôi đang định đi ra ngoài thì trời đổ mưa.\n\n彼は私の質問に答えようとしない。\nAnh ấy hoàn toàn không có ý định trả lời câu hỏi của tôi.\n\n電車に乗ろうとしたら、ドアが閉まってしまった。\nĐúng lúc tôi định bước lên tàu thì cửa đóng lại.\n\n猫が逃げようとしている。\nCon mèo đang định bỏ chạy.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "order": 56,
+  "title": "Bài 56 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 56/92).",
+  "theoryMd": "### 1. 〜並み\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: N + 並み\n- **Ý nghĩa**: Dùng để so sánh một đối tượng với một tiêu chuẩn nhất định, thể hiện mức độ tương đương, ngang bằng.\n\n#### 📝 Ví dụ minh họa\n- 彼はプロ並みの腕前だ。 (Anh ấy có tay nghề ngang với chuyên nghiệp.)\n\n### 2. 〜ごとき / 〜ごとく\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: N + の + ごとき / ごとく\n- **Ý nghĩa**: Cách nói trang trọng, văn chương dùng để so sánh sự vật, sự việc với một hình ảnh ẩn dụ nào đó (giống như là, như là). Cũng có thể dùng để hạ thấp đối phương (như kẻ như...).\n\n#### 📝 Ví dụ minh họa\n- 星のごとき輝き。 (Sự tỏa sáng như những vì sao.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 56 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 56.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜並み",
+            "back": "Ý nghĩa: Tương đương, ngang bằng với mức độ nào đó.\nCấu trúc: N + 並み",
+            "romaji": "nami",
+            "example": "彼はアマチュアだが、プロ並みの知識を持っている。\nAnh ấy là nghiệp dư nhưng có kiến thức ngang chuyên nghiệp.\n\n今年の寒さは例年並みだ。\nCái lạnh năm nay ở mức như mọi năm.\n\nこのスマホはカメラが一眼レフ並みによく撮れる。\nĐiện thoại này chụp tốt ngang máy ảnh DSLR.\n\n彼の実力はトップ選手並みだ。\nThực lực của anh ấy ngang ngửa với các vận động viên hàng đầu.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜ごとき / 〜ごとく",
+            "back": "Ý nghĩa: Giống như là, như là (cách nói văn viết, trang trọng).\nCấu trúc: N + の + ごとき / ごとく",
+            "romaji": "gotoki-gotoku",
+            "example": "彼は風のごとく走り去った。\nAnh ta lao đi như gió.\n\n春の雪のごときはかなさ。\nNỗi mong manh như tuyết xuân.\n\nまるで夢の中にいるかのごとく感じた。\nCảm giác như thể đang ở trong mơ.\n\n彼ごときに何ができる。\nKẻ như hắn thì làm được trò trống gì.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

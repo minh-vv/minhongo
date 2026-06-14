@@ -1,0 +1,42 @@
+{
+  "order": 23,
+  "title": "Bài 23 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 23/92).",
+  "theoryMd": "### 1. 〜ては\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Cứ lặp đi lặp lại hành động A rồi B, gây ra kết quả không tốt hoặc không đạt được kết quả mong đợi.\n- **Cấu trúc**: V-te + は + V-te\n\n#### 📝 Ví dụ minh họa\n- 勉強しては寝て、寝ては勉強する日々です。\n- 運動しては食べ、食べては運動する生活が続いている。\n- この部屋は掃除しては乱雑になり、片づけては散らかる。\n\n### 2. 〜ては〜 (Cảm xúc/Trạng thái)\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Mỗi lần thực hiện hành động A thì tự nhiên tâm trạng hoặc trạng thái B xảy ra.\n- **Cấu trúc**: V-te + は、～\n\n#### 📝 Ví dụ minh họa\n- 彼女に会っては、いつも緊張してしまいます。\n- 忙しい時期になると、この曲を聞いては気持ちを落ち着かせる。\n- 父の手紙を読んでは、昔のことを思い出す。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 23 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 23.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜ては",
+            "back": "Ý nghĩa: Cứ lặp đi lặp lại hành động A rồi B, gây ra kết quả không tốt.\nCấu trúc: V-te + は + V-te",
+            "romaji": "te-wa",
+            "example": "勉強しては寝て、寝ては勉強する日々です。\nNgày nào cũng học rồi ngủ, ngủ rồi lại học.\n\n運動しては食べ、食べては運動する生活が続いている。\nCuộc sống cứ tập rồi ăn, ăn rồi lại tập cứ thế tiếp diễn.\n\nこの部屋は掃除しては乱雑になり、片づけては散らかる。\nPhòng này cứ dọn xong lại bừa, dọn mãi không xong.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜ては〜",
+            "back": "Ý nghĩa: Mỗi lần thực hiện hành động A thì tự nhiên tâm trạng/trạng thái B xảy ra.\nCấu trúc: V-te + は、～",
+            "romaji": "tewa-tewa",
+            "example": "彼女に会っては、いつも緊張してしまいます。\nMỗi lần gặp cô ấy là tôi lại hồi hộp.\n\n忙しい時期になると、この曲を聞いては気持ちを落ち着かせる。\nVào thời kỳ bận rộn, cứ nghe bản nhạc này là tôi lại bình tâm.\n\n父の手紙を読んでは、昔のことを思い出す。\nCứ đọc thư của bố là tôi lại nhớ chuyện xưa.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

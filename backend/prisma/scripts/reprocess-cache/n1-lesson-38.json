@@ -1,0 +1,42 @@
+{
+  "order": 38,
+  "title": "Bài 38 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 38/92).",
+  "theoryMd": "### 1. 〜ともなると\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả sự thay đổi đáng kể của sự việc khi đạt đến một mức độ/giai đoạn nhất định.\n- **Cấu trúc**: N + ともなると\n#### 📝 Ví dụ minh họa\n- 社会人ともなると、時間の使い方が問われる。 (Một khi đã đi làm, cách sử dụng thời gian sẽ bị đặt lên bàn cân.)\n- 年末ともなると、どこの店も混み合う。 (Đến cuối năm thì cửa hàng nào cũng đông.)\n\n### 2. 〜とはいえ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Thừa nhận một sự thật nhưng vế sau đưa ra nội dung trái ngược hoặc giới hạn.\n- **Cấu trúc**: V/Adj/N-plain + とはいえ\n#### 📝 Ví dụ minh họa\n- 春とはいえ、まだ夜は冷える。 (Dù là mùa xuân nhưng ban đêm vẫn lạnh.)\n- 新人とはいえ、基本は守ってもらう。 (Dù là người mới nhưng vẫn phải tuân thủ những điều cơ bản.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 38 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 38.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜ともなると",
+            "back": "Ý nghĩa: Khi đến mức độ đó thì sự việc trở nên khác biệt hoặc đáng chú ý.\nCấu trúc: N + ともなると",
+            "romaji": "tomo-naruto",
+            "example": "社会人ともなると、時間の使い方が問われる。\nMột khi đã đi làm, cách sử dụng thời gian sẽ bị đặt lên bàn cân.\n\n年末ともなると、どこの店も混み合う。\nĐến cuối năm thì cửa hàng nào cũng đông.\n\n子どもも高校生ともなると、親の言うことを聞かなくなるものだ。\nCon lên cấp ba rồi thì thường không còn nghe lời bố mẹ nữa.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜とはいえ",
+            "back": "Ý nghĩa: Mặc dù nói là như vậy, nhưng thực tế vẫn...\nCấu trúc: V/Adj/N-plain + とはいえ",
+            "romaji": "to-wa-ie",
+            "example": "春とはいえ、まだ夜は冷える。\nDù là mùa xuân nhưng ban đêm vẫn lạnh.\n\n新人とはいえ、基本は守ってもらう。\nDù là người mới nhưng vẫn phải tuân thủ những điều cơ bản.\n\n日本に長く住んだとはいえ、敬語は今も難しい。\nDù đã sống lâu ở Nhật nhưng kính ngữ đến giờ vẫn khó.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

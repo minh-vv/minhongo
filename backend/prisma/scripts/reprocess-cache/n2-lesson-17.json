@@ -1,0 +1,63 @@
+{
+  "order": 17,
+  "title": "Bài 17: Lý do đưa ra sau (〜ことだし, 〜のことだから, 〜だけに, 〜ばかりに, 〜からには・〜以上(は)・〜上は)",
+  "summary": "Các cấu trúc lý do đặc thù: 〜ことだし, 〜のことだから, 〜だけに, 〜ばかりに, 〜からには・〜以上(は)・〜上は",
+  "theoryMd": "### Bài 17: Các cấu trúc chỉ lý do đặc thù\n\nCác cấu trúc này nhấn mạnh lý do đi kèm với cảm xúc hoặc sự phán đoán logic.\n\n### 1. 〜ことだし\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đưa ra lý do tiêu biểu, vế sau thường kèm theo ý định, mời mọc.\n- **Cấu trúc**: Thể thông thường + ことだし\n\n### 2. 〜のことだから\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dựa vào tính cách của người nào đó để đưa ra phán đoán chắc chắn.\n- **Cấu trúc**: N + のことだから\n\n### 3. 〜だけに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chính vì... nên kết quả xứng đáng/tương xứng.\n- **Cấu trúc**: Thể thông thường + だけに\n\n### 4. 〜ばかりに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ vì một nguyên nhân duy nhất dẫn đến kết quả xấu.\n- **Cấu trúc**: Thể thông thường + ばかりに\n\n### 5. 〜からには・〜以上は・〜上は\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Một khi đã... thì đương nhiên phải...\n- **Cấu trúc**: V-ru / V-ta + からには/以上は/上は",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 17 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 17: Lý do đưa ra sau (〜ことだし, 〜のことだから, 〜だけに, 〜ばかりに, 〜からには・〜以上(は)・〜上は)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜ことだし",
+            "back": "Ý nghĩa: Vì lý do... (đưa ra một lý do tiêu biểu, vế sau thường là ý chí, lời mời).\nCấu trúc: Thể thông thường + ことだし (Tính từ-na: な, Danh từ: の/である)",
+            "romaji": "koto dashi",
+            "example": "来週はお客様が来ることだし、家の中の大掃除をしなくちゃ。\nVì tuần sau có khách đến chơi nên phải tổng vệ sinh trong nhà thôi.\n\n雨も降ってきたことだし、今日はもう帰ろう。\nTrời cũng đã mưa rồi, hôm nay chúng ta về thôi.\n\n明日も休みだし、今日はゆっくり映画でも見よう。\nNgày mai cũng là ngày nghỉ, hôm nay hãy thong thả xem phim thôi.\n\n時間も遅いことだし、タクシーで帰ろうか。\nVì cũng muộn rồi, hay là mình bắt taxi về nhé.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜のことだから",
+            "back": "Ý nghĩa: Vì là... (dựa vào tính cách, đặc điểm quen thuộc để phán đoán).\nCấu trúc: N + のことだから",
+            "romaji": "no koto dakara",
+            "example": "頑張り屋のAさんのことだから、きっと今度のテストでもいい点を取りますよ。\nVì là người luôn cố gắng như cậu A, chắc chắn bài kiểm tra tới cậu ấy cũng sẽ đạt điểm cao.\n\n約束に厳しい彼のことだから、遅れることはないはずだ。\nVì là người rất nghiêm túc trong hẹn ước như anh ấy, chắc chắn sẽ không có chuyện đến muộn.\n\n子供のことだから、少しはわがままを言っても仕方がない。\nVì là con nít, nên việc nó có chút bướng bỉnh cũng là chuyện bình thường thôi.\n\nいつも親切な彼女のことだから、相談に乗ってくれるでしょう。\nVì là cô ấy, người luôn tốt bụng, chắc chắn cô ấy sẽ lắng nghe tâm sự thôi.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜だけに",
+            "back": "Ý nghĩa: Chính vì... nên kết quả càng xứng đáng, mức độ tương xứng.\nCấu trúc: Thể thông thường + だけに (Tính từ-na: な/である, Danh từ: である)",
+            "romaji": "dake ni",
+            "example": "母は花が好きなだけに、花をもらうと大喜びする。\nMẹ tôi vốn là người thích hoa, nên cứ nhận được hoa là lại vô cùng vui mừng.\n\n一生懸命勉強しただけに、不合格の知らせは本当にショックだった。\nChính vì đã học hành cực kỳ chăm chỉ nên tin trượt đại học thực sự là một cú sốc lớn.\n\nこのホテルは一流なだけに、サービスも完璧だ。\nKhách sạn này vì là khách sạn hạng nhất nên dịch vụ cũng hoàn hảo.\n\n長い間待っていただけに、彼に会えた時の喜びは大きかった。\nVì đã chờ đợi rất lâu nên niềm vui khi gặp được anh ấy thật là lớn.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ばかりに",
+            "back": "Ý nghĩa: Chỉ vì một nguyên nhân duy nhất dẫn đến kết quả xấu ngoài ý muốn.\nCấu trúc: Thể thông thường + ばかりに (Tính từ-na: な/である, Danh từ: である)",
+            "romaji": "bakari ni",
+            "example": "家のかぎを忘れて出かけたばかりに、家族が帰ってくるまで家に入れなかった。\nChỉ vì ra ngoài quên mang chìa khóa nhà mà tôi không thể vào nhà cho đến khi gia đình về.\n\n一言余計なことを言ったばかりに、彼と大喧嘩になってしまった。\nChỉ vì lỡ lời nói thêm một câu không cần thiết mà tôi đã cãi nhau to với anh ấy.\n\n名前を間違えたばかりに、相手を怒らせてしまった。\nChỉ vì nhầm tên mà tôi đã làm cho đối phương tức giận.\n\nお金がないばかりに、旅行を諦めなければならない。\nChỉ vì không có tiền mà tôi phải từ bỏ chuyến du lịch.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜からには・〜以上は・〜上は",
+            "back": "Ý nghĩa: Một khi đã... thì đương nhiên phải hoặc quyết tâm làm gì đó.\nCấu trúc: V-ru / V-ta + からには / 以上は / 上は",
+            "romaji": "kara ni wa / ijou wa / ue wa",
+            "example": "留学するからには、ちゃんと目的を果たすつもりだ。\nMột khi đã đi du học, tôi quyết tâm sẽ hoàn thành mục tiêu của mình.\n\n約束した以上は、何があっても守らなければならない。\nMột khi đã hứa thì dù có chuyện gì xảy ra cũng phải giữ lời.\n\n試合に出る上は、精一杯頑張りたい。\nMột khi đã ra sân thi đấu, tôi muốn nỗ lực hết mình.\n\n自分で引き受けた以上は、最後まで責任を持つべきだ。\nMột khi đã tự tay đảm nhận thì nên chịu trách nhiệm đến cùng.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 5
+  }
+}

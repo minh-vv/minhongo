@@ -1,0 +1,42 @@
+{
+  "order": 48,
+  "title": "Bài 48 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 48/92).",
+  "theoryMd": "### 1. 〜も相まって\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + も相まって\n- Ý nghĩa: Sử dụng khi muốn nhấn mạnh rằng ngoài yếu tố chính, còn có thêm yếu tố khác kết hợp vào tạo nên kết quả.\n\n#### 📝 Ví dụ minh họa\n- 好天も相まって、来場者数は過去最多となった。(Nhờ thời tiết đẹp cộng hưởng, số khách đến đạt kỷ lục.)\n- 彼の努力も相まって、プロジェクトは成功した。(Cộng với nỗ lực của anh ấy, dự án đã thành công.)\n\n### 2. 〜にひきかえ\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + にひきかえ\n- Ý nghĩa: Nhấn mạnh sự đối lập giữa hai sự vật, sự việc hoặc người trong cùng một tình huống.\n\n#### 📝 Ví dụ minh họa\n- 無口な父にひきかえ、母はよくしゃべる。(Trái với bố ít nói, mẹ lại rất hay chuyện.)\n- 温暖な南側にひきかえ、北側は風が冷たい。(Trái với phía nam ấm áp, phía bắc gió lạnh.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 48 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 48.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜も相まって",
+            "back": "Ý nghĩa: Cũng cộng thêm với... / Ngoài ra còn có yếu tố... kết hợp vào\nCấu trúc: N + も相まって",
+            "romaji": "mo-ai-matte",
+            "example": "好天も相まって、来場者数は過去最多となった。\nNhờ thời tiết đẹp cộng hưởng, số khách đến đạt kỷ lục.\n\n彼の努力も相まって、プロジェクトは成功した。\nCộng với nỗ lực của anh ấy, dự án đã thành công.\n\n円安傾向であることも相まって、輸出企業の利益が伸びている。\nCộng thêm xu hướng đồng yên yếu, lợi nhuận doanh nghiệp xuất khẩu tăng.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜にひきかえ",
+            "back": "Ý nghĩa: Trái lại với... / Ngược lại với...\nCấu trúc: N + にひきかえ",
+            "romaji": "ni-hikikae",
+            "example": "無口な父にひきかえ、母はよくしゃべる。\nTrái với bố ít nói, mẹ lại rất hay chuyện.\n\n落ち着いた前半のにひきかえ、後半は波乱続きだった。\nTrái với hiệp một điềm tĩnh, hiệp hai liên tiếp biến động.\n\n温暖な南側にひきかえ、北側は風が冷たい。\nTrái với phía nam ấm áp, phía bắc gió lạnh.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "order": 59,
+  "title": "59. ～に対して…・～に対する",
+  "summary": "Ngữ pháp bài số 59 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜に対して / 〜に対する\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ đối tượng mà hành động hoặc thái độ hướng đến.\n- **Cấu trúc**: N + に対して / N + に対する + N\n\n#### 📝 Ví dụ minh họa\n- お客様に対して、失礼な態度を取ってはいけません。\n(Không được có thái độ vô lễ đối với khách hàng.)\n- 若者に対する調査が行われた。\n(Một cuộc khảo sát đối với giới trẻ đã được tiến hành.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 59 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 59 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜に対して / 〜に対する",
+            "back": "Ý nghĩa: Đối với (hướng tới một đối tượng cụ thể nào đó).\nCấu trúc: N + に対して / N + に対する + N",
+            "romaji": "ni taishite / ni taisuru",
+            "example": "お客様に対して、失礼な態度を取ってはいけません。\nKhông được có thái độ vô lễ đối với khách hàng.\n\n若者に対する調査が行われた。\nMột cuộc khảo sát đối với giới trẻ đã được tiến hành.\n\n政府の発表に対して、多くの批判が出た。\nNhiều ý kiến phê phán đã nổ ra đối với thông báo của chính phủ.\n\nこの質問に対する答えは簡単ではない。\nCâu trả lời cho câu hỏi này không hề đơn giản.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

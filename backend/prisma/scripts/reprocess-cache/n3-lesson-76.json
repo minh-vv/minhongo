@@ -1,0 +1,35 @@
+{
+  "order": 76,
+  "title": "76. ～になる・～くなる",
+  "summary": "Ngữ pháp bài số 76 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜になる・〜くなる\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả sự thay đổi trạng thái của sự vật, sự việc một cách khách quan, tự nhiên.\n- **Cấu trúc**:\n  - Danh từ + になる\n  - Tính từ đuôi な (bỏ だ) + になる\n  - Tính từ đuôi い (bỏ い) + くなる\n\n#### 📝 Ví dụ minh họa\n- 暖かくなって、桜が咲き始めました。\n  (Trời trở nên ấm áp và hoa anh đào đã bắt đầu nở.)\n- 将来、医者になりたいです。\n  (Trong tương lai, tôi muốn trở thành bác sĩ.)\n- 日本語の勉強はだんだん面白くなりました。\n  (Việc học tiếng Nhật dần dần trở nên thú vị.)\n- 部屋を掃除して、きれいになりました。\n  (Phòng đã trở nên sạch sẽ sau khi tôi dọn dẹp.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 76 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 76 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜になる・〜くなる",
+            "back": "Ý nghĩa: Trở nên, trở thành (biểu thị sự thay đổi trạng thái tự nhiên).\nCấu trúc: N + になる / Na-adj (bỏ だ) + になる / A-i (bỏ い) + くなる",
+            "romaji": "ni-naru / ku-naru",
+            "example": "暖かくなって、桜が咲き始めました。\nTrời trở nên ấm áp và hoa anh đào đã bắt đầu nở.\n\n将来、医者になりたいです。\nTrong tương lai, tôi muốn trở thành bác sĩ.\n\n日本語の勉強はだんだん面白くなりました。\nViệc học tiếng Nhật dần dần trở nên thú vị.\n\n部屋を掃除して、きれいになりました。\nPhòng đã trở nên sạch sẽ sau khi tôi dọn dẹp.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

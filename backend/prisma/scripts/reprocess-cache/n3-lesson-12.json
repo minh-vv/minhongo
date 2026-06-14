@@ -1,0 +1,35 @@
+{
+  "order": 12,
+  "title": "12. ～くらいなら…・～ぐらいなら…",
+  "summary": "Ngữ pháp bài số 12 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～くらいなら…・～ぐらいなら…\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để so sánh: nếu phải trải qua một tình huống không mong muốn (ở vế trước) thì thà thực hiện một hành động khác (ở vế sau) còn tốt hơn.\n- **Cấu trúc:** V-ru + くらいなら / ぐらいなら\n\n#### 📝 Ví dụ minh họa\n- こんな屈辱を味わうくらいなら、死んだほうがましだ。\n- Thà chết còn hơn là phải chịu đựng sự sỉ nhục này.\n\n- 人に頼んで嫌な顔をされるくらいなら、自分でやった方がいい。\n- Thà tự mình làm còn hơn là nhờ vả người khác lại bị khó chịu.\n\n- 遅刻するぐらいなら、約束をキャンセルした方がいい。\n- Thà hủy buổi hẹn còn hơn là đến muộn.\n\n- 中途半端にやるくらいなら、やらないほうがいい。\n- Thà không làm còn hơn là làm nửa vời.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 12 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 12 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜くらいなら…・〜ぐらいなら…",
+            "back": "Ý nghĩa: Nếu phải chịu tình huống ~ (xấu) thì thà chọn làm việc khác còn hơn.\nCấu trúc: V-ru + くらいなら / ぐらいなら",
+            "romaji": "kurai-nara-gurai-nara",
+            "example": "こんな屈辱を味わうくらいなら、死んだほうがましだ。\nThà chết còn hơn là phải chịu đựng sự sỉ nhục này.\n\n人に頼んで嫌な顔をされるくらいなら、自分でやった方がいい。\nThà tự mình làm còn hơn là nhờ vả người khác lại bị khó chịu.\n\n遅刻するぐらいなら、約束をキャンセルした方がいい。\nThà hủy buổi hẹn còn hơn là đến muộn.\n\n中途半端にやるくらいなら、やらないほうがいい。\nThà không làm còn hơn là làm nửa vời.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

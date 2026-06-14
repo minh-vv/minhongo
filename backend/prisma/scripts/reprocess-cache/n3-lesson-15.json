@@ -1,0 +1,35 @@
+{
+  "order": 15,
+  "title": "15. ～反面…",
+  "summary": "Ngữ pháp bài số 15 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～反面…\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để diễn tả hai mặt đối lập của cùng một sự vật, sự việc (thường là một mặt tích cực và một mặt tiêu cực).\n- **Cấu trúc:** V/A(普通形) / Na(である) / N(である) + 反面\n\n#### 📝 Ví dụ minh họa\n- この仕事はやりがいがある反面、残業が多い。\n- Công việc này có ý nghĩa nhưng ngược lại phải làm thêm giờ nhiều.\n\n- 都会の生活は便利である反面、家賃が高い。\n- Cuộc sống ở thành phố tiện lợi nhưng mặt khác tiền thuê nhà lại đắt.\n\n- 彼は優しい反面、少し優柔不断なところがある。\n- Anh ấy hiền lành nhưng mặt khác có chút thiếu quyết đoán.\n\n- インターネットは便利な反面、トラブルも多い。\n- Internet rất tiện lợi nhưng mặt khác cũng có nhiều rắc rối.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 15 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 15 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜反面…",
+            "back": "Ý nghĩa: Một mặt là ~ nhưng mặt khác lại là ~ (diễn tả hai mặt đối lập).\nCấu trúc: V/A(普通形) / Na(である) / N(である) + 反面",
+            "romaji": "hanmen",
+            "example": "この仕事はやりがいがある反面、残業が多い。\nCông việc này có ý nghĩa nhưng ngược lại phải làm thêm giờ nhiều.\n\n都会の生活は便利である反面、家賃が高い。\nCuộc sống ở thành phố tiện lợi nhưng mặt khác tiền thuê nhà lại đắt.\n\n彼は優しい反面、少し優柔不断なところがある。\nAnh ấy hiền lành nhưng mặt khác có chút thiếu quyết đoán.\n\nインターネットは便利な反面、トラブルも多い。\nInternet rất tiện lợi nhưng mặt khác cũng có nhiều rắc rối.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

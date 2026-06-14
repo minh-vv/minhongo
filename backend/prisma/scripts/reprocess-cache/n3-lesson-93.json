@@ -1,0 +1,35 @@
+{
+  "order": 93,
+  "title": "93. ～にくい",
+  "summary": "Ngữ pháp bài số 93 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜にくい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: V-masu + にくい\n- **Ý nghĩa**: Dùng để diễn tả việc thực hiện một hành động nào đó gặp khó khăn do tính chất, đặc điểm khách quan của sự vật, sự việc.\n\n#### 📝 Ví dụ minh họa\n- この字は小さくて読みにくい。\n(Chữ này nhỏ quá nên khó đọc.)\n\n- この肉は硬くて食べにくい。\n(Thịt này dai quá nên khó ăn.)\n\n- このペンは持ちにくくて使いにくい。\n(Cây bút này khó cầm nên khó sử dụng.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 93 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 93 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜にくい",
+            "back": "Ý nghĩa: Diễn tả việc khó thực hiện hành động do đặc tính khách quan của đối tượng khiến việc đó trở nên khó khăn.\nCấu trúc: V-masu + にくい",
+            "romaji": "nikui",
+            "example": "この字は小さくて読みにくい。\nChữ này nhỏ quá nên khó đọc.\n\nこの肉は硬くて食べにくい。\nThịt này dai quá nên khó ăn.\n\nこのペンは持ちにくくて使いにくい。\nCây bút này khó cầm nên khó sử dụng.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

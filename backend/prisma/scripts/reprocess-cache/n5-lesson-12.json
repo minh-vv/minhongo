@@ -1,0 +1,286 @@
+{
+  "order": 12,
+  "title": "Bài 12 — Lời mời và đề nghị: ～ませんか / ましょう",
+  "summary": "Cách mời ai làm gì cùng, từ chối lịch sự.",
+  "theoryMd": "### 1. Lời mời và đề nghị\n#### 💡 Cấu trúc & Ý nghĩa\n- **～ませんか**: Dùng để mời ai đó làm gì, mang tính chất hỏi ý kiến.\n- **～ましょう**: Dùng để rủ rê, đề nghị cùng làm, mang tính chất khẳng định việc thực hiện.\n\n#### 📝 Ví dụ minh họa\n- コーヒーを のみませんか。 (Bạn có muốn uống cà phê cùng tôi không?)\n- えきへ いきましょう。 (Chúng ta cùng đi nhà ga nhé.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 12 — Từ vựng",
+        "description": "Từ vựng bài 12: Bài 12 — Lời mời và đề nghị: ～ませんか / ましょう",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "町",
+            "back": "thị trấn, khu phố",
+            "romaji": "まち",
+            "example": "町（まち）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "駅",
+            "back": "nhà ga, ga xe lửa",
+            "romaji": "えき",
+            "example": "駅（えき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "少し",
+            "back": "một chút, một ít",
+            "romaji": "すこし",
+            "example": "少し（すこし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "貴方",
+            "back": "bạn",
+            "romaji": "あなた",
+            "example": "貴方（あなた）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "欲しい",
+            "back": "muốn (có), mong muốn",
+            "romaji": "ほしい",
+            "example": "欲しい（ほしい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "行く",
+            "back": "đi",
+            "romaji": "いく",
+            "example": "行く（いく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "乗る",
+            "back": "lên xe, lên tàu",
+            "romaji": "のる",
+            "example": "乗る（のる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "大きな",
+            "back": "lớn, to",
+            "romaji": "おおきな",
+            "example": "大きな（おおきな）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "医者",
+            "back": "bác sĩ",
+            "romaji": "いしゃ",
+            "example": "医者（いしゃ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "終わる",
+            "back": "kết thúc, hoàn thành",
+            "romaji": "おわる",
+            "example": "終わる（おわる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "学生",
+            "back": "sinh viên, học sinh",
+            "romaji": "がくせい",
+            "example": "学生（がくせい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "長い",
+            "back": "dài",
+            "romaji": "ながい",
+            "example": "長い（ながい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "何の",
+            "back": "nào, cái nào",
+            "romaji": "どの",
+            "example": "何の（どの）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "又",
+            "back": "lại, một lần nữa",
+            "romaji": "また",
+            "example": "又（また）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "国",
+            "back": "quốc gia, đất nước",
+            "romaji": "くに",
+            "example": "国（くに）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "高い",
+            "back": "cao",
+            "romaji": "たかい",
+            "example": "高い（たかい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "余り",
+            "back": "phần còn lại, số dư",
+            "romaji": "あまり",
+            "example": "余り（あまり）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "難しい",
+            "back": "khó, khó khăn",
+            "romaji": "むずかしい",
+            "example": "難しい（むずかしい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "友達",
+            "back": "bạn bè",
+            "romaji": "ともだち",
+            "example": "友達（ともだち）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "本当",
+            "back": "sự thật, thực tế",
+            "romaji": "ほんとう",
+            "example": "本当（ほんとう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "一つ",
+            "back": "một",
+            "romaji": "ひとつ",
+            "example": "一つ（ひとつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "寝る",
+            "back": "ngủ",
+            "romaji": "ねる",
+            "example": "寝る（ねる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "生徒",
+            "back": "học sinh",
+            "romaji": "せいと",
+            "example": "生徒（せいと）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "忙しい",
+            "back": "bận rộn",
+            "romaji": "いそがしい",
+            "example": "忙しい（いそがしい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "両親",
+            "back": "cha mẹ",
+            "romaji": "りょうしん",
+            "example": "両親（りょうしん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "泳ぐ",
+            "back": "bơi",
+            "romaji": "およぐ",
+            "example": "泳ぐ（およぐ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "出す",
+            "back": "lấy ra, đưa ra",
+            "romaji": "だす",
+            "example": "出す（だす）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "立つ",
+            "back": "đứng, đứng dậy",
+            "romaji": "たつ",
+            "example": "立つ（たつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "早い",
+            "back": "nhanh, mau",
+            "romaji": "はやい",
+            "example": "早い（はやい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "楽しい",
+            "back": "vui vẻ, thú vị",
+            "romaji": "たのしい",
+            "example": "楽しい（たのしい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "面白い",
+            "back": "thú vị, hấp dẫn",
+            "romaji": "おもしろい",
+            "example": "面白い（おもしろい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "絵",
+            "back": "tranh, bức vẽ",
+            "romaji": "え",
+            "example": "絵（え）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "女の子",
+            "back": "cô gái, con gái",
+            "romaji": "おんなのこ",
+            "example": "女の子（おんなのこ）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 12 — Ngữ pháp",
+        "description": "Ngữ pháp bài 12: Bài 12 — Lời mời và đề nghị: ～ませんか / ましょう",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "V-ます + ませんか",
+            "back": "Ý nghĩa: Lời mời gọi người khác cùng làm gì đó một cách lịch sự.\nCấu trúc: V-ます (bỏ ます) + ませんか",
+            "romaji": "masenka",
+            "example": "えきへ いきませんか。\nBạn có muốn đi đến nhà ga không?\n\nコーヒーを のみませんか。\nBạn có muốn uống cà phê không?\n\nあした いっしょに えいがを みませんか。\nNgày mai chúng ta cùng xem phim không?\n\nいっしょに ひるごはんを たべませんか。\nChúng ta cùng ăn trưa nhé?",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V-ます + ましょう",
+            "back": "Ý nghĩa: Đề nghị hoặc rủ rê cùng làm gì đó với sự quyết tâm hoặc đồng ý.\nCấu trúc: V-ます (bỏ ます) + ましょう",
+            "romaji": "mashou",
+            "example": "えきへ いきましょう。\nChúng ta cùng đi đến nhà ga nhé.\n\nここで やすみましょう。\nChúng ta cùng nghỉ ở đây nhé.\n\nにほんごを べんきょうしましょう。\nChúng ta hãy cùng học tiếng Nhật nhé.\n\nタクシーを よびましょう。\nChúng ta cùng gọi taxi thôi.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

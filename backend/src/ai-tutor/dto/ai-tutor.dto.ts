@@ -29,6 +29,28 @@ export class EvaluateDto {
   @IsString()
   @IsOptional()
   expectedAnswer?: string;
+
+  @IsString()
+  @IsOptional()
+  cardId?: string;
+}
+
+export class SaveExampleDto {
+  @IsString()
+  @IsNotEmpty()
+  cardId: string;
+
+  @IsString()
+  @IsNotEmpty()
+  japanese: string;
+
+  @IsString()
+  @IsOptional()
+  romaji?: string;
+
+  @IsString()
+  @IsNotEmpty()
+  vietnamese: string;
 }
 
 export class ChatMessageDto {

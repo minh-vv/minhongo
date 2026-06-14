@@ -1,0 +1,35 @@
+{
+  "order": 50,
+  "title": "50. こそ",
+  "summary": "Ngữ pháp bài số 50 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. こそ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** Danh từ / Trợ từ (から/に/で...) + こそ\n- **Ý nghĩa:** Nhấn mạnh danh từ hoặc trợ từ phía trước, dùng để khẳng định mạnh mẽ hoặc biểu đạt quyết tâm cao độ. Trong một số trường hợp (như 「～からこそ」), nó nhấn mạnh lý do chính yếu nhất.\n\n#### 📝 Ví dụ minh họa\n- 今年こそ、JLPT N3に合格してみせる。\n(Chính năm nay, tôi nhất định sẽ đỗ JLPT N3 cho xem.)\n- こちらこそ、どうぞよろしくお願いします。\n(Chính tôi mới là người mong nhận được sự giúp đỡ của anh/chị.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 50 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 50 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "こそ",
+            "back": "Ý nghĩa: Chính là, nhất định là. Dùng để nhấn mạnh danh từ hoặc trợ từ đứng trước nó, thể hiện sự khẳng định mạnh mẽ.\nCấu trúc: Danh từ / Trợ từ (から/に/で...) + こそ",
+            "romaji": "koso",
+            "example": "今年こそ、JLPT N3に合格してみせる。\nChính năm nay, tôi nhất định sẽ đỗ JLPT N3 cho xem.\n\nこちらこそ、どうぞよろしくお願いします。\nChính tôi mới là người mong nhận được sự giúp đỡ của anh/chị.\n\n愛があればこそ、厳しく言うのです。\nChính vì có tình yêu thương nên tôi mới nói nghiêm khắc như vậy.\n\n今日こそ頑張って最後までやり遂げます。\nChính ngày hôm nay, tôi sẽ cố gắng làm cho đến cùng.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

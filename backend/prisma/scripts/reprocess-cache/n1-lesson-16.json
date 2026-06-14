@@ -1,0 +1,42 @@
+{
+  "order": 16,
+  "title": "Bài 16 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 16/92).",
+  "theoryMd": "### 1. 〜はおろか〜すら\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: N + はおろか + N + すら\n- **Ý nghĩa**: N1 thì khỏi nói (đương nhiên), đến N2 (ở mức độ thấp hơn) cũng không thể/không có.\n\n#### 📝 Ví dụ minh họa\n- 漢字はおろか、ひらがなすら読めない。\n- 海外旅行はおろか、県外に出ることすらなかった。\n\n### 2. 〜はおろか〜も\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: N + はおろか + N + も\n- **Ý nghĩa**: Không chỉ A, mà ngay cả B cũng không (thường đi với phủ định).\n\n#### 📝 Ví dụ minh họa\n- 彼は敬語はおろか、普通の挨拶もできない。\n- 漢字はおろか、ひらがなも読めないなんて信じられない。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 16 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 16.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜はおろか〜すら",
+            "back": "Ý nghĩa: Vế trước là điều đương nhiên (tệ/khó), đến vế sau còn không làm được.\nCấu trúc: N + はおろか + N + すら",
+            "romaji": "wa-oroka-sura",
+            "example": "漢字はおろか、ひらがなすら読めない。\nKanji thì khỏi nói, đến cả hiragana cũng không đọc được.\n\n海外旅行はおろか、県外に出ることすらなかった。\nDu lịch nước ngoài thì khỏi nói, đến ra khỏi tỉnh tôi còn chưa từng.\n\n休みはおろか、昼休憩すら取れない日が続いた。\nNghỉ phép thì khỏi nói, đến cả nghỉ trưa cũng không lấy được suốt nhiều ngày.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜はおろか〜も",
+            "back": "Ý nghĩa: Không chỉ A mà ngay cả B (ở mức độ thấp hơn) cũng không làm được/xảy ra.\nCấu trúc: N + はおろか + N + も",
+            "romaji": "wa-oroka-mo",
+            "example": "彼は敬語はおろか、普通の挨拶もできない。\nKhông chỉ kính ngữ, ngay cả chào hỏi bình thường anh ta cũng không làm được.\n\n忙しくて旅行はおろか、外食すらしていない。\nBận đến mức du lịch thì khỏi nói, ngay cả đi ăn ngoài cũng chưa làm.\n\n漢字はおろか、ひらがなも読めないなんて信じられない。\nKhông chỉ kanji, đến cả hiragana cũng không đọc được thì khó tin thật.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

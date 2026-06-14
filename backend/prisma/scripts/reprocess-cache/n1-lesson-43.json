@@ -1,0 +1,42 @@
+{
+  "order": 43,
+  "title": "Bài 43 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 43/92).",
+  "theoryMd": "### 1. 〜てからというもの\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Kể từ sau khi một sự việc xảy ra, tình trạng/thái độ thay đổi hoàn toàn và duy trì trạng thái đó.\n- **Cấu trúc:** V-て + からというもの\n#### 📝 Ví dụ minh họa\n- 子どもが生まれてからというもの、外で飲むことがほとんどなくなった。\n- この町に引っ越してからというもの、車を使う頻度がぐっと増えた。\n- あの事故を目撃してからというもの、夜道を一人で歩けなくなった。\n\n### 2. 〜あっての〜\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Nhờ có A mới có B; A là điều kiện tiên quyết để tồn tại B.\n- **Cấu trúc:** N1 + あっての + N2\n#### 📝 Ví dụ minh họa\n- お客様あっての私たちの会社です。\n- 家族あっての幸せだと実感している。\n- 信頼あっての取引だ。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 43 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 43.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜てからというもの",
+            "back": "Ý nghĩa: Kể từ sau khi một sự việc xảy ra, tình trạng/thái độ thay đổi hoàn toàn và duy trì trạng thái đó.\nCấu trúc: V-て + からというもの",
+            "romaji": "te-kara-to-iu-mono",
+            "example": "子どもが生まれてからというもの、外で飲むことがほとんどなくなった。\nKể từ khi con chào đời, tôi hầu như không còn đi nhậu bên ngoài.\n\nこの町に引っ越してからというもの、車を使う頻度がぐっと増えた。\nKể từ khi chuyển tới thị trấn này, tần suất dùng ô tô tăng hẳn.\n\nあの事故を目撃してからというもの、夜道を一人で歩けなくなった。\nKể từ khi chứng kiến tai nạn đó, tôi không thể đi một mình trong đêm nữa.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜あっての〜",
+            "back": "Ý nghĩa: Nhờ có A mới có B; A là điều kiện tiên quyết để tồn tại B.\nCấu trúc: N1 + あっての + N2",
+            "romaji": "atte-no",
+            "example": "お客様あっての私たちの会社です。\nCông ty chúng tôi có được là nhờ khách hàng.\n\n家族あっての幸せだと実感している。\nTôi thực sự cảm nhận hạnh phúc là nhờ có gia đình.\n\n信頼あっての取引だ。\nGiao dịch là nhờ có niềm tin.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

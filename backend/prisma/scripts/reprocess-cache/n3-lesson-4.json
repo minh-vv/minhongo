@@ -1,0 +1,35 @@
+{
+  "order": 4,
+  "title": "4. ～ところだ・～ところ（＋助詞）…",
+  "summary": "Ngữ pháp bài số 4 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～ところだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **V-ruところ:** Sắp sửa thực hiện hành động.\n- **V-teiruところ:** Đang thực hiện hành động.\n- **V-taところ:** Vừa mới kết thúc hành động.\n- **Cấu trúc:** V-ru / V-teiru / V-ta + ところ\n\n#### 📝 Ví dụ minh họa\n- 今から出かけるところだ。\n- 宿題をしているところだよ。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 4 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 4 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ところだ／〜ところ（＋助詞）",
+            "back": "Ý nghĩa: Diễn tả thời điểm hành động: sắp làm (V-ru), đang làm (V-teiru), vừa mới làm xong (V-ta).\nCấu trúc: V-ru / V-teiru / V-ta + ところ（だ・を・へ・で）",
+            "romaji": "tokoro-da / tokoro-joshi",
+            "example": "今から出かけるところだ。\nTôi sắp sửa ra ngoài đây.\n\n宿題をしているところだよ。\nTớ đang làm bài tập.\n\n電車は今、駅を出たところです。\nChuyến tàu vừa mới rời ga.\n\nちょうど今、ご飯を食べたところです。\nVừa mới ăn cơm xong.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

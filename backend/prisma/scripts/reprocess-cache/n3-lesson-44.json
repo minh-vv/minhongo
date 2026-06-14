@@ -1,0 +1,35 @@
+{
+  "order": 44,
+  "title": "44. ～べきだ・～べき/～べきではない",
+  "summary": "Ngữ pháp bài số 44 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～べきだ・〜べきではない\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ một nghĩa vụ, bổn phận hoặc việc nên làm theo đạo đức, lẽ phải.\n- **Cấu trúc:** V-ru + べきだ / べきではない\n- **Lưu ý:** Với động từ 'suru', có thể dùng 'suru-beki' hoặc 'subeki'.\n\n#### 📝 Ví dụ minh họa\n- 約束は守るべきだ。(Nên giữ lời hứa)\n- そんなひどいことを言うべきではない。(Không nên nói những điều tồi tệ như vậy)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 44 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 44 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜べきだ / 〜べきではない",
+            "back": "Ý nghĩa: Nên làm / Không nên làm (Đương nhiên phải làm dựa trên đạo đức, lẽ thường, bổn phận).\nCấu trúc: V-ru + べきだ / べきではない (Lưu ý: suru -> suru-beki hoặc su-beki)",
+            "romaji": "beki da / beki dewa nai",
+            "example": "約束は守るべきだ。\nHứa là phải giữ lời.\n\nそんなひどいことを言うべきではない。\nKhông nên nói những lời tồi tệ như thế.\n\nもっと勉強しておくべきだった。\nĐáng lẽ ra mình nên học nhiều hơn.\n\n困っている人は助けるべきだ。\nNên giúp đỡ người đang gặp khó khăn.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

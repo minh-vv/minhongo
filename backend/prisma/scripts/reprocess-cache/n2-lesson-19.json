@@ -1,0 +1,70 @@
+{
+  "order": 19,
+  "title": "Bài 19: So sánh / Đánh giá (〜わりに（は）, 〜にしては, 〜だけ（のことは）ある, 〜として, 〜にとって, 〜にしたら)",
+  "summary": "Các cấu trúc so sánh và góc nhìn: 〜わりに（は）, 〜にしては, 〜だけ（のことは）ある, 〜として, 〜にとって, 〜にしたら",
+  "theoryMd": "### Bài 19: So sánh và Đánh giá\n\nNội dung tập trung vào cách biểu đạt quan điểm, sự so sánh và vai trò của các đối tượng.\n\n### 1. 〜わりに / 〜にしては\n- Cả hai đều dùng để so sánh kết quả thực tế với tiêu chuẩn, nhưng 〜にしては thường dùng cho các tiêu chuẩn khách quan hơn.\n\n### 2. 〜だけのことはある\n- Diễn tả sự xứng đáng, kết quả hợp lý.\n\n### 3. 〜として / 〜にとって / 〜にしたら\n- Cách nêu vai trò (として), góc nhìn (にとって) và lập trường (にしたら).",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 19 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 19: So sánh / Đánh giá (〜わりに（は）, 〜にしては, 〜だけ（のことは）ある, 〜として, 〜にとって, 〜にしたら)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜わりに / 〜わりには",
+            "back": "Ý nghĩa: Mặc dù... nhưng (kết quả không tương xứng, bất ngờ so với tiêu chuẩn thông thường).\nCấu trúc: Thể thông thường + わりに / わりには (Tính từ-na: な/である, Danh từ: の)",
+            "romaji": "wari ni / wari ni wa",
+            "example": "このお菓子は値段のわりには量が少ない。\nMón bánh kẹo này mặc dù giá đắt nhưng lượng lại ít quá.\n\n彼はあまり勉強しなかったわりに、テストで高得点を取った。\nCậu ấy mặc dù không học mấy nhưng lại đạt điểm cao trong bài kiểm tra.\n\nこのレストランは有名なわりに、味は普通だ。\nNhà hàng này mặc dù nổi tiếng nhưng vị lại rất bình thường.\n\n彼女は年齢のわりに若く見える。\nCô ấy trông trẻ hơn so với tuổi thật của mình.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜にしては",
+            "back": "Ý nghĩa: So với một tiêu chuẩn cụ thể, thực tế nào đó thì kết quả lại khác biệt.\nCấu trúc: N / V-ru + にしては",
+            "romaji": "ni shite wa",
+            "example": "今日は２月にしては暖かかった。\nHôm nay trời khá ấm áp so với thời tiết thông thường của tháng hai.\n\n彼女は初めてにしては、ピアノをとても上手に弾いた。\nCô ấy chơi piano rất giỏi so với một người mới chơi lần đầu.\n\nプロにしては、今日の演奏はひどいね。\nĐã là chuyên nghiệp rồi mà hôm nay biểu diễn tệ thế.\n\n忙しいにしては、よく時間を作ってくれたね。\nBạn bận rộn thế mà cũng cố dành thời gian cho mình nhỉ.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜だけのことはある",
+            "back": "Ý nghĩa: Quả đúng là... / Thật chẳng uổng công... (xứng đáng).\nCấu trúc: Thể thông thường + だけのことはある",
+            "romaji": "dake no koto wa aru",
+            "example": "すばらしいマンションだ。家賃が高いだけのことはある。\nCăn hộ tuyệt vời thật đấy. Đúng là đáng đồng tiền bát gạo với cái giá thuê cao như thế.\n\n毎日練習しただけのことはあって、彼女の歌は本当に素晴らしかった。\nĐúng là không bõ công luyện tập mỗi ngày, giọng hát của cô ấy thật sự rất tuyệt vời.\n\n日本に長く住んでいるだけあって、日本語がとても上手だ。\nSống ở Nhật lâu năm quả là không bõ công, tiếng Nhật giỏi thật đấy.\n\n優勝できたのは、毎日頑張っただけのことはあるよ。\nCó thể giành chiến thắng, quả là xứng đáng với những gì bạn đã nỗ lực hàng ngày.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜として",
+            "back": "Ý nghĩa: Với tư cách là... / Dưới danh nghĩa là...\nCấu trúc: N + として",
+            "romaji": "to shite",
+            "example": "子供の安全に気をつけることは、親として当然だ。\nChú ý đến sự an toàn của con trẻ là điều đương nhiên với vai trò làm cha mẹ.\n\n私は留学生として日本にやってきました。\nTôi đã đến Nhật Bản với tư cách là một du học sinh.\n\n彼は代表として会議に出席した。\nAnh ấy tham dự cuộc họp với tư cách là người đại diện.\n\nボランティアとして、老人ホームで働いている。\nTôi đang làm việc tại viện dưỡng lão với tư cách là tình nguyện viên.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜にとって",
+            "back": "Ý nghĩa: Đối với... (góc nhìn, quan điểm cá nhân).\nCấu trúc: N + にとって",
+            "romaji": "ni totte",
+            "example": "今の私にとって、一番大切なのは家族です。\nĐối với tôi hiện tại, điều quan trọng nhất chính là gia đình.\n\n現代人にとって、スマートフォンは手放せないものになっている。\nĐối với người hiện đại, điện thoại thông minh đã trở thành thứ không thể rời tay.\n\n彼にとって、その仕事は天職だ。\nĐối với anh ấy, công việc đó là nghề nghiệp lý tưởng.\n\n国にとって、教育は最も重要な投資である。\nĐối với một quốc gia, giáo dục là sự đầu tư quan trọng nhất.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜にしたら・〜にすれば",
+            "back": "Ý nghĩa: Nếu đặt mình vào vị trí, lập trường của đối tượng đó để suy nghĩ.\nCấu trúc: N + にしたら / にすれば",
+            "romaji": "ni shitara / ni sureba",
+            "example": "たばこを吸う人にすれば、たばこの害についての話題は避けたいだろう。\nNếu đứng ở lập trường của người hút thuốc, họ có lẽ sẽ muốn né tránh các chủ đề về tác hại của thuốc lá.\n\n親にしたら、子供が健康でいてくれるだけで十分だ。\nĐặt mình vào vị trí của cha mẹ, con cái chỉ cần khỏe mạnh là đã đủ lắm rồi.\n\n先生にすれば、生徒が成長するのが一番嬉しいことだ。\nĐối với giáo viên, học sinh trưởng thành là điều hạnh phúc nhất.\n\nペットにしたら、飼い主と遊ぶ時間が一番楽しい。\nĐối với vật nuôi, thời gian chơi với chủ là vui nhất.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 6
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "order": 8,
+  "title": "Bài 8: Dựa trên / Dành cho (〜をもとに（して）, 〜に基づいて, 〜に沿って, 〜のもとで・〜のもとに, 〜向けだ)",
+  "summary": "Các cấu trúc liên quan đến nền tảng, đối tượng mục tiêu: 〜をもとに（して）, 〜に基づいて, 〜に沿って, 〜のもとで・〜のもとに, 〜向けだ",
+  "theoryMd": "### 8. Cấu trúc nền tảng và đối tượng mục tiêu\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜をもとに（して）**: Lấy cái gì làm nền tảng để tạo ra cái mới.\n- **〜に基づいて**: Dựa trên (luật, dữ liệu, căn cứ rõ ràng).\n- **〜に沿って**: Men theo (đường) hoặc Tuân theo (kế hoạch/hướng dẫn).\n- **〜のもとで・〜のもとに**: Dưới sự hướng dẫn/điều kiện của ai/cái gì.\n- **〜向けだ**: Thiết kế dành riêng cho đối tượng cụ thể.\n\n#### 📝 Ví dụ minh họa\n- *〜をもとに*: この小説は、実際の事件をもとに書かれた。\n- *〜に基づいて*: 最新のデータに基づいて売り上げ計画を立てる。\n- *〜に沿って*: マニュアルに沿って、機械を操作してください。\n- *〜のもとで*: チームは新しい監督のもとで練習している。\n- *〜向けだ*: このマンションは高齢者向けに設計されている。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 8 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 8: Dựa trên / Dành cho (〜をもとに（して）, 〜に基づいて, 〜に沿って, 〜のもとで・〜のもとに, 〜向けだ)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜をもとに（して）",
+            "back": "Ý nghĩa: Dựa trên cái gốc là (tư liệu, nguyên liệu) để tạo ra cái mới.\nCấu trúc: N + をもとに / をもとにして",
+            "romaji": "o-moto-ni",
+            "example": "漢字をもとにしてひらがなとカタカナができた。\nHiragana và Katakana được tạo nên dựa trên chữ Hán.\n\nこの小説は、実際の事件をもとに書かれた。\nCuốn tiểu thuyết này được viết dựa trên một sự kiện có thật.\n\nアンケートの結果をもとにしてレポートを作成する。\nTạo báo cáo dựa trên kết quả khảo sát.\n\n日本の文化をもとにして新しいデザインを考えた。\nĐã suy nghĩ ra thiết kế mới dựa trên văn hóa Nhật Bản.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜に基づいて",
+            "back": "Ý nghĩa: Dựa trên (cơ sở pháp lý, dữ liệu, nguyên tắc).\nCấu trúc: N + に基づいて / に基づく + N",
+            "romaji": "ni-motozuite",
+            "example": "最新のデータに基づいて売り上げ計画を立てたいと思います。\nTôi muốn lập kế hoạch doanh số dựa trên dữ liệu mới nhất.\n\n法律に基づいて、公平に処理されます。\nVụ việc sẽ được xử lý công bằng dựa trên luật pháp.\n\n長年の経験に基づいて判断を下した。\nĐưa ra phán đoán dựa trên kinh nghiệm lâu năm.\n\nこの規則に基づいて行動してください。\nHãy hành động dựa trên quy tắc này.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜に沿って",
+            "back": "Ý nghĩa: Men theo; Tuân theo (quy tắc, kế hoạch).\nCấu trúc: N + に沿って / に沿う + N",
+            "romaji": "ni-sotte",
+            "example": "日本の運動会はプログラムに沿って順番に進めています。\nHội thể thao ở Nhật Bản được tiến hành tuần tự theo đúng chương trình.\n\nマニュアルに沿って、機械を操作してください。\nHãy vận hành máy móc theo đúng sách hướng dẫn.\n\n川に沿って道を歩く。\nĐi bộ dọc theo con sông.\n\nの方針に沿って会社を運営する。\nĐiều hành công ty theo phương châm đã đề ra.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜のもとで・〜のもとに",
+            "back": "Ý nghĩa: Dưới sự bảo trợ, hướng dẫn (của ai) / Dưới điều kiện (hoàn cảnh).\nCấu trúc: N + のもとで / のもとに",
+            "romaji": "no-moto-de / no-moto-ni",
+            "example": "チームは新しい監督のもとで練習に励んでいる。\nĐội bóng đang nỗ lực luyện tập dưới sự hướng dẫn của huấn luyện viên mới.\n\n憲法のもとに、すべての国民の権利が保障されている。\nDưới hiến pháp, quyền lợi của mọi người dân đều được bảo đảm.\n\n先生のもとで研究を続けている。\nĐang tiếp tục nghiên cứu dưới sự dẫn dắt của thầy giáo.\n\n平和な社会のもとに暮らす。\nSống dưới một xã hội hòa bình.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜向けだ",
+            "back": "Ý nghĩa: Dành riêng cho đối tượng nào đó.\nCấu trúc: N + 向けだ / 向けに / 向けの + N",
+            "romaji": "muke-da",
+            "example": "このマンションは一人暮らしの高齢者向けに設計されています。\nTòa nhà này được thiết kế dành riêng cho người cao tuổi sống một mình.\n\nこれは子ども向けの易しい日本語で書かれた本です。\nĐây là cuốn sách được viết bằng tiếng Nhật dễ hiểu dành cho trẻ em.\n\n海外向けの商品を開発する。\nPhát triển sản phẩm dành cho thị trường nước ngoài.\n\n初心者向けに解説する。\nGiải thích dành cho người mới bắt đầu.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 5
+  }
+}

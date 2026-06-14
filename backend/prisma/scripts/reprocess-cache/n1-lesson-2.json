@@ -1,0 +1,42 @@
+{
+  "order": 2,
+  "title": "Bài 2 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 2/92).",
+  "theoryMd": "### Bài 2: Cấu trúc biểu thị sự mặc kệ (N1)\n\n#### 1. ～であれ～であれ\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dù là cái này hay cái kia thì kết quả/tính chất vẫn không đổi.\n- Cấu trúc: N + であれ + N + であれ\n\n#### 📝 Ví dụ minh họa\n- 学歴が高いであれ低いであれ、努力は欠かせない。\n(Dù học vấn cao hay thấp, nỗ lực là điều không thể thiếu.)\n\n---\n\n#### 2. ～うが～うが\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Bất kể là làm gì/thế nào, hành động chính vẫn thực hiện.\n- Cấu trúc: V-ý chí (u/you) + が + V-ý chí (u/you) + が\n\n#### 📝 Ví dụ minh họa\n- 雨が降ろうが風が吹こうが、マラソンは決行する。\n(Dù mưa hay gió lớn, cuộc marathon vẫn tiến hành.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 2 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 2.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜であれ〜であれ",
+            "back": "Ý nghĩa: Cho dù là A hay là B thì kết quả vẫn như nhau\nCấu trúc: N + であれ + N + であれ",
+            "romaji": "de-are-de-are",
+            "example": "学歴が高いであれ低いであれ、努力は欠かせない。\nDù học vấn cao hay thấp, nỗ lực là điều không thể thiếu.\n\n雨であれ雪であれ、大会は予定どおり開催する。\nDù mưa hay tuyết, giải đấu vẫn tổ chức như dự định.\n\n金持ちであれ貧乏であれ、法の下では皆平等だ。\nDù giàu hay nghèo, ai cũng bình đẳng trước pháp luật.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜うが〜うが",
+            "back": "Ý nghĩa: Dù cho có... hay... thì cũng không ảnh hưởng đến hành động chính\nCấu trúc: V-ý chí (u/you) + が + V-ý chí (u/you) + が",
+            "romaji": "u-ga-u-ga",
+            "example": "雨が降ろうが風が吹こうが、マラソンは決行する。\nDù mưa hay gió lớn, cuộc marathon vẫn tiến hành.\n\n高かろうが低かろうが、この基準は変えない。\nDù cao hay thấp, tiêu chuẩn này không thay đổi.\n\n学生だろうが社会人だろうが、守るべきルールは同じだ。\nDù là sinh viên hay người đi làm, các quy tắc cần tuân thủ đều như nhau.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

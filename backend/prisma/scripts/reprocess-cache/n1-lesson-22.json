@@ -1,0 +1,42 @@
+{
+  "order": 22,
+  "title": "Bài 22 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 22/92).",
+  "theoryMd": "### 1. 〜やしない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Phủ định mạnh mẽ, mang tính mỉa mai, coi thường.\n- **Cấu trúc**: V-masu (bỏ masu) + やしない\n\n#### 📝 Ví dụ minh họa\n- あいつは約束の時間に来やしない。\n- 何度説明しても、彼は分かりゃしない。\n- 子どもは片付けなんてしやしないくせに、文句ばかり言う。\n\n### 2. 〜てまでも\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dù phải làm đến mức độ đó (cực đoan) thì vẫn muốn thực hiện mục đích.\n- **Cấu trúc**: V-te + も + までも\n\n#### 📝 Ví dụ minh họa\n- 彼は借金してまでも店を続けた。\n- 親に嘘をついてまでも彼女に会いに行った。\n- 徹夜してまでもこのプロジェクトを終わらせる。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 22 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 22.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜やしない",
+            "back": "Ý nghĩa: Phủ định mạnh mẽ, mang tính mỉa mai, coi thường.\nCấu trúc: V-masu (bỏ masu) + やしない",
+            "romaji": "ya-shinai",
+            "example": "あいつは約束の時間に来やしない。\nThằng đó chẳng thèm đến đúng giờ hẹn đâu.\n\n何度説明しても、彼は分かりゃしない。\nCó giải thích mấy lần thì anh ta cũng chẳng hiểu đâu.\n\n子どもは片付けなんてしやしないくせに、文句ばかり言う。\nBọn trẻ chẳng dọn dẹp gì cả mà chỉ toàn than phiền.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜てまでも",
+            "back": "Ý nghĩa: Dù phải làm đến mức độ đó (cực đoan) thì vẫn muốn thực hiện mục đích.\nCấu trúc: V-te + も + までも",
+            "romaji": "te-mademo",
+            "example": "彼は借金してまでも店を続けた。\nAnh ấy tiếp tục cửa hàng dù phải vay nợ.\n\n親に嘘をついてまでも彼女に会いに行った。\nAnh ta đã đi gặp cô ấy dù phải nói dối bố mẹ.\n\n徹夜してまでもこのプロジェクトを終わらせる。\nDù phải thức trắng đêm tôi cũng sẽ hoàn thành dự án này.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

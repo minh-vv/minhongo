@@ -1,0 +1,42 @@
+{
+  "order": 27,
+  "title": "Bài 27 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 27/92).",
+  "theoryMd": "### 1. 〜限りだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả cảm xúc của người nói tại thời điểm hiện tại: \"thật là vô cùng...\"\n- **Cấu trúc**: い-Adj / Na-Adj + 限りだ\n\n#### 📝 Ví dụ minh họa\nご支援いただき、ありがたい限りです。\nTôi vô cùng biết ơn vì đã nhận được sự hỗ trợ.\n\n結果が期待外れで、残念な限りだ。\nKết quả không như mong đợi, đáng tiếc vô cùng.\n\n友人の活躍を聞いて、うれしい限りだ。\nNghe bạn mình thành công, mừng hết sức.\n\n---\n### 2. 〜たりとも〜ない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: \"Dù chỉ là... cũng không\" (nhấn mạnh sự tuyệt đối, không ngoại lệ).\n- **Cấu trúc**: Số từ + đơn vị đếm + たりとも + V-phủ định\n\n#### 📝 Ví dụ minh họa\n重要な商談中は、一秒たりとも気を抜いてはならない。\nTrong lúc đàm phán quan trọng, dù chỉ một giây cũng không được lơ là.\n\n研究費は一円たりとも私的に使ってはならない。\nKinh phí nghiên cứu dù chỉ một yên cũng không được sử dụng cho mục đích cá nhân.\n\nこのプロジェクトでは、一人たりとも欠けてはならない。\nTrong dự án này, không được thiếu dù chỉ một người.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 27 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 27.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜限りだ",
+            "back": "Ý nghĩa: Cảm thấy rất, vô cùng (diễn tả cảm xúc của người nói).\nCấu trúc: い-Adj / Na-Adj + 限りだ",
+            "romaji": "kagiri-da",
+            "example": "ご支援いただき、ありがたい限りです。\nTôi vô cùng biết ơn vì đã nhận được sự hỗ trợ.\n\n結果が期待外れで、残念な限りだ。\nKết quả không như mong đợi, đáng tiếc vô cùng.\n\n友人の活躍を聞いて、うれしい限りだ。\nNghe bạn mình thành công, mừng hết sức.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜たりとも〜ない",
+            "back": "Ý nghĩa: Dù chỉ một chút/một đơn vị nhỏ cũng không được.\nCấu trúc: Số từ + đơn vị đếm + たりとも + V-phủ định",
+            "romaji": "taritomo-nai",
+            "example": "重要な商談中は、一秒たりとも気を抜いてはならない。\nTrong lúc đàm phán quan trọng, dù chỉ một giây cũng không được lơ là.\n\n研究費は一円たりとも私的に使ってはならない。\nKinh phí nghiên cứu dù chỉ một yên cũng không được sử dụng cho mục đích cá nhân.\n\nこのプロジェクトでは、一人たりとも欠けてはならない。\nTrong dự án này, không được thiếu dù chỉ một người.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

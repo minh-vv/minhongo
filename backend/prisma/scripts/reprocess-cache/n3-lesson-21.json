@@ -1,0 +1,35 @@
+{
+  "order": 21,
+  "title": "21. ～から…・～ことから…",
+  "summary": "Ngữ pháp bài số 21 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～から・～ことから\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dựa trên một sự thật hoặc căn cứ khách quan nào đó để đưa ra phán đoán hoặc giải thích nguyên nhân.\n- **Cấu trúc**: V(普) / A-i(普) / A-na(である) / N(である) + ことから\n- **Lưu ý**: Không dùng trong câu cầu khiến, mong muốn hoặc ý định cá nhân.\n\n#### 📝 Ví dụ minh họa\n- この辺りは昔、大きい工場があったことから、道の名前が工場通りとつけられた。\n- あの二人はいつも一緒にいることから、恋人同士だろう。\n- 彼女の話し方や態度から、育ちの良さがわかる。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 21 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 21 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜から…・〜ことから…",
+            "back": "Ý nghĩa: Từ sự thật ~ mà suy ra kết quả hoặc đưa ra phán đoán. Không dùng với câu thể hiện mong muốn, ý định, kêu gọi.\nCấu trúc: V(普) / A-i(普) / A-na(である) / N(である) + ことから",
+            "romaji": "kara / koto-kara",
+            "example": "この辺りは昔、大きい工場があったことから、道の名前が工場通りとつけられた。\nKhu vực này ngày xưa có một nhà máy lớn, vì vậy con đường đã được đặt tên là Phố Nhà máy.\n\nあの二人はいつも一緒にいることから、恋人同士だろう。\nHai người đó lúc nào cũng đi cùng nhau, nên chắc là người yêu của nhau.\n\n彼女の話し方や態度から、育ちの良さがわかる。\nTừ cách nói chuyện và thái độ của cô ấy, có thể thấy cô ấy được nuôi dạy rất tốt.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

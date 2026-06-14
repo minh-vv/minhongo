@@ -1,0 +1,35 @@
+{
+  "order": 58,
+  "title": "58. ～について…",
+  "summary": "Ngữ pháp bài số 58 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜について\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để chỉ chủ đề, nội dung của hành động (nói, viết, tìm hiểu).\n- **Cấu trúc**: N + について / N + についての + N\n\n#### 📝 Ví dụ minh họa\n- 日本の文化について研究しています。\n(Tôi đang nghiên cứu về văn hóa Nhật Bản.)\n- この件について、どうお考えですか。\n(Bạn nghĩ thế nào về vụ việc này?)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 58 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 58 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜について",
+            "back": "Ý nghĩa: Nói về, liên quan đến một chủ đề nào đó.\nCấu trúc: N + について / N + についての + N",
+            "romaji": "ni tsuite",
+            "example": "日本の文化について研究しています。\nTôi đang nghiên cứu về văn hóa Nhật Bản.\n\nこの件について、どうお考えですか。\nBạn nghĩ thế nào về vụ việc này?\n\n計画についての話し合いが行われた。\nMột cuộc thảo luận về kế hoạch đã được tiến hành.\n\n将来について真剣に考えた方がいい。\nNên suy nghĩ nghiêm túc về tương lai.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

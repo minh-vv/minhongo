@@ -1,0 +1,42 @@
+{
+  "order": 72,
+  "title": "Bài 72 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 72/92).",
+  "theoryMd": "### 1. 〜るべくもない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Không thể nào, không có cách nào (làm hành động đó).\n- **Cấu trúc:** V-dictionary form + べくもない\n- **Lưu ý:** Thường đi với các động từ nhận thức như 知る, 疑う, 否定する.\n\n### 2. 〜んがために\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Vì mục đích gì đó, để thực hiện việc gì đó.\n- **Cấu trúc:** V-nai (bỏ ない) + んがために (する → せんがために)\n- **Lưu ý:** Thể hiện sự quyết tâm mạnh mẽ để đạt mục đích, thường dùng trong văn viết, bối cảnh nghiêm túc.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 72 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 72.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜るべくもない",
+            "back": "Ý nghĩa: Không thể nào (làm gì đó) được.\nCấu trúc: V-dictionary form + べくもない",
+            "romaji": "ru-beku-monai",
+            "example": "当時の記録は失われ、真相は今となっては知るべくもない。\nVì tư liệu thời đó đã mất, đến giờ thì không cách nào biết được sự thật.\n\nこの資金力では大企業に太刀打ちするべくもない。\nVới tiềm lực này thì không thể nào đấu lại các tập đoàn lớn.\n\n私の実力は彼とは比べるべくもない。\nThực lực của tôi không thể nào đem so sánh với anh ấy.\n\n彼を疑うべくもない事実がある。\nCó sự thật rõ ràng đến mức không thể nào nghi ngờ anh ấy.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜んがために",
+            "back": "Ý nghĩa: Vì mục đích, để thực hiện hành động gì đó (thể hiện nỗ lực quyết tâm, thường là việc quan trọng).\nCấu trúc: V-nai (bỏ ない) + んがために (riêng する thành せんがために)",
+            "romaji": "nga-tame-ni",
+            "example": "彼は名声を得んがために、無謀な挑戦を繰り返した。\nAnh ta để đạt được danh tiếng đã liên tục liều lĩnh thách thức.\n\n会社は生き残りんがために、大規模なリストラを断行した。\nCông ty để sống còn đã quyết liệt cắt giảm quy mô lớn.\n\n真実を明らかにせんがために、彼女は内部告発をした。\nNhằm làm sáng tỏ sự thật, cô ấy đã tố giác nội bộ.\n\n勝利せんがために、私たちは限界まで練習した。\nĐể giành chiến thắng, chúng tôi đã luyện tập đến giới hạn.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "order": 18,
+  "title": "Bài 18 — Thể た: ～たり～たりします",
+  "summary": "Liệt kê hành động không theo thứ tự với ～たり～たり.",
+  "theoryMd": "### 1. V1-たり V2-たり します\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để liệt kê một vài hành động tiêu biểu. Hành động được chọn không theo thứ tự thời gian.\n- **Cấu trúc:** V1-ta + り + V2-ta + り + します (thì tùy thuộc vào します)\n\n#### 📝 Ví dụ minh họa\n- 休みの日は映画を見たり、買い物に行ったりします。(Ngày nghỉ tôi xem phim, đi mua sắm.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 18 — Từ vựng",
+        "description": "Từ vựng bài 18: Bài 18 — Thể た: ～たり～たりします",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "何処",
+            "back": "ở đâu",
+            "romaji": "どこ",
+            "example": "何処（どこ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "住む",
+            "back": "sống",
+            "romaji": "すむ",
+            "example": "住む（すむ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "食べる",
+            "back": "ăn",
+            "romaji": "たべる",
+            "example": "食べる（たべる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "歩く",
+            "back": "đi bộ",
+            "romaji": "あるく",
+            "example": "歩く（あるく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "働く",
+            "back": "làm việc",
+            "romaji": "はたらく",
+            "example": "働く（はたらく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "着く",
+            "back": "đến, đạt đến",
+            "romaji": "つく",
+            "example": "着く（つく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "上",
+            "back": "trên, phía trên",
+            "romaji": "うえ",
+            "example": "上（うえ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "悪い",
+            "back": "xấu, tệ, không mong muốn",
+            "romaji": "わるい",
+            "example": "悪い（わるい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "教える",
+            "back": "dạy, chỉ dẫn",
+            "romaji": "おしえる",
+            "example": "教える（おしえる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "降る",
+            "back": "rơi, đổ (mưa, tuyết)",
+            "romaji": "ふる",
+            "example": "降る（ふる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "死ぬ",
+            "back": "chết, qua đời",
+            "romaji": "しぬ",
+            "example": "死ぬ（しぬ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "帰る",
+            "back": "về, trở về nhà",
+            "romaji": "かえる",
+            "example": "帰る（かえる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "多い",
+            "back": "nhiều, đông",
+            "romaji": "おおい",
+            "example": "多い（おおい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "出かける",
+            "back": "đi ra ngoài, rời đi",
+            "romaji": "でかける",
+            "example": "出かける（でかける）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "若い",
+            "back": "trẻ, trẻ trung",
+            "romaji": "わかい",
+            "example": "若い（わかい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "掛かる",
+            "back": "mất (thời gian, tiền bạc)",
+            "romaji": "かかる",
+            "example": "掛かる（かかる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "同じ",
+            "back": "giống, giống nhau, bằng nhau",
+            "romaji": "おなじ",
+            "example": "同じ（おなじ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "起きる",
+            "back": "thức dậy, nổi lên",
+            "romaji": "おきる",
+            "example": "起きる（おきる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "座る",
+            "back": "ngồi",
+            "romaji": "すわる",
+            "example": "座る（すわる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "店",
+            "back": "cửa hàng, tiệm",
+            "romaji": "みせ",
+            "example": "店（みせ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "入れる",
+            "back": "cho vào, đưa vào",
+            "romaji": "いれる",
+            "example": "入れる（いれる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "何方",
+            "back": "ai",
+            "romaji": "どなた",
+            "example": "何方（どなた）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "一寸",
+            "back": "một chút, hơi",
+            "romaji": "ちょっと",
+            "example": "一寸（ちょっと）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "疲れる",
+            "back": "mệt mỏi",
+            "romaji": "つかれる",
+            "example": "疲れる（つかれる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "開ける",
+            "back": "mở",
+            "romaji": "あける",
+            "example": "開ける（あける）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "何故",
+            "back": "tại sao, vì sao",
+            "romaji": "なぜ",
+            "example": "何故（なぜ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "一日",
+            "back": "một ngày",
+            "romaji": "いちにち",
+            "example": "一日（いちにち）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "寒い",
+            "back": "lạnh (thời tiết)",
+            "romaji": "さむい",
+            "example": "寒い（さむい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "見せる",
+            "back": "cho xem, trưng bày",
+            "romaji": "みせる",
+            "example": "見せる（みせる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "違う",
+            "back": "khác, khác biệt",
+            "romaji": "ちがう",
+            "example": "違う（ちがう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "如何して",
+            "back": "bằng cách nào, làm thế nào",
+            "romaji": "どうして",
+            "example": "如何して（どうして）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "付ける",
+            "back": "gắn vào, đính vào, bật",
+            "romaji": "つける",
+            "example": "付ける（つける）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "覚える",
+            "back": "nhớ, ghi nhớ",
+            "romaji": "おぼえる",
+            "example": "覚える（おぼえる）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 18 — Ngữ pháp",
+        "description": "Ngữ pháp bài 18: Bài 18 — Thể た: ～たり～たりします",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "V1-たり V2-たり します",
+            "back": "Ý nghĩa: Liệt kê hành động không theo thứ tự, đuôi câu chia theo thời điểm thực hiện.\nCấu trúc: V1-ta + り, V2-ta + り + します",
+            "romaji": "v1-tari-v2-tari-shimasu",
+            "example": "休みの日は映画を見たり、買い物に行ったりします。\nNgày nghỉ tôi xem phim, đi mua sắm.\n\n先週はテニスをしたり、勉強したりしました。\nTuần trước tôi đã chơi tennis, học bài.\n\n昨日の夜はテレビを見たり、手紙を書いたりしました。\nTối qua tôi xem tivi, viết thư.\n\n週末は友達と会ったり、食事したりします。\nCuối tuần tôi gặp gỡ bạn bè, đi ăn uống.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

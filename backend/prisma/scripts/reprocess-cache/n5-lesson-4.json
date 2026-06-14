@@ -1,0 +1,167 @@
+{
+  "order": 4,
+  "title": "Bài 4 — Giờ giấc & Động từ thể ます",
+  "summary": "Hỏi giờ, động từ ます, thời gian xuất hiện trong câu.",
+  "theoryMd": "### 1. いま 何時 ですか\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Hỏi thời gian.\n- Cấu trúc: いま + [giờ] + じ + [phút] + ふん/ぷん + です\n\n#### 📝 Ví dụ minh họa\nいま 9じ 30ぷん です。\nBây giờ là 9 giờ 30 phút.\n\nいま 10じ です。\nBây giờ là 10 giờ.\n\n### 2. N (thời gian) に V ます\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Chỉ thời điểm thực hiện hành động.\n- Cấu trúc: N (thời gian) + に + V ます\n\n#### 📝 Ví dụ minh họa\n7じ に おきます。\nTôi thức dậy lúc 7 giờ.\n\n8がつ 15にちに にほんへ いきます。\nTôi đi Nhật vào ngày 15 tháng 8.\n\n### 3. 〜から〜まで\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Chỉ điểm bắt đầu và kết thúc.\n- Cấu trúc: N1 + から + N2 + まで\n\n#### 📝 Ví dụ minh họa\n9じ から 5じ まで はたらきます。\nTôi làm việc từ 9 giờ đến 5 giờ.\n\n7じ から 8じ まで べんきょうします。\nTôi học từ 7 giờ đến 8 giờ.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 4 — Từ vựng",
+        "description": "Từ vựng bài 4: Bài 4 — Giờ giấc & Động từ thể ます",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "おきます",
+            "back": "Thức dậy",
+            "romaji": "okimasu",
+            "example": "7じに おきます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ねます",
+            "back": "Đi ngủ",
+            "romaji": "nemasu",
+            "example": "11じに ねます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "はたらきます",
+            "back": "Làm việc",
+            "romaji": "hatarakimasu",
+            "example": "9じから 5じまで はたらきます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "べんきょうします",
+            "back": "Học bài",
+            "romaji": "benkyou shimasu",
+            "example": "まいにち にほんごを べんきょうします。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "やすみます",
+            "back": "Nghỉ ngơi",
+            "romaji": "yasumimasu",
+            "example": "にちようびは やすみます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "おわります",
+            "back": "Kết thúc",
+            "romaji": "owarimasu",
+            "example": "じゅぎょうは 5じに おわります。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "いま",
+            "back": "Bây giờ",
+            "romaji": "ima",
+            "example": "いま なんじですか。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "なんじ",
+            "back": "Mấy giờ",
+            "romaji": "nan-ji",
+            "example": "いま なんじですか。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ごぜん",
+            "back": "Sáng (AM)",
+            "romaji": "gozen",
+            "example": "ごぜん 9じです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ごご",
+            "back": "Chiều (PM)",
+            "romaji": "gogo",
+            "example": "ごご 3じです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "あさ",
+            "back": "Buổi sáng",
+            "romaji": "asa",
+            "example": "あさ 6じに おきます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ばん／よる",
+            "back": "Buổi tối / đêm",
+            "romaji": "ban / yoru",
+            "example": "ばん 11じに ねます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "きょう",
+            "back": "Hôm nay",
+            "romaji": "kyou",
+            "example": "きょうは げつようびです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "きのう",
+            "back": "Hôm qua",
+            "romaji": "kinou",
+            "example": "きのう やすみませんでした。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "あした",
+            "back": "Ngày mai",
+            "romaji": "ashita",
+            "example": "あした 9じに きます。",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 4 — Ngữ pháp",
+        "description": "Ngữ pháp bài 4: Bài 4 — Giờ giấc & Động từ thể ます",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "いま 何時 ですか",
+            "back": "Ý nghĩa: Hỏi thời gian hiện tại.\nCấu trúc: いま + [giờ] + じ + [phút] + ふん/ぷん + です",
+            "romaji": "ima nanji desuka",
+            "example": "いま 9じ 30ぷん です。\nBây giờ là 9 giờ 30 phút.\n\nいま 10じ です。\nBây giờ là 10 giờ.\n\nいま 5じ 15ふん です。\nBây giờ là 5 giờ 15 phút.\n\nいま 7じ 45ぷん です。\nBây giờ là 7 giờ 45 phút.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N (thời gian) に V ます",
+            "back": "Ý nghĩa: Hành động xảy ra tại thời điểm N.\nCấu trúc: N (thời gian) + に + V ます",
+            "romaji": "N ni V masu",
+            "example": "7じ に おきます。\nTôi thức dậy lúc 7 giờ.\n\n8がつ 15にちに にほんへ いきます。\nTôi đi Nhật vào ngày 15 tháng 8.\n\n6じ に ねます。\nTôi ngủ lúc 6 giờ.\n\nげつようびに べんきょうします。\nTôi học vào thứ hai.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "〜から〜まで",
+            "back": "Ý nghĩa: Khoảng thời gian từ... đến...\nCấu trúc: N1 (thời gian bắt đầu) + から + N2 (thời gian kết thúc) + まで",
+            "romaji": "~kara ~made",
+            "example": "9じ から 5じ まで はたらきます。\nTôi làm việc từ 9 giờ đến 5 giờ.\n\n7じ から 8じ まで べんきょうします。\nTôi học từ 7 giờ đến 8 giờ.\n\nがっこうは 8じ から 3じ まで です。\nTrường học từ 8 giờ đến 3 giờ.\n\nやすみは にちようび から げつようび まで です。\nNgày nghỉ từ chủ nhật đến thứ hai.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

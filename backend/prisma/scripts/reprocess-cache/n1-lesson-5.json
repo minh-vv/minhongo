@@ -1,0 +1,42 @@
+{
+  "order": 5,
+  "title": "Bài 5 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 5/92).",
+  "theoryMd": "### Bài 5: Cấu trúc nhấn mạnh mức độ (N1)\n\n#### 1. ～だろうとなかろうと\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dù có phải là... hay không thì kết quả vẫn thế.\n- Cấu trúc: N / Na-tính từ + だろうと + N / Na-tính từ + ではなかろうと\n\n#### 📝 Ví dụ minh họa\n- それが本物だろうとなかろうと、私は買わない。\n(Dù đó là đồ thật hay không, tôi cũng không mua.)\n\n---\n\n#### 2. どんなに～うが\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Nhấn mạnh vào việc dù tình trạng có đến mức cực đoan thế nào thì kết quả không đổi.\n- Cấu trúc: どんなに + V-ý chí / Tính từ + が/とも\n\n#### 📝 Ví dụ minh họa\n- どんなに批判されようが、信念は曲げない。\n(Dù bị chỉ trích đến mấy, tôi cũng không bẻ cong niềm tin.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 5 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 5.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜だろうとなかろうと",
+            "back": "Ý nghĩa: Cho dù là... hay không phải là...\nCấu trúc: N / Na-tính từ + だろうと + N / Na-tính từ + ではなかろうと",
+            "romaji": "darou-to-nakarou-to",
+            "example": "それが本物だろうとなかろうと、私は買わない。\nDù đó là đồ thật hay không, tôi cũng không mua.\n\n必要だろうとなかろうと、ルールは守るべきだ。\nDù có cần hay không, quy tắc vẫn phải tuân thủ.\n\n企画が斬新だろうとなかろうと、安全性が最優先だ。\nDù kế hoạch có mới lạ hay không, an toàn là ưu tiên hàng đầu.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "どんなに〜うが",
+            "back": "Ý nghĩa: Dù có... đến mức độ nào đi chăng nữa\nCấu trúc: どんなに + V-ý chí / Tính từ + が/とも",
+            "romaji": "donna-ni-u-ga",
+            "example": "どんなに批判されようが、信念は曲げない。\nDù bị chỉ trích đến mấy, tôi cũng không bẻ cong niềm tin.\n\nどんなに忙しかろうが、家族との時間は大切にする。\nDù bận đến đâu vẫn trân trọng thời gian cho gia đình.\n\nどんなに不利であろうが、挑戦を続ける。\nDù bất lợi đến mấy, vẫn tiếp tục thử thách.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

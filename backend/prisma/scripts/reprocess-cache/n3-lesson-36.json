@@ -1,0 +1,35 @@
+{
+  "order": 36,
+  "title": "36. ～わけではない・～というわけではない・～のではない",
+  "summary": "Ngữ pháp bài số 36 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～わけではない・～というわけではない・～のではない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không hẳn là..., không có nghĩa là... Dùng để phủ định một phần thông tin, nhằm đính chính hoặc làm giảm nhẹ mức độ của một suy đoán.\n- **Cấu trúc**: Thể thông thường (A-na/N + な/である) + わけではない / というわけではない / のではない\n#### 📝 Ví dụ minh họa\n- 甘いものが嫌いなわけではないが、ダイエット中だから食べない。\n- 日本人がみんな、日本語を教えられるというわけではない。\n- 怒っているのではない、ただ心配しているだけだ。\n- 高ければいいというわけではない。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 36 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 36 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜わけではない・〜というわけではない・〜のではない",
+            "back": "Ý nghĩa: Không hẳn là..., không có nghĩa là... (Phủ định một phần hoặc đính chính suy đoán).\nCấu trúc: Thể thông thường + わけではない / というわけではない / のではない (A-na/N + な/である)",
+            "romaji": "wake de wa nai / to iu wake de wa nai / no de wa nai",
+            "example": "甘いものが嫌いなわけではないが、ダイエット中だから食べない。\nKhông phải tôi ghét đồ ngọt, mà là vì đang ăn kiêng nên không ăn.\n\n日本人がみんな、日本語を教えられるというわけではない。\nKhông phải tất cả người Nhật đều có thể dạy tiếng Nhật.\n\n怒っているのではない、ただ心配しているだけだ。\nKhông phải tôi đang giận đâu, chỉ là đang lo lắng thôi.\n\n高ければいいというわけではない。\nKhông phải cứ đắt là tốt.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

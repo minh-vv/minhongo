@@ -1,0 +1,42 @@
+{
+  "order": 89,
+  "title": "Bài 89 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 89/92).",
+  "theoryMd": "### 1. 〜たことにしてください\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V-ta + ことにしてください\n- **Ý nghĩa:** Yêu cầu người nghe tạm chấp nhận một thực tế khác với thực tế hiện tại.\n\n#### 📝 Ví dụ minh họa\n- 先ほどの失言は聞かなかったことにしてください。\nXin hãy coi như chưa nghe lời lỡ miệng khi nãy.\n\n### 2. 〜たが最後\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V-ta + が最後\n- **Ý nghĩa:** Một khi đã thực hiện một hành động nào đó thì kết quả không hay chắc chắn sẽ xảy ra và không thể thay đổi.\n\n#### 📝 Ví dụ minh họa\n- 彼にお金を貸したが最後、二度と戻ってこない。\nMột khi đã cho anh ta vay tiền thì chẳng bao giờ lấy lại được.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 89 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 89.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜たことにしてください",
+            "back": "Ý nghĩa: Hãy coi như là đã xảy ra điều gì đó (thực tế là không hoặc ngược lại).\nCấu trúc: V-ta + ことにしてください",
+            "romaji": "ta-koto-ni-shite-kudasai",
+            "example": "先ほどの失言は聞かなかったことにしてください。\nXin hãy coi như chưa nghe lời lỡ miệng khi nãy.\n\n本日の出席はあったことにしてください。後で欠席理由を説明します。\nXin hãy xem như hôm nay tôi có mặt. Tôi sẽ giải thích lý do vắng sau.\n\nこのメールは届かなかったことにしてください。誤送信でした。\nVui lòng coi như email này chưa đến. Tôi đã gửi nhầm.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜たが最後",
+            "back": "Ý nghĩa: Một khi đã làm gì thì kết quả xấu sẽ xảy ra không thể cưỡng lại được.\nCấu trúc: V-ta + が最後",
+            "romaji": "ta-ga-saigo",
+            "example": "彼にお金を貸したが最後、二度と戻ってこない。\nMột khi đã cho anh ta vay tiền thì chẳng bao giờ lấy lại được.\n\nギャンブルに手を出したが最後、人生が転落してしまう人もいる。\nMột khi đã nhúng tay vào cờ bạc, có người cuộc đời tụt dốc.\n\nその噂を信じたが最後、彼を正しく評価できなくなる。\nMột khi tin lời đồn đó thì không thể đánh giá anh ấy đúng nữa.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

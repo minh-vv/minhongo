@@ -1,0 +1,42 @@
+{
+  "order": 80,
+  "title": "Bài 80 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 80/92).",
+  "theoryMd": "### 1. 〜を境にして / 2. 〜に至った\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜を境にして:** Dùng để diễn tả sự thay đổi rõ rệt của trạng thái sau một thời điểm hoặc sự kiện.\n- **〜に至った:** Dùng để chỉ kết quả cuối cùng, thường sau một quá trình dài hoặc khó khăn.\n\n#### 📝 Ví dụ minh họa\n- 就職を境に、彼は地元を離れた。(Lấy mốc đi làm, anh ấy rời quê.)\n- 数度の交渉を経て、ようやく合意に至った。(Sau nhiều lần đàm phán, cuối cùng đã đi đến thỏa thuận.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 80 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 80.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜を境にして",
+            "back": "Ý nghĩa: Lấy mốc thời gian/sự kiện... làm giới hạn, kể từ sau đó thì trạng thái thay đổi hẳn.\nCấu trúc: N + を境に(して)",
+            "romaji": "wo-sakai-ni-shite",
+            "example": "就職を境に、彼は地元を離れた。\nLấy mốc đi làm, anh ấy rời quê.\n\n事故を境に、会社の安全基準が厳格化された。\nKể từ vụ tai nạn đó, tiêu chuẩn an toàn của công ty được siết chặt.\n\nこの道を境に、東側は住宅地、西側は商業地だ。\nLấy con đường này làm ranh giới, phía đông là khu dân cư, phía tây là khu thương mại.\n\n結婚を境にして、彼は性格が明るくなった。\nSau khi kết hôn, tính cách anh ấy trở nên vui vẻ hơn hẳn.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜に至った",
+            "back": "Ý nghĩa: Đã dẫn đến kết quả... (thường là kết quả không mong muốn hoặc sự việc cuối cùng).\nCấu trúc: V-ta / N + に至った",
+            "romaji": "ni-itatta",
+            "example": "数度の交渉を経て、ようやく合意に至った。\nSau nhiều lần đàm phán, cuối cùng đã đi đến thỏa thuận.\n\n感染が全身に広がり、残念ながら死亡に至った。\nNhiễm trùng lan khắp cơ thể, đáng tiếc đã dẫn đến tử vong.\n\n不具合が相次ぎ、製品の出荷は中止に至った。\nSự cố liên tiếp xảy ra, việc xuất hàng đã đi đến chấm dứt.\n\n議論を重ねた結果、廃案に至った。\nSau khi thảo luận nhiều lần, cuối cùng đã đi đến quyết định hủy bỏ dự án.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

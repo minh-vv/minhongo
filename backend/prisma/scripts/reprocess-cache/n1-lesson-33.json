@@ -1,0 +1,42 @@
+{
+  "order": 33,
+  "title": "Bài 33 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 33/92).",
+  "theoryMd": "### 1. 〜といったらありはしない / 〜といったらありゃしない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V/Adj/N + といったらありはしない (Dạng khẩu ngữ: といったらありゃしない)\n- **Ý nghĩa:** …vô cùng, không thể tả nổi. Thường diễn đạt cảm xúc tiêu cực, không hài lòng hoặc khó chịu.\n\n#### 📝 Ví dụ minh họa\n- この寒さといったらありはしない。暖房なしでは無理だ。\n- 彼の部屋の汚さといったらありはしない。\n- うるさいといったらありゃしない！集中できないよ。\n- あの店の接客の悪さといったらありゃしない。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 33 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 33.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜といったらありはしない",
+            "back": "Ý nghĩa: … vô cùng, không kể xiết (thường dùng cho cảm xúc tiêu cực).\nCấu trúc: V/Adj/N + といったらありはしない",
+            "romaji": "to-ittara-ari-wa-shinai",
+            "example": "この寒さといったらありはしない。暖房なしでは無理だ。\nLạnh không thể tả. Không có sưởi thì chịu không nổi.\n\n彼の部屋の汚さといったらありはしない。\nĐộ bẩn của phòng cậu ta thì khỏi phải nói.\n\n通勤ラッシュの混雑といったらありはしない。\nĐông đúc lúc cao điểm đi làm thì không tả nổi.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜といったらありゃしない",
+            "back": "Ý nghĩa: … vô cùng (cách nói khẩu ngữ rút gọn của '〜といったらありはしない').\nCấu trúc: V/Adj/N + といったらありゃしない",
+            "romaji": "to-ittara-aryashina",
+            "example": "うるさいといったらありゃしない！集中できないよ。\nỒn không chịu nổi! Không thể tập trung được.\n\nあの店の接客の悪さといったらありゃしない。\nThái độ phục vụ của quán đó tệ hết chỗ nói.\n\n部屋の散らかりようといったらありゃしない。\nCảnh bừa bộn của phòng thì khỏi nói.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

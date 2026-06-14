@@ -1,0 +1,293 @@
+{
+  "order": 15,
+  "title": "Bài 15 — Thể て (1): Nối câu và yêu cầu",
+  "summary": "Chia động từ thể て, mẫu ～てください, ～ています.",
+  "theoryMd": "### 1. Thể て và các mẫu câu liên quan\n#### 💡 Cấu trúc & Ý nghĩa\n- **V-て**: Dạng liên kết, dùng để tạo các mẫu câu nhờ vả hoặc tiếp diễn.\n- **V-て ください**: Lời nhờ vả, yêu cầu lịch sự.\n- **V-て います**: Diễn tả hành động đang diễn ra tại thời điểm hiện tại.\n\n#### 📝 Ví dụ minh họa\n- ここに 名前を 書いてください。 (Hãy viết tên vào đây.)\n- あめが ふっています。 (Trời đang mưa.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 15 — Từ vựng",
+        "description": "Từ vựng bài 15: Bài 15 — Thể て (1): Nối câu và yêu cầu",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "切る",
+            "back": "cắt",
+            "romaji": "きる",
+            "example": "切る（きる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "多分",
+            "back": "có lẽ, có thể",
+            "romaji": "たぶん",
+            "example": "多分（たぶん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "嫌",
+            "back": "không thích, ghét",
+            "romaji": "いや",
+            "example": "嫌（いや）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "嫌",
+            "back": "không thích, ghét",
+            "romaji": "いや",
+            "example": "嫌（いや）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "荷物",
+            "back": "hành lý",
+            "romaji": "にもつ",
+            "example": "荷物（にもつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "番号",
+            "back": "số",
+            "romaji": "ばんごう",
+            "example": "番号（ばんごう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "返す",
+            "back": "trả lại",
+            "romaji": "かえす",
+            "example": "返す（かえす）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "来年",
+            "back": "năm sau",
+            "romaji": "らいねん",
+            "example": "来年（らいねん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "明るい",
+            "back": "sáng, tươi sáng",
+            "romaji": "あかるい",
+            "example": "明るい（あかるい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "近い",
+            "back": "gần",
+            "romaji": "ちかい",
+            "example": "近い（ちかい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "向こう",
+            "back": "phía đối diện, phía bên kia",
+            "romaji": "むこう",
+            "example": "向こう（むこう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "始め",
+            "back": "sự bắt đầu, khởi đầu",
+            "romaji": "はじめ",
+            "example": "始め（はじめ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "痛い",
+            "back": "đau",
+            "romaji": "いたい",
+            "example": "痛い（いたい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "秋",
+            "back": "mùa thu",
+            "romaji": "あき",
+            "example": "秋（あき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "休み",
+            "back": "nghỉ ngơi",
+            "romaji": "やすみ",
+            "example": "休み（やすみ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "練習",
+            "back": "luyện tập, thực hành",
+            "romaji": "れんしゅう",
+            "example": "練習（れんしゅう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "十",
+            "back": "mười",
+            "romaji": "じゅう",
+            "example": "十（じゅう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "先月",
+            "back": "tháng trước",
+            "romaji": "せんげつ",
+            "example": "先月（せんげつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "上着",
+            "back": "áo khoác",
+            "romaji": "うわぎ",
+            "example": "上着（うわぎ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "結構",
+            "back": "tuyệt vời, khá",
+            "romaji": "けっこう",
+            "example": "結構（けっこう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "兄弟",
+            "back": "anh chị em",
+            "romaji": "きょうだい",
+            "example": "兄弟（きょうだい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "毎年",
+            "back": "hàng năm",
+            "romaji": "まいとし",
+            "example": "毎年（まいとし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "来月",
+            "back": "tháng sau",
+            "romaji": "らいげつ",
+            "example": "来月（らいげつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "五",
+            "back": "năm",
+            "romaji": "ご",
+            "example": "五（ご）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "飲み物",
+            "back": "đồ uống",
+            "romaji": "のみもの",
+            "example": "飲み物（のみもの）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "牛乳",
+            "back": "sữa",
+            "romaji": "ぎゅうにゅう",
+            "example": "牛乳（ぎゅうにゅう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "弱い",
+            "back": "yếu",
+            "romaji": "よわい",
+            "example": "弱い（よわい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "三",
+            "back": "ba",
+            "romaji": "さん",
+            "example": "三（さん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "大丈夫",
+            "back": "an toàn",
+            "romaji": "だいじょうぶ",
+            "example": "大丈夫（だいじょうぶ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "黒い",
+            "back": "đen",
+            "romaji": "くろい",
+            "example": "黒い（くろい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "半分",
+            "back": "một nửa",
+            "romaji": "はんぶん",
+            "example": "半分（はんぶん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "皆さん",
+            "back": "mọi người",
+            "romaji": "みなさん",
+            "example": "皆さん（みなさん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "押す",
+            "back": "đẩy",
+            "romaji": "おす",
+            "example": "押す（おす）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 15 — Ngữ pháp",
+        "description": "Ngữ pháp bài 15: Bài 15 — Thể て (1): Nối câu và yêu cầu",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "V-て (Cách chia)",
+            "back": "Ý nghĩa: Thể て là dạng liên kết động từ, dùng để nối câu hoặc kết hợp ngữ pháp.\nCấu trúc: Phụ thuộc vào nhóm động từ (Ví dụ: Nhóm 1 đuôi い,ち,り -> って...)",
+            "romaji": "te-kei",
+            "example": "かきます -> かいて (viết)\n\nのみます -> のんで (uống)\n\nたべます -> たべて (ăn)\n\nします -> して (làm)",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V-て ください",
+            "back": "Ý nghĩa: Mẫu câu nhờ vả, yêu cầu người khác làm gì đó một cách lịch sự.\nCấu trúc: V-て + ください",
+            "romaji": "te-kudasai",
+            "example": "荷物を返してください。\nHãy trả lại hành lý cho tôi.\n\nここに 名前を 書いてください。\nHãy viết tên vào đây.\n\nドアを 開けてください。\nHãy mở cửa ra.\n\nゆっくり 話してください。\nHãy nói chậm thôi.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V-て います",
+            "back": "Ý nghĩa: Diễn tả hành động đang tiếp diễn tại thời điểm nói.\nCấu trúc: V-て + います",
+            "romaji": "te-imasu",
+            "example": "私は今、手紙を書いています。\nBây giờ tôi đang viết thư.\n\nあめが ふっています。\nTrời đang mưa.\n\nこどもが 公園で 遊んでいます。\nBọn trẻ đang chơi ở công viên.\n\nみんなは 勉強しています。\nMọi người đang học bài.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

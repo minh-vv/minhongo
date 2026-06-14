@@ -1,0 +1,230 @@
+{
+  "order": 1,
+  "title": "Bài 26 — Từ vựng JLPT N4 (Phần 1)",
+  "summary": "Học và rèn luyện 24 từ vựng JLPT N4 - Lớp bài học 1/25.",
+  "theoryMd": "### 1. 〜てあげる\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Làm việc gì đó có lợi cho người khác.\n- Cấu trúc: Động từ thể て + あげる\n#### 📝 Ví dụ minh họa\n- 荷物を運んであげます。(Tôi mang hành lý giúp bạn.)\n- 写真を撮ってあげました。(Tôi đã chụp ảnh giúp cô ấy.)\n- 友達に料理を作ってあげました。(Tôi đã nấu ăn giúp bạn tôi.)\n- 花に水をやってあげます。(Tôi tưới nước cho hoa giúp mẹ.)\n\n### 2. N で\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trợ từ chỉ địa điểm xảy ra hành động.\n- Cấu trúc: Danh từ (địa điểm) + で\n#### 📝 Ví dụ minh họa\n- 図書館で本を読みます。(Tôi đọc sách ở thư viện.)\n- 公園で遊びます。(Tôi chơi ở công viên.)\n- 食堂で昼ご飯を食べます。(Tôi ăn trưa tại nhà ăn.)\n- 家でテレビを見ます。(Tôi xem tivi ở nhà.)\n\n### 3. N の N\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Biểu thị quan hệ sở hữu hoặc thuộc tính giữa hai danh từ.\n- Cấu trúc: N1 (sở hữu/chủ thể) + の + N2 (vật/đối tượng)\n#### 📝 Ví dụ minh họa\n- 私の車です。(Đó là xe của tôi.)\n- 先生の辞書です。(Đó là từ điển của thầy giáo.)\n- 日本の地図です。(Đây là bản đồ của Nhật Bản.)\n- 田中さんのカバンです。(Đây là cặp của anh Tanaka.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 26 — Từ vựng",
+        "description": "Từ vựng bài số 26 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "周り",
+            "back": "chu vi, vòng quanh",
+            "romaji": "まわり",
+            "example": "周り（まわり）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "上げる",
+            "back": "nâng lên, giơ lên",
+            "romaji": "あげる",
+            "example": "上げる（あげる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "腕",
+            "back": "cánh tay",
+            "romaji": "うで",
+            "example": "腕（うで）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "人形",
+            "back": "búp bê, con rối",
+            "romaji": "にんぎょう",
+            "example": "人形（にんぎょう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "文化",
+            "back": "văn hóa, văn minh",
+            "romaji": "ぶんか",
+            "example": "文化（ぶんか）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "海岸",
+            "back": "bờ biển",
+            "romaji": "かいがん",
+            "example": "海岸（かいがん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "産業",
+            "back": "công nghiệp",
+            "romaji": "さんぎょう",
+            "example": "産業（さんぎょう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "動物園",
+            "back": "vườn bách thú",
+            "romaji": "どうぶつえん",
+            "example": "動物園（どうぶつえん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "美術館",
+            "back": "bảo tàng nghệ thuật",
+            "romaji": "びじゅつかん",
+            "example": "美術館（びじゅつかん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "水道",
+            "back": "cấp nước, thủy cục",
+            "romaji": "すいどう",
+            "example": "水道（すいどう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "飛行場",
+            "back": "sân bay",
+            "romaji": "ひこうじょう",
+            "example": "飛行場（ひこうじょう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "葡萄",
+            "back": "nho",
+            "romaji": "ぶどう",
+            "example": "葡萄（ぶどう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "事故",
+            "back": "tai nạn, sự cố",
+            "romaji": "じこ",
+            "example": "事故（じこ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "息子",
+            "back": "con trai",
+            "romaji": "むすこ",
+            "example": "息子（むすこ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "生活",
+            "back": "cuộc sống, sinh hoạt",
+            "romaji": "せいかつ",
+            "example": "生活（せいかつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "注意",
+            "back": "chú ý, để ý",
+            "romaji": "ちゅうい",
+            "example": "注意（ちゅうい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "女性",
+            "back": "phụ nữ, nữ giới",
+            "romaji": "じょせい",
+            "example": "女性（じょせい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "生きる",
+            "back": "sống, tồn tại",
+            "romaji": "いきる",
+            "example": "生きる（いきる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "船",
+            "back": "tàu, thuyền",
+            "romaji": "ふね",
+            "example": "船（ふね）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "説明",
+            "back": "giải thích, mô tả",
+            "romaji": "せつめい",
+            "example": "説明（せつめい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "警察",
+            "back": "cảnh sát",
+            "romaji": "けいさつ",
+            "example": "警察（けいさつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "危険",
+            "back": "nguy hiểm",
+            "romaji": "きけん",
+            "example": "危険（きけん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "世界",
+            "back": "thế giới, xã hội",
+            "romaji": "せかい",
+            "example": "世界（せかい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "戦争",
+            "back": "chiến tranh",
+            "romaji": "せんそう",
+            "example": "戦争（せんそう）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 1 — Ngữ pháp",
+        "description": "Ngữ pháp bài 1: Bài 26 — Từ vựng JLPT N4 (Phần 1)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "〜てあげる",
+            "back": "Ý nghĩa: Làm việc gì đó có lợi cho người khác.\nCấu trúc: Động từ thể て + あげる",
+            "romaji": "te-ageru",
+            "example": "荷物を運んであげます。\nTôi mang hành lý giúp bạn.\n\n写真を撮ってあげました。\nTôi đã chụp ảnh giúp cô ấy.\n\n友達に料理を作ってあげました。\nTôi đã nấu ăn giúp bạn tôi.\n\n花に水をやってあげます。\nTôi tưới nước cho hoa giúp mẹ.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "N で",
+            "back": "Ý nghĩa: Trợ từ chỉ địa điểm xảy ra hành động.\nCấu trúc: Danh từ (địa điểm) + で",
+            "romaji": "N-de",
+            "example": "図書館で本を読みます。\nTôi đọc sách ở thư viện.\n\n公園で遊びます。\nTôi chơi ở công viên.\n\n食堂で昼ご飯を食べます。\nTôi ăn trưa tại nhà ăn.\n\n家でテレビを見ます。\nTôi xem tivi ở nhà.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "N の N",
+            "back": "Ý nghĩa: Biểu thị quan hệ sở hữu hoặc thuộc tính giữa hai danh từ.\nCấu trúc: N1 (sở hữu/chủ thể) + の + N2 (vật/đối tượng)",
+            "romaji": "N-no-N",
+            "example": "私の車です。\nĐó là xe của tôi.\n\n先生の辞書です。\nĐó là từ điển của thầy giáo.\n\n日本の地図です。\nĐây là bản đồ của Nhật Bản.\n\n田中さんのカバンです。\nĐây là cặp của anh Tanaka.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

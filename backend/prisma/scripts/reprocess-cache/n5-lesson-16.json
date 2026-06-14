@@ -1,0 +1,286 @@
+{
+  "order": 16,
+  "title": "Bài 16 — Thể て (2): ～ています trạng thái",
+  "summary": "Phân biệt ～ています tiếp diễn vs trạng thái kết quả.",
+  "theoryMd": "### 1. V-ています (Trạng thái kết quả)\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để diễn tả trạng thái hiện tại của sự vật, sự việc là kết quả từ một hành động đã thực hiện trước đó.\n- **Cấu trúc:** V-te + います\n\n#### 📝 Ví dụ minh họa\n- 窓が閉まっています。(Cửa sổ đang đóng.)\n- 結婚しています。(Tôi đã kết hôn.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 16 — Từ vựng",
+        "description": "Từ vựng bài 16: Bài 16 — Thể て (2): ～ています trạng thái",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "勤める",
+            "back": "làm việc",
+            "romaji": "つとめる",
+            "example": "勤める（つとめる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "熱い",
+            "back": "nóng",
+            "romaji": "あつい",
+            "example": "熱い（あつい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "三つ",
+            "back": "ba",
+            "romaji": "みっつ",
+            "example": "三つ（みっつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "果物",
+            "back": "hoa quả",
+            "romaji": "くだもの",
+            "example": "果物（くだもの）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "今週",
+            "back": "tuần này",
+            "romaji": "こんしゅう",
+            "example": "今週（こんしゅう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "甘い",
+            "back": "ngọt",
+            "romaji": "あまい",
+            "example": "甘い（あまい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "右",
+            "back": "bên phải",
+            "romaji": "みぎ",
+            "example": "右（みぎ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "晩",
+            "back": "buổi tối",
+            "romaji": "ばん",
+            "example": "晩（ばん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "階段",
+            "back": "cầu thang",
+            "romaji": "かいだん",
+            "example": "階段（かいだん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "大勢",
+            "back": "đông người",
+            "romaji": "おおぜい",
+            "example": "大勢（おおぜい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "幾つ",
+            "back": "bao nhiêu",
+            "romaji": "いくつ",
+            "example": "幾つ（いくつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "張る",
+            "back": "dán",
+            "romaji": "はる",
+            "example": "張る（はる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "夕方",
+            "back": "chiều tối",
+            "romaji": "ゆうがた",
+            "example": "夕方（ゆうがた）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "低い",
+            "back": "thấp",
+            "romaji": "ひくい",
+            "example": "低い（ひくい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "左",
+            "back": "bên trái",
+            "romaji": "ひだり",
+            "example": "左（ひだり）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "毎週",
+            "back": "mỗi tuần",
+            "romaji": "まいしゅう",
+            "example": "毎週（まいしゅう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "下手",
+            "back": "kém",
+            "romaji": "へた",
+            "example": "下手（へた）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "千",
+            "back": "nghìn",
+            "romaji": "せん",
+            "example": "千（せん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "渡す",
+            "back": "đưa qua",
+            "romaji": "わたす",
+            "example": "渡す（わたす）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "午前",
+            "back": "buổi sáng",
+            "romaji": "ごぜん",
+            "example": "午前（ごぜん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "便利",
+            "back": "tiện lợi",
+            "romaji": "べんり",
+            "example": "便利（べんり）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "丸い",
+            "back": "tròn",
+            "romaji": "まるい",
+            "example": "丸い（まるい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "今月",
+            "back": "tháng này",
+            "romaji": "こんげつ",
+            "example": "今月（こんげつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "浴びる",
+            "back": "tắm",
+            "romaji": "あびる",
+            "example": "浴びる（あびる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "半",
+            "back": "nửa",
+            "romaji": "はん",
+            "example": "半（はん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "洋服",
+            "back": "quần áo kiểu Tây",
+            "romaji": "ようふく",
+            "example": "洋服（ようふく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "撮る",
+            "back": "chụp ảnh",
+            "romaji": "とる",
+            "example": "撮る（とる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "締める",
+            "back": "thắt",
+            "romaji": "しめる",
+            "example": "締める（しめる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "文章",
+            "back": "bài viết",
+            "romaji": "ぶんしょう",
+            "example": "文章（ぶんしょう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "薄い",
+            "back": "mỏng",
+            "romaji": "うすい",
+            "example": "薄い（うすい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "八",
+            "back": "tám",
+            "romaji": "はち",
+            "example": "八（はち）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "横",
+            "back": "ngang",
+            "romaji": "よこ",
+            "example": "横（よこ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "四つ",
+            "back": "bốn",
+            "romaji": "よっつ",
+            "example": "四つ（よっつ）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 16 — Ngữ pháp",
+        "description": "Ngữ pháp bài 16: Bài 16 — Thể て (2): ～ています trạng thái",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "V-ています (trạng thái kết quả)",
+            "back": "Ý nghĩa: Diễn tả trạng thái hiện tại là kết quả của một hành động đã xảy ra trong quá khứ.\nCấu trúc: V-te + います",
+            "romaji": "v-te-imasu",
+            "example": "窓が閉まっています。\nCửa sổ đang đóng.\n\n結婚しています。\nTôi đã kết hôn.\n\n田中さんは知っています。\nAnh Tanaka biết việc đó.\n\n電気がついています。\nĐèn đang bật.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V-ていません",
+            "back": "Ý nghĩa: Phủ định của trạng thái kết quả, diễn tả sự việc chưa xảy ra hoặc không ở trong trạng thái đó.\nCấu trúc: V-te + いません",
+            "romaji": "v-te-imasen",
+            "example": "結婚していません。\nTôi chưa kết hôn.\n\n何も持っていません。\nTôi không cầm theo gì cả.\n\n名前を知っていません。\nTôi không biết tên.\n\n窓が開いていません。\nCửa sổ không mở.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

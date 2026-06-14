@@ -1,0 +1,223 @@
+{
+  "order": 25,
+  "title": "Bài 50 — Từ vựng JLPT N4 (Phần 25)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 25/25.",
+  "theoryMd": "### 1. ご覧になる\n#### 💡 Cấu trúc & Ý nghĩa\n- Kính ngữ của 見る.\n#### 📝 Ví dụ minh họa\n- 社長は資料をご覧になります。(Giám đốc xem tài liệu.)\n\n### 2. Liên từ (すると / それに)\n#### 💡 Cấu trúc & Ý nghĩa\n- すると: Kết quả đột ngột.\n- それに: Bổ sung thêm thông tin.\n#### 📝 Ví dụ minh họa\n- この店は安い。それに、美味しいです。(Quán này rẻ. Hơn nữa, còn ngon nữa.)\n\n### 3. Trạng từ thời gian (さっき / この間)\n#### 💡 Cấu trúc & Ý nghĩa\n- さっき: Vừa mới đây.\n- この間: Hôm nọ/dạo gần đây.\n#### 📝 Ví dụ minh họa\n- さっき会いました。(Tôi vừa gặp lúc nãy.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 50 — Từ vựng",
+        "description": "Từ vựng bài số 50 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "この頃",
+            "back": "dạo gần đây, hiện tại",
+            "romaji": "このごろ",
+            "example": "この頃（このごろ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ハンドバッグ",
+            "back": "túi xách",
+            "romaji": "ハンドバッグ",
+            "example": "ハンドバッグ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "すると",
+            "back": "sau đó, rồi, vậy thì",
+            "romaji": "すると",
+            "example": "すると",
+            "jlptLevel": 4
+          },
+          {
+            "front": "先",
+            "back": "lúc nãy, vừa rồi, trước đó",
+            "romaji": "さっき",
+            "example": "先（さっき）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "この間",
+            "back": "hôm trước, gần đây",
+            "romaji": "このあいだ",
+            "example": "この間（このあいだ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "其れに",
+            "back": "ngoài ra, hơn nữa, thêm vào đó",
+            "romaji": "それに",
+            "example": "其れに（それに）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ＦＡＸ",
+            "back": "máy fax",
+            "romaji": "ファックス",
+            "example": "ＦＡＸ（ファックス）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "すっと",
+            "back": "thẳng tắp, nhanh chóng, trực tiếp",
+            "romaji": "すっと",
+            "example": "すっと",
+            "jlptLevel": 4
+          },
+          {
+            "front": "そんなに",
+            "back": "đến mức đó, như thế",
+            "romaji": "そんなに",
+            "example": "そんなに",
+            "jlptLevel": 4
+          },
+          {
+            "front": "うん",
+            "back": "ừ, vâng",
+            "romaji": "うん",
+            "example": "うん",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ああ",
+            "back": "như vậy, thế",
+            "romaji": "ああ",
+            "example": "ああ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ご覧になる",
+            "back": "xem, nhìn",
+            "romaji": "ごらんになる",
+            "example": "ご覧になる（ごらんになる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "妻",
+            "back": "vợ",
+            "romaji": "つま",
+            "example": "妻（つま）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "気持ち",
+            "back": "cảm giác, tâm trạng",
+            "romaji": "きもち",
+            "example": "気持ち（きもち）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "答え",
+            "back": "câu trả lời",
+            "romaji": "こたえ",
+            "example": "答え（こたえ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "昼休み",
+            "back": "nghỉ trưa",
+            "romaji": "ひるやすみ",
+            "example": "昼休み（ひるやすみ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "二階建て",
+            "back": "tòa nhà hai tầng",
+            "romaji": "にかいだて",
+            "example": "二階建て（にかいだて）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "お祝い",
+            "back": "chúc mừng, lễ kỷ niệm",
+            "romaji": "おいわい",
+            "example": "お祝い（おいわい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "お出でになる",
+            "back": "có mặt, đến, đi",
+            "romaji": "おいでになる",
+            "example": "お出でになる（おいでになる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ビル",
+            "back": "tòa nhà, cao ốc",
+            "romaji": "ビル",
+            "example": "ビル",
+            "jlptLevel": 4
+          },
+          {
+            "front": "お祭り",
+            "back": "lễ hội",
+            "romaji": "おまつり",
+            "example": "お祭り（おまつり）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "アルバイト",
+            "back": "việc làm thêm",
+            "romaji": "アルバイト",
+            "example": "アルバイト",
+            "jlptLevel": 4
+          },
+          {
+            "front": "端",
+            "back": "cạnh, mép, đầu",
+            "romaji": "つま",
+            "example": "端（つま）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 25 — Ngữ pháp",
+        "description": "Ngữ pháp bài 25: Bài 50 — Từ vựng JLPT N4 (Phần 25)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "ご覧になる",
+            "back": "Ý nghĩa: Kính ngữ của 見る.\nCấu trúc: Chủ ngữ (người được tôn trọng) + が + ご覧になる",
+            "romaji": "goranninaru",
+            "example": "社長は資料をご覧になります。\nGiám đốc xem tài liệu.\n\nこれをご覧ください。\nXin hãy xem cái này ạ.\n\n映画をご覧になりましたか。\nNgài đã xem bộ phim đó chưa ạ?",
+            "jlptLevel": 4
+          },
+          {
+            "front": "すると / それに",
+            "back": "Ý nghĩa: Thế là, rồi thì / Hơn nữa, thêm vào đó.\nCấu trúc: Liên từ nối câu.",
+            "romaji": "suruto / soreni",
+            "example": "ドアを開けました。すると、猫がいました。\nTôi mở cửa ra. Thế là, có một chú mèo ở đó.\n\nこの店は安い。それに、美味しいです。\nQuán này rẻ. Hơn nữa, còn ngon nữa.\n\n約束をしました。すると、雨が降り出しました。\nTôi đã hẹn. Thế là, trời đổ mưa.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "さっき / この間",
+            "back": "Ý nghĩa: Lúc nãy (rất gần) / Hôm trước, dạo gần đây (quá khứ không xác định).\nCấu trúc: Trạng từ chỉ thời gian.",
+            "romaji": "sakki / kono-aida",
+            "example": "さっき会いました。\nTôi vừa gặp lúc nãy.\n\nこの間はお世話になりました。\nHôm trước cảm ơn anh đã giúp đỡ.\n\nさっき食べました。\nTôi vừa ăn lúc nãy.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

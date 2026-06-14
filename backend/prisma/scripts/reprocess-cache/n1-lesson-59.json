@@ -1,0 +1,42 @@
+{
+  "order": 59,
+  "title": "Bài 59 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 59/92).",
+  "theoryMd": "### 1. 〜たる\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: N + たる + N\n- **Ý nghĩa**: Dùng để nhấn mạnh tư cách, cương vị của đối tượng.\n\n#### 📝 Ví dụ minh họa\n- 親たる者、子供の見本になるべきだ。 (Đã là cha mẹ thì phải làm gương cho con cái.)\n\n### 2. 〜こそあれ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: V-từ điển / N / A-i + こそあれ\n- **Ý nghĩa**: Khẳng định sự tồn tại của vế trước, nhưng vế sau mang ý nghĩa đối lập (tuy... nhưng...).\n\n#### 📝 Ví dụ minh họa\n- 欠点こそあれ、彼は良い人だ。 (Tuy có khuyết điểm nhưng anh ấy là người tốt.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 59 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 59.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜たる",
+            "back": "Ý nghĩa: Với tư cách là, ở cương vị là.\nCấu trúc: N + たる + N",
+            "romaji": "taru",
+            "example": "指導者たる者、公平でなければならない。\nLà người lãnh đạo thì phải công bằng.\n\n医師たる身として、常に最新の知識を学ぶべきだ。\nVới thân phận bác sĩ, luôn phải học hỏi kiến thức mới.\n\n社会人たるもの、時間を守るのは当然だ。\nĐã là người đi làm thì việc đúng giờ là đương nhiên.\n\n学生たる本分を忘れてはいけない。\nKhông được quên bổn phận của một người học sinh.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜こそあれ",
+            "back": "Ý nghĩa: Dẫu là có A đấy, nhưng thực tế lại là B.\nCấu trúc: V-từ điển / N / A-i + こそあれ",
+            "romaji": "koso-are",
+            "example": "古さこそあれ、性能は十分だ。\nTuy có cũ nhưng hiệu năng vẫn đủ.\n\n不便さこそあれ、住めば都だ。\nDẫu bất tiện nhưng ở quen thì thành quê hương.\n\n多少のリスクこそあれ、挑戦する価値はある。\nTuy có đôi chút rủi ro nhưng đáng để thử.\n\n苦労こそあれ、楽しい生活だ。\nTuy có vất vả nhưng là một cuộc sống vui vẻ.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

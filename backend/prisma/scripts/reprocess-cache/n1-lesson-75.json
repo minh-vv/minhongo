@@ -1,0 +1,42 @@
+{
+  "order": 75,
+  "title": "Bài 75 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 75/92).",
+  "theoryMd": "### 1. 〜ながらの〜\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Vẫn giữ nguyên trạng thái từ trước đến nay (dùng làm tính từ bổ nghĩa cho danh từ).\n- **Cấu trúc:** N + ながらの + N\n\n### 2. 〜るがままに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Theo đúng như, mặc cho (phó mặc cho trạng thái, không kháng cự).\n- **Cấu trúc:** V-dictionary form + がままに\n- **Lưu ý:** Thường dùng với các động từ chỉ ý muốn, dòng chảy, hoặc lời nói (言う, 赴く, 成り行き).",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 75 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 75.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜ながらの〜",
+            "back": "Ý nghĩa: Vẫn giữ nguyên như cũ, từ trước đến nay (dùng làm bổ nghĩa cho danh từ).\nCấu trúc: N + ながらの + N",
+            "romaji": "nagara-no",
+            "example": "この店は昔ながらの製法にこだわっている。\nQuán này chú trọng phương pháp chế biến theo lối xưa.\n\n彼は生まれながらのリーダーだ。\nAnh ấy là một người lãnh đạo bẩm sinh.\n\n彼女はいつもながらの穏やかな口調で話した。\nCô ấy nói với giọng điệu điềm đạm như mọi khi.\n\nこれらは昔ながらの知恵が詰まった道具です。\nĐây là những dụng cụ chứa đựng trí tuệ từ xa xưa.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜るがままに",
+            "back": "Ý nghĩa: Theo đúng như, mặc cho, để mặc (phó mặc cho trạng thái tự nhiên, không cưỡng lại).\nCấu trúc: V-dictionary form + がままに",
+            "romaji": "ru-ga-mama-ni",
+            "example": "彼は営業マンの言われるがままに高い契約を結んでしまった。\nAnh ấy đã ký hợp đồng đắt tiền theo đúng lời người bán nói.\n\n週末は心の赴くがままに旅に出た。\nCuối tuần tôi lên đường du lịch theo tiếng gọi con tim.\n\n流れに任せ、成り行きがままに生きてみる。\nThử sống mặc cho dòng đời đưa đẩy.\n\n風の吹くがままに歩き続けた。\nTôi tiếp tục bước đi mặc cho gió thổi hướng nào.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

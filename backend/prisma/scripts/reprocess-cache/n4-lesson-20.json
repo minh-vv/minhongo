@@ -1,0 +1,223 @@
+{
+  "order": 20,
+  "title": "Bài 45 — Từ vựng JLPT N4 (Phần 20)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 20/25.",
+  "theoryMd": "### 1. 割れる / 折れる\n#### 💡 Cấu trúc & Ý nghĩa\nNội động từ chỉ trạng thái tự bị vỡ hoặc bị gãy.\nCông thức: N + が + 割れる/折れる\n\n#### 📝 Ví dụ minh họa\nコップが割れました。\nCái cốc bị vỡ.\n\n枝が折れました。\nCành cây bị gãy.\n\n皿が割れました。\nCái đĩa bị vỡ.\n\n傘の骨が折れました。\nCái khung dù bị gãy.\n\n---\n### 2. ちっとも\n#### 💡 Cấu trúc & Ý nghĩa\nPhó từ đi kèm với phủ định, nhấn mạnh sự không có chút gì.\nCông thức: ちっとも + V/A (phủ định)\n\n#### 📝 Ví dụ minh họa\n今日はちっとも寒くないです。\nHôm nay không lạnh chút nào cả.\n\n全然わかりません。\nTôi không hiểu chút nào cả.\n\n彼はちっとも動きません。\nAnh ta không nhúc nhích chút nào.\n\nこの本はちっとも面白くありません。\nCuốn sách này không thú vị chút nào.\n\n---\n### 3. 差し上げる\n#### 💡 Cấu trúc & Ý nghĩa\nKhiêm nhường ngữ của 'tặng'. Dùng khi làm hành động tặng cho người bề trên hoặc người mình cần tôn trọng.\nCông thức: N1 に N2 を 差し上げる\n\n#### 📝 Ví dụ minh họa\n先生に花を差し上げました。\nTôi đã tặng hoa cho thầy giáo.\n\n贈り物にこれを差し上げます。\nTôi xin tặng bạn món quà này.\n\n手紙を差し上げます。\nTôi xin gửi thư cho ngài.\n\n本を差し上げましょうか。\nTôi tặng ngài cuốn sách này nhé?",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 45 — Từ vựng",
+        "description": "Từ vựng bài số 45 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "割れる",
+            "back": "vỡ, bị đập vỡ",
+            "romaji": "われる",
+            "example": "割れる（われる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "滑る",
+            "back": "trượt",
+            "romaji": "すべる",
+            "example": "滑る（すべる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "些とも",
+            "back": "một chút nào (không)",
+            "romaji": "ちっとも",
+            "example": "些とも（ちっとも）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "お宅",
+            "back": "nhà (của người khác), gia đình",
+            "romaji": "おたく",
+            "example": "お宅（おたく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "折れる",
+            "back": "bị gãy, bị bẻ",
+            "romaji": "おれる",
+            "example": "折れる（おれる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "移る",
+            "back": "di chuyển, thay đổi, chuyển",
+            "romaji": "うつる",
+            "example": "移る（うつる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "光る",
+            "back": "chiếu sáng, lấp lánh",
+            "romaji": "ひかる",
+            "example": "光る（ひかる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "植える",
+            "back": "trồng, nuôi",
+            "romaji": "うえる",
+            "example": "植える（うえる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "字",
+            "back": "chữ, ký tự",
+            "romaji": "じ",
+            "example": "字（じ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "差し上げる",
+            "back": "nâng lên, giơ lên",
+            "romaji": "さしあげる",
+            "example": "差し上げる（さしあげる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "焼ける",
+            "back": "cháy, bị đốt",
+            "romaji": "やける",
+            "example": "焼ける（やける）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "取り替える",
+            "back": "đổi, trao đổi",
+            "romaji": "とりかえる",
+            "example": "取り替える（とりかえる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "釣る",
+            "back": "câu cá",
+            "romaji": "つる",
+            "example": "釣る（つる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "乾く",
+            "back": "khô, bị khô",
+            "romaji": "かわく",
+            "example": "乾く（かわく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "用事",
+            "back": "việc bận, công việc",
+            "romaji": "ようじ",
+            "example": "用事（ようじ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "成るべく",
+            "back": "càng nhiều càng tốt, hết sức có thể",
+            "romaji": "なるべく",
+            "example": "成るべく（なるべく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "苛める",
+            "back": "bắt nạt, hành hạ",
+            "romaji": "いじめる",
+            "example": "苛める（いじめる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "届ける",
+            "back": "gửi, giao",
+            "romaji": "とどける",
+            "example": "届ける（とどける）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "浅い",
+            "back": "nông, cạn",
+            "romaji": "あさい",
+            "example": "浅い（あさい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "拝見",
+            "back": "xem, nhìn",
+            "romaji": "はいけん",
+            "example": "拝見（はいけん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "お土産",
+            "back": "quà lưu niệm, đặc sản",
+            "romaji": "おみやげ",
+            "example": "お土産（おみやげ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "お土産",
+            "back": "quà lưu niệm, đặc sản",
+            "romaji": "おみやげ",
+            "example": "お土産（おみやげ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "足す",
+            "back": "thêm, cộng",
+            "romaji": "たす",
+            "example": "足す（たす）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 20 — Ngữ pháp",
+        "description": "Ngữ pháp bài 20: Bài 45 — Từ vựng JLPT N4 (Phần 20)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "割れる / 折れる",
+            "back": "Ý nghĩa: Bị vỡ (dành cho đồ vật cứng, dễ vỡ) / Bị gãy (dành cho đồ vật dài, mảnh).\nCấu trúc: N + が + V (nội động từ)",
+            "romaji": "wareru / oreru",
+            "example": "コップが割れました。\nCái cốc bị vỡ.\n\n枝が折れました。\nCành cây bị gãy.\n\n皿が割れました。\nCái đĩa bị vỡ.\n\n傘の骨が折れました。\nCái khung dù bị gãy.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ちっとも",
+            "back": "Ý nghĩa: (Không) chút nào cả. Dùng trong câu phủ định.\nCấu trúc: ちっとも + V/A (phủ định)",
+            "romaji": "chittomo",
+            "example": "今日はちっとも寒くないです。\nHôm nay không lạnh chút nào cả.\n\n全然わかりません。\nTôi không hiểu chút nào cả.\n\n彼はちっとも動きません。\nAnh ta không nhúc nhích chút nào.\n\nこの本はちっとも面白くありません。\nCuốn sách này không thú vị chút nào.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "差し上げる",
+            "back": "Ý nghĩa: Tặng, biếu (khiêm nhường ngữ của あげる).\nCấu trúc: N1 (người nhận) + に + N2 (vật tặng) + を + 差し上げる",
+            "romaji": "sashiageru",
+            "example": "先生に花を差し上げました。\nTôi đã tặng hoa cho thầy giáo.\n\n贈り物にこれを差し上げます。\nTôi xin tặng bạn món quà này.\n\n手紙を差し上げます。\nTôi xin gửi thư cho ngài.\n\n本を差し上げましょうか。\nTôi tặng ngài cuốn sách này nhé?",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

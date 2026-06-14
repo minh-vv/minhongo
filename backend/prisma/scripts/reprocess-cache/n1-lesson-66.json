@@ -1,0 +1,42 @@
+{
+  "order": 66,
+  "title": "Bài 66 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 66/92).",
+  "theoryMd": "### 1. 〜によらず\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Bất kể, không phụ thuộc vào, không giới hạn bởi yếu tố nào đó.\n- **Cấu trúc**: N / Danh từ chỉ nghi vấn + によらず\n\n#### 📝 Ví dụ minh họa\n- 年齢によらず、誰でも応募できます。(Dù tuổi tác thế nào, ai cũng có thể ứng tuyển.)\n- 国籍によらず、平等に扱われるべきだ。(Dù quốc tịch nào đi nữa cũng nên được đối xử bình đẳng.)\n\n### 2. 〜のいかんによらず\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dù cho kết quả hay lý do thế nào đi nữa, việc đó vẫn không thay đổi.\n- **Cấu trúc**: N(kết quả/lý do) + のいかんによらず\n\n#### 📝 Ví dụ minh họa\n- 参加のいかんによらず、納入済みの会費は返金いたしません。(Bất kể có tham dự hay không, hội phí đã nộp sẽ không hoàn lại.)\n- 理由のいかんによらず、遅刻は認められません。(Dù lý do là gì, đi muộn sẽ không được chấp nhận.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 66 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 66.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜によらず",
+            "back": "Ý nghĩa: Bất kể, không phụ thuộc vào, không giới hạn bởi cái gì.\nCấu trúc: N / Danh từ chỉ nghi vấn + によらず",
+            "romaji": "ni-yorazu",
+            "example": "年齢によらず、誰でも応募できます。\nDù tuổi tác thế nào, ai cũng có thể ứng tuyển.\n\n国籍によらず、平等に扱われるべきだ。\nDù quốc tịch nào đi nữa cũng nên được đối xử bình đẳng.\n\n天候のいかんによらず、大会は予定通り実施します。\nBất kể thời tiết ra sao, giải đấu vẫn diễn ra như dự định.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜のいかんによらず",
+            "back": "Ý nghĩa: Dù cho kết quả hay lý do thế nào đi nữa, vẫn không thay đổi.\nCấu trúc: N(kết quả/lý do) + のいかんによらず",
+            "romaji": "no-ikan-ni-yorazu",
+            "example": "天候のいかんによらず、大会は予定どおり実施します。\nDù thời tiết thế nào đi nữa, giải đấu vẫn diễn ra như dự định.\n\n参加のいかんによらず、納入済みの会費は返金いたしません。\nBất kể có tham dự hay không, hội phí đã nộp sẽ không hoàn lại.\n\n理由のいかんによらず、遅刻は認められません。\nDù lý do là gì, đi muộn sẽ không được chấp nhận.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

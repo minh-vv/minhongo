@@ -1,0 +1,42 @@
+{
+  "order": 53,
+  "title": "Bài 53 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 53/92).",
+  "theoryMd": "### 1. 〜なくしては〜ない / 〜なしでは〜ない / 〜なしには〜ない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nếu không có A thì không thể B. Đây là các mẫu câu nhấn mạnh điều kiện cần.\n- **Sắc thái**: \n  - `なくしては`: Thường dùng trong văn viết, trang trọng.\n  - `なしでは`: Dùng phổ biến trong đời sống, cho những điều kiện thiết yếu.\n  - `なしには`: Tương tự như 'なしでは', dùng khi nói về điều kiện bắt buộc.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 53 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 53.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜なくしては〜ない",
+            "back": "Ý nghĩa: Nếu không có… thì không thể… (nhấn mạnh điều kiện cần).\nCấu trúc: N + なくしては～ない",
+            "romaji": "nakushitewa-nai",
+            "example": "努力なくしては、目標は達成できない。\nKhông có nỗ lực thì không đạt được mục tiêu.\n\n十分な資金なくして、事業は成り立たない。\nThiếu vốn đầy đủ thì dự án không thể vận hành.\n\n愛なくしては、生きる意味を見出せない。\nNếu không có tình yêu, tôi không thể tìm thấy ý nghĩa cuộc sống.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜なしでは〜ない",
+            "back": "Ý nghĩa: Nếu thiếu… thì không thể (thường dùng cho các nhu cầu thiết yếu).\nCấu trúc: N + なしでは～ない",
+            "romaji": "nashi-dewa-nai",
+            "example": "インターネットなしでは、現代社会は成り立たない。\nKhông có internet thì xã hội hiện đại không thể vận hành.\n\n彼の助けなしでは、このプロジェクトは成功しないだろう。\nNếu không có sự giúp đỡ của anh ấy, dự án này có lẽ sẽ không thành công.\n\n眼鏡なしでは、小さな文字が読めない。\nNếu không có kính, tôi không thể đọc được chữ nhỏ.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

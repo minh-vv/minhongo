@@ -1,0 +1,35 @@
+{
+  "order": 94,
+  "title": "94. ～づらい",
+  "summary": "Ngữ pháp bài số 94 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜づらい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: V-masu + づらい\n- **Ý nghĩa**: Dùng khi muốn diễn đạt việc thực hiện một hành động nào đó gây ra cảm giác khó chịu, đau đớn về thể xác hoặc e ngại, khó xử về mặt tinh thần.\n\n#### 📝 Ví dụ minh họa\n- 彼には本当のことを言いづらい。\n(Thật khó để nói ra sự thật với anh ấy.)\n\n- 目が痛くて、パソコンの画面が見づらい。\n(Mắt tôi bị đau nên rất khó nhìn vào màn hình máy tính.)\n\n- お腹が痛くて歩きづらい。\n(Tôi bị đau bụng nên rất khó đi lại.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 94 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 94 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜づらい",
+            "back": "Ý nghĩa: Diễn tả việc khó làm một việc gì đó do gây cảm giác đau đớn, khó chịu về thể chất hoặc e ngại về mặt tinh thần.\nCấu trúc: V-masu + づらい",
+            "romaji": "zurai",
+            "example": "彼には本当のことを言いづらい。\nThật khó để nói ra sự thật với anh ấy.\n\n目が痛くて、パソコンの画面が見づらい。\nMắt tôi bị đau nên rất khó nhìn vào màn hình máy tính.\n\nお腹が痛くて歩きづらい。\nTôi bị đau bụng nên rất khó đi lại.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

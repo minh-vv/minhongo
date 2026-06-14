@@ -1,0 +1,42 @@
+{
+  "order": 65,
+  "title": "65. ～ように…",
+  "summary": "Ngữ pháp bài số 65 sách Shinkanzen Master N3 (2 thẻ).",
+  "theoryMd": "### 1. ～ように (Mào đầu & Cầu nguyện)\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Mào đầu**: Dùng để nhắc lại thông tin mà người nghe/người đọc đã biết, làm tiền đề cho nội dung phía sau.\n- **Kỳ vọng/Cầu nguyện**: Dùng để thể hiện hy vọng, lời cầu chúc.\n- **Cấu trúc**:\n  - Mào đầu: V-辞書形 / V-た形 / V-ている + ように\n  - Cầu nguyện: V-辞書形 / V-ない形 + ように\n\n#### 📝 Ví dụ minh họa\n- 皆様ご存じのように、来月から消費税が上がります。\n(Như mọi người đều biết, từ tháng sau thuế tiêu thụ sẽ tăng lên.)\n- 試験に合格しますように。\n(Mong sao cho mình sẽ thi đỗ kỳ thi.)\n- インフルエンザにかかりませんように。\n(Mong sao cho mình không bị mắc cúm.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 65 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 65 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ように… (Mào đầu)",
+            "back": "Ý nghĩa: Như... (Dẫn dắt thông tin đã được biết trước đó)\nCấu trúc: V-辞書形 / V-た形 / V-ている + ように",
+            "romaji": "yō ni",
+            "example": "皆様ご存じのように、来月から消費税が上がります。\nNhư mọi người đều biết, từ tháng sau thuế tiêu thụ sẽ tăng lên.\n\n昨日お知らせしたように、明日の授業は休みです。\nNhư tôi đã thông báo ngày hôm qua, buổi học ngày mai sẽ được nghỉ.\n\n前述したように、この計画には修正が必要です。\nNhư đã trình bày ở trên, kế hoạch này cần được sửa đổi.",
+            "jlptLevel": 3
+          },
+          {
+            "front": "〜ように… (Kỳ vọng / Cầu nguyện)",
+            "back": "Ý nghĩa: Mong sao cho... / Hy vọng...\nCấu trúc: V-辞書形 / V-ない形 + ように",
+            "romaji": "yō ni",
+            "example": "試験に合格しますように。\nMong sao cho mình sẽ thi đỗ kỳ thi.\n\nインフルエンザにかかりませんように。\nMong sao cho mình không bị mắc cúm.\n\n毎日楽しく過ごせますように。\nMong sao cho mỗi ngày đều có thể sống thật vui vẻ.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

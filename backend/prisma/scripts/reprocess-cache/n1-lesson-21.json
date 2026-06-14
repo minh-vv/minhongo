@@ -1,0 +1,42 @@
+{
+  "order": 21,
+  "title": "Bài 21 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 21/92).",
+  "theoryMd": "### 1. 〜ではすまない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không thể chỉ dừng lại ở một mức độ đó, mà hậu quả còn nghiêm trọng hơn.\n- **Cấu trúc**: N / V-ru + ではすまない\n\n#### 📝 Ví dụ minh họa\n- 機密を漏らしたとなれば、謝罪ではすまない。\n- この事故は注意だけではすまない重大な問題だ。\n- 修理費は数万円ではすまないだろう。\n\n### 2. 〜ないではおかない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhất định sẽ gây ra kết quả gì đó, không thể không dẫn đến trạng thái nào đó.\n- **Cấu trúc**: V-nai (bỏ ない) + ではおかない\n\n#### 📝 Ví dụ minh họa\n- この映画は観る者を涙させないではおかない。\n- 彼の無責任な発言は批判を招かないではおかない。\n- その記事は社会に大きな議論を巻き起こさないではおかない。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 21 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 21.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜ではすまない",
+            "back": "Ý nghĩa: Không thể chỉ dừng lại ở mức độ đó, hậu quả nghiêm trọng hơn thế.\nCấu trúc: N / V-ru + ではすまない",
+            "romaji": "dewa-sumanai",
+            "example": "機密を漏らしたとなれば、謝罪ではすまない。\nNếu để lộ bí mật thì không thể chỉ xin lỗi mà xong.\n\nこの事故は注意だけではすまない重大な問題だ。\nVụ tai nạn này nghiêm trọng, không thể chỉ cảnh cáo là xong.\n\n修理費は数万円ではすまないだろう。\nPhí sửa chắc không chỉ vài chục nghìn yên là xong.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜ないではおかない",
+            "back": "Ý nghĩa: Nhất định sẽ gây ra kết quả gì đó, không thể không dẫn đến trạng thái nào đó.\nCấu trúc: V-nai (bỏ ない) + ではおかない",
+            "romaji": "nai-dewa-okanai",
+            "example": "この映画は観る者を涙させないではおかない。\nBộ phim này ắt sẽ làm người xem rơi lệ.\n\n彼の無責任な発言は批判を招かないではおかない。\nPhát ngôn vô trách nhiệm của anh ta chắc chắn sẽ chuốc lấy chỉ trích.\n\nその記事は社会に大きな議論を巻き起こさないではおかない。\nBài báo đó ắt sẽ làm dấy lên tranh luận lớn trong xã hội.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

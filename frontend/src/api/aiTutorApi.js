@@ -36,6 +36,42 @@ const aiTutorApi = {
     const response = await axiosInstance.post('/ai-tutor/grammar-example', data);
     return response.data;
   },
+
+  /**
+   * Lấy lịch sử luyện tập của thẻ ngữ pháp
+   * @param {string} cardId
+   */
+  getPracticeHistory: async (cardId) => {
+    const response = await axiosInstance.get(`/ai-tutor/practice-history/${cardId}`);
+    return response.data;
+  },
+
+  /**
+   * Ghim/Lưu câu ví dụ từ AI vào cơ sở dữ liệu
+   * @param {Object} data - { cardId, japanese, romaji, vietnamese }
+   */
+  saveExample: async (data) => {
+    const response = await axiosInstance.post('/ai-tutor/save-example', data);
+    return response.data;
+  },
+
+  /**
+   * Xóa câu ví dụ đã lưu
+   * @param {string} id
+   */
+  deleteSavedExample: async (id) => {
+    const response = await axiosInstance.delete(`/ai-tutor/save-example/${id}`);
+    return response.data;
+  },
+
+  /**
+   * Lấy danh sách ví dụ đã lưu của thẻ ngữ pháp
+   * @param {string} cardId
+   */
+  getSavedExamples: async (cardId) => {
+    const response = await axiosInstance.get(`/ai-tutor/saved-examples/${cardId}`);
+    return response.data;
+  },
 };
 
 export default aiTutorApi;

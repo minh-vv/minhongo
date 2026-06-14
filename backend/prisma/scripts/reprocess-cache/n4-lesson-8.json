@@ -1,0 +1,223 @@
+{
+  "order": 8,
+  "title": "Bài 33 — Từ vựng JLPT N4 (Phần 8)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 8/25.",
+  "theoryMd": "### 1. V-る + ことにする\n#### 💡 Cấu trúc & Ý nghĩa\nQuyết định thực hiện một hành động sau khi đã suy nghĩ.\nCông thức: V-る + ことにする\n\n#### 📝 Ví dụ minh họa\n今日、新しいパソコンを買うことにしました。\nHôm nay, tôi đã quyết định mua máy tính mới.\n\n### 2. V-た + ことがある\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả kinh nghiệm đã trải qua.\nCông thức: V-た + ことがある\n\n#### 📝 Ví dụ minh họa\n私は日本料理を食べたことがあります。\nTôi đã từng ăn món Nhật rồi.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 33 — Từ vựng",
+        "description": "Từ vựng bài số 33 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "払う",
+            "back": "trả tiền, thanh toán",
+            "romaji": "はらう",
+            "example": "払う（はらう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "合う",
+            "back": "phù hợp, hợp",
+            "romaji": "あう",
+            "example": "合う（あう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "点",
+            "back": "chấm, điểm",
+            "romaji": "てん",
+            "example": "点（てん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "決める",
+            "back": "quyết định, lựa chọn",
+            "romaji": "きめる",
+            "example": "決める（きめる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "笑う",
+            "back": "cười",
+            "romaji": "わらう",
+            "example": "笑う（わらう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "最初",
+            "back": "ban đầu, đầu tiên",
+            "romaji": "さいしょ",
+            "example": "最初（さいしょ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "反対",
+            "back": "phản đối, đối lập",
+            "romaji": "はんたい",
+            "example": "反対（はんたい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "娘",
+            "back": "con gái",
+            "romaji": "むすめ",
+            "example": "娘（むすめ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "理由",
+            "back": "lý do",
+            "romaji": "りゆう",
+            "example": "理由（りゆう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "喜ぶ",
+            "back": "vui mừng, hoan hỉ",
+            "romaji": "よろこぶ",
+            "example": "喜ぶ（よろこぶ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "昔",
+            "back": "ngày xưa, quá khứ",
+            "romaji": "むかし",
+            "example": "昔（むかし）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "約束",
+            "back": "lời hứa, cuộc hẹn",
+            "romaji": "やくそく",
+            "example": "約束（やくそく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "思い出す",
+            "back": "nhớ lại, hồi tưởng",
+            "romaji": "おもいだす",
+            "example": "思い出す（おもいだす）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "変わる",
+            "back": "thay đổi, biến đổi",
+            "romaji": "かわる",
+            "example": "変わる（かわる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "正しい",
+            "back": "đúng, chính xác",
+            "romaji": "ただしい",
+            "example": "正しい（ただしい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "落ちる",
+            "back": "rơi, ngã",
+            "romaji": "おちる",
+            "example": "落ちる（おちる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "場所",
+            "back": "địa điểm, nơi chốn",
+            "romaji": "ばしょ",
+            "example": "場所（ばしょ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "楽しむ",
+            "back": "tận hưởng, vui vẻ",
+            "romaji": "たのしむ",
+            "example": "楽しむ（たのしむ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "利用",
+            "back": "sử dụng, tận dụng",
+            "romaji": "りよう",
+            "example": "利用（りよう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "間に合う",
+            "back": "kịp giờ",
+            "romaji": "まにあう",
+            "example": "間に合う（まにあう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "今度",
+            "back": "lần này, lần tới",
+            "romaji": "こんど",
+            "example": "今度（こんど）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "予定",
+            "back": "dự định, kế hoạch",
+            "romaji": "よてい",
+            "example": "予定（よてい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "訪ねる",
+            "back": "thăm, ghé thăm",
+            "romaji": "たずねる",
+            "example": "訪ねる（たずねる）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 8 — Ngữ pháp",
+        "description": "Ngữ pháp bài 8: Bài 33 — Từ vựng JLPT N4 (Phần 8)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "V-る + ことにする",
+            "back": "Ý nghĩa: Quyết định làm gì đó (thể hiện ý chí cá nhân).\nCấu trúc: V-る + ことにする",
+            "romaji": "koto-ni-suru",
+            "example": "今日、新しいパソコンを買うことにしました。\nHôm nay, tôi đã quyết định mua máy tính mới.\n\n明日から毎日運動することにします。\nTôi quyết định từ mai ngày nào cũng sẽ tập thể dục.\n\n来月、日本へ行くことにしました。\nTôi đã quyết định tháng sau đi Nhật.\n\n禁煙することに決めました。\nTôi đã quyết định cai thuốc lá.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "V-た + ことがある",
+            "back": "Ý nghĩa: Đã từng trải nghiệm việc gì đó trong quá khứ.\nCấu trúc: V-た + ことがある",
+            "romaji": "koto-ga-aru",
+            "example": "私は日本料理を食べたことがあります。\nTôi đã từng ăn món Nhật rồi.\n\n北海道へ行ったことがありますか。\nBạn đã từng đến Hokkaido chưa?\n\n一度飛行機に乗ったことがあります。\nTôi đã từng đi máy bay một lần.\n\n富士山に登ったことがあります。\nTôi đã từng leo núi Phú Sĩ.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "N + に + 合う",
+            "back": "Ý nghĩa: Phù hợp, hợp với cái gì.\nCấu trúc: N + に + 合う",
+            "romaji": "ni-au",
+            "example": "この服は私に合いますか。\nBộ quần áo này có hợp với tôi không?\n\nこのネクタイはシャツに合いますね。\nCái cà vạt này rất hợp với áo sơ mi.\n\nこの曲は季節に合っています。\nBài hát này rất hợp với mùa.\n\nあなたの意見に合わないです。\nKhông hợp với ý kiến của bạn.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

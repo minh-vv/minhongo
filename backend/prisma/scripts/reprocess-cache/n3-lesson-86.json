@@ -1,0 +1,35 @@
+{
+  "order": 86,
+  "title": "86. ～と…た",
+  "summary": "Ngữ pháp bài số 86 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～と…た\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Diễn tả một hành động vừa mới xảy ra thì ngay lập tức có một sự việc khác (thường là bất ngờ hoặc ngoài ý muốn) xảy ra. Chủ ngữ ở hai vế thường là cùng một người.\n- **Cấu trúc:** V-ru + と + V-ta\n\n#### 📝 Ví dụ minh họa\n立ち上がると、目の前が暗くなった。\nVừa đứng dậy thì trước mắt tối sầm lại.\n\n家に帰ると、すぐに犬が走り寄ってきた。\nVừa về đến nhà thì chú chó đã lập tức chạy lại gần.\n\n部屋を開けると、誰もいなかった。\nVừa mở cửa phòng ra thì chẳng thấy ai cả.\n\nその知らせを聞くと、彼は驚いた表情をした。\nVừa nghe tin đó, anh ấy liền lộ vẻ ngạc nhiên.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 86 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 86 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜と…た",
+            "back": "Ý nghĩa: Vừa mới làm ~ thì ngay lập tức có một sự việc bất ngờ xảy ra.\nCấu trúc: V-ru + と + V-ta",
+            "romaji": "to...ta",
+            "example": "立ち上がると、目の前が暗くなった。\nVừa đứng dậy thì trước mắt tối sầm lại.\n\n家に帰ると、すぐに犬が走り寄ってきた。\nVừa về đến nhà thì chú chó đã lập tức chạy lại gần.\n\n部屋を開けると、誰もいなかった。\nVừa mở cửa phòng ra thì chẳng thấy ai cả.\n\nその知らせを聞くと、彼は驚いた表情をした。\nVừa nghe tin đó, anh ấy liền lộ vẻ ngạc nhiên.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

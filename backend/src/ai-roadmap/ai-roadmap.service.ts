@@ -189,7 +189,7 @@ Trả về JSON theo đúng cấu trúc sau:
       let result;
       try {
         const model = this.genAI.getGenerativeModel({
-          model: 'gemini-2.5-flash',
+          model: 'gemini-3.1-flash-lite',
           generationConfig: { responseMimeType: 'application/json' },
         });
         result = await withRetry(() => model.generateContent(prompt), {
@@ -197,10 +197,10 @@ Trả về JSON theo đúng cấu trúc sau:
         });
       } catch (primaryError: any) {
         this.logger.warn(
-          `Primary model gemini-2.5-flash failed: ${primaryError.message}. Falling back to gemini-1.5-flash...`,
+          `Primary model gemini-3.1-flash-lite failed: ${primaryError.message}. Falling back to gemini-2.5-flash-lite...`,
         );
         const fallbackModel = this.genAI.getGenerativeModel({
-          model: 'gemini-1.5-flash',
+          model: 'gemini-2.5-flash-lite',
           generationConfig: { responseMimeType: 'application/json' },
         });
         result = await withRetry(() => fallbackModel.generateContent(prompt), {

@@ -1,0 +1,35 @@
+{
+  "order": 63,
+  "title": "63. ～（かの）ようだ・～のようだ・～（かの）ように…・～のように…",
+  "summary": "Ngữ pháp bài số 63 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～（かの）ようだ / ～のようだ / ～（かの）ように / ～のように\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: So sánh, ví von một sự vật/hành động với một cái gì đó tương đồng. Dùng 「かのようだ」 khi muốn nhấn mạnh giả định.\n- **Cấu trúc**:\n  - N + の + ようだ / ように\n  - V / Adj 普通形 + かのようだ / かのように\n  - *Chú ý*: Với tính từ đuôi 'na' và Danh từ, có thể chia thành 'である'.\n\n#### 📝 Ví dụ minh họa\n- 彼女はまるで歌手であるかのように、歌が上手だ。\n(Cô ấy hát hay cứ như thể là một ca sĩ thực thụ vậy.)\n- 星が雪のように降ってくる。\n(Những ngôi sao rơi xuống trông giống như là tuyết rơi.)\n- 彼は何も知らなかったかのように振る舞っている。\n(Anh ta cư xử cứ như thể là chưa biết chuyện gì xảy ra vậy.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 63 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 63 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜（かの）ようだ・〜のようだ・〜（かの）ように…・〜のように…",
+            "back": "Ý nghĩa: Cứ như là... / Giống như là... (So sánh, ví von)\nCấu trúc: N + の + ようだ/ように\nV / Adj 普通形 (な形-である / 名-である) + かのようだ/かのように",
+            "romaji": "kano-yōda / no-yōda / kano-yōni / no-yōni",
+            "example": "彼女はまるで歌手であるかのように、歌が上手だ。\nCô ấy hát hay cứ như thể là một ca sĩ thực thụ vậy.\n\n星が雪のように降ってくる。\nNhững ngôi sao rơi xuống trông giống như là tuyết rơi.\n\n彼は何も知らなかったかのように振る舞っている。\nAnh ta cư xử cứ như thể là chưa biết chuyện gì xảy ra vậy.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

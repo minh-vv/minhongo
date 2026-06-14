@@ -1,0 +1,223 @@
+{
+  "order": 12,
+  "title": "Bài 37 — Từ vựng JLPT N4 (Phần 12)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 12/25.",
+  "theoryMd": "### 1. 〜以内\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trong vòng, giới hạn thời gian hoặc số lượng.\n- Cấu trúc: Khoảng thời gian / Số lượng + 以内\n#### 📝 Ví dụ minh họa\n1週間以内にレポートを出してください。\nHãy nộp báo cáo trong vòng 1 tuần.\n\n### 2. 例えば\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dùng để đưa ra ví dụ minh họa.\n- Cấu trúc: 例えば + [Danh từ/Câu]\n#### 📝 Ví dụ minh họa\n趣味はたくさんあります。例えば、映画やスポーツです。\nTôi có nhiều sở thích. Ví dụ như phim ảnh và thể thao.\n\n### 3. 留守\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Vắng nhà, không có ở địa điểm nào đó.\n- Cấu trúc: N + が 留守です / 留守にする\n#### 📝 Ví dụ minh họa\n田中さんは留守です。\nAnh Tanaka hiện không có ở nhà.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 37 — Từ vựng",
+        "description": "Từ vựng bài số 37 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "汽車",
+            "back": "tàu hỏa hơi nước",
+            "romaji": "きしゃ",
+            "example": "汽車（きしゃ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "隅",
+            "back": "góc",
+            "romaji": "すみ",
+            "example": "隅（すみ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "可笑しい",
+            "back": "buồn cười, kỳ lạ",
+            "romaji": "おかしい",
+            "example": "可笑しい（おかしい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "競争",
+            "back": "cạnh tranh, cuộc thi",
+            "romaji": "きょうそう",
+            "example": "競争（きょうそう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "入院",
+            "back": "nhập viện",
+            "romaji": "にゅういん",
+            "example": "入院（にゅういん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "形",
+            "back": "hình dạng",
+            "romaji": "かたち",
+            "example": "形（かたち）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "景色",
+            "back": "phong cảnh, cảnh vật",
+            "romaji": "けしき",
+            "example": "景色（けしき）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "留守",
+            "back": "vắng nhà, vắng mặt",
+            "romaji": "るす",
+            "example": "留守（るす）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "仕方",
+            "back": "cách, phương pháp",
+            "romaji": "しかた",
+            "example": "仕方（しかた）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "首",
+            "back": "cổ",
+            "romaji": "くび",
+            "example": "首（くび）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "君",
+            "back": "bạn, cậu",
+            "romaji": "きみ",
+            "example": "君（きみ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "血",
+            "back": "máu",
+            "romaji": "ち",
+            "example": "血（ち）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "以内",
+            "back": "trong vòng, bên trong",
+            "romaji": "いない",
+            "example": "以内（いない）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "例えば",
+            "back": "ví dụ, chẳng hạn",
+            "romaji": "たとえば",
+            "example": "例えば（たとえば）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "別れる",
+            "back": "chia tay",
+            "romaji": "わかれる",
+            "example": "別れる（わかれる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "棚",
+            "back": "kệ, giá",
+            "romaji": "たな",
+            "example": "棚（たな）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "引っ越す",
+            "back": "chuyển nhà",
+            "romaji": "ひっこす",
+            "example": "引っ越す（ひっこす）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "複雑",
+            "back": "phức tạp",
+            "romaji": "ふくざつ",
+            "example": "複雑（ふくざつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "申し上げる",
+            "back": "nói, thưa (kính ngữ)",
+            "romaji": "もうしあげる",
+            "example": "申し上げる（もうしあげる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "品物",
+            "back": "hàng hóa, vật phẩm",
+            "romaji": "しなもの",
+            "example": "品物（しなもの）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "技術",
+            "back": "kỹ thuật, công nghệ",
+            "romaji": "ぎじゅつ",
+            "example": "技術（ぎじゅつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ご存知",
+            "back": "biết (kính ngữ)",
+            "romaji": "ごぞんじ",
+            "example": "ご存知（ごぞんじ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "草",
+            "back": "cỏ",
+            "romaji": "くさ",
+            "example": "草（くさ）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 12 — Ngữ pháp",
+        "description": "Ngữ pháp bài 12: Bài 37 — Từ vựng JLPT N4 (Phần 12)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "〜以内",
+            "back": "Ý nghĩa: Trong vòng, không quá một khoảng thời gian/số lượng nào đó.\nCấu trúc: Khoảng thời gian / Số lượng + 以内",
+            "romaji": "inai",
+            "example": "1週間以内にレポートを出してください。\nHãy nộp báo cáo trong vòng 1 tuần.\n\n30分以内に駅に着きます。\nTôi sẽ đến ga trong vòng 30 phút.\n\n1000円以内で買い物をします。\nTôi sẽ mua sắm trong vòng 1000 yên.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "例えば",
+            "back": "Ý nghĩa: Ví dụ như là...\nCấu trúc: 例えば + danh từ / câu, ...",
+            "romaji": "tatoeba",
+            "example": "趣味はたくさんあります。例えば、映画やスポーツです。\nTôi có nhiều sở thích. Ví dụ như phim ảnh và thể thao.\n\n日本の食べ物は美味しいです。例えば、寿司やラーメンです。\nĐồ ăn Nhật rất ngon. Ví dụ như sushi và mì ramen.\n\n野菜が好きです。例えば、キャベツやトマトです。\nTôi thích rau. Ví dụ như bắp cải và cà chua.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "留守",
+            "back": "Ý nghĩa: Vắng nhà, đi vắng.\nCấu trúc: N (chỉ người) + が 留守です / 留守にする",
+            "romaji": "rusu",
+            "example": "今は留守にしています。\nBây giờ tôi đang vắng nhà.\n\n田中さんは留守です。\nAnh Tanaka hiện không có ở nhà.\n\n留守の間、郵便をお願いします。\nTrong lúc tôi vắng nhà, làm ơn trông giúp thư từ.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

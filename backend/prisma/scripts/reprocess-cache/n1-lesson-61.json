@@ -1,0 +1,42 @@
+{
+  "order": 61,
+  "title": "Bài 61 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 61/92).",
+  "theoryMd": "### 1. 〜の極み\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N + の極み\n- **Ý nghĩa:** Chỉ mức độ cao nhất của một trạng thái, cảm xúc. Thường dùng trong văn viết hoặc tình huống trang trọng để thể hiện sự đánh giá tiêu cực hoặc tích cực.\n\n#### 📝 Ví dụ minh họa\n- このような賞を頂き、光栄の極みです。(Được nhận giải thưởng như thế này là vinh hạnh tột cùng.)\n- お忙しいところを煩わせてしまい、失礼の極みでございます。(Đã làm phiền lúc quý vị bận rộn, thật là vô cùng thất lễ.)\n- 贅沢の極みのような暮らしを送っている。(Tôi đang có một cuộc sống xa hoa tột bậc.)\n\n### 2. 〜の至り\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N + の至り\n- **Ý nghĩa:** Thể hiện cảm xúc ở mức độ cao nhất. Thường đi với các từ như 光栄 (vinh hạnh), 若気 (nông nổi), 恥ずかしさ (xấu hổ).\n\n#### 📝 Ví dụ minh họa\n- このような場にお招きいただき、光栄の至りです。(Được mời đến nơi trang trọng như thế này, tôi vô cùng vinh hạnh.)\n- 先日の無礼は、若気の至りでございました。(Vụ thất lễ hôm trước là do sự nông nổi tuổi trẻ.)\n- 皆様の前で失敗し、恥ずかさの至りです。(Thất bại trước mặt mọi người, tôi thấy vô cùng xấu hổ.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 61 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 61.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜の極み",
+            "back": "Ý nghĩa: Tột cùng, hết sức, vô cùng (thường dùng cho cảm xúc hoặc tình trạng tích cực/tiêu cực).\nCấu trúc: N + の極み",
+            "romaji": "no-kiwami",
+            "example": "このような賞を頂き、光栄の極みです。\nĐược nhận giải thưởng như thế này là vinh hạnh tột cùng.\n\nお忙しいところを煩わせてしまい、失礼の極みでございます。\nĐã làm phiền lúc quý vị bận rộn, thật là vô cùng thất lễ.\n\n贅沢の極みのような暮らしを送っている。\nTôi đang có một cuộc sống xa hoa tột bậc.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜の至り",
+            "back": "Ý nghĩa: Vô cùng, tột bậc (chỉ tâm trạng, cảm xúc rất mạnh mẽ).\nCấu trúc: N + の至り",
+            "romaji": "no-itari",
+            "example": "このような場にお招きいただき、光栄の至りです。\nĐược mời đến nơi trang trọng như thế này, tôi vô cùng vinh hạnh.\n\n先日の無礼は、若気の至りでございました。\nVụ thất lễ hôm trước là do sự nông nổi tuổi trẻ.\n\n皆様の前で失敗し、恥ずかさの至りです。\nThất bại trước mặt mọi người, tôi thấy vô cùng xấu hổ.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

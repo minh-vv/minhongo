@@ -1,0 +1,293 @@
+{
+  "order": 13,
+  "title": "Bài 13 — Trợ từ で (phương tiện/nơi chốn) nâng cao",
+  "summary": "で chỉ nguyên liệu, ngôn ngữ, phương tiện; と cùng nhau.",
+  "theoryMd": "### 1. Sử dụng trợ từ trong câu\n#### 💡 Cấu trúc & Ý nghĩa\n- **N + で**: Dùng để chỉ phương tiện đi lại, công cụ thực hiện hoặc nguyên liệu làm ra vật phẩm.\n- **N + と**: Dùng để chỉ người hoặc động vật đồng hành trong hành động.\n\n#### 📝 Ví dụ minh họa\n- バスで いきます。 (Tôi đi bằng xe buýt.)\n- ともだちと あそびます。 (Tôi chơi cùng bạn bè.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 13 — Từ vựng",
+        "description": "Từ vựng bài 13: Bài 13 — Trợ từ で (phương tiện/nơi chốn) nâng cao",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "着る",
+            "back": "mặc (quần áo)",
+            "romaji": "きる",
+            "example": "着る（きる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "上手",
+            "back": "giỏi, khéo léo",
+            "romaji": "じょうず",
+            "example": "上手（じょうず）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "古い",
+            "back": "cũ, già",
+            "romaji": "ふるい",
+            "example": "古い（ふるい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "強い",
+            "back": "mạnh, khỏe",
+            "romaji": "つよい",
+            "example": "強い（つよい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "全部",
+            "back": "tất cả, toàn bộ",
+            "romaji": "ぜんぶ",
+            "example": "全部（ぜんぶ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "呼ぶ",
+            "back": "gọi, kêu gọi",
+            "romaji": "よぶ",
+            "example": "呼ぶ（よぶ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "午後",
+            "back": "buổi chiều",
+            "romaji": "ごご",
+            "example": "午後（ごご）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "掛ける",
+            "back": "treo, mắc",
+            "romaji": "かける",
+            "example": "掛ける（かける）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "辞書",
+            "back": "từ điển",
+            "romaji": "じしょ",
+            "example": "辞書（じしょ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "天気",
+            "back": "thời tiết",
+            "romaji": "てんき",
+            "example": "天気（てんき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "体",
+            "back": "cơ thể",
+            "romaji": "からだ",
+            "example": "体（からだ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "大きい",
+            "back": "lớn, to",
+            "romaji": "おおきい",
+            "example": "大きい（おおきい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "質問",
+            "back": "câu hỏi",
+            "romaji": "しつもん",
+            "example": "質問（しつもん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "昨夜",
+            "back": "tối qua",
+            "romaji": "ゆうべ",
+            "example": "昨夜（ゆうべ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "有名",
+            "back": "nổi tiếng",
+            "romaji": "ゆうめい",
+            "example": "有名（ゆうめい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "兄",
+            "back": "anh trai",
+            "romaji": "あに",
+            "example": "兄（あに）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "歌う",
+            "back": "hát",
+            "romaji": "うたう",
+            "example": "歌う（うたう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "上る",
+            "back": "đi lên, leo lên",
+            "romaji": "のぼる",
+            "example": "上る（のぼる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "服",
+            "back": "quần áo",
+            "romaji": "ふく",
+            "example": "服（ふく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "鳥",
+            "back": "chim",
+            "romaji": "とり",
+            "example": "鳥（とり）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "時々",
+            "back": "thỉnh thoảng, đôi khi",
+            "romaji": "ときどき",
+            "example": "時々（ときどき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "妹",
+            "back": "em gái",
+            "romaji": "いもうと",
+            "example": "妹（いもうと）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "二つ",
+            "back": "hai",
+            "romaji": "ふたつ",
+            "example": "二つ（ふたつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "頼む",
+            "back": "yêu cầu, nhờ",
+            "romaji": "たのむ",
+            "example": "頼む（たのむ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "お父さん",
+            "back": "bố, ba",
+            "romaji": "おとうさん",
+            "example": "お父さん（おとうさん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "今朝",
+            "back": "sáng nay",
+            "romaji": "けさ",
+            "example": "今朝（けさ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "遅い",
+            "back": "chậm",
+            "romaji": "おそい",
+            "example": "遅い（おそい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "借りる",
+            "back": "mượn",
+            "romaji": "かりる",
+            "example": "借りる（かりる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "薬",
+            "back": "thuốc",
+            "romaji": "くすり",
+            "example": "薬（くすり）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "庭",
+            "back": "vườn",
+            "romaji": "にわ",
+            "example": "庭（にわ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "外国",
+            "back": "nước ngoài",
+            "romaji": "がいこく",
+            "example": "外国（がいこく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "元気",
+            "back": "khỏe mạnh, năng động",
+            "romaji": "げんき",
+            "example": "元気（げんき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "小さい",
+            "back": "nhỏ, bé",
+            "romaji": "ちいさい",
+            "example": "小さい（ちいさい）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 13 — Ngữ pháp",
+        "description": "Ngữ pháp bài 13: Bài 13 — Trợ từ で (phương tiện/nơi chốn) nâng cao",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "N (phương tiện) + で + V",
+            "back": "Ý nghĩa: Chỉ phương tiện hoặc công cụ thực hiện hành động.\nCấu trúc: N(phương tiện) + で + V",
+            "romaji": "de",
+            "example": "バスで いきます。\nTôi đi bằng xe buýt.\n\nでんしゃで かえります。\nTôi về bằng tàu điện.\n\nひこうきで にほんへ いきます。\nTôi đi Nhật bằng máy bay.\n\nじてんしゃで 会社へ いきます。\nTôi đi đến công ty bằng xe đạp.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N (nguyên liệu) + で + V",
+            "back": "Ý nghĩa: Chỉ nguyên liệu, cách thức hoặc ngôn ngữ dùng để thực hiện hành động.\nCấu trúc: N(nguyên liệu/cách thức) + で + V",
+            "romaji": "de",
+            "example": "きで つくります。\nLàm bằng gỗ.\n\nにほんごで かきます。\nViết bằng tiếng Nhật.\n\nはしで たべます。\nTôi ăn bằng đũa.\n\nえんぴつで なまえを かきます。\nTôi viết tên bằng bút chì.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N (người/động vật) + と + V",
+            "back": "Ý nghĩa: Chỉ đối tượng cùng thực hiện hành động.\nCấu trúc: N(người/động vật) + と + V",
+            "romaji": "to",
+            "example": "ともだちと あそびます。\nTôi chơi cùng bạn bè.\n\nかぞくと いきます。\nTôi đi cùng gia đình.\n\nせんせいと はなします。\nTôi nói chuyện với giáo viên.\n\nねこと あそびます。\nTôi chơi với con mèo.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

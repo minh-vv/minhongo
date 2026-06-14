@@ -1,0 +1,42 @@
+{
+  "order": 26,
+  "title": "Bài 26 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 26/92).",
+  "theoryMd": "### 1. 〜極まりない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Cực kỳ, vô cùng (thường đi với các từ ngữ mang nghĩa tiêu cực).\n- **Cấu trúc**: Na-Adj (bỏ な) / い-Adj (gốc) + 極まりない\n\n#### 📝 Ví dụ minh họa\n公共の場でのその発言は、失礼極まりない。\nPhát ngôn đó nơi công cộng là cực kỳ vô lễ.\n\n素人が単独で登頂を試みるのは危険極まりない。\nNgười không chuyên tự leo đỉnh là cực kỳ nguy hiểm.\n\nこの手続きは不便極まりないので、早急に見直すべきだ。\nThủ tục này cực kỳ bất tiện, nên xem xét lại gấp.\n\n---\n### 2. 〜極まる\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Cực độ, rất (dùng để nhấn mạnh một tính chất, trạng thái).\n- **Cấu trúc**: Na-Adj (bỏ な) / N (tính chất) + 極まる\n\n#### 📝 Ví dụ minh họa\n公共の場でのあの態度は非常識極まる。\nThái độ đó nơi công cộng thật vô cùng thiếu ý thức.\n\nそんなことを言うなんて失礼極まる。\nNói điều như vậy thì vô lễ tột độ.\n\n資金計画が甘すぎて、危険極まった投資だ。\nVì kế hoạch vốn quá hời hợt, đó là khoản đầu tư cực kỳ nguy hiểm.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 26 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 26.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜極まりない",
+            "back": "Ý nghĩa: Cực kỳ, vô cùng (thường dùng cho các tính từ mang nghĩa tiêu cực).\nCấu trúc: Na-Adj (bỏ な) / い-Adj (gốc) + 極まりない",
+            "romaji": "kiwamarinai",
+            "example": "公共の場でのその発言は、失礼極まりない。\nPhát ngôn đó nơi công cộng là cực kỳ vô lễ.\n\n素人が単独で登頂を試みるのは危険極まりない。\nNgười không chuyên tự leo đỉnh là cực kỳ nguy hiểm.\n\nこの手続きは不便極まりないので、早急に見直すべきだ。\nThủ tục này cực kỳ bất tiện, nên xem xét lại gấp.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜極まる",
+            "back": "Ý nghĩa: Cực độ, rất (thường dùng trong văn viết, nhấn mạnh cảm xúc hoặc tính chất).\nCấu trúc: Na-Adj (bỏ な) / N (tính chất) + 極まる",
+            "romaji": "kiwamaru",
+            "example": "公共の場でのあの態度は非常識極まる。\nThái độ đó nơi công cộng thật vô cùng thiếu ý thức.\n\nそんなことを言うなんて失礼極まる。\nNói điều như vậy thì vô lễ tột độ.\n\n資金計画が甘すぎて、危険極まった投資だ。\nVì kế hoạch vốn quá hời hợt, đó là khoản đầu tư cực kỳ nguy hiểm.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

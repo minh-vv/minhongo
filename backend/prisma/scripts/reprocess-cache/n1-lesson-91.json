@@ -1,0 +1,42 @@
+{
+  "order": 91,
+  "title": "Bài 91 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 91/92).",
+  "theoryMd": "## Tổng hợp Ngữ pháp N1 - Bài 91\n\n### 1. 〜の手前\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Vì danh dự, vì thể diện, vì nể nang hoặc vì vị trí xã hội mà phải làm hoặc không thể làm gì đó.\n- **Cấu trúc**: N-no + 手前 / V-ru / V-ta + 手前\n#### 📝 Ví dụ minh họa\n- 子どもの手前、弱音は吐けない。(Vì trước mặt con, tôi không thể than thở yếu đuối.)\n- 約束した手前、断るわけにはいかない。(Vì đã hứa rồi nên không thể từ chối.)\n\n### 2. 〜まみれ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ trạng thái bị dính đầy, bao phủ bởi những thứ như bùn, máu, bụi, mồ hôi... (thường mang nghĩa tiêu cực).\n- **Cấu trúc**: N + まみれ\n#### 📝 Ví dụ minh họa\n- 泥まみれになっても、最後まで走り抜いた。(Dù lấm bùn, tôi vẫn chạy đến cuối.)\n- 彼は汗まみれのシャツを着替えた。(Anh ấy thay chiếc áo sơ mi đẫm mồ hôi.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 91 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 91.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜の手前",
+            "back": "Ý nghĩa: Vì danh dự, vì thể diện, vì nể nang hoặc vì vị trí xã hội mà phải làm hoặc không thể làm gì đó.\nCấu trúc: N-no + 手前 / V-ru / V-ta + 手前",
+            "romaji": "no-temae",
+            "example": "子どもの手前、弱音は吐けない。\nVì trước mặt con, tôi không thể than thở yếu đuối.\n\n約束した手前、断るわけにはいかない。\nVì đã hứa rồi nên không thể từ chối.\n\n先生の手前、スマホをいじるわけにはいかない。\nTrước mặt thầy, không thể nghịch điện thoại.\n\nプロの手前、失敗は許されない。\nVì là dân chuyên nghiệp, tôi không được phép thất bại.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜まみれ",
+            "back": "Ý nghĩa: Chỉ trạng thái bị dính đầy, bao phủ bởi những thứ như bùn, máu, bụi, mồ hôi... (thường mang nghĩa tiêu cực).\nCấu trúc: N + まみれ",
+            "romaji": "mamire",
+            "example": "泥まみれになっても、最後まで走り抜いた。\nDù lấm bùn, tôi vẫn chạy đến cuối.\n\n彼は汗まみれのシャツを着替えた。\nAnh ấy thay chiếc áo sơ mi đẫm mồ hôi.\n\n血まみれの手で触らないでください。\nXin đừng chạm bằng tay dính đầy máu.\n\n借金まみれの生活から抜け出したい。\nTôi muốn thoát khỏi cuộc sống ngập trong nợ nần.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

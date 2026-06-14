@@ -1,0 +1,42 @@
+{
+  "order": 42,
+  "title": "Bài 42 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 42/92).",
+  "theoryMd": "### 1. 〜かたわら\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Vừa làm việc chính, vừa làm thêm một việc khác (thường là hoạt động mang tính bền vững).\n- **Cấu trúc:** N + の / V-る + かたわら\n#### 📝 Ví dụ minh họa\n- 彼は教師のかたわら、小説も書いている。\n- 大学で経営を学ぶかたわら、父の店を手伝っている。\n- 研究のかたわら、地域のボランティア活動にも参加している。\n\n### 2. 〜つ〜つ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Hai hành động diễn ra luân phiên, song song hoặc lặp đi lặp lại.\n- **Cấu trúc:** V-ます (bỏ ます) + つ + V-ます (bỏ ます) + つ\n#### 📝 Ví dụ minh họa\n- 係員が会場を行きつ戻りつして、準備を確認している。\n- 波に浮きつ沈みつする小舟が見えた。\n- 二人は抜きつ抜かれつのデッドヒートを繰り広げた。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 42 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 42.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜かたわら",
+            "back": "Ý nghĩa: Vừa làm việc chính, vừa làm thêm một việc khác (thường là hoạt động mang tính bền vững).\nCấu trúc: N + の / V-る + かたわら",
+            "romaji": "katawara",
+            "example": "彼は教師のかたわら、小説も書いている。\nAnh ấy ngoài công việc là giáo viên còn viết tiểu thuyết.\n\n大学で経営を学ぶかたわら、父の店を手伝っている。\nBên cạnh việc học quản trị ở đại học, tôi còn phụ cửa hàng của bố.\n\n研究のかたわら、地域のボランティア活動にも参加している。\nNgoài việc nghiên cứu, tôi cũng tham gia hoạt động tình nguyện địa phương.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜つ〜つ",
+            "back": "Ý nghĩa: Hai hành động diễn ra luân phiên, song song hoặc lặp đi lặp lại.\nCấu trúc: V-ます (bỏ ます) + つ + V-ます (bỏ ます) + つ",
+            "romaji": "tsu-tsu",
+            "example": "係員が会場を行きつ戻りつして、準備を確認している。\nNhân viên đi tới đi lui trong hội trường để kiểm tra khâu chuẩn bị.\n\n波に浮きつ沈みつする小舟が見えた。\nThấp thoáng thấy chiếc thuyền con lúc nổi lúc chìm theo sóng.\n\n二人は抜きつ抜かれつのデッドヒートを繰り広げた。\nHai người thay nhau vượt qua tạo nên cuộc đua gay cấn.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "order": 91,
+  "title": "91. ～出す",
+  "summary": "Ngữ pháp bài số 91 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜出す\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: V-masu + 出す\n- **Ý nghĩa**: Dùng để diễn tả một hành động bắt đầu một cách đột ngột hoặc đột nhiên phát sinh trạng thái nào đó.\n\n#### 📝 Ví dụ minh họa\n- 赤ちゃんが急に泣き出した。\n(Em bé bỗng nhiên khóc ré lên.)\n\n- 急に雨が降り出した。\n(Trời bỗng nhiên đổ mưa.)\n\n- 話し出すと止まらない。\n(Một khi đã bắt đầu nói thì không dừng lại được.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 91 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 91 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜出す",
+            "back": "Ý nghĩa: Diễn tả một hành động bắt đầu một cách đột ngột hoặc đột nhiên phát sinh điều gì.\nCấu trúc: V-masu + 出す",
+            "romaji": "dasu",
+            "example": "赤ちゃんが急に泣き出した。\nEm bé bỗng nhiên khóc ré lên.\n\n急に雨が降り出した。\nTrời bỗng nhiên đổ mưa.\n\n話し出すと止まらない。\nMột khi đã bắt đầu nói thì không dừng lại được.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

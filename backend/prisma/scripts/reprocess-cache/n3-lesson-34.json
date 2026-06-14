@@ -1,0 +1,35 @@
+{
+  "order": 34,
+  "title": "34. ～はずがない・～わけがない",
+  "summary": "Ngữ pháp bài số 34 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～はずがない・～わけがない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chắc chắn không... / Không lý nào mà... (Phủ định mạnh mẽ sự việc dựa trên suy luận chủ quan hoặc căn cứ thực tế).\n- **Cấu trúc**: \n  - Động từ/Tính từ đuôi i: [Thể thông thường] + はずがない/わけがない\n  - Tính từ đuôi na: [Na + な/である] + はずがない/わけがない\n  - Danh từ: [N + の/である] + はずがない/わけがない\n\n#### 📝 Ví dụ minh họa\n- あんなに練習したのだから、負けるはずがない。\nĐã luyện tập nhiều đến thế, chắc chắn không thể thua được.\n\n- 彼がうそをつくわけがない。\nKhông lý nào anh ấy lại nói dối.\n\n- こんな難しい問題、小学生にできるわけがない。\nVấn đề khó thế này, học sinh tiểu học chắc chắn không thể làm được.\n\n- あの店はいつも混んでいるから、すぐに入れるはずがない。\nCửa hàng đó lúc nào cũng đông khách nên chắc chắn không thể vào ngay được.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 34 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 34 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜はずがない・〜わけがない",
+            "back": "Ý nghĩa: Chắc chắn không... / Làm sao mà... được (Phủ định mạnh mẽ dựa trên căn cứ).\nCấu trúc: [Thể thông thường (Na-adj + な/である) / (N + の/である)] ＋ はずがない・わけがない",
+            "romaji": "hazu-ga-nai / wake-ga-nai",
+            "example": "あんなに練習したのだから、負けるはずがない。\nĐã luyện tập nhiều đến thế, chắc chắn không thể thua được.\n\n彼がうそをつくわけがない。\nKhông lẽ nào anh ấy lại nói dối.\n\nこんな難しい問題、小学生にできるわけがない。\nVấn đề khó thế này, học sinh tiểu học chắc chắn không thể làm được.\n\nあの店はいつも混んでいるから、すぐに入れるはずがない。\nCửa hàng đó lúc nào cũng đông khách nên chắc chắn không thể vào ngay được.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

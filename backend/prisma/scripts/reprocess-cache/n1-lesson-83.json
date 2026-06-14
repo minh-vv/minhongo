@@ -1,0 +1,42 @@
+{
+  "order": 83,
+  "title": "Bài 83 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 83/92).",
+  "theoryMd": "### 1. 〜かたがた\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Làm việc A, nhân tiện làm luôn việc B. Đây là cấu trúc trang trọng, thường dùng trong thư từ hoặc chào hỏi công việc.\n- **Cấu trúc**: N (hành động) + かたがた\n\n#### 📝 Ví dụ minh họa\n新年のご挨拶かたがた、本日伺いました。\nHôm nay tôi đến nhân tiện chúc Tết.\n\nお礼かたがた、成果をご報告申し上げます。\nNhân tiện bày tỏ lời cảm ơn, xin báo cáo kết quả.\n\n### 2. 〜びる\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Có vẻ như, mang phong thái hoặc dáng vẻ của... Dùng để mô tả sự chuyển biến ngoại hình hoặc tính chất.\n- **Cấu trúc**: N / A-i (bỏ i) + びる\n\n#### 📝 Ví dụ minh họa\n娘は急に大人びてきた。\nCon gái bỗng trở nên chín chắn.\n\nこの椅子は年数がたって古びている。\nCái ghế này theo năm tháng đã trở nên cũ kỹ.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 83 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 83.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜かたがた",
+            "back": "Ý nghĩa: Làm việc A, nhân tiện làm luôn việc B (thường dùng trong bối cảnh công việc, trang trọng).\nCấu trúc: N (hành động) + かたがた",
+            "romaji": "katagata",
+            "example": "新年のご挨拶かたがた、本日伺いました。\nHôm nay tôi đến nhân tiện chúc Tết.\n\nお礼かたがた、成果をご報告申し上げます。\nNhân tiện bày tỏ lời cảm ơn, xin báo cáo kết quả.\n\n資料送付かたがた、近況をご連絡いたします。\nNhân tiện gửi tài liệu, xin thông tin tình hình gần đây.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜びる",
+            "back": "Ý nghĩa: Trở nên/mang dáng vẻ, phong thái của một trạng thái nào đó.\nCấu trúc: N/A-i (bỏ đuôi i) + びる",
+            "romaji": "biru",
+            "example": "娘は急に大人びてきた。\nCon gái bỗng trở nên chín chắn.\n\nこの椅子は年数がたって古びている。\nCái ghế này theo năm tháng đã trở nên cũ kỹ.\n\n長く都会に住んでいるのに、どこか田舎びている。\nDù sống ở đô thị lâu, đâu đó vẫn mang vẻ quê mùa.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

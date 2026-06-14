@@ -1,0 +1,293 @@
+{
+  "order": 22,
+  "title": "Bài 22 — Điều kiện: ～とき và ～まえに/あとで",
+  "summary": "Diễn đạt thời điểm, trước/sau hành động.",
+  "theoryMd": "### 1. V-る/V-た とき\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Khi...\n- Cấu trúc: V-る(hành động chưa xong) / V-た(hành động xong rồi) + とき\n\n### 2. V-る まえに\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trước khi làm A thì làm B.\n- Cấu trúc: V-る + まえに\n\n### 3. V-た あとで\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Sau khi làm A thì làm B.\n- Cấu trúc: V-た + あとで",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 22 — Từ vựng",
+        "description": "Từ vựng bài 22: Bài 22 — Điều kiện: ～とき và ～まえに/あとで",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "プール",
+            "back": "hồ bơi",
+            "romaji": "プール",
+            "example": "プール",
+            "jlptLevel": 5
+          },
+          {
+            "front": "中",
+            "back": "bên trong",
+            "romaji": "なか",
+            "example": "中（なか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "テレビ",
+            "back": "ti vi",
+            "romaji": "テレビ",
+            "example": "テレビ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "珈琲",
+            "back": "cà phê",
+            "romaji": "コーヒー",
+            "example": "珈琲（コーヒー）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ホテル",
+            "back": "khách sạn",
+            "romaji": "ホテル",
+            "example": "ホテル",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ニュース",
+            "back": "tin tức",
+            "romaji": "ニュース",
+            "example": "ニュース",
+            "jlptLevel": 5
+          },
+          {
+            "front": "テーブル",
+            "back": "bàn",
+            "romaji": "テーブル",
+            "example": "テーブル",
+            "jlptLevel": 5
+          },
+          {
+            "front": "カメラ",
+            "back": "máy ảnh",
+            "romaji": "カメラ",
+            "example": "カメラ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "タクシー",
+            "back": "tắc xi",
+            "romaji": "タクシー",
+            "example": "タクシー",
+            "jlptLevel": 5
+          },
+          {
+            "front": "スポーツ",
+            "back": "thể thao",
+            "romaji": "スポーツ",
+            "example": "スポーツ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ラジオ",
+            "back": "ra-đi-ô",
+            "romaji": "ラジオ",
+            "example": "ラジオ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ペン",
+            "back": "bút",
+            "romaji": "ペン",
+            "example": "ペン",
+            "jlptLevel": 5
+          },
+          {
+            "front": "レストラン",
+            "back": "nhà hàng",
+            "romaji": "レストラン",
+            "example": "レストラン",
+            "jlptLevel": 5
+          },
+          {
+            "front": "テスト",
+            "back": "bài kiểm tra",
+            "romaji": "テスト",
+            "example": "テスト",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ベッド",
+            "back": "giường",
+            "romaji": "ベッド",
+            "example": "ベッド",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ナイフ",
+            "back": "dao",
+            "romaji": "ナイフ",
+            "example": "ナイフ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "シャツ",
+            "back": "áo phông",
+            "romaji": "シャツ",
+            "example": "シャツ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ネクタイ",
+            "back": "cà vạt",
+            "romaji": "ネクタイ",
+            "example": "ネクタイ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ギター",
+            "back": "đàn ghi-ta",
+            "romaji": "ギター",
+            "example": "ギター",
+            "jlptLevel": 5
+          },
+          {
+            "front": "米",
+            "back": "mét",
+            "romaji": "メートル",
+            "example": "米（メートル）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "セーター",
+            "back": "áo len",
+            "romaji": "セーター",
+            "example": "セーター",
+            "jlptLevel": 5
+          },
+          {
+            "front": "アパート",
+            "back": "chung cư",
+            "romaji": "アパート",
+            "example": "アパート",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ポケット",
+            "back": "túi",
+            "romaji": "ポケット",
+            "example": "ポケット",
+            "jlptLevel": 5
+          },
+          {
+            "front": "バター",
+            "back": "bơ",
+            "romaji": "バター",
+            "example": "バター",
+            "jlptLevel": 5
+          },
+          {
+            "front": "キロ",
+            "back": "ki-lô",
+            "romaji": "キロ",
+            "example": "キロ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "スカート",
+            "back": "váy",
+            "romaji": "スカート",
+            "example": "スカート",
+            "jlptLevel": 5
+          },
+          {
+            "front": "レコード",
+            "back": "đĩa hát",
+            "romaji": "レコード",
+            "example": "レコード",
+            "jlptLevel": 5
+          },
+          {
+            "front": "エレベーター",
+            "back": "thang máy",
+            "romaji": "エレベーター",
+            "example": "エレベーター",
+            "jlptLevel": 5
+          },
+          {
+            "front": "洋袴",
+            "back": "quần dài",
+            "romaji": "ズボン",
+            "example": "洋袴（ズボン）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ポスト",
+            "back": "thùng thư",
+            "romaji": "ポスト",
+            "example": "ポスト",
+            "jlptLevel": 5
+          },
+          {
+            "front": "コピー",
+            "back": "bản sao",
+            "romaji": "コピー",
+            "example": "コピー",
+            "jlptLevel": 5
+          },
+          {
+            "front": "シャワー",
+            "back": "vòi sen",
+            "romaji": "シャワー",
+            "example": "シャワー",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ハンカチ",
+            "back": "khăn tay",
+            "romaji": "ハンカチ",
+            "example": "ハンカチ",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 22 — Ngữ pháp",
+        "description": "Ngữ pháp bài 22: Bài 22 — Điều kiện: ～とき và ～まえに/あとで",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "V-る / V-た + とき",
+            "back": "Ý nghĩa: Diễn đạt thời điểm khi làm gì đó. V-る khi hành động chưa kết thúc, V-た khi hành động đã xong.\nCấu trúc: V-る / V-た + とき",
+            "romaji": "v-ru/v-ta toki",
+            "example": "日本へ行くとき、カメラを買いました。\nKhi đi Nhật, tôi đã mua máy ảnh.\n\n日本へ行ったとき、友達に会いました。\nKhi đã đến Nhật, tôi đã gặp bạn.\n\n暇なとき、音楽を聴きます。\nKhi rảnh rỗi, tôi nghe nhạc.\n\n疲れたとき、よく眠ります。\nKhi mệt, tôi ngủ rất ngon.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V-る まえに",
+            "back": "Ý nghĩa: Làm việc A trước khi làm việc B.\nCấu trúc: V-る + まえに",
+            "romaji": "v-ru mae ni",
+            "example": "食事のまえに、手を洗います。\nTrước khi ăn, tôi rửa tay.\n\n寝るまえに、本を読みます。\nTrước khi đi ngủ, tôi đọc sách.\n\n出かけるまえに、電気を消します。\nTrước khi đi ra ngoài, tôi tắt điện.\n\n会議のまえに、資料を確認します。\nTrước cuộc họp, tôi kiểm tra tài liệu.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V-た あとで",
+            "back": "Ý nghĩa: Làm việc A sau khi làm việc B.\nCấu trúc: V-た + あとで",
+            "romaji": "v-ta ato de",
+            "example": "仕事のあとで、飲みに行きます。\nSau khi làm việc, tôi đi uống.\n\n映画を見たあとで、ご飯を食べます。\nSau khi xem phim xong, tôi đi ăn.\n\n掃除したあとで、買い物に行きます。\nSau khi dọn dẹp, tôi đi mua sắm.\n\n勉強したあとで、テレビを見ます。\nSau khi học bài, tôi xem tivi.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

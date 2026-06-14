@@ -1,0 +1,35 @@
+{
+  "order": 55,
+  "title": "55. ぐらい/くらい",
+  "summary": "Ngữ pháp bài số 55 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜ぐらい / くらい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \n1. Chỉ mức độ ước chừng.\n2. Đưa ra một ví dụ tối thiểu (ít nhất thì...).\n3. Nhấn mạnh mức độ đến mức mà...\n- **Cấu trúc:** N / V-る / A-い / A-な + ぐらい / くらい\n\n#### 📝 Ví dụ minh họa\n- 簡単なお辞儀くらいは、子供でもできる。 (Kiểu chào hỏi đơn giản như thế thì ít nhất trẻ con cũng làm được.)\n- 涙が出るくらい、お腹を抱えて笑った。 (Tôi đã ôm bụng cười đến mức chảy cả nước mắt.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 55 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 55 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ぐらい / くらい",
+            "back": "Ý nghĩa: Đến mức... / Ít nhất là... (biểu thị mức độ trạng thái hoặc ví dụ tối thiểu).\nCấu trúc: N / V-ru / A-i / A-na + ぐらい / くらい",
+            "romaji": "gurai / kurai",
+            "example": "簡単なお辞儀くらいは、子供でもできる。\nKiểu chào hỏi đơn giản như thế thì ít nhất trẻ con cũng làm được.\n\n涙が出るくらい、お腹を抱えて笑った。\nTôi đã ôm bụng cười đến mức chảy cả nước mắt.\n\n10分くらい待ってください。\nHãy đợi tôi khoảng 10 phút nhé.\n\n服が汚れるくらい一生懸命遊んだ。\nTôi đã chơi nhiệt tình đến mức quần áo bị lấm bẩn.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

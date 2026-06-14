@@ -1,0 +1,223 @@
+{
+  "order": 11,
+  "title": "Bài 36 — Từ vựng JLPT N4 (Phần 11)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 11/25.",
+  "theoryMd": "### 1. 〜ように\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Để, nhằm mục đích làm gì đó.\n- Cấu trúc: V-dic / V-nai + ように\n#### 📝 Ví dụ minh họa\n忘れないように、メモをします。\nTôi ghi chú để không quên.\n\n### 2. 〜ようになります\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trở nên, chuyển biến thành một trạng thái năng lực nào đó.\n- Cấu trúc: V-dic / V-nai + ようになります\n#### 📝 Ví dụ minh họa\n日本語が話せるようになります。\nTôi trở nên nói được tiếng Nhật.\n\n### 3. 〜ようにしてください\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Hãy cố gắng làm (hoặc không làm) việc gì đó (lời khuyên/yêu cầu).\n- Cấu trúc: V-dic / V-nai + ようにしてください\n#### 📝 Ví dụ minh họa\n毎日、野菜を食べるようにしてください。\nHãy cố gắng ăn rau mỗi ngày nhé.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 36 — Từ vựng",
+        "description": "Từ vựng bài số 36 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "集める",
+            "back": "thu thập, tập hợp",
+            "romaji": "あつめる",
+            "example": "集める（あつめる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "事務所",
+            "back": "văn phòng",
+            "romaji": "じむしょ",
+            "example": "事務所（じむしょ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "星",
+            "back": "ngôi sao, vì sao",
+            "romaji": "ほし",
+            "example": "星（ほし）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "特に",
+            "back": "đặc biệt là, nhất là",
+            "romaji": "とくに",
+            "example": "特に（とくに）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "集まる",
+            "back": "tập trung, tụ họp",
+            "romaji": "あつまる",
+            "example": "集まる（あつまる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "比べる",
+            "back": "so sánh",
+            "romaji": "くらべる",
+            "example": "比べる（くらべる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "無理",
+            "back": "vô lý, không thể",
+            "romaji": "むり",
+            "example": "無理（むり）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "用意",
+            "back": "chuẩn bị, sắp xếp",
+            "romaji": "ようい",
+            "example": "用意（ようい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "落とす",
+            "back": "đánh rơi, làm mất",
+            "romaji": "おとす",
+            "example": "落とす（おとす）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "壊れる",
+            "back": "bị hỏng, bị vỡ",
+            "romaji": "こわれる",
+            "example": "壊れる（こわれる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "具合",
+            "back": "tình trạng, trạng thái",
+            "romaji": "ぐあい",
+            "example": "具合（ぐあい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "倒れる",
+            "back": "ngã, đổ, sụp đổ",
+            "romaji": "たおれる",
+            "example": "倒れる（たおれる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "味",
+            "back": "vị, hương vị",
+            "romaji": "あじ",
+            "example": "味（あじ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "安全",
+            "back": "an toàn",
+            "romaji": "あんぜん",
+            "example": "安全（あんぜん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "変",
+            "back": "kỳ lạ, lạ",
+            "romaji": "へん",
+            "example": "変（へん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "連絡",
+            "back": "liên lạc, liên hệ",
+            "romaji": "れんらく",
+            "example": "連絡（れんらく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "祖母",
+            "back": "bà",
+            "romaji": "そぼ",
+            "example": "祖母（そぼ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "大事",
+            "back": "quan trọng, nghiêm trọng",
+            "romaji": "だいじ",
+            "example": "大事（だいじ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "下がる",
+            "back": "hạ xuống, giảm xuống",
+            "romaji": "さがる",
+            "example": "下がる（さがる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "壊す",
+            "back": "làm hỏng, phá hủy",
+            "romaji": "こわす",
+            "example": "壊す（こわす）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "決まる",
+            "back": "được quyết định, được ấn định",
+            "romaji": "きまる",
+            "example": "決まる（きまる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "確か",
+            "back": "chắc chắn, tin chắc",
+            "romaji": "たしか",
+            "example": "確か（たしか）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "楽しみ",
+            "back": "niềm vui, sự thích thú",
+            "romaji": "たのしみ",
+            "example": "楽しみ（たのしみ）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 11 — Ngữ pháp",
+        "description": "Ngữ pháp bài 11: Bài 36 — Từ vựng JLPT N4 (Phần 11)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "〜ように",
+            "back": "Ý nghĩa: Để, nhằm mục đích làm gì đó.\nCấu trúc: V-dic / V-nai + ように",
+            "romaji": "you-ni",
+            "example": "忘れないように、メモをします。\nTôi ghi chú để không quên.\n\n風邪をひかないように、気をつけています。\nTôi đang chú ý để không bị cảm lạnh.\n\n早く起きられるように、目覚ましをかけます。\nTôi đặt báo thức để có thể dậy sớm.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "〜ようになります",
+            "back": "Ý nghĩa: Trở nên, chuyển biến thành một trạng thái năng lực nào đó.\nCấu trúc: V-dic / V-nai + ようになります",
+            "romaji": "you-ni-narimasu",
+            "example": "日本語が話せるようになります。\nTôi trở nên nói được tiếng Nhật.\n\n毎日練習して、泳げるようになりました。\nTôi đã luyện tập mỗi ngày và đã có thể bơi được.\n\n野菜が食べられるようになりました。\nTôi đã trở nên ăn được rau.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "〜ようにしてください",
+            "back": "Ý nghĩa: Hãy cố gắng làm (hoặc không làm) việc gì đó (lời khuyên/yêu cầu).\nCấu trúc: V-dic / V-nai + ようにしてください",
+            "romaji": "you-ni-shitekudasai",
+            "example": "毎日、野菜を食べるようにしてください。\nHãy cố gắng ăn rau mỗi ngày nhé.\n\n夜遅く食べないようにしてください。\nHãy cố gắng không ăn vào đêm muộn.\n\n忘れ物をしないようにしてください。\nHãy cố gắng không để quên đồ đạc.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

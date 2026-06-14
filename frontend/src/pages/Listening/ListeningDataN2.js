@@ -1,0 +1,4504 @@
+// ==========================================
+// DATA NGHE HIỂU N2 - VNJPCLUB (auto-generated)
+// Source: https://www.vnjpclub.com/luyen-nghe-n2/
+// Generated: 2026-06-14T10:12:18.997Z
+// ==========================================
+export const DIALOGUES_N2 = [
+  {
+    "id": "n2-bai-1-3-1",
+    "level": "N2",
+    "title": "N2 Bài 1 - １番: 兄と妹がケーキ屋でケーキを選んでいます。",
+    "description": "Anh trai và em gái đang lựa bánh kem ở cửa hàng bánh kem.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_09.mp3",
+    "context": "兄と妹がケーキ屋でケーキを選んでいます。",
+    "contextVi": "Anh trai và em gái đang lựa bánh kem ở cửa hàng bánh kem.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "美味しそうなケーキがたくさんある。",
+        "romaji": "",
+        "translation": "Có nhiều bánh kem thấy ngon quá ha."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "俺、この四角いかぼちゃのケーキが食べたいな。",
+        "romaji": "",
+        "translation": "Anh thì muốn ăn cái bánh kem quả bí ngô hình vuông này nè."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "ちょっと、お兄ちゃん、今回はお母さんのバースデーケーキでしょ。",
+        "romaji": "",
+        "translation": "Này anh ơi, lần này là bánh kem sinh nhật của mẹ mà."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "お母さんはチョコレートが好きだから、この丸いケーキがいいよ。",
+        "romaji": "",
+        "translation": "Mẹ rất thích sô cô la, nên cái bánh kem tròn này là được đó."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "えぇ―、私はこの可愛いイチゴのケーキがいいわ。",
+        "romaji": "",
+        "translation": "Sao? Em thì thấy cái bánh kem dâu dễ thương này là được hơn."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "でも、お母さんダイエット中だろ。",
+        "romaji": "",
+        "translation": "Nhưng mà mẹ đang ăn kiêng mà."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "じゃあ、どうする？",
+        "romaji": "",
+        "translation": "Vậy thì sẽ làm sao đây?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "この一口サイズのロールケーキにする？",
+        "romaji": "",
+        "translation": "Mình chọn cái bánh kem cuộn bé xíu này nhé?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "でもパースデーケーキが一口サイズじゃね…。",
+        "romaji": "",
+        "translation": "Nhưng mà bánh sinh nhật mà mua cái bé xíu thì hơi…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうだね。",
+        "romaji": "",
+        "translation": "Ừ nhỉ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "だからさっきの野菜のケーキがいいって言ったじゃん。",
+        "romaji": "",
+        "translation": "Bởi vậy chẳng phải anh đã nói cái bánh kem rau củ lúc nãy là được rồi sao."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "う～ん…。じゃあ、あれにしよう。",
+        "romaji": "",
+        "translation": "Ừ…m, vậy mình sẽ chọn cái kia."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "妹はどのケーキを買いますか。",
+        "romaji": "",
+        "translation": "Em gái sẽ mua chiếc bánh kem như thế nào?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "妹はどのケーキを買いますか。 (Em gái sẽ mua chiếc bánh kem như thế nào?)",
+        "options": [
+          "四角いケーキ (Bánh kem hình vuông)",
+          "丸いケーキ (Bánh kem hình tròn)",
+          "可愛いイチゴのケーキ (Bánh kem dâu dễ thương)",
+          "ロールケーキ (Bánh kem cuộn)"
+        ],
+        "answerIndex": 0,
+        "explanation": "Đáp án đúng: 四角いケーキ (Bánh kem hình vuông). ● 一口サイズ ＝小さいサイズ。 例 コンビニでは、一口サイズのチョコが売れています。 ● 言ったじゃん。 「言ったじゃん」 は 「言ったじゃないか」 の会話的な表現。"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-3-2",
+    "level": "N2",
+    "title": "N2 Bài 1 - ２番: 夫と妻が新居のリビングのカーテンについて話しています。",
+    "description": "Người chồng và người vợ đang nói chuyện về bức rèm trong phòng khách ngôi nhà mới.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_10.mp3",
+    "context": "夫と妻が新居のリビングのカーテンについて話しています。",
+    "contextVi": "Người chồng và người vợ đang nói chuyện về bức rèm trong phòng khách ngôi nhà mới.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "今、店に電話してカーテン頼んでおいたよ。",
+        "romaji": "",
+        "translation": "Giờ thì anh đã điện thoại đến cửa hàng, nhờ người ta làm dùm mình bức rèm cửa rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "あれでいいよね？",
+        "romaji": "",
+        "translation": "Cái kia được chứ?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "あれって、無地のカーテン？",
+        "romaji": "",
+        "translation": "Cái kia là bức rèm trơn hả?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "それとも縞模様のカーテン？",
+        "romaji": "",
+        "translation": "Hay là bức rèm có sọc?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "僕の好きな縞模様にしちゃったけど。",
+        "romaji": "",
+        "translation": "Anh đã chọn bức rèm sọc mà anh thích rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "えっ！そうなんだ。",
+        "romaji": "",
+        "translation": "Hả? Vậy sao?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "素敵だったけど、値段は無地の２倍よ。",
+        "romaji": "",
+        "translation": "Đẹp thì có đẹp nhưng nó đắt gấp đôi cái rèm trơn lận."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "えっ、２倍かぁ。",
+        "romaji": "",
+        "translation": "Hả? Gấp đôi hả?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "模様によって値段が違うのか。",
+        "romaji": "",
+        "translation": "Giá cả khác nhau tùy vào họa tiết à?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "花柄だったら無地よりちょっと高いし、水玉模様は無地より安かったでしょ。",
+        "romaji": "",
+        "translation": "Loại văn hoa thì đắt hơn loại trơn một chút, còn loại chấm bi thì rẻ hơn loại trơn."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "今回は一番安いのでがまんしようか。",
+        "romaji": "",
+        "translation": "Vì là loại rẻ nhất, nên lần này mình chịu vậy nha?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そうだったな、しょうがない。節約しよう。",
+        "romaji": "",
+        "translation": "Ừm, phải chịu vậy thôi. Mình tiết kiệm đi."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "どのようなカーテンに決まりましたか。",
+        "romaji": "",
+        "translation": "Đã quyết định chọn bức rèm như thế nào?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "どのようなカーテンに決まりましたか。 (Đã quyết định chọn bức rèm như thế nào?)",
+        "options": [
+          "縞模様 (Loại sọc)",
+          "花柄模様 (Loại văn hoa)",
+          "水玉模様 (Loại chấm bi)",
+          "無地 (Loại trơn)"
+        ],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: 水玉模様 (Loại chấm bi). ● 模様 によって値段が違うのか。 ＝模様が違うと、値段も違うのか。 例 日本語でも、地域 によって発音が違います。"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-3-3",
+    "level": "N2",
+    "title": "N2 Bài 1 - ３番: 友人の結婚のお祝い品を選んでいます。",
+    "description": "Đang lựa chọn quà mừng cưới cho người bạn.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_11.mp3",
+    "context": "友人の結婚のお祝い品を選んでいます。",
+    "contextVi": "Đang lựa chọn quà mừng cưới cho người bạn.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "結婚祝いは、実用的なものがいいんじゃない。",
+        "romaji": "",
+        "translation": "Quà mừng đám cưới thì nên mua những thứ thực dụng."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "皿とか、グラスとかは？",
+        "romaji": "",
+        "translation": "Như dĩa hay ly tách thì sao nhỉ?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "でも、結婚のお祝いには、「割れる」「切れる」を連想させる物は避けたほうがいいって聞いたけど。",
+        "romaji": "",
+        "translation": "Nhưng mà tớ nghe nói là quà mừng cưới thì nên tránh những thứ khiến người ta liên tưởng đến \"đổ vỡ\", \"chia cắt\"."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "へぇ、そうなんだ。",
+        "romaji": "",
+        "translation": "À, vậy hả."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "でも、あいつワイングラスのセット欲しがってたよ。",
+        "romaji": "",
+        "translation": "Nhưng nó ao ước có bộ ly rượu vang mà."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "本人の希望なら大丈夫だね。",
+        "romaji": "",
+        "translation": "Nếu đó là mong muốn của người đó thì không sao."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "じゃ、それとワインでいいかもね。",
+        "romaji": "",
+        "translation": "Vậy chắc có lẽ nên mua kèm với rượu vang nhỉ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "それだと予算オーバーだから。",
+        "romaji": "",
+        "translation": "Nếu mua cái đó thì sẽ vượt ngân sách."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "予算ないなら、２人の写真を入れる写真立てはどうかな？",
+        "romaji": "",
+        "translation": "Nếu không có ngân sách thì mua khung ảnh để ảnh của hai người nha, cậu thấy sao?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "写真立てはよくもらうんじゃないか。",
+        "romaji": "",
+        "translation": "Khung ảnh chẳng phải sẽ nhận nhiều rồi sao?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "じゃ、ワインは自分で買ってもらうことにして、やっぱ初めのやつにしよう。",
+        "romaji": "",
+        "translation": "Thế thì rượu vang để nó tự mua đi, vậy mình chọn món ban đầu đi."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうね。そうしよう。",
+        "romaji": "",
+        "translation": "Ừm, quyết định vậy đi."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "２人は何を買いましたか。",
+        "romaji": "",
+        "translation": "Hai người đã mua cái gì?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "２人は何を買いましたか。 (Hai người đã mua cái gì?)",
+        "options": [
+          "皿とワイングラス (Dĩa và ly rượu vang)",
+          "ワイングラスセット (Bộ ly rượu vang)",
+          "写真立てとワイングラスセット (Khung ảnh và bộ ly rượu vang)",
+          "ワイングラスとワイン (Ly rượu vang và rượu vang)"
+        ],
+        "answerIndex": 1,
+        "explanation": "Đáp án đúng: ワイングラスセット (Bộ ly rượu vang). ● 皿 とか、グラス とかは？ ＝皿やグラスなどはどうですか。 例 昼食はレストランで食べる とかお弁当を買う とかしています。 ● 避け た方がいい 「～た方がいい」」は相手に対して忠告やアドバイスをする時に使う。 例 「薬を飲んでも治らないなら、病院へ行っ た方がいいよ」 ● あいつワイングラスのセット欲しがってたよ。 「あいつ」は「あの人・彼・彼女」などのくだけた言い方。 ＝彼はワイングラスのセット欲しがってたよ。 ● やっぱ初めのやつにしよう。 「やっぱ」若者の会話的なくだけた言い方。 ＝やっぱり初めの"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-3-4",
+    "level": "N2",
+    "title": "N2 Bài 1 - ４番: 妹が姉に悩みを相談しています。",
+    "description": "Người em gái đang trao đổi với người chị về nỗi lo của mình.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_12.mp3",
+    "context": "妹が姉に悩みを相談しています。",
+    "contextVi": "Người em gái đang trao đổi với người chị về nỗi lo của mình.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "Ｆ１（妹）：お姉ちゃん、ちょっと相談に乗ってもらいたいことがあるんだけどさ…。",
+        "romaji": "",
+        "translation": "Chị ơi, em có chuyện muốn được trao đổi một chút với chị…"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "Ｆ２（姉）：へ―、珍しいじゃん。何？",
+        "romaji": "",
+        "translation": "À, chuyện hiếm thấy à nha. Chuyện gì thế?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "実はさ…、サークルの男子から付き合ってほしいって、言われちゃってさ、来週返事をしなくちゃいけないんだ。",
+        "romaji": "",
+        "translation": "Thiệt ra là em được một anh chàng trong câu lạc bộ thể thao nói rằng muốn làm quen với em, và tuần sau em phải trả lời anh ấy."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "でも、「ごめんなさい」って感じで…。",
+        "romaji": "",
+        "translation": "Nhưng em lại có cảm giác muốn nói \"Em xin lỗi\"…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "え―、どうして？",
+        "romaji": "",
+        "translation": "Ủa, sao vậy?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "せっかく告白されたのに？",
+        "romaji": "",
+        "translation": "Người ta đã cất công tỏ tình thế mà?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "だって、タイプじゃないっていうか…。",
+        "romaji": "",
+        "translation": "Vì đó không phải mẫu người em thích…"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "でも、断って気まずくなるのは…。",
+        "romaji": "",
+        "translation": "Nhưng mà từ chối thì em cảm thấy áy náy sao sao ấy…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "だけど…、やっぱ、正直に言うしかないんじゃない？",
+        "romaji": "",
+        "translation": "Tuy nhiên…, vậy rốt cục chỉ còn cách nói thẳng, không còn cách nào hết sao?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "でもね、そいつ傷つきやすそうだからさ、サークルやめちゃったりしたら、こっちもめちゃ気分悪いし…。",
+        "romaji": "",
+        "translation": "Nhưng mà, anh chàng đó có vẻ dễ tổn thương, nên nếu nghỉ ở câu lạc bộ thì em cũng cảm thấy rất không vui…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "あるかもね。じゃあ、ちょっとの間付き合ってみたら？",
+        "romaji": "",
+        "translation": "Cũng có thể như vậy lắm. Vậy hay là em thử quen với nó một thời gian xem sao?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "それで、いやだったら、別れればいいじゃん？",
+        "romaji": "",
+        "translation": "Sau đó, nếu không thích thì em chia tay cũng được mà?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "そしたら、その人も納得すんじゃない。",
+        "romaji": "",
+        "translation": "Làm vậy thì người ta cũng bằng lòng mà."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "でも…あたし、実は好きな先輩がいるから…そんなことしたら…。",
+        "romaji": "",
+        "translation": "Nhưng mà… thực ra em đang thích một anh… nếu em làm vậy…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "じゃあ、やっぱり、ほかに手はないでしょ。",
+        "romaji": "",
+        "translation": "Vậy rốt cục chắc không còn cách nào khác rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうだよね…それしかないよね。",
+        "romaji": "",
+        "translation": "Đúng vậy ạ… Chỉ còn cách đó thôi."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "来週、妹はどうしますか。",
+        "romaji": "",
+        "translation": "Tuần tới, người em sẽ làm như thế nào?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "来週、妹はどうしますか。 (Tuần tới, người em sẽ làm như thế nào?)",
+        "options": [
+          "サークルの男子に「付き合わない」と言う (Nói với anh chàng trong câu lạc bộ là \"Em không quen\")",
+          "サークルをやめて、先輩と付き合う (Nghỉ ở câu lạc bộ, và quen với người đàn anh)",
+          "先輩に「付き合いたい」と告白する (Tỏ tình với người đàn anh là \"Em muốn quen anh\")",
+          "サークルの男子に「付き合う」と言う (Nói với anh chàng ở trong câu lạc bộ là \"Em sẽ quen\")"
+        ],
+        "answerIndex": 0,
+        "explanation": "Đáp án đúng: サークルの男子に「付き合わない」と言う (Nói với anh chàng trong câu lạc bộ là \"Em không quen\"). ● ちょっと 相談に乗ってもらいたいことがあるんだけどさ…。 ＝相談を聞いて意見を言ってもらいたいことがあるんですが。 ● 珍しい じゃん。 「～じゃん」 は、「～ですね」 のくだけた言い方。 ＝珍しいですね。 例 A： このレストラン、おいしい じゃん。 B： うん、なかなかいい じゃん。 ● 付き合ってほしい ＝恋人になってほしい ● 「 ごめんなさい」 って感じで…。 「ごめんなさい」 は、「付き合ってほしい」"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-3-5",
+    "level": "N2",
+    "title": "N2 Bài 1 - ５番: 伯父と姪が、電話で義理の伯母の病気について話しています。",
+    "description": "Người chú và cháu gái đang nói chuyện về căn bệnh của người cô nuôi qua điện thoại.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_13.mp3",
+    "context": "伯父と姪が、電話で義理の伯母の病気について話しています。",
+    "contextVi": "Người chú và cháu gái đang nói chuyện về căn bệnh của người cô nuôi qua điện thoại.",
+    "lines": [
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "もしもし、おじさん、かおりです。",
+        "romaji": "",
+        "translation": "A lô, chú ơi, con là Kaori đây ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "ああ、かおりちゃん、久しぶりですね。",
+        "romaji": "",
+        "translation": "À, Kaori à, lâu rồi không liên lạc."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "はい、ごぶさたしちゃって、すみません。",
+        "romaji": "",
+        "translation": "Dạ, cũng lâu rồi không liên lạc, con xin lỗi ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "昨日、母からおばさんが入院って聞いたんですが、お加減いかがですか。",
+        "romaji": "",
+        "translation": "Hôm qua con nghe mẹ con nói là cô nhập viện, sức khỏe cô thế nào rồi ạ?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "うん、まあ、盲腸だからね…大したことはないんだよ。",
+        "romaji": "",
+        "translation": "Ừm, cô bị đau ruột thừa con à… không có gì nghiêm trọng đâu con."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "手術も無事終わったし、経過も良好だし、１週間くらいで退院できるって。",
+        "romaji": "",
+        "translation": "Phẫu thuật thành công tốt đẹp, tiến triển cũng tốt, khoảng chừng 1 tuần là có thể xuất viện rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうですか。よかった。",
+        "romaji": "",
+        "translation": "Vậy hả chú? May quá."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "明日ちょっと病院へ行きたいと思うんですけど…",
+        "romaji": "",
+        "translation": "Ngày mai con muốn đến bệnh viện một chút…"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "もう何でも食べられるかな。",
+        "romaji": "",
+        "translation": "Không biết cô đã có thể ăn được chưa chú?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "それとも、お花なんかがいいかなぁ？",
+        "romaji": "",
+        "translation": "Hay là con mua hoa được không chú?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "いやぁ、すまないね…行ってやってくれたら喜ぶよ。",
+        "romaji": "",
+        "translation": "Thôi, phiền con lắm… Con đến thăm là chú vui rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "でも、何も持って来なくていいからね。",
+        "romaji": "",
+        "translation": "Mà nè, không cần mang thứ gì theo đó nghen."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "まだ流動食だし…。",
+        "romaji": "",
+        "translation": "Vì cô vẫn còn phải ăn thức ăn lỏng…"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "それに、お花なんかもたくさんもらってるから。",
+        "romaji": "",
+        "translation": "Vả lại hoa thì chú cũng nhận nhiều rồi con à."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうなんだ…。でも…なんか…。",
+        "romaji": "",
+        "translation": "Dạ… nhưng mà con thấy có gì đó hơi…"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "そうだ、おばさん読書家でしたよね。",
+        "romaji": "",
+        "translation": "À phải rồi, cô thích đọc sách phải không chú."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "なんか新作の面白そうなのにします。",
+        "romaji": "",
+        "translation": "Vậy con sẽ mua cuốn nào hay hay mà mới ra nha chú."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そうかい。悪いねぇ。",
+        "romaji": "",
+        "translation": "Vậy à, phiền con quá à."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "じゃあ、よろしくお願いするよ。",
+        "romaji": "",
+        "translation": "Vậy chú nhờ con nhé."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "明日、姪はどうしますか。",
+        "romaji": "",
+        "translation": "Ngày mai người cháu gái sẽ làm như thế nào?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "明日、姪はどうしますか。 (Ngày mai người cháu gái sẽ làm như thế nào?)",
+        "options": [
+          "何も持たずにお見舞いに行って楽しい話をする (Đến thăm mà không mang theo thứ gì, và kể câu chuyện vui)",
+          "果物と花を買ってお見舞いに行く (Mua hoa và trái cây để đi thăm)",
+          "新発売のゲームを買ってお見舞いに行く (Mua trò chơi vừa mới phát hành để đi thăm)",
+          "最近出版された本を持ってお見舞いに行く (Mua cuốn sách vừa được xuất bản gần đây để đi thăm)"
+        ],
+        "answerIndex": 3,
+        "explanation": "Đáp án đúng: 最近出版された本を持ってお見舞いに行く (Mua cuốn sách vừa được xuất bản gần đây để đi thăm). ● ごぶさたしちゃって、すみません。 長い間連絡していなかった相手に謝る表現。 例 「 ごぶさたしておりますが、お変わりありませんか」 ● お加減いかがですか。 相手の体の具合を尋ねる時の表現。 ＝お体の具合は、いかがですか。 例 「最近、顔色がよくありませんね。どこか、 お加減が悪いのではありませんか」 ● 大したことはないんだよ。 ＝そんなに大変な状態ではありません。 例 A：怪我をしたんだって？ B：指をちょっと切っ"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-3-6",
+    "level": "N2",
+    "title": "N2 Bài 1 - ６番: 女の人の男の人が来春の新入社員研修について話しています。",
+    "description": "Người đàn ông và người phụ nữ đang nói chuyện về huấn luyện nhân viên mới mùa xuân năm sau.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_14.mp3",
+    "context": "女の人の男の人が来春の新入社員研修について話しています。",
+    "contextVi": "Người đàn ông và người phụ nữ đang nói chuyện về huấn luyện nhân viên mới mùa xuân năm sau.",
+    "lines": [
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "また来年度の研修を企画しなきゃいけない時期が来たから、研修希望を各部に聞いておいてくださいね。",
+        "romaji": "",
+        "translation": "Lại đến giai đoạn phải lên kế hoạch huấn luyện cho năm sau rồi, hãy hỏi từng phòng ban trước về nguyện vọng huấn luyện nhé"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "はい。もうそんな時期ですか。",
+        "romaji": "",
+        "translation": "Dạ, đã tới giai đoạn đó rồi à?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "１年がたつのはあっという間ですね。",
+        "romaji": "",
+        "translation": "Mới đó mà một năm đã trôi qua rồi nhỉ."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "これが今年やった内容ね。",
+        "romaji": "",
+        "translation": "Đây là nội dung mình đã làm trong năm nay phải không?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "はい、大体各部門の希望に沿って内容を決めたんですけど、やってみると評判のいいのも悪いのもあって…。",
+        "romaji": "",
+        "translation": "Dạ, tôi đã quyết định nội dung dựa trên nguyện vọng của đa số các phòng ban, nhưng khi làm thử thì cũng có đánh giá tốt lẫn đánh giá xấu ạ…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "受講者の評判が良かったのはどれ？",
+        "romaji": "",
+        "translation": "Cái nào là đánh giá tốt của người được huấn luyện?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "はい、この新規事業プロジェクトのケース・スタディーが評判でした。",
+        "romaji": "",
+        "translation": "Dạ, case-study (nghiên cứu dựa trên đối tượng và hoàn cảnh cụ thể\" của dự án hoạt động kinh doanh mới này được đánh giá tốt ạ."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうね、やっぱりケース・スタディーはおもしろいですよね。",
+        "romaji": "",
+        "translation": "Ừm, rốt cục thì case-study vẫn là cái hay nhỉ."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "一番評判悪かったのは？",
+        "romaji": "",
+        "translation": "Thế cái nào bị đánh giá tệ nhất?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "はい、聞いたところでは各部の部長のお話がどうも…。",
+        "romaji": "",
+        "translation": "Dạ, theo những gì tôi thu thập được thì trưởng phòng ở mỗi phòng ban nói chuyện hơi… ạ."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうですか…。やっぱり…。",
+        "romaji": "",
+        "translation": "Vậy à… Đúng như tôi nghĩ…"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "じゃ、さっそくお願いします。",
+        "romaji": "",
+        "translation": "Vậy nhờ anh làm nhanh nhanh nhé."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "結果がまとまったら報告して。",
+        "romaji": "",
+        "translation": "Sau khi thu thập kết quả xong thì báo cáo cho tôi nhé."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "はい。",
+        "romaji": "",
+        "translation": "Dạ vâng."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "男の人はこのあとすぐ、何をしなければなりませんか。",
+        "romaji": "",
+        "translation": "Người đàn ông ngay sau đây sẽ phải làm gì?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "男の人はこのあとすぐ、何をしなければなりませんか。 (Người đàn ông ngay sau đây sẽ phải làm gì?)",
+        "options": [
+          "今年の研修の結果を報告書にまとめる (Tập hợp kết quả huấn luyện trong năm nay vào trong bản báo cáo)",
+          "今年の新入社員に何が良かったか聞く (Hỏi nhân viên mới trong năm nay xem cái nào tốt)",
+          "来年もプロジェクトの話をしてくれる部門をさがす (Tìm phòng ban nói về dự án năm tới)",
+          "各部門に来年の研修の希望を聞く (Hỏi từng phòng ban về nguyện vọng huấn luyện trong năm tới)"
+        ],
+        "answerIndex": 3,
+        "explanation": "Đáp án đúng: 各部門に来年の研修の希望を聞く (Hỏi từng phòng ban về nguyện vọng huấn luyện trong năm tới). ● また来年の研修を企画し なきゃいけない時期が来たから、 ＝また来年の研修を計画しなければいけない時期が来たので、 例 「明日は雨が降っても大事なイベントだから、行か なきゃ」 ● １年がたつのは あっという間ですね。 ＝１年がたつのは本当に早いですね。 例 「あの会社は あっという間に年間１００億円も売り上げる会社になったね」 ● そうですか…。やっぱり…。 ＝そうですか…。思っていた通りですね。 例 A：今年"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-3-7",
+    "level": "N2",
+    "title": "N2 Bài 1 - ７番: 部長と女の人が明日のC社との会議について話しています。",
+    "description": "Trưởng phòng và người phụ nữ đang nói chuyện về cuộc họp với công ty C vào ngày mai.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_15.mp3",
+    "context": "部長と女の人が明日のC社との会議について話しています。",
+    "contextVi": "Trưởng phòng và người phụ nữ đang nói chuyện về cuộc họp với công ty C vào ngày mai.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "張さん、ちょっといい？",
+        "romaji": "",
+        "translation": "Chị Chan này, phiền chị một chút được không?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "はい、部長。なんでしょうか。",
+        "romaji": "",
+        "translation": "Dạ được thưa trưởng phòng. Chuyện gì vậy ạ?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "中国から上海食品の社長がお見えになるのは、来週だったね。",
+        "romaji": "",
+        "translation": "Tuần sau giám đốc công ty thực phẩm Thượng Hải từ Trung Quốc sẽ sang đây phải không?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "はい、月曜の１１時ということで、役員会議室も押さえてあります。",
+        "romaji": "",
+        "translation": "Dạ phải, cuộc họp ban quản trị cũng đã được ấn định là 11 giờ ngày thứ hai ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "その会議なんだが、前回は通訳任せにしたんだが、こちらの言いたいことのニュアンスがね、相手によく伝わっていないように感じたんだよ。",
+        "romaji": "",
+        "translation": "Cuộc họp đó, lần trước tôi đã phó mặc cho thông dịch viên, nhưng tôi có cảm giác là họ không truyền tải hết cho đối phương hiểu những điều tôi muốn nói."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうですか、大事な商談でそれでは心配ですね。",
+        "romaji": "",
+        "translation": "Vậy hả sếp, bởi vậy mà sếp lo trong buổi đàm phán quan trọng phải không ạ?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そうなんだよ。",
+        "romaji": "",
+        "translation": "Đúng vậy."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "そこで頼みなんだが、今度の会議では 張 さん、通訳をやってもらえないかな。",
+        "romaji": "",
+        "translation": "Bởi thế tôi mới nhờ chị, không biết chị Chan có thể giúp tôi thông dịch trong cuộc họp lần này không vậy?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "はい、承知いたしました。",
+        "romaji": "",
+        "translation": "Vâng, rõ rồi ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "言葉は中国語と日本語ですよね。",
+        "romaji": "",
+        "translation": "Ngôn ngữ là tiếng Trung Quốc và tiếng Nhật phải không sếp."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "英語はちょっと自信がありませんので。",
+        "romaji": "",
+        "translation": "Tại vì tiếng Anh thì em không tự tin chút đỉnh ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "前回は会議の議事録を書きましたが、通訳をするんでしたら、そちらの方はどなたかに…。",
+        "romaji": "",
+        "translation": "Cuộc họp lần trước em đã viết biên bản buổi họp rồi, nếu thông dịch thì em sẽ đưa cái đó cho ai…"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "うん、そうだね。じゃあそれでいいですから頼みますよ。",
+        "romaji": "",
+        "translation": "Ừm, thế à. Thế thì cái đó cũng được, nhờ chị đấy."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "女の人は会議で何をしなければなりませんか。",
+        "romaji": "",
+        "translation": "Người phụ nữ sẽ phải làm gì trong cuộc họp?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "女の人は会議で何をしなければなりませんか。 (Người phụ nữ sẽ phải làm gì trong cuộc họp?)",
+        "options": [
+          "会議の議事録を書く (Viết biên bản cuộc họp)",
+          "通訳にニュアンスを伝える (Truyền tải sắc thái tình cảm cho thông dịch viên)",
+          "中国語と日本語の通訳をする (Thông dịch tiếng Trung Quốc và tiếng Nhật)",
+          "中国語で商談をする (Đàm phán bằng tiếng Trung Quốc)"
+        ],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: 中国語と日本語の通訳をする (Thông dịch tiếng Trung Quốc và tiếng Nhật). ● 役員会議室も 押さえてあります。 ＝役員会議室も予約してあります。 例「明日の朝一番の新幹線を 押さえておきました」 ● そこで頼みなんだが、 ＝それで、お願いなんですが、 例 「今朝急いで財布を忘れてきた。 そこで頼みなんだが、代わりに支払ってくれないか」"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-3-8",
+    "level": "N2",
+    "title": "N2 Bài 1 - ８番: 図書館で男の人が図書館の人と話しています。",
+    "description": "Tại thư viện, người đàn ông đang nói chuyện với nhân viên thư viện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_16.mp3",
+    "context": "図書館で男の人が図書館の人と話しています。",
+    "contextVi": "Tại thư viện, người đàn ông đang nói chuyện với nhân viên thư viện.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "あのー、すみません。",
+        "romaji": "",
+        "translation": "Xin lỗi cho hỏi."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "はい、何でしょうか。",
+        "romaji": "",
+        "translation": "Vâng, gì thế ạ?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "雑誌を探すんで、検索パソコンを使っているんですけど、次どうすればいいかわかんなくなっちゃって。",
+        "romaji": "",
+        "translation": "Tôi đang dùng máy tính tra cứu để tìm cuốn tạp chí, nhưng tôi không biết tiếp theo nên làm như thế nào."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "「資料を利用する」っていうボタンをクリックしても、画面が変わらないんですよ。",
+        "romaji": "",
+        "translation": "Tôi nhấn nút \"Sử dụng tài liệu\" mà màn hình chẳng thay đổi gì cả."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "あー、そうですか。",
+        "romaji": "",
+        "translation": "À, ra là vậy."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "ええと、その前に入り口でお渡しした入館証にあるバーコードをここで読み取らせないといけないんです。",
+        "romaji": "",
+        "translation": "Ừ…m, anh phải rà mã vạch có trong thẻ vào thư viện mà trước đó chúng tôi đã phát ở lối vào tại đây ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "ああ、入り口でもらったやつ？",
+        "romaji": "",
+        "translation": "À, cái thẻ mà tôi nhận ở lối vào hả?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "あれ。家内が受け取って…。",
+        "romaji": "",
+        "translation": "Ủa, vợ tôi đã lấy rồi…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうですか。もう１枚もらえますよ。",
+        "romaji": "",
+        "translation": "Vậy hả? Anh có thể lấy thêm một thẻ nữa ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "でも、申込用紙に書いたり面倒だし。",
+        "romaji": "",
+        "translation": "Nhưng mà điền vào phiếu đăng kí phiền hà quá."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "ちょっと探してきます。",
+        "romaji": "",
+        "translation": "Để tôi đi kiếm rồi quay lại."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "面倒かけてすみませんでした。",
+        "romaji": "",
+        "translation": "Xin lỗi đã làm phiền."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "男の人はこの後、何をしますか。",
+        "romaji": "",
+        "translation": "Người đàn ông sau đây sẽ làm gì?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "男の人はこの後、何をしますか。 (Người đàn ông sau đây sẽ làm gì?)",
+        "options": [
+          "図書館の入り口へ行く (Đi tới lối vào của thư viện)",
+          "申込書を書く (Điền vào phiếu đăng kí)",
+          "奥さんを探す (Tìm người vợ)",
+          "バーコードを探す (Tìm mã vạch)"
+        ],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: 奥さんを探す (Tìm người vợ). ● 読み取ら せないといけないんです。 ＝読み取らせなければならないんです。 ● 入り口でもらった やつ？ ＝入り口でもらったもの？ 例 「ねえ、俺の冬のコート、どこにあるか知らない？ ベージュ色の やつ」"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-3-9",
+    "level": "N2",
+    "title": "N2 Bài 1 - ９番: 大学で２人の先生が話しています。",
+    "description": "Ở trường đại học, hai giáo viên đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_17.mp3",
+    "context": "大学で２人の先生が話しています。",
+    "contextVi": "Ở trường đại học, hai giáo viên đang nói chuyện.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "いやー、困った、困った。",
+        "romaji": "",
+        "translation": "Thôi tiêu rồi, tiêu rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "どうしたんですか、田中先生。",
+        "romaji": "",
+        "translation": "Sao thế hả thầy Tanaka?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "実はね、急ぎで、ある報告書を頼まれててね、それ書くのに統計資料が要るんだよ。",
+        "romaji": "",
+        "translation": "Thật ra là tôi được nhờ viết gấp một bản báo cáo nọ, nhưng mà tôi cần phải có tài liệu thống kế mới viết được."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "で、ある役所に連絡を取りたいんだけどさ…。",
+        "romaji": "",
+        "translation": "Vì vậy tôi muốn liên lạc tới một văn phòng nọ."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "何度もかけてるんだけど、留守番電話で。",
+        "romaji": "",
+        "translation": "Tôi đã điện thoại nhiều lần, nhưng chỉ nghe tín hiệu trả lời tự động thôi."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "やっぱり、行くしかないのかなあ。",
+        "romaji": "",
+        "translation": "Nên rốt cục tôi chỉ còn cách đi tới đó thôi."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "う～ん。じゃ、メールはどうですか。",
+        "romaji": "",
+        "translation": "Ừ…, vậy anh gửi email đi, anh thấy sao?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "それがね、自動返事メールで「当機関のホームページを御確認ください」だって。",
+        "romaji": "",
+        "translation": "Cái đó thì, sẽ có email trả lời tự động, nói là \"Vui lòng xác nhận tại trang chủ của cơ quan chúng tôi\"."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "で、そっちはもうご覧になったんですか。",
+        "romaji": "",
+        "translation": "Vậy anh cũng đã xem qua rồi chứ?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "もちろん。でも、知りたい情報が見つからなくてね。",
+        "romaji": "",
+        "translation": "Dĩ nhiên, nhưng mà tôi không tìm thấy thông tin tôi muốn biết."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "じゃ、直接窓口で聞くしかないですね。",
+        "romaji": "",
+        "translation": "Vậy thì chỉ còn cách hỏi trực tiếp tại quầy tiếp tân thôi."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "だろう？もう一度ホームページに目を通してからそうするよ。",
+        "romaji": "",
+        "translation": "Chắc có lẽ vậy? Tôi sẽ xem trang chủ đó thêm lần nữa rồi sẽ làm thế."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "でも、わざわざ行くのもねぇ…。",
+        "romaji": "",
+        "translation": "Nhưng mà cất công đến tận nơi cũng hơi…"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "電話をかける時間帯を変えてみたらいいんじゃないですか。",
+        "romaji": "",
+        "translation": "Anh thử gọi vào lúc khác xem sao?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "いや、急いでるから、この際、いいよ。",
+        "romaji": "",
+        "translation": "Thôi, tôi đang gấp, cách này là được rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "男の先生はこの後、まず何をしますか。",
+        "romaji": "",
+        "translation": "Giáo viên nam sau đây sẽ làm gì trước tiên?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "男の先生はこの後、まず何をしますか。 (Giáo viên nam sau đây sẽ làm gì trước tiên?)",
+        "options": [
+          "ホームページを見る (Xem trang chủ)",
+          "メールをする (Gửi email)",
+          "役所の窓口へ行く (Đến quầy tiếp tân của ủy ban)",
+          "窓口に電話で確認する (Gọi điện thoại đến quầy tiếp tân để xác nhận)"
+        ],
+        "answerIndex": 0,
+        "explanation": "Đáp án đúng: ホームページを見る (Xem trang chủ). ● それがね 前の事柄に何か問題がある時に使う表現 例 A：昨日のデート、楽しかった？ B： それがさ、彼女、来なかったんだよ。がっかりだ。 ● 「じゃ、直接窓口で聞くしかないですね」 「 だろう？」 「だろう」は「そうだろう」の省略形。 ＝（行くしかない）でしょう？ 例 A：う～ん、彼女、何か怒ってるんだよな。 B：そう言えば、ずっと怖い顔してるし、さっきも挨拶してくれなかったし、確かに変ですよね。 A： だろう？ ● 急いでるから、 この際、いいよ。 ＝急いでいるから、もうこの場合はいいですよ。 例 A：どうし"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-3-10",
+    "level": "N2",
+    "title": "N2 Bài 1 - １１番: ホームセンターの男の人が女の人と電話をしています。",
+    "description": "Người đàn ông bên home center (trung tâm bán các sản phẩm dùng trong nhà) đang nói chuyện với người phụ nữ.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_19.mp3",
+    "context": "ホームセンターの男の人が女の人と電話をしています。",
+    "contextVi": "Người đàn ông bên home center (trung tâm bán các sản phẩm dùng trong nhà) đang nói chuyện với người phụ nữ.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "あ、もしもし、Ｋホームセンターです。",
+        "romaji": "",
+        "translation": "A lô, K home center xin nghe."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "ご注文のお品をお届けしたいのですが、今いらっしゃいますか。",
+        "romaji": "",
+        "translation": "Chúng tôi muốn giao hàng qu&yacute; khách đã đặt, bây giờ qu&yacute; khách có ở nhà không?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "それから…お支払いの方法はどうされますか。",
+        "romaji": "",
+        "translation": "Và… phương thức thanh toán như thế nào ạ?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "あ、銀行かコンビニ振り込みでお願いします。",
+        "romaji": "",
+        "translation": "À, cho tôi chuyển khoản qua ngân hàng hoặc cửa hàng tiện lợi nhé."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "それは扱ってないんで、カードか現金のみになっているんです。",
+        "romaji": "",
+        "translation": "Phương thức đó chúng tôi không giải quyết được ạ, quy định chỉ thanh toán bằng thẻ hoặc tiền mặt thôi ạ."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "え、そうでしたっけ。",
+        "romaji": "",
+        "translation": "À, vậy sao."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "私、カードは、ちょっとね。",
+        "romaji": "",
+        "translation": "Tôi không thể trả bằng thẻ được rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "えっと、１２万円でしたっけ。",
+        "romaji": "",
+        "translation": "Ừ…m 120,000 yen phải không?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "あ、ごめんなさい。ちょっとない。",
+        "romaji": "",
+        "translation": "À, xin lỗi không đủ rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "銀行へ行って来ますからあとで来てもらえますか。",
+        "romaji": "",
+        "translation": "Tôi đến ngân hàng rồi về, anh có thể đến sau không?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "それでは何時頃がよろしいですか。",
+        "romaji": "",
+        "translation": "Vậy thì khoảng mấy giờ thì được ạ?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうですね、１時間くらいあれば大丈夫だと思います。",
+        "romaji": "",
+        "translation": "Hmm, tôi nghĩ chừng 1 tiếng là được rồi."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "わかりました。",
+        "romaji": "",
+        "translation": "Vâng ạ."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "それでは１時間後くらいに伺います。",
+        "romaji": "",
+        "translation": "Vậy thì khoảng 1 tiếng sau chúng tôi sẽ đến."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "女の人は品物の支払いをどうしますか。",
+        "romaji": "",
+        "translation": "Người phụ nữ sẽ thanh toán sản phẩm như thế nào?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "女の人は品物の支払いをどうしますか。 (Người phụ nữ sẽ thanh toán sản phẩm như thế nào?)",
+        "options": [
+          "カード (Thẻ)",
+          "現金 (Tiền mặt)",
+          "コンビニ振り込み (Chuyển khoản qua cửa hàng tiện lợi)",
+          "銀行振り込み (Chuyển khoản qua ngân hàng)"
+        ],
+        "answerIndex": 1,
+        "explanation": "Đáp án đúng: 現金 (Tiền mặt). ● カードか現金 のみになっているんです。 ＝カードか現金だけなんです。 例 「この歩道は歩行者 のみ通行できます。自転車の乗り入れはできません」 ● カードか現金のみ になっているんです。 「になっている」は規則や方法を表す表現。 ＝カードか現金のみという支払い方法でお願いしています。 例 「当店では現金前払い になっているんです」"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-3-11",
+    "level": "N2",
+    "title": "N2 Bài 1 - １２番: 小学生の息子が夏休みに１人で東京から祖父母のいる広島に遊びに...",
+    "description": "Đứa con trai đang học tiểu học vào kì nghỉ hè sẽ một mình từ Tokyo đến Hiroshima chơi, nơi có ông bà đang sống.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_20.mp3",
+    "context": "小学生の息子が夏休みに１人で東京から祖父母のいる広島に遊びに行きます。",
+    "contextVi": "Đứa con trai đang học tiểu học vào kì nghỉ hè sẽ một mình từ Tokyo đến Hiroshima chơi, nơi có ông bà đang sống.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "Ｍ１（父）：広島駅へは夜行バスで行くだろう。",
+        "romaji": "",
+        "translation": "Có lẽ con đi tới nhà ga Hiroshima bằng chuyến xe bu&yacute;t đêm."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "あれが一番安いんだ。",
+        "romaji": "",
+        "translation": "Cái đó là rẻ nhất."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "Ｍ２（息子）：飛行機か新幹線で行ってもいい？",
+        "romaji": "",
+        "translation": "Đi bằng máy bay hay tàu siêu tốc được không ba?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "う～ん、飛行機は広島空港からバスに乗り換えたりするんだぞ。大丈夫か？",
+        "romaji": "",
+        "translation": "Ừ…m, đi bằng máy bay thì từ sân bay Hiroshima con sẽ chuyển sang đi xe bu&yacute;t nữa đấy. Được không?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "乗り換えかぁ。",
+        "romaji": "",
+        "translation": "Chuyển xe ạ?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "夜行バスなら寝ている間に広島駅に着いちゃうから楽だぞ。",
+        "romaji": "",
+        "translation": "Nếu con đi chuyến xe bu&yacute;t đêm thì con sẽ đến nhà ga Hiroshima trong lúc con ngủ nên khỏe re à."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そうだね。でも、夜だから景色つまらないし。",
+        "romaji": "",
+        "translation": "Vậy hả ba, nhưng mà đêm khuya thì khung cảnh chán ngắt à."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "新幹線の「のぞみ」はどうかな。",
+        "romaji": "",
+        "translation": "Đi tàu siêu tốc Nozomi thì sao ạ?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "なら、新幹線にしなさい。",
+        "romaji": "",
+        "translation": "Nếu vậy thì con đi tàu siêu tốc đi."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "う～ん。長時間は飽きちゃうかな。",
+        "romaji": "",
+        "translation": "Hmm, đi thời gian dài chán không nhỉ."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "やっぱ、乗り換えがあっても大丈夫。",
+        "romaji": "",
+        "translation": "Vậy chuyển xe cũng được ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "ちゃんとできるから。",
+        "romaji": "",
+        "translation": "Vì con có thể làm tốt."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そうか、じゃ、そうしろ。",
+        "romaji": "",
+        "translation": "Vậy à, thế thì chọn vậy đi."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "うん。",
+        "romaji": "",
+        "translation": "Dạ."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "息子はどんな交通手段で行きますか。",
+        "romaji": "",
+        "translation": "Đứa con trai sẽ đi bằng phương tiện giao thông nào?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "息子はどんな交通手段で行きますか。 (Đứa con trai sẽ đi bằng phương tiện giao thông nào?)",
+        "options": [
+          "夜行バス (Chuyến xe bu&yacute;t đêm)",
+          "新幹線「のぞみ」 (Tàu siêu tốc Nozomi)",
+          "飛行機 (Máy bay)",
+          "飛行機とバス (Máy bay và xe bu&yacute;t)"
+        ],
+        "answerIndex": 3,
+        "explanation": "Đáp án đúng: 飛行機とバス (Máy bay và xe bu&yacute;t)"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-3-12",
+    "level": "N2",
+    "title": "N2 Bài 1 - １３番: Aさんはカードをなくしてしまいました。",
+    "description": "Bạn A làm mất thẻ.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_21.mp3",
+    "context": "Aさんはカードをなくしてしまいました。",
+    "contextVi": "Bạn A làm mất thẻ.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "Aさんは英語は話せません。",
+        "romaji": "",
+        "translation": "Bạn A không thể nói được tiếng Anh."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "口座番号は１２３４５６です。",
+        "romaji": "",
+        "translation": "Số tài khoản là 123456."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "アナウンス：お電話ありがとうございます。",
+        "romaji": "",
+        "translation": "Cảm ơn qu&yacute; khách đã điện thoại."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "こちらはイチゴ銀行でございます。",
+        "romaji": "",
+        "translation": "Đây là ngân hàng Ichigo ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "日本語をご希望の方は、※印と１を押してください。",
+        "romaji": "",
+        "translation": "Qu&yacute; khách muốn nghe tiếng Nhật, vui lòng nhấn dấu ※ và phím 1."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "英語をご希望の方は※印と２を押してください。",
+        "romaji": "",
+        "translation": "Qu&yacute; khách muốn nghe tiếng Anh, vui lòng nhấn dấu ※ và phím 2."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "メインメニューです。",
+        "romaji": "",
+        "translation": "Đây là danh mục chính."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "残高を調べたい方は１を、振り込みをご確認の方は２を、カードを無くされた方は４を押してください。",
+        "romaji": "",
+        "translation": "Qu&yacute; khách muốn kiểm tra tài khoản dư nhấn phím 1, muốn xác nhận chuyển khoản nhấn phím 2, thông báo mất thẻ nhấm phím 4."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "サービスデスクです。",
+        "romaji": "",
+        "translation": "Đây là bàn dịch vụ."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "お手元のカードの口座番号の後ろから４桁目からを押してください。",
+        "romaji": "",
+        "translation": "Vui lòng nhấn 4 con số cuối cùng trong số tài khoản thẻ trên tay qu&yacute; khách."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "係の者におつなぎいたします。",
+        "romaji": "",
+        "translation": "Chúng tôi sẽ kết nối với người phụ trách."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "しばらくお待ちください。",
+        "romaji": "",
+        "translation": "Xin qu&yacute; khách chờ giây lát."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "銀行に電話をして、カードを止めるためにはどの番号を押せばいいでしょうか。",
+        "romaji": "",
+        "translation": "Bạn ấy điện thoại đến ngân hàng, bạn ấy sẽ ấn số mấy để chặn thẻ."
+      }
+    ],
+    "questions": [
+      {
+        "question": "銀行に電話をして、カードを止めるためにはどの番号を押せばいいでしょうか。 (Bạn ấy điện thoại đến ngân hàng, bạn ấy sẽ ấn số mấy để chặn thẻ.)",
+        "options": [
+          "＠１ ４ ３４５６",
+          "※１ 4 ３４５６",
+          "※１ ２ ３４５６",
+          "＃１ ４ ３４５６"
+        ],
+        "answerIndex": 1,
+        "explanation": "Đáp án đúng: ※１ 4 ３４５６"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-3-13",
+    "level": "N2",
+    "title": "N2 Bài 1 - １４番: 女の人はどんなメモを書きましたか。",
+    "description": "Người phụ nữ viết ghi chú như thế nào?",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_22.mp3",
+    "context": "女の人はどんなメモを書きましたか。",
+    "contextVi": "Người phụ nữ viết ghi chú như thế nào?",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "ミドリ貿易の岩田でございます。",
+        "romaji": "",
+        "translation": "Tôi là Iwata bên công ty mậu dịch Midori."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "いつもお世話になっております。",
+        "romaji": "",
+        "translation": "Xin cảm ơn vì lúc nào cũng được chiếu cố ạ."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "こちらこそ、お世話になっております。",
+        "romaji": "",
+        "translation": "Chính chúng tôi mới là người nói lời cảm ơn ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "あのう、ジョンさん、いらっしゃいますか。",
+        "romaji": "",
+        "translation": "Ừ…m, anh John có đấy không?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "申し訳ございません、ジョンは、ただいま外出中ですが。",
+        "romaji": "",
+        "translation": "Xin lỗi, anh John đã đi ra ngoài rồi ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そうですか…。",
+        "romaji": "",
+        "translation": "Vậy à…"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "では、数日中に製品の見本を持って伺いたいので、ご都合のよろしい日をお教えいただきたいとお伝えくださいますか。",
+        "romaji": "",
+        "translation": "Vậy chị có thể nhắn lại dùm là vài ngày tới tôi sẽ mang sản phẩm mẫu đến, nên tôi muốn anh ấy cho tôi biết ngày nào thuận tiện cho anh ấy ạ?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "かしこまりました。申し伝えます。",
+        "romaji": "",
+        "translation": "Vâng ạ. Tôi sẽ nhắn lại."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "お願いします。",
+        "romaji": "",
+        "translation": "Làm phiền chị."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "女の人はどんなメモを書きましたか。",
+        "romaji": "",
+        "translation": "Người phụ nữ viết ghi chú như thế nào?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ｆ：はい、日本商事でございます。 (Vâng, công ty thương mại Nhật Bản đây ạ.)",
+        "options": [
+          "ミドリ貿易の岩田様が、製品の見本を御覧になるので、都合のいい日を教えてくださいとのことです。 (Anh Iwata bên công ty mậu dịch Midori sẽ cho biết ngày nào thuận tiện.)",
+          "ミドリ貿易の岩田様が、製品の見本を持っていらっしゃるので、都合のいい日を教えてくださいとのことです。 (Anh Iwata bên công ty mậu dịch Midori sẽ xem sản phẩm mẫu, nên hãy cho biết ngày nào thuận tiện.)"
+        ],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: undefined (Anh Iwata bên công ty mậu dịch Midori sẽ mang sản phẩm mẫu đến, nên hãy cho biết ngày nào thuận tiện.). ● いつもお世話になっております。 ビジネスの場で使われる、決まった挨拶。 ● かしこまりました。 ＝わかりました。承知いたしました。 ● 申し伝えます 「伝言します」の丁寧な表現"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-4-1",
+    "level": "N2",
+    "title": "N2 Bài 1 - １番: 花屋で男の人が花の注文をしています。",
+    "description": "Ở tiệm hoa, người đàn ông đang đặt hoa.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_23.mp3",
+    "context": "花屋で男の人が花の注文をしています。",
+    "contextVi": "Ở tiệm hoa, người đàn ông đang đặt hoa.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "あのう、彼女が入院したんっすよ。",
+        "romaji": "",
+        "translation": "Ừ…m, bạn gái tôi đang nhập viện."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "そんで、なんか見舞いに花なんか持ってこっかなって思うんっすけど～。",
+        "romaji": "",
+        "translation": "Vì thế, tôi định sẽ mang hoa hay thứ gì đó đến thăm."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "このバラ１本どうかな。",
+        "romaji": "",
+        "translation": "Một bông hoa hồng thì thế nào nhỉ?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "お見舞いですか。",
+        "romaji": "",
+        "translation": "Anh đi thăm bệnh à?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "お花を持って行ったらとてもお喜びだと思うんですけど、１本じゃ…。",
+        "romaji": "",
+        "translation": "Nếu anh đem hoa theo thì tôi nghĩ cô ấy sẽ rất vui, nhưng 1 bông thì…"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "こちらのアレンジメントフラワーいかがですか。",
+        "romaji": "",
+        "translation": "Anh thấy bó hoa này thế nào?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "２５００円なんですけど。",
+        "romaji": "",
+        "translation": "2500 yên thôi."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "１本じゃだめなんだぁ。",
+        "romaji": "",
+        "translation": "1 bông không được à."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "けちに思われちゃうか。",
+        "romaji": "",
+        "translation": "Vậy có bị cho là keo kiệt không?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "そしたら思いきってそのぬいぐるみつきのやつにして…。いくら？",
+        "romaji": "",
+        "translation": "Nếu vậy thì tôi lấy bó hoa có gắn thú bông đó… Bao nhiêu tiền vậy?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "これですか。これなら絶対お喜びになりますよ。",
+        "romaji": "",
+        "translation": "Cái này ạ? Nếu là cái này thì nhất định cô ấy sẽ rất vui đây."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "ぬいぐるみが残るんで。",
+        "romaji": "",
+        "translation": "Vì có gắn thú bông."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "こちらだと５０００円になります。",
+        "romaji": "",
+        "translation": "Cái này là 5000 yen."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そんなにすんの。",
+        "romaji": "",
+        "translation": "Ngần ấy tiền sao?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "高いなあ。ううんと、あれ～、花束２５００円でお作りしますって書いてある、これよくない？",
+        "romaji": "",
+        "translation": "Đắt quá. Hmm, cái kia… có viết là làm bó hoa 2500 yen, cái này không được sao?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "病院だと花びんの心配が…。",
+        "romaji": "",
+        "translation": "Nếu là bệnh viện thì sợ rằng chậu hoa sẽ…"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "さっきのもので、花だけのですと２５００円でありますけど。",
+        "romaji": "",
+        "translation": "Cái lúc nãy, nếu chỉ lấy hoa thôi là 2500 yen."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "じゃ、それってことで。",
+        "romaji": "",
+        "translation": "Vậy cho tôi cái đó."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "男の人は、どの花を買いますか。",
+        "romaji": "",
+        "translation": "Người đàn ông sẽ mua hoa nào?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "男の人はどの花を買いますか。 (Người đàn ông sẽ mua hoa nào?)",
+        "options": [],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: undefined. ● 入院したんっすよ。 ＝「入院したんですよ」 の若者の会話的なくだけた表現。 ● もってこっかなって思うんっすけど～。 ＝「持って行こうかなと思うんですけど」 の若者の会話的なくだけた表現。 ● そんなにすんの。 ＝「そんなにするのですか」 「そんなに高いのですか」 の会話的なくだけた表現。"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-4-2",
+    "level": "N2",
+    "title": "N2 Bài 1 - ２番: 女子学生が３人で話しています。",
+    "description": "Ba học sinh nữ đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_24.mp3",
+    "context": "女子学生が３人で話しています。",
+    "contextVi": "Ba học sinh nữ đang nói chuyện.",
+    "lines": [
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "ねえ、夏休みの予定決まった、温泉でも一緒にどう？",
+        "romaji": "",
+        "translation": "Này, tớ đã quyết định lịch cho kì nghỉ hè rồi, cùng đi tắm suối nước nóng được không?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "いいわね。",
+        "romaji": "",
+        "translation": "Được đó."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "でも私は休みになったらすぐ「キャンプのお姉さん」やるんだけど。",
+        "romaji": "",
+        "translation": "Nhưng mà tới kỳ nghỉ thì ngay lập tức tớ sẽ làm \"Người chị cắm trại\"."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "「キャンプのお姉さん」って？",
+        "romaji": "",
+        "translation": "\"Người chị cắm trại\" là sao?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "ああ、あのね、夏休みになると小・中学生が林間学校なんかでキャンプに行くでしょ。",
+        "romaji": "",
+        "translation": "À, ừ…m, khi nghỉ hè đến thì các bạn học sinh tiểu học, trung học sẽ đi cắm trại ở các trường cắm trại ngoài trời."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "そこでね、一緒にテントで寝泊まりして世話するの。楽しいよ。",
+        "romaji": "",
+        "translation": "Và sẽ cùng với các em ngủ trọ lại trong các túp lều, chăm sóc các em. Rất là vui."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "Ｆ３：中学校のとき、山のキャンプへ行ったけど、そういえばいた、いた、キャンプのお兄さんやお姉さんが。",
+        "romaji": "",
+        "translation": "Nhắc mới nhớ, hồi tớ học trung học, tớ đi cắm trại trên núi, cũng có các anh các chị đi cắm trại nữa."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "なんか楽しそうだね。",
+        "romaji": "",
+        "translation": "Có vẻ vui nhỉ."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "私は集中講義申し込んだんだけどさ、でも８月の７日から２週間休みになるから、その時ならいいよ。",
+        "romaji": "",
+        "translation": "Tớ đã đăng kí khóa học chuyên sâu, nhưng từ ngày 7 tháng 8 được nghỉ 2 tuần, nên nếu thời gian đó thì được."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "私は火曜日がバイトなのね、だからそこさえ外してもらえればいつでもOKだよ。",
+        "romaji": "",
+        "translation": "Tớ thì thứ ba đi làm thêm rồi, bởi vậy chỉ cần rời chỗ làm xong thì lúc nào cũng ok hết."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "２泊３日でどう。",
+        "romaji": "",
+        "translation": "3 ngày 2 đêm được không?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "問題は私か、そうだね、８月の半ば以降なら何とかなるかな。",
+        "romaji": "",
+        "translation": "Vấn đề chắc là do tớ, từ giữa tháng 8 trở đi thì chắc có lẽ không sao."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "週末は忙しくって無理だけど。",
+        "romaji": "",
+        "translation": "Cuối tuần thì bận nên không đi được."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "ね、キャンプ場の近くに温泉があるからそこに来てよ。",
+        "romaji": "",
+        "translation": "À, gần nơi cắm trại có suối nước nóng, mình đến đó đi."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "涼しくっていいところだし、それにきれいな湖があるんだ。",
+        "romaji": "",
+        "translation": "Là nơi rất mát mẻ, hồ ở lại đẹp nữa."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "そこだったら、ちょっと抜けて行けそうだから。",
+        "romaji": "",
+        "translation": "Nếu là chỗ đó thì mình có thể trốn ra một chút."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "いいよ。じゃこの日からということでいいかな、よしここに決定、この日で切符手配しとくね。",
+        "romaji": "",
+        "translation": "Được đó. Vậy thì từ ngày này được không nhỉ, vậy quyết định ở đây nhé, tớ sẽ sắp xếp vé vào ngày này."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "女子学生はいつの切符を買いますか。",
+        "romaji": "",
+        "translation": "Học sinh nữ sẽ mua vé lúc nào?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "女子学生はいつの切符を買いますか。 (Học sinh nữ sẽ mua vé lúc nào?)",
+        "options": [],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: undefined. ● 温泉でも一緒に どう？ 「どう」 は人を誘うときの会話表現。 ＝温泉でもどうですか、一緒に行きませんか。 例 「今度の日曜、暇？山に行くんだけど、一緒に どう？」 ● なんか楽しそうだね。 「なんか」 は 「なんとなく、なぜかわからないけど」 の意味で、会話を柔らかくする表現。 ＝楽しそうですね。 ● だからそこ さえ外してもらえれ ばいつでもOKだよ。 ＝だからそこだけ外してもらったら、いつでもOK です。 例 「時間 さえ あれ ば、お手伝いする んですが」 ● だからそこさえ 外してもらえればいつでもOKだよ。 ＝だからそこさえ 入れな"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-4-3",
+    "level": "N2",
+    "title": "N2 Bài 1 - ３番: 先生が学生に話しています。",
+    "description": "Thầy giáo đang nói chuyện với học sinh.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_25.mp3",
+    "context": "先生が学生に話しています。",
+    "contextVi": "Thầy giáo đang nói chuyện với học sinh.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "えー、この環境学のクラスでは、地域の環境を考えるということもあって、毎年近くの清掃活動に参加しています、ゴミ拾いなんですが。",
+        "romaji": "",
+        "translation": "Ừ…m, trong lớp học ngành môi trường này, mỗi năm các em sẽ tham gia hoạt động dọn vệ sinh các nơi lân cận, vì môi trường khu vực đó, như nhặt rác."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "で、当日は作業しやすい格好で来るように、サンダルなんか履いてこないこと。",
+        "romaji": "",
+        "translation": "Do đó, ngày hôm đó các em cố gắng không mang giầy xăng đan mà đến với trang phục dễ thao tác công việc."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "それと暑いから帽子は必ず持ってくるように。",
+        "romaji": "",
+        "translation": "Hơn nữa vì sẽ nắng nóng nên các em cố gắng mang theo nón nhé."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "先生、お昼ごはんはどうするんですか。",
+        "romaji": "",
+        "translation": "Thưa thầy, cơm trưa thì sao ạ?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "持って行きますか。",
+        "romaji": "",
+        "translation": "Tụi em mang theo chứ?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そうだね、たぶん午前中で終わると思うので、特には…。",
+        "romaji": "",
+        "translation": "Hmm, thầy nghĩ chắc là sẽ xong nội trong buổi sáng, nên chắc là…"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "しかし飲み物は忘れないように。",
+        "romaji": "",
+        "translation": "Nhưng các em đừng quên mang theo nước uống nhé."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "それからゴミを入れる袋とか軍手は市のほうが用意してくださるので…。",
+        "romaji": "",
+        "translation": "Túi đựng rác cũng như găng tay thì bên thành phố sẽ lo chuẩn bị cho các em…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "軍手って何ですか。",
+        "romaji": "",
+        "translation": "Găng tay là gì vậy ạ?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "えっ、軍手を知らないのか、手袋ですよ、作業するときの。",
+        "romaji": "",
+        "translation": "Em không biết găng tay sao, là bao tay đấy, cái dùng khi thao tác công việc."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "あっ、はい、あれか。",
+        "romaji": "",
+        "translation": "À, là cái đó hả thầy."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そのほかプリントを確認して、各自必要と思うものは持ってきなさい。",
+        "romaji": "",
+        "translation": "Ngoài ra, các em xác nhận vào phiếu thầy phát, mang theo những vật dụng mà bản thân các em cho là cần thiết."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "繰り返しますが暑さ対策だけはしっかりしておくように。",
+        "romaji": "",
+        "translation": "Thầy nhắc lại, các em chỉ cần lo cho tốt các biện pháp chống lại cái nóng nhé."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "学生は何を持っていかなければなりませんか。",
+        "romaji": "",
+        "translation": "Học sinh phải mang theo thứ gì?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "学生は何を持っていかなければなりませんか。 (Học sinh phải mang theo thứ gì?)",
+        "options": [],
+        "answerIndex": 3,
+        "explanation": "Đáp án đúng: undefined. ● 地域の環境を考える ということもあって、 ＝地球の環境を考えるという面からも、 例 「梅雨に入っている ということもあって、食品の衛生には気をつけましょう」 ● で、 ＝それで、 例 「仕事忙しいんですよ。で、昨日はほとんど寝てないんです」 ● 当日は作業しやすい 格好で来るように、 ＝当日は作業しやすい服装で来るように、 例 「入学式だから、そんな 格好で行くとみんなに笑われるよ」 ● 軍手を知らない のか、 ＝軍手を知らないのですか、 男性の言葉。 例 先生：先週習ったこと、もう忘れた のか。 学生：…。"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-4-4",
+    "level": "N2",
+    "title": "N2 Bài 1 - ４番: 美容院で、美容師と客の高校生の女の子が話しています。",
+    "description": "Tại thẩm mỹ viện, nhân viên làm đẹp và khách hàng là nữ sinh cao trung đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_26.mp3",
+    "context": "美容院で、美容師と客の高校生の女の子が話しています。",
+    "contextVi": "Tại thẩm mỹ viện, nhân viên làm đẹp và khách hàng là nữ sinh cao trung đang nói chuyện.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "あ、ずいぶん髪伸びたね。",
+        "romaji": "",
+        "translation": "À, tóc khá dài nhỉ."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "今日はどうする？",
+        "romaji": "",
+        "translation": "Hôm nay em làm kiểu nào?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "今、髪伸ばしてて長さは変えたくないんですけど…。",
+        "romaji": "",
+        "translation": "Giờ em muốn duỗi tóc mà độ dài không thay đổi…"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "じゃ、毛先をそろえる？",
+        "romaji": "",
+        "translation": "Vậy tôi cắt ngọn tóc cho gọn nhé?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "それでも、ちょっと長いと思うけどなあ。",
+        "romaji": "",
+        "translation": "Nhưng dù vậy cũng hơi dài."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "肩まで伸びてて…。",
+        "romaji": "",
+        "translation": "Duỗi đến vai đi…"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "思いっきりばっさり切ってイメチェンしたら？",
+        "romaji": "",
+        "translation": "Hay là thay đổi hình ảnh bằng cách cắt tóc ngắn nhé?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "似あうと思うよ。",
+        "romaji": "",
+        "translation": "Tôi nghĩ hợp với em."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "え～、短くするのはちょっと…。",
+        "romaji": "",
+        "translation": "Hmm, cắt ngắn thì…"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "でもぉ、３センチほどカットしてみようかな。",
+        "romaji": "",
+        "translation": "Nhưng hay là anh thử cắt ngắn chừng 3 cm coi sao."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "わかった。前髪はどうする？",
+        "romaji": "",
+        "translation": "Ừm, còn mái trước thì làm sao?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "このまま伸ばす？",
+        "romaji": "",
+        "translation": "Để nguyên như vầy nhé?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "ええ。あ、やっぱぁ、目にかからないくらいにそろえてください。",
+        "romaji": "",
+        "translation": "Dạ. À, vậy anh tỉa sao cho đừng để che mắt nha."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "OK。",
+        "romaji": "",
+        "translation": "Ok."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "女の子はどんな髪型にしてもらいますか。",
+        "romaji": "",
+        "translation": "Cô bé sẽ được làm kiểm tóc nào?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "女の子はどんな髪型にしてもらいますか。 (Cô bé sẽ được làm kiểm tóc nào?)",
+        "options": [],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: undefined. ● 髪伸ば してて 「～してて」 は 「～していて」 の会話的なくだけた表現。 ＝髪を伸ばしているので ● 思いっきりばっさり切って 程度を表す表現。ここでは髪の毛をかなり短くすること。 ＝長い髪を一度にたくさん切って 例 A：試験が終わったら、 思いっきり遊ぼう。 B：それまでがまん、がまん。 ● 思いっきり ばっさり切って 少しではなく、量などが多いことを表す。ここでは髪の毛の長さを言っている。 例 A：桜の木が枯れてしまったね。 B：そうなんだ、 ばっさり根元から切ってしまおうと思ってるんだ。 ● やっぱぁ ＝「やはり」「やっぱり」の会話的"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-4-5",
+    "level": "N2",
+    "title": "N2 Bài 1 - ５番: デパートで女の店員が男の客と話しています。",
+    "description": "Ở thương xá, nhân viên nữ đang nói chuyện với khách nam.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_27.mp3",
+    "context": "デパートで女の店員が男の客と話しています。",
+    "contextVi": "Ở thương xá, nhân viên nữ đang nói chuyện với khách nam.",
+    "lines": [
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "いらっしゃいませ。",
+        "romaji": "",
+        "translation": "Chào qu&yacute; khách."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "何かお探しですか。",
+        "romaji": "",
+        "translation": "Anh đang tìm cái gì phải không?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "あの、就活用にネクタイを買いたいんですが、わかんなくって。",
+        "romaji": "",
+        "translation": "Ừ…m, tôi muốn mua cái cà vạt để đi xin việc, mà tôi thì không biết…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうですね、一般的に皆様グレーや青の無地で、シンプルなものを選ばれますけど。",
+        "romaji": "",
+        "translation": "Dạ, nói chung thì mọi người thường chọn những loại đơn giản, loại trơn màu xanh hay màu xám."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "縞が入っているものも人気ですよ。",
+        "romaji": "",
+        "translation": "Những loại có kẻ sọc cũng rất được ưa chuộng đấy ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "縞ね。僕はこっちの横縞がいいな。",
+        "romaji": "",
+        "translation": "Kẻ sọc à. Tôi thấy cái kẻ sọc ngang này được đó."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうですね、それもすてきですけど、チェックの方がお似合いかと。",
+        "romaji": "",
+        "translation": "Ừ…m, cái đó cũng dễ thương, nhưng anh nên ướm thử xem coi có hợp không."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そう、じゃそうしようか。",
+        "romaji": "",
+        "translation": "Ừm, vậy tôi thử nhé?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "まっすぐなのと、斜めになっているのと、どちらがよろしいでしょうか。",
+        "romaji": "",
+        "translation": "Loại kẻ thẳng với loại kẻ xiên, anh thấy cái nào được?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "斜めの方がいいと思うな。",
+        "romaji": "",
+        "translation": "Tôi thấy cái kẻ xiên được hơn."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "縞の太さが違うのがかっこいいよね。",
+        "romaji": "",
+        "translation": "Độ dày của đường kẻ khác nhau cũng đẹp hơn nhỉ."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "では、それになさいますか。",
+        "romaji": "",
+        "translation": "Vậy anh sẽ chọn cái đấy phải không?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "男の人はどのネクタイを買いますか。",
+        "romaji": "",
+        "translation": "Người đàn ông sẽ mua cái cà vạt nào?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "男の人はどのネクタイを買いますか。 (Người đàn ông sẽ mua cái cà vạt nào?)",
+        "options": [],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: undefined. ● わかんなくって 「わからなくて」の会話的なくだけた表現。 ● シンプルなものを選ばれます けど 「けど」は「けれども」の省略形で文を柔らかくする表現。 ＝シンプルなものを選ばれますけれども 例 「私はそれでいいと思います けど」 ● お似合い かと 「～かと」 は 「～だと思います」 を省略した言い方。 例 A：どちらのシャツがいいでしょうか。 B：こちらのほうがよろしい かと。 ● それに なさいますか 「～なさいますか」 は 「それにしますか」 の尊敬語。"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-4-6",
+    "level": "N2",
+    "title": "N2 Bài 1 - ６番: 男の人と女の人が会議の準備について話しています。",
+    "description": "Người đàn ông và người phụ nữ đang nói chuyện về việc chuẩn bị cho cuộc họp.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_28.mp3",
+    "context": "男の人と女の人が会議の準備について話しています。",
+    "contextVi": "Người đàn ông và người phụ nữ đang nói chuyện về việc chuẩn bị cho cuộc họp.",
+    "lines": [
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "明日会議だけど、何か用意するものとかある？",
+        "romaji": "",
+        "translation": "Ngày mai có cuộc họp, anh có chuẩn bị gì chưa?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "ランチ・ミーティングだったっけ。",
+        "romaji": "",
+        "translation": "Cuộc họp buổi trưa phải không?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "じゃ、またサンドイッチでも注文するか。",
+        "romaji": "",
+        "translation": "Vậy thì tôi sẽ lại gọi bánh mì sandwich."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "飲み物はコーヒーかなんかで一緒に頼めば。",
+        "romaji": "",
+        "translation": "Thức uống thì sẽ cùng gọi cà phê hay cái gì đó."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "前回もサンドイッチだったから今回はお弁当にしたら？",
+        "romaji": "",
+        "translation": "Lần trước đã kêu bánh mì sandwich rồi, lần này kêu cơm hợp đi?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "ポットを置いて、ティーバッグやなんか、いろいろ用意して好きな飲み物を飲んでもらえば。",
+        "romaji": "",
+        "translation": "Để cái ấm rồi chuẩn bị nhiều thứ như trà túi lọc chẳng hạn, ai thích uống gì thì uống."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "だって、食べやすいじゃん。",
+        "romaji": "",
+        "translation": "Vì cái đó dễ ăn mà."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "それにポットってのもどうかと思うよ。",
+        "romaji": "",
+        "translation": "Với lại tôi thấy để cái ấm cũng sao sao ấy."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そっかな。うん、わかった。",
+        "romaji": "",
+        "translation": "Vậy hả. Ừm, tôi hiểu rồi."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "それからペットボトルの水もね。",
+        "romaji": "",
+        "translation": "Và kế đó là chuẩn bị nước uống đóng chai."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "会議室の予約は大丈夫？",
+        "romaji": "",
+        "translation": "Việc đặt phòng họp ổn chứ?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "水は用意してある。",
+        "romaji": "",
+        "translation": "Nước uống thì sẽ được chuẩn bị."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "時間は１１時半からだったよね。",
+        "romaji": "",
+        "translation": "Thời gian là từ 11 giờ rưỡi."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "女の人はどれを頼みますか。",
+        "romaji": "",
+        "translation": "Người phụ nữ sẽ nhờ làm cái nào?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "女の人はどれを頼みますか。 (Người phụ nữ sẽ nhờ làm cái nào?)",
+        "options": [],
+        "answerIndex": 1,
+        "explanation": "Đáp án đúng: undefined. ● コーヒー かなんかで 「～かなんか」 は 「たとえば、～など」 と一例をあげるときの表現。 ＝コーヒーなどで 例 A：のどがかわいたね。 B：そうだね。ジュース かなんか飲まない。 ● 食べやすいじゃん。 ＝「食べやすいじゃないですか」 の会話的なくだけた表現。 ● ポットってのも どうかと思うよ。 「どうかと思う」 は 「～にあまり賛成しない」 場合に使う表現。 ＝ポットはあまりいいとは思わない。 例 A：授業中にガムをかんでいるもの どうかと思うよ。 B：ガムをかんでいると眠くならないんだよ。"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-4-7",
+    "level": "N2",
+    "title": "N2 Bài 1 - ７番: 飲食店で男の店員が新人の店員と話しています。",
+    "description": "Tại cửa hàng ăn uống, nhân viên nam đang nói chuyện với nhân viên mới.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_29.mp3",
+    "context": "飲食店で男の店員が新人の店員と話しています。",
+    "contextVi": "Tại cửa hàng ăn uống, nhân viên nam đang nói chuyện với nhân viên mới.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "明日から店に来てもらえるんだよね。",
+        "romaji": "",
+        "translation": "Từ ngày mai, cậu sẽ đến làm tại tiệm phải không."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "ちょっと注意事項があるんだけど。",
+        "romaji": "",
+        "translation": "Tôi có chút việc muốn nhắc nhở."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "まず、店に来たら更衣室でユニフォームに着替えて。",
+        "romaji": "",
+        "translation": "Trước tiên, khi đến tiệm, cậu thay đồng phục trong phòng thay đồ nha."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "それはこっちで明日までに用意しとくよ。",
+        "romaji": "",
+        "translation": "Cái đó thì tôi sẽ chuẩn bị sẵn, chậm nhất là ngày mai."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "サイズはLって言ってたよね。",
+        "romaji": "",
+        "translation": "Cậu nói cậu size L phải không."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "制服のほかは、帽子とエプロンだね。",
+        "romaji": "",
+        "translation": "Ngoài đồng phục ra còn có nón và tạp dề nữa."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "あの、面接の時、靴をはきかえるって聞いたんですが。",
+        "romaji": "",
+        "translation": "Dạ, lúc phỏng vấn, em nghe là thay giầy ra ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そうだ、そうだ。えっと、洗い場だったよね。",
+        "romaji": "",
+        "translation": "Đúng rồi, đúng rồi. Ừ…m, đó là chỗ tắm rửa."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "洗い場は長靴だよ。",
+        "romaji": "",
+        "translation": "Chỗ tắm rửa thì phải mang ủng."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "料理担当だったら白い靴なんだけどね。",
+        "romaji": "",
+        "translation": "Nếu là người phụ trách nấu ăn thì giày màu trắng."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "あ、ごめん。洗い場は帽子必要ないね。",
+        "romaji": "",
+        "translation": "À, xin lỗi, chỗ tắm rửa thì không cần đội nón."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "それから爪は短く。",
+        "romaji": "",
+        "translation": "Và móng tay móng chân phải cắt ngắn."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "髪の毛には何もつけないで、食品ににおいがつくからね。",
+        "romaji": "",
+        "translation": "Trên tóc thì không được gắn gì hết, vì sẽ gây mùi cho thức ăn."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "靴はもう用意してあるんだっけ？",
+        "romaji": "",
+        "translation": "Giầy thì cậu sẽ chuẩn bị phải không?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "はい。",
+        "romaji": "",
+        "translation": "Dạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "じゃ、明日からよろしく。",
+        "romaji": "",
+        "translation": "Vậy từ ngày mai cậu đến nhé."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "遅れないようにね。",
+        "romaji": "",
+        "translation": "Cố gằng đừng đi trễ nha."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "はい、わかりました。",
+        "romaji": "",
+        "translation": "Dạ, em biết rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "よろしくお願いします。",
+        "romaji": "",
+        "translation": "Anh chiếu cố cho."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "新人の店員はユニフォームのほかに何を身につけますか。",
+        "romaji": "",
+        "translation": "Ngoài đồng phục ra, nhân viên mới sẽ mặc thêm thứ gì?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "新人の店員はユニフォームのほかに何を身につけますか。 (Ngoài đồng phục ra, nhân viên mới sẽ mặc thêm thứ gì?)",
+        "options": [],
+        "answerIndex": 1,
+        "explanation": "Đáp án đúng: undefined. ● ちょっと注意事項 があるんだけど。 「ちょっと～があるんだけど」は本題に入る前の言い方。 ＝少し注意事項があるのですがいいですか。 例 Ａ：あのぅ、 ちょっとお願い があるんだけど。 Ｂ：何？ ● それはこっちで明日までに しとくよ。 ＝それはこちらのほうで明日までに用意しておきますよ。 例 Ａ：送別会のプレゼントどうする。皆に聞いといて。 Ｂ：わかった、聞い とくよ。 ● そうだ、そうだ。 何か思い出したり、気がついたりしたときに使う表現。 ＝確かにそうでしたね。 例 Ａ：レポートやった。 Ｂ： そうだ、そうだ。明日が期限だったよね。 ● "
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-4-8",
+    "level": "N2",
+    "title": "N2 Bài 1 - ８番: 家で夫婦が、上司の家へ持っていくお土産について話しています。",
+    "description": "Ở nhà, hai vợ chồng đang nói chuyện về quà tặng đem đến nhà sếp.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_30.mp3",
+    "context": "家で夫婦が、上司の家へ持っていくお土産について話しています。",
+    "contextVi": "Ở nhà, hai vợ chồng đang nói chuyện về quà tặng đem đến nhà sếp.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "来週の土曜日、山本部長のお宅の新年会に「奥さんと一緒に…」って誘われたから、よろしく頼むよ。",
+        "romaji": "",
+        "translation": "Thứ bảy tuần sau, anh được mời \"Đến cùng chị nhà nhé…\" đi dự tiệc đầu năm mới tại nhà của trưởng phòng Yamamoto."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "ほかにも５、６人来るみたいだし。",
+        "romaji": "",
+        "translation": "Ngoài mình ra hình như còn có 5-6 người nữa."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "えー、ほんとう。",
+        "romaji": "",
+        "translation": "Hả, thiệt vậy sao?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "じゃ、やっぱ、なんか持ってかなきゃなんないよね…。",
+        "romaji": "",
+        "translation": "Vậy thì mình phải mang theo thứ gì đó rồi…"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そりゃそうだよ…。",
+        "romaji": "",
+        "translation": "Đúng vậy đó…"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "でも、ほかの人たちと重ならないようにしなきゃな。",
+        "romaji": "",
+        "translation": "Nhưng mình phải lựa sao cho không trùng với những người khác nữa."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "それじゃ、手作りの物で…、ケーキなんかどうかな？",
+        "romaji": "",
+        "translation": "Nếu vậy thì những thứ làm bằng tay…, mình sẽ làm bánh kem, anh thấy thế nào?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "私は、作るわよ。",
+        "romaji": "",
+        "translation": "Em sẽ làm cho."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "それもいいと思うけど…、食べ物とかは、ほかの奴らも持ってくるんじゃないかなぁ。",
+        "romaji": "",
+        "translation": "Cái đó cũng được…, nhưng anh thấy đồ ăn thì người khác chắc cũng đem theo."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "う～ん、確か…部長には娘さんと息子さんがいたな…。",
+        "romaji": "",
+        "translation": "Hmm, nếu anh nhớ không lầm thì… trưởng phòng có người con gái và người con trai."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "じゃあ、お子さんたちの物にしましょうよ。",
+        "romaji": "",
+        "translation": "Vậy thì mình sẽ chọn những món cho con của sếp đi."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そうだ。息子がサッカーに夢中になっているって、部長言ってたな。",
+        "romaji": "",
+        "translation": "Ừm, trưởng phòng có nói là cậu con trai của sếp rất say mê bóng đá."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そう、じゃ、それ系がいいんじゃない。",
+        "romaji": "",
+        "translation": "Ừm, vậy thì mấy cái liên quan đến bóng đá là được nhỉ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "じゃあさ、俺は、息子さんに買ってくるからさ。",
+        "romaji": "",
+        "translation": "Vậy anh sẽ mua cho cậu con trai."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "何かお譲さんのために考えてくれないか。",
+        "romaji": "",
+        "translation": "Em nghĩ giúp anh xem nên mua gì cho cô con gái của sếp đi."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "小学生だって。",
+        "romaji": "",
+        "translation": "Nghe nói là học sinh tiểu học."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "わかった…。じゃ、やっぱり手作りで。",
+        "romaji": "",
+        "translation": "Dạ, vậy những món làm bằng tay đi."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "私の得意の編み物でいいかあ？",
+        "romaji": "",
+        "translation": "Mấy đồ đan lát sở trường của em chắc được."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "それ、季節的にも、なかなか受けるんじゃないか。",
+        "romaji": "",
+        "translation": "Cái đó thì mùa nào anh nghĩ sẽ rất thích."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "この夫婦は何を準備しますか。",
+        "romaji": "",
+        "translation": "Vợ chồng này sẽ chuẩn bị thứ gì?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "この夫婦は何を準備しますか。 (Vợ chồng này sẽ chuẩn bị thứ gì?)",
+        "options": [],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: undefined. ● なんか持ってか なきゃなんないよね…。 「～なきゃなんない」は、「～なければならない」の会話的なくだけた言い方。 ＝何か持っていかなければならないですよね。 ● そりゃそうだよ…。 ＝それは、そうですよ。 ● ほかの人たちと 重ならないようにしなきゃな。 「～と重なる」 は、ここでは 「～と同じになる」 という意味。 例 「論文のテーマは、ほかの学生と 重ならないようにしてください」 ● 重ならないように しなきゃな。 「しなきゃ」は、「しなくてならない」 の省略形。 ＝重ならないようにしなければなりません。 ● ほかの奴ら 「奴」は「人」の"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-4-9",
+    "level": "N2",
+    "title": "N2 Bài 1 - ９番: 図書館で図書館員と女子学生が話しています。",
+    "description": "Ở thư viện, nhân viên thư viện và học sinh nữ đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_31.mp3",
+    "context": "図書館で図書館員と女子学生が話しています。",
+    "contextVi": "Ở thư viện, nhân viên thư viện và học sinh nữ đang nói chuyện.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "あ、書庫にかばんは持って入れませんよ。",
+        "romaji": "",
+        "translation": "À, không được mang cặp sách vào nơi để sách đâu."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "かばんはそこのロッカーに入れてください。",
+        "romaji": "",
+        "translation": "Vui lòng bỏ cặp sách vào tủ khóa đằng kia."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "あの、調べたいものがあるので、ノートとかいろいろいるんですが。",
+        "romaji": "",
+        "translation": "Dạ, em có cái muốn nghiên cứu, nên cần nhiều thứ như tập vở chẳng hạn ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "それに携帯も辞書機能が…。",
+        "romaji": "",
+        "translation": "Hơn nữa, điện thoại cũng có chức năng tra từ điển…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "入り口に貼ってあったでしょ。",
+        "romaji": "",
+        "translation": "Ở ngoài cửa vào có dán rồi mà."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "携帯は持ち込み禁止です。",
+        "romaji": "",
+        "translation": "Nghiêm cấm mang điện thoại vào."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "あ、それもだめですよ。",
+        "romaji": "",
+        "translation": "À, cái đó cũng không được đâu."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "えっ、だめですか。",
+        "romaji": "",
+        "translation": "Dạ? Không được sao ạ?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "図書館内で飲んだり食べたりできませんよ。",
+        "romaji": "",
+        "translation": "Không được ăn uống trong thư viện đâu."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "すみません。あ、あのボールペンは中にもありますか。",
+        "romaji": "",
+        "translation": "Xin lỗi ạ. À, bút bi kia bên trong cũng có chứ ạ?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "筆記用具は持参してください。",
+        "romaji": "",
+        "translation": "Bút viết thì vui long đem theo."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "わかりました。",
+        "romaji": "",
+        "translation": "Dạ, em biết rồi ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "女子学生は何を持って入りますか。",
+        "romaji": "",
+        "translation": "Học sinh nữ sẽ mang vào thứ gì?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "うちの車の前で、父親と息子がキャンプに持って行くものについて話しています。",
+        "romaji": "",
+        "translation": "Trước chiếc ô tô của nhà mình, ông bố và người con trai đang nói chuyện về đồ vật mang đi cắm trại."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "この後、息子は何を取ってきますか。",
+        "romaji": "",
+        "translation": "Sau đây, người con trai sẽ lấy cái gì?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "Ｍ１（父）：さあ、だいたい必要なものは全部車に積み込んだな。",
+        "romaji": "",
+        "translation": "Chà, hầu hết những thứ cần thiết đã chất toàn bộ lên xe rồi."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "忘れ物はないか。",
+        "romaji": "",
+        "translation": "Còn thứ nào để quên không?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "Ｍ２（息子）：あ～お父さん、これも持って行きたい。",
+        "romaji": "",
+        "translation": "À, bố ơi, con cũng muốn mang theo cái này."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "えー、だめだめ。",
+        "romaji": "",
+        "translation": "Không được, không được đâu."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "せっかく自然の中で遊べるのに…。",
+        "romaji": "",
+        "translation": "Hiếm có dịp chơi đùa ngoài thiên nhiên thế mà…"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "そんな、部屋の中で座ってするようなもんは…。",
+        "romaji": "",
+        "translation": "Mấy thứ có thể ngồi trong phòng có thể chơi được như thế thì…"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "じゃあ、モトクロスは？",
+        "romaji": "",
+        "translation": "Vậy thì chiếc mô tô này thì sao ạ?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "森の中で駆け回れるよ。",
+        "romaji": "",
+        "translation": "Nó có thể chạy vòng quanh trong rừng ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "う～ん、それはいいんだけど…",
+        "romaji": "",
+        "translation": "Ừ…m, cái đó thì được nhưng…"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "もう荷台に入らないんじゃないかな。無理だ。",
+        "romaji": "",
+        "translation": "Chỗ để hành l&yacute; không biết có chứa được không nữa. Không được đâu."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "えー、それじゃあね…。",
+        "romaji": "",
+        "translation": "Nếu vậy thì…"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "川が近くにあるんでしょ？",
+        "romaji": "",
+        "translation": "Ở gần đó có con sông phải không ạ?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "魚を釣って焼いて食べようよ。",
+        "romaji": "",
+        "translation": "Chúng ta câu cá rồi nướng ăn nhé."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "おおー、そりゃいいなあ。",
+        "romaji": "",
+        "translation": "Ồ, cái đó được đấy."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "やったー。じゃあ、あれも要るよね、魚焼くのに。",
+        "romaji": "",
+        "translation": "Yeah, vậy cái kia cũng cần để nướng cá đấy ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "んー、場所とるけどな、詰めれば何とかなるか。",
+        "romaji": "",
+        "translation": "Hmm, cũng tốn nhiều chỗ nhưng nếu nhồi nhét vào thì chắc cũng ổn."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "うん。",
+        "romaji": "",
+        "translation": "Dạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "じゃ、すぐ取ってきてくれるか。",
+        "romaji": "",
+        "translation": "Vậy thì con đi lấy cái đó ngay cho bố nhá."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "は～い。",
+        "romaji": "",
+        "translation": "Dạ."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "この後、息子は何と取ってきますか。",
+        "romaji": "",
+        "translation": "Sau đây, người con trai sẽ lấy cái gì?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "女子学生は何を持って入りますか。 (Học sinh nữ sẽ mang vào thứ gì?)",
+        "options": [],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: undefined. ● 入り口も貼ってあった でしょ。 「～でしょ」は「～ね」と同様に確認をする時の表現。 ＝入り口にも貼ってありましたね。 例 「昨日休んだ でしょ、これ、宿題のプリントですよ」 １０番 1 ア イ 2 イ ウ 3 ウ エ 4 ア エ"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-4-10",
+    "level": "N2",
+    "title": "N2 Bài 1 - １１番: 市民センターで男の人と女の人が話をしています。",
+    "description": "Ở trung tâm thị dân, người đàn ông và người phụ nữ đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_33.mp3",
+    "context": "市民センターで男の人と女の人が話をしています。",
+    "contextVi": "Ở trung tâm thị dân, người đàn ông và người phụ nữ đang nói chuyện.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "前回のイベント、全然人が集まらなかったんだって。",
+        "romaji": "",
+        "translation": "Sự kiện lần trước nghe nói chẳng có ai có mặt cả."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうなの。どうしてかなあ？",
+        "romaji": "",
+        "translation": "Thế hả? Sao vậy cà?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "このチラシのせいかな。",
+        "romaji": "",
+        "translation": "Chắc tại tờ bướm này nè."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "え、どれどれ。",
+        "romaji": "",
+        "translation": "Hả, đâu, cái nào đâu?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "うーん、このタイトルはわかりやすくていいね。",
+        "romaji": "",
+        "translation": "Ừ…m, cái tựa này dễ hiểu, cũng được."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "あ、でも、毎週っていうのがいけなかったんじゃないかな。",
+        "romaji": "",
+        "translation": "À, nhưng mà tuần nào cũng như vậy có lẽ là không nên."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "今度はせめて、１周おきにするとかさ。",
+        "romaji": "",
+        "translation": "Hay là lần này mình sẽ thay đổi ít nhất là mỗi tuần một lần."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "それと、費用って、材料費？",
+        "romaji": "",
+        "translation": "Còn chi phí, tiền tài liệu thì sao?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "ちょっと高い気もするけど、親子でって、考えればまあ、ね。",
+        "romaji": "",
+        "translation": "Tôi cũng cảm thấy hơi mắc, nhưng nếu nghĩ là chi phí chung của cha mẹ con cái thì cũng tàm tạm, nhỉ."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "イラストはどう？",
+        "romaji": "",
+        "translation": "Hình minh họa thì thế nào?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "シンプルでいいんじゃない。",
+        "romaji": "",
+        "translation": "Đơn giản là được rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "でかいし、カラーだし。",
+        "romaji": "",
+        "translation": "Vừa to, lại vừa màu sắc nữa."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "あ、絵の下に「内容」っていう項目を加えて、実際にどんなことをするか知らせるのはどう？",
+        "romaji": "",
+        "translation": "À, phía dưới bức tranh thêm mục \"Nội dung\", thông báo cho người ta biết thực tế mình sẽ làm gì, cậu thấy sao?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "それ、いいね。わかった。",
+        "romaji": "",
+        "translation": "Cái đó được à nha, tôi biết rồi."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "いろいろありがとう。",
+        "romaji": "",
+        "translation": "Cảm ơn nhiều."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "さっそく変えてみるね。",
+        "romaji": "",
+        "translation": "Tôi sẽ mau chóng sửa thử xem."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "女の人はチラシのどの部分を変えますか。",
+        "romaji": "",
+        "translation": "Người phụ nữ sẽ thay đổi bộ phận nào của tờ bướm?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "女の人はチラシのどの部分を変えますか。 (Người phụ nữ sẽ thay đổi bộ phận nào của tờ bướm?)",
+        "options": [],
+        "answerIndex": 0,
+        "explanation": "Đáp án đúng: undefined. ● え、 どれどれ。 ＝私が見てみます。 例 孫：おばちゃん、お花の絵を描いたよ。 祖母： どれどれ見せて。うわー、上手に描けたねえ。 ● 今度は せめて、１周おきにするとかさ。 ＝今度は少なくとも、１周おきにしたらどうですか。 例 A：さっきのセミナー、長くて疲れちゃったよ。 B：うん。３時間休みなしってきついね。 せめて、間に１０分でも休憩があったら、よかったのにね。 ● 親子 でって、考えればまあ、ね。 「～でって」 は 「～でだと」 の省略形。 ＝親子での料金だと考えれば、納得できます。 例 A：このホテルの宿泊料金、高いね。 B：そんな"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-1-4-11",
+    "level": "N2",
+    "title": "N2 Bài 1 - １２番: 父親と母親が話しています。",
+    "description": "&Ocirc;ng bố và bà mẹ đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_34.mp3",
+    "context": "父親と母親が話しています。",
+    "contextVi": "&Ocirc;ng bố và bà mẹ đang nói chuyện.",
+    "lines": [
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "ねえ、見て。",
+        "romaji": "",
+        "translation": "Này, anh nhìn nè."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "この、市からのお知らせに「もしもしホットライン」っていうのがあるんだけど。",
+        "romaji": "",
+        "translation": "Trong thông báo của thành phố này có viết \"A lô, đường dây nóng\"."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "相談無料だって。",
+        "romaji": "",
+        "translation": "Nghe đâu là trò chuyện trao đổi miễn phí."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "うちの子ども達のこと、相談してみない？",
+        "romaji": "",
+        "translation": "Hay mình thử trao đổi chuyện bạn bè của con chúng ta đi?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "どれどれ。うーん、そうだねえ。",
+        "romaji": "",
+        "translation": "Đâu, đâu nào? Ừ…m, phải rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "下の花子はクラスの友達とうまくっていないんだろう？",
+        "romaji": "",
+        "translation": "Hình như đứa em, Hanako, quan hệ không tốt với mấy đứa bạn cùng lớp thì phải?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうなの。友達の好き嫌いがあって、なかなかクラスになじめないとかって担任の先生から聞いてるの。",
+        "romaji": "",
+        "translation": "Đúng đó. Em nghe giáo viên chủ nhiệm nói rằng bạn bè thì có đứa thích, có đứa không thích, nên mãi nó vẫn chưa quen được với lớp"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そうか。",
+        "romaji": "",
+        "translation": "Vậy hả?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "でも、最近クラスに入って楽しそうだから、少し様子をみましょうかって。",
+        "romaji": "",
+        "translation": "Nhưng em nghe nói là dạo này vào lớp nó có vẻ vui nên thấy dáng vẻ được một chút."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "それより、お兄ちゃん、最近家に帰って来るとすぐ自分の部屋に入ったっきりで出て来ないでしょう？",
+        "romaji": "",
+        "translation": "Nghiêm trọng hơn là thằng anh, dạo này về đến nhà là nó ở trong phòng suốt, không ra ngoài."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "何か言うと、すぐどなるし。",
+        "romaji": "",
+        "translation": "Nói nó thì nó hét lại ngay."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "俺とは全く口を利かなくなっただろう。",
+        "romaji": "",
+        "translation": "Anh thì có lẽ tiếng nói cũng chẳng hiệu lực gì."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "反抗期なんだなあ。",
+        "romaji": "",
+        "translation": "Nó vào giai đoạn phản kháng rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そろそろ難しい年頃になってきたのかもしれないわね。",
+        "romaji": "",
+        "translation": "Có lẽ nó đã vào cái tuổi khó bảo rồi nhỉ."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "学校にちゃんと通ってるだけ、いいかなって安心はしてるんだけど。",
+        "romaji": "",
+        "translation": "Chỉ cần nó đi học chăm chỉ là em đã an tâm rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "お隣の娘さん、もう１年も学校へ行っていないんですって。",
+        "romaji": "",
+        "translation": "Con bé nhà bên cạnh nghe nói đã một năm trời nó không đến trường đấy."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "へえ、そうなんだ。",
+        "romaji": "",
+        "translation": "Hả? Thế à?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "それは大変だねえ。",
+        "romaji": "",
+        "translation": "Gay go nhỉ."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "ま、とにかく、ただなんだし、思い切って相談してみましょう。",
+        "romaji": "",
+        "translation": "Dù gì thì cũng miễn phí mà, nhất định mình sẽ thử trao đổi."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "２人はどこに電話をかけますか。",
+        "romaji": "",
+        "translation": "Hai người sẽ điện thoại đi đâu?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "２人はどこに電話をかけますか。 (Hai người sẽ điện thoại đi đâu?)",
+        "options": [],
+        "answerIndex": 3,
+        "explanation": "Đáp án đúng: undefined. ● 下の花子はクラスの友達 とうまくいっていないんだろう？ 「～とうまくいっていない」は「～との関係がよくない」 例 Ａ：最近、彼と うまくいっていないんだ。 Ｂ：そうなの？実は私も。お互い仕事が忙しくて、全然会えないんだよね。 ● クラス になじめない 「なじめない」 は 「環境や雰囲気にまだ慣れていない状態」 例 Ａ：新しい会社はどう？もう慣れた？ Ｂ：う～ん。まだ１周間だからね。新しい環境 になじめるまでしばらく時間がかかると思うな。 ● 自分の部屋に入っ たっきりで出て来ない 「～たっきり」 は 「～してから （して以来） ずっと」 ＝自"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-2-3-1",
+    "level": "N2",
+    "title": "N2 Bài 2 - １番: 男の人と女の人が話しています。",
+    "description": "Người đàn ông và người phụ nữ đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_35.mp3",
+    "context": "男の人と女の人が話しています。",
+    "contextVi": "Người đàn ông và người phụ nữ đang nói chuyện.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "男の人が始めたいものはどれですか。",
+        "romaji": "",
+        "translation": "Đâu là cái người đàn ông muốn bắt đầu?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "何？このパンフレット。",
+        "romaji": "",
+        "translation": "Gì thế? Tập sách hướng dẫn này nè."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "インターネット市民講座？",
+        "romaji": "",
+        "translation": "Khóa học thị dân qua mạng?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "ああ、これ？だれでも参加できるインターネット塾みたいなものよ。",
+        "romaji": "",
+        "translation": "À, cái này hả? Nó giống như trường học tư thục qua mạng mà ai cũng có thể tham gia cả."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "家で気軽に学べるってところがいいから始めようかなって思ってるんだ。",
+        "romaji": "",
+        "translation": "Tôi định sẽ bắt đầu học, vì nó là nơi tốt, có thể học ở nhà một cách dễ dàng."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "へぇ、そうなんだ。",
+        "romaji": "",
+        "translation": "Àh, vậy à."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "わぁ、何十種類もあるんだね。",
+        "romaji": "",
+        "translation": "&Ocirc;i, có tới hàng chục khóa học lận."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "「アロマセラピーでリラックス講座」とか「簡単な野菜作り講座」とか。",
+        "romaji": "",
+        "translation": "\"Khóa học thư giãn với aromatherapy (cách chữa bằng xoa bóp dầu thơm\" nè, \"Khóa học trồng rau đơn giản\" nè."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "「お金が貯まる投資講座」っていうのもある。",
+        "romaji": "",
+        "translation": "Cũng có \"Khóa học đầu tư tích lũy tiền\" nữa."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "で、どれをやりたいの？",
+        "romaji": "",
+        "translation": "Vậy chị muốn học cái nào?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "私はね…、これ。太郎も大きくなったし、そろそろまた働きたいって思って。",
+        "romaji": "",
+        "translation": "Tôi hả…, cái này nè. Thằng bé Taro cũng đã lớn rồi, nên tôi muốn đi làm lại."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "この先、子どもの教育費だって、ずいぶんかかるから。",
+        "romaji": "",
+        "translation": "Trước mắt, tôi tốn khá bộn tiền, nào là tiền học cho con."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "うん、そうだね。",
+        "romaji": "",
+        "translation": "Ừm, ra là vậy."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "これだとね、パソコンの技術も上達するし、なんたって、ネットで情報がもらえるから、きっとすぐに役立つと思うんだ。",
+        "romaji": "",
+        "translation": "Cái này do kĩ thuật máy tính phát triển, nói gì thì nói, cũng có thể tiếp nhận thông tin bằng internet, nên tôi nghĩ chắc chắn sẽ giúp ích được ngay."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "ねえ、あなたも何かやってみたら。",
+        "romaji": "",
+        "translation": "Này, anh cũng thử học cái gì đó xem sao."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "うん、おもしろそうだね。",
+        "romaji": "",
+        "translation": "Ừm, nghe cũng thú vị đó."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "俺だったら…、そうだなあ、これかあ。",
+        "romaji": "",
+        "translation": "Nếu là tôi thì…, đúng rồi, cái này đi."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "給料が安いから、将来のためにお金を増やす方法を習いたいよ。",
+        "romaji": "",
+        "translation": "Vì lương ít ỏi nên tôi muốn học phương pháp làm tăng số tiền cho tương lai."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "うん、がんばってね。",
+        "romaji": "",
+        "translation": "Ừm, cố gắng lên nha."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "問１ 女の人が始めるものはどれですか。",
+        "romaji": "",
+        "translation": "Đâu là cái người phụ nữ bắt đầu?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "問２ 男の人が始めたいものはどれですか。",
+        "romaji": "",
+        "translation": "Đâu là cái người đàn ông muốn bắt đầu?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "女の人が始めるのものはどれですか。 (Đâu là cái người phụ nữ bắt đầu?)",
+        "options": [],
+        "answerIndex": 0,
+        "explanation": "Đáp án đúng: undefined (Khóa học chuẩn bị tìm việc mới). ● インターネット塾 みたいなものよ。 ＝インターネット塾のようなものですよ。 例 Ａ：ｍｉｘｉってなんですか。 Ｂ：ＦａｃｅｂｏｏｋやＴｗｉｔｔｅｒ みたいなものだよ。ソーシャル・ネットワーキング・サービスの１つ。 ● 始めよう かなって思ってるんだ。 ＝始めようと思っています。 例 Ａ：実は、仕事を辞めよう かなって思ってるんだ。 Ｂ：えぇ？どうして？先月入社したばかりじゃない。 ● で、どれをやりたいの？ 「で」 は 「それで」 の省略した形。 例 Ａ：ねぇ、映画でも見ない？"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-2-4-2",
+    "level": "N2",
+    "title": "N2 Bài 2 - ２番: 男子学生と女子学生が話しています。",
+    "description": "Học sinh nam và học sinh nữ đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_36.mp3",
+    "context": "男子学生と女子学生が話しています。",
+    "contextVi": "Học sinh nam và học sinh nữ đang nói chuyện.",
+    "lines": [
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "ねえ、留学しないことにしたんだって。",
+        "romaji": "",
+        "translation": "Này, nghe nói cậu quyết định không đi du học hả?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "ああ、１年も行ってたら就職活動できないだろ、それでやめることにしたんだ。",
+        "romaji": "",
+        "translation": "À, nếu đi 1 năm thì chắc tớ không thể tìm việc làm được, vì vậy mà tớ đã quyết định từ bỏ."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "でも、留学帰りは就職に有利だって言うじゃない？",
+        "romaji": "",
+        "translation": "Nhưng chẳng phải người ta nói đi du học về thì sẽ có lợi với chuyện tìm việc làm sao?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "そうだけど、３年の夏から１年はきついよ。",
+        "romaji": "",
+        "translation": "Đúng là vậy, nhưng 1 năm kể từ hè năm thứ 3 sẽ rất căng."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "帰ってきたらみんな就職先が決まっていて、もう探せないような気がするんだ。",
+        "romaji": "",
+        "translation": "Khi tớ về thì mọi người đã có chỗ làm cả rồi, nên tớ sẽ cảm thấy dường như mình không thể tìm được nữa."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "時期が悪いよ。",
+        "romaji": "",
+        "translation": "Thời điểm không thích hợp đâu."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "うーん、そうかもね。",
+        "romaji": "",
+        "translation": "Ừ…m, có lẽ vậy."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "でも選択肢は狭くなるかも知れないけど、評価してくれる企業もあるんじゃない？",
+        "romaji": "",
+        "translation": "Có thể là lựa chọn sẽ hẹp đi nhưng cũng có những xí nghiệp đánh giá cao cho cậu chứ?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "ほかの人とは違う経験してくるんだから。",
+        "romaji": "",
+        "translation": "Bởi vì cậu có những trải nghiệm khác với người khác mà."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "異文化体験だろ。",
+        "romaji": "",
+        "translation": "Có thể là trải nghiệm sự khác nhau về văn hóa."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "でもそれってわざわざ海外に行かなくてもさ、日本にだって外国人はいっぱいいるんだし…。",
+        "romaji": "",
+        "translation": "Nhưng cái đó thì không cần cất công ra tận nước ngoài đâu, người nước ngoài ở Nhật có đầy…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "とか何とかいって、本当は１人で行けないんじゃないの。",
+        "romaji": "",
+        "translation": "Nói này nói nọ chẳng qua là thật sự cậu không thể đi một mình chứ gì."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "えっ、何言ってるんだよ、そんなんじゃないよ。",
+        "romaji": "",
+        "translation": "Cậu nói gì thế, không có chuyện đó đâu."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "男子学生はどうして留学をやめることにしましたか。",
+        "romaji": "",
+        "translation": "Học sinh nam tại sao quyết định bỏ du học?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "男子学生はどうして留学をやめることにしましたか。 (Học sinh nam tại sao quyết định bỏ du học?)",
+        "options": [],
+        "answerIndex": 0,
+        "explanation": "Đáp án đúng: undefined (Thời điểm không thích hợp để du học). ● ああ、 ＝うん、はい、 男性の言葉。 例 Ａ：悪いけど、これ運んでくれない？ Ｂ： ああ、いいよ。 ● 留学帰りは就職に有利だって 言うじゃない？ ＝留学をして、帰国した人は就職に有利だって言われていますね。 例 Ａ：えっ、１人でイギリスに行きたいって、だめです、まだ中学生じゃない。 Ｂ：「かわいい子には旅をさせろ」って 言うじゃない。 ね、お母さん、お願い。 参考 仕事帰り＝仕事の帰りに アメリカ帰り＝アメリカから帰ってきた人 ● 有利&harr;不利 ● ３年の夏"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-2-5-3",
+    "level": "N2",
+    "title": "N2 Bài 2 - ３番: 会社で女の人と男の人が話しています。",
+    "description": "Ở công ty, người phụ nữ và người đàn ông đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_37.mp3",
+    "context": "会社で女の人と男の人が話しています。",
+    "contextVi": "Ở công ty, người phụ nữ và người đàn ông đang nói chuyện.",
+    "lines": [
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "会社辞めたいんだって？どうしたの。",
+        "romaji": "",
+        "translation": "Nghe nói anh muốn nghỉ làm phải không? Sao thế?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "やっぱ向いてなかった…。",
+        "romaji": "",
+        "translation": "Tôi không thấy thích hợp…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "何言ってるの。",
+        "romaji": "",
+        "translation": "Anh nói gì thế?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "また部長に叱られたの？",
+        "romaji": "",
+        "translation": "Lại bị trưởng phòng la nữa rồi phải không?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "お客さんから何か嫌なこと言われたの？",
+        "romaji": "",
+        "translation": "Bị khách hàng nói những điều gì không thích hả?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "そりゃ、誰にだっていろいろ嫌なことってあるじゃない？",
+        "romaji": "",
+        "translation": "Ai cũng có nhiều chuyện không hài lòng hết mà."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "お客さんからのクレームなんていつもだけど、そんなんじゃないんだ。",
+        "romaji": "",
+        "translation": "Khách hàng thì lúc nào cũng than phiền cả, nhưng mà đâu phải vậy đâu."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "やりがいを感じないんだ。",
+        "romaji": "",
+        "translation": "Tôi không có cảm giác đáng để làm."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "ここ入って２年くらいでしょ？",
+        "romaji": "",
+        "translation": "Anh vào đây được khoảng 2 năm rồi phải không?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "そんな簡単に辞めるって決めるもんじゃないんじゃない？",
+        "romaji": "",
+        "translation": "Không nên quyết định nghỉ dễ dàng như vậy được."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "とにかく３年はやってみるべきね。",
+        "romaji": "",
+        "translation": "Dù sao anh cũng nên thử làm 3 năm đi."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "どうしてもほかにやりたいことがあるなら別だけど。",
+        "romaji": "",
+        "translation": "Trừ phi anh có công việc gì khác muốn làm."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "でも辞めるって言っちゃったよ。",
+        "romaji": "",
+        "translation": "Nhưng tôi đã nói rằng sẽ nghỉ làm rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "大丈夫よ。",
+        "romaji": "",
+        "translation": "Không sao đâu."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "皆そういうことあるから、部長もわかってるはず。",
+        "romaji": "",
+        "translation": "Ai cũng có lúc nói thế, trưởng phòng chắc cũng hiểu mà."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "さあ、仕事、仕事。",
+        "romaji": "",
+        "translation": "Nào làm việc thôi, làm việc thôi."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "男の人はどうして会社を辞めると言っていますか。",
+        "romaji": "",
+        "translation": "Tại sao người đàn ông nói rằng sẽ nghỉ làm?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "男の人はどうして会社を辞めると言っていますか。 (Tại sao người đàn ông nói rằng sẽ nghỉ làm?)",
+        "options": [],
+        "answerIndex": 1,
+        "explanation": "Đáp án đúng: undefined (Vì không phải công việc đáng làm). ● やっぱ 向いてなかった ＝やはり合っていなかった 例 「話の得意でない私には、営業の仕事は 向いていません」 ● 嫌なことって あるじゃない 同意を求めるときに使う表現。 例 Ａ：今日は元気ないけど、どうしたの？ Ｂ：何もやりたくない日って あるじゃない。 ● 決める もんじゃないんじゃない？ 一般に～ではないことを表す表現。 「決めるものではない」 の会話体。 例 Ａ：相手は優勝候補のチームだよ。 Ｂ：そんなに簡単に勝てる もんじゃないんじゃない？でも、勝ってほしいよね。"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-2-6-4",
+    "level": "N2",
+    "title": "N2 Bài 2 - ４番: スーパーマーケットに買い物に来た男の人と女の人が話しています...",
+    "description": "Người đàn ông và người phụ nữ đến mua sắm tại siêu thị đang nói chuyện với nhau.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_38.mp3",
+    "context": "スーパーマーケットに買い物に来た男の人と女の人が話しています。",
+    "contextVi": "Người đàn ông và người phụ nữ đến mua sắm tại siêu thị đang nói chuyện với nhau.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "あれ、レジで袋もらわなかったんだね。",
+        "romaji": "",
+        "translation": "Ủa, chị không lấy túi đựng ở quầy tính tiền hả?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "うん、これ、あるもん。",
+        "romaji": "",
+        "translation": "Ừm, tại tôi có cái này rồi."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "その派手な袋は何さ？",
+        "romaji": "",
+        "translation": "Cái túi sặc sỡ đó là gì vậy?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "あ、これ、エコバッグよ、この花柄がかわいいし、色もきれいでしょ。",
+        "romaji": "",
+        "translation": "À, cái này là túi sinh học"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "セーターを買うとショップでくれるのよ。",
+        "romaji": "",
+        "translation": "Tôi nhận ở cửa hàng khi mua áo len."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "友だちもこのエコバッグをもらうためにセーター買ったし。",
+        "romaji": "",
+        "translation": "Bạn tôi cũng đã mua áo len để được nhận túi sinh học này nữa."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "えっ、これもらうのに、あの高いブランドセーターを買うの。",
+        "romaji": "",
+        "translation": "Hả? Mua áo len hàng hiệu đắt tiền đó để nhận cái này à?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "ばかげてるんじゃない？",
+        "romaji": "",
+        "translation": "Ngớ ngẩn nhỉ."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "レジ袋だったらただのなのに。",
+        "romaji": "",
+        "translation": "Túi đựng ở quầy tính tiền miễn phí vậy mà…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "これ持ってると、ゴミを減らすエコ運動に協力している気にもなるでしょ。",
+        "romaji": "",
+        "translation": "Khi có cái này, tôi cũng cảm thấy mình đang chung tay góp sức vào cuộc vận động môi trường làm giảm rác thải."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "それに、何と言ってもデザインがいいもの。",
+        "romaji": "",
+        "translation": "Hơn nữa, nói gì thì nói, kiểu dáng nó cũng hay nữa."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "まあ、地球温暖化の防止にはいいことだろうけど。",
+        "romaji": "",
+        "translation": "Đây có lẽ là việc làm tốt để ngăn ngừa hiện tượng trái đất nóng lên."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "袋の使い捨てはエネルギーのむだ遣いだっていうしね。",
+        "romaji": "",
+        "translation": "Vì dùng một lần rồi vứt túi đựng là lãng phí năng lượng."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "女の人がスーパーマーケットのレジで袋をもらわない一番の理由は何ですか。",
+        "romaji": "",
+        "translation": "L&yacute; do hàng đầu khiến người phụ nữ không nhận túi đựng ở quầy tính tiền của siêu thị là gì?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "女の人がスーパーマーケットのレジで袋をもらわない一番の理由はなんですか。 (L&yacute; do hàng đầu khiến người phụ nữ không nhận túi đựng ở quầy tính tiền của siêu thị là gì?)",
+        "options": [],
+        "answerIndex": 1,
+        "explanation": "Đáp án đúng: undefined (Vì muốn sử dụng túi sinh học ở cửa hàng nổi tiếng). ● その派手な袋は何さ？ ＝その派手な袋は何ですか。 ● ばかげてるんじゃない？ ＝ばかばかしいですね。 例 Ａ：子ども用の薬に 「飲んだ後、運転しないでください」 って書いてあるよ。 Ｂ： ばかげた話だね。"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-2-7-5",
+    "level": "N2",
+    "title": "N2 Bài 2 - ５番: 電話で男の人が携帯ショップの人と話しています。",
+    "description": "Người đàn ông đang nói chuyện điện thoại với nhân viên cửa hàng điện thoại di động.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_39.mp3",
+    "context": "電話で男の人が携帯ショップの人と話しています。",
+    "contextVi": "Người đàn ông đang nói chuyện điện thoại với nhân viên cửa hàng điện thoại di động.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "あのー、携帯の解約したいんですが。",
+        "romaji": "",
+        "translation": "Ừ…m, tôi muốn hủy hợp đồng điện thoại di động."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "解約ですか。",
+        "romaji": "",
+        "translation": "Hủy hợp đồng?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "１年以内の解約の場合は違約金と解約手数料がかかりますが。",
+        "romaji": "",
+        "translation": "Trường hợp trong 1 năm mà qu&yacute; khách hủy hợp đồng thì sẽ mất phí hủy hợp đồng và tiền vi phạm hợp đồng ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "解約手数料って？",
+        "romaji": "",
+        "translation": "Phí hủy hợp đồng là sao?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "契約の時にご説明させていただいたと思うんですが、１年以内の解約の場合かかるというお金でして…。",
+        "romaji": "",
+        "translation": "Cái đó chúng tôi đã giải thích cho qu&yacute; khách khi kí hợp đồng rồi ạ, đó là số tiền mà qu&yacute; khách sẽ tốn nếu như trong 1 năm qu&yacute; khách hủy hợp đồng."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "え、そうだっけ。",
+        "romaji": "",
+        "translation": "À, thế hả."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "お金がかかるのか…。うーん。",
+        "romaji": "",
+        "translation": "Tốn tiền à… Hmm…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "現金でも、翌月の請求書への加算でも大丈夫ですが、現金をご希望でしたら１００００円お持ちになって…",
+        "romaji": "",
+        "translation": "Trả bằng tiền mặt cũng được, mà cộng dồn vào giấy báo thanh toán vào tháng tới cũng được, nếu qu&yacute; khách muốn trả bằng tiền mặt thì qu&yacute; khách sẽ mang 10000 yen…"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "お電話では解約できかねますのでショップの方で手続きしていただけますか。",
+        "romaji": "",
+        "translation": "Vì chúng tôi không thể hủy hợp đồng qua điện thoại, nên phiền qu&yacute; khách vui lòng làm thủ tục tại cửa hàng ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "お店に行くのはいいけど…。",
+        "romaji": "",
+        "translation": "Đến cửa hàng cũng được, nhưng mà…"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "すみません、やっぱ、やめとくわ。どうも。",
+        "romaji": "",
+        "translation": "Xin lỗi, vậy thôi, tôi không hủy nữa. Cảm ơn."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "男の人はどうして携帯の契約をやめましたか。",
+        "romaji": "",
+        "translation": "Tại sao người đàn ông thôi không hủy hợp đồng điện thoại di động nữa?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "男の人はどうして携帯の解約をやめましたか。 (Tại sao người đàn ông thôi không hủy hợp đồng điện thoại di động nữa?)",
+        "options": [],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: undefined (Vì mất phí hủy hợp đồng). ● お電話では解約 できかねます 「できかねます」 は 「～することができない」、「～するのはむずかしい」 という意味。 ＝お電話では解約できないのです。 例 「その意見には賛成 しかねます」"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-2-8-6",
+    "level": "N2",
+    "title": "N2 Bài 2 - ６番: 母親と娘が話しています。",
+    "description": "Người mẹ và con gái đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_40.mp3",
+    "context": "母親と娘が話しています。",
+    "contextVi": "Người mẹ và con gái đang nói chuyện.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "Ｆ１（母）：せっかくのお姉ちゃんの結婚式だっていうのに、本当に着物、着なくてもいいの？",
+        "romaji": "",
+        "translation": "Hiếm khi có dịp dự lễ cưới của chị con vậy mà, thiệt tình là con thấy không mặc kimono cũng được sao?"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "Ｆ２（娘）：だって、似合わなくない？",
+        "romaji": "",
+        "translation": "Mẹ không thấy nó không hợp với con sao?"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "この前買った花柄のワンピースでいいでしょ？",
+        "romaji": "",
+        "translation": "Mặc chiếc áo đầm hoa bữa trước con mua chắc được hả mẹ?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "似合わないことないわよ…。",
+        "romaji": "",
+        "translation": "Hợp với con mà…"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "あの桜と蝶々の模様、とってもいいのに…。",
+        "romaji": "",
+        "translation": "Họa tiết hoa anh đào và bươm bướm, rất là đẹp vậy mà…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "でもー、ちょっと派手だし…。",
+        "romaji": "",
+        "translation": "Nhưng mà, nó hơi sặc sỡ…"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "みんなが派手な時は、逆に地味な方が目立っていいでしょう。",
+        "romaji": "",
+        "translation": "Khi người nào cũng sặc sỡ thì ngược lại, những người ăn mặc giản dị sẽ nổi bật mà mẹ."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "だけど…、こんな時じゃないと着物なんて、なかなか着る機会がないんじゃないの？",
+        "romaji": "",
+        "translation": "Thì là vậy, … nhưng chẳng phải chỉ những lúc như thế này thì con mới có cơ hội được mặc kimono sao?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "大丈夫。成人式の時に着るから…。",
+        "romaji": "",
+        "translation": "Không sao đâu mẹ. Con sẽ mặc vào lễ thành nhân…"
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "それになんたって、帯って苦しくて…披露宴の料理が食べられなかったらいやだもん。",
+        "romaji": "",
+        "translation": "Và hơn hết là vì dây đai obi rất chặt… làm con không thể ăn trong bữa tiệc được."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "なんだ…、そういうこと。",
+        "romaji": "",
+        "translation": "Sao cơ… chuyện đó à."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "じゃ、帯はゆるめに結んであげるから。",
+        "romaji": "",
+        "translation": "Thế thì mẹ sẽ thắt dây đai nới lỏng ra cho con."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "うーん、でもやっぱり帯は…。",
+        "romaji": "",
+        "translation": "Ừ…m, nhưng con vẫn thấy dây đai nó…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "しょうがないわね…。",
+        "romaji": "",
+        "translation": "Hết cách rồi đó."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "娘が姉の結婚式に着物を着て行きたくない一番の理由は何ですか。",
+        "romaji": "",
+        "translation": "L&yacute; do hàng đầu khiến người con gái không muốn mặc kimono trong lễ cưới của chị gái là gì?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "娘が姉の結婚式に着物を着て行きたくない一番の理由は何ですか。 (L&yacute; do hàng đầu khiến người con gái không muốn mặc kimono trong lễ cưới của chị gái là gì?)",
+        "options": [],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: undefined (Vì dây đai của kimono chặt). ● 似合わ なくない？ 「～なくない？」 は、相手の意見を求める時のくだけた表現。 ＝似合わないんじゃありませんか。 ● 似合わないことないわよ…。 ＝似合いますよ。 ● 逆に地味な 方が目立って いいでしょう。 ＝（派手なみんなとは反対に）地味な方が、目立つからいい。 例 「みんなが出かける連休は、 逆に家で静かにしていた 方がいいよ」 ● なんたって、帯って苦しくて… ＝帯がきついことが、一番の理由です。 例 Ａ：この店は、本当にいいよね。 Ｂ： なんたって、安いからね。 ● 披露宴の"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-2-9-7",
+    "level": "N2",
+    "title": "N2 Bài 2 - ７番: 男の人がサービスセンターに電話をしています。",
+    "description": "Người đàn ông đang điện thoại đến trung tâm bảo dưỡng.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_41.mp3",
+    "context": "男の人がサービスセンターに電話をしています。",
+    "contextVi": "Người đàn ông đang điện thoại đến trung tâm bảo dưỡng.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "あのう、電子辞書の調子が悪くて、修理に出したいんですが。",
+        "romaji": "",
+        "translation": "Hmm, tình trạng kim từ điển của tôi không được ổn, nên tôi muốn đi sửa."
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "保証期間内でしたら無料にて修理します。",
+        "romaji": "",
+        "translation": "Nếu trong thời gian bảo hành thì chúng tôi sẽ sửa chữa miễn phí ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "状態をお書きになって、保証書のコピーをつけてお送りください。どんな状態ですか。",
+        "romaji": "",
+        "translation": "Qu&yacute; khách ghi rõ tình trạng máy, và gửi bản sao phiếu bảo hành cho chúng tôi ạ. Tình trạng thế nào ạ?"
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "落としたんですよね。",
+        "romaji": "",
+        "translation": "Tôi làm rơi nó."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "そしたら、ダメになっちゃって。",
+        "romaji": "",
+        "translation": "Thế là nó bị hư luôn."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "まだ、保証期間内だから無料かな…。",
+        "romaji": "",
+        "translation": "Vì vẫn còn trong thời gian bảo hành nên miễn phí à…"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "そうですか、その場合は保証対象外ですから、有料になります。",
+        "romaji": "",
+        "translation": "Ra là vậy, trường hợp đó nằm ngoài đối tượng bảo hành, nên sẽ tốn tiền ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "有料？そりゃ痛いな。",
+        "romaji": "",
+        "translation": "Tốn tiền hả? Vậy là gay go rồi."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "で、どのくらいでできますか。",
+        "romaji": "",
+        "translation": "Thế khoảng bao lâu thì xong?"
+      },
+      {
+        "speaker": "B",
+        "name": "女性",
+        "text": "状態にもよりますが、３週間ほどみていただければ。",
+        "romaji": "",
+        "translation": "Cũng tùy thuộc vào tình trạng máy nữa ạ, khoảng độ 3 tuần ạ."
+      },
+      {
+        "speaker": "A",
+        "name": "男性",
+        "text": "３週間か…。",
+        "romaji": "",
+        "translation": "3 tuần à…"
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "ま、それはいいけど…、ちょっと、考えてみます。ありがとう。",
+        "romaji": "",
+        "translation": "Vậy thì được…, nhưng tôi sẽ thử suy nghĩ. Cảm ơn."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "男の人はどうして電子辞書の修理をあきらめましたか。",
+        "romaji": "",
+        "translation": "Tại sao người đàn ông thôi không sửa kim từ điển nữa?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "男の人はどうして電子辞書の修理をあきらめましたか。 (Tại sao người đàn ông thôi không sửa kim từ điển nữa?)",
+        "options": [],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: undefined (Vì nằm ngoài đối tượng được bảo hành). ● 無料 にて修理します。 「にて」 は 「で」 の改まった表現。 ＝無料で修理します。 例 「お支払いは現金 にてお願い致します」 ● ダメになっちゃって。 例 「ダメになってしまって」 の会話的な表現。 ● そりゃ 痛いな。 何か困ったことがある時に使う表現。 ＝それはちょっと困るな。 例 Ａ：車をぶつけて、修理代に１０万円もかかってしまって。 Ｂ：それは 痛いね。 ● 状態に もよりますが、 ＝状態によってはできないこともあります。（ここでは）電子辞書の状態が悪け"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-3-3-1",
+    "level": "N2",
+    "title": "N2 Bài 3 - １番: 飲食店で店長が話しています。",
+    "description": "Tại cửa hàng ăn uống, chủ quán đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_42.mp3",
+    "context": "飲食店で店長が話しています。",
+    "contextVi": "Tại cửa hàng ăn uống, chủ quán đang nói chuyện.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "当店でも火を扱っていますので火の扱いには十分に気をつけてもらいたいと思ってるんですが。",
+        "romaji": "",
+        "translation": "Tiệm của chúng ta cũng dùng lửa nên rất mong mọi người cẩn trọng khi dùng lửa."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "来週防災訓練をするように消防署から指示が入りました。",
+        "romaji": "",
+        "translation": "Chúng ta nhận được chỉ thỉ của đội cứu hỏa rằng tuần sau họ sẽ tập huấn phòng chống hỏa hoạn."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "えー、当日は管轄の消防署の方が見えて消火の仕方についての実地訓練があります。",
+        "romaji": "",
+        "translation": "Hôm đó những người trong đội cứu hỏa chủ quản sẽ đến và huấn luyện tại chỗ cách thức dập lửa."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "それで今日皆さんにお願いしたいのは、消防署へ通報する人、お客様を誘導する人、消火する人などの担当をもう一度確認しておいてもらいたいということなんです。",
+        "romaji": "",
+        "translation": "Vì thế hôm nay tôi muốn mọi người xác nhận một lần nữa về việc đảm nhiệm của người thông báo cho đội cứu hỏa, người hướng dẫn cho khách hàng, và người dập lửa."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "後で掲示板にその担当者の名前を記入しますのでよろしくお願いします。",
+        "romaji": "",
+        "translation": "Sau đó tôi sẽ viết tên của những người phụ trách đó trên bảng thông báo, mong mọi người giúp đỡ."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "店長は何について確認するように言っていますか。",
+        "romaji": "",
+        "translation": "Chủ quán nói rằng sẽ xác nhận lại việc gì?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ｍ：近頃飲食店での火事が多発しています。 (Gần đây xảy ra nhiều vụ cháy ở các cửa hàng ăn uống.)",
+        "options": [],
+        "answerIndex": 3,
+        "explanation": "Đáp án đúng: undefined (Xác nhận lại việc đảm nhiệm). ● 火 の扱いには十分気をつけてもらいたい ＝火を使うときには注意をしてほしい 例 Ａ：ちょっとこのデータのパソコンに入力しておいて。 Ｂ：すみません、最新のパソコン の扱いはちょっと苦手で…。 ● 確認 しておいてもらいたい ＝確認しておいてほしい 例 Ａ：会議までに、この書類を１０部コピー しておいてもらいたいんですが。 Ｂ：はい、かしこまりました。"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-3-4-2",
+    "level": "N2",
+    "title": "N2 Bài 3 - ２番: テレビのワイドショーで司会者が芸能人の旅行について話していま...",
+    "description": "Trong chương trình truyền hình, người dẫn chương trình đang nói về chuyến du lịch của người nghệ sĩ.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_43.mp3",
+    "context": "テレビのワイドショーで司会者が芸能人の旅行について話しています。",
+    "contextVi": "Trong chương trình truyền hình, người dẫn chương trình đang nói về chuyến du lịch của người nghệ sĩ.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "出発予定時刻１５分前に登場ゲートにエイジさんが先に姿を見せ、取材陣の「婚前旅行ですか」という質問には、無言で微笑んでいました。",
+        "romaji": "",
+        "translation": "Eiji đã có mặt tại hàng ghế chờ lên máy bay, trước giờ dự định khởi hành 15 phút, trước câu hỏi của các phóng viên săn tin \"Đây có phải là chuyến du lịch trước khi cưới không?\", anh không nói gì mà chỉ mỉm cười."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "その約５分後、ユキさんが現れました。",
+        "romaji": "",
+        "translation": "Khoảng 5 phút sau, Yuki cũng xuất hiện."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "流行りの帽子をかぶってサングラスをかけ、取材陣には「家族での旅行です」と答え、ハワイでの予定を質問されると、「ゴルフを楽しみたいと思います」と笑顔で答えました。",
+        "romaji": "",
+        "translation": "Đội chiếc nón đang mốt và đeo cặp kính mát, cô đã trả lời cánh phóng viên \"Đây là chuyến du lịch cùng gia đình.\", khi được hỏi về dự định khi đến Hawaii, cô cười và trả lời \"Tôi muốn chơi golf.\""
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "司会者は、何について話していますか。",
+        "romaji": "",
+        "translation": "Người dẫn chương trình đang nói về điều gì?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ｆ：交際中の歌手のエイジさんと映画女優のユキさんが昨夜、両親や兄弟を同伴で、成田空港からハワイへ出発し、「結婚も近いのでは？」とマスコミを騒がせています。 (Tối qua nữ diễn viên Yuki và người yêu là ca sĩ Eiji đã cùng cha mẹ và anh em khởi hành từ sân bay Narita đi Hawai, đang làm xôn xao giới truyền thông rằng \"Họ sắp kết hôn?\".)",
+        "options": [],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: undefined (Chuyến du lịch trước khi cưới của đôi nghệ sĩ). ● 両親や兄弟を 同伴で 「～同伴」 は、「～と一緒に」 という意味。 ＝両親や兄弟も一緒に 例 「このクラブは、男性は女性 同伴でなければ、入れません」 ● マスコミを騒がせています。 ＝テレビや新聞で、色々なことが言われています。 例 「今回の首相の発言が マスコミを騒がせています」 ● エイジさんが先に 姿を見せ、 ＝エイジさんが先に来て、 例 「最近、山田さんが 姿を見せないけど、元気なのかな？」 ● 無言 ＝何も言わないで ● 流行りの帽子を"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-3-5-3",
+    "level": "N2",
+    "title": "N2 Bài 3 - ３番: 女の人が話しています。",
+    "description": "Người phụ nữ đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_44.mp3",
+    "context": "女の人が話しています。",
+    "contextVi": "Người phụ nữ đang nói chuyện.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "ま、交通費ぐらいはいただいてるんですが。",
+        "romaji": "",
+        "translation": "Tôi chỉ nhận tiền chi phí đi lại."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "一応、通訳の資格がないとできないんですよ。",
+        "romaji": "",
+        "translation": "Quy định là nếu như không có chứng chỉ thông dịch, sẽ không thể làm công việc này."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "もともと翻訳をやってたこともあってね。",
+        "romaji": "",
+        "translation": "Trước đây tôi đã từng làm phiên dịch."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "何か社会に役に立つことをしたいと思って、応募したんですよ。",
+        "romaji": "",
+        "translation": "Tôi muốn làm điều gì đó có ích cho xã hội, nên tôi đã đăng kí ứng tuyển."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "結構、あちこちのお国の方が見えるんでね。",
+        "romaji": "",
+        "translation": "Vì có khá nhiều người ở các quốc gia đến đó."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "説明が終わって、別れる時に「ありがとうございました。また、来ます」なんて言われると、ずっと続けなきゃって気になるんですよ。",
+        "romaji": "",
+        "translation": "Giải thích cho họ xong, đến lúc chia tay, được mọi người nói \"Xin cảm ơn. Chúng tôi sẽ ghé nữa.\" thì tôi có cảm giác mình phải tiếp tục công việc này mãi."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "ボランティアは２０代後半から７０代前半ぐらいまでで、女性が８割でしょうかね。",
+        "romaji": "",
+        "translation": "Tình nguyện viên từ độ tuổi từ 26-75, có lẽ trong đó 80% là nữ giới, tôi nghĩ thế."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "ほとんどが日本人なんですが、日本語が上手な外国の方もやってますよ。",
+        "romaji": "",
+        "translation": "Hầu hết là người Nhật, và những người nước ngoài giỏi tiếng Nhật họ cũng làm nữa."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "時間制限があるんで、なかなか説明しきれず、じっくり最後までご案内できなくて残念なときが多いんですけどね。",
+        "romaji": "",
+        "translation": "Vì thời gian có hạn nên nhiều lúc cảm thấy tiếc vì không thể giải thích hết, cũng như hướng dẫn cặn kẽ đến cùng cho họ được."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "女の人が博物館でボランティアを続けている理由は何ですか。",
+        "romaji": "",
+        "translation": "L&yacute; do người phụ nữ tiếp tục làm tình nguyện viên ở viện bảo tàng là gì?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ｆ：６８歳になるんですが、博物館でボランティアしているんです。 (Tôi đã 68 tuổi, và đang làm tình nguyện tại viện bảo tàng.)",
+        "options": [],
+        "answerIndex": 1,
+        "explanation": "Đáp án đúng: undefined (Vì muốn được mọi người nói muốn đến nữa). ● 一応、通訳の資格がないとできないんですよ、 ＝通訳が資格がないとできないということになっているんですよ、 例 「必要ないかもしれませんが、毎日、 一応、学生証は持ってきて下さい」 ● もともと翻訳をやってた ＝前から翻訳をやっていた 例 Ａ：山田君、誘ったのにまだカラオケには行かないって。 Ｂ：彼は、 もともとひとり静かにしている方が好きなんだよ。 ● 結構、あちこちのお国の方 ＝かなりいろいろな国からいらっしゃるので。 例 Ａ：昨日、動物園に初めて行かれたそ"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-3-6-4",
+    "level": "N2",
+    "title": "N2 Bài 3 - ４番: 大学の入学式で学長が話しています。",
+    "description": "Hiệu trưởng đang nói chuyện trong lễ khai giảng vào đại học.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_45.mp3",
+    "context": "大学の入学式で学長が話しています。",
+    "contextVi": "Hiệu trưởng đang nói chuyện trong lễ khai giảng vào đại học.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "当校でも留学生にとって魅力的な大学作りをめざし、英語で行う授業や、交換留学制度の推進、また留学生の生活支援策として寮を新たに建設、奨学金も充実させました。",
+        "romaji": "",
+        "translation": "Nhằm hướng tới tạo dựng một trường đại học có sức hút với các du học sinh, trường chúng ta cũng đã thực hiện các giờ học học bằng tiếng Anh, thúc đẩy chế độ trao đổi du học, xây mới k&yacute; túc xá như là cách hỗ trợ đời sống cho du học sinh, cũng như cung cấp tiền học bổng."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "その成果もあり、いまや世界２０か国から８００人もの留学生が様々な学部で学んでおります。",
+        "romaji": "",
+        "translation": "Với thành quả đó mà hiện nay có đến 800 du học sinh ở 20 quốc gia trên thế giới đang học tập tại nhiều khoa trong trường chúng ta."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "今後は留学生の募集から企業への就職指導までを、大学の教職員が一丸となって行うよう努力していきたいと思います。",
+        "romaji": "",
+        "translation": "Từ giờ tôi rất mong toàn thể giáo viên trong trường nỗ lực thực hiện từ việc tuyển du học sinh đến việc hướng dẫn các em tìm việc tại các xí nghiệp."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "学長は何について話していますか。",
+        "romaji": "",
+        "translation": "Hiệu trưởng đang nói về điều gì?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ｍ：今日社会が地球規模で発達し、それに伴い人的交流も国境を越えて盛んに行われるようになってきました。 (Ngày nay, xã hội phát triển theo quy mô toàn cầu, cùng với đó, mối giao lưu nhân loại cũng thường xuyên được thực hiện, vượt qua biên giới của một lãnh thổ.)",
+        "options": [],
+        "answerIndex": 0,
+        "explanation": "Đáp án đúng: undefined (Việc biến trở thành trường đại học có sức hút đối với du học sinh). ● 人的交流も国境 を越えて ＝人的交流も国の違いを気にせずに 例 「危険ですので、この線 を越えて向こう側に入らないようにしてください」 ● 盛んに行われるようになってきました。 ＝何度も、しばしば行われるようになってきました。 例 Ａ：最近、駅前で、居酒屋なんかが 盛んに客を勧誘してるね。 Ｂ：そうだね。やっぱり不景気でお客が少ないのかな。 ● 当校でも ＝私どものこの大学でも 例 客：あのう、北海道に行きた"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-3-7-5",
+    "level": "N2",
+    "title": "N2 Bài 3 - ５番: 男の人が話しています。",
+    "description": "Người đàn ông đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_46.mp3",
+    "context": "男の人が話しています。",
+    "contextVi": "Người đàn ông đang nói chuyện.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "弊社はアメリカの株を中心に扱っておりますアメリカの証券会社で、皆様ご存じのようにお陰さまで非常によい成績をあげております。",
+        "romaji": "",
+        "translation": "Công ty chúng tôi là công ty chứng khoán của Mỹ, chuyên về cổ phiếu của Mỹ, như mọi người đã biết, công ty chúng tôi có thành tích rất tốt."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "このたび、アメリカだけでなく、広く世界に出て、グローバルに投資をすることになりました。",
+        "romaji": "",
+        "translation": "Nhân dịp này, chúng tôi quyết định đầu tư toàn cầu, không chỉ xuất hiện ở Mỹ mà sẽ mở rộng khắp thế giới."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "私は世界の株に投資するための調査を今までよりもっと正確にするために、アジア地域の担当者として、東京に参りました。",
+        "romaji": "",
+        "translation": "Tôi đã đến Tokyo với tư cách là người đảm nhiệm khu vực châu Á, để làm cuộc điều tra về đầu tư cổ phiếu được chính xác hơn trước đây."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "よろしくご指導お願いいたします。",
+        "romaji": "",
+        "translation": "Rất mong được sự hướng dẫn của mọi người."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "男の人はどの地域の担当者ですか。",
+        "romaji": "",
+        "translation": "Người đàn ông là người đảm nhiệm khu vực nào?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ｍ：さっそくですが、弊社をご紹介させていただきます。 (Tôi xin mạn phép giới thiệu về công ty chúng tôi.)",
+        "options": [],
+        "answerIndex": 2,
+        "explanation": "Đáp án đúng: undefined (Người đảm nhiệm ở châu Á). ● 弊社 ＝「我社」、「当社」の謙遜語。 ● 弊社 &harr; 御社"
+      }
+    ]
+  },
+  {
+    "id": "n2-bai-3-8-6",
+    "level": "N2",
+    "title": "N2 Bài 3 - ６番: 教育セミナーで小学校の先生が話しています。",
+    "description": "Giáo viên tiểu học đang nói chuyện tại buổi hội thảo giáo dục.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_47.mp3",
+    "context": "教育セミナーで小学校の先生が話しています。",
+    "contextVi": "Giáo viên tiểu học đang nói chuyện tại buổi hội thảo giáo dục.",
+    "lines": [
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "食育は漢字で、「食べる」という字と「育てる」という字を書きますが、どういう意味かと言いますと、文字通り、食べ物や食事についての教育ということです。",
+        "romaji": "",
+        "translation": "Thực dục viết từ chữ \"thực\" (ăn) và chữ \"dục\" (nuôi nấng), nó có nghĩa là gì, theo nghĩa đen, nó có nghĩa là giáo dục về thức ăn, chuyện ăn uống."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "現在、私達の周りには実に様々な食べ物があふれています。",
+        "romaji": "",
+        "translation": "Hiện tại, xung quanh chúng ta, ngập tràn rất nhiều loại thực phẩm."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "しかし、それにもかかわらず、以前に比べて食生活が豊かになったとは必ずしも言えません。",
+        "romaji": "",
+        "translation": "Song, mặc dù vậy cũng không thể nói là đời sống ăn uống đã trở nên phong phú hơn so với trước kia."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "それは食べることに関心がない子どもや食欲がないと言って朝食を抜く子ども、また栄養バランスを考えずにダイエットをしたり、手軽なフャストフードばかりを欲しがったりする子どもが多いことからもわかります。",
+        "romaji": "",
+        "translation": "Chúng ta biết được điều đó do có nhiều trẻ không quan tâm đến chuyện ăn uống, trẻ bỏ ăn sáng và nói rằng không thèm ăn, trẻ ăn kiêng mà không nghĩ đến sự cân bằng về dinh dưỡng, trẻ chỉ thèm các món thức ăn nhanh tiện lợi."
+      },
+      {
+        "speaker": "A",
+        "name": "話者A",
+        "text": "食育はこのような問題に対し、食べることを通して、子ども達の健康と生活を守るための、重要な教育なのです。",
+        "romaji": "",
+        "translation": "Thông qua việc ăn uống trong vấn đề như thế này thì việc giáo dục ăn uống là việc giáo dục quan trọng nhằm duy trì sức khỏe và cuộc sống cho các em."
+      },
+      {
+        "speaker": "B",
+        "name": "話者B",
+        "text": "先生は何について話していますか。",
+        "romaji": "",
+        "translation": "Giáo viên đang nói về điều gì?"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ｆ：皆さん、食育という言葉を聞いたことがありますか。 (Mọi người đã từng nghe qua từ gọi là \"Thực  dục\" chưa ạ?)",
+        "options": [],
+        "answerIndex": 3,
+        "explanation": "Đáp án đúng: undefined (Tại sao việc giáo dục ăn uống lại cần thiết). ● 私達の周りには 実に様々な食べ物があふれています。 ＝私達の周りには本当に様々な食べ物がいっぱいあります。 例 「Ｓｋｙｐｅというものは 実に便利だ。パソコンとインターネット接続ができれば、世界中の人と話せる」 ● 以前に比べて食生活が豊かになった とは必ずしも言えません。 ＝間違いなく、以前に比べて食生活が豊かになったとは言えない。 例 Ａ：この学校の先生はみんな有名大学を出てるんだって。 Ｂ：でも、そういう先生が全員教育者としても素晴らしい とは必"
+      }
+    ]
+  }
+];

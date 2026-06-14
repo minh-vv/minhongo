@@ -1,0 +1,42 @@
+{
+  "order": 87,
+  "title": "Bài 87 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 87/92).",
+  "theoryMd": "### 1. 〜に越したことはない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V-ru / A-i / N + に越したことはない\n- **Ý nghĩa:** Nhấn mạnh rằng điều đó là tốt nhất, là giải pháp lý tưởng nhất trong các lựa chọn.\n\n#### 📝 Ví dụ minh họa\n- 早めに出発するに越したことはない。\nĐi sớm thì không gì bằng.\n\n### 2. 〜るにも〜れない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V-ru + にも + V-nai (cùng một động từ)\n- **Ý nghĩa:** Thể hiện sự bất lực, muốn thực hiện hành động nhưng hoàn cảnh hoặc cảm xúc không cho phép.\n\n#### 📝 Ví dụ minh họa\n- 忙しすぎて、休むにも休めない。\nBận quá nên muốn nghỉ cũng không nghỉ được.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 87 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 87.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜に越したことはない",
+            "back": "Ý nghĩa: Làm gì là tốt nhất, không gì bằng việc đó.\nCấu trúc: V-ru / A-i / N + に越したことはない",
+            "romaji": "ni-koshita-koto-wa-nai",
+            "example": "早めに出発するに越したことはない。\nĐi sớm thì không gì bằng.\n\n安全であるに越したことはないが、過剰な警戒は不要だ。\nAn toàn thì tốt nhất nhưng cảnh giác quá mức thì không cần.\n\n初めてなら、説明書を読んでから始めるに越したことはない。\nNếu lần đầu, tốt nhất là đọc hướng dẫn rồi hãy bắt đầu.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜るにも〜れない",
+            "back": "Ý nghĩa: Muốn làm V nhưng không thể làm được vì hoàn cảnh khách quan hoặc tâm lý.\nCấu trúc: V-ru + にも + V-nai (cùng động từ)",
+            "romaji": "ru-nimo-renai",
+            "example": "忙しすぎて、休むにも休めない。\nBận quá nên muốn nghỉ cũng không nghỉ được.\n\n電車が止まっていて、帰るにも帰れない。\nTàu dừng nên muốn về cũng không thể về.\n\n涙が出なくて、泣くにも泣けない気持ちだ。\nCảm xúc nghẹn lại, muốn khóc cũng không khóc được.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

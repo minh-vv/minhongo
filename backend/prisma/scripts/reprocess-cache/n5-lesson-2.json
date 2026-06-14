@@ -1,0 +1,167 @@
+{
+  "order": 2,
+  "title": "Bài 2 — これ・それ・あれ (Đồ vật xung quanh)",
+  "summary": "Đại từ chỉ vật, trợ từ の sở hữu, câu hỏi なんですか.",
+  "theoryMd": "### 1. これ・それ・あれ\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đại từ chỉ đồ vật.\n- Cấu trúc: (これ/それ/あれ) + は + N + です\n\n#### 📝 Ví dụ minh họa\nこれは ほん です。\nĐây là cuốn sách.\n\nそれは つくえ です。\nĐó là cái bàn.\n\n### 2. この・その・あの\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Từ chỉ định bổ nghĩa cho danh từ.\n- Cấu trúc: (この/その/あの) + N + は ... です\n\n#### 📝 Ví dụ minh họa\nこの ほんは わたしの です。\nCuốn sách này là của tôi.\n\nあの かばんは だれの ですか。\nCái cặp kia là của ai?\n\n### 3. N1 の N2\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Sở hữu cách, dùng 'の' để nối hai danh từ.\n- Cấu trúc: N1 + の + N2\n\n#### 📝 Ví dụ minh họa\nわたしの ほん\nSách của tôi.\n\nせんせいの かばん\nCái cặp của giáo viên.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 2 — Từ vựng",
+        "description": "Từ vựng bài 2: Bài 2 — これ・それ・あれ (Đồ vật xung quanh)",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "これ",
+            "back": "Cái này",
+            "romaji": "kore",
+            "example": "これは ほんです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "それ",
+            "back": "Cái đó",
+            "romaji": "sore",
+            "example": "それは なんですか。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "あれ",
+            "back": "Cái kia",
+            "romaji": "are",
+            "example": "あれは くるまです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ほん",
+            "back": "Sách",
+            "romaji": "hon",
+            "example": "これは にほんごの ほんです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ペン",
+            "back": "Bút",
+            "romaji": "pen",
+            "example": "これは ペンです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "えんぴつ",
+            "back": "Bút chì",
+            "romaji": "enpitsu",
+            "example": "えんぴつを かして ください。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "かぎ",
+            "back": "Chìa khóa",
+            "romaji": "kagi",
+            "example": "これは わたしの かぎです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "とけい",
+            "back": "Đồng hồ",
+            "romaji": "tokei",
+            "example": "あれは とけいです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "かさ",
+            "back": "Ô, dù",
+            "romaji": "kasa",
+            "example": "これは わたしの かさです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "かばん",
+            "back": "Cặp, túi",
+            "romaji": "kaban",
+            "example": "マイクさんの かばんです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "くるま",
+            "back": "Xe ô tô",
+            "romaji": "kuruma",
+            "example": "あれは ぎんこうの くるまです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "なん／なに",
+            "back": "Cái gì",
+            "romaji": "nan / nani",
+            "example": "それは なんですか。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "だれ",
+            "back": "Ai",
+            "romaji": "dare",
+            "example": "これは だれの ほんですか。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "にほんご",
+            "back": "Tiếng Nhật",
+            "romaji": "nihongo",
+            "example": "にほんごの ほんです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "そうです",
+            "back": "\"Đúng vậy\"",
+            "romaji": "sou desu",
+            "example": "はい、そうです。",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 2 — Ngữ pháp",
+        "description": "Ngữ pháp bài 2: Bài 2 — これ・それ・あれ (Đồ vật xung quanh)",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "これ・それ・あれ",
+            "back": "Ý nghĩa: Đại từ chỉ vật (Gần người nói: これ, gần người nghe: それ, xa cả hai: あれ).\nCấu trúc: これ / それ / あれ + は + N + です",
+            "romaji": "kore/sore/are",
+            "example": "これは ほん です。\nĐây là cuốn sách.\n\nそれは つくえ です。\nĐó là cái bàn.\n\nあれは とけい です。\nKia là cái đồng hồ.\n\nこれは かぎ です。\nĐây là chìa khóa.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "この・その・あの",
+            "back": "Ý nghĩa: Dùng để bổ nghĩa cho danh từ đứng ngay sau nó.\nCấu trúc: この / その / あの + N + は ... です",
+            "romaji": "kono/sono/ano",
+            "example": "この ほんは わたしの です。\nCuốn sách này là của tôi.\n\nその かばんは だれの ですか。\nCái cặp đó là của ai?\n\nあの とけいは 1000えん です。\nCái đồng hồ kia là 1000 yên.\n\nこの つくえは やまださんの です。\nCái bàn này là của anh Yamada.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N1 の N2",
+            "back": "Ý nghĩa: Sở hữu cách (N2 thuộc về N1).\nCấu trúc: N1 + の + N2",
+            "romaji": "N1 no N2",
+            "example": "わたしの ほん\nSách của tôi.\n\nせんせいの かばん\nCái cặp của giáo viên.\n\nマイクさんの じしょ\nTừ điển của Mike.\n\nだいがくの ほん\nSách của trường đại học.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

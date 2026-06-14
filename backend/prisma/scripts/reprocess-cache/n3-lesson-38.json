@@ -1,0 +1,35 @@
+{
+  "order": 38,
+  "title": "38. ～ことは～が、…",
+  "summary": "Ngữ pháp bài số 38 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～ことは〜が、…\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Tuy có... thật đấy, nhưng... (Dùng để thừa nhận một sự thật/tình trạng nào đó, nhưng sau đó đưa ra một ý kiến trái ngược hoặc lưu ý quan trọng hơn).\n- **Cấu trúc**: V-plain / A-i / A-na (な) + ことは + [lặp lại từ đó] + が\n#### 📝 Ví dụ minh họa\n- この本は読んだことは読んだが、内容はほとんど覚えていない。\n- 料理を作ることは作りますが、あまり上手ではありません。\n- このアパートは静かなことは静かだが、駅から遠くて不便だ。\n- 雨は止んだことは止んだが、道がまだ濡れている。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 38 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 38 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ことは〜が、…",
+            "back": "Ý nghĩa: Tuy có... thật đấy, nhưng... (Thừa nhận thực tế ở vế trước, nhưng vế sau mới là trọng tâm).\nCấu trúc: V-plain / A-i / A-na (な) + ことは + [từ đó lặp lại] + が",
+            "romaji": "koto wa ... ga",
+            "example": "この本は読んだことは読んだが、内容はほとんど覚えていない。\nCuốn sách này tôi đọc thì đúng là đọc rồi thật, nhưng hầu như không nhớ nội dung.\n\n料理を作ることは作りますが、あまり上手ではありません。\nNấu ăn thì tôi có nấu thật đấy, nhưng không giỏi lắm.\n\nこのアパートは静かなことは静かだが、駅から遠くて不便だ。\nCăn hộ này yên tĩnh thì yên tĩnh thật đấy, nhưng xa ga nên bất tiện.\n\n雨は止んだことは止んだが、道がまだ濡れている。\nMưa thì đúng là tạnh rồi đấy, nhưng đường vẫn còn ướt.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

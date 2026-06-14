@@ -1,0 +1,42 @@
+{
+  "order": 12,
+  "title": "Bài 12 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 12/92).",
+  "theoryMd": "### 1. 〜とも〜とも\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng khi không thể khẳng định chắc chắn về một sự việc nào đó.\n- **Cấu trúc**: V-từ điển / Adj + とも + V-từ điển / Adj + とも\n\n#### 📝 Ví dụ minh họa\n- 彼は行くとも行かないとも言わなかった。(Anh ấy không nói là sẽ đi hay không đi.)\n- この計画は成功とも失敗とも断定できない。(Không thể kết luận kế hoạch này là thành công hay thất bại.)\n\n### 2. 〜じゃあるまいし\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đâu phải là... nên đừng có... (dùng để khiển trách hoặc phủ định).\n- **Cấu trúc**: N + じゃあるまいし\n\n#### 📝 Ví dụ minh họa\n- 子どもじゃあるまいし、わがままを言うな。(Có phải trẻ con đâu, đừng nói ích kỷ thế.)\n- 日曜日じゃあるまいし、そんなに遅くまで寝ていられない。(Có phải chủ nhật đâu mà ngủ đến trưa được.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 12 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 12.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜とも〜とも",
+            "back": "Ý nghĩa: Không thể xác định rõ, không thể đưa ra kết luận.\nCấu trúc: V-từ điển / Adj + とも + V-từ điển / Adj + とも",
+            "romaji": "tomo-tomo",
+            "example": "彼は行くとも行かないとも言わなかった。\nAnh ấy không nói là sẽ đi hay không đi.\n\nこの計画は成功とも失敗とも断定できない。\nKhông thể kết luận kế hoạch này là thành công hay thất bại.\n\nそれが良いこととも悪いこととも判断がつかない。\nKhông thể phán đoán đó là việc tốt hay việc xấu.\n\n暑いとも寒いとも言えない微妙な気温だ。\nNhiệt độ này thật khó xử, không nói là nóng cũng chẳng nói là lạnh.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜じゃあるまいし",
+            "back": "Ý nghĩa: Đâu phải là... nên đừng có...\nCấu trúc: N + じゃあるまいし",
+            "romaji": "ja-arumaishi",
+            "example": "子どもじゃあるまいし、わがままを言うな。\nCó phải trẻ con đâu, đừng nói ích kỷ thế.\n\n日曜日じゃあるまいし、そんなに遅くまで寝ていられない。\nCó phải chủ nhật đâu mà ngủ đến trưa được.\n\n初対面じゃあるまいし、そんなに緊張しなくていいよ。\nĐâu phải lần đầu gặp mặt, không cần phải căng thẳng thế đâu.\n\n冬じゃあるまいし、今からそんなに厚着をするの？\nĐâu phải mùa đông, giờ này mà mặc dày thế à?",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

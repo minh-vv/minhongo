@@ -1,0 +1,35 @@
+{
+  "order": 99,
+  "title": "99. ～のようだ・～みたいだ",
+  "summary": "Ngữ pháp bài số 99 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜のようだ・〜みたいだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để so sánh sự vật A với sự vật B vì chúng có điểm tương đồng.\n- **Cấu trúc:** N + のようだ / N + みたいだ\n\n#### 📝 Ví dụ minh họa\n- 彼女はモデルのようだ。\n(Cô ấy trông giống như là một người mẫu.)\n\n- あの雲は、犬みたいな形をしていますね。\n(Đám mây kia có hình dạng giống như một chú chó nhỉ.)\n\n- 今日はまるで夏のような暑さだ。\n(Hôm nay trời nóng hệt như mùa hè vậy.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 99 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 99 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜のようだ・〜みたいだ",
+            "back": "Ý nghĩa: Giống như là (so sánh ví von hai sự vật khác nhau nhưng có nét tương đồng).\nCấu trúc: N + のようだ / N + みたいだ",
+            "romaji": "no-you-da / mitai-da",
+            "example": "彼女はモデルのようだ。\nCô ấy trông giống như là một người mẫu.\n\nあの雲は、犬みたいな形をしていますね。\nĐám mây kia có hình dạng giống như một chú chó nhỉ.\n\n今日はまるで夏のような暑さだ。\nHôm nay trời nóng hệt như mùa hè vậy.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

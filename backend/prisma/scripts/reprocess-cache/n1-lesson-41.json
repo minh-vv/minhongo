@@ -1,0 +1,42 @@
+{
+  "order": 41,
+  "title": "Bài 41 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 41/92).",
+  "theoryMd": "### 1. 〜とみると\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Ngay khi nhận thấy/đánh giá rằng có sự việc đó thì lập tức có phản ứng/hành động.\n- **Cấu trúc:** V-thể ngắn + とみると\n#### 📝 Ví dụ minh họa\n- 兄はセールとみると、大量に買い込む。\n- 子どもは先生がいないとみると、途端に騒ぎ出した。\n- 猫はドアが少し開いたとみると、さっと外へ出た。\n\n### 2. 〜かと思いきや\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Cứ tưởng là… ai ngờ lại hoàn toàn trái ngược.\n- **Cấu trúc:** V-thể ngắn (thì quá khứ/hiện tại) + かと思いきや\n#### 📝 Ví dụ minh họa\n- 雨がやんだかと思いきや、すぐまた降り出した。\n- 今日は楽かと思いきや、むしろ忙しかった。\n- 値下げかと思いきや、実は内容量が減っていた。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 41 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 41.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜とみると",
+            "back": "Ý nghĩa: Ngay khi nhận thấy/đánh giá rằng có sự việc đó thì lập tức có phản ứng/hành động.\nCấu trúc: V-thể ngắn + とみると",
+            "romaji": "to-miru-to",
+            "example": "兄はセールとみると、大量に買い込む。\nAnh tôi hễ thấy có giảm giá là mua rất nhiều.\n\n子どもは先生がいないとみると、途端に騒ぎ出した。\nBọn trẻ vừa thấy không có cô giáo là ồn ào ngay.\n\n猫はドアが少し開いたとみると、さっと外へ出た。\nCon mèo thấy cửa hé là phóng ra ngoài liền.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜かと思いきや",
+            "back": "Ý nghĩa: Cứ tưởng là… ai ngờ lại hoàn toàn trái ngược.\nCấu trúc: V-thể ngắn (thì quá khứ/hiện tại) + かと思いきや",
+            "romaji": "ka-to-omoikiya",
+            "example": "雨がやんだかと思いきや、すぐまた降り出した。\nTưởng mưa đã tạnh, ai ngờ lại đổ xuống ngay.\n\n今日は楽かと思いきや、むしろ忙しかった。\nTưởng hôm nay thảnh thơi, ai dè còn bận hơn.\n\n値下げかと思いきや、実は内容量が減っていた。\nTưởng là giảm giá, hóa ra giảm dung lượng.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

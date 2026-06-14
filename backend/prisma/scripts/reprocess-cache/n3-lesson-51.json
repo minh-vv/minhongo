@@ -1,0 +1,35 @@
+{
+  "order": 51,
+  "title": "51. でも",
+  "summary": "Ngữ pháp bài số 51 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜でも\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để đưa ra một ví dụ mang tính cực đoan hoặc tối thiểu để khẳng định điều tương tự cũng đúng với những cái khác, hoặc dùng để gợi ý một cách nhẹ nhàng.\n- **Cấu trúc:** N + でも\n\n#### 📝 Ví dụ minh họa\n- 子供でもそれくらいは知っている。 (Ngay cả trẻ con cũng biết điều đó.)\n- 温かいお茶でも飲みませんか。 (Chúng ta uống chút trà nóng hay gì đó nhé?)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 51 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 51 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜でも",
+            "back": "Ý nghĩa: Ngay cả, thậm chí (đưa ra ví dụ cực đoan); hoặc (đưa ra gợi ý nhẹ nhàng).\nCấu trúc: N + でも",
+            "romaji": "demo",
+            "example": "子供でもそれくらいは知っている。\nNgay cả trẻ con cũng biết điều đó.\n\n温かいお茶でも飲みませんか。\nChúng ta uống chút trà nóng hay gì đó nhé?\n\nこの問題は小学生でも解ける。\nBài toán này ngay cả học sinh tiểu học cũng giải được.\n\n疲れたからコーヒーでも飲もう。\nVì mệt rồi nên uống chút cà phê hay gì đó đi.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

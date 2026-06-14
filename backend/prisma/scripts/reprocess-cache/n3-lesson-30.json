@@ -1,0 +1,35 @@
+{
+  "order": 30,
+  "title": "30. ～と言われている",
+  "summary": "Ngữ pháp bài số 30 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～と言われている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \"Người ta nói rằng...\", \"Được cho là...\". Dùng khi muốn nói về một tin đồn, quan điểm hoặc sự thật mà đại đa số mọi người đều thừa nhận.\n- **Cấu trúc:** \n  - Thể thông thường (普通形) + と言われている\n\n#### 📝 Ví dụ minh họa\n- 納豆は体にいいと言われている。\n(Đậu nành lên men (natto) được cho là tốt cho sức khỏe.)\n\n- 富士山は世界遺産だと言われている。\n(Núi Phú Sĩ được công nhận là di sản thế giới.)\n\n- この地域には昔、大きな湖があったと言われている。\n(Người ta nói rằng ngày xưa ở khu vực này có một cái hồ lớn.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 30 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 30 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "～と言われている",
+            "back": "Ý nghĩa: \"Người ta nói rằng ~\", \"được cho là ~\". Dùng để truyền đạt một nhận định hoặc sự thật được xã hội công nhận rộng rãi.\nCấu trúc: 普通形 + と言われている",
+            "romaji": "to-iwarete-iru",
+            "example": "納豆は体にいいと言われている。\nĐậu nành lên men (natto) được cho là tốt cho sức khỏe.\n\n富士山は世界遺産だと言われている。\nNúi Phú Sĩ được công nhận là di sản thế giới.\n\nこの地域には昔、大きな湖があったと言われている。\nNgười ta nói rằng ngày xưa ở khu vực này có một cái hồ lớn.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "order": 10,
+  "title": "Bài 35 — Từ vựng JLPT N4 (Phần 10)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 10/25.",
+  "theoryMd": "### 1. 原因\n#### 💡 Cấu trúc & Ý nghĩa\nChỉ nguyên nhân của một kết quả.\nCông thức: 事実 + の原因は + 名詞/こと.\n\n#### 📝 Ví dụ minh họa\n火事の原因はタバコです。\nNguyên nhân vụ hỏa hoạn là thuốc lá.\n\n### 2. 代わり\n#### 💡 Cấu trúc & Ý nghĩa\nThay thế cho vật hoặc người khác.\nCông thức: A の 代わりに B.\n\n#### 📝 Ví dụ minh họa\nコーヒーの代わりに、紅茶を飲みます。\nTôi uống trà thay cho cà phê.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 35 — Từ vựng",
+        "description": "Từ vựng bài số 35 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "値段",
+            "back": "giá cả",
+            "romaji": "ねだん",
+            "example": "値段（ねだん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "将来",
+            "back": "tương lai",
+            "romaji": "しょうらい",
+            "example": "将来（しょうらい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "優しい",
+            "back": "hiền lành, tốt bụng",
+            "romaji": "やさしい",
+            "example": "優しい（やさしい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "致す",
+            "back": "làm (khiêm tốn)",
+            "romaji": "いたす",
+            "example": "致す（いたす）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "空気",
+            "back": "không khí",
+            "romaji": "くうき",
+            "example": "空気（くうき）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "逃げる",
+            "back": "chạy trốn, thoát thân",
+            "romaji": "にげる",
+            "example": "逃げる（にげる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "役に立つ",
+            "back": "có ích, hữu dụng",
+            "romaji": "やくにたつ",
+            "example": "役に立つ（やくにたつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "機会",
+            "back": "cơ hội",
+            "romaji": "きかい",
+            "example": "機会（きかい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "予約",
+            "back": "đặt trước, hẹn trước",
+            "romaji": "よやく",
+            "example": "予約（よやく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "原因",
+            "back": "nguyên nhân",
+            "romaji": "げんいん",
+            "example": "原因（げんいん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "火事",
+            "back": "hỏa hoạn, cháy",
+            "romaji": "かじ",
+            "example": "火事（かじ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "泥棒",
+            "back": "kẻ trộm",
+            "romaji": "どろぼう",
+            "example": "泥棒（どろぼう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "髪",
+            "back": "tóc",
+            "romaji": "かみ",
+            "example": "髪（かみ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "行う",
+            "back": "tiến hành, thực hiện",
+            "romaji": "おこなう",
+            "example": "行う（おこなう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "代わり",
+            "back": "thay thế, sự thay thế",
+            "romaji": "かわり",
+            "example": "代わり（かわり）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "見つかる",
+            "back": "được tìm thấy, được phát hiện",
+            "romaji": "みつかる",
+            "example": "見つかる（みつかる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "打つ",
+            "back": "đánh, đấm, gõ",
+            "romaji": "うつ",
+            "example": "打つ（うつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "厳しい",
+            "back": "nghiêm khắc, khắt khe",
+            "romaji": "きびしい",
+            "example": "厳しい（きびしい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "増える",
+            "back": "tăng lên, gia tăng",
+            "romaji": "ふえる",
+            "example": "増える（ふえる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "迎える",
+            "back": "đón tiếp, chào đón",
+            "romaji": "むかえる",
+            "example": "迎える（むかえる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "怖い",
+            "back": "đáng sợ, đáng sợ hãi",
+            "romaji": "こわい",
+            "example": "怖い（こわい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "社長",
+            "back": "giám đốc công ty, chủ tịch",
+            "romaji": "しゃちょう",
+            "example": "社長（しゃちょう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "紹介",
+            "back": "giới thiệu",
+            "romaji": "しょうかい",
+            "example": "紹介（しょうかい）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 10 — Ngữ pháp",
+        "description": "Ngữ pháp bài 10: Bài 35 — Từ vựng JLPT N4 (Phần 10)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "原因",
+            "back": "Ý nghĩa: Nguyên nhân của sự việc nào đó.\nCấu trúc: Sự việc の 原因 は N です。",
+            "romaji": "gen-in",
+            "example": "火事の原因はタバコです。\nNguyên nhân vụ hỏa hoạn là thuốc lá.\n\n事故の原因はスピードの出しすぎです。\nNguyên nhân tai nạn là do chạy quá tốc độ.\n\n失敗の原因を考えてください。\nHãy suy nghĩ về nguyên nhân của thất bại.\n\n病気の原因はストレスかもしれません。\nNguyên nhân bệnh có lẽ là do stress.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "代わり",
+            "back": "Ý nghĩa: Thay thế, thay cho ai hoặc cái gì.\nCấu trúc: A の 代わりに B (Thay vì A thì làm B)",
+            "romaji": "kawari",
+            "example": "今日は仕事の代わりに、病院へ行きます。\nHôm nay thay vì đi làm, tôi đi bệnh viện.\n\nコーヒーの代わりに、紅茶を飲みます。\nTôi uống trà thay cho cà phê.\n\n母の代わりに料理を作ります。\nTôi nấu ăn thay cho mẹ.\n\n休みの代わりに明日働きます。\nTôi sẽ làm việc ngày mai thay cho ngày nghỉ.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "致す",
+            "back": "Ý nghĩa: Khiêm nhường ngữ của \"làm\" (する).\nCấu trúc: N + を致します",
+            "romaji": "itasu",
+            "example": "予約をいたします。\nTôi xin phép được đặt chỗ.\n\n私が案内いたします。\nTôi xin phép được hướng dẫn.\n\n後ほど連絡いたします。\nTôi sẽ liên lạc lại sau.\n\n精一杯努力いたします。\nTôi sẽ cố gắng hết sức mình.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

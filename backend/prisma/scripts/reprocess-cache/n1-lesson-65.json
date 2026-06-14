@@ -1,0 +1,42 @@
+{
+  "order": 65,
+  "title": "Bài 65 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 65/92).",
+  "theoryMd": "### 1. 〜なら〜なりに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N1 + なら + N1 + なりに\n- **Ý nghĩa:** Diễn tả ý nghĩa: 'ứng với cái đó thì có mức độ/cách thức tương ứng'.\n\n#### 📝 Ví dụ minh họa\n- 子どもなら子どもなりに考えている。(Nếu là trẻ con thì chúng cũng suy nghĩ theo cách của trẻ con.)\n- 安いなら安いなりに使い道がある。(Nếu rẻ thì theo mức rẻ đó vẫn có cách dùng.)\n- 専門家なら専門家なりの意見があるはずだ。(Nếu là chuyên gia thì phải có ý kiến tương xứng với chuyên gia.)\n\n### 2. 〜のごとき\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N + の + ごとき + N\n- **Ý nghĩa:** Dùng để so sánh sự vật, sự việc giống như cái gì đó. Đây là cách diễn đạt văn viết trang trọng, cổ điển.\n\n#### 📝 Ví dụ minh họa\n- 彼は鬼のごとき形相で怒鳴った。(Anh ta gầm lên với gương mặt như quỷ.)\n- 夢のごとき一夜だった。(Đó là một đêm như mơ.)\n- 太陽のごとき明るい笑顔。(Nụ cười rạng rỡ như ánh mặt trời.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 65 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 65.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜なら〜なりに",
+            "back": "Ý nghĩa: Tương xứng với, theo cách phù hợp với.\nCấu trúc: N1 + なら + N1 + なりに",
+            "romaji": "nara-nari-ni",
+            "example": "子どもなら子どもなりに考えている。\nNếu là trẻ con thì chúng cũng suy nghĩ theo cách của trẻ con.\n\n安いなら安いなりに使い道がある。\nNếu rẻ thì theo mức rẻ đó vẫn có cách dùng.\n\n専門家なら専門家なりの意見があるはずだ。\nNếu là chuyên gia thì phải có ý kiến tương xứng với chuyên gia.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜のごとき",
+            "back": "Ý nghĩa: Giống như, cứ như là (cách nói văn viết, cổ điển).\nCấu trúc: N + の + ごとき + N",
+            "romaji": "no-gotoki",
+            "example": "彼は鬼のごとき形相で怒鳴った。\nAnh ta gầm lên với gương mặt như quỷ.\n\n夢のごとき一夜だった。\nĐó là một đêm như mơ.\n\n太陽のごとき明るい笑顔。\nNụ cười rạng rỡ như ánh mặt trời.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

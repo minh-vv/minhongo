@@ -1,0 +1,286 @@
+{
+  "order": 9,
+  "title": "Bài 9 — Danh từ + があります/います",
+  "summary": "Diễn đạt \"có/tồn tại\" cho vật và người, vị trí với に.",
+  "theoryMd": "### Bài 9: Sự tồn tại của sự vật\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **N が あります**: Dùng cho vật vô tri, cây cối.\n- **N が います**: Dùng cho người và động vật.\n- Vị trí thường được xác định bởi: [Địa điểm] に [Vật/Người] が あります/います.\n\n#### 📝 Ví dụ minh họa\n- つくえの うえに 本が あります。(Trên bàn có quyển sách)\n- 教室に 学生が います。(Trong lớp học có học sinh)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 9 — Từ vựng",
+        "description": "Từ vựng bài 9: Bài 9 — Danh từ + があります/います",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "歯",
+            "back": "răng",
+            "romaji": "は",
+            "example": "歯（は）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "作文",
+            "back": "bài văn",
+            "romaji": "さくぶん",
+            "example": "作文（さくぶん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "紅茶",
+            "back": "hồng trà",
+            "romaji": "こうちゃ",
+            "example": "紅茶（こうちゃ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "家庭",
+            "back": "gia đình",
+            "romaji": "かてい",
+            "example": "家庭（かてい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "野菜",
+            "back": "rau",
+            "romaji": "やさい",
+            "example": "野菜（やさい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "風呂",
+            "back": "bồn tắm",
+            "romaji": "ふろ",
+            "example": "風呂（ふろ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "玄関",
+            "back": "lối vào",
+            "romaji": "げんかん",
+            "example": "玄関（げんかん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "地下鉄",
+            "back": "tàu điện ngầm",
+            "romaji": "ちかてつ",
+            "example": "地下鉄（ちかてつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "鼻",
+            "back": "mũi",
+            "romaji": "はな",
+            "example": "鼻（はな）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "緑",
+            "back": "xanh lá cây",
+            "romaji": "みどり",
+            "example": "緑（みどり）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "昼",
+            "back": "trưa",
+            "romaji": "ひる",
+            "example": "昼（ひる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "西",
+            "back": "phía Tây",
+            "romaji": "にし",
+            "example": "西（にし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "白",
+            "back": "trắng",
+            "romaji": "しろ",
+            "example": "白（しろ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "洗濯",
+            "back": "giặt giũ",
+            "romaji": "せんたく",
+            "example": "洗濯（せんたく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "冷蔵庫",
+            "back": "tủ lạnh",
+            "romaji": "れいぞうこ",
+            "example": "冷蔵庫（れいぞうこ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "火曜日",
+            "back": "thứ Ba",
+            "romaji": "かようび",
+            "example": "火曜日（かようび）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "南",
+            "back": "phía Nam",
+            "romaji": "みなみ",
+            "example": "南（みなみ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "北",
+            "back": "phía Bắc",
+            "romaji": "きた",
+            "example": "北（きた）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "茶色",
+            "back": "nâu",
+            "romaji": "ちゃいろ",
+            "example": "茶色（ちゃいろ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "喫茶店",
+            "back": "quán cà phê",
+            "romaji": "きっさてん",
+            "example": "喫茶店（きっさてん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "黒",
+            "back": "đen",
+            "romaji": "くろ",
+            "example": "黒（くろ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "青",
+            "back": "xanh dương",
+            "romaji": "あお",
+            "example": "青（あお）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "靴下",
+            "back": "tất",
+            "romaji": "くつした",
+            "example": "靴下（くつした）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "封筒",
+            "back": "phong bì",
+            "romaji": "ふうとう",
+            "example": "封筒（ふうとう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "辺",
+            "back": "khu vực",
+            "romaji": "へん",
+            "example": "辺（へん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "黄色",
+            "back": "vàng",
+            "romaji": "きいろ",
+            "example": "黄色（きいろ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "映画館",
+            "back": "rạp chiếu phim",
+            "romaji": "えいがかん",
+            "example": "映画館（えいがかん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "箸",
+            "back": "đũa",
+            "romaji": "はし",
+            "example": "箸（はし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "食堂",
+            "back": "nhà ăn",
+            "romaji": "しょくどう",
+            "example": "食堂（しょくどう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "牛肉",
+            "back": "thịt bò",
+            "romaji": "ぎゅうにく",
+            "example": "牛肉（ぎゅうにく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "交差点",
+            "back": "ngã tư",
+            "romaji": "こうさてん",
+            "example": "交差点（こうさてん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "曇り",
+            "back": "trời nhiều mây",
+            "romaji": "くもり",
+            "example": "曇り（くもり）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "漢字",
+            "back": "chữ Hán",
+            "romaji": "かんじ",
+            "example": "漢字（かんじ）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 9 — Ngữ pháp",
+        "description": "Ngữ pháp bài 9: Bài 9 — Danh từ + があります/います",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "N が あります",
+            "back": "Ý nghĩa: Diễn tả sự tồn tại của đồ vật, sự vật vô tri.\nCấu trúc: N(vật) + が + あります",
+            "romaji": "n-ga-arimasu",
+            "example": "つくえの うえに 本が あります。\nTrên bàn có quyển sách.\n\n冷蔵庫に 野菜が あります。\nTrong tủ lạnh có rau.\n\n部屋に 机が あります。\nTrong phòng có cái bàn.\n\n公園に 木が あります。\nTrong công viên có cái cây.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N が います",
+            "back": "Ý nghĩa: Diễn tả sự tồn tại của người hoặc động vật.\nCấu trúc: N(người/đv) + が + います",
+            "romaji": "n-ga-imasu",
+            "example": "教室に 学生が います。\nTrong lớp học có học sinh.\n\nあそこに 猫が います。\nỞ đằng kia có con mèo.\n\n庭に 犬が います。\nTrong sân có con chó.\n\n部屋に 誰が いますか。\nTrong phòng có ai vậy?",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

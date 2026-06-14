@@ -1,0 +1,42 @@
+{
+  "order": 67,
+  "title": "Bài 67 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 67/92).",
+  "theoryMd": "### 1. 〜のいかんにかかわらず\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Bất kể kết quả hay lý do như thế nào, việc đó vẫn xảy ra.\n- **Cấu trúc**: N(kết quả/lý do) + のいかんにかかわらず\n\n#### 📝 Ví dụ minh họa\n- 経験のいかんにかかわらず、やる気のある方を募集します。(Tuyển người có động lực, bất kể kinh nghiệm.)\n- 理由のいかんにかかわらず、締め切り後の申請は受け付けません。(Sau hạn chót, hồ sơ sẽ không được nhận, bất kể lý do.)\n\n### 2. 〜のいかんでは\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Tùy thuộc vào kết quả/mức độ của việc gì đó mà dẫn đến quyết định khác.\n- **Cấu trúc**: N(kết quả/nội dung) + のいかんでは\n\n#### 📝 Ví dụ minh họa\n- 試験の結果のいかんでは、補講を受けていただく場合があります。(Tùy vào kết quả kỳ thi, có trường hợp bạn sẽ phải học bù.)\n- 天候のいかんでは、イベントを屋内に切り替えます。(Tùy vào thời tiết, sự kiện sẽ chuyển vào trong nhà.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 67 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 67.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜のいかんにかかわらず",
+            "back": "Ý nghĩa: Không phụ thuộc vào, không màng đến yếu tố nào đó.\nCấu trúc: N(kết quả/lý do) + のいかんにかかわらず",
+            "romaji": "no-ikan-ni-kakawarazu",
+            "example": "天候のいかんにかかわらず、大会は決行します。\nBất kể thời tiết ra sao, giải đấu vẫn tiến hành.\n\n経験のいかんにかかわらず、やる気のある方を募集します。\nTuyển người có động lực, bất kể kinh nghiệm.\n\n理由のいかんにかかわらず、締め切り後の申請は受け付けません。\nSau hạn chót, hồ sơ sẽ không được nhận, bất kể lý do.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜のいかんでは",
+            "back": "Ý nghĩa: Tùy thuộc vào kết quả của việc gì đó mà có quyết định khác nhau.\nCấu trúc: N(kết quả/nội dung) + のいかんでは",
+            "romaji": "no-ikan-dewa",
+            "example": "試験の結果のいかんでは、補講を受けていただく場合があります。\nTùy vào kết quả kỳ thi, có trường hợp bạn sẽ phải học bù.\n\n交渉の進展のいかんでは、提携を見送ることも検討する。\nTùy mức độ tiến triển của đàm phán, cũng sẽ cân nhắc hoãn hợp tác.\n\n天候のいかんでは、イベントを屋内に切り替えます。\nTùy vào thời tiết, sự kiện sẽ chuyển vào trong nhà.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

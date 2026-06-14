@@ -1,0 +1,42 @@
+{
+  "order": 47,
+  "title": "Bài 47 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 47/92).",
+  "theoryMd": "### 1. 〜に即して\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + に即して\n- Ý nghĩa: Dựa trên cơ sở, căn cứ vào các thực tế, dữ liệu hoặc quy tắc để thực hiện hành động, quyết định.\n\n#### 📝 Ví dụ minh họa\n- 実情に即して判断してください。(Hãy phán đoán theo thực trạng.)\n- 現実に即して議論を進めるべきだ。(Nên tiến hành thảo luận dựa theo thực tế.)\n\n### 2. 〜と相まって\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + と相まって\n- Ý nghĩa: Biểu thị sự tác động cộng hưởng của hai hay nhiều yếu tố, tạo ra một kết quả mạnh mẽ hơn.\n\n#### 📝 Ví dụ minh họa\n- 好天と相まって、売り上げが大きく伸びた。(Kết hợp với thời tiết đẹp, doanh số tăng mạnh.)\n- 円安と相まって、海外からの観光客が増加している。(Cộng với đồng yên yếu, khách du lịch nước ngoài đang tăng.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 47 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 47.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜に即して",
+            "back": "Ý nghĩa: Dựa theo, căn cứ vào (thực trạng, dữ liệu, quy tắc...)\nCấu trúc: N + に即して",
+            "romaji": "ni-sokushite",
+            "example": "実情に即して判断してください。\nHãy phán đoán theo thực trạng.\n\n現実に即して議論を進めるべきだ。\nNên tiến hành thảo luận dựa theo thực tế.\n\nデータに即して説明していただけますか。\nAnh/chị có thể giải thích dựa theo dữ liệu được không?",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜と相まって",
+            "back": "Ý nghĩa: Kết hợp với... (để tạo ra kết quả tốt hơn hoặc mạnh hơn)\nCấu trúc: N + と相まって",
+            "romaji": "to-ai-matte",
+            "example": "好天と相まって、売り上げが大きく伸びた。\nKết hợp với thời tiết đẹp, doanh số tăng mạnh.\n\n円安と相まって、海外からの観光客が増加している。\nCộng với đồng yên yếu, khách du lịch nước ngoài đang tăng.\n\n彼の経験と相まって、チームの努力が成功を導いた。\nKết hợp với kinh nghiệm của anh ấy, nỗ lực của cả đội đã dẫn tới thành công.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

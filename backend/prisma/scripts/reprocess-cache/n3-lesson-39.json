@@ -1,0 +1,35 @@
+{
+  "order": 39,
+  "title": "39. ～てもらいたい・～てただきたい・～てほしい",
+  "summary": "Ngữ pháp bài số 39 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～てもらいたい・〜ていただきたい・〜てほしい\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Bày tỏ mong muốn, yêu cầu người khác thực hiện hoặc không thực hiện một hành động nào đó vì lợi ích của người nói hoặc chung.\n- **Cấu trúc**: V-te / V-nai (で) + もらいたい / いただきたい / ほしい\n#### 📝 Ví dụ minh họa\n- この仕事は、君にやってもらいたい。\n- これから先は、自分で考えて行動してほしい。\n- 先生、この作文を直していただきたいのですが。\n- 誰にもこのことを話さないでほしい。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 39 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 39 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜てもらいたい・〜ていただきたい・〜てほしい",
+            "back": "Ý nghĩa: Muốn ai đó làm (hoặc không làm) gì cho mình.\nCấu trúc: V-te / V-nai (で) + もらいたい / いただきたい / ほしい",
+            "romaji": "te moraitai / te itadakitai / te hoshii",
+            "example": "この仕事は、君にやってもらいたい。\nCông việc này, tôi muốn cậu làm.\n\nこれから先は、自分で考えて行動してほしい。\nTừ giờ trở đi, tôi muốn bạn tự suy nghĩ và hành động.\n\n先生、この作文を直していただきたいのですが。\nThưa thầy, em muốn thầy sửa giúp em bài văn này ạ.\n\n誰にもこのことを話さないでほしい。\nTôi muốn bạn không nói chuyện này với bất kỳ ai.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

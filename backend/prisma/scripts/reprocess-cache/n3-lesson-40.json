@@ -1,0 +1,35 @@
+{
+  "order": 40,
+  "title": "40. ～（さ）せてもらいたい・～（さ）せていただきたい・～（さ）せてほしい",
+  "summary": "Ngữ pháp bài số 40 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～（さ）せてもらいたい・〜（さ）せていただきたい・〜（さ）せてほしい\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Người nói muốn đối phương cho phép hoặc tạo điều kiện để mình thực hiện một hành động nào đó.\n- **Cấu trúc**: V-sai khiến (thể させて) + もらいたい / いただきたい / ほしい\n#### 📝 Ví dụ minh họa\n- 今日は体調が悪いので、早く帰らせてもらいたいです。\n- 詳しく説明させていただきたいのですが、お時間ありますか。\n- この件については、私にやらせてほしい。\n- もう一度考えさせてほしい。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 40 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 40 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜（さ）せてもらいたい・〜（さ）せていただきたい・〜（さ）せてほしい",
+            "back": "Ý nghĩa: Cho phép tôi làm..., Tôi muốn được làm... (Thể hiện mong muốn người khác cho phép mình thực hiện hành động).\nCấu trúc: V-sai khiến (thể させて) + もらいたい / いただきたい / ほしい",
+            "romaji": "(sa)sete moraitai / (sa)sete itadakitai / (sa)sete hoshii",
+            "example": "今日は体調が悪いので、早く帰らせてもらいたいです。\nHôm nay sức khỏe không tốt nên tôi muốn được phép về sớm.\n\n詳しく説明させていただきたいのですが、お時間ありますか。\nTôi muốn được giải thích chi tiết, anh/chị có thời gian không ạ?\n\nこの件については、私にやらせてほしい。\nVề việc này, xin hãy để tôi làm.\n\nもう一度考えさせてほしい。\nXin hãy cho tôi thêm một lần suy nghĩ lại.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

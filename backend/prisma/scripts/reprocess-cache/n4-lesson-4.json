@@ -1,0 +1,216 @@
+{
+  "order": 4,
+  "title": "Bài 29 — Từ vựng JLPT N4 (Phần 4)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 4/25.",
+  "theoryMd": "### 1. N1 の N2\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Bổ nghĩa cho danh từ, N1 giải thích thêm cho N2.\n- Cấu trúc: N1 + の + N2\n#### 📝 Ví dụ minh họa\n- 日本語の本です。(Đó là sách tiếng Nhật.)\n- 駅の近くです。(Ở gần nhà ga.)\n- 私の国の料理です。(Đây là món ăn của nước tôi.)\n- 東京のホテルです。(Đây là khách sạn ở Tokyo.)\n\n### 2. 〜に 入学します\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Nhập học vào một cơ sở giáo dục.\n- Cấu trúc: Địa điểm + に + 入学します\n#### 📝 Ví dụ minh họa\n- 大学に入学します。(Tôi nhập học đại học.)\n- 専門学校に入学しました。(Tôi đã nhập học trường chuyên môn.)\n- 来年、高校に入学します。(Năm sau tôi sẽ nhập học cấp 3.)\n- 良い大学に入学したいです。(Tôi muốn nhập học trường đại học tốt.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 29 — Từ vựng",
+        "description": "Từ vựng bài số 29 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "季節",
+            "back": "mùa, thời tiết",
+            "romaji": "きせつ",
+            "example": "季節（きせつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "翻訳",
+            "back": "bản dịch, phiên dịch",
+            "romaji": "ほんやく",
+            "example": "翻訳（ほんやく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "貿易",
+            "back": "thương mại, giao thương",
+            "romaji": "ぼうえき",
+            "example": "貿易（ぼうえき）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "文学",
+            "back": "văn học",
+            "romaji": "ぶんがく",
+            "example": "文学（ぶんがく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "葉",
+            "back": "lá",
+            "romaji": "は",
+            "example": "葉（は）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "交通",
+            "back": "giao thông, vận tải",
+            "romaji": "こうつう",
+            "example": "交通（こうつう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "遊び",
+            "back": "chơi, trò chơi",
+            "romaji": "あそび",
+            "example": "遊び（あそび）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "道具",
+            "back": "dụng cụ, công cụ",
+            "romaji": "どうぐ",
+            "example": "道具（どうぐ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "入学",
+            "back": "nhập học",
+            "romaji": "にゅうがく",
+            "example": "入学（にゅうがく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "背中",
+            "back": "lưng",
+            "romaji": "せなか",
+            "example": "背中（せなか）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "発音",
+            "back": "phát âm",
+            "romaji": "はつおん",
+            "example": "発音（はつおん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "指輪",
+            "back": "nhẫn",
+            "romaji": "ゆびわ",
+            "example": "指輪（ゆびわ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "医学",
+            "back": "y học",
+            "romaji": "いがく",
+            "example": "医学（いがく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "漫画",
+            "back": "truyện tranh",
+            "romaji": "まんが",
+            "example": "漫画（まんが）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "鏡",
+            "back": "gương",
+            "romaji": "かがみ",
+            "example": "鏡（かがみ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "電報",
+            "back": "điện báo",
+            "romaji": "でんぽう",
+            "example": "電報（でんぽう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "校長",
+            "back": "hiệu trưởng",
+            "romaji": "こうちょう",
+            "example": "校長（こうちょう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "郊外",
+            "back": "ngoại ô",
+            "romaji": "こうがい",
+            "example": "郊外（こうがい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "市民",
+            "back": "công dân",
+            "romaji": "しみん",
+            "example": "市民（しみん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "国際",
+            "back": "quốc tế",
+            "romaji": "こくさい",
+            "example": "国際（こくさい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "砂",
+            "back": "cát",
+            "romaji": "すな",
+            "example": "砂（すな）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "手袋",
+            "back": "găng tay",
+            "romaji": "てぶくろ",
+            "example": "手袋（てぶくろ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "絹",
+            "back": "lụa",
+            "romaji": "きぬ",
+            "example": "絹（きぬ）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 4 — Ngữ pháp",
+        "description": "Ngữ pháp bài 4: Bài 29 — Từ vựng JLPT N4 (Phần 4)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "N1 の N2",
+            "back": "Ý nghĩa: Bổ nghĩa cho danh từ, cho biết N2 thuộc loại gì hoặc ở đâu.\nCấu trúc: N1 + の + N2",
+            "romaji": "N1-no-N2",
+            "example": "日本語の本です。\nĐó là sách tiếng Nhật.\n\n駅の近くです。\nỞ gần nhà ga.\n\n私の国の料理です。\nĐây là món ăn của nước tôi.\n\n東京のホテルです。\nĐây là khách sạn ở Tokyo.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "〜に 入学します",
+            "back": "Ý nghĩa: Nhập học vào một cơ sở giáo dục.\nCấu trúc: Địa điểm + に + 入学します",
+            "romaji": "ni-nyuugaku-shimasu",
+            "example": "大学に入学します。\nTôi nhập học đại học.\n\n専門学校に入学しました。\nTôi đã nhập học trường chuyên môn.\n\n来年、高校に入学します。\nNăm sau tôi sẽ nhập học cấp 3.\n\n良い大学に入学したいです。\nTôi muốn nhập học trường đại học tốt.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

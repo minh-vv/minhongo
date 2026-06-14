@@ -1,0 +1,35 @@
+{
+  "order": 18,
+  "title": "18. ～かわりに…",
+  "summary": "Ngữ pháp bài số 18 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～かわりに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng khi làm một hành động thay thế cho hành động khác, hoặc diễn tả sự bù đắp giữa hai mặt tốt/xấu.\n- **Cấu trúc**: 普通形 (な形-な・名-の) ＋ かわりに\n#### 📝 Ví dụ minh họa\n- 忙しいので、私が会議に出るかわりに、田中さんに出席してもらった。\n- このパソコンは少し高いかわりに、性能がいい。\n- 最近は、紙の本を読むかわりに電子書籍を読む人が増えている。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 18 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 18 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜かわりに",
+            "back": "Ý nghĩa: Thay vì...; Đổi lại...; Bù lại... (Diễn tả sự thay thế hoặc sự bù đắp, trao đổi).\nCấu trúc: 普通形 (な形-な・名-の) ＋ かわりに",
+            "romaji": "kawari-ni",
+            "example": "忙しいので、私が会議に出るかわりに、田中さんに出席してもらった。\nVì bận nên thay vì tôi tham gia cuộc họp, tôi đã nhờ anh Tanaka tham dự.\n\nこのパソコンは少し高いかわりに、性能がいい。\nChiếc máy tính này hơi đắt, nhưng bù lại hiệu năng rất tốt.\n\n最近は、紙の本を読むかわりに電子書籍を読む人が増えている。\nGần đây, số người đọc sách điện tử thay vì đọc sách giấy đang tăng lên.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

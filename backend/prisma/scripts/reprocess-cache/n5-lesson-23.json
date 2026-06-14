@@ -1,0 +1,272 @@
+{
+  "order": 23,
+  "title": "Bài 23 — Thể bình thường trong hội thoại",
+  "summary": "Chuyển từ thể lịch sự sang thể bình thường (casual).",
+  "theoryMd": "### 1. Thể ngắn (Casual form)\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Sử dụng trong giao tiếp thân mật.\n- Cách chuyển đổi: Chuyển đổi đuôi từ lịch sự sang thể từ điển (V-ru), thể nai (V-nai), thể quá khứ (V-ta/V-nakatta).\n#### 📝 Ví dụ minh họa\n- 明日は休みだ。(Ngày mai được nghỉ.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 23 — Từ vựng",
+        "description": "Từ vựng bài 23: Bài 23 — Thể bình thường trong hội thoại",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "一昨日",
+            "back": "hôm kia",
+            "romaji": "おととい",
+            "example": "一昨日（おととい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "テープ",
+            "back": "băng, băng dính",
+            "romaji": "テープ",
+            "example": "テープ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ストーブ",
+            "back": "lò sưởi, bếp",
+            "romaji": "ストーブ",
+            "example": "ストーブ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "カップ",
+            "back": "cốc, chén",
+            "romaji": "カップ",
+            "example": "カップ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ボールペン",
+            "back": "bút bi",
+            "romaji": "ボールペン",
+            "example": "ボールペン",
+            "jlptLevel": 5
+          },
+          {
+            "front": "スプーン",
+            "back": "thìa, muỗng",
+            "romaji": "スプーン",
+            "example": "スプーン",
+            "jlptLevel": 5
+          },
+          {
+            "front": "スリッパ",
+            "back": "dép đi trong nhà",
+            "romaji": "スリッパ",
+            "example": "スリッパ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "醤油",
+            "back": "nước tương, xì dầu",
+            "romaji": "しょうゆ",
+            "example": "醤油（しょうゆ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "はい",
+            "back": "vâng, phải",
+            "romaji": "はい",
+            "example": "はい",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ペット",
+            "back": "thú cưng",
+            "romaji": "ペット",
+            "example": "ペット",
+            "jlptLevel": 5
+          },
+          {
+            "front": "テープレコーダー",
+            "back": "máy ghi âm",
+            "romaji": "テープレコーダー",
+            "example": "テープレコーダー",
+            "jlptLevel": 5
+          },
+          {
+            "front": "為る",
+            "back": "làm, thực hiện",
+            "romaji": "する",
+            "example": "為る（する）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "彼",
+            "back": "kia, cái đó",
+            "romaji": "あれ",
+            "example": "彼（あれ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "１日",
+            "back": "ngày mùng một",
+            "romaji": "ついたち",
+            "example": "１日（ついたち）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "３日",
+            "back": "ngày mùng ba",
+            "romaji": "みっか",
+            "example": "３日（みっか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "５日",
+            "back": "ngày mùng năm",
+            "romaji": "いつか",
+            "example": "５日（いつか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "２日",
+            "back": "ngày mùng hai",
+            "romaji": "ふつか",
+            "example": "２日（ふつか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "１０日",
+            "back": "ngày mùng mười",
+            "romaji": "とおか",
+            "example": "１０日（とおか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "６日",
+            "back": "ngày mùng sáu",
+            "romaji": "むいか",
+            "example": "６日（むいか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "８日",
+            "back": "ngày mùng tám",
+            "romaji": "ようか",
+            "example": "８日（ようか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "９日",
+            "back": "ngày mùng chín",
+            "romaji": "ここのか",
+            "example": "９日（ここのか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "来る",
+            "back": "đến",
+            "romaji": "くる",
+            "example": "来る（くる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "後",
+            "back": "sau, đằng sau",
+            "romaji": "あと",
+            "example": "後（あと）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "一人",
+            "back": "một người",
+            "romaji": "ひとり",
+            "example": "一人（ひとり）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "二人",
+            "back": "hai người",
+            "romaji": "ふたり",
+            "example": "二人（ふたり）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "側",
+            "back": "bên cạnh, gần",
+            "romaji": "そば",
+            "example": "側（そば）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "辛い",
+            "back": "cay",
+            "romaji": "からい",
+            "example": "辛い（からい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "門",
+            "back": "cổng",
+            "romaji": "もん",
+            "example": "門（もん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "角",
+            "back": "góc, cạnh",
+            "romaji": "かど",
+            "example": "角（かど）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "毎月",
+            "back": "hàng tháng",
+            "romaji": "まいつき",
+            "example": "毎月（まいつき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "七",
+            "back": "bảy",
+            "romaji": "しち",
+            "example": "七（しち）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "伯母さん",
+            "back": "cô, dì",
+            "romaji": "おばさん",
+            "example": "伯母さん（おばさん）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 23 — Ngữ pháp",
+        "description": "Ngữ pháp bài 23: Bài 23 — Thể bình thường trong hội thoại",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "Thể ngắn (Casual form)",
+            "back": "Ý nghĩa: Cách nói thân mật, suồng sã dùng với bạn bè, người thân.\nCấu trúc: Chuyển です/ます sang thể từ điển, thể nai, hoặc thể quá khứ ngắn.",
+            "romaji": "futsuukei",
+            "example": "明日は休みだ。\nNgày mai được nghỉ.\n\n昨日は寒かった。\nHôm qua trời lạnh.\n\n私は行かない。\nTôi sẽ không đi.\n\n美味しいね。\nNgon nhỉ.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

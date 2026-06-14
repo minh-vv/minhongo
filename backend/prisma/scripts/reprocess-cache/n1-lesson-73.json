@@ -1,0 +1,42 @@
+{
+  "order": 73,
+  "title": "Bài 73 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 73/92).",
+  "theoryMd": "### 1. 〜んばかりに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Như thể là sắp, đến mức gần như...\n- **Cấu trúc:** V-nai (bỏ ない) + んばかりに (する → せんばかりに)\n\n### 2. 〜るものとする\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Quy định, xem như là, được quyết định là...\n- **Cấu trúc:** V-dictionary form + ものとする\n- **Lưu ý:** Dùng trong văn bản hành chính, hợp đồng, quy tắc để nêu lên quy định cố định.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 73 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 73.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜んばかりに",
+            "back": "Ý nghĩa: Như thể là sắp, gần như là (mô tả trạng thái gần chạm ngưỡng một hành động nào đó).\nCấu trúc: V-nai (bỏ ない) + んばかりに (riêng する thành せんばかりに)",
+            "romaji": "nba-kari-ni",
+            "example": "彼は涙を流さんばかりに喜んだ。\nAnh ấy vui đến mức như sắp rơi nước mắt.\n\n頭を床に擦りつけんばかりに謝った。\nAnh ta xin lỗi đến mức như muốn cọ đầu xuống sàn.\n\n会場は割れんばかりの拍手に包まれた。\nCả khán phòng vang dội trong tràng pháo tay như muốn vỡ tung.\n\n彼は怒りに震えんばかりの様子で部屋を出た。\nAnh ta rời khỏi phòng với dáng vẻ như muốn run lên vì giận dữ.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜るものとする",
+            "back": "Ý nghĩa: Quy định, xem như là, được quyết định là (thường dùng trong văn bản quy tắc, hợp đồng).\nCấu trúc: V-dictionary form + ものとする",
+            "romaji": "ru-mono-to-suru",
+            "example": "受験者は身分証を常時携帯するものとする。\nThí sinh phải luôn mang theo giấy tờ tùy thân.\n\n申請は電子メールで行うものとする。\nViệc nộp đơn được quy định thực hiện qua email.\n\n開始時刻を過ぎた入室は認めないものとする。\nQuy định không cho phép vào phòng sau giờ bắt đầu.\n\n契約は自動的に更新されるものとする。\nHợp đồng được quy định là sẽ tự động gia hạn.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

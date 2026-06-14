@@ -1,0 +1,42 @@
+{
+  "order": 28,
+  "title": "Bài 28 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 28/92).",
+  "theoryMd": "### 1. 〜ばきりがない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nếu cứ tiếp tục làm việc gì đó thì sẽ không bao giờ kết thúc.\n- **Cấu trúc**: V-ba + きりがない\n\n#### 📝 Ví dụ minh họa\n欠点を言い出せばきりがない。\nNếu bắt đầu nói khuyết điểm thì sẽ không có hồi kết.\n\n心配しだせばきりがないから、今できることに集中しよう。\nNếu cứ lo lắng thì không bao giờ hết, nên tập trung vào việc có thể làm.\n\n例を挙げればきりがないが、代表的なものだけ述べる。\nKể ví dụ thì nhiều vô kể, tôi chỉ nêu vài cái tiêu biểu.\n\n---\n### 2. 〜たらきりがない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Tương tự như mẫu trên, dùng sau V-たら để chỉ việc kéo dài vô tận.\n- **Cấu trúc**: V-たら + きりがない\n\n#### 📝 Ví dụ minh họa\n欠点を挙げたらきりがないから、このくらいでやめよう。\nNếu mà liệt kê khuyết điểm thì chẳng có hồi kết, dừng ở đây nhé.\n\n心配し始めたらきりがないよ。まずやってみよう。\nNếu mà bắt đầu lo thì lo hoài. Cứ làm thử trước đã.\n\n欲を言い出したらきりがない。\nNếu mà bắt đầu tham thì chẳng có điểm dừng.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 28 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 28.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜ばきりがない",
+            "back": "Ý nghĩa: Nếu làm thì không có hồi kết, không thể dừng lại.\nCấu trúc: V-ba + きりがない",
+            "romaji": "bakiriga-nai",
+            "example": "欠点を言い出せばきりがない。\nNếu bắt đầu nói khuyết điểm thì sẽ không có hồi kết.\n\n心配しだせばきりがないから、今できることに集中しよう。\nNếu cứ lo lắng thì không bao giờ hết, nên tập trung vào việc có thể làm.\n\n例を挙げればきりがないが、代表的なものだけ述べる。\nKể ví dụ thì nhiều vô kể, tôi chỉ nêu vài cái tiêu biểu.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜たらきりがない",
+            "back": "Ý nghĩa: Nếu làm/nghĩ đến thì không bao giờ hết.\nCấu trúc: V-たら + きりがない",
+            "romaji": "tarakiriga-nai",
+            "example": "欠点を挙げたらきりがないから、このくらいでやめよう。\nNếu mà liệt kê khuyết điểm thì chẳng có hồi kết, dừng ở đây nhé.\n\n心配し始めたらきりがないよ。まずやってみよう。\nNếu mà bắt đầu lo thì lo hoài. Cứ làm thử trước đã.\n\n欲を言い出したらきりがない。\nNếu mà bắt đầu tham thì chẳng có điểm dừng.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "order": 40,
+  "title": "Bài 40 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 40/92).",
+  "theoryMd": "### 1. 〜にして初めて\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh điều kiện hoặc thời điểm duy nhất mà sự việc/cảm nhận đó xảy ra.\n- **Cấu trúc**: N + にして初めて\n#### 📝 Ví dụ minh họa\n- 教師にして初めて、生徒の気持ちの複雑さが分かった。 (Chỉ khi làm giáo viên tôi mới hiểu sự phức tạp trong tâm lý học sinh.)\n- 30歳にして初めて、自分の進む道が見えた。 (Mãi đến 30 tuổi tôi mới thấy con đường mình đi.)\n\n### 2. 〜とみえて\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Suy đoán dựa trên những gì trông thấy/quan sát được tại hiện trường.\n- **Cấu trúc**: V/Adj/N-plain + とみえて\n#### 📝 Ví dụ minh họa\n- 子どもたちは疲れたとみえて、帰りの電車でぐっすり寝ている。 (Bọn trẻ có vẻ mệt nên ngủ say trên tàu về.)\n- 彼は何か悩んでいるとみえて、ここ数日元気がない。 (Có vẻ anh ấy đang lo lắng chuyện gì, mấy hôm nay trông không khỏe.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 40 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 40.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜にして初めて",
+            "back": "Ý nghĩa: Chỉ sau khi đạt được (thời điểm/trạng thái)... thì mới nhận ra/mới có thể làm được.\nCấu trúc: N + にして初めて",
+            "romaji": "ni-shite-hajimete",
+            "example": "教師にして初めて、生徒の気持ちの複雑さが分かった。\nChỉ khi làm giáo viên tôi mới hiểu sự phức tạp trong tâm lý học sinh.\n\n現場責任者にして初めて、判断の重さを痛感する。\nChỉ khi làm người chịu trách nhiệm hiện trường mới thấm thía sức nặng của quyết định.\n\n30歳にして初めて、自分の進む道が見えた。\nMãi đến 30 tuổi tôi mới thấy con đường mình đi.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜とみえて",
+            "back": "Ý nghĩa: Dựa vào tình trạng quan sát được, suy đoán rằng... (có vẻ là).\nCấu trúc: V/Adj/N-plain + とみえて (N/Na-adj thường là である)",
+            "romaji": "to-miete",
+            "example": "子どもたちは疲れたとみえて、帰りの電車でぐっすり寝ている。\nBọn trẻ có vẻ mệt nên ngủ say trên tàu về.\n\n空が急に暗くなってきた。雨になるとみえて、風も強くなってきた。\nTrời bỗng tối sầm. Có vẻ sắp mưa, gió cũng mạnh dần.\n\n彼は何か悩んでいるとみえて、ここ数日元気がない。\nCó vẻ anh ấy đang lo lắng chuyện gì, mấy hôm nay trông không khỏe.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

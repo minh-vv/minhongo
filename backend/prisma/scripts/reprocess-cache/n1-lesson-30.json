@@ -1,0 +1,42 @@
+{
+  "order": 30,
+  "title": "Bài 30 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 30/92).",
+  "theoryMd": "### 1. 〜とは比べものにならない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không thể so sánh được (do sự chênh lệch quá lớn).\n- **Cấu trúc**: N + とは比べものにならない\n\n#### 📝 Ví dụ minh họa\n今のスマホは、十年前とは比べものにならない。\nSmartphone bây giờ khác xa so với mười năm trước.\n\n彼の今回の演奏は、前回とは比べものにならないほど素晴らしかった。\nMàn biểu diễn lần này của anh ấy tuyệt vời đến mức không thể so với lần trước.\n\nこの店のサービスは他店とは比べものにならない。\nDịch vụ của cửa hàng này hơn hẳn các nơi khác.\n\n---\n### 2. 〜ともあろう〜\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả sự bất ngờ hoặc khiển trách: \"với cương vị là... vậy mà lại...\"\n- **Cấu trúc**: N (chức vụ, danh tính) + ともあろう + N\n\n#### 📝 Ví dụ minh họa\n医者ともあろう人が、喫煙の危険性を軽視するなんて。\nBác sĩ mà lại xem nhẹ nguy cơ của việc hút thuốc ư.\n\n教師ともあろう者が、生徒に暴言を吐くとは信じ難い。\nNgười làm thầy giáo lại buông lời thô lỗ với học sinh thì thật khó tin.\n\n国の指導者ともあろう人が、根拠のない発言を繰り返すべきではない。\nMột người lãnh đạo quốc gia thì không nên lặp lại những phát ngôn vô căn cứ.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 30 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 30.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜とは比べものにならない",
+            "back": "Ý nghĩa: Không thể so sánh được với... (thường là vượt trội hơn hẳn).\nCấu trúc: N + とは比べものにならない",
+            "romaji": "towa-kurabe-mono-ni-naranai",
+            "example": "今のスマホは、十年前とは比べものにならない。\nSmartphone bây giờ khác xa so với mười năm trước.\n\n彼の今回の演奏は、前回とは比べものにならないほど素晴らしかった。\nMàn biểu diễn lần này của anh ấy tuyệt vời đến mức không thể so với lần trước.\n\nこの店のサービスは他店とは比べものにならない。\nDịch vụ của cửa hàng này hơn hẳn các nơi khác.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜ともあろう〜",
+            "back": "Ý nghĩa: Với cương vị/tư cách là... mà lại làm/xảy ra việc đó (thể hiện sự bất ngờ, khiển trách).\nCấu trúc: N (chức vụ, danh tính) + ともあろう + N",
+            "romaji": "tomo-arou",
+            "example": "医者ともあろう人が、喫煙の危険性を軽視するなんて。\nBác sĩ mà lại xem nhẹ nguy cơ của việc hút thuốc ư.\n\n教師ともあろう者が、生徒に暴言を吐くとは信じ難い。\nNgười làm thầy giáo lại buông lời thô lỗ với học sinh thì thật khó tin.\n\n国の指導者ともあろう人が、根拠のない発言を繰り返すべきではない。\nMột người lãnh đạo quốc gia thì không nên lặp lại những phát ngôn vô căn cứ.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

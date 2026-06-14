@@ -1,0 +1,42 @@
+{
+  "order": 3,
+  "title": "Bài 3 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 3/92).",
+  "theoryMd": "### Bài 3: Cấu trúc biểu thị sự không quan trọng hóa (N1)\n\n#### 1. ～うと～うと\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dù thế nào đi nữa thì kết quả vẫn như vậy (tương tự ～うが～うが).\n- Cấu trúc: V-ý chí (u/you) + と + V-ý chí (u/you) + と\n\n#### 📝 Ví dụ minh họa\n- 雨が降ろうと風が吹こうと、マラソンは予定通り行う。\n(Dù mưa hay gió thổi, cuộc marathon vẫn diễn ra như dự định.)\n\n---\n\n#### 2. ～ようが～るまいが\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dù làm hay không làm thì cũng không ảnh hưởng đến kết quả.\n- Cấu trúc: V-ý chí (you) + が + V-ru (nai-kei) + まい + が\n\n#### 📝 Ví dụ minh họa\n- 雨が降ろうが降るまいが、試合は予定どおり行う。\n(Dù có mưa hay không, trận đấu vẫn diễn ra như dự định.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 3 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜うと〜うと",
+            "back": "Ý nghĩa: Cho dù... hay... (không liên quan đến việc xảy ra)\nCấu trúc: V-ý chí (u/you) + と + V-ý chí (u/you) + と",
+            "romaji": "u-to-u-to",
+            "example": "雨が降ろうと風が吹こうと、マラソンは予定通り行う。\nDù mưa hay gió thổi, cuộc marathon vẫn diễn ra như dự định.\n\n泣こうと笑おうと、時間は待ってくれない。\nDù khóc hay cười, thời gian cũng không chờ đợi.\n\n値段が高かろうと安かろうと、品質が第一だ。\nDù giá cao hay thấp, chất lượng là hàng đầu.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜ようが〜るまいが",
+            "back": "Ý nghĩa: Dù có làm... hay không làm... thì cũng không ảnh hưởng\nCấu trúc: V-ý chí (you) + が + V-ru (nai-kei) + まい + が",
+            "romaji": "youga-rumaiga",
+            "example": "雨が降ろうが降るまいが、試合は予定どおり行う。\nDù có mưa hay không, trận đấu vẫn diễn ra như dự định.\n\n彼が賛成しようがするまいが、計画は進める。\nDù anh ta có tán thành hay không, kế hoạch vẫn tiến hành.\n\n誰が来ようが来るまいが、私はやるべきことをやる。\nBất kể ai có đến hay không, tôi vẫn làm việc phải làm.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

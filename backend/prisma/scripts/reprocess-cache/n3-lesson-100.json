@@ -1,0 +1,35 @@
+{
+  "order": 100,
+  "title": "100. ～だらけだ",
+  "summary": "Ngữ pháp bài số 100 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜だらけだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ trạng thái bị bao phủ, đầy những thứ không mong muốn, những thứ bẩn thỉu hoặc lỗi sai.\n- **Cấu trúc:** N + だらけだ\n\n#### 📝 Ví dụ minh họa\n- 泥だらけの靴で家に入らないでください。\n(Đừng đi đôi giày đầy bùn đất vào nhà.)\n\n- 彼の部屋はゴミだらけで足の踏み場もない。\n(Phòng của anh ấy toàn là rác, không có cả chỗ đặt chân.)\n\n- テストの答案は間違いだらけだった。\n(Bài thi toàn là lỗi sai.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 100 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 100 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜だらけだ",
+            "back": "Ý nghĩa: Toàn là, đầy là (những thứ bẩn thỉu, không mong muốn).\nCấu trúc: N + だらけだ",
+            "romaji": "darake-da",
+            "example": "泥だらけの靴で家に入らないでください。\nĐừng đi đôi giày đầy bùn đất vào nhà.\n\n彼の部屋はゴミだらけで足の踏み場もない。\nPhòng của anh ấy toàn là rác, không có cả chỗ đặt chân.\n\nテストの答案は間違いだらけだった。\nBài thi toàn là lỗi sai.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "order": 47,
+  "title": "47. ～ようにする・～ようにしている",
+  "summary": "Ngữ pháp bài số 47 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～ようにする・～ようにしている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** Động từ (Từ điển / V-ない) + ようにする / ようにしている\n- **Ý nghĩa:** \n  - 「～ようにする」: Cố gắng, nỗ lực làm hoặc không làm gì đó.\n  - 「～ようにしている」: Nhấn mạnh vào việc duy trì nỗ lực đó một cách liên tục, thường xuyên để hình thành thói quen hoặc thay đổi hành vi.\n\n#### 📝 Ví dụ minh họa\n- 毎朝、６時に起きるようにしています。\n(Tôi đang cố gắng dậy lúc 6 giờ mỗi sáng.)\n- 体に悪いから、甘いものを食べないようにする。\n(Vì không tốt cho sức khỏe nên tôi sẽ cố gắng không ăn đồ ngọt.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 47 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 47 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ようにする・〜ようにしている",
+            "back": "Ý nghĩa: Cố gắng, nỗ lực làm hoặc không làm gì đó để hình thành thói quen hoặc tránh điều xấu. Dạng 「～ようにしている」 diễn tả nỗ lực đó đang được duy trì liên tục.\nCấu trúc: Động từ (Từ điển / V-ない) + ようにする / ようにしている",
+            "romaji": "you ni suru / you ni shite iru",
+            "example": "毎朝、６時に起きるようにしています。\nTôi đang cố gắng dậy lúc 6 giờ mỗi sáng.\n\n体に悪いから、甘いものを食べないようにする。\nVì không tốt cho sức khỏe nên tôi sẽ cố gắng không ăn đồ ngọt.\n\n忘れ物をしないように、玄関にメモを貼っている。\nTôi dán ghi chú ở cửa để cố gắng không bỏ quên đồ đạc.\n\nなるべく階段を使うようにしている。\nTôi đang cố gắng sử dụng cầu thang bộ nhiều nhất có thể.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "order": 11,
+  "title": "11. ～くらい…はない・～ぐらい…はない・～ほど…はない",
+  "summary": "Ngữ pháp bài số 11 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～くらい…はない・～ぐらい…はない・～ほど…はない\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Không có gì hay ai sánh bằng ~. Mẫu câu dùng để diễn tả cảm nhận chủ quan của người nói rằng ~ là nhất, không có gì/ai vượt qua được.\n- **Cấu trúc:** N + くらい / ぐらい / ほど + … はない\n\n#### 📝 Ví dụ minh họa\n- 彼ほど優しい人はいない。\n- Không có ai hiền lành bằng anh ấy.\n\n- この景色くらい美しいものはない。\n- Không có cảnh đẹp nào bằng cảnh này.\n\n- 家族と一緒に過ごす時間ほど幸せなものはない。\n- Không có điều gì hạnh phúc bằng thời gian ở bên gia đình.\n\n- これほど悲しいことはない。\n- Không có việc gì buồn hơn việc này.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 11 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 11 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜くらい…はない・〜ぐらい…はない・〜ほど…はない",
+            "back": "Ý nghĩa: Không có gì, không có ai sánh bằng ~ (nhấn mạnh mức độ cao nhất).\nCấu trúc: N + くらい / ぐらい / ほど + ... はない",
+            "romaji": "kurai-wa-nai-gurai-wa-nai-hodo-wa-nai",
+            "example": "彼ほど優しい人はいない。\nKhông có ai hiền lành bằng anh ấy.\n\nこの景色くらい美しいものはない。\nKhông có cảnh đẹp nào bằng cảnh này.\n\n家族と一緒に過ごす時間ほど幸せなものはない。\nKhông có điều gì hạnh phúc bằng thời gian ở bên gia đình.\n\nこれほど悲しいことはない。\nKhông có việc gì buồn hơn việc này.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

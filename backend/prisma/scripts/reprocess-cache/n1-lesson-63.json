@@ -1,0 +1,42 @@
+{
+  "order": 63,
+  "title": "Bài 63 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 63/92).",
+  "theoryMd": "### 1. 〜というもの\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N(thời gian) + というもの\n- **Ý nghĩa:** Nhấn mạnh một khoảng thời gian dài liên tục mà trạng thái/hành động kéo dài xuyên suốt không nghỉ.\n\n#### 📝 Ví dụ minh họa\n- ここ一ヶ月というもの、まともに休めていない。(Suốt một tháng nay, tôi chẳng nghỉ ngơi tử tế được.)\n- 試験前の三日というもの、毎日図書館にこもっていた。(Suốt ba ngày trước kỳ thi, tôi chỉ ở lì trong thư viện.)\n- この一週間というもの、彼は部屋から出ていない。(Suốt một tuần nay, anh ấy không ra khỏi phòng.)\n\n### 2. 〜というところだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N / V-ru + というところだ\n- **Ý nghĩa:** Dùng để đưa ra con số ước lượng, đánh giá mức độ vừa phải, không quá cao cũng không quá thấp.\n\n#### 📝 Ví dụ minh họa\n- 準備は８割というところだ。(Khâu chuẩn bị được khoảng 80%.)\n- 今年の成長率は５％増というところだ。(Tăng trưởng năm nay vào khoảng +5%.)\n- 今回の成績はまあまあというところだ。(Thành tích lần này ở mức tàm tạm.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 63 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 63.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜というもの",
+            "back": "Ý nghĩa: Suốt một khoảng thời gian (nhấn mạnh sự kéo dài của trạng thái đó).\nCấu trúc: N(thời gian) + というもの",
+            "romaji": "toiu-mono",
+            "example": "ここ一ヶ月というもの、まともに休めていない。\nSuốt một tháng nay, tôi chẳng nghỉ ngơi tử tế được.\n\n試験前の三日というもの、毎日図書館にこもっていた。\nSuốt ba ngày trước kỳ thi, tôi chỉ ở lì trong thư viện.\n\nこの一週間というもの、彼は部屋から出ていない。\nSuốt một tuần nay, anh ấy không ra khỏi phòng.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜というところだ",
+            "back": "Ý nghĩa: Ở mức độ, đại khái là, khoảng chừng.\nCấu trúc: N / V-ru + というところだ",
+            "romaji": "toiu-tokoro-da",
+            "example": "準備は８割というところだ。\nKhâu chuẩn bị được khoảng 80%.\n\n今年の成長率は５％増というところだ。\nTăng trưởng năm nay vào khoảng +5%.\n\n今回の成績はまあまあというところだ。\nThành tích lần này ở mức tàm tạm.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

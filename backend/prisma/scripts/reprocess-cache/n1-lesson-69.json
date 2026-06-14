@@ -1,0 +1,42 @@
+{
+  "order": 69,
+  "title": "Bài 69 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 69/92).",
+  "theoryMd": "### 1. 〜るにとどまらず\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không chỉ hành động/việc đó, mà còn mang lại kết quả rộng hơn.\n- **Cấu trúc**: V-ru + にとどまらず\n\n#### 📝 Ví dụ minh họa\n- 読書は知識を増やすにとどまらず、思考力も鍛える。(Đọc sách không chỉ làm tăng kiến thức mà còn rèn luyện tư duy.)\n- この問題は個人にとどまらず、社会全体に関わる。(Vấn đề này không chỉ dừng ở cá nhân mà còn liên quan tới toàn xã hội.)\n\n### 2. 〜と〜を兼ねて\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Thực hiện đồng thời cả hai mục đích/việc làm.\n- **Cấu trúc**: N1 + と + N2 + を兼ねて\n\n#### 📝 Ví dụ minh họa\n- 出張と観光を兼ねてロンドンへ行く。(Đi London vừa công tác vừa du lịch.)\n- 運動と気分転換を兼ねて歩いて通勤している。(Tôi đi bộ tới công ty vừa để vận động vừa để đổi gió.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 69 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 69.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜るにとどまらず",
+            "back": "Ý nghĩa: Không chỉ hành động đó mà còn mang lại kết quả rộng hơn.\nCấu trúc: V-ru + にとどまらず",
+            "romaji": "ru-ni-todomara-zu",
+            "example": "読書は知識を増やすにとどまらず、思考力も鍛える。\nĐọc sách không chỉ làm tăng kiến thức mà còn rèn luyện tư duy.\n\nこの問題は個人にとどまらず、社会全体に関わる。\nVấn đề này không chỉ dừng ở cá nhân mà còn liên quan tới toàn xã hội.\n\nネットいじめは学校にとどまらず、家庭にも影響を及ぼす。\nBắt nạt mạng không chỉ ở trường học mà còn ảnh hưởng đến gia đình.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜と〜を兼ねて",
+            "back": "Ý nghĩa: Vừa làm việc này, đồng thời kết hợp làm thêm việc kia.\nCấu trúc: N1 + と + N2 + を兼ねて",
+            "romaji": "to-wo-kanete",
+            "example": "出張と観光を兼ねてロンドンへ行く。\nĐi London vừa công tác vừa du lịch.\n\n挨拶とお礼を兼ねてご連絡いたしました。\nTôi liên hệ để vừa chào hỏi vừa bày tỏ lời cảm ơn.\n\n運動と気分転換を兼ねて歩いて通勤している。\nTôi đi bộ tới công ty vừa để vận động vừa để đổi gió.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

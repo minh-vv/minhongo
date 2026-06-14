@@ -1,7 +1,9 @@
+import { DIALOGUES_N2 } from './ListeningDataN2';
+
 // ==========================================
 // 1. DATA ĐOẠN HỘI THOẠI (DIALOGUE SEEDS)
 // ==========================================
-export const DIALOGUES = [
+const DIALOGUES_STATIC = [
   {
     id: 'diag-1',
     level: 'N5',
@@ -83,7 +85,11 @@ export const DIALOGUES = [
   }
 ];
 
+// Merge N5/N4 static dialogues + N2 crawled dialogues
+export const DIALOGUES = [...DIALOGUES_STATIC, ...DIALOGUES_N2];
+
 // ==========================================
+
 // 2. DATA CÂU HỌC TẬP (SENTENCE SEEDS)
 // ==========================================
 export const SYSTEM_SENTENCES = [

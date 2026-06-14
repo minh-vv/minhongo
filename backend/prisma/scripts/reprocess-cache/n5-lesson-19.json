@@ -1,0 +1,286 @@
+{
+  "order": 19,
+  "title": "Bài 19 — Thể ない: Phủ định dạng tự nhiên",
+  "summary": "Chia thể ない, ～なければなりません, ～なくてもいいです.",
+  "theoryMd": "### 1. V-なければなりません\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ sự bắt buộc, nghĩa vụ phải thực hiện hành động.\n- **Cấu trúc:** V-nai (bỏ ない) + なければなりません\n\n### 2. V-なくてもいいです\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ sự cho phép, không bắt buộc làm hành động đó.\n- **Cấu trúc:** V-nai (bỏ ない) + くてもいいです",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 19 — Từ vựng",
+        "description": "Từ vựng bài 19: Bài 19 — Thể ない: Phủ định dạng tự nhiên",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "近く",
+            "back": "gần, gần đó",
+            "romaji": "ちかく",
+            "example": "近く（ちかく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "風",
+            "back": "gió",
+            "romaji": "かぜ",
+            "example": "風（かぜ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "困る",
+            "back": "gặp khó khăn, bối rối",
+            "romaji": "こまる",
+            "example": "困る（こまる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "生まれる",
+            "back": "được sinh ra",
+            "romaji": "うまれる",
+            "example": "生まれる（うまれる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "丁度",
+            "back": "chính xác, vừa đúng",
+            "romaji": "ちょうど",
+            "example": "丁度（ちょうど）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "初めて",
+            "back": "lần đầu tiên",
+            "romaji": "はじめて",
+            "example": "初めて（はじめて）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "始まる",
+            "back": "bắt đầu, khởi sự",
+            "romaji": "はじまる",
+            "example": "始まる（はじまる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "貸す",
+            "back": "cho vay, cho mượn",
+            "romaji": "かす",
+            "example": "貸す（かす）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "綺麗",
+            "back": "đẹp, sạch sẽ",
+            "romaji": "きれい",
+            "example": "綺麗（きれい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "幾ら",
+            "back": "bao nhiêu",
+            "romaji": "いくら",
+            "example": "幾ら（いくら）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "空",
+            "back": "bầu trời",
+            "romaji": "そら",
+            "example": "空（そら）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "弾く",
+            "back": "chơi (nhạc cụ)",
+            "romaji": "ひく",
+            "example": "弾く（ひく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "暑い",
+            "back": "nóng (thời tiết)",
+            "romaji": "あつい",
+            "example": "暑い（あつい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "遊ぶ",
+            "back": "chơi, giải trí",
+            "romaji": "あそぶ",
+            "example": "遊ぶ（あそぶ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "然し",
+            "back": "tuy nhiên, nhưng",
+            "romaji": "しかし",
+            "example": "然し（しかし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "無くす",
+            "back": "đánh mất, làm mất",
+            "romaji": "なくす",
+            "example": "無くす（なくす）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "色々",
+            "back": "nhiều loại, đủ loại",
+            "romaji": "いろいろ",
+            "example": "色々（いろいろ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "渡る",
+            "back": "băng qua, đi qua",
+            "romaji": "わたる",
+            "example": "渡る（わたる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "暗い",
+            "back": "tối, u ám",
+            "romaji": "くらい",
+            "example": "暗い（くらい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "此方",
+            "back": "hướng này, phía này",
+            "romaji": "こちら",
+            "example": "此方（こちら）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "重い",
+            "back": "nặng",
+            "romaji": "おもい",
+            "example": "重い（おもい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "今晩",
+            "back": "tối nay",
+            "romaji": "こんばん",
+            "example": "今晩（こんばん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "美味しい",
+            "back": "ngon",
+            "romaji": "おいしい",
+            "example": "美味しい（おいしい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "消す",
+            "back": "tắt, xóa, tẩy",
+            "romaji": "けす",
+            "example": "消す（けす）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "易しい",
+            "back": "dễ, đơn giản",
+            "romaji": "やさしい",
+            "example": "易しい（やさしい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "閉める",
+            "back": "đóng, khép",
+            "romaji": "しめる",
+            "example": "閉める（しめる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "安い",
+            "back": "rẻ",
+            "romaji": "やすい",
+            "example": "安い（やすい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "遠い",
+            "back": "xa, xa xôi",
+            "romaji": "とおい",
+            "example": "遠い（とおい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "短い",
+            "back": "ngắn",
+            "romaji": "みじかい",
+            "example": "短い（みじかい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "曲がる",
+            "back": "cong, rẽ, quẹo",
+            "romaji": "まがる",
+            "example": "曲がる（まがる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "消える",
+            "back": "biến mất, tắt",
+            "romaji": "きえる",
+            "example": "消える（きえる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "消える",
+            "back": "biến mất, tắt",
+            "romaji": "きえる",
+            "example": "消える（きえる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "冷たい",
+            "back": "lạnh (khi chạm vào)",
+            "romaji": "つめたい",
+            "example": "冷たい（つめたい）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 19 — Ngữ pháp",
+        "description": "Ngữ pháp bài 19: Bài 19 — Thể ない: Phủ định dạng tự nhiên",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "V-なければなりません",
+            "back": "Ý nghĩa: Phải làm gì đó (thể hiện nghĩa vụ, trách nhiệm).\nCấu trúc: V-nai (bỏ ない) + なければなりません",
+            "romaji": "v-nakereba-narimasen",
+            "example": "毎日勉強しなければなりません。\nMỗi ngày tôi phải học bài.\n\n薬を飲まなければなりません。\nTôi phải uống thuốc.\n\n宿題をしなければなりません。\nTôi phải làm bài tập về nhà.\n\n早く起きなければなりません。\nTôi phải dậy sớm.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V-なくてもいいです",
+            "back": "Ý nghĩa: Không cần phải làm gì đó cũng được (cho phép không làm).\nCấu trúc: V-nai (bỏ ない) + くてもいいです",
+            "romaji": "v-nakutemo-ii-desu",
+            "example": "明日来なくてもいいです。\nNgày mai bạn không đến cũng được.\n\n傘を持たなくてもいいです。\nBạn không cần mang ô cũng được.\n\n残業しなくてもいいです。\nBạn không cần tăng ca cũng được.\n\n掃除しなくてもいいです。\nBạn không cần dọn dẹp cũng được.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

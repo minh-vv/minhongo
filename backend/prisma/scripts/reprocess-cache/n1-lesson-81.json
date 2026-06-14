@@ -1,0 +1,42 @@
+{
+  "order": 81,
+  "title": "Bài 81 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 81/92).",
+  "theoryMd": "### 1. 〜るべからず\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không được phép làm gì đó. Đây là cách nói cổ, mang sắc thái ra lệnh hoặc cấm đoán, thường xuất hiện trong các văn bản quy định, biển báo.\n- **Cấu trúc**: V-ru + べからず\n\n#### 📝 Ví dụ minh họa\n関係者以外、立ち入るべからず。\nNgười không phận sự cấm vào.\n\nここでの喫煙すべからず。\nCấm hút thuốc tại đây.\n\n### 2. 〜るべからざる〜\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không thể (chấp nhận/tha thứ/bỏ qua). Dùng để bổ nghĩa cho danh từ phía sau, nhấn mạnh tính chất nghiêm trọng.\n- **Cấu trúc**: V-ru + べからざる + N\n\n#### 📝 Ví dụ minh họa\n無実の人を罪に問うことは、許すべからざる行為だ。\nBuộc tội người vô tội là hành vi không thể dung thứ.\n\n研究におけるデータ改ざんは、看過すべからざる問題である。\nGian lận dữ liệu trong nghiên cứu là vấn đề không thể bỏ qua.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 81 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 81.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜るべからず",
+            "back": "Ý nghĩa: Không được phép làm gì đó (thường dùng trong biển báo, quy định mang tính nghiêm cấm).\nCấu trúc: V-ru + べからず",
+            "romaji": "ru-bekarazu",
+            "example": "関係者以外、立ち入るべからず。\nNgười không phận sự cấm vào.\n\nここでの喫煙すべからず。\nCấm hút thuốc tại đây.\n\n境内での撮影すべからず。\nCấm chụp ảnh trong khuôn viên đền/chùa.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜るべからざる〜",
+            "back": "Ý nghĩa: Điều không được phép, không thể chấp nhận được hoặc không thể bỏ qua.\nCấu trúc: V-ru + べからざる + N",
+            "romaji": "ru-bekarazaru",
+            "example": "無実の人を罪に問うことは、許すべからざる行為だ。\nBuộc tội người vô tội là hành vi không thể dung thứ.\n\n研究におけるデータ改ざんは、看過すべからざる問題である。\nGian lận dữ liệu trong nghiên cứu là vấn đề không thể bỏ qua.\n\n人権の軽視は、社会にとって看過すべからざる危機だ。\nCoi nhẹ nhân quyền là khủng hoảng không thể làm ngơ đối với xã hội.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

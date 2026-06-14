@@ -1,0 +1,35 @@
+{
+  "order": 57,
+  "title": "57. だけ",
+  "summary": "Ngữ pháp bài số 57 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜だけ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Biểu thị phạm vi giới hạn hoặc mức độ cao nhất.\n- **Cấu trúc**: N / V-thông thường / A-i / A-na (+na) + だけ\n\n#### 📝 Ví dụ minh họa\n- 寝たいだけ寝てもいいですよ。\n(Bạn có thể ngủ bao nhiêu tùy thích.)\n- 必要なだけ取ってください。\n(Hãy lấy đúng lượng bạn cần.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 57 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 57 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜だけ",
+            "back": "Ý nghĩa: Biểu thị giới hạn (chỉ) hoặc mức độ tối đa (đến mức có thể).\nCấu trúc: N / V-thông thường / A-i / A-na (+na) + だけ",
+            "romaji": "dake",
+            "example": "寝たいだけ寝てもいいですよ。\nBạn có thể ngủ bao nhiêu tùy thích.\n\n必要なだけ取ってください。\nHãy lấy đúng lượng bạn cần.\n\n歩けるだけ歩いてみよう。\nHãy thử đi bộ nhiều nhất có thể.\n\n泣きたいだけ泣けば、すっきりするよ。\nNếu cứ khóc cho thỏa thích thì sẽ thấy nhẹ lòng hơn đấy.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "order": 84,
+  "title": "84. ～ようにする B・～ようにしている",
+  "summary": "Ngữ pháp bài số 84 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜ようにしている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Cố gắng duy trì một thói quen hoặc nỗ lực làm điều gì đó đều đặn.\n- **Cấu trúc**: V-ru / V-nai + ようにしている\n\n#### 📝 Ví dụ minh họa\n- 健康のために、毎日野菜を食べるようにしている。\n(Vì sức khỏe, tôi luôn cố gắng ăn rau mỗi ngày.)\n\n- 寝る前に、スマホを見ないようにしています。\n(Tôi luôn cố gắng không xem điện thoại trước khi đi ngủ.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 84 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 84 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ようにしている",
+            "back": "Ý nghĩa: Nhấn mạnh việc lặp đi lặp lại một hành động, cố gắng duy trì thành thói quen hoặc quy tắc cá nhân.\nCấu trúc: V-ru / V-nai + ようにしている",
+            "romaji": "youni shite iru",
+            "example": "健康のために、毎日野菜を食べるようにしている。\nVì sức khỏe, tôi luôn cố gắng ăn rau mỗi ngày.\n\n寝る前に、スマホを見ないようにしています。\nTôi luôn cố gắng không xem điện thoại trước khi đi ngủ.\n\nなるべく階段を使うようにしています。\nTôi luôn cố gắng sử dụng cầu thang bộ nhiều nhất có thể.\n\n毎日15分は読書をするようにしている。\nTôi luôn cố gắng dành 15 phút đọc sách mỗi ngày.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

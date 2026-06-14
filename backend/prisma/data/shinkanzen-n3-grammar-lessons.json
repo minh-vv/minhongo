@@ -3,7 +3,7 @@
     "order": 1,
     "title": "1. ～うちに…",
     "summary": "Ngữ pháp bài số 1 sách Shinkanzen Master N3 (2 thẻ).",
-    "theoryMd": "# 1. ～うちに…\n\n## Phần A\n> 🔧 **Cấu trúc:** `名の・動辞書形/ている/ない形・い・な ＋ うちに`\n>\n> 📖 **Ý nghĩa:** *「～の状態が変わる前に、…する。」～は変化する前の状態を表す言葉。…は意志的な動作を表す文。Trước khi trạng thái ~ có sự thay đổi hành động…~ là từ thể hiện trạng thái trước khi có sự thay đổi.… là câu văn thể hiện hành động mang ý chí.*\n\n### Ví dụ:\n\n## Phần B\n> 🔧 **Cấu trúc:** `動辞書形/ている/ない形 + うちに`\n>\n> 📖 **Ý nghĩa:** *「～の状態が続いているときに、…に変わる。」 ～は継続的なことを表す言葉。…は変化を表す文で、話者の意思が入らない文。Trong khi trạng thái ~ đang tiếp diễn thì có một sự thay đổi … xãy ra.~ là từ ngữ thể hiện sự biến đổi và không bao hàm ý chí của người nói.… là câu văn thể hiện sự biến đổi và không bao hàm ý chí của người nói.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～うちに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa 1:** Tranh thủ lúc điều kiện còn thuận lợi (trước khi trạng thái kết thúc) để làm gì đó. (Có ý chí)\n- **Ý nghĩa 2:** Trong lúc làm gì đó thì có sự thay đổi tự nhiên xảy ra. (Không có ý chí)\n- **Cấu trúc:** N-no / V-ru / V-teiru / V-nai / Adj-i / Adj-na + うちに\n\n#### 📝 Ví dụ minh họa\n- 若いうちに、いろいろな経験をしたほうがいい。\n- 話しているうちに、だんだん相手の意見に賛成するようになった。",
     "skills": [
       "GRAMMAR"
     ],
@@ -19,17 +19,17 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜うちに…",
-              "back": "Cấu trúc: 名の・動辞書形/ている/ない形・い・な ＋ うちに\n\nÝ nghĩa: 「～の状態が変わる前に、…する。」～は変化する前の状態を表す言葉。…は意志的な動作を表す文。Trước khi trạng thái ~ có sự thay đổi hành động…~ là từ thể hiện trạng thái trước khi có sự thay đổi.… là câu văn thể hiện hành động mang ý chí.",
-              "romaji": "",
-              "example": "",
+              "front": "〜うちに",
+              "back": "Ý nghĩa: Trong khi trạng thái còn chưa thay đổi thì hãy thực hiện một hành động có chủ đích.\nCấu trúc: N-no / V-ru / V-teiru / V-nai / Adj-i / Adj-na + うちに",
+              "romaji": "uchini",
+              "example": "日本にいるうちに、一度富士山に登ってみたい。\nKhi còn ở Nhật, tôi muốn thử một lần leo núi Phú Sĩ.\n\n若いうちに、いろいろな経験をしたほうがいい。\nKhi còn trẻ, nên trải nghiệm nhiều điều.\n\n雨が降らないうちに、洗濯物を取り込もう。\nTrong khi trời chưa mưa, hãy mang quần áo vào.\n\n暗くならないうちに、帰ったほうがいい。\nTrước khi trời tối, nên về nhà thôi.",
               "jlptLevel": 3
             },
             {
-              "front": "〜うちに…",
-              "back": "Cấu trúc: 動辞書形/ている/ない形 + うちに\n\nÝ nghĩa: 「～の状態が続いているときに、…に変わる。」 ～は継続的なことを表す言葉。…は変化を表す文で、話者の意思が入らない文。Trong khi trạng thái ~ đang tiếp diễn thì có một sự thay đổi … xãy ra.~ là từ ngữ thể hiện sự biến đổi và không bao hàm ý chí của người nói.… là câu văn thể hiện sự biến đổi và không bao hàm ý chí của người nói.",
-              "romaji": "",
-              "example": "",
+              "front": "〜うちに",
+              "back": "Ý nghĩa: Trong khi đang thực hiện một hành động nào đó thì một sự thay đổi diễn ra ngoài ý muốn.\nCấu trúc: V-ru / V-teiru / V-nai + うちに",
+              "romaji": "uchini",
+              "example": "知らないうちに、彼女は私の財布からお金を抜き取っていた。\nLúc tôi không biết, cô ấy đã lấy tiền từ ví của tôi.\n\nこの本を読んでいるうちに、眠ってしまった。\nTrong lúc đang đọc cuốn sách này, tôi đã ngủ quên mất.\n\n話しているうちに、だんだん相手の意見に賛成するようになった。\nTrong lúc đang nói chuyện, tôi dần dần trở nên đồng ý với ý kiến của đối phương.\n\nテレビを見ているうちに、いつの間にか寝てしまった。\nTrong khi xem tivi, tôi đã ngủ quên lúc nào không hay.",
               "jlptLevel": 3
             }
           ]
@@ -45,7 +45,7 @@
     "order": 2,
     "title": "2. ～間…・～間に…",
     "summary": "Ngữ pháp bài số 2 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 2. ～間…・～間に…\n\n> 🔧 **Cấu trúc:** `名の・動辞書形/ている/ない形 ＋間・間に`\n>\n> 📖 **Ý nghĩa:** *～間・・・：「～の状態が続いているとき、ずっと…する・ずっと…の状態だ。」～は継続的なことを表す言葉。…継続的なことを表す文。Trong khi trạng thái ~ đang tiếp diễn thì một trạng thái … được thực hiện/ được diễn ra suốt thời gian đó.~ là từ ngữ thể hiện sự việc được duy trì trong khoảng thời gian dài nhất định.… cũng là câu văn thể hiện sự việc được duy trì trong khoảng thời gian dài nhất định. ～間に・・・：「～の状態が続いているとき、 …する・…が起こる。」 ～は継続的なことを表す言葉。…は瞬間的なことを表す文。Trong khi trạng thái ~ đang tiếp diễn thì thực hiện …/… xảy ra.~ là từ ngữ thể hiện sự việc được duy trì trong khoảng thời gian dài nhất định.… là câu văn thể hiện sự việc diễn ra trong khoảng thời gian ngắn.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～間／～間に\n#### 💡 Cấu trúc & Ý nghĩa\n- **～間:** Diễn tả hành động diễn ra xuyên suốt thời gian của trạng thái khác.\n- **～間に:** Diễn tả hành động xảy ra tại một thời điểm ngắn trong khoảng thời gian trạng thái khác đang diễn ra.\n- **Cấu trúc:** N-no / V-ru / V-teiru / V-nai + 間 / 間に\n\n#### 📝 Ví dụ minh họa\n- 母が買い物に行っている間、ずっと弟の面倒を見ていた。\n- 母が買い物に行っている間に、弟が寝てしまった。",
     "skills": [
       "GRAMMAR"
     ],
@@ -61,10 +61,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜間…・〜間に…",
-              "back": "Cấu trúc: 名の・動辞書形/ている/ない形 ＋間・間に\n\nÝ nghĩa: ～間・・・：「～の状態が続いているとき、ずっと…する・ずっと…の状態だ。」～は継続的なことを表す言葉。…継続的なことを表す文。Trong khi trạng thái ~ đang tiếp diễn thì một trạng thái … được thực hiện/ được diễn ra suốt thời gian đó.~ là từ ngữ thể hiện sự việc được duy trì trong khoảng thời gian dài nhất định.… cũng là câu văn thể hiện sự việc được duy trì trong khoảng thời gian dài nhất định. ～間に・・・：「～の状態が続いているとき、 …する・…が起こる。」 ～は継続的なことを表す言葉。…は瞬間的なことを表す文。Trong khi trạng thái ~ đang tiếp diễn thì thực hiện …/… xảy ra.~ là từ ngữ thể hiện sự việc được duy trì trong khoảng thời gian dài nhất định.… là câu văn thể hiện sự việc diễn ra trong khoảng thời gian ngắn.",
-              "romaji": "",
-              "example": "",
+              "front": "〜間／〜間に",
+              "back": "Ý nghĩa: ～間 là hành động kéo dài suốt trong khi một trạng thái khác diễn ra. ～間に là hành động diễn ra tại một thời điểm trong khi trạng thái khác đang tiếp diễn.\nCấu trúc: N-no / V-ru / V-teiru / V-nai + 間／間に",
+              "romaji": "aida / aida-ni",
+              "example": "母が買い物に行っている間、ずっと弟の面倒を見ていた。\nTrong lúc mẹ đi mua sắm, tôi đã trông em trai suốt.\n\n母が買い物に行っている間に、弟が寝てしまった。\nTrong lúc mẹ đi mua sắm, em trai tôi đã ngủ thiếp đi.\n\n私が日本にいる間に、富士山に登りたいです。\nTrong lúc tôi đang ở Nhật, tôi muốn leo núi Phú Sĩ.\n\n留守の間に、手紙が届いた。\nTrong lúc tôi vắng nhà, thư đã được gửi đến.",
               "jlptLevel": 3
             }
           ]
@@ -80,7 +80,7 @@
     "order": 3,
     "title": "3. ～てからでないと…・～てからでなければ…",
     "summary": "Ngữ pháp bài số 3 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 3. ～てからでないと…・～てからでなければ…\n\n> 🔧 **Cấu trúc:** `動て形 ＋からでないと・からでなければ`\n>\n> 📖 **Ý nghĩa:** *「～の前は…の状態が続く。」…は否定的な意味やマイナスの状態を表す文。Trước khi/Cho đến khi ~ thì trạng thái … vẫn tiếp tục.… là câu văn thể hiện ý phủ định hoặc trạng thái tiêu cực.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～てからでないと／～てからでなければ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ điều kiện cần. Phải làm xong vế trước thì vế sau mới làm được (thường vế sau mang nghĩa phủ định).\n- **Cấu trúc:** V-te + からでないと / からでなければ\n\n#### 📝 Ví dụ minh họa\n- 契約書をよく読んでからでないと、サインしてはいけません。\n- 実際に会って話してからでないと、信用できない。",
     "skills": [
       "GRAMMAR"
     ],
@@ -96,10 +96,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜てからでないと…・〜てからでなければ…",
-              "back": "Cấu trúc: 動て形 ＋からでないと・からでなければ\n\nÝ nghĩa: 「～の前は…の状態が続く。」…は否定的な意味やマイナスの状態を表す文。Trước khi/Cho đến khi ~ thì trạng thái … vẫn tiếp tục.… là câu văn thể hiện ý phủ định hoặc trạng thái tiêu cực.",
-              "romaji": "",
-              "example": "",
+              "front": "〜てからでないと／〜てからでなければ",
+              "back": "Ý nghĩa: Nếu không thực hiện việc ở vế trước thì việc ở vế sau không thể xảy ra hoặc không thể thực hiện.\nCấu trúc: V-te + からでないと／からでなければ",
+              "romaji": "tekaranideinito / tekaranidekereba",
+              "example": "契約書をよく読んでからでないと、サインしてはいけません。\nNếu chưa đọc kỹ hợp đồng thì không được ký.\n\n実際に会って話してからでないと、信用できない。\nNếu chưa gặp mặt nói chuyện trực tiếp thì không thể tin tưởng được.\n\nこの薬は医者の許可を得てからでなければ、飲んではいけません。\nLoại thuốc này nếu chưa được sự cho phép của bác sĩ thì không được uống.\n\n雨が止んでからでなければ、出発することはできません。\nNếu trời chưa tạnh mưa thì không thể xuất phát được.",
               "jlptLevel": 3
             }
           ]
@@ -115,7 +115,7 @@
     "order": 4,
     "title": "4. ～ところだ・～ところ（＋助詞）…",
     "summary": "Ngữ pháp bài số 4 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 4. ～ところだ・～ところ（＋助詞）…\n\n> 🔧 **Cấu trúc:** `動辞書形/ている/た形＋ところだ ・ ところ（＋助詞）`\n>\n> 📖 **Ý nghĩa:** *「～の直前だ（①）・進行中だ（②）・直後だ（③④）。」文中では、後に来る動詞によって「ところを・ところで・ ことろへ」などの形になる。Ngay trước khi~ (①)/ Trong khi đang ~ (②)/ Ngay sau khi (③④).Trong câu, tùy thuộc vào động từ đứng sau mà trợ từ đi kèm thay đổi theo các dạng như \"ところを／ところで／ところへ／v.v. \".*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ところだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **V-ruところ:** Sắp sửa thực hiện hành động.\n- **V-teiruところ:** Đang thực hiện hành động.\n- **V-taところ:** Vừa mới kết thúc hành động.\n- **Cấu trúc:** V-ru / V-teiru / V-ta + ところ\n\n#### 📝 Ví dụ minh họa\n- 今から出かけるところだ。\n- 宿題をしているところだよ。",
     "skills": [
       "GRAMMAR"
     ],
@@ -131,10 +131,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜ところだ・〜ところ（＋助詞）…",
-              "back": "Cấu trúc: 動辞書形/ている/た形＋ところだ ・ ところ（＋助詞）\n\nÝ nghĩa: 「～の直前だ（①）・進行中だ（②）・直後だ（③④）。」文中では、後に来る動詞によって「ところを・ところで・ ことろへ」などの形になる。Ngay trước khi~ (①)/ Trong khi đang ~ (②)/ Ngay sau khi (③④).Trong câu, tùy thuộc vào động từ đứng sau mà trợ từ đi kèm thay đổi theo các dạng như \"ところを／ところで／ところへ／v.v. \".",
-              "romaji": "",
-              "example": "",
+              "front": "〜ところだ／〜ところ（＋助詞）",
+              "back": "Ý nghĩa: Diễn tả thời điểm hành động: sắp làm (V-ru), đang làm (V-teiru), vừa mới làm xong (V-ta).\nCấu trúc: V-ru / V-teiru / V-ta + ところ（だ・を・へ・で）",
+              "romaji": "tokoro-da / tokoro-joshi",
+              "example": "今から出かけるところだ。\nTôi sắp sửa ra ngoài đây.\n\n宿題をしているところだよ。\nTớ đang làm bài tập.\n\n電車は今、駅を出たところです。\nChuyến tàu vừa mới rời ga.\n\nちょうど今、ご飯を食べたところです。\nVừa mới ăn cơm xong.",
               "jlptLevel": 3
             }
           ]
@@ -150,7 +150,7 @@
     "order": 5,
     "title": "5. ～とおりだ・とおり（に）…・～どおりだ・～どおり（に）…",
     "summary": "Ngữ pháp bài số 5 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 5. ～とおりだ・とおり（に）…・～どおりだ・～どおり（に）…\n\n> 🔧 **Cấu trúc:** `名の・ 動辞書形/た形/てある/ている＋通りだ・通り（に）`\n>\n> 📖 **Ý nghĩa:** *「～が違えば…。」 …は一定ではないことを表す文（さまざまだ・変えるなど）。「～によっては…」の…は、いろいろな場合のうちの一つの例を言う文。Theo đúng như ~ , làm … theo như ~.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～とおりだ／〜どおりだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Làm, thực hiện đúng theo nội dung đã biết/nghe/đọc/thấy.\n- **Cấu trúc:** V-ru / V-ta / V-te-aru / V-te-iru / N-no / N + とおりだ / どおりだ\n\n#### 📝 Ví dụ minh họa\n- 先生が言ったとおり、試験は難しかったです。\n- 私の計画どおりに、全てがうまくいった。",
     "skills": [
       "GRAMMAR"
     ],
@@ -166,10 +166,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜とおりだ・とおり（に）…・〜どおりだ・〜どおり（に）…",
-              "back": "Cấu trúc: 名の・ 動辞書形/た形/てある/ている＋通りだ・通り（に）\n\nÝ nghĩa: 「～が違えば…。」 …は一定ではないことを表す文（さまざまだ・変えるなど）。「～によっては…」の…は、いろいろな場合のうちの一つの例を言う文。Theo đúng như ~ , làm … theo như ~.",
-              "romaji": "",
-              "example": "",
+              "front": "〜とおりだ／〜とおりに／〜どおりだ／〜どおりに",
+              "back": "Ý nghĩa: Làm một việc theo đúng cách thức, thông tin đã biết hoặc đã chỉ dẫn.\nCấu trúc: V-ru / V-ta / V-te-aru / V-te-iru / N-no / N + とおりだ／とおりに／どおりだ／どおりに",
+              "romaji": "toori-da / toori-ni / doori-da / doori-ni",
+              "example": "先生が言ったとおり、試験は難しかったです。\nĐúng như thầy giáo nói, đề thi rất khó.\n\n図のとおりに、線を引いてください。\nHãy vẽ đường thẳng theo đúng như trong hình.\n\n私の計画どおりに、全てがうまくいった。\nMọi thứ đã diễn ra suôn sẻ đúng như kế hoạch của tôi.\n\n壁に貼ってある説明書のとおりに組み立ててください。\nHãy lắp ráp theo đúng như hướng dẫn dán trên tường.",
               "jlptLevel": 3
             }
           ]
@@ -185,7 +185,7 @@
     "order": 6,
     "title": "6. ～によって…・～によっては…",
     "summary": "Ngữ pháp bài số 6 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 6. ～によって…・～によっては…\n\n> 🔧 **Cấu trúc:** `名 ＋によって ・ によっては`\n>\n> 📖 **Ý nghĩa:** *「～が違えば…。」 …は一定ではないことを表す文（さまざまだ・変えるなど）。「～によっては…」の…は、いろいろな場合のうちの一つの例を言う文。Nếu ~ khác thì … … là câu văn thể hiện sự không cố định ( 様々だ／変える v.v.)… trong ~ によっては… là câu văn đưa ra một số ví dụ trong nhiều trường hợp.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～によって / 〜によっては\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Diễn tả nguyên nhân, phương pháp hoặc sự thay đổi tùy theo từng trường hợp (không cố định). Với ～によっては, nhấn mạnh vào việc đưa ra một trường hợp cụ thể trong nhiều khả năng.\n- **Công thức:** Danh từ + によって / によっては\n\n#### 📝 Ví dụ minh họa\n- インターネットによって、世界中の情報が瞬時に手に入る。\n(Nhờ internet, thông tin trên khắp thế giới có thể được nắm bắt ngay lập tức.)\n- 国によって、文化や習慣が大きく異なります。\n(Tùy theo quốc gia, văn hóa và phong tục tập quán khác nhau rất nhiều.)\n- この店は週末には混むが、時間帯によってはすぐ入れることもある。\n(Cửa hàng này đông vào cuối tuần, nhưng tùy theo khung giờ mà đôi khi có thể vào ngay được.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -201,10 +201,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜によって…・〜によっては…",
-              "back": "Cấu trúc: 名 ＋によって ・ によっては\n\nÝ nghĩa: 「～が違えば…。」 …は一定ではないことを表す文（さまざまだ・変えるなど）。「～によっては…」の…は、いろいろな場合のうちの一つの例を言う文。Nếu ~ khác thì … … là câu văn thể hiện sự không cố định ( 様々だ／変える v.v.)… trong ~ によっては… là câu văn đưa ra một số ví dụ trong nhiều trường hợp.",
-              "romaji": "",
-              "example": "",
+              "front": "〜によって / 〜によっては",
+              "back": "Ý nghĩa: Diễn tả nguyên nhân, phương pháp hoặc sự khác biệt tùy thuộc vào yếu tố nào đó (khi sự việc không cố định mà thay đổi theo một yếu tố). Dùng '～によっては' để đưa ra một ví dụ, trường hợp đặc biệt.\nCấu trúc: N + によって / によっては",
+              "romaji": "ni-yotte / ni-yotte-wa",
+              "example": "インターネットによって、世界中の情報が瞬時に手に入る。\nNhờ internet, thông tin trên khắp thế giới có thể được nắm bắt ngay lập tức.\n\n国によって、文化や習慣が大きく異なります。\nTùy theo quốc gia, văn hóa và phong tục tập quán khác nhau rất nhiều.\n\nこの店は週末には混むが、時間帯によってはすぐ入れることもある。\nCửa hàng này đông vào cuối tuần, nhưng tùy theo khung giờ mà đôi khi có thể vào ngay được.",
               "jlptLevel": 3
             }
           ]
@@ -220,7 +220,7 @@
     "order": 7,
     "title": "7. ～たびに…",
     "summary": "Ngữ pháp bài số 7 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 7. ～たびに…\n\n> 🔧 **Cấu trúc:** `名の・動辞書形 ＋たびに`\n>\n> 📖 **Ý nghĩa:** *「～のとき、毎回同じように…する。」 毎回同じだということを特に言いたいときに使う。日常の当然のことには使わない。～・ …には状態を表す文は来ない。Khi ~ thì lại diễn ra hành động … giống như mọi lần.Cấu trúc này được sử dụng khi đặc biệt muốn thể hiện rằng lần nào cũng như vậy.Không sử dụng cấu trúc này với những sự việc hiển nhiên trong cuộc sống hằng ngày.~ và … không dùng những câu thể hiện trạng thái.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～たびに\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Diễn tả hành động diễn ra lặp đi lặp lại mỗi khi có một sự việc nào đó xảy ra. Lưu ý: Không dùng cho các trạng thái hiển nhiên.\n- **Công thức:** Nの / V-る + たびに\n\n#### 📝 Ví dụ minh họa\n- この曲を聞くたびに、学生時代を思い出す。\n(Mỗi lần nghe bài hát này, tôi lại nhớ về thời học sinh.)\n- 海外旅行に行くたびに、新しい文化に触れることができる。\n(Mỗi lần đi du lịch nước ngoài, tôi lại có thể tiếp xúc với một nền văn hóa mới.)\n- 彼は会議のたびに、必ず意見を言う。\n(Anh ấy cứ mỗi lần họp là lại nhất định phát biểu ý kiến.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -236,10 +236,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜たびに…",
-              "back": "Cấu trúc: 名の・動辞書形 ＋たびに\n\nÝ nghĩa: 「～のとき、毎回同じように…する。」 毎回同じだということを特に言いたいときに使う。日常の当然のことには使わない。～・ …には状態を表す文は来ない。Khi ~ thì lại diễn ra hành động … giống như mọi lần.Cấu trúc này được sử dụng khi đặc biệt muốn thể hiện rằng lần nào cũng như vậy.Không sử dụng cấu trúc này với những sự việc hiển nhiên trong cuộc sống hằng ngày.~ và … không dùng những câu thể hiện trạng thái.",
-              "romaji": "",
-              "example": "",
+              "front": "〜たびに",
+              "back": "Ý nghĩa: Mỗi khi làm gì đó thì một hành động khác lại diễn ra. Nhấn mạnh sự lặp lại giống nhau mỗi khi xảy ra sự việc.\nCấu trúc: Nの / V-る + たびに",
+              "romaji": "tabi-ni",
+              "example": "この曲を聞くたびに、学生時代を思い出す。\nMỗi lần nghe bài hát này, tôi lại nhớ về thời học sinh.\n\n海外旅行に行くたびに、新しい文化に触れることができる。\nMỗi lần đi du lịch nước ngoài, tôi lại có thể tiếp xúc với một nền văn hóa mới.\n\n彼は会議のたびに、必ず意見を言う。\nAnh ấy cứ mỗi lần họp là lại nhất định phát biểu ý kiến.",
               "jlptLevel": 3
             }
           ]
@@ -255,7 +255,7 @@
     "order": 8,
     "title": "8. （～ば）～ほど…・（～なら）～ほど…・～ほど…",
     "summary": "Ngữ pháp bài số 8 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 8. （～ば）～ほど…・（～なら）～ほど…・～ほど…\n\n> 🔧 **Cấu trúc:** `動ば形 ＋動辞書形 ＋ほど`\n>\n> 📖 **Ý nghĩa:** *「～の程度が進めば、その分…の程度も進む。」Nếu mức độ ~ tiến triển thì mức độ ….cũng tiến triển lên ngần đó.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ば～ほど\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Thể hiện sự tương quan tỷ lệ thuận/nghịch: khi mức độ của vế trước tăng lên thì vế sau cũng thay đổi theo.\n- **Công thức:** \n - Động từ: V-ば V-る + ほど\n - Tính từ -i: A-ければ A-い + ほど\n - Tính từ -na: Na-であれば Na-である + ほど\n - Danh từ: N-であれば N-である + ほど\n\n#### 📝 Ví dụ minh họa\n- 勉強すればするほど、日本語が面白くなる。\n(Càng học, tiếng Nhật càng trở nên thú vị.)\n- 荷物は多ければ多いほど、運ぶのが大変だ。\n(Hành lý càng nhiều thì việc vận chuyển càng vất vả.)\n- 操作が簡単であればあるほど、使いやすい。\n(Thao tác càng đơn giản thì càng dễ sử dụng.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -271,10 +271,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "（〜ば）〜ほど…・（〜なら）〜ほど…・〜ほど…",
-              "back": "Cấu trúc: 動ば形 ＋動辞書形 ＋ほど\n\nÝ nghĩa: 「～の程度が進めば、その分…の程度も進む。」Nếu mức độ ~ tiến triển thì mức độ ….cũng tiến triển lên ngần đó.",
-              "romaji": "",
-              "example": "",
+              "front": "〜ば〜ほど",
+              "back": "Ý nghĩa: Diễn tả việc một điều gì đó tiến triển (tăng/giảm) thì mức độ của một điều khác cũng tiến triển tương ứng (Càng... càng...).\nCấu trúc: V-ばVる / A-ければAい / NaであればNaである / NであればNである + ほど",
+              "romaji": "ba-hodo",
+              "example": "勉強すればするほど、日本語が面白くなる。\nCàng học, tiếng Nhật càng trở nên thú vị.\n\n荷物は多ければ多いほど、運ぶのが大変だ。\nHành lý càng nhiều thì việc vận chuyển càng vất vả.\n\n操作が簡単であればあるほど、使いやすい。\nThao tác càng đơn giản thì càng dễ sử dụng.",
               "jlptLevel": 3
             }
           ]
@@ -290,7 +290,7 @@
     "order": 9,
     "title": "9. ～ついでに…",
     "summary": "Ngữ pháp bài số 9 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 9. ～ついでに…\n\n> 🔧 **Cấu trúc:** `名する の・動辞書形/た形 ＋ついでに`\n>\n> 📖 **Ý nghĩa:** *「～するとき、その期間を利用して…もする。」二つの別々のことを同時にやってしまうと言いたいときに使う。～が本来の行為、…はそれに加えてする、目的のある意志的行為。Khi làm ~ thì tận dụng cơ hội đó cùng làm … luôn.Được sử dụng khi muốn nói làm luôn hai việc riêng lẽ cùng một lúc cho xong.~ là hành động ban đầu, … là hành động thực hiện thêm và là hành động mang tính ý chí có mục đích.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ついでに\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Nhân tiện làm hành động chính, thực hiện thêm một hành động khác. Việc chính là mục đích ban đầu, việc phụ là việc tranh thủ.\n- **Công thức:** N-の / V-る / V-た + ついでに\n\n#### 📝 Ví dụ minh họa\n- コンビニへ行くついでに、切手を買ってきてくれない？\n(Tiện thể đi siêu thị, bạn mua hộ tôi ít tem được không?)\n- 散歩のついでに、ちょっと郵便局に寄ってきた。\n(Tiện đi dạo, tôi ghé qua bưu điện một chút.)\n- 旅行のついでに、実家に寄って両親の顔を見てきた。\n(Tiện chuyến đi du lịch, tôi ghé về nhà bố mẹ để thăm mặt bố mẹ.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -306,10 +306,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜ついでに…",
-              "back": "Cấu trúc: 名する の・動辞書形/た形 ＋ついでに\n\nÝ nghĩa: 「～するとき、その期間を利用して…もする。」二つの別々のことを同時にやってしまうと言いたいときに使う。～が本来の行為、…はそれに加えてする、目的のある意志的行為。Khi làm ~ thì tận dụng cơ hội đó cùng làm … luôn.Được sử dụng khi muốn nói làm luôn hai việc riêng lẽ cùng một lúc cho xong.~ là hành động ban đầu, … là hành động thực hiện thêm và là hành động mang tính ý chí có mục đích.",
-              "romaji": "",
-              "example": "",
+              "front": "〜ついでに",
+              "back": "Ý nghĩa: Nhân tiện làm một việc này thì làm luôn một việc khác trong cùng một khoảng thời gian/cơ hội.\nCấu trúc: Nの / V-る / V-た + ついでに",
+              "romaji": "tsuide-ni",
+              "example": "コンビニへ行くついでに、切手を買ってきてくれない？\nTiện thể đi siêu thị, bạn mua hộ tôi ít tem được không?\n\n散歩のついでに、ちょっと郵便局に寄ってきた。\nTiện đi dạo, tôi ghé qua bưu điện một chút.\n\n旅行のついでに、実家に寄って両親の顔を見てきた。\nTiện chuyến đi du lịch, tôi ghé về nhà bố mẹ để thăm mặt bố mẹ.",
               "jlptLevel": 3
             }
           ]
@@ -325,7 +325,7 @@
     "order": 10,
     "title": "10. ～くらいだ・～ぐらいだ・～くらい…・～ぐらい…・ほどだ・～ほど…",
     "summary": "Ngữ pháp bài số 10 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 10. ～くらいだ・～ぐらいだ・～くらい…・～ぐらい…・ほどだ・～ほど…\n\n> 🔧 **Cấu trúc:** `名・動普通形（な形だ－な） ＋くらいだ・ぐらいだ・くらい・ぐらい`\n>\n> 📖 **Ý nghĩa:** *「～と同じ程度だ・～と同じ程度に… 。」 程度の強さを表すために、ある状況に例えて言うときに使う。⑥のように、「～かと思うくらい・かと思うほど」の形でもよく使う。Mức độ giống như ~ / giống như là ~.Được sử dụng khi ví sự việc với một trạng thái nào đó nhằm thể hiện mức độ.Cách nói ～ かと思うくらい・～かと思うほど như ở ví dụ ⑥ cũng hay được sử dụng.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～くらいだ / 〜ほどだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để nhấn mạnh mức độ của một trạng thái hoặc hành động thông qua việc so sánh ví von.\n- **Công thức:** \n - Động từ: V-thuờng + くらい/ほど\n - Tính từ -i: A-い + くらい/ほど\n - Tính từ -na: Na-な + くらい/ほど\n - Danh từ: N + くらい/ほど\n\n#### 📝 Ví dụ minh họa\n- 疲れて、何もしたくないくらいだ。\n(Mệt đến mức không muốn làm gì cả.)\n- 痛くて、泣きたいぐらいだった。\n(Đau đến mức muốn khóc.)\n- 彼女の歌はプロの歌手かと思うほど上手だ。\n(Cô ấy hát hay đến mức cứ ngỡ là ca sĩ chuyên nghiệp.)\n- あの店のラーメンは、毎日食べても飽きないほど美味しい。\n(Mì ramen ở quán đó ngon đến mức ăn mỗi ngày cũng không chán.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -341,10 +341,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜くらいだ・〜ぐらいだ・〜くらい…・〜ぐらい…・ほどだ・〜ほど…",
-              "back": "Cấu trúc: 名・動普通形（な形だ－な） ＋くらいだ・ぐらいだ・くらい・ぐらい\n\nÝ nghĩa: 「～と同じ程度だ・～と同じ程度に… 。」 程度の強さを表すために、ある状況に例えて言うときに使う。⑥のように、「～かと思うくらい・かと思うほど」の形でもよく使う。Mức độ giống như ~ / giống như là ~.Được sử dụng khi ví sự việc với một trạng thái nào đó nhằm thể hiện mức độ.Cách nói ～ かと思うくらい・～かと思うほど như ở ví dụ ⑥ cũng hay được sử dụng.",
-              "romaji": "",
-              "example": "",
+              "front": "〜くらいだ / 〜ほどだ",
+              "back": "Ý nghĩa: Diễn tả mức độ của trạng thái/hành động đến mức độ nào đó bằng cách so sánh, ví von. (Đến mức... / Đến độ...).\nCấu trúc: V/A/Na/N (thể thường) + くらいだ / ほどだ",
+              "romaji": "kurai-da / hodo-da",
+              "example": "疲れて、何もしたくないくらいだ。\nMệt đến mức không muốn làm gì cả.\n\n痛くて、泣きたいぐらいだった。\nĐau đến mức muốn khóc.\n\n彼女の歌はプロの歌手かと思うほど上手だ。\nCô ấy hát hay đến mức cứ ngỡ là ca sĩ chuyên nghiệp.\n\nあの店のラーメンは、毎日食べても飽きないほど美味しい。\nMì ramen ở quán đó ngon đến mức ăn mỗi ngày cũng không chán.",
               "jlptLevel": 3
             }
           ]
@@ -360,7 +360,7 @@
     "order": 11,
     "title": "11. ～くらい…はない・～ぐらい…はない・～ほど…はない",
     "summary": "Ngữ pháp bài số 11 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 11. ～くらい…はない・～ぐらい…はない・～ほど…はない\n\n> 🔧 **Cấu trúc:** `名 ＋くらい…はない・ぐらい…はない`\n>\n> 📖 **Ý nghĩa:** *「～がいちばん…。」客観的な事実ではなくて、話者が主観的に言うときに使う。Được sử dụng khi người nói muốn đưa ra cảm nhận chủ quan của họ chứ không phải là một sự thật khách quan.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～くらい…はない・～ぐらい…はない・～ほど…はない\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Không có gì hay ai sánh bằng ~. Mẫu câu dùng để diễn tả cảm nhận chủ quan của người nói rằng ~ là nhất, không có gì/ai vượt qua được.\n- **Cấu trúc:** N + くらい / ぐらい / ほど + … はない\n\n#### 📝 Ví dụ minh họa\n- 彼ほど優しい人はいない。\n- Không có ai hiền lành bằng anh ấy.\n\n- この景色くらい美しいものはない。\n- Không có cảnh đẹp nào bằng cảnh này.\n\n- 家族と一緒に過ごす時間ほど幸せなものはない。\n- Không có điều gì hạnh phúc bằng thời gian ở bên gia đình.\n\n- これほど悲しいことはない。\n- Không có việc gì buồn hơn việc này.",
     "skills": [
       "GRAMMAR"
     ],
@@ -377,9 +377,9 @@
           "cards": [
             {
               "front": "〜くらい…はない・〜ぐらい…はない・〜ほど…はない",
-              "back": "Cấu trúc: 名 ＋くらい…はない・ぐらい…はない\n\nÝ nghĩa: 「～がいちばん…。」客観的な事実ではなくて、話者が主観的に言うときに使う。Được sử dụng khi người nói muốn đưa ra cảm nhận chủ quan của họ chứ không phải là một sự thật khách quan.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Không có gì, không có ai sánh bằng ~ (nhấn mạnh mức độ cao nhất).\nCấu trúc: N + くらい / ぐらい / ほど + ... はない",
+              "romaji": "kurai-wa-nai-gurai-wa-nai-hodo-wa-nai",
+              "example": "彼ほど優しい人はいない。\nKhông có ai hiền lành bằng anh ấy.\n\nこの景色くらい美しいものはない。\nKhông có cảnh đẹp nào bằng cảnh này.\n\n家族と一緒に過ごす時間ほど幸せなものはない。\nKhông có điều gì hạnh phúc bằng thời gian ở bên gia đình.\n\nこれほど悲しいことはない。\nKhông có việc gì buồn hơn việc này.",
               "jlptLevel": 3
             }
           ]
@@ -395,7 +395,7 @@
     "order": 12,
     "title": "12. ～くらいなら…・～ぐらいなら…",
     "summary": "Ngữ pháp bài số 12 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 12. ～くらいなら…・～ぐらいなら…\n\n> 🔧 **Cấu trúc:** `動辞書形 ＋くらいなら・ぐらいなら`\n>\n> 📖 **Ý nghĩa:** *「～というよくない状況に比べれば、…の方が少しはいい。」客観的に事実ではなくて、話者が主観的に言うときに使う。Nếu so với trạng thái không được hay cho lắm là ~ thì là … còn tốt hơn chút ít.Được sử dụng khi người nói muốn đưa ra cảm nhận chủ quan của họ chứ không phải là một sự thật khách quan.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～くらいなら…・～ぐらいなら…\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để so sánh: nếu phải trải qua một tình huống không mong muốn (ở vế trước) thì thà thực hiện một hành động khác (ở vế sau) còn tốt hơn.\n- **Cấu trúc:** V-ru + くらいなら / ぐらいなら\n\n#### 📝 Ví dụ minh họa\n- こんな屈辱を味わうくらいなら、死んだほうがましだ。\n- Thà chết còn hơn là phải chịu đựng sự sỉ nhục này.\n\n- 人に頼んで嫌な顔をされるくらいなら、自分でやった方がいい。\n- Thà tự mình làm còn hơn là nhờ vả người khác lại bị khó chịu.\n\n- 遅刻するぐらいなら、約束をキャンセルした方がいい。\n- Thà hủy buổi hẹn còn hơn là đến muộn.\n\n- 中途半端にやるくらいなら、やらないほうがいい。\n- Thà không làm còn hơn là làm nửa vời.",
     "skills": [
       "GRAMMAR"
     ],
@@ -412,9 +412,9 @@
           "cards": [
             {
               "front": "〜くらいなら…・〜ぐらいなら…",
-              "back": "Cấu trúc: 動辞書形 ＋くらいなら・ぐらいなら\n\nÝ nghĩa: 「～というよくない状況に比べれば、…の方が少しはいい。」客観的に事実ではなくて、話者が主観的に言うときに使う。Nếu so với trạng thái không được hay cho lắm là ~ thì là … còn tốt hơn chút ít.Được sử dụng khi người nói muốn đưa ra cảm nhận chủ quan của họ chứ không phải là một sự thật khách quan.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Nếu phải chịu tình huống ~ (xấu) thì thà chọn làm việc khác còn hơn.\nCấu trúc: V-ru + くらいなら / ぐらいなら",
+              "romaji": "kurai-nara-gurai-nara",
+              "example": "こんな屈辱を味わうくらいなら、死んだほうがましだ。\nThà chết còn hơn là phải chịu đựng sự sỉ nhục này.\n\n人に頼んで嫌な顔をされるくらいなら、自分でやった方がいい。\nThà tự mình làm còn hơn là nhờ vả người khác lại bị khó chịu.\n\n遅刻するぐらいなら、約束をキャンセルした方がいい。\nThà hủy buổi hẹn còn hơn là đến muộn.\n\n中途半端にやるくらいなら、やらないほうがいい。\nThà không làm còn hơn là làm nửa vời.",
               "jlptLevel": 3
             }
           ]
@@ -430,7 +430,7 @@
     "order": 13,
     "title": "13. ～に限る",
     "summary": "Ngữ pháp bài số 13 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 13. ～に限る\n\n> 🔧 **Cấu trúc:** `名 ・ 動辞書形/ない形 ＋に限る`\n>\n> 📖 **Ý nghĩa:** *「～が一番いい・～がいちばんいい方法だ。」客観的な事実ではなくて、話者が主観的に言うときに使う。~ là tốt nhất/ là cách tốt nhất.Cấu trúc này được sử dụng khi người nói muốn đưa ra cảm nhận chủ quan của họ chứ không phải một sự thật khách quan.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～に限る\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Diễn tả quan điểm chủ quan của người nói rằng cái gì đó là tốt nhất, hoặc là phương pháp tốt nhất trong hoàn cảnh hiện tại.\n- **Cấu trúc:** Danh từ / V-ru / V-nai + に限る\n\n#### 📝 Ví dụ minh họa\n- 夏はやっぱり、冷たいビールに限るね！\n- Mùa hè thì bia lạnh là nhất rồi!\n\n- 疲れた時は、家でゆっくり休むに限る。\n- Khi mệt mỏi, tốt nhất là cứ ở nhà nghỉ ngơi thật thoải mái.\n\n- 健康のためには、毎日運動するに限ります。\n- Để có sức khỏe, tốt nhất là nên tập thể dục mỗi ngày.\n\n- 悩みがあるときは信頼できる人に相談するに限る。\n- Khi có nỗi lo, tốt nhất là nên bàn bạc với người mình tin tưởng.",
     "skills": [
       "GRAMMAR"
     ],
@@ -447,9 +447,9 @@
           "cards": [
             {
               "front": "〜に限る",
-              "back": "Cấu trúc: 名 ・ 動辞書形/ない形 ＋に限る\n\nÝ nghĩa: 「～が一番いい・～がいちばんいい方法だ。」客観的な事実ではなくて、話者が主観的に言うときに使う。~ là tốt nhất/ là cách tốt nhất.Cấu trúc này được sử dụng khi người nói muốn đưa ra cảm nhận chủ quan của họ chứ không phải một sự thật khách quan.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Là tốt nhất, là cách hay nhất.\nCấu trúc: N / V-ru / V-nai + に限る",
+              "romaji": "ni-kagiru",
+              "example": "夏はやっぱり、冷たいビールに限るね！\nMùa hè thì bia lạnh là nhất rồi!\n\n疲れた時は、家でゆっくり休むに限る。\nKhi mệt mỏi, tốt nhất là cứ ở nhà nghỉ ngơi thật thoải mái.\n\n健康のためには、毎日運動するに限ります。\nĐể có sức khỏe, tốt nhất là nên tập thể dục mỗi ngày.\n\n悩みがあるときは信頼できる人に相談するに限る。\nKhi có nỗi lo, tốt nhất là nên bàn bạc với người mình tin tưởng.",
               "jlptLevel": 3
             }
           ]
@@ -465,7 +465,7 @@
     "order": 14,
     "title": "14. ～に対して",
     "summary": "Ngữ pháp bài số 14 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 14. ～に対して\n\n> 🔧 **Cấu trúc:** `名 ＋に対して`\n>\n> 📖 **Ý nghĩa:** *「～と対比的に…。」二つのものごと（～と…）の違いをはっきり表すときに使う。~ đối lập với… Được sử dụng để thể hiện sự khác biệt rõ ràng giữa hai sự việc sụ vật.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～に対して\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \n1. Đối với ai/cái gì (hướng hành động vào đối tượng).\n2. Trái lại với ~, dùng để so sánh sự đối lập giữa hai vế.\n- **Cấu trúc:** N + に対して\n\n#### 📝 Ví dụ minh họa\n- 先生は学生たちの質問に対して丁寧に答えた。\n- Giáo viên đã trả lời cẩn thận đối với các câu hỏi của học sinh.\n\n- 兄は内向的な性格であるのに対して、弟は外交的だ。\n- Anh trai có tính cách hướng nội, trái lại em trai lại hướng ngoại.\n\n- 若者たちが増えているのに対して、高齢者は減少している。\n- Số lượng người trẻ đang tăng lên, ngược lại người già đang giảm xuống.\n\n- 昨日までの暖かさに対して、今日はとても寒い。\n- Trái ngược với sự ấm áp cho tới hôm qua, hôm nay lại rất lạnh.",
     "skills": [
       "GRAMMAR"
     ],
@@ -482,9 +482,9 @@
           "cards": [
             {
               "front": "〜に対して",
-              "back": "Cấu trúc: 名 ＋に対して\n\nÝ nghĩa: 「～と対比的に…。」二つのものごと（～と…）の違いをはっきり表すときに使う。~ đối lập với… Được sử dụng để thể hiện sự khác biệt rõ ràng giữa hai sự việc sụ vật.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Đối với ~, hoặc biểu thị sự đối lập: Trái lại với ~.\nCấu trúc: N + に対して",
+              "romaji": "ni-taishite",
+              "example": "先生は学生たちの質問に対して丁寧に答えた。\nGiáo viên đã trả lời cẩn thận đối với các câu hỏi của học sinh.\n\n兄は内向的な性格であるのに対して、弟は外交的だ。\nAnh trai có tính cách hướng nội, trái lại em trai lại hướng ngoại.\n\n若者たちが増えているのに対して、高齢者は減少している。\nSố lượng người trẻ đang tăng lên, ngược lại người già đang giảm xuống.\n\n昨日までの暖かさに対して、今日はとても寒い。\nTrái ngược với sự ấm áp cho tới hôm qua, hôm nay lại rất lạnh.",
               "jlptLevel": 3
             }
           ]
@@ -500,7 +500,7 @@
     "order": 15,
     "title": "15. ～反面…",
     "summary": "Ngữ pháp bài số 15 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 15. ～反面…\n\n> 🔧 **Cấu trúc:** `普通形（な形だ－な/ である ・ 名だ- である） ＋判明`\n>\n> 📖 **Ý nghĩa:** *「～だが、逆に…の面もある。」あることの対比的な両面を言うときに使う。~ nhưng ngược lại cũng có mặt… Được sử dụng để thể hiện hai mặt đối lập nhau của một vấn đề nào đó.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～反面…\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để diễn tả hai mặt đối lập của cùng một sự vật, sự việc (thường là một mặt tích cực và một mặt tiêu cực).\n- **Cấu trúc:** V/A(普通形) / Na(である) / N(である) + 反面\n\n#### 📝 Ví dụ minh họa\n- この仕事はやりがいがある反面、残業が多い。\n- Công việc này có ý nghĩa nhưng ngược lại phải làm thêm giờ nhiều.\n\n- 都会の生活は便利である反面、家賃が高い。\n- Cuộc sống ở thành phố tiện lợi nhưng mặt khác tiền thuê nhà lại đắt.\n\n- 彼は優しい反面、少し優柔不断なところがある。\n- Anh ấy hiền lành nhưng mặt khác có chút thiếu quyết đoán.\n\n- インターネットは便利な反面、トラブルも多い。\n- Internet rất tiện lợi nhưng mặt khác cũng có nhiều rắc rối.",
     "skills": [
       "GRAMMAR"
     ],
@@ -517,9 +517,9 @@
           "cards": [
             {
               "front": "〜反面…",
-              "back": "Cấu trúc: 普通形（な形だ－な/ である ・ 名だ- である） ＋判明\n\nÝ nghĩa: 「～だが、逆に…の面もある。」あることの対比的な両面を言うときに使う。~ nhưng ngược lại cũng có mặt… Được sử dụng để thể hiện hai mặt đối lập nhau của một vấn đề nào đó.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Một mặt là ~ nhưng mặt khác lại là ~ (diễn tả hai mặt đối lập).\nCấu trúc: V/A(普通形) / Na(である) / N(である) + 反面",
+              "romaji": "hanmen",
+              "example": "この仕事はやりがいがある反面、残業が多い。\nCông việc này có ý nghĩa nhưng ngược lại phải làm thêm giờ nhiều.\n\n都会の生活は便利である反面、家賃が高い。\nCuộc sống ở thành phố tiện lợi nhưng mặt khác tiền thuê nhà lại đắt.\n\n彼は優しい反面、少し優柔不断なところがある。\nAnh ấy hiền lành nhưng mặt khác có chút thiếu quyết đoán.\n\nインターネットは便利な反面、トラブルも多い。\nInternet rất tiện lợi nhưng mặt khác cũng có nhiều rắc rối.",
               "jlptLevel": 3
             }
           ]
@@ -535,7 +535,7 @@
     "order": 16,
     "title": "16. ～一方（で）…",
     "summary": "Ngữ pháp bài số 16 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 16. ～一方（で）…\n\n> 🔧 **Cấu trúc:** `普通形（な形だ－な/ である ・ 名だ- である） ＋一方（で）`\n>\n> 📖 **Ý nghĩa:** *「～だが、同時に、別の面で…。」③④のように、対比的なことを言う場合は、「～反面」と大体同じ意味。~ nhưng đồng thời mặt khác… Khi sử dụng cấu trúc này để nói về hai mặt đối lập như trong ví dụ ③、④ thì câu văn lại mang sắc thái ý nghĩa tương tự như ～反面.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～一方（で）\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để nêu lên hai mặt đối lập hoặc hai đặc điểm song song của cùng một sự vật, sự việc.\n- **Cấu trúc**: 普通形 (な形-な/である・名-である) ＋ 一方（で）\n#### 📝 Ví dụ minh họa\n- この仕事は給料が高い一方、責任も重い。\n- 彼は真面目な学生である一方で、スポーツも得意だ。\n- 東京は物価が高い一方で、交通の便はとても良い。",
     "skills": [
       "GRAMMAR"
     ],
@@ -551,10 +551,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜一方（で）…",
-              "back": "Cấu trúc: 普通形（な形だ－な/ である ・ 名だ- である） ＋一方（で）\n\nÝ nghĩa: 「～だが、同時に、別の面で…。」③④のように、対比的なことを言う場合は、「～反面」と大体同じ意味。~ nhưng đồng thời mặt khác… Khi sử dụng cấu trúc này để nói về hai mặt đối lập như trong ví dụ ③、④ thì câu văn lại mang sắc thái ý nghĩa tương tự như ～反面.",
-              "romaji": "",
-              "example": "",
+              "front": "〜一方（で）",
+              "back": "Ý nghĩa: Mặt này thì... nhưng mặt khác lại...; Dù có... nhưng đồng thời cũng có... (Diễn tả hai mặt đối lập hoặc hai đặc điểm tồn tại đồng thời).\nCấu trúc: 普通形 (な形-な/である・名-である) ＋ 一方（で）",
+              "romaji": "ippou (de)",
+              "example": "この仕事は給料が高い一方、責任も重い。\nCông việc này lương cao nhưng mặt khác trách nhiệm cũng nặng nề.\n\n彼は真面目な学生である一方で、スポーツも得意だ。\nAnh ấy là một học sinh chăm chỉ, nhưng đồng thời cũng giỏi thể thao.\n\n東京は物価が高い一方で、交通の便はとても良い。\nTokyo có vật giá đắt đỏ, nhưng mặt khác giao thông lại rất tiện lợi.",
               "jlptLevel": 3
             }
           ]
@@ -570,7 +570,7 @@
     "order": 17,
     "title": "17. ～というより…",
     "summary": "Ngữ pháp bài số 17 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 17. ～というより…\n\n> 🔧 **Cấu trúc:** `比較するために取り上げる言葉 ＋というより`\n>\n> 📖 **Ý nghĩa:** *「～という言い方より…という言い方の方が適切だ。」 ～より、もっと適切な言い方（…）を示すときに使うCách nói … thích hợp hơn cách nói ~ .Được sử dụng khi muốn chỉ ra rằng cách nói … sẽ thích hợp hơn cách nói ~.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～というより\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để sửa lại một cách diễn đạt kém chính xác bằng một cách nói phù hợp hơn, nhấn mạnh vế sau.\n- **Cấu trúc**: Từ/câu A ＋ というより ＋ Từ/câu B\n#### 📝 Ví dụ minh họa\n- 彼女はきれいというより、かわいい。\n- これは仕事というより、趣味の延長だ。\n- 今日の天気は、晴れというより曇りだ。",
     "skills": [
       "GRAMMAR"
     ],
@@ -586,10 +586,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜というより…",
-              "back": "Cấu trúc: 比較するために取り上げる言葉 ＋というより\n\nÝ nghĩa: 「～という言い方より…という言い方の方が適切だ。」 ～より、もっと適切な言い方（…）を示すときに使うCách nói … thích hợp hơn cách nói ~ .Được sử dụng khi muốn chỉ ra rằng cách nói … sẽ thích hợp hơn cách nói ~.",
-              "romaji": "",
-              "example": "",
+              "front": "〜というより",
+              "back": "Ý nghĩa: Thà nói là... hơn là nói là...; Không phải là... mà đúng hơn là... (Dùng để đính chính lại cách diễn đạt cho chính xác hơn).\nCấu trúc: Từ/câu A ＋ というより ＋ Từ/câu B",
+              "romaji": "to-iu-yori",
+              "example": "彼女はきれいというより、かわいい。\nCô ấy không phải là đẹp mà đúng hơn là dễ thương.\n\nこれは仕事というより、趣味の延長だ。\nĐây không phải là công việc mà đúng hơn là sự mở rộng của sở thích.\n\n今日の天気は、晴れというより曇りだ。\nThời tiết hôm nay không phải là nắng mà đúng hơn là nhiều mây.",
               "jlptLevel": 3
             }
           ]
@@ -605,7 +605,7 @@
     "order": 18,
     "title": "18. ～かわりに…",
     "summary": "Ngữ pháp bài số 18 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 18. ～かわりに…\n\n> 🔧 **Cấu trúc:** `動普通形（な形だ－な） ＋かわりに`\n>\n> 📖 **Ý nghĩa:** *「～ということがあるが、反対に、それと同じ程度の…ということもある。 （①②③）」「通常している・通常するはずの～をしないで、それと同じ程度の…をする。 （④）」Có một sự việc là ~ , nhưng trái lại cũng có một sự việc nữa là … với mức độ như thế. (①②③)không làm ~ như bình thường vẫn làm/ chắc chắn bình thường sẽ làm mà làm … với tốc độ như thế.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～かわりに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng khi làm một hành động thay thế cho hành động khác, hoặc diễn tả sự bù đắp giữa hai mặt tốt/xấu.\n- **Cấu trúc**: 普通形 (な形-な・名-の) ＋ かわりに\n#### 📝 Ví dụ minh họa\n- 忙しいので、私が会議に出るかわりに、田中さんに出席してもらった。\n- このパソコンは少し高いかわりに、性能がいい。\n- 最近は、紙の本を読むかわりに電子書籍を読む人が増えている。",
     "skills": [
       "GRAMMAR"
     ],
@@ -621,10 +621,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜かわりに…",
-              "back": "Cấu trúc: 動普通形（な形だ－な） ＋かわりに\n\nÝ nghĩa: 「～ということがあるが、反対に、それと同じ程度の…ということもある。 （①②③）」「通常している・通常するはずの～をしないで、それと同じ程度の…をする。 （④）」Có một sự việc là ~ , nhưng trái lại cũng có một sự việc nữa là … với mức độ như thế. (①②③)không làm ~ như bình thường vẫn làm/ chắc chắn bình thường sẽ làm mà làm … với tốc độ như thế.",
-              "romaji": "",
-              "example": "",
+              "front": "〜かわりに",
+              "back": "Ý nghĩa: Thay vì...; Đổi lại...; Bù lại... (Diễn tả sự thay thế hoặc sự bù đắp, trao đổi).\nCấu trúc: 普通形 (な形-な・名-の) ＋ かわりに",
+              "romaji": "kawari-ni",
+              "example": "忙しいので、私が会議に出るかわりに、田中さんに出席してもらった。\nVì bận nên thay vì tôi tham gia cuộc họp, tôi đã nhờ anh Tanaka tham dự.\n\nこのパソコンは少し高いかわりに、性能がいい。\nChiếc máy tính này hơi đắt, nhưng bù lại hiệu năng rất tốt.\n\n最近は、紙の本を読むかわりに電子書籍を読む人が増えている。\nGần đây, số người đọc sách điện tử thay vì đọc sách giấy đang tăng lên.",
               "jlptLevel": 3
             }
           ]
@@ -640,7 +640,7 @@
     "order": 19,
     "title": "19. ～ためだ・～ため（に）…",
     "summary": "Ngữ pháp bài số 19 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 19. ～ためだ・～ため（に）…\n\n> 🔧 **Cấu trúc:** `名の ＋ためだ・ため（に）`\n>\n> 📖 **Ý nghĩa:** *「～が原因だ。 ・～が原因で…という結果になる。」 …には普通希望・意向・相手への働きかけなどの文は来ない。少し硬い言い方。~ là nguyên nhân./ ~ là nguyên nhân dẫn tới kết quả là … … không dùng câu thể hiện mong muốn, ý định, kêu gọi đối phương làm điều gì đó. Là cách nói hơi trang trọng.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ためだ・～ため（に）\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả nguyên nhân/lý do khách quan dẫn đến một kết quả. Đây là cách nói trang trọng, không dùng với câu mang tính ý chí.\n- **Cấu trúc**: 普通形 (な形-な・名-の) ＋ ため（に）/ だ\n#### 📝 Ví dụ minh họa\n- 電車が遅れたため、会議に遅刻した。\n- 事故のため、高速道路が閉鎖された。\n- 彼は病気のため、学校を休んだ。",
     "skills": [
       "GRAMMAR"
     ],
@@ -656,10 +656,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜ためだ・〜ため（に）…",
-              "back": "Cấu trúc: 名の ＋ためだ・ため（に）\n\nÝ nghĩa: 「～が原因だ。 ・～が原因で…という結果になる。」 …には普通希望・意向・相手への働きかけなどの文は来ない。少し硬い言い方。~ là nguyên nhân./ ~ là nguyên nhân dẫn tới kết quả là … … không dùng câu thể hiện mong muốn, ý định, kêu gọi đối phương làm điều gì đó. Là cách nói hơi trang trọng.",
-              "romaji": "",
-              "example": "",
+              "front": "〜ためだ・〜ため（に）",
+              "back": "Ý nghĩa: Vì...; Do... (Diễn tả nguyên nhân hoặc lý do dẫn đến kết quả. Không dùng với ý chí, mong muốn).\nCấu trúc: 普通形 (な形-な・名-の) ＋ ため（に）/ だ",
+              "romaji": "tame-da / tame-ni",
+              "example": "電車が遅れたため、会議に遅刻した。\nVì tàu điện đến muộn nên tôi đã đến muộn cuộc họp.\n\n事故のため、高速道路が閉鎖された。\nVì tai nạn, đường cao tốc đã bị đóng cửa.\n\n彼は病気のため、学校を休んだ。\nAnh ấy nghỉ học vì bị ốm.",
               "jlptLevel": 3
             }
           ]
@@ -675,7 +675,7 @@
     "order": 20,
     "title": "20. ～によって…・～による",
     "summary": "Ngữ pháp bài số 20 sách Shinkanzen Master N3 (2 thẻ).",
-    "theoryMd": "# 20. ～によって…・～による\n\n## Phần A\n> 🔧 **Cấu trúc:** `名 ＋によって`\n>\n> 📖 **Ý nghĩa:** *「～が原因で…という結果が起こる。」 …には状態を表す文は来ない。また、希望・意向・相手への働きかけなのでの文は来ない。少し硬い言い方。~ là nguyên nhân xảy ra kết quả… … không dùng thể hiện trạng thái, cũng không phải là câu thể hiện mong muốn, ý định, hay kêu gọi đối phương làm điều gì đó. Là cách nói hơi trang trọng.*\n\n### Ví dụ:\n\n## Phần B\n> 🔧 **Cấu trúc:** `名 ＋によって`\n>\n> 📖 **Ý nghĩa:** *「～という手段で…です。」 すこし硬い言い方。Làm …bằng phương pháp ~.Là cách nói hơi trang trọng.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～によって・～による\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: \n1. Chỉ nguyên nhân, lý do (trang trọng).\n2. Chỉ phương tiện, cách thức.\n3. Chỉ chủ thể trong câu bị động.\n4. Chỉ sự khác biệt tùy theo đối tượng.\n- **Cấu trúc**: 名詞 ＋ によって / による\n#### 📝 Ví dụ minh họa\n- 不注意によって、大きな事故が起きてしまった。\n- この問題は話し合いによって解決された。\n- この本は有名な作家によって書かれた。\n- 習慣は国によって様々だ。",
     "skills": [
       "GRAMMAR"
     ],
@@ -691,17 +691,17 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜によって…・〜による",
-              "back": "Cấu trúc: 名 ＋によって\n\nÝ nghĩa: 「～が原因で…という結果が起こる。」 …には状態を表す文は来ない。また、希望・意向・相手への働きかけなのでの文は来ない。少し硬い言い方。~ là nguyên nhân xảy ra kết quả… … không dùng thể hiện trạng thái, cũng không phải là câu thể hiện mong muốn, ý định, hay kêu gọi đối phương làm điều gì đó. Là cách nói hơi trang trọng.",
-              "romaji": "",
-              "example": "",
+              "front": "〜によって",
+              "back": "Ý nghĩa: Do...; Vì...; Bởi... (Diễn tả nguyên nhân hoặc lý do. Trang trọng).\nCấu trúc: 名詞 ＋ によって",
+              "romaji": "ni-yotte",
+              "example": "不注意によって、大きな事故が起きてしまった。\nVì bất cẩn, một tai nạn lớn đã xảy ra.\n\n今回のトラブルは、彼のミスによって引き起こされた。\nSự cố lần này là do lỗi của anh ấy gây ra.\n\n自然災害によって、多くの建物が破壊された。\nNhiều tòa nhà đã bị phá hủy do thiên tai.",
               "jlptLevel": 3
             },
             {
-              "front": "〜によって…・〜による",
-              "back": "Cấu trúc: 名 ＋によって\n\nÝ nghĩa: 「～という手段で…です。」 すこし硬い言い方。Làm …bằng phương pháp ~.Là cách nói hơi trang trọng.",
-              "romaji": "",
-              "example": "",
+              "front": "〜によって・〜による",
+              "back": "Ý nghĩa: Bằng...; Thông qua... (cách thức); Bởi... (chủ thể bị động); Tùy thuộc vào... (sự khác biệt).\nCấu trúc: 名詞 ＋ によって / による",
+              "romaji": "ni-yotte / ni-yoru",
+              "example": "この問題は話し合いによって解決された。\nVấn đề này đã được giải quyết bằng cách thảo luận.\n\nこの本は有名な作家によって書かれた。\nCuốn sách này được viết bởi một tác giả nổi tiếng.\n\n習慣は国によって様々だ。\nPhong tục tập quán thì tùy mỗi quốc gia mà khác nhau.",
               "jlptLevel": 3
             }
           ]
@@ -717,7 +717,7 @@
     "order": 21,
     "title": "21. ～から…・～ことから…",
     "summary": "Ngữ pháp bài số 21 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 21. ～から…・～ことから…\n\n> 🔧 **Cấu trúc:** `名 ＋から`\n>\n> 📖 **Ý nghĩa:** *「～という事実が原因で…という結果に発展する・…と判断する。」 …には希望・意向・相手への働きかけなどの文は来ない。Sự thực ~ là nguyên nhân để phát triển thành kết quả… /để phán đoán rằng … … không dùng câu thể hiện mong muốn, ý định, hay kêu gọi đối phương làm điều gì đó.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～から・～ことから\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dựa trên một sự thật hoặc căn cứ khách quan nào đó để đưa ra phán đoán hoặc giải thích nguyên nhân.\n- **Cấu trúc**: V(普) / A-i(普) / A-na(である) / N(である) + ことから\n- **Lưu ý**: Không dùng trong câu cầu khiến, mong muốn hoặc ý định cá nhân.\n\n#### 📝 Ví dụ minh họa\n- この辺りは昔、大きい工場があったことから、道の名前が工場通りとつけられた。\n- あの二人はいつも一緒にいることから、恋人同士だろう。\n- 彼女の話し方や態度から、育ちの良さがわかる。",
     "skills": [
       "GRAMMAR"
     ],
@@ -734,9 +734,9 @@
           "cards": [
             {
               "front": "〜から…・〜ことから…",
-              "back": "Cấu trúc: 名 ＋から\n\nÝ nghĩa: 「～という事実が原因で…という結果に発展する・…と判断する。」 …には希望・意向・相手への働きかけなどの文は来ない。Sự thực ~ là nguyên nhân để phát triển thành kết quả… /để phán đoán rằng … … không dùng câu thể hiện mong muốn, ý định, hay kêu gọi đối phương làm điều gì đó.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Từ sự thật ~ mà suy ra kết quả hoặc đưa ra phán đoán. Không dùng với câu thể hiện mong muốn, ý định, kêu gọi.\nCấu trúc: V(普) / A-i(普) / A-na(である) / N(である) + ことから",
+              "romaji": "kara / koto-kara",
+              "example": "この辺りは昔、大きい工場があったことから、道の名前が工場通りとつけられた。\nKhu vực này ngày xưa có một nhà máy lớn, vì vậy con đường đã được đặt tên là Phố Nhà máy.\n\nあの二人はいつも一緒にいることから、恋人同士だろう。\nHai người đó lúc nào cũng đi cùng nhau, nên chắc là người yêu của nhau.\n\n彼女の話し方や態度から、育ちの良さがわかる。\nTừ cách nói chuyện và thái độ của cô ấy, có thể thấy cô ấy được nuôi dạy rất tốt.",
               "jlptLevel": 3
             }
           ]
@@ -752,7 +752,7 @@
     "order": 22,
     "title": "22. ～おかげだ・～おかげで…/～せいだ・～せいで…",
     "summary": "Ngữ pháp bài số 22 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 22. ～おかげだ・～おかげで…/～せいだ・～せいで…\n\n> 🔧 **Cấu trúc:** `名の ・ 動普通形 （な形だ-な） +おかげだ・おかげで/せいだ・せいで`\n>\n> 📖 **Ý nghĩa:** *「～の影響で…といういい結果になる（おかげだ）/よくない結果になる（せいだ）。」 …には希望・意向・相手への働きかけなどの文は来ない。Vì ảnh hưởng ~ mà dẫn đến kết quả tốt( Nhờ có)/ mà dẫn đến kết quả không tốt(Tại)… không dùng câu thể hiện mong muốn, ý định, hay kêu gọi đối phương làm điều gì đó.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～おかげだ・～せいだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả nguyên nhân và kết quả. 'おかげ' cho kết quả tích cực, 'せい' cho kết quả tiêu cực.\n- **Cấu trúc**: V(普) / A-i(普) / A-na(な) / N(の) + おかげで / せいで\n- **Lưu ý**: 'せい' mang tính đổ lỗi, không dùng cho sự việc tốt.\n\n#### 📝 Ví dụ minh họa\n- 先生のおかげで、JLPT N3に合格できました。\n- みんなが協力してくれたおかげで、早く仕事が終わった。\n- 彼が遅刻したせいで、会議に間に合わなかった。\n- 電気を消し忘れたせいで、電気代が高くなった。",
     "skills": [
       "GRAMMAR"
     ],
@@ -769,9 +769,9 @@
           "cards": [
             {
               "front": "〜おかげだ・〜おかげで…/〜せいだ・〜せいで…",
-              "back": "Cấu trúc: 名の ・ 動普通形 （な形だ-な） +おかげだ・おかげで/せいだ・せいで\n\nÝ nghĩa: 「～の影響で…といういい結果になる（おかげだ）/よくない結果になる（せいだ）。」 …には希望・意向・相手への働きかけなどの文は来ない。Vì ảnh hưởng ~ mà dẫn đến kết quả tốt( Nhờ có)/ mà dẫn đến kết quả không tốt(Tại)… không dùng câu thể hiện mong muốn, ý định, hay kêu gọi đối phương làm điều gì đó.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Vì ảnh hưởng của ~ dẫn đến kết quả tốt (おかげ) hoặc kết quả xấu (せい).\nCấu trúc: V(普) / A-i(普) / A-na(な) / N(の) + おかげで / せいで",
+              "romaji": "o-kage-de / sei-de",
+              "example": "先生のおかげで、JLPT N3に合格できました。\nNhờ có thầy cô mà tôi đã đỗ JLPT N3.\n\nみんなが協力してくれたおかげで、早く仕事が終わった。\nNhờ mọi người hợp tác mà công việc đã xong sớm.\n\n彼が遅刻したせいで、会議に間に合わなかった。\nTại anh ấy đến muộn mà tôi đã không kịp cuộc họp.\n\n電気を消し忘れたせいで、電気代が高くなった。\nTại quên tắt điện mà tiền điện tăng cao.",
               "jlptLevel": 3
             }
           ]
@@ -787,7 +787,7 @@
     "order": 23,
     "title": "23. ～のだから",
     "summary": "Ngữ pháp bài số 23 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 23. ～のだから\n\n> 🔧 **Cấu trúc:** `普通形 （な形だ-な・名だ－な） ＋のだから`\n>\n> 📖 **Ý nghĩa:** *「～が事実だから、当然…。」 ～には相手が知っているはずの事実を表す文、 …には話者の判断・希望・意向や相手への働きかけなどの文が来る。Vì ~ là sự thực nên đương nhiên là… ~ là câu văn thể hiện sự thực mà chắc chắn đối phương cũng biết.… là câu văn thể hiện phán đoán, mong muốn, ý định của người nói hoặc kêu gọi đối phương làm điều gì đó.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～のだから\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh lý do vì một sự thật hiển nhiên, từ đó đưa ra lời khuyên, yêu cầu hoặc phán đoán.\n- **Cấu trúc**: V(普) / A-i(普) / A-na(な) / N(な) + のだから\n\n#### 📝 Ví dụ minh họa\n- もう大人なのだから、自分の行動に責任を持つべきだ。\n- あなたは日本語が話せるのだから、通訳をお願いできないでしょうか。\n- 疲れているのだから、無理しないで休んだほうがいいですよ。",
     "skills": [
       "GRAMMAR"
     ],
@@ -804,9 +804,9 @@
           "cards": [
             {
               "front": "〜のだから",
-              "back": "Cấu trúc: 普通形 （な形だ-な・名だ－な） ＋のだから\n\nÝ nghĩa: 「～が事実だから、当然…。」 ～には相手が知っているはずの事実を表す文、 …には話者の判断・希望・意向や相手への働きかけなどの文が来る。Vì ~ là sự thực nên đương nhiên là… ~ là câu văn thể hiện sự thực mà chắc chắn đối phương cũng biết.… là câu văn thể hiện phán đoán, mong muốn, ý định của người nói hoặc kêu gọi đối phương làm điều gì đó.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Vì ~ là một sự thật đương nhiên (mà đôi bên đều biết) nên kết quả là đương nhiên.\nCấu trúc: V(普) / A-i(普) / A-na(な) / N(な) + のだから",
+              "romaji": "no-dakara",
+              "example": "もう大人なのだから、自分の行動に責任を持つべきだ。\nVì đã là người lớn rồi nên đương nhiên phải có trách nhiệm với hành động của mình.\n\nあなたは日本語が話せるのだから、通訳をお願いできないでしょうか。\nVì bạn nói được tiếng Nhật nên tôi có thể nhờ bạn phiên dịch được không?\n\n疲れているのだから、無理しないで休んだほうがいいですよ。\nVì bạn đang mệt nên đương nhiên là nên nghỉ ngơi thì hơn.",
               "jlptLevel": 3
             }
           ]
@@ -822,7 +822,7 @@
     "order": 24,
     "title": "24. ～（の）なら…",
     "summary": "Ngữ pháp bài số 24 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 24. ～（の）なら…\n\n> 🔧 **Cấu trúc:** `普通形 （な形だ-である ・ 名だ-である） ＋（の）なら`\n>\n> 📖 **Ý nghĩa:** *「～という情報を受けて、…。」～はほかの人の話や様子などから分かったこと、…は話者の判断・意志・相手への働きかけの文など。Tiếp nhận thông tin ~ , i… ~ là điều người nói biết được thông qua lời kể của người khác hoặc qua tình hình thực tế.… là câu văn thể hiện phán đoán, ý định của người nói hoặc kêu gọi đối phương làm điều gì đó.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～（の）なら\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dựa trên điều kiện hoặc tình huống vừa nghe được, người nói đưa ra ý kiến hoặc quyết định.\n- **Cấu trúc**: V(普) / A-i(普) / A-na(だ/である) / N(だ/である) + （の）なら\n\n#### 📝 Ví dụ minh họa\n- 彼が来ないのなら、私たちだけで始めましょう。\n- 雨が降るのなら、傘を持って行ったほうがいい。\n- あなたがそこまで言うのなら、もう何も言いません。",
     "skills": [
       "GRAMMAR"
     ],
@@ -838,10 +838,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜（の）なら…",
-              "back": "Cấu trúc: 普通形 （な形だ-である ・ 名だ-である） ＋（の）なら\n\nÝ nghĩa: 「～という情報を受けて、…。」～はほかの人の話や様子などから分かったこと、…は話者の判断・意志・相手への働きかけの文など。Tiếp nhận thông tin ~ , i… ~ là điều người nói biết được thông qua lời kể của người khác hoặc qua tình hình thực tế.… là câu văn thể hiện phán đoán, ý định của người nói hoặc kêu gọi đối phương làm điều gì đó.",
-              "romaji": "",
-              "example": "",
+              "front": "〜（の）なら",
+              "back": "Ý nghĩa: Tiếp nhận thông tin từ người khác hoặc hoàn cảnh hiện tại để đưa ra phán đoán, yêu cầu.\nCấu trúc: V(普) / A-i(普) / A-na(だ/である) / N(だ/である) + （の）なら",
+              "romaji": "no-nara",
+              "example": "彼が来ないのなら、私たちだけで始めましょう。\nNếu anh ấy không đến thì chúng ta bắt đầu thôi.\n\n雨が降るのなら、傘を持って行ったほうがいい。\nNếu trời mưa thì nên mang ô đi.\n\nあなたがそこまで言うのなら、もう何も言いません。\nNếu bạn đã nói đến mức đó thì tôi sẽ không nói gì nữa.",
               "jlptLevel": 3
             }
           ]
@@ -857,7 +857,7 @@
     "order": 25,
     "title": "25. ～ては…・～（の）では…",
     "summary": "Ngữ pháp bài số 25 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 25. ～ては…・～（の）では…\n\n> 🔧 **Cấu trúc:** `動て形 ・ い形→いくて ・ な形だ－で／名－で ＋は`\n>\n> 📖 **Ý nghĩa:** *「～という事実（または仮定の状況）だと、 …というよくない結果になる。」 …はマイナスの意味の文で、話者の希望・意向を表す文や働きかけの文は来ない。Nếu sự thật là( hoặc tình huống giả định) ~ thì sẽ đem lại kết quả không hay là… … là câu văn mang ý nghĩa tiêu cực, không phải là câu văn thể hiện mong muốn, ý định của người nói hoặc kêu gọi đối phương làm điều gì đó.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ては・～のでは\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để nói về một tình trạng hoặc hành động mang tính tiêu cực, nếu tiếp diễn sẽ gây ra kết quả không tốt.\n- **Cấu trúc**: V-te / A-i(くて) / A-na(で) / N(で) + は\n- **Lưu ý**: Không dùng cho ý chí, nguyện vọng của người nói.\n\n#### 📝 Ví dụ minh họa\n- そんなに急いでは、かえって危ないよ。\n- 毎日ゲームばかりしては、目が悪くなる一方だ。\n- こんなに暑いのでは、勉強に集中できない。\n- 彼が来ないのでは、パーティーが盛り上がらない。",
     "skills": [
       "GRAMMAR"
     ],
@@ -874,9 +874,9 @@
           "cards": [
             {
               "front": "〜ては…・〜（の）では…",
-              "back": "Cấu trúc: 動て形 ・ い形→いくて ・ な形だ－で／名－で ＋は\n\nÝ nghĩa: 「～という事実（または仮定の状況）だと、 …というよくない結果になる。」 …はマイナスの意味の文で、話者の希望・意向を表す文や働きかけの文は来ない。Nếu sự thật là( hoặc tình huống giả định) ~ thì sẽ đem lại kết quả không hay là… … là câu văn mang ý nghĩa tiêu cực, không phải là câu văn thể hiện mong muốn, ý định của người nói hoặc kêu gọi đối phương làm điều gì đó.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Nếu giả định/sự thật ~ xảy ra thì sẽ dẫn đến kết quả tiêu cực không mong muốn.\nCấu trúc: V-te / A-i(くて) / A-na(で) / N(で) + は",
+              "romaji": "te-wa / no-de-wa",
+              "example": "そんなに急いでは、かえって危ないよ。\nNếu vội vàng như thế thì ngược lại sẽ nguy hiểm đấy.\n\n毎日ゲームばかりしては、目が悪くなる一方だ。\nNếu cứ chơi game mỗi ngày như vậy thì mắt sẽ ngày càng kém đi thôi.\n\nこんなに暑いのでは、勉強に集中できない。\nNóng thế này thì làm sao mà tập trung học được.\n\n彼が来ないのでは、パーティーが盛り上がらない。\nAnh ấy mà không đến thì bữa tiệc sẽ không vui đâu.",
               "jlptLevel": 3
             }
           ]
@@ -892,7 +892,7 @@
     "order": 26,
     "title": "26. ～さえ～ば、…・～さえ～なら…",
     "summary": "Ngữ pháp bài số 26 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 26. ～さえ～ば、…・～さえ～なら…\n\n> 🔧 **Cấu trúc:** `名さえ ＋動ば形 ・ い形→ければ ／ な形なら ・ 名なら`\n>\n> 📖 **Ý nghĩa:** *「～が実現すれば、それだけで…が実現する。」「～さえ～ば（なら）」は…が成り立つための必要最低限の条件を示す。Nếu ~ được thực hiện thì chỉ với điều đó … sẽ được thực hiện.～さえ～ば（なら） chỉ ra điều kiện tối thiểu cần đạt được…*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～さえ～ば、…・～さえ～なら…\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \"Chỉ cần... là đủ\". Dùng để diễn tả một điều kiện tối thiểu, nếu điều kiện đó được đáp ứng thì vế sau chắc chắn sẽ xảy ra hoặc đạt được.\n- **Cấu trúc:** \n - Danh từ + さえ + Động từ thể ば\n - Danh từ + さえ + Tính từ -i (bỏ い) + ければ\n - Danh từ + さえ + Tính từ -na (bỏ な) + なら\n - Danh từ + さえ + Danh từ + なら\n\n#### 📝 Ví dụ minh họa\n- 漢字さえ読めれば、日本の本が読めるのになあ。\n(Nếu chỉ cần đọc được Kanji là có thể đọc được sách Nhật rồi.)\n\n- 愛さえあれば、どんな困難も乗り越えられる。\n(Nếu chỉ cần có tình yêu, khó khăn nào cũng có thể vượt qua.)\n\n- お金さえあれば、何でもできるというものではない。\n(Không phải cứ có tiền là có thể làm được mọi thứ.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -909,9 +909,9 @@
           "cards": [
             {
               "front": "〜さえ〜ば、…・〜さえ〜なら…",
-              "back": "Cấu trúc: 名さえ ＋動ば形 ・ い形→ければ ／ な形なら ・ 名なら\n\nÝ nghĩa: 「～が実現すれば、それだけで…が実現する。」「～さえ～ば（なら）」は…が成り立つための必要最低限の条件を示す。Nếu ~ được thực hiện thì chỉ với điều đó … sẽ được thực hiện.～さえ～ば（なら） chỉ ra điều kiện tối thiểu cần đạt được…",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Nếu chỉ cần đạt được điều kiện A thì điều B cũng sẽ xảy ra. Diễn tả điều kiện tối thiểu, duy nhất để một việc khác có thể xảy ra.\nCấu trúc: Danh từさえ + Động từ thể ば / Tính từ -i (bỏ い) + ければ / Tính từ -na (bỏ な) + なら / Danh từ + なら",
+              "romaji": "sae-ba, sae-nara",
+              "example": "漢字さえ読めれば、日本の本が読めるのになあ。\nNếu chỉ cần đọc được Kanji là có thể đọc được sách Nhật rồi.\n\n愛さえあれば、どんな困難も乗り越えられる。\nNếu chỉ cần có tình yêu, khó khăn nào cũng có thể vượt qua.\n\nお金さえあれば、何でもできるというものではない。\nKhông phải cứ có tiền là có thể làm được mọi thứ.",
               "jlptLevel": 3
             }
           ]
@@ -927,7 +927,7 @@
     "order": 27,
     "title": "27. たとえ～ても…・たとえ～でも…",
     "summary": "Ngữ pháp bài số 27 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 27. たとえ～ても…・たとえ～でも…\n\n> 🔧 **Cấu trúc:** `たとえ ＋動て形／い形い→くて／な形な－で／名で ＋も`\n>\n> 📖 **Ý nghĩa:** *「～が事実だと仮定した場合でも、それに関係なく…。」Ngay cả trong trường hợp giả định ~ là sự thật đi nữa thì … cũng không liên quan gì.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. たとえ～ても…・たとえ～でも…\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \"Cho dù... đi chăng nữa thì...\". Thường dùng kèm với 「ても」「でも」 để nhấn mạnh giả định.\n- **Cấu trúc:** \n - たとえ + V-て + も\n - たとえ + Adj-i (bỏ い) + くても\n - たとえ + Adj-na (bỏ な) + でも\n - たとえ + N + でも\n\n#### 📝 Ví dụ minh họa\n- たとえ失敗しても、後悔はしない。\n(Dù có thất bại đi chăng nữa, tôi cũng không hối hận.)\n\n- たとえ嵐が来ても、この計画は中止しない。\n(Dù bão có đến, kế hoạch này cũng sẽ không bị hủy bỏ.)\n\n- たとえ遠くても、毎日彼に会いに行きたい。\n(Dù có xa đến mấy, tôi vẫn muốn đến gặp anh ấy mỗi ngày.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -944,9 +944,9 @@
           "cards": [
             {
               "front": "たとえ〜ても…・たとえ〜でも…",
-              "back": "Cấu trúc: たとえ ＋動て形／い形い→くて／な形な－で／名で ＋も\n\nÝ nghĩa: 「～が事実だと仮定した場合でも、それに関係なく…。」Ngay cả trong trường hợp giả định ~ là sự thật đi nữa thì … cũng không liên quan gì.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: \"Cho dù/Ngay cả khi ~ thì ...\". Diễn tả một sự giả định, cho rằng điều kiện nào đó có xảy ra đi chăng nữa thì kết quả vẫn không thay đổi.\nCấu trúc: たとえ + Động từ thể て + も / Tính từ -i (bỏ い) + くても / Tính từ -na (bỏ な) + でも / Danh từ + でも",
+              "romaji": "tatoe-temo, tatoe-demo",
+              "example": "たとえ失敗しても、後悔はしない。\nDù có thất bại đi chăng nữa, tôi cũng không hối hận.\n\nたとえ嵐が来ても、この計画は中止しない。\nDù bão có đến, kế hoạch này cũng sẽ không bị hủy bỏ.\n\nたとえ遠くても、毎日彼に会いに行きたい。\nDù có xa đến mấy, tôi vẫn muốn đến gặp anh ấy mỗi ngày.",
               "jlptLevel": 3
             }
           ]
@@ -962,7 +962,7 @@
     "order": 28,
     "title": "28. ～ば…・～たら…・～なら…",
     "summary": "Ngữ pháp bài số 28 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 28. ～ば…・～たら…・～なら…\n\n> 🔧 **Cấu trúc:** `動ば形・い形い－くなければ・な形なら・名なら`\n>\n> 📖 **Ý nghĩa:** *「もし～の場合、…という結果になるはずだが、実際にはそうではない。」～も…も実際とは違うことを言う。…は「～た・～のだが・～のに」などの文が多い。Trong trường hợp nếu ~ thì chắc chắn sẽ dẫn đến kết quả là … nhưng trên thực tế lại không phải như vậy.~ … là những điều kiện khác với sự thực.… đa phần ở dạng ～た／～のだが／～のに／v.v.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ば…・～たら…・～なら…\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \"Giá mà... thì tốt rồi / Lẽ ra... thì đã...\". Diễn tả sự nuối tiếc, giả định trái ngược với sự thật đã xảy ra.\n- **Cấu trúc:** \n - Động từ thể ば / たら\n - Tính từ -i + ければ / かったら\n - Tính từ -na + なら / だったら\n - Danh từ + なら / だったら\n\n#### 📝 Ví dụ minh họa\n- もっと時間があれば、あの仕事もできたのに。\n(Nếu có nhiều thời gian hơn thì tôi đã làm được công việc đó rồi.)\n\n- もう少し早く出ていれば、電車に間に合っただろうに。\n(Nếu ra sớm hơn một chút thì có lẽ đã kịp chuyến tàu rồi.)\n\n- 学生時代、もっと勉強していればよかった。\n(Giá mà hồi sinh viên tôi học hành chăm chỉ hơn thì tốt rồi.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -979,9 +979,9 @@
           "cards": [
             {
               "front": "〜ば…・〜たら…・〜なら…",
-              "back": "Cấu trúc: 動ば形・い形い－くなければ・な形なら・名なら\n\nÝ nghĩa: 「もし～の場合、…という結果になるはずだが、実際にはそうではない。」～も…も実際とは違うことを言う。…は「～た・～のだが・～のに」などの文が多い。Trong trường hợp nếu ~ thì chắc chắn sẽ dẫn đến kết quả là … nhưng trên thực tế lại không phải như vậy.~ … là những điều kiện khác với sự thực.… đa phần ở dạng ～た／～のだが／～のに／v.v.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: \"Nếu ~ (thì đã...) nhưng thực tế lại không phải vậy\". Diễn tả sự hối tiếc về một việc đã không xảy ra trong quá khứ hoặc hiện tại.\nCấu trúc: Động từ thể ば形 / Tính từ -i (bỏ い) + ければ / Tính từ -na (bỏ な) + なら / Danh từ + なら",
+              "romaji": "ba, tara, nara",
+              "example": "もっと時間があれば、あの仕事もできたのに。\nNếu có nhiều thời gian hơn thì tôi đã làm được công việc đó rồi.\n\nもう少し早く出ていれば、電車に間に合っただろうに。\nNếu ra sớm hơn một chút thì có lẽ đã kịp chuyến tàu rồi.\n\n学生時代、もっと勉強していればよかった。\nGiá mà hồi sinh viên tôi học hành chăm chỉ hơn thì tốt rồi.",
               "jlptLevel": 3
             }
           ]
@@ -997,7 +997,7 @@
     "order": 29,
     "title": "29. ～ということだ・～とのことだ",
     "summary": "Ngữ pháp bài số 29 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 29. ～ということだ・～とのことだ\n\n> 🔧 **Cấu trúc:** `普通形 ＋ということだ ・ とのことだ`\n>\n> 📖 **Ý nghĩa:** *「～だそうだ。」 得た情報を伝える言い方で、「～だそうだ」より硬い。情報源を示すには「～では・～によると・～によれば」などを使う。ある人が言ったことを個人的に伝える場合は「～とのことだ」をよく使う。⑤のような形で手紙などの中で使うこともある。Nghe nói ~ .Là cách nói truyền đạt thông tin mình nắm được, văn phong trang trọng hơn so với ～だそうだ.Sử dụng ～では／～によると／～によれば／… để trích dẫn nguồn thông tin.Thường sử dụng ～とのことだ để truyền đạt riêng cho ai đó điều người khác đã nói.Cấu trúc này còn được sử dụng trong văn phong thư từ như ở ví dụ ⑤.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ということだ・～とのことだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \n - 「～ということだ」: Nghe nói là / Có nghĩa là (định nghĩa).\n - 「～とのことだ」: Truyền đạt lại lời nhắn từ người khác (trang trọng).\n- **Cấu trúc:** \n - Thể thông thường (普通形) + ということだ / とのことだ\n\n#### 📝 Ví dụ minh họa\n- 部長は出張で、今週末まで戻らないということだ。\n(Nghe nói trưởng phòng đang đi công tác nên cuối tuần này mới về.)\n\n- 先生から、明日のテストは範囲が変更になったとのことです。\n(Thầy giáo nói là phạm vi bài kiểm tra ngày mai đã thay đổi.)\n\n- このボタンを押すと、ドアが開くということだ。\n(Ấn nút này thì cửa sẽ mở.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1014,9 +1014,9 @@
           "cards": [
             {
               "front": "〜ということだ・〜とのことだ",
-              "back": "Cấu trúc: 普通形 ＋ということだ ・ とのことだ\n\nÝ nghĩa: 「～だそうだ。」 得た情報を伝える言い方で、「～だそうだ」より硬い。情報源を示すには「～では・～によると・～によれば」などを使う。ある人が言ったことを個人的に伝える場合は「～とのことだ」をよく使う。⑤のような形で手紙などの中で使うこともある。Nghe nói ~ .Là cách nói truyền đạt thông tin mình nắm được, văn phong trang trọng hơn so với ～だそうだ.Sử dụng ～では／～によると／～によれば／… để trích dẫn nguồn thông tin.Thường sử dụng ～とのことだ để truyền đạt riêng cho ai đó điều người khác đã nói.Cấu trúc này còn được sử dụng trong văn phong thư từ như ở ví dụ ⑤.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: \"Nghe nói là ~\", \"có nghĩa là ~\", \"có lời nhắn là ~ \". Dùng để truyền đạt lại thông tin hoặc diễn giải ý nghĩa.\nCấu trúc: 普通形 + ということだ / とのことだ",
+              "romaji": "to-iu-koto-da, to-no-koto-da",
+              "example": "部長は出張で、今週末まで戻らないということだ。\nNghe nói trưởng phòng đang đi công tác nên cuối tuần này mới về.\n\n先生から、明日のテストは範囲が変更になったとのことです。\nThầy giáo nói là phạm vi bài kiểm tra ngày mai đã thay đổi.\n\nこのボタンを押すと、ドアが開くということだ。\nẤn nút này thì cửa sẽ mở.",
               "jlptLevel": 3
             }
           ]
@@ -1032,7 +1032,7 @@
     "order": 30,
     "title": "30. ～と言われている",
     "summary": "Ngữ pháp bài số 30 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 30. ～と言われている\n\n> 🔧 **Cấu trúc:** `普通形 ＋ と言われている`\n>\n> 📖 **Ý nghĩa:** *「～と、世界の人たちが言っている。」Người ta nói rằng ~ .*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～と言われている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \"Người ta nói rằng...\", \"Được cho là...\". Dùng khi muốn nói về một tin đồn, quan điểm hoặc sự thật mà đại đa số mọi người đều thừa nhận.\n- **Cấu trúc:** \n - Thể thông thường (普通形) + と言われている\n\n#### 📝 Ví dụ minh họa\n- 納豆は体にいいと言われている。\n(Đậu nành lên men (natto) được cho là tốt cho sức khỏe.)\n\n- 富士山は世界遺産だと言われている。\n(Núi Phú Sĩ được công nhận là di sản thế giới.)\n\n- この地域には昔、大きな湖があったと言われている。\n(Người ta nói rằng ngày xưa ở khu vực này có một cái hồ lớn.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1049,9 +1049,9 @@
           "cards": [
             {
               "front": "〜と言われている",
-              "back": "Cấu trúc: 普通形 ＋ と言われている\n\nÝ nghĩa: 「～と、世界の人たちが言っている。」Người ta nói rằng ~ .",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: \"Người ta nói rằng ~\", \"được cho là ~\". Dùng để truyền đạt một nhận định hoặc sự thật được xã hội công nhận rộng rãi.\nCấu trúc: 普通形 + と言われている",
+              "romaji": "to-iwarete-iru",
+              "example": "納豆は体にいいと言われている。\nĐậu nành lên men (natto) được cho là tốt cho sức khỏe.\n\n富士山は世界遺産だと言われている。\nNúi Phú Sĩ được công nhận là di sản thế giới.\n\nこの地域には昔、大きな湖があったと言われている。\nNgười ta nói rằng ngày xưa ở khu vực này có một cái hồ lớn.",
               "jlptLevel": 3
             }
           ]
@@ -1067,7 +1067,7 @@
     "order": 31,
     "title": "31. ～とか",
     "summary": "Ngữ pháp bài số 31 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 31. ～とか\n\n> 🔧 **Cấu trúc:** `普通形 ＋とか`\n>\n> 📖 **Ý nghĩa:** *「～と聞いた。」 うわさなどで聞いたはっきりしないことを言う。Tôi nghe được rằng ~ .Dùng để nói ra những điều không rõ ràng, được nghe qua tin đồn,…*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～とか\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nghe nói là... (Dùng để truyền đạt lại thông tin nghe được, cảm giác không chắc chắn hoặc mơ hồ).\n- **Cấu trúc**: Thể thông thường (普通形) ＋ とか\n\n#### 📝 Ví dụ minh họa\n- あしたの試験、難しいとか。\nNghe nói kỳ thi ngày mai khó lắm à?\n\n- 彼は来月、結婚するとか言っていました。\nAnh ấy có nói là hình như tháng sau sẽ kết hôn.\n\n- 昨夜、あの駅の近くで事故があったとか。\nNghe nói tối qua có một vụ tai nạn ở gần nhà ga đó.\n\n- 田中さんは今日、休むとか聞いたよ。\nTôi nghe nói là anh Tanaka hôm nay sẽ nghỉ đấy.",
     "skills": [
       "GRAMMAR"
     ],
@@ -1084,9 +1084,9 @@
           "cards": [
             {
               "front": "〜とか",
-              "back": "Cấu trúc: 普通形 ＋とか\n\nÝ nghĩa: 「～と聞いた。」 うわさなどで聞いたはっきりしないことを言う。Tôi nghe được rằng ~ .Dùng để nói ra những điều không rõ ràng, được nghe qua tin đồn,…",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Nghe nói là... (Dùng để diễn tả thông tin mơ hồ, không chắc chắn được nghe qua tin đồn hoặc từ ai đó).\nCấu trúc: Thể thông thường (普通形) ＋ とか",
+              "romaji": "toka",
+              "example": "あしたの試験、難しいとか。\nNghe nói kỳ thi ngày mai khó lắm à?\n\n彼は来月、結婚するとか言っていました。\nAnh ấy có nói là hình như tháng sau sẽ kết hôn.\n\n昨夜、あの駅の近くで事故があったとか。\nNghe nói tối qua có một vụ tai nạn ở gần nhà ga đó.\n\n田中さんは今日、休むとか聞いたよ。\nTôi nghe nói là anh Tanaka hôm nay sẽ nghỉ đấy.",
               "jlptLevel": 3
             }
           ]
@@ -1102,7 +1102,7 @@
     "order": 32,
     "title": "32. ～って",
     "summary": "Ngữ pháp bài số 32 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 32. ～って\n\n> 🔧 **Cấu trúc:** `普通形 ＋って`\n>\n> 📖 **Ý nghĩa:** *「～と言っている・～と聞いた。」「～と」のくだけた話し言葉で。②③④⑤のように、後の動詞（言っている・聞いたなど）をよく省略する。④のように、言った言葉に直接「って」をつけることもある。Nói rằng ~ / nghe nói rằng ~.Đây là từ dùng trong văn nói, là cách đọc chệch đi của ～と.Trong ví dụ ②③④, động từ đứng đằng sau là いっている／きいた… thường được lược bỏ.Có những trường hợp được ghép trực tiếp nguyên cả những từ đã nói với って như trong ví dụ ④.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～って\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nói rằng... / Nghe nói là... (Là hình thức văn nói thân mật, suồng sã của と, と言っている, と聞いた).\n- **Cấu trúc**: Thể thông thường (普通形) ＋ って\n\n#### 📝 Ví dụ minh họa\n- 彼は明日来られないって。\nAnh ấy nói là ngày mai không đến được.\n\n- 試験、どうだった？難しかったって。\nKỳ thi thế nào rồi? Nghe nói là khó lắm.\n\n- 田中さん、今日休むって言ってたよ。\nAnh Tanaka có nói là hôm nay nghỉ đấy.\n\n- 先生がすぐに来るって。\nThầy giáo nói là sẽ đến ngay đấy.",
     "skills": [
       "GRAMMAR"
     ],
@@ -1119,9 +1119,9 @@
           "cards": [
             {
               "front": "〜って",
-              "back": "Cấu trúc: 普通形 ＋って\n\nÝ nghĩa: 「～と言っている・～と聞いた。」「～と」のくだけた話し言葉で。②③④⑤のように、後の動詞（言っている・聞いたなど）をよく省略する。④のように、言った言葉に直接「って」をつけることもある。Nói rằng ~ / nghe nói rằng ~.Đây là từ dùng trong văn nói, là cách đọc chệch đi của ～と.Trong ví dụ ②③④, động từ đứng đằng sau là いっている／きいた… thường được lược bỏ.Có những trường hợp được ghép trực tiếp nguyên cả những từ đã nói với って như trong ví dụ ④.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Nói rằng... / Nghe nói là... (Cách nói thân mật trong hội thoại, thay thế cho と, と言っている, と聞いた).\nCấu trúc: Thể thông thường (普通形) ＋ って",
+              "romaji": "tte",
+              "example": "彼は明日来られないって。\nAnh ấy nói là ngày mai không đến được.\n\n試験、どうだった？難しかったって。\nKỳ thi thế nào rồi? Nghe nói là khó lắm.\n\n田中さん、今日休むって言ってたよ。\nAnh Tanaka có nói là hôm nay nghỉ đấy.\n\n先生がすぐに来るって。\nThầy giáo nói là sẽ đến ngay đấy.",
               "jlptLevel": 3
             }
           ]
@@ -1137,7 +1137,7 @@
     "order": 33,
     "title": "33. ～という",
     "summary": "Ngữ pháp bài số 33 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 33. ～という\n\n> 🔧 **Cấu trúc:** `普通形 ＋という`\n>\n> 📖 **Ý nghĩa:** *「～だそうだ。」 少し硬い書き言葉。Nghe nói ~ .Từ thuộc văn viết, khá trang tọng.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～という\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nghe nói là... (Dùng để trích dẫn thông tin, diễn đạt trang trọng, thường xuất hiện trong tin tức hoặc văn viết).\n- **Cấu trúc**: Thể thông thường (普通形) ＋ という\n\n#### 📝 Ví dụ minh họa\n- 物価は来年からさらに上がるという。\nNghe nói từ năm sau giá cả sẽ còn tăng hơn nữa.\n\n- この地域は昔、海だったという。\nNghe nói khu vực này ngày xưa là biển.\n\n- 彼は非常に優秀な研究者だったという。\nNghe nói ông ấy từng là một nhà nghiên cứu cực kỳ ưu tú.\n\n- 今回の会議で新しい計画が発表されるという。\nNghe nói trong cuộc họp lần này sẽ công bố kế hoạch mới.",
     "skills": [
       "GRAMMAR"
     ],
@@ -1154,9 +1154,9 @@
           "cards": [
             {
               "front": "〜という",
-              "back": "Cấu trúc: 普通形 ＋という\n\nÝ nghĩa: 「～だそうだ。」 少し硬い書き言葉。Nghe nói ~ .Từ thuộc văn viết, khá trang tọng.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Nghe nói là... (Lối diễn đạt trang trọng, lịch sự, thường dùng nhiều trong văn viết).\nCấu trúc: Thể thông thường (普通形) ＋ という",
+              "romaji": "to-iu",
+              "example": "物価は来年からさらに上がるという。\nNghe nói từ năm sau giá cả sẽ còn tăng hơn nữa.\n\nこの地域は昔、海だったという。\nNghe nói khu vực này ngày xưa là biển.\n\n彼は非常に優秀な研究者だったという。\nNghe nói ông ấy từng là một nhà nghiên cứu cực kỳ ưu tú.\n\n今回の会議で新しい計画が発表されるという。\nNghe nói trong cuộc họp lần này sẽ công bố kế hoạch mới.",
               "jlptLevel": 3
             }
           ]
@@ -1172,7 +1172,7 @@
     "order": 34,
     "title": "34. ～はずがない・～わけがない",
     "summary": "Ngữ pháp bài số 34 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 34. ～はずがない・～わけがない\n\n> 🔧 **Cấu trúc:** `普通形 （ な形だ-な/-である・ 名だ－の-である） ＋はずがない・わけがない`\n>\n> 📖 **Ý nghĩa:** *「絶対～ない。」 話者が強い確信を持って否定する言い方。Chắc chắn không ~.Là cách nói phủ định với niềm tin mạnh mẽ của người nói.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～はずがない・～わけがない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chắc chắn không... / Không lý nào mà... (Phủ định mạnh mẽ sự việc dựa trên suy luận chủ quan hoặc căn cứ thực tế).\n- **Cấu trúc**: \n - Động từ/Tính từ đuôi i: Thể thông thường + はずがない/わけがない\n - Tính từ đuôi na: Na + な/である + はずがない/わけがない\n - Danh từ: N + の/である + はずがない/わけがない\n\n#### 📝 Ví dụ minh họa\n- あんなに練習したのだから、負けるはずがない。\nĐã luyện tập nhiều đến thế, chắc chắn không thể thua được.\n\n- 彼がうそをつくわけがない。\nKhông lý nào anh ấy lại nói dối.\n\n- こんな難しい問題、小学生にできるわけがない。\nVấn đề khó thế này, học sinh tiểu học chắc chắn không thể làm được.\n\n- あの店はいつも混んでいるから、すぐに入れるはずがない。\nCửa hàng đó lúc nào cũng đông khách nên chắc chắn không thể vào ngay được.",
     "skills": [
       "GRAMMAR"
     ],
@@ -1189,9 +1189,9 @@
           "cards": [
             {
               "front": "〜はずがない・〜わけがない",
-              "back": "Cấu trúc: 普通形 （ な形だ-な/-である・ 名だ－の-である） ＋はずがない・わけがない\n\nÝ nghĩa: 「絶対～ない。」 話者が強い確信を持って否定する言い方。Chắc chắn không ~.Là cách nói phủ định với niềm tin mạnh mẽ của người nói.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Chắc chắn không... / Làm sao mà... được (Phủ định mạnh mẽ dựa trên căn cứ).\nCấu trúc: Thể thông thường (Na-adj + な/である) / (N + の/である) ＋ はずがない・わけがない",
+              "romaji": "hazu-ga-nai / wake-ga-nai",
+              "example": "あんなに練習したのだから、負けるはずがない。\nĐã luyện tập nhiều đến thế, chắc chắn không thể thua được.\n\n彼がうそをつくわけがない。\nKhông lẽ nào anh ấy lại nói dối.\n\nこんな難しい問題、小学生にできるわけがない。\nVấn đề khó thế này, học sinh tiểu học chắc chắn không thể làm được.\n\nあの店はいつも混んでいるから、すぐに入れるはずがない。\nCửa hàng đó lúc nào cũng đông khách nên chắc chắn không thể vào ngay được.",
               "jlptLevel": 3
             }
           ]
@@ -1207,7 +1207,7 @@
     "order": 35,
     "title": "35. ～とは限らない",
     "summary": "Ngữ pháp bài số 35 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 35. ～とは限らない\n\n> 🔧 **Cấu trúc:** `普通形 （ な形（だ） ・ 名（だ）） ＋とは限らない`\n>\n> 📖 **Ý nghĩa:** *「必ず～とは断定できない・～ではない場合もある。」「みんな・いつも・だれでも・必ず」などの言葉といっしょに使うことが多い。Không thể đoán chắc là ~/ Cũng có những trường hợp không phải là ~.Đa phần được dùng với những từ như みんな／いつも／誰でも／必ず…*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～とは限らない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không hẳn là... / Chưa chắc đã... (Diễn tả sự phủ định một phần, dùng để chỉ các trường hợp ngoại lệ. Thường đi kèm các từ chỉ sự toàn thể như: いつも, 必ず, みんな).\n- **Cấu trúc**: \n - Thể thông thường + とは限らない\n - Lưu ý: Với Tính từ đuôi na và Danh từ, có thể bỏ 'だ' hoặc giữ nguyên.\n\n#### 📝 Ví dụ minh họa\n- 高い料理がいつも美味しいとは限らない。\nMón ăn đắt tiền không hẳn lúc nào cũng ngon.\n\n- 日本人がみんな納豆を好むとは限らない。\nKhông phải người Nhật nào cũng thích natto.\n\n- 有名な大学を出たからといって、優秀だとは限らない。\nNói là tốt nghiệp đại học danh tiếng thì không hẳn đã là ưu tú.\n\n- 雨が降っているからといって、試合が中止になるとは限らない。\nKhông phải cứ trời mưa là trận đấu sẽ bị hoãn.",
     "skills": [
       "GRAMMAR"
     ],
@@ -1224,9 +1224,9 @@
           "cards": [
             {
               "front": "〜とは限らない",
-              "back": "Cấu trúc: 普通形 （ な形（だ） ・ 名（だ）） ＋とは限らない\n\nÝ nghĩa: 「必ず～とは断定できない・～ではない場合もある。」「みんな・いつも・だれでも・必ず」などの言葉といっしょに使うことが多い。Không thể đoán chắc là ~/ Cũng có những trường hợp không phải là ~.Đa phần được dùng với những từ như みんな／いつも／誰でも／必ず…",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Không hẳn là... / Không thể khẳng định là... (Chỉ ra trường hợp ngoại lệ).\nCấu trúc: Thể thông thường (Na-adj + だ) / (N + だ) ＋ とは限らない",
+              "romaji": "to-wa-kagiranai",
+              "example": "高い料理がいつも美味しいとは限らない。\nMón ăn đắt tiền không hẳn lúc nào cũng ngon.\n\n日本人がみんな納豆を好むとは限らない。\nKhông phải người Nhật nào cũng thích natto.\n\n有名な大学を出たからといって、優秀だとは限らない。\nNói là tốt nghiệp đại học danh tiếng thì không hẳn đã là ưu tú.\n\n雨が降っているからといって、試合が中止になるとは限らない。\nKhông phải cứ trời mưa là trận đấu sẽ bị hoãn.",
               "jlptLevel": 3
             }
           ]
@@ -1242,7 +1242,7 @@
     "order": 36,
     "title": "36. ～わけではない・～というわけではない・～のではない",
     "summary": "Ngữ pháp bài số 36 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 36. ～わけではない・～というわけではない・～のではない\n\n> 🔧 **Cấu trúc:** `普通形 （ な形だ-な/-である・ 名だ－の-である） ＋わけではない`\n>\n> 📖 **Ý nghĩa:** *「状況から～だと想像されるだろうが、実はそうではない。」 ～の部分だけを否定する言い方。Nhìn tình hình thì có lẽ mọi người sẽ tưởng tượng rằng ~ nhưng thực ra không phải vậy.Là cách nói phủ định chỉ một phần của ~.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～わけではない・～というわけではない・～のではない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không hẳn là..., không có nghĩa là... Dùng để phủ định một phần thông tin, nhằm đính chính hoặc làm giảm nhẹ mức độ của một suy đoán.\n- **Cấu trúc**: Thể thông thường (A-na/N + な/である) + わけではない / というわけではない / のではない\n#### 📝 Ví dụ minh họa\n- 甘いものが嫌いなわけではないが、ダイエット中だから食べない。\n- 日本人がみんな、日本語を教えられるというわけではない。\n- 怒っているのではない、ただ心配しているだけだ。\n- 高ければいいというわけではない。",
     "skills": [
       "GRAMMAR"
     ],
@@ -1259,9 +1259,9 @@
           "cards": [
             {
               "front": "〜わけではない・〜というわけではない・〜のではない",
-              "back": "Cấu trúc: 普通形 （ な形だ-な/-である・ 名だ－の-である） ＋わけではない\n\nÝ nghĩa: 「状況から～だと想像されるだろうが、実はそうではない。」 ～の部分だけを否定する言い方。Nhìn tình hình thì có lẽ mọi người sẽ tưởng tượng rằng ~ nhưng thực ra không phải vậy.Là cách nói phủ định chỉ một phần của ~.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Không hẳn là..., không có nghĩa là... (Phủ định một phần hoặc đính chính suy đoán).\nCấu trúc: Thể thông thường + わけではない / というわけではない / のではない (A-na/N + な/である)",
+              "romaji": "wake de wa nai / to iu wake de wa nai / no de wa nai",
+              "example": "甘いものが嫌いなわけではないが、ダイエット中だから食べない。\nKhông phải tôi ghét đồ ngọt, mà là vì đang ăn kiêng nên không ăn.\n\n日本人がみんな、日本語を教えられるというわけではない。\nKhông phải tất cả người Nhật đều có thể dạy tiếng Nhật.\n\n怒っているのではない、ただ心配しているだけだ。\nKhông phải tôi đang giận đâu, chỉ là đang lo lắng thôi.\n\n高ければいいというわけではない。\nKhông phải cứ đắt là tốt.",
               "jlptLevel": 3
             }
           ]
@@ -1277,7 +1277,7 @@
     "order": 37,
     "title": "37. ～ないことはない",
     "summary": "Ngữ pháp bài số 37 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 37. ～ないことはない\n\n> 🔧 **Cấu trúc:** `動ない形 ・ い形い- くない ・ な形な-でない ・ 名でない ＋ことはない`\n>\n> 📖 **Ý nghĩa:** *「絶対～ないとは言えない。」否定に形をすることで弱く肯定する言い方。Không thể nói là tuyệt đối không ~.Là cách nói khẳng định yếu ớt bằng hình thức phủ định một sự phủ định khác.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ないことはない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không phải là không... (Phủ định của phủ định). Cách diễn đạt mang tính khẳng định nhưng nhẹ nhàng, dè dặt.\n- **Cấu trúc**: V-nai / A-i くない / A-na でない / N でない + ことはない\n#### 📝 Ví dụ minh họa\n- お肉は食べないことはないですが、あまり好きではありません。\n- 日本語の新聞も、辞書を使えば読めないことはない。\n- 走れば間に合わないことはないが、急ごう。\n- 言いにくいが、言えないことはない。",
     "skills": [
       "GRAMMAR"
     ],
@@ -1294,9 +1294,9 @@
           "cards": [
             {
               "front": "〜ないことはない",
-              "back": "Cấu trúc: 動ない形 ・ い形い- くない ・ な形な-でない ・ 名でない ＋ことはない\n\nÝ nghĩa: 「絶対～ないとは言えない。」否定に形をすることで弱く肯定する言い方。Không thể nói là tuyệt đối không ~.Là cách nói khẳng định yếu ớt bằng hình thức phủ định một sự phủ định khác.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Không phải là không... (Dùng phủ định của phủ định để biểu thị sự khẳng định dè dặt, ngập ngừng).\nCấu trúc: V-nai / A-i くない / A-na でない / N でない + ことはない",
+              "romaji": "nai koto wa nai",
+              "example": "お肉は食べないことはないですが、あまり好きではありません。\nKhông phải là tôi không ăn thịt, nhưng không thích lắm.\n\n日本語の新聞も、辞書を使えば読めないことはない。\nBáo tiếng Nhật thì nếu dùng từ điển cũng không phải là không đọc được.\n\n走れば間に合わないことはないが、急ごう。\nNếu chạy thì không phải là không kịp, nhưng hãy khẩn trương lên.\n\n言いにくいが、言えないことはない。\nKhó nói thật, nhưng không phải là không nói được.",
               "jlptLevel": 3
             }
           ]
@@ -1312,7 +1312,7 @@
     "order": 38,
     "title": "38. ～ことは～が、…",
     "summary": "Ngữ pháp bài số 38 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 38. ～ことは～が、…\n\n> 🔧 **Cấu trúc:** `動普通形 （ な形だ-な） ＋ことは ＋動普通形・ 丁寧形 ＋ が`\n>\n> 📖 **Ý nghĩa:** *「確かに～だが、その事実はあまり重要ではなくて、…。」Quả đúng là ~ nhưng sự thực nó không mấy quan trọng nên …*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ことは〜が、…\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Tuy có... thật đấy, nhưng... (Dùng để thừa nhận một sự thật/tình trạng nào đó, nhưng sau đó đưa ra một ý kiến trái ngược hoặc lưu ý quan trọng hơn).\n- **Cấu trúc**: V-plain / A-i / A-na (な) + ことは + lặp lại từ đó + が\n#### 📝 Ví dụ minh họa\n- この本は読んだことは読んだが、内容はほとんど覚えていない。\n- 料理を作ることは作りますが、あまり上手ではありません。\n- このアパートは静かなことは静かだが、駅から遠くて不便だ。\n- 雨は止んだことは止んだが、道がまだ濡れている。",
     "skills": [
       "GRAMMAR"
     ],
@@ -1329,9 +1329,9 @@
           "cards": [
             {
               "front": "〜ことは〜が、…",
-              "back": "Cấu trúc: 動普通形 （ な形だ-な） ＋ことは ＋動普通形・ 丁寧形 ＋ が\n\nÝ nghĩa: 「確かに～だが、その事実はあまり重要ではなくて、…。」Quả đúng là ~ nhưng sự thực nó không mấy quan trọng nên …",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Tuy có... thật đấy, nhưng... (Thừa nhận thực tế ở vế trước, nhưng vế sau mới là trọng tâm).\nCấu trúc: V-plain / A-i / A-na (な) + ことは + từ đó lặp lại + が",
+              "romaji": "koto wa ... ga",
+              "example": "この本は読んだことは読んだが、内容はほとんど覚えていない。\nCuốn sách này tôi đọc thì đúng là đọc rồi thật, nhưng hầu như không nhớ nội dung.\n\n料理を作ることは作りますが、あまり上手ではありません。\nNấu ăn thì tôi có nấu thật đấy, nhưng không giỏi lắm.\n\nこのアパートは静かなことは静かだが、駅から遠くて不便だ。\nCăn hộ này yên tĩnh thì yên tĩnh thật đấy, nhưng xa ga nên bất tiện.\n\n雨は止んだことは止んだが、道がまだ濡れている。\nMưa thì đúng là tạnh rồi đấy, nhưng đường vẫn còn ướt.",
               "jlptLevel": 3
             }
           ]
@@ -1347,7 +1347,7 @@
     "order": 39,
     "title": "39. ～てもらいたい・～てただきたい・～てほしい",
     "summary": "Ngữ pháp bài số 39 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 39. ～てもらいたい・～てただきたい・～てほしい\n\n> 🔧 **Cấu trúc:** `動て形/ない形 ＋ で ＋ もらいたい・いただきたい・ほしい`\n>\n> 📖 **Ý nghĩa:** *「（他の人が）～する/～しないことを望む。」 ①③⑤のように、要求する相手がはっきりしていない場合もある。相手に直接言う場合は「～てください/～ないでください」とだいたい同じ意味。Muốn( ai đó) làm hay không làm ~.Giống như ví dụ ①③⑤có những trường hợp đối phương được yêu cầu thực hiện hành động không rõ ràng, cụ thể là ai.Trong trường hợp nói trực tiếp với đối phương thì thì ý nghĩa của cấu trúc này tương tự như cấu trúc ～てください／～ないでください.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～てもらいたい・〜ていただきたい・〜てほしい\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Bày tỏ mong muốn, yêu cầu người khác thực hiện hoặc không thực hiện một hành động nào đó vì lợi ích của người nói hoặc chung.\n- **Cấu trúc**: V-te / V-nai (で) + もらいたい / いただきたい / ほしい\n#### 📝 Ví dụ minh họa\n- この仕事は、君にやってもらいたい。\n- これから先は、自分で考えて行動してほしい。\n- 先生、この作文を直していただきたいのですが。\n- 誰にもこのことを話さないでほしい。",
     "skills": [
       "GRAMMAR"
     ],
@@ -1363,10 +1363,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜てもらいたい・〜てただきたい・〜てほしい",
-              "back": "Cấu trúc: 動て形/ない形 ＋ で ＋ もらいたい・いただきたい・ほしい\n\nÝ nghĩa: 「（他の人が）～する/～しないことを望む。」 ①③⑤のように、要求する相手がはっきりしていない場合もある。相手に直接言う場合は「～てください/～ないでください」とだいたい同じ意味。Muốn( ai đó) làm hay không làm ~.Giống như ví dụ ①③⑤có những trường hợp đối phương được yêu cầu thực hiện hành động không rõ ràng, cụ thể là ai.Trong trường hợp nói trực tiếp với đối phương thì thì ý nghĩa của cấu trúc này tương tự như cấu trúc ～てください／～ないでください.",
-              "romaji": "",
-              "example": "",
+              "front": "〜てもらいたい・〜ていただきたい・〜てほしい",
+              "back": "Ý nghĩa: Muốn ai đó làm (hoặc không làm) gì cho mình.\nCấu trúc: V-te / V-nai (で) + もらいたい / いただきたい / ほしい",
+              "romaji": "te moraitai / te itadakitai / te hoshii",
+              "example": "この仕事は、君にやってもらいたい。\nCông việc này, tôi muốn cậu làm.\n\nこれから先は、自分で考えて行動してほしい。\nTừ giờ trở đi, tôi muốn bạn tự suy nghĩ và hành động.\n\n先生、この作文を直していただきたいのですが。\nThưa thầy, em muốn thầy sửa giúp em bài văn này ạ.\n\n誰にもこのことを話さないでほしい。\nTôi muốn bạn không nói chuyện này với bất kỳ ai.",
               "jlptLevel": 3
             }
           ]
@@ -1382,7 +1382,7 @@
     "order": 40,
     "title": "40. ～（さ）せてもらいたい・～（さ）せていただきたい・～（さ）せてほしい",
     "summary": "Ngữ pháp bài số 40 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 40. ～（さ）せてもらいたい・～（さ）せていただきたい・～（さ）せてほしい\n\n> 🔧 **Cấu trúc:** `動詞 I動ない＋ せて/せないで ＋もらいたい・いただきたい・欲しい`\n>\n> 📖 **Ý nghĩa:** *「（自分が）～する/～しないことを望む。」 ほかの人が自分のために、ある状況を作ったり許可したりすることを望む言い方。 ②③のように、相手に直接希望を言うときにもよく使う。(Bản thân) muốn được cho phép làm ~/ không làm ~.Là cách nói thể hiện mong muốn người khác tạo điều kiện, cho phép mình làm điều gì đó.Giống như ví dụ ②③, cấu trúc này thường được dùng để nói nguyện vọng của mình trực tiếp với đối phương.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～（さ）せてもらいたい・〜（さ）せていただきたい・〜（さ）せてほしい\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Người nói muốn đối phương cho phép hoặc tạo điều kiện để mình thực hiện một hành động nào đó.\n- **Cấu trúc**: V-sai khiến (thể させて) + もらいたい / いただきたい / ほしい\n#### 📝 Ví dụ minh họa\n- 今日は体調が悪いので、早く帰らせてもらいたいです。\n- 詳しく説明させていただきたいのですが、お時間ありますか。\n- この件については、私にやらせてほしい。\n- もう一度考えさせてほしい。",
     "skills": [
       "GRAMMAR"
     ],
@@ -1399,9 +1399,9 @@
           "cards": [
             {
               "front": "〜（さ）せてもらいたい・〜（さ）せていただきたい・〜（さ）せてほしい",
-              "back": "Cấu trúc: 動詞 I動ない＋ せて/せないで ＋もらいたい・いただきたい・欲しい\n\nÝ nghĩa: 「（自分が）～する/～しないことを望む。」 ほかの人が自分のために、ある状況を作ったり許可したりすることを望む言い方。 ②③のように、相手に直接希望を言うときにもよく使う。(Bản thân) muốn được cho phép làm ~/ không làm ~.Là cách nói thể hiện mong muốn người khác tạo điều kiện, cho phép mình làm điều gì đó.Giống như ví dụ ②③, cấu trúc này thường được dùng để nói nguyện vọng của mình trực tiếp với đối phương.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Cho phép tôi làm..., Tôi muốn được làm... (Thể hiện mong muốn người khác cho phép mình thực hiện hành động).\nCấu trúc: V-sai khiến (thể させて) + もらいたい / いただきたい / ほしい",
+              "romaji": "(sa)sete moraitai / (sa)sete itadakitai / (sa)sete hoshii",
+              "example": "今日は体調が悪いので、早く帰らせてもらいたいです。\nHôm nay sức khỏe không tốt nên tôi muốn được phép về sớm.\n\n詳しく説明させていただきたいのですが、お時間ありますか。\nTôi muốn được giải thích chi tiết, anh/chị có thời gian không ạ?\n\nこの件については、私にやらせてほしい。\nVề việc này, xin hãy để tôi làm.\n\nもう一度考えさせてほしい。\nXin hãy cho tôi thêm một lần suy nghĩ lại.",
               "jlptLevel": 3
             }
           ]
@@ -1417,7 +1417,7 @@
     "order": 41,
     "title": "41. ～といい・～ばいい・～たらいい",
     "summary": "Ngữ pháp bài số 41 sách Shinkanzen Master N3 (2 thẻ).",
-    "theoryMd": "# 41. ～といい・～ばいい・～たらいい\n\n## Phần A\n> 🔧 **Cấu trúc:** `普通形（現在形だけ） ＋といい`\n>\n> 📖 **Ý nghĩa:** *「～ことを望んでいる。」 ～には話者自身の意志的行為を表す言葉は来ない。Mong là ~.~ không phải là từ thể hiện hành vi có ý chí của bản thân người nói.*\n\n### Ví dụ:\n\n## Phần B\n> 🔧 **Cấu trúc:** `動辞書形 ＋ といい`\n>\n> 📖 **Ý nghĩa:** *「相手に～の行為をする/しないことを進める。」Khuyên đối phương nên ~/không nên ~.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～といい・～ばいい・～たらいい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Mong ước:** Dùng để thể hiện hy vọng về một sự việc khách quan hoặc mong muốn của bản thân đối với tương lai.\n - Cấu trúc: V-ru + といい / V-ba + いい / V-tara + いい\n- **Lời khuyên:** Dùng để đưa ra lời gợi ý hoặc khuyên bảo người khác nên làm gì.\n - Cấu trúc: V-ru + といい / V-ba + いい / V-tara + いい\n\n#### 📝 Ví dụ minh họa\n- 明日、晴れるといいですね。(Mong là ngày mai trời đẹp)\n- 疲れたら、少し休めばいい。(Nếu mệt thì bạn nên nghỉ ngơi)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1433,17 +1433,17 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜といい・〜ばいい・〜たらいい",
-              "back": "Cấu trúc: 普通形（現在形だけ） ＋といい\n\nÝ nghĩa: 「～ことを望んでいる。」 ～には話者自身の意志的行為を表す言葉は来ない。Mong là ~.~ không phải là từ thể hiện hành vi có ý chí của bản thân người nói.",
-              "romaji": "",
-              "example": "",
+              "front": "〜といい / 〜ばいい / 〜たらいい",
+              "back": "Ý nghĩa: Mong là, ước gì (Thể hiện mong ước về một sự việc không nằm trong tầm kiểm soát của người nói).\nCấu trúc: V-ru + といい / V-ba + いい / V-tara + いい",
+              "romaji": "to ii / ba ii / tara ii",
+              "example": "明日、晴れるといいですね。\nHy vọng ngày mai trời sẽ đẹp.\n\n試験、合格できればいいんだけど。\nƯớc gì mình có thể đỗ kỳ thi này.\n\n早く熱が下がったらいいですね。\nMong là bạn nhanh chóng hạ sốt.",
               "jlptLevel": 3
             },
             {
-              "front": "〜といい・〜ばいい・〜たらいい",
-              "back": "Cấu trúc: 動辞書形 ＋ といい\n\nÝ nghĩa: 「相手に～の行為をする/しないことを進める。」Khuyên đối phương nên ~/không nên ~.",
-              "romaji": "",
-              "example": "",
+              "front": "〜といい / 〜ばいい / 〜たらいい",
+              "back": "Ý nghĩa: Nên làm gì thì tốt (Khuyên đối phương thực hiện một hành vi nào đó).\nCấu trúc: V-ru + といい / V-ba + いい / V-tara + いい",
+              "romaji": "to ii / ba ii / tara ii",
+              "example": "わからないときは、先生に聞くといいですよ。\nKhi không hiểu, bạn nên hỏi giáo viên thì tốt đấy.\n\n疲れたら、少し休めばいい。\nNếu mệt thì cậu nên nghỉ ngơi một chút.\n\nもっと早く起きればいいのに。\nPhải chi cậu thức dậy sớm hơn thì tốt biết mấy.",
               "jlptLevel": 3
             }
           ]
@@ -1459,7 +1459,7 @@
     "order": 42,
     "title": "42. 命令（しろ）/禁止（～な）",
     "summary": "Ngữ pháp bài số 42 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 42. 命令（しろ）/禁止（～な）\n\n> 🔧 **Cấu trúc:** `命令`\n>\n> 📖 **Ý nghĩa:** *「～しなさい/～してはいけない。」 特に男性が強く命令するときに使うが、応援するときや立札・張り紙などにも使う。 ③④⑥のように、 「 」を使わず、間接的に伝える場合にも使う。Hãy ~/ không được ~.Đặc biệt cấu trúc này được sử dụng khi nam giới đưa ra mệnh lệnh một cách mạnh mẽ.Ngoài ra cấu trúc trên được sử dụng khi cổ vũ, cổ động, bảng thông báo, áp phích, quảng cáo…Giống như trong ví dụ ③④⑥、cấu trúc này được sử dụng với cả những trường hợp truyền đạt gián tiếp thông tin nào đó mà không cần dùng đến dấu ngoặc vuông 「 」.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 命令形 (Mệnh lệnh) & 禁止形 (Cấm đoán)\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **命令形 (Mệnh lệnh):** Dùng để ra lệnh hoặc thúc giục. Thường dùng trong tình huống khẩn cấp, thể thao, hoặc giữa nam giới thân thiết.\n - Nhóm 1: Chuyển đuôi 'u' thành 'e' (ik-u -> ik-e)\n - Nhóm 2: Chuyển 'ru' thành 'ro' (taber-u -> tabe-ro)\n - Nhóm 3: suru -> shiro, kuru -> koi\n- **禁止形 (Cấm đoán):** Dùng để cấm hành động, thường là biển báo hoặc thái độ quyết liệt.\n - Cấu trúc: V-ru + な\n\n#### 📝 Ví dụ minh họa\n- 早く寝ろ！ (Hãy ngủ sớm đi!)\n- ここに車を止めるな。(Không được đỗ xe ở đây.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1475,10 +1475,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "命令（しろ）/禁止（〜な）",
-              "back": "Cấu trúc: 命令\n\nÝ nghĩa: 「～しなさい/～してはいけない。」 特に男性が強く命令するときに使うが、応援するときや立札・張り紙などにも使う。 ③④⑥のように、 「 」を使わず、間接的に伝える場合にも使う。Hãy ~/ không được ~.Đặc biệt cấu trúc này được sử dụng khi nam giới đưa ra mệnh lệnh một cách mạnh mẽ.Ngoài ra cấu trúc trên được sử dụng khi cổ vũ, cổ động, bảng thông báo, áp phích, quảng cáo…Giống như trong ví dụ ③④⑥、cấu trúc này được sử dụng với cả những trường hợp truyền đạt gián tiếp thông tin nào đó mà không cần dùng đến dấu ngoặc vuông 「 」.",
-              "romaji": "",
-              "example": "",
+              "front": "命令形 / 禁止形",
+              "back": "Ý nghĩa: Hãy làm / Không được làm (Mệnh lệnh và cấm đoán mang tính mạnh mẽ).\nCấu trúc: \nNhóm 1: -u -> -e (Mệnh lệnh) / V-ru + な (Cấm đoán)\nNhóm 2: -ru -> -ro (Mệnh lệnh)\nNhóm 3: suru -> shiro, kuru -> koi (Mệnh lệnh)",
+              "romaji": "meirei-kei / kinshi-kei",
+              "example": "早く寝ろ！明日も早いぞ。\nHãy ngủ sớm đi! Ngày mai cũng phải dậy sớm đấy.\n\nここに車を止めるな。\nKhông được đỗ xe ở đây.\n\nがんばれ！あと少しだ。\nCố lên! Còn một chút nữa thôi.\n\nもっと練習しろ。\nHãy luyện tập nhiều hơn nữa đi.",
               "jlptLevel": 3
             }
           ]
@@ -1494,7 +1494,7 @@
     "order": 43,
     "title": "43. ～こと",
     "summary": "Ngữ pháp bài số 43 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 43. ～こと\n\n> 🔧 **Cấu trúc:** `動辞書形/ない形 ＋こと`\n>\n> 📖 **Ý nghĩa:** *「～しなさい/～してはいけない。」主に注意や指示を張り紙などに書いて伝えるときに使う。Hãy ~/ không được ~.Cấu trúc này được dùng chủ yếu để đưa ra những nhắc nhở, yêu cầu, chỉ thị ghi trên biển cảnh báo…*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～こと\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để đưa ra chỉ thị, yêu cầu, hoặc quy định mang tính cứng rắn, khách quan (thường thấy trong văn bản, thông báo, nội quy).\n- **Cấu trúc:** V-ru / V-nai + こと\n\n#### 📝 Ví dụ minh họa\n- 図書館では静かにすること。(Phải giữ im lặng trong thư viện)\n- 試験中は携帯電話を使わないこと。(Không được sử dụng điện thoại trong giờ thi)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1511,9 +1511,9 @@
           "cards": [
             {
               "front": "〜こと",
-              "back": "Cấu trúc: 動辞書形/ない形 ＋こと\n\nÝ nghĩa: 「～しなさい/～してはいけない。」主に注意や指示を張り紙などに書いて伝えるときに使う。Hãy ~/ không được ~.Cấu trúc này được dùng chủ yếu để đưa ra những nhắc nhở, yêu cầu, chỉ thị ghi trên biển cảnh báo…",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Phải làm / Không được làm (Dùng để đưa ra quy tắc, chỉ thị, nội quy).\nCấu trúc: V-ru / V-nai + こと",
+              "romaji": "koto",
+              "example": "図書館では静かにすること。\nHãy giữ yên lặng trong thư viện.\n\n試験中は携帯電話を使わないこと。\nKhông được sử dụng điện thoại di động trong giờ thi.\n\n期日までにレポートを提出すること。\nHãy nộp báo cáo đúng thời hạn.\n\n夜遅く大きな音を出さないこと。\nKhông được gây tiếng ồn lớn vào đêm muộn.",
               "jlptLevel": 3
             }
           ]
@@ -1529,7 +1529,7 @@
     "order": 44,
     "title": "44. ～べきだ・～べき/～べきではない",
     "summary": "Ngữ pháp bài số 44 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 44. ～べきだ・～べき/～べきではない\n\n> 🔧 **Cấu trúc:** `動辞書形 ＋べきだ・べきではない`\n>\n> 📖 **Ý nghĩa:** *「～するのが当然だ・～したほうがいい/～してはいけない・～しないほうがいい。」規則で決まっていることではなく、話者の主張を言うときに使う。⑤のように過去形を使って反省や後悔を表すこともある。Làm ~ là việc đương nhiên/ Nên làm ~/ Không nên làm ~/ Không làm ~ thì hơn.Được sử dụng khi người nói đưa ra ý kiến về một sự việc nào đó, chứ không phải một sự việc được quy định sẵn.Có những trường hợp thể hiện sự hối tiếc, ân hận nếu cấu trúc này chia về quá khứ như trong ví dụ ⑤.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～べきだ・〜べきではない\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ một nghĩa vụ, bổn phận hoặc việc nên làm theo đạo đức, lẽ phải.\n- **Cấu trúc:** V-ru + べきだ / べきではない\n- **Lưu ý:** Với động từ 'suru', có thể dùng 'suru-beki' hoặc 'subeki'.\n\n#### 📝 Ví dụ minh họa\n- 約束は守るべきだ。(Nên giữ lời hứa)\n- そんなひどいことを言うべきではない。(Không nên nói những điều tồi tệ như vậy)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1545,10 +1545,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜べきだ・〜べき/〜べきではない",
-              "back": "Cấu trúc: 動辞書形 ＋べきだ・べきではない\n\nÝ nghĩa: 「～するのが当然だ・～したほうがいい/～してはいけない・～しないほうがいい。」規則で決まっていることではなく、話者の主張を言うときに使う。⑤のように過去形を使って反省や後悔を表すこともある。Làm ~ là việc đương nhiên/ Nên làm ~/ Không nên làm ~/ Không làm ~ thì hơn.Được sử dụng khi người nói đưa ra ý kiến về một sự việc nào đó, chứ không phải một sự việc được quy định sẵn.Có những trường hợp thể hiện sự hối tiếc, ân hận nếu cấu trúc này chia về quá khứ như trong ví dụ ⑤.",
-              "romaji": "",
-              "example": "",
+              "front": "〜べきだ / 〜べきではない",
+              "back": "Ý nghĩa: Nên làm / Không nên làm (Đương nhiên phải làm dựa trên đạo đức, lẽ thường, bổn phận).\nCấu trúc: V-ru + べきだ / べきではない (Lưu ý: suru -> suru-beki hoặc su-beki)",
+              "romaji": "beki da / beki dewa nai",
+              "example": "約束は守るべきだ。\nHứa là phải giữ lời.\n\nそんなひどいことを言うべきではない。\nKhông nên nói những lời tồi tệ như thế.\n\nもっと勉強しておくべきだった。\nĐáng lẽ ra mình nên học nhiều hơn.\n\n困っている人は助けるべきだ。\nNên giúp đỡ người đang gặp khó khăn.",
               "jlptLevel": 3
             }
           ]
@@ -1564,7 +1564,7 @@
     "order": 45,
     "title": "45. ～たらどうか",
     "summary": "Ngữ pháp bài số 45 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 45. ～たらどうか\n\n> 🔧 **Cấu trúc:** `動たら ＋ どうか。`\n>\n> 📖 **Ý nghĩa:** *「～するのがいいですよ。」 助言や忠告の気持ちで相手にある行為を軽く進めるときに使う。④のように、その行為をしないことを非難する言い方にもある。Làm ~ thì sẽ tốt đấy.Sử dụng khi nhẹ nhàng đề nghị, động viên, khuyên nhủ đối phương làm gì đó.Giống như trong ví dụ ④, đây là cách nói chê trách đối phương khi họ không thực hiện.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～たらどうか\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Đưa ra lời khuyên hoặc gợi ý một cách nhẹ nhàng. Đôi khi dùng để mỉa mai, chê trách khi đối phương không làm theo điều mình mong muốn.\n- **Cấu trúc:** V-tara + どうか\n\n#### 📝 Ví dụ minh họa\n- 疲れているなら、早く寝たらどうですか。(Nếu mệt, sao không thử đi ngủ sớm xem?)\n- はっきり言ったらどうなの？(Sao không nói rõ ra đi chứ?)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1581,9 +1581,9 @@
           "cards": [
             {
               "front": "〜たらどうか",
-              "back": "Cấu trúc: 動たら ＋ どうか。\n\nÝ nghĩa: 「～するのがいいですよ。」 助言や忠告の気持ちで相手にある行為を軽く進めるときに使う。④のように、その行為をしないことを非難する言い方にもある。Làm ~ thì sẽ tốt đấy.Sử dụng khi nhẹ nhàng đề nghị, động viên, khuyên nhủ đối phương làm gì đó.Giống như trong ví dụ ④, đây là cách nói chê trách đối phương khi họ không thực hiện.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Thử làm… xem sao / Sao không làm… đi (Lời khuyên, gợi ý hoặc chê trách nhẹ).\nCấu trúc: V-tara + どうか",
+              "romaji": "tara dou ka",
+              "example": "疲れているなら、今日は早く寝たらどうですか。\nNếu mệt thì hôm nay cậu đi ngủ sớm xem sao?\n\nそんなに悩むなら、みんなに相談してみたらどう？\nNếu lo lắng đến vậy, sao cậu không thử thảo luận với mọi người xem?\n\n言いたいことがあるなら、はっきり言ったらどうなの？\nNếu có điều muốn nói thì sao không nói rõ ra đi chứ?\n\n一度先生に聞いてみたらどうですか。\nThử hỏi thầy giáo một lần xem sao?",
               "jlptLevel": 3
             }
           ]
@@ -1599,7 +1599,7 @@
     "order": 46,
     "title": "46. ～ことにする・～ことにしている",
     "summary": "Ngữ pháp bài số 46 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 46. ～ことにする・～ことにしている\n\n> 🔧 **Cấu trúc:** `動辞書形/ている/ない形 ＋ ことにする`\n>\n> 📖 **Ý nghĩa:** *「～と決める。」「～ことにした」という形で使うことが多いが、③のようにその場の決心を表すこともある。④のように「～ことにしている」の形は、決心したことを今も続けていることを表す。Tôi quyết định ~ .Đa phần cấu trúc này được sử dụng ở dạng ～ことにした , nhưng cũng có trường hợp thể hiện quyết tâm ngay thời điểm nói như trong ví dụ ③.Cách nói ～ことにしている như trong ví dụ ④ thể hiện bản thân bây giờ vẫn đang tiếp tục thực hiện quyết tâm đặt ra.~ là động từ thể hiện hành động có ý chí.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ことにする・～ことにしている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** Động từ (Từ điển / V-ない) + ことにする / ことにしている\n- **Ý nghĩa:** \n - 「～ことにする」: Diễn tả quyết định làm hoặc không làm gì (thể hiện ý chí cá nhân).\n - 「～ことにしている」: Diễn tả một thói quen hoặc quy tắc do bản thân tự quyết định và đang duy trì thực hiện.\n\n#### 📝 Ví dụ minh họa\n- 健康のため、毎日野菜を食べることにしました。\n(Vì sức khỏe, tôi đã quyết định mỗi ngày đều ăn rau.)\n- 夜はスマホを見ないことにしている。\n(Tôi tự quy định với bản thân là không xem điện thoại vào ban đêm.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1616,9 +1616,9 @@
           "cards": [
             {
               "front": "〜ことにする・〜ことにしている",
-              "back": "Cấu trúc: 動辞書形/ている/ない形 ＋ ことにする\n\nÝ nghĩa: 「～と決める。」「～ことにした」という形で使うことが多いが、③のようにその場の決心を表すこともある。④のように「～ことにしている」の形は、決心したことを今も続けていることを表す。Tôi quyết định ~ .Đa phần cấu trúc này được sử dụng ở dạng ～ことにした , nhưng cũng có trường hợp thể hiện quyết tâm ngay thời điểm nói như trong ví dụ ③.Cách nói ～ことにしている như trong ví dụ ④ thể hiện bản thân bây giờ vẫn đang tiếp tục thực hiện quyết tâm đặt ra.~ là động từ thể hiện hành động có ý chí.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Quyết định thực hiện một hành động nào đó. Dạng 「～ことにしている」 thể hiện thói quen hoặc quy tắc do bản thân tự đề ra và đang duy trì.\nCấu trúc: Động từ (Từ điển / V-ない) + ことにする / ことにしている",
+              "romaji": "koto ni suru / koto ni shite iru",
+              "example": "健康のため、毎日野菜を食べることにしました。\nVì sức khỏe, tôi đã quyết định mỗi ngày đều ăn rau.\n\n夜はスマホを見ないことにしている。\nTôi tự quy định với bản thân là không xem điện thoại vào ban đêm.\n\n留学するために、毎月少しずつ貯金することにした。\nTôi đã quyết định mỗi tháng tiết kiệm một ít để đi du học.\n\n朝は毎日コップ一杯の水を飲むことにしている。\nTôi có thói quen uống một cốc nước mỗi sáng.",
               "jlptLevel": 3
             }
           ]
@@ -1634,7 +1634,7 @@
     "order": 47,
     "title": "47. ～ようにする・～ようにしている",
     "summary": "Ngữ pháp bài số 47 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 47. ～ようにする・～ようにしている\n\n> 🔧 **Cấu trúc:** `動辞書形/ない形 ＋ようにする・ようにしている`\n>\n> 📖 **Ý nghĩa:** *「～する/しないことを心がける。」④のように「～ようにしている」の形は、努力を続けていることを表す。～は意志的動作を表す動詞。Cố gắng làm/ không làm ~.Cách nói ～ようにしている như trong ví dụ ④ thể hiện sự nổ lực vẫn đang được duy trì.~ là động từ thể hiện hành động có ý chí.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ようにする・～ようにしている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** Động từ (Từ điển / V-ない) + ようにする / ようにしている\n- **Ý nghĩa:** \n - 「～ようにする」: Cố gắng, nỗ lực làm hoặc không làm gì đó.\n - 「～ようにしている」: Nhấn mạnh vào việc duy trì nỗ lực đó một cách liên tục, thường xuyên để hình thành thói quen hoặc thay đổi hành vi.\n\n#### 📝 Ví dụ minh họa\n- 毎朝、６時に起きるようにしています。\n(Tôi đang cố gắng dậy lúc 6 giờ mỗi sáng.)\n- 体に悪いから、甘いものを食べないようにする。\n(Vì không tốt cho sức khỏe nên tôi sẽ cố gắng không ăn đồ ngọt.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1651,9 +1651,9 @@
           "cards": [
             {
               "front": "〜ようにする・〜ようにしている",
-              "back": "Cấu trúc: 動辞書形/ない形 ＋ようにする・ようにしている\n\nÝ nghĩa: 「～する/しないことを心がける。」④のように「～ようにしている」の形は、努力を続けていることを表す。～は意志的動作を表す動詞。Cố gắng làm/ không làm ~.Cách nói ～ようにしている như trong ví dụ ④ thể hiện sự nổ lực vẫn đang được duy trì.~ là động từ thể hiện hành động có ý chí.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Cố gắng, nỗ lực làm hoặc không làm gì đó để hình thành thói quen hoặc tránh điều xấu. Dạng 「～ようにしている」 diễn tả nỗ lực đó đang được duy trì liên tục.\nCấu trúc: Động từ (Từ điển / V-ない) + ようにする / ようにしている",
+              "romaji": "you ni suru / you ni shite iru",
+              "example": "毎朝、６時に起きるようにしています。\nTôi đang cố gắng dậy lúc 6 giờ mỗi sáng.\n\n体に悪いから、甘いものを食べないようにする。\nVì không tốt cho sức khỏe nên tôi sẽ cố gắng không ăn đồ ngọt.\n\n忘れ物をしないように、玄関にメモを貼っている。\nTôi dán ghi chú ở cửa để cố gắng không bỏ quên đồ đạc.\n\nなるべく階段を使うようにしている。\nTôi đang cố gắng sử dụng cầu thang bộ nhiều nhất có thể.",
               "jlptLevel": 3
             }
           ]
@@ -1669,7 +1669,7 @@
     "order": 48,
     "title": "48. ～（よ）うとする",
     "summary": "Ngữ pháp bài số 48 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 48. ～（よ）うとする\n\n> 🔧 **Cấu trúc:** `動う・ よう形 ＋ とする`\n>\n> 📖 **Ý nghĩa:** *「～を実現させることを試みる。」③④のように、～の行為の直前であることを表すこともある。のように、否定の形は話者以外が主語で、～する意思が全くないことを表す。Thử làm một việc khiến cho ~ được thực hiện.Giống như trong ví dụ ③④, cũng có những trường hợp cấu trúc này thể hiện điều gì đó xảy ra ngay trước hành động ~.Giống như trong ví dụ ⑤⑥, với chủ ngữ không phải là người nói, cấu trúc này chia về phủ định sẽ thể hiện rằng người đó hoàn toàn không có ý định thực hiện ~ .*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～（よ）うとする\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** Động từ (Thể ý hướng) + とする\n- **Ý nghĩa:** \n - 「～（よ）うとする」: Định thực hiện hành động ngay tại thời điểm nói hoặc đang cố gắng làm gì.\n - 「〜（よ）うとしない」: Hoàn toàn không có ý định làm gì (Thường dùng cho ngôi thứ 3, phê phán thái độ không hợp tác).\n\n#### 📝 Ví dụ minh họa\n- 出かけようとしたときに、雨が降り出した。\n(Đúng lúc tôi đang định đi ra ngoài thì trời đổ mưa.)\n- 彼は私の質問に答えようとしない。\n(Anh ấy hoàn toàn không có ý định trả lời câu hỏi của tôi.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1686,9 +1686,9 @@
           "cards": [
             {
               "front": "〜（よ）うとする",
-              "back": "Cấu trúc: 動う・ よう形 ＋ とする\n\nÝ nghĩa: 「～を実現させることを試みる。」③④のように、～の行為の直前であることを表すこともある。のように、否定の形は話者以外が主語で、～する意思が全くないことを表す。Thử làm một việc khiến cho ~ được thực hiện.Giống như trong ví dụ ③④, cũng có những trường hợp cấu trúc này thể hiện điều gì đó xảy ra ngay trước hành động ~.Giống như trong ví dụ ⑤⑥, với chủ ngữ không phải là người nói, cấu trúc này chia về phủ định sẽ thể hiện rằng người đó hoàn toàn không có ý định thực hiện ~ .",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Định làm gì, cố gắng làm gì ngay tại thời điểm đó. Dạng 「〜（よ）うとしない」 diễn tả việc hoàn toàn không có ý định làm gì (chủ ngữ thường là người khác).\nCấu trúc: Động từ (Thể ý hướng) + とする",
+              "romaji": "(yo)u to suru",
+              "example": "出かけようとしたときに、雨が降り出した。\nĐúng lúc tôi đang định đi ra ngoài thì trời đổ mưa.\n\n彼は私の質問に答えようとしない。\nAnh ấy hoàn toàn không có ý định trả lời câu hỏi của tôi.\n\n電車に乗ろうとしたら、ドアが閉まってしまった。\nĐúng lúc tôi định bước lên tàu thì cửa đóng lại.\n\n猫が逃げようとしている。\nCon mèo đang định bỏ chạy.",
               "jlptLevel": 3
             }
           ]
@@ -1704,7 +1704,7 @@
     "order": 49,
     "title": "49. ～つもりだ",
     "summary": "Ngữ pháp bài số 49 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 49. ～つもりだ\n\n> 🔧 **Cấu trúc:** `普通形（ な形だ - な・名だ - の） ＋ つもりだ`\n>\n> 📖 **Ý nghĩa:** *「（実際はそうではないが・ほかの人はそう思わないかもしれないが）自分では～の気持ちを持っている。」④のように相手を非難する言い方にもなる。(Thực tế thì không phải như vậy/ người khác có lẽ nghĩ như vậy nhưng) bản thân mình lại có cảm giác ~.Cấu trúc này cũng có thể trở thành cách nói phê phán đối phương như trong ví dụ ④.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～つもりだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** Thể thường (Na-adj + な / N + の) + つもりだ\n- **Ý nghĩa:** Dùng để diễn tả sự suy nghĩ, niềm tin chủ quan của bản thân, trái ngược với thực tế khách quan hoặc nhận định của người khác.\n\n#### 📝 Ví dụ minh họa\n- 私は若いつもりですが、もう50歳になりました。\n(Tôi cứ ngỡ là mình còn trẻ, nhưng đã 50 tuổi rồi.)\n- ちゃんと鍵を閉めたつもりだったが、開いていました。\n(Tôi cứ đinh ninh là đã khóa cửa cẩn thận rồi, nhưng hóa ra nó đang mở.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1721,9 +1721,9 @@
           "cards": [
             {
               "front": "〜つもりだ",
-              "back": "Cấu trúc: 普通形（ な形だ - な・名だ - の） ＋ つもりだ\n\nÝ nghĩa: 「（実際はそうではないが・ほかの人はそう思わないかもしれないが）自分では～の気持ちを持っている。」④のように相手を非難する言い方にもなる。(Thực tế thì không phải như vậy/ người khác có lẽ nghĩ như vậy nhưng) bản thân mình lại có cảm giác ~.Cấu trúc này cũng có thể trở thành cách nói phê phán đối phương như trong ví dụ ④.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Cứ ngỡ là, đinh ninh là, tin rằng (thực tế có thể trái ngược). Thể hiện cảm giác chủ quan.\nCấu trúc: Thể thường (Na-adj + な / N + の) + つもりだ",
+              "romaji": "tsumori da",
+              "example": "私は若いつもりですが、もう50歳になりました。\nTôi cứ ngỡ là mình còn trẻ, nhưng đã 50 tuổi rồi.\n\nちゃんと鍵を閉めたつもりだったが、開いていました。\nTôi cứ đinh ninh là đã khóa cửa cẩn thận rồi, nhưng hóa ra nó đang mở.\n\n勉強したつもりだったのに、テストの結果は悪かった。\nTôi cứ ngỡ là mình đã học bài kỹ rồi, nhưng kết quả thi lại tệ.\n\n伝えたつもりですが、相手には理解されていなかった。\nTôi cứ ngỡ là mình đã truyền đạt rồi, nhưng đối phương lại không hiểu.",
               "jlptLevel": 3
             }
           ]
@@ -1739,7 +1739,7 @@
     "order": 50,
     "title": "50. こそ",
     "summary": "Ngữ pháp bài số 50 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 50. こそ\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. こそ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** Danh từ / Trợ từ (から/に/で...) + こそ\n- **Ý nghĩa:** Nhấn mạnh danh từ hoặc trợ từ phía trước, dùng để khẳng định mạnh mẽ hoặc biểu đạt quyết tâm cao độ. Trong một số trường hợp (như 「～からこそ」), nó nhấn mạnh lý do chính yếu nhất.\n\n#### 📝 Ví dụ minh họa\n- 今年こそ、JLPT N3に合格してみせる。\n(Chính năm nay, tôi nhất định sẽ đỗ JLPT N3 cho xem.)\n- こちらこそ、どうぞよろしくお願いします。\n(Chính tôi mới là người mong nhận được sự giúp đỡ của anh/chị.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1756,9 +1756,9 @@
           "cards": [
             {
               "front": "こそ",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Chính là, nhất định là. Dùng để nhấn mạnh danh từ hoặc trợ từ đứng trước nó, thể hiện sự khẳng định mạnh mẽ.\nCấu trúc: Danh từ / Trợ từ (から/に/で...) + こそ",
+              "romaji": "koso",
+              "example": "今年こそ、JLPT N3に合格してみせる。\nChính năm nay, tôi nhất định sẽ đỗ JLPT N3 cho xem.\n\nこちらこそ、どうぞよろしくお願いします。\nChính tôi mới là người mong nhận được sự giúp đỡ của anh/chị.\n\n愛があればこそ、厳しく言うのです。\nChính vì có tình yêu thương nên tôi mới nói nghiêm khắc như vậy.\n\n今日こそ頑張って最後までやり遂げます。\nChính ngày hôm nay, tôi sẽ cố gắng làm cho đến cùng.",
               "jlptLevel": 3
             }
           ]
@@ -1774,7 +1774,7 @@
     "order": 51,
     "title": "51. でも",
     "summary": "Ngữ pháp bài số 51 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 51. でも\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜でも\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để đưa ra một ví dụ mang tính cực đoan hoặc tối thiểu để khẳng định điều tương tự cũng đúng với những cái khác, hoặc dùng để gợi ý một cách nhẹ nhàng.\n- **Cấu trúc:** N + でも\n\n#### 📝 Ví dụ minh họa\n- 子供でもそれくらいは知っている。 (Ngay cả trẻ con cũng biết điều đó.)\n- 温かいお茶でも飲みませんか。 (Chúng ta uống chút trà nóng hay gì đó nhé?)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1790,10 +1790,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "でも",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "front": "〜でも",
+              "back": "Ý nghĩa: Ngay cả, thậm chí (đưa ra ví dụ cực đoan); hoặc (đưa ra gợi ý nhẹ nhàng).\nCấu trúc: N + でも",
+              "romaji": "demo",
+              "example": "子供でもそれくらいは知っている。\nNgay cả trẻ con cũng biết điều đó.\n\n温かいお茶でも飲みませんか。\nChúng ta uống chút trà nóng hay gì đó nhé?\n\nこの問題は小学生でも解ける。\nBài toán này ngay cả học sinh tiểu học cũng giải được.\n\n疲れたからコーヒーでも飲もう。\nVì mệt rồi nên uống chút cà phê hay gì đó đi.",
               "jlptLevel": 3
             }
           ]
@@ -1809,7 +1809,7 @@
     "order": 52,
     "title": "52. も",
     "summary": "Ngữ pháp bài số 52 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 52. も\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜も\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Trợ từ 'も' kết hợp với từ chỉ số lượng để nhấn mạnh rằng con số đó là rất nhiều hoặc vượt quá mức bình thường/mong đợi.\n- **Cấu trúc:** N (số lượng/thời gian/độ dài) + も\n\n#### 📝 Ví dụ minh họa\n- 昨日は風邪で熱が40度も出た。 (Hôm qua tôi bị cảm sốt lên tới tận 40 độ.)\n- 駅まで行くのに1時間もかかった。 (Mất đến tận 1 tiếng đồng hồ để đi đến nhà ga.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1825,10 +1825,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "も",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "front": "〜も",
+              "back": "Ý nghĩa: Nhấn mạnh số lượng, thời gian, mức độ nhiều vượt quá mong đợi.\nCấu trúc: N (chỉ số lượng/thời gian) + も",
+              "romaji": "mo",
+              "example": "昨日は風邪で熱が40度も出た。\nHôm qua tôi bị cảm sốt lên tới tận 40 độ.\n\n駅まで行くのに1時間もかかった。\nMất đến tận 1 tiếng đồng hồ để đi đến nhà ga.\n\n彼はリンゴを5個も食べた。\nAnh ấy đã ăn tới tận 5 quả táo.\n\nこの部屋には本が1000冊もある。\nPhòng này có tới tận 1000 cuốn sách.",
               "jlptLevel": 3
             }
           ]
@@ -1844,7 +1844,7 @@
     "order": 53,
     "title": "53. さえ",
     "summary": "Ngữ pháp bài số 53 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 53. さえ\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜さえ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Nhấn mạnh một ví dụ cực đoan nhất, từ đó ngụ ý rằng các trường hợp khác cũng như vậy hoặc không thể nào xảy ra.\n- **Cấu trúc:** N + さえ\n\n#### 📝 Ví dụ minh họa\n- ひらがなさえ書けないなら、漢字は無理だ。 (Nếu ngay cả chữ Hiragana còn không viết được thì chữ Kanji là không thể nào.)\n- 忙しすぎて、食事をする時間さえありません。 (Vì quá bận rộn nên ngay cả thời gian ăn uống tôi cũng không có.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1860,10 +1860,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "さえ",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "front": "〜さえ",
+              "back": "Ý nghĩa: Ngay cả, đến cả (nhấn mạnh ví dụ cực đoan, thường mang sắc thái tiêu cực hoặc bất ngờ).\nCấu trúc: N + さえ",
+              "romaji": "sae",
+              "example": "ひらがなさえ書けないなら、漢字は無理だ。\nNếu ngay cả chữ Hiragana còn không viết được thì chữ Kanji là không thể nào.\n\n忙しすぎて、食事をする時間さえありません。\nVì quá bận rộn nên ngay cả thời gian ăn uống tôi cũng không có.\n\n彼は挨拶さえしなかった。\nAnh ta ngay cả một lời chào cũng không nói.\n\n子供でさえ知っていることを彼は知らない。\nNgay cả trẻ con cũng biết những điều mà anh ta không biết.",
               "jlptLevel": 3
             }
           ]
@@ -1879,7 +1879,7 @@
     "order": 54,
     "title": "54. まで",
     "summary": "Ngữ pháp bài số 54 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 54. まで\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜まで\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để thể hiện sự ngạc nhiên hoặc phê phán một trạng thái/hành động đã đi quá giới hạn bình thường.\n- **Cấu trúc:** N + まで / V-て + まで\n\n#### 📝 Ví dụ minh họa\n- 親友にまで騙されるとは思わなかった。 (Tôi không thể ngờ được là đến cả người bạn thân cũng lừa dối mình.)\n- 借金してまで新しい車を買いたくない。 (Tôi không muốn đến mức phải vay nợ để mua một chiếc xe hơi mới.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1895,10 +1895,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "まで",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "front": "〜まで",
+              "back": "Ý nghĩa: Đến mức, đến cả (thể hiện sự ngạc nhiên về phạm vi rộng hoặc hành động quá mức cần thiết).\nCấu trúc: N + まで / V-te + まで",
+              "romaji": "made",
+              "example": "親友にまで騙されるとは思わなかった。\nTôi không thể ngờ được là đến cả người bạn thân cũng lừa dối mình.\n\n借金してまで新しい車を買いたくない。\nTôi không muốn đến mức phải vay nợ để mua một chiếc xe hơi mới.\n\n嘘をついてまで勝とうとは思わない。\nTôi không nghĩ đến mức phải nói dối để giành chiến thắng.\n\n親にまで反対された。\nĐến cả bố mẹ cũng phản đối tôi.",
               "jlptLevel": 3
             }
           ]
@@ -1914,7 +1914,7 @@
     "order": 55,
     "title": "55. ぐらい/くらい",
     "summary": "Ngữ pháp bài số 55 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 55. ぐらい/くらい\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜ぐらい / くらい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \n1. Chỉ mức độ ước chừng.\n2. Đưa ra một ví dụ tối thiểu (ít nhất thì...).\n3. Nhấn mạnh mức độ đến mức mà...\n- **Cấu trúc:** N / V-る / A-い / A-な + ぐらい / くらい\n\n#### 📝 Ví dụ minh họa\n- 簡単なお辞儀くらいは、子供でもできる。 (Kiểu chào hỏi đơn giản như thế thì ít nhất trẻ con cũng làm được.)\n- 涙が出るくらい、お腹を抱えて笑った。 (Tôi đã ôm bụng cười đến mức chảy cả nước mắt.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1930,10 +1930,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "ぐらい/くらい",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "front": "〜ぐらい / くらい",
+              "back": "Ý nghĩa: Đến mức... / Ít nhất là... (biểu thị mức độ trạng thái hoặc ví dụ tối thiểu).\nCấu trúc: N / V-ru / A-i / A-na + ぐらい / くらい",
+              "romaji": "gurai / kurai",
+              "example": "簡単なお辞儀くらいは、子供でもできる。\nKiểu chào hỏi đơn giản như thế thì ít nhất trẻ con cũng làm được.\n\n涙が出るくらい、お腹を抱えて笑った。\nTôi đã ôm bụng cười đến mức chảy cả nước mắt.\n\n10分くらい待ってください。\nHãy đợi tôi khoảng 10 phút nhé.\n\n服が汚れるくらい一生懸命遊んだ。\nTôi đã chơi nhiệt tình đến mức quần áo bị lấm bẩn.",
               "jlptLevel": 3
             }
           ]
@@ -1949,7 +1949,7 @@
     "order": 56,
     "title": "56. など/なんか",
     "summary": "Ngữ pháp bài số 56 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 56. など/なんか\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜など / 〜なんか\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đưa ra ví dụ hoặc thể hiện sự xem nhẹ, khiêm tốn.\n- **Cấu trúc**: \n - N / V-ru + など\n - N + なんか\n\n#### 📝 Ví dụ minh họa\n- スキーなど、ウインタースポーツが大好きです。\n(Tôi rất thích các môn thể thao mùa đông, ví dụ như trượt tuyết.)\n- 私なんか、まだまだ実力が足りません。\n(Một người như tôi thì thực lực vẫn còn thiếu sót lắm.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1965,10 +1965,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "など/なんか",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "front": "〜など / 〜なんか",
+              "back": "Ý nghĩa: Đưa ra ví dụ tiêu biểu hoặc thể hiện sự xem nhẹ, phủ định đối với đối tượng được nhắc tới.\nCấu trúc: N / V-ru + など / N + なんか",
+              "romaji": "nado / nanka",
+              "example": "スキーなど、ウインタースポーツが大好きです。\nTôi rất thích các môn thể thao mùa đông, ví dụ như trượt tuyết.\n\n私なんか、まだまだ実力が足りません。\nMột người như tôi thì thực lực vẫn còn thiếu sót lắm.\n\nそんなこと、私には関係ないなどと言わないでください。\nĐừng nói những lời như kiểu chuyện đó không liên quan đến tôi.\n\n試験なんか、怖くありません。\nMấy cái bài kiểm tra thì tôi chẳng sợ gì cả.",
               "jlptLevel": 3
             }
           ]
@@ -1984,7 +1984,7 @@
     "order": 57,
     "title": "57. だけ",
     "summary": "Ngữ pháp bài số 57 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 57. だけ\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜だけ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Biểu thị phạm vi giới hạn hoặc mức độ cao nhất.\n- **Cấu trúc**: N / V-thông thường / A-i / A-na (+na) + だけ\n\n#### 📝 Ví dụ minh họa\n- 寝たいだけ寝てもいいですよ。\n(Bạn có thể ngủ bao nhiêu tùy thích.)\n- 必要なだけ取ってください。\n(Hãy lấy đúng lượng bạn cần.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2000,10 +2000,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "だけ",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "front": "〜だけ",
+              "back": "Ý nghĩa: Biểu thị giới hạn (chỉ) hoặc mức độ tối đa (đến mức có thể).\nCấu trúc: N / V-thông thường / A-i / A-na (+na) + だけ",
+              "romaji": "dake",
+              "example": "寝たいだけ寝てもいいですよ。\nBạn có thể ngủ bao nhiêu tùy thích.\n\n必要なだけ取ってください。\nHãy lấy đúng lượng bạn cần.\n\n歩けるだけ歩いてみよう。\nHãy thử đi bộ nhiều nhất có thể.\n\n泣きたいだけ泣けば、すっきりするよ。\nNếu cứ khóc cho thỏa thích thì sẽ thấy nhẹ lòng hơn đấy.",
               "jlptLevel": 3
             }
           ]
@@ -2019,7 +2019,7 @@
     "order": 58,
     "title": "58. ～について…",
     "summary": "Ngữ pháp bài số 58 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 58. ～について…\n\n> 🔧 **Cấu trúc:** `名 ＋について`\n>\n> 📖 **Ý nghĩa:** *「～の内容・～に関係があることを…する。」～は話題を表す言葉。…は「思う・考える・話す・聞く・調べる・書く・説明する・知っている」などの動詞の文。Làm … về nội dung ~/ có liên quan đến ~.~ là từ ngữ thể hiện chủ đề.… là câu có các động từ như 思う／考える／話す／きく／調べる／書く／説明する／知っている…*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜について\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để chỉ chủ đề, nội dung của hành động (nói, viết, tìm hiểu).\n- **Cấu trúc**: N + について / N + についての + N\n\n#### 📝 Ví dụ minh họa\n- 日本の文化について研究しています。\n(Tôi đang nghiên cứu về văn hóa Nhật Bản.)\n- この件について、どうお考えですか。\n(Bạn nghĩ thế nào về vụ việc này?)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2035,10 +2035,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜について…",
-              "back": "Cấu trúc: 名 ＋について\n\nÝ nghĩa: 「～の内容・～に関係があることを…する。」～は話題を表す言葉。…は「思う・考える・話す・聞く・調べる・書く・説明する・知っている」などの動詞の文。Làm … về nội dung ~/ có liên quan đến ~.~ là từ ngữ thể hiện chủ đề.… là câu có các động từ như 思う／考える／話す／きく／調べる／書く／説明する／知っている…",
-              "romaji": "",
-              "example": "",
+              "front": "〜について",
+              "back": "Ý nghĩa: Nói về, liên quan đến một chủ đề nào đó.\nCấu trúc: N + について / N + についての + N",
+              "romaji": "ni tsuite",
+              "example": "日本の文化について研究しています。\nTôi đang nghiên cứu về văn hóa Nhật Bản.\n\nこの件について、どうお考えですか。\nBạn nghĩ thế nào về vụ việc này?\n\n計画についての話し合いが行われた。\nMột cuộc thảo luận về kế hoạch đã được tiến hành.\n\n将来について真剣に考えた方がいい。\nNên suy nghĩ nghiêm túc về tương lai.",
               "jlptLevel": 3
             }
           ]
@@ -2054,7 +2054,7 @@
     "order": 59,
     "title": "59. ～に対して…・～に対する",
     "summary": "Ngữ pháp bài số 59 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 59. ～に対して…・～に対する\n\n> 🔧 **Cấu trúc:** `名 ＋に対して`\n>\n> 📖 **Ý nghĩa:** *「～に向けて…する・…という態度を示す。」 …は～への行為や態度などを表す文（求める・文句を言う・感謝する・厳しい・新設だなど）。Thể hiện thái độ … / Thực hiện … hướng đến ~.… là câu thể hiện hành động hay thái độ đối với ~. (Những từ thường dùng trong câu như もとめる／文句を言う／感謝する／厳しい／親切…*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜に対して / 〜に対する\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ đối tượng mà hành động hoặc thái độ hướng đến.\n- **Cấu trúc**: N + に対して / N + に対する + N\n\n#### 📝 Ví dụ minh họa\n- お客様に対して、失礼な態度を取ってはいけません。\n(Không được có thái độ vô lễ đối với khách hàng.)\n- 若者に対する調査が行われた。\n(Một cuộc khảo sát đối với giới trẻ đã được tiến hành.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2070,10 +2070,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜に対して…・〜に対する",
-              "back": "Cấu trúc: 名 ＋に対して\n\nÝ nghĩa: 「～に向けて…する・…という態度を示す。」 …は～への行為や態度などを表す文（求める・文句を言う・感謝する・厳しい・新設だなど）。Thể hiện thái độ … / Thực hiện … hướng đến ~.… là câu thể hiện hành động hay thái độ đối với ~. (Những từ thường dùng trong câu như もとめる／文句を言う／感謝する／厳しい／親切…",
-              "romaji": "",
-              "example": "",
+              "front": "〜に対して / 〜に対する",
+              "back": "Ý nghĩa: Đối với (hướng tới một đối tượng cụ thể nào đó).\nCấu trúc: N + に対して / N + に対する + N",
+              "romaji": "ni taishite / ni taisuru",
+              "example": "お客様に対して、失礼な態度を取ってはいけません。\nKhông được có thái độ vô lễ đối với khách hàng.\n\n若者に対する調査が行われた。\nMột cuộc khảo sát đối với giới trẻ đã được tiến hành.\n\n政府の発表に対して、多くの批判が出た。\nNhiều ý kiến phê phán đã nổ ra đối với thông báo của chính phủ.\n\nこの質問に対する答えは簡単ではない。\nCâu trả lời cho câu hỏi này không hề đơn giản.",
               "jlptLevel": 3
             }
           ]
@@ -2089,7 +2089,7 @@
     "order": 60,
     "title": "60. ～によって",
     "summary": "Ngữ pháp bài số 60 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 60. ～によって\n\n## Phần A\n> 🔧 **Cấu trúc:** `名 ＋によって`\n>\n> 📖 **Ý nghĩa:** *…は受身文。～はその行為をする人。主に生物以外のものが主語になる受身文の中で、行為をする人を言いたいときに使う。… là câu bị động. ~ là người thực hiện hành động đó. Với chủ ngữ là bất động vật, によってđược sử dụng trong câu bị động khi muốn đề cập đến người thực hiện hành động.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜によって\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để chỉ tác nhân gây ra hành động trong câu bị động.\n- **Cấu trúc**: N + によって\n\n#### 📝 Ví dụ minh họa\n- このビルは有名建築家によって設計されました。\n(Tòa nhà này được thiết kế bởi một kiến trúc sư nổi tiếng.)\n- 万有引力の法則はニュートンによって発見された。\n(Định luật vạn vật hấp dẫn được phát hiện bởi Newton.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2106,9 +2106,9 @@
           "cards": [
             {
               "front": "〜によって",
-              "back": "Cấu trúc: 名 ＋によって\n\nÝ nghĩa: …は受身文。～はその行為をする人。主に生物以外のものが主語になる受身文の中で、行為をする人を言いたいときに使う。… là câu bị động. ~ là người thực hiện hành động đó. Với chủ ngữ là bất động vật, によってđược sử dụng trong câu bị động khi muốn đề cập đến người thực hiện hành động.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Bởi... (tác nhân gây ra hành động trong câu bị động).\nCấu trúc: N + によって",
+              "romaji": "ni yotte",
+              "example": "このビルは有名建築家によって設計されました。\nTòa nhà này được thiết kế bởi một kiến trúc sư nổi tiếng.\n\n万有引力の法則はニュートンによって発見された。\nĐịnh luật vạn vật hấp dẫn được phát hiện bởi Newton.\n\nこの小説は多くの読者によって読まれている。\nCuốn tiểu thuyết này đang được nhiều độc giả tìm đọc.\n\n犯人は警察によって捕まった。\nThủ phạm đã bị cảnh sát bắt giữ.",
               "jlptLevel": 3
             }
           ]
@@ -2124,7 +2124,7 @@
     "order": 61,
     "title": "61. ～にとって",
     "summary": "Ngữ pháp bài số 61 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 61. ～にとって\n\n> 🔧 **Cấu trúc:** `名 ＋にとって`\n>\n> 📖 **Ý nghĩa:** *「～の立場から考えると…だ。」 …は形容詞を含む文が多いNếu suy nghĩ từ lập trường của ~ thì … … đa phần là các câu văn có chứa tính từ.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～にとって\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Được dùng để biểu thị lập trường, quan điểm. Mẫu câu này dùng khi muốn nói về một sự vật, sự việc được nhìn nhận từ phía ai đó.\n- **Cấu trúc**: N + にとって\n\n#### 📝 Ví dụ minh họa\n- 私にとって、家族が一番大切です。\n(Đối với tôi, gia đình là quan trọng nhất.)\n- 若者にとって、スマートフォンは手放せないものです。\n(Đối với giới trẻ, điện thoại thông minh là thứ không thể thiếu.)\n- 彼にとって、このチャンスは非常に重要だ。\n(Đối với anh ấy, cơ hội này cực kỳ quan trọng.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2141,9 +2141,9 @@
           "cards": [
             {
               "front": "〜にとって",
-              "back": "Cấu trúc: 名 ＋にとって\n\nÝ nghĩa: 「～の立場から考えると…だ。」 …は形容詞を含む文が多いNếu suy nghĩ từ lập trường của ~ thì … … đa phần là các câu văn có chứa tính từ.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Đối với... (Nhìn từ lập trường, quan điểm của... để đưa ra nhận xét, đánh giá)\nCấu trúc: N ＋にとって",
+              "romaji": "ni totte",
+              "example": "私にとって、家族が一番大切です。\nĐối với tôi, gia đình là quan trọng nhất.\n\n若者にとって、スマートフォンは手放せないものです。\nĐối với giới trẻ, điện thoại thông minh là thứ không thể thiếu.\n\n彼にとって、このチャンスは非常に重要だ。\nĐối với anh ấy, cơ hội này cực kỳ quan trọng.",
               "jlptLevel": 3
             }
           ]
@@ -2159,7 +2159,7 @@
     "order": 62,
     "title": "62. ～として",
     "summary": "Ngữ pháp bài số 62 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 62. ～として\n\n> 🔧 **Cấu trúc:** `名 +として`\n>\n> 📖 **Ý nghĩa:** *「～という立場、資格、役割、名目で…。」Với lập trường, tư cách, vai trò, danh nghĩa~, …*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～として\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để diễn tả tư cách, vị trí, danh nghĩa hoặc mục đích của một sự vật/sự việc.\n- **Cấu trúc**: N + として\n\n#### 📝 Ví dụ minh họa\n- 彼は留学生として日本に来ました。\n(Anh ấy đã đến Nhật Bản với tư cách là du học sinh.)\n- 趣味として、日本語を勉強しています。\n(Tôi đang học tiếng Nhật như một sở thích.)\n- この建物は歴史的建造物として保護されている。\n(Tòa nhà này được bảo tồn như một di tích lịch sử.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2176,9 +2176,9 @@
           "cards": [
             {
               "front": "〜として",
-              "back": "Cấu trúc: 名 +として\n\nÝ nghĩa: 「～という立場、資格、役割、名目で…。」Với lập trường, tư cách, vai trò, danh nghĩa~, …",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Với tư cách là... / Dưới danh nghĩa là... / Như là...\nCấu trúc: N ＋として",
+              "romaji": "to shite",
+              "example": "彼は留学生として日本に来ました。\nAnh ấy đã đến Nhật Bản với tư cách là du học sinh.\n\n趣味として、日本語を勉強しています。\nTôi đang học tiếng Nhật như một sở thích.\n\nこの建物は歴史的建造物として保護されている。\nTòa nhà này được bảo tồn như một di tích lịch sử.",
               "jlptLevel": 3
             }
           ]
@@ -2194,7 +2194,7 @@
     "order": 63,
     "title": "63. ～（かの）ようだ・～のようだ・～（かの）ように…・～のように…",
     "summary": "Ngữ pháp bài số 63 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 63. ～（かの）ようだ・～のようだ・～（かの）ように…・～のように…\n\n> 🔧 **Cấu trúc:** `名の ＋ようだ・ように`\n>\n> 📖 **Ý nghĩa:** *よく似ているものに例えて言うsử dụng để ví von với sự vật có điểm giống*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～（かの）ようだ / ～のようだ / ～（かの）ように / ～のように\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: So sánh, ví von một sự vật/hành động với một cái gì đó tương đồng. Dùng 「かのようだ」 khi muốn nhấn mạnh giả định.\n- **Cấu trúc**:\n - N + の + ようだ / ように\n - V / Adj 普通形 + かのようだ / かのように\n - *Chú ý*: Với tính từ đuôi 'na' và Danh từ, có thể chia thành 'である'.\n\n#### 📝 Ví dụ minh họa\n- 彼女はまるで歌手であるかのように、歌が上手だ。\n(Cô ấy hát hay cứ như thể là một ca sĩ thực thụ vậy.)\n- 星が雪のように降ってくる。\n(Những ngôi sao rơi xuống trông giống như là tuyết rơi.)\n- 彼は何も知らなかったかのように振る舞っている。\n(Anh ta cư xử cứ như thể là chưa biết chuyện gì xảy ra vậy.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2211,9 +2211,9 @@
           "cards": [
             {
               "front": "〜（かの）ようだ・〜のようだ・〜（かの）ように…・〜のように…",
-              "back": "Cấu trúc: 名の ＋ようだ・ように\n\nÝ nghĩa: よく似ているものに例えて言うsử dụng để ví von với sự vật có điểm giống",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Cứ như là... / Giống như là... (So sánh, ví von)\nCấu trúc: N + の + ようだ/ように\nV / Adj 普通形 (な形-である / 名-である) + かのようだ/かのように",
+              "romaji": "kano-yōda / no-yōda / kano-yōni / no-yōni",
+              "example": "彼女はまるで歌手であるかのように、歌が上手だ。\nCô ấy hát hay cứ như thể là một ca sĩ thực thụ vậy.\n\n星が雪のように降ってくる。\nNhững ngôi sao rơi xuống trông giống như là tuyết rơi.\n\n彼は何も知らなかったかのように振る舞っている。\nAnh ta cư xử cứ như thể là chưa biết chuyện gì xảy ra vậy.",
               "jlptLevel": 3
             }
           ]
@@ -2229,7 +2229,7 @@
     "order": 64,
     "title": "64. ～ように…",
     "summary": "Ngữ pháp bài số 64 sách Shinkanzen Master N3 (2 thẻ).",
-    "theoryMd": "# 64. ～ように…\n\n## Phần A\n> 🔧 **Cấu trúc:** `名の・普通形 （ な形だ-な/ -である・名だ-である） ＋ように`\n>\n> 📖 **Ý nghĩa:** *大体同じであることを表すChỉ ra sự tương đồng*\n\n### Ví dụ:\n\n## Phần B\n> 🔧 **Cấu trúc:** `名の ＋ように`\n>\n> 📖 **Ý nghĩa:** *例を示すĐưa ra ví dụ*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ように (Chỉ sự tương đồng & Đưa ví dụ)\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa 1**: Đúng như/Theo như: Dùng để xác nhận lại một sự việc đã biết trước.\n- **Ý nghĩa 2**: Như là: Dùng để liệt kê ví dụ tiêu biểu.\n- **Cấu trúc**: \n - N + の + ように\n - V/Adj 普通形 + ように\n\n#### 📝 Ví dụ minh họa\n- 先生が言うように、毎日練習することが大切だ。\n(Đúng như lời thầy giáo nói, việc luyện tập hàng ngày là rất quan trọng.)\n- 私は、リンゴやバナナのように、甘い果物が好きです。\n(Tôi thích những loại quả ngọt, ví dụ như táo hay chuối.)\n- 彼のように日本語が上手になりたい。\n(Tôi muốn trở nên giỏi tiếng Nhật giống như anh ấy.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2245,17 +2245,17 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜ように…",
-              "back": "Cấu trúc: 名の・普通形 （ な形だ-な/ -である・名だ-である） ＋ように\n\nÝ nghĩa: 大体同じであることを表すChỉ ra sự tương đồng",
-              "romaji": "",
-              "example": "",
+              "front": "〜ように… (Chỉ sự tương đồng)",
+              "back": "Ý nghĩa: Đúng như... / Theo như... (Dựa theo hình mẫu, lời nói, hành động)\nCấu trúc: N + の + ように\nV / Adj 普通形 (な形-な / 名-である) + ように",
+              "romaji": "yō ni",
+              "example": "先生が言うように、毎日練習することが大切だ。\nĐúng như lời thầy giáo nói, việc luyện tập hàng ngày là rất quan trọng.\n\nお母さんが作ったように、おいしい料理を作りたい。\nTôi muốn nấu ăn ngon giống như mẹ đã nấu.\n\n天気予報で言ったように、今日は雨が降っている。\nĐúng như dự báo thời tiết nói, hôm nay trời đang mưa.",
               "jlptLevel": 3
             },
             {
-              "front": "〜ように…",
-              "back": "Cấu trúc: 名の ＋ように\n\nÝ nghĩa: 例を示すĐưa ra ví dụ",
-              "romaji": "",
-              "example": "",
+              "front": "〜ように… (Đưa ra ví dụ)",
+              "back": "Ý nghĩa: Như là... (Đưa ra ví dụ điển hình)\nCấu trúc: N + のように",
+              "romaji": "yō ni",
+              "example": "私は、リンゴやバナナのように、甘い果物が好きです。\nTôi thích những loại quả ngọt, ví dụ như táo hay chuối.\n\n彼のように日本語が上手になりたい。\nTôi muốn trở nên giỏi tiếng Nhật giống như anh ấy.\n\n京都のように古い町並みが残っている場所が好きだ。\nTôi thích những nơi mà các dãy phố cổ vẫn còn lưu giữ như ở Kyoto.",
               "jlptLevel": 3
             }
           ]
@@ -2271,7 +2271,7 @@
     "order": 65,
     "title": "65. ～ように…",
     "summary": "Ngữ pháp bài số 65 sách Shinkanzen Master N3 (2 thẻ).",
-    "theoryMd": "# 65. ～ように…\n\n## Phần A\n> 🔧 **Cấu trúc:** `動辞書形/ た形/ ている ＋ように`\n>\n> 📖 **Ý nghĩa:** *…の内容がすでに知られていると前置きするCâu mào đầu rằng nội dung … đã được biết đến trước đó.*\n\n### Ví dụ:\n\n## Phần B\n> 🔧 **Cấu trúc:** `動辞書形/ ない形 ＋ように`\n>\n> 📖 **Ý nghĩa:** *期待することを表す。Thể hiện sự kì vọng, mong muốn*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ように (Mào đầu & Cầu nguyện)\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Mào đầu**: Dùng để nhắc lại thông tin mà người nghe/người đọc đã biết, làm tiền đề cho nội dung phía sau.\n- **Kỳ vọng/Cầu nguyện**: Dùng để thể hiện hy vọng, lời cầu chúc.\n- **Cấu trúc**:\n - Mào đầu: V-辞書形 / V-た形 / V-ている + ように\n - Cầu nguyện: V-辞書形 / V-ない形 + ように\n\n#### 📝 Ví dụ minh họa\n- 皆様ご存じのように、来月から消費税が上がります。\n(Như mọi người đều biết, từ tháng sau thuế tiêu thụ sẽ tăng lên.)\n- 試験に合格しますように。\n(Mong sao cho mình sẽ thi đỗ kỳ thi.)\n- インフルエンザにかかりませんように。\n(Mong sao cho mình không bị mắc cúm.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2287,17 +2287,17 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜ように…",
-              "back": "Cấu trúc: 動辞書形/ た形/ ている ＋ように\n\nÝ nghĩa: …の内容がすでに知られていると前置きするCâu mào đầu rằng nội dung … đã được biết đến trước đó.",
-              "romaji": "",
-              "example": "",
+              "front": "〜ように… (Mào đầu)",
+              "back": "Ý nghĩa: Như... (Dẫn dắt thông tin đã được biết trước đó)\nCấu trúc: V-辞書形 / V-た形 / V-ている + ように",
+              "romaji": "yō ni",
+              "example": "皆様ご存じのように、来月から消費税が上がります。\nNhư mọi người đều biết, từ tháng sau thuế tiêu thụ sẽ tăng lên.\n\n昨日お知らせしたように、明日の授業は休みです。\nNhư tôi đã thông báo ngày hôm qua, buổi học ngày mai sẽ được nghỉ.\n\n前述したように、この計画には修正が必要です。\nNhư đã trình bày ở trên, kế hoạch này cần được sửa đổi.",
               "jlptLevel": 3
             },
             {
-              "front": "〜ように…",
-              "back": "Cấu trúc: 動辞書形/ ない形 ＋ように\n\nÝ nghĩa: 期待することを表す。Thể hiện sự kì vọng, mong muốn",
-              "romaji": "",
-              "example": "",
+              "front": "〜ように… (Kỳ vọng / Cầu nguyện)",
+              "back": "Ý nghĩa: Mong sao cho... / Hy vọng...\nCấu trúc: V-辞書形 / V-ない形 + ように",
+              "romaji": "yō ni",
+              "example": "試験に合格しますように。\nMong sao cho mình sẽ thi đỗ kỳ thi.\n\nインフルエンザにかかりませんように。\nMong sao cho mình không bị mắc cúm.\n\n毎日楽しく過ごせますように。\nMong sao cho mỗi ngày đều có thể sống thật vui vẻ.",
               "jlptLevel": 3
             }
           ]
@@ -2313,7 +2313,7 @@
     "order": 66,
     "title": "66. ～ように…・～ようにと…・～よう…",
     "summary": "Ngữ pháp bài số 66 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 66. ～ように…・～ようにと…・～よう…\n\n> 🔧 **Cấu trúc:** `動辞書形/ない形 ＋ように・ようにと・よう`\n>\n> 📖 **Ý nghĩa:** *要求することを表すThể hiện yêu cầu*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ように・～ようにと・～よう\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để trích dẫn gián tiếp một yêu cầu, mệnh lệnh, lời khuyên hoặc mong muốn của người khác truyền đạt lại cho đối tượng thứ ba.\n- **Cấu trúc**: V-ru / V-nai + ように / ようにと / よう\n\n#### 📝 Ví dụ minh họa\n田中さんに、明日早く来るように伝えてください。\nHãy nhắn với anh Tanaka là ngày mai hãy đến sớm.\n\n医者にお酒を飲まないようにと言われた。\nTôi bị bác sĩ yêu cầu không được uống rượu.\n\n先生に、もっと勉強するように言われた。\nTôi bị giáo viên bảo là hãy học nhiều hơn đi.\n\n母に、部屋を掃除するようにと注意された。\nTôi bị mẹ nhắc nhở là hãy dọn dẹp phòng đi.",
     "skills": [
       "GRAMMAR"
     ],
@@ -2329,10 +2329,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜ように…・〜ようにと…・〜よう…",
-              "back": "Cấu trúc: 動辞書形/ない形 ＋ように・ようにと・よう\n\nÝ nghĩa: 要求することを表すThể hiện yêu cầu",
-              "romaji": "",
-              "example": "",
+              "front": "〜ように・〜ようにと・〜よう",
+              "back": "Ý nghĩa: Truyền đạt lại nội dung của một yêu cầu, mệnh lệnh, lời khuyên hoặc mong muốn.\nCấu trúc: V-ru / V-nai + ように / ようにと / よう",
+              "romaji": "youni / younito / you",
+              "example": "田中さんに、明日早く来るように伝えてください。\nHãy nhắn với anh Tanaka là ngày mai hãy đến sớm.\n\n医者にお酒を飲まないようにと言われた。\nTôi bị bác sĩ yêu cầu không được uống rượu.\n\n先生に、もっと勉強するように言われた。\nTôi bị giáo viên bảo là hãy học nhiều hơn đi.\n\n母に、部屋を掃除するようにと注意された。\nTôi bị mẹ nhắc nhở là hãy dọn dẹp phòng đi.",
               "jlptLevel": 3
             }
           ]
@@ -2348,7 +2348,7 @@
     "order": 67,
     "title": "67. ～わけだ・～というわけだ",
     "summary": "Ngữ pháp bài số 67 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 67. ～わけだ・～というわけだ\n\n> 🔧 **Cấu trúc:** `普通形（ な形だ-な/である・名だーの/-な/-である） ＋わけだ`\n>\n> 📖 **Ý nghĩa:** *「事情から考えると、当然～という結論になる。（①②③）」「事情から考えると～という事実が納得できる。（④⑤）」Nếu suy nghĩ từ tình hình thực tế thì kết quả kết luận rằng đương nhiên ~.(①②③)Nếu suy nghĩ từ tình hình thực tế thì có thể chấp nhận được sự thật là ~.(④⑤)*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～わけだ・〜というわけだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để nêu lý do hoặc kết luận logic. Có hai cách hiểu: \n 1. Giải thích nguyên nhân cho một sự việc (Thảo nào, hèn chi).\n 2. Xác nhận một kết quả tất yếu từ thông tin đã biết (Đương nhiên là).\n- **Cấu trúc**: 普通形 (な形-な/である・名-の/な/である) + わけだ / というわけだ\n\n#### 📝 Ví dụ minh họa\n電気代が高いわけだ。一日中エアコンをつけているからだ。\nThảo nào tiền điện đắt thế. Là vì bật điều hòa cả ngày mà.\n\n消費税は10%だから、1000円の物は1100円になるわけだ。\nVì thuế tiêu thụ là 10% nên món đồ 1000 yên đương nhiên sẽ thành 1100 yên.\n\n昨夜はあまり寝ていないから、眠いわけだ。\nVì tối qua không ngủ nhiều, thảo nào mà tôi lại buồn ngủ.\n\n彼は日本に10年住んでいたから、日本語が上手なわけだ。\nAnh ấy sống ở Nhật 10 năm rồi, hèn gì mà tiếng Nhật giỏi thế.",
     "skills": [
       "GRAMMAR"
     ],
@@ -2365,9 +2365,9 @@
           "cards": [
             {
               "front": "〜わけだ・〜というわけだ",
-              "back": "Cấu trúc: 普通形（ な形だ-な/である・名だーの/-な/-である） ＋わけだ\n\nÝ nghĩa: 「事情から考えると、当然～という結論になる。（①②③）」「事情から考えると～という事実が納得できる。（④⑤）」Nếu suy nghĩ từ tình hình thực tế thì kết quả kết luận rằng đương nhiên ~.(①②③)Nếu suy nghĩ từ tình hình thực tế thì có thể chấp nhận được sự thật là ~.(④⑤)",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Giải thích lý do (thảo nào, hèn chi) hoặc đưa ra kết luận logic từ thực tế (đương nhiên là).\nCấu trúc: 普通形 (な形-な/である・名-の/な/である) + わけだ / というわけだ",
+              "romaji": "wake da / to iu wake da",
+              "example": "電気代が高いわけだ。一日中エアコンをつけているからだ。\nThảo nào tiền điện đắt thế. Là vì bật điều hòa cả ngày mà.\n\n消費税は10%だから、1000円の物は1100円になるわけだ。\nVì thuế tiêu thụ là 10% nên món đồ 1000 yên đương nhiên sẽ thành 1100 yên.\n\n昨夜はあまり寝ていないから、眠いわけだ。\nVì tối qua không ngủ nhiều, thảo nào mà tôi lại buồn ngủ.\n\n彼は日本に10年住んでいたから、日本語が上手なわけだ。\nAnh ấy sống ở Nhật 10 năm rồi, hèn gì mà tiếng Nhật giỏi thế.",
               "jlptLevel": 3
             }
           ]
@@ -2383,7 +2383,7 @@
     "order": 68,
     "title": "68. ～わけにはいかない",
     "summary": "Ngữ pháp bài số 68 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 68. ～わけにはいかない\n\n> 🔧 **Cấu trúc:** `動辞書形 ＋ わけにはいかない`\n>\n> 📖 **Ý nghĩa:** *「心理的事情があるので、～することはできない。」能力などが原因でできないのではなくて、～したいが、社会的常識に反する・心理的抵抗感があるなどの事情があってできないという意味で使う。主語は普通一人称Vì lí do tâm lí nên không làm được việc … Dùng trong trường hợp ý nói năng lực v.v… không phải là nguyên nhân khiến không thể thực hiện mà thực tế rất muốn làm ~ nhưng vì lí do riêng như trái với lẽ thường của xã hội, có sự phản cảm về tâm lí v.v… nên không thể làm ~.Chủ ngữ thường là ngôi thứ nhất.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～わけにはいかない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng khi muốn nói rằng không thể thực hiện một hành động nào đó vì rào cản về mặt tâm lý, đạo đức, hoặc trách nhiệm xã hội, mặc dù bản thân có thể muốn làm.\n- **Cấu trúc**: V-ru + わけにはいかない\n\n#### 📝 Ví dụ minh họa\n明日は大事な試験があるから、休むわけにはいかない。\nVì ngày mai có kỳ thi quan trọng nên tôi không thể nghỉ được.\n\n車で来たので、お酒を飲むわけにはいかない。\nVì đi xe đến đây nên tôi không thể uống rượu được.\n\n社長の命令だから、断るわけにはいかない。\nVì là mệnh lệnh của giám đốc nên tôi không thể từ chối được.\n\n友達との約束なので、忘れるわけにはいかない。\nVì là lời hứa với bạn nên tôi không thể quên được.",
     "skills": [
       "GRAMMAR"
     ],
@@ -2400,9 +2400,9 @@
           "cards": [
             {
               "front": "〜わけにはいかない",
-              "back": "Cấu trúc: 動辞書形 ＋ わけにはいかない\n\nÝ nghĩa: 「心理的事情があるので、～することはできない。」能力などが原因でできないのではなくて、～したいが、社会的常識に反する・心理的抵抗感があるなどの事情があってできないという意味で使う。主語は普通一人称Vì lí do tâm lí nên không làm được việc … Dùng trong trường hợp ý nói năng lực v.v… không phải là nguyên nhân khiến không thể thực hiện mà thực tế rất muốn làm ~ nhưng vì lí do riêng như trái với lẽ thường của xã hội, có sự phản cảm về tâm lí v.v… nên không thể làm ~.Chủ ngữ thường là ngôi thứ nhất.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Không thể làm gì đó vì lý do đạo đức, quy chuẩn xã hội hoặc hoàn cảnh khách quan dù rất muốn.\nCấu trúc: V-ru + わけにはいかない",
+              "romaji": "wake ni wa ikanai",
+              "example": "明日は大事な試験があるから、休むわけにはいかない。\nVì ngày mai có kỳ thi quan trọng nên tôi không thể nghỉ được.\n\n車で来たので、お酒を飲むわけにはいかない。\nVì đi xe đến đây nên tôi không thể uống rượu được.\n\n社長の命令だから、断るわけにはいかない。\nVì là mệnh lệnh của giám đốc nên tôi không thể từ chối được.\n\n友達との約束なので、忘れるわけにはいかない。\nVì là lời hứa với bạn nên tôi không thể quên được.",
               "jlptLevel": 3
             }
           ]
@@ -2418,7 +2418,7 @@
     "order": 69,
     "title": "69. ～ないわけにはいかない",
     "summary": "Ngữ pháp bài số 69 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 69. ～ないわけにはいかない\n\n> 🔧 **Cấu trúc:** `動ない形 ＋わけいにはいかない`\n>\n> 📖 **Ý nghĩa:** *「心理的事情があるので、～しなければならない。」規則などで決まっていて～なければならないのではなくて、あまり～したくないが、社会的常識・心理的義務感があってそうする必要があるという意味で使う。主語は普通一人称。Vì lí do tâm lí nên phải làm ~.Dùng trong trường hợp ý nói không phải là một quy định hay gì đó quy định nên làm ~ mà mặc dù không muốn làm lắm nhưng vì lẽ thường của xã hội, tâm lí nghĩa vụ v.v… mà cần thiết phải làm như thế.Chủ ngữ thường là ngôi thứ nhất.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ないわけにはいかない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để diễn tả tình huống không thể tránh khỏi, phải thực hiện hành động do trách nhiệm, nghĩa vụ hoặc áp lực tâm lý.\n- **Cấu trúc**: V-nai + わけにはいかない\n\n#### 📝 Ví dụ minh họa\n大切な友達の結婚式だから、行かないわけにはいかない。\nVì là đám cưới của người bạn thân thiết nên tôi không thể không đi.\n\n熱があるが、会議があるので、出勤しないわけにはいかない。\nDù bị sốt nhưng vì có cuộc họp nên tôi không thể không đi làm.\n\n約束したので、掃除しないわけにはいかない。\nVì đã hứa rồi nên tôi không thể không dọn dẹp.\n\n先生に頼まれたから、やらないわけにはいかない。\nVì được giáo viên nhờ nên tôi không thể không làm.",
     "skills": [
       "GRAMMAR"
     ],
@@ -2435,9 +2435,9 @@
           "cards": [
             {
               "front": "〜ないわけにはいかない",
-              "back": "Cấu trúc: 動ない形 ＋わけいにはいかない\n\nÝ nghĩa: 「心理的事情があるので、～しなければならない。」規則などで決まっていて～なければならないのではなくて、あまり～したくないが、社会的常識・心理的義務感があってそうする必要があるという意味で使う。主語は普通一人称。Vì lí do tâm lí nên phải làm ~.Dùng trong trường hợp ý nói không phải là một quy định hay gì đó quy định nên làm ~ mà mặc dù không muốn làm lắm nhưng vì lẽ thường của xã hội, tâm lí nghĩa vụ v.v… mà cần thiết phải làm như thế.Chủ ngữ thường là ngôi thứ nhất.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Đành phải làm, không thể không làm (vì nghĩa vụ, trách nhiệm hoặc đạo đức).\nCấu trúc: V-nai + わけにはいかない",
+              "romaji": "nai wake ni wa ikanai",
+              "example": "大切な友達の結婚式だから、行かないわけにはいかない。\nVì là đám cưới của người bạn thân thiết nên tôi không thể không đi.\n\n熱があるが、会議があるので、出勤しないわけにはいかない。\nDù bị sốt nhưng vì có cuộc họp nên tôi không thể không đi làm.\n\n約束したので、掃除しないわけにはいかない。\nVì đã hứa rồi nên tôi không thể không dọn dẹp.\n\n先生に頼まれたから、やらないわけにはいかない。\nVì được giáo viên nhờ nên tôi không thể không làm.",
               "jlptLevel": 3
             }
           ]
@@ -2453,7 +2453,7 @@
     "order": 70,
     "title": "70. ～ばかり…",
     "summary": "Ngữ pháp bài số 70 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 70. ～ばかり…\n\n> 🔧 **Cấu trúc:** `名（＋助詞）・動辞書形/ている ＋ばかり`\n>\n> 📖 **Ý nghĩa:** *「いつも～だけで、ほかのもの・ことはない。」 よくないと思っていることを言う場合が多い。Lúc nào cũng chỉ ~, ngoài ra không có sự vật, sự việc nào khác.Thường được dùng để nói về những điều bản thân cho là tốt.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～ばかり\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả hành động hoặc trạng thái lặp đi lặp lại chỉ một việc duy nhất. Thường được sử dụng khi người nói cảm thấy khó chịu, phàn nàn hoặc phê phán.\n- **Cấu trúc**: \n - N (+ trợ từ) + ばかり\n - V-ru / V-te + ばかり\n\n#### 📝 Ví dụ minh họa\n弟は毎日ゲームばかりしている。\nEm trai tôi ngày nào cũng toàn chơi game.\n\n文句ばかり言わないで、少しは手伝ってください。\nĐừng có toàn phàn nàn nữa, hãy phụ giúp một tay đi chứ.\n\nあの人はお菓子ばかり食べている。\nNgười đó suốt ngày chỉ ăn bánh kẹo.\n\n仕事ばかりしないで、たまには休んでください。\nĐừng chỉ có làm việc suốt, thỉnh thoảng hãy nghỉ ngơi đi.",
     "skills": [
       "GRAMMAR"
     ],
@@ -2469,10 +2469,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜ばかり…",
-              "back": "Cấu trúc: 名（＋助詞）・動辞書形/ている ＋ばかり\n\nÝ nghĩa: 「いつも～だけで、ほかのもの・ことはない。」 よくないと思っていることを言う場合が多い。Lúc nào cũng chỉ ~, ngoài ra không có sự vật, sự việc nào khác.Thường được dùng để nói về những điều bản thân cho là tốt.",
-              "romaji": "",
-              "example": "",
+              "front": "〜ばかり",
+              "back": "Ý nghĩa: Chỉ toàn là, suốt ngày chỉ làm một việc gì đó (thường mang ý nghĩa tiêu cực, chán chường hoặc phàn nàn).\nCấu trúc: N (+ trợ từ) / V-ru / V-te + ばかり",
+              "romaji": "bakari",
+              "example": "弟は毎日ゲームばかりしている。\nEm trai tôi ngày nào cũng toàn chơi game.\n\n文句ばかり言わないで、少しは手伝ってください。\nĐừng có toàn phàn nàn nữa, hãy phụ giúp một tay đi chứ.\n\nあの人はお菓子ばかり食べている。\nNgười đó suốt ngày chỉ ăn bánh kẹo.\n\n仕事ばかりしないで、たまには休んでください。\nĐừng chỉ có làm việc suốt, thỉnh thoảng hãy nghỉ ngơi đi.",
               "jlptLevel": 3
             }
           ]
@@ -2488,7 +2488,7 @@
     "order": 71,
     "title": "71. ～てばかりいる",
     "summary": "Ngữ pháp bài số 71 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 71. ～てばかりいる\n\n> 🔧 **Cấu trúc:** `動て形 ＋ばかりいる`\n>\n> 📖 **Ý nghĩa:** *「ほかのことはしないで、よく～する。」非難の気持ちで言う。Không làm những việc khác mà hay làm việc ~.Thường được sử dụng với sắc thái chê bai.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜てばかりいる\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả việc một hành động nào đó cứ lặp đi lặp lại liên tục. Mẫu câu này thường mang sắc thái phê phán, chê trách hoặc cảm giác tiêu cực của người nói.\n- **Cấu trúc**: V-te + ばかりいる\n\n#### 📝 Ví dụ minh họa\n- 弟は毎日、勉強もしないでゲームをしてばかりいる。\nEm trai tôi ngày nào cũng chỉ toàn chơi game mà không chịu học hành gì.\n\n- 働きすぎて病気になるなんて、あなたは無理をしてばかりいるね。\nLàm việc quá sức đến mức ngã bệnh, anh toàn là tự bắt bản thân làm quá sức thôi.\n\n- 彼女はいつも文句ばかり言っている。\nCô ấy lúc nào cũng chỉ toàn càm ràm phàn nàn thôi.",
     "skills": [
       "GRAMMAR"
     ],
@@ -2505,9 +2505,9 @@
           "cards": [
             {
               "front": "〜てばかりいる",
-              "back": "Cấu trúc: 動て形 ＋ばかりいる\n\nÝ nghĩa: 「ほかのことはしないで、よく～する。」非難の気持ちで言う。Không làm những việc khác mà hay làm việc ~.Thường được sử dụng với sắc thái chê bai.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Chỉ toàn làm một hành động gì đó (thường mang sắc thái tiêu cực, phàn nàn).\nCấu trúc: V-te + ばかりいる",
+              "romaji": "te bakari iru",
+              "example": "弟は毎日、勉強もしないでゲームをしてばかりいる。\nEm trai tôi ngày nào cũng chỉ toàn chơi game mà không chịu học hành gì.\n\n働きすぎて病気になるなんて、あなたは無理をしてばかりいるね。\nLàm việc quá sức đến mức ngã bệnh, anh toàn là tự bắt bản thân làm quá sức thôi.\n\n彼女はいつも文句ばかり言っている。\nCô ấy lúc nào cũng chỉ toàn càm ràm phàn nàn thôi.",
               "jlptLevel": 3
             }
           ]
@@ -2523,7 +2523,7 @@
     "order": 72,
     "title": "72. ～ばかりでなく…",
     "summary": "Ngữ pháp bài số 72 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 72. ～ばかりでなく…\n\n> 🔧 **Cấu trúc:** `名（＋助詞）・普通形 （な形だ-な/-である・名だ-である） ＋ばかりでなく`\n>\n> 📖 **Ý nghĩa:** *「～だけでなくて、その他にも…。」Không chỉ ~ mà ngoài điều đó ra còn…*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜ばかりでなく…\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả ý \"không chỉ A mà còn có B\". Vế sau thường đi kèm với も (cũng), だけでなく (không chỉ).\n- **Cấu trúc**: N / V-thông thường (A-na+な/である, N+である) + ばかりでなく\n\n#### 📝 Ví dụ minh họa\n- 彼女は歌が上手なばかりでなく、自分で曲も作っている。\nCô ấy không chỉ hát hay mà còn tự mình sáng tác nhạc.\n\n- この野菜はビタミンが豊富なばかりでなく、がん予防にも効果がある。\nLoại rau này không chỉ giàu vitamin mà còn có hiệu quả trong việc phòng ngừa ung thư.\n\n- 彼は日本語だけでなく、英語も話せる。\nAnh ấy không chỉ nói được tiếng Nhật mà còn nói được cả tiếng Anh.",
     "skills": [
       "GRAMMAR"
     ],
@@ -2540,9 +2540,9 @@
           "cards": [
             {
               "front": "〜ばかりでなく…",
-              "back": "Cấu trúc: 名（＋助詞）・普通形 （な形だ-な/-である・名だ-である） ＋ばかりでなく\n\nÝ nghĩa: 「～だけでなくて、その他にも…。」Không chỉ ~ mà ngoài điều đó ra còn…",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Không chỉ A mà còn cả B (diễn tả sự bổ sung, mở rộng).\nCấu trúc: N / V-thông thường (A-na+な/である, N+である) + ばかりでなく",
+              "romaji": "bakari de naku",
+              "example": "彼女は歌が上手なばかりでなく、自分で曲も作っている。\nCô ấy không chỉ hát hay mà còn tự mình sáng tác nhạc.\n\nこの野菜はビタミンが豊富なばかりでなく、がん予防にも効果がある。\nLoại rau này không chỉ giàu vitamin mà còn có hiệu quả trong việc phòng ngừa ung thư.\n\n彼は日本語だけでなく、英語も話せる。\nAnh ấy không chỉ nói được tiếng Nhật mà còn nói được cả tiếng Anh.",
               "jlptLevel": 3
             }
           ]
@@ -2558,7 +2558,7 @@
     "order": 73,
     "title": "73. ～ばかりだ",
     "summary": "Ngữ pháp bài số 73 sách Shinkanzen Master N3 (2 thẻ).",
-    "theoryMd": "# 73. ～ばかりだ\n\n## Phần A\n> 🔧 **Cấu trúc:** `動辞書形 ＋ばかりだ`\n>\n> 📖 **Ý nghĩa:** *「～という一方方向に変化が進んでいく。」 ～は変化を表す動詞（弱くなる・減るなど）。良くない方向の場合が多い。Sự biến đổi diễn ra theo một hướng ~.~ là động từ thể hiện sự thay đổi （弱くなる／減る）đa phần theo chiều hướng không tốt.*\n\n### Ví dụ:\n\n## Phần B\n> 🔧 **Cấu trúc:** `動辞書形 ＋ばかりだ`\n>\n> 📖 **Ý nghĩa:** *「準備が終わって、後はただ～するだけの状態だ。」Công đoạn chuẩn bị đã hoàn tất, việc còn lại bây giờ chỉ là ~.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜ばかりだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa (Biến đổi)**: Diễn tả một sự thay đổi liên tục theo một chiều hướng (thường là tiêu cực).\n * Cấu trúc: V-ru (chỉ sự biến đổi như 悪くなる, 減る...) + ばかりだ\n- **Ý nghĩa (Chuẩn bị)**: Diễn tả trạng thái đã sẵn sàng, chỉ còn thiếu một hành động cuối cùng là xong.\n * Cấu trúc: V-ru + ばかりだ\n\n#### 📝 Ví dụ minh họa\n- 祖父の病気は悪くなるばかりだ。\nBệnh tình của ông tôi cứ ngày một xấu đi.\n\n- 荷物の用意もできて、出発するばかりだ。\nHành lý đã chuẩn bị xong, chỉ còn chờ xuất phát thôi.",
     "skills": [
       "GRAMMAR"
     ],
@@ -2574,17 +2574,17 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜ばかりだ",
-              "back": "Cấu trúc: 動辞書形 ＋ばかりだ\n\nÝ nghĩa: 「～という一方方向に変化が進んでいく。」 ～は変化を表す動詞（弱くなる・減るなど）。良くない方向の場合が多い。Sự biến đổi diễn ra theo một hướng ~.~ là động từ thể hiện sự thay đổi （弱くなる／減る）đa phần theo chiều hướng không tốt.",
-              "romaji": "",
-              "example": "",
+              "front": "〜ばかりだ (biến đổi)",
+              "back": "Ý nghĩa: Cứ ngày một... (biểu thị sự biến đổi theo một chiều hướng xấu đi).\nCấu trúc: V-ru (các động từ chỉ sự thay đổi) + ばかりだ",
+              "romaji": "bakari da",
+              "example": "祖父の病気は悪くなるばかりだ。\nBệnh tình của ông tôi cứ ngày một xấu đi.\n\n物価は上がるばかりで、生活がだんだん苦しくなってきた。\nGiá cả cứ ngày một tăng cao, cuộc sống dần trở nên khó khăn hơn.\n\n最近、仕事が増えるばかりで忙しい。\nDạo gần đây, công việc cứ tăng lên mãi nên tôi rất bận rộn.",
               "jlptLevel": 3
             },
             {
-              "front": "〜ばかりだ",
-              "back": "Cấu trúc: 動辞書形 ＋ばかりだ\n\nÝ nghĩa: 「準備が終わって、後はただ～するだけの状態だ。」Công đoạn chuẩn bị đã hoàn tất, việc còn lại bây giờ chỉ là ~.",
-              "romaji": "",
-              "example": "",
+              "front": "〜ばかりだ (chuẩn bị)",
+              "back": "Ý nghĩa: Đã chuẩn bị xong hết, chỉ còn chờ thực hiện hành động đó.\nCấu trúc: V-ru + ばかりだ",
+              "romaji": "bakari da",
+              "example": "料理もできたし、テーブルも片付けた。あとはお客さんを待つばかりだ。\nMón ăn đã nấu xong, bàn ăn cũng dọn dẹp rồi. Giờ chỉ còn chờ khách đến nữa thôi.\n\n荷物の用意もできて、出発するばかりだ。\nHành lý đã chuẩn bị xong, chỉ còn chờ xuất phát thôi.\n\n準備は整った。あとは本番を待つばかりだ。\nChuẩn bị đã hoàn tất. Giờ chỉ còn chờ đến lúc diễn ra thôi.",
               "jlptLevel": 3
             }
           ]
@@ -2600,7 +2600,7 @@
     "order": 74,
     "title": "74. ～たばかりだ",
     "summary": "Ngữ pháp bài số 74 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 74. ～たばかりだ\n\n> 🔧 **Cấu trúc:** `動た形 ＋ばかり`\n>\n> 📖 **Ý nghĩa:** *「～したすぐ後だ。」Ngay sau khi làm ~.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜たばかりだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả một hành động vừa mới kết thúc theo cảm nhận chủ quan của người nói, dù thời gian thực tế có thể đã trôi qua một lúc lâu.\n- **Cấu trúc**: V-ta + ばかりだ\n\n#### 📝 Ví dụ minh họa\n- さっき昼ご飯を食べたばかりなので、お腹がいっぱいです。\nTôi vừa mới ăn trưa lúc nãy nên giờ vẫn còn no.\n\n- 日本に来たばかりの時は、日本語が全然話せませんでした。\nHồi mới đến Nhật Bản, tôi hoàn toàn không nói được tiếng Nhật.\n\n- 先月買ったばかりのスマホを落としてしまった。\nTôi đã làm rơi chiếc điện thoại vừa mới mua tháng trước.",
     "skills": [
       "GRAMMAR"
     ],
@@ -2617,9 +2617,9 @@
           "cards": [
             {
               "front": "〜たばかりだ",
-              "back": "Cấu trúc: 動た形 ＋ばかり\n\nÝ nghĩa: 「～したすぐ後だ。」Ngay sau khi làm ~.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Vừa mới làm gì đó (cảm giác của người nói là mới đây).\nCấu trúc: V-ta + ばかりだ",
+              "romaji": "ta bakari da",
+              "example": "さっき昼ご飯を食べたばかりなので、お腹がいっぱいです。\nTôi vừa mới ăn trưa lúc nãy nên giờ vẫn còn no.\n\n日本に来たばかりの時は、日本語が全然話せませんでした。\nHồi mới đến Nhật Bản, tôi hoàn toàn không nói được tiếng Nhật.\n\n先月買ったばかりのスマホを落としてしまった。\nTôi đã làm rơi chiếc điện thoại vừa mới mua tháng trước.",
               "jlptLevel": 3
             }
           ]
@@ -2635,7 +2635,7 @@
     "order": 75,
     "title": "75. ～にする・～くする",
     "summary": "Ngữ pháp bài số 75 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 75. ～にする・～くする\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜にする・〜くする\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả tác động của chủ thể làm cho đối tượng thay đổi trạng thái theo ý muốn.\n- **Cấu trúc**:\n - N + にする\n - A-na (bỏ な) + にする\n - A-i (bỏ い) + くする\n\n#### 📝 Ví dụ minh họa\n- 部屋をきれいにしてください。\nHãy dọn dẹp cho phòng sạch sẽ nhé.\n\n- テレビの音をもう少し小さくしてください。\nHãy chỉnh âm thanh tivi nhỏ lại một chút nhé.\n\n- 将来は医者にするつもりだ。\nTôi định hướng cho con mình trở thành bác sĩ.",
     "skills": [
       "GRAMMAR"
     ],
@@ -2652,9 +2652,9 @@
           "cards": [
             {
               "front": "〜にする・〜くする",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Làm cho... (thay đổi trạng thái của đối tượng).\nCấu trúc: N/A-na (bỏ な) + にする / A-i (bỏ い) + くする",
+              "romaji": "ni suru / ku suru",
+              "example": "部屋をきれいにしてください。\nHãy dọn dẹp cho phòng sạch sẽ nhé.\n\nテレビの音をもう少し小さくしてください。\nHãy chỉnh âm thanh tivi nhỏ lại một chút nhé.\n\n将来は医者にするつもりだ。\nTôi định hướng cho con mình trở thành bác sĩ.\n\nもっと早くしてください。\nHãy làm cho nhanh lên chút nữa.",
               "jlptLevel": 3
             }
           ]
@@ -2670,7 +2670,7 @@
     "order": 76,
     "title": "76. ～になる・～くなる",
     "summary": "Ngữ pháp bài số 76 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 76. ～になる・～くなる\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜になる・〜くなる\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả sự thay đổi trạng thái của sự vật, sự việc một cách khách quan, tự nhiên.\n- **Cấu trúc**:\n - Danh từ + になる\n - Tính từ đuôi な (bỏ だ) + になる\n - Tính từ đuôi い (bỏ い) + くなる\n\n#### 📝 Ví dụ minh họa\n- 暖かくなって、桜が咲き始めました。\n (Trời trở nên ấm áp và hoa anh đào đã bắt đầu nở.)\n- 将来、医者になりたいです。\n (Trong tương lai, tôi muốn trở thành bác sĩ.)\n- 日本語の勉強はだんだん面白くなりました。\n (Việc học tiếng Nhật dần dần trở nên thú vị.)\n- 部屋を掃除して、きれいになりました。\n (Phòng đã trở nên sạch sẽ sau khi tôi dọn dẹp.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2687,9 +2687,9 @@
           "cards": [
             {
               "front": "〜になる・〜くなる",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Trở nên, trở thành (biểu thị sự thay đổi trạng thái tự nhiên).\nCấu trúc: N + になる / Na-adj (bỏ だ) + になる / A-i (bỏ い) + くなる",
+              "romaji": "ni-naru / ku-naru",
+              "example": "暖かくなって、桜が咲き始めました。\nTrời trở nên ấm áp và hoa anh đào đã bắt đầu nở.\n\n将来、医者になりたいです。\nTrong tương lai, tôi muốn trở thành bác sĩ.\n\n日本語の勉強はだんだん面白くなりました。\nViệc học tiếng Nhật dần dần trở nên thú vị.\n\n部屋を掃除して、きれいになりました。\nPhòng đã trở nên sạch sẽ sau khi tôi dọn dẹp.",
               "jlptLevel": 3
             }
           ]
@@ -2705,7 +2705,7 @@
     "order": 77,
     "title": "77. ～にする・～ことにする",
     "summary": "Ngữ pháp bài số 77 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 77. ～にする・～ことにする\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜にする・〜ことにする\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả sự lựa chọn hoặc quyết định thực hiện một hành động dựa trên ý chí của bản thân.\n- **Cấu trúc**:\n - Danh từ + にする\n - Động từ thể từ điển (V-ru) / Động từ phủ định (V-nai) + ことにする\n\n#### 📝 Ví dụ minh họa\n- レストランでは、私はカレーにします。\n (Ở nhà hàng, tôi quyết định chọn món cà ri.)\n- 健康のために、毎日走ることにしました。\n (Vì sức khỏe, tôi đã quyết định chạy bộ mỗi ngày.)\n- 今度の休みは京都へ行くことにします。\n (Tôi quyết định sẽ đi Kyoto vào kỳ nghỉ tới.)\n- お酒は飲まないことにしています。\n (Tôi quyết định không uống rượu bia.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2722,9 +2722,9 @@
           "cards": [
             {
               "front": "〜にする・〜ことにする",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Quyết định chọn cái gì / Quyết định làm việc gì (thể hiện ý chí, quyết định của bản thân).\nCấu trúc: N + にする / V-ru・V-nai + ことにする",
+              "romaji": "ni-suru / koto-ni-suru",
+              "example": "レストランでは、私はカレーにします。\nỞ nhà hàng, tôi quyết định chọn món cà ri.\n\n健康のために、毎日走ることにしました。\nVì sức khỏe, tôi đã quyết định chạy bộ mỗi ngày.\n\n今度の休みは京都へ行くことにします。\nTôi quyết định sẽ đi Kyoto vào kỳ nghỉ tới.\n\nお酒は飲まないことにしています。\nTôi quyết định không uống rượu bia.",
               "jlptLevel": 3
             }
           ]
@@ -2740,7 +2740,7 @@
     "order": 78,
     "title": "78. ～になる・～ことになる",
     "summary": "Ngữ pháp bài số 78 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 78. ～になる・～ことになる\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜になる・〜ことになる\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả một sự việc đã được quyết định bởi hoàn cảnh, tổ chức hoặc người khác (không phải do ý chí chủ quan của người nói).\n- **Cấu trúc**:\n - Danh từ + になる\n - Động từ thể từ điển (V-ru) / Động từ phủ định (V-nai) + ことになる\n\n#### 📝 Ví dụ minh họa\n- 来月、日本へ出張することになりました。\n (Tháng sau, tôi đã được quyết định là sẽ đi công tác Nhật Bản.)\n- 法律により、ここではタバコが吸えないことになります。\n (Theo luật pháp, ở đây sẽ thành ra là không được hút thuốc.)\n- 今度の会議は中止になるそうです。\n (Nghe nói cuộc họp lần này đã được quyết định là sẽ hủy bỏ.)\n- 来年から新しい寮に住むことになりました。\n (Tôi đã được quyết định là sẽ chuyển sang sống ở ký túc xá mới từ năm sau.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2757,9 +2757,9 @@
           "cards": [
             {
               "front": "〜になる・〜ことになる",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Được quyết định là, hóa ra là (do quy định, hoàn cảnh khách quan hoặc người khác quyết định, không phải ý chí cá nhân).\nCấu trúc: N + になる / V-ru・V-nai + ことになる",
+              "romaji": "ni-naru / koto-ni-naru",
+              "example": "来月、日本へ出張することになりました。\nTháng sau, tôi đã được quyết định là sẽ đi công tác Nhật Bản.\n\n法律により、ここではタバコが吸えないことになります。\nTheo luật pháp, ở đây sẽ thành ra là không được hút thuốc.\n\n今度の会議は中止になるそうです。\nNghe nói cuộc họp lần này đã được quyết định là sẽ hủy bỏ.\n\n来年から新しい寮に住むことになりました。\nTôi đã được quyết định là sẽ chuyển sang sống ở ký túc xá mới từ năm sau.",
               "jlptLevel": 3
             }
           ]
@@ -2775,7 +2775,7 @@
     "order": 79,
     "title": "79. ～している・～ことにしている",
     "summary": "Ngữ pháp bài số 79 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 79. ～している・～ことにしている\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜ことにしている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả một thói quen hoặc một quy tắc mà bản thân tự đặt ra và duy trì thực hiện đều đặn.\n- **Cấu trúc**:\n - Động từ thể từ điển (V-ru) / Động từ phủ định (V-nai) + ことにしている\n\n#### 📝 Ví dụ minh họa\n- 毎朝、自分で作ったお弁当を食べることにしている。\n (Mỗi sáng, tôi đều duy trì thói quen ăn cơm hộp tự mình làm.)\n- 健康のため、夜遅くには何も食べないことにしています。\n (Để bảo vệ sức khỏe, tôi duy trì thói quen không ăn gì vào đêm muộn.)\n- 寝る前に必ずストレッチをすることにしている。\n (Tôi duy trì thói quen nhất định phải tập giãn cơ trước khi đi ngủ.)\n- 毎日日記を書くことにしている。\n (Tôi duy trì thói quen viết nhật ký mỗi ngày.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2791,10 +2791,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜している・〜ことにしている",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "front": "〜ことにしている",
+              "back": "Ý nghĩa: Cố gắng duy trì một thói quen (quy tắc do bản thân tự quyết định và thực hiện đều đặn).\nCấu trúc: V-ru・V-nai + ことにしている",
+              "romaji": "koto-ni-shite-iru",
+              "example": "毎朝、自分で作ったお弁当を食べることにしている。\nMỗi sáng, tôi đều duy trì thói quen ăn cơm hộp tự mình làm.\n\n健康のため、夜遅くには何も食べないことにしています。\nĐể bảo vệ sức khỏe, tôi duy trì thói quen không ăn gì vào đêm muộn.\n\n寝る前に必ずストレッチをすることにしている。\nTôi duy trì thói quen nhất định phải tập giãn cơ trước khi đi ngủ.\n\n毎日日記を書くことにしている。\nTôi duy trì thói quen viết nhật ký mỗi ngày.",
               "jlptLevel": 3
             }
           ]
@@ -2810,7 +2810,7 @@
     "order": 80,
     "title": "80. ～になっている・～ことになっている",
     "summary": "Ngữ pháp bài số 80 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 80. ～になっている・～ことになっている\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜になっている・〜ことになっている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả một sự việc đã trở thành quy định, luật lệ, hoặc kế hoạch đã được định sẵn bởi tổ chức/cộng đồng.\n- **Cấu trúc**:\n - Danh từ + になっている\n - Động từ thể từ điển (V-ru) / Động từ phủ định (V-nai) + ことになっている\n\n#### 📝 Ví dụ minh họa\n- この部屋には入ってはいけないことになっています。\n (Căn phòng này có quy định là không được vào.)\n- 明日、社長に会うことになっています。\n (Theo kế hoạch thì ngày mai tôi sẽ gặp giám đốc.)\n- 授業中は日本語だけで話すことになっている。\n (Có quy định là chỉ được nói tiếng Nhật trong giờ học.)\n- 毎月第2火曜日は燃えないゴミの日になっている。\n (Thứ Ba tuần thứ 2 hàng tháng là ngày thu gom rác không cháy được.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2827,9 +2827,9 @@
           "cards": [
             {
               "front": "〜になっている・〜ことになっている",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Quy định là, kế hoạch là (tập quán, luật lệ hoặc lịch trình đã được định sẵn bởi tổ chức/người khác).\nCấu trúc: N + になっている / V-ru・V-nai + ことになっている",
+              "romaji": "ni-natte-iru / koto-ni-natte-iru",
+              "example": "この部屋には入ってはいけないことになっています。\nCăn phòng này có quy định là không được vào.\n\n明日、社長に会うことになっています。\nTheo kế hoạch thì ngày mai tôi sẽ gặp giám đốc.\n\n授業中は日本語だけで話すことになっている。\nCó quy định là chỉ được nói tiếng Nhật trong giờ học.\n\n毎月第2火曜日は燃えないゴミの日になっている。\nThứ Ba tuần thứ 2 hàng tháng là ngày thu gom rác không cháy được.",
               "jlptLevel": 3
             }
           ]
@@ -2845,7 +2845,7 @@
     "order": 81,
     "title": "81. ～ようにする A",
     "summary": "Ngữ pháp bài số 81 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 81. ～ようにする A\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜ようにする\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả sự cố gắng, nỗ lực làm hoặc không làm một việc gì đó như một thói quen hoặc mục tiêu.\n- **Cấu trúc**: V-ru / V-nai + ようにする\n\n#### 📝 Ví dụ minh họa\n- 忘れ物をしないようにしてください。\n(Hãy cố gắng đừng để quên đồ.)\n\n- 明日から毎日、日記を書くようにする。\n(Tôi sẽ cố gắng viết nhật ký mỗi ngày từ ngày mai.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2861,10 +2861,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜ようにする A",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "81a",
-              "example": "",
+              "front": "〜ようにする",
+              "back": "Ý nghĩa: Cố gắng, nỗ lực thực hiện một hành động nào đó.\nCấu trúc: V-ru / V-nai + ようにする",
+              "romaji": "youni suru",
+              "example": "忘れ物をしないようにしてください。\nHãy cố gắng đừng để quên đồ.\n\n明日から毎日、日記を書くようにする。\nTôi sẽ cố gắng viết nhật ký mỗi ngày từ ngày mai.\n\n健康のために、油っこいものを食べないようにしている。\nVì sức khỏe, tôi cố gắng không ăn đồ dầu mỡ.\n\nなるべく早く帰るようにします。\nTôi sẽ cố gắng về nhà sớm nhất có thể.",
               "jlptLevel": 3
             }
           ]
@@ -2880,7 +2880,7 @@
     "order": 82,
     "title": "82. ～ようになる",
     "summary": "Ngữ pháp bài số 82 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 82. ～ようになる\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜ようになる\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ sự thay đổi trạng thái theo thời gian. Một khả năng hoặc thói quen mới đã được hình thành.\n- **Cấu trúc**: V-ru (thể khả năng, tự động từ) + ようになる\n\n#### 📝 Ví dụ minh họa\n- 日本に来てから、刺身が食べられるようになりました。\n(Kể từ khi đến Nhật, tôi đã ăn được sashimi.)\n\n- 日本語で日常会話ができるようになりました。\n(Tôi đã có thể giao tiếp cơ bản bằng tiếng Nhật.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2897,9 +2897,9 @@
           "cards": [
             {
               "front": "〜ようになる",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Biểu thị sự thay đổi trạng thái, từ không thể thành có thể, hoặc từ không có thói quen thành có thói quen.\nCấu trúc: V-ru (thể khả năng / tự động từ) + ようになる",
+              "romaji": "youni naru",
+              "example": "日本に来てから、刺身が食べられるようになりました。\nKể từ khi đến Nhật, tôi đã ăn được sashimi.\n\n日本語で日常会話ができるようになりました。\nTôi đã có thể giao tiếp cơ bản bằng tiếng Nhật.\n\n最近、子供が歩けるようになりました。\nGần đây, đứa trẻ đã bắt đầu đi được rồi.\n\nようやくこの機械が使えるようになる。\nCuối cùng thì cũng có thể sử dụng được cái máy này.",
               "jlptLevel": 3
             }
           ]
@@ -2915,7 +2915,7 @@
     "order": 83,
     "title": "83. ～ようになっている",
     "summary": "Ngữ pháp bài số 83 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 83. ～ようになっている\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜ようになっている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh vào trạng thái đã được thiết lập sẵn, cấu tạo máy móc hoặc quy tắc tự động.\n- **Cấu trúc**: V-ru / V-nai + ようになっている\n\n#### 📝 Ví dụ minh họa\n- このドアは人が近づくと、自動で開くようになっている。\n(Cánh cửa này được thiết kế để tự động mở khi có người đến gần.)\n\n- このボタンを押さないと、水が出ないようになっています。\n(Nếu không bấm nút này thì nước được thiết lập là không chảy ra.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2932,9 +2932,9 @@
           "cards": [
             {
               "front": "〜ようになっている",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Diễn tả một vật đã được thiết lập, cài đặt hoặc có cấu tạo tự động để thực hiện một chức năng nhất định.\nCấu trúc: V-ru / V-nai + ようになっている",
+              "romaji": "youni natte iru",
+              "example": "このドアは人が近づくと、自動で開くようになっている。\nCánh cửa này được thiết kế để tự động mở khi có người đến gần.\n\nこのボタンを押さないと、水が出ないようになっています。\nNếu không bấm nút này thì nước được thiết lập là không chảy ra.\n\nこのアプリは新しいメッセージが来ると通知が来るようになっている。\nỨng dụng này được thiết lập để gửi thông báo khi có tin nhắn mới.\n\n夜になると自動的にライトが消えるようになっている。\nNó được thiết kế để đèn tự động tắt khi trời tối.",
               "jlptLevel": 3
             }
           ]
@@ -2950,7 +2950,7 @@
     "order": 84,
     "title": "84. ～ようにする B・～ようにしている",
     "summary": "Ngữ pháp bài số 84 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 84. ～ようにする B・～ようにしている\n\n> 📝 *Nội dung lý thuyết ngữ pháp bài học này đang được cập nhật.*",
+    "theoryMd": "### 1. 〜ようにしている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Cố gắng duy trì một thói quen hoặc nỗ lực làm điều gì đó đều đặn.\n- **Cấu trúc**: V-ru / V-nai + ようにしている\n\n#### 📝 Ví dụ minh họa\n- 健康のために、毎日野菜を食べるようにしている。\n(Vì sức khỏe, tôi luôn cố gắng ăn rau mỗi ngày.)\n\n- 寝る前に、スマホを見ないようにしています。\n(Tôi luôn cố gắng không xem điện thoại trước khi đi ngủ.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -2966,10 +2966,10 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜ようにする B・〜ようにしている",
-              "back": "Mẫu ngữ pháp JLPT N3",
-              "romaji": "84b",
-              "example": "",
+              "front": "〜ようにしている",
+              "back": "Ý nghĩa: Nhấn mạnh việc lặp đi lặp lại một hành động, cố gắng duy trì thành thói quen hoặc quy tắc cá nhân.\nCấu trúc: V-ru / V-nai + ようにしている",
+              "romaji": "youni shite iru",
+              "example": "健康のために、毎日野菜を食べるようにしている。\nVì sức khỏe, tôi luôn cố gắng ăn rau mỗi ngày.\n\n寝る前に、スマホを見ないようにしています。\nTôi luôn cố gắng không xem điện thoại trước khi đi ngủ.\n\nなるべく階段を使うようにしています。\nTôi luôn cố gắng sử dụng cầu thang bộ nhiều nhất có thể.\n\n毎日15分は読書をするようにしている。\nTôi luôn cố gắng dành 15 phút đọc sách mỗi ngày.",
               "jlptLevel": 3
             }
           ]
@@ -2985,7 +2985,7 @@
     "order": 85,
     "title": "85. ～と…た・～たら…た",
     "summary": "Ngữ pháp bài số 85 sách Shinkanzen Master N3 (3 thẻ).",
-    "theoryMd": "# 85. ～と…た・～たら…た\n\n## Phần A\n> 🔧 **Cấu trúc:** `動辞書形 ＋と`\n>\n> 📖 **Ý nghĩa:** *「～の動作をすることで、…という事実に気がついた。」… は前から続いている状態を表す文で、少し意外感がある内容。「…ていた」の形がよく使われる。～と…の主語は違う。Nhờ việc thực hiện hành động ~ mà nhận ra sự thật là … … là câu thể hiện trạng thái có sẵn từ trước, và mang nội dung hơi bất ngờ.Dạng ていた thường hay được sử dụng.Chủ ngữ của ~ và … khác nhau.*\n\n### Ví dụ:\n\n## Phần B\n> 🔧 **Cấu trúc:** `動ている ＋と`\n>\n> 📖 **Ý nghĩa:** *「～の動作をしているときに、偶然…が起こった。」 ～は「～ていると・～ていたら」の形が多い。…は動詞の文で、話者の意志を含まない、意外感がある内容。Lúc đang~ thì ngẫu nhiên … xảy ra.~ đa phần ở dạng ていると／ていたら.… là mệnh lệnh chứa động từ, không bao hàm ý chí của người nói, và mang nội dung bất ngờ.*\n\n### Ví dụ:\n\n## Phần C\n> 🔧 **Cấu trúc:** `動辞書形 ＋と`\n>\n> 📖 **Ý nghĩa:** *「～の動作がきっかけになって、…が起こった。」 …は動詞の文で、話者の意志を含まない文。Hành động của ~ trở thành cái cớ cho … xảy ra.… là mệnh lệnh chứa động từ, không bao hàm ý chí người nói.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. Mẫu câu phát hiện & Ngẫu nhiên (〜と…た / 〜たら…た)\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Dạng 1 (Phát hiện)**: V-ru + と / V-tara + た. Sau khi thực hiện hành động thì phát hiện ra kết quả bất ngờ.\n- **Dạng 2 (Ngẫu nhiên)**: V-te iru + と / V-te itara + た. Đang làm gì thì một việc khác xảy ra ngẫu nhiên.\n- **Dạng 3 (Nguyên nhân)**: V-ru + と / V-tara + た. Hành động vế trước là tác nhân kích hoạt vế sau.\n\n#### 📝 Ví dụ minh họa\n- 窓を開けると、雪が降っていた。\n(Khi mở cửa sổ ra, tôi phát hiện tuyết đang rơi.)\n\n- 道を歩いていると、昔の友人にばったり会った。\n(Đang đi trên đường thì tôi tình cờ gặp lại người bạn cũ.)\n\n- ベルが鳴ると、犬は一斉に吠え出した。\n(Chuông vừa reo thì lũ chó đồng loạt sủa lên.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -3001,24 +3001,24 @@
           "jlptLevel": 3,
           "cards": [
             {
-              "front": "〜と…た・〜たら…た",
-              "back": "Cấu trúc: 動辞書形 ＋と\n\nÝ nghĩa: 「～の動作をすることで、…という事実に気がついた。」… は前から続いている状態を表す文で、少し意外感がある内容。「…ていた」の形がよく使われる。～と…の主語は違う。Nhờ việc thực hiện hành động ~ mà nhận ra sự thật là … … là câu thể hiện trạng thái có sẵn từ trước, và mang nội dung hơi bất ngờ.Dạng ていた thường hay được sử dụng.Chủ ngữ của ~ và … khác nhau.",
-              "romaji": "",
-              "example": "",
+              "front": "〜と…た / 〜たら…た (Phát hiện)",
+              "back": "Ý nghĩa: Sau khi làm hành động vế trước thì phát hiện ra sự thật bất ngờ ở vế sau.\nCấu trúc: V-ru + と / V-tara + た",
+              "romaji": "to...ta / tara...ta",
+              "example": "窓を開けると、雪が降っていた。\nKhi mở cửa sổ ra, tôi phát hiện tuyết đang rơi.\n\n家に帰ったら、友達から手紙が届いていた。\nKhi về đến nhà, tôi nhận ra có thư của người bạn gửi tới.\n\nカバンを開けると、財布が入っていなかった。\nKhi mở túi ra, tôi phát hiện ví không còn ở đó.\n\n箱を開けたら、中には何も入っていなかった。\nKhi mở cái hộp ra, tôi thấy bên trong không có gì cả.",
               "jlptLevel": 3
             },
             {
-              "front": "〜と…た・〜たら…た",
-              "back": "Cấu trúc: 動ている ＋と\n\nÝ nghĩa: 「～の動作をしているときに、偶然…が起こった。」 ～は「～ていると・～ていたら」の形が多い。…は動詞の文で、話者の意志を含まない、意外感がある内容。Lúc đang~ thì ngẫu nhiên … xảy ra.~ đa phần ở dạng ていると／ていたら.… là mệnh lệnh chứa động từ, không bao hàm ý chí của người nói, và mang nội dung bất ngờ.",
-              "romaji": "",
-              "example": "",
+              "front": "〜ていると…た / 〜ていたら…た (Ngẫu nhiên)",
+              "back": "Ý nghĩa: Đang làm hành động vế trước thì ngẫu nhiên có sự việc khách quan xảy ra.\nCấu trúc: V-te iru + と / V-te itara + た",
+              "romaji": "te iru to...ta / te itara...ta",
+              "example": "道を歩いていると、昔の友人にばったり会った。\nĐang đi trên đường thì tôi tình cờ gặp lại người bạn cũ.\n\n本を読んでいると、突然電気が消えた。\nĐang đọc sách thì đột nhiên điện bị tắt.\n\nテレビを見ていると、地震が起きた。\nĐang xem tivi thì động đất xảy ra.\n\n料理をしていると、電話が鳴った。\nĐang nấu ăn thì điện thoại reo.",
               "jlptLevel": 3
             },
             {
-              "front": "〜と…た・〜たら…た",
-              "back": "Cấu trúc: 動辞書形 ＋と\n\nÝ nghĩa: 「～の動作がきっかけになって、…が起こった。」 …は動詞の文で、話者の意志を含まない文。Hành động của ~ trở thành cái cớ cho … xảy ra.… là mệnh lệnh chứa động từ, không bao hàm ý chí người nói.",
-              "romaji": "",
-              "example": "",
+              "front": "〜と…た / 〜たら…た (Nguyên nhân)",
+              "back": "Ý nghĩa: Hành động vế trước là nguyên nhân, tác nhân kích hoạt hành động vế sau xảy ra ngay lập tức.\nCấu trúc: V-ru + と / V-tara + た",
+              "romaji": "to...ta / tara...ta",
+              "example": "ベルが鳴ると、犬は一斉に吠え出した。\nChuông vừa reo thì lũ chó đồng loạt sủa lên.\n\n彼が部屋に入ってくると、部屋全体が明るくなった。\nKhi anh ấy bước vào phòng, cả căn phòng như bừng sáng lên.\n\nスイッチを押すと、機械が動き出した。\nKhi nhấn công tắc, cái máy bắt đầu hoạt động.\n\n雨が降ると、急に寒くなった。\nKhi trời mưa, không khí bỗng dưng lạnh đi.",
               "jlptLevel": 3
             }
           ]
@@ -3034,7 +3034,7 @@
     "order": 86,
     "title": "86. ～と…た",
     "summary": "Ngữ pháp bài số 86 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 86. ～と…た\n\n> 🔧 **Cấu trúc:** `動辞書形 ＋と`\n>\n> 📖 **Ý nghĩa:** *「～の動作の後、続けてすぐ…した。」～と・・・の主語は同じ。Sau hành động ~ thì tiếp tục thực hiện … ngay.Chủ ngữ của ~ và … là giống nhau.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～と…た\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Diễn tả một hành động vừa mới xảy ra thì ngay lập tức có một sự việc khác (thường là bất ngờ hoặc ngoài ý muốn) xảy ra. Chủ ngữ ở hai vế thường là cùng một người.\n- **Cấu trúc:** V-ru + と + V-ta\n\n#### 📝 Ví dụ minh họa\n立ち上がると、目の前が暗くなった。\nVừa đứng dậy thì trước mắt tối sầm lại.\n\n家に帰ると、すぐに犬が走り寄ってきた。\nVừa về đến nhà thì chú chó đã lập tức chạy lại gần.\n\n部屋を開けると、誰もいなかった。\nVừa mở cửa phòng ra thì chẳng thấy ai cả.\n\nその知らせを聞くと、彼は驚いた表情をした。\nVừa nghe tin đó, anh ấy liền lộ vẻ ngạc nhiên.",
     "skills": [
       "GRAMMAR"
     ],
@@ -3051,9 +3051,9 @@
           "cards": [
             {
               "front": "〜と…た",
-              "back": "Cấu trúc: 動辞書形 ＋と\n\nÝ nghĩa: 「～の動作の後、続けてすぐ…した。」～と・・・の主語は同じ。Sau hành động ~ thì tiếp tục thực hiện … ngay.Chủ ngữ của ~ và … là giống nhau.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Vừa mới làm ~ thì ngay lập tức có một sự việc bất ngờ xảy ra.\nCấu trúc: V-ru + と + V-ta",
+              "romaji": "to...ta",
+              "example": "立ち上がると、目の前が暗くなった。\nVừa đứng dậy thì trước mắt tối sầm lại.\n\n家に帰ると、すぐに犬が走り寄ってきた。\nVừa về đến nhà thì chú chó đã lập tức chạy lại gần.\n\n部屋を開けると、誰もいなかった。\nVừa mở cửa phòng ra thì chẳng thấy ai cả.\n\nその知らせを聞くと、彼は驚いた表情をした。\nVừa nghe tin đó, anh ấy liền lộ vẻ ngạc nhiên.",
               "jlptLevel": 3
             }
           ]
@@ -3069,7 +3069,7 @@
     "order": 87,
     "title": "87. ～も…ば～も…・～も…なら～も",
     "summary": "Ngữ pháp bài số 87 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 87. ～も…ば～も…・～も…なら～も\n\n> 🔧 **Cấu trúc:** `名 ＋も ＋動ば形・い形い-ければ・な形なら・名なら ＋名 ＋も`\n>\n> 📖 **Ý nghĩa:** *「～も…し、～も… ・～も～も両方… 。」「も」を２回使う。Cả hai ~ và … も được sử dụng hai lần.*\n\n### Ví dụ:",
+    "theoryMd": "### 1. ～も…ば～も…・～も…なら～も\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để liệt kê hai đặc điểm, tính chất cùng tốt hoặc cùng xấu của một sự vật, sự việc. Nhấn mạnh rằng cả hai khía cạnh đều có tính chất tương đồng.\n- **Cấu trúc:** \n - N + も + V-ba / A-kereba + N + も\n - N + も + Adj-na nara / N + nara + N + も\n\n#### 📝 Ví dụ minh họa\n彼は勉強もできれば、スポーツも得意だ。\nAnh ấy học cũng giỏi mà chơi thể thao cũng tài.\n\nこのレストランは、味も良ければ雰囲気も良い。\nNhà hàng này đồ ăn vừa ngon mà không khí cũng tốt.\n\n彼女は歌も歌えれば、ダンスも上手だ。\nCô ấy vừa biết hát lại vừa nhảy đẹp.\n\n彼は性格も良ければ、頭もいい。\nAnh ấy vừa có tính cách tốt, lại vừa thông minh.",
     "skills": [
       "GRAMMAR"
     ],
@@ -3086,9 +3086,9 @@
           "cards": [
             {
               "front": "〜も…ば〜も…・〜も…なら〜も",
-              "back": "Cấu trúc: 名 ＋も ＋動ば形・い形い-ければ・な形なら・名なら ＋名 ＋も\n\nÝ nghĩa: 「～も…し、～も… ・～も～も両方… 。」「も」を２回使う。Cả hai ~ và … も được sử dụng hai lần.",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Liệt kê hai đặc điểm cùng tốt hoặc cùng xấu của một sự vật, sự việc.\nCấu trúc: N + も + V-ba / A-kereba / Adj-na nara / N + nara + N + も",
+              "romaji": "mo...ba...mo / mo...nara...mo",
+              "example": "彼は勉強もできれば、スポーツも得意だ。\nAnh ấy học cũng giỏi mà chơi thể thao cũng tài.\n\nこのレストランは、味も良ければ雰囲気も良い。\nNhà hàng này đồ ăn vừa ngon mà không khí cũng tốt.\n\n彼女は歌も歌えれば、ダンスも上手だ。\nCô ấy vừa biết hát lại vừa nhảy đẹp.\n\n彼は性格も良ければ、頭もいい。\nAnh ấy vừa có tính cách tốt, lại vừa thông minh.",
               "jlptLevel": 3
             }
           ]
@@ -3104,7 +3104,7 @@
     "order": 88,
     "title": "88. ～かける・～かけだ",
     "summary": "Ngữ pháp bài số 88 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 88. ～かける・～かけだ\n\n> 🔧 **Cấu trúc:** `動ます ＋ かける・かけだ`\n>\n> 📖 **Ý nghĩa:** *全部～し終わっていないChưa làm ~ xong toàn bộ*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜かける・〜かけだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Diễn tả trạng thái một hành động đang được thực hiện nhưng còn dang dở, chưa hoàn tất.\n- **Cấu trúc:** V-masu (bỏ masu) + かける / かけだ / かけの + N\n\n#### 📝 Ví dụ minh họa\nテーブルの上に飲みかけのコップが置いてある。\nTrên bàn có đặt một chiếc cốc uống dở.\n\nこの本はまだ読みかけだから、片付けないでください。\nCuốn sách này tôi vẫn đang đọc dở, xin vui lòng đừng dọn đi.\n\n彼は言いかけて、黙ってしまった。\nAnh ấy định nói gì đó nhưng rồi lại im bặt.\n\n作りかけのプラモデルが部屋に散らばっている。\nMô hình lắp ráp dở dang nằm rải rác trong phòng.",
     "skills": [
       "GRAMMAR"
     ],
@@ -3121,9 +3121,9 @@
           "cards": [
             {
               "front": "〜かける・〜かけだ",
-              "back": "Cấu trúc: 動ます ＋ かける・かけだ\n\nÝ nghĩa: 全部～し終わっていないChưa làm ~ xong toàn bộ",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Hành động đang làm dở dang, chưa hoàn thành.\nCấu trúc: V-masu (bỏ masu) + かける / かけだ / かけの + N",
+              "romaji": "kakeru / kakeda",
+              "example": "テーブルの上に飲みかけのコップが置いてある。\nTrên bàn có đặt một chiếc cốc uống dở.\n\nこの本はまだ読みかけだから、片付けないでください。\nCuốn sách này tôi vẫn đang đọc dở, xin vui lòng đừng dọn đi.\n\n彼は言いかけて、黙ってしまった。\nAnh ấy định nói gì đó nhưng rồi lại im bặt.\n\n作りかけのプラモデルが部屋に散らばっている。\nMô hình lắp ráp dở dang nằm rải rác trong phòng.",
               "jlptLevel": 3
             }
           ]
@@ -3139,7 +3139,7 @@
     "order": 89,
     "title": "89. ～きる",
     "summary": "Ngữ pháp bài số 89 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 89. ～きる\n\n> 🔧 **Cấu trúc:** `動ます ＋ 通す`\n>\n> 📖 **Ý nghĩa:** *全部/完全に～するLàm ~ xong toàn bộ/ triệt để*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜きる\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \n 1. Làm cái gì đó đến cùng, hoàn tất triệt để.\n 2. Làm với mức độ tối đa (vắt kiệt lực, hoàn toàn).\n- **Cấu trúc:** V-masu (bỏ masu) + きる\n\n#### 📝 Ví dụ minh họa\nこんなに長い小説を、一日で読みきった。\nTôi đã đọc xong hoàn toàn cuốn tiểu thuyết dài thế này chỉ trong một ngày.\n\n42キロのマラソンコースを、最後まで走りきった。\nTôi đã chạy hết chặng đường marathon 42 km cho đến tận cùng.\n\n一生懸命働いて、疲れきった。\nTôi làm việc hết sức mình nên đã kiệt sức.\n\nそのニュースを聞いて、困りきった顔をした。\nNghe tin đó xong, anh ấy làm vẻ mặt vô cùng lúng túng.",
     "skills": [
       "GRAMMAR"
     ],
@@ -3156,9 +3156,9 @@
           "cards": [
             {
               "front": "〜きる",
-              "back": "Cấu trúc: 動ます ＋ 通す\n\nÝ nghĩa: 全部/完全に～するLàm ~ xong toàn bộ/ triệt để",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Làm xong hoàn toàn, triệt để hoặc làm với mức độ tối đa.\nCấu trúc: V-masu (bỏ masu) + きる",
+              "romaji": "kiru",
+              "example": "こんなに長い小説を、一日で読みきった。\nTôi đã đọc xong hoàn toàn cuốn tiểu thuyết dài thế này chỉ trong một ngày.\n\n42キロのマラソンコースを、最後まで走りきった。\nTôi đã chạy hết chặng đường marathon 42 km cho đến tận cùng.\n\n一生懸命働いて、疲れきった。\nTôi làm việc hết sức mình nên đã kiệt sức.\n\nそのニュースを聞いて、困りきった顔をした。\nNghe tin đó xong, anh ấy làm vẻ mặt vô cùng lúng túng.",
               "jlptLevel": 3
             }
           ]
@@ -3174,7 +3174,7 @@
     "order": 90,
     "title": "90. ～通す",
     "summary": "Ngữ pháp bài số 90 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 90. ～通す\n\n> 🔧 **Cấu trúc:** `動ます ＋ 通す`\n>\n> 📖 **Ý nghĩa:** *最後まで～し続けるLàm ~ đến cùng*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜通す\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Diễn tả việc kiên trì thực hiện một hành động hoặc duy trì một trạng thái cho đến cùng, bất chấp khó khăn hay thời gian kéo dài.\n- **Cấu trúc:** V-masu (bỏ masu) + 通す\n\n#### 📝 Ví dụ minh họa\n自分で決めたルールは、最後までやり通すべきだ。\nQuy tắc do bản thân quyết định thì nên thực hiện đến cùng.\n\n彼はどんなに辛くても、自分の信念を信じ通した。\nDù khó khăn thế nào, anh ấy vẫn tin tưởng đến cùng vào niềm tin của mình.\n\n会議の間、彼は黙り通した。\nTrong suốt buổi họp, anh ta đã giữ im lặng đến cùng.\n\n徹夜して、論文を書き通した。\nTôi thức trắng đêm để viết xong bài luận văn.",
     "skills": [
       "GRAMMAR"
     ],
@@ -3191,9 +3191,9 @@
           "cards": [
             {
               "front": "〜通す",
-              "back": "Cấu trúc: 動ます ＋ 通す\n\nÝ nghĩa: 最後まで～し続けるLàm ~ đến cùng",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Kiên trì thực hiện hành động cho tới cùng, duy trì trạng thái đến cuối cùng.\nCấu trúc: V-masu (bỏ masu) + 通す",
+              "romaji": "toosu",
+              "example": "自分で決めたルールは、最後までやり通すべきだ。\nQuy tắc do bản thân quyết định thì nên thực hiện đến cùng.\n\n彼はどんなに辛くても、自分の信念を信じ通した。\nDù khó khăn thế nào, anh ấy vẫn tin tưởng đến cùng vào niềm tin của mình.\n\n会議の間、彼は黙り通した。\nTrong suốt buổi họp, anh ta đã giữ im lặng đến cùng.\n\n徹夜して、論文を書き通した。\nTôi thức trắng đêm để viết xong bài luận văn.",
               "jlptLevel": 3
             }
           ]
@@ -3209,7 +3209,7 @@
     "order": 91,
     "title": "91. ～出す",
     "summary": "Ngữ pháp bài số 91 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 91. ～出す\n\n> 🔧 **Cấu trúc:** `動ます ＋ 出す`\n>\n> 📖 **Ý nghĩa:** *（突然・急に）～し始めるBắt đầu ~ (một cách đột ngột/ gấp)*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜出す\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: V-masu + 出す\n- **Ý nghĩa**: Dùng để diễn tả một hành động bắt đầu một cách đột ngột hoặc đột nhiên phát sinh trạng thái nào đó.\n\n#### 📝 Ví dụ minh họa\n- 赤ちゃんが急に泣き出した。\n(Em bé bỗng nhiên khóc ré lên.)\n\n- 急に雨が降り出した。\n(Trời bỗng nhiên đổ mưa.)\n\n- 話し出すと止まらない。\n(Một khi đã bắt đầu nói thì không dừng lại được.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -3226,9 +3226,9 @@
           "cards": [
             {
               "front": "〜出す",
-              "back": "Cấu trúc: 動ます ＋ 出す\n\nÝ nghĩa: （突然・急に）～し始めるBắt đầu ~ (một cách đột ngột/ gấp)",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Diễn tả một hành động bắt đầu một cách đột ngột hoặc đột nhiên phát sinh điều gì.\nCấu trúc: V-masu + 出す",
+              "romaji": "dasu",
+              "example": "赤ちゃんが急に泣き出した。\nEm bé bỗng nhiên khóc ré lên.\n\n急に雨が降り出した。\nTrời bỗng nhiên đổ mưa.\n\n話し出すと止まらない。\nMột khi đã bắt đầu nói thì không dừng lại được.",
               "jlptLevel": 3
             }
           ]
@@ -3244,7 +3244,7 @@
     "order": 92,
     "title": "92. ～やすい",
     "summary": "Ngữ pháp bài số 92 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 92. ～やすい\n\n> 🔧 **Cấu trúc:** `動ます ＋ やすい`\n>\n> 📖 **Ý nghĩa:** *簡単に～できる 簡単に～してしまうCó thể thực hiện ~ một cách đơn giảnDễ dàng làm ~*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜やすい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: V-masu + やすい\n- **Ý nghĩa**: Dùng để diễn tả một hành động dễ thực hiện hoặc một đối tượng dễ rơi vào một trạng thái nhất định do đặc tính của nó.\n\n#### 📝 Ví dụ minh họa\n- このペンはとても書きやすい。\n(Cây bút này rất dễ viết.)\n\n- このガラスは割れやすいので、注意してください。\n(Tấm kính này rất dễ vỡ nên hãy cẩn thận.)\n\n- 夏は食べ物が腐りやすい。\n(Vào mùa hè, thức ăn rất dễ bị thiu.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -3261,9 +3261,9 @@
           "cards": [
             {
               "front": "〜やすい",
-              "back": "Cấu trúc: 動ます ＋ やすい\n\nÝ nghĩa: 簡単に～できる 簡単に～してしまうCó thể thực hiện ~ một cách đơn giảnDễ dàng làm ~",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Diễn tả việc dễ thực hiện hành động hoặc dễ rơi vào một trạng thái nào đó do đặc tính khách quan.\nCấu trúc: V-masu + やすい",
+              "romaji": "yasui",
+              "example": "このペンはとても書きやすい。\nCây bút này rất dễ viết.\n\nこのガラスは割れやすいので、注意してください。\nTấm kính này rất dễ vỡ nên hãy cẩn thận.\n\n夏は食べ物が腐りやすい。\nVào mùa hè, thức ăn rất dễ bị thiu.",
               "jlptLevel": 3
             }
           ]
@@ -3279,7 +3279,7 @@
     "order": 93,
     "title": "93. ～にくい",
     "summary": "Ngữ pháp bài số 93 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 93. ～にくい\n\n> 🔧 **Cấu trúc:** `動ます ＋ にくい`\n>\n> 📖 **Ý nghĩa:** *簡単に～できない 簡単には～しないKhông thể làm ~ một cách đơn giảnKhông dễ dàng làm ~*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜にくい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: V-masu + にくい\n- **Ý nghĩa**: Dùng để diễn tả việc thực hiện một hành động nào đó gặp khó khăn do tính chất, đặc điểm khách quan của sự vật, sự việc.\n\n#### 📝 Ví dụ minh họa\n- この字は小さくて読みにくい。\n(Chữ này nhỏ quá nên khó đọc.)\n\n- この肉は硬くて食べにくい。\n(Thịt này dai quá nên khó ăn.)\n\n- このペンは持ちにくくて使いにくい。\n(Cây bút này khó cầm nên khó sử dụng.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -3296,9 +3296,9 @@
           "cards": [
             {
               "front": "〜にくい",
-              "back": "Cấu trúc: 動ます ＋ にくい\n\nÝ nghĩa: 簡単に～できない 簡単には～しないKhông thể làm ~ một cách đơn giảnKhông dễ dàng làm ~",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Diễn tả việc khó thực hiện hành động do đặc tính khách quan của đối tượng khiến việc đó trở nên khó khăn.\nCấu trúc: V-masu + にくい",
+              "romaji": "nikui",
+              "example": "この字は小さくて読みにくい。\nChữ này nhỏ quá nên khó đọc.\n\nこの肉は硬くて食べにくい。\nThịt này dai quá nên khó ăn.\n\nこのペンは持ちにくくて使いにくい。\nCây bút này khó cầm nên khó sử dụng.",
               "jlptLevel": 3
             }
           ]
@@ -3314,7 +3314,7 @@
     "order": 94,
     "title": "94. ～づらい",
     "summary": "Ngữ pháp bài số 94 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 94. ～づらい\n\n> 🔧 **Cấu trúc:** `動ます ＋ づらい`\n>\n> 📖 **Ý nghĩa:** *～するのが難しくてこまるLàm việc ~ là khó khăn, vất vả*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜づらい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: V-masu + づらい\n- **Ý nghĩa**: Dùng khi muốn diễn đạt việc thực hiện một hành động nào đó gây ra cảm giác khó chịu, đau đớn về thể xác hoặc e ngại, khó xử về mặt tinh thần.\n\n#### 📝 Ví dụ minh họa\n- 彼には本当のことを言いづらい。\n(Thật khó để nói ra sự thật với anh ấy.)\n\n- 目が痛くて、パソコンの画面が見づらい。\n(Mắt tôi bị đau nên rất khó nhìn vào màn hình máy tính.)\n\n- お腹が痛くて歩きづらい。\n(Tôi bị đau bụng nên rất khó đi lại.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -3331,9 +3331,9 @@
           "cards": [
             {
               "front": "〜づらい",
-              "back": "Cấu trúc: 動ます ＋ づらい\n\nÝ nghĩa: ～するのが難しくてこまるLàm việc ~ là khó khăn, vất vả",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Diễn tả việc khó làm một việc gì đó do gây cảm giác đau đớn, khó chịu về thể chất hoặc e ngại về mặt tinh thần.\nCấu trúc: V-masu + づらい",
+              "romaji": "zurai",
+              "example": "彼には本当のことを言いづらい。\nThật khó để nói ra sự thật với anh ấy.\n\n目が痛くて、パソコンの画面が見づらい。\nMắt tôi bị đau nên rất khó nhìn vào màn hình máy tính.\n\nお腹が痛くて歩きづらい。\nTôi bị đau bụng nên rất khó đi lại.",
               "jlptLevel": 3
             }
           ]
@@ -3349,7 +3349,7 @@
     "order": 95,
     "title": "95. ～すぎる・～すぎだ",
     "summary": "Ngữ pháp bài số 95 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 95. ～すぎる・～すぎだ\n\n> 🔧 **Cấu trúc:** `動ます・い形い・な形 ＋過ぎる・すぎだ`\n>\n> 📖 **Ý nghĩa:** *適切な程度を超えて ～だ・～するMột trạng thái ~ hay làm một việc ~ gì đó vượt quá mức độ phù hợp*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜すぎる・〜すぎだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: \n - V-masu + すぎる\n - A-i (bỏ い) + すぎる\n - A-na (bỏ な) + すぎる\n- **Ý nghĩa**: Dùng để nhấn mạnh một hành động hoặc trạng thái vượt quá mức độ trung bình hoặc mức độ phù hợp (mang nghĩa tiêu cực).\n\n#### 📝 Ví dụ minh họa\n- 夕べ、お酒を飲みすぎました。\n(Tối qua tôi đã uống quá nhiều rượu.)\n\n- この部屋は狭すぎます。\n(Căn phòng này quá chật hẹp.)\n\n- あの店は高すぎて、あまり行かない。\n(Cửa hàng đó quá đắt nên tôi không hay đến.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -3366,9 +3366,9 @@
           "cards": [
             {
               "front": "〜すぎる・〜すぎだ",
-              "back": "Cấu trúc: 動ます・い形い・な形 ＋過ぎる・すぎだ\n\nÝ nghĩa: 適切な程度を超えて ～だ・～するMột trạng thái ~ hay làm một việc ~ gì đó vượt quá mức độ phù hợp",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Diễn tả trạng thái hoặc hành động vượt quá mức độ, giới hạn phù hợp (quá...).\nCấu trúc: V-masu / A-i (bỏ い) / A-na (bỏ な) + すぎる・すぎだ",
+              "romaji": "sugiru / sugida",
+              "example": "夕べ、お酒を飲みすぎました。\nTối qua tôi đã uống quá nhiều rượu.\n\nこの部屋は狭すぎます。\nCăn phòng này quá chật hẹp.\n\nあの店は高すぎて、あまり行かない。\nCửa hàng đó quá đắt nên tôi không hay đến.",
               "jlptLevel": 3
             }
           ]
@@ -3384,7 +3384,7 @@
     "order": 96,
     "title": "96. ～がちだ",
     "summary": "Ngữ pháp bài số 96 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 96. ～がちだ\n\n> 🔧 **Cấu trúc:** `名・動ます ＋がちだ`\n>\n> 📖 **Ý nghĩa:** *～の状態になる傾向があるCó khuynh hướng trở thành trạng thái ~*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜がちだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ xu hướng thường xảy ra, dễ xảy ra việc gì đó. Thường dùng với các sự việc mang tính tiêu cực hoặc không tốt cho sức khỏe/tình trạng người nói.\n- **Cấu trúc:** N / V-masu + がちだ\n\n#### 📝 Ví dụ minh họa\n- 一人暮らしの自炊は、野菜が不足しがちだ。\n(Tự nấu ăn khi sống một mình thì rau quả thường hay bị thiếu.)\n\n- 最近、曇りがちの日が多い。\n(Gần đây, có nhiều ngày thường hay âm u.)\n\n- 彼は小さい頃、病気がちだった。\n(Anh ấy hồi nhỏ thường hay bị ốm vặt.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -3401,9 +3401,9 @@
           "cards": [
             {
               "front": "〜がちだ",
-              "back": "Cấu trúc: 名・動ます ＋がちだ\n\nÝ nghĩa: ～の状態になる傾向があるCó khuynh hướng trở thành trạng thái ~",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Thường, có xu hướng, dễ (thường theo chiều hướng xấu, tiêu cực).\nCấu trúc: N / V-masu + がちだ",
+              "romaji": "gachi-da",
+              "example": "一人暮らしの自炊は、野菜が不足しがちだ。\nTự nấu ăn khi sống một mình thì rau quả thường hay bị thiếu.\n\n最近、曇りがちの日が多い。\nGần đây, có nhiều ngày thường hay âm u.\n\n彼は小さい頃、病気がちだった。\nAnh ấy hồi nhỏ thường hay bị ốm vặt.",
               "jlptLevel": 3
             }
           ]
@@ -3419,7 +3419,7 @@
     "order": 97,
     "title": "97. ～らしい",
     "summary": "Ngữ pháp bài số 97 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 97. ～らしい\n\n> 🔧 **Cấu trúc:** `名 ＋ らしい`\n>\n> 📖 **Ý nghĩa:** *～のイメージと同じだGiống với những hình dung về ~*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜らしい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Nhấn mạnh đặc tính, tính chất tiêu biểu, đúng nghĩa là... (nhìn vào là thấy ngay bản chất đó).\n- **Cấu trúc:** N + らしい\n\n#### 📝 Ví dụ minh họa\n- 今日は春らしい暖かい一日ですね。\n(Hôm nay là một ngày ấm áp đậm chất mùa xuân nhỉ.)\n\n- 泣かないで。男らしくないぞ。\n(Đừng khóc nữa. Chẳng ra dáng nam nhi chút nào cả.)\n\n- 彼女は子供らしい無邪気な笑顔を見せた。\n(Cô ấy nở nụ cười ngây thơ đúng chất trẻ con.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -3436,9 +3436,9 @@
           "cards": [
             {
               "front": "〜らしい",
-              "back": "Cấu trúc: 名 ＋ らしい\n\nÝ nghĩa: ～のイメージと同じだGiống với những hình dung về ~",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Đậm chất, đúng nghĩa là (thể hiện đầy đủ bản chất, tính chất đặc trưng).\nCấu trúc: N + らしい",
+              "romaji": "rashii",
+              "example": "今日は春らしい暖かい一日ですね。\nHôm nay là một ngày ấm áp đậm chất mùa xuân nhỉ.\n\n泣かないで。男らしくないぞ。\nĐừng khóc nữa. Chẳng ra dáng nam nhi chút nào cả.\n\n彼女は子供らしい無邪気な笑顔を見せた。\nCô ấy nở nụ cười ngây thơ đúng chất trẻ con.",
               "jlptLevel": 3
             }
           ]
@@ -3454,7 +3454,7 @@
     "order": 98,
     "title": "98. ～っぽい",
     "summary": "Ngữ pháp bài số 98 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 98. ～っぽい\n\n> 🔧 **Cấu trúc:** `名・動ます ＋ っぽい`\n>\n> 📖 **Ý nghĩa:** *～のような要素・性質があるCó đặc điểm, tính cách giống như ~*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜っぽい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Có đặc tính, cảm giác giống như là... (Dùng cho cả tính từ, danh từ và động từ. Thường dùng trong văn nói).\n- **Cấu trúc:** N / V-masu / Adj-i (bỏ i) + っぽい\n\n#### 📝 Ví dụ minh họa\n- あの小学生は、大人っぽい服装をしている。\n(Đứa trẻ tiểu học kia mặc trang phục trông rất người lớn.)\n\n- 年を取ると、忘れっぽくなって困る。\n(Cứ có tuổi vào là lại hay quên, thật khổ sở.)\n\n- このスープは油っぽくて食べられない。\n(Món súp này toàn dầu mỡ, không thể ăn nổi.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -3471,9 +3471,9 @@
           "cards": [
             {
               "front": "〜っぽい",
-              "back": "Cấu trúc: 名・動ます ＋ っぽい\n\nÝ nghĩa: ～のような要素・性質があるCó đặc điểm, tính cách giống như ~",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Có vẻ, trông giống như, hay (mang tính chất, thiên hướng giống như là...).\nCấu trúc: N / V-masu / Adj-i (bỏ i) + っぽい",
+              "romaji": "ppoi",
+              "example": "あの小学生は、大人っぽい服装をしている。\nĐứa trẻ tiểu học kia mặc trang phục trông rất người lớn.\n\n年を取ると、忘れっぽくなって困る。\nCứ có tuổi vào là lại hay quên, thật khổ sở.\n\nこのスープは油っぽくて食べられない。\nMón súp này toàn dầu mỡ, không thể ăn nổi.",
               "jlptLevel": 3
             }
           ]
@@ -3489,7 +3489,7 @@
     "order": 99,
     "title": "99. ～のようだ・～みたいだ",
     "summary": "Ngữ pháp bài số 99 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 99. ～のようだ・～みたいだ\n\n> 🔧 **Cấu trúc:** `名 ＋のようだ・みたいだ`\n>\n> 📖 **Ý nghĩa:** *～によくにているRất giống với ~*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜のようだ・〜みたいだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để so sánh sự vật A với sự vật B vì chúng có điểm tương đồng.\n- **Cấu trúc:** N + のようだ / N + みたいだ\n\n#### 📝 Ví dụ minh họa\n- 彼女はモデルのようだ。\n(Cô ấy trông giống như là một người mẫu.)\n\n- あの雲は、犬みたいな形をしていますね。\n(Đám mây kia có hình dạng giống như một chú chó nhỉ.)\n\n- 今日はまるで夏のような暑さだ。\n(Hôm nay trời nóng hệt như mùa hè vậy.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -3506,9 +3506,9 @@
           "cards": [
             {
               "front": "〜のようだ・〜みたいだ",
-              "back": "Cấu trúc: 名 ＋のようだ・みたいだ\n\nÝ nghĩa: ～によくにているRất giống với ~",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Giống như là (so sánh ví von hai sự vật khác nhau nhưng có nét tương đồng).\nCấu trúc: N + のようだ / N + みたいだ",
+              "romaji": "no-you-da / mitai-da",
+              "example": "彼女はモデルのようだ。\nCô ấy trông giống như là một người mẫu.\n\nあの雲は、犬みたいな形をしていますね。\nĐám mây kia có hình dạng giống như một chú chó nhỉ.\n\n今日はまるで夏のような暑さだ。\nHôm nay trời nóng hệt như mùa hè vậy.",
               "jlptLevel": 3
             }
           ]
@@ -3524,7 +3524,7 @@
     "order": 100,
     "title": "100. ～だらけだ",
     "summary": "Ngữ pháp bài số 100 sách Shinkanzen Master N3 (1 thẻ).",
-    "theoryMd": "# 100. ～だらけだ\n\n> 🔧 **Cấu trúc:** `名 ＋だらけだ`\n>\n> 📖 **Ý nghĩa:** *～（いやなもの）がたくさんあるCó nhiều ~ (những thứ không ưa)*\n\n### Ví dụ:",
+    "theoryMd": "### 1. 〜だらけだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ trạng thái bị bao phủ, đầy những thứ không mong muốn, những thứ bẩn thỉu hoặc lỗi sai.\n- **Cấu trúc:** N + だらけだ\n\n#### 📝 Ví dụ minh họa\n- 泥だらけの靴で家に入らないでください。\n(Đừng đi đôi giày đầy bùn đất vào nhà.)\n\n- 彼の部屋はゴミだらけで足の踏み場もない。\n(Phòng của anh ấy toàn là rác, không có cả chỗ đặt chân.)\n\n- テストの答案は間違いだらけだった。\n(Bài thi toàn là lỗi sai.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -3541,9 +3541,9 @@
           "cards": [
             {
               "front": "〜だらけだ",
-              "back": "Cấu trúc: 名 ＋だらけだ\n\nÝ nghĩa: ～（いやなもの）がたくさんあるCó nhiều ~ (những thứ không ưa)",
-              "romaji": "",
-              "example": "",
+              "back": "Ý nghĩa: Toàn là, đầy là (những thứ bẩn thỉu, không mong muốn).\nCấu trúc: N + だらけだ",
+              "romaji": "darake-da",
+              "example": "泥だらけの靴で家に入らないでください。\nĐừng đi đôi giày đầy bùn đất vào nhà.\n\n彼の部屋はゴミだらけで足の踏み場もない。\nPhòng của anh ấy toàn là rác, không có cả chỗ đặt chân.\n\nテストの答案は間違いだらけだった。\nBài thi toàn là lỗi sai.",
               "jlptLevel": 3
             }
           ]

@@ -1,0 +1,42 @@
+{
+  "order": 32,
+  "title": "Bài 32 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 32/92).",
+  "theoryMd": "### 1. 〜ときている\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V/Adj/N-thể thông thường + ときている\n- **Ý nghĩa:** Vì lý do là… (nhấn mạnh lý do mang tính tự nhiên, đương nhiên dẫn đến một kết quả).\n\n#### 📝 Ví dụ minh họa\n- 安くておいしいときているから、行列ができないわけがない。\n- 彼は頭がよくて努力家ときているので、結果を出すのも当然だ。\n- 締め切り間近なうえに人手不足ときている。残業は避けられない。\n\n### 2. 〜でなくてなんだろう\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N + でなくてなんだろう\n- **Ý nghĩa:** Nếu không phải là… thì là gì? (Khẳng định một cách mạnh mẽ nội dung).\n\n#### 📝 Ví dụ minh họa\n- 家族みんなが無事に帰ってきた。これが幸せでなくてなんだろう。\n- 三十年の研究が実を結んだ。まさに努力の結晶でなくてなんだろう。\n- 荒野に湧いた一筋の泉、それは奇跡でなくてなんだろう。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 32 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 32.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜ときている",
+            "back": "Ý nghĩa: Vì là… (nên đương nhiên là…), dùng để nhấn mạnh lý do mang tính tất yếu.\nCấu trúc: V/Adj/N-thể thông thường + ときている",
+            "romaji": "to-kite-iru",
+            "example": "安くておいしいときているから、行列ができないわけがない。\nĐã rẻ lại ngon, bảo sao không có xếp hàng.\n\n彼は頭がよくて努力家ときているので、結果を出すのも当然だ。\nAnh ấy vừa giỏi lại chăm, nên ra kết quả cũng là điều đương nhiên.\n\n締め切り間近なうえに人手不足ときている。残業は避けられない。\nĐến sát hạn lại còn thiếu người. Tăng ca là không tránh khỏi.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜でなくてなんだろう",
+            "back": "Ý nghĩa: Nếu không phải là… thì là gì (khẳng định mạnh mẽ cảm xúc hoặc ý kiến).\nCấu trúc: N + でなくてなんだろう",
+            "romaji": "denakute-nandarou",
+            "example": "家族みんなが無事に帰ってきた。これが幸せでなくてなんだろう。\nCả gia đình đều về bình an. Nếu không gọi là hạnh phúc thì là gì nữa.\n\n三十年の研究が実を結んだ。まさに努力の結晶でなくてなんだろう。\nBa mươi năm nghiên cứu đã kết trái. Quả đúng là kết tinh của nỗ lực chứ còn gì.\n\n荒野に湧いた一筋の泉、それは奇跡でなくてなんだろう。\nMạch nước phun lên giữa hoang mạc, chẳng phải là phép màu sao.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

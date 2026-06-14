@@ -1,0 +1,286 @@
+{
+  "order": 17,
+  "title": "Bài 17 — Thể た (Quá khứ tự nhiên) và ～たことがあります",
+  "summary": "Chia thể た, nói về trải nghiệm quá khứ.",
+  "theoryMd": "### 1. V-た ことがあります\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Trình bày kinh nghiệm, trải nghiệm trong quá khứ.\n- **Cấu trúc:** V-ta + ことがあります\n\n### 2. V1-たり V2-たり します\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Liệt kê các hành động tiêu biểu. Thì của câu phụ thuộc vào đuôi します.\n- **Cấu trúc:** V1-ta + り, V2-ta + り + します",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 17 — Từ vựng",
+        "description": "Từ vựng bài 17: Bài 17 — Thể た (Quá khứ tự nhiên) và ～たことがあります",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "六",
+            "back": "sáu",
+            "romaji": "ろく",
+            "example": "六（ろく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "丈夫",
+            "back": "khỏe mạnh",
+            "romaji": "じょうぶ",
+            "example": "丈夫（じょうぶ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "毎晩",
+            "back": "mỗi tối",
+            "romaji": "まいばん",
+            "example": "毎晩（まいばん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "東",
+            "back": "phía đông",
+            "romaji": "ひがし",
+            "example": "東（ひがし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "五つ",
+            "back": "năm",
+            "romaji": "いつつ",
+            "example": "五つ（いつつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "晴れ",
+            "back": "trời nắng",
+            "romaji": "はれ",
+            "example": "晴れ（はれ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "細い",
+            "back": "mảnh",
+            "romaji": "ほそい",
+            "example": "細い（ほそい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "廊下",
+            "back": "hành lang",
+            "romaji": "ろうか",
+            "example": "廊下（ろうか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "太い",
+            "back": "dày",
+            "romaji": "ふとい",
+            "example": "太い（ふとい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "縦",
+            "back": "chiều dọc",
+            "romaji": "たて",
+            "example": "縦（たて）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "七つ",
+            "back": "bảy",
+            "romaji": "ななつ",
+            "example": "七つ（ななつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "留学生",
+            "back": "du học sinh",
+            "romaji": "りゅうがくせい",
+            "example": "留学生（りゅうがくせい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "九つ",
+            "back": "chín",
+            "romaji": "ここのつ",
+            "example": "九つ（ここのつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "一昨年",
+            "back": "năm kia",
+            "romaji": "おととし",
+            "example": "一昨年（おととし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "人",
+            "back": "người",
+            "romaji": "ひと",
+            "example": "人（ひと）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "居る",
+            "back": "có mặt",
+            "romaji": "いる",
+            "example": "居る（いる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "其れ",
+            "back": "đó",
+            "romaji": "それ",
+            "example": "其れ（それ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "物",
+            "back": "đồ vật",
+            "romaji": "もの",
+            "example": "物（もの）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "家",
+            "back": "nhà",
+            "romaji": "いえ",
+            "example": "家（いえ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "本",
+            "back": "sách",
+            "romaji": "ほん",
+            "example": "本（ほん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "迚も",
+            "back": "rất",
+            "romaji": "とても",
+            "example": "迚も（とても）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "会う",
+            "back": "gặp",
+            "romaji": "あう",
+            "example": "会う（あう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "好き",
+            "back": "thích",
+            "romaji": "すき",
+            "example": "好き（すき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "分かる",
+            "back": "hiểu",
+            "romaji": "わかる",
+            "example": "分かる（わかる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "此れ",
+            "back": "cái này",
+            "romaji": "これ",
+            "example": "此れ（これ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "聞く",
+            "back": "nghe",
+            "romaji": "きく",
+            "example": "聞く（きく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "所",
+            "back": "nơi",
+            "romaji": "ところ",
+            "example": "所（ところ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "先",
+            "back": "đầu",
+            "romaji": "さき",
+            "example": "先（さき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "何時も",
+            "back": "luôn luôn",
+            "romaji": "いつも",
+            "example": "何時も（いつも）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "書く",
+            "back": "viết",
+            "romaji": "かく",
+            "example": "書く（かく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "沢山",
+            "back": "nhiều",
+            "romaji": "たくさん",
+            "example": "沢山（たくさん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "入る",
+            "back": "vào",
+            "romaji": "はいる",
+            "example": "入る（はいる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "置く",
+            "back": "đặt",
+            "romaji": "おく",
+            "example": "置く（おく）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 17 — Ngữ pháp",
+        "description": "Ngữ pháp bài 17: Bài 17 — Thể た (Quá khứ tự nhiên) và ～たことがあります",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "V-た ことがあります",
+            "back": "Ý nghĩa: Diễn tả kinh nghiệm đã từng trải qua trong quá khứ.\nCấu trúc: V-ta + ことがあります",
+            "romaji": "v-ta-koto-ga-arimasu",
+            "example": "日本へ行ったことがあります。\nTôi đã từng đi Nhật.\n\n富士山に登ったことがあります。\nTôi đã từng leo núi Phú Sĩ.\n\n納豆を食べたことがあります。\nTôi đã từng ăn đậu phụ lên men.\n\nこの映画を見たことがあります。\nTôi đã từng xem bộ phim này.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V1-たり V2-たり します",
+            "back": "Ý nghĩa: Liệt kê các hành động tiêu biểu (không theo trình tự thời gian).\nCấu trúc: V1-ta + り, V2-ta + り + します",
+            "romaji": "v1-tari-v2-tari-shimasu",
+            "example": "日曜日は本を読んだり、音楽を聞いたりします。\nChủ nhật tôi đọc sách, nghe nhạc...\n\n昨日は買い物したり、映画を見たりしました。\nHôm qua tôi đã đi mua sắm, xem phim...\n\n休みの日にはテニスをしたり、掃除したりします。\nNgày nghỉ tôi chơi tennis, dọn dẹp...\n\n旅行では写真を撮ったり、美味しいものを食べたりします。\nKhi đi du lịch tôi chụp ảnh, ăn đồ ngon...",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

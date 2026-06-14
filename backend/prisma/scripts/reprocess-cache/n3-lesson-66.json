@@ -1,0 +1,35 @@
+{
+  "order": 66,
+  "title": "66. ～ように…・～ようにと…・～よう…",
+  "summary": "Ngữ pháp bài số 66 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～ように・～ようにと・～よう\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để trích dẫn gián tiếp một yêu cầu, mệnh lệnh, lời khuyên hoặc mong muốn của người khác truyền đạt lại cho đối tượng thứ ba.\n- **Cấu trúc**: V-ru / V-nai + ように / ようにと / よう\n\n#### 📝 Ví dụ minh họa\n田中さんに、明日早く来るように伝えてください。\nHãy nhắn với anh Tanaka là ngày mai hãy đến sớm.\n\n医者にお酒を飲まないようにと言われた。\nTôi bị bác sĩ yêu cầu không được uống rượu.\n\n先生に、もっと勉強するように言われた。\nTôi bị giáo viên bảo là hãy học nhiều hơn đi.\n\n母に、部屋を掃除するようにと注意された。\nTôi bị mẹ nhắc nhở là hãy dọn dẹp phòng đi.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 66 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 66 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ように・〜ようにと・〜よう",
+            "back": "Ý nghĩa: Truyền đạt lại nội dung của một yêu cầu, mệnh lệnh, lời khuyên hoặc mong muốn.\nCấu trúc: V-ru / V-nai + ように / ようにと / よう",
+            "romaji": "youni / younito / you",
+            "example": "田中さんに、明日早く来るように伝えてください。\nHãy nhắn với anh Tanaka là ngày mai hãy đến sớm.\n\n医者にお酒を飲まないようにと言われた。\nTôi bị bác sĩ yêu cầu không được uống rượu.\n\n先生に、もっと勉強するように言われた。\nTôi bị giáo viên bảo là hãy học nhiều hơn đi.\n\n母に、部屋を掃除するようにと注意された。\nTôi bị mẹ nhắc nhở là hãy dọn dẹp phòng đi.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

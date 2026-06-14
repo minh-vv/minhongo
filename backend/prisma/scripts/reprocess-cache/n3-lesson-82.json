@@ -1,0 +1,35 @@
+{
+  "order": 82,
+  "title": "82. ～ようになる",
+  "summary": "Ngữ pháp bài số 82 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜ようになる\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ sự thay đổi trạng thái theo thời gian. Một khả năng hoặc thói quen mới đã được hình thành.\n- **Cấu trúc**: V-ru (thể khả năng, tự động từ) + ようになる\n\n#### 📝 Ví dụ minh họa\n- 日本に来てから、刺身が食べられるようになりました。\n(Kể từ khi đến Nhật, tôi đã ăn được sashimi.)\n\n- 日本語で日常会話ができるようになりました。\n(Tôi đã có thể giao tiếp cơ bản bằng tiếng Nhật.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 82 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 82 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ようになる",
+            "back": "Ý nghĩa: Biểu thị sự thay đổi trạng thái, từ không thể thành có thể, hoặc từ không có thói quen thành có thói quen.\nCấu trúc: V-ru (thể khả năng / tự động từ) + ようになる",
+            "romaji": "youni naru",
+            "example": "日本に来てから、刺身が食べられるようになりました。\nKể từ khi đến Nhật, tôi đã ăn được sashimi.\n\n日本語で日常会話ができるようになりました。\nTôi đã có thể giao tiếp cơ bản bằng tiếng Nhật.\n\n最近、子供が歩けるようになりました。\nGần đây, đứa trẻ đã bắt đầu đi được rồi.\n\nようやくこの機械が使えるようになる。\nCuối cùng thì cũng có thể sử dụng được cái máy này.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

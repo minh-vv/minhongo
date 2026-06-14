@@ -1,0 +1,70 @@
+{
+  "order": 18,
+  "title": "Bài 18: Không thể làm gì (〜がたい, 〜わけにはいかない, 〜かねる, 〜ようがない, 〜どころではない, 〜得る/〜得ない)",
+  "summary": "Các cấu trúc diễn tả sự không thể hoặc khó thực hiện: 〜がたい, 〜わけにはいかない, 〜かねる, 〜ようがない, 〜どころではない, 〜得る/〜得ない",
+  "theoryMd": "### Bài 18: Các cấu trúc diễn tả sự không thể\n\nNội dung bài học tập trung vào các sắc thái khác nhau của việc không thể thực hiện một hành động.\n\n### 1. 〜がたい\n- Khó làm gì (cảm xúc chủ quan).\n\n### 2. 〜わけにはいかない\n- Không thể làm gì (nguyên tắc, trách nhiệm).\n\n### 3. 〜かねる\n- Khó làm gì (từ chối lịch sự).\n\n### 4. 〜ようがない\n- Không có cách nào để thực hiện.\n\n### 5. 〜どころではない\n- Không phải lúc làm gì đó.\n\n### 6. 〜得る / 〜得ない\n- Có thể / Không thể xảy ra (logic/thực tế).",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 18 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 18: Không thể làm gì (〜がたい, 〜わけにはいかない, 〜かねる, 〜ようがない, 〜どころではない, 〜得る/〜得ない)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜がたい",
+            "back": "Ý nghĩa: Khó lòng mà thực hiện được việc gì (về mặt tâm lý, cảm xúc).\nCấu trúc: V-masu (bỏ masu) + がたい",
+            "romaji": "gatai",
+            "example": "あの優しい彼がそんなひどいことをしたとは信じがたい。\nThật khó tin là một người hiền lành như anh ấy lại làm điều tồi tệ như vậy.\n\n幼い子どもを一人で残して行くのは、私には耐えがたいことだ。\nViệc bỏ lại đứa con nhỏ một mình để đi là điều tôi không thể nào chịu đựng nổi.\n\nこの提案を受け入れがたいことは理解している。\nTôi hiểu rằng lời đề nghị này rất khó để chấp nhận.\n\n彼の態度は理解しがたいものだった。\nThái độ của anh ta là điều khó mà hiểu được.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜わけにはいかない",
+            "back": "Ý nghĩa: Không thể làm gì vì rào cản đạo đức, lương tâm, quy tắc xã hội.\nCấu trúc: V-ru + わけにはいかない",
+            "romaji": "wake ni wa ikanai",
+            "example": "病気の子供を一人家において、仕事に行くわけにはいかない。\nKhông thể để đứa con đang ốm ở nhà một mình mà đi làm được.\n\n明日大事な試験があるので、今夜は遊ぶわけにはいかない。\nVì ngày mai có kỳ thi quan trọng nên tối nay tôi không thể đi chơi được.\n\n大事な会議を休むわけにはいかない。\nTôi không thể nghỉ buổi họp quan trọng này được.\n\n友達に教えられた秘密を漏らすわけにはいかない。\nTôi không thể tiết lộ bí mật mà bạn đã dạy cho tôi.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜かねる",
+            "back": "Ý nghĩa: Khó lòng mà / Không thể làm được (từ chối lịch sự).\nCấu trúc: V-masu (bỏ masu) + かねる",
+            "romaji": "kaneru",
+            "example": "あなたの気持ちも理解できますが、その案には賛成しかねます。\nTôi có thể hiểu được cảm xúc của anh, nhưng tôi khó lòng mà tán thành phương án đó được.\n\n個人情報に関わることですので、お答えしかねます。\nVì đây là vấn đề liên quan đến thông tin cá nhân nên tôi không thể trả lời được.\n\nそのような要望には応じかねます。\nChúng tôi không thể đáp ứng yêu cầu như vậy được.\n\n判断しかねる問題です。\nĐây là vấn đề khó mà phán đoán được.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ようがない",
+            "back": "Ý nghĩa: Hoàn toàn không có phương pháp, không có cách nào để thực hiện.\nCấu trúc: V-masu (bỏ masu) + ようがない / ようもない",
+            "romaji": "you ga nai",
+            "example": "実力はあるのだから、今回の結果には運がなかったとしか言いようがない。\nBởi vì có thực lực nên kết quả lần này chỉ có thể nói là do không may mắn mà thôi.\n\n連絡先もわからないので、連絡のしようがない。\nĐịa chỉ liên lạc cũng không biết nên hoàn toàn không có cách nào liên lạc được.\n\n火事で家が燃えてしまい、どうしようもなかった。\nNgôi nhà đã bị cháy rụi, tôi chẳng biết phải làm sao cả.\n\nあの人の考えは理解しようがない。\nKhông có cách nào để hiểu được suy nghĩ của người đó.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜どころではない",
+            "back": "Ý nghĩa: Không phải lúc / Không thể ở trạng thái làm gì (vì bận rộn, việc khác chen vào).\nCấu trúc: V-ru / N + どころではない",
+            "romaji": "dokoro de wa nai",
+            "example": "仕事が忙しくて、旅行どころではない。\nCông việc bận rộn ngập đầu, chẳng phải là lúc để đi du lịch đâu.\n\n風邪がひどくて、勉強どころではない。\nTôi bị cảm nặng, không thể nào học hành gì được lúc này.\n\n騒音がひどくて、眠れたものではない。\nTiếng ồn dữ dội quá, không thể nào ngủ được.\n\nパーティーどころではなく、家でゆっくり休みたい。\nKhông phải là lúc tiệc tùng, tôi chỉ muốn nghỉ ngơi ở nhà.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜得る / 〜得ない",
+            "back": "Ý nghĩa: Có khả năng xảy ra / Tuyệt đối không có khả năng xảy ra.\nCấu trúc: V-masu (bỏ masu) + 得る / 得ない",
+            "romaji": "uru / enai",
+            "example": "がんが誰でもかかり得る病気だ。\nUng thư là căn bệnh mà bất cứ ai cũng có khả năng mắc phải.\n\nそんな馬鹿なことは、絶対にあり得ない。\nChuyện ngớ ngẩn như thế tuyệt đối không thể nào xảy ra được.\n\n可能性は十分あり得る。\nKhả năng là hoàn toàn có thể xảy ra.\n\nこの事故は予想し得ない出来事だった。\nTai nạn này là một sự kiện không thể dự đoán được.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 6
+  }
+}

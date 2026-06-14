@@ -1,0 +1,42 @@
+{
+  "order": 84,
+  "title": "Bài 84 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 84/92).",
+  "theoryMd": "### 1. 〜ぶる\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Ra vẻ, làm bộ, tỏ ra như thể mình là người thế nào đó. Thường mang ý nghĩa tiêu cực, phê phán.\n- **Cấu trúc**: N / Na-adj + ぶる\n\n#### 📝 Ví dụ minh họa\n彼はすぐ大人ぶるけど、中身は子どものままだ。\nAnh ta hay làm ra vẻ người lớn, nhưng bên trong vẫn như trẻ con.\n\n### 2. 〜ぶって\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Hình thức liên từ của '〜ぶる', dùng để diễn tả hành động được thực hiện trong khi đang 'làm bộ'.\n- **Cấu trúc**: N / Na-adj + ぶって + V\n\n#### 📝 Ví dụ minh họa\n先輩ぶってあれこれ命令するな。\nĐừng có làm ra vẻ đàn anh mà sai bảo này nọ.\n\n知ったかぶって答えたが、間違いだらけだった。\nRa vẻ biết tuốt mà trả lời, nhưng sai be bét.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 84 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 84.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜ぶる",
+            "back": "Ý nghĩa: Ra vẻ, làm bộ như là... (thường mang nghĩa tiêu cực, chê trách).\nCấu trúc: N / Na-adj + ぶる",
+            "romaji": "buru",
+            "example": "彼はすぐ大人ぶるけど、中身は子どものままだ。\nAnh ta hay làm ra vẻ người lớn, nhưng bên trong vẫn như trẻ con.\n\n彼女は何でも知ったかぶって説明するから、時々困る。\nCô ấy hay làm như biết tuốt rồi giải thích, nên đôi lúc thật rắc rối.\n\n紳士ぶった態度で人を見下すのはよくない。\nThái độ ra vẻ quý ông rồi khinh người là không tốt.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜ぶって",
+            "back": "Ý nghĩa: Làm bộ làm tịch rồi làm gì đó... (dạng nối tiếp trong câu).\nCấu trúc: N / Na-adj + ぶって + V",
+            "romaji": "butte",
+            "example": "先輩ぶってあれこれ命令するな。\nĐừng có làm ra vẻ đàn anh mà sai bảo này nọ.\n\n大人ぶっていても、内心は不安なんだろう。\nDù có làm ra vẻ người lớn, trong lòng chắc vẫn bất an.\n\n知ったかぶって答えたが、間違いだらけだった。\nRa vẻ biết tuốt mà trả lời, nhưng sai be bét.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

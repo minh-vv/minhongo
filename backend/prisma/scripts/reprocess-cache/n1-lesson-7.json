@@ -1,0 +1,42 @@
+{
+  "order": 7,
+  "title": "Bài 7 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 7/92).",
+  "theoryMd": "### 1. 〜といわず〜といわず\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ phạm vi rộng lớn, bất kể chỗ nào hay lúc nào đều có chung một trạng thái.\n- **Cấu trúc**: N + といわず + N + といわず\n\n#### 📝 Ví dụ minh họa\n- 昼といわず夜といわず、救急車のサイレンが鳴りやまない。\n- 教室は床といわず机といわず、埃だらけだ。\n- 大人といわず子供といわず、みんなが楽しんでいる。\n\n### 2. 〜なり〜なり\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Gợi ý các phương án cụ thể, đưa ra ví dụ để đối phương lựa chọn.\n- **Cấu trúc**: N / V-ru + なり + N / V-ru + なり\n\n#### 📝 Ví dụ minh họa\n- コーヒーなり紅茶なり、何か飲みませんか。\n- 困ったら、先生に聞くなり、図書館で調べるなりしなさい。\n- メールなり電話なり、連絡をください。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 7 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 7.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜といわず〜といわず",
+            "back": "Ý nghĩa: Bất kể A hay B, toàn bộ đều như nhau (không ngoại lệ).\nCấu trúc: N + といわず + N + といわず",
+            "romaji": "to-iwazu-to-iwazu",
+            "example": "昼といわず夜といわず、救急車のサイレンが鳴りやまない。\nCả ngày lẫn đêm, tiếng còi cấp cứu không dứt.\n\n教室は床といわず机といわず、埃だらけだ。\nTrong lớp từ sàn đến bàn, bụi bặm khắp nơi.\n\n大人といわず子供といわず、みんなが楽しんでいる。\nBất kể người lớn hay trẻ nhỏ, ai cũng đang tận hưởng.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜なり〜なり",
+            "back": "Ý nghĩa: Hoặc là... hoặc là... (đưa ra các ví dụ gợi ý/phương án để giải quyết vấn đề).\nCấu trúc: N / V-ru + なり + N / V-ru + なり",
+            "romaji": "nari-nari",
+            "example": "コーヒーなり紅茶なり、何か飲みませんか。\nCà phê hay trà gì đó, uống chút chứ?\n\n困ったら、先生に聞くなり、図書館で調べるなりしなさい。\nNếu gặp khó thì hoặc hỏi thầy, hoặc tra ở thư viện đi.\n\nメールなり電話なり、連絡をください。\nHãy liên lạc cho tôi, bằng email hay điện thoại đều được.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

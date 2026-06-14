@@ -1,0 +1,35 @@
+{
+  "order": 62,
+  "title": "62. ～として",
+  "summary": "Ngữ pháp bài số 62 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～として\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để diễn tả tư cách, vị trí, danh nghĩa hoặc mục đích của một sự vật/sự việc.\n- **Cấu trúc**: N + として\n\n#### 📝 Ví dụ minh họa\n- 彼は留学生として日本に来ました。\n(Anh ấy đã đến Nhật Bản với tư cách là du học sinh.)\n- 趣味として、日本語を勉強しています。\n(Tôi đang học tiếng Nhật như một sở thích.)\n- この建物は歴史的建造物として保護されている。\n(Tòa nhà này được bảo tồn như một di tích lịch sử.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 62 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 62 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜として",
+            "back": "Ý nghĩa: Với tư cách là... / Dưới danh nghĩa là... / Như là...\nCấu trúc: N ＋として",
+            "romaji": "to shite",
+            "example": "彼は留学生として日本に来ました。\nAnh ấy đã đến Nhật Bản với tư cách là du học sinh.\n\n趣味として、日本語を勉強しています。\nTôi đang học tiếng Nhật như một sở thích.\n\nこの建物は歴史的建造物として保護されている。\nTòa nhà này được bảo tồn như một di tích lịch sử.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

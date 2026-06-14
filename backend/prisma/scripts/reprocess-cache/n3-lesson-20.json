@@ -1,0 +1,42 @@
+{
+  "order": 20,
+  "title": "20. ～によって…・～による",
+  "summary": "Ngữ pháp bài số 20 sách Shinkanzen Master N3 (2 thẻ).",
+  "theoryMd": "### 1. ～によって・～による\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: \n1. Chỉ nguyên nhân, lý do (trang trọng).\n2. Chỉ phương tiện, cách thức.\n3. Chỉ chủ thể trong câu bị động.\n4. Chỉ sự khác biệt tùy theo đối tượng.\n- **Cấu trúc**: 名詞 ＋ によって / による\n#### 📝 Ví dụ minh họa\n- 不注意によって、大きな事故が起きてしまった。\n- この問題は話し合いによって解決された。\n- この本は有名な作家によって書かれた。\n- 習慣は国によって様々だ。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 20 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 20 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜によって",
+            "back": "Ý nghĩa: Do...; Vì...; Bởi... (Diễn tả nguyên nhân hoặc lý do. Trang trọng).\nCấu trúc: 名詞 ＋ によって",
+            "romaji": "ni-yotte",
+            "example": "不注意によって、大きな事故が起きてしまった。\nVì bất cẩn, một tai nạn lớn đã xảy ra.\n\n今回のトラブルは、彼のミスによって引き起こされた。\nSự cố lần này là do lỗi của anh ấy gây ra.\n\n自然災害によって、多くの建物が破壊された。\nNhiều tòa nhà đã bị phá hủy do thiên tai.",
+            "jlptLevel": 3
+          },
+          {
+            "front": "〜によって・〜による",
+            "back": "Ý nghĩa: Bằng...; Thông qua... (cách thức); Bởi... (chủ thể bị động); Tùy thuộc vào... (sự khác biệt).\nCấu trúc: 名詞 ＋ によって / による",
+            "romaji": "ni-yotte / ni-yoru",
+            "example": "この問題は話し合いによって解決された。\nVấn đề này đã được giải quyết bằng cách thảo luận.\n\nこの本は有名な作家によって書かれた。\nCuốn sách này được viết bởi một tác giả nổi tiếng.\n\n習慣は国によって様々だ。\nPhong tục tập quán thì tùy mỗi quốc gia mà khác nhau.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

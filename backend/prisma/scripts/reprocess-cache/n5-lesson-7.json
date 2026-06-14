@@ -1,0 +1,293 @@
+{
+  "order": 7,
+  "title": "Bài 7 — Địa điểm + Động từ di chuyển nâng cao",
+  "summary": "に chỉ điểm đến, で chỉ phương tiện, と cùng với ai, ひとりで.",
+  "theoryMd": "### Bài 7: Di chuyển và Phương tiện\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **N(địa điểm) へ V**: Trợ từ 「へ」 (đọc là 'e') chỉ đích đến của các động từ như いきます, きます, かえります.\n- **N(phương tiện) で V**: Trợ từ 「で」 chỉ phương tiện thực hiện hành động.\n- **N(người) と V**: Trợ từ 「と」 chỉ người/đối tượng đồng hành.\n\n#### 📝 Ví dụ minh họa\n- わたしは こうえんへ いきます。(Tôi đi đến công viên)\n- ちかてつで いきます。(Tôi đi bằng tàu điện ngầm)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 7 — Từ vựng",
+        "description": "Từ vựng bài 7: Bài 7 — Địa điểm + Động từ di chuyển nâng cao",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "時計",
+            "back": "đồng hồ",
+            "romaji": "とけい",
+            "example": "時計（とけい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "家族",
+            "back": "gia đình",
+            "romaji": "かぞく",
+            "example": "家族（かぞく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "花",
+            "back": "hoa",
+            "romaji": "はな",
+            "example": "花（はな）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "猫",
+            "back": "mèo",
+            "romaji": "ねこ",
+            "example": "猫（ねこ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "毎日",
+            "back": "hàng ngày",
+            "romaji": "まいにち",
+            "example": "毎日（まいにち）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "宿題",
+            "back": "bài tập về nhà",
+            "romaji": "しゅくだい",
+            "example": "宿題（しゅくだい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "雪",
+            "back": "tuyết",
+            "romaji": "ゆき",
+            "example": "雪（ゆき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "山",
+            "back": "núi",
+            "romaji": "やま",
+            "example": "山（やま）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "窓",
+            "back": "cửa sổ",
+            "romaji": "まど",
+            "example": "窓（まど）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "動物",
+            "back": "động vật",
+            "romaji": "どうぶつ",
+            "example": "動物（どうぶつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "夜",
+            "back": "ban đêm",
+            "romaji": "よる",
+            "example": "夜（よる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "料理",
+            "back": "nấu ăn",
+            "romaji": "りょうり",
+            "example": "料理（りょうり）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "夏",
+            "back": "mùa hè",
+            "romaji": "なつ",
+            "example": "夏（なつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "新聞",
+            "back": "báo",
+            "romaji": "しんぶん",
+            "example": "新聞（しんぶん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "公園",
+            "back": "công viên",
+            "romaji": "こうえん",
+            "example": "公園（こうえん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "意味",
+            "back": "ý nghĩa",
+            "romaji": "いみ",
+            "example": "意味（いみ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "自転車",
+            "back": "xe đạp",
+            "romaji": "じてんしゃ",
+            "example": "自転車（じてんしゃ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "足",
+            "back": "chân",
+            "romaji": "あし",
+            "example": "足（あし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "電車",
+            "back": "tàu điện",
+            "romaji": "でんしゃ",
+            "example": "電車（でんしゃ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "散歩",
+            "back": "đi dạo",
+            "romaji": "さんぽ",
+            "example": "散歩（さんぽ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "声",
+            "back": "giọng nói",
+            "romaji": "こえ",
+            "example": "声（こえ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "朝",
+            "back": "buổi sáng",
+            "romaji": "あさ",
+            "example": "朝（あさ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "歌",
+            "back": "bài hát, ca hát",
+            "romaji": "うた",
+            "example": "歌（うた）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "靴",
+            "back": "giày",
+            "romaji": "くつ",
+            "example": "靴（くつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "箱",
+            "back": "hộp",
+            "romaji": "はこ",
+            "example": "箱（はこ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "机",
+            "back": "bàn làm việc",
+            "romaji": "つくえ",
+            "example": "机（つくえ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "帽子",
+            "back": "mũ, nón",
+            "romaji": "ぼうし",
+            "example": "帽子（ぼうし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "海",
+            "back": "biển, đại dương",
+            "romaji": "うみ",
+            "example": "海（うみ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "授業",
+            "back": "bài học, lớp học",
+            "romaji": "じゅぎょう",
+            "example": "授業（じゅぎょう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "銀行",
+            "back": "ngân hàng",
+            "romaji": "ぎんこう",
+            "example": "銀行（ぎんこう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "写真",
+            "back": "bức ảnh",
+            "romaji": "しゃしん",
+            "example": "写真（しゃしん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "冬",
+            "back": "mùa đông",
+            "romaji": "ふゆ",
+            "example": "冬（ふゆ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "村",
+            "back": "làng",
+            "romaji": "むら",
+            "example": "村（むら）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 7 — Ngữ pháp",
+        "description": "Ngữ pháp bài 7: Bài 7 — Địa điểm + Động từ di chuyển nâng cao",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "N(địa điểm) へ V(di chuyển)",
+            "back": "Ý nghĩa: Chỉ phương hướng hoặc đích đến của hành động di chuyển.\nCấu trúc: N(địa điểm) + へ + V(di chuyển)",
+            "romaji": "e-v-idou",
+            "example": "わたしは こうえんへ いきます。\nTôi đi đến công viên.\n\nあした 日本へ かえります。\nNgày mai tôi trở về Nhật Bản.\n\nデパートへ 行きます。\nTôi đi đến trung tâm thương mại.\n\n学校へ 行きます。\nTôi đi đến trường học.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N(phương tiện) で V(di chuyển)",
+            "back": "Ý nghĩa: Chỉ phương tiện thực hiện hành động di chuyển.\nCấu trúc: N(phương tiện) + で + V(di chuyển)",
+            "romaji": "de-v-idou",
+            "example": "ちかてつで いきます。\nTôi đi bằng tàu điện ngầm.\n\nタクシーで かえります。\nTôi về bằng taxi.\n\nバスで 学校へ 行きます。\nTôi đi học bằng xe buýt.\n\n電車で 大阪へ 行きます。\nTôi đi đến Osaka bằng tàu điện.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N(người) と V",
+            "back": "Ý nghĩa: Chỉ đối tượng cùng thực hiện hành động.\nCấu trúc: N(người) + と + V",
+            "romaji": "to-v",
+            "example": "かぞくと にほんへ きました。\nTôi đã đến Nhật cùng với gia đình.\n\nともだちと 食事を します。\nTôi đi ăn cùng bạn.\n\n一人で 行きます。\nTôi đi một mình.\n\n先生と 話します。\nTôi nói chuyện với giáo viên.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

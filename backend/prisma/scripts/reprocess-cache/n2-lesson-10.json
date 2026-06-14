@@ -1,0 +1,56 @@
+{
+  "order": 10,
+  "title": "Bài 10: Liệt kê ví dụ / Đánh giá (〜やら〜やら, 〜というか〜というか, 〜にしても・〜にしろ, 〜といった)",
+  "summary": "Các cấu trúc liệt kê và đưa ra nhận định: 〜やら〜やら, 〜というか〜というか, 〜にしても・〜にしろ, 〜といった",
+  "theoryMd": "### 10. Liệt kê ví dụ và nhận định\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜やら〜やら**: Liệt kê ví dụ (thường đi kèm cảm xúc khó xử hoặc bận rộn).\n- **〜というか〜というか**: Phân vân không biết dùng từ nào diễn tả cho đúng.\n- **〜にしても〜にしても**: Dù A hay B thì cũng (không thay đổi kết luận).\n- **〜といった**: Đưa ra ví dụ khái quát hóa về nhóm đối tượng.\n\n#### 📝 Ví dụ minh họa\n- *〜やら*: 今週は試験やらレポート提出やらで、本当に忙しい。\n- *〜というか*: 彼の態度は、親切というかお節介というか、判断に迷う。\n- *〜にしても*: 行くにしても行かないにしても、早めに連絡してください。\n- *〜といった*: 京都とか鎌倉といった古い街には寺が多い。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 10 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 10: Liệt kê ví dụ / Đánh giá (〜やら〜やら, 〜というか〜というか, 〜にしても・〜にしろ, 〜といった)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜やら〜やら",
+            "back": "Ý nghĩa: Nào là... nào là... (Liệt kê ví dụ nhấn mạnh sự bận rộn/khó khăn/cảm xúc phức tạp).\nCấu trúc: N / V-ru / A-i + やら + N / V-ru / A-i + やら",
+            "romaji": "yara-yara",
+            "example": "娘の結婚式の日は、うれしいやら寂しいやら複雑な気持ちだった。\nVào ngày cưới của con gái, cảm xúc của tôi thật phức tạp, nào là vui, nào là cô đơn.\n\n今週は試験やらレポート提出やらで、本当に忙しい。\nTuần này nào là thi cử, nào là nộp báo cáo, thực sự bận rộn.\n\n部屋には服やら本やらが散らかっている。\nTrong phòng nào là quần áo, nào là sách vở bày bừa bãi.\n\n借金があるやら病気があるやら、本当に大変な生活だ。\nNào là nợ nần, nào là bệnh tật, thật là một cuộc sống vất vả.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜というか〜というか",
+            "back": "Ý nghĩa: Có thể nói là... cũng có thể nói là... (Phân vân giữa hai cách diễn đạt).\nCấu trúc: N / A-i / A-na / V + というか",
+            "romaji": "to-iu-ka-to-iu-ka",
+            "example": "あの子は元気がいいというか落ち着きがないというか、静かにじっとしていない子です。\nĐứa bé ấy có thể nói là hiếu động, hay có thể nói là không biết giữ bình tĩnh, là đứa trẻ không bao giờ chịu ngồi yên.\n\n彼の態度は、親切というかお節介というか、判断に迷う。\nThái độ của anh ấy có thể nói là thân thiện, cũng có thể là nhiều chuyện, thật khó mà phán đoán.\n\n疲れているというかやる気がないというか、今日は何もしたくない。\nCó thể nói là do mệt, hoặc là do không có động lực, hôm nay tôi chẳng muốn làm gì cả.\n\n派手というか個性があるというか、不思議な服ですね。\nCó thể nói là sặc sỡ, cũng có thể nói là độc đáo, bộ đồ kỳ lạ nhỉ.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜にしても〜にしても / 〜にしろ〜にしろ",
+            "back": "Ý nghĩa: Dù là A hay B (thì kết quả/nhận định vẫn giống nhau).\nCấu trúc: N / V-ru + にしても / にしろ",
+            "romaji": "ni-shite-mo-ni-shite-mo",
+            "example": "野菜にしても魚にしても、料理の材料は新鮮さが第一です。\nDù là rau hay là cá, nguyên liệu nấu ăn thì độ tươi ngon luôn là ưu tiên hàng đầu.\n\n行くにしても行かないにしても、早めに連絡してください。\nDù đi hay không đi, xin vui lòng liên lạc sớm giúp tôi.\n\n高いにしろ安いにしろ、品質は確認すべきだ。\nDù đắt hay rẻ, vẫn nên kiểm tra chất lượng.\n\n学生にしろ社会人にしろ、時間管理は大切だ。\nDù là sinh viên hay người đi làm, quản lý thời gian đều quan trọng.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜といった",
+            "back": "Ý nghĩa: Những thứ như là... (liệt kê ví dụ).\nCấu trúc: N1, N2 + といった + N3",
+            "romaji": "to-itta",
+            "example": "京都とか鎌倉といった古い街には寺が多い。\nỞ những thành phố cổ như Kyoto hay Kamakura, có rất nhiều đền chùa.\n\nテニスやサッカーといったスポーツは、世界中で人気がある。\nNhững môn thể thao như tennis hay bóng đá được yêu thích trên toàn thế giới.\n\nパンやケーキといった甘いものが大好きです。\nTôi rất thích những thứ ngọt như bánh mì hay bánh ngọt.\n\n動物といった生き物が苦手です。\nTôi không giỏi (sợ) những sinh vật như động vật.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 4
+  }
+}

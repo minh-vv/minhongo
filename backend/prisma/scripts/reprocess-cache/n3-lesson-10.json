@@ -1,0 +1,35 @@
+{
+  "order": 10,
+  "title": "10. ～くらいだ・～ぐらいだ・～くらい…・～ぐらい…・ほどだ・～ほど…",
+  "summary": "Ngữ pháp bài số 10 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～くらいだ / 〜ほどだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để nhấn mạnh mức độ của một trạng thái hoặc hành động thông qua việc so sánh ví von.\n- **Công thức:** \n  - Động từ: V-thuờng + くらい/ほど\n  - Tính từ -i: A-い + くらい/ほど\n  - Tính từ -na: Na-な + くらい/ほど\n  - Danh từ: N + くらい/ほど\n\n#### 📝 Ví dụ minh họa\n- 疲れて、何もしたくないくらいだ。\n(Mệt đến mức không muốn làm gì cả.)\n- 痛くて、泣きたいぐらいだった。\n(Đau đến mức muốn khóc.)\n- 彼女の歌はプロの歌手かと思うほど上手だ。\n(Cô ấy hát hay đến mức cứ ngỡ là ca sĩ chuyên nghiệp.)\n- あの店のラーメンは、毎日食べても飽きないほど美味しい。\n(Mì ramen ở quán đó ngon đến mức ăn mỗi ngày cũng không chán.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 10 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 10 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜くらいだ / 〜ほどだ",
+            "back": "Ý nghĩa: Diễn tả mức độ của trạng thái/hành động đến mức độ nào đó bằng cách so sánh, ví von. (Đến mức... / Đến độ...).\nCấu trúc: V/A/Na/N (thể thường) + くらいだ / ほどだ",
+            "romaji": "kurai-da / hodo-da",
+            "example": "疲れて、何もしたくないくらいだ。\nMệt đến mức không muốn làm gì cả.\n\n痛くて、泣きたいぐらいだった。\nĐau đến mức muốn khóc.\n\n彼女の歌はプロの歌手かと思うほど上手だ。\nCô ấy hát hay đến mức cứ ngỡ là ca sĩ chuyên nghiệp.\n\nあの店のラーメンは、毎日食べても飽きないほど美味しい。\nMì ramen ở quán đó ngon đến mức ăn mỗi ngày cũng không chán.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

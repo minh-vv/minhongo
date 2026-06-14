@@ -1,0 +1,35 @@
+{
+  "order": 97,
+  "title": "97. ～らしい",
+  "summary": "Ngữ pháp bài số 97 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜らしい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Nhấn mạnh đặc tính, tính chất tiêu biểu, đúng nghĩa là... (nhìn vào là thấy ngay bản chất đó).\n- **Cấu trúc:** N + らしい\n\n#### 📝 Ví dụ minh họa\n- 今日は春らしい暖かい一日ですね。\n(Hôm nay là một ngày ấm áp đậm chất mùa xuân nhỉ.)\n\n- 泣かないで。男らしくないぞ。\n(Đừng khóc nữa. Chẳng ra dáng nam nhi chút nào cả.)\n\n- 彼女は子供らしい無邪気な笑顔を見せた。\n(Cô ấy nở nụ cười ngây thơ đúng chất trẻ con.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 97 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 97 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜らしい",
+            "back": "Ý nghĩa: Đậm chất, đúng nghĩa là (thể hiện đầy đủ bản chất, tính chất đặc trưng).\nCấu trúc: N + らしい",
+            "romaji": "rashii",
+            "example": "今日は春らしい暖かい一日ですね。\nHôm nay là một ngày ấm áp đậm chất mùa xuân nhỉ.\n\n泣かないで。男らしくないぞ。\nĐừng khóc nữa. Chẳng ra dáng nam nhi chút nào cả.\n\n彼女は子供らしい無邪気な笑顔を見せた。\nCô ấy nở nụ cười ngây thơ đúng chất trẻ con.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

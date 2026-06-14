@@ -1,0 +1,223 @@
+{
+  "order": 7,
+  "title": "Bài 32 — Từ vựng JLPT N4 (Phần 7)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 7/25.",
+  "theoryMd": "### 1. V-る + ため（に）\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả mục đích thực hiện hành động.\nCông thức: V-る + ため（に）\n\n#### 📝 Ví dụ minh họa\n試験に合格するために、一生懸命勉強します。\nĐể thi đỗ kỳ thi, tôi học tập hết sức mình.\n\n### 2. V-khả năng + 見える\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả khả năng tự nhiên có thể nhìn thấy mà không cần ý chí.\nCông thức: V-khả năng + 見える\n\n#### 📝 Ví dụ minh họa\n窓から山が見えます。\nTừ cửa sổ có thể nhìn thấy núi.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 32 — Từ vựng",
+        "description": "Từ vựng bài số 32 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "見える",
+            "back": "nhìn thấy",
+            "romaji": "みえる",
+            "example": "見える（みえる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "考える",
+            "back": "suy nghĩ",
+            "romaji": "かんがえる",
+            "example": "考える（かんがえる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "為",
+            "back": "lợi ích",
+            "romaji": "ため",
+            "example": "為（ため）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "始める",
+            "back": "bắt đầu",
+            "romaji": "はじめる",
+            "example": "始める（はじめる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "受ける",
+            "back": "nhận",
+            "romaji": "うける",
+            "example": "受ける（うける）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "美しい",
+            "back": "đẹp",
+            "romaji": "うつくしい",
+            "example": "美しい（うつくしい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "試験",
+            "back": "bài kiểm tra",
+            "romaji": "しけん",
+            "example": "試験（しけん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "親切",
+            "back": "tử tế",
+            "romaji": "しんせつ",
+            "example": "親切（しんせつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "失敗",
+            "back": "thất bại",
+            "romaji": "しっぱい",
+            "example": "失敗（しっぱい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "以上",
+            "back": "trở lên",
+            "romaji": "いじょう",
+            "example": "以上（いじょう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "意見",
+            "back": "ý kiến",
+            "romaji": "いけん",
+            "example": "意見（いけん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "決して",
+            "back": "tuyệt đối không",
+            "romaji": "けっして",
+            "example": "決して（けっして）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "十分",
+            "back": "đủ",
+            "romaji": "じゅうぶん",
+            "example": "十分（じゅうぶん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "試合",
+            "back": "trận đấu",
+            "romaji": "しあい",
+            "example": "試合（しあい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "一生懸命",
+            "back": "hết sức mình",
+            "romaji": "いっしょうけんめい",
+            "example": "一生懸命（いっしょうけんめい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "子",
+            "back": "đứa trẻ",
+            "romaji": "こ",
+            "example": "子（こ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "探す",
+            "back": "tìm kiếm",
+            "romaji": "さがす",
+            "example": "探す（さがす）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "急ぐ",
+            "back": "vội vàng",
+            "romaji": "いそぐ",
+            "example": "急ぐ（いそぐ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "選ぶ",
+            "back": "chọn",
+            "romaji": "えらぶ",
+            "example": "選ぶ（えらぶ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "送る",
+            "back": "gửi",
+            "romaji": "おくる",
+            "example": "送る（おくる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "必ず",
+            "back": "chắc chắn, nhất định",
+            "romaji": "かならず",
+            "example": "必ず（かならず）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "怒る",
+            "back": "tức giận, nổi giận",
+            "romaji": "おこる",
+            "example": "怒る（おこる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "最近",
+            "back": "gần đây, dạo gần đây",
+            "romaji": "さいきん",
+            "example": "最近（さいきん）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 7 — Ngữ pháp",
+        "description": "Ngữ pháp bài 7: Bài 32 — Từ vựng JLPT N4 (Phần 7)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "V-る + ため（に）",
+            "back": "Ý nghĩa: Diễn tả mục đích thực hiện hành động.\nCấu trúc: V-る + ため（に）",
+            "romaji": "tame-ni",
+            "example": "試験に合格するために、一生懸命勉強します。\nĐể thi đỗ kỳ thi, tôi học tập hết sức mình.\n\n健康のために、毎日走っています。\nVì sức khỏe, tôi chạy bộ mỗi ngày.\n\n日本語を学ぶために、日本へ行きます。\nTôi đi Nhật để học tiếng Nhật.\n\n将来のために、お金を貯めています。\nTôi đang tiết kiệm tiền vì tương lai.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "V-khả năng + 見える",
+            "back": "Ý nghĩa: Nhìn thấy (hình ảnh tự nhiên lọt vào mắt, không chủ ý).\nCấu trúc: V-khả năng + 見える",
+            "romaji": "mieru",
+            "example": "窓から山が見えます。\nTừ cửa sổ có thể nhìn thấy núi.\n\n暗くて何も見えません。\nVì tối quá nên chẳng nhìn thấy gì cả.\n\n遠くに船が見えます。\nCó thể nhìn thấy tàu ở phía xa.\n\nここから海が見えますか。\nTừ đây có nhìn thấy biển không?",
+            "jlptLevel": 4
+          },
+          {
+            "front": "決して + V-phủ định",
+            "back": "Ý nghĩa: Tuyệt đối không, nhất định không (dùng với phủ định).\nCấu trúc: 決して + V-phủ định",
+            "romaji": "kesshite",
+            "example": "私は決して失敗を恐れません。\nTôi tuyệt đối không sợ thất bại.\n\nこの秘密は決して誰にも言わないでください。\nTuyệt đối không được nói bí mật này với bất kỳ ai.\n\nあの店には決して二度と行きません。\nTôi tuyệt đối không bao giờ đến cửa hàng đó lần thứ hai.\n\n決して諦めてはいけません。\nTuyệt đối không được bỏ cuộc.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "order": 3,
+  "title": "Bài 3 — ここ・そこ・あそこ (Địa điểm)",
+  "summary": "Đại từ chỉ nơi chốn, hỏi giá tiền, đếm tiền yên.",
+  "theoryMd": "### 1. ここ・そこ・あそこ\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đại từ chỉ địa điểm.\n- Cấu trúc: (ここ/そこ/あそこ) + は + N (địa điểm) + です\n\n#### 📝 Ví dụ minh họa\nここは しょくどう です。\nĐây là nhà ăn.\n\nあそこは としょかん です。\nKia là thư viện.\n\n### 2. こちら・そちら・あちら\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dạng lịch sự của nơi chốn.\n- Cấu trúc: (こちら/そちら/あちら) + は + N です\n\n#### 📝 Ví dụ minh họa\nこちらは やまださんです。\nĐây là anh Yamada.\n\nそちらは うけつけです。\nĐó là quầy lễ tân.\n\n### 3. いくら ですか\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Hỏi giá cả.\n- Cấu trúc: N + は + いくら ですか\n\n#### 📝 Ví dụ minh họa\nこれは いくら ですか。\nCái này bao nhiêu tiền?\n\nその とけいは 1000えん です。\nCái đồng hồ đó 1000 yên.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 3 — Từ vựng",
+        "description": "Từ vựng bài 3: Bài 3 — ここ・そこ・あそこ (Địa điểm)",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "ここ",
+            "back": "Ở đây",
+            "romaji": "koko",
+            "example": "ここは しょくどうです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "そこ",
+            "back": "Ở đó",
+            "romaji": "soko",
+            "example": "そこは じむしょです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "あそこ",
+            "back": "Ở kia",
+            "romaji": "asoko",
+            "example": "トイレは あそこです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "どこ",
+            "back": "Ở đâu",
+            "romaji": "doko",
+            "example": "やまださんは どこですか。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "こちら",
+            "back": "Ở đây (lịch sự)",
+            "romaji": "kochira",
+            "example": "こちらは やまださんです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "きょうしつ",
+            "back": "Phòng học",
+            "romaji": "kyoushitsu",
+            "example": "きょうしつは 2かいです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "しょくどう",
+            "back": "Nhà ăn",
+            "romaji": "shokudou",
+            "example": "しょくどうは どこですか。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "じむしょ",
+            "back": "Văn phòng",
+            "romaji": "jimusho",
+            "example": "じむしょは あそこです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "うけつけ",
+            "back": "Quầy lễ tân",
+            "romaji": "uketsuke",
+            "example": "うけつけは 1かいです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "トイレ",
+            "back": "Nhà vệ sinh",
+            "romaji": "toire",
+            "example": "トイレは どこですか。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "かいだん",
+            "back": "Cầu thang",
+            "romaji": "kaidan",
+            "example": "かいだんは あちらです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "エレベーター",
+            "back": "Thang máy",
+            "romaji": "erebētā",
+            "example": "エレベーターは あそこです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "いくら",
+            "back": "Bao nhiêu (tiền)",
+            "romaji": "ikura",
+            "example": "これは いくらですか。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "えん",
+            "back": "Đồng yên",
+            "romaji": "en",
+            "example": "500えんです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "デパート",
+            "back": "Cửa hàng bách hóa",
+            "romaji": "depāto",
+            "example": "デパートは どこですか。",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 3 — Ngữ pháp",
+        "description": "Ngữ pháp bài 3: Bài 3 — ここ・そこ・あそこ (Địa điểm)",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "ここ・そこ・あそこ",
+            "back": "Ý nghĩa: Đại từ chỉ nơi chốn (Đây, đó, kia).\nCấu trúc: ここ / そこ / あそこ + は + N (địa điểm) + です",
+            "romaji": "koko/soko/asoko",
+            "example": "ここは しょくどう です。\nĐây là nhà ăn.\n\nそこは きょうしつ です。\nĐó là phòng học.\n\nあそこは としょかん です。\nKia là thư viện.\n\nここは わたしの へや です。\nĐây là phòng của tôi.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "こちら・そちら・あちら",
+            "back": "Ý nghĩa: Dạng lịch sự của ここ, そこ, あそこ (thường dùng chỉ hướng hoặc giới thiệu người).\nCấu trúc: こちら / そちら / あちら + は + N です",
+            "romaji": "kochira/sochira/achira",
+            "example": "こちらは やまださんです。\nĐây là anh Yamada.\n\nそちらは うけつけです。\nĐó là quầy lễ tân.\n\nあちらは きょうしつです。\nĐằng kia là phòng học.\n\nこちらへ どうぞ。\nMời anh đi đường này.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "いくら ですか",
+            "back": "Ý nghĩa: Hỏi về giá tiền.\nCấu trúc: N + は + いくら ですか",
+            "romaji": "ikura desuka",
+            "example": "これは いくら ですか。\nCái này bao nhiêu tiền?\n\nその とけいは 1000えん です。\nCái đồng hồ đó 1000 yên.\n\nこの かばんは いくら ですか。\nCái cặp này bao nhiêu tiền?\n\nその ほんは 500えん です。\nCuốn sách đó 500 yên.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

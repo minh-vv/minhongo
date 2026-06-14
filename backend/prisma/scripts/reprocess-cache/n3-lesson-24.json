@@ -1,0 +1,35 @@
+{
+  "order": 24,
+  "title": "24. ～（の）なら…",
+  "summary": "Ngữ pháp bài số 24 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～（の）なら\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dựa trên điều kiện hoặc tình huống vừa nghe được, người nói đưa ra ý kiến hoặc quyết định.\n- **Cấu trúc**: V(普) / A-i(普) / A-na(だ/である) / N(だ/である) + （の）なら\n\n#### 📝 Ví dụ minh họa\n- 彼が来ないのなら、私たちだけで始めましょう。\n- 雨が降るのなら、傘を持って行ったほうがいい。\n- あなたがそこまで言うのなら、もう何も言いません。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 24 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 24 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜（の）なら",
+            "back": "Ý nghĩa: Tiếp nhận thông tin từ người khác hoặc hoàn cảnh hiện tại để đưa ra phán đoán, yêu cầu.\nCấu trúc: V(普) / A-i(普) / A-na(だ/である) / N(だ/である) + （の）なら",
+            "romaji": "no-nara",
+            "example": "彼が来ないのなら、私たちだけで始めましょう。\nNếu anh ấy không đến thì chúng ta bắt đầu thôi.\n\n雨が降るのなら、傘を持って行ったほうがいい。\nNếu trời mưa thì nên mang ô đi.\n\nあなたがそこまで言うのなら、もう何も言いません。\nNếu bạn đã nói đến mức đó thì tôi sẽ không nói gì nữa.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

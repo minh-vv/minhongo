@@ -1,0 +1,42 @@
+{
+  "order": 85,
+  "title": "Bài 85 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 85/92).",
+  "theoryMd": "### 1. 〜ぶった\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Hình thức định ngữ (bổ nghĩa cho danh từ) của '〜ぶる', miêu tả đặc điểm của một đối tượng đang 'ra vẻ'.\n- **Cấu trúc**: N / Na-adj + ぶった + N\n\n#### 📝 Ví dụ minh họa\n上品ぶった物言いは鼻につく。\nLối nói ra vẻ tao nhã thật chướng tai.\n\n### 2. 〜びた\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Hình thức định ngữ (bổ nghĩa cho danh từ) của '〜びる', miêu tả đối tượng mang đậm vẻ gì đó.\n- **Cấu trúc**: N / A-i (bỏ i) + びた + N\n\n#### 📝 Ví dụ minh họa\n古びた本が棚に並んでいる。\nNhững cuốn sách cũ kỹ xếp trên kệ.\n\n田舎びた服装だが、彼の個性に合っている。\nTrang phục hơi quê mùa nhưng hợp với cá tính anh ấy.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 85 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 85.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜ぶった",
+            "back": "Ý nghĩa: (Dạng định ngữ) Làm bộ, ra vẻ... dùng để bổ nghĩa cho danh từ phía sau.\nCấu trúc: N / Na-adj + ぶった + N",
+            "romaji": "butta",
+            "example": "上品ぶった物言いは鼻につく。\nLối nói ra vẻ tao nhã thật chướng tai.\n\n専門家ぶった発言は控えたほうがいい。\nNên hạn chế những phát ngôn ra vẻ chuyên gia.\n\n親切ぶった態度で近づいてくる人には注意しよう。\nHãy cẩn thận với những người tiếp cận bằng thái độ ra vẻ tử tế.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜びた",
+            "back": "Ý nghĩa: (Dạng định ngữ) Mang dáng vẻ, đậm chất... dùng để bổ nghĩa cho danh từ.\nCấu trúc: N / A-i (bỏ i) + びた + N",
+            "romaji": "bita",
+            "example": "古びた本が棚に並んでいる。\nNhững cuốn sách cũ kỹ xếp trên kệ.\n\n田舎びた服装だが、彼の個性に合っている。\nTrang phục hơi quê mùa nhưng hợp với cá tính anh ấy.\n\n娘は年のわりに大人びた話し方をする。\nCon gái nói năng chín chắn so với tuổi.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

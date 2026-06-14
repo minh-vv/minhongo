@@ -1,0 +1,286 @@
+{
+  "order": 6,
+  "title": "Bài 6 — Động từ nhóm 1 thể ます (Ăn, Uống, Nghe...)",
+  "summary": "Động từ nhóm 1, trợ từ を cho tân ngữ, から/まで thời gian.",
+  "theoryMd": "### Bài 6: Động từ nhóm 1 và Thời gian\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **N を Vます**: Trợ từ 「を」 biểu thị tân ngữ trực tiếp của hành động. Động từ đứng cuối câu.\n- **Nから Nまで**: Xác định mốc thời gian bắt đầu (から) và kết thúc (まで).\n\n#### 📝 Ví dụ minh họa\n- わたしは たばこを すいます。(Tôi hút thuốc lá)\n- 9時から 5時まで 仕事を します。(Tôi làm việc từ 9 giờ đến 5 giờ)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 6 — Từ vựng",
+        "description": "Từ vựng bài 6: Bài 6 — Động từ nhóm 1 thể ます (Ăn, Uống, Nghe...)",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "学校",
+            "back": "trường học",
+            "romaji": "がっこう",
+            "example": "学校（がっこう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "川",
+            "back": "sông, suối",
+            "romaji": "かわ",
+            "example": "川（かわ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "手",
+            "back": "tay, cánh tay",
+            "romaji": "て",
+            "example": "手（て）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "戸",
+            "back": "cửa",
+            "romaji": "と",
+            "example": "戸（と）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "メガネ",
+            "back": "kính mắt",
+            "romaji": "メガネ",
+            "example": "メガネ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "煙草",
+            "back": "thuốc lá",
+            "romaji": "タバコ",
+            "example": "煙草（タバコ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "赤",
+            "back": "màu đỏ",
+            "romaji": "あか",
+            "example": "赤（あか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "仕事",
+            "back": "công việc",
+            "romaji": "しごと",
+            "example": "仕事（しごと）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "英語",
+            "back": "tiếng Anh",
+            "romaji": "えいご",
+            "example": "英語（えいご）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "問題",
+            "back": "câu hỏi, vấn đề",
+            "romaji": "もんだい",
+            "example": "問題（もんだい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "部屋",
+            "back": "căn phòng",
+            "romaji": "へや",
+            "example": "部屋（へや）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "子供",
+            "back": "đứa trẻ, trẻ em",
+            "romaji": "こども",
+            "example": "子供（こども）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "時間",
+            "back": "thời gian",
+            "romaji": "じかん",
+            "example": "時間（じかん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "雨",
+            "back": "mưa",
+            "romaji": "あめ",
+            "example": "雨（あめ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "先生",
+            "back": "giáo viên",
+            "romaji": "せんせい",
+            "example": "先生（せんせい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "年",
+            "back": "năm",
+            "romaji": "とし",
+            "example": "年（とし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "手紙",
+            "back": "lá thư",
+            "romaji": "てがみ",
+            "example": "手紙（てがみ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "電話",
+            "back": "cuộc gọi điện thoại",
+            "romaji": "でんわ",
+            "example": "電話（でんわ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "水",
+            "back": "nước",
+            "romaji": "みず",
+            "example": "水（みず）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "病気",
+            "back": "bệnh tật",
+            "romaji": "びょうき",
+            "example": "病気（びょうき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "会社",
+            "back": "công ty",
+            "romaji": "かいしゃ",
+            "example": "会社（かいしゃ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "結婚",
+            "back": "kết hôn",
+            "romaji": "けっこん",
+            "example": "結婚（けっこん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "言葉",
+            "back": "ngôn ngữ",
+            "romaji": "ことば",
+            "example": "言葉（ことば）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "目",
+            "back": "mắt",
+            "romaji": "め",
+            "example": "目（め）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "走る",
+            "back": "chạy",
+            "romaji": "はしる",
+            "example": "走る（はしる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "名前",
+            "back": "tên",
+            "romaji": "なまえ",
+            "example": "名前（なまえ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "旅行",
+            "back": "du lịch, chuyến đi",
+            "romaji": "りょこう",
+            "example": "旅行（りょこう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "道",
+            "back": "con đường",
+            "romaji": "みち",
+            "example": "道（みち）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "飛行機",
+            "back": "máy bay",
+            "romaji": "ひこうき",
+            "example": "飛行機（ひこうき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "映画",
+            "back": "phim điện ảnh",
+            "romaji": "えいが",
+            "example": "映画（えいが）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "音楽",
+            "back": "âm nhạc",
+            "romaji": "おんがく",
+            "example": "音楽（おんがく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "木",
+            "back": "cây",
+            "romaji": "き",
+            "example": "木（き）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "大学",
+            "back": "đại học",
+            "romaji": "だいがく",
+            "example": "大学（だいがく）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 6 — Ngữ pháp",
+        "description": "Ngữ pháp bài 6: Bài 6 — Động từ nhóm 1 thể ます (Ăn, Uống, Nghe...)",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "N を Vます",
+            "back": "Ý nghĩa: Thực hiện hành động tác động lên đối tượng (tân ngữ).\nCấu trúc: N(tân ngữ) + を + V(ます)",
+            "romaji": "n-wo-v-masu",
+            "example": "わたしは たばこを すいます。\nTôi hút thuốc lá.\n\nコーヒーを のみます。\nTôi uống cà phê.\n\n新聞を 読みます。\nTôi đọc báo.\n\nパンを 食べます。\nTôi ăn bánh mì.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N(thời gian) から N(thời gian) まで",
+            "back": "Ý nghĩa: Diễn tả khoảng thời gian từ lúc bắt đầu đến lúc kết thúc.\nCấu trúc: N(thời gian) + から + N(thời gian) + まで",
+            "romaji": "kara-made",
+            "example": "9時から 5時まで 仕事を します。\nTôi làm việc từ 9 giờ đến 5 giờ.\n\n8時から 12時まで 勉強します。\nTôi học từ 8 giờ đến 12 giờ.\n\n会議は 10時から 11時までです。\nCuộc họp kéo dài từ 10 giờ đến 11 giờ.\n\n休みは 月曜日から 金曜日までです。\nNgày nghỉ là từ thứ Hai đến thứ Sáu.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

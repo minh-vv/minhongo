@@ -1,0 +1,42 @@
+{
+  "order": 77,
+  "title": "Bài 77 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 77/92).",
+  "theoryMd": "### 1. 〜るや否や / 〜るが早いか\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Cả hai mẫu đều diễn tả hành động ngay lập tức sau đó. Nhấn mạnh sự nối tiếp nhanh chóng và gần như đồng thời.\n- **Cấu trúc:** V-ru + や否や / V-ru + が早いか\n\n#### 📝 Ví dụ minh họa\n- ベルが鳴るや否や、生徒たちは教室を飛び出した。(Chuông vừa reo là học sinh lao ra khỏi lớp.)\n- 彼は席に座るが早いか、すぐ眠り込んだ。(Anh ta vừa ngồi xuống là ngủ thiếp đi ngay.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 77 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 77.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜るや否や",
+            "back": "Ý nghĩa: Vừa mới... thì ngay lập tức (hai hành động xảy ra gần như đồng thời).\nCấu trúc: V-ru + や否や",
+            "romaji": "ru-ya-inaya",
+            "example": "ベルが鳴るや否や、生徒たちは教室を飛び出した。\nChuông vừa reo là học sinh lao ra khỏi lớp.\n\n彼はドアを開けるや否や、大声で謝った。\nAnh ta vừa mở cửa liền xin lỗi lớn tiếng.\n\n駅に着くや否や、彼女は電話をかけた。\nVừa tới ga là cô ấy gọi điện ngay.\n\n母は帰宅するや否や、台所へ直行した。\nMẹ vừa về đến nhà là chạy thẳng vào bếp.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜るが早いか",
+            "back": "Ý nghĩa: Ngay sau khi... thì..., vừa... xong là đã... (diễn tả hành động xảy ra cực nhanh).\nCấu trúc: V-ru + が早いか",
+            "romaji": "ru-ga-hayaika",
+            "example": "ベルが鳴るが早いか、学生たちは教室を飛び出した。\nNgay khi chuông reo, sinh viên lao ra khỏi lớp.\n\n彼は席に座るが早いか、すぐ眠り込んだ。\nAnh ta vừa ngồi xuống là ngủ thiếp đi ngay.\n\nドアが開くが早いか、子どもたちが外へ駆け出した。\nCửa vừa mở ra là lũ trẻ lao ngay ra ngoài.\n\n彼女は電話を切るが早いか、慌てて飛び出していった。\nVừa tắt điện thoại xong, cô ấy vội vàng chạy đi mất.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

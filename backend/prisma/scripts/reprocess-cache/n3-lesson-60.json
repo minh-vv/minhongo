@@ -1,0 +1,35 @@
+{
+  "order": 60,
+  "title": "60. ～によって",
+  "summary": "Ngữ pháp bài số 60 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜によって\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để chỉ tác nhân gây ra hành động trong câu bị động.\n- **Cấu trúc**: N + によって\n\n#### 📝 Ví dụ minh họa\n- このビルは有名建築家によって設計されました。\n(Tòa nhà này được thiết kế bởi một kiến trúc sư nổi tiếng.)\n- 万有引力の法則はニュートンによって発見された。\n(Định luật vạn vật hấp dẫn được phát hiện bởi Newton.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 60 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 60 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜によって",
+            "back": "Ý nghĩa: Bởi... (tác nhân gây ra hành động trong câu bị động).\nCấu trúc: N + によって",
+            "romaji": "ni yotte",
+            "example": "このビルは有名建築家によって設計されました。\nTòa nhà này được thiết kế bởi một kiến trúc sư nổi tiếng.\n\n万有引力の法則はニュートンによって発見された。\nĐịnh luật vạn vật hấp dẫn được phát hiện bởi Newton.\n\nこの小説は多くの読者によって読まれている。\nCuốn tiểu thuyết này đang được nhiều độc giả tìm đọc.\n\n犯人は警察によって捕まった。\nThủ phạm đã bị cảnh sát bắt giữ.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "order": 31,
+  "title": "31. ～とか",
+  "summary": "Ngữ pháp bài số 31 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～とか\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nghe nói là... (Dùng để truyền đạt lại thông tin nghe được, cảm giác không chắc chắn hoặc mơ hồ).\n- **Cấu trúc**: [Thể thông thường (普通形)] ＋ とか\n\n#### 📝 Ví dụ minh họa\n- あしたの試験、難しいとか。\nNghe nói kỳ thi ngày mai khó lắm à?\n\n- 彼は来月、結婚するとか言っていました。\nAnh ấy có nói là hình như tháng sau sẽ kết hôn.\n\n- 昨夜、あの駅の近くで事故があったとか。\nNghe nói tối qua có một vụ tai nạn ở gần nhà ga đó.\n\n- 田中さんは今日、休むとか聞いたよ。\nTôi nghe nói là anh Tanaka hôm nay sẽ nghỉ đấy.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 31 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 31 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜とか",
+            "back": "Ý nghĩa: Nghe nói là... (Dùng để diễn tả thông tin mơ hồ, không chắc chắn được nghe qua tin đồn hoặc từ ai đó).\nCấu trúc: Thể thông thường (普通形) ＋ とか",
+            "romaji": "toka",
+            "example": "あしたの試験、難しいとか。\nNghe nói kỳ thi ngày mai khó lắm à?\n\n彼は来月、結婚するとか言っていました。\nAnh ấy có nói là hình như tháng sau sẽ kết hôn.\n\n昨夜、あの駅の近くで事故があったとか。\nNghe nói tối qua có một vụ tai nạn ở gần nhà ga đó.\n\n田中さんは今日、休むとか聞いたよ。\nTôi nghe nói là anh Tanaka hôm nay sẽ nghỉ đấy.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

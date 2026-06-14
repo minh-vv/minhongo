@@ -1,0 +1,42 @@
+{
+  "order": 88,
+  "title": "Bài 88 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 88/92).",
+  "theoryMd": "### 1. 〜るにも\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V-ru + にも\n- **Ý nghĩa:** Dùng để diễn tả việc không thể thực hiện hành động do thiếu điều kiện (như thông tin, vật dụng, khả năng).\n\n#### 📝 Ví dụ minh họa\n- 住所も電話も知らない。彼に連絡を取るにも、どうすればいいかわからない。\nTôi không biết địa chỉ hay điện thoại. Ngay cả muốn liên lạc cũng không biết làm sao.\n\n### 2. 〜までだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V-ru + までだ / までのことだ\n- **Ý nghĩa:** Thể hiện quyết tâm chọn phương án cuối cùng (đành phải làm...) hoặc giải thích mục đích đơn giản (chỉ là vì...).\n\n#### 📝 Ví dụ minh họa\n- 誰も手伝ってくれないなら、自分でやるまでだ。\nNếu không ai giúp, tôi đành tự làm.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 88 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 88.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜るにも",
+            "back": "Ý nghĩa: Ngay cả khi muốn làm gì đó, cũng không có phương tiện hoặc điều kiện để thực hiện.\nCấu trúc: V-ru + にも",
+            "romaji": "ru-nimo",
+            "example": "住所も電話も知らない。彼に連絡を取るにも、どうすればいいかわからない。\nTôi không biết địa chỉ hay điện thoại. Ngay cả muốn liên lạc cũng không biết làm sao.\n\n初めての街で道がわからず、駅へ行くにも見当がつかない。\nỞ thành phố lạ nên không biết đường, ngay cả đi tới ga cũng không biết đi lối nào.\n\n資料が足りなくて、報告書を書くにも書ける状態ではない。\nThiếu tài liệu nên ngay cả để viết báo cáo cũng chưa đủ điều kiện.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜までだ",
+            "back": "Ý nghĩa: Chỉ còn cách đành phải làm gì; hoặc lý do làm gì đó chỉ đơn giản là do...\nCấu trúc: V-ru + までだ / までのことだ",
+            "romaji": "made-da",
+            "example": "誰も手伝ってくれないなら、自分でやるまでだ。\nNếu không ai giúp, tôi đành tự làm.\n\n落ちたら、また受け直すまでのことだ。\nNếu trượt thì chỉ còn cách thi lại thôi.\n\n聞かれたから答えたまでだ。\nTôi chỉ trả lời vì bị hỏi thôi mà.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

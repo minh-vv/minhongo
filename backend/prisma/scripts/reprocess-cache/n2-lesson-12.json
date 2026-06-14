@@ -1,0 +1,63 @@
+{
+  "order": 12,
+  "title": "Bài 12: Phủ định (〜わけがない, 〜どころではない・〜どころか, 〜ものか, 〜わけではない, 〜というものではない)",
+  "summary": "Các cấu trúc thể hiện sự phủ định: 〜わけがない, 〜どころではない・〜どころか, 〜ものか, 〜わけではない, 〜というものではない",
+  "theoryMd": "### Bài 12: Ngữ pháp về Phủ định\n\n#### 1. 〜わけがない\n- Ý nghĩa: Tuyệt đối không thể.\n- Cấu trúc: V/A/N (phủ định mạnh)\n\n#### 2. 〜どころではない・〜どころか\n- Ý nghĩa: Không phải mức độ đó, còn hơn thế.\n\n#### 3. 〜ものか\n- Ý nghĩa: Phủ định mạnh mẽ (thường dùng trong văn nói).\n\n#### 4. 〜わけではない\n- Ý nghĩa: Không hẳn là hoàn toàn như vậy.\n\n#### 5. 〜というものではない\n- Ý nghĩa: Không phải cứ A là đương nhiên B.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 12 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 12: Phủ định (〜わけがない, 〜どころではない・〜どころか, 〜ものか, 〜わけではない, 〜というものではない)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜わけがない",
+            "back": "Ý nghĩa: Tuyệt đối không, không thể có chuyện.\nCấu trúc: V-plain / A-i / A-na (na) / N (no) + わけがない",
+            "romaji": "wake ga nai",
+            "example": "私一人でできるわけがありませんよ。\nChỉ có mình tôi thì chắc chắn không thể làm được.\n\nあんなに優しい人が、嘘をつくわけがない。\nNgười hiền lành như thế chắc chắn không có chuyện nói dối.\n\nこんな難しい問題、子供に解けるわけがない。\nBài toán khó thế này, đứa trẻ chắc chắn không thể giải được.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜どころではない・〜どころか",
+            "back": "Ý nghĩa: Không chỉ ở mức độ này, mà còn hơn thế (thể hiện mức độ chênh lệch hoặc trái ngược lớn).\nCấu trúc: N / V-ru / A-i / A-na + どころではない / どころか",
+            "romaji": "dokoro de wa nai / dokoro ka",
+            "example": "ただの風邪どころではなく、肺炎だった。\nKhông chỉ là cảm lạnh, mà là viêm phổi.\n\n忙しくて、旅行どころではない。\nBận rộn thế này thì thời gian đâu mà đi du lịch nữa.\n\n暑いどころか、暖房が必要なくらいだ。\nKhông những không nóng, mà còn cần phải bật sưởi nữa.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ものか",
+            "back": "Ý nghĩa: Tuyệt đối không, làm sao mà... được (thể hiện sự phủ định mạnh mẽ).\nCấu trúc: V-ru / A-i / A-na (na) / N (na) + ものか",
+            "romaji": "mono ka",
+            "example": "あの人が正直なもんか。\nLàm gì có chuyện anh ta là người chính trực.\n\n二度とあのお店に行くものか。\nTôi quyết không bao giờ thèm đến cửa hàng đó lần thứ hai nữa.\n\nこんな簡単なことがわかるものか。\nViệc đơn giản thế này làm sao mà không hiểu được chứ.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜わけではない",
+            "back": "Ý nghĩa: Không phải tất cả, không hẳn là (phủ định một phần).\nCấu trúc: V-plain / A-i / A-na (na) / N (no) + わけではない",
+            "romaji": "wake de wa nai",
+            "example": "いつでも電話に出られるわけではない。\nKhông hẳn là lúc nào tôi cũng có thể nghe điện thoại được.\n\n嫌いなわけではないが、お腹がいっぱいで食べられない。\nKhông phải là ghét đâu, mà vì no quá nên không ăn nổi thôi.\n\n高いものがすべていいわけではない。\nKhông phải tất cả những thứ đắt tiền đều tốt.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜というものではない",
+            "back": "Ý nghĩa: Không phải cứ đáp ứng điều kiện là đạt được kết quả như ý.\nCấu trúc: V-ru / A-i / A-na / N + というものではない",
+            "romaji": "to iu mono de wa nai",
+            "example": "努力すれば必ず成功するというものではない。\nKhông phải cứ nỗ lực là sẽ chắc chắn thành công.\n\nお金があれば幸せになれるというものでもない。\nKhông phải cứ có tiền là sẽ hạnh phúc.\n\nテストが満点ならいいというものではない。\nKhông phải cứ được điểm tối đa là tốt.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 5
+  }
+}

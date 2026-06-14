@@ -1,0 +1,63 @@
+{
+  "order": 23,
+  "title": "Bài 23: Lẽ thường / Giới hạn (〜ものだ, 〜というものだ, 〜にすぎない, 〜にほかならない, 〜に越したことはない)",
+  "summary": "Các cấu trúc khẳng định lẽ thường hoặc giới hạn: 〜ものだ, 〜というものだ, 〜にすぎない, 〜にほかならない, 〜に越したことはない",
+  "theoryMd": "# Bài 23: Lẽ thường / Giới hạn\n\n### 1. 〜ものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru/A-i/A-na + ものだ\n- Ý nghĩa: Lẽ thường, chân lý.\n#### 📝 Ví dụ minh họa\n- どんな人にもくせがあるものだ。（Ai cũng có thói xấu）\n\n### 2. 〜というものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- N/Thể thường + というものだ\n- Ý nghĩa: Khẳng định tính hiển nhiên.\n#### 📝 Ví dụ minh họa\n- プライバシーの侵害というものだ。（Đúng là xâm phạm đời tư）\n\n### 3. 〜にすぎない\n#### 💡 Cấu trúc & Ý nghĩa\n- N/V-ru + にすぎない\n- Ý nghĩa: Chỉ là, không hơn.\n#### 📝 Ví dụ minh họa\n- ただの噂話にすぎない。（Chỉ là tin đồn nhảm）\n\n### 4. 〜にほかならない\n#### 💡 Cấu trúc & Ý nghĩa\n- N + にほかならない\n- Ý nghĩa: Chính là (nhấn mạnh lý do).\n#### 📝 Ví dụ minh họa\n- 本人の努力の結果にほかならない。（Chính là kết quả của nỗ lực）\n\n### 5. 〜に越したことはない\n#### 💡 Cấu trúc & Ý nghĩa\n- V/A/N + に越したことはない\n- Ý nghĩa: Là tốt nhất.\n#### 📝 Ví dụ minh họa\n- 軽いに越したことはない。（Nhẹ là tốt nhất）",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 23 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 23: Lẽ thường / Giới hạn (〜ものだ, 〜というものだ, 〜にすぎない, 〜にほかならない, 〜に越したことはない)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜ものだ",
+            "back": "Ý nghĩa: Lẽ thường tình, chân lý, bản chất sự việc.\nCấu trúc: V-ru / V-nai / A-i / A-na + ものだ",
+            "romaji": "mono da",
+            "example": "自分では気が付きにくいが、どんな人にもくせがあるものだ。\nDù bản thân khó nhận ra, nhưng ai cũng có thói xấu.\n\n子どもは元気に外で遊ぶものだ。\nTrẻ con thì nên chơi đùa khỏe mạnh ở bên ngoài.\n\n地震のときは怖いものだ。\nKhi có động đất thì đương nhiên là sợ rồi.\n\n昔はよくここへ遊びに来たものだ。\nNgày xưa tôi thường hay đến đây chơi (nhớ về quá khứ).",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜というものだ",
+            "back": "Ý nghĩa: Nhấn mạnh ý kiến/phán đoán mang tính lẽ thường.\nCấu trúc: N / Thể thông thường + というものだ",
+            "romaji": "to iu mono da",
+            "example": "今日中にアメリカまで荷物を届けるのは無理というものだ。\nDù nói là giao hàng đến Mỹ trong ngày, nhưng đúng là không thể.\n\n他人の日記を勝手に見るのは、プライバシーの侵害というものだ。\nTự ý xem nhật ký người khác là xâm phạm đời tư.\n\nそれが努力というものだ。\nĐó mới gọi là nỗ lực.\n\n初対面でそんなことを聞くのは失礼というものだ。\nLần đầu gặp mà hỏi như vậy đúng là thất lễ.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜にすぎない",
+            "back": "Ý nghĩa: Chẳng qua chỉ là, không hơn mức đó.\nCấu trúc: N / V-ru + にすぎない",
+            "romaji": "ni suginai",
+            "example": "一社員にすぎない私に、経営のことなど決められない。\nTôi chỉ là một nhân viên, không thể quyết định chuyện công ty.\n\nこれはただの噂話にすぎないから、信じないほうがいい。\nĐây chỉ là tin đồn nhảm, đừng nên tin.\n\n彼のおかげではなく、運が良かったにすぎない。\nKhông phải nhờ anh ấy, chỉ là vận may thôi.\n\n言葉を知っているにすぎない。\nChỉ là biết từ vựng thôi.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜にほかならない",
+            "back": "Ý nghĩa: Chính là..., lý do chính xác là (không gì khác ngoài).\nCấu trúc: N + にほかならない",
+            "romaji": "ni hokanaranai",
+            "example": "将来この国を支えるのは、若い君たちにほかならない。\nNgười hỗ trợ đất nước trong tương lai chính là các bạn trẻ.\n\n合格できたのは、本人の努力の結果にほかならない。\nĐỗ được là kết quả của sự nỗ lực chứ không gì khác.\n\nそれは愛情にほかならない。\nĐó chính là tình yêu.\n\n彼が怒っているのは、心配していることにほかならない。\nAnh ấy giận là vì anh ấy lo lắng thôi.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜に越したことはない",
+            "back": "Ý nghĩa: Nếu được như vậy thì là tốt nhất.\nCấu trúc: V-ru / V-nai / A-i / A-na(bỏ da) / N + に越したことはない",
+            "romaji": "ni koshita koto wa nai",
+            "example": "旅行の荷物は軽いに越したことはない。\nĐồ đi du lịch thì nhẹ là tốt nhất.\n\n早めに医者に診てもらうに越したことはない。\nNên đi khám bác sĩ sớm là tốt nhất.\n\nお金はあるに越したことはない。\nCó tiền thì vẫn là tốt nhất.\n\nタクシーで行くに越したことはないが、高いからね。\nĐi taxi là tốt nhất nhưng mà đắt lắm.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 5
+  }
+}

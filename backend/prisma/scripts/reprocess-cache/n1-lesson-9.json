@@ -1,0 +1,42 @@
+{
+  "order": 9,
+  "title": "Bài 9 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 9/92).",
+  "theoryMd": "### 1. 〜が〜なら、〜も〜だ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để phê phán, ý nói cả hai đối tượng đều giống nhau (thường là tiêu cực).\n- **Cấu trúc**: N1 + が + N1 + なら、+ N2 + も + N2 + だ\n\n#### 📝 Ví dụ minh họa\n- 親が親なら、子も子だ。\n- 上司が上司なら、部下も部下だ。\n- 先生が先生なら、生徒も生徒だ。\n\n### 2. 〜も〜なら、〜も〜だ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Tương tự cấu trúc trên, nhấn mạnh vào sự tệ hại của cả hai bên.\n- **Cấu trúc**: N1 + も + N1 + なら、+ N2 + も + N2 + だ\n\n#### 📝 Ví dụ minh họa\n- 店員も店員なら、客も客だ。\n- 上司も上司なら、部下も部下だ。\n- 料理も料理なら、サービスもサービスだ。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 9 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 9.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜が〜なら、〜も〜だ",
+            "back": "Ý nghĩa: Nếu N1 là như thế thì N2 cũng tương tự (thường mang hàm ý tiêu cực).\nCấu trúc: N1 + が + N1 + なら、+ N2 + も + N2 + だ",
+            "romaji": "ga-nara-mo-da",
+            "example": "親が親なら、子も子だ。\nCha đã thế thì con cũng thế.\n\n上司が上司なら、部下も部下だ。\nSếp như thế thì nhân viên cũng như thế.\n\n先生が先生なら、生徒も生徒だ。\nThầy nào thì trò nấy.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜も〜なら、〜も〜だ",
+            "back": "Ý nghĩa: Cả A và B đều không tốt/đều giống nhau.\nCấu trúc: N1 + も + N1 + なら、+ N2 + も + N2 + だ",
+            "romaji": "mo-nara-mo-da",
+            "example": "店員も店員なら、客も客だ。\nNhân viên thì cũng chẳng ra gì, khách cũng vậy.\n\n上司も上司なら、部下も部下だ。\nCấp trên cũng tệ mà cấp dưới cũng chán.\n\n料理も料理なら、サービスもサービスだ。\nĐồ ăn thì chán, dịch vụ cũng tệ.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

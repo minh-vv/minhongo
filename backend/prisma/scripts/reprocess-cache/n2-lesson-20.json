@@ -1,0 +1,70 @@
+{
+  "order": 20,
+  "title": "Bài 20: Kết quả / Sự việc đã xảy ra (〜たところ, 〜きり, 〜あげく, 〜末（に）, 〜ところだった, 〜ずじまいだ)",
+  "summary": "Các cấu trúc kết quả: 〜たところ, 〜きり, 〜あげく, 〜末（に）, 〜ところだった, 〜ずじまいだ",
+  "theoryMd": "### Bài 20: Các cấu trúc chỉ kết quả và sự việc đã xảy ra\n\nNội dung tập trung vào kết quả của các hành động và trạng thái sau khi một quá trình kết thúc.\n\n### 1. 〜たところ\n- Sau khi làm thử thì phát hiện kết quả mới.\n\n### 2. 〜きり\n- Kể từ lúc đó không còn thay đổi gì nữa.\n\n### 3. 〜あげく / 〜末（に）\n- Sự khác biệt về sắc thái: 〜あげく (kết quả xấu) vs 〜末（に） (quyết định, nỗ lực).\n\n### 4. 〜ところだった\n- Suýt nữa thì xảy ra việc gì đó.\n\n### 5. 〜ずじまいだ\n- Định làm nhưng không làm được, kết thúc trong tiếc nuối.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 20 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 20: Kết quả / Sự việc đã xảy ra (〜たところ, 〜きり, 〜あげく, 〜末（に）, 〜ところだった, 〜ずじまいだ)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜たところ",
+            "back": "Ý nghĩa: Sau khi thử làm gì thì phát hiện ra kết quả/tình trạng mới.\nCấu trúc: V-ta + ところ",
+            "romaji": "ta tokoro",
+            "example": "２、３日休したいと課長に相談したところ、２週間休んでもいいと言われた。\nSau khi tôi bàn bạc với trưởng phòng về việc muốn nghỉ 2, 3 ngày, ông ấy bảo tôi nghỉ hẳn 2 tuần cũng được.\n\n新しいレストランに行ってみたところ、想像以上に美味しかった。\nSau khi đi thử nhà hàng mới mở, tôi thấy đồ ăn ngon ngoài sức tưởng tượng.\n\n先生に聞いてみたところ、答えがわかった。\nSau khi thử hỏi thầy giáo, tôi đã biết được câu trả lời.\n\n調べたところ、犯人は国外へ逃亡していた。\nSau khi điều tra, tôi phát hiện tội phạm đã trốn ra nước ngoài.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜きり",
+            "back": "Ý nghĩa: Kể từ sau đó thì không có thay đổi nào xảy ra nữa (thường đi với phủ định).\nCấu trúc: V-ta + きり",
+            "romaji": "kiri",
+            "example": "その本は、子供の頃読んだきり、その後一度も読んでいない。\nCuốn sách đó tôi chỉ đọc từ hồi nhỏ, từ đó đến nay chưa từng đọc lại một lần nào nữa.\n\n彼は「ちょっとコンビニに行く」と言って出かけたきり、戻ってこない。\nAnh ấy nói \"ra ngoài tiện lợi chút\" rồi đi biệt tích từ lúc đó vẫn chưa về.\n\n最後に会ったきり、連絡を取っていない。\nLần cuối gặp nhau là từ đó đến nay không liên lạc nữa.\n\n彼は部屋に入ったきり、出てこない。\nAnh ta vào phòng rồi cứ thế không bước ra nữa.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜あげく",
+            "back": "Ý nghĩa: Sau một thời gian dài trải qua rắc rối, đắn đo, rốt cuộc dẫn đến kết quả không tốt.\nCấu trúc: V-ta / N-no + あげく",
+            "romaji": "ageku",
+            "example": "５時間に及ぶ議論のあげく、結局結論が出なかった。\nSau cuộc thảo luận kéo dài suốt 5 tiếng đồng hồ, rốt cuộc vẫn không đưa ra được kết luận nào.\n\nさんざん悩んだあげく、仕事を辞めることにした。\nSau một hồi đắn đo suy nghĩ mãi, cuối cùng tôi đã chọn nghỉ việc.\n\n大声で叫んだあげく、倒れてしまった。\nSau khi gào thét lớn, cuối cùng anh ấy đã ngã xuống.\n\n長い入院のあげく、残念ながら亡くなった。\nSau một thời gian dài nằm viện, cuối cùng thì thật đáng tiếc anh ấy đã qua đời.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜末に",
+            "back": "Ý nghĩa: Sau một quá trình dài trăn trở, nỗ lực thì đi đến kết cục (thường là kết quả tốt hoặc một quyết định).\nCấu trúc: V-ta / N-no + 末に",
+            "romaji": "sue ni",
+            "example": "悩んだ末に、手術を受けようと決めた。\nSau một hồi trăn trở đắn đo, tôi đã quyết định sẽ phẫu thuật.\n\n激しいバトルの末に、我がチームが優勝を勝ち取った。\nSau một trận chiến gay cấn, đội chúng tôi cuối cùng đã giành được chức vô địch.\n\n長い話し合いの末に、やっと契約を結んだ。\nSau cuộc thảo luận dài, cuối cùng chúng tôi đã ký hợp đồng.\n\n検討した末に、今回は見送ることにした。\nSau khi xem xét kỹ, chúng tôi quyết định hoãn lại lần này.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ところだった",
+            "back": "Ý nghĩa: Suýt chút nữa thì một sự việc (thường là xấu) đã xảy ra.\nCấu trúc: V-ru + ところだった",
+            "romaji": "tokoro datta",
+            "example": "うっかり約束を忘れるところだった。\nSuýt chút nữa là tôi quên béng mất cuộc hẹn rồi.\n\nもう少しで車にひかれるところだった。\nChỉ một chút nữa thôi là tôi đã bị xe tông trúng rồi.\n\nあやうく転ぶところだった。\nSuýt chút nữa là tôi ngã rồi.\n\n危うく合格点に届かないところだった。\nSuýt chút nữa là không đủ điểm đậu rồi.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ずじまいだ",
+            "back": "Ý nghĩa: Định làm nhưng rốt cuộc đã không thể thực hiện, tiếc nuối.\nCấu trúc: V-nai (bỏ nai) + ずじまいだ (する -> せずじまいだ)",
+            "romaji": "zujimai da",
+            "example": "連絡先はわからずじまいだった。\nRốt cuộc tôi vẫn không thể biết được địa chỉ liên lạc của người đó.\n\n留学中に富士山に登りたかったが、結局登らずじまいで帰国した。\nTôi rất muốn leo núi Phú Sĩ trong thời gian đi du học, nhưng cuối cùng đành về nước mà chưa leo được lần nào.\n\n結局、彼に会わずじまいだった。\nCuối cùng, tôi vẫn không thể gặp được anh ấy.\n\nその本は買わずじまいで、図書館で借りた。\nTôi không mua cuốn sách đó mà cuối cùng đã mượn ở thư viện.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 6
+  }
+}
