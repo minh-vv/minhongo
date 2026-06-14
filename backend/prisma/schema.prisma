@@ -28,6 +28,8 @@ model User {
   courseEnrolls UserCourseProgress[]
   lessonProgress UserLessonProgress[]
   customRoadmaps CustomRoadmap[]
+  grammarPractices GrammarPractice[]
+  savedExamples    UserSavedExample[]
 }
 
 enum DeckCategory {
@@ -67,6 +69,8 @@ model Card {
   deckId       String
   deck         Deck           @relation(fields: [deckId], references: [id], onDelete: Cascade)
   progress     CardProgress[]
+  grammarPractices GrammarPractice[]
+  savedExamples    UserSavedExample[]
 }
 
 // Log từng lần ôn tập — dùng để vẽ biểu đồ lịch sử học
@@ -293,4 +297,37 @@ model CustomRoadmapItem {
   lesson      Lesson?            @relation(fields: [lessonId], references: [id], onDelete: SetNull)
 
   @@index([phaseId])
+}
+
+model GrammarPractice {
+  id          String   @id @default(uuid())
+  userId      String
+  cardId      String
+  userAnswer  String   @db.Text
+  isCorrect   Boolean
+  score       Int
+  feedback    String   @db.Text
+  suggestion  String   @db.Text
+  createdAt   DateTime @default(now())
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  card        Card     @relation(fields: [cardId], references: [id], onDelete: Cascade)
+
+  @@index([userId, cardId])
+}
+
+model UserSavedExample {
+  id         String   @id @default(uuid())
+  userId     String
+  cardId     String
+  japanese   String   @db.Text
+  romaji     String?  @db.Text
+  vietnamese String   @db.Text
+  createdAt  DateTime @default(now())
+
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  card       Card     @relation(fields: [cardId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, cardId, japanese])
+  @@index([userId, cardId])
 }

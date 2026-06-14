@@ -1,0 +1,223 @@
+{
+  "order": 22,
+  "title": "Bài 47 — Từ vựng JLPT N4 (Phần 22)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 22/25.",
+  "theoryMd": "### 1. N + で\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N (phương tiện/nguyên liệu) + で\n- Ý nghĩa: Chỉ phương tiện hoặc nguyên liệu tạo thành.\n#### 📝 Ví dụ minh họa\n- バスで行きます。(Tôi đi bằng xe buýt.)\n\n### 2. N + が + すきです\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + が + すきです\n- Ý nghĩa: Yêu thích cái gì đó.\n#### 📝 Ví dụ minh họa\n- 私はサラダが好きです。(Tôi thích món salad.)\n\n### 3. ソフトな\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + は + ソフトな + N\n- Ý nghĩa: Mềm mại, dịu dàng.\n#### 📝 Ví dụ minh họa\n- 彼はソフトな人です。(Anh ấy là một người dịu dàng.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 47 — Từ vựng",
+        "description": "Từ vựng bài số 47 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "消しゴム",
+            "back": "cục tẩy, gôm",
+            "romaji": "けしゴム",
+            "example": "消しゴム（けしゴム）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "テニス",
+            "back": "quần vợt, tennis",
+            "romaji": "テニス",
+            "example": "テニス",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ピアノ",
+            "back": "đàn piano",
+            "romaji": "ピアノ",
+            "example": "ピアノ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "コンピュータ",
+            "back": "máy tính",
+            "romaji": "コンピュータ",
+            "example": "コンピュータ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ケーキ",
+            "back": "bánh ngọt, bánh kem",
+            "romaji": "ケーキ",
+            "example": "ケーキ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "カーテン",
+            "back": "rèm cửa, màn cửa",
+            "romaji": "カーテン",
+            "example": "カーテン",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ガソリン",
+            "back": "xăng",
+            "romaji": "ガソリン",
+            "example": "ガソリン",
+            "jlptLevel": 4
+          },
+          {
+            "front": "アルコール",
+            "back": "rượu, cồn",
+            "romaji": "アルコール",
+            "example": "アルコール",
+            "jlptLevel": 4
+          },
+          {
+            "front": "サンドイッチ",
+            "back": "bánh mì kẹp, sandwich",
+            "romaji": "サンドイッチ",
+            "example": "サンドイッチ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "オートバイ",
+            "back": "xe máy, mô tô",
+            "romaji": "オートバイ",
+            "example": "オートバイ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "サラダ",
+            "back": "rau trộn, salad",
+            "romaji": "サラダ",
+            "example": "サラダ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ソフト",
+            "back": "mềm, nhẹ nhàng",
+            "romaji": "ソフト",
+            "example": "ソフト",
+            "jlptLevel": 4
+          },
+          {
+            "front": "テキスト",
+            "back": "văn bản, tài liệu",
+            "romaji": "テキスト",
+            "example": "テキスト",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ガソリンスタンド",
+            "back": "trạm xăng, cây xăng",
+            "romaji": "ガソリンスタンド",
+            "example": "ガソリンスタンド",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ジャム",
+            "back": "mứt",
+            "romaji": "ジャム",
+            "example": "ジャム",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ステレオ",
+            "back": "âm thanh nổi, stereo",
+            "romaji": "ステレオ",
+            "example": "ステレオ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "アナウンサー",
+            "back": "phát thanh viên, người dẫn chương trình",
+            "romaji": "アナウンサー",
+            "example": "アナウンサー",
+            "jlptLevel": 4
+          },
+          {
+            "front": "パート",
+            "back": "phần, bộ phận",
+            "romaji": "パート",
+            "example": "パート",
+            "jlptLevel": 4
+          },
+          {
+            "front": "アクセサリー",
+            "back": "phụ kiện, trang sức",
+            "romaji": "アクセサリー",
+            "example": "アクセサリー",
+            "jlptLevel": 4
+          },
+          {
+            "front": "エスカレーター",
+            "back": "thang cuốn",
+            "romaji": "エスカレーター",
+            "example": "エスカレーター",
+            "jlptLevel": 4
+          },
+          {
+            "front": "あっ",
+            "back": "à, ồ",
+            "romaji": "あっ",
+            "example": "あっ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "スーツケース",
+            "back": "va li",
+            "romaji": "スーツケース",
+            "example": "スーツケース",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ステーキ",
+            "back": "bít tết",
+            "romaji": "ステーキ",
+            "example": "ステーキ",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 22 — Ngữ pháp",
+        "description": "Ngữ pháp bài 22: Bài 47 — Từ vựng JLPT N4 (Phần 22)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "N + で",
+            "back": "Ý nghĩa: Chỉ phương tiện thực hiện hoặc nguyên liệu tạo ra vật gì đó.\nCấu trúc: N + で",
+            "romaji": "n-de",
+            "example": "バスで行きます。\nTôi đi bằng xe buýt.\n\n木で椅子を作りました。\nTôi làm ghế bằng gỗ.\n\n日本語で話してください。\nHãy nói bằng tiếng Nhật.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "N + が + すきです",
+            "back": "Ý nghĩa: Diễn tả sở thích đối với một vật hoặc sự việc.\nCấu trúc: N + が + すきです",
+            "romaji": "ga-suki-desu",
+            "example": "私はサラダが好きです。\nTôi thích món salad.\n\n彼は音楽が好きです。\nAnh ấy thích âm nhạc.\n\n日本料理が好きです。\nTôi thích món ăn Nhật Bản.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ソフトな",
+            "back": "Ý nghĩa: Tính từ chỉ trạng thái mềm mại hoặc tính cách dịu dàng.\nCấu trúc: N + は + ソフトな + N",
+            "romaji": "sofutona",
+            "example": "このベッドはソフトです。\nCái giường này mềm mại.\n\n彼はソフトな人です。\nAnh ấy là một người dịu dàng.\n\nソフトな話し方をしてください。\nHãy nói chuyện một cách nhẹ nhàng.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

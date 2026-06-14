@@ -1,0 +1,35 @@
+{
+  "order": 52,
+  "title": "52. も",
+  "summary": "Ngữ pháp bài số 52 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜も\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Trợ từ 'も' kết hợp với từ chỉ số lượng để nhấn mạnh rằng con số đó là rất nhiều hoặc vượt quá mức bình thường/mong đợi.\n- **Cấu trúc:** N (số lượng/thời gian/độ dài) + も\n\n#### 📝 Ví dụ minh họa\n- 昨日は風邪で熱が40度も出た。 (Hôm qua tôi bị cảm sốt lên tới tận 40 độ.)\n- 駅まで行くのに1時間もかかった。 (Mất đến tận 1 tiếng đồng hồ để đi đến nhà ga.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 52 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 52 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜も",
+            "back": "Ý nghĩa: Nhấn mạnh số lượng, thời gian, mức độ nhiều vượt quá mong đợi.\nCấu trúc: N (chỉ số lượng/thời gian) + も",
+            "romaji": "mo",
+            "example": "昨日は風邪で熱が40度も出た。\nHôm qua tôi bị cảm sốt lên tới tận 40 độ.\n\n駅まで行くのに1時間もかかった。\nMất đến tận 1 tiếng đồng hồ để đi đến nhà ga.\n\n彼はリンゴを5個も食べた。\nAnh ấy đã ăn tới tận 5 quả táo.\n\nこの部屋には本が1000冊もある。\nPhòng này có tới tận 1000 cuốn sách.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

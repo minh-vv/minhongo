@@ -1,0 +1,35 @@
+{
+  "order": 70,
+  "title": "70. ～ばかり…",
+  "summary": "Ngữ pháp bài số 70 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～ばかり\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả hành động hoặc trạng thái lặp đi lặp lại chỉ một việc duy nhất. Thường được sử dụng khi người nói cảm thấy khó chịu, phàn nàn hoặc phê phán.\n- **Cấu trúc**: \n  - N (+ trợ từ) + ばかり\n  - V-ru / V-te + ばかり\n\n#### 📝 Ví dụ minh họa\n弟は毎日ゲームばかりしている。\nEm trai tôi ngày nào cũng toàn chơi game.\n\n文句ばかり言わないで、少しは手伝ってください。\nĐừng có toàn phàn nàn nữa, hãy phụ giúp một tay đi chứ.\n\nあの人はお菓子ばかり食べている。\nNgười đó suốt ngày chỉ ăn bánh kẹo.\n\n仕事ばかりしないで、たまには休んでください。\nĐừng chỉ có làm việc suốt, thỉnh thoảng hãy nghỉ ngơi đi.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 70 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 70 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ばかり",
+            "back": "Ý nghĩa: Chỉ toàn là, suốt ngày chỉ làm một việc gì đó (thường mang ý nghĩa tiêu cực, chán chường hoặc phàn nàn).\nCấu trúc: N (+ trợ từ) / V-ru / V-te + ばかり",
+            "romaji": "bakari",
+            "example": "弟は毎日ゲームばかりしている。\nEm trai tôi ngày nào cũng toàn chơi game.\n\n文句ばかり言わないで、少しは手伝ってください。\nĐừng có toàn phàn nàn nữa, hãy phụ giúp một tay đi chứ.\n\nあの人はお菓子ばかり食べている。\nNgười đó suốt ngày chỉ ăn bánh kẹo.\n\n仕事ばかりしないで、たまには休んでください。\nĐừng chỉ có làm việc suốt, thỉnh thoảng hãy nghỉ ngơi đi.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

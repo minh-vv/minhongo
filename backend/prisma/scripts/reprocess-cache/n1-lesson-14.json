@@ -1,0 +1,42 @@
+{
+  "order": 14,
+  "title": "Bài 14 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 14/92).",
+  "theoryMd": "### 1. 〜ならいざ知らず\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nếu là... (một trường hợp cụ thể) thì chấp nhận được, nhưng các trường hợp khác thì không.\n- **Cấu trúc**: N + ならいざ知らず\n\n#### 📝 Ví dụ minh họa\n- 子どもならいざ知らず、大人がそんなことをするのは恥ずかしい。(Nếu là trẻ con thì còn tạm, chứ người lớn làm thế thì đáng xấu hổ.)\n- 昔ならいざ知らず、今はそんなやり方は通用しない。(Nếu là ngày xưa thì còn khác, chứ bây giờ cách làm đó không dùng được nữa.)\n\n### 2. 〜はいざ知らず\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: ... thì không bàn tới, nhưng (đối với cái khác thì lại khác).\n- **Cấu trúc**: N + は + いざ知らず\n\n#### 📝 Ví dụ minh họa\n- 昔はいざ知らず、今はSNSで情報がすぐ広まる。(Thời xưa thì không biết, chứ nay thông tin lan truyền rất nhanh trên mạng xã hội.)\n- 内情の真偽はいざ知らず、噂に踊らされるべきではない。(Chưa biết thực hư nội tình ra sao, nhưng không nên bị tin đồn dắt mũi.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 14 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 14.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜ならいざ知らず",
+            "back": "Ý nghĩa: Nếu là... thì được, nhưng...\nCấu trúc: N + ならいざ知らず",
+            "romaji": "nara-iza-shirazu",
+            "example": "子どもならいざ知らず、大人がそんなことをするのは恥ずかしい。\nNếu là trẻ con thì còn tạm, chứ người lớn làm thế thì đáng xấu hổ.\n\n昔ならいざ知らず、今はそんなやり方は通用しない。\nNếu là ngày xưa thì còn khác, chứ bây giờ cách làm đó không dùng được nữa.\n\nプロならいざ知らず、素人が手を出していい問題ではない。\nNếu là dân chuyên nghiệp thì không nói, chứ người thường không phải là vấn đề nên can thiệp.\n\n夏ならいざ知らず、冬の夜の海は危険だ。\nNếu là mùa hè thì còn tạm, chứ biển đêm mùa đông thì nguy hiểm lắm.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜はいざ知らず",
+            "back": "Ý nghĩa: ... thì không nói làm gì, nhưng...\nCấu trúc: N + は + いざ知らず",
+            "romaji": "ha-iza-shirazu",
+            "example": "昔はいざ知らず、今はSNSで情報がすぐ広まる。\nThời xưa thì không biết, chứ nay thông tin lan truyền rất nhanh trên mạng xã hội.\n\n内情の真偽はいざ知らず、噂に踊らされるべきではない。\nChưa biết thực hư nội tình ra sao, nhưng không nên bị tin đồn dắt mũi.\n\n他の人はともかく、君はいざ知らず、私は行かない。\nNgười khác thì còn có thể, chứ còn cậu thì tôi không biết, riêng tôi là không đi.\n\n本人は納得しているかはいざ知らず、周りは驚いている。\nKhông biết bản thân có chấp nhận hay không, chứ người xung quanh thì đang kinh ngạc.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

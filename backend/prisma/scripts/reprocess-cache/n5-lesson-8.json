@@ -1,0 +1,286 @@
+{
+  "order": 8,
+  "title": "Bài 8 — Tính từ đuôi い và な",
+  "summary": "Hai loại tính từ, cách chia phủ định và quá khứ.",
+  "theoryMd": "### Bài 8: Tính từ đuôi い\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Khẳng định**: Dùng 「い + です」.\n- **Phủ định**: Bỏ 「い」, thêm 「くないです」.\n- **Lưu ý**: Tính từ 「いい」 (tốt) khi phủ định phải chuyển thành 「よくないです」.\n\n#### 📝 Ví dụ minh họa\n- このはしは ふるいです。(Cây cầu này cũ)\n- このにくは おいしくないです。(Thịt này không ngon)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 8 — Từ vựng",
+        "description": "Từ vựng bài 8: Bài 8 — Tính từ đuôi い và な",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "傘",
+            "back": "cái ô, cái dù",
+            "romaji": "かさ",
+            "example": "傘（かさ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "口",
+            "back": "miệng",
+            "romaji": "くち",
+            "example": "口（くち）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "橋",
+            "back": "cây cầu",
+            "romaji": "はし",
+            "example": "橋（はし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "病院",
+            "back": "bệnh viện",
+            "romaji": "びょういん",
+            "example": "病院（びょういん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "図書館",
+            "back": "thư viện",
+            "romaji": "としょかん",
+            "example": "図書館（としょかん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "春",
+            "back": "mùa xuân",
+            "romaji": "はる",
+            "example": "春（はる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "買い物",
+            "back": "mua sắm",
+            "romaji": "かいもの",
+            "example": "買い物（かいもの）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "椅子",
+            "back": "ghế",
+            "romaji": "いす",
+            "example": "椅子（いす）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "自動車",
+            "back": "ô tô, xe hơi",
+            "romaji": "じどうしゃ",
+            "example": "自動車（じどうしゃ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "色",
+            "back": "màu sắc",
+            "romaji": "いろ",
+            "example": "色（いろ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "卵",
+            "back": "trứng",
+            "romaji": "たまご",
+            "example": "卵（たまご）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "肉",
+            "back": "thịt",
+            "romaji": "にく",
+            "example": "肉（にく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "風邪",
+            "back": "cảm cúm",
+            "romaji": "かぜ",
+            "example": "風邪（かぜ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "掃除",
+            "back": "việc dọn dẹp",
+            "romaji": "そうじ",
+            "example": "掃除（そうじ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "紙",
+            "back": "giấy",
+            "romaji": "かみ",
+            "example": "紙（かみ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "鍵",
+            "back": "chìa khóa",
+            "romaji": "かぎ",
+            "example": "鍵（かぎ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "雑誌",
+            "back": "tạp chí",
+            "romaji": "ざっし",
+            "example": "雑誌（ざっし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "切符",
+            "back": "vé",
+            "romaji": "きっぷ",
+            "example": "切符（きっぷ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "外国人",
+            "back": "người nước ngoài",
+            "romaji": "がいこくじん",
+            "example": "外国人（がいこくじん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "財布",
+            "back": "ví",
+            "romaji": "さいふ",
+            "example": "財布（さいふ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "鉛筆",
+            "back": "bút chì",
+            "romaji": "えんぴつ",
+            "example": "鉛筆（えんぴつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "大人",
+            "back": "người lớn",
+            "romaji": "おとな",
+            "example": "大人（おとな）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "塩",
+            "back": "muối",
+            "romaji": "しお",
+            "example": "塩（しお）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "地図",
+            "back": "bản đồ",
+            "romaji": "ちず",
+            "example": "地図（ちず）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "砂糖",
+            "back": "đường",
+            "romaji": "さとう",
+            "example": "砂糖（さとう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "夏休み",
+            "back": "kỳ nghỉ hè",
+            "romaji": "なつやすみ",
+            "example": "夏休み（なつやすみ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "郵便局",
+            "back": "bưu điện",
+            "romaji": "ゆうびんきょく",
+            "example": "郵便局（ゆうびんきょく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "池",
+            "back": "ao",
+            "romaji": "いけ",
+            "example": "池（いけ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "教室",
+            "back": "phòng học",
+            "romaji": "きょうしつ",
+            "example": "教室（きょうしつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "耳",
+            "back": "tai",
+            "romaji": "みみ",
+            "example": "耳（みみ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "切手",
+            "back": "tem",
+            "romaji": "きって",
+            "example": "切手（きって）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "台所",
+            "back": "nhà bếp",
+            "romaji": "だいどころ",
+            "example": "台所（だいどころ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "電気",
+            "back": "điện",
+            "romaji": "でんき",
+            "example": "電気（でんき）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 8 — Ngữ pháp",
+        "description": "Ngữ pháp bài 8: Bài 8 — Tính từ đuôi い và な",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "N は Tính từ い です",
+            "back": "Ý nghĩa: Khẳng định tính chất của sự vật/sự việc.\nCấu trúc: N + は + Tính từ (đuôi い) + です",
+            "romaji": "n-wa-adj-i-desu",
+            "example": "このはしは ふるいです。\nCây cầu này cũ.\n\nこのかばんは あたらしいです。\nCái cặp này mới.\n\nこの花は きれいです。\nBông hoa này đẹp.\n\n今日は あついです。\nHôm nay trời nóng.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N は Tính từ い くないです",
+            "back": "Ý nghĩa: Phủ định tính chất của tính từ đuôi い.\nCấu trúc: N + は + Tính từ (bỏ い) + くないです",
+            "romaji": "n-wa-adj-i-kunai-desu",
+            "example": "このにくは おいしくないです。\nThịt này không ngon.\n\nきょうは さむくないです。\nHôm nay không lạnh.\n\nこの本は おもしろくないです。\nQuyển sách này không thú vị.\n\nテストは 難しくないです。\nBài kiểm tra không khó.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

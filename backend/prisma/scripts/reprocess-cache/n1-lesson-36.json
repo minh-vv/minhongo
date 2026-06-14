@@ -1,0 +1,42 @@
+{
+  "order": 36,
+  "title": "Bài 36 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 36/92).",
+  "theoryMd": "### 1. 〜だけではすまない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không chỉ… là xong, hành động đó chưa đủ để giải quyết vấn đề, hậu quả nghiêm trọng hơn thế.\n- **Cấu trúc**: V-plain / N / Na-adj (bỏ na) + だけではすまない\n#### 📝 Ví dụ minh họa\n- この重大なミスは、謝るだけではすまない。 (Lỗi nghiêm trọng này không thể chỉ xin lỗi là xong.)\n- 機密を漏らしたとなれば、注意だけではすまないだろう。 (Nếu làm lộ bí mật thì có lẽ chỉ bị nhắc nhở là không xong.)\n\n### 2. 〜とあれば\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nếu (xác định) tình huống đó xảy ra thì tôi sẽ thực hiện một hành động cụ thể.\n- **Cấu trúc**: V/Adj/N-plain + とあれば (N/Na-adj thường thêm だ)\n#### 📝 Ví dụ minh họa\n- 子どものためとあれば、私はどんな苦労もいとわない。 (Nếu là vì con cái thì tôi không ngại bất cứ khó khăn nào.)\n- 必要とあれば、夜中でも駆けつけます。 (Nếu cần thiết, dù nửa đêm tôi cũng sẽ đến ngay.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 36 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 36.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜だけではすまない",
+            "back": "Ý nghĩa: Không chỉ… là xong, mức độ nghiêm trọng hơn mức đó.\nCấu trúc: V-plain / N / Na-adj (bỏ na) + だけではすまない",
+            "romaji": "dake-dewa-sumanai",
+            "example": "この重大なミスは、謝るだけではすまない。\nLỗi nghiêm trọng này không thể chỉ xin lỗi là xong.\n\n機密を漏らしたとなれば、注意だけではすまないだろう。\nNếu làm lộ bí mật thì có lẽ chỉ bị nhắc nhở là không xong.\n\n多くの人に迷惑をかけたのだから、説明だけではすまない。\nVì đã gây phiền toái cho nhiều người nên chỉ giải thích là không đủ.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜とあれば",
+            "back": "Ý nghĩa: Nếu trong trường hợp có tình huống đó xảy ra thì...\nCấu trúc: V/Adj/N-plain + とあれば (N/Na-adj thường thêm だ)",
+            "romaji": "to-areba",
+            "example": "子どものためとあれば、私はどんな苦労もいとわない。\nNếu là vì con cái thì tôi không ngại bất cứ khó khăn nào.\n\nあなたの頼みとあれば、喜んでお受けします。\nNếu là lời nhờ vả của bạn thì tôi sẵn lòng nhận.\n\n必要とあれば、夜中でも駆けつけます。\nNếu cần thiết, dù nửa đêm tôi cũng sẽ đến ngay.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

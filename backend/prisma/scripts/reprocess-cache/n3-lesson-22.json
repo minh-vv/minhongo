@@ -1,0 +1,35 @@
+{
+  "order": 22,
+  "title": "22. ～おかげだ・～おかげで…/～せいだ・～せいで…",
+  "summary": "Ngữ pháp bài số 22 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～おかげだ・～せいだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả nguyên nhân và kết quả. 'おかげ' cho kết quả tích cực, 'せい' cho kết quả tiêu cực.\n- **Cấu trúc**: V(普) / A-i(普) / A-na(な) / N(の) + おかげで / せいで\n- **Lưu ý**: 'せい' mang tính đổ lỗi, không dùng cho sự việc tốt.\n\n#### 📝 Ví dụ minh họa\n- 先生のおかげで、JLPT N3に合格できました。\n- みんなが協力してくれたおかげで、早く仕事が終わった。\n- 彼が遅刻したせいで、会議に間に合わなかった。\n- 電気を消し忘れたせいで、電気代が高くなった。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 22 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 22 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜おかげだ・〜おかげで…/〜せいだ・〜せいで…",
+            "back": "Ý nghĩa: Vì ảnh hưởng của ~ dẫn đến kết quả tốt (おかげ) hoặc kết quả xấu (せい).\nCấu trúc: V(普) / A-i(普) / A-na(な) / N(の) + おかげで / せいで",
+            "romaji": "o-kage-de / sei-de",
+            "example": "先生のおかげで、JLPT N3に合格できました。\nNhờ có thầy cô mà tôi đã đỗ JLPT N3.\n\nみんなが協力してくれたおかげで、早く仕事が終わった。\nNhờ mọi người hợp tác mà công việc đã xong sớm.\n\n彼が遅刻したせいで、会議に間に合わなかった。\nTại anh ấy đến muộn mà tôi đã không kịp cuộc họp.\n\n電気を消し忘れたせいで、電気代が高くなった。\nTại quên tắt điện mà tiền điện tăng cao.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

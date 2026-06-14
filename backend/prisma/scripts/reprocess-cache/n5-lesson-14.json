@@ -1,0 +1,293 @@
+{
+  "order": 14,
+  "title": "Bài 14 — Cho và nhận: あげます/もらいます/くれます",
+  "summary": "Ba động từ trao đổi cơ bản và hướng trao đổi.",
+  "theoryMd": "### 1. Cho và nhận (授受表現)\n#### 💡 Cấu trúc & Ý nghĩa\n- **あげます**: Người nói cho người khác.\n- **もらいます**: Người nói nhận từ người khác.\n- **くれます**: Người khác cho người nói (hoặc người trong nhóm người nói).\n\n#### 📝 Ví dụ minh họa\n- ともだちに プレゼントを あげます。 (Tôi tặng quà cho bạn.)\n- 母が わたしに はなを くれました。 (Mẹ tặng hoa cho tôi.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 14 — Từ vựng",
+        "description": "Từ vựng bài 14: Bài 14 — Cho và nhận: あげます/もらいます/くれます",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "弟",
+            "back": "em trai",
+            "romaji": "おとうと",
+            "example": "弟（おとうと）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "今年",
+            "back": "năm nay",
+            "romaji": "ことし",
+            "example": "今年（ことし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "魚",
+            "back": "cá",
+            "romaji": "さかな",
+            "example": "魚（さかな）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "お母さん",
+            "back": "mẹ, má",
+            "romaji": "おかあさん",
+            "example": "お母さん（おかあさん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "男の子",
+            "back": "bé trai",
+            "romaji": "おとこのこ",
+            "example": "男の子（おとこのこ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "飛ぶ",
+            "back": "bay",
+            "romaji": "とぶ",
+            "example": "飛ぶ（とぶ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "売る",
+            "back": "bán",
+            "romaji": "うる",
+            "example": "売る（うる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "静か",
+            "back": "yên tĩnh, im lặng",
+            "romaji": "しずか",
+            "example": "静か（しずか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "休む",
+            "back": "nghỉ, vắng mặt",
+            "romaji": "やすむ",
+            "example": "休む（やすむ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "食べ物",
+            "back": "thức ăn",
+            "romaji": "たべもの",
+            "example": "食べ物（たべもの）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "大切",
+            "back": "quan trọng",
+            "romaji": "たいせつ",
+            "example": "大切（たいせつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "来週",
+            "back": "tuần sau",
+            "romaji": "らいしゅう",
+            "example": "来週（らいしゅう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "警官",
+            "back": "cảnh sát",
+            "romaji": "けいかん",
+            "example": "警官（けいかん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "建物",
+            "back": "tòa nhà, công trình",
+            "romaji": "たてもの",
+            "example": "建物（たてもの）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "暖かい",
+            "back": "ấm áp",
+            "romaji": "あたたかい",
+            "example": "暖かい（あたたかい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "降りる",
+            "back": "xuống",
+            "romaji": "おりる",
+            "example": "降りる（おりる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "止まる",
+            "back": "dừng lại",
+            "romaji": "とまる",
+            "example": "止まる（とまる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "一緒",
+            "back": "cùng nhau",
+            "romaji": "いっしょ",
+            "example": "一緒（いっしょ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "先週",
+            "back": "tuần trước",
+            "romaji": "せんしゅう",
+            "example": "先週（せんしゅう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "白い",
+            "back": "trắng",
+            "romaji": "しろい",
+            "example": "白い（しろい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "少ない",
+            "back": "ít",
+            "romaji": "すくない",
+            "example": "少ない（すくない）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "二",
+            "back": "hai",
+            "romaji": "に",
+            "example": "二（に）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "赤い",
+            "back": "đỏ",
+            "romaji": "あかい",
+            "example": "赤い（あかい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "洗う",
+            "back": "rửa",
+            "romaji": "あらう",
+            "example": "洗う（あらう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "嫌い",
+            "back": "ghét, không thích",
+            "romaji": "きらい",
+            "example": "嫌い（きらい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "立派",
+            "back": "tuyệt vời, lộng lẫy",
+            "romaji": "りっぱ",
+            "example": "立派（りっぱ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "暇",
+            "back": "thời gian rảnh",
+            "romaji": "ひま",
+            "example": "暇（ひま）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "お茶",
+            "back": "trà",
+            "romaji": "おちゃ",
+            "example": "お茶（おちゃ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "広い",
+            "back": "rộng",
+            "romaji": "ひろい",
+            "example": "広い（ひろい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "去年",
+            "back": "năm ngoái",
+            "romaji": "きょねん",
+            "example": "去年（きょねん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "隣",
+            "back": "bên cạnh",
+            "romaji": "となり",
+            "example": "隣（となり）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "大好き",
+            "back": "rất thích, yêu thích",
+            "romaji": "だいすき",
+            "example": "大好き（だいすき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "女",
+            "back": "phụ nữ, con gái",
+            "romaji": "おんな",
+            "example": "女（おんな）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 14 — Ngữ pháp",
+        "description": "Ngữ pháp bài 14: Bài 14 — Cho và nhận: あげます/もらいます/くれます",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "N を あげます",
+            "back": "Ý nghĩa: Diễn tả hành động tặng cái gì đó cho ai.\nCấu trúc: [Người cho] は [Người nhận] に [Vật] を あげます",
+            "romaji": "agemasu",
+            "example": "わたしは 弟に 魚を あげました。\nTôi đã cho em trai con cá.\n\nともだちに プレゼントを あげます。\nTôi tặng quà cho bạn.\n\nかれに 花を あげました。\nTôi đã tặng hoa cho anh ấy.\n\nいもうとに 本を あげます。\nTôi tặng sách cho em gái.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N を もらいます",
+            "back": "Ý nghĩa: Diễn tả hành động nhận cái gì đó từ ai.\nCấu trúc: [Người nhận] は [Người cho] に/から [Vật] を もらいます",
+            "romaji": "moraimasu",
+            "example": "わたしは お母さんに 本を もらいました。\nTôi đã nhận cuốn sách từ mẹ.\n\nせんせいから ギフトを もらいました。\nTôi đã nhận quà từ giáo viên.\n\nともだちから 手紙を もらいました。\nTôi đã nhận thư từ bạn.\n\nちちから お金を もらいます。\nTôi nhận tiền từ bố.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N を くれます",
+            "back": "Ý nghĩa: Diễn tả hành động ai đó tặng hoặc làm gì đó cho mình.\nCấu trúc: [Người cho] は わたし(たち) に [Vật] を くれます",
+            "romaji": "kuremasu",
+            "example": "警官が わたしに 道を 教えてくれました。\nCảnh sát đã chỉ đường cho tôi.\n\n母が わたしに はなを くれました。\nMẹ tặng hoa cho tôi.\n\n友だちが わたしに 本を くれます。\nBạn tặng sách cho tôi.\n\n先生が わたしに 辞書を くれました。\nThầy giáo đã tặng tôi cuốn từ điển.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

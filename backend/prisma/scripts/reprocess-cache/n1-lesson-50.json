@@ -1,0 +1,42 @@
+{
+  "order": 50,
+  "title": "Bài 50 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 50/92).",
+  "theoryMd": "### 1. 〜を経て\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + を経て\n- Ý nghĩa: Chỉ sự trải qua, thông qua một khoảng thời gian hoặc một quá trình, giai đoạn khó khăn nào đó để đạt được kết quả.\n\n#### 📝 Ví dụ minh họa\n- 度重なる試作を経て、ついに製品化にこぎ着けた。(Sau khi trải qua nhiều lần chế thử, cuối cùng đã đưa vào sản xuất.)\n- 長い交渉を経て、双方は和解に至った。(Qua những cuộc đàm phán dài, hai bên đã đi đến hòa giải.)\n\n### 2. 〜を機にして\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + を機にして (hoặc 〜を機に)\n- Ý nghĩa: Nhân cơ hội hoặc nhân dịp một sự việc xảy ra để thay đổi hoặc bắt đầu một hành động mới.\n\n#### 📝 Ví dụ minh họa\n- 結婚を機にして、貯金を本格的に始めた。(Nhân dịp kết hôn, tôi bắt đầu tiết kiệm một cách nghiêm túc.)\n- 不具合発生を機に、品質管理体制を強化した。(Nhân sự cố phát sinh lỗi, chúng tôi đã tăng cường hệ thống quản lý chất lượng.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 50 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 50.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜を経て",
+            "back": "Ý nghĩa: Trải qua..., thông qua (thời gian hoặc quá trình nào đó)\nCấu trúc: N + を経て",
+            "romaji": "wo-hete",
+            "example": "度重なる試作を経て、ついに製品化にこぎ着けた。\nSau khi trải qua nhiều lần chế thử, cuối cùng đã đưa vào sản xuất.\n\n厳格な審査を経て、認証を取得した。\nSau khi trải qua thẩm định nghiêm ngặt, đã đạt được chứng nhận.\n\n長い交渉を経て、双方は和解に至った。\nQua những cuộc đàm phán dài, hai bên đã đi đến hòa giải.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜を機にして",
+            "back": "Ý nghĩa: Nhân dịp..., nhân cơ hội...\nCấu trúc: N + を機にして",
+            "romaji": "wo-ki-ni-shite",
+            "example": "結婚を機にして、貯金を本格的に始めた。\nNhân dịp kết hôn, tôi bắt đầu tiết kiệm một cách nghiêm túc.\n\n不具合発生を機に、品質管理体制を強化した。\nNhân sự cố phát sinh lỗi, chúng tôi đã tăng cường hệ thống quản lý chất lượng.\n\n異動を機にして、新しい分野に挑戦したい。\nNhân dịp thuyên chuyển, tôi muốn thử thách lĩnh vực mới.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

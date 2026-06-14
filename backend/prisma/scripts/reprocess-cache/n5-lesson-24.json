@@ -1,0 +1,286 @@
+{
+  "order": 24,
+  "title": "Bài 24 — Điều kiện: ～と、～ば、～たら",
+  "summary": "Ba cấu trúc điều kiện và sự khác biệt về sắc thái.",
+  "theoryMd": "### 1. Các mẫu câu điều kiện\n#### 💡 Cấu trúc & Ý nghĩa\n- V-る と: Kết quả tất yếu, hiển nhiên.\n- V-ば / Adj-ければ: Giả định chung.\n- V-たら: Sau khi hoàn thành / Giả định.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 24 — Từ vựng",
+        "description": "Từ vựng bài 24: Bài 24 — Điều kiện: ～と、～ば、～たら",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "四",
+            "back": "bốn",
+            "romaji": "し",
+            "example": "四（し）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "お酒",
+            "back": "rượu",
+            "romaji": "おさけ",
+            "example": "お酒（おさけ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "入り口",
+            "back": "lối vào, cửa vào",
+            "romaji": "いりぐち",
+            "example": "入り口（いりぐち）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "出口",
+            "back": "lối ra, cửa ra",
+            "romaji": "でぐち",
+            "example": "出口（でぐち）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "お皿",
+            "back": "đĩa",
+            "romaji": "おさら",
+            "example": "お皿（おさら）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "此処",
+            "back": "ở đây, chỗ này",
+            "romaji": "ここ",
+            "example": "此処（ここ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "前",
+            "back": "trước, phía trước",
+            "romaji": "まえ",
+            "example": "前（まえ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "もう",
+            "back": "đã, rồi",
+            "romaji": "もう",
+            "example": "もう",
+            "jlptLevel": 5
+          },
+          {
+            "front": "如何",
+            "back": "thế nào, ra sao",
+            "romaji": "どう",
+            "example": "如何（どう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "方",
+            "back": "phương hướng, cách",
+            "romaji": "かた",
+            "example": "方（かた）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "未だ",
+            "back": "vẫn, chưa",
+            "romaji": "まだ",
+            "example": "未だ（まだ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "もっと",
+            "back": "hơn nữa, thêm nữa",
+            "romaji": "もっと",
+            "example": "もっと",
+            "jlptLevel": 5
+          },
+          {
+            "front": "何時",
+            "back": "khi nào, lúc nào",
+            "romaji": "いつ",
+            "example": "何時（いつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "パーティー",
+            "back": "bữa tiệc",
+            "romaji": "パーティー",
+            "example": "パーティー",
+            "jlptLevel": 5
+          },
+          {
+            "front": "他",
+            "back": "nơi khác, chỗ khác",
+            "romaji": "ほか",
+            "example": "他（ほか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "次",
+            "back": "tiếp theo, kế tiếp",
+            "romaji": "つぎ",
+            "example": "次（つぎ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ドア",
+            "back": "cửa",
+            "romaji": "ドア",
+            "example": "ドア",
+            "jlptLevel": 5
+          },
+          {
+            "front": "何方",
+            "back": "hướng nào, ở đâu",
+            "romaji": "どちら",
+            "example": "何方（どちら）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "誰か",
+            "back": "ai đó, một ai đó",
+            "romaji": "だれか",
+            "example": "誰か（だれか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "開く",
+            "back": "mở",
+            "romaji": "あく",
+            "example": "開く（あく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "どうぞ",
+            "back": "xin mời",
+            "romaji": "どうぞ",
+            "example": "どうぞ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "こんな",
+            "back": "loại này, như thế này",
+            "romaji": "こんな",
+            "example": "こんな",
+            "jlptLevel": 5
+          },
+          {
+            "front": "下",
+            "back": "dưới, bên dưới",
+            "romaji": "した",
+            "example": "下（した）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "而して",
+            "back": "và, sau đó, vì vậy",
+            "romaji": "そして",
+            "example": "而して（そして）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ゆっくり",
+            "back": "chậm rãi, từ từ",
+            "romaji": "ゆっくり",
+            "example": "ゆっくり",
+            "jlptLevel": 5
+          },
+          {
+            "front": "さあ",
+            "back": "nào, thôi nào",
+            "romaji": "さあ",
+            "example": "さあ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "どうも",
+            "back": "cảm ơn",
+            "romaji": "どうも",
+            "example": "どうも",
+            "jlptLevel": 5
+          },
+          {
+            "front": "じゃあ",
+            "back": "vậy thì, thế thì",
+            "romaji": "じゃあ",
+            "example": "じゃあ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "それから",
+            "back": "và sau đó, tiếp theo",
+            "romaji": "それから",
+            "example": "それから",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ええ",
+            "back": "vâng, phải",
+            "romaji": "ええ",
+            "example": "ええ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ノート",
+            "back": "sổ ghi chép, vở",
+            "romaji": "ノート",
+            "example": "ノート",
+            "jlptLevel": 5
+          },
+          {
+            "front": "釦",
+            "back": "khuy áo, cúc áo",
+            "romaji": "ボタン",
+            "example": "釦（ボタン）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 24 — Ngữ pháp",
+        "description": "Ngữ pháp bài 24: Bài 24 — Điều kiện: ～と、～ば、～たら",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "V-る + と",
+            "back": "Ý nghĩa: Khi/Hễ/Nếu... thì chắc chắn xảy ra kết quả tất yếu.\nCấu trúc: V-る + と",
+            "romaji": "v-ru to",
+            "example": "ボタンを押すと、ドアが開きます。\nNếu ấn nút, cửa sẽ mở.\n\n右に曲がると、郵便局があります。\nNếu rẽ phải, sẽ thấy bưu điện.\n\n春になると、暖かくなります。\nKhi mùa xuân đến, trời sẽ ấm lên.\n\nこの薬を飲むと、元気になります。\nNếu uống thuốc này, sẽ khỏe lên.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V-ば / Adj-ければ",
+            "back": "Ý nghĩa: Giả định điều kiện \"Nếu... thì...\".\nCấu trúc: V-thể ba / Adj-i (bỏ i -> ければ) + ば",
+            "romaji": "v-ba / adj-kereba",
+            "example": "安ければ、買います。\nNếu rẻ thì tôi sẽ mua.\n\n時間があれば、行きます。\nNếu có thời gian, tôi sẽ đi.\n\n雨が降れば、中止します。\nNếu trời mưa, sẽ dừng lại.\n\n美味しければ、食べます。\nNếu ngon thì tôi ăn.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V-たら",
+            "back": "Ý nghĩa: Sau khi... / Nếu...\nCấu trúc: V-た + ら",
+            "romaji": "v-tara",
+            "example": "日本に着いたら、電話してください。\nSau khi đến Nhật, hãy gọi điện cho tôi.\n\nお金があったら、旅行します。\nNếu có tiền, tôi sẽ đi du lịch.\n\n着いたら、連絡します。\nKhi nào đến nơi, tôi sẽ liên lạc.\n\n休みだったら、遊びに行きます。\nNếu là ngày nghỉ, tôi sẽ đi chơi.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

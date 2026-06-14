@@ -1,0 +1,42 @@
+{
+  "order": 4,
+  "title": "Bài 4 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 4/92).",
+  "theoryMd": "### Bài 4: Cấu trúc biểu thị sự đắn đo (N1)\n\n#### 1. ～ようと～るまいと\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Bất kể việc đó có xảy ra hay không thì kết quả vẫn không thay đổi.\n- Cấu trúc: V-ý chí (you) + と + V-ru (nai-kei) + まい + と\n\n#### 📝 Ví dụ minh họa\n- 彼が来ようと来るまいと、会議は予定どおり始める。\n(Dù anh ta có đến hay không, cuộc họp vẫn bắt đầu như dự định.)\n\n---\n\n#### 2. ～ようか～るまいか\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dùng để diễn tả sự phân vân, đắn đo nên làm hay không làm.\n- Cấu trúc: V-ý chí (you) + か + V-ru (nai-kei) + まい + か\n\n#### 📝 Ví dụ minh họa\n- 行こうか行くまいか、直前まで迷っていた。\n(Tôi lưỡng lự đến phút chót, không biết có nên đi hay không.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 4 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 4.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜ようと〜るまいと",
+            "back": "Ý nghĩa: Cho dù có... hay không... thì kết quả vẫn vậy\nCấu trúc: V-ý chí (you) + と + V-ru (nai-kei) + まい + と",
+            "romaji": "you-to-rumaito",
+            "example": "彼が来ようと来るまいと、会議は予定どおり始める。\nDù anh ta có đến hay không, cuộc họp vẫn bắt đầu như dự định.\n\n雨が降ろうと降るまいと、試合は続行する。\nDù trời mưa hay không mưa, trận đấu vẫn tiếp tục.\n\n彼女が賛成しようとするまいと、方針は変わらない。\nDù cô ấy có tán thành hay không, phương châm cũng không đổi.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜ようか〜るまいか",
+            "back": "Ý nghĩa: Phân vân không biết nên làm... hay không\nCấu trúc: V-ý chí (you) + か + V-ru (nai-kei) + まい + か",
+            "romaji": "youka-rumaika",
+            "example": "行こうか行くまいか、直前まで迷っていた。\nTôi lưỡng lự đến phút chót, không biết có nên đi hay không.\n\n彼に本当のことを言おうか言うまいか、何度も考えた。\nTôi đã suy đi nghĩ lại, có nên nói sự thật với anh ấy hay không.\n\n参加しようかすまいか、締め切りまで悩んだ。\nTôi đắn đo đến hạn chót, có nên tham gia hay không.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

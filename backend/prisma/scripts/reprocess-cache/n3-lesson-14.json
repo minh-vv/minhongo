@@ -1,0 +1,35 @@
+{
+  "order": 14,
+  "title": "14. ～に対して",
+  "summary": "Ngữ pháp bài số 14 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～に対して\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \n1. Đối với ai/cái gì (hướng hành động vào đối tượng).\n2. Trái lại với ~, dùng để so sánh sự đối lập giữa hai vế.\n- **Cấu trúc:** N + に対して\n\n#### 📝 Ví dụ minh họa\n- 先生は学生たちの質問に対して丁寧に答えた。\n- Giáo viên đã trả lời cẩn thận đối với các câu hỏi của học sinh.\n\n- 兄は内向的な性格であるのに対して、弟は外交的だ。\n- Anh trai có tính cách hướng nội, trái lại em trai lại hướng ngoại.\n\n- 若者たちが増えているのに対して、高齢者は減少している。\n- Số lượng người trẻ đang tăng lên, ngược lại người già đang giảm xuống.\n\n- 昨日までの暖かさに対して、今日はとても寒い。\n- Trái ngược với sự ấm áp cho tới hôm qua, hôm nay lại rất lạnh.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 14 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 14 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜に対して",
+            "back": "Ý nghĩa: Đối với ~, hoặc biểu thị sự đối lập: Trái lại với ~.\nCấu trúc: N + に対して",
+            "romaji": "ni-taishite",
+            "example": "先生は学生たちの質問に対して丁寧に答えた。\nGiáo viên đã trả lời cẩn thận đối với các câu hỏi của học sinh.\n\n兄は内向的な性格であるのに対して、弟は外交的だ。\nAnh trai có tính cách hướng nội, trái lại em trai lại hướng ngoại.\n\n若者たちが増えているのに対して、高齢者は減少している。\nSố lượng người trẻ đang tăng lên, ngược lại người già đang giảm xuống.\n\n昨日までの暖かさに対して、今日はとても寒い。\nTrái ngược với sự ấm áp cho tới hôm qua, hôm nay lại rất lạnh.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

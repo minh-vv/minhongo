@@ -1,0 +1,63 @@
+{
+  "order": 11,
+  "title": "Bài 11: Không quan tâm đến / Bỏ qua (〜を問わず, 〜にかかわりなく・〜にかかわらず, 〜もかまわず, 〜はともかく（として）, 〜はさておき)",
+  "summary": "Các cấu trúc diễn tả sự không liên quan: 〜を問わず, 〜にかかわりなく・〜にかかわらず, 〜もかまわず, 〜はともかく（として）, 〜はさておき",
+  "theoryMd": "### Bài 11: Ngữ pháp về sự Không quan tâm / Bỏ qua\n\n#### 1. 〜を問わず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Không phân biệt, không yêu cầu.\n- Cấu trúc: N + を問わず\n#### 📝 Ví dụ minh họa\n性別を問わず、誰でも応募できます。\nKhông phân biệt giới tính, ai cũng có thể ứng tuyển.\n\n#### 2. 〜にかかわりなく・〜にかかわらず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Bất kể, không liên quan đến.\n- Cấu trúc: N / V-ru / V-nai + にかかわりなく・にかかわらず\n#### 📝 Ví dụ minh họa\n天候にかかわらず、イベントは開催されます。\nBất kể thời tiết, sự kiện vẫn được tổ chức.\n\n#### 3. 〜もかまわず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Không màng đến (điều gì đó).\n- Cấu trúc: N / V-ru + もかまわず\n#### 📝 Ví dụ minh họa\n人目もかまわず泣いた。\nTôi khóc mà chẳng màng đến ánh mắt người khác.\n\n#### 4. 〜はともかく（として）\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Tạm thời gác lại A để ưu tiên B.\n- Cấu trúc: N + はともかく（として）\n#### 📝 Ví dụ minh họa\n料理はともかく、雰囲気は良い。\nChưa bàn đến món ăn, không khí ở đây rất tuyệt.\n\n#### 5. 〜はさておき\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Tạm gác lại chuyện A để vào chuyện chính.\n- Cấu trúc: N + はさておき\n#### 📝 Ví dụ minh họa\n冗談はさておき、真面目に話しましょう。\nĐùa đủ rồi, hãy nói chuyện nghiêm túc nào.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 11 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 11: Không quan tâm đến / Bỏ qua (〜を問わず, 〜にかかわりなく・〜にかかわらず, 〜もかまわず, 〜はともかく（として）, 〜はさておき)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜を問わず",
+            "back": "Ý nghĩa: Không quan tâm, không đặt ra yêu cầu, không phân biệt về phương diện nào đó.\nCấu trúc: N + を問わず",
+            "romaji": "o towazu",
+            "example": "このマラソン大会は性別、年齢を問わず、誰でも参加できます。\nCuộc thi maraton này không phân biệt giới tính, tuổi tác, ai cũng có thể tham gia.\n\n経験の有無を問わず、募集しています。\nChúng tôi đang tuyển dụng không phân biệt có kinh nghiệm hay không.\n\n国籍を問わず、多くの留学生がこの大学で学んでいる。\nKhông phân biệt quốc tịch, nhiều lưu học sinh đang học tại trường đại học này.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜にかかわりなく・〜にかかわらず",
+            "back": "Ý nghĩa: Bất kể điều gì, không liên quan đến, dù thế nào thì kết quả vẫn như vậy.\nCấu trúc: N / V-ru / V-nai + にかかわりなく / にかかわらず",
+            "romaji": "ni kakawari naku / ni kakawarazu",
+            "example": "この路線バスの料金は、乗った距離にかかわりなく一律２００円です。\nTiền xe buýt tuyến này không liên quan đến cự ly đi xa hay không, đều là 200 yên.\n\n天候にかかわらず、試合は行われます。\nBất kể thời tiết thế nào, trận đấu vẫn sẽ được tiến hành.\n\n結果がどうであるかにかかわらず、全力を尽くすつもりだ。\nBất kể kết quả ra sao, tôi dự định sẽ dốc toàn lực.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜もかまわず",
+            "back": "Ý nghĩa: Không màng đến, không để tâm đến điều gì đó mà vẫn thực hiện hành động.\nCấu trúc: N / V-ru / V-ta + もかまわず",
+            "romaji": "mo kamawazu",
+            "example": "人目もかまわず、道で大泣きしている人を見かけた。\nTôi đã thấy có người không màng đến ánh mắt mọi người mà khóc lớn giữa đường.\n\n濡れるのもかまわず、雨の中を走った。\nKhông bận tâm đến việc bị ướt, tôi đã chạy trong mưa.\n\n時間をかまわず電話してくる友達に困っている。\nTôi đang rất phiền vì người bạn cứ gọi điện đến bất kể giờ giấc.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜はともかく（として）",
+            "back": "Ý nghĩa: Tạm thời bỏ qua A (để ưu tiên bàn luận B quan trọng hơn).\nCấu trúc: N + はともかく（として）",
+            "romaji": "wa tomokaku (toshite)",
+            "example": "この店は、店の雰囲気はともかく、料理の味は最高だ。\nCửa hàng này, chưa bàn đến bầu không khí, hương vị món ăn là tuyệt nhất.\n\nデザインはともかく、この靴は履き心地がとても良い。\nChưa nói đến thiết kế, đôi giày này đi rất thoải mái.\n\n値段はともかく、この家は広くて気に入った。\nTạm gác chuyện giá cả, tôi rất ưng căn nhà này vì nó rộng.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜はさておき",
+            "back": "Ý nghĩa: Tạm gác lại chuyện A (chuyển sang nội dung chính).\nCấu trúc: N + はさておき",
+            "romaji": "wa sateoki",
+            "example": "どんな家がいいかはさておき、どんな地域に引っ越したいかを考えよう。\nTạm gác chuyện nhà thế nào thì được, hãy nghĩ xem muốn chuyển đến khu vực nào đã.\n\n冗談はさておき、本題に入りましょう。\nĐùa thế đủ rồi, chúng ta hãy vào chủ đề chính thôi.\n\n細かい点はさておき、全体的な計画を確認しましょう。\nTạm gác các chi tiết nhỏ, chúng ta hãy kiểm tra kế hoạch tổng thể.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 5
+  }
+}

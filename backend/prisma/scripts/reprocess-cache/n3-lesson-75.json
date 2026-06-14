@@ -1,0 +1,35 @@
+{
+  "order": 75,
+  "title": "75. ～にする・～くする",
+  "summary": "Ngữ pháp bài số 75 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜にする・〜くする\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả tác động của chủ thể làm cho đối tượng thay đổi trạng thái theo ý muốn.\n- **Cấu trúc**:\n  - N + にする\n  - A-na (bỏ な) + にする\n  - A-i (bỏ い) + くする\n\n#### 📝 Ví dụ minh họa\n- 部屋をきれいにしてください。\nHãy dọn dẹp cho phòng sạch sẽ nhé.\n\n- テレビの音をもう少し小さくしてください。\nHãy chỉnh âm thanh tivi nhỏ lại một chút nhé.\n\n- 将来は医者にするつもりだ。\nTôi định hướng cho con mình trở thành bác sĩ.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 75 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 75 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜にする・〜くする",
+            "back": "Ý nghĩa: Làm cho... (thay đổi trạng thái của đối tượng).\nCấu trúc: N/A-na (bỏ な) + にする / A-i (bỏ い) + くする",
+            "romaji": "ni suru / ku suru",
+            "example": "部屋をきれいにしてください。\nHãy dọn dẹp cho phòng sạch sẽ nhé.\n\nテレビの音をもう少し小さくしてください。\nHãy chỉnh âm thanh tivi nhỏ lại một chút nhé.\n\n将来は医者にするつもりだ。\nTôi định hướng cho con mình trở thành bác sĩ.\n\nもっと早くしてください。\nHãy làm cho nhanh lên chút nữa.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

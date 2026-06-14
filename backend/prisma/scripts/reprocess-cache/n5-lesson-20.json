@@ -1,0 +1,293 @@
+{
+  "order": 20,
+  "title": "Bài 20 — Thể từ điển: Khả năng và cho phép",
+  "summary": "～ことができます (có thể), ～てもいいです (được phép).",
+  "theoryMd": "### 1. V-ru ことができます\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ năng lực, khả năng thực hiện hành động.\n- **Cấu trúc:** V-ru + ことができます\n\n### 2. V-te もいいです / V-te は いけません\n#### 💡 Cấu trúc & Ý nghĩa\n- **V-te もいいです:** Chỉ sự cho phép làm hành động.\n- **V-te は いけません:** Chỉ sự cấm đoán, không được phép làm hành động.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 20 — Từ vựng",
+        "description": "Từ vựng bài 20: Bài 20 — Thể từ điển: Khả năng và cho phép",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "青い",
+            "back": "xanh",
+            "romaji": "あおい",
+            "example": "青い（あおい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "吹く",
+            "back": "thổi (gió)",
+            "romaji": "ふく",
+            "example": "吹く（ふく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "頁",
+            "back": "trang",
+            "romaji": "ページ",
+            "example": "頁（ページ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "奥さん",
+            "back": "vợ (của người khác)",
+            "romaji": "おくさん",
+            "example": "奥さん（おくさん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "引く",
+            "back": "kéo, dẫn dắt",
+            "romaji": "ひく",
+            "example": "引く（ひく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "段々",
+            "back": "dần dần, từ từ",
+            "romaji": "だんだん",
+            "example": "段々（だんだん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "習う",
+            "back": "học (từ giáo viên)",
+            "romaji": "ならう",
+            "example": "習う（ならう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "彼処",
+            "back": "ở đằng kia, chỗ đó",
+            "romaji": "あそこ",
+            "example": "彼処（あそこ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "狭い",
+            "back": "hẹp, chật",
+            "romaji": "せまい",
+            "example": "狭い（せまい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "軽い",
+            "back": "nhẹ (không nặng)",
+            "romaji": "かるい",
+            "example": "軽い（かるい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "脱ぐ",
+            "back": "cởi (quần áo, giày dép)",
+            "romaji": "ぬぐ",
+            "example": "脱ぐ（ぬぐ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "万",
+            "back": "mười nghìn, vạn",
+            "romaji": "まん",
+            "example": "万（まん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "並ぶ",
+            "back": "xếp hàng, đứng thành hàng",
+            "romaji": "ならぶ",
+            "example": "並ぶ（ならぶ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "煩い",
+            "back": "ồn ào, ầm ĩ",
+            "romaji": "うるさい",
+            "example": "煩い（うるさい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "吸う",
+            "back": "hít, hút (thuốc)",
+            "romaji": "すう",
+            "example": "吸う（すう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "閉まる",
+            "back": "được đóng, đóng cửa",
+            "romaji": "しまる",
+            "example": "閉まる（しまる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "詰らない",
+            "back": "chán, không thú vị",
+            "romaji": "つまらない",
+            "example": "詰らない（つまらない）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "咲く",
+            "back": "nở (hoa)",
+            "romaji": "さく",
+            "example": "咲く（さく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "真っ直ぐ",
+            "back": "thẳng, trực tiếp",
+            "romaji": "まっすぐ",
+            "example": "真っ直ぐ（まっすぐ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "一",
+            "back": "một, số 1",
+            "romaji": "いち",
+            "example": "一（いち）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "お祖母さん",
+            "back": "bà",
+            "romaji": "おばあさん",
+            "example": "お祖母さん（おばあさん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "涼しい",
+            "back": "mát mẻ",
+            "romaji": "すずしい",
+            "example": "涼しい（すずしい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "其方",
+            "back": "đằng đó",
+            "romaji": "そちら",
+            "example": "其方（そちら）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "厚い",
+            "back": "dày",
+            "romaji": "あつい",
+            "example": "厚い（あつい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "お兄さん",
+            "back": "anh trai",
+            "romaji": "おにいさん",
+            "example": "お兄さん（おにいさん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "お姉さん",
+            "back": "chị gái",
+            "romaji": "おねえさん",
+            "example": "お姉さん（おねえさん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "並べる",
+            "back": "sắp xếp",
+            "romaji": "ならべる",
+            "example": "並べる（ならべる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "汚い",
+            "back": "bẩn",
+            "romaji": "きたない",
+            "example": "汚い（きたない）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "危ない",
+            "back": "nguy hiểm",
+            "romaji": "あぶない",
+            "example": "危ない（あぶない）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "お腹",
+            "back": "bụng",
+            "romaji": "おなか",
+            "example": "お腹（おなか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "不味い",
+            "back": "dở",
+            "romaji": "まずい",
+            "example": "不味い（まずい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "曇る",
+            "back": "có mây",
+            "romaji": "くもる",
+            "example": "曇る（くもる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ご飯",
+            "back": "cơm",
+            "romaji": "ごはん",
+            "example": "ご飯（ごはん）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 20 — Ngữ pháp",
+        "description": "Ngữ pháp bài 20: Bài 20 — Thể từ điển: Khả năng và cho phép",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "V-ru ことができます",
+            "back": "Ý nghĩa: Có khả năng làm gì đó.\nCấu trúc: V-ru + ことができます",
+            "romaji": "v-ru-koto-ga-dekimasu",
+            "example": "私は日本語を話すことができます。\nTôi có thể nói tiếng Nhật.\n\n漢字を読むことができます。\nTôi có thể đọc chữ Hán.\n\nここで車を運転することができます。\nTôi có thể lái xe ở đây.\n\n5キロ泳ぐことができます。\nTôi có thể bơi 5 cây số.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V-te もいいです",
+            "back": "Ý nghĩa: Được phép làm gì đó (xin phép hoặc cho phép).\nCấu trúc: V-te + もいいです",
+            "romaji": "v-te-mo-ii-desu",
+            "example": "ここで写真を撮ってもいいです。\nỞ đây chụp ảnh được.\n\n帰ってもいいですか。\nTôi về có được không?\n\n窓を開けてもいいです。\nBạn mở cửa sổ được đấy.\n\nここで待ってもいいです。\nBạn đợi ở đây cũng được.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V-te は いけません",
+            "back": "Ý nghĩa: Không được làm gì đó (cấm đoán).\nCấu trúc: V-te + は いけません",
+            "romaji": "v-te-wa-ikemasen",
+            "example": "ここでタバコを吸ってはいけません。\nKhông được hút thuốc ở đây.\n\n入ってはいけません。\nKhông được vào.\n\nここで遊んではいけません。\nKhông được chơi đùa ở đây.\n\n写真を撮ってはいけません。\nKhông được chụp ảnh.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

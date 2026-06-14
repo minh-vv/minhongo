@@ -1,0 +1,42 @@
+{
+  "order": 60,
+  "title": "Bài 60 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 60/92).",
+  "theoryMd": "### 1. 〜こそ〜が\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: N + こそ + N + だが\n- **Ý nghĩa**: Nhấn mạnh rằng chính cái đó là cái quan trọng nhất, nhưng đi kèm với một khía cạnh khó khăn hoặc trái ngược ở vế sau.\n\n#### 📝 Ví dụ minh họa\n- お金こそ大事だが、健康には変えられない。 (Tiền đúng là quan trọng thật, nhưng không thể đánh đổi bằng sức khỏe.)\n\n### 2. 〜こそすれ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: V-masu + こそすれ\n- **Ý nghĩa**: Nhấn mạnh hoàn toàn về vế trước, phủ định hoàn toàn vế sau (thường là sự đối lập).\n\n#### 📝 Ví dụ minh họa\n- 失敗はしこそすれ、決して諦めない。 (Chắc chắn là có thất bại đấy, nhưng tuyệt đối sẽ không bỏ cuộc.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 60 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 60.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜こそ〜が",
+            "back": "Ý nghĩa: Chính vì là A nên mới có điều gì đó, nhưng có sự trái ngược.\nCấu trúc: N + こそ + N + だが",
+            "romaji": "koso-ga",
+            "example": "愛こそ力だが、表現するのは難しい。\nTình yêu là sức mạnh, nhưng thể hiện nó không dễ dàng.\n\n努力こそ成功への鍵だが、継続はさらに難しい。\nNỗ lực mới là chìa khóa dẫn tới thành công, nhưng duy trì nó còn khó hơn.\n\n対話こそ解決の道だが、感情の整理には時間が要る。\nĐối thoại mới là con đường giải quyết, nhưng việc ổn định cảm xúc cần thời gian.\n\n今日こそチャンスだが、準備ができていない。\nChính hôm nay là cơ hội, nhưng lại chưa chuẩn bị xong.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜こそすれ",
+            "back": "Ý nghĩa: Chỉ có thể là A thôi, chứ tuyệt đối không phải là B.\nCấu trúc: V-masu + こそすれ",
+            "romaji": "koso-sure",
+            "example": "疑問こそすれ、賛成はできない。\nNghi ngờ thì có, chứ đồng ý thì không.\n\n彼の誠実さは疑いこそすれ、非難する点はない。\nNếu có nghi ngại thì cũng chỉ thế, chứ không có chỗ nào đáng chê trách.\n\n時間が経てば愛情は深まりこそすれ、薄れることはない。\nThời gian chỉ làm tình cảm sâu đậm thêm, chứ không phai nhạt.\n\n感謝こそすれ、恨むことはない。\nChỉ có biết ơn thôi, chứ không bao giờ oán hận.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

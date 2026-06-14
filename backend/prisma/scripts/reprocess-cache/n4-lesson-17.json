@@ -1,0 +1,223 @@
+{
+  "order": 17,
+  "title": "Bài 42 — Từ vựng JLPT N4 (Phần 17)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 17/25.",
+  "theoryMd": "### 1. 亡くなる\n#### 💡 Cấu trúc & Ý nghĩa\nCách nói giảm nói tránh, lịch sự của 'chết'. Dùng khi nói về người khác một cách tôn trọng.\nCông thức: N + が + 亡くなる\n\n#### 📝 Ví dụ minh họa\n先月、祖父が亡くなりました。\nTháng trước ông tôi đã qua đời.\n\n有名な俳優が昨日亡くなりました。\nMột diễn viên nổi tiếng đã qua đời ngày hôm qua.\n\n彼は若くして亡くなりました。\nÔng ấy đã qua đời khi còn trẻ.\n\n親友が亡くなって、とても悲しいです。\nBạn thân của tôi qua đời nên tôi rất buồn.\n\n---\n### 2. はずです\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả sự suy đoán dựa trên căn cứ, chắc chắn điều gì đó sẽ xảy ra hoặc đã xảy ra.\nCông thức: V/A/N (thể ngắn) + はずです\n\n#### 📝 Ví dụ minh họa\n彼は昨日帰ったはずです。\nChắc hẳn là anh ấy đã về từ hôm qua rồi.\n\n彼は知っているはずです。\nAnh ấy chắc chắn là biết điều đó.\n\n今日は日曜日だから、学校は休みのはずです。\nHôm nay là chủ nhật nên chắc chắn trường nghỉ.\n\nあの店は美味しいはずです。\nCửa hàng đó chắc hẳn là ngon.\n\n---\n### 3. 以外\n#### 💡 Cấu trúc & Ý nghĩa\nChỉ ra ngoại lệ, ngoài danh từ đó ra thì không tính.\nCông thức: N + 以外\n\n#### 📝 Ví dụ minh họa\n私以外、みんな行きました。\nNgoài tôi ra, mọi người đều đã đi hết.\n\nこれ以外に方法はありません。\nNgoài cách này ra thì không còn phương pháp nào khác.\n\n週末以外は毎日働いています。\nTôi làm việc mỗi ngày trừ cuối tuần.\n\nこの人以外は知りません。\nNgoài người này ra tôi không biết ai cả.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 42 — Từ vựng",
+        "description": "Từ vựng bài số 42 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "伝える",
+            "back": "truyền đạt, thông báo",
+            "romaji": "つたえる",
+            "example": "伝える（つたえる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "筈",
+            "back": "chắc hẳn, phải là",
+            "romaji": "はず",
+            "example": "筈（はず）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "無くなる",
+            "back": "mất, bị mất",
+            "romaji": "なくなる",
+            "example": "無くなる（なくなる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "動く",
+            "back": "di chuyển, chuyển động",
+            "romaji": "うごく",
+            "example": "動く（うごく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "知らせる",
+            "back": "thông báo, báo cho biết",
+            "romaji": "しらせる",
+            "example": "知らせる（しらせる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "続く",
+            "back": "tiếp tục, kéo dài",
+            "romaji": "つづく",
+            "example": "続く（つづく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "別",
+            "back": "khác biệt, phân biệt",
+            "romaji": "べつ",
+            "example": "別（べつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "鳴る",
+            "back": "kêu, reo",
+            "romaji": "なる",
+            "example": "鳴る（なる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "市",
+            "back": "thành phố",
+            "romaji": "し",
+            "example": "市（し）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "負ける",
+            "back": "thua, bị đánh bại",
+            "romaji": "まける",
+            "example": "負ける（まける）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "悲しい",
+            "back": "buồn",
+            "romaji": "かなしい",
+            "example": "悲しい（かなしい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "亡くなる",
+            "back": "qua đời, mất",
+            "romaji": "なくなる",
+            "example": "亡くなる（なくなる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "以外",
+            "back": "ngoại trừ, trừ ra",
+            "romaji": "いがい",
+            "example": "以外（いがい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "直す",
+            "back": "sửa chữa",
+            "romaji": "なおす",
+            "example": "直す（なおす）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "暫く",
+            "back": "một lát, một lúc",
+            "romaji": "しばらく",
+            "example": "暫く（しばらく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "回る",
+            "back": "quay, xoay",
+            "romaji": "まわる",
+            "example": "回る（まわる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "間違える",
+            "back": "nhầm, sai, mắc lỗi",
+            "romaji": "まちがえる",
+            "example": "間違える（まちがえる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "捨てる",
+            "back": "vứt, bỏ đi",
+            "romaji": "すてる",
+            "example": "捨てる（すてる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "確り",
+            "back": "chắc chắn, vững chắc",
+            "romaji": "しっかり",
+            "example": "確り（しっかり）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "育てる",
+            "back": "nuôi, nuôi dưỡng",
+            "romaji": "そだてる",
+            "example": "育てる（そだてる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "褒める",
+            "back": "khen, khen ngợi",
+            "romaji": "ほめる",
+            "example": "褒める（ほめる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "石",
+            "back": "đá, hòn đá",
+            "romaji": "いし",
+            "example": "石（いし）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "恥ずかしい",
+            "back": "xấu hổ, ngại ngùng",
+            "romaji": "はずかしい",
+            "example": "恥ずかしい（はずかしい）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 17 — Ngữ pháp",
+        "description": "Ngữ pháp bài 17: Bài 42 — Từ vựng JLPT N4 (Phần 17)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "亡くなる",
+            "back": "Ý nghĩa: Qua đời (cách nói kính trọng, lịch sự thay cho 死ぬ).\nCấu trúc: N + が + 亡くなる",
+            "romaji": "nakunaru",
+            "example": "先月、祖父が亡くなりました。\nTháng trước ông tôi đã qua đời.\n\n有名な俳優が昨日亡くなりました。\nMột diễn viên nổi tiếng đã qua đời ngày hôm qua.\n\n彼は若くして亡くなりました。\nÔng ấy đã qua đời khi còn trẻ.\n\n親友が亡くなって、とても悲しいです。\nBạn thân của tôi qua đời nên tôi rất buồn.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "V/A/N + はずです",
+            "back": "Ý nghĩa: Chắc hẳn là, tin rằng là (dựa trên căn cứ hợp lý).\nCấu trúc: V/A/N (thể ngắn) + はずです",
+            "romaji": "hazu-desu",
+            "example": "彼は昨日帰ったはずです。\nChắc hẳn là anh ấy đã về từ hôm qua rồi.\n\n彼は知っているはずです。\nAnh ấy chắc chắn là biết điều đó.\n\n今日は日曜日だから、学校は休みのはずです。\nHôm nay là chủ nhật nên chắc chắn trường nghỉ.\n\nあの店は美味しいはずです。\nCửa hàng đó chắc hẳn là ngon.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "N + 以外",
+            "back": "Ý nghĩa: Ngoài cái đó ra, không phải cái đó.\nCấu trúc: N + 以外",
+            "romaji": "igai",
+            "example": "私以外、みんな行きました。\nNgoài tôi ra, mọi người đều đã đi hết.\n\nこれ以外に方法はありません。\nNgoài cách này ra thì không còn phương pháp nào khác.\n\n週末以外は毎日働いています。\nTôi làm việc mỗi ngày trừ cuối tuần.\n\nこの人以外は知りません。\nNgoài người này ra tôi không biết ai cả.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

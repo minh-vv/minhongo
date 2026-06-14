@@ -1,0 +1,42 @@
+{
+  "order": 6,
+  "title": "Bài 6 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 6/92).",
+  "theoryMd": "### 1. 〜だの〜だの\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để liệt kê nhiều sự vật, sự việc, thường mang sắc thái tiêu cực hoặc bất mãn.\n- **Cấu trúc**: N / V-ru / V-ta + だの + N / V-ru / V-ta + だの\n\n#### 📝 Ví dụ minh họa\n- 彼は給料が安いだの、上司が厳しいだのと、いつも文句ばかり言っている。\n- 休みの日は掃除だの洗濯だので、一日があっという間に終わってしまう。\n- 勉強だの部活だので、毎日忙しい。\n\n### 2. 〜といい〜といい\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhìn vào khía cạnh nào cũng thấy như vậy (thường dùng để khen ngợi hoặc đánh giá).\n- **Cấu trúc**: N + といい + N + といい\n\n#### 📝 Ví dụ minh họa\n- 景色といい空気といい、ここは本当に素晴らしい。\n- この店は味といい値段といい、申し分ない。\n- 髪型といい服装といい、彼女はとても個性的だ。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 6 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 6.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜だの〜だの",
+            "back": "Ý nghĩa: Nào là... nào là... (liệt kê những thứ mang tính tiêu cực hoặc phàn nàn).\nCấu trúc: N / V-ru / V-ta + だの + N / V-ru / V-ta + だの",
+            "romaji": "da-no-da-no",
+            "example": "彼は給料が安いだの、上司が厳しいだのと、いつも文句ばかり言っている。\nAnh ta lúc thì kêu lương thấp, lúc thì kêu sếp nghiêm, lúc nào cũng than phiền.\n\n休みの日は掃除だの洗濯だので、一日があっという間に終わってしまう。\nNgày nghỉ thì nào là dọn dẹp, nào là giặt giũ, thoắt cái là hết ngày.\n\n勉強だの部活だので、毎日忙しい。\nNào là học hành, nào là câu lạc bộ, ngày nào cũng bận rộn.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜といい〜といい",
+            "back": "Ý nghĩa: Cả A lẫn B đều... (đánh giá dựa trên cả hai khía cạnh tích cực hoặc tiêu cực).\nCấu trúc: N + といい + N + といい",
+            "romaji": "toii-toii",
+            "example": "景色といい空気といい、ここは本当に素晴らしい。\nCảnh sắc lẫn không khí, nơi này thật tuyệt.\n\nこの店は味といい値段といい、申し分ない。\nQuán này xét cả vị lẫn giá, không có gì để chê.\n\n髪型といい服装といい、彼女はとても個性的だ。\nCả kiểu tóc lẫn cách ăn mặc, cô ấy rất cá tính.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "order": 57,
+  "title": "Bài 57 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 57/92).",
+  "theoryMd": "### 1. 〜に足る\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: V-từ điển / N + に + 足る\n- **Ý nghĩa**: Có đủ giá trị hoặc điều kiện để thực hiện hành động đó. Thường đi với các động từ như 信頼 (tin tưởng), 議論 (tranh luận), 参考 (tham khảo).\n\n#### 📝 Ví dụ minh họa\n- 誰にでも信頼に足る人ではない。 (Không phải ai cũng là người đáng để tin tưởng.)\n\n### 2. 〜に堪える\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: V-từ điển / N + に + 堪える\n- **Ý nghĩa**: Có đủ giá trị để thực hiện hành động. Thường dùng với các động từ như 見る, 聞く, 読む.\n\n#### 📝 Ví dụ minh họa\n- この作品は読み返すに堪える作品だ。 (Tác phẩm này là một tác phẩm đáng đọc lại.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 57 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 57.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜に足る",
+            "back": "Ý nghĩa: Xứng đáng để, đủ để thực hiện hành động gì đó.\nCấu trúc: V-từ điển / N + に + 足る",
+            "romaji": "ni-taru",
+            "example": "この調査は議論に足るサンプル数を確保している。\nNghiên cứu này bảo đảm cỡ mẫu đủ để tranh luận.\n\n彼は信頼に足るパートナーだ。\nAnh ấy là đối tác đáng tin cậy.\n\n最新の報告は参考に足る内容だ。\nBáo cáo mới có nội dung đáng để tham khảo.\n\nこの事件は特筆に足る出来事だ。\nVụ việc này là một sự kiện đáng để đặc biệt nhắc tới.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜に堪える",
+            "back": "Ý nghĩa: Đáng để, có giá trị để làm việc gì.\nCấu trúc: V-từ điển / N + に + 堪える",
+            "romaji": "ni-taeru-1",
+            "example": "この映画は十分に見るに堪える出来だ。\nBộ phim này có chất lượng đủ đáng xem.\n\n新人の論文だが、読みに堪える内容になっている。\nTuy là luận văn của người mới, nội dung vẫn đáng đọc.\n\nこのデータは厳しい検証に堪える。\nDữ liệu này chịu được sự kiểm chứng nghiêm ngặt.\n\n鑑賞に堪える名画。\nBức tranh nổi tiếng đáng để thưởng lãm.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

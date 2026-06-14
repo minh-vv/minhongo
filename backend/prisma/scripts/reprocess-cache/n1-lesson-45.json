@@ -1,0 +1,42 @@
+{
+  "order": 45,
+  "title": "Bài 45 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 45/92).",
+  "theoryMd": "### 1. 〜を前提として\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Lấy cái gì làm điều kiện cơ bản, làm tiền đề để thực hiện việc tiếp theo.\n- **Cấu trúc:** N + を前提として\n#### 📝 Ví dụ minh họa\n- この計画は全員の参加を前提として進められている。\n- 契約は信頼関係の継続を前提として結ばれている。\n- データが正確であることを前提としてモデルを評価した。\n\n### 2. 〜を前提にして\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Thiết lập điều kiện, lấy điều kiện đó làm cơ sở cho kế hoạch/thiết kế.\n- **Cấu trúc:** N + を前提にして\n#### 📝 Ví dụ minh họa\n- このサービスは高トラフィックを前提にしてインフラを構築している。\n- 少人数を前提にカリキュラムを組み直した。\n- 両社の連携を前提にしたスケジュールだ。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 45 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 45.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜を前提として",
+            "back": "Ý nghĩa: Lấy cái gì làm điều kiện cơ bản, làm tiền đề để thực hiện việc tiếp theo.\nCấu trúc: N + を前提として",
+            "romaji": "wo-zentei-toshite",
+            "example": "この計画は全員の参加を前提として進められている。\nKế hoạch này được triển khai với tiền đề là mọi người đều tham gia.\n\n契約は信頼関係の継続を前提として結ばれている。\nHợp đồng được ký với tiền đề là mối quan hệ tin cậy sẽ tiếp tục.\n\nデータが正確であることを前提としてモデルを評価した。\nĐã đánh giá mô hình với tiền đề dữ liệu là chính xác.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜を前提にして",
+            "back": "Ý nghĩa: Thiết lập điều kiện, lấy điều kiện đó làm cơ sở cho kế hoạch/thiết kế.\nCấu trúc: N + を前提にして",
+            "romaji": "wo-zentei-ni-shite",
+            "example": "このサービスは高トラフィックを前提にしてインフラを構築している。\nDịch vụ này xây dựng hạ tầng với tiền đề lưu lượng cao.\n\n少人数を前提にカリキュラムを組み直した。\nChúng tôi sắp xếp lại chương trình với tiền đề sĩ số ít.\n\n両社の連携を前提にしたスケジュールだ。\nĐây là lịch trình dựa trên tiền đề hai công ty phối hợp.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

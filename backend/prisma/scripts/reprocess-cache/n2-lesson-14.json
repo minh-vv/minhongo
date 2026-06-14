@@ -1,0 +1,63 @@
+{
+  "order": 14,
+  "title": "Bài 14: Dù... nhưng... (〜にもかかわらず, 〜ものの・〜とはいうものの, 〜ながら（も）, 〜つつ（も）, 〜といっても)",
+  "summary": "Các cấu trúc nghịch lý: 〜にもかかわらず, 〜ものの・〜とはいうものの, 〜ながら（も）, 〜つつ（も）, 〜といっても",
+  "theoryMd": "### Bài 14: Cấu trúc biểu thị sự đối lập\n\nCác cấu trúc trên đều dùng để diễn tả ý **\"Mặc dù A nhưng B\"**. Tuy nhiên, sắc thái mỗi từ có sự khác biệt về hoàn cảnh và mức độ của sự việc.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 14 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 14: Dù... nhưng... (〜にもかかわらず, 〜ものの・〜とはいうものの, 〜ながら（も）, 〜つつ（も）, 〜といっても)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜にもかかわらず",
+            "back": "Ý nghĩa: Mặc dù A nhưng B (sự việc bất ngờ xảy ra bất chấp hoàn cảnh).\nCấu trúc: V-plain / A-i / A-na (である) / N (である) + にもかかわらず",
+            "romaji": "ni mo kakawarazu",
+            "example": "足を痛めたにもかかわらず、A選手は最後まで走った。\nMặc cho đau chân, tuyển thủ A vẫn chạy tới đích cuối cùng.\n\n大雨にもかかわらず、たくさんの人がイベントに来てくれた。\nMặc cho mưa lớn, rất nhiều người vẫn đến tham dự sự kiện.\n\n彼は忙しいにもかかわらず、手伝ってくれた。\nMặc dù bận rộn nhưng anh ấy vẫn giúp tôi.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ものの",
+            "back": "Ý nghĩa: Dù... nhưng... (sự thật trái với suy nghĩ/dự đoán).\nCấu trúc: V-plain / A-i / A-na (na/である) / N (である) + ものの",
+            "romaji": "mono no",
+            "example": "手術は成功したとはいうものの、まだ心配です。\nDù nói là phẫu thuật đã thành công, nhưng tôi vẫn còn lo lắng.\n\n免許は持っているものの、もう10年以上運転していない。\nDù có bằng lái xe đấy nhưng tôi đã không lái xe hơn 10 năm nay rồi.\n\n春になったものの、まだ寒い日が続いている。\nDù đã sang xuân nhưng những ngày lạnh vẫn tiếp diễn.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ながら（も）",
+            "back": "Ý nghĩa: Dù... nhưng... (mặc dù ở trạng thái đó).\nCấu trúc: V-masu (bỏ masu) / A-i / A-na / N + ながら（も）",
+            "romaji": "nagara (mo)",
+            "example": "あの子は子供ながら、社会の動きをよく知っていますね。\nĐứa trẻ đó dù còn nhỏ nhưng hiểu biết rất rõ về xã hội nhỉ.\n\n残念ながら、今回の提案は不採用となりました。\nThật đáng tiếc, nhưng đề xuất lần này đã không được thông qua.\n\n狭いながらも、快適な部屋です。\nDù hẹp nhưng là căn phòng thoải mái.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜つつ（も）",
+            "back": "Ý nghĩa: Dù... nhưng... (hành động trái với suy nghĩ).\nCấu trúc: V-masu (bỏ masu) + つつ（も）",
+            "romaji": "tsutsu (mo)",
+            "example": "危険だと知りつつ、山道を登り続けた。\nDù biết là nguy hiểm, tôi vẫn tiếp tục leo lên con đường núi.\n\n体に悪いと思いながらも、夜遅くにラーメンを食べてしまう。\nDù tự biết là không tốt cho sức khỏe nhưng tôi vẫn lỡ ăn mì ramen.\n\n謝りつつも、心の中では納得していない。\nVừa xin lỗi nhưng trong lòng thì chưa phục.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜といっても",
+            "back": "Ý nghĩa: Dù nói là A nhưng thực tế chỉ ở mức độ thấp.\nCấu trúc: V-plain / N / A-i / A-na + といっても",
+            "romaji": "to itte mo",
+            "example": "料理ができるといっても、私が作れるのはかんたんなものだけです。\nDù nói là biết nấu ăn, tôi chỉ nấu được những món đơn giản thôi.\n\n家を買ったといっても、とても小さな中古住宅です。\nDù nói là mua nhà nhưng đó chỉ là một căn nhà cũ rất nhỏ thôi.\n\n勉強したといっても、1時間だけです。\nDù nói là học bài nhưng chỉ có 1 tiếng thôi.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 5
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "order": 24,
+  "title": "Bài 24: Khuyên bảo / Phủ định ý định (〜しかない, 〜べきだ, 〜（よ）うではないか, 〜ことだ, 〜ものだ, 〜ことはない, 〜まい, 〜ものか)",
+  "summary": "Các cấu trúc lời khuyên và phủ định ý chí: 〜しかない, 〜べきだ, 〜（よ）うではないか, 〜ことだ, 〜ものだ, 〜ことはない, 〜まい, 〜ものか",
+  "theoryMd": "# Bài 24: Khuyên bảo / Phủ định ý định\n\n### 1. 〜（よ）うではないか\n#### 💡 Cấu trúc & Ý nghĩa\n- V-vol + ではないか\n- Ý nghĩa: Kêu gọi trang trọng.\n#### 📝 Ví dụ minh họa\n- 考えてみようではないか。（Hãy cùng suy nghĩ đi）\n\n### 2. 〜ことだ\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru/nai + ことだ\n- Ý nghĩa: Lời khuyên cụ thể.\n#### 📝 Ví dụ minh họa\n- 食べないことです。（Không nên ăn）\n\n### 3. 〜ものだ / 〜ものではない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru + ものだ/ものではない\n- Ý nghĩa: Lời khuyên lẽ thường.\n#### 📝 Ví dụ minh họa\n- 大切にするものだ。（Nên trân trọng）\n\n### 4. 〜ことはない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru + ことはない\n- Ý nghĩa: Không cần thiết.\n#### 📝 Ví dụ minh họa\n- 気にすることはない。（Không cần bận tâm）\n\n### 5. 〜まい / 〜(よ)うか〜まいか\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru/masu + まい\n- Ý nghĩa: Quyết không làm / Phân vân.\n#### 📝 Ví dụ minh họa\n- 二度とするまい。（Quyết không làm lần hai）\n\n### 6. 〜ものか\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường + ものか\n- Ý nghĩa: Tuyệt đối không.\n#### 📝 Ví dụ minh họa\n- 負けるものか。（Đời nào chịu thua）",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 24 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 24: Khuyên bảo / Phủ định ý định (〜しかない, 〜べきだ, 〜（よ）うではないか, 〜ことだ, 〜ものだ, 〜ことはない, 〜まい, 〜ものか)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜（よ）うではないか",
+            "back": "Ý nghĩa: Hãy cùng làm (kêu gọi mạnh mẽ, trang trọng).\nCấu trúc: V-volative (ý chí) + ではないか",
+            "romaji": "you dewa nai ka",
+            "example": "環境を守るために何ができるか、考えてみようではないか。\nChúng ta hãy cùng suy nghĩ xem có thể làm gì để bảo vệ môi trường.\n\nみんなで力を合わせて、この困難を乗り越えようではないか。\nTất cả hãy cùng hợp lực vượt qua khó khăn này.\n\n一度話し合おうではないか。\nChúng ta hãy cùng thảo luận đi.\n\n諦めずに頑張ろうではないか。\nChúng ta đừng từ bỏ mà cùng cố gắng đi.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ことだ",
+            "back": "Ý nghĩa: Lời khuyên nên làm hoặc không nên làm.\nCấu trúc: V-ru / V-nai + ことだ",
+            "romaji": "koto da",
+            "example": "太りたくなければ、夜遅く食べないことです。\nNếu không muốn béo thì không nên ăn đêm.\n\n日本語が上手になりたければ、毎日話すことだ。\nNếu muốn giỏi tiếng Nhật thì nên nói mỗi ngày.\n\n忘れたければ、早く忘れることだ。\nNếu muốn quên thì nên quên sớm đi.\n\n無理をしないことだ。\nĐừng có cố quá.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ものだ / 〜ものではない",
+            "back": "Ý nghĩa: Lời khuyên mang tính đạo đức/lẽ thường.\nCấu trúc: V-ru + ものだ / V-ru + ものではない",
+            "romaji": "mono da / mono dewa nai",
+            "example": "人との出会いは大切にするものだ。\nNên trân trọng các cuộc gặp gỡ.\n\n目上の人には、そんな乱暴な言葉を使うものではない。\nKhông được dùng lời lẽ thô lỗ với cấp trên.\n\n約束は守るものだ。\nLời hứa là phải giữ.\n\n人の悪口を言うものではない。\nKhông nên nói xấu người khác.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ことはない",
+            "back": "Ý nghĩa: Không cần thiết phải làm gì.\nCấu trúc: V-ru + ことはない",
+            "romaji": "koto wa nai",
+            "example": "彼の言葉など気にすることはないよ。\nKhông cần phải bận tâm lời anh ta nói đâu.\n\n時間はたっぷりあるから、そんなに急ぐことはない。\nThời gian còn nhiều nên không cần phải vội.\n\n謝ることはない。\nKhông cần phải xin lỗi đâu.\n\nわざわざ来ることはない。\nKhông cần phải cất công đến đâu.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜まい / 〜(よ)うか〜まいか",
+            "back": "Ý nghĩa: Quyết không làm / Phân vân có nên làm hay không.\nCấu trúc: V-ru (nhóm 1) / V-masu (bỏ masu, nhóm 2,3) + まい",
+            "romaji": "mai / you ka mai ka",
+            "example": "こんなばかな失敗は二度とするまい。\nTôi quyết không mắc sai lầm ngớ ngẩn này lần nữa.\n\n本当のことを話そうか話すまいか、一晩中悩んだ。\nCó nên nói sự thật hay không, tôi đã trăn trở cả đêm.\n\n彼は来るまい。\nChắc anh ta không đến đâu.\n\n二度と行くまいと誓った。\nTôi thề sẽ không bao giờ đến đó nữa.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ものか",
+            "back": "Ý nghĩa: Tuyệt đối không (phủ định mạnh mẽ).\nCấu trúc: V-ru / A-i / A-na / N + ものか",
+            "romaji": "mono ka",
+            "example": "あんな無責任な人とはもう一緒に仕事をするものか。\nĐời nào tôi lại làm việc với kẻ vô trách nhiệm như vậy nữa.\n\nこんな下手な絵が売れるもんか。\nTranh vẽ tệ thế này mà đời nào bán được.\n\n誰が言うものか。\nĐời nào tôi nói (ai mà thèm nói chứ).\n\n負けるものか。\nKhông đời nào tôi chịu thua.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 6
+  }
+}

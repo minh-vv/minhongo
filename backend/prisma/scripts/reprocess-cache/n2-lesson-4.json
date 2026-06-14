@@ -1,0 +1,70 @@
+{
+  "order": 4,
+  "title": "Bài 4: Phạm vi (〜をはじめ（として）, 〜からして, 〜にわたって, 〜を通じて・〜を通して, 〜限り, 〜だけ)",
+  "summary": "Các cấu trúc liên quan đến phạm vi: 〜をはじめ（として）, 〜からして, 〜にわたって, 〜を通じて・〜を通して, 〜限り, 〜だけ",
+  "theoryMd": "### Bài 4: Phạm vi và Giới hạn\n\n- **〜をはじめ**: Đưa ra ví dụ đại diện đầu tiên.\n- **〜からして**: Đánh giá tổng thể qua một chi tiết nhỏ.\n- **〜にわたって**: Phạm vi trải dài (không gian, thời gian).\n- **〜を通じて・を通して**: Thông qua trung gian hoặc suốt thời gian dài.\n- **〜限り**: Giới hạn phạm vi hiểu biết/khả năng.\n- **〜だけ**: Đến mức tối đa có thể.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 4 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 4: Phạm vi (〜をはじめ（として）, 〜からして, 〜にわたって, 〜を通じて・〜を通して, 〜限り, 〜だけ)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜をはじめ（として）",
+            "back": "Ý nghĩa: Đưa ra ví dụ tiêu biểu nhất, ngoài ra còn nhiều thứ khác nữa.\nCấu trúc: N + をはじめ（として）",
+            "romaji": "o hajime (to shite)",
+            "example": "この体育館では水泳をはじめ、いろいろなスポーツが楽しめる。\nTại nhà thi đấu này, có thể chơi các môn thể thao, bắt đầu từ bơi lội.\n\n校長先生をはじめ、先生方には大変お世話になりました。\nTôi đã nhận được sự giúp đỡ rất nhiều từ các thầy cô, trước hết là thầy hiệu trưởng.\n\n日本には富士山をはじめ、美しい山がたくさんある。\nỞ Nhật có nhiều núi đẹp, tiêu biểu là núi Phú Sĩ.\n\n家族をはじめ、多くの人に支えられた。\nTôi được nhiều người ủng hộ, trước hết là gia đình.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜からして",
+            "back": "Ý nghĩa: Ngay từ một ví dụ nhỏ đã thế, suy ra toàn thể cũng vậy (thường tiêu cực).\nCấu trúc: N + からして",
+            "romaji": "kara shite",
+            "example": "出発時間からして早すぎる。\nNgay từ thời gian xuất phát đã quá sớm rồi.\n\n彼の態度は、挨拶の仕方からしてなっていない。\nThái độ của anh ta, ngay từ cách chào hỏi đã không ra làm sao rồi.\n\nこの店は料理の味からして違う。\nCửa hàng này, ngay từ hương vị món ăn đã khác hẳn rồi.\n\n服装からして、だらしない感じだ。\nNgay từ cách ăn mặc đã thấy lôi thôi rồi.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜にわたって",
+            "back": "Ý nghĩa: Trải suốt, suốt (phạm vi rộng về thời gian, không gian, số lần).\nCấu trúc: N + にわたって",
+            "romaji": "ni watatte",
+            "example": "高速道路は２０キロにわたって渋滞が続いた。\nĐường cao tốc tắc nghẽn kéo dài suốt 20km.\n\n会議は３日間にわたって行われました。\nHội nghị đã được tiến hành suốt 3 ngày liền.\n\n彼は長年にわたってこの研究を続けている。\nÔng ấy đã tiếp tục nghiên cứu này suốt nhiều năm trời.\n\n広い範囲にわたって被害が出た。\nThiệt hại đã xảy ra trên diện rộng.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜を通じて・〜を通して",
+            "back": "Ý nghĩa: Thông qua (phương tiện, trung gian) HOẶC Suốt (khoảng thời gian dài).\nCấu trúc: N + を通じて / をを通して",
+            "romaji": "o tsuujite / o tooshite",
+            "example": "インターネットを通じて世界中の情報が手に入る。\nThông qua internet, có thể nắm bắt thông tin khắp thế giới.\n\nこの地域は、一年を通じて温暖な気候です。\nKhu vực này có khí hậu ôn hòa suốt cả năm.\n\n友人を通して彼と知り合った。\nTôi quen biết anh ấy thông qua một người bạn.\n\n夏の間を通じて、毎日泳ぎに行った。\nSuốt cả mùa hè, tôi đã đi bơi hàng ngày.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜限り",
+            "back": "Ý nghĩa: Trong giới hạn, phạm vi (khả năng, hiểu biết, thời gian).\nCấu trúc: V-ru / V-te iru / N-no + 限り",
+            "romaji": "kagiri",
+            "example": "力の限り頑張ろう。\nHãy cố gắng hết sức mình.\n\n私が調べた限りでは、その情報は正しいようです。\nTrong phạm vi những gì tôi đã tìm hiểu, thông tin đó có vẻ chính xác.\n\n知っている限りのことを教えます。\nTôi sẽ chỉ cho bạn tất cả những gì tôi biết.\n\n今の限りの力では、これが精一杯だ。\nVới sức lực hiện tại, đây là mức cao nhất rồi.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜だけ",
+            "back": "Ý nghĩa: Đến mức giới hạn, hết mức có thể (thể khả năng/mong muốn).\nCấu trúc: V-ru (thể khả năng / mong muốn) + だけ",
+            "romaji": "dake",
+            "example": "積めるだけ積んでください。\nHãy chất lên hết mức có thể.\n\n食べたいだけ食べていいですよ。\nBạn có thể ăn bao nhiêu tùy thích.\n\n走れるだけ走った。\nTôi đã chạy hết sức có thể.\n\n泣きたいだけ泣けばいい。\nBạn cứ khóc bao nhiêu tùy thích.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 6
+  }
+}

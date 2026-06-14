@@ -1,0 +1,286 @@
+{
+  "order": 21,
+  "title": "Bài 21 — Danh từ hóa: ～こと và ～の",
+  "summary": "Biến mệnh đề thành danh từ, sở thích, khả năng.",
+  "theoryMd": "### 1. V-る こと\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Danh từ hóa hành động, biến động từ thành danh từ.\n- Cấu trúc: V-る + こと\n#### 📝 Ví dụ minh họa\n- 私の趣味はお菓子を作ることです。(Sở thích của tôi là làm bánh kẹo.)\n\n### 2. V-る の\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Danh từ hóa động từ, dùng phổ biến trong giao tiếp hằng ngày.\n- Cấu trúc: V-る + の\n#### 📝 Ví dụ minh họa\n- ギターを弾くのが好きです。(Tôi thích chơi đàn ghi-ta.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 21 — Từ vựng",
+        "description": "Từ vựng bài 21: Bài 21 — Danh từ hóa: ～こと và ～の",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "お菓子",
+            "back": "bánh kẹo",
+            "romaji": "おかし",
+            "example": "お菓子（おかし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "黄色い",
+            "back": "vàng",
+            "romaji": "きいろい",
+            "example": "黄色い（きいろい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "磨く",
+            "back": "đánh bóng",
+            "romaji": "みがく",
+            "example": "磨く（みがく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "賑やか",
+            "back": "nhộn nhịp",
+            "romaji": "にぎやか",
+            "example": "賑やか（にぎやか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "鳴く",
+            "back": "kêu",
+            "romaji": "なく",
+            "example": "鳴く（なく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "夕飯",
+            "back": "bữa tối",
+            "romaji": "ゆうはん",
+            "example": "夕飯（ゆうはん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "葉書",
+            "back": "bưu thiếp",
+            "romaji": "はがき",
+            "example": "葉書（はがき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "Ｙシャツ",
+            "back": "áo sơ mi",
+            "romaji": "ワイシャツ",
+            "example": "Ｙシャツ（ワイシャツ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "六つ",
+            "back": "sáu",
+            "romaji": "むっつ",
+            "example": "六つ（むっつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "お手洗い",
+            "back": "nhà vệ sinh",
+            "romaji": "おてあらい",
+            "example": "お手洗い（おてあらい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "お巡りさん",
+            "back": "cảnh sát",
+            "romaji": "おまわりさん",
+            "example": "お巡りさん（おまわりさん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "差す",
+            "back": "chiếu",
+            "romaji": "さす",
+            "example": "差す（さす）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "零",
+            "back": "số không",
+            "romaji": "れい",
+            "example": "零（れい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "２０日",
+            "back": "ngày 20",
+            "romaji": "はつか",
+            "example": "２０日（はつか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "粁",
+            "back": "ki-lô-mét",
+            "romaji": "キロメートル",
+            "example": "粁（キロメートル）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "八つ",
+            "back": "tám",
+            "romaji": "やっつ",
+            "example": "八つ（やっつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "再来年",
+            "back": "năm kia",
+            "romaji": "さらいねん",
+            "example": "再来年（さらいねん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "燐寸",
+            "back": "diêm",
+            "romaji": "マッチ",
+            "example": "燐寸（マッチ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "良く",
+            "back": "tốt",
+            "romaji": "よく",
+            "example": "良く（よく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "其処",
+            "back": "chỗ đó",
+            "romaji": "そこ",
+            "example": "其処（そこ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "小さな",
+            "back": "nhỏ",
+            "romaji": "ちいさな",
+            "example": "小さな（ちいさな）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "答える",
+            "back": "trả lời",
+            "romaji": "こたえる",
+            "example": "答える（こたえる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "もう一度",
+            "back": "một lần nữa",
+            "romaji": "もういちど",
+            "example": "もう一度（もういちど）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "要る",
+            "back": "cần",
+            "romaji": "いる",
+            "example": "要る（いる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "お風呂",
+            "back": "bồn tắm",
+            "romaji": "おふろ",
+            "example": "お風呂（おふろ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "背",
+            "back": "lưng",
+            "romaji": "せ",
+            "example": "背（せ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "朝ごはん",
+            "back": "bữa sáng",
+            "romaji": "あさごはん",
+            "example": "朝ごはん（あさごはん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "お弁当",
+            "back": "cơm hộp",
+            "romaji": "おべんとう",
+            "example": "お弁当（おべんとう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "晩御飯",
+            "back": "bữa tối",
+            "romaji": "ばんごはん",
+            "example": "晩御飯（ばんごはん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "昼ご飯",
+            "back": "bữa trưa",
+            "romaji": "ひるごはん",
+            "example": "昼ご飯（ひるごはん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "でも",
+            "back": "nhưng",
+            "romaji": "でも",
+            "example": "でも",
+            "jlptLevel": 5
+          },
+          {
+            "front": "等",
+            "back": "v.v.",
+            "romaji": "など",
+            "example": "等（など）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "クラス",
+            "back": "lớp học",
+            "romaji": "クラス",
+            "example": "クラス",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 21 — Ngữ pháp",
+        "description": "Ngữ pháp bài 21: Bài 21 — Danh từ hóa: ～こと và ～の",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "V-る こと",
+            "back": "Ý nghĩa: Danh từ hóa động từ, biến hành động thành một danh từ để làm chủ ngữ hoặc tân ngữ.\nCấu trúc: V-る + こと",
+            "romaji": "v-ru koto",
+            "example": "私の趣味はお菓子を作ることです。\nSở thích của tôi là làm bánh kẹo.\n\n日本語を話すことは難しいです。\nNói tiếng Nhật thì khó.\n\n寝ることは大切です。\nViệc ngủ là quan trọng.\n\n運動することは体にいいです。\nViệc tập thể dục tốt cho cơ thể.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V-る の",
+            "back": "Ý nghĩa: Danh từ hóa động từ, thường dùng trong hội thoại thân mật hoặc thay thế cho 'koto'.\nCấu trúc: V-る + の",
+            "romaji": "v-ru no",
+            "example": "ギターを弾くのが好きです。\nTôi thích chơi đàn ghi-ta.\n\n日本語を勉強するのは楽しいです。\nViệc học tiếng Nhật rất vui.\n\nケーキを食べるのは幸せです。\nViệc ăn bánh kem thật hạnh phúc.\n\n走るのが速いです。\nViệc chạy thì nhanh.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

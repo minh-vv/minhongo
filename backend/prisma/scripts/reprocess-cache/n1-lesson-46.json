@@ -1,0 +1,42 @@
+{
+  "order": 46,
+  "title": "Bài 46 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 46/92).",
+  "theoryMd": "### 1. 〜前提で\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N / V-ru / V-ta + 前提で\n- Ý nghĩa: Dùng để biểu thị một điều kiện hoặc giả định được đặt ra làm nền tảng cho một hành động, suy nghĩ hoặc kế hoạch phía sau.\n\n#### 📝 Ví dụ minh họa\n- 来期に人員を増やす前提で予算を組む。(Lập ngân sách với tiền đề sẽ tăng nhân sự kỳ tới.)\n- 大会が予定通り開催されるという前提で準備を進める。(Chuẩn bị với giả định giải đấu sẽ diễn ra như dự kiến.)\n\n### 2. 〜に即した\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + に即した\n- Ý nghĩa: Diễn tả việc hành động hoặc sự vật phù hợp, sát với thực tế, thực trạng hoặc quy tắc nào đó.\n\n#### 📝 Ví dụ minh họa\n- 実情に即した支援策が求められている。(Đang cần những biện pháp hỗ trợ phù hợp với thực trạng.)\n- 現場に即したマニュアルを作成した。(Đã soạn sổ tay phù hợp với thực tế hiện trường.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 46 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 46.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜前提で",
+            "back": "Ý nghĩa: Với tiền đề là... / Dựa trên giả định là...\nCấu trúc: N / V-ru / V-ta + 前提で",
+            "romaji": "zentei-de",
+            "example": "来期に人員を増やす前提で予算を組む。\nLập ngân sách với tiền đề sẽ tăng nhân sự kỳ tới.\n\n大会が予定通り開催されるという前提で準備を進める。\nChuẩn bị với giả định giải đấu sẽ diễn ra như dự kiến.\n\n既存システムを活用する前提で設計した。\nĐã thiết kế với tiền đề tận dụng hệ thống hiện có.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜に即した",
+            "back": "Ý nghĩa: Phù hợp với / Dựa theo thực tế...\nCấu trúc: N + に即した",
+            "romaji": "ni-sokushita",
+            "example": "実情に即した支援策が求められている。\nĐang cần những biện pháp hỗ trợ phù hợp với thực trạng.\n\n現場に即したマニュアルを作成した。\nĐã soạn sổ tay phù hợp với thực tế hiện trường.\n\n実態に即した見直しを行う。\nTiến hành rà soát phù hợp với thực tế.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

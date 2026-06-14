@@ -36,21 +36,35 @@ function speakJP(text, rate = 0.85) {
 // ===== Exercise generation =====
 
 function buildExercise(card, allCards, type) {
+  const cleanMeaning = (txt) => {
+    if (!txt) return '';
+    const lines = txt.split('\n').map(l => l.trim());
+    for (const line of lines) {
+      const match = line.match(/^Ý\s*nghĩa\s*:\s*(.*)/i);
+      if (match) {
+        return match[1].trim();
+      }
+    }
+    return txt;
+  };
+
   switch (type) {
     case 'multiple-choice': {
-      const distractors = generateDistractors(card.back, allCards, card.id, 'back', 3);
+      const displayAnswer = cleanMeaning(card.back);
+      const cleanedCards = allCards.map(c => ({ ...c, backClean: cleanMeaning(c.back) }));
+      const distractors = generateDistractors(displayAnswer, cleanedCards, card.id, 'backClean', 3);
       return {
         card, type,
         question: card.front,
-        answer: card.back,
+        answer: displayAnswer,
         hint: card.romaji || null,
-        options: shuffleArray([card.back, ...distractors]),
+        options: shuffleArray([displayAnswer, ...distractors]),
       };
     }
     case 'type-japanese':
       return {
         card, type,
-        question: card.back,
+        question: cleanMeaning(card.back),
         answer: card.front,
         hint: card.romaji || null,
       };
@@ -67,7 +81,7 @@ function buildExercise(card, allCards, type) {
         card, type,
         question: blankedSentence,
         answer: card.front,
-        meaning: card.back,
+        meaning: cleanMeaning(card.back),
         hint: lines[1] || null, // dòng 2 thường là nghĩa câu
         options: shuffleArray([card.front, ...distractors]),
       };

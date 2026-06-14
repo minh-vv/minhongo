@@ -1,0 +1,293 @@
+{
+  "order": 11,
+  "title": "Bài 11 — Muốn làm gì: ～たい",
+  "summary": "Diễn đạt mong muốn với たい, hỏi và đáp về sở thích.",
+  "theoryMd": "### 1. Muốn làm gì với ～たい\n#### 💡 Cấu trúc & Ý nghĩa\n- **Khẳng định**: V-ます(bỏ ます) + たいです: Diễn tả mong muốn của người nói.\n- **Phủ định**: V-ます(bỏ ます) + たくないです: Diễn tả ý muốn không làm.\n- **Nghi vấn**: V-ます(bỏ ます) + たいですか: Hỏi về mong muốn của đối phương.\n\n#### 📝 Ví dụ minh họa\n- わたしは おみずを のみたいです。 (Tôi muốn uống nước.)\n- なにを したいですか。 (Bạn muốn làm gì?)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 11 — Từ vựng",
+        "description": "Từ vựng bài 11: Bài 11 — Muốn làm gì: ～たい",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "言う",
+            "back": "nói, phát biểu",
+            "romaji": "いう",
+            "example": "言う（いう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "出来る",
+            "back": "có thể (làm), được phép",
+            "romaji": "できる",
+            "example": "出来る（できる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "良い",
+            "back": "tốt, đẹp, hay",
+            "romaji": "よい",
+            "example": "良い（よい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "下さい",
+            "back": "làm ơn, xin vui lòng",
+            "romaji": "ください",
+            "example": "下さい（ください）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "見る",
+            "back": "nhìn, xem",
+            "romaji": "みる",
+            "example": "見る（みる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "此の",
+            "back": "này, đây",
+            "romaji": "この",
+            "example": "此の（この）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "自分",
+            "back": "bản thân, chính mình",
+            "romaji": "じぶん",
+            "example": "自分（じぶん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "知る",
+            "back": "biết, nhận thức",
+            "romaji": "しる",
+            "example": "知る（しる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "持つ",
+            "back": "cầm, giữ, mang",
+            "romaji": "もつ",
+            "example": "持つ（もつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "何",
+            "back": "cái gì, gì",
+            "romaji": "なに",
+            "example": "何（なに）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "車",
+            "back": "xe ô tô, xe hơi",
+            "romaji": "くるま",
+            "example": "車（くるま）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "話す",
+            "back": "nói chuyện, trò chuyện",
+            "romaji": "はなす",
+            "example": "話す（はなす）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "今",
+            "back": "bây giờ, hiện tại",
+            "romaji": "いま",
+            "example": "今（いま）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "今日",
+            "back": "hôm nay",
+            "romaji": "きょう",
+            "example": "今日（きょう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "買う",
+            "back": "mua",
+            "romaji": "かう",
+            "example": "買う（かう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "読む",
+            "back": "đọc",
+            "romaji": "よむ",
+            "example": "読む（よむ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "皆",
+            "back": "mọi người, tất cả",
+            "romaji": "みな",
+            "example": "皆（みな）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "新しい",
+            "back": "mới",
+            "romaji": "あたらしい",
+            "example": "新しい（あたらしい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "話",
+            "back": "chuyện, câu chuyện",
+            "romaji": "はなし",
+            "example": "話（はなし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "明日",
+            "back": "ngày mai",
+            "romaji": "あした",
+            "example": "明日（あした）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "昨日",
+            "back": "hôm qua",
+            "romaji": "きのう",
+            "example": "昨日（きのう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "出る",
+            "back": "rời đi, ra ngoài",
+            "romaji": "でる",
+            "example": "出る（でる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "勉強",
+            "back": "học tập",
+            "romaji": "べんきょう",
+            "example": "勉強（べんきょう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "取る",
+            "back": "lấy, nhặt",
+            "romaji": "とる",
+            "example": "取る（とる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "誰",
+            "back": "ai",
+            "romaji": "だれ",
+            "example": "誰（だれ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "お金",
+            "back": "tiền",
+            "romaji": "おかね",
+            "example": "お金（おかね）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "男",
+            "back": "đàn ông, nam giới",
+            "romaji": "おとこ",
+            "example": "男（おとこ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "犬",
+            "back": "chó",
+            "romaji": "いぬ",
+            "example": "犬（いぬ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "使う",
+            "back": "sử dụng, dùng",
+            "romaji": "つかう",
+            "example": "使う（つかう）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "大変",
+            "back": "rất, vô cùng",
+            "romaji": "たいへん",
+            "example": "大変（たいへん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "待つ",
+            "back": "đợi, chờ",
+            "romaji": "まつ",
+            "example": "待つ（まつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "作る",
+            "back": "làm, sản xuất",
+            "romaji": "つくる",
+            "example": "作る（つくる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "後ろ",
+            "back": "phía sau, đằng sau",
+            "romaji": "うしろ",
+            "example": "後ろ（うしろ）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 11 — Ngữ pháp",
+        "description": "Ngữ pháp bài 11: Bài 11 — Muốn làm gì: ～たい",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "V-ます + たい",
+            "back": "Ý nghĩa: Diễn đạt nguyện vọng, mong muốn thực hiện hành động nào đó của bản thân.\nCấu trúc: V-ます (bỏ ます) + たい です",
+            "romaji": "tai",
+            "example": "わたしは おみずを のみたいです。\nTôi muốn uống nước.\n\nわたしは くるまを かいたいです。\nTôi muốn mua xe hơi.\n\nあしたは にほんへ いきたいです。\nNgày mai tôi muốn đi Nhật.\n\nなにか つめたいものを たべたいです。\nTôi muốn ăn cái gì đó lạnh.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V-ます + たくない",
+            "back": "Ý nghĩa: Phủ định của mong muốn, diễn tả ý muốn không làm gì đó.\nCấu trúc: V-ます (bỏ ます) + たくない です",
+            "romaji": "takunai",
+            "example": "わたしは いま、なにも たべたくないです。\nBây giờ tôi không muốn ăn gì cả.\n\nきょうは べんきょうしたくないです。\nHôm nay tôi không muốn học.\n\nさむいので、そとへ でたくないです。\nVì trời lạnh nên tôi không muốn ra ngoài.\n\nしごとは したくないです。\nTôi không muốn làm việc.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "V-ます + たいですか",
+            "back": "Ý nghĩa: Dùng để hỏi về nguyện vọng, mong muốn của đối phương.\nCấu trúc: V-ます (bỏ ます) + たい ですか",
+            "romaji": "taidesuka",
+            "example": "なにを したいですか。\nBạn muốn làm gì?\n\nにほんへ いきたいですか。\nBạn có muốn đi Nhật không?\n\nあした、えいがを みたいですか。\nNgày mai bạn có muốn xem phim không?\n\nなにか のみたいですか。\nBạn có muốn uống gì không?",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

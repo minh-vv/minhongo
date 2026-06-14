@@ -1,0 +1,42 @@
+{
+  "order": 79,
+  "title": "Bài 79 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 79/92).",
+  "theoryMd": "### 1. 〜に先立ち / 2. 〜をもって\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜に先立ち:** Dùng để nói về việc chuẩn bị hoặc thực hiện gì đó trước một sự kiện.\n- **〜をもって:** Dùng trong thông báo chính thức để chỉ thời điểm kết thúc hoặc phương tiện được sử dụng.\n\n#### 📝 Ví dụ minh họa\n- 工事開始に先立ち、近隣への説明会を行います。(Trước khi bắt đầu thi công, chúng tôi sẽ tổ chức buổi giải thích.)\n- 本日をもって退職いたします。(Tôi xin nghỉ việc kể từ hôm nay.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 79 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 79.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜に先立ち",
+            "back": "Ý nghĩa: Trước khi... (thường dùng trong văn viết, ngữ cảnh trang trọng).\nCấu trúc: N + に先立ち / V-ru + に先立って",
+            "romaji": "ni-sakidachi",
+            "example": "工事開始に先立ち、近隣への説明会を行います。\nTrước khi bắt đầu thi công, chúng tôi sẽ tổ chức buổi giải thích cho khu dân cư lân cận.\n\n入学式に先立って、オリエンテーションがあります。\nTrước lễ nhập học sẽ có buổi định hướng.\n\n発表に先立つ最終チェックを済ませた。\nĐã hoàn tất khâu kiểm tra cuối cùng trước buổi thuyết trình.\n\n会議の開催に先立ち、資料を配布する。\nTrước khi bắt đầu cuộc họp, tài liệu sẽ được phát ra.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜をもって",
+            "back": "Ý nghĩa: Lấy... làm mốc thời gian hoặc phương tiện, cách thức để thực hiện hành động.\nCấu trúc: N + をもって",
+            "romaji": "wo-motte",
+            "example": "本日をもって退職いたします。\nTôi xin nghỉ việc kể từ hôm nay.\n\n結果はメールをもってご連絡いたします。\nKết quả sẽ được thông báo bằng email.\n\nこれをもって会議を終了します。\nXin tuyên bố kết thúc cuộc họp tại đây.\n\n本年をもってこのサービスを終了させていただきます。\nKể từ hết năm nay, chúng tôi xin phép ngừng dịch vụ này.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

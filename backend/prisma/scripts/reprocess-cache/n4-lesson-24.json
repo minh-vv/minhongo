@@ -1,0 +1,223 @@
+{
+  "order": 24,
+  "title": "Bài 49 — Từ vựng JLPT N4 (Phần 24)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 24/25.",
+  "theoryMd": "### 1. Kính ngữ (いらっしゃる / おっしゃる)\n#### 💡 Cấu trúc & Ý nghĩa\n- いらっしゃる: Kính ngữ của 行く, 来る, いる.\n- おっしゃる: Kính ngữ của 言う.\n#### 📝 Ví dụ minh họa\n- 先生がいらっしゃいました。(Thầy giáo đã đến.)\n- 先生がそうおっしゃいました。(Thầy giáo đã nói như vậy.)\n\n### 2. Trạng từ (非常に / すっかり)\n#### 💡 Cấu trúc & Ý nghĩa\n- 非常に: Rất (trang trọng).\n- すっかり: Hoàn toàn.\n#### 📝 Ví dụ minh họa\n- 非常に暑い日です。(Ngày hôm nay rất nóng.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 49 — Từ vựng",
+        "description": "Từ vựng bài số 49 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "非常に",
+            "back": "rất, vô cùng, cực kỳ",
+            "romaji": "ひじょうに",
+            "example": "非常に（ひじょうに）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "だから",
+            "back": "vì vậy, do đó",
+            "romaji": "だから",
+            "example": "だから",
+            "jlptLevel": 4
+          },
+          {
+            "front": "はっきり",
+            "back": "rõ ràng, minh bạch",
+            "romaji": "はっきり",
+            "example": "はっきり",
+            "jlptLevel": 4
+          },
+          {
+            "front": "すっかり",
+            "back": "hoàn toàn, toàn bộ",
+            "romaji": "すっかり",
+            "example": "すっかり",
+            "jlptLevel": 4
+          },
+          {
+            "front": "コンサート",
+            "back": "buổi hòa nhạc",
+            "romaji": "コンサート",
+            "example": "コンサート",
+            "jlptLevel": 4
+          },
+          {
+            "front": "漸と",
+            "back": "cuối cùng, sau cùng",
+            "romaji": "やっと",
+            "example": "漸と（やっと）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "あんな",
+            "back": "loại đó, như vậy",
+            "romaji": "あんな",
+            "example": "あんな",
+            "jlptLevel": 4
+          },
+          {
+            "front": "プレゼント",
+            "back": "quà tặng",
+            "romaji": "プレゼント",
+            "example": "プレゼント",
+            "jlptLevel": 4
+          },
+          {
+            "front": "タイプ",
+            "back": "loại, kiểu",
+            "romaji": "タイプ",
+            "example": "タイプ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "レポート",
+            "back": "báo cáo, bài báo cáo",
+            "romaji": "レポート",
+            "example": "レポート",
+            "jlptLevel": 4
+          },
+          {
+            "front": "仰る",
+            "back": "nói, kể (kính ngữ)",
+            "romaji": "おっしゃる",
+            "example": "仰る（おっしゃる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "そろそろ",
+            "back": "sắp sửa, dần dần",
+            "romaji": "そろそろ",
+            "example": "そろそろ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "米",
+            "back": "gạo",
+            "romaji": "こめ",
+            "example": "米（こめ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ベル",
+            "back": "chuông",
+            "romaji": "ベル",
+            "example": "ベル",
+            "jlptLevel": 4
+          },
+          {
+            "front": "いらっしゃる",
+            "back": "đến, đi, ở (kính ngữ)",
+            "romaji": "いらっしゃる",
+            "example": "いらっしゃる",
+            "jlptLevel": 4
+          },
+          {
+            "front": "其れで",
+            "back": "vì vậy, do đó, và",
+            "romaji": "それで",
+            "example": "其れで（それで）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "どんどん",
+            "back": "dồn dập, liên tục, ầm ầm",
+            "romaji": "どんどん",
+            "example": "どんどん",
+            "jlptLevel": 4
+          },
+          {
+            "front": "スーツ",
+            "back": "bộ com lê, bộ vest",
+            "romaji": "スーツ",
+            "example": "スーツ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ワープロ",
+            "back": "máy đánh chữ điện tử, máy xử lý văn bản",
+            "romaji": "ワープロ",
+            "example": "ワープロ",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ちゃん",
+            "back": "hậu tố gọi thân mật",
+            "romaji": "ちゃん",
+            "example": "ちゃん",
+            "jlptLevel": 4
+          },
+          {
+            "front": "汚れる",
+            "back": "bị bẩn, bị dơ",
+            "romaji": "よごれる",
+            "example": "汚れる（よごれる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "パソコン",
+            "back": "máy tính cá nhân, PC",
+            "romaji": "パソコン",
+            "example": "パソコン",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ご馳走",
+            "back": "chiêu đãi, thết đãi",
+            "romaji": "ごちそう",
+            "example": "ご馳走（ごちそう）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 24 — Ngữ pháp",
+        "description": "Ngữ pháp bài 24: Bài 49 — Từ vựng JLPT N4 (Phần 24)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "いらっしゃる",
+            "back": "Ý nghĩa: Kính ngữ của 行く, 来る và いる.\nCấu trúc: Chủ ngữ (người được tôn trọng) + が + いらっしゃる",
+            "romaji": "irassharu",
+            "example": "先生がいらっしゃいました。\nThầy giáo đã đến.\n\nどちらにいらっしゃいますか。\nÔng đang ở đâu ạ?\n\n明日、こちらにいらっしゃいますか。\nNgày mai ngài có đến đây không ạ?",
+            "jlptLevel": 4
+          },
+          {
+            "front": "おっしゃる",
+            "back": "Ý nghĩa: Kính ngữ của 言う.\nCấu trúc: Chủ ngữ (người được tôn trọng) + が + おっしゃる",
+            "romaji": "ossharu",
+            "example": "先生がそうおっしゃいました。\nThầy giáo đã nói như vậy.\n\n何とおっしゃいましたか。\nÔng đã nói gì ạ?\n\n社長がおっしゃる通りにします。\nTôi sẽ làm theo đúng như giám đốc nói.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "非常に / すっかり",
+            "back": "Ý nghĩa: Rất, vô cùng (trang trọng) / Hoàn toàn, hết thảy.\nCấu trúc: Trạng từ bổ nghĩa cho tính từ hoặc động từ.",
+            "romaji": "hijouni / sukkari",
+            "example": "非常に暑い日です。\nNgày hôm nay rất nóng.\n\n忘れ物をすっかり忘れました。\nTôi đã quên sạch sẽ món đồ đó rồi.\n\n非常に難しい問題です。\nĐây là một vấn đề rất khó.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

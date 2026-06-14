@@ -1,0 +1,35 @@
+{
+  "order": 23,
+  "title": "23. ～のだから",
+  "summary": "Ngữ pháp bài số 23 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～のだから\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh lý do vì một sự thật hiển nhiên, từ đó đưa ra lời khuyên, yêu cầu hoặc phán đoán.\n- **Cấu trúc**: V(普) / A-i(普) / A-na(な) / N(な) + のだから\n\n#### 📝 Ví dụ minh họa\n- もう大人なのだから、自分の行動に責任を持つべきだ。\n- あなたは日本語が話せるのだから、通訳をお願いできないでしょうか。\n- 疲れているのだから、無理しないで休んだほうがいいですよ。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 23 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 23 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜のだから",
+            "back": "Ý nghĩa: Vì ~ là một sự thật đương nhiên (mà đôi bên đều biết) nên kết quả là đương nhiên.\nCấu trúc: V(普) / A-i(普) / A-na(な) / N(な) + のだから",
+            "romaji": "no-dakara",
+            "example": "もう大人なのだから、自分の行動に責任を持つべきだ。\nVì đã là người lớn rồi nên đương nhiên phải có trách nhiệm với hành động của mình.\n\nあなたは日本語が話せるのだから、通訳をお願いできないでしょうか。\nVì bạn nói được tiếng Nhật nên tôi có thể nhờ bạn phiên dịch được không?\n\n疲れているのだから、無理しないで休んだほうがいいですよ。\nVì bạn đang mệt nên đương nhiên là nên nghỉ ngơi thì hơn.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

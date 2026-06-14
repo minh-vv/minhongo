@@ -1,0 +1,42 @@
+{
+  "order": 49,
+  "title": "Bài 49 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 49/92).",
+  "theoryMd": "### 1. 〜にもまして\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + にもまして\n- Ý nghĩa: Dùng để so sánh, biểu thị mức độ cao hơn những gì đã biết hoặc đã có từ trước (không chỉ N mà cả những từ chỉ thời gian, trạng thái).\n\n#### 📝 Ví dụ minh họa\n- 今年は例年にもまして台風が多い。(Năm nay bão nhiều hơn mọi năm.)\n- 今日はいつにもまして落ち着いている。(Hôm nay bình tĩnh hơn mọi khi.)\n\n### 2. 〜を踏まえて\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + を踏まえて\n- Ý nghĩa: Dựa trên cơ sở một sự việc, dữ liệu nào đó để đưa ra quyết định hoặc hành động tiếp theo.\n\n#### 📝 Ví dụ minh họa\n- 最新の統計を踏まえて、販売戦略を見直す。(Dựa trên thống kê mới nhất, rà soát lại chiến lược bán hàng.)\n- 皆様からのご意見を踏まえまして、サービスを改善いたします。(Dựa trên ý kiến của quý khách, chúng tôi sẽ cải thiện dịch vụ.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 49 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 49.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜にもまして",
+            "back": "Ý nghĩa: Hơn cả..., hơn bất kỳ lúc nào/thứ gì...\nCấu trúc: N + にもまして",
+            "romaji": "ni-mashite",
+            "example": "今年は例年にもまして台風が多い。\nNăm nay bão nhiều hơn mọi năm.\n\n今日はいつにもまして落ち着いている。\nHôm nay bình tĩnh hơn mọi khi.\n\n彼女は以前にもまして仕事に情熱を注いでいる。\nCô ấy dồn đam mê cho công việc hơn trước.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜を踏まえて",
+            "back": "Ý nghĩa: Dựa trên..., xem xét đến... (để làm việc tiếp theo)\nCấu trúc: N + を踏まえて",
+            "romaji": "wo-fumaete",
+            "example": "最新の統計を踏まえて、販売戦略を見直す。\nDựa trên thống kê mới nhất, rà soát lại chiến lược bán hàng.\n\n先行研究を踏まえた仮説を提示する。\nĐưa ra giả thuyết dựa trên các nghiên cứu trước.\n\n皆様からのご意見を踏まえまして、サービスを改善いたします。\nDựa trên ý kiến của quý khách, chúng tôi sẽ cải thiện dịch vụ.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

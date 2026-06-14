@@ -1,0 +1,35 @@
+{
+  "order": 92,
+  "title": "92. ～やすい",
+  "summary": "Ngữ pháp bài số 92 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜やすい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: V-masu + やすい\n- **Ý nghĩa**: Dùng để diễn tả một hành động dễ thực hiện hoặc một đối tượng dễ rơi vào một trạng thái nhất định do đặc tính của nó.\n\n#### 📝 Ví dụ minh họa\n- このペンはとても書きやすい。\n(Cây bút này rất dễ viết.)\n\n- このガラスは割れやすいので、注意してください。\n(Tấm kính này rất dễ vỡ nên hãy cẩn thận.)\n\n- 夏は食べ物が腐りやすい。\n(Vào mùa hè, thức ăn rất dễ bị thiu.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 92 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 92 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜やすい",
+            "back": "Ý nghĩa: Diễn tả việc dễ thực hiện hành động hoặc dễ rơi vào một trạng thái nào đó do đặc tính khách quan.\nCấu trúc: V-masu + やすい",
+            "romaji": "yasui",
+            "example": "このペンはとても書きやすい。\nCây bút này rất dễ viết.\n\nこのガラスは割れやすいので、注意してください。\nTấm kính này rất dễ vỡ nên hãy cẩn thận.\n\n夏は食べ物が腐りやすい。\nVào mùa hè, thức ăn rất dễ bị thiu.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

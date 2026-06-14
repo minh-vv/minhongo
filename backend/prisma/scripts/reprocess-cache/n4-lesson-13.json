@@ -1,0 +1,223 @@
+{
+  "order": 13,
+  "title": "Bài 38 — Từ vựng JLPT N4 (Phần 13)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 13/25.",
+  "theoryMd": "### 1. AはBのN倍\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Diễn tả sự so sánh gấp bao nhiêu lần.\n- Cấu trúc: Aは Bの + Số đếm + 倍 です\n#### 📝 Ví dụ minh họa\nこの港はあの港の2倍の大きさです。\nCảng này lớn gấp đôi cảng kia.\n\n### 2. 〜に通う\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Thói quen đi lại thường xuyên đến một địa điểm (trường học, công ty).\n- Cấu trúc: [Địa điểm] に 通う\n#### 📝 Ví dụ minh họa\n私は日本語学校に通っています。\nTôi đang theo học tại trường tiếng Nhật.\n\n### 3. 両方\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Chỉ hai vật hoặc hai người.\n- Cấu trúc: A と B (の) + 両方\n#### 📝 Ví dụ minh họa\nりんごとバナナ、両方ください。\nCho tôi cả táo và chuối.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 38 — Từ vựng",
+        "description": "Từ vựng bài số 38 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "以下",
+            "back": "trở xuống, dưới",
+            "romaji": "いか",
+            "example": "以下（いか）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "倍",
+            "back": "gấp đôi, hai lần",
+            "romaji": "ばい",
+            "example": "倍（ばい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "両方",
+            "back": "cả hai",
+            "romaji": "りょうほう",
+            "example": "両方（りょうほう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "港",
+            "back": "cảng, bến cảng",
+            "romaji": "みなと",
+            "example": "港（みなと）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "安心",
+            "back": "yên tâm, an tâm",
+            "romaji": "あんしん",
+            "example": "安心（あんしん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "大体",
+            "back": "đại khái, nói chung",
+            "romaji": "だいたい",
+            "example": "大体（だいたい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "線",
+            "back": "đường, vạch",
+            "romaji": "せん",
+            "example": "線（せん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "下げる",
+            "back": "hạ xuống, treo",
+            "romaji": "さげる",
+            "example": "下げる（さげる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "虫",
+            "back": "côn trùng",
+            "romaji": "むし",
+            "example": "虫（むし）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "小鳥",
+            "back": "chim nhỏ",
+            "romaji": "ことり",
+            "example": "小鳥（ことり）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "高校生",
+            "back": "học sinh cấp ba",
+            "romaji": "こうこうせい",
+            "example": "高校生（こうこうせい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "乗り換える",
+            "back": "chuyển tàu/xe",
+            "romaji": "のりかえる",
+            "example": "乗り換える（のりかえる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "枝",
+            "back": "cành, nhánh",
+            "romaji": "えだ",
+            "example": "枝（えだ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "寺",
+            "back": "chùa",
+            "romaji": "てら",
+            "example": "寺（てら）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "通う",
+            "back": "đi lại, lui tới",
+            "romaji": "かよう",
+            "example": "通う（かよう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "終わり",
+            "back": "sự kết thúc, điểm cuối",
+            "romaji": "おわり",
+            "example": "終わり（おわり）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "店員",
+            "back": "nhân viên cửa hàng",
+            "romaji": "てんいん",
+            "example": "店員（てんいん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "帰り",
+            "back": "sự trở về",
+            "romaji": "かえり",
+            "example": "帰り（かえり）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "着物",
+            "back": "kimono",
+            "romaji": "きもの",
+            "example": "着物（きもの）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "騒ぐ",
+            "back": "làm ồn, gây ồn ào",
+            "romaji": "さわぐ",
+            "example": "騒ぐ（さわぐ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "柔らかい",
+            "back": "mềm, mềm mại",
+            "romaji": "やわらかい",
+            "example": "柔らかい（やわらかい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "丁寧",
+            "back": "lịch sự, cẩn thận",
+            "romaji": "ていねい",
+            "example": "丁寧（ていねい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "丁寧",
+            "back": "lịch sự, cẩn thận",
+            "romaji": "ていねい",
+            "example": "丁寧（ていねい）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 13 — Ngữ pháp",
+        "description": "Ngữ pháp bài 13: Bài 38 — Từ vựng JLPT N4 (Phần 13)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "AはBのN倍",
+            "back": "Ý nghĩa: A gấp N lần B.\nCấu trúc: Aは Bの + Số đếm + 倍 です",
+            "romaji": "a-wa-b-no-n-bai",
+            "example": "この港はあの港の2倍の大きさです。\nCảng này lớn gấp đôi cảng kia.\n\nこの車はあの車の3倍高いです。\nChiếc xe này đắt gấp 3 lần chiếc xe kia.\n\n人口は去年の2倍になりました。\nDân số đã tăng gấp đôi so với năm ngoái.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "〜に通う",
+            "back": "Ý nghĩa: Đi đi về về, thường xuyên đi đến một địa điểm.\nCấu trúc: Địa điểm に 通う",
+            "romaji": "kayou",
+            "example": "毎日、この電車で高校に通っています。\nMỗi ngày, tôi đi học cấp 3 bằng chuyến tàu này.\n\n私は日本語学校に通っています。\nTôi đang theo học tại trường tiếng Nhật.\n\n彼は毎日会社に通います。\nAnh ấy đi làm ở công ty mỗi ngày.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "両方",
+            "back": "Ý nghĩa: Cả hai.\nCấu trúc: A と B (の) + 両方",
+            "romaji": "ryouhou",
+            "example": "虫と小鳥、両方が好きです。\nTôi thích cả côn trùng và chim nhỏ.\n\nりんごとバナナ、両方ください。\nCho tôi cả táo và chuối.\n\nこれとそれ、両方必要です。\nCả cái này và cái đó, tôi đều cần.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

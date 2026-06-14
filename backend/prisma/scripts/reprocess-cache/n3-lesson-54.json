@@ -1,0 +1,35 @@
+{
+  "order": 54,
+  "title": "54. まで",
+  "summary": "Ngữ pháp bài số 54 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜まで\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để thể hiện sự ngạc nhiên hoặc phê phán một trạng thái/hành động đã đi quá giới hạn bình thường.\n- **Cấu trúc:** N + まで / V-て + まで\n\n#### 📝 Ví dụ minh họa\n- 親友にまで騙されるとは思わなかった。 (Tôi không thể ngờ được là đến cả người bạn thân cũng lừa dối mình.)\n- 借金してまで新しい車を買いたくない。 (Tôi không muốn đến mức phải vay nợ để mua một chiếc xe hơi mới.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 54 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 54 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜まで",
+            "back": "Ý nghĩa: Đến mức, đến cả (thể hiện sự ngạc nhiên về phạm vi rộng hoặc hành động quá mức cần thiết).\nCấu trúc: N + まで / V-te + まで",
+            "romaji": "made",
+            "example": "親友にまで騙されるとは思わなかった。\nTôi không thể ngờ được là đến cả người bạn thân cũng lừa dối mình.\n\n借金してまで新しい車を買いたくない。\nTôi không muốn đến mức phải vay nợ để mua một chiếc xe hơi mới.\n\n嘘をついてまで勝とうとは思わない。\nTôi không nghĩ đến mức phải nói dối để giành chiến thắng.\n\n親にまで反対された。\nĐến cả bố mẹ cũng phản đối tôi.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

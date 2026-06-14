@@ -1,0 +1,35 @@
+{
+  "order": 33,
+  "title": "33. ～という",
+  "summary": "Ngữ pháp bài số 33 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～という\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nghe nói là... (Dùng để trích dẫn thông tin, diễn đạt trang trọng, thường xuất hiện trong tin tức hoặc văn viết).\n- **Cấu trúc**: [Thể thông thường (普通形)] ＋ という\n\n#### 📝 Ví dụ minh họa\n- 物価は来年からさらに上がるという。\nNghe nói từ năm sau giá cả sẽ còn tăng hơn nữa.\n\n- この地域は昔、海だったという。\nNghe nói khu vực này ngày xưa là biển.\n\n- 彼は非常に優秀な研究者だったという。\nNghe nói ông ấy từng là một nhà nghiên cứu cực kỳ ưu tú.\n\n- 今回の会議で新しい計画が発表されるという。\nNghe nói trong cuộc họp lần này sẽ công bố kế hoạch mới.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 33 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 33 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜という",
+            "back": "Ý nghĩa: Nghe nói là... (Lối diễn đạt trang trọng, lịch sự, thường dùng nhiều trong văn viết).\nCấu trúc: Thể thông thường (普通形) ＋ という",
+            "romaji": "to-iu",
+            "example": "物価は来年からさらに上がるという。\nNghe nói từ năm sau giá cả sẽ còn tăng hơn nữa.\n\nこの地域は昔、海だったという。\nNghe nói khu vực này ngày xưa là biển.\n\n彼は非常に優秀な研究者だったという。\nNghe nói ông ấy từng là một nhà nghiên cứu cực kỳ ưu tú.\n\n今回の会議で新しい計画が発表されるという。\nNghe nói trong cuộc họp lần này sẽ công bố kế hoạch mới.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

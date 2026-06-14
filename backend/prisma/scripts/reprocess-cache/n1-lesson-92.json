@@ -1,0 +1,35 @@
+{
+  "order": 92,
+  "title": "Bài 92 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 92/92).",
+  "theoryMd": "## Tổng hợp Ngữ pháp N1 - Bài 92\n\n### 1. 〜きらいがある\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Có xu hướng, có khuynh hướng (thường dùng để nói về một thói quen hoặc tính cách tiêu cực).\n- **Cấu trúc**: V-ru / N-no + きらいがある\n#### 📝 Ví dụ minh họa\n- 彼は物事を先延ばしにするきらいがある。(Anh ấy có xu hướng trì hoãn mọi việc.)\n- この会社は短期的な利益を重視するきらいがある。(Công ty này có xu hướng coi trọng lợi nhuận ngắn hạn.)\n- 私は人の話を最後まで聞かないきらいがある。(Tôi có tật không nghe người khác đến cùng.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 92 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 92.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜きらいがある",
+            "back": "Ý nghĩa: Có xu hướng, có khuynh hướng (thường dùng để nói về một thói quen hoặc tính cách tiêu cực).\nCấu trúc: V-ru / N-no + きらいがある",
+            "romaji": "kirai-ga-aru",
+            "example": "彼は物事を先延ばしにするきらいがある。\nAnh ấy có xu hướng trì hoãn mọi việc.\n\nこの会社は短期的な利益を重視するきらいがある。\nCông ty này có xu hướng coi trọng lợi nhuận ngắn hạn.\n\n私は人の話を最後まで聞かないきらいがある。\nTôi có tật không nghe người khác đến cùng.\n\n彼は少し慎重すぎるきらいがある。\nAnh ấy có khuynh hướng hơi quá thận trọng.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

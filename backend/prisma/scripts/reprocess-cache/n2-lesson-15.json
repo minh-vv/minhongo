@@ -1,0 +1,63 @@
+{
+  "order": 15,
+  "title": "Bài 15: Giả định (〜としたら・〜とすれば, 〜ものなら, 〜（よ）うものなら, 〜ないことには, 〜を抜きにしては, 〜としても)",
+  "summary": "Các cấu trúc giả định: 〜としたら・〜とすれば, 〜ものなら, 〜（よ）うものなら, 〜ないことには, 〜を抜きにしては, 〜としても",
+  "theoryMd": "### Bài 15: Cấu trúc giả định\n\n- **〜としたら・〜とすれば**: Đặt giả thuyết.\n- **〜ものなら**: Mong ước trong trường hợp không thể.\n- **〜（よ）うものなら**: Cảnh báo kết quả xấu nếu lỡ làm.\n- **〜ないことには**: Điều kiện cần để B xảy ra.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 15 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 15: Giả định (〜としたら・〜とすれば, 〜ものなら, 〜（よ）うものなら, 〜ないことには, 〜を抜きにしては, 〜としても)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜としたら・〜とすれば",
+            "back": "Ý nghĩa: Giả định trường hợp xảy ra.\nCấu trúc: V-plain / N / A-i / A-na + としたら・とすれば",
+            "romaji": "to shitara / to sureba",
+            "example": "無人島に何か一つだけ持っていけるとしたら、何を持っていきたいですか。\nNếu được mang theo một thứ duy nhất tới đảo hoang, bạn muốn mang theo thứ gì?\n\n明日地球が滅びるとしたら、最後に何を食べたいですか。\nNếu ngày mai trái đất diệt vong, bạn muốn ăn món gì cuối cùng?\n\n100万円あるとすれば、何に使いますか。\nNếu có 1 triệu yên, bạn sẽ dùng làm gì?",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ものなら",
+            "back": "Ý nghĩa: Nếu có thể... thì muốn làm (giả định việc khó hoặc không thể).\nCấu trúc: V-potential (thể khả năng) + ものなら",
+            "romaji": "mono nara",
+            "example": "戻れるものなら２０年前の私に戻って人生をやり直したい。\nNếu có thể quay lại, tôi muốn quay lại làm bản thân 20 năm trước.\n\n病気が治るものなら、どんな高い薬でも買いたい。\nNếu bệnh này chữa khỏi được, dù thuốc có đắt thế nào tôi cũng mua.\n\nやめられるものなら、今すぐこの仕事をやめたい。\nNếu có thể bỏ được, tôi muốn bỏ công việc này ngay lập tức.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜（よ）うものなら",
+            "back": "Ý nghĩa: Nếu lỡ làm điều đó thì hậu quả rất lớn.\nCấu trúc: V-volitional (thể ý chí) + ものなら",
+            "romaji": "yo u mono nara",
+            "example": "山道は危ない。ちょっと足を踏み外そうものなら、大けがをするだろう。\nĐường núi rất nguy hiểm. Nếu trượt chân một chút là sẽ bị thương nặng ngay.\n\n先生に隠れて携帯を使おうものなら、没収されてしまう。\nNếu lén lút dùng điện thoại trước mặt thầy cô, sẽ bị tịch thu ngay.\n\n嘘をつこうものなら、父はとても怒るだろう。\nNếu lỡ nói dối, bố chắc chắn sẽ giận dữ lắm.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ないことには",
+            "back": "Ý nghĩa: Nếu không làm A thì không thể thực hiện B.\nCấu trúc: V-nai / A-kunai / A-de nai / N-de nai + ことには",
+            "romaji": "nai koto ni wa",
+            "example": "お金がないことには、この計画は進められない。\nNếu không có tiền, kế hoạch này không thể tiến hành được.\n\n本人に直接聞かないことには、本当の理由はわからない。\nNếu không hỏi trực tiếp chính chủ thì không thể biết được lý do thực sự.\n\nやってみないことには、成功するかどうかわからない。\nNếu không thử làm thì không thể biết được có thành công hay không.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜を抜きにしては",
+            "back": "Ý nghĩa: Nếu không có A thì không thể làm B.\nCấu trúc: N + を抜きにしては",
+            "romaji": "o nuki ni shite wa",
+            "example": "ボランティアの人たちの助けを抜きにしては、計画は無理だと思う。\nNếu không có sự giúp đỡ của các bạn tình nguyện viên, kế hoạch này bất khả thi.\n\n彼の努力を抜きにしては、このプロジェクトの成功は語れない。\nNếu không có nỗ lực của anh ấy, không thể nói đến thành công của dự án này.\n\n笑顔を抜きにしては、よいサービスとは言えない。\nNếu không có nụ cười, thì không thể gọi là dịch vụ tốt.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 6
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "order": 28,
+  "title": "28. ～ば…・～たら…・～なら…",
+  "summary": "Ngữ pháp bài số 28 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～ば…・～たら…・～なら…\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \"Giá mà... thì tốt rồi / Lẽ ra... thì đã...\". Diễn tả sự nuối tiếc, giả định trái ngược với sự thật đã xảy ra.\n- **Cấu trúc:** \n  - Động từ thể ば / たら\n  - Tính từ -i + ければ / かったら\n  - Tính từ -na + なら / だったら\n  - Danh từ + なら / だったら\n\n#### 📝 Ví dụ minh họa\n- もっと時間があれば、あの仕事もできたのに。\n(Nếu có nhiều thời gian hơn thì tôi đã làm được công việc đó rồi.)\n\n- もう少し早く出ていれば、電車に間に合っただろうに。\n(Nếu ra sớm hơn một chút thì có lẽ đã kịp chuyến tàu rồi.)\n\n- 学生時代、もっと勉強していればよかった。\n(Giá mà hồi sinh viên tôi học hành chăm chỉ hơn thì tốt rồi.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 28 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 28 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "～ば…・～たら…・～なら…",
+            "back": "Ý nghĩa: \"Nếu ~ (thì đã...) nhưng thực tế lại không phải vậy\". Diễn tả sự hối tiếc về một việc đã không xảy ra trong quá khứ hoặc hiện tại.\nCấu trúc: Động từ thể ば形 / Tính từ -i (bỏ い) + ければ / Tính từ -na (bỏ な) + なら / Danh từ + なら",
+            "romaji": "ba, tara, nara",
+            "example": "もっと時間があれば、あの仕事もできたのに。\nNếu có nhiều thời gian hơn thì tôi đã làm được công việc đó rồi.\n\nもう少し早く出ていれば、電車に間に合っただろうに。\nNếu ra sớm hơn một chút thì có lẽ đã kịp chuyến tàu rồi.\n\n学生時代、もっと勉強していればよかった。\nGiá mà hồi sinh viên tôi học hành chăm chỉ hơn thì tốt rồi.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

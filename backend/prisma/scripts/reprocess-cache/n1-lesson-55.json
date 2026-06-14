@@ -1,0 +1,42 @@
+{
+  "order": 55,
+  "title": "Bài 55 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 55/92).",
+  "theoryMd": "### 1. 〜からある / 〜からする\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh số lượng/giá trị rất lớn (thường lớn hơn mức độ thông thường).\n- **Cấu trúc**:\n  - `〜からある`: Dùng cho trọng lượng, kích thước, khoảng cách.\n  - `〜からする`: Dùng cho giá tiền.\n\n#### 📝 Ví dụ minh họa\n- この荷物は20キロからある。\n(Kiện hàng này nặng tới 20kg.)\n- この時計は100万円からする。\n(Cái đồng hồ này giá lên tới 100 vạn yên.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 55 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 55.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜からある",
+            "back": "Ý nghĩa: Lên đến, nặng đến, xa đến (nhấn mạnh số lượng/kích thước lớn hơn dự kiến).\nCấu trúc: Số lượng + からある",
+            "romaji": "kara-aru",
+            "example": "この荷物は20キロからある。\nKiện hàng này nặng tới 20 kg.\n\nここから駅までは5キロからあるよ。\nTừ đây đến ga cũng phải 5 km đấy.\n\n彼は100キロからある体重を減らそうと決心した。\nAnh ấy quyết tâm giảm cân nặng lên tới 100 kg.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜からする",
+            "back": "Ý nghĩa: Lên đến, giá trị đến (nhấn mạnh giá tiền cao).\nCấu trúc: Giá tiền + からする",
+            "romaji": "kara-suru",
+            "example": "改装には数百万円からする費用がかかる。\nViệc cải tạo tốn chi phí ít nhất hàng trăm vạn yên.\n\n最新モデルは千ドルからするという。\nMẫu mới nghe nói có giá từ 1.000 đô.\n\nこの時計は100万円からする高級品だ。\nChiếc đồng hồ này là món đồ xa xỉ có giá lên tới 100 vạn yên.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

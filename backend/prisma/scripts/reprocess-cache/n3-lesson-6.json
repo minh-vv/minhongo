@@ -1,0 +1,35 @@
+{
+  "order": 6,
+  "title": "6. ～によって…・～によっては…",
+  "summary": "Ngữ pháp bài số 6 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～によって / 〜によっては\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Diễn tả nguyên nhân, phương pháp hoặc sự thay đổi tùy theo từng trường hợp (không cố định). Với ～によっては, nhấn mạnh vào việc đưa ra một trường hợp cụ thể trong nhiều khả năng.\n- **Công thức:** Danh từ + によって / によっては\n\n#### 📝 Ví dụ minh họa\n- インターネットによって、世界中の情報が瞬時に手に入る。\n(Nhờ internet, thông tin trên khắp thế giới có thể được nắm bắt ngay lập tức.)\n- 国によって、文化や習慣が大きく異なります。\n(Tùy theo quốc gia, văn hóa và phong tục tập quán khác nhau rất nhiều.)\n- この店は週末には混むが、時間帯によってはすぐ入れることもある。\n(Cửa hàng này đông vào cuối tuần, nhưng tùy theo khung giờ mà đôi khi có thể vào ngay được.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 6 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 6 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜によって / 〜によっては",
+            "back": "Ý nghĩa: Diễn tả nguyên nhân, phương pháp hoặc sự khác biệt tùy thuộc vào yếu tố nào đó (khi sự việc không cố định mà thay đổi theo một yếu tố). Dùng '～によっては' để đưa ra một ví dụ, trường hợp đặc biệt.\nCấu trúc: N + によって / によっては",
+            "romaji": "ni-yotte / ni-yotte-wa",
+            "example": "インターネットによって、世界中の情報が瞬時に手に入る。\nNhờ internet, thông tin trên khắp thế giới có thể được nắm bắt ngay lập tức.\n\n国によって、文化や習慣が大きく異なります。\nTùy theo quốc gia, văn hóa và phong tục tập quán khác nhau rất nhiều.\n\nこの店は週末には混むが、時間帯によってはすぐ入れることもある。\nCửa hàng này đông vào cuối tuần, nhưng tùy theo khung giờ mà đôi khi có thể vào ngay được.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

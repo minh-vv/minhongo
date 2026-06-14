@@ -1,0 +1,35 @@
+{
+  "order": 46,
+  "title": "46. ～ことにする・～ことにしている",
+  "summary": "Ngữ pháp bài số 46 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～ことにする・～ことにしている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** Động từ (Từ điển / V-ない) + ことにする / ことにしている\n- **Ý nghĩa:** \n  - 「～ことにする」: Diễn tả quyết định làm hoặc không làm gì (thể hiện ý chí cá nhân).\n  - 「～ことにしている」: Diễn tả một thói quen hoặc quy tắc do bản thân tự quyết định và đang duy trì thực hiện.\n\n#### 📝 Ví dụ minh họa\n- 健康のため、毎日野菜を食べることにしました。\n(Vì sức khỏe, tôi đã quyết định mỗi ngày đều ăn rau.)\n- 夜はスマホを見ないことにしている。\n(Tôi tự quy định với bản thân là không xem điện thoại vào ban đêm.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 46 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 46 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ことにする・〜ことにしている",
+            "back": "Ý nghĩa: Quyết định thực hiện một hành động nào đó. Dạng 「～ことにしている」 thể hiện thói quen hoặc quy tắc do bản thân tự đề ra và đang duy trì.\nCấu trúc: Động từ (Từ điển / V-ない) + ことにする / ことにしている",
+            "romaji": "koto ni suru / koto ni shite iru",
+            "example": "健康のため、毎日野菜を食べることにしました。\nVì sức khỏe, tôi đã quyết định mỗi ngày đều ăn rau.\n\n夜はスマホを見ないことにしている。\nTôi tự quy định với bản thân là không xem điện thoại vào ban đêm.\n\n留学するために、毎月少しずつ貯金することにした。\nTôi đã quyết định mỗi tháng tiết kiệm một ít để đi du học.\n\n朝は毎日コップ一杯の水を飲むことにしている。\nTôi có thói quen uống một cốc nước mỗi sáng.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

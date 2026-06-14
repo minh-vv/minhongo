@@ -1,0 +1,35 @@
+{
+  "order": 29,
+  "title": "29. ～ということだ・～とのことだ",
+  "summary": "Ngữ pháp bài số 29 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～ということだ・～とのことだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \n  - 「～ということだ」: Nghe nói là / Có nghĩa là (định nghĩa).\n  - 「～とのことだ」: Truyền đạt lại lời nhắn từ người khác (trang trọng).\n- **Cấu trúc:** \n  - Thể thông thường (普通形) + ということだ / とのことだ\n\n#### 📝 Ví dụ minh họa\n- 部長は出張で、今週末まで戻らないということだ。\n(Nghe nói trưởng phòng đang đi công tác nên cuối tuần này mới về.)\n\n- 先生から、明日のテストは範囲が変更になったとのことです。\n(Thầy giáo nói là phạm vi bài kiểm tra ngày mai đã thay đổi.)\n\n- このボタンを押すと、ドアが開くということだ。\n(Ấn nút này thì cửa sẽ mở.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 29 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 29 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "～ということだ・～とのことだ",
+            "back": "Ý nghĩa: \"Nghe nói là ~\", \"có nghĩa là ~\", \"có lời nhắn là ~ \". Dùng để truyền đạt lại thông tin hoặc diễn giải ý nghĩa.\nCấu trúc: 普通形 + ということだ / とのことだ",
+            "romaji": "to-iu-koto-da, to-no-koto-da",
+            "example": "部長は出張で、今週末まで戻らないということだ。\nNghe nói trưởng phòng đang đi công tác nên cuối tuần này mới về.\n\n先生から、明日のテストは範囲が変更になったとのことです。\nThầy giáo nói là phạm vi bài kiểm tra ngày mai đã thay đổi.\n\nこのボタンを押すと、ドアが開くということだ。\nẤn nút này thì cửa sẽ mở.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

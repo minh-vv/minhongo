@@ -1,0 +1,35 @@
+{
+  "order": 42,
+  "title": "42. 命令（しろ）/禁止（～な）",
+  "summary": "Ngữ pháp bài số 42 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 命令形 (Mệnh lệnh) & 禁止形 (Cấm đoán)\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **命令形 (Mệnh lệnh):** Dùng để ra lệnh hoặc thúc giục. Thường dùng trong tình huống khẩn cấp, thể thao, hoặc giữa nam giới thân thiết.\n  - Nhóm 1: Chuyển đuôi 'u' thành 'e' (ik-u -> ik-e)\n  - Nhóm 2: Chuyển 'ru' thành 'ro' (taber-u -> tabe-ro)\n  - Nhóm 3: suru -> shiro, kuru -> koi\n- **禁止形 (Cấm đoán):** Dùng để cấm hành động, thường là biển báo hoặc thái độ quyết liệt.\n  - Cấu trúc: V-ru + な\n\n#### 📝 Ví dụ minh họa\n- 早く寝ろ！ (Hãy ngủ sớm đi!)\n- ここに車を止めるな。(Không được đỗ xe ở đây.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 42 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 42 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "命令形 / 禁止形",
+            "back": "Ý nghĩa: Hãy làm / Không được làm (Mệnh lệnh và cấm đoán mang tính mạnh mẽ).\nCấu trúc: \nNhóm 1: -u -> -e (Mệnh lệnh) / V-ru + な (Cấm đoán)\nNhóm 2: -ru -> -ro (Mệnh lệnh)\nNhóm 3: suru -> shiro, kuru -> koi (Mệnh lệnh)",
+            "romaji": "meirei-kei / kinshi-kei",
+            "example": "早く寝ろ！明日も早いぞ。\nHãy ngủ sớm đi! Ngày mai cũng phải dậy sớm đấy.\n\nここに車を止めるな。\nKhông được đỗ xe ở đây.\n\nがんばれ！あと少しだ。\nCố lên! Còn một chút nữa thôi.\n\nもっと練習しろ。\nHãy luyện tập nhiều hơn nữa đi.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

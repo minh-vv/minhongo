@@ -1,0 +1,63 @@
+{
+  "order": 16,
+  "title": "Bài 16: Nguyên nhân / Lý do (〜によって, 〜ものながら・〜もので, 〜おかげだ / 〜せいだ, 〜あまり・〜あまりの〜に, 〜につき)",
+  "summary": "Các cấu trúc chỉ nguyên nhân lý do: 〜によって, 〜ものながら・〜もので, 〜おかげだ / 〜せいだ, 〜あまり・〜あまりの〜に, 〜につき",
+  "theoryMd": "### Bài 16: Các mẫu câu chỉ nguyên nhân, lý do\n\nTrong bài này, chúng ta học cách diễn đạt lý do trong các tình huống từ giao tiếp hàng ngày đến thông báo trang trọng.\n\n### 1. 〜によって\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ nguyên nhân gây ra kết quả hoặc phương thức thực hiện.\n- **Cấu trúc**: N + によって / による + N\n\n#### 📝 Ví dụ minh họa\n- 会長が交替したことによって、会の雰囲気が大きく変わった。\n- この問題は専門家による調査が必要だ。\n\n### 2. 〜ものだから・〜もので・〜もの\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đưa ra lý do để biện hộ, phân trần.\n- **Cấu trúc**: Thể thông thường + ものだから / もので (N/Na + な)\n\n### 3. 〜おかげで / 〜せいで\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhờ có (tích cực) / Tại vì (tiêu cực).\n- **Cấu trúc**: Thể thông thường + おかげで / せいで (N + の, Na + な)\n\n### 4. 〜あまり / 〜あまりの〜に\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Vì quá mức độ dẫn đến kết quả ngoài dự kiến.\n- **Cấu trúc**: V-ru/V-ta/N-no + あまり ; あまりの + N + に\n\n### 5. 〜につき\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Vì lý do... (dùng trong văn bản, thông báo trang trọng).\n- **Cấu trúc**: N + につき",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 16 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 16: Nguyên nhân / Lý do (〜によって, 〜ものながら・〜もので, 〜おかげだ / 〜せいだ, 〜あまり・〜あまりの〜に, 〜につき)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜によって",
+            "back": "Ý nghĩa: Chỉ nguyên nhân/lý do gây ra kết quả, hoặc bằng phương thức/cách thức nào đó.\nCấu trúc: N + によって / による + N",
+            "romaji": "ni yotte",
+            "example": "会長が交替したことによって、会の雰囲気が大きく変わった。\nVì việc thay đổi chủ tịch, bầu không khí của hội đã thay đổi nhiều.\n\n不注意によって引き起こされた事故は、十分に防ぐことができた。\nTai nạn do bất cẩn gây ra hoàn toàn có thể phòng tránh được.\n\nこの問題は専門家による調査が必要だ。\nVấn đề này cần sự điều tra bởi chuyên gia.\n\n法律によって、未成年の飲酒は禁止されている。\nTheo luật định, việc uống rượu ở người chưa thành niên bị cấm.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ものだから・〜もので・〜もの",
+            "back": "Ý nghĩa: Đưa ra lý do để biện hộ, phân trần cho bản thân (thường dùng trong văn nói).\nCấu trúc: Thể thông thường + ものだから / もので / もの (Tính từ-na: な, Danh từ: な)",
+            "romaji": "mono dakara / monde / mono",
+            "example": "このところ忙しかったもので、お返事が遅れてしまいました。\nVì dạo này bận quá nên tôi đã trả lời chậm mất.\n\n知らなかったものだから、失礼なことを言ってしまいました。\nVì tôi không biết chuyện đó nên đã lỡ lời nói điều thất lễ.\n\nつい眠かったものだから、授業中に居眠りをしてしまった。\nVì lỡ buồn ngủ quá nên tôi đã ngủ gật trong giờ học.\n\n一人暮らしなもので、料理はあまり作らないんです。\nVì sống một mình nên tôi không nấu ăn mấy.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜おかげで / 〜せいで",
+            "back": "Ý nghĩa: Nhờ có (kết quả tốt) / Tại vì (kết quả xấu).\nCấu trúc: Thể thông thường + おかげで / せいで (Tính từ-na: な, Danh từ: の)",
+            "romaji": "okage de / sei de",
+            "example": "私が大学に合格できたのは、A先生のおかげです。\nTôi có thể đỗ được đại học là nhờ ơn của thầy A.\n\n昨日飲みすぎたせいで、今日は頭が痛い。\nTại vì hôm qua uống quá chén nên hôm nay tôi bị đau đầu.\n\n天気のおかげで、楽しい遠足になった。\nNhờ thời tiết đẹp mà buổi dã ngoại đã rất vui vẻ.\n\n君が嘘をついたせいで、みんなに迷惑をかけたんだぞ。\nTại vì cậu nói dối nên đã gây phiền phức cho mọi người rồi đấy.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜あまり / 〜あまりの〜に",
+            "back": "Ý nghĩa: Vì quá mức độ cực đoan dẫn đến một kết quả không tốt ngoài dự kiến.\nCấu trúc: V-ru / V-ta / N-no + あまり ; あまりの + N + に",
+            "romaji": "amari / amari no ... ni",
+            "example": "悔しさのあまり、ぼろぼろ涙がこぼれた。\nVì quá ấm ức nên nước mắt cứ thế tuôn rơi.\n\nあまりの驚きに、声も出なかった。\nVì quá kinh ngạc nên tôi không thốt ra được thành lời.\n\n緊張のあまり、頭が真っ白になってしまった。\nVì quá căng thẳng nên đầu óc tôi trở nên trống rỗng.\n\nあまりの暑さに、エアコンをつけずにはいられなかった。\nVì quá nóng nên tôi không thể chịu được mà phải bật điều hòa.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜につき",
+            "back": "Ý nghĩa: Vì lý do... (dùng trong văn bản chính thức, thông báo trang trọng).\nCấu trúc: N + につき",
+            "romaji": "ni tsuki",
+            "example": "本日は祝日につき、閉館しております。\nHôm nay là ngày lễ nên chúng tôi xin phép đóng cửa.\n\nただいま清掃中につき、立ち入り禁止。\nHiện đang dọn dẹp nên cấm vào.\n\n店内の改装につき、臨時休業いたします。\nVì cửa hàng đang sửa chữa nên chúng tôi xin tạm nghỉ.\n\n雨天につき、試合は中止となります。\nVì trời mưa nên trận đấu sẽ bị hủy.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 5
+  }
+}

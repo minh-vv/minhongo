@@ -1,0 +1,35 @@
+{
+  "order": 37,
+  "title": "37. ～ないことはない",
+  "summary": "Ngữ pháp bài số 37 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～ないことはない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không phải là không... (Phủ định của phủ định). Cách diễn đạt mang tính khẳng định nhưng nhẹ nhàng, dè dặt.\n- **Cấu trúc**: V-nai / A-i くない / A-na でない / N でない + ことはない\n#### 📝 Ví dụ minh họa\n- お肉は食べないことはないですが、あまり好きではありません。\n- 日本語の新聞も、辞書を使えば読めないことはない。\n- 走れば間に合わないことはないが、急ごう。\n- 言いにくいが、言えないことはない。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 37 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 37 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ないことはない",
+            "back": "Ý nghĩa: Không phải là không... (Dùng phủ định của phủ định để biểu thị sự khẳng định dè dặt, ngập ngừng).\nCấu trúc: V-nai / A-i くない / A-na でない / N でない + ことはない",
+            "romaji": "nai koto wa nai",
+            "example": "お肉は食べないことはないですが、あまり好きではありません。\nKhông phải là tôi không ăn thịt, nhưng không thích lắm.\n\n日本語の新聞も、辞書を使えば読めないことはない。\nBáo tiếng Nhật thì nếu dùng từ điển cũng không phải là không đọc được.\n\n走れば間に合わないことはないが、急ごう。\nNếu chạy thì không phải là không kịp, nhưng hãy khẩn trương lên.\n\n言いにくいが、言えないことはない。\nKhó nói thật, nhưng không phải là không nói được.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

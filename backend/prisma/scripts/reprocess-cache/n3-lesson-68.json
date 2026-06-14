@@ -1,0 +1,35 @@
+{
+  "order": 68,
+  "title": "68. ～わけにはいかない",
+  "summary": "Ngữ pháp bài số 68 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～わけにはいかない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng khi muốn nói rằng không thể thực hiện một hành động nào đó vì rào cản về mặt tâm lý, đạo đức, hoặc trách nhiệm xã hội, mặc dù bản thân có thể muốn làm.\n- **Cấu trúc**: V-ru + わけにはいかない\n\n#### 📝 Ví dụ minh họa\n明日は大事な試験があるから、休むわけにはいかない。\nVì ngày mai có kỳ thi quan trọng nên tôi không thể nghỉ được.\n\n車で来たので、お酒を飲むわけにはいかない。\nVì đi xe đến đây nên tôi không thể uống rượu được.\n\n社長の命令だから、断るわけにはいかない。\nVì là mệnh lệnh của giám đốc nên tôi không thể từ chối được.\n\n友達との約束なので、忘れるわけにはいかない。\nVì là lời hứa với bạn nên tôi không thể quên được.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 68 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 68 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜わけにはいかない",
+            "back": "Ý nghĩa: Không thể làm gì đó vì lý do đạo đức, quy chuẩn xã hội hoặc hoàn cảnh khách quan dù rất muốn.\nCấu trúc: V-ru + わけにはいかない",
+            "romaji": "wake ni wa ikanai",
+            "example": "明日は大事な試験があるから、休むわけにはいかない。\nVì ngày mai có kỳ thi quan trọng nên tôi không thể nghỉ được.\n\n車で来たので、お酒を飲むわけにはいかない。\nVì đi xe đến đây nên tôi không thể uống rượu được.\n\n社長の命令だから、断るわけにはいかない。\nVì là mệnh lệnh của giám đốc nên tôi không thể từ chối được.\n\n友達との約束なので、忘れるわけにはいかない。\nVì là lời hứa với bạn nên tôi không thể quên được.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

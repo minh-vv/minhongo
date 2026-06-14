@@ -1,0 +1,42 @@
+{
+  "order": 73,
+  "title": "73. ～ばかりだ",
+  "summary": "Ngữ pháp bài số 73 sách Shinkanzen Master N3 (2 thẻ).",
+  "theoryMd": "### 1. 〜ばかりだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa (Biến đổi)**: Diễn tả một sự thay đổi liên tục theo một chiều hướng (thường là tiêu cực).\n  * Cấu trúc: V-ru (chỉ sự biến đổi như 悪くなる, 減る...) + ばかりだ\n- **Ý nghĩa (Chuẩn bị)**: Diễn tả trạng thái đã sẵn sàng, chỉ còn thiếu một hành động cuối cùng là xong.\n  * Cấu trúc: V-ru + ばかりだ\n\n#### 📝 Ví dụ minh họa\n- 祖父の病気は悪くなるばかりだ。\nBệnh tình của ông tôi cứ ngày một xấu đi.\n\n- 荷物の用意もできて、出発するばかりだ。\nHành lý đã chuẩn bị xong, chỉ còn chờ xuất phát thôi.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 73 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 73 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ばかりだ (biến đổi)",
+            "back": "Ý nghĩa: Cứ ngày một... (biểu thị sự biến đổi theo một chiều hướng xấu đi).\nCấu trúc: V-ru (các động từ chỉ sự thay đổi) + ばかりだ",
+            "romaji": "bakari da",
+            "example": "祖父の病気は悪くなるばかりだ。\nBệnh tình của ông tôi cứ ngày một xấu đi.\n\n物価は上がるばかりで、生活がだんだん苦しくなってきた。\nGiá cả cứ ngày một tăng cao, cuộc sống dần trở nên khó khăn hơn.\n\n最近、仕事が増えるばかりで忙しい。\nDạo gần đây, công việc cứ tăng lên mãi nên tôi rất bận rộn.",
+            "jlptLevel": 3
+          },
+          {
+            "front": "〜ばかりだ (chuẩn bị)",
+            "back": "Ý nghĩa: Đã chuẩn bị xong hết, chỉ còn chờ thực hiện hành động đó.\nCấu trúc: V-ru + ばかりだ",
+            "romaji": "bakari da",
+            "example": "料理もできたし、テーブルも片付けた。あとはお客さんを待つばかりだ。\nMón ăn đã nấu xong, bàn ăn cũng dọn dẹp rồi. Giờ chỉ còn chờ khách đến nữa thôi.\n\n荷物の用意もできて、出発するばかりだ。\nHành lý đã chuẩn bị xong, chỉ còn chờ xuất phát thôi.\n\n準備は整った。あとは本番を待つばかりだ。\nChuẩn bị đã hoàn tất. Giờ chỉ còn chờ đến lúc diễn ra thôi.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

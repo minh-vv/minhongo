@@ -1,0 +1,223 @@
+{
+  "order": 15,
+  "title": "Bài 40 — Từ vựng JLPT N4 (Phần 15)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 15/25.",
+  "theoryMd": "### 1. 申します\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Là dạng khiêm nhường ngữ của 「言います」, dùng để giới thiệu tên.\n- Cấu trúc: Tên + と 申します\n#### 📝 Ví dụ minh họa\nわたしはタナカと申します。\nTôi tên là Tanaka.\n\n### 2. 写すと引き出す\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Các động từ thông dụng trong đời sống (Sao chép và Rút tiền).\n- Cấu trúc: V-dic\n#### 📝 Ví dụ minh họa\nATMからお金を引き出します。\nTôi rút tiền từ máy ATM.\n\n### 3. 不便\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Tính từ chỉ trạng thái khó khăn, không thuận tiện.\n- Cấu trúc: N / Na-adj + は 不便です\n#### 📝 Ví dụ minh họa\nインターネットがないと不便です。\nKhông có internet thì thật bất tiện.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 40 — Từ vựng",
+        "description": "Từ vựng bài số 40 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "引き出す",
+            "back": "kéo ra, rút ra",
+            "romaji": "ひきだす",
+            "example": "引き出す（ひきだす）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "割合",
+            "back": "tỷ lệ, tỷ số",
+            "romaji": "わりあい",
+            "example": "割合（わりあい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "暖房",
+            "back": "sưởi ấm",
+            "romaji": "だんぼう",
+            "example": "暖房（だんぼう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "申す",
+            "back": "nói, được gọi là (khiêm nhường ngữ)",
+            "romaji": "もうす",
+            "example": "申す（もうす）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "退院",
+            "back": "xuất viện",
+            "romaji": "たいいん",
+            "example": "退院（たいいん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "売り場",
+            "back": "quầy bán hàng, khu vực bán hàng",
+            "romaji": "うりば",
+            "example": "売り場（うりば）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "受付",
+            "back": "quầy lễ tân, tiếp tân",
+            "romaji": "うけつけ",
+            "example": "受付（うけつけ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "苦い",
+            "back": "đắng",
+            "romaji": "にがい",
+            "example": "苦い（にがい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "下宿",
+            "back": "ở trọ",
+            "romaji": "げしゅく",
+            "example": "下宿（げしゅく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "講堂",
+            "back": "giảng đường, khán phòng",
+            "romaji": "こうどう",
+            "example": "講堂（こうどう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "不便",
+            "back": "bất tiện",
+            "romaji": "ふべん",
+            "example": "不便（ふべん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "食料品",
+            "back": "thực phẩm, đồ tạp hóa",
+            "romaji": "しょくりょうひん",
+            "example": "食料品（しょくりょうひん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "新聞社",
+            "back": "công ty báo chí",
+            "romaji": "しんぶんしゃ",
+            "example": "新聞社（しんぶんしゃ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "湯",
+            "back": "nước nóng",
+            "romaji": "ゆ",
+            "example": "湯（ゆ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "写す",
+            "back": "sao chép, chụp",
+            "romaji": "うつす",
+            "example": "写す（うつす）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "工業",
+            "back": "công nghiệp",
+            "romaji": "こうぎょう",
+            "example": "工業（こうぎょう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "工業",
+            "back": "công nghiệp",
+            "romaji": "こうぎょう",
+            "example": "工業（こうぎょう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "下着",
+            "back": "đồ lót",
+            "romaji": "したぎ",
+            "example": "下着（したぎ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "冷房",
+            "back": "máy lạnh, điều hòa",
+            "romaji": "れいぼう",
+            "example": "冷房（れいぼう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "畳",
+            "back": "chiếu tatami",
+            "romaji": "たたみ",
+            "example": "畳（たたみ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "お嬢さん",
+            "back": "con gái (người khác), tiểu thư",
+            "romaji": "おじょうさん",
+            "example": "お嬢さん（おじょうさん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "沸かす",
+            "back": "đun sôi",
+            "romaji": "わかす",
+            "example": "沸かす（わかす）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "漬ける",
+            "back": "ngâm, nhúng",
+            "romaji": "つける",
+            "example": "漬ける（つける）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 15 — Ngữ pháp",
+        "description": "Ngữ pháp bài 15: Bài 40 — Từ vựng JLPT N4 (Phần 15)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "申します",
+            "back": "Ý nghĩa: Là, tên là... (khiêm nhường ngữ của 言います).\nCấu trúc: Tên + と 申します",
+            "romaji": "moushimasu",
+            "example": "わたしはタナカと申します。\nTôi tên là Tanaka.\n\n山田と申します。よろしくお願いいたします。\nTôi tên là Yamada. Rất mong được giúp đỡ.\n\n佐藤と申します。どうぞよろしくお願いします。\nTôi tên là Sato. Rất mong được giúp đỡ.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "写すと引き出す",
+            "back": "Ý nghĩa: Sao chép/Chụp ảnh (写す) và Rút tiền/Kéo ra (引き出す).\nCấu trúc: V-dic (写す / 引き出す)",
+            "romaji": "utsusu-to-hikidasu",
+            "example": "黒板の文字をノートに写します。\nTôi chép chữ trên bảng vào vở.\n\nATMからお金を引き出します。\nTôi rút tiền từ máy ATM.\n\nメモをきれいに写しました。\nTôi đã chép lại tờ ghi chú một cách sạch sẽ.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "不便",
+            "back": "Ý nghĩa: Bất tiện.\nCấu trúc: N / Na-adj + は 不便です",
+            "romaji": "fuben",
+            "example": "このアパートは駅から遠くて、不便です。\nCăn hộ này xa nhà ga nên bất tiện.\n\nインターネットがないと不便です。\nKhông có internet thì thật bất tiện.\n\nここでの生活は少し不便です。\nCuộc sống ở đây hơi bất tiện.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

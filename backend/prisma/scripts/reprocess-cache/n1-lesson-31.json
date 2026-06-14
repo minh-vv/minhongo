@@ -1,0 +1,42 @@
+{
+  "order": 31,
+  "title": "Bài 31 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 31/92).",
+  "theoryMd": "### 1. 〜もさることながら\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N + もさることながら\n- **Ý nghĩa:** Không chỉ A, mà cả B cũng vậy (thường dùng để nhấn mạnh B có mức độ cao hơn hoặc đáng chú ý hơn A).\n\n#### 📝 Ví dụ minh họa\n- 彼の歌唱力もさることながら、表現力が圧倒的だ。\n- 立地もさることながら、アフターサービスの良さが評判だ。\n- スピードもさることながら、安定性で他社を上回る。\n\n### 2. 〜といえども\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N / V-thể thông thường (na-adj/N + de aru) + といえども\n- **Ý nghĩa:** Cho dù là, dẫu là (nhấn mạnh dù trong trường hợp đó vẫn không phải là ngoại lệ).\n\n#### 📝 Ví dụ minh họa\n- 子どもといえども、他人に危害を加えてはならない。\n- いかに忙しいといえども、健康管理を怠ってはならない。\n- プロといえども、ミスはある。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 31 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 31.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜もさることながら",
+            "back": "Ý nghĩa: Không chỉ A mà cả B cũng vậy (nhấn mạnh B còn hơn thế nữa).\nCấu trúc: N + もさることながら",
+            "romaji": "mo-saru-koto-nagara",
+            "example": "彼の歌唱力もさることながら、表現力が圧倒的だ。\nKhông chỉ giọng hát của anh ấy ấn tượng, mà khả năng biểu đạt còn áp đảo.\n\n立地もさることながら、アフターサービスの良さが評判だ。\nKhông chỉ vị trí, mà dịch vụ hậu mãi tốt cũng nổi tiếng.\n\nスピードもさることながら、安定性で他社を上回る。\nKhông chỉ tốc độ, mà về độ ổn định còn vượt các công ty khác.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜といえども",
+            "back": "Ý nghĩa: Cho dù là… / Dù là… (thể hiện thái độ dù trong hoàn cảnh đó vẫn không ngoại lệ).\nCấu trúc: N / V-thể thông thường (na-adj/N bỏ da + de aru) + といえども",
+            "romaji": "to-iedomo",
+            "example": "子どもといえども、他人に危害を加えてはならない。\nDù là trẻ con cũng không được gây hại cho người khác.\n\nいかに忙しいといえども、健康管理を怠ってはならない。\nDù bận đến đâu cũng không được lơ là sức khỏe.\n\nプロといえども、ミスはある。\nDù là chuyên nghiệp thì vẫn có sai sót.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

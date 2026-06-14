@@ -1,0 +1,70 @@
+{
+  "order": 26,
+  "title": "Bài cuối: Nguyện vọng / Cảm nhận (〜たいものだ, 〜ものだ, 〜ないもの（だろう）か, 〜ものがある, 〜ことだ, 〜ことだろう・〜ことか)",
+  "summary": "Các cấu trúc diễn tả cảm xúc cuối bài: 〜たいものだ, 〜ものだ, 〜ないもの（だろう）か, 〜ものがある, 〜ことだ, 〜ことだろう・〜ことか",
+  "theoryMd": "# Bài cuối: Nguyện vọng và Cảm nhận\n\nTrong bài này, chúng ta sẽ học các mẫu câu dùng để bộc lộ cảm xúc, mong muốn hoặc những ấn tượng mạnh mẽ đối với sự việc.\n\n### 1. 〜たいものだ・〜てほしいものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả nguyện vọng, mong muốn mạnh mẽ từ tận đáy lòng.\n- **Cấu trúc**: V-masu (bỏ masu) + たいものだ / V-te + ほしいものだ\n\n#### 📝 Ví dụ minh họa\n- 早く春にならないものかな。(Giá mà mùa xuân mau đến nhỉ.)\n- ぜひ一度見てみたいものです。(Tôi rất muốn đến xem một lần.)\n\n### 2. 〜ものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để hồi tưởng thói quen trong quá khứ (V-ta) hoặc khẳng định một sự thật hiển nhiên (V-ru).\n- **Cấu trúc**: V-ta / V-ru + ものだ\n\n#### 📝 Ví dụ minh họa\n- 子供のころ、夏になるとこの川で泳いだものです。(Hồi nhỏ, cứ đến mùa hè là tôi hay bơi ở dòng sông này.)\n- 人生とは、思い通りにいかないものだ。(Cuộc đời là vậy, không phải lúc nào cũng diễn ra đúng như ý muốn.)\n\n### 3. 〜ないもの（だろう）か\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Mong mỏi một điều gì đó xảy ra dù rất khó thực hiện.\n- **Cấu trúc**: V-nai + もの（だろう）か\n\n#### 📝 Ví dụ minh họa\n- 何とか解決できないものだろうか。(Liệu có cách nào giải quyết được bài toán khó này không nhỉ.)\n\n### 4. 〜ものがある\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh cảm giác/ấn tượng mạnh mẽ về một sự việc.\n- **Cấu trúc**: V-ru / A-i / A-na (na) + ものがある\n\n#### 📝 Ví dụ minh họa\n- 彼の話にはどこか納得できるものがある。(Trong câu chuyện của anh ấy có điểm gì đó khiến người ta thấy thuyết phục.)\n\n### 5. 〜ことだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh cảm xúc ngạc nhiên, cảm thán.\n- **Cấu trúc**: V-ta / A-i / A-na (na) + ことだ\n\n#### 📝 Ví dụ minh họa\n- 試験に合格できて、なんと嬉しいことだ。(Thi đỗ kỳ thi rồi, vui mừng biết bao.)\n\n### 6. 〜ことだろう・〜ことか\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh mức độ cảm xúc rất cao (kết hợp với từ nghi vấn).\n- **Cấu trúc**: (Từ nghi vấn) + V/A/Na + ことだろう/ことか\n\n#### 📝 Ví dụ minh họa\n- ご両親はどんなに心配していることか。(Bố mẹ đã lo lắng cho bạn biết bao.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 26 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài cuối: Nguyện vọng / Cảm nhận (〜たいものだ, 〜ものだ, 〜ないもの（だろう）か, 〜ものがある, 〜ことだ, 〜ことだろう・〜ことか)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜たいものだ・〜てほしいものだ",
+            "back": "Ý nghĩa: Diễn tả nguyện vọng, mong muốn mạnh mẽ từ tận đáy lòng.\nCấu trúc: V-masu (bỏ masu) + たいものだ / V-te + ほしいものだ",
+            "romaji": "tai mono da / te hoshii mono da",
+            "example": "そんなにきれいな絵なら、ぜひ一度見てみたいものです。\nNếu bức tranh đẹp đến vậy, tôi rất muốn đến xem một lần.\n\n早く春にならないものかな。\nGiá mà mùa xuân mau đến nhỉ.\n\n一度でいいから、世界一周旅行をしてみたいものだ。\nChỉ một lần thôi cũng được, tôi rất muốn đi du lịch vòng quanh thế giới.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ものだ",
+            "back": "Ý nghĩa: Hồi tưởng một thói quen trong quá khứ hoặc nhấn mạnh một lẽ thường tình, một sự thật hiển nhiên.\nCấu trúc: V-ta / V-ru + ものだ",
+            "romaji": "mono da",
+            "example": "子供のころ、夏になるとこの川で泳いだものです。\nHồi nhỏ, cứ đến mùa hè là tôi hay bơi ở dòng sông này.\n\n人生とは、思い通りにいかないものだ。\nCuộc đời là vậy, không phải lúc nào cũng diễn ra đúng như ý muốn.\n\n善は急げというものだ。\nNgười ta thường nói làm việc thiện thì nên làm nhanh.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ないもの（だろう）か",
+            "back": "Ý nghĩa: Cảm xúc mong mỏi một điều gì đó xảy ra mặc dù thực tế rất khó khăn, không rõ cách thực hiện.\nCấu trúc: V-nai + もの（だろう）か",
+            "romaji": "nai mono (darou) ka",
+            "example": "どうにかして母の病気が治らないものか。\nLàm thế nào để mẹ tôi khỏi bệnh đây.\n\nこの難問を何とか解決できないものだろうか。\nLiệu có cách nào giải quyết được bài toán khó này không nhỉ.\n\nあの日のことを忘れることはできないものだろうか。\nLiệu có cách nào quên đi chuyện ngày hôm đó được không nhỉ.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ものがある",
+            "back": "Ý nghĩa: Cảm giác có một điều gì đó (thường dùng để nhấn mạnh cảm xúc/ấn tượng về một sự việc).\nCấu trúc: V-ru / A-i / A-na (na) + ものがある",
+            "romaji": "mono ga aru",
+            "example": "ここまで完成しているのにあきらめなければならないなんて、残念なものがある。\nĐã hoàn thiện đến mức này rồi mà phải bỏ cuộc, thật là cảm thấy đáng tiếc.\n\n彼の話にはどこか納得できるものがある。\nTrong câu chuyện của anh ấy có điểm gì đó khiến người ta thấy thuyết phục.\n\nこの映画には、見る人を感動させるものがある。\nBộ phim này có một điều gì đó khiến người xem cảm động.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ことだ",
+            "back": "Ý nghĩa: Nhấn mạnh cảm xúc ngạc nhiên, cảm thán trước một sự việc.\nCấu trúc: V-ta / A-i / A-na (na) + ことだ",
+            "romaji": "koto da",
+            "example": "なんとひどいことだ。\nThật là quá đáng làm sao.\n\n試験に合格できて、なんと嬉しいことだ。\nThi đỗ kỳ thi rồi, vui mừng biết bao.\n\n一度でいいから有名人に会えるなんて、夢のようなことだ。\nCó thể gặp người nổi tiếng dù chỉ một lần, đúng là như mơ vậy.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜ことだろう・〜ことか",
+            "back": "Ý nghĩa: Diễn tả mức độ cảm xúc rất cao (thường đi kèm với từ nghi vấn như: bao nhiêu, biết bao).\nCấu trúc: (Nghi vấn từ) + V/A/Na + ことだろう・ことか",
+            "romaji": "koto darou / koto ka",
+            "example": "ご両親はどんなに心配していることか。\nBố mẹ đã lo lắng cho bạn biết bao.\n\n合格発表の日、私はどれほどドキドキしたことだろう。\nVào ngày công bố kết quả thi, tôi đã hồi hộp biết bao nhiêu.\n\n故郷を離れて、どれほど寂しかったことか。\nRời xa quê hương, tôi đã thấy cô đơn biết bao.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 6
+  }
+}

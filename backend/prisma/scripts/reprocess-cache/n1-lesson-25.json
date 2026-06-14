@@ -1,0 +1,42 @@
+{
+  "order": 25,
+  "title": "Bài 25 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 25/92).",
+  "theoryMd": "### 1. 〜る始末だ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Kết cục là... (thường đi kèm với những trạng thái xấu, chán chường, kết quả tồi tệ).\n- **Cấu trúc**: V-ru + 始末だ\n\n#### 📝 Ví dụ minh họa\n- 注意しても聞かず、期限も守らず、会社に損害まで与える始末だ。\n- ギャンブルにのめり込み、借金する始末だ。\n- 風邪を放っておいたら、入院する始末だ。\n\n### 2. 〜ないものでもない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không phải là hoàn toàn không thể, vẫn có khả năng (cách nói khiêm tốn hoặc thận trọng).\n- **Cấu trúc**: V-nai + ものでもない\n\n#### 📝 Ví dụ minh họa\n- 条件次第では、受け入れないものでもない。\n- 少しなら手伝えないものでもない。\n- 努力すれば合格できないものでもない。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 25 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 25.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜る始末だ",
+            "back": "Ý nghĩa: Kết cục là... (mang nghĩa tiêu cực, chán chường).\nCấu trúc: V-ru + 始末だ",
+            "romaji": "ru-shimatsu-da",
+            "example": "注意しても聞かず、期限も守らず、会社に損害まで与える始末だ。\nNhắc nhở cũng không nghe, hạn cũng không giữ, đến mức còn gây thiệt hại cho công ty.\n\nギャンブルにのめり込み、借金する始末だ。\nMê cờ bạc đến nỗi đi vay nợ, rốt cuộc là như vậy.\n\n風邪を放っておいたら、入院する始末だ。\nBỏ mặc cơn cảm, cuối cùng phải nhập viện.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜ないものでもない",
+            "back": "Ý nghĩa: Không phải là hoàn toàn không thể, vẫn có khả năng.\nCấu trúc: V-nai + ものでもない",
+            "romaji": "nai-mono-demo-nai",
+            "example": "条件次第では、受け入れないものでもない。\nTuỳ điều kiện, cũng không phải là không chấp nhận.\n\n少しなら手伝えないものでもない。\nNếu một chút thì tôi cũng có thể giúp.\n\n努力すれば合格できないものでもない。\nNếu nỗ lực thì cũng có thể đậu.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

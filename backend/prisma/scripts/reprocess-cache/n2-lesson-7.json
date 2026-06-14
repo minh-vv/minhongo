@@ -1,0 +1,63 @@
+{
+  "order": 7,
+  "title": "Bài 7: Liên quan đến đối tượng (〜に関して, 〜をめぐって, 〜にかけては, 〜に対して, 〜にこたえて)",
+  "summary": "Các cấu trúc liên quan đến đối tượng: 〜に関して, 〜をめぐって, 〜にかけては, 〜に対して, 〜にこたえて",
+  "theoryMd": "### 7. Cấu trúc liên quan đến đối tượng\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜に関して**: Liên quan đến, về vấn đề gì đó.\n- **〜をめぐって**: Xoay quanh (thường là tranh luận, bất đồng).\n- **〜にかけては**: Riêng về khoản... thì là số một.\n- **〜に対して**: Đối với (hướng tới ai đó) hoặc Trái ngược với.\n- **〜にこたえて**: Đáp lại, đáp ứng yêu cầu/kỳ vọng.\n\n#### 📝 Ví dụ minh họa\n- *〜に関して*: この事件に関して、何か知っていることはありますか。\n- *〜をめぐって*: 親が残した土地をめぐって親族が争っている。\n- *〜にかけては*: 料理の技術にかけては、彼女に勝てる人はいない。\n- *〜に対して*: 政府の案に対して住民は大反対した。\n- *〜にこたえて*: 皆様のご期待にこたえて精いっぱい頑張ります。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 7 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 7: Liên quan đến đối tượng (〜に関して, 〜をめぐって, 〜にかけては, 〜に対して, 〜にこたえて)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜に関して",
+            "back": "Ý nghĩa: Liên quan đến, về việc... (Dùng trong văn viết hoặc trang trọng).\nCấu trúc: N + に関して / に関する + N",
+            "romaji": "ni-kanshite",
+            "example": "高齢者の生活に関するアンケートにご協力ください。\nXin hãy giúp chúng tôi làm khảo sát liên quan đến cuộc sống người cao tuổi.\n\nこの事件に関して、何か知っていることはありますか。\nBạn có biết điều gì liên quan đến vụ án này không?\n\n申し込み方法に関しては、ホームページをご覧ください。\nVề cách thức đăng ký, xin vui lòng xem trên trang chủ.\n\n新しいプロジェクトに関する会議が明日行われる。\nCuộc họp liên quan đến dự án mới sẽ diễn ra vào ngày mai.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜をめぐって",
+            "back": "Ý nghĩa: Xoay quanh một vấn đề (thường là tranh luận, xung đột, dư luận).\nCấu trúc: N + をめぐって / をめぐる + N",
+            "romaji": "o-megutte",
+            "example": "親が残した土地をめぐって親族が争っている。\nHọ hàng đang tranh giành nhau xoay quanh mảnh đất mà cha mẹ để lại.\n\n新しい政策をめぐって、激しい議論が交わされた。\nCuộc thảo luận gay gắt đã diễn ra xoay quanh chính sách mới.\n\n一人の女性をめぐって二人の男が対立した。\nHai người đàn ông đã đối đầu nhau xoay quanh một người phụ nữ.\n\n環境問題をめぐる議論は世界中で続いている。\nCuộc thảo luận xoay quanh vấn đề môi trường đang tiếp diễn trên toàn thế giới.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜にかけては",
+            "back": "Ý nghĩa: Nếu nói về lĩnh vực này thì là nhất, giỏi nhất.\nCấu trúc: N + にかけては",
+            "romaji": "ni-kakete-wa",
+            "example": "ボール運びのうまさにかけてはA選手の右に出るものはいない。\nVề việc đi bóng giỏi thì không ai vượt qua được tuyển thủ A.\n\n料理の技術にかけては、彼女に勝てる人はいない。\nRiêng về kỹ năng nấu ăn thì không ai có thể thắng được cô ấy.\n\n計算の速さにかけては、彼が一番だ。\nNếu nói về tốc độ tính toán thì anh ấy là nhất.\n\n歌のうまさにかけては、クラスで右に出る者はいない。\nVề khoản hát hay thì trong lớp không ai vượt qua được cậu ấy.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜に対して",
+            "back": "Ý nghĩa: Đối với (hướng tới); Trái ngược với (sự so sánh).\nCấu trúc: N + に対して / に対する + N",
+            "romaji": "ni-taishite",
+            "example": "政府の案に対して住民は大反対した。\nDân chúng phản đối mạnh mẽ đối với đề án của chính phủ.\n\nお客様に対して、失礼な態度を取ってはいけません。\nKhông được có thái độ thất lễ đối với khách hàng.\n\n昨日の晴天に対して、今日は雨が降っている。\nTrái ngược với thời tiết đẹp ngày hôm qua, hôm nay trời đang mưa.\n\n息子は慎重だが、娘は活発で大胆だ。\nTrái ngược với đứa con trai cẩn thận, con gái tôi lại năng động và táo bạo.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜にこたえて",
+            "back": "Ý nghĩa: Đáp lại, đáp ứng (kỳ vọng, yêu cầu, nguyện vọng).\nCấu trúc: N + にこたえて / にこたえる + N",
+            "romaji": "ni-kotaete",
+            "example": "皆様のご期待にこたえて精いっぱい頑張ります。\nĐáp lại kì vọng của mọi người, tôi sẽ cố gắng hết sức.\n\n客の要望にこたえて、営業時間を延長することにした。\nĐể đáp ứng yêu cầu của khách hàng, chúng tôi quyết định kéo dài thời gian mở cửa.\n\nファンの声援にこたえてアンコールに応じた。\nĐáp lại tiếng reo hò của người hâm mộ, họ đã hát thêm bài nữa.\n\n住民の期待にこたえるような新しい計画を立てる。\nLập ra kế hoạch mới để đáp ứng kỳ vọng của người dân.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 5
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "order": 25,
+  "title": "Bài 25 — Ôn tập tổng kết N5",
+  "summary": "Tổng hợp toàn bộ ngữ pháp N5, luyện tập tổng hợp.",
+  "theoryMd": "### 1. Sự tồn tại (あります/います)\n#### 💡 Cấu trúc & Ý nghĩa\n- あります: Dùng cho đồ vật, thực vật.\n- います: Dùng cho người, động vật.\n#### 📝 Ví dụ minh họa\n- 部屋に机があります。(Trong phòng có cái bàn.)\n- 教室に学生がいます。(Trong lớp có học sinh.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR",
+    "READING"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 25 — Từ vựng",
+        "description": "Từ vựng bài 25: Bài 25 — Ôn tập tổng kết N5",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "デパート",
+            "back": "cửa hàng bách hóa",
+            "romaji": "デパート",
+            "example": "デパート",
+            "jlptLevel": 5
+          },
+          {
+            "front": "トイレ",
+            "back": "nhà vệ sinh",
+            "romaji": "トイレ",
+            "example": "トイレ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "それでは",
+            "back": "vậy thì, thế thì",
+            "romaji": "それでは",
+            "example": "それでは",
+            "jlptLevel": 5
+          },
+          {
+            "front": "明後日",
+            "back": "ngày kia",
+            "romaji": "あさって",
+            "example": "明後日（あさって）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "何れ",
+            "back": "cái nào (trong 3 cái trở lên)",
+            "romaji": "どれ",
+            "example": "何れ（どれ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "２０歳",
+            "back": "20 tuổi",
+            "romaji": "はたち",
+            "example": "２０歳（はたち）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "彼方",
+            "back": "hướng đó, phía đó, đằng kia",
+            "romaji": "あちら",
+            "example": "彼方（あちら）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "では",
+            "back": "vậy thì, thế thì",
+            "romaji": "では",
+            "example": "では",
+            "jlptLevel": 5
+          },
+          {
+            "front": "フィルム",
+            "back": "phim, cuộn phim",
+            "romaji": "フィルム",
+            "example": "フィルム",
+            "jlptLevel": 5
+          },
+          {
+            "front": "温い",
+            "back": "ấm, hơi ấm",
+            "romaji": "ぬるい",
+            "example": "温い（ぬるい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "カレンダー",
+            "back": "lịch",
+            "romaji": "カレンダー",
+            "example": "カレンダー",
+            "jlptLevel": 5
+          },
+          {
+            "front": "４日",
+            "back": "ngày mùng bốn",
+            "romaji": "よっか",
+            "example": "４日（よっか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "７日",
+            "back": "ngày mùng bảy",
+            "romaji": "なのか",
+            "example": "７日（なのか）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "然うして",
+            "back": "và, như vậy",
+            "romaji": "そうして",
+            "example": "然うして（そうして）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "瓦",
+            "back": "gram",
+            "romaji": "グラム",
+            "example": "瓦（グラム）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "瓩",
+            "back": "kilogram",
+            "romaji": "キログラム",
+            "example": "瓩（キログラム）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "直ぐに",
+            "back": "ngay lập tức, ngay",
+            "romaji": "すぐに",
+            "example": "直ぐに（すぐに）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "一月",
+            "back": "một tháng",
+            "romaji": "ひとつき",
+            "example": "一月（ひとつき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "あの",
+            "back": "à, ừm",
+            "romaji": "あの",
+            "example": "あの",
+            "jlptLevel": 5
+          },
+          {
+            "front": "忘れる",
+            "back": "quên",
+            "romaji": "わすれる",
+            "example": "忘れる（わすれる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "カレー",
+            "back": "cà ri",
+            "romaji": "カレー",
+            "example": "カレー",
+            "jlptLevel": 5
+          },
+          {
+            "front": "字引",
+            "back": "từ điển",
+            "romaji": "じびき",
+            "example": "字引（じびき）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "パン",
+            "back": "bánh mì",
+            "romaji": "パン",
+            "example": "パン",
+            "jlptLevel": 5
+          },
+          {
+            "front": "バス",
+            "back": "xe buýt",
+            "romaji": "バス",
+            "example": "バス",
+            "jlptLevel": 5
+          },
+          {
+            "front": "いいえ",
+            "back": "không",
+            "romaji": "いいえ",
+            "example": "いいえ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "三",
+            "back": "ba",
+            "romaji": "サン",
+            "example": "三（サン）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "コート",
+            "back": "áo khoác",
+            "romaji": "コート",
+            "example": "コート",
+            "jlptLevel": 5
+          },
+          {
+            "front": "洋杯",
+            "back": "cốc, ly",
+            "romaji": "コップ",
+            "example": "洋杯（コップ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "フォーク",
+            "back": "dĩa",
+            "romaji": "フォーク",
+            "example": "フォーク",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ラジカセ",
+            "back": "máy radio cassette",
+            "romaji": "ラジカセ",
+            "example": "ラジカセ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "マッチ",
+            "back": "trận đấu",
+            "romaji": "マッチ",
+            "example": "マッチ",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ＰＥＴ",
+            "back": "polyethylene terephthalate, nhựa PET",
+            "romaji": "ペット",
+            "example": "ＰＥＴ（ペット）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 25 — Ngữ pháp",
+        "description": "Ngữ pháp bài 25: Bài 25 — Ôn tập tổng kết N5",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "あります",
+            "back": "Ý nghĩa: Có (dùng cho vật vô tri, cây cối, sự vật không di chuyển).\nCấu trúc: N + が + あります",
+            "romaji": "arimasu",
+            "example": "部屋に机があります。\nTrong phòng có cái bàn.\n\n庭に木があります。\nTrong vườn có cái cây.\n\n公園に時計があります。\nTrong công viên có cái đồng hồ.\n\n机の上に本があります。\nTrên bàn có quyển sách.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "います",
+            "back": "Ý nghĩa: Có (dùng cho người, động vật).\nCấu trúc: N + が + います",
+            "romaji": "imasu",
+            "example": "教室に学生がいます。\nTrong lớp có học sinh.\n\n公園に猫がいます。\nTrong công viên có con mèo.\n\n家に母がいます。\nTrong nhà có mẹ tôi.\n\n庭に犬がいます。\nTrong vườn có con chó.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "order": 1,
+  "title": "Bài 1 — Tự giới thiệu (わたしは ◯◯ です)",
+  "summary": "Mẫu câu \"Tôi là...\", trợ từ は, ですか hỏi, kính ngữ さん.",
+  "theoryMd": "### 1. N1 は N2 です\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: N1 là N2.\n- Cấu trúc: N1 (Chủ ngữ) + は + N2 (Danh từ) + です\n\n#### 📝 Ví dụ minh họa\nわたしは マイク です。\nTôi là Mike.\n\nかれは がくせい です。\nAnh ấy là học sinh.\n\n### 2. N1 は N2 じゃ ありません\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: N1 không phải là N2.\n- Cấu trúc: N1 + は + N2 + じゃ ありません\n\n#### 📝 Ví dụ minh họa\nわたしは がくせい じゃ ありません。\nTôi không phải là học sinh.\n\nあれは ほん じゃ ありません。\nCái đó không phải là sách.\n\n### 3. N1 は N2 ですか\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: N1 có phải là N2 không?\n- Cấu trúc: N1 + は + N2 + ですか\n\n#### 📝 Ví dụ minh họa\nあなたは マイクさん ですか。\nBạn có phải là anh Mike không?\n\nそれは じしょ ですか。\nĐó có phải là từ điển không?\n\n### 4. N + さん\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Hậu tố lịch sự thêm vào sau tên người.\n- Cấu trúc: Tên người + さん\n\n#### 📝 Ví dụ minh họa\nやまださんは せんせい です。\nAnh Yamada là giáo viên.\n\nマイクさんは アメリカじん です。\nAnh Mike là người Mỹ.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 1 — Từ vựng",
+        "description": "Từ vựng bài 1: Bài 1 — Tự giới thiệu (わたしは ◯◯ です)",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "わたし",
+            "back": "Tôi",
+            "romaji": "watashi",
+            "example": "わたしは マイクです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "あなた",
+            "back": "Bạn",
+            "romaji": "anata",
+            "example": "あなたは がくせいですか。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "あの ひと",
+            "back": "Người kia",
+            "romaji": "ano hito",
+            "example": "あのひとは せんせいです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "〜さん",
+            "back": "Hậu tố tôn xưng (anh/chị/ông/bà)",
+            "romaji": "-san",
+            "example": "たなかさん",
+            "jlptLevel": 5
+          },
+          {
+            "front": "せんせい",
+            "back": "Giáo viên",
+            "romaji": "sensei",
+            "example": "やまださんは せんせいです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "がくせい",
+            "back": "Học sinh, sinh viên",
+            "romaji": "gakusei",
+            "example": "わたしは がくせいです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "かいしゃいん",
+            "back": "Nhân viên công ty",
+            "romaji": "kaishain",
+            "example": "マイクさんは かいしゃいんです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ぎんこういん",
+            "back": "Nhân viên ngân hàng",
+            "romaji": "ginkouin",
+            "example": "やまださんは ぎんこういんです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "いしゃ",
+            "back": "Bác sĩ",
+            "romaji": "isha",
+            "example": "ちちは いしゃです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "にほん",
+            "back": "Nhật Bản",
+            "romaji": "nihon",
+            "example": "わたしは にほんじんです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "アメリカ",
+            "back": "Mỹ",
+            "romaji": "amerika",
+            "example": "マイクさんは アメリカじんです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ベトナム",
+            "back": "Việt Nam",
+            "romaji": "betonamu",
+            "example": "わたしは ベトナムじんです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "はい",
+            "back": "Vâng / Có",
+            "romaji": "hai",
+            "example": "はい、そうです。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "いいえ",
+            "back": "Không",
+            "romaji": "iie",
+            "example": "いいえ、ちがいます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "はじめまして",
+            "back": "Lần đầu gặp mặt",
+            "romaji": "hajimemashite",
+            "example": "はじめまして。マイクです。",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 1 — Ngữ pháp",
+        "description": "Ngữ pháp bài 1: Bài 1 — Tự giới thiệu (わたしは ◯◯ です)",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "N1 は N2 です",
+            "back": "Ý nghĩa: N1 là N2.\nCấu trúc: N1 + は + N2 + です",
+            "romaji": "N1 wa N2 desu",
+            "example": "わたしは マイク です。\nTôi là Mike.\n\nかれは がくせい です。\nAnh ấy là học sinh.\n\nやまもとさんは せんせい です。\nAnh Yamamoto là giáo viên.\n\nこれは じしょ です。\nĐây là từ điển.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N1 は N2 じゃ ありません",
+            "back": "Ý nghĩa: N1 không phải là N2.\nCấu trúc: N1 + は + N2 + じゃ ありません",
+            "romaji": "N1 wa N2 ja arimasen",
+            "example": "わたしは がくせい じゃ ありません。\nTôi không phải là học sinh.\n\nあれは ほん じゃ ありません。\nCái đó không phải là sách.\n\nそれは パソコン じゃ ありません。\nCái đó không phải là máy tính.\n\nかれは せんせい じゃ ありません。\nAnh ấy không phải là giáo viên.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N1 は N2 ですか",
+            "back": "Ý nghĩa: N1 có phải là N2 không?\nCấu trúc: N1 + は + N2 + ですか",
+            "romaji": "N1 wa N2 desuka",
+            "example": "あなたは マイクさん ですか。\nBạn có phải là anh Mike không?\n\nそれは じしょ ですか。\nĐó có phải là từ điển không?\n\nあのひとは がくせい ですか。\nNgười kia có phải là học sinh không?\n\nこれは わたしの かばん ですか。\nĐây có phải là cái cặp của tôi không?",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N + さん",
+            "back": "Ý nghĩa: Hậu tố lịch sự thêm vào sau tên người.\nCấu trúc: Tên người + さん",
+            "romaji": "N-san",
+            "example": "やまださんは せんせい です。\nAnh Yamada là giáo viên.\n\nマイクさんは アメリカじん です。\nAnh Mike là người Mỹ.\n\nさとうさんは がいこくじん です。\nChị Sato là người nước ngoài.\n\nたなかさんは エンジニア です。\nAnh Tanaka là kỹ sư.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

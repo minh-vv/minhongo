@@ -1,0 +1,49 @@
+{
+  "order": 85,
+  "title": "85. ～と…た・～たら…た",
+  "summary": "Ngữ pháp bài số 85 sách Shinkanzen Master N3 (3 thẻ).",
+  "theoryMd": "### 1. Mẫu câu phát hiện & Ngẫu nhiên (〜と…た / 〜たら…た)\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Dạng 1 (Phát hiện)**: V-ru + と / V-tara + た. Sau khi thực hiện hành động thì phát hiện ra kết quả bất ngờ.\n- **Dạng 2 (Ngẫu nhiên)**: V-te iru + と / V-te itara + た. Đang làm gì thì một việc khác xảy ra ngẫu nhiên.\n- **Dạng 3 (Nguyên nhân)**: V-ru + と / V-tara + た. Hành động vế trước là tác nhân kích hoạt vế sau.\n\n#### 📝 Ví dụ minh họa\n- 窓を開けると、雪が降っていた。\n(Khi mở cửa sổ ra, tôi phát hiện tuyết đang rơi.)\n\n- 道を歩いていると、昔の友人にばったり会った。\n(Đang đi trên đường thì tôi tình cờ gặp lại người bạn cũ.)\n\n- ベルが鳴ると、犬は一斉に吠え出した。\n(Chuông vừa reo thì lũ chó đồng loạt sủa lên.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 85 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 85 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜と…た / 〜たら…た (Phát hiện)",
+            "back": "Ý nghĩa: Sau khi làm hành động vế trước thì phát hiện ra sự thật bất ngờ ở vế sau.\nCấu trúc: V-ru + と / V-tara + た",
+            "romaji": "to...ta / tara...ta",
+            "example": "窓を開けると、雪が降っていた。\nKhi mở cửa sổ ra, tôi phát hiện tuyết đang rơi.\n\n家に帰ったら、友達から手紙が届いていた。\nKhi về đến nhà, tôi nhận ra có thư của người bạn gửi tới.\n\nカバンを開けると、財布が入っていなかった。\nKhi mở túi ra, tôi phát hiện ví không còn ở đó.\n\n箱を開けたら、中には何も入っていなかった。\nKhi mở cái hộp ra, tôi thấy bên trong không có gì cả.",
+            "jlptLevel": 3
+          },
+          {
+            "front": "〜ていると…た / 〜ていたら…た (Ngẫu nhiên)",
+            "back": "Ý nghĩa: Đang làm hành động vế trước thì ngẫu nhiên có sự việc khách quan xảy ra.\nCấu trúc: V-te iru + と / V-te itara + た",
+            "romaji": "te iru to...ta / te itara...ta",
+            "example": "道を歩いていると、昔の友人にばったり会った。\nĐang đi trên đường thì tôi tình cờ gặp lại người bạn cũ.\n\n本を読んでいると、突然電気が消えた。\nĐang đọc sách thì đột nhiên điện bị tắt.\n\nテレビを見ていると、地震が起きた。\nĐang xem tivi thì động đất xảy ra.\n\n料理をしていると、電話が鳴った。\nĐang nấu ăn thì điện thoại reo.",
+            "jlptLevel": 3
+          },
+          {
+            "front": "〜と…た / 〜たら…た (Nguyên nhân)",
+            "back": "Ý nghĩa: Hành động vế trước là nguyên nhân, tác nhân kích hoạt hành động vế sau xảy ra ngay lập tức.\nCấu trúc: V-ru + と / V-tara + た",
+            "romaji": "to...ta / tara...ta",
+            "example": "ベルが鳴ると、犬は一斉に吠え出した。\nChuông vừa reo thì lũ chó đồng loạt sủa lên.\n\n彼が部屋に入ってくると、部屋全体が明るくなった。\nKhi anh ấy bước vào phòng, cả căn phòng như bừng sáng lên.\n\nスイッチを押すと、機械が動き出した。\nKhi nhấn công tắc, cái máy bắt đầu hoạt động.\n\n雨が降ると、急に寒くなった。\nKhi trời mưa, không khí bỗng dưng lạnh đi.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 3
+  }
+}

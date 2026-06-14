@@ -1,0 +1,49 @@
+{
+  "order": 1,
+  "title": "Bài 1: Thời điểm, cơ hội (〜祭（に）, 〜に際して・〜にあたって)",
+  "summary": "Các cấu trúc liên quan đến thời điểm, cơ hội: 〜祭（に）, 〜に際して, 〜にあたって",
+  "theoryMd": "### Bài 1: Thời điểm và cơ hội (〜際・〜に際して・〜にあたって)\n\n### 1. 〜際（に）\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Khi, vào lúc. Sắc thái cứng, trang trọng hơn \"toki\", dùng nhiều trong thông báo, hướng dẫn.\n- **Cấu trúc**: V-ru / V-ta / N-no + 際（に）\n\n#### 📝 Ví dụ minh họa\n- お食事の際は、こちらのテーブルをお使いいただけます。\n(Khi dùng bữa, quý khách có thể sử dụng cái bàn này.)\n\n- カードを紛失した際は、すぐにカード会社にご連絡ください。\n(Trong trường hợp làm mất thẻ, xin vui lòng liên hệ ngay với công ty thẻ.)\n\n### 2. 〜に際して\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Khi, nhân dịp. Dùng cho các sự kiện trọng đại, chuẩn bị cho một việc gì đó.\n- **Cấu trúc**: V-ru / N + に際して\n\n#### 📝 Ví dụ minh họa\n- 父は手術を受けるに際して、医者にいろいろ質問した。\n(Trước khi bố tôi phẫu thuật, ông đã hỏi bác sĩ rất nhiều điều.)\n\n- 新商品の発売に際して、大がかりなキャンペーンが行われた。\n(Nhân dịp mở bán sản phẩm mới, một chiến dịch quảng bá quy mô lớn đã được tiến hành.)\n\n### 3. 〜にあたって\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Khi, nhân dịp. Dùng cho sự kiện tích cực, có kế hoạch cụ thể, chủ động.\n- **Cấu trúc**: V-ru / N + にあたって\n\n#### 📝 Ví dụ minh họa\n- 新しく事業を始めるにあたって、しっかりと準備をしようと思っております。\n(Khi chuẩn bị bắt đầu sự nghiệp mới, tôi sẽ chuẩn bị kĩ càng.)\n\n- 新しい門出を迎えるにあたって、一言お祝いの言葉を申し上げます。\n(Nhân dịp đón chào một chặng đường mới, tôi xin phép có đôi lời chúc mừng.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 1 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 1: Thời điểm, cơ hội (〜祭（に）, 〜に際して・〜にあたって)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜際（に）",
+            "back": "Ý nghĩa: Khi..., vào lúc... (Sắc thái cứng, trang trọng hơn 'toki', thường dùng trong thông báo, văn bản hướng dẫn).\nCấu trúc: V-ru / V-ta / N-no + 際（に）",
+            "romaji": "sai (ni)",
+            "example": "お食事の際は、こちらのテーブルをお使いいただけます。\nKhi dùng bữa, quý khách có thể sử dụng cái bàn này.\n\nカードを紛失した際は、すぐにカード会社にご連絡ください。\nTrong trường hợp làm mất thẻ, xin vui lòng liên hệ ngay với công ty thẻ.\n\nお帰りの際は、忘れ物がないかご確認ください。\nKhi ra về, xin vui lòng kiểm tra xem có quên đồ đạc gì không.\n\n入場の際は、チケットを提示してください。\nKhi vào cửa, vui lòng xuất trình vé.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜に際して",
+            "back": "Ý nghĩa: Khi..., nhân dịp... (Dùng cho sự kiện trọng đại, đặc biệt, mang tính chuẩn bị trước khi thực hiện).\nCấu trúc: V-ru / N + に際して",
+            "romaji": "ni saishite",
+            "example": "父は手術を受けるに際して、医者にいろいろ質問した。\nTrước khi bố tôi phẫu thuật, ông đã hỏi bác sĩ rất nhiều điều.\n\n新商品の発売に際して、大がかりなキャンペーンが行われた。\nNhân dịp mở bán sản phẩm mới, một chiến dịch quảng bá quy mô lớn đã được tiến hành.\n\n留学に際して、奨学金を申請することにした。\nNhân dịp đi du học, tôi đã quyết định nộp đơn xin học bổng.\n\n開店に際して、特別なイベントを企画しました。\nNhân dịp khai trương cửa hàng, chúng tôi đã lên kế hoạch cho một sự kiện đặc biệt.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜にあたって",
+            "back": "Ý nghĩa: Khi..., nhân dịp... (Thường dùng cho các sự kiện mang tính tích cực, chủ động, có kế hoạch rõ ràng).\nCấu trúc: V-ru / N + にあたって",
+            "romaji": "ni atatte",
+            "example": "新しく事業を始めるにあたって、しっかりと準備をしようと思っております。\nKhi chuẩn bị bắt đầu sự nghiệp mới, tôi sẽ chuẩn bị kĩ càng.\n\nアパートを契約するにあたって、いくつか注意すべき点があります。\nKhi ký hợp đồng thuê căn hộ, có một số điểm cần phải lưu ý.\n\n新しい門出を迎えるにあたって、一言お祝いの言葉を申し上げます。\nNhân dịp đón chào một chặng đường mới, tôi xin phép có đôi lời chúc mừng.\n\n調査を行うにあたって、十分な資料を集めた。\nKhi tiến hành khảo sát, tôi đã thu thập đầy đủ tài liệu.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 3
+  }
+}

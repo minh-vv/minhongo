@@ -1,0 +1,35 @@
+{
+  "order": 19,
+  "title": "19. ～ためだ・～ため（に）…",
+  "summary": "Ngữ pháp bài số 19 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～ためだ・～ため（に）\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả nguyên nhân/lý do khách quan dẫn đến một kết quả. Đây là cách nói trang trọng, không dùng với câu mang tính ý chí.\n- **Cấu trúc**: 普通形 (な形-な・名-の) ＋ ため（に）/ だ\n#### 📝 Ví dụ minh họa\n- 電車が遅れたため、会議に遅刻した。\n- 事故のため、高速道路が閉鎖された。\n- 彼は病気のため、学校を休んだ。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 19 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 19 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ためだ・〜ため（に）",
+            "back": "Ý nghĩa: Vì...; Do... (Diễn tả nguyên nhân hoặc lý do dẫn đến kết quả. Không dùng với ý chí, mong muốn).\nCấu trúc: 普通形 (な形-な・名-の) ＋ ため（に）/ だ",
+            "romaji": "tame-da / tame-ni",
+            "example": "電車が遅れたため、会議に遅刻した。\nVì tàu điện đến muộn nên tôi đã đến muộn cuộc họp.\n\n事故のため、高速道路が閉鎖された。\nVì tai nạn, đường cao tốc đã bị đóng cửa.\n\n彼は病気のため、学校を休んだ。\nAnh ấy nghỉ học vì bị ốm.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

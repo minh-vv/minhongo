@@ -1,0 +1,35 @@
+{
+  "order": 96,
+  "title": "96. ～がちだ",
+  "summary": "Ngữ pháp bài số 96 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜がちだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ xu hướng thường xảy ra, dễ xảy ra việc gì đó. Thường dùng với các sự việc mang tính tiêu cực hoặc không tốt cho sức khỏe/tình trạng người nói.\n- **Cấu trúc:** N / V-masu + がちだ\n\n#### 📝 Ví dụ minh họa\n- 一人暮らしの自炊は、野菜が不足しがちだ。\n(Tự nấu ăn khi sống một mình thì rau quả thường hay bị thiếu.)\n\n- 最近、曇りがちの日が多い。\n(Gần đây, có nhiều ngày thường hay âm u.)\n\n- 彼は小さい頃、病気がちだった。\n(Anh ấy hồi nhỏ thường hay bị ốm vặt.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 96 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 96 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜がちだ",
+            "back": "Ý nghĩa: Thường, có xu hướng, dễ (thường theo chiều hướng xấu, tiêu cực).\nCấu trúc: N / V-masu + がちだ",
+            "romaji": "gachi-da",
+            "example": "一人暮らしの自炊は、野菜が不足しがちだ。\nTự nấu ăn khi sống một mình thì rau quả thường hay bị thiếu.\n\n最近、曇りがちの日が多い。\nGần đây, có nhiều ngày thường hay âm u.\n\n彼は小さい頃、病気がちだった。\nAnh ấy hồi nhỏ thường hay bị ốm vặt.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

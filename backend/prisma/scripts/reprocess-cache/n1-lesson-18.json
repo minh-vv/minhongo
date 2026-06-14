@@ -1,0 +1,42 @@
+{
+  "order": 18,
+  "title": "Bài 18 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 18/92).",
+  "theoryMd": "### 1. 〜に限ったことでもない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: N + に限ったことでもない\n- **Ý nghĩa**: Phủ định việc chỉ giới hạn ở N, mang tính khách quan và nhẹ nhàng.\n\n#### 📝 Ví dụ minh họa\n- 物価高は日本に限ったことでもない。\n- 失敗はあなたに限ったことでもないよ。\n\n### 2. 〜ならでは\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: N + ならでは\n- **Ý nghĩa**: Nhấn mạnh sự độc nhất vô nhị, đặc trưng riêng biệt.\n\n#### 📝 Ví dụ minh họa\n- 京都ならではの風情がある。\n- 彼ならではの発想にいつも驚かされる。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 18 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 18.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜に限ったことでもない",
+            "back": "Ý nghĩa: Không hẳn chỉ có N, mà có thể có các trường hợp khác (nhẹ nhàng hơn).\nCấu trúc: N + に限ったことでもない",
+            "romaji": "ni-kitta-koto-demo-nai",
+            "example": "物価高は日本に限ったことでもない。\nGiá cả leo thang đâu phải chỉ riêng Nhật.\n\n少子化は先進国に限ったことでもない。\nGiảm tỷ lệ sinh đâu phải chỉ ở các nước phát triển.\n\n失敗はあなたに限ったことでもないよ。\nThất bại đâu phải chỉ mỗi bạn đâu.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜ならでは",
+            "back": "Ý nghĩa: Chỉ có ở N, đặc trưng riêng biệt mà chỉ N mới sở hữu.\nCấu trúc: N + ならでは",
+            "romaji": "naradewa",
+            "example": "京都ならではの風情がある。\nNơi đây có phong vị chỉ riêng Kyoto mới có.\n\n当店ならではのサービスをご提供します。\nChúng tôi cung cấp dịch vụ chỉ cửa hàng chúng tôi mới có.\n\n彼ならではの発想にいつも驚かされる。\nLuôn bị bất ngờ trước những ý tưởng chỉ có ở anh ấy.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

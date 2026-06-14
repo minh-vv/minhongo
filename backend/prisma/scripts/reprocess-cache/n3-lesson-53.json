@@ -1,0 +1,35 @@
+{
+  "order": 53,
+  "title": "53. さえ",
+  "summary": "Ngữ pháp bài số 53 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜さえ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Nhấn mạnh một ví dụ cực đoan nhất, từ đó ngụ ý rằng các trường hợp khác cũng như vậy hoặc không thể nào xảy ra.\n- **Cấu trúc:** N + さえ\n\n#### 📝 Ví dụ minh họa\n- ひらがなさえ書けないなら、漢字は無理だ。 (Nếu ngay cả chữ Hiragana còn không viết được thì chữ Kanji là không thể nào.)\n- 忙しすぎて、食事をする時間さえありません。 (Vì quá bận rộn nên ngay cả thời gian ăn uống tôi cũng không có.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 53 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 53 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜さえ",
+            "back": "Ý nghĩa: Ngay cả, đến cả (nhấn mạnh ví dụ cực đoan, thường mang sắc thái tiêu cực hoặc bất ngờ).\nCấu trúc: N + さえ",
+            "romaji": "sae",
+            "example": "ひらがなさえ書けないなら、漢字は無理だ。\nNếu ngay cả chữ Hiragana còn không viết được thì chữ Kanji là không thể nào.\n\n忙しすぎて、食事をする時間さえありません。\nVì quá bận rộn nên ngay cả thời gian ăn uống tôi cũng không có.\n\n彼は挨拶さえしなかった。\nAnh ta ngay cả một lời chào cũng không nói.\n\n子供でさえ知っていることを彼は知らない。\nNgay cả trẻ con cũng biết những điều mà anh ta không biết.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "order": 16,
+  "title": "16. ～一方（で）…",
+  "summary": "Ngữ pháp bài số 16 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～一方（で）\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để nêu lên hai mặt đối lập hoặc hai đặc điểm song song của cùng một sự vật, sự việc.\n- **Cấu trúc**: 普通形 (な形-な/である・名-である) ＋ 一方（で）\n#### 📝 Ví dụ minh họa\n- この仕事は給料が高い一方、責任も重い。\n- 彼は真面目な学生である一方で、スポーツも得意だ。\n- 東京は物価が高い一方で、交通の便はとても良い。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 16 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 16 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜一方（で）",
+            "back": "Ý nghĩa: Mặt này thì... nhưng mặt khác lại...; Dù có... nhưng đồng thời cũng có... (Diễn tả hai mặt đối lập hoặc hai đặc điểm tồn tại đồng thời).\nCấu trúc: 普通形 (な形-な/である・名-である) ＋ 一方（で）",
+            "romaji": "ippou (de)",
+            "example": "この仕事は給料が高い一方、責任も重い。\nCông việc này lương cao nhưng mặt khác trách nhiệm cũng nặng nề.\n\n彼は真面目な学生である一方で、スポーツも得意だ。\nAnh ấy là một học sinh chăm chỉ, nhưng đồng thời cũng giỏi thể thao.\n\n東京は物価が高い一方で、交通の便はとても良い。\nTokyo có vật giá đắt đỏ, nhưng mặt khác giao thông lại rất tiện lợi.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

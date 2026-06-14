@@ -1,0 +1,35 @@
+{
+  "order": 67,
+  "title": "67. ～わけだ・～というわけだ",
+  "summary": "Ngữ pháp bài số 67 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～わけだ・〜というわけだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để nêu lý do hoặc kết luận logic. Có hai cách hiểu: \n  1. Giải thích nguyên nhân cho một sự việc (Thảo nào, hèn chi).\n  2. Xác nhận một kết quả tất yếu từ thông tin đã biết (Đương nhiên là).\n- **Cấu trúc**: 普通形 (な形-な/である・名-の/な/である) + わけだ / というわけだ\n\n#### 📝 Ví dụ minh họa\n電気代が高いわけだ。一日中エアコンをつけているからだ。\nThảo nào tiền điện đắt thế. Là vì bật điều hòa cả ngày mà.\n\n消費税は10%だから、1000円の物は1100円になるわけだ。\nVì thuế tiêu thụ là 10% nên món đồ 1000 yên đương nhiên sẽ thành 1100 yên.\n\n昨夜はあまり寝ていないから、眠いわけだ。\nVì tối qua không ngủ nhiều, thảo nào mà tôi lại buồn ngủ.\n\n彼は日本に10年住んでいたから、日本語が上手なわけだ。\nAnh ấy sống ở Nhật 10 năm rồi, hèn gì mà tiếng Nhật giỏi thế.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 67 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 67 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜わけだ・〜というわけだ",
+            "back": "Ý nghĩa: Giải thích lý do (thảo nào, hèn chi) hoặc đưa ra kết luận logic từ thực tế (đương nhiên là).\nCấu trúc: 普通形 (な形-な/である・名-の/な/である) + わけだ / というわけだ",
+            "romaji": "wake da / to iu wake da",
+            "example": "電気代が高いわけだ。一日中エアコンをつけているからだ。\nThảo nào tiền điện đắt thế. Là vì bật điều hòa cả ngày mà.\n\n消費税は10%だから、1000円の物は1100円になるわけだ。\nVì thuế tiêu thụ là 10% nên món đồ 1000 yên đương nhiên sẽ thành 1100 yên.\n\n昨夜はあまり寝ていないから、眠いわけだ。\nVì tối qua không ngủ nhiều, thảo nào mà tôi lại buồn ngủ.\n\n彼は日本に10年住んでいたから、日本語が上手なわけだ。\nAnh ấy sống ở Nhật 10 năm rồi, hèn gì mà tiếng Nhật giỏi thế.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

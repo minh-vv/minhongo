@@ -1,0 +1,42 @@
+{
+  "order": 17,
+  "title": "Bài 17 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 17/92).",
+  "theoryMd": "### 1. 〜はおろか〜まで\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: N + はおろか + N + まで\n- **Ý nghĩa**: Nhấn mạnh rằng không chỉ A, mà đến cả B (điều không ngờ tới) cũng xảy ra.\n\n#### 📝 Ví dụ minh họa\n- 業務管理はおろか、メール対応まで遅れている。\n- 彼は日本語はおろか、英語まで独学で身につけた。\n\n### 2. 〜に限ったことではない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: N + に限ったことではない\n- **Ý nghĩa**: Không chỉ riêng N mà vấn đề đó còn phổ biến rộng hơn.\n\n#### 📝 Ví dụ minh họa\n- この病気は高齢者に限ったことではない。\n- ミスは新人に限ったことではない。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 17 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 17.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜はおろか〜まで",
+            "back": "Ý nghĩa: Không chỉ A, mà thậm chí đến B (mức độ đáng ngạc nhiên) cũng xảy ra.\nCấu trúc: N + はおろか + N + まで",
+            "romaji": "wa-oroka-made",
+            "example": "業務管理はおろか、メール対応まで遅れている。\nQuản lý công việc thì khỏi nói, đến xử lý email cũng chậm trễ.\n\n彼は日本語はおろか、英語まで独学で身につけた。\nAnh ấy thì chưa nói tiếng Nhật, đến cả tiếng Anh cũng tự học được.\n\n住所はおろか、自分の電話番号まで忘れたのか。\nĐịa chỉ thì khỏi nói, đến cả số điện thoại của mình cũng quên à?",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜に限ったことではない",
+            "back": "Ý nghĩa: Không chỉ giới hạn ở N, mà còn xảy ra ở phạm vi khác/nhiều trường hợp khác.\nCấu trúc: N + に限ったことではない",
+            "romaji": "ni-kitta-koto-dewa-nai",
+            "example": "この病気は高齢者に限ったことではない。\nCăn bệnh này không phải chỉ xảy ra ở người cao tuổi.\n\nSNSでの誹謗中傷は芸能人に限ったことではない。\nBôi nhọ trên mạng không phải chuyện chỉ xảy ra với nghệ sĩ.\n\nミスは新人に限ったことではない。\nLỗi lầm không phải chỉ có ở người mới.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

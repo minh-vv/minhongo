@@ -1,0 +1,223 @@
+{
+  "order": 6,
+  "title": "Bài 31 — Từ vựng JLPT N4 (Phần 6)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 6/25.",
+  "theoryMd": "### 1. V-te + います\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả trạng thái hiện tại là kết quả của một hành động đã xảy ra trước đó.\nCông thức: V-te + います\n\n#### 📝 Ví dụ minh họa\n壁にカレンダーが掛けてあります。\nCó cuốn lịch được treo trên tường.\n\n彼には長い髭が生えています。\nAnh ấy đang để râu dài.\n\n### 2. N (nơi chốn) + に + V\n#### 💡 Cấu trúc & Ý nghĩa\nChỉ địa điểm đặt để đồ vật.\nCông thức: N (nơi chốn) + に + V\n\n#### 📝 Ví dụ minh họa\n押入れに布団をしまいます。\nCất nệm vào trong tủ âm tường.\n\n冷蔵庫にビールを入れました。\nTôi đã cho bia vào trong tủ lạnh.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 31 — Từ vựng",
+        "description": "Từ vựng bài số 31 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "心",
+            "back": "tâm hồn",
+            "romaji": "こころ",
+            "example": "心（こころ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "力",
+            "back": "sức mạnh",
+            "romaji": "ちから",
+            "example": "力（ちから）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "喧嘩",
+            "back": "cãi vã",
+            "romaji": "けんか",
+            "example": "喧嘩（けんか）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "天気予報",
+            "back": "dự báo thời tiết",
+            "romaji": "てんきよほう",
+            "example": "天気予報（てんきよほう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "髭",
+            "back": "râu",
+            "romaji": "ひげ",
+            "example": "髭（ひげ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "押入れ",
+            "back": "tủ âm tường",
+            "romaji": "おしいれ",
+            "example": "押入れ（おしいれ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "味噌",
+            "back": "tương Miso",
+            "romaji": "みそ",
+            "example": "味噌（みそ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "皆",
+            "back": "tất cả mọi người",
+            "romaji": "みな",
+            "example": "皆（みな）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "明日",
+            "back": "ngày mai",
+            "romaji": "あした",
+            "example": "明日（あした）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "掛ける",
+            "back": "treo",
+            "romaji": "かける",
+            "example": "掛ける（かける）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "降りる",
+            "back": "xuống",
+            "romaji": "おりる",
+            "example": "降りる（おりる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "彼",
+            "back": "anh ấy",
+            "romaji": "かれ",
+            "example": "彼（かれ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "客",
+            "back": "khách",
+            "romaji": "きゃく",
+            "example": "客（きゃく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "祖父",
+            "back": "ông",
+            "romaji": "そふ",
+            "example": "祖父（そふ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "高校",
+            "back": "trường cấp ba",
+            "romaji": "こうこう",
+            "example": "高校（こうこう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "近所",
+            "back": "khu vực lân cận",
+            "romaji": "きんじょ",
+            "example": "近所（きんじょ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "番組",
+            "back": "chương trình",
+            "romaji": "ばんぐみ",
+            "example": "番組（ばんぐみ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "見物",
+            "back": "tham quan",
+            "romaji": "けんぶつ",
+            "example": "見物（けんぶつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "亜米利加",
+            "back": "Mỹ",
+            "romaji": "アメリカ",
+            "example": "亜米利加（アメリカ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "彼女",
+            "back": "cô ấy",
+            "romaji": "かのじょ",
+            "example": "彼女（かのじょ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "思う",
+            "back": "nghĩ",
+            "romaji": "おもう",
+            "example": "思う（おもう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "僕",
+            "back": "tôi",
+            "romaji": "ぼく",
+            "example": "僕（ぼく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "必要",
+            "back": "cần thiết",
+            "romaji": "ひつよう",
+            "example": "必要（ひつよう）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 6 — Ngữ pháp",
+        "description": "Ngữ pháp bài 6: Bài 31 — Từ vựng JLPT N4 (Phần 6)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "V-te + います",
+            "back": "Ý nghĩa: Diễn tả trạng thái duy trì hoặc kết quả của một hành động đã xảy ra trong quá khứ.\nCấu trúc: V-te + います",
+            "romaji": "te-imasu",
+            "example": "壁にカレンダーが掛けてあります。\nCó cuốn lịch được treo trên tường.\n\n彼には長い髭が生えています。\nAnh ấy đang để râu dài.\n\n窓が閉まっています。\nCửa sổ đang đóng.\n\n電気が点いています。\nĐèn đang bật.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "N (nơi chốn) + に + V",
+            "back": "Ý nghĩa: Trợ từ chỉ nơi chốn mà hành động cất giữ hoặc để đồ vật tác động vào.\nCấu trúc: N (nơi chốn) + に + V",
+            "romaji": "ni",
+            "example": "押入れに布団をしまいます。\nCất nệm vào trong tủ âm tường.\n\n冷蔵庫にビールを入れました。\nTôi đã cho bia vào trong tủ lạnh.\n\n壁に絵を飾りました。\nTôi đã treo tranh lên tường.\n\nノートに名前を書いてください。\nHãy viết tên vào vở.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "皆",
+            "back": "Ý nghĩa: Dùng để chỉ số lượng tổng thể, toàn bộ mọi người hoặc mọi thứ.\nCấu trúc: 皆 + で/は/が...",
+            "romaji": "mina",
+            "example": "皆で喧嘩をしないでください。\nMọi người đừng cãi vã nhé.\n\n皆で遊びに行きましょう。\nMọi người hãy cùng đi chơi đi.\n\n皆が賛成しました。\nTất cả mọi người đều đồng ý.\n\n皆で協力して掃除しました。\nTất cả mọi người cùng hợp sức dọn dẹp.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

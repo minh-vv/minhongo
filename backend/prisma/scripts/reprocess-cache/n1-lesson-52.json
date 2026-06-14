@@ -1,0 +1,42 @@
+{
+  "order": 52,
+  "title": "Bài 52 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 52/92).",
+  "theoryMd": "### 1. 〜に〜を重ねて\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Lặp đi lặp lại hành động đó nhiều lần (nhấn mạnh sự kiên trì hoặc tần suất cao).\n- **Cấu trúc**: N + に + N + を重ねて\n\n### 2. 〜にあっては\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Trong hoàn cảnh/tình huống đó (thường dùng trong văn viết, nhấn mạnh tính chất đặc thù của thời điểm).\n- **Cấu trúc**: N + にあっては",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 52 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 52.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜に〜を重ねて",
+            "back": "Ý nghĩa: Lặp đi lặp lại một hành động nhiều lần để đạt được kết quả hoặc mục đích.\nCấu trúc: N + に + N + を重ねて",
+            "romaji": "ni-wo-kasanete",
+            "example": "会議に会議を重ねて、ようやく合意に達した。\nHọp hết lần này đến lần khác, cuối cùng đã đạt đồng thuận.\n\n実験に実験を重ねて、安全性を確かめた。\nQua vô số thí nghiệm, đã xác nhận độ an toàn.\n\n失敗に失敗を重ねて、彼はついに成功した。\nSau bao nhiêu lần thất bại, cuối cùng anh ấy đã thành công.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜にあっては",
+            "back": "Ý nghĩa: Trong hoàn cảnh, trong tình huống (nhấn mạnh sự đặc thù của thời điểm).\nCấu trúc: N + にあっては",
+            "romaji": "ni-atte-wa",
+            "example": "非常時にあっては、デマに惑わされないこと。\nTrong tình huống khẩn cấp, không để tin đồn gây hoang mang.\n\n不況下にあっては、資金繰りの確保が最優先だ。\nTrong thời kỳ suy thoái, đảm bảo dòng tiền là ưu tiên hàng đầu.\n\n厳しい状況にあっては、冷静な判断が求められる。\nTrong hoàn cảnh khó khăn, sự phán đoán bình tĩnh là điều cần thiết.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

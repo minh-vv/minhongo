@@ -1,0 +1,42 @@
+{
+  "order": 82,
+  "title": "Bài 82 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 82/92).",
+  "theoryMd": "### 1. 〜にあるまじき〜\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không xứng đáng, không thể chấp nhận đối với một cương vị hay tư cách nhất định.\n- **Cấu trúc**: N (chỉ cương vị/nghề nghiệp) + にあるまじき + N\n\n#### 📝 Ví dụ minh họa\n教師にあるまじき発言だ。\nĐó là phát ngôn không thể chấp nhận đối với một giáo viên.\n\n医者にあるまじきミスが起きた。\nĐã xảy ra một sai sót không xứng đáng với một bác sĩ.\n\n### 2. 〜ものとして\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Coi như là, xem như là, với giả định là. Dùng để thiết lập căn cứ cho một hành động tiếp theo.\n- **Cấu trúc**: N / V-thể ngắn + ものとして\n\n#### 📝 Ví dụ minh họa\n期日までに提出がない場合、辞退したものとして扱います。\nNếu không nộp trước hạn, sẽ xử lý coi như đã từ chối.\n\n本規約に同意したものとして、サービスを提供します。\nDịch vụ được cung cấp trên cơ sở coi như đã đồng ý với quy định này.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 82 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 82.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜にあるまじき〜",
+            "back": "Ý nghĩa: Không xứng đáng, không thể chấp nhận với cương vị hoặc vai trò đó.\nCấu trúc: N + にあるまじき + N",
+            "romaji": "ni-arujiki",
+            "example": "教師にあるまじき発言だ。\nĐó là phát ngôn không thể chấp nhận đối với một giáo viên.\n\n医者にあるまじきミスが起きた。\nĐã xảy ra một sai sót không xứng đáng với một bác sĩ.\n\n公務員にあるまじき不正で、厳しく処分された。\nVì hành vi gian lận không thể có ở một công chức, đã bị xử lý nghiêm.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜ものとして",
+            "back": "Ý nghĩa: Coi như là, với giả định là, trên cơ sở là.\nCấu trúc: N / V (thể ngắn) + ものとして",
+            "romaji": "mono-toshite",
+            "example": "期日までに提出がない場合、辞退したものとして扱います。\nNếu không nộp trước hạn, sẽ xử lý coi như đã từ chối.\n\n参加費の入金を確認できたものとして、座席を確保いたします。\nChúng tôi sẽ giữ chỗ trên giả định đã xác nhận thanh toán phí tham gia.\n\n本規約に同意したものとして、サービスを提供します。\nDịch vụ được cung cấp trên cơ sở coi như đã đồng ý với quy định này.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

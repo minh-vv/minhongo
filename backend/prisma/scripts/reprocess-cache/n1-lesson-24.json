@@ -1,0 +1,42 @@
+{
+  "order": 24,
+  "title": "Bài 24 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 24/92).",
+  "theoryMd": "### 1. 〜をものともせずに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Bất chấp, vượt qua khó khăn, trở ngại để thực hiện hành động.\n- **Cấu trúc**: N + をものともせずに\n\n#### 📝 Ví dụ minh họa\n- 彼は悪天候をものともせずに、山頂を目指した。\n- 多くの批判をものともせずに、彼女は改革を進めた。\n- 病気をものともせず、研究を続けた。\n\n### 2. 〜こととて\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Vì... nên (cách nói giải thích, thường dùng để biện hộ cho lỗi lầm do hoàn cảnh khách quan).\n- **Cấu trúc**: V-thể thông thường / N + の + こととて\n\n#### 📝 Ví dụ minh họa\n- 子どものこととて、どうか大目に見てください。\n- 初めてのこととて、手際が悪く失礼いたしました。\n- 事情も知らぬこととて、余計なことを申し上げました。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 24 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 24.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜をものともせずに",
+            "back": "Ý nghĩa: Bất chấp, vượt qua khó khăn, trở ngại để thực hiện hành động.\nCấu trúc: N + をものともせずに",
+            "romaji": "wo-mono-tomo-sezu-ni",
+            "example": "彼は悪天候をものともせずに、山頂を目指した。\nAnh ấy hướng tới đỉnh núi bất chấp thời tiết xấu.\n\n多くの批判をものともせずに、彼女は改革を進めた。\nBất chấp muôn vàn chỉ trích, cô ấy vẫn thúc đẩy cải cách.\n\n病気をものともせず、研究を続けた。\nBất chấp bệnh tật, ông vẫn tiếp tục nghiên cứu.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜こととて",
+            "back": "Ý nghĩa: Vì... nên (thường dùng để biện hộ cho lỗi lầm do hoàn cảnh khách quan).\nCấu trúc: V-thể thông thường / N + の + こととて",
+            "romaji": "koto-tote",
+            "example": "子どものこととて、どうか大目に見てください。\nVì cháu còn là trẻ con, mong hãy rộng lượng bỏ qua.\n\n初めてのこととて、手際が悪く失礼いたしました。\nVì là lần đầu nên tôi xử lý chưa khéo, xin thất lễ.\n\n事情も知らぬこととて、余計なことを申し上げました。\nVì chẳng biết rõ tình hình nên tôi đã nói điều không phải.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

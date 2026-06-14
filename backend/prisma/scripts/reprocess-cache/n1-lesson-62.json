@@ -1,0 +1,42 @@
+{
+  "order": 62,
+  "title": "Bài 62 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 62/92).",
+  "theoryMd": "### 1. 〜を限りに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N(thời gian) + を限りに\n- **Ý nghĩa:** Nhấn mạnh thời điểm kết thúc một việc gì đó. Sau thời điểm đó, hành động/trạng thái không còn tồn tại.\n\n#### 📝 Ví dụ minh họa\n- 今日を限りに甘い物を断ちます。(Kể từ hôm nay, tôi sẽ bỏ đồ ngọt.)\n- 当店は今月を限りに閉店します。(Cửa hàng chúng tôi sẽ đóng cửa hết tháng này.)\n- 本年度を限りにこの活動を終了する。(Chúng tôi sẽ kết thúc hoạt động này sau khi hết năm nay.)\n\n### 2. 〜を禁じ得ない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N + を禁じ得ない\n- **Ý nghĩa:** Dùng để diễn tả một cảm xúc tự nhiên trào dâng mà bản thân không thể ngăn lại được. Đi kèm với các danh từ chỉ cảm xúc như: 怒り, 感動, 涙, 同情.\n\n#### 📝 Ví dụ minh họa\n- 彼の勇気ある行動には感動を禁じ得ない。(Trước hành động dũng cảm của anh ấy, tôi không thể không xúc động.)\n- 相次ぐ不祥事に、怒りを禁じ得ない。(Trước hàng loạt bê bối, tôi không thể kìm nén cơn giận.)\n- 悲劇のニュースを聞いて、涙を禁じ得ない。(Nghe tin về thảm kịch, tôi không thể kìm được nước mắt.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 62 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 62.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜を限りに",
+            "back": "Ý nghĩa: Từ sau thời điểm này, sự việc sẽ kết thúc, không còn tiếp diễn nữa.\nCấu trúc: N(thời gian) + を限りに",
+            "romaji": "wo-kagiri-ni",
+            "example": "今日を限りに甘い物を断ちます。\nKể từ hôm nay, tôi sẽ bỏ đồ ngọt.\n\n当店は今月を限りに閉店します。\nCửa hàng chúng tôi sẽ đóng cửa hết tháng này.\n\n本年度を限りにこの活動を終了する。\nChúng tôi sẽ kết thúc hoạt động này sau khi hết năm nay.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜を禁じ得ない",
+            "back": "Ý nghĩa: Không thể kìm nén được cảm xúc, không thể ngăn được cảm xúc bộc phát.\nCấu trúc: N + を禁じ得ない",
+            "romaji": "wo-kinji-enai",
+            "example": "彼の勇気ある行動には感動を禁じ得ない。\nTrước hành động dũng cảm của anh ấy, tôi không thể không xúc động.\n\n相次ぐ不祥事に、怒りを禁じ得ない。\nTrước hàng loạt bê bối, tôi không thể kìm nén cơn giận.\n\n悲劇のニュースを聞いて、涙を禁じ得ない。\nNghe tin về thảm kịch, tôi không thể kìm được nước mắt.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

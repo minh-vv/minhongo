@@ -1,0 +1,35 @@
+{
+  "order": 90,
+  "title": "90. ～通す",
+  "summary": "Ngữ pháp bài số 90 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜通す\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Diễn tả việc kiên trì thực hiện một hành động hoặc duy trì một trạng thái cho đến cùng, bất chấp khó khăn hay thời gian kéo dài.\n- **Cấu trúc:** V-masu (bỏ masu) + 通す\n\n#### 📝 Ví dụ minh họa\n自分で決めたルールは、最後までやり通すべきだ。\nQuy tắc do bản thân quyết định thì nên thực hiện đến cùng.\n\n彼はどんなに辛くても、自分の信念を信じ通した。\nDù khó khăn thế nào, anh ấy vẫn tin tưởng đến cùng vào niềm tin của mình.\n\n会議の間、彼は黙り通した。\nTrong suốt buổi họp, anh ta đã giữ im lặng đến cùng.\n\n徹夜して、論文を書き通した。\nTôi thức trắng đêm để viết xong bài luận văn.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 90 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 90 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜通す",
+            "back": "Ý nghĩa: Kiên trì thực hiện hành động cho tới cùng, duy trì trạng thái đến cuối cùng.\nCấu trúc: V-masu (bỏ masu) + 通す",
+            "romaji": "toosu",
+            "example": "自分で決めたルールは、最後までやり通すべきだ。\nQuy tắc do bản thân quyết định thì nên thực hiện đến cùng.\n\n彼はどんなに辛くても、自分の信念を信じ通した。\nDù khó khăn thế nào, anh ấy vẫn tin tưởng đến cùng vào niềm tin của mình.\n\n会議の間、彼は黙り通した。\nTrong suốt buổi họp, anh ta đã giữ im lặng đến cùng.\n\n徹夜して、論文を書き通した。\nTôi thức trắng đêm để viết xong bài luận văn.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

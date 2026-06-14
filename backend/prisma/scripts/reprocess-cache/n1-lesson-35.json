@@ -1,0 +1,42 @@
+{
+  "order": 35,
+  "title": "Bài 35 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 35/92).",
+  "theoryMd": "### 1. 〜がゆえに / 〜がゆえの〜\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** \n  - がゆえに: V/N/Adj + がゆえに (Chỉ nguyên nhân, lý do trang trọng).\n  - がゆえの: V/N/Adj + がゆえの + N (Bổ nghĩa cho danh từ phía sau).\n- **Ý nghĩa:** Vì… nên… (Diễn tả nguyên nhân hoặc lý do. Thường sử dụng trong văn viết hoặc diễn thuyết trang trọng).\n\n#### 📝 Ví dụ minh họa\n- 彼は若さゆえに無謀な挑戦をした。\n- 彼女は真面目であるがゆえに周囲から誤解されることがある。\n- 経験不足がゆえの失敗。\n- 若さがゆえの無謀さを責めるのは酷だ。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 35 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 35.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜がゆえに",
+            "back": "Ý nghĩa: Vì… (lý do/nguyên nhân, trang trọng, văn viết).\nCấu trúc: N / V-thể thông thường (na-adj/N bỏ da + de aru) + がゆえに",
+            "romaji": "ga-yue-ni",
+            "example": "彼は若さゆえに無謀な挑戦をした。\nAnh ấy vì còn trẻ nên đã liều lĩnh thách thức.\n\n彼女は真面目であるがゆえに周囲から誤解されることがある。\nVì quá nghiêm túc nên đôi khi cô ấy bị mọi người hiểu lầm.\n\n知名度がゆえに、些細な発言も大きく取り沙汰される。\nChính vì nổi tiếng nên lời nói nhỏ cũng bị bàn tán lớn.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜がゆえの〜",
+            "back": "Ý nghĩa: Chính vì… mà có… (bổ nghĩa trực tiếp cho danh từ phía sau).\nCấu trúc: N / V-thể thông thường + がゆえの + N",
+            "romaji": "ga-yue-no",
+            "example": "経験不足がゆえの失敗。\nThất bại do thiếu kinh nghiệm.\n\n若さがゆえの無謀さを責めるのは酷だ。\nThật khắt khe nếu trách sự liều lĩnh do còn trẻ.\n\n彼が外国人であるがゆえの誤解が生じた。\nNảy sinh hiểu lầm vì anh ấy là người nước ngoài.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

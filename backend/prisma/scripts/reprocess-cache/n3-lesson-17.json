@@ -1,0 +1,35 @@
+{
+  "order": 17,
+  "title": "17. ～というより…",
+  "summary": "Ngữ pháp bài số 17 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～というより\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để sửa lại một cách diễn đạt kém chính xác bằng một cách nói phù hợp hơn, nhấn mạnh vế sau.\n- **Cấu trúc**: Từ/câu A ＋ というより ＋ Từ/câu B\n#### 📝 Ví dụ minh họa\n- 彼女はきれいというより、かわいい。\n- これは仕事というより、趣味の延長だ。\n- 今日の天気は、晴れというより曇りだ。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 17 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 17 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜というより",
+            "back": "Ý nghĩa: Thà nói là... hơn là nói là...; Không phải là... mà đúng hơn là... (Dùng để đính chính lại cách diễn đạt cho chính xác hơn).\nCấu trúc: Từ/câu A ＋ というより ＋ Từ/câu B",
+            "romaji": "to-iu-yori",
+            "example": "彼女はきれいというより、かわいい。\nCô ấy không phải là đẹp mà đúng hơn là dễ thương.\n\nこれは仕事というより、趣味の延長だ。\nĐây không phải là công việc mà đúng hơn là sự mở rộng của sở thích.\n\n今日の天気は、晴れというより曇りだ。\nThời tiết hôm nay không phải là nắng mà đúng hơn là nhiều mây.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

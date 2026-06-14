@@ -1,0 +1,42 @@
+{
+  "order": 58,
+  "title": "Bài 58 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 58/92).",
+  "theoryMd": "### 1. 〜に耐える\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: N + に + 耐える\n- **Ý nghĩa**: Có sức chịu đựng, có thể chống chọi được với một tác động xấu hoặc khó khăn.\n\n#### 📝 Ví dụ minh họa\n- 厳しい環境に耐える植物。 (Loài cây chịu được môi trường khắc nghiệt.)\n\n### 2. 〜に堪えない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: V-từ điển / N + に + 堪えない\n- **Ý nghĩa**: Không thể xem, nghe hoặc chịu đựng được vì nó quá tồi tệ hoặc cảm xúc quá mạnh.\n\n#### 📝 Ví dụ minh họa\n- 彼のひどい話は聞くに堪えない。 (Câu chuyện tồi tệ của anh ta không thể nghe nổi.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 58 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 58.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜に耐える",
+            "back": "Ý nghĩa: Chịu đựng được, chống chọi được.\nCấu trúc: N + に + 耐える",
+            "romaji": "ni-taeru-2",
+            "example": "この橋は大地震に耐える設計だ。\nCây cầu này được thiết kế chịu được động đất lớn.\n\n彼は長年の痛みに耐えて研究を続けた。\nAnh ấy đã chịu đựng cơn đau suốt nhiều năm và tiếp tục nghiên cứu.\n\nこの小説は今読み直しても読むに耐える名作だ。\nCuốn tiểu thuyết này dù đọc lại bây giờ vẫn đáng đọc, đúng là danh tác.\n\n激しい練習に耐える体を作る。\nXây dựng cơ thể chịu được cường độ luyện tập cao.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜に堪えない",
+            "back": "Ý nghĩa: Không thể chịu đựng nổi, không đáng để làm gì (thường dùng với các động từ tri giác như xem, nghe).\nCấu trúc: V-từ điển / N + に + 堪えない",
+            "romaji": "ni-taenai",
+            "example": "事故の映像は惨惨しくて、見るに堪えない。\nCảnh quay vụ tai nạn quá thê thảm, không thể xem nổi.\n\n低俗な発言で、聞くに堪えない言葉が続いた。\nNhững lời lẽ thô tục, nghe không chịu nổi.\n\nこの小説は稚拙で、読むに堪えない。\nTiểu thuyết này non tay, không đáng đọc.\n\nあまりの悲しさに、言葉に堪えない。\nQuá đau buồn, không thể thốt nên lời.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

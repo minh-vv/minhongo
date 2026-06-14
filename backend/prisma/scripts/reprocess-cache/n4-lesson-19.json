@@ -1,0 +1,223 @@
+{
+  "order": 19,
+  "title": "Bài 44 — Từ vựng JLPT N4 (Phần 19)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 19/25.",
+  "theoryMd": "### 1. 参る\n#### 💡 Cấu trúc & Ý nghĩa\nLà khiêm nhường ngữ của 'đi' (行く) và 'đến' (来る). Dùng khi nói về bản thân hoặc người cùng nhóm với mình khiêm tốn trước người khác.\nCông thức: Dùng cho hành động di chuyển hướng về phía người nghe hoặc địa điểm khác.\n\n#### 📝 Ví dụ minh họa\n今からそちらに参ります。\nTôi sẽ đến đó ngay bây giờ.\n\n明日、会社に参ります。\nNgày mai tôi sẽ đến công ty.\n\nおじいちゃんの家へ参りました。\nTôi đã đến nhà ông.\n\nご挨拶に参りました。\nTôi đến đây để chào hỏi.\n\n---\n### 2. 召し上がる\n#### 💡 Cấu trúc & Ý nghĩa\nLà tôn kính ngữ của 'ăn' (食べる) và 'uống' (飲む). Dùng để tôn trọng người nghe hoặc người thứ ba.\nCông thức: Dùng để mời hoặc hỏi thăm người bề trên.\n\n#### 📝 Ví dụ minh họa\nどうぞ、召し上がってください。\nXin mời ông dùng bữa.\n\n先生は何を召し上がりますか。\nThầy dùng gì ạ?\n\n美味しいケーキを召し上がりました。\nNgài đã ăn món bánh rất ngon.\n\n何でもお好きなものを召し上がってください。\nXin ngài cứ dùng bất cứ thứ gì ngài thích.\n\n---\n### 3. 偶に\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả một hành động xảy ra không thường xuyên.\nCông thức: 偶に + V\n\n#### 📝 Ví dụ minh họa\n偶に映画を見ます。\nThỉnh thoảng tôi xem phim.\n\n偶に日本料理を食べます。\nThỉnh thoảng tôi ăn món Nhật.\n\n偶に散歩をします。\nThỉnh thoảng tôi đi dạo.\n\n偶に早く帰ります。\nThỉnh thoảng tôi về sớm.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 44 — Từ vựng",
+        "description": "Từ vựng bài số 44 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "歯医者",
+            "back": "nha sĩ",
+            "romaji": "はいしゃ",
+            "example": "歯医者（はいしゃ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "参る",
+            "back": "đi, đến, ghé thăm",
+            "romaji": "まいる",
+            "example": "参る（まいる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "召し上がる",
+            "back": "ăn, uống",
+            "romaji": "めしあがる",
+            "example": "召し上がる（めしあがる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "珍しい",
+            "back": "hiếm, lạ",
+            "romaji": "めずらしい",
+            "example": "珍しい（めずらしい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "揺れる",
+            "back": "rung, lắc",
+            "romaji": "ゆれる",
+            "example": "揺れる（ゆれる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "祈る",
+            "back": "cầu nguyện",
+            "romaji": "いのる",
+            "example": "祈る（いのる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "硝子",
+            "back": "kính, thủy tinh",
+            "romaji": "ガラス",
+            "example": "硝子（ガラス）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "込む",
+            "back": "đông đúc, tắc nghẽn",
+            "romaji": "こむ",
+            "example": "込む（こむ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "折る",
+            "back": "bẻ, làm gãy",
+            "romaji": "おる",
+            "example": "折る（おる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "大学生",
+            "back": "sinh viên đại học",
+            "romaji": "だいがくせい",
+            "example": "大学生（だいがくせい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "お礼",
+            "back": "lời cảm ơn",
+            "romaji": "おれい",
+            "example": "お礼（おれい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "眠い",
+            "back": "buồn ngủ",
+            "romaji": "ねむい",
+            "example": "眠い（ねむい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "それ程",
+            "back": "đến mức đó, như vậy",
+            "romaji": "それほど",
+            "example": "それ程（それほど）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "偶に",
+            "back": "thỉnh thoảng, đôi khi",
+            "romaji": "たまに",
+            "example": "偶に（たまに）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "痩せる",
+            "back": "gầy đi, giảm cân",
+            "romaji": "やせる",
+            "example": "痩せる（やせる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "噛む",
+            "back": "cắn",
+            "romaji": "かむ",
+            "example": "噛む（かむ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "億",
+            "back": "hundred million, 100,000,000, 10^8",
+            "romaji": "おく",
+            "example": "億（おく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "触る",
+            "back": "chạm, sờ",
+            "romaji": "さわる",
+            "example": "触る（さわる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "瓦斯",
+            "back": "ga, khí đốt",
+            "romaji": "ガス",
+            "example": "瓦斯（ガス）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "掏摸",
+            "back": "kẻ móc túi",
+            "romaji": "すり",
+            "example": "掏摸（すり）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "成る程",
+            "back": "ra vậy, đúng rồi",
+            "romaji": "なるほど",
+            "example": "成る程（なるほど）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "拾う",
+            "back": "nhặt, lượm",
+            "romaji": "ひろう",
+            "example": "拾う（ひろう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "焼く",
+            "back": "đốt, nướng",
+            "romaji": "やく",
+            "example": "焼く（やく）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 19 — Ngữ pháp",
+        "description": "Ngữ pháp bài 19: Bài 44 — Từ vựng JLPT N4 (Phần 19)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "参る",
+            "back": "Ý nghĩa: Đi hoặc đến (khiêm nhường ngữ của 行く/来る).\nCấu trúc: Động từ khiêm nhường ngữ",
+            "romaji": "mairu",
+            "example": "今からそちらに参ります。\nTôi sẽ đến đó ngay bây giờ.\n\n明日、会社に参ります。\nNgày mai tôi sẽ đến công ty.\n\nおじいちゃんの家へ参りました。\nTôi đã đến nhà ông.\n\nご挨拶に参りました。\nTôi đến đây để chào hỏi.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "召し上がる",
+            "back": "Ý nghĩa: Ăn hoặc uống (tôn kính ngữ của 食べる/飲む).\nCấu trúc: Động từ tôn kính ngữ",
+            "romaji": "meshiagaru",
+            "example": "どうぞ、召し上がってください。\nXin mời ông dùng bữa.\n\n先生は何を召し上がりますか。\nThầy dùng gì ạ?\n\n美味しいケーキを召し上がりました。\nNgài đã ăn món bánh rất ngon.\n\n何でもお好きなものを召し上がってください。\nXin ngài cứ dùng bất cứ thứ gì ngài thích.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "偶に",
+            "back": "Ý nghĩa: Thỉnh thoảng (tương đương với たまに).\nCấu trúc: 偶に + V",
+            "romaji": "tamani",
+            "example": "偶に映画を見ます。\nThỉnh thoảng tôi xem phim.\n\n偶に日本料理を食べます。\nThỉnh thoảng tôi ăn món Nhật.\n\n偶に散歩をします。\nThỉnh thoảng tôi đi dạo.\n\n偶に早く帰ります。\nThỉnh thoảng tôi về sớm.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

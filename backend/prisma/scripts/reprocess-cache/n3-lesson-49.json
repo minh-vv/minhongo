@@ -1,0 +1,35 @@
+{
+  "order": 49,
+  "title": "49. ～つもりだ",
+  "summary": "Ngữ pháp bài số 49 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～つもりだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** Thể thường (Na-adj + な / N + の) + つもりだ\n- **Ý nghĩa:** Dùng để diễn tả sự suy nghĩ, niềm tin chủ quan của bản thân, trái ngược với thực tế khách quan hoặc nhận định của người khác.\n\n#### 📝 Ví dụ minh họa\n- 私は若いつもりですが、もう50歳になりました。\n(Tôi cứ ngỡ là mình còn trẻ, nhưng đã 50 tuổi rồi.)\n- ちゃんと鍵を閉めたつもりだったが、開いていました。\n(Tôi cứ đinh ninh là đã khóa cửa cẩn thận rồi, nhưng hóa ra nó đang mở.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 49 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 49 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜つもりだ",
+            "back": "Ý nghĩa: Cứ ngỡ là, đinh ninh là, tin rằng (thực tế có thể trái ngược). Thể hiện cảm giác chủ quan.\nCấu trúc: Thể thường (Na-adj + な / N + の) + つもりだ",
+            "romaji": "tsumori da",
+            "example": "私は若いつもりですが、もう50歳になりました。\nTôi cứ ngỡ là mình còn trẻ, nhưng đã 50 tuổi rồi.\n\nちゃんと鍵を閉めたつもりだったが、開いていました。\nTôi cứ đinh ninh là đã khóa cửa cẩn thận rồi, nhưng hóa ra nó đang mở.\n\n勉強したつもりだったのに、テストの結果は悪かった。\nTôi cứ ngỡ là mình đã học bài kỹ rồi, nhưng kết quả thi lại tệ.\n\n伝えたつもりですが、相手には理解されていなかった。\nTôi cứ ngỡ là mình đã truyền đạt rồi, nhưng đối phương lại không hiểu.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

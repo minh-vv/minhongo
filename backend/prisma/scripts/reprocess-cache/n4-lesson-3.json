@@ -1,0 +1,216 @@
+{
+  "order": 3,
+  "title": "Bài 28 — Từ vựng JLPT N4 (Phần 3)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 3/25.",
+  "theoryMd": "### 1. V-たほうがいいです\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đưa ra lời khuyên nên làm gì đó thì tốt hơn.\n- Cấu trúc: V-た + ほうがいいです\n#### 📝 Ví dụ minh họa\n- 毎日運動したほうがいいです。(Bạn nên tập thể dục mỗi ngày.)\n- 早く寝たほうがいいですよ。(Bạn nên đi ngủ sớm đi.)\n- 薬を飲んだほうがいいです。(Bạn nên uống thuốc đi.)\n- 野菜を食べたほうがいいです。(Bạn nên ăn rau đi.)\n\n### 2. 〜から\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Biểu thị lý do, nguyên nhân.\n- Cấu trúc: Mệnh đề nguyên nhân + から + Mệnh đề kết quả\n#### 📝 Ví dụ minh họa\n- 雨が降るから、傘を持っていきます。(Vì trời mưa nên tôi mang theo ô.)\n- 忙しいから、行きません。(Vì bận nên tôi không đi.)\n- 暑いから、窓を開けます。(Vì nóng nên tôi mở cửa sổ.)\n- 安いから、これを買います。(Vì rẻ nên tôi mua cái này.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 28 — Từ vựng",
+        "description": "Từ vựng bài số 28 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "残念",
+            "back": "đáng tiếc, không may",
+            "romaji": "ざんねん",
+            "example": "残念（ざんねん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "島",
+            "back": "đảo",
+            "romaji": "しま",
+            "example": "島（しま）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "教会",
+            "back": "nhà thờ",
+            "romaji": "きょうかい",
+            "example": "教会（きょうかい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "歴史",
+            "back": "lịch sử",
+            "romaji": "れきし",
+            "example": "歴史（れきし）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "社会",
+            "back": "xã hội, cộng đồng",
+            "romaji": "しゃかい",
+            "example": "社会（しゃかい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "住所",
+            "back": "địa chỉ, nơi cư trú",
+            "romaji": "じゅうしょ",
+            "example": "住所（じゅうしょ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "工場",
+            "back": "nhà máy, xưởng",
+            "romaji": "こうじょう",
+            "example": "工場（こうじょう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "趣味",
+            "back": "sở thích",
+            "romaji": "しゅみ",
+            "example": "趣味（しゅみ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "経済",
+            "back": "kinh tế",
+            "romaji": "けいざい",
+            "example": "経済（けいざい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "台風",
+            "back": "bão, cuồng phong",
+            "romaji": "たいふう",
+            "example": "台風（たいふう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "卒業",
+            "back": "tốt nghiệp",
+            "romaji": "そつぎょう",
+            "example": "卒業（そつぎょう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "雲",
+            "back": "mây",
+            "romaji": "くも",
+            "example": "雲（くも）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "光",
+            "back": "ánh sáng",
+            "romaji": "ひかり",
+            "example": "光（ひかり）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "贈り物",
+            "back": "quà tặng",
+            "romaji": "おくりもの",
+            "example": "贈り物（おくりもの）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "科学",
+            "back": "khoa học",
+            "romaji": "かがく",
+            "example": "科学（かがく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "政治",
+            "back": "chính trị, chính quyền",
+            "romaji": "せいじ",
+            "example": "政治（せいじ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "特別",
+            "back": "đặc biệt, phi thường",
+            "romaji": "とくべつ",
+            "example": "特別（とくべつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "水泳",
+            "back": "bơi lội",
+            "romaji": "すいえい",
+            "example": "水泳（すいえい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "講義",
+            "back": "bài giảng",
+            "romaji": "こうぎ",
+            "example": "講義（こうぎ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "指",
+            "back": "ngón tay, ngón chân",
+            "romaji": "ゆび",
+            "example": "指（ゆび）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "生産",
+            "back": "sản xuất",
+            "romaji": "せいさん",
+            "example": "生産（せいさん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "会話",
+            "back": "trò chuyện, đối thoại",
+            "romaji": "かいわ",
+            "example": "会話（かいわ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "玩具",
+            "back": "đồ chơi",
+            "romaji": "おもちゃ",
+            "example": "玩具（おもちゃ）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 3 — Ngữ pháp",
+        "description": "Ngữ pháp bài 3: Bài 28 — Từ vựng JLPT N4 (Phần 3)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "V-たほうがいいです",
+            "back": "Ý nghĩa: Đưa ra lời khuyên nên làm gì đó thì tốt hơn.\nCấu trúc: V-た + ほうがいいです",
+            "romaji": "V-ta-houga-ii-desu",
+            "example": "毎日運動したほうがいいです。\nBạn nên tập thể dục mỗi ngày.\n\n早く寝たほうがいいですよ。\nBạn nên đi ngủ sớm đi.\n\n薬を飲んだほうがいいです。\nBạn nên uống thuốc đi.\n\n野菜を食べたほうがいいです。\nBạn nên ăn rau đi.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "〜から",
+            "back": "Ý nghĩa: Biểu thị lý do, nguyên nhân.\nCấu trúc: Mệnh đề nguyên nhân + から + Mệnh đề kết quả",
+            "romaji": "kara",
+            "example": "雨が降るから、傘を持っていきます。\nVì trời mưa nên tôi mang theo ô.\n\n忙しいから、行きません。\nVì bận nên tôi không đi.\n\n暑いから、窓を開けます。\nVì nóng nên tôi mở cửa sổ.\n\n安いから、これを買います。\nVì rẻ nên tôi mua cái này.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

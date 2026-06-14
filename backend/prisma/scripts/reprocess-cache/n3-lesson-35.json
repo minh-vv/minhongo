@@ -1,0 +1,35 @@
+{
+  "order": 35,
+  "title": "35. ～とは限らない",
+  "summary": "Ngữ pháp bài số 35 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～とは限らない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không hẳn là... / Chưa chắc đã... (Diễn tả sự phủ định một phần, dùng để chỉ các trường hợp ngoại lệ. Thường đi kèm các từ chỉ sự toàn thể như: いつも, 必ず, みんな).\n- **Cấu trúc**: \n  - [Thể thông thường] + とは限らない\n  - Lưu ý: Với Tính từ đuôi na và Danh từ, có thể bỏ 'だ' hoặc giữ nguyên.\n\n#### 📝 Ví dụ minh họa\n- 高い料理がいつも美味しいとは限らない。\nMón ăn đắt tiền không hẳn lúc nào cũng ngon.\n\n- 日本人がみんな納豆を好むとは限らない。\nKhông phải người Nhật nào cũng thích natto.\n\n- 有名な大学を出たからといって、優秀だとは限らない。\nNói là tốt nghiệp đại học danh tiếng thì không hẳn đã là ưu tú.\n\n- 雨が降っているからといって、試合が中止になるとは限らない。\nKhông phải cứ trời mưa là trận đấu sẽ bị hoãn.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 35 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 35 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜とは限らない",
+            "back": "Ý nghĩa: Không hẳn là... / Không thể khẳng định là... (Chỉ ra trường hợp ngoại lệ).\nCấu trúc: [Thể thông thường (Na-adj + だ) / (N + だ)] ＋ とは限らない",
+            "romaji": "to-wa-kagiranai",
+            "example": "高い料理がいつも美味しいとは限らない。\nMón ăn đắt tiền không hẳn lúc nào cũng ngon.\n\n日本人がみんな納豆を好むとは限らない。\nKhông phải người Nhật nào cũng thích natto.\n\n有名な大学を出たからといって、優秀だとは限らない。\nNói là tốt nghiệp đại học danh tiếng thì không hẳn đã là ưu tú.\n\n雨が降っているからといって、試合が中止になるとは限らない。\nKhông phải cứ trời mưa là trận đấu sẽ bị hoãn.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

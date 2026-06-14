@@ -1,0 +1,42 @@
+{
+  "order": 51,
+  "title": "Bài 51 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 51/92).",
+  "theoryMd": "### 1. 〜を皮切りに / 〜を皮切りにして\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Bắt đầu bằng..., lấy... làm điểm khởi đầu cho một loạt hành động, sự kiện xảy ra liên tiếp.\n- **Cấu trúc**: N + を皮切りに / を皮切りにして\n\n#### 📝 Ví dụ minh họa\n- 大阪公演を皮切りに、全国ツアーがスタートする。\n(Bắt đầu bằng buổi diễn tại Osaka, tour diễn toàn quốc sẽ khởi động.)\n- 札幌を皮切りにして、全国で巡回展が行われる。\n(Bắt đầu từ Sapporo, triển lãm lưu động sẽ được tổ chức trên toàn quốc.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 51 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 51.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜を皮切りに",
+            "back": "Ý nghĩa: Bắt đầu từ, khởi đầu từ (thường dẫn đến chuỗi hành động nối tiếp).\nCấu trúc: N + を皮切りに",
+            "romaji": "wo-kawakiri-ni",
+            "example": "大阪公演を皮切りに、全国ツアーがスタートする。\nBắt đầu bằng buổi diễn tại Osaka, tour diễn toàn quốc sẽ khởi động.\n\nこの受賞を皮切りに、依頼が相次いだ。\nBắt đầu từ giải thưởng này, các lời mời hợp tác đến dồn dập.\n\n社長の挨拶を皮切りに、パーティーが始まった。\nBắt đầu từ lời phát biểu của giám đốc, bữa tiệc đã bắt đầu.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜を皮切りにして",
+            "back": "Ý nghĩa: Lấy… làm mở đầu cho một chuỗi sự kiện tiếp nối.\nCấu trúc: N + を皮切りにして",
+            "romaji": "wo-kawakiri-ni-shite",
+            "example": "札幌を皮切りにして、全国で巡回展が行われる。\nBắt đầu từ Sapporo, triển lãm lưu động sẽ được tổ chức trên toàn quốc.\n\nドラマの放送を皮切りにして、関連商品のコラボが次々と発表された。\nBắt đầu từ việc phát sóng bộ phim, các hợp tác sản phẩm liên quan lần lượt được công bố.\n\n新曲の発売を皮切りにして、大規模なキャンペーンが展開された。\nBắt đầu từ việc phát hành bài hát mới, chiến dịch quy mô lớn đã được triển khai.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

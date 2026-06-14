@@ -1,0 +1,35 @@
+{
+  "order": 56,
+  "title": "56. など/なんか",
+  "summary": "Ngữ pháp bài số 56 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜など / 〜なんか\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đưa ra ví dụ hoặc thể hiện sự xem nhẹ, khiêm tốn.\n- **Cấu trúc**: \n  - N / V-ru + など\n  - N + なんか\n\n#### 📝 Ví dụ minh họa\n- スキーなど、ウインタースポーツが大好きです。\n(Tôi rất thích các môn thể thao mùa đông, ví dụ như trượt tuyết.)\n- 私なんか、まだまだ実力が足りません。\n(Một người như tôi thì thực lực vẫn còn thiếu sót lắm.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 56 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 56 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜など / 〜なんか",
+            "back": "Ý nghĩa: Đưa ra ví dụ tiêu biểu hoặc thể hiện sự xem nhẹ, phủ định đối với đối tượng được nhắc tới.\nCấu trúc: N / V-ru + など / N + なんか",
+            "romaji": "nado / nanka",
+            "example": "スキーなど、ウインタースポーツが大好きです。\nTôi rất thích các môn thể thao mùa đông, ví dụ như trượt tuyết.\n\n私なんか、まだまだ実力が足りません。\nMột người như tôi thì thực lực vẫn còn thiếu sót lắm.\n\nそんなこと、私には関係ないなどと言わないでください。\nĐừng nói những lời như kiểu chuyện đó không liên quan đến tôi.\n\n試験なんか、怖くありません。\nMấy cái bài kiểm tra thì tôi chẳng sợ gì cả.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

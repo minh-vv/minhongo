@@ -1,0 +1,35 @@
+{
+  "order": 81,
+  "title": "81. ～ようにする A",
+  "summary": "Ngữ pháp bài số 81 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜ようにする\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả sự cố gắng, nỗ lực làm hoặc không làm một việc gì đó như một thói quen hoặc mục tiêu.\n- **Cấu trúc**: V-ru / V-nai + ようにする\n\n#### 📝 Ví dụ minh họa\n- 忘れ物をしないようにしてください。\n(Hãy cố gắng đừng để quên đồ.)\n\n- 明日から毎日、日記を書くようにする。\n(Tôi sẽ cố gắng viết nhật ký mỗi ngày từ ngày mai.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 81 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 81 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ようにする",
+            "back": "Ý nghĩa: Cố gắng, nỗ lực thực hiện một hành động nào đó.\nCấu trúc: V-ru / V-nai + ようにする",
+            "romaji": "youni suru",
+            "example": "忘れ物をしないようにしてください。\nHãy cố gắng đừng để quên đồ.\n\n明日から毎日、日記を書くようにする。\nTôi sẽ cố gắng viết nhật ký mỗi ngày từ ngày mai.\n\n健康のために、油っこいものを食べないようにしている。\nVì sức khỏe, tôi cố gắng không ăn đồ dầu mỡ.\n\nなるべく早く帰るようにします。\nTôi sẽ cố gắng về nhà sớm nhất có thể.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

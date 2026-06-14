@@ -1,0 +1,35 @@
+{
+  "order": 9,
+  "title": "9. ～ついでに…",
+  "summary": "Ngữ pháp bài số 9 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～ついでに\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Nhân tiện làm hành động chính, thực hiện thêm một hành động khác. Việc chính là mục đích ban đầu, việc phụ là việc tranh thủ.\n- **Công thức:** N-の / V-る / V-た + ついでに\n\n#### 📝 Ví dụ minh họa\n- コンビニへ行くついでに、切手を買ってきてくれない？\n(Tiện thể đi siêu thị, bạn mua hộ tôi ít tem được không?)\n- 散歩のついでに、ちょっと郵便局に寄ってきた。\n(Tiện đi dạo, tôi ghé qua bưu điện một chút.)\n- 旅行のついでに、実家に寄って両親の顔を見てきた。\n(Tiện chuyến đi du lịch, tôi ghé về nhà bố mẹ để thăm mặt bố mẹ.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 9 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 9 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ついでに",
+            "back": "Ý nghĩa: Nhân tiện làm một việc này thì làm luôn một việc khác trong cùng một khoảng thời gian/cơ hội.\nCấu trúc: Nの / V-る / V-た + ついでに",
+            "romaji": "tsuide-ni",
+            "example": "コンビニへ行くついでに、切手を買ってきてくれない？\nTiện thể đi siêu thị, bạn mua hộ tôi ít tem được không?\n\n散歩のついでに、ちょっと郵便局に寄ってきた。\nTiện đi dạo, tôi ghé qua bưu điện một chút.\n\n旅行のついでに、実家に寄って両親の顔を見てきた。\nTiện chuyến đi du lịch, tôi ghé về nhà bố mẹ để thăm mặt bố mẹ.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

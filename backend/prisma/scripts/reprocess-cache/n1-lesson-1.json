@@ -1,0 +1,42 @@
+{
+  "order": 1,
+  "title": "Bài 1 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 1/92).",
+  "theoryMd": "### Bài 1: Cấu trúc liệt kê đối tượng (N1)\n\n#### 1. ～にしろ～にしろ\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dù là... hay là... (dùng để liệt kê các trường hợp và đưa ra nhận định chung).\n- Cấu trúc: N / V-ru / V-nai + にしろ + N / V-ru / V-nai + にしろ\n\n#### 📝 Ví dụ minh họa\n- 学生にしろ社会人にしろ、時間管理は大切だ。\n(Dù là sinh viên hay người đi làm, quản lý thời gian đều quan trọng.)\n\n---\n\n#### 2. ～にせよ～にせよ\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dù là... hay là... (tương tự như にしろ, nhưng mang sắc thái văn viết/trang trọng hơn).\n- Cấu trúc: N / V-ru / V-nai + にせよ + N / V-ru / V-nai + にせよ\n\n#### 📝 Ví dụ minh họa\n- 学生にせよ社会人にせよ、学び続ける姿勢が大切だ。\n(Dù là sinh viên hay người đi làm, thái độ học tập liên tục đều quan trọng.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 1 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 1.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜にしろ〜にしろ",
+            "back": "Ý nghĩa: Dù là A hay là B (liệt kê các đối tượng để đưa ra kết luận chung)\nCấu trúc: N / V-ru / V-nai + にしろ + N / V-ru / V-nai + にしろ",
+            "romaji": "ni-shiro-ni-shiro",
+            "example": "学生にしろ社会人にしろ、時間管理は大切だ。\nDù là sinh viên hay người đi làm, quản lý thời gian đều quan trọng.\n\n行くにしろ行かないにしろ、早めに連絡してください。\nDù đi hay không đi, hãy liên lạc sớm.\n\n高いにしろ安いにしろ、品質は確認すべきだ。\nDù đắt hay rẻ, vẫn nên kiểm tra chất lượng.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜にせよ〜にせよ",
+            "back": "Ý nghĩa: Dù là A hay là B (tương tự ~にしろ, nhưng trang trọng hơn)\nCấu trúc: N / V-ru / V-nai + にせよ + N / V-ru / V-nai + にせよ",
+            "romaji": "ni-seyo-ni-seyo",
+            "example": "学生にせよ社会人にせよ、学び続ける姿勢が大切だ。\nDù là sinh viên hay người đi làm, thái độ học tập liên tục đều quan trọng.\n\n行くにせよ行かないにせよ、早めに連絡してください。\nDù đi hay không đi, hãy báo sớm.\n\n高いにせよ安いにせよ、品質は妥協しない。\nDù đắt hay rẻ, chất lượng không thỏa hiệp.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

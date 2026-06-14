@@ -1,0 +1,167 @@
+{
+  "order": 5,
+  "title": "Bài 5 — Động từ di chuyển (いきます／きます／かえります)",
+  "summary": "Trợ từ へ chỉ hướng, で chỉ phương tiện, と cùng với ai.",
+  "theoryMd": "### 1. N (địa điểm) へ V\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trợ từ へ chỉ hướng di chuyển.\n- Cấu trúc: N (địa điểm) + へ + (いきます/きます/かえります)\n\n#### 📝 Ví dụ minh họa\nがっこう へ いきます。\nTôi đi đến trường.\n\nうち へ かえります。\nTôi về nhà.\n\n### 2. N (phương tiện) で N (địa điểm) へ V\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trợ từ で chỉ phương tiện giao thông.\n- Cấu trúc: N (phương tiện) + で + N (địa điểm) + へ + V\n\n#### 📝 Ví dụ minh họa\nでんしゃ で とうきょう へ いきます。\nTôi đi Tokyo bằng tàu điện.\n\nタクシー で いきます。\nTôi đi bằng taxi.\n\n### 3. N (người) と V\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trợ từ と chỉ đối tượng cùng thực hiện hành động.\n- Cấu trúc: N (người) + と + V\n\n#### 📝 Ví dụ minh họa\nともだち と いきます。\nTôi đi cùng bạn bè.\n\nかぞく と にほんへ きました。\nTôi đã đến Nhật cùng gia đình.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 5 — Từ vựng",
+        "description": "Từ vựng bài 5: Bài 5 — Động từ di chuyển (いきます／きます／かえります)",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "いきます",
+            "back": "Đi",
+            "romaji": "ikimasu",
+            "example": "がっこうへ いきます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "きます",
+            "back": "Đến",
+            "romaji": "kimasu",
+            "example": "にほんへ きました。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "かえります",
+            "back": "Về",
+            "romaji": "kaerimasu",
+            "example": "6じに うちへ かえります。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "でんしゃ",
+            "back": "Tàu điện",
+            "romaji": "densha",
+            "example": "でんしゃで いきます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ちかてつ",
+            "back": "Tàu điện ngầm",
+            "romaji": "chikatetsu",
+            "example": "ちかてつで しんじゅくへ いきます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "バス",
+            "back": "Xe buýt",
+            "romaji": "basu",
+            "example": "バスで がっこうへ いきます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "タクシー",
+            "back": "Taxi",
+            "romaji": "takushī",
+            "example": "タクシーで かえります。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "じてんしゃ",
+            "back": "Xe đạp",
+            "romaji": "jitensha",
+            "example": "じてんしゃで きました。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "あるいて",
+            "back": "Đi bộ",
+            "romaji": "aruite",
+            "example": "あるいて かえります。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ともだち",
+            "back": "Bạn bè",
+            "romaji": "tomodachi",
+            "example": "ともだちと いきます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "ひとりで",
+            "back": "Một mình",
+            "romaji": "hitori de",
+            "example": "ひとりで いきます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "うち",
+            "back": "Nhà mình",
+            "romaji": "uchi",
+            "example": "うちへ かえります。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "がっこう",
+            "back": "Trường học",
+            "romaji": "gakkou",
+            "example": "まいにち がっこうへ いきます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "らいしゅう",
+            "back": "Tuần sau",
+            "romaji": "raishuu",
+            "example": "らいしゅう にほんへ いきます。",
+            "jlptLevel": 5
+          },
+          {
+            "front": "せんしゅう",
+            "back": "Tuần trước",
+            "romaji": "senshuu",
+            "example": "せんしゅう ともだちと いきました。",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 5 — Ngữ pháp",
+        "description": "Ngữ pháp bài 5: Bài 5 — Động từ di chuyển (いきます／きます／かえります)",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "N (địa điểm) へ V",
+            "back": "Ý nghĩa: Chỉ phương hướng của hành động di chuyển (Đi/Đến/Về).\nCấu trúc: N (địa điểm) + へ + (いきます/きます/かえります)",
+            "romaji": "N e V",
+            "example": "がっこう へ いきます。\nTôi đi đến trường.\n\nうち へ かえります。\nTôi về nhà.\n\nとうきょう へ きました。\nTôi đã đến Tokyo.\n\nスーパー へ いきます。\nTôi đi siêu thị.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N (phương tiện) で N (địa điểm) へ V",
+            "back": "Ý nghĩa: Thực hiện di chuyển bằng phương tiện gì.\nCấu trúc: N (phương tiện) + で + N (địa điểm) + へ + V",
+            "romaji": "N de N e V",
+            "example": "でんしゃ で とうきょう へ いきます。\nTôi đi Tokyo bằng tàu điện.\n\nタクシー で いきます。\nTôi đi bằng taxi.\n\nじてんしゃ で うち へ かえります。\nTôi về nhà bằng xe đạp.\n\nひこうき で きました。\nTôi đã đến bằng máy bay.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "N (người) と V",
+            "back": "Ý nghĩa: Thực hiện hành động cùng với ai.\nCấu trúc: N (người) + と + V",
+            "romaji": "N to V",
+            "example": "ともだち と いきます。\nTôi đi cùng bạn bè.\n\nかぞく と にほんへ きました。\nTôi đã đến Nhật cùng gia đình.\n\nせんせい と べんきょうします。\nTôi học cùng giáo viên.\n\nマイクさんと いきます。\nTôi đi cùng anh Mike.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

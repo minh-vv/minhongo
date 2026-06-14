@@ -1,0 +1,42 @@
+{
+  "order": 13,
+  "title": "Bài 13 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 13/92).",
+  "theoryMd": "### 1. 〜ではあるまいし\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đâu phải là... (dùng để nhấn mạnh rằng không có lý do gì để làm điều đó).\n- **Cấu trúc**: N + ではあるまいし\n\n#### 📝 Ví dụ minh họa\n- 子供ではあるまいし、そんなことで泣くな。(Không phải trẻ con đâu, đừng khóc vì chuyện đó.)\n- 素人ではあるまいし、基本的なミスは避けてほしい。(Không phải người mới nữa, mong tránh những lỗi cơ bản.)\n\n### 2. 〜ときたら\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nói đến... thì (thường dùng để nêu lên một chủ đề và đưa ra đánh giá, phê phán).\n- **Cấu trúc**: N + ときたら\n\n#### 📝 Ví dụ minh họa\n- うちの上司ときたら、会議にいつも遅れてくるんだ。(Sếp nhà tôi ấy à, lúc nào họp cũng đến muộn.)\n- 最近の天気ときたら、晴れたと思ったらすぐ雨だ。(Thời tiết dạo này ấy, vừa nắng cái là mưa ngay.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 13 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 13.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜ではあるまいし",
+            "back": "Ý nghĩa: Đâu có phải là... (nhấn mạnh sự khác biệt/phủ định).\nCấu trúc: N + ではあるまいし",
+            "romaji": "dewa-arumaishi",
+            "example": "子供ではあるまいし、そんなことで泣くな。\nKhông phải trẻ con đâu, đừng khóc vì chuyện đó.\n\n素人ではあるまいし、基本的なミスは避けてほしい。\nKhông phải người mới nữa, mong tránh những lỗi cơ bản.\n\n専門家ではあるまいし、そこまで詳しく説明するのは無理だ。\nĐâu phải chuyên gia, giải thích chi tiết đến mức đó là không thể.\n\n囚人ではあるまいし、24時間監視されるのは耐えられない。\nĐâu phải tù nhân, không thể chịu nổi việc bị giám sát 24/24.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜ときたら",
+            "back": "Ý nghĩa: Nói đến... thì (thường dùng để phê phán, than phiền).\nCấu trúc: N + ときたら",
+            "romaji": "to-kitara",
+            "example": "うちの上司ときたら、会議にいつも遅れてくるんだ。\nSếp nhà tôi ấy à, lúc nào họp cũng đến muộn.\n\n最近の天気ときたら、晴れたと思ったらすぐ雨だ。\nThời tiết dạo này ấy, vừa nắng cái là mưa ngay.\n\n弟ときたら、部屋を片付けないでいつも散らかしてばかりいる。\nThằng em tôi ấy, chẳng bao giờ dọn phòng, cứ làm bừa bãi mãi.\n\nあの店ときたら、いつも行列でなかなか入れない。\nCái tiệm đó ấy, lúc nào cũng xếp hàng, khó mà vào được.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

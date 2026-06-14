@@ -1,0 +1,42 @@
+{
+  "order": 39,
+  "title": "Bài 39 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 39/92).",
+  "theoryMd": "### 1. 〜としたところで\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Ngay cả khi làm điều đó, kết quả cũng không có gì khác biệt.\n- **Cấu trúc**: V/Adj/N-plain + としたところで\n#### 📝 Ví dụ minh họa\n- 仮に予算が増えたとしたところで、納期は変わらない。 (Giả sử ngân sách có tăng đi nữa, thời hạn cũng không đổi.)\n- 彼が謝罪したとしたところで、被害者の怒りは収まらないだろう。 (Dẫu anh ta có xin lỗi, cơn giận của nạn nhân chắc cũng không nguôi.)\n\n### 2. 〜にして\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh thời điểm hoặc điều kiện đặc biệt mà sự việc mới xảy ra/được thực hiện.\n- **Cấu trúc**: N + にして\n#### 📝 Ví dụ minh họa\n- 五十歳にして初めて海を見た。 (Mãi đến 50 tuổi tôi mới lần đầu thấy biển.)\n- 三度目にしてようやく合格した。 (Chỉ đến lần thứ ba tôi mới đỗ.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 39 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 39.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜としたところで",
+            "back": "Ý nghĩa: Cho dù... (thì kết quả cũng không thay đổi).\nCấu trúc: V/Adj/N-plain + としたところで",
+            "romaji": "to-shita-tokoro-de",
+            "example": "仮に予算が増えたとしたところで、納期は変わらない。\nGiả sử ngân sách có tăng đi nữa, thời hạn cũng không đổi.\n\n彼が謝罪したとしたところで、被害者の怒りは収まらないだろう。\nDẫu anh ta có xin lỗi, cơn giận của nạn nhân chắc cũng không nguôi.\n\n子どもにしたところで、あの映像はショックだ。\nNgay cả với trẻ em, đoạn video đó cũng gây sốc.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜にして",
+            "back": "Ý nghĩa: Mãi đến (thời điểm/trạng thái) đó... thì mới... (thể hiện sự muộn màng hoặc nhấn mạnh).\nCấu trúc: N + にして",
+            "romaji": "ni-shite",
+            "example": "五十歳にして初めて海を見た。\nMãi đến 50 tuổi tôi mới lần đầu thấy biển.\n\n三度目にしてようやく合格した。\nChỉ đến lần thứ ba tôi mới đỗ.\n\n専門家にして初めて理解できる理論だ。\nĐây là lý thuyết chỉ có chuyên gia mới hiểu được.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

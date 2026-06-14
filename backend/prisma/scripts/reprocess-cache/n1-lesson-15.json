@@ -1,0 +1,42 @@
+{
+  "order": 15,
+  "title": "Bài 15 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 15/92).",
+  "theoryMd": "### 1. 〜はどうであれ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dù thế nào đi chăng nữa, không quan tâm đến yếu tố đó.\n- **Cấu trúc**: V-từ điển / N + はどうであれ\n\n#### 📝 Ví dụ minh họa\n- 結果はどうであれ、プロセスを大切にしたい。(Dù kết quả thế nào, tôi vẫn coi trọng quá trình.)\n- 理由はどうであれ、遅刻は厳禁だ。(Dù lý do là gì, tuyệt đối không được đi muộn.)\n\n### 2. 〜はさておき\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Gác lại một bên (tạm thời không bàn tới để tập trung vào chủ đề chính).\n- **Cấu trúc**: N + はさておき\n\n#### 📝 Ví dụ minh họa\n- 冗談はさておき、今後の方針について話しましょう。(Gác chuyện đùa sang một bên, chúng ta bàn về phương châm sắp tới nhé.)\n- 値段はさておき、安全性を最優先に考える。(Tạm gác giá cả, ưu tiên hàng đầu là độ an toàn.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 15 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 15.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜はどうであれ",
+            "back": "Ý nghĩa: Dù thế nào đi chăng nữa, bất kể thế nào.\nCấu trúc: V-từ điển/N + はどうであれ",
+            "romaji": "wa-dou-de-are",
+            "example": "結果はどうであれ、プロセスを大切にしたい。\nDù kết quả thế nào, tôi vẫn coi trọng quá trình.\n\n彼が誰であれ、規則は守ってもらう。\nCho dù anh ta là ai, cũng phải tuân thủ quy định.\n\n理由はどうであれ、遅刻は厳禁だ。\nDù lý do là gì, tuyệt đối không được đi muộn.\n\n天気がどうであれ、明日のイベントは実施する。\nBất kể thời tiết thế nào, sự kiện ngày mai vẫn tiến hành.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜はさておき",
+            "back": "Ý nghĩa: Gác lại một bên, tạm thời không nói đến.\nCấu trúc: N + はさておき",
+            "romaji": "wa-sate-oki",
+            "example": "冗談はさておき、今後の方針について話しましょう。\nGác chuyện đùa sang một bên, chúng ta bàn về phương châm sắp tới nhé.\n\n値段はさておき、安全性を最優先に考える。\nTạm gác giá cả, ưu tiên hàng đầu là độ an toàn.\n\n細かい点はさておき、全体的な構成を確認しよう。\nGác lại các điểm chi tiết, hãy cùng kiểm tra tổng thể cấu trúc.\n\n忙しさはさておき、一度話し合う時間を作りたい。\nTạm gác sự bận rộn sang bên, tôi muốn tạo thời gian để thảo luận.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "order": 88,
+  "title": "88. ～かける・～かけだ",
+  "summary": "Ngữ pháp bài số 88 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜かける・〜かけだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Diễn tả trạng thái một hành động đang được thực hiện nhưng còn dang dở, chưa hoàn tất.\n- **Cấu trúc:** V-masu (bỏ masu) + かける / かけだ / かけの + N\n\n#### 📝 Ví dụ minh họa\nテーブルの上に飲みかけのコップが置いてある。\nTrên bàn có đặt một chiếc cốc uống dở.\n\nこの本はまだ読みかけだから、片付けないでください。\nCuốn sách này tôi vẫn đang đọc dở, xin vui lòng đừng dọn đi.\n\n彼は言いかけて、黙ってしまった。\nAnh ấy định nói gì đó nhưng rồi lại im bặt.\n\n作りかけのプラモデルが部屋に散らばっている。\nMô hình lắp ráp dở dang nằm rải rác trong phòng.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 88 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 88 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜かける・〜かけだ",
+            "back": "Ý nghĩa: Hành động đang làm dở dang, chưa hoàn thành.\nCấu trúc: V-masu (bỏ masu) + かける / かけだ / かけの + N",
+            "romaji": "kakeru / kakeda",
+            "example": "テーブルの上に飲みかけのコップが置いてある。\nTrên bàn có đặt một chiếc cốc uống dở.\n\nこの本はまだ読みかけだから、片付けないでください。\nCuốn sách này tôi vẫn đang đọc dở, xin vui lòng đừng dọn đi.\n\n彼は言いかけて、黙ってしまった。\nAnh ấy định nói gì đó nhưng rồi lại im bặt.\n\n作りかけのプラモデルが部屋に散らばっている。\nMô hình lắp ráp dở dang nằm rải rác trong phòng.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

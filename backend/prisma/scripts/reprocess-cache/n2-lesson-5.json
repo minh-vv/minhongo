@@ -1,0 +1,56 @@
+{
+  "order": 5,
+  "title": "Bài 5: Giới hạn (〜に限り, 〜限り（は）, 〜に限りでは, 〜に限って)",
+  "summary": "Các cấu trúc diễn tả sự giới hạn: 〜に限り, 〜限り（は）, 〜に限りでは, 〜に限って",
+  "theoryMd": "### Bài 5: Giới hạn và ngoại lệ\n\n- **〜に限り**: Chỉ riêng một nhóm/đối tượng cụ thể (thông báo).\n- **〜限り（は）**: Chừng nào còn giữ trạng thái A, thì B còn tiếp diễn.\n- **〜限りでは**: Giới hạn trong những thông tin mình có.\n- **〜に限って**: Nhấn mạnh sự đen đủi (đúng lúc) hoặc tin tưởng tuyệt đối vào đối tượng đặc biệt.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 5 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 5: Giới hạn (〜に限り, 〜限り（は）, 〜に限りでは, 〜に限って)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜に限り",
+            "back": "Ý nghĩa: Chỉ riêng, ngoại lệ (dùng trong thông báo, quảng cáo).\nCấu trúc: N + に限り",
+            "romaji": "ni kagiri",
+            "example": "欠席理由が正当な場合に限り出席扱いにします。\nChỉ đối với trường hợp vắng mặt có lí do chính đáng thì mới được coi là có mặt.\n\n女性のお客様に限り、ドリンクを1杯サービスいたします。\nChỉ riêng khách hàng nữ mới được tặng một ly đồ uống miễn phí.\n\n本日ご来店の方に限り、半額といたします。\nChỉ áp dụng giảm giá một nửa cho khách hàng đến hôm nay.\n\n会員の方に限り入場可能です。\nChỉ hội viên mới được phép vào cửa.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜限り（は）",
+            "back": "Ý nghĩa: Chừng nào mà... thì vẫn... (điều kiện duy trì).\nCấu trúc: V-ru / V-nai / A-i / A-na / N-de aru + 限り(は)",
+            "romaji": "kagiri (wa)",
+            "example": "足が丈夫な限り、まだまだ山登りが楽しめるだろう。\nChừng nào chân còn khỏe thì vẫn còn tận hưởng việc leo núi được.\n\nこの国にいる限り、法律を守らなければならない。\nChừng nào còn ở đất nước này thì phải tuân thủ pháp luật.\n\n約束を破らない限りは、彼を信頼している。\nChừng nào anh ấy chưa phá vỡ lời hứa, tôi vẫn tin tưởng anh ấy.\n\n悪い生活習慣を直さない限り、病気は治らない。\nChừng nào còn chưa bỏ thói quen xấu, bệnh sẽ không khỏi.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜限りでは",
+            "back": "Ý nghĩa: Trong giới hạn nguồn thông tin (nhìn, nghe, biết, điều tra) thì...\nCấu trúc: V-ru / V-ta / V-te iru / N-no + 限りでは",
+            "romaji": "kagiri dewa",
+            "example": "私が知っている限りでは、この近所に花屋はありません。\nTrong giới hạn những gì tôi biết, ở gần đây không có cửa hàng hoa nào cả.\n\n新聞の報道する限りでは、事件の真相はまだ明らかになっていない。\nTheo như những gì báo chí đưa tin, chân tướng sự việc vẫn chưa sáng tỏ.\n\n聞いた限りでは、彼はとても親切な人らしい。\nTheo những gì tôi nghe được, anh ấy có vẻ là người rất tử tế.\n\n私の覚えている限りでは、彼は来なかったはずだ。\nTheo những gì tôi nhớ, đáng lẽ anh ấy đã không đến.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜に限って",
+            "back": "Ý nghĩa: Đúng vào lúc không may / Riêng đối với ai đó thì tin tưởng tuyệt đối (vế sau phủ định).\nCấu trúc: N + に限って",
+            "romaji": "ni kagitte",
+            "example": "庭の手入れをしようと思っている日に限って雨が降る。\nĐúng cái ngày tôi định dọn vườn thì trời mưa.\n\nうちの子に限って、そんな悪いことをするはずがありません。\nRiêng con nhà tôi thì tuyệt đối không đời nào làm việc xấu xa như vậy.\n\n忙しい時に限って、電話がかかってくる。\nĐúng lúc bận rộn thì lại có điện thoại.\n\nあの方に限って、そんなミスはしないだろう。\nĐối với người đó, chắc chắn sẽ không bao giờ mắc lỗi như vậy.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 4
+  }
+}

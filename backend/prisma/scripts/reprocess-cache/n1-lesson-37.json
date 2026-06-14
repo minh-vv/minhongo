@@ -1,0 +1,42 @@
+{
+  "order": 37,
+  "title": "Bài 37 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 37/92).",
+  "theoryMd": "### 1. 〜となれば\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Giả định một tình huống cụ thể và nêu lên kết quả/hệ quả tương ứng.\n- **Cấu trúc**: V/Adj/N-plain + となれば (N/Na-adj thêm だ)\n#### 📝 Ví dụ minh họa\n- 雨となれば、試合は中止だ。 (Nếu mà mưa thì trận đấu sẽ bị hủy.)\n- 命に関わるとなれば、迷っている場合ではない。 (Nếu liên quan đến tính mạng thì không phải lúc do dự.)\n\n### 2. 〜ともなれば\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh khi đến một vị thế, thời điểm hoặc giai đoạn cao hơn thì sự việc thay đổi đáng kể.\n- **Cấu trúc**: N + ともなれば\n#### 📝 Ví dụ minh họa\n- 管理職ともなれば、意思決定の責任が重くなる。 (Đã là quản lý thì trách nhiệm quyết định sẽ nặng nề hơn.)\n- 子育て期ともなれば、出費も時間もかさむものだ。 (Đến giai đoạn nuôi con thì chi phí và thời gian đều tăng.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 37 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 37.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜となれば",
+            "back": "Ý nghĩa: Nếu giả sử rằng/đến mức độ đó thì sẽ kéo theo hệ quả...\nCấu trúc: V/Adj/N-plain + となれば (N/Na-adj thêm だ)",
+            "romaji": "to-nareba",
+            "example": "雨となれば、試合は中止だ。\nNếu mà mưa thì trận đấu sẽ bị hủy.\n\n社長が来るとなれば、万全の準備を整えないと。\nNếu giám đốc mà đến thì phải chuẩn bị thật chu đáo.\n\n命に関わるとなれば、迷っている場合ではない。\nNếu liên quan đến tính mạng thì không phải lúc do dự.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜ともなれば",
+            "back": "Ý nghĩa: Khi rơi vào trạng thái/đến thời điểm đó thì lẽ đương nhiên sẽ xảy ra chuyện đó.\nCấu trúc: N + ともなれば",
+            "romaji": "tomo-nareba",
+            "example": "年度末ともなれば、各部署の残業が増える。\nĐến cuối năm tài chính thì làm thêm ở các bộ phận tăng lên.\n\n管理職ともなれば、意思決定の責任が重くなる。\nĐã là quản lý thì trách nhiệm quyết định sẽ nặng nề hơn.\n\n子育て期ともなれば、出費も時間もかさむものだ。\nĐến giai đoạn nuôi con thì chi phí và thời gian đều tăng.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

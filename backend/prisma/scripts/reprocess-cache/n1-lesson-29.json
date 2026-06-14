@@ -1,0 +1,42 @@
+{
+  "order": 29,
+  "title": "Bài 29 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 29/92).",
+  "theoryMd": "### 1. 〜ですら\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: \"Ngay cả, đến cả\" (tương tự như 'sae' nhưng sắc thái trang trọng hơn).\n- **Cấu trúc**: N + ですら\n\n#### 📝 Ví dụ minh họa\nこの説明は子どもですら理解できる。\nLời giải thích này ngay cả trẻ con cũng hiểu được.\n\n彼は忙しすぎて、昼食の時間すらない。\nAnh ấy bận đến mức ngay cả thời gian ăn trưa cũng không có.\n\n専門家ですら頭を抱える問題だ。\nĐây là vấn đề đến cả chuyên gia cũng phải đau đầu.\n\n---\n### 2. 〜にすら\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh mức độ không thể thực hiện được hành động/trạng thái ngay cả với đối tượng được đề cập.\n- **Cấu trúc**: N + にすら\n\n#### 📝 Ví dụ minh họa\n彼の理論は、専門家にすら理解が難しい。\nLý thuyết của anh ấy ngay cả chuyên gia cũng khó hiểu.\n\n財布を忘れて、水も買うお金すらない。\nQuên ví nên ngay cả tiền mua nước cũng không có.\n\n多忙で、家族と話す時間すら取れない。\nBận đến mức ngay cả thời gian nói chuyện với gia đình cũng không dành được.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 29 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 29.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜ですら",
+            "back": "Ý nghĩa: Ngay cả, đến cả (nhấn mạnh sự vật/người đó còn thế huống chi cái khác).\nCấu trúc: N + ですら",
+            "romaji": "desura",
+            "example": "この説明は子どもですら理解できる。\nLời giải thích này ngay cả trẻ con cũng hiểu được.\n\n彼は忙しすぎて、昼食の時間すらない。\nAnh ấy bận đến mức ngay cả thời gian ăn trưa cũng không có.\n\n専門家ですら頭を抱える問題だ。\nĐây là vấn đề đến cả chuyên gia cũng phải đau đầu.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜にすら",
+            "back": "Ý nghĩa: Ngay cả đến... (nhấn mạnh ở mức độ cao hơn).\nCấu trúc: N + にすら",
+            "romaji": "ni-sura",
+            "example": "彼の理論は、専門家にすら理解が難しい。\nLý thuyết của anh ấy ngay cả chuyên gia cũng khó hiểu.\n\n財布を忘れて、水も買うお金すらない。\nQuên ví nên ngay cả tiền mua nước cũng không có.\n\n多忙で、家族と話す時間すら取れない。\nBận đến mức ngay cả thời gian nói chuyện với gia đình cũng không dành được.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

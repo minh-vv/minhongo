@@ -1,0 +1,35 @@
+{
+  "order": 77,
+  "title": "77. ～にする・～ことにする",
+  "summary": "Ngữ pháp bài số 77 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜にする・〜ことにする\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả sự lựa chọn hoặc quyết định thực hiện một hành động dựa trên ý chí của bản thân.\n- **Cấu trúc**:\n  - Danh từ + にする\n  - Động từ thể từ điển (V-ru) / Động từ phủ định (V-nai) + ことにする\n\n#### 📝 Ví dụ minh họa\n- レストランでは、私はカレーにします。\n  (Ở nhà hàng, tôi quyết định chọn món cà ri.)\n- 健康のために、毎日走ることにしました。\n  (Vì sức khỏe, tôi đã quyết định chạy bộ mỗi ngày.)\n- 今度の休みは京都へ行くことにします。\n  (Tôi quyết định sẽ đi Kyoto vào kỳ nghỉ tới.)\n- お酒は飲まないことにしています。\n  (Tôi quyết định không uống rượu bia.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 77 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 77 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜にする・〜ことにする",
+            "back": "Ý nghĩa: Quyết định chọn cái gì / Quyết định làm việc gì (thể hiện ý chí, quyết định của bản thân).\nCấu trúc: N + にする / V-ru・V-nai + ことにする",
+            "romaji": "ni-suru / koto-ni-suru",
+            "example": "レストランでは、私はカレーにします。\nỞ nhà hàng, tôi quyết định chọn món cà ri.\n\n健康のために、毎日走ることにしました。\nVì sức khỏe, tôi đã quyết định chạy bộ mỗi ngày.\n\n今度の休みは京都へ行くことにします。\nTôi quyết định sẽ đi Kyoto vào kỳ nghỉ tới.\n\nお酒は飲まないことにしています。\nTôi quyết định không uống rượu bia.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

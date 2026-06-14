@@ -1,0 +1,216 @@
+{
+  "order": 5,
+  "title": "Bài 30 — Từ vựng JLPT N4 (Phần 5)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 5/25.",
+  "theoryMd": "### 1. へ / に (Trợ từ chỉ hướng)\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trợ từ chỉ hướng chuyển động hoặc điểm đến.\n- Cấu trúc: Địa điểm + へ/に + 行きます/来ます/帰ります\n#### 📝 Ví dụ minh họa\n- 日本へ行きます。(Tôi đi đến Nhật Bản.)\n- 家へ帰ります。(Tôi về nhà.)\n- 学校に来ます。(Tôi đến trường.)\n- 公園へ行きます。(Tôi đi đến công viên.)\n\n### 2. N(hành động) + に + 行きます/来ます\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đi hoặc đến đâu để thực hiện một mục đích/hành động.\n- Cấu trúc: N (hành động) + に + 行きます/来ます\n#### 📝 Ví dụ minh họa\n- 買い物に行きます。(Tôi đi mua sắm.)\n- 食事に来ました。(Tôi đến để ăn cơm.)\n- 映画を見に行きます。(Tôi đi xem phim.)\n- 旅行に行きます。(Tôi đi du lịch.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 30 — Từ vựng",
+        "description": "Từ vựng bài số 30 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "日記",
+            "back": "nhật ký",
+            "romaji": "にっき",
+            "example": "日記（にっき）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "文法",
+            "back": "ngữ pháp",
+            "romaji": "ぶんぽう",
+            "example": "文法（ぶんぽう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "糸",
+            "back": "sợi chỉ",
+            "romaji": "いと",
+            "example": "糸（いと）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "神社",
+            "back": "đền Thần đạo",
+            "romaji": "じんじゃ",
+            "example": "神社（じんじゃ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "小学校",
+            "back": "trường tiểu học",
+            "romaji": "しょうがっこう",
+            "example": "小学校（しょうがっこう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "展覧会",
+            "back": "triển lãm",
+            "romaji": "てんらんかい",
+            "example": "展覧会（てんらんかい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "駐車場",
+            "back": "bãi đỗ xe",
+            "romaji": "ちゅうしゃじょう",
+            "example": "駐車場（ちゅうしゃじょう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "西洋",
+            "back": "phương Tây",
+            "romaji": "せいよう",
+            "example": "西洋（せいよう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "先輩",
+            "back": "tiền bối",
+            "romaji": "せんぱい",
+            "example": "先輩（せんぱい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "注射",
+            "back": "mũi tiêm",
+            "romaji": "ちゅうしゃ",
+            "example": "注射（ちゅうしゃ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "坂",
+            "back": "dốc",
+            "romaji": "さか",
+            "example": "坂（さか）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "乗り物",
+            "back": "phương tiện giao thông",
+            "romaji": "のりもの",
+            "example": "乗り物（のりもの）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "旅館",
+            "back": "nhà trọ truyền thống Nhật Bản",
+            "romaji": "りょかん",
+            "example": "旅館（りょかん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "林",
+            "back": "rừng",
+            "romaji": "はやし",
+            "example": "林（はやし）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "布団",
+            "back": "nệm futon",
+            "romaji": "ふとん",
+            "example": "布団（ふとん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "研究室",
+            "back": "phòng thí nghiệm",
+            "romaji": "けんきゅうしつ",
+            "example": "研究室（けんきゅうしつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "会議室",
+            "back": "phòng họp",
+            "romaji": "かいぎしつ",
+            "example": "会議室（かいぎしつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "柔道",
+            "back": "Judo",
+            "romaji": "じゅうどう",
+            "example": "柔道（じゅうどう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "中学校",
+            "back": "trường trung học cơ sở",
+            "romaji": "ちゅうがっこう",
+            "example": "中学校（ちゅうがっこう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "高等学校",
+            "back": "trường trung học phổ thông",
+            "romaji": "こうとうがっこう",
+            "example": "高等学校（こうとうがっこう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "花見",
+            "back": "ngắm hoa anh đào",
+            "romaji": "はなみ",
+            "example": "花見（はなみ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "公務員",
+            "back": "công chức",
+            "romaji": "こうむいん",
+            "example": "公務員（こうむいん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "辞典",
+            "back": "từ điển",
+            "romaji": "じてん",
+            "example": "辞典（じてん）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 5 — Ngữ pháp",
+        "description": "Ngữ pháp bài 5: Bài 30 — Từ vựng JLPT N4 (Phần 5)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "へ / に",
+            "back": "Ý nghĩa: Trợ từ chỉ hướng chuyển động hoặc điểm đến.\nCấu trúc: Địa điểm + へ/に + 行きます/来ます/帰ります",
+            "romaji": "e / ni",
+            "example": "日本へ行きます。\nTôi đi đến Nhật Bản.\n\n家へ帰ります。\nTôi về nhà.\n\n学校に来ます。\nTôi đến trường.\n\n公園へ行きます。\nTôi đi đến công viên.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "N(hành động) + に + 行きます/来ます",
+            "back": "Ý nghĩa: Đi hoặc đến đâu để thực hiện một mục đích/hành động.\nCấu trúc: N (hành động/danh từ hóa V) + に + 行きます/来ます",
+            "romaji": "N-ni-ikimasu",
+            "example": "買い物に行きます。\nTôi đi mua sắm.\n\n食事に来ました。\nTôi đến để ăn cơm.\n\n映画を見に行きます。\nTôi đi xem phim.\n\n旅行に行きます。\nTôi đi du lịch.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

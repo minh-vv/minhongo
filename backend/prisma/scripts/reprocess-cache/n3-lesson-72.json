@@ -1,0 +1,35 @@
+{
+  "order": 72,
+  "title": "72. ～ばかりでなく…",
+  "summary": "Ngữ pháp bài số 72 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. 〜ばかりでなく…\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả ý \"không chỉ A mà còn có B\". Vế sau thường đi kèm với も (cũng), だけでなく (không chỉ).\n- **Cấu trúc**: N / V-thông thường (A-na+な/である, N+である) + ばかりでなく\n\n#### 📝 Ví dụ minh họa\n- 彼女は歌が上手なばかりでなく、自分で曲も作っている。\nCô ấy không chỉ hát hay mà còn tự mình sáng tác nhạc.\n\n- この野菜はビタミンが豊富なばかりでなく、がん予防にも効果がある。\nLoại rau này không chỉ giàu vitamin mà còn có hiệu quả trong việc phòng ngừa ung thư.\n\n- 彼は日本語だけでなく、英語も話せる。\nAnh ấy không chỉ nói được tiếng Nhật mà còn nói được cả tiếng Anh.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 72 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 72 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ばかりでなく…",
+            "back": "Ý nghĩa: Không chỉ A mà còn cả B (diễn tả sự bổ sung, mở rộng).\nCấu trúc: N / V-thông thường (A-na+な/である, N+である) + ばかりでなく",
+            "romaji": "bakari de naku",
+            "example": "彼女は歌が上手なばかりでなく、自分で曲も作っている。\nCô ấy không chỉ hát hay mà còn tự mình sáng tác nhạc.\n\nこの野菜はビタミンが豊富なばかりでなく、がん予防にも効果がある。\nLoại rau này không chỉ giàu vitamin mà còn có hiệu quả trong việc phòng ngừa ung thư.\n\n彼は日本語だけでなく、英語も話せる。\nAnh ấy không chỉ nói được tiếng Nhật mà còn nói được cả tiếng Anh.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

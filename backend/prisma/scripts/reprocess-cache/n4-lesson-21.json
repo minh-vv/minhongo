@@ -1,0 +1,230 @@
+{
+  "order": 21,
+  "title": "Bài 46 — Từ vựng JLPT N4 (Phần 21)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 21/25.",
+  "theoryMd": "### 1. V-masu + だす\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: V (bỏ ます) + だす\n- Ý nghĩa: Hành động bắt đầu đột ngột, bộc phát.\n#### 📝 Ví dụ minh họa\n- 急に雨が降り出しました。(Đột nhiên trời bắt đầu đổ mưa.)\n\n### 2. 沸く\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + が + 沸く\n- Ý nghĩa: Nước hoặc chất lỏng sôi.\n#### 📝 Ví dụ minh họa\n- お湯が沸きました。(Nước đã sôi rồi.)\n\n### 3. 付く\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + が + 付く\n- Ý nghĩa: Được gắn, đính hoặc dính vào.\n#### 📝 Ví dụ minh họa\n- ポケットにボタンが付いています。(Cái cúc được đính trên túi.)\n\n### 4. 変える\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + を + 変える\n- Ý nghĩa: Thay đổi (tác động lên vật khác).\n#### 📝 Ví dụ minh họa\n- 計画を変えました。(Tôi đã thay đổi kế hoạch.)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 46 — Từ vựng",
+        "description": "Từ vựng bài số 46 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "お釣り",
+            "back": "tiền thừa, tiền thối",
+            "romaji": "おつり",
+            "example": "お釣り（おつり）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "予習",
+            "back": "chuẩn bị bài, học trước bài",
+            "romaji": "よしゅう",
+            "example": "予習（よしゅう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "寝坊",
+            "back": "ngủ dậy muộn, ngủ quên",
+            "romaji": "ねぼう",
+            "example": "寝坊（ねぼう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "沸く",
+            "back": "sôi, đun nóng",
+            "romaji": "わく",
+            "example": "沸く（わく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "忘れ物",
+            "back": "đồ bỏ quên, vật bị mất",
+            "romaji": "わすれもの",
+            "example": "忘れ物（わすれもの）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "復習",
+            "back": "ôn tập",
+            "romaji": "ふくしゅう",
+            "example": "復習（ふくしゅう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "ご主人",
+            "back": "chồng (của người khác)",
+            "romaji": "ごしゅじん",
+            "example": "ご主人（ごしゅじん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "再来週",
+            "back": "tuần sau nữa",
+            "romaji": "さらいしゅう",
+            "example": "再来週（さらいしゅう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "再来月",
+            "back": "tháng sau nữa",
+            "romaji": "さらいげつ",
+            "example": "再来月（さらいげつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "付く",
+            "back": "gắn vào, dính vào",
+            "romaji": "つく",
+            "example": "付く（つく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "変える",
+            "back": "thay đổi, biến đổi",
+            "romaji": "かえる",
+            "example": "変える（かえる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "阿弗利加",
+            "back": "Châu Phi",
+            "romaji": "アフリカ",
+            "example": "阿弗利加（アフリカ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "斯う",
+            "back": "như thế này, như vậy",
+            "romaji": "こう",
+            "example": "斯う（こう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "看護師",
+            "back": "y tá, điều dưỡng viên",
+            "romaji": "かんごし",
+            "example": "看護師（かんごし）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "降り出す",
+            "back": "bắt đầu mưa, bắt đầu tuyết",
+            "romaji": "ふりだす",
+            "example": "降り出す（ふりだす）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "けど",
+            "back": "nhưng, tuy nhiên",
+            "romaji": "けど",
+            "example": "けど",
+            "jlptLevel": 4
+          },
+          {
+            "front": "日",
+            "back": "ngày",
+            "romaji": "ひ",
+            "example": "日（ひ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "大分",
+            "back": "đáng kể, rất nhiều",
+            "romaji": "だいぶ",
+            "example": "大分（だいぶ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "間",
+            "back": "khoảng cách, giữa",
+            "romaji": "あいだ",
+            "example": "間（あいだ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "親",
+            "back": "cha mẹ, bố mẹ",
+            "romaji": "おや",
+            "example": "親（おや）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "熱",
+            "back": "nhiệt, sức nóng",
+            "romaji": "ねつ",
+            "example": "熱（ねつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "運転手",
+            "back": "tài xế, người lái xe",
+            "romaji": "うんてんしゅ",
+            "example": "運転手（うんてんしゅ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "木綿",
+            "back": "vải bông, sợi bông",
+            "romaji": "もめん",
+            "example": "木綿（もめん）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 21 — Ngữ pháp",
+        "description": "Ngữ pháp bài 21: Bài 46 — Từ vựng JLPT N4 (Phần 21)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "V-masu + だす",
+            "back": "Ý nghĩa: Diễn tả hành động bắt đầu một cách đột ngột hoặc bộc phát.\nCấu trúc: V (bỏ ます) + だす",
+            "romaji": "v-masu-dasu",
+            "example": "急に雨が降り出しました。\nĐột nhiên trời bắt đầu đổ mưa.\n\n赤ちゃんが泣き出しました。\nEm bé bắt đầu bật khóc.\n\n彼女は話し出しました。\nCô ấy bắt đầu lên tiếng.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "沸く",
+            "back": "Ý nghĩa: Chỉ trạng thái sôi của nước hoặc chất lỏng.\nCấu trúc: N + が + 沸く",
+            "romaji": "waku",
+            "example": "お湯が沸きました。\nNước đã sôi rồi.\n\nやかんのお湯が沸いています。\nNước trong ấm đang sôi.\n\nスープが沸騰して沸いています。\nSúp đang sôi bùng lên.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "付く",
+            "back": "Ý nghĩa: Diễn tả trạng thái vật gì đó được gắn, đính hoặc dính vào một vật khác.\nCấu trúc: N + が + 付く",
+            "romaji": "tsuku",
+            "example": "ポケットにボタンが付いています。\nCái cúc được đính trên túi.\n\nシャツに汚れが付いた。\nVết bẩn dính trên áo sơ mi.\n\n壁にカレンダーが付いています。\nLịch được đính trên tường.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "変える",
+            "back": "Ý nghĩa: Thay đổi cái gì đó (ngoại động từ).\nCấu trúc: N + を + 変える",
+            "romaji": "kaeru",
+            "example": "計画を変えました。\nTôi đã thay đổi kế hoạch.\n\n予定を変える必要があります。\nCần phải thay đổi dự định.\n\n髪型を変えました。\nTôi đã thay đổi kiểu tóc.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

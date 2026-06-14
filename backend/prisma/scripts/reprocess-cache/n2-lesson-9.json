@@ -1,0 +1,63 @@
+{
+  "order": 9,
+  "title": "Bài 9: Thay đổi cùng chiều / Sự tương ứng (〜につれて・〜にしたがって, 〜に伴って・〜とともに, 〜次第だ, 〜応じて, 〜につけて)",
+  "summary": "Các cấu trúc diễn tả sự thay đổi hoặc tương ứng: 〜につれて・〜にしたがって, 〜に伴って・〜とともに, 〜次第だ, 〜応じて, 〜につけて",
+  "theoryMd": "### 9. Sự thay đổi cùng chiều & Sự tương ứng\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜につれて・〜にしたがって**: Tỉ lệ thuận, A thay đổi thì B cũng thay đổi.\n- **〜に伴って・〜とともに**: Đồng thời, đi kèm với sự thay đổi của A.\n- **〜次第だ**: Phụ thuộc vào, quyết định bởi.\n- **〜応じて**: Phù hợp, tương ứng với đối tượng/điều kiện.\n- **〜につけて**: Mỗi khi... thì cảm xúc luôn hiện hữu.\n\n#### 📝 Ví dụ minh họa\n- *〜につれて*: 台風の接近につれて、雨や風が強くなってきた。\n- *〜に伴って*: 自動車の普及に伴って、交通事故も増加した。\n- *〜次第だ*: 人生が楽しいかどうかは考え方次第だ。\n- *〜応じて*: お子さんの年齢に応じて本を選んでください。\n- *〜につけて*: この絵を見るにつけて、心に希望がわいてくる。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 9 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 9: Thay đổi cùng chiều / Sự tương ứng (〜につれて・〜にしたがって, 〜に伴って・〜とともに, 〜次第だ, 〜応じて, 〜につけて)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜につれて・〜にしたがって",
+            "back": "Ý nghĩa: Cùng với, đi kèm với sự thay đổi (tỉ lệ thuận).\nCấu trúc: N / V-ru + につれて / にしたがって",
+            "romaji": "ni-tsurete / ni-shitagatte",
+            "example": "台風の接近につれて、雨や風が強くなってきた。\nCơn bão càng tiến gần, mưa và gió càng trở nên mạnh hơn.\n\n時間が経つにつれて、怒りも収まってきた。\nThời gian trôi đi, cơn giận dữ cũng dần nguôi ngoai.\n\n年をとるにしたがって、体力が衰えてくる。\nCàng già đi thì thể lực càng suy giảm.\n\n道が広くなるにしたがって、車が増えてきた。\nĐường càng rộng ra thì xe cộ càng nhiều lên.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜に伴って・〜とともに",
+            "back": "Ý nghĩa: Cùng với, đồng thời với sự thay đổi của A thì B cũng thay đổi.\nCấu trúc: N / V-ru + に伴って / とともに",
+            "romaji": "ni-tomonatte / to-tomo-ni",
+            "example": "経済の回復とともに、人々の表情も明るくなってきた。\nKinh tế hồi phục kéo theo biểu cảm của mọi người cũng rạng rỡ hơn.\n\n自動車の普及に伴って、交通事故も増加した。\nCùng với sự phổ biến của ô tô, tai nạn giao thông cũng gia tăng.\n\n社会の変化とともに、価値観も変わる。\nCùng với sự thay đổi của xã hội, quan niệm giá trị cũng thay đổi.\n\n人口の増加に伴って、ゴミ問題が深刻になった。\nCùng với sự gia tăng dân số, vấn đề rác thải trở nên nghiêm trọng.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜次第だ",
+            "back": "Ý nghĩa: Tùy thuộc vào... mà quyết định.\nCấu trúc: N + 次第だ / 次第で",
+            "romaji": "shidai-da",
+            "example": "人生が楽しいかどうかは考え方次第だ。\nCuộc sống có vui vẻ hay không là phụ thuộc vào cách suy nghĩ.\n\n結果は君たちの努力次第で変わる。\nKết quả thay đổi tùy thuộc vào nỗ lực của các em.\n\n明日の天気次第で、出発の時間を決める。\nTùy vào thời tiết ngày mai mà tôi sẽ quyết định giờ xuất phát.\n\nやる気次第で、成績はいくらでも伸びる。\nTùy vào sự quyết tâm mà thành tích có thể tăng lên không giới hạn.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜応じて",
+            "back": "Ý nghĩa: Ứng với, tương ứng, phù hợp với.\nCấu trúc: N + に応じて / に応じた + N",
+            "romaji": "ni-oujite",
+            "example": "お子さんの年齢に応じて本を選んであげてください。\nHãy chọn sách ứng với lứa tuổi của con bạn.\n\n体力や体調に応じて、運動の強度を調節してください。\nHãy điều chỉnh cường độ tập luyện phù hợp với thể lực và thể trạng.\n\n予算に応じてメニューを変える。\nThay đổi thực đơn ứng với ngân sách.\n\nレベルに応じたクラスに分けられる。\nĐược chia vào các lớp tương ứng với trình độ.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜につけて",
+            "back": "Ý nghĩa: Mỗi khi làm gì/nhìn thấy gì thì luôn cảm thấy...\nCấu trúc: V-ru + につけて",
+            "romaji": "ni-tsukete",
+            "example": "この絵を見るにつけて、心に希望がわいてくる。\nMỗi lần ngắm bức tranh này, niềm hy vọng trong tim tôi lại sôi sục.\n\nニュースを見るにつけて、世の中の理不尽さを感じる。\nMỗi khi xem tin tức, tôi lại cảm thấy sự bất công của thế gian.\n\n彼の話を聞くにつけて、悲しい気持ちになる。\nMỗi khi nghe câu chuyện của anh ấy, tôi lại cảm thấy buồn.\n\n写真を眺めるにつけて、昔のことが懐かしく思える。\nMỗi lần ngắm tấm ảnh, tôi lại nhớ về ngày xưa.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 5
+  }
+}

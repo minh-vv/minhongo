@@ -1,0 +1,42 @@
+{
+  "order": 78,
+  "title": "Bài 78 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 78/92).",
+  "theoryMd": "### 1. 〜るなり / 2. 〜に先駆けて\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜るなり:** Diễn tả hành động xảy ra ngay lập tức sau khi hành động trước vừa kết thúc.\n- **〜に先駆けて:** Được sử dụng khi làm điều gì đó đi đầu hoặc trước những người khác.\n\n#### 📝 Ví dụ minh họa\n- 彼は部屋に入るなり、大きなため息をついた。(Anh ta vừa bước vào phòng đã thở dài một tiếng lớn.)\n- 新製品の発売に先駆けて、試用イベントを開催する。(Trước khi phát hành sản phẩm mới, tổ chức sự kiện dùng thử.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 78 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 78.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜るなり",
+            "back": "Ý nghĩa: Ngay sau khi... thì có hành động xảy ra (thường là hành động bất ngờ hoặc không theo dự tính).\nCấu trúc: V-ru + なり",
+            "romaji": "ru-nari",
+            "example": "彼は部屋に入るなり、大きなため息をついた。\nAnh ta vừa bước vào phòng đã thở dài một tiếng lớn.\n\n電話の声を聞くなり、彼女は顔色を変えた。\nVừa nghe giọng điện thoại, cô ấy đã biến sắc.\n\n席に座るなり、眠ってしまった。\nVừa ngồi xuống ghế là ngủ luôn.\n\n彼はコーヒーを飲むなり、吐き出してしまった。\nAnh ta vừa uống cà phê vào đã nhổ ra ngay.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜に先駆けて",
+            "back": "Ý nghĩa: Trước khi... (nhấn mạnh việc đi tiên phong, đi đầu trong lĩnh vực đó).\nCấu trúc: N + に先駆けて",
+            "romaji": "ni-sakigakete",
+            "example": "新製品の発売に先駆けて、試用イベントを開催する。\nTrước khi phát hành sản phẩm mới, tổ chức sự kiện dùng thử.\n\n開幕に先駆けて、記者会見が行われた。\nTrước lễ khai mạc, cuộc họp báo đã được tổ chức.\n\nオープンに先駆け、関係者向けの内覧会を実施した。\nTrước ngày mở cửa, đã tổ chức buổi tham quan dành cho người liên quan.\n\n他社に先駆けて、AI技術を導入した。\nĐi trước các công ty khác, chúng tôi đã áp dụng công nghệ AI.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

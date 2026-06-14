@@ -1,0 +1,70 @@
+{
+  "order": 21,
+  "title": "Bài 21: Mức độ (〜ぐらい・〜くらい, 〜など・〜なんて・〜なんか, 〜まで・〜までして, 〜として〜ない, 〜さえ, 〜てでも)",
+  "summary": "Các cấu trúc chỉ mức độ: 〜ぐらい・〜くらい, 〜など・〜なんて・〜なんか, 〜まで・〜までして, 〜として〜ない, 〜さえ, 〜てでも",
+  "theoryMd": "# Bài 21: Mức độ\n\n### 1. 〜ぐらい・〜くらい\n#### 💡 Cấu trúc & Ý nghĩa\n- N / V-ru + ぐらい・くらい\n- Ý nghĩa: Mức độ tối thiểu, hoặc ước lượng.\n#### 📝 Ví dụ minh họa\n- うちに帰ってきたら、自分の靴ぐらいちゃんと並べなさい。（Sau khi về, ít nhất hãy xếp giày gọn gàng）\n\n### 2. 〜など・〜なんて・〜なんか\n#### 💡 Cấu trúc & Ý nghĩa\n- N / Thể thường + など・なんて・なんか\n- Ý nghĩa: Coi nhẹ, hạ thấp đối tượng.\n#### 📝 Ví dụ minh họa\n- 私なんかまだまだ勉強が足りません。（Cỡ như tôi thì vẫn chưa đủ trình độ）\n\n### 3. 〜まで・〜までして・〜てまで\n#### 💡 Cấu trúc & Ý nghĩa\n- N/V-te + まで / までして\n- Ý nghĩa: Đến mức cực đoan.\n#### 📝 Ví dụ minh họa\n- 借金をしてまで高い車を買う必要はない。（Không cần phải vay nợ để mua xe sang）\n\n### 4. 〜として〜ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Số từ + として + V-nai\n- Ý nghĩa: Phủ định hoàn toàn.\n#### 📝 Ví dụ minh họa\n- 人生に無駄なものは何一つとしてない。（Không có gì là vô nghĩa cả）\n\n### 5. 〜さえ\n#### 💡 Cấu trúc & Ý nghĩa\n- N/V-te + さえ\n- Ý nghĩa: Ngay cả, đến cả.\n#### 📝 Ví dụ minh họa\n- ひらがなさえ読めなかった。（Ngay cả Hiragana cũng không đọc được）\n\n### 6. 〜てでも\n#### 💡 Cấu trúc & Ý nghĩa\n- V-te + でも\n- Ý nghĩa: Dù có phải làm gì đó (cực đoan).\n#### 📝 Ví dụ minh họa\n- 薬を飲んででも行く。（Dù có phải uống thuốc cũng sẽ đi）",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N2 — Bài 21 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp cho: Bài 21: Mức độ (〜ぐらい・〜くらい, 〜など・〜なんて・〜なんか, 〜まで・〜までして, 〜として〜ない, 〜さえ, 〜てでも)",
+        "category": "NGUPHAP",
+        "jlptLevel": 2,
+        "cards": [
+          {
+            "front": "〜ぐらい・〜くらい",
+            "back": "Ý nghĩa: Thể hiện mức độ thấp nhất, tối thiểu hoặc dùng để ước lượng.\nCấu trúc: N / V-ru + ぐらい・くらい",
+            "romaji": "gurai / kurai",
+            "example": "うちに帰ってきたら、自分の靴ぐらいちゃんと並べなさい。\nSau khi trở về nhà, ít nhất thì hãy xếp giày của mình gọn gàng đi.\n\nひらがなぐらいなら、３日あれば覚えられます。\nNếu chỉ là Hiragana thì chỉ cần 3 ngày là có thể nhớ được.\n\nこのかばん、いくらぐらいだと思いますか。\nBạn nghĩ chiếc cặp này giá khoảng bao nhiêu?\n\n死ぬほど忙しい。\nBận đến mức muốn chết.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜など・〜なんて・〜なんか",
+            "back": "Ý nghĩa: Đưa ra ví dụ để hạ thấp, coi thường hoặc khiêm tốn về đối tượng.\nCấu trúc: N / Thể thông thường + など・なんて・なんか",
+            "romaji": "nado / nante / nanka",
+            "example": "あの人の言ったことなど気にすることはありません。\nMấy điều người đó nói, không cần phải bận tâm đâu.\n\n私なんかまだまだ勉強が足りません。\nCỡ như tôi thì vẫn còn học hỏi chưa đủ đâu.\n\n料理なんて作れません。\nMấy thứ như nấu ăn thì tôi không làm được.\n\n君なんか嫌いだ。\nTôi ghét loại người như cậu.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜まで・〜までして・〜てまで",
+            "back": "Ý nghĩa: Làm việc gì đó đến mức cực đoan, quá mức bình thường.\nCấu trúc: N + まで / V-te + まで / V-te + までして",
+            "romaji": "made / made shite / te made",
+            "example": "カンニングまでしていい点を取りたかったのですか。\nCậu muốn có điểm cao đến mức gian lận ư?\n\n借金をしてまで高い車を買う必要はない。\nKhông cần thiết phải mua xe đắt tiền đến mức đi vay nợ đâu.\n\n親に嘘をついてまで遊びに行きたくない。\nTôi không muốn đi chơi đến mức phải nói dối bố mẹ.\n\nストライキをしてまで要求を通そうとしている。\nHọ đang cố gắng đạt được yêu cầu đến mức đình công.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜として〜ない",
+            "back": "Ý nghĩa: Phủ định hoàn toàn, không có lấy một đơn vị nhỏ nhất nào.\nCấu trúc: Số từ + として + V-nai",
+            "romaji": "toshite-nai",
+            "example": "人生に無駄なものは何一つとしてない。\nTrên đời không có điều gì là vô nghĩa hết.\n\n彼を忘れた日は一日としてない。\nKhông có một ngày nào tôi quên được anh ấy.\n\nこの辺りには、レストランは一軒としてない。\nỞ khu vực này, không có lấy một nhà hàng nào.\n\n彼が失敗した理由は一つとして説明されていない。\nKhông có một lý do nào được giải thích cho thất bại của anh ta.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜さえ",
+            "back": "Ý nghĩa: Nhấn mạnh sự ngạc nhiên về một ví dụ cực đoan (ngay cả, đến cả).\nCấu trúc: N + (trợ từ) + さえ / V-te + さえ",
+            "romaji": "sae",
+            "example": "日本に来たばかりのときは、ひらがなさえ読めなかった。\nKhi vừa đến Nhật Bản, ngay cả Hiragana tôi cũng không đọc được.\n\nその問題は専門家でさえ答えられなかった。\nCâu hỏi đó ngay cả chuyên gia cũng không trả lời được.\n\n忙しくて、食事をする時間さえ取れない。\nBận đến mức ngay cả thời gian ăn cơm cũng không có.\n\n彼さえ来てくれれば、なんとかなる。\nChỉ cần anh ấy đến, mọi việc sẽ ổn thôi.",
+            "jlptLevel": 2
+          },
+          {
+            "front": "〜てでも",
+            "back": "Ý nghĩa: Dù có phải thực hiện hành động vất vả, cực đoan cũng quyết tâm làm.\nCấu trúc: V-te + でも",
+            "romaji": "te demo",
+            "example": "２倍の金額を払ってでもそのコンサートのチケットがほしい。\nDù có phải trả tiền gấp 2 lần tôi cũng muốn có được vé concert đó.\n\n熱があるが、薬を飲んででも行く。\nTôi bị sốt nhưng dù có phải uống thuốc tôi cũng sẽ đi.\n\n無理をしてでも終わらせるつもりだ。\nDù có phải cố quá sức tôi cũng định làm cho xong.\n\n嘘をついてでも彼を助けたい。\nDù có phải nói dối, tôi vẫn muốn cứu anh ấy.",
+            "jlptLevel": 2
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 6
+  }
+}

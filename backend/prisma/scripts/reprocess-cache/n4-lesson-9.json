@@ -1,0 +1,223 @@
+{
+  "order": 9,
+  "title": "Bài 34 — Từ vựng JLPT N4 (Phần 9)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 9/25.",
+  "theoryMd": "### 1. V-ている + 途中\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả một sự việc khác xảy ra xen ngang trong quá trình làm một việc gì đó.\nCông thức: V-ている + 途中\n\n#### 📝 Ví dụ minh họa\n家へ帰る途中で、友達に会いました。\nTôi đã gặp bạn trong khi đang trên đường về nhà.\n\n### 2. N + を起こす\n#### 💡 Cấu trúc & Ý nghĩa\nCó 2 nghĩa: gây ra vấn đề/tai nạn hoặc đánh thức ai đó.\nCông thức: N + を起こす\n\n#### 📝 Ví dụ minh họa\n彼は大きな問題を起こしました。\nAnh ấy đã gây ra một vấn đề lớn.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 34 — Từ vựng",
+        "description": "Từ vựng bài số 34 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "赤ん坊",
+            "back": "em bé, trẻ sơ sinh",
+            "romaji": "あかんぼう",
+            "example": "赤ん坊（あかんぼう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "進む",
+            "back": "tiến lên, tiến bộ",
+            "romaji": "すすむ",
+            "example": "進む（すすむ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "最後",
+            "back": "cuối cùng, kết thúc",
+            "romaji": "さいご",
+            "example": "最後（さいご）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "向かう",
+            "back": "hướng về, đối mặt",
+            "romaji": "むかう",
+            "example": "向かう（むかう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "通る",
+            "back": "đi qua, đi ngang qua",
+            "romaji": "とおる",
+            "example": "通る（とおる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "興味",
+            "back": "hứng thú, sở thích",
+            "romaji": "きょうみ",
+            "example": "興味（きょうみ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "時代",
+            "back": "thời đại, kỷ nguyên",
+            "romaji": "じだい",
+            "example": "時代（じだい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "返事",
+            "back": "trả lời, hồi đáp",
+            "romaji": "へんじ",
+            "example": "返事（へんじ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "途中",
+            "back": "giữa đường, trên đường",
+            "romaji": "とちゅう",
+            "example": "途中（とちゅう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "簡単",
+            "back": "đơn giản, dễ dàng",
+            "romaji": "かんたん",
+            "example": "簡単（かんたん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "深い",
+            "back": "sâu",
+            "romaji": "ふかい",
+            "example": "深い（ふかい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "起こす",
+            "back": "gây ra, đánh thức",
+            "romaji": "おこす",
+            "example": "起こす（おこす）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "夫",
+            "back": "chồng",
+            "romaji": "おっと",
+            "example": "夫（おっと）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "一度",
+            "back": "một lần",
+            "romaji": "いちど",
+            "example": "一度（いちど）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "一度",
+            "back": "một lần",
+            "romaji": "いちど",
+            "example": "一度（いちど）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "運ぶ",
+            "back": "vận chuyển, mang vác",
+            "romaji": "はこぶ",
+            "example": "運ぶ（はこぶ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "今夜",
+            "back": "tối nay, đêm nay",
+            "romaji": "こんや",
+            "example": "今夜（こんや）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "盗む",
+            "back": "đánh cắp, trộm",
+            "romaji": "ぬすむ",
+            "example": "盗む（ぬすむ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "習慣",
+            "back": "thói quen",
+            "romaji": "しゅうかん",
+            "example": "習慣（しゅうかん）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "大抵",
+            "back": "thông thường, thường thì",
+            "romaji": "たいてい",
+            "example": "大抵（たいてい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "残る",
+            "back": "còn lại, ở lại",
+            "romaji": "のこる",
+            "example": "残る（のこる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "上がる",
+            "back": "tăng lên, đi lên",
+            "romaji": "あがる",
+            "example": "上がる（あがる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "席",
+            "back": "chỗ ngồi, ghế",
+            "romaji": "せき",
+            "example": "席（せき）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 9 — Ngữ pháp",
+        "description": "Ngữ pháp bài 9: Bài 34 — Từ vựng JLPT N4 (Phần 9)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "V-ている + 途中",
+            "back": "Ý nghĩa: Đang làm dở việc gì đó thì có việc khác xảy ra.\nCấu trúc: V-ている + 途中",
+            "romaji": "tochu",
+            "example": "家へ帰る途中で、友達に会いました。\nTôi đã gặp bạn trong khi đang trên đường về nhà.\n\n本を読む途中で寝てしまいました。\nTôi đã ngủ thiếp đi trong khi đang đọc sách.\n\n食事の途中で電話がかかってきました。\nĐang ăn dở bữa thì có điện thoại gọi đến.\n\n仕事の途中で雨が降ってきました。\nĐang làm việc dở thì trời mưa.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "N + に向かう",
+            "back": "Ý nghĩa: Hướng về phía nào đó hoặc địa điểm nào đó.\nCấu trúc: N + にに向かう",
+            "romaji": "ni-mukau",
+            "example": "彼は駅に向かっています。\nAnh ấy đang hướng về phía nhà ga.\n\n次の目的地に向かいましょう。\nChúng ta hãy hướng về điểm đến tiếp theo thôi.\n\n学校に向かって歩いています。\nTôi đang đi bộ hướng về phía trường học.\n\n山に向かって叫びました。\nTôi đã hét lên hướng về phía núi.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "N + を起こす",
+            "back": "Ý nghĩa: Gây ra sự cố hoặc đánh thức ai đó dậy.\nCấu trúc: N + を起こす",
+            "romaji": "okosu",
+            "example": "彼は大きな問題を起こしました。\nAnh ấy đã gây ra một vấn đề lớn.\n\n母は朝、私を起こしてくれました。\nSáng nay mẹ đã đánh thức tôi dậy.\n\n事故を起こさないように注意してください。\nHãy chú ý để không gây ra tai nạn.\n\n誰かが眠っている人を起こしました。\nCó ai đó đã đánh thức người đang ngủ.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

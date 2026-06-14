@@ -318,7 +318,7 @@ export default function SRSStudy({ dueData, onComplete }) {
                     {currentCard.romaji}
                   </p>
                 )}
-                <p className="text-2xl md:text-3xl font-black text-on-surface tracking-wide leading-snug">
+                <p className="text-2xl md:text-3xl font-black text-on-surface tracking-wide leading-snug whitespace-pre-line">
                   {currentCard.back}
                 </p>
               </div>

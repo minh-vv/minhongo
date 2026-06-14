@@ -1,0 +1,223 @@
+{
+  "order": 16,
+  "title": "Bài 41 — Từ vựng JLPT N4 (Phần 16)",
+  "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 16/25.",
+  "theoryMd": "### 1. V-る + つもりです\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả ý định, dự định làm một hành động nào đó của bản thân.\nCông thức: V (thể từ điển) + つもりです\n\n#### 📝 Ví dụ minh họa\n今日、早く寝るつもりです。\nHôm nay tôi dự định sẽ ngủ sớm.\n\n来週、日本へ行くつもりです。\nTuần sau tôi dự định sẽ đi Nhật.\n\n来年は国へ帰るつもりです。\nNăm tới tôi dự định sẽ về nước.\n\nこの本を全部読むつもりです。\nTôi dự định sẽ đọc hết cuốn sách này.\n\n---\n### 2. V-ます + つづける\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả hành động diễn ra liên tục, không ngắt quãng.\nCông thức: V (bỏ ます) + つづけます\n\n#### 📝 Ví dụ minh họa\n彼は日本語の勉強をつづけています。\nAnh ấy vẫn đang tiếp tục việc học tiếng Nhật.\n\n朝からずっと本を読みつづけました。\nTôi đã đọc sách liên tục từ sáng đến giờ.\n\n雨が降りつづけています。\nTrời đang mưa không ngừng.\n\n彼は走りつづけました。\nAnh ấy đã tiếp tục chạy mãi.\n\n---\n### 3. N / V-ます + 過ぎる\n#### 💡 Cấu trúc & Ý nghĩa\nChỉ hành động đi vượt qua một mốc địa điểm hoặc thời gian.\nCông thức: N / V (bỏ ます) + 過ぎる\n\n#### 📝 Ví dụ minh họa\n12時を過ぎました。\nĐã qua 12 giờ rồi.\n\n駅を過ぎてから、右に曲がってください。\nSau khi đi qua nhà ga, hãy rẽ phải.\n\n信号を過ぎたら、左側にあります。\nSau khi qua cột đèn tín hiệu, nó nằm ở phía bên trái.\n\n試験の時間が過ぎました。\nThời gian làm bài thi đã qua rồi.",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "MINNA-N4 — Bài 41 — Từ vựng",
+        "description": "Từ vựng bài số 41 cấp độ JLPT N4.",
+        "category": "TUVUNG",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "特急",
+            "back": "tàu tốc hành đặc biệt",
+            "romaji": "とっきゅう",
+            "example": "特急（とっきゅう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "呉れる",
+            "back": "cho",
+            "romaji": "くれる",
+            "example": "呉れる（くれる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "過ぎる",
+            "back": "đi qua, vượt qua",
+            "romaji": "すぎる",
+            "example": "過ぎる（すぎる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "積もり",
+            "back": "ý định, dự định",
+            "romaji": "つもり",
+            "example": "積もり（つもり）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "殆ど",
+            "back": "hầu hết, gần như",
+            "romaji": "ほとんど",
+            "example": "殆ど（ほとんど）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "止める",
+            "back": "dừng, tắt",
+            "romaji": "とめる",
+            "example": "止める（とめる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "酷い",
+            "back": "tàn nhẫn, tồi tệ",
+            "romaji": "ひどい",
+            "example": "酷い（ひどい）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "遅れる",
+            "back": "muộn, chậm trễ",
+            "romaji": "おくれる",
+            "example": "遅れる（おくれる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "続ける",
+            "back": "tiếp tục, duy trì",
+            "romaji": "つづける",
+            "example": "続ける（つづける）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "手伝う",
+            "back": "giúp đỡ, hỗ trợ",
+            "romaji": "てつだう",
+            "example": "手伝う（てつだう）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "見つける",
+            "back": "tìm thấy, phát hiện",
+            "romaji": "みつける",
+            "example": "見つける（みつける）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "驚く",
+            "back": "ngạc nhiên",
+            "romaji": "おどろく",
+            "example": "驚く（おどろく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "開く",
+            "back": "mở",
+            "romaji": "ひらく",
+            "example": "開く（ひらく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "眠る",
+            "back": "ngủ",
+            "romaji": "ねむる",
+            "example": "眠る（ねむる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "勝つ",
+            "back": "thắng, chiến thắng",
+            "romaji": "かつ",
+            "example": "勝つ（かつ）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "聞こえる",
+            "back": "nghe thấy",
+            "romaji": "きこえる",
+            "example": "聞こえる（きこえる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "尋ねる",
+            "back": "hỏi, thăm hỏi",
+            "romaji": "たずねる",
+            "example": "尋ねる（たずねる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "慣れる",
+            "back": "quen, làm quen",
+            "romaji": "なれる",
+            "example": "慣れる（なれる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "泣く",
+            "back": "khóc",
+            "romaji": "なく",
+            "example": "泣く（なく）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "似る",
+            "back": "giống, tương tự",
+            "romaji": "にる",
+            "example": "似る（にる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "屹度",
+            "back": "chắc chắn, nhất định",
+            "romaji": "きっと",
+            "example": "屹度（きっと）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "戻る",
+            "back": "quay lại, trở lại",
+            "romaji": "もどる",
+            "example": "戻る（もどる）",
+            "jlptLevel": 4
+          },
+          {
+            "front": "調べる",
+            "back": "kiểm tra, điều tra",
+            "romaji": "しらべる",
+            "example": "調べる（しらべる）",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N4 — Bài 16 — Ngữ pháp",
+        "description": "Ngữ pháp bài 16: Bài 41 — Từ vựng JLPT N4 (Phần 16)",
+        "category": "NGUPHAP",
+        "jlptLevel": 4,
+        "cards": [
+          {
+            "front": "V-る + つもりです",
+            "back": "Ý nghĩa: Dự định làm một việc gì đó trong tương lai.\nCấu trúc: V (thể từ điển) + つもりです",
+            "romaji": "tsumori-desu",
+            "example": "今日、早く寝るつもりです。\nHôm nay tôi dự định sẽ ngủ sớm.\n\n来週、日本へ行くつもりです。\nTuần sau tôi dự định sẽ đi Nhật.\n\n来年は国へ帰るつもりです。\nNăm tới tôi dự định sẽ về nước.\n\nこの本を全部読むつもりです。\nTôi dự định sẽ đọc hết cuốn sách này.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "V-ます + つづける",
+            "back": "Ý nghĩa: Tiếp tục thực hiện một hành động nào đó một cách liên tục.\nCấu trúc: V (bỏ ます) + つづけます",
+            "romaji": "tsuzukeru",
+            "example": "彼は日本語の勉強をつづけています。\nAnh ấy vẫn đang tiếp tục việc học tiếng Nhật.\n\n朝からずっと本を読みつづけました。\nTôi đã đọc sách liên tục từ sáng đến giờ.\n\n雨が降りつづけています。\nTrời đang mưa không ngừng.\n\n彼は走りつづけました。\nAnh ấy đã tiếp tục chạy mãi.",
+            "jlptLevel": 4
+          },
+          {
+            "front": "N / V-ます + 過ぎる",
+            "back": "Ý nghĩa: Đi qua, vượt quá một mốc thời gian hoặc địa điểm.\nCấu trúc: N / V (bỏ ます) + 過ぎる",
+            "romaji": "sugiru",
+            "example": "12時を過ぎました。\nĐã qua 12 giờ rồi.\n\n駅を過ぎてから、右に曲がってください。\nSau khi đi qua nhà ga, hãy rẽ phải.\n\n信号を過ぎたら、左側にあります。\nSau khi qua cột đèn tín hiệu, nó nằm ở phía bên trái.\n\n試験の時間が過ぎました。\nThời gian làm bài thi đã qua rồi.",
+            "jlptLevel": 4
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

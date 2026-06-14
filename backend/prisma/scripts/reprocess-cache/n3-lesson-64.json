@@ -1,0 +1,42 @@
+{
+  "order": 64,
+  "title": "64. ～ように…",
+  "summary": "Ngữ pháp bài số 64 sách Shinkanzen Master N3 (2 thẻ).",
+  "theoryMd": "### 1. ～ように (Chỉ sự tương đồng & Đưa ví dụ)\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa 1**: Đúng như/Theo như: Dùng để xác nhận lại một sự việc đã biết trước.\n- **Ý nghĩa 2**: Như là: Dùng để liệt kê ví dụ tiêu biểu.\n- **Cấu trúc**: \n  - N + の + ように\n  - V/Adj 普通形 + ように\n\n#### 📝 Ví dụ minh họa\n- 先生が言うように、毎日練習することが大切だ。\n(Đúng như lời thầy giáo nói, việc luyện tập hàng ngày là rất quan trọng.)\n- 私は、リンゴやバナナのように、甘い果物が好きです。\n(Tôi thích những loại quả ngọt, ví dụ như táo hay chuối.)\n- 彼のように日本語が上手になりたい。\n(Tôi muốn trở nên giỏi tiếng Nhật giống như anh ấy.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 64 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 64 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜ように… (Chỉ sự tương đồng)",
+            "back": "Ý nghĩa: Đúng như... / Theo như... (Dựa theo hình mẫu, lời nói, hành động)\nCấu trúc: N + の + ように\nV / Adj 普通形 (な形-な / 名-である) + ように",
+            "romaji": "yō ni",
+            "example": "先生が言うように、毎日練習することが大切だ。\nĐúng như lời thầy giáo nói, việc luyện tập hàng ngày là rất quan trọng.\n\nお母さんが作ったように、おいしい料理を作りたい。\nTôi muốn nấu ăn ngon giống như mẹ đã nấu.\n\n天気予報で言ったように、今日は雨が降っている。\nĐúng như dự báo thời tiết nói, hôm nay trời đang mưa.",
+            "jlptLevel": 3
+          },
+          {
+            "front": "〜ように… (Đưa ra ví dụ)",
+            "back": "Ý nghĩa: Như là... (Đưa ra ví dụ điển hình)\nCấu trúc: N + のように",
+            "romaji": "yō ni",
+            "example": "私は、リンゴやバナナのように、甘い果物が好きです。\nTôi thích những loại quả ngọt, ví dụ như táo hay chuối.\n\n彼のように日本語が上手になりたい。\nTôi muốn trở nên giỏi tiếng Nhật giống như anh ấy.\n\n京都のように古い町並みが残っている場所が好きだ。\nTôi thích những nơi mà các dãy phố cổ vẫn còn lưu giữ như ở Kyoto.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

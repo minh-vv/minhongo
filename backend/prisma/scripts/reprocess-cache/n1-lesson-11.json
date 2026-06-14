@@ -1,0 +1,42 @@
+{
+  "order": 11,
+  "title": "Bài 11 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 11/92).",
+  "theoryMd": "### 1. 〜かれ〜かれ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dù ít hay nhiều, dù thế nào đi nữa (thường dùng với các cặp tính từ đối lập).\n- **Cấu trúc**: Tính từ (i) -かれ + Tính từ (i) -かれ\n\n#### 📝 Ví dụ minh họa\n- 多かれ少なかれ、誰でも失敗はする。(Ai rồi cũng có lúc mắc lỗi, ít nhiều.)\n- 遅かれ早かれ、真実は明らかになる。(Sớm muộn gì sự thật cũng sẽ sáng tỏ.)\n\n### 2. 〜というか〜というか\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nói là... hay nói là... (dùng để giải thích hoặc đính chính cách gọi sự việc).\n- **Cấu trúc**: N / V / Adj + というか + N / V / Adj + というか\n\n#### 📝 Ví dụ minh họa\n- 彼は優しいというか甘いというか、人に厳しくできない。(Anh ấy hiền, hay nói đúng hơn là dễ dãi, không thể nghiêm khắc với người khác.)\n- 驚いたというか呆れたというか、言葉が出なかった。(Bảo là ngạc nhiên hay là ngán ngẩm thì đúng hơn, tôi không thốt nên lời.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 11 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 11.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜かれ〜かれ",
+            "back": "Ý nghĩa: Dù ít hay nhiều, dù thế nào đi nữa.\nCấu trúc: Tính từ (i) -かれ + Tính từ (i) -かれ",
+            "romaji": "kare-kare",
+            "example": "多かれ少なかれ、誰でも失敗はする。\nAi rồi cũng có lúc mắc lỗi, ít nhiều.\n\n良かれ悪しかれ、その決定は会社に大きな影響を与える。\nDù tốt hay xấu, quyết định đó sẽ tác động lớn đến công ty.\n\n遅かれ早かれ、真実は明らかになる。\nSớm muộn gì sự thật cũng sẽ sáng tỏ.\n\n善かれ悪しかれ、彼は私の友人だ。\nDù tốt hay xấu, anh ấy vẫn là bạn tôi.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜というか〜というか",
+            "back": "Ý nghĩa: Nói là... hay nói là... (dùng để liệt kê hai khả năng hoặc cách gọi).\nCấu trúc: N / V / Adj + というか + N / V / Adj + というか",
+            "romaji": "to-iuka-to-iuka",
+            "example": "彼は優しいというか甘いというか、人に厳しくできない。\nAnh ấy hiền, hay nói đúng hơn là dễ dãi, không thể nghiêm khắc với người khác.\n\n驚いたというか呆れたというか、言葉が出なかった。\nBảo là ngạc nhiên hay là ngán ngẩm thì đúng hơn, tôi không thốt nên lời.\n\nあれは失敗というか、経験不足というか、残念な結果だった。\nĐó có thể gọi là thất bại, hay nói đúng hơn là thiếu kinh nghiệm, một kết quả đáng tiếc.\n\n今日は暑いというか蒸し暑いというか、不快な天気だ。\nHôm nay trời nóng, hay nói đúng hơn là oi bức, một thời tiết thật khó chịu.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

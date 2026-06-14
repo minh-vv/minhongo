@@ -1,0 +1,286 @@
+{
+  "order": 10,
+  "title": "Bài 10 — Đếm đồ vật và con người",
+  "summary": "Lượng từ đếm: 枚, 本, 冊, 台, 匹... và câu hỏi いくつ/なんまい.",
+  "theoryMd": "### Bài 10: Đếm đồ vật và con người\n\n#### 💡 Cấu trúc & Ý nghĩa\n- Số lượng đặt sau danh từ (hoặc sau trợ từ を). Hậu tố đếm thay đổi tùy loại vật (枚: mỏng, 本: dài, 冊: sách, 台: máy móc).\n- **Người**: Dùng 「人 (にん)」. Lưu ý đặc biệt: 1 người (一人 - ひとり), 2 người (二人 - ふたり).\n\n#### 📝 Ví dụ minh họa\n- 切手を 3枚 買いました。(Tôi đã mua 3 con tem)\n- 一人で 行きます。(Tôi đi một mình)",
+  "skills": [
+    "VOCABULARY",
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "VOCAB",
+      "order": 0,
+      "deck": {
+        "name": "Minna N5 — Bài 10 — Từ vựng",
+        "description": "Từ vựng bài 10: Bài 10 — Đếm đồ vật và con người",
+        "category": "TUVUNG",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "茶碗",
+            "back": "chén",
+            "romaji": "ちゃわん",
+            "example": "茶碗（ちゃわん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "背広",
+            "back": "com lê",
+            "romaji": "せびろ",
+            "example": "背広（せびろ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "万年筆",
+            "back": "bút máy",
+            "romaji": "まんねんひつ",
+            "example": "万年筆（まんねんひつ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "灰皿",
+            "back": "gạt tàn thuốc",
+            "romaji": "はいざら",
+            "example": "灰皿（はいざら）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "大使館",
+            "back": "đại sứ quán",
+            "romaji": "たいしかん",
+            "example": "大使館（たいしかん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "豚肉",
+            "back": "thịt heo",
+            "romaji": "ぶたにく",
+            "example": "豚肉（ぶたにく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "交番",
+            "back": "đồn cảnh sát",
+            "romaji": "こうばん",
+            "example": "交番（こうばん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "飲む",
+            "back": "uống",
+            "romaji": "のむ",
+            "example": "飲む（のむ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "上げる",
+            "back": "nâng lên",
+            "romaji": "あげる",
+            "example": "上げる（あげる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "頭",
+            "back": "đầu",
+            "romaji": "あたま",
+            "example": "頭（あたま）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "日曜日",
+            "back": "Chủ Nhật",
+            "romaji": "にちようび",
+            "example": "日曜日（にちようび）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "誕生日",
+            "back": "sinh nhật",
+            "romaji": "たんじょうび",
+            "example": "誕生日（たんじょうび）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "可愛い",
+            "back": "dễ thương",
+            "romaji": "かわいい",
+            "example": "可愛い（かわいい）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "鞄",
+            "back": "túi xách",
+            "romaji": "かばん",
+            "example": "鞄（かばん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "土曜日",
+            "back": "thứ Bảy",
+            "romaji": "どようび",
+            "example": "土曜日（どようび）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "月曜日",
+            "back": "thứ Hai",
+            "romaji": "げつようび",
+            "example": "月曜日（げつようび）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "金曜日",
+            "back": "thứ Sáu",
+            "romaji": "きんようび",
+            "example": "金曜日（きんようび）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "花瓶",
+            "back": "bình hoa",
+            "romaji": "かびん",
+            "example": "花瓶（かびん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "木曜日",
+            "back": "thứ Năm",
+            "romaji": "もくようび",
+            "example": "木曜日（もくようび）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "本棚",
+            "back": "giá sách",
+            "romaji": "ほんだな",
+            "example": "本棚（ほんだな）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "石鹸",
+            "back": "xà phòng",
+            "romaji": "せっけん",
+            "example": "石鹸（せっけん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "水曜日",
+            "back": "thứ Tư",
+            "romaji": "すいようび",
+            "example": "水曜日（すいようび）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "飴",
+            "back": "kẹo",
+            "romaji": "あめ",
+            "example": "飴（あめ）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "八百屋",
+            "back": "cửa hàng rau",
+            "romaji": "やおや",
+            "example": "八百屋（やおや）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "成る",
+            "back": "trở thành",
+            "romaji": "なる",
+            "example": "成る（なる）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "より",
+            "back": "hơn",
+            "romaji": "より",
+            "example": "より",
+            "jlptLevel": 5
+          },
+          {
+            "front": "一番",
+            "back": "nhất",
+            "romaji": "いちばん",
+            "example": "一番（いちばん）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "私",
+            "back": "tôi",
+            "romaji": "わたし",
+            "example": "私（わたし）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "外",
+            "back": "bên ngoài, phía ngoài",
+            "romaji": "そと",
+            "example": "外（そと）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "姉",
+            "back": "chị gái",
+            "romaji": "あね",
+            "example": "姉（あね）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "百",
+            "back": "một trăm",
+            "romaji": "ひゃく",
+            "example": "百（ひゃく）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "有る",
+            "back": "có, tồn tại",
+            "romaji": "ある",
+            "example": "有る（ある）",
+            "jlptLevel": 5
+          },
+          {
+            "front": "其の",
+            "back": "đó, ấy",
+            "romaji": "その",
+            "example": "其の（その）",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    },
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Minna N5 — Bài 10 — Ngữ pháp",
+        "description": "Ngữ pháp bài 10: Bài 10 — Đếm đồ vật và con người",
+        "category": "NGUPHAP",
+        "jlptLevel": 5,
+        "cards": [
+          {
+            "front": "N が Số lượng Hậu tố あります",
+            "back": "Ý nghĩa: Đếm số lượng đồ vật cụ thể bằng các hậu tố đếm phù hợp.\nCấu trúc: N + が + Số đếm + Hậu tố + あります",
+            "romaji": "n-ga-suuryou-hosoku-arimasu",
+            "example": "切手を 3枚 買いました。\nTôi đã mua 3 con tem.\n\n傘を 2本 あります。\nTôi có 2 cái ô.\n\nリンゴを 4つ 食べました。\nTôi đã ăn 4 quả táo.\n\n本を 5冊 買います。\nTôi sẽ mua 5 quyển sách.",
+            "jlptLevel": 5
+          },
+          {
+            "front": "Số người にん/hitori/futari",
+            "back": "Ý nghĩa: Đếm số lượng người.\nCấu trúc: Số người + にん (ngoại lệ: 1 người = 一人, 2 người = 二人)",
+            "romaji": "nin-hitori-futari",
+            "example": "教室に 学生が 三人 います。\nTrong lớp có 3 học sinh.\n\n一人で 行きます。\nTôi đi một mình.\n\n家族は 四人です。\nGia đình tôi có 4 người.\n\nそこに 二人 います。\nCó 2 người ở đằng kia.",
+            "jlptLevel": 5
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 10
+  }
+}

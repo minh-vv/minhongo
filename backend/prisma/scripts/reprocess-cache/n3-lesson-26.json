@@ -1,0 +1,35 @@
+{
+  "order": 26,
+  "title": "26. ～さえ～ば、…・～さえ～なら…",
+  "summary": "Ngữ pháp bài số 26 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～さえ～ば、…・～さえ～なら…\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \"Chỉ cần... là đủ\". Dùng để diễn tả một điều kiện tối thiểu, nếu điều kiện đó được đáp ứng thì vế sau chắc chắn sẽ xảy ra hoặc đạt được.\n- **Cấu trúc:** \n  - Danh từ + さえ + Động từ thể ば\n  - Danh từ + さえ + Tính từ -i (bỏ い) + ければ\n  - Danh từ + さえ + Tính từ -na (bỏ な) + なら\n  - Danh từ + さえ + Danh từ + なら\n\n#### 📝 Ví dụ minh họa\n- 漢字さえ読めれば、日本の本が読めるのになあ。\n(Nếu chỉ cần đọc được Kanji là có thể đọc được sách Nhật rồi.)\n\n- 愛さえあれば、どんな困難も乗り越えられる。\n(Nếu chỉ cần có tình yêu, khó khăn nào cũng có thể vượt qua.)\n\n- お金さえあれば、何でもできるというものではない。\n(Không phải cứ có tiền là có thể làm được mọi thứ.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 26 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 26 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "～さえ～ば、…・～さえ～なら…",
+            "back": "Ý nghĩa: Nếu chỉ cần đạt được điều kiện A thì điều B cũng sẽ xảy ra. Diễn tả điều kiện tối thiểu, duy nhất để một việc khác có thể xảy ra.\nCấu trúc: Danh từさえ + Động từ thể ば / Tính từ -i (bỏ い) + ければ / Tính từ -na (bỏ な) + なら / Danh từ + なら",
+            "romaji": "sae-ba, sae-nara",
+            "example": "漢字さえ読めれば、日本の本が読めるのになあ。\nNếu chỉ cần đọc được Kanji là có thể đọc được sách Nhật rồi.\n\n愛さえあれば、どんな困難も乗り越えられる。\nNếu chỉ cần có tình yêu, khó khăn nào cũng có thể vượt qua.\n\nお金さえあれば、何でもできるというものではない。\nKhông phải cứ có tiền là có thể làm được mọi thứ.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

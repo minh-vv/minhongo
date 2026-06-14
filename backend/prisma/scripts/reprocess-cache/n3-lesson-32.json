@@ -1,0 +1,35 @@
+{
+  "order": 32,
+  "title": "32. ～って",
+  "summary": "Ngữ pháp bài số 32 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～って\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nói rằng... / Nghe nói là... (Là hình thức văn nói thân mật, suồng sã của と, と言っている, と聞いた).\n- **Cấu trúc**: [Thể thông thường (普通形)] ＋ って\n\n#### 📝 Ví dụ minh họa\n- 彼は明日来られないって。\nAnh ấy nói là ngày mai không đến được.\n\n- 試験、どうだった？難しかったって。\nKỳ thi thế nào rồi? Nghe nói là khó lắm.\n\n- 田中さん、今日休むって言ってたよ。\nAnh Tanaka có nói là hôm nay nghỉ đấy.\n\n- 先生がすぐに来るって。\nThầy giáo nói là sẽ đến ngay đấy.",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 32 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 32 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜って",
+            "back": "Ý nghĩa: Nói rằng... / Nghe nói là... (Cách nói thân mật trong hội thoại, thay thế cho と, と言っている, と聞いた).\nCấu trúc: Thể thông thường (普通形) ＋ って",
+            "romaji": "tte",
+            "example": "彼は明日来られないって。\nAnh ấy nói là ngày mai không đến được.\n\n試験、どうだった？難しかったって。\nKỳ thi thế nào rồi? Nghe nói là khó lắm.\n\n田中さん、今日休むって言ってたよ。\nAnh Tanaka có nói là hôm nay nghỉ đấy.\n\n先生がすぐに来るって。\nThầy giáo nói là sẽ đến ngay đấy.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}

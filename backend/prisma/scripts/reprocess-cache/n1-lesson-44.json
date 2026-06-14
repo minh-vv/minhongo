@@ -1,0 +1,42 @@
+{
+  "order": 44,
+  "title": "Bài 44 — Ngữ pháp JLPT N1",
+  "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 44/92).",
+  "theoryMd": "### 1. 〜に言わせれば\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Theo quan điểm/đánh giá của người đó thì…\n- **Cấu trúc:** N + に言わせれば\n#### 📝 Ví dụ minh họa\n- 彼に言わせれば、これは単なる偶然だ。\n- 専門家に言わせれば、原因は別にあるという。\n- 親に言わせれば、私はまだ子どもらしい。\n\n### 2. 〜から言わせれば\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Nếu đặt vào lập trường của N để nói thì…\n- **Cấu trúc:** N + から言わせれば\n#### 📝 Ví dụ minh họa\n- 私から言わせれば、その説明は不十分だ。\n- 被害者から言わせれば、判決は軽すぎる。\n- 教師から言わせれば、基礎が大事だ。",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 1,
+      "deck": {
+        "name": "Shinkanzen N1 — Bài 44 — Ngữ pháp",
+        "description": "Bộ thẻ ngữ pháp JLPT N1 phần 44.",
+        "category": "NGUPHAP",
+        "jlptLevel": 1,
+        "cards": [
+          {
+            "front": "〜に言わせれば",
+            "back": "Ý nghĩa: Theo quan điểm/đánh giá của người đó thì…\nCấu trúc: N + に言わせれば",
+            "romaji": "ni-iwasereba",
+            "example": "彼に言わせれば、これは単なる偶然だ。\nTheo anh ấy thì đây chỉ là sự trùng hợp.\n\n専門家に言わせれば、原因は別にあるという。\nTheo các chuyên gia thì nguyên nhân nằm ở chỗ khác.\n\n親に言わせれば、私はまだ子どもらしい。\nTheo bố mẹ thì tôi vẫn còn trẻ con.",
+            "jlptLevel": 1
+          },
+          {
+            "front": "〜から言わせれば",
+            "back": "Ý nghĩa: Nếu đặt vào lập trường của N để nói thì…\nCấu trúc: N + から言わせれば",
+            "romaji": "kara-iwasereba",
+            "example": "私から言わせれば、その説明は不十分だ。\nNếu hỏi tôi, lời giải thích đó chưa đủ.\n\n被害者から言わせれば、判決は軽すぎる。\nTừ phía nạn nhân, bản án quá nhẹ.\n\n教師から言わせれば、基礎が大事だ。\nTheo giáo viên, nền tảng quan trọng.",
+            "jlptLevel": 1
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 2
+  }
+}

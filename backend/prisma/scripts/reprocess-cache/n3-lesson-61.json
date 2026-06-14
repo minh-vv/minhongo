@@ -1,0 +1,35 @@
+{
+  "order": 61,
+  "title": "61. ～にとって",
+  "summary": "Ngữ pháp bài số 61 sách Shinkanzen Master N3 (1 thẻ).",
+  "theoryMd": "### 1. ～にとって\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Được dùng để biểu thị lập trường, quan điểm. Mẫu câu này dùng khi muốn nói về một sự vật, sự việc được nhìn nhận từ phía ai đó.\n- **Cấu trúc**: N + にとって\n\n#### 📝 Ví dụ minh họa\n- 私にとって、家族が一番大切です。\n(Đối với tôi, gia đình là quan trọng nhất.)\n- 若者にとって、スマートフォンは手放せないものです。\n(Đối với giới trẻ, điện thoại thông minh là thứ không thể thiếu.)\n- 彼にとって、このチャンスは非常に重要だ。\n(Đối với anh ấy, cơ hội này cực kỳ quan trọng.)",
+  "skills": [
+    "GRAMMAR"
+  ],
+  "estimatedMin": 30,
+  "decks": [
+    {
+      "role": "GRAMMAR",
+      "order": 0,
+      "deck": {
+        "name": "Shinkanzen Master N3 — Bài 61 — Ngữ pháp",
+        "description": "Ngữ pháp bài số 61 bám sát sách Shinkanzen Master N3.",
+        "category": "NGUPHAP",
+        "jlptLevel": 3,
+        "cards": [
+          {
+            "front": "〜にとって",
+            "back": "Ý nghĩa: Đối với... (Nhìn từ lập trường, quan điểm của... để đưa ra nhận xét, đánh giá)\nCấu trúc: N ＋にとって",
+            "romaji": "ni totte",
+            "example": "私にとって、家族が一番大切です。\nĐối với tôi, gia đình là quan trọng nhất.\n\n若者にとって、スマートフォンは手放せないものです。\nĐối với giới trẻ, điện thoại thông minh là thứ không thể thiếu.\n\n彼にとって、このチャンスは非常に重要だ。\nĐối với anh ấy, cơ hội này cực kỳ quan trọng.",
+            "jlptLevel": 3
+          }
+        ]
+      }
+    }
+  ],
+  "test": {
+    "passScore": 70,
+    "questionCount": 1
+  }
+}
