@@ -9,6 +9,7 @@ import {
 } from './dto/ai-tutor.dto';
 import { withRetry } from '../common/utils/gemini-retry';
 import { PrismaService } from '../prisma/prisma.service';
+import * as crypto from 'crypto';
 
 const GrammarExampleSchema = {
   type: 'object',
@@ -52,10 +53,66 @@ const EvaluateSchema = {
   required: ['isCorrect', 'score', 'feedback', 'suggestion'],
 };
 
+// ============================================================================
+// Model configuration — thay đổi model tại đây khi cần
+// ============================================================================
+const PRIMARY_MODEL = 'gemini-3.1-flash-lite';   // 15 RPM, 500 RPD
+const FALLBACK_MODEL = 'gemini-2.5-flash-lite';   // 10 RPM, 20 RPD
+
+// ============================================================================
+// In-memory TTL Cache — giảm số lần gọi Gemini cho các request giống nhau
+// ============================================================================
+interface CacheEntry<T> {
+  data: T;
+  expiresAt: number;
+}
+
+class SimpleCache<T = any> {
+  private cache = new Map<string, CacheEntry<T>>();
+  private readonly maxSize: number;
+  private readonly ttlMs: number;
+
+  constructor(ttlMs = 5 * 60 * 1000, maxSize = 200) {
+    this.ttlMs = ttlMs;
+    this.maxSize = maxSize;
+  }
+
+  get(key: string): T | null {
+    const entry = this.cache.get(key);
+    if (!entry) return null;
+    if (Date.now() > entry.expiresAt) {
+      this.cache.delete(key);
+      return null;
+    }
+    return entry.data;
+  }
+
+  set(key: string, data: T): void {
+    // Dọn cache nếu vượt kích thước
+    if (this.cache.size >= this.maxSize) {
+      const oldestKey = this.cache.keys().next().value;
+      if (oldestKey) this.cache.delete(oldestKey);
+    }
+    this.cache.set(key, {
+      data,
+      expiresAt: Date.now() + this.ttlMs,
+    });
+  }
+
+  static hashKey(...parts: string[]): string {
+    return crypto.createHash('md5').update(parts.join('|')).digest('hex');
+  }
+}
+
 @Injectable()
 export class AiTutorService {
   private readonly logger = new Logger(AiTutorService.name);
   private genAI: GoogleGenerativeAI;
+
+  // Cache cho explain (TTL 5 phút, tối đa 200 entries)
+  private explainCache = new SimpleCache(5 * 60 * 1000, 200);
+  // Cache cho grammar examples — TTL ngắn hơn vì muốn đa dạng (2 phút)
+  // NOTE: grammar-example KHÔNG cache vì user muốn câu mới mỗi lần bấm
 
   constructor(private readonly prisma: PrismaService) {
     const apiKey = process.env.GEMINI_API_KEY;
@@ -65,7 +122,7 @@ export class AiTutorService {
     this.genAI = new GoogleGenerativeAI(apiKey || 'dummy');
   }
 
-  private getModel(modelName = 'gemini-2.5-flash') {
+  private getModel(modelName = PRIMARY_MODEL) {
     if (!process.env.GEMINI_API_KEY || process.env.GEMINI_API_KEY === 'dummy') {
       throw new BadRequestException(
         'Chưa cấu hình GEMINI_API_KEY trong file .env',
@@ -74,7 +131,7 @@ export class AiTutorService {
     return this.genAI.getGenerativeModel({ model: modelName });
   }
 
-  private getModelWithJson(modelName = 'gemini-2.5-flash', schema?: any) {
+  private getModelWithJson(modelName = PRIMARY_MODEL, schema?: any) {
     if (!process.env.GEMINI_API_KEY || process.env.GEMINI_API_KEY === 'dummy') {
       throw new BadRequestException(
         'Chưa cấu hình GEMINI_API_KEY trong file .env',
@@ -93,15 +150,15 @@ export class AiTutorService {
   private async generateContentWithFallback(prompt: string) {
     try {
       return await withRetry(
-        () => this.getModel('gemini-2.5-flash').generateContent(prompt),
+        () => this.getModel(PRIMARY_MODEL).generateContent(prompt),
         { logger: this.logger },
       );
     } catch (primaryError: any) {
       this.logger.warn(
-        `Primary model gemini-2.5-flash failed: ${primaryError.message}. Falling back to gemini-1.5-flash...`,
+        `Primary model ${PRIMARY_MODEL} failed: ${primaryError.message}. Falling back to ${FALLBACK_MODEL}...`,
       );
       return await withRetry(
-        () => this.getModel('gemini-1.5-flash').generateContent(prompt),
+        () => this.getModel(FALLBACK_MODEL).generateContent(prompt),
         { logger: this.logger },
       );
     }
@@ -111,18 +168,18 @@ export class AiTutorService {
     try {
       return await withRetry(
         () =>
-          this.getModelWithJson('gemini-2.5-flash', schema).generateContent(
+          this.getModelWithJson(PRIMARY_MODEL, schema).generateContent(
             prompt,
           ),
         { logger: this.logger },
       );
     } catch (primaryError: any) {
       this.logger.warn(
-        `Primary model gemini-2.5-flash json failed: ${primaryError.message}. Falling back to gemini-1.5-flash...`,
+        `Primary model ${PRIMARY_MODEL} json failed: ${primaryError.message}. Falling back to ${FALLBACK_MODEL}...`,
       );
       return await withRetry(
         () =>
-          this.getModelWithJson('gemini-1.5-flash', schema).generateContent(
+          this.getModelWithJson(FALLBACK_MODEL, schema).generateContent(
             prompt,
           ),
         { logger: this.logger },
@@ -286,7 +343,7 @@ Hãy kiểm tra kỹ lưỡng câu viết của học viên và đánh giá chi 
 
     try {
       const model = this.genAI.getGenerativeModel({
-        model: 'gemini-2.5-flash',
+        model: PRIMARY_MODEL,
         systemInstruction: systemInstruction,
       });
 
@@ -300,12 +357,12 @@ Hãy kiểm tra kỹ lưỡng câu viết của học viên và đánh giá chi 
       return { reply: result.response.text() };
     } catch (primaryError: any) {
       this.logger.warn(
-        `Primary model gemini-2.5-flash chat failed: ${primaryError.message}. Falling back to gemini-1.5-flash...`,
+        `Primary model ${PRIMARY_MODEL} chat failed: ${primaryError.message}. Falling back to ${FALLBACK_MODEL}...`,
       );
 
       try {
         const fallbackModel = this.genAI.getGenerativeModel({
-          model: 'gemini-1.5-flash',
+          model: FALLBACK_MODEL,
           systemInstruction: systemInstruction,
         });
 

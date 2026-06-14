@@ -8,6 +8,7 @@ import {
   Request,
   Param,
 } from '@nestjs/common';
+import { Throttle } from '@nestjs/throttler';
 import { AiTutorService } from './ai-tutor.service';
 import {
   ExplainDto,
@@ -28,12 +29,16 @@ interface RequestWithUser extends ExpressRequest {
 export class AiTutorController {
   constructor(private readonly aiTutorService: AiTutorService) {}
 
+  // AI giải thích: tối đa 10 lần / phút
   @Post('explain')
+  @Throttle({ default: { ttl: 60000, limit: 10 } })
   explain(@Body() explainDto: ExplainDto) {
     return this.aiTutorService.explain(explainDto);
   }
 
+  // AI đánh giá câu: tối đa 10 lần / phút
   @Post('evaluate')
+  @Throttle({ default: { ttl: 60000, limit: 10 } })
   evaluate(
     @Request() req: RequestWithUser,
     @Body() evaluateDto: EvaluateDto,
@@ -41,16 +46,21 @@ export class AiTutorController {
     return this.aiTutorService.evaluate(req.user.id, evaluateDto);
   }
 
+  // AI chat: tối đa 15 lần / phút (chat cần nhiều hơn)
   @Post('chat')
+  @Throttle({ default: { ttl: 60000, limit: 15 } })
   chat(@Body() chatDto: ChatDto) {
     return this.aiTutorService.chat(chatDto);
   }
 
+  // AI tạo ví dụ: tối đa 12 lần / phút
   @Post('grammar-example')
+  @Throttle({ default: { ttl: 60000, limit: 12 } })
   generateGrammarExample(@Body() grammarExampleDto: GrammarExampleDto) {
     return this.aiTutorService.generateGrammarExample(grammarExampleDto);
   }
 
+  // Các endpoint đọc DB không cần throttle riêng (dùng global 60/phút)
   @Get('practice-history/:cardId')
   getPracticeHistory(
     @Request() req: RequestWithUser,
