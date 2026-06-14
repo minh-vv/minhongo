@@ -70,23 +70,32 @@ describe('withRetry', () => {
   });
 
   it('should retry on rate limit error (429) and succeed if subsequent attempt succeeds', async () => {
+    jest.useFakeTimers();
+
     const fn = jest
       .fn()
       .mockRejectedValueOnce({ status: 429, message: 'Too Many Requests' })
       .mockResolvedValueOnce('success-val');
 
-    const result = await withRetry(fn, {
+    const promise = withRetry(fn, {
       maxRetries: 3,
       initialDelayMs: 1,
       logger: loggerMock,
     });
 
+    // Fast-forward past the 429 rate-limit delay (5 000 ms+)
+    await jest.advanceTimersByTimeAsync(10_000);
+
+    const result = await promise;
+
     expect(result).toBe('success-val');
     expect(fn).toHaveBeenCalledTimes(2);
     expect(loggerMock.warn).toHaveBeenCalledTimes(1);
     expect(loggerMock.warn).toHaveBeenCalledWith(
-      expect.stringContaining('Attempt 1/3, Status: 429'),
+      expect.stringContaining('Rate limited (429)'),
     );
+
+    jest.useRealTimers();
   });
 
   it('should not retry on non-retryable error (e.g., 400 Bad Request) and throw immediately', async () => {
