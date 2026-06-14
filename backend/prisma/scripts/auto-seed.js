@@ -26,8 +26,23 @@ async function main() {
     });
 
     if (courseCount >= 8 && lessonCount >= 437 && jishoCount === 0) {
-      console.log(`  ✅ Database đã được đồng bộ đầy đủ (${courseCount} khóa học, ${lessonCount} bài học, 0 jisho). Bỏ qua seed.`);
-      console.log('  💡 Để force re-seed: node prisma/scripts/import-data.js\n');
+      console.log(`  ✅ Database đã được đồng bộ đầy đủ (${courseCount} khóa học, ${lessonCount} bài học, 0 jisho). Bỏ qua full seed.`);
+      
+      // Tuy nhiên, vẫn đồng bộ lại phần example/back của Card ngữ pháp
+      // phòng trường hợp data JSON đã thay đổi nhưng DB chưa cập nhật
+      const syncScript = path.join(__dirname, 'sync-grammar-examples.js');
+      if (fs.existsSync(syncScript)) {
+        console.log('  🔄 Đang đồng bộ dữ liệu ví dụ ngữ pháp...');
+        try {
+          execSync(`node "${syncScript}" --apply`, {
+            stdio: 'inherit',
+            env: process.env,
+          });
+        } catch (syncErr) {
+          console.warn('  ⚠️ Lỗi đồng bộ ví dụ ngữ pháp (không ảnh hưởng server):', syncErr.message);
+        }
+      }
+
       return;
     }
 
