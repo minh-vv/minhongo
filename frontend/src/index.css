@@ -26,6 +26,36 @@ html {
   --on-surface:               #1c1b18;
   --on-surface-variant:       #6b6055;
   --outline-variant:          #cec4ba;
+  
+  --shadow-color:             rgba(0, 0, 0, 0.08);
+  --shadow-color-sm:          rgba(0, 0, 0, 0.06);
+  --glass-bg:                 rgba(248, 244, 239, 0.88);
+  --glass-border:             rgba(0, 0, 0, 0.07);
+}
+
+html.dark {
+  --primary:           #9fa8da;
+  --primary-container: #283593;
+  --secondary:         #ef9a9a;
+  --secondary-dim:     #e57373;
+  --secondary-container: #b71c1c;
+  --on-secondary:      #1c1b18;
+  --tertiary:          #81c784;
+  --on-primary:        #121212;
+
+  --surface:                  #141312; /* charcoal dark */
+  --surface-container-lowest: #0d0c0c;
+  --surface-container-low:    #1e1d1b;
+  --surface-container:        #262522;
+  --surface-container-high:   #2e2d2a;
+  --on-surface:               #f5f0eb; /* warm beige white */
+  --on-surface-variant:       #b2a69a;
+  --outline-variant:          #4a443e;
+  
+  --shadow-color:             rgba(0, 0, 0, 0.45);
+  --shadow-color-sm:          rgba(0, 0, 0, 0.35);
+  --glass-bg:                 rgba(20, 19, 18, 0.88);
+  --glass-border:             rgba(255, 255, 255, 0.07);
 }
 
 /* ── Semantic colour utilities ──────────────────────────────── */
@@ -58,15 +88,15 @@ html {
 
   /* ── Glass panel (header) ────────────────────────────────── */
   .glass-panel {
-    background-color: rgba(248, 244, 239, 0.88);
+    background-color: var(--glass-bg, rgba(248, 244, 239, 0.88));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    border-bottom: 1px solid var(--glass-border, rgba(0, 0, 0, 0.07));
   }
 
   /* ── Sharp shadow (flat, no blur — Japanese "kiri-kage") ─── */
-  .sharp-shadow   { box-shadow: 3px 3px 0 0 rgba(0,0,0,0.08); }
-  .sharp-shadow-sm { box-shadow: 2px 2px 0 0 rgba(0,0,0,0.06); }
+  .sharp-shadow   { box-shadow: 3px 3px 0 0 var(--shadow-color); }
+  .sharp-shadow-sm { box-shadow: 2px 2px 0 0 var(--shadow-color-sm); }
 
   /* ── Vermilion active nav state ──────────────────────────── */
   .vermilion-active {
@@ -83,6 +113,7 @@ html {
   }
   .font-jp {
     font-family: 'Noto Serif JP', 'Yu Mincho', 'Hiragino Mincho ProN', Georgia, serif;
+    font-size: calc(1em * var(--jp-font-scale, 1));
   }
   .font-jp-sans {
     font-family: 'Noto Sans JP', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;

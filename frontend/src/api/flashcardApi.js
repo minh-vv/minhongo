@@ -64,6 +64,11 @@ export const flashcardApi = {
     return response.data;
   },
 
+  createCardsBulk: async (deckId, cards) => {
+    const response = await api.post(`/flashcards/${deckId}/cards/bulk`, { cards });
+    return response.data;
+  },
+
   updateCard: async (cardId, data) => {
     const response = await api.put(`/flashcards/cards/${cardId}`, data);
     return response.data;

@@ -14,6 +14,8 @@ import {
   Bookmark,
   Trash2,
   History,
+  List,
+  X,
 } from 'lucide-react';
 import { flashcardApi } from '../api/flashcardApi';
 import aiTutorApi from '../api/aiTutorApi';
@@ -657,6 +659,7 @@ export default function GrammarLessonPage() {
   const [publicDecks, setPublicDecks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [isMobileSheetOpen, setIsMobileSheetOpen] = useState(false);
 
   useEffect(() => {
     setLoading(true);
@@ -751,7 +754,7 @@ export default function GrammarLessonPage() {
   })();
 
   return (
-    <div className="max-w-4xl mx-auto w-full p-6 md:p-8 space-y-8 animate-fade-up">
+    <div className="max-w-5xl mx-auto w-full p-6 md:p-8 space-y-8 animate-fade-up">
 
       {/* ── HERO ──────────────────────────────────────────────────── */}
       <section className="relative overflow-hidden border-2 border-primary" style={{ minHeight: 130 }}>
@@ -811,71 +814,185 @@ export default function GrammarLessonPage() {
           <p className="text-on-surface-variant text-sm">Bài học này chưa có dữ liệu.</p>
         </div>
       ) : (
-        <div className="max-w-2xl mx-auto space-y-6">
-          {/* Progress Bar */}
-          <div className="space-y-2">
-            <div className="flex justify-between items-center text-xs font-bold text-on-surface-variant uppercase tracking-wider">
-              <span>Tiến độ học</span>
-              <span>{activeIndex + 1} / {cards.length}</span>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          {/* Left Column: Desktop Grammar Index Sheet */}
+          <div className="lg:col-span-4 bg-surface-container-lowest border-2 border-outline-variant/50 p-4 sharp-shadow sticky top-20 hidden lg:block">
+            <div className="flex items-center gap-2 pb-3 mb-3 border-b border-outline-variant/30 text-primary">
+              <List className="w-4 h-4" />
+              <h3 className="font-headline font-bold text-sm uppercase tracking-wider">Mục lục ngữ pháp</h3>
             </div>
-            <div className="w-full h-2 bg-surface-container border border-outline-variant/30 rounded-none overflow-hidden">
-              <div
-                className="h-full bg-primary transition-all duration-300 ease-out"
-                style={{ width: `${((activeIndex + 1) / cards.length) * 100}%` }}
+            <div className="space-y-2 max-h-[600px] overflow-y-auto custom-scrollbar pr-1">
+              {cards.map((card, idx) => {
+                const isActive = activeIndex === idx;
+                return (
+                  <button
+                    key={card.id}
+                    onClick={() => setActiveIndex(idx)}
+                    className={`w-full text-left p-3 border-2 transition-all duration-200 hover:-translate-y-0.5 text-xs flex items-start gap-2.5 ${
+                      isActive
+                        ? 'vermilion-active border-secondary/50'
+                        : 'border-outline-variant/30 bg-surface-container-lowest hover:border-primary/30 hover:bg-surface-container-low/30'
+                    }`}
+                  >
+                    <span className={`w-5 h-5 flex items-center justify-center text-[10px] font-black shrink-0 ${
+                      isActive ? 'bg-secondary text-white' : 'bg-surface-container text-on-surface'
+                    }`}>
+                      {idx + 1}
+                    </span>
+                    <div className="space-y-1 min-w-0">
+                      <p className={`font-jp font-bold text-sm truncate ${isActive ? 'text-secondary' : 'text-on-surface'}`}>
+                        {card.front}
+                      </p>
+                      <p className="text-[10px] text-on-surface-variant line-clamp-1 leading-normal">
+                        {card.back}
+                      </p>
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Right Column: Active Card Details */}
+          <div className="lg:col-span-8 space-y-6 w-full">
+            {/* Progress Bar & Mobile TOC Trigger */}
+            <div className="space-y-2">
+              <div className="flex justify-between items-center text-xs font-bold text-on-surface-variant uppercase tracking-wider">
+                <span>Tiến độ học</span>
+                <div className="flex items-center gap-3">
+                  {/* Mobile Trigger Button */}
+                  <button
+                    onClick={() => setIsMobileSheetOpen(true)}
+                    className="lg:hidden flex items-center gap-1.5 px-2.5 py-1 text-[10px] font-bold text-primary border border-primary/20 bg-primary/5 hover:bg-primary/10 transition-colors"
+                  >
+                    <List className="w-3.5 h-3.5" />
+                    Mục lục bài học
+                  </button>
+                  <span>{activeIndex + 1} / {cards.length}</span>
+                </div>
+              </div>
+              <div className="w-full h-2 bg-surface-container border border-outline-variant/30 rounded-none overflow-hidden">
+                <div
+                  className="h-full bg-primary transition-all duration-300 ease-out"
+                  style={{ width: `${((activeIndex + 1) / cards.length) * 100}%` }}
+                />
+              </div>
+            </div>
+
+            {/* Active Card */}
+            <div className="animate-fade-up">
+              <GrammarCard
+                key={cards[activeIndex].id}
+                card={cards[activeIndex]}
+                index={activeIndex}
+                onStudy={handleStudy}
               />
             </div>
+
+            {/* Navigation Controls */}
+            <div className="flex justify-between items-center pt-2">
+              <button
+                onClick={() => setActiveIndex((prev) => Math.max(0, prev - 1))}
+                disabled={activeIndex === 0}
+                className="flex items-center gap-1.5 px-4 py-2 border border-outline-variant bg-surface hover:bg-surface-container text-on-surface text-xs font-bold uppercase tracking-wider transition-all disabled:opacity-40 disabled:hover:bg-surface disabled:cursor-not-allowed sharp-shadow-sm"
+              >
+                <ChevronLeft className="w-4 h-4" />
+                Trước đó
+              </button>
+
+              <span className="text-xs font-bold text-on-surface-variant bg-surface-container-low px-3 py-1 border border-outline-variant/30">
+                Ngữ pháp {activeIndex + 1} / {cards.length}
+              </span>
+
+              {activeIndex < cards.length - 1 ? (
+                <button
+                  onClick={() => setActiveIndex((prev) => Math.min(cards.length - 1, prev + 1))}
+                  className="flex items-center gap-1.5 px-4 py-2 border border-outline-variant bg-surface hover:bg-surface-container text-on-surface text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm"
+                >
+                  Tiếp theo
+                  <ChevronRight className="w-4 h-4" />
+                </button>
+              ) : nextDeck ? (
+                <button
+                  onClick={() => navigate(`/grammar/${nextDeck.id}`)}
+                  className="flex items-center gap-1.5 px-4 py-2 border border-secondary bg-secondary hover:bg-secondary-dim text-white text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm"
+                >
+                  Bài tiếp theo: {cleanNextDeckName(nextDeck.name)}
+                  <ChevronRight className="w-4 h-4" />
+                </button>
+              ) : (
+                <button
+                  onClick={() => navigate(parentPath)}
+                  className="flex items-center gap-1.5 px-4 py-2 border border-secondary bg-secondary hover:bg-secondary-dim text-white text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm"
+                >
+                  Hoàn thành
+                  <ChevronRight className="w-4 h-4" />
+                </button>
+              )}
+            </div>
           </div>
+        </div>
+      )}
 
-          {/* Active Card */}
-          <div className="animate-fade-up">
-            <GrammarCard
-              key={cards[activeIndex].id}
-              card={cards[activeIndex]}
-              index={activeIndex}
-              onStudy={handleStudy}
-            />
-          </div>
+      {/* ── MOBILE BOTTOM SHEET DRAWER ─────────────────────────────────── */}
+      {isMobileSheetOpen && (
+        <div className="fixed inset-0 z-50 lg:hidden flex items-end justify-center">
+          {/* Backdrop */}
+          <div
+            className="absolute inset-0 bg-black/50 backdrop-blur-sm transition-opacity duration-300"
+            onClick={() => setIsMobileSheetOpen(false)}
+          />
 
-          {/* Navigation Controls */}
-          <div className="flex justify-between items-center pt-2">
-            <button
-              onClick={() => setActiveIndex((prev) => Math.max(0, prev - 1))}
-              disabled={activeIndex === 0}
-              className="flex items-center gap-1.5 px-4 py-2 border border-outline-variant bg-surface hover:bg-surface-container text-on-surface text-xs font-bold uppercase tracking-wider transition-all disabled:opacity-40 disabled:hover:bg-surface disabled:cursor-not-allowed sharp-shadow-sm"
-            >
-              <ChevronLeft className="w-4 h-4" />
-              Trước đó
-            </button>
-
-            <span className="text-xs font-bold text-on-surface-variant bg-surface-container-low px-3 py-1 border border-outline-variant/30">
-              Ngữ pháp {activeIndex + 1} / {cards.length}
-            </span>
-
-            {activeIndex < cards.length - 1 ? (
+          {/* Drawer Content Container */}
+          <div className="relative w-full max-w-lg bg-surface border-t-4 border-primary shadow-2xl flex flex-col max-h-[85vh] rounded-t-2xl z-10 animate-fade-up">
+            {/* Handle & Close bar */}
+            <div className="flex items-center justify-between px-5 py-4 border-b border-outline-variant/30">
+              <div className="flex items-center gap-2 text-primary">
+                <List className="w-4 h-4" />
+                <span className="font-headline font-bold text-sm uppercase tracking-wider">Mục lục bài học</span>
+              </div>
               <button
-                onClick={() => setActiveIndex((prev) => Math.min(cards.length - 1, prev + 1))}
-                className="flex items-center gap-1.5 px-4 py-2 border border-outline-variant bg-surface hover:bg-surface-container text-on-surface text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm"
+                onClick={() => setIsMobileSheetOpen(false)}
+                className="p-1.5 hover:bg-surface-container text-on-surface-variant transition-colors border border-transparent rounded-full"
               >
-                Tiếp theo
-                <ChevronRight className="w-4 h-4" />
+                <X className="w-4 h-4" />
               </button>
-            ) : nextDeck ? (
-              <button
-                onClick={() => navigate(`/grammar/${nextDeck.id}`)}
-                className="flex items-center gap-1.5 px-4 py-2 border border-secondary bg-secondary hover:bg-secondary-dim text-white text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm"
-              >
-                Bài tiếp theo: {cleanNextDeckName(nextDeck.name)}
-                <ChevronRight className="w-4 h-4" />
-              </button>
-            ) : (
-              <button
-                onClick={() => navigate(parentPath)}
-                className="flex items-center gap-1.5 px-4 py-2 border border-secondary bg-secondary hover:bg-secondary-dim text-white text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm"
-              >
-                Hoàn thành
-                <ChevronRight className="w-4 h-4" />
-              </button>
-            )}
+            </div>
+
+            {/* List of grammar items */}
+            <div className="flex-1 overflow-y-auto p-4 space-y-2.5 custom-scrollbar pb-8">
+              {cards.map((card, idx) => {
+                const isActive = activeIndex === idx;
+                return (
+                  <button
+                    key={card.id}
+                    onClick={() => {
+                      setActiveIndex(idx);
+                      setIsMobileSheetOpen(false);
+                    }}
+                    className={`w-full text-left p-3.5 border-2 transition-all duration-200 flex items-start gap-3 ${
+                      isActive
+                        ? 'vermilion-active border-secondary/50'
+                        : 'border-outline-variant/30 bg-surface-container-lowest active:bg-surface-container-low'
+                    }`}
+                  >
+                    <span className={`w-6 h-6 flex items-center justify-center text-xs font-black shrink-0 ${
+                      isActive ? 'bg-secondary text-white' : 'bg-surface-container text-on-surface'
+                    }`}>
+                      {idx + 1}
+                    </span>
+                    <div className="space-y-1 min-w-0">
+                      <p className={`font-jp font-bold text-sm leading-tight ${isActive ? 'text-secondary font-black' : 'text-on-surface'}`}>
+                        {card.front}
+                      </p>
+                      <p className="text-[11px] text-on-surface-variant line-clamp-2 leading-relaxed">
+                        {card.back}
+                      </p>
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </div>
       )}

@@ -2,6 +2,7 @@ import {
   Injectable,
   NotFoundException,
   ForbiddenException,
+  BadRequestException,
 } from '@nestjs/common';
 import AdmZip from 'adm-zip';
 import initSqlJs from 'sql.js';
@@ -39,7 +40,7 @@ export class FlashcardsService {
       where: { isPublic: true },
       include: {
         user: {
-          select: { id: true, name: true },
+          select: { id: true, name: true, isAdmin: true },
         },
         _count: {
           select: { cards: true },
@@ -55,7 +56,7 @@ export class FlashcardsService {
       where: { id, isPublic: true },
       include: {
         cards: { orderBy: { createdAt: 'asc' } },
-        user: { select: { id: true, name: true } },
+        user: { select: { id: true, name: true, isAdmin: true } },
         _count: { select: { cards: true } },
       },
     });
@@ -166,6 +167,50 @@ export class FlashcardsService {
         deckId,
       },
     });
+  }
+
+  async createCardsBulk(
+    deckId: string,
+    userId: string,
+    cardsDto: any[],
+    isAdmin = false,
+  ) {
+    const deck = await this.prisma.deck.findUnique({ where: { id: deckId } });
+
+    if (!deck) {
+      throw new NotFoundException('Deck không tồn tại');
+    }
+
+    this.assertCanModifyDeck(deck, userId, isAdmin);
+
+    if (!cardsDto || cardsDto.length === 0) {
+      throw new BadRequestException('Danh sách thẻ học không được để trống');
+    }
+
+    const validCards = cardsDto
+      .filter((c) => c.front?.trim() && c.back?.trim())
+      .map((c) => ({
+        front: c.front.trim(),
+        back: c.back.trim(),
+        romaji: c.romaji?.trim() || null,
+        example: c.example?.trim() || null,
+        jlptLevel: c.jlptLevel ?? null,
+        deckId,
+      }));
+
+    if (validCards.length === 0) {
+      throw new BadRequestException('Không tìm thấy thẻ học hợp lệ nào để thêm');
+    }
+
+    await this.prisma.card.createMany({
+      data: validCards,
+    });
+
+    return {
+      success: true,
+      count: validCards.length,
+      message: `Đã thêm thành công ${validCards.length} thẻ mới.`,
+    };
   }
 
   async updateCard(
@@ -632,21 +677,18 @@ export class FlashcardsService {
     userId: string,
     isAdmin: boolean,
   ) {
-    const isCuratedContent =
-      deck.isPublic || ['HANTU', 'TUVUNG', 'NGUPHAP'].includes(deck.category);
-
-    if (isCuratedContent) {
-      if (!isAdmin) {
-        throw new ForbiddenException(
-          'Chỉ admin mới có quyền sửa/xóa nội dung hệ thống',
-        );
-      }
-      return;
-    }
+    if (isAdmin) return;
 
     // Deck cá nhân — chỉ owner
     if (deck.userId !== userId) {
       throw new ForbiddenException('Bạn không có quyền thao tác deck này');
+    }
+
+    const isSystemCategory = ['HANTU', 'TUVUNG', 'NGUPHAP'].includes(deck.category);
+    if (isSystemCategory) {
+      throw new ForbiddenException(
+        'Chỉ admin mới có quyền sửa/xóa nội dung hệ thống',
+      );
     }
   }
 

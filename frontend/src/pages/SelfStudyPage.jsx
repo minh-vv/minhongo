@@ -155,7 +155,7 @@ export default function SelfStudyPage() {
   const [loading, setLoading] = useState(true);
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [showImportModal, setShowImportModal] = useState(false);
-  const [newDeck, setNewDeck] = useState({ name: '', description: '', category: 'TUHOC' });
+  const [newDeck, setNewDeck] = useState({ name: '', description: '', category: 'TUHOC', isPublic: false });
   const [creating, setCreating] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState('ALL');
 
@@ -186,7 +186,7 @@ export default function SelfStudyPage() {
     setCreating(true);
     try {
       await axios.post('/flashcards', newDeck);
-      setNewDeck({ name: '', description: '', category: 'TUHOC' });
+      setNewDeck({ name: '', description: '', category: 'TUHOC', isPublic: false });
       setShowCreateModal(false);
       fetchDecks();
     } catch (err) {
@@ -381,6 +381,18 @@ export default function SelfStudyPage() {
                   rows={3}
                   className="w-full px-3 py-2 bg-surface text-on-surface text-sm outline-none resize-none"
                   style={{ border: '1px solid rgba(0,0,0,0.15)' }} />
+              </div>
+              <div className="flex items-center gap-2 pt-1">
+                <input
+                  type="checkbox"
+                  id="createIsPublic"
+                  checked={newDeck.isPublic}
+                  onChange={(e) => setNewDeck({ ...newDeck, isPublic: e.target.checked })}
+                  className="w-4 h-4 border-outline-variant focus:ring-secondary text-secondary accent-secondary cursor-pointer"
+                />
+                <label htmlFor="createIsPublic" className="text-xs font-semibold text-on-surface-variant cursor-pointer select-none">
+                  Công khai bộ thẻ lên cộng đồng
+                </label>
               </div>
               <div className="flex gap-3 pt-1">
                 <button type="button" onClick={() => setShowCreateModal(false)}

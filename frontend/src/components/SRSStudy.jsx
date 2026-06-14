@@ -4,6 +4,7 @@ import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { RotateCw } from 'lucide-react';
 import { flashcardApi } from '../api/flashcardApi';
 import CollapsibleExample from './CollapsibleExample';
+import { useSettings } from '../hooks/useSettings';
 
 function speakJapanese(text) {
   if (!window.speechSynthesis) return;
@@ -69,6 +70,7 @@ const getNextIntervalLabel = (card, quality) => {
 export default function SRSStudy({ dueData, onComplete }) {
   const navigate = useNavigate();
   const queryClient = useQueryClient();
+  const { showRomaji, autoPlayAudio } = useSettings();
   const [sessionCards, setSessionCards] = useState(() => dueData?.dueCards ?? []);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
@@ -98,6 +100,19 @@ export default function SRSStudy({ dueData, onComplete }) {
   
   const totalDueCount = dueData?.dueCards?.length ?? 0;
   const progress = totalDueCount > 0 ? Math.min(100, ((currentIndex + 1) / totalDueCount) * 100) : 0;
+
+  // Auto-play audio when card changes if enabled
+  useEffect(() => {
+    if (autoPlayAudio && currentCard) {
+      const t = setTimeout(() => {
+        speakJapanese(currentCard.front);
+      }, 400);
+      return () => {
+        clearTimeout(t);
+        window.speechSynthesis?.cancel();
+      };
+    }
+  }, [currentIndex, autoPlayAudio, currentCard]);
 
   const reviewMutation = useMutation({
     mutationFn: ({ cardId, quality }) => flashcardApi.reviewCard(cardId, quality),
@@ -313,7 +328,7 @@ export default function SRSStudy({ dueData, onComplete }) {
             <div className="flex-1 flex flex-col items-center justify-center w-full max-w-md my-auto gap-4">
               <div className="text-center w-full">
                 <p className="text-[9px] font-bold uppercase tracking-widest text-on-surface-variant/40 mb-1">Giải nghĩa & Cách đọc</p>
-                {currentCard.romaji && (
+                {showRomaji && currentCard.romaji && (
                   <p className="font-jp text-lg text-secondary font-bold mb-2">
                     {currentCard.romaji}
                   </p>

@@ -43,8 +43,46 @@ export class AiRoadmapService {
       );
     }
 
-    // 1. Lấy TẤT CẢ bài học trong hệ thống, có đầy đủ thông tin
-    const availableLessons = await this.prisma.lesson.findMany({
+    // Parse target JLPT level from goal or currentLevel
+    let targetJlptLevel: number | null = null;
+    const goalUpper = dto.goal.toUpperCase();
+    const currentUpper = dto.currentLevel.toUpperCase();
+    
+    // Check goal first for N1-N5
+    const goalMatch = goalUpper.match(/N([1-5])/);
+    if (goalMatch) {
+      targetJlptLevel = parseInt(goalMatch[1], 10);
+    } else {
+      // Check currentLevel for N1-N5
+      const currentMatch = currentUpper.match(/N([1-5])/);
+      if (currentMatch) {
+        const level = parseInt(currentMatch[1], 10);
+        if (currentUpper.includes('ĐANG HỌC') || currentUpper.includes('LEARNING')) {
+          targetJlptLevel = level;
+        } else {
+          // If they are N3, they probably want N2
+          targetJlptLevel = Math.max(1, level - 1);
+        }
+      }
+    }
+    
+    // Default fallback: if no level is parsed, but they have other indicators
+    if (!targetJlptLevel) {
+      if (currentUpper.includes('CHƯA BIẾT') || currentUpper.includes('BẮT ĐẦU') || currentUpper.includes('BẢNG CHỮ CÁI') || currentUpper.includes('SƠ CẤP')) {
+        targetJlptLevel = 5; // N5
+      } else {
+        targetJlptLevel = 3; // Default fallback to N3
+      }
+    }
+
+    // 1. Lấy bài học trong hệ thống, lọc theo trình độ mục tiêu
+    let availableLessons = await this.prisma.lesson.findMany({
+      where: {
+        course: {
+          jlptLevel: targetJlptLevel,
+          isPublic: true,
+        },
+      },
       select: {
         id: true,
         title: true,
@@ -56,6 +94,27 @@ export class AiRoadmapService {
       },
       orderBy: [{ course: { jlptLevel: 'desc' } }, { order: 'asc' }],
     });
+
+    // Nếu không có bài học nào cho trình độ mục tiêu này, lấy toàn bộ bài học công khai làm fallback
+    if (availableLessons.length === 0) {
+      availableLessons = await this.prisma.lesson.findMany({
+        where: {
+          course: {
+            isPublic: true,
+          },
+        },
+        select: {
+          id: true,
+          title: true,
+          skills: true,
+          estimatedMin: true,
+          summary: true,
+          order: true,
+          course: { select: { title: true, jlptLevel: true, slug: true } },
+        },
+        orderBy: [{ course: { jlptLevel: 'desc' } }, { order: 'asc' }],
+      });
+    }
 
     // 2. Lấy tiến độ học của user (bài đã hoàn thành)
     const userProgress = await this.prisma.userLessonProgress.findMany({
@@ -283,6 +342,12 @@ Trả về JSON theo đúng cấu trúc sau:
                       course: {
                         select: { title: true, jlptLevel: true, slug: true },
                       },
+                      decks: {
+                        select: {
+                          deckId: true,
+                          role: true,
+                        },
+                      },
                     },
                   },
                 },
@@ -294,7 +359,16 @@ Trả về JSON theo đúng cấu trúc sau:
         },
       });
 
-      return roadmap;
+      return {
+        ...roadmap,
+        phases: roadmap.phases.map((p) => ({
+          ...p,
+          items: p.items.map((i) => ({
+            ...i,
+            isCompleted: i.isCompleted || (i.lessonId ? passedLessonIds.has(i.lessonId) : false),
+          })),
+        })),
+      };
     } catch (error) {
       if (error instanceof BadRequestException) throw error;
       console.error(error);
@@ -305,7 +379,7 @@ Trả về JSON theo đúng cấu trúc sau:
   }
 
   async getMyRoadmaps(userId: string) {
-    return this.prisma.customRoadmap.findMany({
+    const roadmaps = await this.prisma.customRoadmap.findMany({
       where: { userId },
       include: {
         phases: {
@@ -317,6 +391,23 @@ Trả về JSON theo đúng cấu trúc sau:
       },
       orderBy: { createdAt: 'desc' },
     });
+
+    const userProgress = await this.prisma.userLessonProgress.findMany({
+      where: { userId, status: 'PASSED' },
+      select: { lessonId: true },
+    });
+    const passedLessonIds = new Set(userProgress.map((p) => p.lessonId));
+
+    return roadmaps.map((r) => ({
+      ...r,
+      phases: r.phases.map((p) => ({
+        ...p,
+        items: p.items.map((i) => ({
+          ...i,
+          isCompleted: i.isCompleted || (i.lessonId ? passedLessonIds.has(i.lessonId) : false),
+        })),
+      })),
+    }));
   }
 
   async getRoadmapById(userId: string, id: string) {
@@ -337,6 +428,12 @@ Trả về JSON theo đúng cấu trúc sau:
                     course: {
                       select: { title: true, jlptLevel: true, slug: true },
                     },
+                    decks: {
+                      select: {
+                        deckId: true,
+                        role: true,
+                      },
+                    },
                   },
                 },
               },
@@ -354,7 +451,22 @@ Trả về JSON theo đúng cấu trúc sau:
       );
     }
 
-    return roadmap;
+    const userProgress = await this.prisma.userLessonProgress.findMany({
+      where: { userId, status: 'PASSED' },
+      select: { lessonId: true },
+    });
+    const passedLessonIds = new Set(userProgress.map((p) => p.lessonId));
+
+    return {
+      ...roadmap,
+      phases: roadmap.phases.map((p) => ({
+        ...p,
+        items: p.items.map((i) => ({
+          ...i,
+          isCompleted: i.isCompleted || (i.lessonId ? passedLessonIds.has(i.lessonId) : false),
+        })),
+      })),
+    };
   }
 
   async completeItem(userId: string, itemId: string) {

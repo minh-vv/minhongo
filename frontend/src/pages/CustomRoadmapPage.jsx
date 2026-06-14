@@ -48,6 +48,7 @@ function DayNode({ item, dayNum, isSelected, isNext, onSelect }) {
       <button
         onClick={() => onSelect(item)}
         title={item.customTitle}
+        aria-label={`Ngày ${dayNum}: ${item.customTitle}${done ? ' - Đã hoàn thành' : isNext ? ' - Bài học tiếp theo' : ''}`}
         className="relative w-14 h-14 border-[3px] flex items-center justify-center font-black text-sm transition-all duration-200 select-none outline-none"
         style={{
           ...nodeStyle,
@@ -255,6 +256,9 @@ function NodeDetailPanel({ node, dayNum, phaseTitle, onClose, onToggle, isToggli
 
       {/* Bottom sheet */}
       <div
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="dialog-title"
         className="fixed bottom-0 left-0 right-0 z-50 bg-surface-container-lowest border-t-2"
         style={{ maxHeight: '80vh', overflowY: 'auto', borderColor: 'var(--primary)' }}
         onClick={(e) => e.stopPropagation()}
@@ -280,13 +284,14 @@ function NodeDetailPanel({ node, dayNum, phaseTitle, onClose, onToggle, isToggli
               </div>
 
               {/* Title */}
-              <h2 className="text-lg font-headline font-extrabold text-on-surface leading-snug">
+              <h2 id="dialog-title" className="text-lg font-headline font-extrabold text-on-surface leading-snug">
                 {node.customTitle?.replace(/^Ngày\s*\d+\s*[:\-–]\s*/i, '') || node.customTitle}
               </h2>
             </div>
 
             <button
               onClick={onClose}
+              aria-label="Đóng chi tiết bài học"
               className="p-2 text-on-surface-variant hover:text-on-surface transition-colors flex-shrink-0"
               style={{ background: 'var(--surface-container)' }}
             >
