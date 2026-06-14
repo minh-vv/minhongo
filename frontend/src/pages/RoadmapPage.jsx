@@ -248,7 +248,12 @@ function AiModal({ onClose, onSuccess, userProgress }) {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/50 backdrop-blur-sm">
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/50 backdrop-blur-sm"
+    >
       <div className="bg-surface-container-lowest w-full sm:max-w-xl sharp-shadow overflow-hidden max-h-[95vh] flex flex-col"
         style={{ border: '2px solid var(--primary)' }}>
 
@@ -256,14 +261,17 @@ function AiModal({ onClose, onSuccess, userProgress }) {
         <div className="px-6 pt-6 pb-4 border-b border-outline-variant/30 flex-shrink-0">
           <div className="flex justify-between items-start mb-5">
             <div>
-              <h2 className="text-lg font-headline font-extrabold text-on-surface flex items-center gap-2">
+              <h2 id="modal-title" className="text-lg font-headline font-extrabold text-on-surface flex items-center gap-2">
                 <Sparkles className="w-5 h-5" style={{ color: 'var(--primary)' }} />
                 Tạo lộ trình AI cá nhân
               </h2>
               <p className="text-sm text-on-surface-variant mt-0.5">Sensei AI thiết kế riêng cho bạn</p>
             </div>
-            <button onClick={onClose}
-              className="p-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors">
+             <button
+              onClick={onClose}
+              aria-label="Đóng bảng tạo lộ trình"
+              className="p-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors"
+            >
               <X className="w-5 h-5" />
             </button>
           </div>
@@ -403,9 +411,13 @@ function AiModal({ onClose, onSuccess, userProgress }) {
                     onChange={(e) => setNewTest({ ...newTest, score: e.target.value })}
                     onKeyDown={(e) => e.key === 'Enter' && addTestResult()}
                   />
-                  <button type="button" onClick={addTestResult}
+                   <button
+                    type="button"
+                    onClick={addTestResult}
+                    aria-label="Thêm kết quả bài kiểm tra"
                     className="px-3 py-2 text-white hover:opacity-90 transition-colors"
-                    style={{ background: 'var(--primary)' }}>
+                    style={{ background: 'var(--primary)' }}
+                  >
                     <Plus className="w-4 h-4" />
                   </button>
                 </div>
@@ -419,8 +431,12 @@ function AiModal({ onClose, onSuccess, userProgress }) {
                           {t.score}%
                         </span>
                         <span className="flex-1 text-sm text-on-surface truncate">{t.lessonTitle}</span>
-                        <button type="button" onClick={() => removeTestResult(idx)}
-                          className="text-on-surface-variant hover:text-secondary transition-colors">
+                         <button
+                          type="button"
+                          onClick={() => removeTestResult(idx)}
+                          aria-label="Xóa kết quả này"
+                          className="text-on-surface-variant hover:text-secondary transition-colors"
+                        >
                           <Trash2 className="w-3.5 h-3.5" />
                         </button>
                       </div>

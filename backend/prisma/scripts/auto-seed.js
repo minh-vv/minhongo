@@ -19,6 +19,26 @@ async function main() {
   const prisma = new PrismaClient();
   let needsSync = false;
   try {
+    // 0. Dọn dẹp khóa học trùng lặp từ script cũ (shinkansen-n2-bunpou) nếu tồn tại
+    const duplicateCourse = await prisma.course.findUnique({
+      where: { slug: 'shinkansen-n2-bunpou' }
+    });
+    if (duplicateCourse) {
+      console.log('  🧹 [Cleanup] Phát hiện khóa học dư thừa shinkansen-n2-bunpou. Tiến hành dọn dẹp...');
+      
+      // Xóa khóa học -> cascade xóa Lessons, LessonDecks, LessonTests, v.v.
+      await prisma.course.delete({
+        where: { id: duplicateCourse.id }
+      });
+      console.log('  ✅ [Cleanup] Đã xóa khóa học shinkansen-n2-bunpou.');
+      
+      // Xóa các bộ thẻ dư thừa bắt đầu bằng 'shinkansen-n2-bai-'
+      const deletedDecks = await prisma.deck.deleteMany({
+        where: { id: { startsWith: 'shinkansen-n2-bai-' } }
+      });
+      console.log(`  ✅ [Cleanup] Đã xóa ${deletedDecks.count} bộ thẻ dư thừa.`);
+    }
+
     const courseCount = await prisma.course.count();
     const lessonCount = await prisma.lesson.count();
     const jishoCount = await prisma.deck.count({
