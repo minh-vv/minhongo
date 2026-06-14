@@ -1,43 +1,106 @@
-function SectionHeader({ title }) {
+import { useState, useMemo } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
+import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+import { flashcardApi } from '../api/flashcardApi';
+import { useAuth } from '../hooks/useAuth';
+import { Search, Copy, Layers, ExternalLink, Filter, BookOpen } from 'lucide-react';
+
+// Định nghĩa danh mục
+const CATEGORIES = [
+  { value: 'ALL', label: 'Tất cả' },
+  { value: 'TUHOC', label: 'Tự học', color: 'var(--secondary)' },
+  { value: 'TUVUNG', label: 'Từ vựng', color: '#1565c0' },
+  { value: 'NGUPHAP', label: 'Ngữ pháp', color: '#006064' },
+  { value: 'HANTU', label: 'Hán tự', color: '#b45309' },
+];
+
+const JLPT_LEVELS = [
+  { value: 'ALL', label: 'Tất cả' },
+  { value: 5, label: 'N5' },
+  { value: 4, label: 'N4' },
+  { value: 3, label: 'N3' },
+  { value: 2, label: 'N2' },
+  { value: 1, label: 'N1' },
+];
+
+function SectionHeader({ title, count }) {
   return (
-    <div className="flex items-center gap-3 mb-5">
+    <div className="flex items-center gap-3 mb-6">
       <div className="w-1.5 h-6 flex-shrink-0" style={{ background: 'var(--secondary)' }} />
       <h2 className="text-lg font-headline font-bold text-on-surface" style={{ letterSpacing: '-0.01em' }}>
         {title}
       </h2>
-      <div className="flex-1 h-px ml-1"
+      {count !== undefined && (
+        <span className="px-2 py-0.5 text-xs font-black bg-surface-container text-on-surface-variant">
+          {count}
+        </span>
+      )}
+      <div className="flex-1 h-px ml-1 hidden sm:block"
         style={{ background: 'linear-gradient(to right, rgba(0,0,0,0.08), transparent)' }} />
     </div>
   );
 }
 
-const PLANNED_FEATURES = [
-  {
-    icon: '💬',
-    title: 'Diễn đàn thảo luận',
-    desc: 'Đặt câu hỏi về ngữ pháp, từ vựng và nhận giải đáp từ cộng đồng.',
-  },
-  {
-    icon: '🤝',
-    title: 'Kết bạn học chung',
-    desc: 'Tìm bạn cùng trình độ, học cặp và động viên nhau giữ streak.',
-  },
-  {
-    icon: '🏆',
-    title: 'Sự kiện & Thử thách',
-    desc: 'Tham gia challenge JLPT, đua streak hàng tuần để nhận huy hiệu.',
-  },
-  {
-    icon: '📝',
-    title: 'Chia sẻ bộ thẻ',
-    desc: 'Tải lên bộ flashcard tự tạo, đánh giá và remix bộ thẻ của người khác.',
-  },
-];
-
 export default function CommunityPage() {
-  return (
-    <div className="max-w-5xl mx-auto w-full p-6 md:p-8 space-y-10">
+  const navigate = useNavigate();
+  const queryClient = useQueryClient();
+  const { user, isAuthenticated, openLogin } = useAuth();
+  
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('ALL');
+  const [selectedLevel, setSelectedLevel] = useState('ALL');
 
+  // Lấy danh sách public decks
+  const { data: decks = [], isLoading, error } = useQuery({
+    queryKey: ['publicDecksList'],
+    queryFn: flashcardApi.getPublicDecks,
+  });
+
+  // Mutation để fork deck
+  const forkMutation = useMutation({
+    mutationFn: (deckId) => flashcardApi.cloneDeck(deckId),
+    onSuccess: (data) => {
+      alert(data.message || 'Đã sao chép bộ thẻ vào thư viện cá nhân của bạn!');
+      queryClient.invalidateQueries({ queryKey: ['myDecks'] });
+      navigate(`/deck/${data.deckId}`);
+    },
+    onError: (err) => {
+      console.error(err);
+      alert(err?.response?.data?.message || 'Có lỗi xảy ra khi lưu bộ thẻ.');
+    }
+  });
+
+  // Xử lý khi nhấn nút Lưu về thư viện (Fork)
+  const handleFork = (deckId) => {
+    if (!isAuthenticated) {
+      if (confirm('Vui lòng đăng nhập để lưu bộ thẻ này về thư viện cá nhân của bạn. Đăng nhập ngay?')) {
+        openLogin();
+      }
+      return;
+    }
+    forkMutation.mutate(deckId);
+  };
+
+  // Lọc danh sách decks
+  const filteredDecks = useMemo(() => {
+    return decks.filter((deck) => {
+      const matchesSearch = 
+        deck.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        (deck.description || '').toLowerCase().includes(searchTerm.toLowerCase());
+      
+      const matchesCategory = selectedCategory === 'ALL' || deck.category === selectedCategory;
+      
+      const matchesLevel = 
+        selectedLevel === 'ALL' || 
+        deck.jlptLevel === Number(selectedLevel);
+
+      return matchesSearch && matchesCategory && matchesLevel;
+    });
+  }, [decks, searchTerm, selectedCategory, selectedLevel]);
+
+  return (
+    <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-10">
+      
       {/* ── HERO ────────────────────────────────────────────── */}
       <section className="relative overflow-hidden animate-fade-up" style={{ minHeight: 130 }}>
         <div className="absolute inset-0" style={{
@@ -46,84 +109,224 @@ export default function CommunityPage() {
         <div className="absolute inset-0 asanoha-bg opacity-20" />
         <div className="absolute right-0 top-0 bottom-0 w-1" style={{ background: 'var(--secondary)' }} />
 
-        <div className="relative z-10 p-8 md:p-10">
-          <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4"
-            style={{ backdropFilter: 'blur(4px)' }}>
-            <span className="w-1.5 h-1.5 rotate-45" style={{ background: 'var(--secondary)' }} />
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">
-              Sắp ra mắt
-            </span>
+        <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div>
+            <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4"
+              style={{ backdropFilter: 'blur(4px)' }}>
+              <span className="w-1.5 h-1.5 rotate-45" style={{ background: 'var(--secondary)' }} />
+              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">
+                Chia sẻ & Học hỏi
+              </span>
+            </div>
+            <h1 className="font-headline text-3xl font-bold text-white"
+              style={{ letterSpacing: '-0.02em' }}>
+              Cộng đồng chia sẻ bộ thẻ
+            </h1>
+            <p className="text-white/50 text-sm mt-2 max-w-lg">
+              Nơi giao lưu, chia sẻ các bộ thẻ từ vựng, chữ Hán, ngữ pháp hữu ích từ những người học tiếng Nhật khắp mọi nơi.
+            </p>
           </div>
-          <h1 className="font-headline text-3xl font-bold text-white"
-            style={{ letterSpacing: '-0.02em' }}>
-            Cộng đồng Minhongo
-          </h1>
-          <p className="text-white/50 text-sm mt-2 max-w-lg">
-            Nơi kết nối những người cùng học tiếng Nhật — thảo luận, chia sẻ tài liệu và giữ động lực mỗi ngày.
-          </p>
+
+          <div className="flex gap-3 flex-shrink-0">
+            <div className="text-center bg-white/10 px-5 py-3"
+              style={{ backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.1)' }}>
+              <p className="text-2xl font-black text-white leading-none">
+                {decks.length}
+              </p>
+              <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Bộ thẻ chia sẻ</p>
+            </div>
+          </div>
         </div>
 
         <div className="absolute -right-4 -bottom-4 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none"
-          style={{ fontSize: 160 }}>
-          仲
-        </div>
+          style={{ fontSize: 160 }}>仲</div>
       </section>
 
-      {/* ── COMING SOON CARD ────────────────────────────────── */}
-      <section>
-        <div className="relative bg-surface-container-lowest p-8 md:p-10 text-center overflow-hidden"
-          style={{ border: '1px solid rgba(0,0,0,0.07)' }}>
-          <div className="absolute top-0 left-0 right-0 h-0.5" style={{ background: 'var(--secondary)' }} />
-
-          <div className="w-14 h-14 flex items-center justify-center mb-5 sharp-shadow-sm mx-auto"
-            style={{ background: 'var(--primary)' }}>
-            <svg className="w-7 h-7 text-on-primary" fill="none" stroke="currentColor"
-              strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-              <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
+      {/* ── SEARCH & FILTER TOOLBAR ─────────────────────────── */}
+      <section className="bg-surface-container-lowest p-6 border border-outline-variant/30 sharp-shadow-sm space-y-6">
+        <div className="flex flex-col md:flex-row gap-4 items-center">
+          {/* Ô tìm kiếm */}
+          <div className="relative flex-1 w-full">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-on-surface-variant pointer-events-none" />
+            <input
+              type="text"
+              placeholder="Tìm kiếm bộ thẻ theo tên hoặc mô tả..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="w-full pl-10 pr-4 py-2.5 text-sm bg-surface text-on-surface placeholder:text-on-surface-variant focus:outline-none border border-outline-variant/50 focus:border-secondary transition-colors"
+            />
           </div>
 
-          <h2 className="font-headline text-2xl font-bold text-on-surface mb-2"
-            style={{ letterSpacing: '-0.02em' }}>
-            Tính năng đang được phát triển
-          </h2>
-          <p className="text-on-surface-variant text-sm max-w-md mx-auto leading-relaxed mb-6">
-            Trong thời gian chờ, hãy tham gia Discord để gặp gỡ những người học khác và đề xuất tính năng bạn muốn.
-          </p>
+          {/* Bộ lọc cấp độ JLPT */}
+          <div className="flex items-center gap-2 self-start md:self-auto shrink-0 w-full md:w-auto">
+            <span className="text-xs font-bold uppercase tracking-wider text-on-surface-variant flex items-center gap-1">
+              <Filter className="w-3.5 h-3.5" />
+              Cấp độ JLPT:
+            </span>
+            <div className="flex gap-1 overflow-x-auto no-scrollbar py-1">
+              {JLPT_LEVELS.map((lvl) => (
+                <button
+                  key={lvl.value}
+                  onClick={() => setSelectedLevel(lvl.value)}
+                  className={`px-3 py-1.5 text-xs font-bold transition-all border ${
+                    selectedLevel === lvl.value
+                      ? 'bg-secondary text-white border-secondary'
+                      : 'bg-surface text-on-surface-variant border-outline-variant/30 hover:border-outline-variant'
+                  }`}
+                >
+                  {lvl.label}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
 
-          <a href="https://discord.gg/minhongo" target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-2.5 text-sm font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors"
-            style={{ background: 'var(--secondary)' }}>
-            <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-              <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z" />
-            </svg>
-            Tham gia Discord
-          </a>
+        {/* Folder Tabs cho danh mục */}
+        <div className="flex items-center gap-1 overflow-x-auto no-scrollbar border-b border-outline-variant/30">
+          {CATEGORIES.map((cat) => {
+            const isActive = selectedCategory === cat.value;
+            const count = cat.value === 'ALL'
+              ? decks.length
+              : decks.filter(d => d.category === cat.value).length;
+
+            return (
+              <button
+                key={cat.value}
+                onClick={() => setSelectedCategory(cat.value)}
+                className="flex items-center gap-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wider whitespace-nowrap transition-all shrink-0 border-b-2 -mb-px"
+                style={isActive
+                  ? { color: 'var(--secondary)', borderColor: 'var(--secondary)', background: 'rgba(198,40,40,0.04)' }
+                  : { color: 'var(--on-surface-variant)', borderColor: 'transparent' }
+                }
+              >
+                {cat.label}
+                <span className={`px-1.5 py-px text-[10px] font-black leading-none ${
+                  isActive ? 'bg-secondary text-white' : 'bg-surface-container text-on-surface-variant'
+                }`}>
+                  {count}
+                </span>
+              </button>
+            );
+          })}
         </div>
       </section>
 
-      {/* ── PLANNED FEATURES ────────────────────────────────── */}
+      {/* ── DECKS LIST ──────────────────────────────────────── */}
       <section>
-        <SectionHeader title="Tính năng sắp ra mắt" />
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {PLANNED_FEATURES.map((f) => (
-            <div key={f.title}
-              className="relative bg-surface-container-lowest p-5 overflow-hidden"
-              style={{ border: '1px solid rgba(0,0,0,0.07)' }}>
-              <div className="absolute left-0 top-0 bottom-0 w-1"
-                style={{ background: 'rgba(0,0,0,0.08)' }} />
-              <div className="pl-3">
-                <p className="text-2xl mb-2">{f.icon}</p>
-                <h3 className="font-headline font-bold text-on-surface text-base mb-1.5">
-                  {f.title}
-                </h3>
-                <p className="text-xs text-on-surface-variant leading-relaxed">
-                  {f.desc}
-                </p>
-              </div>
+        <SectionHeader title="Bộ thẻ được cộng đồng chia sẻ" count={filteredDecks.length} />
+
+        {isLoading ? (
+          <div className="flex flex-col items-center justify-center py-20 gap-3">
+            <div className="w-8 h-8 border-2 border-outline-variant border-t-secondary animate-spin rounded-full" />
+            <p className="text-xs text-on-surface-variant font-mono tracking-widest uppercase">Đang tải...</p>
+          </div>
+        ) : error ? (
+          <div className="text-center py-16 bg-surface-container-lowest border border-red-200 text-red-800 p-6">
+            <p className="font-semibold text-sm">Có lỗi xảy ra khi lấy danh sách bộ thẻ.</p>
+            <p className="text-xs mt-1">Vui lòng thử lại sau.</p>
+          </div>
+        ) : filteredDecks.length === 0 ? (
+          <div className="flex flex-col items-center justify-center py-16 px-6 text-center bg-surface-container-lowest border-2 border-dashed border-outline-variant/30">
+            <div className="w-12 h-12 flex items-center justify-center mb-4 bg-slate-100 rounded-full">
+              <Layers className="w-6 h-6 text-on-surface-variant/40" />
             </div>
-          ))}
-        </div>
+            <h3 className="font-bold text-on-surface text-sm mb-1">Không tìm thấy bộ thẻ nào</h3>
+            <p className="text-xs text-on-surface-variant max-w-xs leading-relaxed">
+              Thử tìm kiếm với từ khóa khác hoặc thay đổi bộ lọc danh mục và cấp độ JLPT.
+            </p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filteredDecks.map((deck) => {
+              const isOwn = deck.userId === user?.id;
+              const catObj = CATEGORIES.find(c => c.value === deck.category) || CATEGORIES[1];
+              return (
+                <div
+                  key={deck.id}
+                  className="group relative bg-surface-container-lowest p-6 flex flex-col gap-4 border border-outline-variant/30 transition-all hover:sharp-shadow-sm overflow-hidden"
+                >
+                  {/* Category Border Decorator */}
+                  <div className="absolute top-0 left-0 right-0 h-0.5 opacity-0 group-hover:opacity-100 transition-opacity"
+                    style={{ background: catObj.color || 'var(--secondary)' }} />
+
+                  {/* Header info */}
+                  <div className="flex items-center justify-between text-xs">
+                    <span className="px-2.5 py-0.5 font-bold uppercase tracking-wider text-[10px] rounded"
+                      style={{ background: `${catObj.color || 'var(--secondary)'}15`, color: catObj.color || 'var(--secondary)' }}>
+                      {catObj.label}
+                    </span>
+                    <span className="flex items-center gap-1 font-semibold text-on-surface-variant">
+                      <BookOpen className="w-3.5 h-3.5" />
+                      {deck._count?.cards || 0} thẻ
+                    </span>
+                  </div>
+
+                  {/* Name and Description */}
+                  <div className="flex-1 space-y-1">
+                    <h3 className="font-bold text-on-surface text-base group-hover:text-secondary transition-colors leading-tight line-clamp-1">
+                      {deck.name}
+                    </h3>
+                    {deck.description ? (
+                      <p className="text-on-surface-variant text-xs leading-relaxed line-clamp-2">
+                        {deck.description}
+                      </p>
+                    ) : (
+                      <p className="text-on-surface-variant/40 text-xs italic">Không có mô tả.</p>
+                    )}
+                  </div>
+
+                  {/* Metadata: JLPT, Creator */}
+                  <div className="flex items-center justify-between text-xs border-t border-outline-variant/15 pt-3.5 mt-auto">
+                    <div className="flex flex-col">
+                      <span className="text-[9px] font-bold text-on-surface-variant/50 uppercase tracking-wider">Người chia sẻ</span>
+                      <span className="font-bold text-on-surface truncate max-w-[150px]">
+                        {isOwn ? 'Bạn (Cá nhân)' : (deck.user?.name || 'Thành viên')}
+                      </span>
+                    </div>
+                    {deck.jlptLevel && (
+                      <div className="text-right">
+                        <span className="text-[9px] font-bold text-on-surface-variant/50 uppercase tracking-wider block">Trình độ</span>
+                        <span className="px-2 py-px bg-amber-100 text-amber-900 font-black rounded text-[10px]">
+                          JLPT N{deck.jlptLevel}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Actions */}
+                  <div className="flex gap-2.5 mt-2">
+                    <Link
+                      to={`/deck/${deck.id}`}
+                      className="flex-1 py-2 text-center border border-outline-variant text-on-surface-variant hover:bg-surface-container text-xs font-bold uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
+                    >
+                      <ExternalLink className="w-3.5 h-3.5" />
+                      Học thử
+                    </Link>
+                    
+                    {isOwn ? (
+                      <Link
+                        to={`/deck/${deck.id}`}
+                        className="flex-1 py-2 text-center text-white bg-primary hover:bg-primary-container text-xs font-bold uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
+                      >
+                        Vào xem
+                      </Link>
+                    ) : (
+                      <button
+                        onClick={() => handleFork(deck.id)}
+                        disabled={forkMutation.isPending && forkMutation.variables === deck.id}
+                        className="flex-1 py-2 text-center text-on-secondary hover:bg-secondary-dim disabled:opacity-60 transition-colors text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5"
+                        style={{ background: 'var(--secondary)' }}
+                      >
+                        <Copy className="w-3.5 h-3.5" />
+                        {forkMutation.isPending && forkMutation.variables === deck.id ? 'Đang lưu...' : 'Lưu lại'}
+                      </button>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        )}
       </section>
     </div>
   );

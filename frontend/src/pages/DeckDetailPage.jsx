@@ -7,7 +7,8 @@ import { coursesApi } from '../api/coursesApi';
 import { useAuth } from '../hooks/useAuth';
 import KanjiInteractiveWorkspace from '../components/KanjiInteractiveWorkspace';
 import CollapsibleExample from '../components/CollapsibleExample';
-import { BookOpen, Layers, RefreshCw, HelpCircle, PenTool, CheckSquare, Lock } from 'lucide-react';
+import BulkCardModal from '../components/BulkCardModal';
+import { BookOpen, Layers, RefreshCw, HelpCircle, PenTool, CheckSquare, Lock, Copy } from 'lucide-react';
 
 function speakJapanese(text) {
   if (!window.speechSynthesis) return;
@@ -59,7 +60,7 @@ const getLessonNumber = (name) => {
 
 const JLPT_LEVELS = [5, 4, 3, 2, 1];
 
-function CardModal({ isOpen, onClose, onSave, card }) {
+function CardModal({ isOpen, onClose, onSave, card, deckCategory }) {
   const [formData, setFormData] = useState({
     front: card?.front || '',
     back: card?.back || '',
@@ -75,16 +76,29 @@ function CardModal({ isOpen, onClose, onSave, card }) {
 
   if (!isOpen) return null;
 
+  const isKanji = deckCategory === 'HANTU';
+  const labels = {
+    title: card ? (isKanji ? 'Sửa chữ Hán' : 'Sửa thẻ ghi nhớ') : (isKanji ? 'Thêm chữ Hán mới' : 'Thêm thẻ mới'),
+    front: isKanji ? 'Chữ Hán (mặt trước) *' : 'Tiếng Nhật (mặt trước) *',
+    frontPlaceholder: isKanji ? 'Ví dụ: 日' : 'Ví dụ: こんにちは',
+    back: isKanji ? 'Âm Hán Việt / Nghĩa (mặt sau) *' : 'Nghĩa tiếng Việt (mặt sau) *',
+    backPlaceholder: isKanji ? 'Ví dụ: Nhật, ngày, mặt trời' : 'Ví dụ: Xin chào',
+    romaji: isKanji ? 'Cách đọc Onyomi/Kunyomi' : 'Romaji / Hiragana (cách đọc)',
+    romajiPlaceholder: isKanji ? 'Ví dụ: ニチ, ジツ / ひ, -び' : 'Ví dụ: Konnichiwa / こんにちは',
+    example: isKanji ? 'Từ ghép / Ví dụ' : 'Ví dụ câu',
+    examplePlaceholder: isKanji ? 'Ví dụ: 日本 (にほん): Nhật Bản' : 'Ví dụ: こんにちは！元気ですか？',
+  };
+
   return createPortal(
     <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-up">
       <div className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow p-6 w-full max-w-lg max-h-[90vh] overflow-y-auto">
         <h3 className="font-headline text-lg font-bold text-on-surface mb-4 border-b border-outline-variant/20 pb-2">
-          {card ? 'Sửa thẻ ghi nhớ' : 'Thêm thẻ mới'}
+          {labels.title}
         </h3>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-1">
-              Tiếng Nhật (mặt trước) *
+              {labels.front}
             </label>
             <input
               type="text"
@@ -92,12 +106,12 @@ function CardModal({ isOpen, onClose, onSave, card }) {
               value={formData.front}
               onChange={(e) => setFormData({ ...formData, front: e.target.value })}
               className="w-full px-3 py-2 text-sm bg-surface text-on-surface border border-outline-variant/60 focus:outline-none focus:border-secondary transition-colors"
-              placeholder="Ví dụ: こんにちは"
+              placeholder={labels.frontPlaceholder}
             />
           </div>
           <div>
             <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-1">
-              Nghĩa tiếng Việt (mặt sau) *
+              {labels.back}
             </label>
             <input
               type="text"
@@ -105,31 +119,31 @@ function CardModal({ isOpen, onClose, onSave, card }) {
               value={formData.back}
               onChange={(e) => setFormData({ ...formData, back: e.target.value })}
               className="w-full px-3 py-2 text-sm bg-surface text-on-surface border border-outline-variant/60 focus:outline-none focus:border-secondary transition-colors"
-              placeholder="Ví dụ: Xin chào"
+              placeholder={labels.backPlaceholder}
             />
           </div>
           <div>
             <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-1">
-              Romaji (cách đọc)
+              {labels.romaji}
             </label>
             <input
               type="text"
               value={formData.romaji}
               onChange={(e) => setFormData({ ...formData, romaji: e.target.value })}
               className="w-full px-3 py-2 text-sm bg-surface text-on-surface border border-outline-variant/60 focus:outline-none focus:border-secondary transition-colors"
-              placeholder="Ví dụ: Konnichiwa"
+              placeholder={labels.romajiPlaceholder}
             />
           </div>
           <div>
             <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-1">
-              Ví dụ câu
+              {labels.example}
             </label>
             <textarea
               value={formData.example}
               onChange={(e) => setFormData({ ...formData, example: e.target.value })}
               className="w-full px-3 py-2 text-sm bg-surface text-on-surface border border-outline-variant/60 focus:outline-none focus:border-secondary transition-colors"
               rows={2}
-              placeholder="Ví dụ: こんにちは！元気ですか？"
+              placeholder={labels.examplePlaceholder}
             />
           </div>
           <div>
@@ -256,10 +270,26 @@ export default function DeckDetailPage() {
   const { user } = useAuth();
 
   const [showAddCard, setShowAddCard] = useState(false);
+  const [showBulkAddCard, setShowBulkAddCard] = useState(false);
   const [editingCard, setEditingCard] = useState(null);
   const [showEditDeck, setShowEditDeck] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [activeKanjiCard, setActiveKanjiCard] = useState(null);
+  const [forking, setForking] = useState(false);
+
+  const handleForkDeck = async () => {
+    setForking(true);
+    try {
+      const res = await flashcardApi.cloneDeck(deckId);
+      alert(res.message || 'Đã sao chép bộ thẻ thành công!');
+      navigate(`/deck/${res.deckId}`);
+    } catch (err) {
+      console.error(err);
+      alert(err?.response?.data?.message || 'Có lỗi xảy ra khi sao chép bộ thẻ.');
+    } finally {
+      setForking(false);
+    }
+  };
 
   // Lấy thông tin deck
   const { data: deck, isLoading } = useQuery({
@@ -413,9 +443,7 @@ export default function DeckDetailPage() {
   // Quyền chỉnh sửa
   const isOwner = deck?.userId === user?.id;
   const isAdmin = user?.isAdmin ?? false;
-  const isCuratedDeck =
-    deck?.isPublic ||
-    ['HANTU', 'TUVUNG', 'NGUPHAP'].includes(deck?.category);
+  const isCuratedDeck = ['HANTU', 'TUVUNG', 'NGUPHAP'].includes(deck?.category);
   const getParentPath = () => {
     if (!deck) return '/dashboard';
     
@@ -436,7 +464,7 @@ export default function DeckDetailPage() {
     }
 
     // Curated non-textbook category
-    const isCuratedDeck = deck.isPublic || ['HANTU', 'TUVUNG', 'NGUPHAP'].includes(deck.category);
+    const isCuratedDeck = ['HANTU', 'TUVUNG', 'NGUPHAP'].includes(deck.category);
     if (isCuratedDeck) {
       return basePath;
     }
@@ -482,6 +510,18 @@ export default function DeckDetailPage() {
               >
                 Bài {getLessonNumber(nextDeck.name) !== 999 ? getLessonNumber(nextDeck.name) : nextDeck.name} →
               </Link>
+            )}
+
+            {!isOwner && deck.isPublic && (
+              <button
+                onClick={handleForkDeck}
+                disabled={forking}
+                className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim disabled:opacity-60 transition-colors flex items-center gap-1.5 shadow-sm rounded"
+                style={{ background: 'var(--secondary)' }}
+              >
+                <Copy className="w-3.5 h-3.5" />
+                {forking ? 'Đang lưu...' : 'Lưu về thư viện'}
+              </button>
             )}
 
             {canModify && (
@@ -639,16 +679,27 @@ export default function DeckDetailPage() {
             />
           </div>
           {canModify && (
-            <button
-              onClick={() => setShowAddCard(true)}
-              className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors flex items-center gap-1.5 shrink-0 rounded"
-              style={{ background: 'var(--secondary)' }}
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
-              </svg>
-              Thêm thẻ
-            </button>
+            <>
+              <button
+                onClick={() => setShowBulkAddCard(true)}
+                className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-on-surface bg-surface-container hover:bg-surface-container-high border border-outline-variant/40 transition-colors flex items-center gap-1.5 shrink-0 rounded"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 10h18M3 14h18m-9-6v12" />
+                </svg>
+                Thêm hàng loạt
+              </button>
+              <button
+                onClick={() => setShowAddCard(true)}
+                className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors flex items-center gap-1.5 shrink-0 rounded"
+                style={{ background: 'var(--secondary)' }}
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
+                </svg>
+                Thêm thẻ
+              </button>
+            </>
           )}
         </div>
       </div>
@@ -826,6 +877,21 @@ export default function DeckDetailPage() {
           onClose={() => setShowAddCard(false)}
           onSave={createCardMutation.mutate}
           deckId={deckId}
+          deckCategory={deck?.category}
+        />
+      )}
+
+      {showBulkAddCard && (
+        <BulkCardModal
+          isOpen={showBulkAddCard}
+          onClose={() => setShowBulkAddCard(false)}
+          onSuccess={() => {
+            setShowBulkAddCard(false);
+            queryClient.invalidateQueries({ queryKey: ['deck', deckId] });
+            queryClient.invalidateQueries({ queryKey: ['deckStats', deckId] });
+          }}
+          deckId={deckId}
+          deckCategory={deck?.category}
         />
       )}
 
@@ -836,6 +902,7 @@ export default function DeckDetailPage() {
           onSave={(data) => updateCardMutation.mutate({ cardId: editingCard.id, data })}
           card={editingCard}
           deckId={deckId}
+          deckCategory={deck?.category}
         />
       )}
 

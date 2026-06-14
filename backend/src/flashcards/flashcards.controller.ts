@@ -262,6 +262,21 @@ export class FlashcardsController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @Post(':deckId/cards/bulk')
+  createCardsBulk(
+    @Param('deckId') deckId: string,
+    @Request() req: RequestWithUser,
+    @Body('cards') cards: CreateCardDto[],
+  ) {
+    return this.flashcardsService.createCardsBulk(
+      deckId,
+      req.user.id,
+      cards,
+      req.user.isAdmin,
+    );
+  }
+
+  @UseGuards(JwtAuthGuard)
   @Get(':deckId/due')
   getDueCards(
     @Param('deckId') deckId: string,
