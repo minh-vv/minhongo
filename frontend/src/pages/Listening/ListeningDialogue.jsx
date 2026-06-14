@@ -10,7 +10,8 @@ export default function ListeningDialogue() {
   const [showDiagJa, setShowDiagJa] = useState(true);
   const [showDiagRomaji, setShowDiagRomaji] = useState(true);
   const [showDiagVi, setShowDiagVi] = useState(true);
-  
+  const [levelFilter, setLevelFilter] = useState('ALL');
+
   const [speechRate, setSpeechRate] = useState(1.0); // 0.5, 0.8, 1.0
   const [isPlayingAll, setIsPlayingAll] = useState(false);
   const [currentLineIndex, setCurrentLineIndex] = useState(-1);
@@ -156,11 +157,29 @@ export default function ListeningDialogue() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         {/* Sidebar list dialogues */}
         <div className="lg:col-span-4 space-y-4">
-          <h2 className="text-xs font-bold uppercase tracking-widest text-on-surface-variant flex items-center gap-1.5">
-            <BookOpen className="w-4 h-4" /> Danh sách hội thoại
-          </h2>
-          <div className="space-y-3.5">
-            {DIALOGUES.map(diag => (
+          <div className="flex items-center justify-between">
+            <h2 className="text-xs font-bold uppercase tracking-widest text-on-surface-variant flex items-center gap-1.5">
+              <BookOpen className="w-4 h-4" /> Danh sách hội thoại
+            </h2>
+          </div>
+          {/* Level filter tabs */}
+          <div className="flex flex-wrap gap-1 bg-surface-container p-1 border border-outline-variant/40">
+            {['ALL', 'N5', 'N4', 'N2'].map(lvl => (
+              <button
+                key={lvl}
+                onClick={() => setLevelFilter(lvl)}
+                className={`px-3 py-1.5 text-xs font-bold transition-all ${
+                  levelFilter === lvl
+                    ? 'bg-secondary text-white'
+                    : 'text-on-surface-variant hover:text-on-surface'
+                }`}
+              >
+                {lvl === 'ALL' ? 'Tất cả' : lvl}
+              </button>
+            ))}
+          </div>
+          <div className="space-y-3.5 max-h-[70vh] overflow-y-auto pr-1 no-scrollbar">
+            {DIALOGUES.filter(d => levelFilter === 'ALL' || d.level === levelFilter).map(diag => (
               <button
                 key={diag.id}
                 onClick={() => setActiveDiag(diag)}
@@ -172,7 +191,10 @@ export default function ListeningDialogue() {
               >
                 <div className="flex justify-between items-start mb-2">
                   <span className={`px-2 py-0.5 text-[9px] font-bold ${
-                    diag.level === 'N5' ? 'bg-blue-100 text-blue-800' : 'bg-orange-100 text-orange-800'
+                    diag.level === 'N5' ? 'bg-blue-100 text-blue-800' :
+                    diag.level === 'N4' ? 'bg-orange-100 text-orange-800' :
+                    diag.level === 'N2' ? 'bg-red-100 text-red-800' :
+                    'bg-purple-100 text-purple-800'
                   }`}>
                     {diag.level}
                   </span>
@@ -180,7 +202,7 @@ export default function ListeningDialogue() {
                     {diag.lines.length} câu thoại
                   </span>
                 </div>
-                <h3 className="font-headline font-bold text-on-surface text-base line-clamp-1">
+                <h3 className="font-headline font-bold text-on-surface text-sm line-clamp-2">
                   {diag.title}
                 </h3>
                 <p className="text-xs text-on-surface-variant leading-relaxed mt-1 line-clamp-2">
@@ -196,7 +218,7 @@ export default function ListeningDialogue() {
           <div className="bg-surface-container-lowest border border-outline-variant/30 p-6 sharp-shadow relative">
             
             {/* Dialogue Actions Header */}
-            <div className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-outline-variant/20 mb-6">
+            <div className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-outline-variant/20 mb-4">
               <div>
                 <h2 className="font-headline text-lg font-black text-on-surface flex items-center gap-2">
                   {activeDiag.title}
@@ -263,6 +285,30 @@ export default function ListeningDialogue() {
                 </button>
               </div>
             </div>
+
+            {/* Context info for N2 exercises */}
+            {activeDiag.context && (
+              <div className="mb-4 p-3 bg-amber-50 border border-amber-200 text-xs rounded">
+                <span className="font-bold text-amber-800">Ngữ cảnh: </span>
+                <span className="text-amber-900 font-jp">{activeDiag.context}</span>
+                {activeDiag.contextVi && (
+                  <span className="text-amber-700 ml-1">({activeDiag.contextVi})</span>
+                )}
+              </div>
+            )}
+
+            {/* Audio player for N2 exercises */}
+            {activeDiag.audioSrc && (
+              <div className="mb-4 p-3 bg-surface-container border border-outline-variant/30 flex items-center gap-3">
+                <Volume2 className="w-4 h-4 text-secondary flex-shrink-0" />
+                <div className="flex-1">
+                  <p className="text-[10px] text-on-surface-variant uppercase tracking-wider mb-1">Audio gốc JLPT N2</p>
+                  <audio controls preload="none" className="w-full h-8" style={{height: 32}}>
+                    <source src={activeDiag.audioSrc} type="audio/mpeg" />
+                  </audio>
+                </div>
+              </div>
+            )}
 
             {/* Chat layout dialogue */}
             <div className="space-y-4 max-h-[420px] overflow-y-auto pr-2 no-scrollbar mb-8">

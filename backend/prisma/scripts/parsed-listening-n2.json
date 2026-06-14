@@ -1,0 +1,4133 @@
+[
+  {
+    "id": "n2-bai-1-3-1",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "１番",
+    "context": "兄と妹がケーキ屋でケーキを選んでいます。",
+    "contextVi": "Anh trai và em gái đang lựa bánh kem ở cửa hàng bánh kem.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_09.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "美味しそうなケーキがたくさんある。",
+        "translation": "Có nhiều bánh kem thấy ngon quá ha."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "俺、この四角いかぼちゃのケーキが食べたいな。",
+        "translation": "Anh thì muốn ăn cái bánh kem quả bí ngô hình vuông này nè."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "ちょっと、お兄ちゃん、今回はお母さんのバースデーケーキでしょ。",
+        "translation": "Này anh ơi, lần này là bánh kem sinh nhật của mẹ mà."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "お母さんはチョコレートが好きだから、この丸いケーキがいいよ。",
+        "translation": "Mẹ rất thích sô cô la, nên cái bánh kem tròn này là được đó."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "えぇ―、私はこの可愛いイチゴのケーキがいいわ。",
+        "translation": "Sao? Em thì thấy cái bánh kem dâu dễ thương này là được hơn."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "でも、お母さんダイエット中だろ。",
+        "translation": "Nhưng mà mẹ đang ăn kiêng mà."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "じゃあ、どうする？",
+        "translation": "Vậy thì sẽ làm sao đây?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "この一口サイズのロールケーキにする？",
+        "translation": "Mình chọn cái bánh kem cuộn bé xíu này nhé?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "でもパースデーケーキが一口サイズじゃね…。",
+        "translation": "Nhưng mà bánh sinh nhật mà mua cái bé xíu thì hơi…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうだね。",
+        "translation": "Ừ nhỉ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "だからさっきの野菜のケーキがいいって言ったじゃん。",
+        "translation": "Bởi vậy chẳng phải anh đã nói cái bánh kem rau củ lúc nãy là được rồi sao."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "う～ん…。じゃあ、あれにしよう。",
+        "translation": "Ừ…m, vậy mình sẽ chọn cái kia."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "妹はどのケーキを買いますか。",
+        "translation": "Em gái sẽ mua chiếc bánh kem như thế nào?"
+      }
+    ],
+    "question": {
+      "question": "妹はどのケーキを買いますか。",
+      "questionVi": "Em gái sẽ mua chiếc bánh kem như thế nào?",
+      "options": [
+        "四角いケーキ",
+        "丸いケーキ",
+        "可愛いイチゴのケーキ",
+        "ロールケーキ"
+      ],
+      "optionsVi": [
+        "Bánh kem hình vuông",
+        "Bánh kem hình tròn",
+        "Bánh kem dâu dễ thương",
+        "Bánh kem cuộn"
+      ],
+      "answerIndex": 0,
+      "explanation": "● 一口サイズ ＝小さいサイズ。 例 コンビニでは、一口サイズのチョコが売れています。 ● 言ったじゃん。 「言ったじゃん」 は 「言ったじゃないか」 の会話的な表現。"
+    }
+  },
+  {
+    "id": "n2-bai-1-3-2",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "２番",
+    "context": "夫と妻が新居のリビングのカーテンについて話しています。",
+    "contextVi": "Người chồng và người vợ đang nói chuyện về bức rèm trong phòng khách ngôi nhà mới.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_10.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "今、店に電話してカーテン頼んでおいたよ。",
+        "translation": "Giờ thì anh đã điện thoại đến cửa hàng, nhờ người ta làm dùm mình bức rèm cửa rồi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "あれでいいよね？",
+        "translation": "Cái kia được chứ?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "あれって、無地のカーテン？",
+        "translation": "Cái kia là bức rèm trơn hả?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それとも縞模様のカーテン？",
+        "translation": "Hay là bức rèm có sọc?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "僕の好きな縞模様にしちゃったけど。",
+        "translation": "Anh đã chọn bức rèm sọc mà anh thích rồi."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "えっ！そうなんだ。",
+        "translation": "Hả? Vậy sao?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "素敵だったけど、値段は無地の２倍よ。",
+        "translation": "Đẹp thì có đẹp nhưng nó đắt gấp đôi cái rèm trơn lận."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "えっ、２倍かぁ。",
+        "translation": "Hả? Gấp đôi hả?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "模様によって値段が違うのか。",
+        "translation": "Giá cả khác nhau tùy vào họa tiết à?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "花柄だったら無地よりちょっと高いし、水玉模様は無地より安かったでしょ。",
+        "translation": "Loại văn hoa thì đắt hơn loại trơn một chút, còn loại chấm bi thì rẻ hơn loại trơn."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "今回は一番安いのでがまんしようか。",
+        "translation": "Vì là loại rẻ nhất, nên lần này mình chịu vậy nha?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そうだったな、しょうがない。節約しよう。",
+        "translation": "Ừm, phải chịu vậy thôi. Mình tiết kiệm đi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "どのようなカーテンに決まりましたか。",
+        "translation": "Đã quyết định chọn bức rèm như thế nào?"
+      }
+    ],
+    "question": {
+      "question": "どのようなカーテンに決まりましたか。",
+      "questionVi": "Đã quyết định chọn bức rèm như thế nào?",
+      "options": [
+        "縞模様",
+        "花柄模様",
+        "水玉模様",
+        "無地"
+      ],
+      "optionsVi": [
+        "Loại sọc",
+        "Loại văn hoa",
+        "Loại chấm bi",
+        "Loại trơn"
+      ],
+      "answerIndex": 2,
+      "explanation": "● 模様 によって値段が違うのか。 ＝模様が違うと、値段も違うのか。 例 日本語でも、地域 によって発音が違います。"
+    }
+  },
+  {
+    "id": "n2-bai-1-3-3",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "３番",
+    "context": "友人の結婚のお祝い品を選んでいます。",
+    "contextVi": "Đang lựa chọn quà mừng cưới cho người bạn.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_11.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "結婚祝いは、実用的なものがいいんじゃない。",
+        "translation": "Quà mừng đám cưới thì nên mua những thứ thực dụng."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "皿とか、グラスとかは？",
+        "translation": "Như dĩa hay ly tách thì sao nhỉ?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "でも、結婚のお祝いには、「割れる」「切れる」を連想させる物は避けたほうがいいって聞いたけど。",
+        "translation": "Nhưng mà tớ nghe nói là quà mừng cưới thì nên tránh những thứ khiến người ta liên tưởng đến \"đổ vỡ\", \"chia cắt\"."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "へぇ、そうなんだ。",
+        "translation": "À, vậy hả."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "でも、あいつワイングラスのセット欲しがってたよ。",
+        "translation": "Nhưng nó ao ước có bộ ly rượu vang mà."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "本人の希望なら大丈夫だね。",
+        "translation": "Nếu đó là mong muốn của người đó thì không sao."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "じゃ、それとワインでいいかもね。",
+        "translation": "Vậy chắc có lẽ nên mua kèm với rượu vang nhỉ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "それだと予算オーバーだから。",
+        "translation": "Nếu mua cái đó thì sẽ vượt ngân sách."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "予算ないなら、２人の写真を入れる写真立てはどうかな？",
+        "translation": "Nếu không có ngân sách thì mua khung ảnh để ảnh của hai người nha, cậu thấy sao?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "写真立てはよくもらうんじゃないか。",
+        "translation": "Khung ảnh chẳng phải sẽ nhận nhiều rồi sao?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "じゃ、ワインは自分で買ってもらうことにして、やっぱ初めのやつにしよう。",
+        "translation": "Thế thì rượu vang để nó tự mua đi, vậy mình chọn món ban đầu đi."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうね。そうしよう。",
+        "translation": "Ừm, quyết định vậy đi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "２人は何を買いましたか。",
+        "translation": "Hai người đã mua cái gì?"
+      }
+    ],
+    "question": {
+      "question": "２人は何を買いましたか。",
+      "questionVi": "Hai người đã mua cái gì?",
+      "options": [
+        "皿とワイングラス",
+        "ワイングラスセット",
+        "写真立てとワイングラスセット",
+        "ワイングラスとワイン"
+      ],
+      "optionsVi": [
+        "Dĩa và ly rượu vang",
+        "Bộ ly rượu vang",
+        "Khung ảnh và bộ ly rượu vang",
+        "Ly rượu vang và rượu vang"
+      ],
+      "answerIndex": 1,
+      "explanation": "● 皿 とか、グラス とかは？ ＝皿やグラスなどはどうですか。 例 昼食はレストランで食べる とかお弁当を買う とかしています。 ● 避け た方がいい 「～た方がいい」」は相手に対して忠告やアドバイスをする時に使う。 例 「薬を飲んでも治らないなら、病院へ行っ た方がいいよ」 ● あいつワイングラスのセット欲しがってたよ。 「あいつ」は「あの人・彼・彼女」などのくだけた言い方。 ＝彼はワイングラスのセット欲しがってたよ。 ● やっぱ初めのやつにしよう。 「やっぱ」若者の会話的なくだけた言い方。 ＝やっぱり初めの物にしよう。"
+    }
+  },
+  {
+    "id": "n2-bai-1-3-4",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "４番",
+    "context": "妹が姉に悩みを相談しています。",
+    "contextVi": "Người em gái đang trao đổi với người chị về nỗi lo của mình.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_12.mp3",
+    "lines": [
+      {
+        "speaker": "",
+        "name": "",
+        "text": "Ｆ１（妹）：お姉ちゃん、ちょっと相談に乗ってもらいたいことがあるんだけどさ…。",
+        "translation": "Chị ơi, em có chuyện muốn được trao đổi một chút với chị…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "Ｆ２（姉）：へ―、珍しいじゃん。何？",
+        "translation": "À, chuyện hiếm thấy à nha. Chuyện gì thế?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "実はさ…、サークルの男子から付き合ってほしいって、言われちゃってさ、来週返事をしなくちゃいけないんだ。",
+        "translation": "Thiệt ra là em được một anh chàng trong câu lạc bộ thể thao nói rằng muốn làm quen với em, và tuần sau em phải trả lời anh ấy."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "でも、「ごめんなさい」って感じで…。",
+        "translation": "Nhưng em lại có cảm giác muốn nói \"Em xin lỗi\"…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "え―、どうして？",
+        "translation": "Ủa, sao vậy?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "せっかく告白されたのに？",
+        "translation": "Người ta đã cất công tỏ tình thế mà?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "だって、タイプじゃないっていうか…。",
+        "translation": "Vì đó không phải mẫu người em thích…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "でも、断って気まずくなるのは…。",
+        "translation": "Nhưng mà từ chối thì em cảm thấy áy náy sao sao ấy…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "だけど…、やっぱ、正直に言うしかないんじゃない？",
+        "translation": "Tuy nhiên…, vậy rốt cục chỉ còn cách nói thẳng, không còn cách nào hết sao?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "でもね、そいつ傷つきやすそうだからさ、サークルやめちゃったりしたら、こっちもめちゃ気分悪いし…。",
+        "translation": "Nhưng mà, anh chàng đó có vẻ dễ tổn thương, nên nếu nghỉ ở câu lạc bộ thì em cũng cảm thấy rất không vui…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "あるかもね。じゃあ、ちょっとの間付き合ってみたら？",
+        "translation": "Cũng có thể như vậy lắm. Vậy hay là em thử quen với nó một thời gian xem sao?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それで、いやだったら、別れればいいじゃん？",
+        "translation": "Sau đó, nếu không thích thì em chia tay cũng được mà?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "そしたら、その人も納得すんじゃない。",
+        "translation": "Làm vậy thì người ta cũng bằng lòng mà."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "でも…あたし、実は好きな先輩がいるから…そんなことしたら…。",
+        "translation": "Nhưng mà… thực ra em đang thích một anh… nếu em làm vậy…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "じゃあ、やっぱり、ほかに手はないでしょ。",
+        "translation": "Vậy rốt cục chắc không còn cách nào khác rồi."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうだよね…それしかないよね。",
+        "translation": "Đúng vậy ạ… Chỉ còn cách đó thôi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "来週、妹はどうしますか。",
+        "translation": "Tuần tới, người em sẽ làm như thế nào?"
+      }
+    ],
+    "question": {
+      "question": "来週、妹はどうしますか。",
+      "questionVi": "Tuần tới, người em sẽ làm như thế nào?",
+      "options": [
+        "サークルの男子に「付き合わない」と言う",
+        "サークルをやめて、先輩と付き合う",
+        "先輩に「付き合いたい」と告白する",
+        "サークルの男子に「付き合う」と言う"
+      ],
+      "optionsVi": [
+        "Nói với anh chàng trong câu lạc bộ là \"Em không quen\"",
+        "Nghỉ ở câu lạc bộ, và quen với người đàn anh",
+        "Tỏ tình với người đàn anh là \"Em muốn quen anh\"",
+        "Nói với anh chàng ở trong câu lạc bộ là \"Em sẽ quen\""
+      ],
+      "answerIndex": 0,
+      "explanation": "● ちょっと 相談に乗ってもらいたいことがあるんだけどさ…。 ＝相談を聞いて意見を言ってもらいたいことがあるんですが。 ● 珍しい じゃん。 「～じゃん」 は、「～ですね」 のくだけた言い方。 ＝珍しいですね。 例 A： このレストラン、おいしい じゃん。 B： うん、なかなかいい じゃん。 ● 付き合ってほしい ＝恋人になってほしい ● 「 ごめんなさい」 って感じで…。 「ごめんなさい」 は、「付き合ってほしい」 と告白された時に、断る時の表現。 ＝「ごめんなさい、付き合えません」という気持ちだ。 ● タイプじゃない っていうか…。 「～っていうか」 は、もっと適当な表現を探すときの表現。"
+    }
+  },
+  {
+    "id": "n2-bai-1-3-5",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "５番",
+    "context": "伯父と姪が、電話で義理の伯母の病気について話しています。",
+    "contextVi": "Người chú và cháu gái đang nói chuyện về căn bệnh của người cô nuôi qua điện thoại.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_13.mp3",
+    "lines": [
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "もしもし、おじさん、かおりです。",
+        "translation": "A lô, chú ơi, con là Kaori đây ạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "ああ、かおりちゃん、久しぶりですね。",
+        "translation": "À, Kaori à, lâu rồi không liên lạc."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "はい、ごぶさたしちゃって、すみません。",
+        "translation": "Dạ, cũng lâu rồi không liên lạc, con xin lỗi ạ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "昨日、母からおばさんが入院って聞いたんですが、お加減いかがですか。",
+        "translation": "Hôm qua con nghe mẹ con nói là cô nhập viện, sức khỏe cô thế nào rồi ạ?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "うん、まあ、盲腸だからね…大したことはないんだよ。",
+        "translation": "Ừm, cô bị đau ruột thừa con à… không có gì nghiêm trọng đâu con."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "手術も無事終わったし、経過も良好だし、１週間くらいで退院できるって。",
+        "translation": "Phẫu thuật thành công tốt đẹp, tiến triển cũng tốt, khoảng chừng 1 tuần là có thể xuất viện rồi."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうですか。よかった。",
+        "translation": "Vậy hả chú? May quá."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "明日ちょっと病院へ行きたいと思うんですけど…",
+        "translation": "Ngày mai con muốn đến bệnh viện một chút…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "もう何でも食べられるかな。",
+        "translation": "Không biết cô đã có thể ăn được chưa chú?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それとも、お花なんかがいいかなぁ？",
+        "translation": "Hay là con mua hoa được không chú?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "いやぁ、すまないね…行ってやってくれたら喜ぶよ。",
+        "translation": "Thôi, phiền con lắm… Con đến thăm là chú vui rồi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "でも、何も持って来なくていいからね。",
+        "translation": "Mà nè, không cần mang thứ gì theo đó nghen."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "まだ流動食だし…。",
+        "translation": "Vì cô vẫn còn phải ăn thức ăn lỏng…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それに、お花なんかもたくさんもらってるから。",
+        "translation": "Vả lại hoa thì chú cũng nhận nhiều rồi con à."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうなんだ…。でも…なんか…。",
+        "translation": "Dạ… nhưng mà con thấy có gì đó hơi…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "そうだ、おばさん読書家でしたよね。",
+        "translation": "À phải rồi, cô thích đọc sách phải không chú."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "なんか新作の面白そうなのにします。",
+        "translation": "Vậy con sẽ mua cuốn nào hay hay mà mới ra nha chú."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そうかい。悪いねぇ。",
+        "translation": "Vậy à, phiền con quá à."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "じゃあ、よろしくお願いするよ。",
+        "translation": "Vậy chú nhờ con nhé."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "明日、姪はどうしますか。",
+        "translation": "Ngày mai người cháu gái sẽ làm như thế nào?"
+      }
+    ],
+    "question": {
+      "question": "明日、姪はどうしますか。",
+      "questionVi": "Ngày mai người cháu gái sẽ làm như thế nào?",
+      "options": [
+        "何も持たずにお見舞いに行って楽しい話をする",
+        "果物と花を買ってお見舞いに行く",
+        "新発売のゲームを買ってお見舞いに行く",
+        "最近出版された本を持ってお見舞いに行く"
+      ],
+      "optionsVi": [
+        "Đến thăm mà không mang theo thứ gì, và kể câu chuyện vui",
+        "Mua hoa và trái cây để đi thăm",
+        "Mua trò chơi vừa mới phát hành để đi thăm",
+        "Mua cuốn sách vừa được xuất bản gần đây để đi thăm"
+      ],
+      "answerIndex": 3,
+      "explanation": "● ごぶさたしちゃって、すみません。 長い間連絡していなかった相手に謝る表現。 例 「 ごぶさたしておりますが、お変わりありませんか」 ● お加減いかがですか。 相手の体の具合を尋ねる時の表現。 ＝お体の具合は、いかがですか。 例 「最近、顔色がよくありませんね。どこか、 お加減が悪いのではありませんか」 ● 大したことはないんだよ。 ＝そんなに大変な状態ではありません。 例 A：怪我をしたんだって？ B：指をちょっと切っただけで、 大したことはないよ。 ● 経過も良好だし、 問題なくとてもよく進んでいることを表す表現。 例 A：プロジェクトは進んでる？ Ｂ：ええ。今のところ 経過も良好です。"
+    }
+  },
+  {
+    "id": "n2-bai-1-3-6",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "６番",
+    "context": "女の人の男の人が来春の新入社員研修について話しています。",
+    "contextVi": "Người đàn ông và người phụ nữ đang nói chuyện về huấn luyện nhân viên mới mùa xuân năm sau.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_14.mp3",
+    "lines": [
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "また来年度の研修を企画しなきゃいけない時期が来たから、研修希望を各部に聞いておいてくださいね。",
+        "translation": "Lại đến giai đoạn phải lên kế hoạch huấn luyện cho năm sau rồi, hãy hỏi từng phòng ban trước về nguyện vọng huấn luyện nhé"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "はい。もうそんな時期ですか。",
+        "translation": "Dạ, đã tới giai đoạn đó rồi à?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "１年がたつのはあっという間ですね。",
+        "translation": "Mới đó mà một năm đã trôi qua rồi nhỉ."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "これが今年やった内容ね。",
+        "translation": "Đây là nội dung mình đã làm trong năm nay phải không?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "はい、大体各部門の希望に沿って内容を決めたんですけど、やってみると評判のいいのも悪いのもあって…。",
+        "translation": "Dạ, tôi đã quyết định nội dung dựa trên nguyện vọng của đa số các phòng ban, nhưng khi làm thử thì cũng có đánh giá tốt lẫn đánh giá xấu ạ…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "受講者の評判が良かったのはどれ？",
+        "translation": "Cái nào là đánh giá tốt của người được huấn luyện?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "はい、この新規事業プロジェクトのケース・スタディーが評判でした。",
+        "translation": "Dạ, case-study (nghiên cứu dựa trên đối tượng và hoàn cảnh cụ thể\" của dự án hoạt động kinh doanh mới này được đánh giá tốt ạ."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうね、やっぱりケース・スタディーはおもしろいですよね。",
+        "translation": "Ừm, rốt cục thì case-study vẫn là cái hay nhỉ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "一番評判悪かったのは？",
+        "translation": "Thế cái nào bị đánh giá tệ nhất?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "はい、聞いたところでは各部の部長のお話がどうも…。",
+        "translation": "Dạ, theo những gì tôi thu thập được thì trưởng phòng ở mỗi phòng ban nói chuyện hơi… ạ."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうですか…。やっぱり…。",
+        "translation": "Vậy à… Đúng như tôi nghĩ…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "じゃ、さっそくお願いします。",
+        "translation": "Vậy nhờ anh làm nhanh nhanh nhé."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "結果がまとまったら報告して。",
+        "translation": "Sau khi thu thập kết quả xong thì báo cáo cho tôi nhé."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "はい。",
+        "translation": "Dạ vâng."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "男の人はこのあとすぐ、何をしなければなりませんか。",
+        "translation": "Người đàn ông ngay sau đây sẽ phải làm gì?"
+      }
+    ],
+    "question": {
+      "question": "男の人はこのあとすぐ、何をしなければなりませんか。",
+      "questionVi": "Người đàn ông ngay sau đây sẽ phải làm gì?",
+      "options": [
+        "今年の研修の結果を報告書にまとめる",
+        "今年の新入社員に何が良かったか聞く",
+        "来年もプロジェクトの話をしてくれる部門をさがす",
+        "各部門に来年の研修の希望を聞く"
+      ],
+      "optionsVi": [
+        "Tập hợp kết quả huấn luyện trong năm nay vào trong bản báo cáo",
+        "Hỏi nhân viên mới trong năm nay xem cái nào tốt",
+        "Tìm phòng ban nói về dự án năm tới",
+        "Hỏi từng phòng ban về nguyện vọng huấn luyện trong năm tới"
+      ],
+      "answerIndex": 3,
+      "explanation": "● また来年の研修を企画し なきゃいけない時期が来たから、 ＝また来年の研修を計画しなければいけない時期が来たので、 例 「明日は雨が降っても大事なイベントだから、行か なきゃ」 ● １年がたつのは あっという間ですね。 ＝１年がたつのは本当に早いですね。 例 「あの会社は あっという間に年間１００億円も売り上げる会社になったね」 ● そうですか…。やっぱり…。 ＝そうですか…。思っていた通りですね。 例 A：今年も夏は地球温暖化で、猛暑になるらしいよ。 B： そうですか…。 やっぱり…。だから涼しいところへの旅行の予約が多いんだね。"
+    }
+  },
+  {
+    "id": "n2-bai-1-3-7",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "７番",
+    "context": "部長と女の人が明日のC社との会議について話しています。",
+    "contextVi": "Trưởng phòng và người phụ nữ đang nói chuyện về cuộc họp với công ty C vào ngày mai.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_15.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "張さん、ちょっといい？",
+        "translation": "Chị Chan này, phiền chị một chút được không?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "はい、部長。なんでしょうか。",
+        "translation": "Dạ được thưa trưởng phòng. Chuyện gì vậy ạ?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "中国から上海食品の社長がお見えになるのは、来週だったね。",
+        "translation": "Tuần sau giám đốc công ty thực phẩm Thượng Hải từ Trung Quốc sẽ sang đây phải không?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "はい、月曜の１１時ということで、役員会議室も押さえてあります。",
+        "translation": "Dạ phải, cuộc họp ban quản trị cũng đã được ấn định là 11 giờ ngày thứ hai ạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "その会議なんだが、前回は通訳任せにしたんだが、こちらの言いたいことのニュアンスがね、相手によく伝わっていないように感じたんだよ。",
+        "translation": "Cuộc họp đó, lần trước tôi đã phó mặc cho thông dịch viên, nhưng tôi có cảm giác là họ không truyền tải hết cho đối phương hiểu những điều tôi muốn nói."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうですか、大事な商談でそれでは心配ですね。",
+        "translation": "Vậy hả sếp, bởi vậy mà sếp lo trong buổi đàm phán quan trọng phải không ạ?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そうなんだよ。",
+        "translation": "Đúng vậy."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "そこで頼みなんだが、今度の会議では 張 さん、通訳をやってもらえないかな。",
+        "translation": "Bởi thế tôi mới nhờ chị, không biết chị Chan có thể giúp tôi thông dịch trong cuộc họp lần này không vậy?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "はい、承知いたしました。",
+        "translation": "Vâng, rõ rồi ạ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "言葉は中国語と日本語ですよね。",
+        "translation": "Ngôn ngữ là tiếng Trung Quốc và tiếng Nhật phải không sếp."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "英語はちょっと自信がありませんので。",
+        "translation": "Tại vì tiếng Anh thì em không tự tin chút đỉnh ạ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "前回は会議の議事録を書きましたが、通訳をするんでしたら、そちらの方はどなたかに…。",
+        "translation": "Cuộc họp lần trước em đã viết biên bản buổi họp rồi, nếu thông dịch thì em sẽ đưa cái đó cho ai…"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "うん、そうだね。じゃあそれでいいですから頼みますよ。",
+        "translation": "Ừm, thế à. Thế thì cái đó cũng được, nhờ chị đấy."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "女の人は会議で何をしなければなりませんか。",
+        "translation": "Người phụ nữ sẽ phải làm gì trong cuộc họp?"
+      }
+    ],
+    "question": {
+      "question": "女の人は会議で何をしなければなりませんか。",
+      "questionVi": "Người phụ nữ sẽ phải làm gì trong cuộc họp?",
+      "options": [
+        "会議の議事録を書く",
+        "通訳にニュアンスを伝える",
+        "中国語と日本語の通訳をする",
+        "中国語で商談をする"
+      ],
+      "optionsVi": [
+        "Viết biên bản cuộc họp",
+        "Truyền tải sắc thái tình cảm cho thông dịch viên",
+        "Thông dịch tiếng Trung Quốc và tiếng Nhật",
+        "Đàm phán bằng tiếng Trung Quốc"
+      ],
+      "answerIndex": 2,
+      "explanation": "● 役員会議室も 押さえてあります。 ＝役員会議室も予約してあります。 例「明日の朝一番の新幹線を 押さえておきました」 ● そこで頼みなんだが、 ＝それで、お願いなんですが、 例 「今朝急いで財布を忘れてきた。 そこで頼みなんだが、代わりに支払ってくれないか」"
+    }
+  },
+  {
+    "id": "n2-bai-1-3-8",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "８番",
+    "context": "図書館で男の人が図書館の人と話しています。",
+    "contextVi": "Tại thư viện, người đàn ông đang nói chuyện với nhân viên thư viện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_16.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "あのー、すみません。",
+        "translation": "Xin lỗi cho hỏi."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "はい、何でしょうか。",
+        "translation": "Vâng, gì thế ạ?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "雑誌を探すんで、検索パソコンを使っているんですけど、次どうすればいいかわかんなくなっちゃって。",
+        "translation": "Tôi đang dùng máy tính tra cứu để tìm cuốn tạp chí, nhưng tôi không biết tiếp theo nên làm như thế nào."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "「資料を利用する」っていうボタンをクリックしても、画面が変わらないんですよ。",
+        "translation": "Tôi nhấn nút \"Sử dụng tài liệu\" mà màn hình chẳng thay đổi gì cả."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "あー、そうですか。",
+        "translation": "À, ra là vậy."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ええと、その前に入り口でお渡しした入館証にあるバーコードをここで読み取らせないといけないんです。",
+        "translation": "Ừ…m, anh phải rà mã vạch có trong thẻ vào thư viện mà trước đó chúng tôi đã phát ở lối vào tại đây ạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "ああ、入り口でもらったやつ？",
+        "translation": "À, cái thẻ mà tôi nhận ở lối vào hả?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "あれ。家内が受け取って…。",
+        "translation": "Ủa, vợ tôi đã lấy rồi…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうですか。もう１枚もらえますよ。",
+        "translation": "Vậy hả? Anh có thể lấy thêm một thẻ nữa ạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "でも、申込用紙に書いたり面倒だし。",
+        "translation": "Nhưng mà điền vào phiếu đăng kí phiền hà quá."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ちょっと探してきます。",
+        "translation": "Để tôi đi kiếm rồi quay lại."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "面倒かけてすみませんでした。",
+        "translation": "Xin lỗi đã làm phiền."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "男の人はこの後、何をしますか。",
+        "translation": "Người đàn ông sau đây sẽ làm gì?"
+      }
+    ],
+    "question": {
+      "question": "男の人はこの後、何をしますか。",
+      "questionVi": "Người đàn ông sau đây sẽ làm gì?",
+      "options": [
+        "図書館の入り口へ行く",
+        "申込書を書く",
+        "奥さんを探す",
+        "バーコードを探す"
+      ],
+      "optionsVi": [
+        "Đi tới lối vào của thư viện",
+        "Điền vào phiếu đăng kí",
+        "Tìm người vợ",
+        "Tìm mã vạch"
+      ],
+      "answerIndex": 2,
+      "explanation": "● 読み取ら せないといけないんです。 ＝読み取らせなければならないんです。 ● 入り口でもらった やつ？ ＝入り口でもらったもの？ 例 「ねえ、俺の冬のコート、どこにあるか知らない？ ベージュ色の やつ」"
+    }
+  },
+  {
+    "id": "n2-bai-1-3-9",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "９番",
+    "context": "大学で２人の先生が話しています。",
+    "contextVi": "Ở trường đại học, hai giáo viên đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_17.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "いやー、困った、困った。",
+        "translation": "Thôi tiêu rồi, tiêu rồi."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "どうしたんですか、田中先生。",
+        "translation": "Sao thế hả thầy Tanaka?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "実はね、急ぎで、ある報告書を頼まれててね、それ書くのに統計資料が要るんだよ。",
+        "translation": "Thật ra là tôi được nhờ viết gấp một bản báo cáo nọ, nhưng mà tôi cần phải có tài liệu thống kế mới viết được."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "で、ある役所に連絡を取りたいんだけどさ…。",
+        "translation": "Vì vậy tôi muốn liên lạc tới một văn phòng nọ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "何度もかけてるんだけど、留守番電話で。",
+        "translation": "Tôi đã điện thoại nhiều lần, nhưng chỉ nghe tín hiệu trả lời tự động thôi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "やっぱり、行くしかないのかなあ。",
+        "translation": "Nên rốt cục tôi chỉ còn cách đi tới đó thôi."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "う～ん。じゃ、メールはどうですか。",
+        "translation": "Ừ…, vậy anh gửi email đi, anh thấy sao?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "それがね、自動返事メールで「当機関のホームページを御確認ください」だって。",
+        "translation": "Cái đó thì, sẽ có email trả lời tự động, nói là \"Vui lòng xác nhận tại trang chủ của cơ quan chúng tôi\"."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "で、そっちはもうご覧になったんですか。",
+        "translation": "Vậy anh cũng đã xem qua rồi chứ?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "もちろん。でも、知りたい情報が見つからなくてね。",
+        "translation": "Dĩ nhiên, nhưng mà tôi không tìm thấy thông tin tôi muốn biết."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "じゃ、直接窓口で聞くしかないですね。",
+        "translation": "Vậy thì chỉ còn cách hỏi trực tiếp tại quầy tiếp tân thôi."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "だろう？もう一度ホームページに目を通してからそうするよ。",
+        "translation": "Chắc có lẽ vậy? Tôi sẽ xem trang chủ đó thêm lần nữa rồi sẽ làm thế."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "でも、わざわざ行くのもねぇ…。",
+        "translation": "Nhưng mà cất công đến tận nơi cũng hơi…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "電話をかける時間帯を変えてみたらいいんじゃないですか。",
+        "translation": "Anh thử gọi vào lúc khác xem sao?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "いや、急いでるから、この際、いいよ。",
+        "translation": "Thôi, tôi đang gấp, cách này là được rồi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "男の先生はこの後、まず何をしますか。",
+        "translation": "Giáo viên nam sau đây sẽ làm gì trước tiên?"
+      }
+    ],
+    "question": {
+      "question": "男の先生はこの後、まず何をしますか。",
+      "questionVi": "Giáo viên nam sau đây sẽ làm gì trước tiên?",
+      "options": [
+        "ホームページを見る",
+        "メールをする",
+        "役所の窓口へ行く",
+        "窓口に電話で確認する"
+      ],
+      "optionsVi": [
+        "Xem trang chủ",
+        "Gửi email",
+        "Đến quầy tiếp tân của ủy ban",
+        "Gọi điện thoại đến quầy tiếp tân để xác nhận"
+      ],
+      "answerIndex": 0,
+      "explanation": "● それがね 前の事柄に何か問題がある時に使う表現 例 A：昨日のデート、楽しかった？ B： それがさ、彼女、来なかったんだよ。がっかりだ。 ● 「じゃ、直接窓口で聞くしかないですね」 「 だろう？」 「だろう」は「そうだろう」の省略形。 ＝（行くしかない）でしょう？ 例 A：う～ん、彼女、何か怒ってるんだよな。 B：そう言えば、ずっと怖い顔してるし、さっきも挨拶してくれなかったし、確かに変ですよね。 A： だろう？ ● 急いでるから、 この際、いいよ。 ＝急いでいるから、もうこの場合はいいですよ。 例 A：どうしよう、お茶もコーヒーも切れてる。お客様にジュースをお出ししてもいい？ B：う～ん"
+    }
+  },
+  {
+    "id": "n2-bai-1-3-10",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "１１番",
+    "context": "ホームセンターの男の人が女の人と電話をしています。",
+    "contextVi": "Người đàn ông bên home center (trung tâm bán các sản phẩm dùng trong nhà) đang nói chuyện với người phụ nữ.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_19.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "あ、もしもし、Ｋホームセンターです。",
+        "translation": "A lô, K home center xin nghe."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ご注文のお品をお届けしたいのですが、今いらっしゃいますか。",
+        "translation": "Chúng tôi muốn giao hàng qu&yacute; khách đã đặt, bây giờ qu&yacute; khách có ở nhà không?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それから…お支払いの方法はどうされますか。",
+        "translation": "Và… phương thức thanh toán như thế nào ạ?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "あ、銀行かコンビニ振り込みでお願いします。",
+        "translation": "À, cho tôi chuyển khoản qua ngân hàng hoặc cửa hàng tiện lợi nhé."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "それは扱ってないんで、カードか現金のみになっているんです。",
+        "translation": "Phương thức đó chúng tôi không giải quyết được ạ, quy định chỉ thanh toán bằng thẻ hoặc tiền mặt thôi ạ."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "え、そうでしたっけ。",
+        "translation": "À, vậy sao."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "私、カードは、ちょっとね。",
+        "translation": "Tôi không thể trả bằng thẻ được rồi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "えっと、１２万円でしたっけ。",
+        "translation": "Ừ…m 120,000 yen phải không?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "あ、ごめんなさい。ちょっとない。",
+        "translation": "À, xin lỗi không đủ rồi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "銀行へ行って来ますからあとで来てもらえますか。",
+        "translation": "Tôi đến ngân hàng rồi về, anh có thể đến sau không?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "それでは何時頃がよろしいですか。",
+        "translation": "Vậy thì khoảng mấy giờ thì được ạ?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうですね、１時間くらいあれば大丈夫だと思います。",
+        "translation": "Hmm, tôi nghĩ chừng 1 tiếng là được rồi."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "わかりました。",
+        "translation": "Vâng ạ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それでは１時間後くらいに伺います。",
+        "translation": "Vậy thì khoảng 1 tiếng sau chúng tôi sẽ đến."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "女の人は品物の支払いをどうしますか。",
+        "translation": "Người phụ nữ sẽ thanh toán sản phẩm như thế nào?"
+      }
+    ],
+    "question": {
+      "question": "女の人は品物の支払いをどうしますか。",
+      "questionVi": "Người phụ nữ sẽ thanh toán sản phẩm như thế nào?",
+      "options": [
+        "カード",
+        "現金",
+        "コンビニ振り込み",
+        "銀行振り込み"
+      ],
+      "optionsVi": [
+        "Thẻ",
+        "Tiền mặt",
+        "Chuyển khoản qua cửa hàng tiện lợi",
+        "Chuyển khoản qua ngân hàng"
+      ],
+      "answerIndex": 1,
+      "explanation": "● カードか現金 のみになっているんです。 ＝カードか現金だけなんです。 例 「この歩道は歩行者 のみ通行できます。自転車の乗り入れはできません」 ● カードか現金のみ になっているんです。 「になっている」は規則や方法を表す表現。 ＝カードか現金のみという支払い方法でお願いしています。 例 「当店では現金前払い になっているんです」"
+    }
+  },
+  {
+    "id": "n2-bai-1-3-11",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "１２番",
+    "context": "小学生の息子が夏休みに１人で東京から祖父母のいる広島に遊びに行きます。",
+    "contextVi": "Đứa con trai đang học tiểu học vào kì nghỉ hè sẽ một mình từ Tokyo đến Hiroshima chơi, nơi có ông bà đang sống.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_20.mp3",
+    "lines": [
+      {
+        "speaker": "",
+        "name": "",
+        "text": "Ｍ１（父）：広島駅へは夜行バスで行くだろう。",
+        "translation": "Có lẽ con đi tới nhà ga Hiroshima bằng chuyến xe bu&yacute;t đêm."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "あれが一番安いんだ。",
+        "translation": "Cái đó là rẻ nhất."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "Ｍ２（息子）：飛行機か新幹線で行ってもいい？",
+        "translation": "Đi bằng máy bay hay tàu siêu tốc được không ba?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "う～ん、飛行機は広島空港からバスに乗り換えたりするんだぞ。大丈夫か？",
+        "translation": "Ừ…m, đi bằng máy bay thì từ sân bay Hiroshima con sẽ chuyển sang đi xe bu&yacute;t nữa đấy. Được không?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "乗り換えかぁ。",
+        "translation": "Chuyển xe ạ?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "夜行バスなら寝ている間に広島駅に着いちゃうから楽だぞ。",
+        "translation": "Nếu con đi chuyến xe bu&yacute;t đêm thì con sẽ đến nhà ga Hiroshima trong lúc con ngủ nên khỏe re à."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そうだね。でも、夜だから景色つまらないし。",
+        "translation": "Vậy hả ba, nhưng mà đêm khuya thì khung cảnh chán ngắt à."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "新幹線の「のぞみ」はどうかな。",
+        "translation": "Đi tàu siêu tốc Nozomi thì sao ạ?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "なら、新幹線にしなさい。",
+        "translation": "Nếu vậy thì con đi tàu siêu tốc đi."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "う～ん。長時間は飽きちゃうかな。",
+        "translation": "Hmm, đi thời gian dài chán không nhỉ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "やっぱ、乗り換えがあっても大丈夫。",
+        "translation": "Vậy chuyển xe cũng được ạ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ちゃんとできるから。",
+        "translation": "Vì con có thể làm tốt."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そうか、じゃ、そうしろ。",
+        "translation": "Vậy à, thế thì chọn vậy đi."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "うん。",
+        "translation": "Dạ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "息子はどんな交通手段で行きますか。",
+        "translation": "Đứa con trai sẽ đi bằng phương tiện giao thông nào?"
+      }
+    ],
+    "question": {
+      "question": "息子はどんな交通手段で行きますか。",
+      "questionVi": "Đứa con trai sẽ đi bằng phương tiện giao thông nào?",
+      "options": [
+        "夜行バス",
+        "新幹線「のぞみ」",
+        "飛行機",
+        "飛行機とバス"
+      ],
+      "optionsVi": [
+        "Chuyến xe bu&yacute;t đêm",
+        "Tàu siêu tốc Nozomi",
+        "Máy bay",
+        "Máy bay và xe bu&yacute;t"
+      ],
+      "answerIndex": 3,
+      "explanation": ""
+    }
+  },
+  {
+    "id": "n2-bai-1-3-12",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "１３番",
+    "context": "Aさんはカードをなくしてしまいました。",
+    "contextVi": "Bạn A làm mất thẻ.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_21.mp3",
+    "lines": [
+      {
+        "speaker": "",
+        "name": "",
+        "text": "Aさんは英語は話せません。",
+        "translation": "Bạn A không thể nói được tiếng Anh."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "口座番号は１２３４５６です。",
+        "translation": "Số tài khoản là 123456."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "アナウンス：お電話ありがとうございます。",
+        "translation": "Cảm ơn qu&yacute; khách đã điện thoại."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "こちらはイチゴ銀行でございます。",
+        "translation": "Đây là ngân hàng Ichigo ạ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "日本語をご希望の方は、※印と１を押してください。",
+        "translation": "Qu&yacute; khách muốn nghe tiếng Nhật, vui lòng nhấn dấu ※ và phím 1."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "英語をご希望の方は※印と２を押してください。",
+        "translation": "Qu&yacute; khách muốn nghe tiếng Anh, vui lòng nhấn dấu ※ và phím 2."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "メインメニューです。",
+        "translation": "Đây là danh mục chính."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "残高を調べたい方は１を、振り込みをご確認の方は２を、カードを無くされた方は４を押してください。",
+        "translation": "Qu&yacute; khách muốn kiểm tra tài khoản dư nhấn phím 1, muốn xác nhận chuyển khoản nhấn phím 2, thông báo mất thẻ nhấm phím 4."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "サービスデスクです。",
+        "translation": "Đây là bàn dịch vụ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "お手元のカードの口座番号の後ろから４桁目からを押してください。",
+        "translation": "Vui lòng nhấn 4 con số cuối cùng trong số tài khoản thẻ trên tay qu&yacute; khách."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "係の者におつなぎいたします。",
+        "translation": "Chúng tôi sẽ kết nối với người phụ trách."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "しばらくお待ちください。",
+        "translation": "Xin qu&yacute; khách chờ giây lát."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "銀行に電話をして、カードを止めるためにはどの番号を押せばいいでしょうか。",
+        "translation": "Bạn ấy điện thoại đến ngân hàng, bạn ấy sẽ ấn số mấy để chặn thẻ."
+      }
+    ],
+    "question": {
+      "question": "銀行に電話をして、カードを止めるためにはどの番号を押せばいいでしょうか。",
+      "questionVi": "Bạn ấy điện thoại đến ngân hàng, bạn ấy sẽ ấn số mấy để chặn thẻ.",
+      "options": [
+        "＠１ ４ ３４５６",
+        "※１ 4 ３４５６",
+        "※１ ２ ３４５６",
+        "＃１ ４ ３４５６"
+      ],
+      "optionsVi": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "answerIndex": 1,
+      "explanation": ""
+    }
+  },
+  {
+    "id": "n2-bai-1-3-13",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "１４番",
+    "context": "女の人はどんなメモを書きましたか。",
+    "contextVi": "Người phụ nữ viết ghi chú như thế nào?",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_22.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "ミドリ貿易の岩田でございます。",
+        "translation": "Tôi là Iwata bên công ty mậu dịch Midori."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "いつもお世話になっております。",
+        "translation": "Xin cảm ơn vì lúc nào cũng được chiếu cố ạ."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "こちらこそ、お世話になっております。",
+        "translation": "Chính chúng tôi mới là người nói lời cảm ơn ạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "あのう、ジョンさん、いらっしゃいますか。",
+        "translation": "Ừ…m, anh John có đấy không?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "申し訳ございません、ジョンは、ただいま外出中ですが。",
+        "translation": "Xin lỗi, anh John đã đi ra ngoài rồi ạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そうですか…。",
+        "translation": "Vậy à…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "では、数日中に製品の見本を持って伺いたいので、ご都合のよろしい日をお教えいただきたいとお伝えくださいますか。",
+        "translation": "Vậy chị có thể nhắn lại dùm là vài ngày tới tôi sẽ mang sản phẩm mẫu đến, nên tôi muốn anh ấy cho tôi biết ngày nào thuận tiện cho anh ấy ạ?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "かしこまりました。申し伝えます。",
+        "translation": "Vâng ạ. Tôi sẽ nhắn lại."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "お願いします。",
+        "translation": "Làm phiền chị."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "女の人はどんなメモを書きましたか。",
+        "translation": "Người phụ nữ viết ghi chú như thế nào?"
+      }
+    ],
+    "question": {
+      "question": "Ｆ：はい、日本商事でございます。",
+      "questionVi": "Vâng, công ty thương mại Nhật Bản đây ạ.",
+      "options": [
+        "ミドリ貿易の岩田様が、製品の見本を御覧になるので、都合のいい日を教えてくださいとのことです。",
+        "ミドリ貿易の岩田様が、製品の見本を持っていらっしゃるので、都合のいい日を教えてくださいとのことです。"
+      ],
+      "optionsVi": [
+        "Anh Iwata bên công ty mậu dịch Midori sẽ cho biết ngày nào thuận tiện.",
+        "Anh Iwata bên công ty mậu dịch Midori sẽ xem sản phẩm mẫu, nên hãy cho biết ngày nào thuận tiện.",
+        "Anh Iwata bên công ty mậu dịch Midori sẽ mang sản phẩm mẫu đến, nên hãy cho biết ngày nào thuận tiện.",
+        "Anh Iwata bên công ty mậu dịch Midori muốn có màu thử."
+      ],
+      "answerIndex": 2,
+      "explanation": "● いつもお世話になっております。 ビジネスの場で使われる、決まった挨拶。 ● かしこまりました。 ＝わかりました。承知いたしました。 ● 申し伝えます 「伝言します」の丁寧な表現"
+    }
+  },
+  {
+    "id": "n2-bai-1-4-1",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "１番",
+    "context": "花屋で男の人が花の注文をしています。",
+    "contextVi": "Ở tiệm hoa, người đàn ông đang đặt hoa.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_23.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "あのう、彼女が入院したんっすよ。",
+        "translation": "Ừ…m, bạn gái tôi đang nhập viện."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "そんで、なんか見舞いに花なんか持ってこっかなって思うんっすけど～。",
+        "translation": "Vì thế, tôi định sẽ mang hoa hay thứ gì đó đến thăm."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "このバラ１本どうかな。",
+        "translation": "Một bông hoa hồng thì thế nào nhỉ?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "お見舞いですか。",
+        "translation": "Anh đi thăm bệnh à?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "お花を持って行ったらとてもお喜びだと思うんですけど、１本じゃ…。",
+        "translation": "Nếu anh đem hoa theo thì tôi nghĩ cô ấy sẽ rất vui, nhưng 1 bông thì…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "こちらのアレンジメントフラワーいかがですか。",
+        "translation": "Anh thấy bó hoa này thế nào?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "２５００円なんですけど。",
+        "translation": "2500 yên thôi."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "１本じゃだめなんだぁ。",
+        "translation": "1 bông không được à."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "けちに思われちゃうか。",
+        "translation": "Vậy có bị cho là keo kiệt không?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "そしたら思いきってそのぬいぐるみつきのやつにして…。いくら？",
+        "translation": "Nếu vậy thì tôi lấy bó hoa có gắn thú bông đó… Bao nhiêu tiền vậy?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "これですか。これなら絶対お喜びになりますよ。",
+        "translation": "Cái này ạ? Nếu là cái này thì nhất định cô ấy sẽ rất vui đây."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ぬいぐるみが残るんで。",
+        "translation": "Vì có gắn thú bông."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "こちらだと５０００円になります。",
+        "translation": "Cái này là 5000 yen."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そんなにすんの。",
+        "translation": "Ngần ấy tiền sao?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "高いなあ。ううんと、あれ～、花束２５００円でお作りしますって書いてある、これよくない？",
+        "translation": "Đắt quá. Hmm, cái kia… có viết là làm bó hoa 2500 yen, cái này không được sao?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "病院だと花びんの心配が…。",
+        "translation": "Nếu là bệnh viện thì sợ rằng chậu hoa sẽ…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "さっきのもので、花だけのですと２５００円でありますけど。",
+        "translation": "Cái lúc nãy, nếu chỉ lấy hoa thôi là 2500 yen."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "じゃ、それってことで。",
+        "translation": "Vậy cho tôi cái đó."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "男の人は、どの花を買いますか。",
+        "translation": "Người đàn ông sẽ mua hoa nào?"
+      }
+    ],
+    "question": {
+      "question": "男の人はどの花を買いますか。",
+      "questionVi": "Người đàn ông sẽ mua hoa nào?",
+      "options": [],
+      "optionsVi": [],
+      "answerIndex": 2,
+      "explanation": "● 入院したんっすよ。 ＝「入院したんですよ」 の若者の会話的なくだけた表現。 ● もってこっかなって思うんっすけど～。 ＝「持って行こうかなと思うんですけど」 の若者の会話的なくだけた表現。 ● そんなにすんの。 ＝「そんなにするのですか」 「そんなに高いのですか」 の会話的なくだけた表現。"
+    }
+  },
+  {
+    "id": "n2-bai-1-4-2",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "２番",
+    "context": "女子学生が３人で話しています。",
+    "contextVi": "Ba học sinh nữ đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_24.mp3",
+    "lines": [
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "ねえ、夏休みの予定決まった、温泉でも一緒にどう？",
+        "translation": "Này, tớ đã quyết định lịch cho kì nghỉ hè rồi, cùng đi tắm suối nước nóng được không?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "いいわね。",
+        "translation": "Được đó."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "でも私は休みになったらすぐ「キャンプのお姉さん」やるんだけど。",
+        "translation": "Nhưng mà tới kỳ nghỉ thì ngay lập tức tớ sẽ làm \"Người chị cắm trại\"."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "「キャンプのお姉さん」って？",
+        "translation": "\"Người chị cắm trại\" là sao?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "ああ、あのね、夏休みになると小・中学生が林間学校なんかでキャンプに行くでしょ。",
+        "translation": "À, ừ…m, khi nghỉ hè đến thì các bạn học sinh tiểu học, trung học sẽ đi cắm trại ở các trường cắm trại ngoài trời."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "そこでね、一緒にテントで寝泊まりして世話するの。楽しいよ。",
+        "translation": "Và sẽ cùng với các em ngủ trọ lại trong các túp lều, chăm sóc các em. Rất là vui."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "Ｆ３：中学校のとき、山のキャンプへ行ったけど、そういえばいた、いた、キャンプのお兄さんやお姉さんが。",
+        "translation": "Nhắc mới nhớ, hồi tớ học trung học, tớ đi cắm trại trên núi, cũng có các anh các chị đi cắm trại nữa."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "なんか楽しそうだね。",
+        "translation": "Có vẻ vui nhỉ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "私は集中講義申し込んだんだけどさ、でも８月の７日から２週間休みになるから、その時ならいいよ。",
+        "translation": "Tớ đã đăng kí khóa học chuyên sâu, nhưng từ ngày 7 tháng 8 được nghỉ 2 tuần, nên nếu thời gian đó thì được."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "私は火曜日がバイトなのね、だからそこさえ外してもらえればいつでもOKだよ。",
+        "translation": "Tớ thì thứ ba đi làm thêm rồi, bởi vậy chỉ cần rời chỗ làm xong thì lúc nào cũng ok hết."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "２泊３日でどう。",
+        "translation": "3 ngày 2 đêm được không?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "問題は私か、そうだね、８月の半ば以降なら何とかなるかな。",
+        "translation": "Vấn đề chắc là do tớ, từ giữa tháng 8 trở đi thì chắc có lẽ không sao."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "週末は忙しくって無理だけど。",
+        "translation": "Cuối tuần thì bận nên không đi được."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ね、キャンプ場の近くに温泉があるからそこに来てよ。",
+        "translation": "À, gần nơi cắm trại có suối nước nóng, mình đến đó đi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "涼しくっていいところだし、それにきれいな湖があるんだ。",
+        "translation": "Là nơi rất mát mẻ, hồ ở lại đẹp nữa."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "そこだったら、ちょっと抜けて行けそうだから。",
+        "translation": "Nếu là chỗ đó thì mình có thể trốn ra một chút."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "いいよ。じゃこの日からということでいいかな、よしここに決定、この日で切符手配しとくね。",
+        "translation": "Được đó. Vậy thì từ ngày này được không nhỉ, vậy quyết định ở đây nhé, tớ sẽ sắp xếp vé vào ngày này."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "女子学生はいつの切符を買いますか。",
+        "translation": "Học sinh nữ sẽ mua vé lúc nào?"
+      }
+    ],
+    "question": {
+      "question": "女子学生はいつの切符を買いますか。",
+      "questionVi": "Học sinh nữ sẽ mua vé lúc nào?",
+      "options": [],
+      "optionsVi": [],
+      "answerIndex": 2,
+      "explanation": "● 温泉でも一緒に どう？ 「どう」 は人を誘うときの会話表現。 ＝温泉でもどうですか、一緒に行きませんか。 例 「今度の日曜、暇？山に行くんだけど、一緒に どう？」 ● なんか楽しそうだね。 「なんか」 は 「なんとなく、なぜかわからないけど」 の意味で、会話を柔らかくする表現。 ＝楽しそうですね。 ● だからそこ さえ外してもらえれ ばいつでもOKだよ。 ＝だからそこだけ外してもらったら、いつでもOK です。 例 「時間 さえ あれ ば、お手伝いする んですが」 ● だからそこさえ 外してもらえればいつでもOKだよ。 ＝だからそこさえ 入れないでもらえればいつでもOKだよ。 例 A：今度の"
+    }
+  },
+  {
+    "id": "n2-bai-1-4-3",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "３番",
+    "context": "先生が学生に話しています。",
+    "contextVi": "Thầy giáo đang nói chuyện với học sinh.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_25.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "えー、この環境学のクラスでは、地域の環境を考えるということもあって、毎年近くの清掃活動に参加しています、ゴミ拾いなんですが。",
+        "translation": "Ừ…m, trong lớp học ngành môi trường này, mỗi năm các em sẽ tham gia hoạt động dọn vệ sinh các nơi lân cận, vì môi trường khu vực đó, như nhặt rác."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "で、当日は作業しやすい格好で来るように、サンダルなんか履いてこないこと。",
+        "translation": "Do đó, ngày hôm đó các em cố gắng không mang giầy xăng đan mà đến với trang phục dễ thao tác công việc."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それと暑いから帽子は必ず持ってくるように。",
+        "translation": "Hơn nữa vì sẽ nắng nóng nên các em cố gắng mang theo nón nhé."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "先生、お昼ごはんはどうするんですか。",
+        "translation": "Thưa thầy, cơm trưa thì sao ạ?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "持って行きますか。",
+        "translation": "Tụi em mang theo chứ?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そうだね、たぶん午前中で終わると思うので、特には…。",
+        "translation": "Hmm, thầy nghĩ chắc là sẽ xong nội trong buổi sáng, nên chắc là…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "しかし飲み物は忘れないように。",
+        "translation": "Nhưng các em đừng quên mang theo nước uống nhé."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それからゴミを入れる袋とか軍手は市のほうが用意してくださるので…。",
+        "translation": "Túi đựng rác cũng như găng tay thì bên thành phố sẽ lo chuẩn bị cho các em…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "軍手って何ですか。",
+        "translation": "Găng tay là gì vậy ạ?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "えっ、軍手を知らないのか、手袋ですよ、作業するときの。",
+        "translation": "Em không biết găng tay sao, là bao tay đấy, cái dùng khi thao tác công việc."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "あっ、はい、あれか。",
+        "translation": "À, là cái đó hả thầy."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そのほかプリントを確認して、各自必要と思うものは持ってきなさい。",
+        "translation": "Ngoài ra, các em xác nhận vào phiếu thầy phát, mang theo những vật dụng mà bản thân các em cho là cần thiết."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "繰り返しますが暑さ対策だけはしっかりしておくように。",
+        "translation": "Thầy nhắc lại, các em chỉ cần lo cho tốt các biện pháp chống lại cái nóng nhé."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "学生は何を持っていかなければなりませんか。",
+        "translation": "Học sinh phải mang theo thứ gì?"
+      }
+    ],
+    "question": {
+      "question": "学生は何を持っていかなければなりませんか。",
+      "questionVi": "Học sinh phải mang theo thứ gì?",
+      "options": [],
+      "optionsVi": [],
+      "answerIndex": 3,
+      "explanation": "● 地域の環境を考える ということもあって、 ＝地球の環境を考えるという面からも、 例 「梅雨に入っている ということもあって、食品の衛生には気をつけましょう」 ● で、 ＝それで、 例 「仕事忙しいんですよ。で、昨日はほとんど寝てないんです」 ● 当日は作業しやすい 格好で来るように、 ＝当日は作業しやすい服装で来るように、 例 「入学式だから、そんな 格好で行くとみんなに笑われるよ」 ● 軍手を知らない のか、 ＝軍手を知らないのですか、 男性の言葉。 例 先生：先週習ったこと、もう忘れた のか。 学生：…。"
+    }
+  },
+  {
+    "id": "n2-bai-1-4-4",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "４番",
+    "context": "美容院で、美容師と客の高校生の女の子が話しています。",
+    "contextVi": "Tại thẩm mỹ viện, nhân viên làm đẹp và khách hàng là nữ sinh cao trung đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_26.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "あ、ずいぶん髪伸びたね。",
+        "translation": "À, tóc khá dài nhỉ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "今日はどうする？",
+        "translation": "Hôm nay em làm kiểu nào?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "今、髪伸ばしてて長さは変えたくないんですけど…。",
+        "translation": "Giờ em muốn duỗi tóc mà độ dài không thay đổi…"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "じゃ、毛先をそろえる？",
+        "translation": "Vậy tôi cắt ngọn tóc cho gọn nhé?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それでも、ちょっと長いと思うけどなあ。",
+        "translation": "Nhưng dù vậy cũng hơi dài."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "肩まで伸びてて…。",
+        "translation": "Duỗi đến vai đi…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "思いっきりばっさり切ってイメチェンしたら？",
+        "translation": "Hay là thay đổi hình ảnh bằng cách cắt tóc ngắn nhé?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "似あうと思うよ。",
+        "translation": "Tôi nghĩ hợp với em."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "え～、短くするのはちょっと…。",
+        "translation": "Hmm, cắt ngắn thì…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "でもぉ、３センチほどカットしてみようかな。",
+        "translation": "Nhưng hay là anh thử cắt ngắn chừng 3 cm coi sao."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "わかった。前髪はどうする？",
+        "translation": "Ừm, còn mái trước thì làm sao?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "このまま伸ばす？",
+        "translation": "Để nguyên như vầy nhé?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "ええ。あ、やっぱぁ、目にかからないくらいにそろえてください。",
+        "translation": "Dạ. À, vậy anh tỉa sao cho đừng để che mắt nha."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "OK。",
+        "translation": "Ok."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "女の子はどんな髪型にしてもらいますか。",
+        "translation": "Cô bé sẽ được làm kiểm tóc nào?"
+      }
+    ],
+    "question": {
+      "question": "女の子はどんな髪型にしてもらいますか。",
+      "questionVi": "Cô bé sẽ được làm kiểm tóc nào?",
+      "options": [],
+      "optionsVi": [],
+      "answerIndex": 2,
+      "explanation": "● 髪伸ば してて 「～してて」 は 「～していて」 の会話的なくだけた表現。 ＝髪を伸ばしているので ● 思いっきりばっさり切って 程度を表す表現。ここでは髪の毛をかなり短くすること。 ＝長い髪を一度にたくさん切って 例 A：試験が終わったら、 思いっきり遊ぼう。 B：それまでがまん、がまん。 ● 思いっきり ばっさり切って 少しではなく、量などが多いことを表す。ここでは髪の毛の長さを言っている。 例 A：桜の木が枯れてしまったね。 B：そうなんだ、 ばっさり根元から切ってしまおうと思ってるんだ。 ● やっぱぁ ＝「やはり」「やっぱり」の会話的なくだけた表現。 例 A：考えたんだけど、たっぱ"
+    }
+  },
+  {
+    "id": "n2-bai-1-4-5",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "５番",
+    "context": "デパートで女の店員が男の客と話しています。",
+    "contextVi": "Ở thương xá, nhân viên nữ đang nói chuyện với khách nam.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_27.mp3",
+    "lines": [
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "いらっしゃいませ。",
+        "translation": "Chào qu&yacute; khách."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "何かお探しですか。",
+        "translation": "Anh đang tìm cái gì phải không?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "あの、就活用にネクタイを買いたいんですが、わかんなくって。",
+        "translation": "Ừ…m, tôi muốn mua cái cà vạt để đi xin việc, mà tôi thì không biết…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうですね、一般的に皆様グレーや青の無地で、シンプルなものを選ばれますけど。",
+        "translation": "Dạ, nói chung thì mọi người thường chọn những loại đơn giản, loại trơn màu xanh hay màu xám."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "縞が入っているものも人気ですよ。",
+        "translation": "Những loại có kẻ sọc cũng rất được ưa chuộng đấy ạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "縞ね。僕はこっちの横縞がいいな。",
+        "translation": "Kẻ sọc à. Tôi thấy cái kẻ sọc ngang này được đó."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうですね、それもすてきですけど、チェックの方がお似合いかと。",
+        "translation": "Ừ…m, cái đó cũng dễ thương, nhưng anh nên ướm thử xem coi có hợp không."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そう、じゃそうしようか。",
+        "translation": "Ừm, vậy tôi thử nhé?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "まっすぐなのと、斜めになっているのと、どちらがよろしいでしょうか。",
+        "translation": "Loại kẻ thẳng với loại kẻ xiên, anh thấy cái nào được?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "斜めの方がいいと思うな。",
+        "translation": "Tôi thấy cái kẻ xiên được hơn."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "縞の太さが違うのがかっこいいよね。",
+        "translation": "Độ dày của đường kẻ khác nhau cũng đẹp hơn nhỉ."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "では、それになさいますか。",
+        "translation": "Vậy anh sẽ chọn cái đấy phải không?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "男の人はどのネクタイを買いますか。",
+        "translation": "Người đàn ông sẽ mua cái cà vạt nào?"
+      }
+    ],
+    "question": {
+      "question": "男の人はどのネクタイを買いますか。",
+      "questionVi": "Người đàn ông sẽ mua cái cà vạt nào?",
+      "options": [],
+      "optionsVi": [],
+      "answerIndex": 2,
+      "explanation": "● わかんなくって 「わからなくて」の会話的なくだけた表現。 ● シンプルなものを選ばれます けど 「けど」は「けれども」の省略形で文を柔らかくする表現。 ＝シンプルなものを選ばれますけれども 例 「私はそれでいいと思います けど」 ● お似合い かと 「～かと」 は 「～だと思います」 を省略した言い方。 例 A：どちらのシャツがいいでしょうか。 B：こちらのほうがよろしい かと。 ● それに なさいますか 「～なさいますか」 は 「それにしますか」 の尊敬語。"
+    }
+  },
+  {
+    "id": "n2-bai-1-4-6",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "６番",
+    "context": "男の人と女の人が会議の準備について話しています。",
+    "contextVi": "Người đàn ông và người phụ nữ đang nói chuyện về việc chuẩn bị cho cuộc họp.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_28.mp3",
+    "lines": [
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "明日会議だけど、何か用意するものとかある？",
+        "translation": "Ngày mai có cuộc họp, anh có chuẩn bị gì chưa?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "ランチ・ミーティングだったっけ。",
+        "translation": "Cuộc họp buổi trưa phải không?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "じゃ、またサンドイッチでも注文するか。",
+        "translation": "Vậy thì tôi sẽ lại gọi bánh mì sandwich."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "飲み物はコーヒーかなんかで一緒に頼めば。",
+        "translation": "Thức uống thì sẽ cùng gọi cà phê hay cái gì đó."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "前回もサンドイッチだったから今回はお弁当にしたら？",
+        "translation": "Lần trước đã kêu bánh mì sandwich rồi, lần này kêu cơm hợp đi?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ポットを置いて、ティーバッグやなんか、いろいろ用意して好きな飲み物を飲んでもらえば。",
+        "translation": "Để cái ấm rồi chuẩn bị nhiều thứ như trà túi lọc chẳng hạn, ai thích uống gì thì uống."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "だって、食べやすいじゃん。",
+        "translation": "Vì cái đó dễ ăn mà."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それにポットってのもどうかと思うよ。",
+        "translation": "Với lại tôi thấy để cái ấm cũng sao sao ấy."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そっかな。うん、わかった。",
+        "translation": "Vậy hả. Ừm, tôi hiểu rồi."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "それからペットボトルの水もね。",
+        "translation": "Và kế đó là chuẩn bị nước uống đóng chai."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "会議室の予約は大丈夫？",
+        "translation": "Việc đặt phòng họp ổn chứ?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "水は用意してある。",
+        "translation": "Nước uống thì sẽ được chuẩn bị."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "時間は１１時半からだったよね。",
+        "translation": "Thời gian là từ 11 giờ rưỡi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "女の人はどれを頼みますか。",
+        "translation": "Người phụ nữ sẽ nhờ làm cái nào?"
+      }
+    ],
+    "question": {
+      "question": "女の人はどれを頼みますか。",
+      "questionVi": "Người phụ nữ sẽ nhờ làm cái nào?",
+      "options": [],
+      "optionsVi": [],
+      "answerIndex": 1,
+      "explanation": "● コーヒー かなんかで 「～かなんか」 は 「たとえば、～など」 と一例をあげるときの表現。 ＝コーヒーなどで 例 A：のどがかわいたね。 B：そうだね。ジュース かなんか飲まない。 ● 食べやすいじゃん。 ＝「食べやすいじゃないですか」 の会話的なくだけた表現。 ● ポットってのも どうかと思うよ。 「どうかと思う」 は 「～にあまり賛成しない」 場合に使う表現。 ＝ポットはあまりいいとは思わない。 例 A：授業中にガムをかんでいるもの どうかと思うよ。 B：ガムをかんでいると眠くならないんだよ。"
+    }
+  },
+  {
+    "id": "n2-bai-1-4-7",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "７番",
+    "context": "飲食店で男の店員が新人の店員と話しています。",
+    "contextVi": "Tại cửa hàng ăn uống, nhân viên nam đang nói chuyện với nhân viên mới.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_29.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "明日から店に来てもらえるんだよね。",
+        "translation": "Từ ngày mai, cậu sẽ đến làm tại tiệm phải không."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ちょっと注意事項があるんだけど。",
+        "translation": "Tôi có chút việc muốn nhắc nhở."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "まず、店に来たら更衣室でユニフォームに着替えて。",
+        "translation": "Trước tiên, khi đến tiệm, cậu thay đồng phục trong phòng thay đồ nha."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それはこっちで明日までに用意しとくよ。",
+        "translation": "Cái đó thì tôi sẽ chuẩn bị sẵn, chậm nhất là ngày mai."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "サイズはLって言ってたよね。",
+        "translation": "Cậu nói cậu size L phải không."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "制服のほかは、帽子とエプロンだね。",
+        "translation": "Ngoài đồng phục ra còn có nón và tạp dề nữa."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "あの、面接の時、靴をはきかえるって聞いたんですが。",
+        "translation": "Dạ, lúc phỏng vấn, em nghe là thay giầy ra ạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そうだ、そうだ。えっと、洗い場だったよね。",
+        "translation": "Đúng rồi, đúng rồi. Ừ…m, đó là chỗ tắm rửa."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "洗い場は長靴だよ。",
+        "translation": "Chỗ tắm rửa thì phải mang ủng."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "料理担当だったら白い靴なんだけどね。",
+        "translation": "Nếu là người phụ trách nấu ăn thì giày màu trắng."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "あ、ごめん。洗い場は帽子必要ないね。",
+        "translation": "À, xin lỗi, chỗ tắm rửa thì không cần đội nón."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それから爪は短く。",
+        "translation": "Và móng tay móng chân phải cắt ngắn."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "髪の毛には何もつけないで、食品ににおいがつくからね。",
+        "translation": "Trên tóc thì không được gắn gì hết, vì sẽ gây mùi cho thức ăn."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "靴はもう用意してあるんだっけ？",
+        "translation": "Giầy thì cậu sẽ chuẩn bị phải không?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "はい。",
+        "translation": "Dạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "じゃ、明日からよろしく。",
+        "translation": "Vậy từ ngày mai cậu đến nhé."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "遅れないようにね。",
+        "translation": "Cố gằng đừng đi trễ nha."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "はい、わかりました。",
+        "translation": "Dạ, em biết rồi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "よろしくお願いします。",
+        "translation": "Anh chiếu cố cho."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "新人の店員はユニフォームのほかに何を身につけますか。",
+        "translation": "Ngoài đồng phục ra, nhân viên mới sẽ mặc thêm thứ gì?"
+      }
+    ],
+    "question": {
+      "question": "新人の店員はユニフォームのほかに何を身につけますか。",
+      "questionVi": "Ngoài đồng phục ra, nhân viên mới sẽ mặc thêm thứ gì?",
+      "options": [],
+      "optionsVi": [],
+      "answerIndex": 1,
+      "explanation": "● ちょっと注意事項 があるんだけど。 「ちょっと～があるんだけど」は本題に入る前の言い方。 ＝少し注意事項があるのですがいいですか。 例 Ａ：あのぅ、 ちょっとお願い があるんだけど。 Ｂ：何？ ● それはこっちで明日までに しとくよ。 ＝それはこちらのほうで明日までに用意しておきますよ。 例 Ａ：送別会のプレゼントどうする。皆に聞いといて。 Ｂ：わかった、聞い とくよ。 ● そうだ、そうだ。 何か思い出したり、気がついたりしたときに使う表現。 ＝確かにそうでしたね。 例 Ａ：レポートやった。 Ｂ： そうだ、そうだ。明日が期限だったよね。 ● えっと、洗い場だっ たよね。 「～たよね」は確認"
+    }
+  },
+  {
+    "id": "n2-bai-1-4-8",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "８番",
+    "context": "家で夫婦が、上司の家へ持っていくお土産について話しています。",
+    "contextVi": "Ở nhà, hai vợ chồng đang nói chuyện về quà tặng đem đến nhà sếp.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_30.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "来週の土曜日、山本部長のお宅の新年会に「奥さんと一緒に…」って誘われたから、よろしく頼むよ。",
+        "translation": "Thứ bảy tuần sau, anh được mời \"Đến cùng chị nhà nhé…\" đi dự tiệc đầu năm mới tại nhà của trưởng phòng Yamamoto."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ほかにも５、６人来るみたいだし。",
+        "translation": "Ngoài mình ra hình như còn có 5-6 người nữa."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "えー、ほんとう。",
+        "translation": "Hả, thiệt vậy sao?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "じゃ、やっぱ、なんか持ってかなきゃなんないよね…。",
+        "translation": "Vậy thì mình phải mang theo thứ gì đó rồi…"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そりゃそうだよ…。",
+        "translation": "Đúng vậy đó…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "でも、ほかの人たちと重ならないようにしなきゃな。",
+        "translation": "Nhưng mình phải lựa sao cho không trùng với những người khác nữa."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "それじゃ、手作りの物で…、ケーキなんかどうかな？",
+        "translation": "Nếu vậy thì những thứ làm bằng tay…, mình sẽ làm bánh kem, anh thấy thế nào?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "私は、作るわよ。",
+        "translation": "Em sẽ làm cho."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "それもいいと思うけど…、食べ物とかは、ほかの奴らも持ってくるんじゃないかなぁ。",
+        "translation": "Cái đó cũng được…, nhưng anh thấy đồ ăn thì người khác chắc cũng đem theo."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "う～ん、確か…部長には娘さんと息子さんがいたな…。",
+        "translation": "Hmm, nếu anh nhớ không lầm thì… trưởng phòng có người con gái và người con trai."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "じゃあ、お子さんたちの物にしましょうよ。",
+        "translation": "Vậy thì mình sẽ chọn những món cho con của sếp đi."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そうだ。息子がサッカーに夢中になっているって、部長言ってたな。",
+        "translation": "Ừm, trưởng phòng có nói là cậu con trai của sếp rất say mê bóng đá."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そう、じゃ、それ系がいいんじゃない。",
+        "translation": "Ừm, vậy thì mấy cái liên quan đến bóng đá là được nhỉ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "じゃあさ、俺は、息子さんに買ってくるからさ。",
+        "translation": "Vậy anh sẽ mua cho cậu con trai."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "何かお譲さんのために考えてくれないか。",
+        "translation": "Em nghĩ giúp anh xem nên mua gì cho cô con gái của sếp đi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "小学生だって。",
+        "translation": "Nghe nói là học sinh tiểu học."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "わかった…。じゃ、やっぱり手作りで。",
+        "translation": "Dạ, vậy những món làm bằng tay đi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "私の得意の編み物でいいかあ？",
+        "translation": "Mấy đồ đan lát sở trường của em chắc được."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "それ、季節的にも、なかなか受けるんじゃないか。",
+        "translation": "Cái đó thì mùa nào anh nghĩ sẽ rất thích."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "この夫婦は何を準備しますか。",
+        "translation": "Vợ chồng này sẽ chuẩn bị thứ gì?"
+      }
+    ],
+    "question": {
+      "question": "この夫婦は何を準備しますか。",
+      "questionVi": "Vợ chồng này sẽ chuẩn bị thứ gì?",
+      "options": [],
+      "optionsVi": [],
+      "answerIndex": 2,
+      "explanation": "● なんか持ってか なきゃなんないよね…。 「～なきゃなんない」は、「～なければならない」の会話的なくだけた言い方。 ＝何か持っていかなければならないですよね。 ● そりゃそうだよ…。 ＝それは、そうですよ。 ● ほかの人たちと 重ならないようにしなきゃな。 「～と重なる」 は、ここでは 「～と同じになる」 という意味。 例 「論文のテーマは、ほかの学生と 重ならないようにしてください」 ● 重ならないように しなきゃな。 「しなきゃ」は、「しなくてならない」 の省略形。 ＝重ならないようにしなければなりません。 ● ほかの奴ら 「奴」は「人」のくだけた言い方。「奴ら」は複数形。 ＝ほかの人た"
+    }
+  },
+  {
+    "id": "n2-bai-1-4-9",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "９番",
+    "context": "図書館で図書館員と女子学生が話しています。",
+    "contextVi": "Ở thư viện, nhân viên thư viện và học sinh nữ đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_31.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "あ、書庫にかばんは持って入れませんよ。",
+        "translation": "À, không được mang cặp sách vào nơi để sách đâu."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "かばんはそこのロッカーに入れてください。",
+        "translation": "Vui lòng bỏ cặp sách vào tủ khóa đằng kia."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "あの、調べたいものがあるので、ノートとかいろいろいるんですが。",
+        "translation": "Dạ, em có cái muốn nghiên cứu, nên cần nhiều thứ như tập vở chẳng hạn ạ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それに携帯も辞書機能が…。",
+        "translation": "Hơn nữa, điện thoại cũng có chức năng tra từ điển…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "入り口に貼ってあったでしょ。",
+        "translation": "Ở ngoài cửa vào có dán rồi mà."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "携帯は持ち込み禁止です。",
+        "translation": "Nghiêm cấm mang điện thoại vào."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "あ、それもだめですよ。",
+        "translation": "À, cái đó cũng không được đâu."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "えっ、だめですか。",
+        "translation": "Dạ? Không được sao ạ?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "図書館内で飲んだり食べたりできませんよ。",
+        "translation": "Không được ăn uống trong thư viện đâu."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "すみません。あ、あのボールペンは中にもありますか。",
+        "translation": "Xin lỗi ạ. À, bút bi kia bên trong cũng có chứ ạ?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "筆記用具は持参してください。",
+        "translation": "Bút viết thì vui long đem theo."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "わかりました。",
+        "translation": "Dạ, em biết rồi ạ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "女子学生は何を持って入りますか。",
+        "translation": "Học sinh nữ sẽ mang vào thứ gì?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "うちの車の前で、父親と息子がキャンプに持って行くものについて話しています。",
+        "translation": "Trước chiếc ô tô của nhà mình, ông bố và người con trai đang nói chuyện về đồ vật mang đi cắm trại."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "この後、息子は何を取ってきますか。",
+        "translation": "Sau đây, người con trai sẽ lấy cái gì?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "Ｍ１（父）：さあ、だいたい必要なものは全部車に積み込んだな。",
+        "translation": "Chà, hầu hết những thứ cần thiết đã chất toàn bộ lên xe rồi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "忘れ物はないか。",
+        "translation": "Còn thứ nào để quên không?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "Ｍ２（息子）：あ～お父さん、これも持って行きたい。",
+        "translation": "À, bố ơi, con cũng muốn mang theo cái này."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "えー、だめだめ。",
+        "translation": "Không được, không được đâu."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "せっかく自然の中で遊べるのに…。",
+        "translation": "Hiếm có dịp chơi đùa ngoài thiên nhiên thế mà…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "そんな、部屋の中で座ってするようなもんは…。",
+        "translation": "Mấy thứ có thể ngồi trong phòng có thể chơi được như thế thì…"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "じゃあ、モトクロスは？",
+        "translation": "Vậy thì chiếc mô tô này thì sao ạ?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "森の中で駆け回れるよ。",
+        "translation": "Nó có thể chạy vòng quanh trong rừng ạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "う～ん、それはいいんだけど…",
+        "translation": "Ừ…m, cái đó thì được nhưng…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "もう荷台に入らないんじゃないかな。無理だ。",
+        "translation": "Chỗ để hành l&yacute; không biết có chứa được không nữa. Không được đâu."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "えー、それじゃあね…。",
+        "translation": "Nếu vậy thì…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "川が近くにあるんでしょ？",
+        "translation": "Ở gần đó có con sông phải không ạ?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "魚を釣って焼いて食べようよ。",
+        "translation": "Chúng ta câu cá rồi nướng ăn nhé."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "おおー、そりゃいいなあ。",
+        "translation": "Ồ, cái đó được đấy."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "やったー。じゃあ、あれも要るよね、魚焼くのに。",
+        "translation": "Yeah, vậy cái kia cũng cần để nướng cá đấy ạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "んー、場所とるけどな、詰めれば何とかなるか。",
+        "translation": "Hmm, cũng tốn nhiều chỗ nhưng nếu nhồi nhét vào thì chắc cũng ổn."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "うん。",
+        "translation": "Dạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "じゃ、すぐ取ってきてくれるか。",
+        "translation": "Vậy thì con đi lấy cái đó ngay cho bố nhá."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "は～い。",
+        "translation": "Dạ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "この後、息子は何と取ってきますか。",
+        "translation": "Sau đây, người con trai sẽ lấy cái gì?"
+      }
+    ],
+    "question": {
+      "question": "女子学生は何を持って入りますか。",
+      "questionVi": "Học sinh nữ sẽ mang vào thứ gì?",
+      "options": [],
+      "optionsVi": [],
+      "answerIndex": 2,
+      "explanation": "● 入り口も貼ってあった でしょ。 「～でしょ」は「～ね」と同様に確認をする時の表現。 ＝入り口にも貼ってありましたね。 例 「昨日休んだ でしょ、これ、宿題のプリントですよ」 １０番 1 ア イ 2 イ ウ 3 ウ エ 4 ア エ"
+    }
+  },
+  {
+    "id": "n2-bai-1-4-10",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "１１番",
+    "context": "市民センターで男の人と女の人が話をしています。",
+    "contextVi": "Ở trung tâm thị dân, người đàn ông và người phụ nữ đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_33.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "前回のイベント、全然人が集まらなかったんだって。",
+        "translation": "Sự kiện lần trước nghe nói chẳng có ai có mặt cả."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうなの。どうしてかなあ？",
+        "translation": "Thế hả? Sao vậy cà?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "このチラシのせいかな。",
+        "translation": "Chắc tại tờ bướm này nè."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "え、どれどれ。",
+        "translation": "Hả, đâu, cái nào đâu?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "うーん、このタイトルはわかりやすくていいね。",
+        "translation": "Ừ…m, cái tựa này dễ hiểu, cũng được."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "あ、でも、毎週っていうのがいけなかったんじゃないかな。",
+        "translation": "À, nhưng mà tuần nào cũng như vậy có lẽ là không nên."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "今度はせめて、１周おきにするとかさ。",
+        "translation": "Hay là lần này mình sẽ thay đổi ít nhất là mỗi tuần một lần."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それと、費用って、材料費？",
+        "translation": "Còn chi phí, tiền tài liệu thì sao?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ちょっと高い気もするけど、親子でって、考えればまあ、ね。",
+        "translation": "Tôi cũng cảm thấy hơi mắc, nhưng nếu nghĩ là chi phí chung của cha mẹ con cái thì cũng tàm tạm, nhỉ."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "イラストはどう？",
+        "translation": "Hình minh họa thì thế nào?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "シンプルでいいんじゃない。",
+        "translation": "Đơn giản là được rồi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "でかいし、カラーだし。",
+        "translation": "Vừa to, lại vừa màu sắc nữa."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "あ、絵の下に「内容」っていう項目を加えて、実際にどんなことをするか知らせるのはどう？",
+        "translation": "À, phía dưới bức tranh thêm mục \"Nội dung\", thông báo cho người ta biết thực tế mình sẽ làm gì, cậu thấy sao?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "それ、いいね。わかった。",
+        "translation": "Cái đó được à nha, tôi biết rồi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "いろいろありがとう。",
+        "translation": "Cảm ơn nhiều."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "さっそく変えてみるね。",
+        "translation": "Tôi sẽ mau chóng sửa thử xem."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "女の人はチラシのどの部分を変えますか。",
+        "translation": "Người phụ nữ sẽ thay đổi bộ phận nào của tờ bướm?"
+      }
+    ],
+    "question": {
+      "question": "女の人はチラシのどの部分を変えますか。",
+      "questionVi": "Người phụ nữ sẽ thay đổi bộ phận nào của tờ bướm?",
+      "options": [],
+      "optionsVi": [],
+      "answerIndex": 0,
+      "explanation": "● え、 どれどれ。 ＝私が見てみます。 例 孫：おばちゃん、お花の絵を描いたよ。 祖母： どれどれ見せて。うわー、上手に描けたねえ。 ● 今度は せめて、１周おきにするとかさ。 ＝今度は少なくとも、１周おきにしたらどうですか。 例 A：さっきのセミナー、長くて疲れちゃったよ。 B：うん。３時間休みなしってきついね。 せめて、間に１０分でも休憩があったら、よかったのにね。 ● 親子 でって、考えればまあ、ね。 「～でって」 は 「～でだと」 の省略形。 ＝親子での料金だと考えれば、納得できます。 例 A：このホテルの宿泊料金、高いね。 B：そんなことないよ。２人 でって、考えれば安い方だと思う"
+    }
+  },
+  {
+    "id": "n2-bai-1-4-11",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-1.html",
+    "level": "N2",
+    "pageTitle": "Bài-(1)",
+    "exerciseNumber": "１２番",
+    "context": "父親と母親が話しています。",
+    "contextVi": "&Ocirc;ng bố và bà mẹ đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_34.mp3",
+    "lines": [
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "ねえ、見て。",
+        "translation": "Này, anh nhìn nè."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "この、市からのお知らせに「もしもしホットライン」っていうのがあるんだけど。",
+        "translation": "Trong thông báo của thành phố này có viết \"A lô, đường dây nóng\"."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "相談無料だって。",
+        "translation": "Nghe đâu là trò chuyện trao đổi miễn phí."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "うちの子ども達のこと、相談してみない？",
+        "translation": "Hay mình thử trao đổi chuyện bạn bè của con chúng ta đi?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "どれどれ。うーん、そうだねえ。",
+        "translation": "Đâu, đâu nào? Ừ…m, phải rồi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "下の花子はクラスの友達とうまくっていないんだろう？",
+        "translation": "Hình như đứa em, Hanako, quan hệ không tốt với mấy đứa bạn cùng lớp thì phải?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうなの。友達の好き嫌いがあって、なかなかクラスになじめないとかって担任の先生から聞いてるの。",
+        "translation": "Đúng đó. Em nghe giáo viên chủ nhiệm nói rằng bạn bè thì có đứa thích, có đứa không thích, nên mãi nó vẫn chưa quen được với lớp"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そうか。",
+        "translation": "Vậy hả?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "でも、最近クラスに入って楽しそうだから、少し様子をみましょうかって。",
+        "translation": "Nhưng em nghe nói là dạo này vào lớp nó có vẻ vui nên thấy dáng vẻ được một chút."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それより、お兄ちゃん、最近家に帰って来るとすぐ自分の部屋に入ったっきりで出て来ないでしょう？",
+        "translation": "Nghiêm trọng hơn là thằng anh, dạo này về đến nhà là nó ở trong phòng suốt, không ra ngoài."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "何か言うと、すぐどなるし。",
+        "translation": "Nói nó thì nó hét lại ngay."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "俺とは全く口を利かなくなっただろう。",
+        "translation": "Anh thì có lẽ tiếng nói cũng chẳng hiệu lực gì."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "反抗期なんだなあ。",
+        "translation": "Nó vào giai đoạn phản kháng rồi."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そろそろ難しい年頃になってきたのかもしれないわね。",
+        "translation": "Có lẽ nó đã vào cái tuổi khó bảo rồi nhỉ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "学校にちゃんと通ってるだけ、いいかなって安心はしてるんだけど。",
+        "translation": "Chỉ cần nó đi học chăm chỉ là em đã an tâm rồi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "お隣の娘さん、もう１年も学校へ行っていないんですって。",
+        "translation": "Con bé nhà bên cạnh nghe nói đã một năm trời nó không đến trường đấy."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "へえ、そうなんだ。",
+        "translation": "Hả? Thế à?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それは大変だねえ。",
+        "translation": "Gay go nhỉ."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "ま、とにかく、ただなんだし、思い切って相談してみましょう。",
+        "translation": "Dù gì thì cũng miễn phí mà, nhất định mình sẽ thử trao đổi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "２人はどこに電話をかけますか。",
+        "translation": "Hai người sẽ điện thoại đi đâu?"
+      }
+    ],
+    "question": {
+      "question": "２人はどこに電話をかけますか。",
+      "questionVi": "Hai người sẽ điện thoại đi đâu?",
+      "options": [],
+      "optionsVi": [],
+      "answerIndex": 3,
+      "explanation": "● 下の花子はクラスの友達 とうまくいっていないんだろう？ 「～とうまくいっていない」は「～との関係がよくない」 例 Ａ：最近、彼と うまくいっていないんだ。 Ｂ：そうなの？実は私も。お互い仕事が忙しくて、全然会えないんだよね。 ● クラス になじめない 「なじめない」 は 「環境や雰囲気にまだ慣れていない状態」 例 Ａ：新しい会社はどう？もう慣れた？ Ｂ：う～ん。まだ１周間だからね。新しい環境 になじめるまでしばらく時間がかかると思うな。 ● 自分の部屋に入っ たっきりで出て来ない 「～たっきり」 は 「～してから （して以来） ずっと」 ＝自分の部屋に入ったまま、出て来ない。 例 「あ～、"
+    }
+  },
+  {
+    "id": "n2-bai-2-3-1",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-2.html",
+    "level": "N2",
+    "pageTitle": "Bài-(2)",
+    "exerciseNumber": "１番",
+    "context": "男の人と女の人が話しています。",
+    "contextVi": "Người đàn ông và người phụ nữ đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_35.mp3",
+    "lines": [
+      {
+        "speaker": "",
+        "name": "",
+        "text": "男の人が始めたいものはどれですか。",
+        "translation": "Đâu là cái người đàn ông muốn bắt đầu?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "何？このパンフレット。",
+        "translation": "Gì thế? Tập sách hướng dẫn này nè."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "インターネット市民講座？",
+        "translation": "Khóa học thị dân qua mạng?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "ああ、これ？だれでも参加できるインターネット塾みたいなものよ。",
+        "translation": "À, cái này hả? Nó giống như trường học tư thục qua mạng mà ai cũng có thể tham gia cả."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "家で気軽に学べるってところがいいから始めようかなって思ってるんだ。",
+        "translation": "Tôi định sẽ bắt đầu học, vì nó là nơi tốt, có thể học ở nhà một cách dễ dàng."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "へぇ、そうなんだ。",
+        "translation": "Àh, vậy à."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "わぁ、何十種類もあるんだね。",
+        "translation": "&Ocirc;i, có tới hàng chục khóa học lận."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "「アロマセラピーでリラックス講座」とか「簡単な野菜作り講座」とか。",
+        "translation": "\"Khóa học thư giãn với aromatherapy (cách chữa bằng xoa bóp dầu thơm\" nè, \"Khóa học trồng rau đơn giản\" nè."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "「お金が貯まる投資講座」っていうのもある。",
+        "translation": "Cũng có \"Khóa học đầu tư tích lũy tiền\" nữa."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "で、どれをやりたいの？",
+        "translation": "Vậy chị muốn học cái nào?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "私はね…、これ。太郎も大きくなったし、そろそろまた働きたいって思って。",
+        "translation": "Tôi hả…, cái này nè. Thằng bé Taro cũng đã lớn rồi, nên tôi muốn đi làm lại."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "この先、子どもの教育費だって、ずいぶんかかるから。",
+        "translation": "Trước mắt, tôi tốn khá bộn tiền, nào là tiền học cho con."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "うん、そうだね。",
+        "translation": "Ừm, ra là vậy."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "これだとね、パソコンの技術も上達するし、なんたって、ネットで情報がもらえるから、きっとすぐに役立つと思うんだ。",
+        "translation": "Cái này do kĩ thuật máy tính phát triển, nói gì thì nói, cũng có thể tiếp nhận thông tin bằng internet, nên tôi nghĩ chắc chắn sẽ giúp ích được ngay."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ねえ、あなたも何かやってみたら。",
+        "translation": "Này, anh cũng thử học cái gì đó xem sao."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "うん、おもしろそうだね。",
+        "translation": "Ừm, nghe cũng thú vị đó."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "俺だったら…、そうだなあ、これかあ。",
+        "translation": "Nếu là tôi thì…, đúng rồi, cái này đi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "給料が安いから、将来のためにお金を増やす方法を習いたいよ。",
+        "translation": "Vì lương ít ỏi nên tôi muốn học phương pháp làm tăng số tiền cho tương lai."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "うん、がんばってね。",
+        "translation": "Ừm, cố gắng lên nha."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "問１ 女の人が始めるものはどれですか。",
+        "translation": "Đâu là cái người phụ nữ bắt đầu?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "問２ 男の人が始めたいものはどれですか。",
+        "translation": "Đâu là cái người đàn ông muốn bắt đầu?"
+      }
+    ],
+    "question": {
+      "question": "女の人が始めるのものはどれですか。",
+      "questionVi": "Đâu là cái người phụ nữ bắt đầu?",
+      "options": [],
+      "optionsVi": [
+        "Khóa học chuẩn bị tìm việc mới",
+        "Khóa học căn bản về máy tính",
+        "Khóa học giao lưu quốc tế trên mạng",
+        "Khóa học đầu tư tích lũy tiền"
+      ],
+      "answerIndex": 0,
+      "explanation": "● インターネット塾 みたいなものよ。 ＝インターネット塾のようなものですよ。 例 Ａ：ｍｉｘｉってなんですか。 Ｂ：ＦａｃｅｂｏｏｋやＴｗｉｔｔｅｒ みたいなものだよ。ソーシャル・ネットワーキング・サービスの１つ。 ● 始めよう かなって思ってるんだ。 ＝始めようと思っています。 例 Ａ：実は、仕事を辞めよう かなって思ってるんだ。 Ｂ：えぇ？どうして？先月入社したばかりじゃない。 ● で、どれをやりたいの？ 「で」 は 「それで」 の省略した形。 例 Ａ：ねぇ、映画でも見ない？ Ｂ：いいよ。 で、何見たいの？ ● 子どもの教育費 だって、ずいぶんかかるから。 ある１つの例を挙げて、ほかにも"
+    }
+  },
+  {
+    "id": "n2-bai-2-4-2",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-2.html",
+    "level": "N2",
+    "pageTitle": "Bài-(2)",
+    "exerciseNumber": "２番",
+    "context": "男子学生と女子学生が話しています。",
+    "contextVi": "Học sinh nam và học sinh nữ đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_36.mp3",
+    "lines": [
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "ねえ、留学しないことにしたんだって。",
+        "translation": "Này, nghe nói cậu quyết định không đi du học hả?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "ああ、１年も行ってたら就職活動できないだろ、それでやめることにしたんだ。",
+        "translation": "À, nếu đi 1 năm thì chắc tớ không thể tìm việc làm được, vì vậy mà tớ đã quyết định từ bỏ."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "でも、留学帰りは就職に有利だって言うじゃない？",
+        "translation": "Nhưng chẳng phải người ta nói đi du học về thì sẽ có lợi với chuyện tìm việc làm sao?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "そうだけど、３年の夏から１年はきついよ。",
+        "translation": "Đúng là vậy, nhưng 1 năm kể từ hè năm thứ 3 sẽ rất căng."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "帰ってきたらみんな就職先が決まっていて、もう探せないような気がするんだ。",
+        "translation": "Khi tớ về thì mọi người đã có chỗ làm cả rồi, nên tớ sẽ cảm thấy dường như mình không thể tìm được nữa."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "時期が悪いよ。",
+        "translation": "Thời điểm không thích hợp đâu."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "うーん、そうかもね。",
+        "translation": "Ừ…m, có lẽ vậy."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "でも選択肢は狭くなるかも知れないけど、評価してくれる企業もあるんじゃない？",
+        "translation": "Có thể là lựa chọn sẽ hẹp đi nhưng cũng có những xí nghiệp đánh giá cao cho cậu chứ?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ほかの人とは違う経験してくるんだから。",
+        "translation": "Bởi vì cậu có những trải nghiệm khác với người khác mà."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "異文化体験だろ。",
+        "translation": "Có thể là trải nghiệm sự khác nhau về văn hóa."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "でもそれってわざわざ海外に行かなくてもさ、日本にだって外国人はいっぱいいるんだし…。",
+        "translation": "Nhưng cái đó thì không cần cất công ra tận nước ngoài đâu, người nước ngoài ở Nhật có đầy…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "とか何とかいって、本当は１人で行けないんじゃないの。",
+        "translation": "Nói này nói nọ chẳng qua là thật sự cậu không thể đi một mình chứ gì."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "えっ、何言ってるんだよ、そんなんじゃないよ。",
+        "translation": "Cậu nói gì thế, không có chuyện đó đâu."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "男子学生はどうして留学をやめることにしましたか。",
+        "translation": "Học sinh nam tại sao quyết định bỏ du học?"
+      }
+    ],
+    "question": {
+      "question": "男子学生はどうして留学をやめることにしましたか。",
+      "questionVi": "Học sinh nam tại sao quyết định bỏ du học?",
+      "options": [],
+      "optionsVi": [
+        "Thời điểm không thích hợp để du học",
+        "Khi đi học về thì sẽ bất lợi với việc tìm kiếm việc làm",
+        "Không thể có sự đánh giá cao của xí nghiệp",
+        "Ở tại Nhật cũng có thể trải nghiệm sự khác biệt về văn hóa"
+      ],
+      "answerIndex": 0,
+      "explanation": "● ああ、 ＝うん、はい、 男性の言葉。 例 Ａ：悪いけど、これ運んでくれない？ Ｂ： ああ、いいよ。 ● 留学帰りは就職に有利だって 言うじゃない？ ＝留学をして、帰国した人は就職に有利だって言われていますね。 例 Ａ：えっ、１人でイギリスに行きたいって、だめです、まだ中学生じゃない。 Ｂ：「かわいい子には旅をさせろ」って 言うじゃない。 ね、お母さん、お願い。 参考 仕事帰り＝仕事の帰りに アメリカ帰り＝アメリカから帰ってきた人 ● 有利&harr;不利 ● ３年の夏から１年は きついよ、 ＝３年の夏から１年はきびしいですよ、 Ａ：朝５時までテレビでサッカー見て応援して、それから仕事だなん"
+    }
+  },
+  {
+    "id": "n2-bai-2-5-3",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-2.html",
+    "level": "N2",
+    "pageTitle": "Bài-(2)",
+    "exerciseNumber": "３番",
+    "context": "会社で女の人と男の人が話しています。",
+    "contextVi": "Ở công ty, người phụ nữ và người đàn ông đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_37.mp3",
+    "lines": [
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "会社辞めたいんだって？どうしたの。",
+        "translation": "Nghe nói anh muốn nghỉ làm phải không? Sao thế?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "やっぱ向いてなかった…。",
+        "translation": "Tôi không thấy thích hợp…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "何言ってるの。",
+        "translation": "Anh nói gì thế?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "また部長に叱られたの？",
+        "translation": "Lại bị trưởng phòng la nữa rồi phải không?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "お客さんから何か嫌なこと言われたの？",
+        "translation": "Bị khách hàng nói những điều gì không thích hả?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "そりゃ、誰にだっていろいろ嫌なことってあるじゃない？",
+        "translation": "Ai cũng có nhiều chuyện không hài lòng hết mà."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "お客さんからのクレームなんていつもだけど、そんなんじゃないんだ。",
+        "translation": "Khách hàng thì lúc nào cũng than phiền cả, nhưng mà đâu phải vậy đâu."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "やりがいを感じないんだ。",
+        "translation": "Tôi không có cảm giác đáng để làm."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "ここ入って２年くらいでしょ？",
+        "translation": "Anh vào đây được khoảng 2 năm rồi phải không?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "そんな簡単に辞めるって決めるもんじゃないんじゃない？",
+        "translation": "Không nên quyết định nghỉ dễ dàng như vậy được."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "とにかく３年はやってみるべきね。",
+        "translation": "Dù sao anh cũng nên thử làm 3 năm đi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "どうしてもほかにやりたいことがあるなら別だけど。",
+        "translation": "Trừ phi anh có công việc gì khác muốn làm."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "でも辞めるって言っちゃったよ。",
+        "translation": "Nhưng tôi đã nói rằng sẽ nghỉ làm rồi."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "大丈夫よ。",
+        "translation": "Không sao đâu."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "皆そういうことあるから、部長もわかってるはず。",
+        "translation": "Ai cũng có lúc nói thế, trưởng phòng chắc cũng hiểu mà."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "さあ、仕事、仕事。",
+        "translation": "Nào làm việc thôi, làm việc thôi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "男の人はどうして会社を辞めると言っていますか。",
+        "translation": "Tại sao người đàn ông nói rằng sẽ nghỉ làm?"
+      }
+    ],
+    "question": {
+      "question": "男の人はどうして会社を辞めると言っていますか。",
+      "questionVi": "Tại sao người đàn ông nói rằng sẽ nghỉ làm?",
+      "options": [],
+      "optionsVi": [
+        "Vì có công việc khác muốn làm",
+        "Vì không phải công việc đáng làm",
+        "Vì bị sếp la nên không muốn làm nữa",
+        "Vì lúc nào cũng bị than phiền"
+      ],
+      "answerIndex": 1,
+      "explanation": "● やっぱ 向いてなかった ＝やはり合っていなかった 例 「話の得意でない私には、営業の仕事は 向いていません」 ● 嫌なことって あるじゃない 同意を求めるときに使う表現。 例 Ａ：今日は元気ないけど、どうしたの？ Ｂ：何もやりたくない日って あるじゃない。 ● 決める もんじゃないんじゃない？ 一般に～ではないことを表す表現。 「決めるものではない」 の会話体。 例 Ａ：相手は優勝候補のチームだよ。 Ｂ：そんなに簡単に勝てる もんじゃないんじゃない？でも、勝ってほしいよね。"
+    }
+  },
+  {
+    "id": "n2-bai-2-6-4",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-2.html",
+    "level": "N2",
+    "pageTitle": "Bài-(2)",
+    "exerciseNumber": "４番",
+    "context": "スーパーマーケットに買い物に来た男の人と女の人が話しています。",
+    "contextVi": "Người đàn ông và người phụ nữ đến mua sắm tại siêu thị đang nói chuyện với nhau.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_38.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "あれ、レジで袋もらわなかったんだね。",
+        "translation": "Ủa, chị không lấy túi đựng ở quầy tính tiền hả?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "うん、これ、あるもん。",
+        "translation": "Ừm, tại tôi có cái này rồi."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "その派手な袋は何さ？",
+        "translation": "Cái túi sặc sỡ đó là gì vậy?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "あ、これ、エコバッグよ、この花柄がかわいいし、色もきれいでしょ。",
+        "translation": "À, cái này là túi sinh học"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "セーターを買うとショップでくれるのよ。",
+        "translation": "Tôi nhận ở cửa hàng khi mua áo len."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "友だちもこのエコバッグをもらうためにセーター買ったし。",
+        "translation": "Bạn tôi cũng đã mua áo len để được nhận túi sinh học này nữa."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "えっ、これもらうのに、あの高いブランドセーターを買うの。",
+        "translation": "Hả? Mua áo len hàng hiệu đắt tiền đó để nhận cái này à?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ばかげてるんじゃない？",
+        "translation": "Ngớ ngẩn nhỉ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "レジ袋だったらただのなのに。",
+        "translation": "Túi đựng ở quầy tính tiền miễn phí vậy mà…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "これ持ってると、ゴミを減らすエコ運動に協力している気にもなるでしょ。",
+        "translation": "Khi có cái này, tôi cũng cảm thấy mình đang chung tay góp sức vào cuộc vận động môi trường làm giảm rác thải."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それに、何と言ってもデザインがいいもの。",
+        "translation": "Hơn nữa, nói gì thì nói, kiểu dáng nó cũng hay nữa."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "まあ、地球温暖化の防止にはいいことだろうけど。",
+        "translation": "Đây có lẽ là việc làm tốt để ngăn ngừa hiện tượng trái đất nóng lên."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "袋の使い捨てはエネルギーのむだ遣いだっていうしね。",
+        "translation": "Vì dùng một lần rồi vứt túi đựng là lãng phí năng lượng."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "女の人がスーパーマーケットのレジで袋をもらわない一番の理由は何ですか。",
+        "translation": "L&yacute; do hàng đầu khiến người phụ nữ không nhận túi đựng ở quầy tính tiền của siêu thị là gì?"
+      }
+    ],
+    "question": {
+      "question": "女の人がスーパーマーケットのレジで袋をもらわない一番の理由はなんですか。",
+      "questionVi": "L&yacute; do hàng đầu khiến người phụ nữ không nhận túi đựng ở quầy tính tiền của siêu thị là gì?",
+      "options": [],
+      "optionsVi": [
+        "Vì khi nhận túi đựng ở quầy tính tiền, sẽ tốn tiền",
+        "Vì muốn sử dụng túi sinh học ở cửa hàng nổi tiếng",
+        "Vì muốn mua áo len hàng hiệu",
+        "Vì phải nỗ lực ngăn ngừa hiện tượng trái đất nóng lên"
+      ],
+      "answerIndex": 1,
+      "explanation": "● その派手な袋は何さ？ ＝その派手な袋は何ですか。 ● ばかげてるんじゃない？ ＝ばかばかしいですね。 例 Ａ：子ども用の薬に 「飲んだ後、運転しないでください」 って書いてあるよ。 Ｂ： ばかげた話だね。"
+    }
+  },
+  {
+    "id": "n2-bai-2-7-5",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-2.html",
+    "level": "N2",
+    "pageTitle": "Bài-(2)",
+    "exerciseNumber": "５番",
+    "context": "電話で男の人が携帯ショップの人と話しています。",
+    "contextVi": "Người đàn ông đang nói chuyện điện thoại với nhân viên cửa hàng điện thoại di động.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_39.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "あのー、携帯の解約したいんですが。",
+        "translation": "Ừ…m, tôi muốn hủy hợp đồng điện thoại di động."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "解約ですか。",
+        "translation": "Hủy hợp đồng?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "１年以内の解約の場合は違約金と解約手数料がかかりますが。",
+        "translation": "Trường hợp trong 1 năm mà qu&yacute; khách hủy hợp đồng thì sẽ mất phí hủy hợp đồng và tiền vi phạm hợp đồng ạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "解約手数料って？",
+        "translation": "Phí hủy hợp đồng là sao?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "契約の時にご説明させていただいたと思うんですが、１年以内の解約の場合かかるというお金でして…。",
+        "translation": "Cái đó chúng tôi đã giải thích cho qu&yacute; khách khi kí hợp đồng rồi ạ, đó là số tiền mà qu&yacute; khách sẽ tốn nếu như trong 1 năm qu&yacute; khách hủy hợp đồng."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "え、そうだっけ。",
+        "translation": "À, thế hả."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "お金がかかるのか…。うーん。",
+        "translation": "Tốn tiền à… Hmm…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "現金でも、翌月の請求書への加算でも大丈夫ですが、現金をご希望でしたら１００００円お持ちになって…",
+        "translation": "Trả bằng tiền mặt cũng được, mà cộng dồn vào giấy báo thanh toán vào tháng tới cũng được, nếu qu&yacute; khách muốn trả bằng tiền mặt thì qu&yacute; khách sẽ mang 10000 yen…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "お電話では解約できかねますのでショップの方で手続きしていただけますか。",
+        "translation": "Vì chúng tôi không thể hủy hợp đồng qua điện thoại, nên phiền qu&yacute; khách vui lòng làm thủ tục tại cửa hàng ạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "お店に行くのはいいけど…。",
+        "translation": "Đến cửa hàng cũng được, nhưng mà…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "すみません、やっぱ、やめとくわ。どうも。",
+        "translation": "Xin lỗi, vậy thôi, tôi không hủy nữa. Cảm ơn."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "男の人はどうして携帯の契約をやめましたか。",
+        "translation": "Tại sao người đàn ông thôi không hủy hợp đồng điện thoại di động nữa?"
+      }
+    ],
+    "question": {
+      "question": "男の人はどうして携帯の解約をやめましたか。",
+      "questionVi": "Tại sao người đàn ông thôi không hủy hợp đồng điện thoại di động nữa?",
+      "options": [],
+      "optionsVi": [
+        "Vì không thể làm thủ tục qua điện thoại",
+        "Vì không có tiền mặt",
+        "Vì mất phí hủy hợp đồng",
+        "Vì phải đến cửa hàng"
+      ],
+      "answerIndex": 2,
+      "explanation": "● お電話では解約 できかねます 「できかねます」 は 「～することができない」、「～するのはむずかしい」 という意味。 ＝お電話では解約できないのです。 例 「その意見には賛成 しかねます」"
+    }
+  },
+  {
+    "id": "n2-bai-2-8-6",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-2.html",
+    "level": "N2",
+    "pageTitle": "Bài-(2)",
+    "exerciseNumber": "６番",
+    "context": "母親と娘が話しています。",
+    "contextVi": "Người mẹ và con gái đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_40.mp3",
+    "lines": [
+      {
+        "speaker": "",
+        "name": "",
+        "text": "Ｆ１（母）：せっかくのお姉ちゃんの結婚式だっていうのに、本当に着物、着なくてもいいの？",
+        "translation": "Hiếm khi có dịp dự lễ cưới của chị con vậy mà, thiệt tình là con thấy không mặc kimono cũng được sao?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "Ｆ２（娘）：だって、似合わなくない？",
+        "translation": "Mẹ không thấy nó không hợp với con sao?"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "この前買った花柄のワンピースでいいでしょ？",
+        "translation": "Mặc chiếc áo đầm hoa bữa trước con mua chắc được hả mẹ?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "似合わないことないわよ…。",
+        "translation": "Hợp với con mà…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "あの桜と蝶々の模様、とってもいいのに…。",
+        "translation": "Họa tiết hoa anh đào và bươm bướm, rất là đẹp vậy mà…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "でもー、ちょっと派手だし…。",
+        "translation": "Nhưng mà, nó hơi sặc sỡ…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "みんなが派手な時は、逆に地味な方が目立っていいでしょう。",
+        "translation": "Khi người nào cũng sặc sỡ thì ngược lại, những người ăn mặc giản dị sẽ nổi bật mà mẹ."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "だけど…、こんな時じゃないと着物なんて、なかなか着る機会がないんじゃないの？",
+        "translation": "Thì là vậy, … nhưng chẳng phải chỉ những lúc như thế này thì con mới có cơ hội được mặc kimono sao?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "大丈夫。成人式の時に着るから…。",
+        "translation": "Không sao đâu mẹ. Con sẽ mặc vào lễ thành nhân…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それになんたって、帯って苦しくて…披露宴の料理が食べられなかったらいやだもん。",
+        "translation": "Và hơn hết là vì dây đai obi rất chặt… làm con không thể ăn trong bữa tiệc được."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "なんだ…、そういうこと。",
+        "translation": "Sao cơ… chuyện đó à."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "じゃ、帯はゆるめに結んであげるから。",
+        "translation": "Thế thì mẹ sẽ thắt dây đai nới lỏng ra cho con."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "うーん、でもやっぱり帯は…。",
+        "translation": "Ừ…m, nhưng con vẫn thấy dây đai nó…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "しょうがないわね…。",
+        "translation": "Hết cách rồi đó."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "娘が姉の結婚式に着物を着て行きたくない一番の理由は何ですか。",
+        "translation": "L&yacute; do hàng đầu khiến người con gái không muốn mặc kimono trong lễ cưới của chị gái là gì?"
+      }
+    ],
+    "question": {
+      "question": "娘が姉の結婚式に着物を着て行きたくない一番の理由は何ですか。",
+      "questionVi": "L&yacute; do hàng đầu khiến người con gái không muốn mặc kimono trong lễ cưới của chị gái là gì?",
+      "options": [],
+      "optionsVi": [
+        "Vì kimono không hợp",
+        "Vì kimono giản dị hơn &Acirc;u phục",
+        "Vì dây đai của kimono chặt",
+        "Vì sẽ mặc kimono vào lễ thành nhân"
+      ],
+      "answerIndex": 2,
+      "explanation": "● 似合わ なくない？ 「～なくない？」 は、相手の意見を求める時のくだけた表現。 ＝似合わないんじゃありませんか。 ● 似合わないことないわよ…。 ＝似合いますよ。 ● 逆に地味な 方が目立って いいでしょう。 ＝（派手なみんなとは反対に）地味な方が、目立つからいい。 例 「みんなが出かける連休は、 逆に家で静かにしていた 方がいいよ」 ● なんたって、帯って苦しくて… ＝帯がきついことが、一番の理由です。 例 Ａ：この店は、本当にいいよね。 Ｂ： なんたって、安いからね。 ● 披露宴の料理が食べられなかったらいやだ もん。 「～もん」は、理由は言い訳を表す「～もの」のくだけた表現。 ＝披露"
+    }
+  },
+  {
+    "id": "n2-bai-2-9-7",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-2.html",
+    "level": "N2",
+    "pageTitle": "Bài-(2)",
+    "exerciseNumber": "７番",
+    "context": "男の人がサービスセンターに電話をしています。",
+    "contextVi": "Người đàn ông đang điện thoại đến trung tâm bảo dưỡng.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_41.mp3",
+    "lines": [
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "あのう、電子辞書の調子が悪くて、修理に出したいんですが。",
+        "translation": "Hmm, tình trạng kim từ điển của tôi không được ổn, nên tôi muốn đi sửa."
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "保証期間内でしたら無料にて修理します。",
+        "translation": "Nếu trong thời gian bảo hành thì chúng tôi sẽ sửa chữa miễn phí ạ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "状態をお書きになって、保証書のコピーをつけてお送りください。どんな状態ですか。",
+        "translation": "Qu&yacute; khách ghi rõ tình trạng máy, và gửi bản sao phiếu bảo hành cho chúng tôi ạ. Tình trạng thế nào ạ?"
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "落としたんですよね。",
+        "translation": "Tôi làm rơi nó."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "そしたら、ダメになっちゃって。",
+        "translation": "Thế là nó bị hư luôn."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "まだ、保証期間内だから無料かな…。",
+        "translation": "Vì vẫn còn trong thời gian bảo hành nên miễn phí à…"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "そうですか、その場合は保証対象外ですから、有料になります。",
+        "translation": "Ra là vậy, trường hợp đó nằm ngoài đối tượng bảo hành, nên sẽ tốn tiền ạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "有料？そりゃ痛いな。",
+        "translation": "Tốn tiền hả? Vậy là gay go rồi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "で、どのくらいでできますか。",
+        "translation": "Thế khoảng bao lâu thì xong?"
+      },
+      {
+        "speaker": "Ｆ",
+        "name": "",
+        "text": "状態にもよりますが、３週間ほどみていただければ。",
+        "translation": "Cũng tùy thuộc vào tình trạng máy nữa ạ, khoảng độ 3 tuần ạ."
+      },
+      {
+        "speaker": "Ｍ",
+        "name": "",
+        "text": "３週間か…。",
+        "translation": "3 tuần à…"
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ま、それはいいけど…、ちょっと、考えてみます。ありがとう。",
+        "translation": "Vậy thì được…, nhưng tôi sẽ thử suy nghĩ. Cảm ơn."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "男の人はどうして電子辞書の修理をあきらめましたか。",
+        "translation": "Tại sao người đàn ông thôi không sửa kim từ điển nữa?"
+      }
+    ],
+    "question": {
+      "question": "男の人はどうして電子辞書の修理をあきらめましたか。",
+      "questionVi": "Tại sao người đàn ông thôi không sửa kim từ điển nữa?",
+      "options": [],
+      "optionsVi": [
+        "Vì tốn thời gian",
+        "Vì ngoài thời hạn bảo hành",
+        "Vì nằm ngoài đối tượng được bảo hành",
+        "Vì làm mất phiếu bảo hành"
+      ],
+      "answerIndex": 2,
+      "explanation": "● 無料 にて修理します。 「にて」 は 「で」 の改まった表現。 ＝無料で修理します。 例 「お支払いは現金 にてお願い致します」 ● ダメになっちゃって。 例 「ダメになってしまって」 の会話的な表現。 ● そりゃ 痛いな。 何か困ったことがある時に使う表現。 ＝それはちょっと困るな。 例 Ａ：車をぶつけて、修理代に１０万円もかかってしまって。 Ｂ：それは 痛いね。 ● 状態に もよりますが、 ＝状態によってはできないこともあります。（ここでは）電子辞書の状態が悪ければ、 例 「交通手段 にもよりますが、東京からここまでは少なくとも１時間はかかります」 ● ３週間ほど みていただければ。 "
+    }
+  },
+  {
+    "id": "n2-bai-3-3-1",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-3.html",
+    "level": "N2",
+    "pageTitle": "Bài-(3)",
+    "exerciseNumber": "１番",
+    "context": "飲食店で店長が話しています。",
+    "contextVi": "Tại cửa hàng ăn uống, chủ quán đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_42.mp3",
+    "lines": [
+      {
+        "speaker": "",
+        "name": "",
+        "text": "当店でも火を扱っていますので火の扱いには十分に気をつけてもらいたいと思ってるんですが。",
+        "translation": "Tiệm của chúng ta cũng dùng lửa nên rất mong mọi người cẩn trọng khi dùng lửa."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "来週防災訓練をするように消防署から指示が入りました。",
+        "translation": "Chúng ta nhận được chỉ thỉ của đội cứu hỏa rằng tuần sau họ sẽ tập huấn phòng chống hỏa hoạn."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "えー、当日は管轄の消防署の方が見えて消火の仕方についての実地訓練があります。",
+        "translation": "Hôm đó những người trong đội cứu hỏa chủ quản sẽ đến và huấn luyện tại chỗ cách thức dập lửa."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それで今日皆さんにお願いしたいのは、消防署へ通報する人、お客様を誘導する人、消火する人などの担当をもう一度確認しておいてもらいたいということなんです。",
+        "translation": "Vì thế hôm nay tôi muốn mọi người xác nhận một lần nữa về việc đảm nhiệm của người thông báo cho đội cứu hỏa, người hướng dẫn cho khách hàng, và người dập lửa."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "後で掲示板にその担当者の名前を記入しますのでよろしくお願いします。",
+        "translation": "Sau đó tôi sẽ viết tên của những người phụ trách đó trên bảng thông báo, mong mọi người giúp đỡ."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "店長は何について確認するように言っていますか。",
+        "translation": "Chủ quán nói rằng sẽ xác nhận lại việc gì?"
+      }
+    ],
+    "question": {
+      "question": "Ｍ：近頃飲食店での火事が多発しています。",
+      "questionVi": "Gần đây xảy ra nhiều vụ cháy ở các cửa hàng ăn uống.",
+      "options": [],
+      "optionsVi": [
+        "Xác nhận lại ngày giờ tập huấn phòng cháy",
+        "Xác nhận lại phương pháp chữa cháy",
+        "Xác nhận lại phương pháp hướng dẫn",
+        "Xác nhận lại việc đảm nhiệm"
+      ],
+      "answerIndex": 3,
+      "explanation": "● 火 の扱いには十分気をつけてもらいたい ＝火を使うときには注意をしてほしい 例 Ａ：ちょっとこのデータのパソコンに入力しておいて。 Ｂ：すみません、最新のパソコン の扱いはちょっと苦手で…。 ● 確認 しておいてもらいたい ＝確認しておいてほしい 例 Ａ：会議までに、この書類を１０部コピー しておいてもらいたいんですが。 Ｂ：はい、かしこまりました。"
+    }
+  },
+  {
+    "id": "n2-bai-3-4-2",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-3.html",
+    "level": "N2",
+    "pageTitle": "Bài-(3)",
+    "exerciseNumber": "２番",
+    "context": "テレビのワイドショーで司会者が芸能人の旅行について話しています。",
+    "contextVi": "Trong chương trình truyền hình, người dẫn chương trình đang nói về chuyến du lịch của người nghệ sĩ.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_43.mp3",
+    "lines": [
+      {
+        "speaker": "",
+        "name": "",
+        "text": "出発予定時刻１５分前に登場ゲートにエイジさんが先に姿を見せ、取材陣の「婚前旅行ですか」という質問には、無言で微笑んでいました。",
+        "translation": "Eiji đã có mặt tại hàng ghế chờ lên máy bay, trước giờ dự định khởi hành 15 phút, trước câu hỏi của các phóng viên săn tin \"Đây có phải là chuyến du lịch trước khi cưới không?\", anh không nói gì mà chỉ mỉm cười."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "その約５分後、ユキさんが現れました。",
+        "translation": "Khoảng 5 phút sau, Yuki cũng xuất hiện."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "流行りの帽子をかぶってサングラスをかけ、取材陣には「家族での旅行です」と答え、ハワイでの予定を質問されると、「ゴルフを楽しみたいと思います」と笑顔で答えました。",
+        "translation": "Đội chiếc nón đang mốt và đeo cặp kính mát, cô đã trả lời cánh phóng viên \"Đây là chuyến du lịch cùng gia đình.\", khi được hỏi về dự định khi đến Hawaii, cô cười và trả lời \"Tôi muốn chơi golf.\""
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "司会者は、何について話していますか。",
+        "translation": "Người dẫn chương trình đang nói về điều gì?"
+      }
+    ],
+    "question": {
+      "question": "Ｆ：交際中の歌手のエイジさんと映画女優のユキさんが昨夜、両親や兄弟を同伴で、成田空港からハワイへ出発し、「結婚も近いのでは？」とマスコミを騒がせています。",
+      "questionVi": "Tối qua nữ diễn viên Yuki và người yêu là ca sĩ Eiji đã cùng cha mẹ và anh em khởi hành từ sân bay Narita đi Hawai, đang làm xôn xao giới truyền thông rằng \"Họ sắp kết hôn?\".",
+      "options": [],
+      "optionsVi": [
+        "Chuyến du lịch cùng gia đình của diễn viên và ca sĩ",
+        "Thời trang đang thịnh hành của nữ diễn viên",
+        "Chuyến du lịch trước khi cưới của đôi nghệ sĩ",
+        "Trận golf trong chuyến du lịch Hawaii"
+      ],
+      "answerIndex": 2,
+      "explanation": "● 両親や兄弟を 同伴で 「～同伴」 は、「～と一緒に」 という意味。 ＝両親や兄弟も一緒に 例 「このクラブは、男性は女性 同伴でなければ、入れません」 ● マスコミを騒がせています。 ＝テレビや新聞で、色々なことが言われています。 例 「今回の首相の発言が マスコミを騒がせています」 ● エイジさんが先に 姿を見せ、 ＝エイジさんが先に来て、 例 「最近、山田さんが 姿を見せないけど、元気なのかな？」 ● 無言 ＝何も言わないで ● 流行りの帽子をかぶって 「流行りの～」 は、「流行の～」 という意味。 例 「近頃 流行りのゲーム、まだやったことがないんだ」"
+    }
+  },
+  {
+    "id": "n2-bai-3-5-3",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-3.html",
+    "level": "N2",
+    "pageTitle": "Bài-(3)",
+    "exerciseNumber": "３番",
+    "context": "女の人が話しています。",
+    "contextVi": "Người phụ nữ đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_44.mp3",
+    "lines": [
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ま、交通費ぐらいはいただいてるんですが。",
+        "translation": "Tôi chỉ nhận tiền chi phí đi lại."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "一応、通訳の資格がないとできないんですよ。",
+        "translation": "Quy định là nếu như không có chứng chỉ thông dịch, sẽ không thể làm công việc này."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "もともと翻訳をやってたこともあってね。",
+        "translation": "Trước đây tôi đã từng làm phiên dịch."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "何か社会に役に立つことをしたいと思って、応募したんですよ。",
+        "translation": "Tôi muốn làm điều gì đó có ích cho xã hội, nên tôi đã đăng kí ứng tuyển."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "結構、あちこちのお国の方が見えるんでね。",
+        "translation": "Vì có khá nhiều người ở các quốc gia đến đó."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "説明が終わって、別れる時に「ありがとうございました。また、来ます」なんて言われると、ずっと続けなきゃって気になるんですよ。",
+        "translation": "Giải thích cho họ xong, đến lúc chia tay, được mọi người nói \"Xin cảm ơn. Chúng tôi sẽ ghé nữa.\" thì tôi có cảm giác mình phải tiếp tục công việc này mãi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ボランティアは２０代後半から７０代前半ぐらいまでで、女性が８割でしょうかね。",
+        "translation": "Tình nguyện viên từ độ tuổi từ 26-75, có lẽ trong đó 80% là nữ giới, tôi nghĩ thế."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "ほとんどが日本人なんですが、日本語が上手な外国の方もやってますよ。",
+        "translation": "Hầu hết là người Nhật, và những người nước ngoài giỏi tiếng Nhật họ cũng làm nữa."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "時間制限があるんで、なかなか説明しきれず、じっくり最後までご案内できなくて残念なときが多いんですけどね。",
+        "translation": "Vì thời gian có hạn nên nhiều lúc cảm thấy tiếc vì không thể giải thích hết, cũng như hướng dẫn cặn kẽ đến cùng cho họ được."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "女の人が博物館でボランティアを続けている理由は何ですか。",
+        "translation": "L&yacute; do người phụ nữ tiếp tục làm tình nguyện viên ở viện bảo tàng là gì?"
+      }
+    ],
+    "question": {
+      "question": "Ｆ：６８歳になるんですが、博物館でボランティアしているんです。",
+      "questionVi": "Tôi đã 68 tuổi, và đang làm tình nguyện tại viện bảo tàng.",
+      "options": [],
+      "optionsVi": [
+        "Vì đội ngũ nữ tình nguyện viên là 80%",
+        "Vì muốn được mọi người nói muốn đến nữa",
+        "Vì được viện bảo tàng trợ cấp chi phí đi lại",
+        "Vì chưa thể giải thích một cách đầy đủ cặn kẽ"
+      ],
+      "answerIndex": 1,
+      "explanation": "● 一応、通訳の資格がないとできないんですよ、 ＝通訳が資格がないとできないということになっているんですよ、 例 「必要ないかもしれませんが、毎日、 一応、学生証は持ってきて下さい」 ● もともと翻訳をやってた ＝前から翻訳をやっていた 例 Ａ：山田君、誘ったのにまだカラオケには行かないって。 Ｂ：彼は、 もともとひとり静かにしている方が好きなんだよ。 ● 結構、あちこちのお国の方 ＝かなりいろいろな国からいらっしゃるので。 例 Ａ：昨日、動物園に初めて行かれたそうですね。どうでしたか。 Ｂ：ええ、 結構、面白かったですよ。 ● 女性が８割 でしょうかね。 ＝女性が８割でしょうか、たぶんそうだ"
+    }
+  },
+  {
+    "id": "n2-bai-3-6-4",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-3.html",
+    "level": "N2",
+    "pageTitle": "Bài-(3)",
+    "exerciseNumber": "４番",
+    "context": "大学の入学式で学長が話しています。",
+    "contextVi": "Hiệu trưởng đang nói chuyện trong lễ khai giảng vào đại học.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_45.mp3",
+    "lines": [
+      {
+        "speaker": "",
+        "name": "",
+        "text": "当校でも留学生にとって魅力的な大学作りをめざし、英語で行う授業や、交換留学制度の推進、また留学生の生活支援策として寮を新たに建設、奨学金も充実させました。",
+        "translation": "Nhằm hướng tới tạo dựng một trường đại học có sức hút với các du học sinh, trường chúng ta cũng đã thực hiện các giờ học học bằng tiếng Anh, thúc đẩy chế độ trao đổi du học, xây mới k&yacute; túc xá như là cách hỗ trợ đời sống cho du học sinh, cũng như cung cấp tiền học bổng."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "その成果もあり、いまや世界２０か国から８００人もの留学生が様々な学部で学んでおります。",
+        "translation": "Với thành quả đó mà hiện nay có đến 800 du học sinh ở 20 quốc gia trên thế giới đang học tập tại nhiều khoa trong trường chúng ta."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "今後は留学生の募集から企業への就職指導までを、大学の教職員が一丸となって行うよう努力していきたいと思います。",
+        "translation": "Từ giờ tôi rất mong toàn thể giáo viên trong trường nỗ lực thực hiện từ việc tuyển du học sinh đến việc hướng dẫn các em tìm việc tại các xí nghiệp."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "学長は何について話していますか。",
+        "translation": "Hiệu trưởng đang nói về điều gì?"
+      }
+    ],
+    "question": {
+      "question": "Ｍ：今日社会が地球規模で発達し、それに伴い人的交流も国境を越えて盛んに行われるようになってきました。",
+      "questionVi": "Ngày nay, xã hội phát triển theo quy mô toàn cầu, cùng với đó, mối giao lưu nhân loại cũng thường xuyên được thực hiện, vượt qua biên giới của một lãnh thổ.",
+      "options": [],
+      "optionsVi": [
+        "Việc biến trở thành trường đại học có sức hút đối với du học sinh",
+        "Việc muốn trở thành trưởng đại học có sức hút đối với du học sinh",
+        "Việc thực hiện hỗ trợ tìm kiếm việc làm cho du học sinh",
+        "Về sự cần thiết của việc giáo dục tiếng Anh trong trường đại học"
+      ],
+      "answerIndex": 0,
+      "explanation": "● 人的交流も国境 を越えて ＝人的交流も国の違いを気にせずに 例 「危険ですので、この線 を越えて向こう側に入らないようにしてください」 ● 盛んに行われるようになってきました。 ＝何度も、しばしば行われるようになってきました。 例 Ａ：最近、駅前で、居酒屋なんかが 盛んに客を勧誘してるね。 Ｂ：そうだね。やっぱり不景気でお客が少ないのかな。 ● 当校でも ＝私どものこの大学でも 例 客：あのう、北海道に行きたいんですが、パンフレットのこのコースはまだ申し込めますか。 店員：お客様、 当コースは人気がございまして、残念ながらもう店員に達しましたので…。 ● いまや世界２０か国から８００人もの"
+    }
+  },
+  {
+    "id": "n2-bai-3-7-5",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-3.html",
+    "level": "N2",
+    "pageTitle": "Bài-(3)",
+    "exerciseNumber": "５番",
+    "context": "男の人が話しています。",
+    "contextVi": "Người đàn ông đang nói chuyện.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_46.mp3",
+    "lines": [
+      {
+        "speaker": "",
+        "name": "",
+        "text": "弊社はアメリカの株を中心に扱っておりますアメリカの証券会社で、皆様ご存じのようにお陰さまで非常によい成績をあげております。",
+        "translation": "Công ty chúng tôi là công ty chứng khoán của Mỹ, chuyên về cổ phiếu của Mỹ, như mọi người đã biết, công ty chúng tôi có thành tích rất tốt."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "このたび、アメリカだけでなく、広く世界に出て、グローバルに投資をすることになりました。",
+        "translation": "Nhân dịp này, chúng tôi quyết định đầu tư toàn cầu, không chỉ xuất hiện ở Mỹ mà sẽ mở rộng khắp thế giới."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "私は世界の株に投資するための調査を今までよりもっと正確にするために、アジア地域の担当者として、東京に参りました。",
+        "translation": "Tôi đã đến Tokyo với tư cách là người đảm nhiệm khu vực châu Á, để làm cuộc điều tra về đầu tư cổ phiếu được chính xác hơn trước đây."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "よろしくご指導お願いいたします。",
+        "translation": "Rất mong được sự hướng dẫn của mọi người."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "男の人はどの地域の担当者ですか。",
+        "translation": "Người đàn ông là người đảm nhiệm khu vực nào?"
+      }
+    ],
+    "question": {
+      "question": "Ｍ：さっそくですが、弊社をご紹介させていただきます。",
+      "questionVi": "Tôi xin mạn phép giới thiệu về công ty chúng tôi.",
+      "options": [],
+      "optionsVi": [
+        "Người đảm nhiệm ở châu Mỹ",
+        "Người đảm nhiệm ở Tokyo",
+        "Người đảm nhiệm ở châu Á",
+        "Người đảm nhiệm toàn thế giới"
+      ],
+      "answerIndex": 2,
+      "explanation": "● 弊社 ＝「我社」、「当社」の謙遜語。 ● 弊社 &harr; 御社"
+    }
+  },
+  {
+    "id": "n2-bai-3-8-6",
+    "sourceUrl": "https://www.vnjpclub.com/luyen-nghe-n2/bai-3.html",
+    "level": "N2",
+    "pageTitle": "Bài-(3)",
+    "exerciseNumber": "６番",
+    "context": "教育セミナーで小学校の先生が話しています。",
+    "contextVi": "Giáo viên tiểu học đang nói chuyện tại buổi hội thảo giáo dục.",
+    "audioSrc": "https://www.vnjpclub.com/Audio/FD6/N2_KIKU_A_47.mp3",
+    "lines": [
+      {
+        "speaker": "",
+        "name": "",
+        "text": "食育は漢字で、「食べる」という字と「育てる」という字を書きますが、どういう意味かと言いますと、文字通り、食べ物や食事についての教育ということです。",
+        "translation": "Thực dục viết từ chữ \"thực\" (ăn) và chữ \"dục\" (nuôi nấng), nó có nghĩa là gì, theo nghĩa đen, nó có nghĩa là giáo dục về thức ăn, chuyện ăn uống."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "現在、私達の周りには実に様々な食べ物があふれています。",
+        "translation": "Hiện tại, xung quanh chúng ta, ngập tràn rất nhiều loại thực phẩm."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "しかし、それにもかかわらず、以前に比べて食生活が豊かになったとは必ずしも言えません。",
+        "translation": "Song, mặc dù vậy cũng không thể nói là đời sống ăn uống đã trở nên phong phú hơn so với trước kia."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "それは食べることに関心がない子どもや食欲がないと言って朝食を抜く子ども、また栄養バランスを考えずにダイエットをしたり、手軽なフャストフードばかりを欲しがったりする子どもが多いことからもわかります。",
+        "translation": "Chúng ta biết được điều đó do có nhiều trẻ không quan tâm đến chuyện ăn uống, trẻ bỏ ăn sáng và nói rằng không thèm ăn, trẻ ăn kiêng mà không nghĩ đến sự cân bằng về dinh dưỡng, trẻ chỉ thèm các món thức ăn nhanh tiện lợi."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "食育はこのような問題に対し、食べることを通して、子ども達の健康と生活を守るための、重要な教育なのです。",
+        "translation": "Thông qua việc ăn uống trong vấn đề như thế này thì việc giáo dục ăn uống là việc giáo dục quan trọng nhằm duy trì sức khỏe và cuộc sống cho các em."
+      },
+      {
+        "speaker": "",
+        "name": "",
+        "text": "先生は何について話していますか。",
+        "translation": "Giáo viên đang nói về điều gì?"
+      }
+    ],
+    "question": {
+      "question": "Ｆ：皆さん、食育という言葉を聞いたことがありますか。",
+      "questionVi": "Mọi người đã từng nghe qua từ gọi là \"Thực  dục\" chưa ạ?",
+      "options": [],
+      "optionsVi": [
+        "Lịch sử của chữ thực dục",
+        "Sự khác nhau về thực phẩm của ngày xưa và hiện tại",
+        "L&yacute; do trẻ em không hứng thú với thức ăn",
+        "Tại sao việc giáo dục ăn uống lại cần thiết"
+      ],
+      "answerIndex": 3,
+      "explanation": "● 私達の周りには 実に様々な食べ物があふれています。 ＝私達の周りには本当に様々な食べ物がいっぱいあります。 例 「Ｓｋｙｐｅというものは 実に便利だ。パソコンとインターネット接続ができれば、世界中の人と話せる」 ● 以前に比べて食生活が豊かになった とは必ずしも言えません。 ＝間違いなく、以前に比べて食生活が豊かになったとは言えない。 例 Ａ：この学校の先生はみんな有名大学を出てるんだって。 Ｂ：でも、そういう先生が全員教育者としても素晴らしい とは必ずしも言えないと思うよ。 ● 手軽なファストフード ばかりを欲しがったりする ＝手軽なファストフードだけを欲しがったりする 例 「夫は休みの"
+    }
+  }
+]
