@@ -28,6 +28,8 @@ import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import ResetPasswordPage from './pages/ResetPasswordPage';
 import ProfilePage from './pages/ProfilePage';
 import DemoPage from './pages/DemoPage';
+import { SettingsProvider } from './contexts/SettingsContext';
+import SettingsPage from './pages/SettingsPage';
 
 import ProgressPage from './pages/ProgressPage';
 import LeaderboardPage from './pages/LeaderboardPage';
@@ -95,6 +97,7 @@ function AppRoutes() {
         <Route path="/admin/courses" element={<AdminCoursesPage />} />
         <Route path="/admin/settings" element={<AdminSettingsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/settings" element={<SettingsPage />} />
         <Route path="/demo/:deckId" element={<DemoPage />} />
         <Route path="/exercises/:deckId" element={<Navigate to={window.location.pathname.replace('/exercises/', '/practice/')} replace />} />
         <Route path="/progress" element={<ProgressPage />} />
@@ -125,7 +128,9 @@ export default function App() {
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>
         <AuthProvider>
-          <AppRoutes />
+          <SettingsProvider>
+            <AppRoutes />
+          </SettingsProvider>
         </AuthProvider>
       </BrowserRouter>
     </QueryClientProvider>

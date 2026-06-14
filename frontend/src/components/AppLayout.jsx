@@ -41,8 +41,6 @@ export default function AppLayout() {
   const navigate = useNavigate();
   const location = useLocation();
   const [dropdownOpen, setDropdownOpen]   = useState(false);
-  const [settingsOpen, setSettingsOpen]   = useState(false);
-  const [language, setLanguage]           = useState('vi');
   const [listeningOpen, setListeningOpen] = useState(() => location.pathname.startsWith('/listening'));
   const prevPathnameRef = useRef(location.pathname);
 
@@ -59,7 +57,6 @@ export default function AppLayout() {
     prevPathnameRef.current = location.pathname;
   }, [location.pathname]);
   const dropdownRef = useRef(null);
-  const settingsRef = useRef(null);
 
   const { data: publicConfig } = useQuery({
     queryKey: ['publicSystemConfig'],
@@ -80,7 +77,6 @@ export default function AppLayout() {
   useEffect(() => {
     const h = (e) => {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target)) setDropdownOpen(false);
-      if (settingsRef.current && !settingsRef.current.contains(e.target)) setSettingsOpen(false);
     };
     document.addEventListener('mousedown', h);
     return () => document.removeEventListener('mousedown', h);
@@ -361,47 +357,25 @@ export default function AppLayout() {
               </NavLink>
             </div>
 
-            {/* Settings button + panel */}
-            <div className="px-3 pb-2 relative" ref={settingsRef}>
-              <button
-                onClick={() => setSettingsOpen((o) => !o)}
-                className={`flex items-center gap-4 px-4 py-2.5 text-sm font-medium w-full transition-all duration-150 border-l-[3px] ${
-                  settingsOpen
-                    ? 'border-outline-variant/40 bg-surface-container text-on-surface'
-                    : 'border-transparent text-on-surface-variant hover:bg-surface-container hover:text-on-surface'
-                }`}
+            {/* Settings button */}
+            <div className="px-3 pb-2">
+              <NavLink
+                to="/settings"
+                className={({ isActive }) =>
+                  isActive
+                    ? 'flex items-center gap-4 px-4 py-2.5 text-sm transition-all duration-150 vermilion-active font-bold border-l-[3px]'
+                    : 'flex items-center gap-4 px-4 py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                }
               >
-                <span style={{ color: settingsOpen ? 'var(--on-surface)' : 'var(--on-surface-variant)' }}>
-                  <IconSettings />
-                </span>
-                <span className="flex-1 text-left">Cài đặt</span>
-                <IconChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${settingsOpen ? 'rotate-180' : ''}`} />
-              </button>
-
-              {/* Settings panel (opens upward) */}
-              {settingsOpen && (
-                <div className="absolute bottom-full left-3 right-3 mb-1 bg-surface-container-lowest border py-3 sharp-shadow z-50"
-                  style={{ borderColor: 'rgba(0,0,0,0.09)' }}>
-                  <p className="px-4 pb-2 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">
-                    Ngôn ngữ hiển thị
-                  </p>
-                  {LANGUAGES.map((lang) => (
-                    <button
-                      key={lang.code}
-                      onClick={() => setLanguage(lang.code)}
-                      className="flex items-center gap-3 w-full px-4 py-2 text-sm transition-colors hover:bg-surface-container"
-                    >
-                      <span className="text-base leading-none">{lang.flag}</span>
-                      <span className={`flex-1 text-left ${language === lang.code ? 'font-bold text-on-surface' : 'text-on-surface-variant'}`}>
-                        {lang.label}
-                      </span>
-                      {language === lang.code && (
-                        <IconCheck className="w-3.5 h-3.5 flex-shrink-0" style={{ color: 'var(--secondary)' }} />
-                      )}
-                    </button>
-                  ))}
-                </div>
-              )}
+                {({ isActive }) => (
+                  <>
+                    <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }}>
+                      <IconSettings />
+                    </span>
+                    <span className="flex-1 text-left">Cài đặt</span>
+                  </>
+                )}
+              </NavLink>
             </div>
           </div>
         </aside>

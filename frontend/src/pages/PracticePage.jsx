@@ -9,6 +9,7 @@ import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
+import { useSettings } from '../contexts/SettingsContext';
 import {
   IconType, IconPen, IconChevronLeft, IconCheck, IconXCircle,
   IconTrophy, IconStar, IconBookMarked, IconTarget, IconVolume,
@@ -332,6 +333,7 @@ function MultipleChoiceEx({ exercise, onAnswer }) {
 // ===== 2. Type Japanese (Gõ Kanji / Hiragana) =====
 
 function TypeJapaneseEx({ exercise, onAnswer }) {
+  const { showRomaji } = useSettings();
   const [value, setValue] = useState('');
   const [answered, setAnswered] = useState(false);
   const [matchResult, setMatchResult] = useState(null);
@@ -373,21 +375,21 @@ function TypeJapaneseEx({ exercise, onAnswer }) {
       {answered && matchResult?.isFuzzy && !matchResult?.isExact && isCorrect && (
         <div className="p-3 bg-amber-50 text-amber-800 border border-amber-500/20 rounded-lg text-xs font-semibold text-center">
           Gần đúng! Đáp án: <span className="font-jp text-base font-bold text-on-surface mx-1">{exercise.card.front}</span> 
-          ({correctHiragana}{exercise.card.romaji && ` - ${exercise.card.romaji}`})
+          ({correctHiragana}{showRomaji && exercise.card.romaji && ` - ${exercise.card.romaji}`})
         </div>
       )}
 
       {answered && !isCorrect && (
         <div className="p-3 bg-red-50 text-secondary border border-secondary/20 rounded-lg text-xs font-semibold text-center">
           Đáp án đúng: <span className="font-jp text-base font-bold text-on-surface mx-1">{exercise.card.front}</span> 
-          ({correctHiragana}{exercise.card.romaji && ` - ${exercise.card.romaji}`})
+          ({correctHiragana}{showRomaji && exercise.card.romaji && ` - ${exercise.card.romaji}`})
         </div>
       )}
 
       {answered && isCorrect && !matchResult?.isFuzzy && (
         <div className="p-3 bg-emerald-50 text-emerald-800 border border-emerald-600/30 rounded-lg text-xs font-semibold text-center">
           Chính xác! Đáp án: <span className="font-jp text-base font-bold text-on-surface mx-1">{exercise.card.front}</span> 
-          ({correctHiragana}{exercise.card.romaji && ` - ${exercise.card.romaji}`})
+          ({correctHiragana}{showRomaji && exercise.card.romaji && ` - ${exercise.card.romaji}`})
         </div>
       )}
 
@@ -521,6 +523,7 @@ function FillSentenceEx({ exercise, onAnswer }) {
 // ===== Exercise Runner =====
 
 function ExerciseRunner({ exercises, deckId, onComplete }) {
+  const { showRomaji, autoPlayAudio } = useSettings();
   const [idx, setIdx] = useState(0);
   const [results, setResults] = useState([]);
   const [answered, setAnswered] = useState(false);
@@ -533,11 +536,11 @@ function ExerciseRunner({ exercises, deckId, onComplete }) {
   // Auto-speak for multiple choice
   useEffect(() => {
     if (!current) return;
-    if (current.type === 'multiple-choice') {
+    if (autoPlayAudio && current.type === 'multiple-choice') {
       const t = setTimeout(() => speakJP(current.card.front), 400);
       return () => { clearTimeout(t); window.speechSynthesis?.cancel(); };
     }
-  }, [idx, current]);
+  }, [idx, current, autoPlayAudio]);
 
   const handleAnswer = useCallback((correct, userAnswer = '') => {
     setLastCorrect(correct);
@@ -620,7 +623,7 @@ function ExerciseRunner({ exercises, deckId, onComplete }) {
         {current.type === 'multiple-choice' && (
           <div className="text-center mb-6 relative z-10">
             <p className="font-jp text-4xl md:text-5xl font-bold text-on-surface leading-tight tracking-tight">{current.question}</p>
-            {current.hint && (
+            {showRomaji && current.hint && (
               <p className="text-sm text-on-surface-variant font-medium tracking-wide mt-2">{current.hint}</p>
             )}
           </div>
@@ -664,6 +667,7 @@ function ExerciseRunner({ exercises, deckId, onComplete }) {
 // ===== Results Screen =====
 
 function ResultsScreen({ results, total, deckId, deckName, onRetry, onRetryWrong, srsStatus }) {
+  const { showRomaji } = useSettings();
   const correct = results.filter((r) => r.correct).length;
   const pct = Math.round((correct / total) * 100);
   const wrongResults = results.filter((r) => !r.correct);
@@ -778,7 +782,7 @@ function ResultsScreen({ results, total, deckId, deckName, onRetry, onRetryWrong
               </div>
               <div className="flex items-baseline gap-2">
                 <p className="font-jp text-lg font-bold text-on-surface">{r.card.front}</p>
-                {r.card.romaji && <p className="text-on-surface-variant text-xs">({r.card.romaji})</p>}
+                {showRomaji && r.card.romaji && <p className="text-on-surface-variant text-xs">({r.card.romaji})</p>}
               </div>
               <div className="text-xs pt-1 space-y-1">
                 <p className="text-on-surface-variant">

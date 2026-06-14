@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Check, RotateCw, Shuffle } from 'lucide-react';
 import CollapsibleExample from './CollapsibleExample';
+import { useSettings } from '../contexts/SettingsContext';
 
 function speakJapanese(text) {
   if (!window.speechSynthesis) return;
@@ -19,6 +20,7 @@ function speakJapanese(text) {
 
 export default function FlashcardStudy({ deck, onComplete }) {
   const navigate = useNavigate();
+  const { showRomaji, autoPlayAudio } = useSettings();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [studiedCards, setStudiedCards] = useState(new Set());
@@ -43,6 +45,19 @@ export default function FlashcardStudy({ deck, onComplete }) {
 
   const currentCard = cards[currentIndex];
   const progress = cards.length > 0 ? ((currentIndex + 1) / cards.length) * 100 : 0;
+
+  // Auto-play audio when card changes if enabled
+  useEffect(() => {
+    if (autoPlayAudio && currentCard) {
+      const t = setTimeout(() => {
+        speakJapanese(currentCard.front);
+      }, 400);
+      return () => {
+        clearTimeout(t);
+        window.speechSynthesis?.cancel();
+      };
+    }
+  }, [currentIndex, autoPlayAudio, currentCard]);
 
   const handleFlip = useCallback(() => {
     if (!currentCard) return;
@@ -231,7 +246,7 @@ export default function FlashcardStudy({ deck, onComplete }) {
             <div className="flex-1 flex flex-col items-center justify-center w-full max-w-md my-auto gap-4">
               <div className="text-center w-full">
                 <p className="text-[9px] font-bold uppercase tracking-widest text-on-surface-variant/40 mb-1">Giải nghĩa & Cách đọc</p>
-                {currentCard.romaji && (
+                {showRomaji && currentCard.romaji && (
                   <p className="font-jp text-lg text-secondary font-bold mb-2">
                     {currentCard.romaji}
                   </p>

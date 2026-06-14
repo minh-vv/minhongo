@@ -56,6 +56,11 @@ export default function CommunityPage() {
     queryFn: flashcardApi.getPublicDecks,
   });
 
+  // Lọc chỉ giữ lại các bộ thẻ do người dùng tạo (không phải admin)
+  const communityDecks = useMemo(() => {
+    return decks.filter((d) => !d.user?.isAdmin);
+  }, [decks]);
+
   // Mutation để fork deck
   const forkMutation = useMutation({
     mutationFn: (deckId) => flashcardApi.cloneDeck(deckId),
@@ -83,7 +88,7 @@ export default function CommunityPage() {
 
   // Lọc danh sách decks
   const filteredDecks = useMemo(() => {
-    return decks.filter((deck) => {
+    return communityDecks.filter((deck) => {
       const matchesSearch = 
         deck.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         (deck.description || '').toLowerCase().includes(searchTerm.toLowerCase());
@@ -96,7 +101,7 @@ export default function CommunityPage() {
 
       return matchesSearch && matchesCategory && matchesLevel;
     });
-  }, [decks, searchTerm, selectedCategory, selectedLevel]);
+  }, [communityDecks, searchTerm, selectedCategory, selectedLevel]);
 
   return (
     <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-10">
@@ -131,7 +136,7 @@ export default function CommunityPage() {
             <div className="text-center bg-white/10 px-5 py-3"
               style={{ backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.1)' }}>
               <p className="text-2xl font-black text-white leading-none">
-                {decks.length}
+                {communityDecks.length}
               </p>
               <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Bộ thẻ chia sẻ</p>
             </div>
@@ -186,8 +191,8 @@ export default function CommunityPage() {
           {CATEGORIES.map((cat) => {
             const isActive = selectedCategory === cat.value;
             const count = cat.value === 'ALL'
-              ? decks.length
-              : decks.filter(d => d.category === cat.value).length;
+              ? communityDecks.length
+              : communityDecks.filter(d => d.category === cat.value).length;
 
             return (
               <button

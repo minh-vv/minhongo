@@ -40,7 +40,7 @@ export class FlashcardsService {
       where: { isPublic: true },
       include: {
         user: {
-          select: { id: true, name: true },
+          select: { id: true, name: true, isAdmin: true },
         },
         _count: {
           select: { cards: true },
@@ -56,7 +56,7 @@ export class FlashcardsService {
       where: { id, isPublic: true },
       include: {
         cards: { orderBy: { createdAt: 'asc' } },
-        user: { select: { id: true, name: true } },
+        user: { select: { id: true, name: true, isAdmin: true } },
         _count: { select: { cards: true } },
       },
     });

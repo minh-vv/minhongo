@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import { flashcardApi } from '../api/flashcardApi';
 import aiTutorApi from '../api/aiTutorApi';
 import CollapsibleExample from '../components/CollapsibleExample';
+import { useSettings } from '../contexts/SettingsContext';
 
 // ===== Utilities =====
 
@@ -149,6 +150,7 @@ function SetupScreen({ deck, onStart }) {
 // ===== Overview Slide =====
 
 function OverviewSlide({ words, onNext }) {
+  const { showRomaji } = useSettings();
   return (
     <div className="max-w-md mx-auto p-4 md:p-8 space-y-6 animate-fade-up">
       <div className="bg-surface-container-lowest border border-outline-variant/30 sharp-shadow p-6 md:p-8 text-center relative overflow-hidden">
@@ -167,7 +169,7 @@ function OverviewSlide({ words, onNext }) {
                 <span className="text-[10px] font-bold text-on-surface-variant tabular-nums">{i + 1}.</span>
                 <span className="font-jp font-bold text-sm text-on-surface truncate">{card.front}</span>
               </div>
-              {card.romaji && (
+              {showRomaji && card.romaji && (
                 <p className="text-[10px] text-on-surface-variant truncate mt-0.5">{card.romaji}</p>
               )}
             </div>
@@ -188,6 +190,7 @@ function OverviewSlide({ words, onNext }) {
 // ===== Learn Slide =====
 
 function LearnSlide({ card, index, total, onNext }) {
+  const { autoPlayAudio } = useSettings();
   const [revealed, setRevealed] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [aiExplanation, setAiExplanation] = useState(null);
@@ -216,14 +219,16 @@ function LearnSlide({ card, index, total, onNext }) {
     setRevealed(false);
     setIsSpeaking(false);
     setAiExplanation(null);
-    const t = setTimeout(() => {
-      handleSpeak();
-    }, 400);
-    return () => {
-      clearTimeout(t);
-      window.speechSynthesis?.cancel();
-    };
-  }, [card.id, handleSpeak]);
+    if (autoPlayAudio) {
+      const t = setTimeout(() => {
+        handleSpeak();
+      }, 400);
+      return () => {
+        clearTimeout(t);
+        window.speechSynthesis?.cancel();
+      };
+    }
+  }, [card.id, handleSpeak, autoPlayAudio]);
 
   // Hỗ trợ phím tắt bàn phím
   useEffect(() => {
