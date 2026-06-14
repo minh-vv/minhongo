@@ -598,12 +598,12 @@ export default function DeckDetailPage() {
 
       {/* Learning Modes Toolbar & Actions (Search, Add Card) */}
       <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-4 border-b border-outline-variant/30">
-        {deck?.category !== 'HANTU' && (
-          <div className="flex flex-wrap items-center gap-2.5">
+        {deck?.category !== 'HANTU' ? (
+          <div className="flex flex-wrap items-center gap-2">
             {/* 1. Thẻ ghi nhớ */}
             <Link
               to={`/study/${deckId}?mode=normal`}
-              className="px-4 py-2.5 bg-emerald-50 text-emerald-800 border border-emerald-200 hover:bg-emerald-100 text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-2 rounded shadow-sm"
+              className="px-3.5 py-2 bg-emerald-50 text-emerald-800 border border-emerald-200/60 hover:bg-emerald-100/70 hover:border-emerald-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
             >
               <Layers className="w-3.5 h-3.5 text-emerald-600" />
               <span>Thẻ ghi nhớ</span>
@@ -612,12 +612,12 @@ export default function DeckDetailPage() {
             {/* 2. Học SRS */}
             <Link
               to={`/study/${deckId}?mode=srs`}
-              className="px-4 py-2.5 bg-indigo-50 text-indigo-800 border border-indigo-200 hover:bg-indigo-100 text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-2 rounded relative shadow-sm"
+              className="px-3.5 py-2 bg-indigo-50 text-indigo-800 border border-indigo-200/60 hover:bg-indigo-100/70 hover:border-indigo-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md relative shadow-sm"
             >
               <RefreshCw className="w-3.5 h-3.5 text-indigo-600" />
               <span>Học SRS</span>
               {stats?.dueToday > 0 && (
-                <span className="ml-1 bg-secondary text-white text-[9px] font-black px-1.5 py-0.5 rounded-full border border-surface-container-lowest">
+                <span className="absolute -top-1.5 -right-1.5 bg-secondary text-white text-[9px] font-black px-1.5 py-0.5 rounded-full border border-surface-container-lowest">
                   {stats.dueToday}
                 </span>
               )}
@@ -626,7 +626,7 @@ export default function DeckDetailPage() {
             {/* 3. Trắc nghiệm */}
             <Link
               to={`/practice/${deckId}?type=multiple-choice`}
-              className="px-4 py-2.5 bg-amber-50 text-amber-800 border border-amber-200 hover:bg-amber-100 text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-2 rounded shadow-sm"
+              className="px-3.5 py-2 bg-amber-50 text-amber-800 border border-amber-200/60 hover:bg-amber-100/70 hover:border-amber-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
             >
               <HelpCircle className="w-3.5 h-3.5 text-amber-600" />
               <span>Trắc nghiệm</span>
@@ -635,7 +635,7 @@ export default function DeckDetailPage() {
             {/* 4. Tự luận */}
             <Link
               to={`/practice/${deckId}?type=type-japanese`}
-              className="px-4 py-2.5 bg-blue-50 text-blue-800 border border-blue-200 hover:bg-blue-100 text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-2 rounded shadow-sm"
+              className="px-3.5 py-2 bg-blue-50 text-blue-800 border border-blue-200/60 hover:bg-blue-100/70 hover:border-blue-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
             >
               <PenTool className="w-3.5 h-3.5 text-blue-600" />
               <span>Tự luận</span>
@@ -645,7 +645,7 @@ export default function DeckDetailPage() {
             {hasExamples ? (
               <Link
                 to={`/practice/${deckId}?type=fill-sentence`}
-                className="px-4 py-2.5 bg-rose-50 text-rose-800 border border-rose-200 hover:bg-rose-100 text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-2 rounded shadow-sm"
+                className="px-3.5 py-2 bg-rose-50 text-rose-800 border border-rose-200/60 hover:bg-rose-100/70 hover:border-rose-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
               >
                 <CheckSquare className="w-3.5 h-3.5 text-rose-600" />
                 <span>Hoàn thành câu</span>
@@ -654,52 +654,65 @@ export default function DeckDetailPage() {
               <button
                 disabled
                 title="Cần câu ví dụ trong bộ thẻ để mở chế độ này"
-                className="px-4 py-2.5 bg-slate-50 border border-slate-200 text-slate-400 opacity-60 text-xs font-bold uppercase tracking-wider flex items-center gap-2 rounded cursor-not-allowed"
+                className="px-3.5 py-2 bg-slate-50 border border-slate-200 text-slate-400 opacity-60 text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 rounded-md cursor-not-allowed"
               >
                 <Lock className="w-3.5 h-3.5 text-slate-400" />
                 <span>Hoàn thành câu</span>
               </button>
             )}
           </div>
+        ) : (
+          <div className="flex items-center gap-2">
+            <div className="w-1 h-5 flex-shrink-0" style={{ background: 'var(--primary)' }} />
+            <h2 className="text-sm font-headline font-bold text-on-surface-variant uppercase tracking-wider">
+              Danh sách chữ Hán
+            </h2>
+            <span className="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-black rounded-full">
+              {deck?.cards?.length || 0}
+            </span>
+          </div>
         )}
 
-        <div className="flex items-center gap-2 w-full lg:w-auto">
-          <div className="relative flex-1 lg:flex-initial">
+        {/* Right side controls: compact search + action buttons */}
+        <div className="flex items-center gap-2 w-full lg:w-auto justify-between lg:justify-end shrink-0">
+          <div className="relative">
             <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-on-surface-variant pointer-events-none"
               fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
               <circle cx="11" cy="11" r="8"/><path strokeLinecap="round" strokeLinejoin="round" d="m21 21-4.34-4.34"/>
             </svg>
             <input
               type="text"
-              placeholder="Tìm kiếm thẻ..."
+              placeholder="Tìm kiếm..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="pl-8 pr-3 py-2 text-xs bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant focus:outline-none w-full lg:w-60"
-              style={{ border: '1px solid rgba(0,0,0,0.12)' }}
+              className="pl-8 pr-2.5 py-1.5 text-xs bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant focus:outline-none w-32 focus:w-48 transition-all duration-300 border border-outline-variant/50 focus:border-secondary rounded-md shadow-sm"
             />
           </div>
+
           {canModify && (
-            <>
+            <div className="flex items-center gap-1.5 shrink-0">
               <button
                 onClick={() => setShowBulkAddCard(true)}
-                className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-on-surface bg-surface-container hover:bg-surface-container-high border border-outline-variant/40 transition-colors flex items-center gap-1.5 shrink-0 rounded"
+                className="px-2.5 py-1.5 text-xs font-bold uppercase tracking-wider text-on-surface bg-surface-container-lowest hover:bg-surface-container hover:text-secondary border border-outline-variant/60 transition-colors flex items-center justify-center gap-1 rounded-md shadow-sm"
+                title="Thêm hàng loạt từ Excel"
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                <svg className="w-3.5 h-3.5 text-on-surface-variant" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 10h18M3 14h18m-9-6v12" />
                 </svg>
-                Thêm hàng loạt
+                <span className="hidden sm:inline">Hàng loạt</span>
+                <span className="inline sm:hidden">Excel</span>
               </button>
               <button
                 onClick={() => setShowAddCard(true)}
-                className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors flex items-center gap-1.5 shrink-0 rounded"
+                className="px-2.5 py-1.5 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors flex items-center justify-center gap-1.5 rounded-md shadow-sm"
                 style={{ background: 'var(--secondary)' }}
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
                 </svg>
-                Thêm thẻ
+                <span>+ Thẻ</span>
               </button>
-            </>
+            </div>
           )}
         </div>
       </div>
