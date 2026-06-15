@@ -3,6 +3,7 @@ import { Navigate, Link } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { useAuth } from '../hooks/useAuth';
 import { userApi } from '../api/userApi';
+import PageHeader from '../components/PageHeader';
 import {
   IconTarget, IconTrophy, IconPlane, IconBriefcase, IconTv,
   IconHeart, IconCamera, IconKey, IconChevronDown, IconCheck,
@@ -207,22 +208,15 @@ export default function ProfilePage() {
     <div className="max-w-3xl mx-auto w-full p-6 md:p-8 space-y-10">
 
       {/* ── HERO ──────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden animate-fade-up" style={{ minHeight: 120 }}>
-        <div className="absolute inset-0" style={{
-          background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 60%, #0d1b5e 100%)'
-        }} />
-        <div className="absolute inset-0 asanoha-bg opacity-20" />
-        <div className="absolute right-0 top-0 bottom-0 w-1" style={{ background: 'var(--secondary)' }} />
-
-        <div className="relative z-10 p-8 md:p-10 flex items-center gap-6">
+      <PageHeader ghostChar="私">
+        <div className="flex items-center gap-6">
           {/* Avatar mini */}
           <div className="w-16 h-16 flex-shrink-0 overflow-hidden"
             style={{ border: '3px solid rgba(255,255,255,0.25)' }}>
             {profile?.avatarUrl ? (
               <img src={profile.avatarUrl} alt="Avatar" className="w-full h-full object-cover" />
             ) : (
-              <div className="w-full h-full flex items-center justify-center text-2xl font-black text-white/80"
-                style={{ background: 'rgba(255,255,255,0.1)' }}>
+              <div className="w-full h-full bg-white/10 flex items-center justify-center text-2xl font-black text-white/80">
                 {(profile?.name?.[0] || authUser?.email?.[0] || 'U').toUpperCase()}
               </div>
             )}
@@ -242,10 +236,7 @@ export default function ProfilePage() {
             <p className="text-white/50 text-sm mt-1">Thành viên từ {joinDate}</p>
           </div>
         </div>
-
-        <div className="absolute -right-4 -bottom-4 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none"
-          style={{ fontSize: 140 }}>私</div>
-      </section>
+      </PageHeader>
 
       {/* ── FORM ──────────────────────────────────────────────── */}
       {isLoading ? (

@@ -4,6 +4,7 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { useAuth } from '../hooks/useAuth';
 import { adminApi } from '../api/adminApi';
 import { flashcardApi } from '../api/flashcardApi';
+import PageHeader from '../components/PageHeader';
 
 const ROLE_OPTIONS = [
   { value: 'VOCAB', label: 'Từ vựng' },
@@ -246,20 +247,15 @@ export default function AdminCoursesPage() {
 
   return (
     <div className="max-w-6xl mx-auto p-6 md:p-8">
-      <div className="mb-6">
-        <Link
-          to="/admin/content"
-          className="text-sm text-indigo-600 hover:underline"
-        >
-          ← Quản lý nội dung
-        </Link>
-        <h1 className="text-2xl font-bold text-gray-900 mt-2">
-          Quản lý lộ trình & bài học
-        </h1>
-        <p className="text-gray-600 text-sm mt-1">
-          Gắn deck (đã import từ Anki hoặc tạo thủ công) vào từng bài học và đặt
-          bài kiểm tra cuối bài.
-        </p>
+      <div className="mb-8">
+        <PageHeader
+          tag="Admin · Lộ trình"
+          title="Quản lý lộ trình & bài học"
+          subtitle="Gắn bộ thẻ bài học và cấu hình bài kiểm tra."
+          ghostChar="路"
+          backLink="/admin/content"
+          backText="Quản lý nội dung"
+        />
       </div>
 
       <div className="grid md:grid-cols-[220px_1fr] gap-6">

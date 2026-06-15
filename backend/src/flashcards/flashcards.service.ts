@@ -69,6 +69,13 @@ export class FlashcardsService {
     const deck = await this.prisma.deck.findUnique({
       where: { id },
       include: {
+        user: {
+          select: {
+            id: true,
+            name: true,
+            isAdmin: true,
+          },
+        },
         cards: {
           orderBy: { createdAt: 'asc' },
           include: {

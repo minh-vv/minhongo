@@ -4,6 +4,7 @@ import {
   Volume2, Play, Pause, RotateCw, BookOpen, CheckCircle2,
   XCircle, ChevronRight, HelpCircle, ArrowRight, Info, Award
 } from 'lucide-react';
+import PageHeader from '../../components/PageHeader';
 
 export default function ListeningDialogue() {
   const [activeDiag, setActiveDiag] = useState(DIALOGUES[0]);
@@ -109,30 +110,12 @@ export default function ListeningDialogue() {
   return (
     <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-8 animate-fade-up">
       {/* ── HERO BANNER (Navy & Vermilion Accent) ── */}
-      <section className="relative overflow-hidden" style={{ minHeight: 140 }}>
-        <div className="absolute inset-0 bg-primary" style={{
-          background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 60%, #0d1b5e 100%)'
-        }} />
-        <div className="absolute inset-0 asanoha-bg opacity-15" />
-        <div className="absolute right-0 top-0 bottom-0 w-1.5 bg-secondary" />
-
-        <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
-          <div>
-            <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-3" style={{ backdropFilter: 'blur(4px)' }}>
-              <span className="w-1.5 h-1.5 rotate-45 bg-secondary" />
-              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/80">
-                Luyện kỹ năng thực hành nghe nói
-              </span>
-            </div>
-            <h1 className="font-headline text-3xl md:text-4xl font-bold text-white flex items-center gap-3">
-              <BookOpen className="w-9 h-9 text-amber-400" />
-              Luyện Nghe Hội Thoại
-            </h1>
-            <p className="text-white/60 text-sm mt-1 max-w-2xl">
-              Nâng cao khả năng phản xạ nghe hiểu tiếng Nhật thực tế thông qua các đoạn hội thoại sinh động theo chuẩn JLPT.
-            </p>
-          </div>
-          
+      <PageHeader
+        tag="Luyện kỹ năng thực hành nghe nói"
+        title="Nghe hội thoại"
+        subtitle="Luyện phản xạ nghe hiểu qua các đoạn hội thoại thực tế."
+        ghostChar="聴"
+        rightContent={
           <div className="flex gap-4 items-center bg-white/5 border border-white/10 px-5 py-3 text-white">
             <span className="text-[10px] font-bold uppercase tracking-wider text-white/50">Tốc độ đọc TTS:</span>
             <div className="flex gap-1.5">
@@ -150,8 +133,8 @@ export default function ListeningDialogue() {
               ))}
             </div>
           </div>
-        </div>
-      </section>
+        }
+      />
 
       {/* ── MAIN CONTENT ACCORDING TO TABS ── */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">

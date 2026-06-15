@@ -19,6 +19,7 @@ import {
 } from 'lucide-react';
 import { flashcardApi } from '../api/flashcardApi';
 import aiTutorApi from '../api/aiTutorApi';
+import PageHeader from '../components/PageHeader';
 
 /** Parse ví dụ: "日本語（Vietnamese translation）" */
 function parseExample(exampleText) {
@@ -756,48 +757,20 @@ export default function GrammarLessonPage() {
   return (
     <div className="max-w-5xl mx-auto w-full p-6 md:p-8 space-y-8 animate-fade-up">
 
-      {/* ── HERO ──────────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden border-2 border-primary" style={{ minHeight: 130 }}>
-        <div className="absolute inset-0 bg-primary" />
-        <div className="absolute inset-0 asanoha-bg opacity-15" />
-        <div className="absolute right-0 top-0 bottom-0 w-2 bg-secondary" />
-
-        <div className="relative z-10 p-7 md:p-9">
-          <Link
-            to={parentPath}
-            className="inline-flex items-center gap-1.5 text-white/70 hover:text-white mb-4 text-xs font-bold uppercase tracking-wider transition-colors"
-          >
-            <ArrowLeft className="w-3.5 h-3.5" />
-            Quay lại
-          </Link>
-
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-            <div>
-              {/* JLPT badge */}
-              {deck.jlptLevel && (
-                <div className="inline-flex items-center gap-1.5 bg-white/10 px-3 py-1 mb-3">
-                  <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/80">
-                    JLPT N{deck.jlptLevel} · Bài học ngữ pháp
-                  </span>
-                </div>
-              )}
-              <h1 className="font-jp text-2xl md:text-3xl font-bold text-white">{deck.name}</h1>
-              {deck.description && (
-                <p className="text-white/60 text-sm mt-2 max-w-xl leading-relaxed">{deck.description}</p>
-              )}
-            </div>
-
-            <div className="text-center bg-white/10 px-5 py-3 border border-white/15 flex-shrink-0">
-              <p className="text-2xl font-black text-white leading-none">{cards.length}</p>
-              <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Cấu trúc</p>
-            </div>
+      <PageHeader
+        tag={deck.jlptLevel ? `JLPT N${deck.jlptLevel} · Bài học ngữ pháp` : undefined}
+        title={deck.name}
+        subtitle={deck.description}
+        ghostChar="文"
+        backLink={parentPath}
+        backText="Quay lại"
+        rightContent={
+          <div className="text-center bg-white/10 px-5 py-3 border border-white/15 flex-shrink-0">
+            <p className="text-2xl font-black text-white leading-none">{cards.length}</p>
+            <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Cấu trúc</p>
           </div>
-        </div>
-
-        <div className="absolute -right-4 -bottom-4 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none text-[140px]">
-          文
-        </div>
-      </section>
+        }
+      />
 
       {/* ── INFO BAR ─────────────────────────────────────────────── */}
       <div className="flex items-center gap-3 text-xs text-on-surface-variant">

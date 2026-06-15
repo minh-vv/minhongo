@@ -512,7 +512,7 @@ export default function DeckDetailPage() {
               </Link>
             )}
 
-            {!isOwner && deck.isPublic && (
+            {!isOwner && deck.isPublic && deck.category === 'TUHOC' && !deck.user?.isAdmin && (
               <button
                 onClick={handleForkDeck}
                 disabled={forking}

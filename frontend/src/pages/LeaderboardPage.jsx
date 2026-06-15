@@ -3,6 +3,7 @@ import { Navigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { useAuth } from '../hooks/useAuth';
 import { flashcardApi } from '../api/flashcardApi';
+import PageHeader from '../components/PageHeader';
 
 const PERIODS = [
   { value: 7, label: '7 ngày' },
@@ -48,33 +49,12 @@ export default function LeaderboardPage() {
   return (
     <div className="max-w-4xl mx-auto w-full p-6 md:p-8 space-y-8">
       {/* Hero */}
-      <section className="relative overflow-hidden animate-fade-up" style={{ minHeight: 120 }}>
-        <div
-          className="absolute inset-0"
-          style={{ background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 60%, #0d1b5e 100%)' }}
-        />
-        <div className="absolute inset-0 asanoha-bg opacity-20" />
-        <div className="absolute right-0 top-0 bottom-0 w-1" style={{ background: 'var(--secondary)' }} />
-        <div className="relative z-10 p-8 md:p-10">
-          <div
-            className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4"
-            style={{ backdropFilter: 'blur(4px)' }}
-          >
-            <span className="w-1.5 h-1.5 rotate-45" style={{ background: 'var(--secondary)' }} />
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">Gamification</span>
-          </div>
-          <h1 className="font-headline text-3xl font-bold text-white" style={{ letterSpacing: '-0.02em' }}>
-            Bảng xếp hạng
-          </h1>
-          <p className="text-white/50 text-sm mt-2">Xếp hạng theo XP tích lũy từ lượt ôn tập</p>
-        </div>
-        <div
-          className="absolute -right-4 -bottom-4 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none"
-          style={{ fontSize: 150 }}
-        >
-          位
-        </div>
-      </section>
+      <PageHeader
+        tag="Gamification"
+        title="Bảng xếp hạng"
+        subtitle="Xếp hạng theo XP tích lũy từ lượt ôn tập"
+        ghostChar="位"
+      />
 
       {/* My rank summary */}
       {me && (

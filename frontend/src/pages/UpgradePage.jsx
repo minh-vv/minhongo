@@ -1,3 +1,5 @@
+import PageHeader from '../components/PageHeader';
+
 function SectionHeader({ title }) {
   return (
     <div className="flex items-center gap-3 mb-5">
@@ -53,35 +55,12 @@ export default function UpgradePage() {
     <div className="max-w-5xl mx-auto w-full p-6 md:p-8 space-y-10">
 
       {/* ── HERO ────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden animate-fade-up" style={{ minHeight: 130 }}>
-        <div className="absolute inset-0" style={{
-          background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 60%, #0d1b5e 100%)'
-        }} />
-        <div className="absolute inset-0 asanoha-bg opacity-20" />
-        <div className="absolute right-0 top-0 bottom-0 w-1" style={{ background: 'var(--secondary)' }} />
-
-        <div className="relative z-10 p-8 md:p-10">
-          <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4"
-            style={{ backdropFilter: 'blur(4px)' }}>
-            <span className="w-1.5 h-1.5 rotate-45" style={{ background: 'var(--secondary)' }} />
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">
-              Nâng cấp tài khoản
-            </span>
-          </div>
-          <h1 className="font-headline text-3xl font-bold text-white"
-            style={{ letterSpacing: '-0.02em' }}>
-            Mở khóa toàn bộ nội dung
-          </h1>
-          <p className="text-white/50 text-sm mt-2 max-w-md">
-            Học tiếng Nhật toàn diện từ N5 đến N1 với lộ trình AI cá nhân hóa và thuật toán SRS.
-          </p>
-        </div>
-
-        <div className="absolute -right-4 -bottom-4 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none"
-          style={{ fontSize: 160 }}>
-          昇
-        </div>
-      </section>
+      <PageHeader
+        tag="Nâng cấp tài khoản"
+        title="Nâng cấp tài khoản"
+        subtitle="Mở khóa lộ trình AI và toàn bộ kho học liệu."
+        ghostChar="昇"
+      />
 
       {/* ── PLANS ───────────────────────────────────────────── */}
       <section>

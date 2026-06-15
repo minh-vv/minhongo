@@ -4,6 +4,7 @@ import axios from '../api/axios';
 import ImportAnkiModal from '../components/ImportAnkiModal';
 import { useAuth } from '../hooks/useAuth';
 import LoginPrompt from '../components/LoginPrompt';
+import PageHeader from '../components/PageHeader';
 
 function SectionHeader({ title, action }) {
   return (
@@ -228,31 +229,12 @@ export default function SelfStudyPage() {
     <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-10">
 
       {/* ── HERO ────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden animate-fade-up" style={{ minHeight: 130 }}>
-        <div className="absolute inset-0" style={{
-          background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 60%, #0d1b5e 100%)'
-        }} />
-        <div className="absolute inset-0 asanoha-bg opacity-20" />
-        <div className="absolute right-0 top-0 bottom-0 w-1" style={{ background: 'var(--secondary)' }} />
-
-        <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div>
-            <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4"
-              style={{ backdropFilter: 'blur(4px)' }}>
-              <span className="w-1.5 h-1.5 rotate-45" style={{ background: 'var(--secondary)' }} />
-              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">
-                Spaced Repetition System · SM-2
-              </span>
-            </div>
-            <h1 className="font-headline text-3xl font-bold text-white"
-              style={{ letterSpacing: '-0.02em' }}>
-              Kho cá nhân
-            </h1>
-            <p className="text-white/50 text-sm mt-2 max-w-md">
-              Tạo bộ thẻ riêng hoặc import từ Anki, ôn tập theo thuật toán SRS để ghi nhớ lâu.
-            </p>
-          </div>
-
+      <PageHeader
+        tag="Spaced Repetition System · SM-2"
+        title="Kho thẻ cá nhân"
+        subtitle="Tự học từ vựng và chữ Hán với thuật toán SRS."
+        ghostChar="覚"
+        rightContent={
           <div className="flex gap-3 flex-shrink-0">
             <div className="text-center bg-white/10 px-5 py-3"
               style={{ backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.1)' }}>
@@ -267,11 +249,8 @@ export default function SelfStudyPage() {
               <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Thẻ học</p>
             </div>
           </div>
-        </div>
-
-        <div className="absolute -right-4 -bottom-4 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none"
-          style={{ fontSize: 160 }}>覚</div>
-      </section>
+        }
+      />
 
       {/* ── CATEGORY FOLDER TABS ─────────────────────────────── */}
       <section>

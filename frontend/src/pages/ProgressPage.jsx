@@ -3,6 +3,7 @@ import { Navigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { useAuth } from '../hooks/useAuth';
 import { flashcardApi } from '../api/flashcardApi';
+import PageHeader from '../components/PageHeader';
 import {
   IconBookMarked, IconBrain, IconFlame, IconCalendar, IconChart,
 } from '../components/Icons';
@@ -188,28 +189,12 @@ export default function ProgressPage() {
     <div className="max-w-4xl mx-auto w-full p-6 md:p-8 space-y-10">
 
       {/* ── HERO ── */}
-      <section className="relative overflow-hidden animate-fade-up" style={{ minHeight: 130 }}>
-        <div className="absolute inset-0" style={{
-          background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 60%, #0d1b5e 100%)'
-        }} />
-        <div className="absolute inset-0 asanoha-bg opacity-20" />
-        <div className="absolute right-0 top-0 bottom-0 w-1" style={{ background: 'var(--secondary)' }} />
-        <div className="relative z-10 p-8 md:p-10">
-          <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4"
-            style={{ backdropFilter: 'blur(4px)' }}>
-            <span className="w-1.5 h-1.5 rotate-45" style={{ background: 'var(--secondary)' }} />
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">
-              Theo dõi tiến độ
-            </span>
-          </div>
-          <h1 className="font-headline text-3xl font-bold text-white" style={{ letterSpacing: '-0.02em' }}>
-            Lịch sử & Tiến độ học
-          </h1>
-          <p className="text-white/50 text-sm mt-2">Biểu đồ số từ đã ôn, tỉ lệ ghi nhớ theo ngày</p>
-        </div>
-        <div className="absolute -right-4 -bottom-4 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none"
-          style={{ fontSize: 160 }}>進</div>
-      </section>
+      <PageHeader
+        tag="Tiến độ học tập"
+        title="Tiến độ học tập"
+        subtitle="Xem lịch sử và thống kê kết quả học tập của bạn."
+        ghostChar="績"
+      />
 
       {/* ── SUMMARY STATS ── */}
       <section>
