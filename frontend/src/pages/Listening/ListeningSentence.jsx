@@ -8,6 +8,7 @@ import {
   Volume2, HelpCircle, CheckCircle2, XCircle, ArrowRight,
   Sparkles, Layers, RefreshCw, AlertCircle, AlertTriangle
 } from 'lucide-react';
+import PageHeader from '../../components/PageHeader';
 
 export default function ListeningSentence() {
   const { isAuthenticated } = useAuth();
@@ -182,30 +183,12 @@ export default function ListeningSentence() {
   return (
     <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-8 animate-fade-up">
       {/* ── HERO BANNER ── */}
-      <section className="relative overflow-hidden" style={{ minHeight: 140 }}>
-        <div className="absolute inset-0 bg-primary" style={{
-          background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 60%, #0d1b5e 100%)'
-        }} />
-        <div className="absolute inset-0 asanoha-bg opacity-15" />
-        <div className="absolute right-0 top-0 bottom-0 w-1.5 bg-secondary" />
-
-        <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
-          <div>
-            <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-3" style={{ backdropFilter: 'blur(4px)' }}>
-              <span className="w-1.5 h-1.5 rotate-45 bg-secondary" />
-              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/80">
-                Luyện kỹ năng thực hành nghe nói
-              </span>
-            </div>
-            <h1 className="font-headline text-3xl md:text-4xl font-bold text-white flex items-center gap-3">
-              <Sparkles className="w-9 h-9 text-amber-400" />
-              Nghe Điền Từ & Chép Câu
-            </h1>
-            <p className="text-white/60 text-sm mt-1 max-w-2xl">
-              Cải thiện chính xác phản xạ nghe chi tiết và từ vựng thông qua các bài tập điền khuyết hoặc nghe ghi âm chép chính tả.
-            </p>
-          </div>
-          
+      <PageHeader
+        tag="Luyện kỹ năng thực hành nghe nói"
+        title="Chép chính tả"
+        subtitle="Luyện nghe chi tiết qua bài tập điền từ và ghi chép."
+        ghostChar="聴"
+        rightContent={
           <div className="flex gap-4 items-center bg-white/5 border border-white/10 px-5 py-3 text-white">
             <span className="text-[10px] font-bold uppercase tracking-wider text-white/50">Tốc độ đọc TTS:</span>
             <div className="flex gap-1.5">
@@ -223,8 +206,8 @@ export default function ListeningSentence() {
               ))}
             </div>
           </div>
-        </div>
-      </section>
+        }
+      />
 
       {/* ── MAIN CONTENT AREA ── */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">

@@ -10,6 +10,7 @@ import {
   ChevronRight,
 } from 'lucide-react';
 import { flashcardApi } from '../api/flashcardApi';
+import PageHeader from '../components/PageHeader';
 
 const JLPT_LEVELS = [5, 4, 3, 2, 1];
 
@@ -410,87 +411,52 @@ export default function GrammarPage() {
     <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-8 min-h-screen">
 
       {/* ── HERO & BREADCRUMBS MERGED ─────────────────────────────── */}
-      <section className="relative overflow-hidden animate-fade-up border-2 border-primary" style={{ minHeight: selectedBookLevel ? undefined : 140 }}>
-        <div className="absolute inset-0 bg-primary" />
-        <div className="absolute inset-0 asanoha-bg opacity-15" />
-        <div className="absolute right-0 top-0 bottom-0 w-2 bg-secondary" />
-
-        {selectedBookLevel ? (
-          /* Merged layout when a book level is selected */
-          <div className="relative z-10 p-6 md:p-8 flex flex-col gap-6">
-            {/* Top row: Back button & Breadcrumbs */}
-            <div className="flex flex-wrap items-center gap-3 text-white/80">
-              <button
-                onClick={() => navigate('/grammar')}
-                className="flex items-center gap-1.5 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-white border border-white/20 hover:bg-white/10 transition-all rounded backdrop-blur-sm"
-              >
-                <ArrowLeft className="w-3.5 h-3.5" />
-                Quay lại
-              </button>
-              <div className="flex items-center gap-1.5 text-xs font-semibold text-white/85">
-                <span className="cursor-pointer hover:text-white transition-colors" onClick={() => navigate('/grammar')}>Tất cả giáo trình</span>
-                <span className="text-white/40">/</span>
-                <span>{getBookInfo({ name: selectedBookLevel.bookId }).title}</span>
-                <span className="text-white/40">/</span>
-                <span className="font-bold text-white">Cấp độ N{selectedBookLevel.level}</span>
-              </div>
+      <PageHeader
+        tag={selectedBookLevel ? undefined : "Học & Tra Cứu Chuyên Sâu"}
+        title={selectedBookLevel ? `${getBookInfo({ name: selectedBookLevel.bookId }).title} N${selectedBookLevel.level}` : "Ngữ pháp"}
+        subtitle={selectedBookLevel ? getBookLevelCardMeta(selectedBookLevel.bookId, selectedBookLevel.level).bottomDesc : "Luyện tập ngữ pháp theo các cấp độ JLPT."}
+        ghostChar="文"
+        backLink={selectedBookLevel ? "/grammar" : undefined}
+        backText={selectedBookLevel ? "Quay lại" : undefined}
+        rightContent={
+          selectedBookLevel ? (
+            <div className="flex gap-2 text-white text-xs font-bold bg-white/10 px-3 py-1.5 border border-white/10 backdrop-blur-sm shrink-0 self-start md:self-auto">
+              <span>{filteredDecks.length} bài học</span>
+              <span className="text-white/30">|</span>
+              <span>{filteredDecks.reduce((sum, d) => sum + (d._count?.cards || 0), 0)} cấu trúc</span>
             </div>
-
-            {/* Bottom row: Title & Stats */}
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-              <div>
-                <h1 className="font-headline text-2xl md:text-3xl font-bold text-white leading-tight">
-                  {getBookInfo({ name: selectedBookLevel.bookId }).title} N{selectedBookLevel.level}
-                </h1>
-                <p className="text-white/60 text-xs mt-1 font-medium">
-                  {getBookLevelCardMeta(selectedBookLevel.bookId, selectedBookLevel.level).bottomDesc}
-                </p>
-              </div>
-
-              {/* Stats */}
-              <div className="flex gap-2 text-white text-xs font-bold bg-white/10 px-3 py-1.5 border border-white/10 backdrop-blur-sm shrink-0 self-start md:self-auto">
-                <span>{filteredDecks.length} bài học</span>
-                <span className="text-white/30">|</span>
-                <span>{filteredDecks.reduce((sum, d) => sum + (d._count?.cards || 0), 0)} cấu trúc</span>
-              </div>
-            </div>
-          </div>
-        ) : (
-          /* Default full hero layout */
-          <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
-            <div className="min-w-0">
-              <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-3"
-                style={{ backdropFilter: 'blur(4px)' }}>
-                <span className="w-1.5 h-1.5 rotate-45 bg-secondary" />
-                <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/90">
-                  Học & Tra Cứu Chuyên Sâu
-                </span>
-              </div>
-              <h1 className="font-jp text-3xl md:text-4xl font-bold text-white tracking-wide">
-                文法 • TRANG HỌC NGỮ PHÁP
-              </h1>
-              <p className="text-white/60 text-sm mt-2 max-w-xl font-medium">
-                Click vào bài học để xem lý thuyết đầy đủ, ví dụ thực tế và luyện tập ngay.
-              </p>
-            </div>
-
+          ) : (
             <div className="flex gap-3 flex-shrink-0">
-              <div className="text-center bg-white/5 px-5 py-3 border border-white/10 sharp-shadow-sm">
+              <div className="text-center bg-white/10 px-5 py-3 border border-white/10 sharp-shadow-sm">
                 <p className="text-2xl font-black text-white leading-none">{decks.length}</p>
                 <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Bài học</p>
               </div>
-              <div className="text-center bg-white/5 px-5 py-3 border border-white/10 sharp-shadow-sm">
+              <div className="text-center bg-white/10 px-5 py-3 border border-white/10 sharp-shadow-sm">
                 <p className="text-2xl font-black text-white leading-none">{totalGrammarPoints}</p>
                 <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Cấu trúc</p>
               </div>
             </div>
+          )
+        }
+      >
+        {selectedBookLevel && (
+          <div>
+            <div className="flex items-center gap-1.5 text-xs font-semibold text-white/85 mb-4">
+              <span className="cursor-pointer hover:text-white transition-colors" onClick={() => navigate('/grammar')}>Tất cả giáo trình</span>
+              <span className="text-white/40">/</span>
+              <span>{getBookInfo({ name: selectedBookLevel.bookId }).title}</span>
+              <span className="text-white/40">/</span>
+              <span className="font-bold text-white">Cấp độ N{selectedBookLevel.level}</span>
+            </div>
+            <h1 className="font-headline text-2xl md:text-3xl font-bold text-white leading-tight">
+              {getBookInfo({ name: selectedBookLevel.bookId }).title} N{selectedBookLevel.level}
+            </h1>
+            <p className="text-white/60 text-xs mt-1 font-medium">
+              {getBookLevelCardMeta(selectedBookLevel.bookId, selectedBookLevel.level).bottomDesc}
+            </p>
           </div>
         )}
-
-        <div className="absolute -right-6 -bottom-6 font-jp font-bold text-white/[0.03] leading-none select-none pointer-events-none text-[180px]">
-          文
-        </div>
-      </section>
+      </PageHeader>
 
       {/* ── CONTENT AREA ────────────────────────────────────────────────── */}
       {loading ? (

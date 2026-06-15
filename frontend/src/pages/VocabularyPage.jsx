@@ -4,7 +4,7 @@ export default function VocabularyPage() {
   return (
     <PublicContentPage
       title="Từ vựng"
-      subtitle="Học từ vựng tiếng Nhật theo chủ đề và cấp độ JLPT."
+      subtitle="Luyện tập từ vựng theo các cấp độ JLPT."
       category="TUVUNG"
       accentColor="#1565c0"
       ghostChar="語"

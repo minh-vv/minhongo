@@ -5,6 +5,7 @@ import { coursesApi } from '../api/coursesApi';
 import { aiApi } from '../api/aiApi';
 import { useAuth } from '../hooks/useAuth';
 import LoginPrompt from '../components/LoginPrompt';
+import PageHeader from '../components/PageHeader';
 import {
   Sparkles, X, Loader2, ChevronRight, ChevronLeft,
   Plus, Trash2, Trophy, BookOpen, Target, Clock, Brain,
@@ -572,29 +573,12 @@ export default function RoadmapPage() {
     <div className="max-w-5xl mx-auto p-6 md:p-8 space-y-12 relative">
 
       {/* ── HERO ────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden animate-fade-up" style={{ minHeight: 140 }}>
-        <div className="absolute inset-0" style={{
-          background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 60%, #0d1b5e 100%)'
-        }} />
-        <div className="absolute inset-0 asanoha-bg opacity-20" />
-        <div className="absolute right-0 top-0 bottom-0 w-1" style={{ background: 'var(--secondary)' }} />
-
-        <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-end justify-between gap-4 text-white">
-          <div>
-            <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4"
-              style={{ backdropFilter: 'blur(4px)' }}>
-              <span className="w-1.5 h-1.5 rotate-45" style={{ background: 'var(--secondary)' }} />
-              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/80">
-                Cá nhân hóa · AI-powered
-              </span>
-            </div>
-            <h1 className="font-headline text-3xl md:text-4xl font-bold text-white tracking-tight">
-              Lộ trình học của bạn
-            </h1>
-            <p className="text-white/60 text-sm mt-2 max-w-md">
-              Chọn lộ trình theo cấp độ JLPT, hoặc để AI tạo lộ trình riêng dựa trên mục tiêu và trình độ của bạn.
-            </p>
-          </div>
+      <PageHeader
+        tag="Cá nhân hóa · AI-powered"
+        title="Lộ trình học"
+        subtitle="Theo dõi lộ trình học tập được cá nhân hóa bằng AI."
+        ghostChar="道"
+        rightContent={
           <button
             onClick={() => { setAiSuccess(false); setShowAiModal(true); }}
             className="inline-flex items-center gap-2 px-6 py-3 text-white font-bold text-sm uppercase tracking-wider hover:opacity-90 transition-all flex-shrink-0"
@@ -603,11 +587,8 @@ export default function RoadmapPage() {
             <Sparkles className="w-5 h-5" />
             Tạo lộ trình với AI
           </button>
-        </div>
-
-        <div className="absolute -right-4 -bottom-4 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none"
-          style={{ fontSize: 160 }}>道</div>
-      </section>
+        }
+      />
 
       {/* Success toast */}
       {aiSuccess && (

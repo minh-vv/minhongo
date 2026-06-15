@@ -3,6 +3,7 @@ import { Navigate, Link } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient, keepPreviousData } from '@tanstack/react-query';
 import { useAuth } from '../hooks/useAuth';
 import { adminApi } from '../api/adminApi';
+import PageHeader from '../components/PageHeader';
 
 const DECK_CATEGORIES = [
   { value: '', label: 'Mọi danh mục' },
@@ -240,43 +241,41 @@ export default function AdminContentPage() {
   return (
     <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-10">
 
-      <section className="relative overflow-hidden animate-fade-up" style={{ minHeight: 140 }}>
-        <div className="absolute inset-0" style={{
-          background: 'linear-gradient(135deg, #1a237e 0%, #3949ab 55%, #0d1b5e 100%)',
-        }} />
-        <div className="absolute inset-0 asanoha-bg opacity-20" />
-        <div className="absolute right-0 top-0 bottom-0 w-1" style={{ background: 'var(--secondary)' }} />
-
-        <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div>
-            <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4" style={{ backdropFilter: 'blur(4px)' }}>
-              <span className="w-1.5 h-1.5 rotate-45 flex-shrink-0" style={{ background: 'var(--secondary)' }} />
-              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">
-                Admin · Nội dung
-              </span>
-            </div>
-            <h1 className="font-headline text-3xl md:text-4xl font-bold text-white leading-tight" style={{ letterSpacing: '-0.02em' }}>
-              Quản lý nội dung hệ thống
-            </h1>
-            <p className="text-white/50 text-sm mt-2">
-              Duyệt deck, chỉnh sửa hiển thị công khai và xóa nội dung không phù hợp
-            </p>
-            <Link
-              to="/admin/courses"
-              className="mt-4 inline-block px-4 py-2 bg-white/10 hover:bg-white/20 text-white text-xs font-bold uppercase tracking-wider transition-colors"
-              style={{ backdropFilter: 'blur(4px)' }}
-            >
-              Quản lý lộ trình & bài học →
-            </Link>
-          </div>
+      <PageHeader
+        tag="Admin · Nội dung"
+        title="Quản lý nội dung"
+        subtitle="Duyệt bộ thẻ, cấu hình hiển thị và chỉnh sửa bài học."
+        ghostChar="内"
+        rightContent={
           <div className="flex-shrink-0 text-center bg-white/10 px-8 py-4"
             style={{ backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.1)' }}>
             <p className="text-4xl font-black text-white leading-none">{stats?.totalDecks ?? '—'}</p>
             <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Deck</p>
           </div>
+        }
+      >
+        <div>
+          <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4" style={{ backdropFilter: 'blur(4px)' }}>
+            <span className="w-1.5 h-1.5 rotate-45 flex-shrink-0" style={{ background: 'var(--secondary)' }} />
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">
+              Admin · Nội dung
+            </span>
+          </div>
+          <h1 className="font-headline text-2xl md:text-3xl font-bold text-white leading-tight" style={{ letterSpacing: '-0.02em' }}>
+            Quản lý nội dung
+          </h1>
+          <p className="text-white/50 text-xs mt-1.5">
+            Duyệt bộ thẻ, cấu hình hiển thị và chỉnh sửa bài học.
+          </p>
+          <Link
+            to="/admin/courses"
+            className="mt-3.5 inline-block px-4 py-2 bg-white/10 hover:bg-white/20 text-white text-xs font-bold uppercase tracking-wider transition-colors"
+            style={{ backdropFilter: 'blur(4px)' }}
+          >
+            Quản lý lộ trình & bài học →
+          </Link>
         </div>
-        <div className="absolute -right-4 -bottom-4 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none" style={{ fontSize: 160 }}>内</div>
-      </section>
+      </PageHeader>
 
       <section>
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">

@@ -1,5 +1,6 @@
 import { useSettings } from '../hooks/useSettings';
 import { IconSettings, IconVolume, IconCheck } from '../components/Icons';
+import PageHeader from '../components/PageHeader';
 
 export default function SettingsPage() {
   const {
@@ -30,15 +31,12 @@ export default function SettingsPage() {
   return (
     <div className="max-w-3xl mx-auto p-4 md:p-8 space-y-8 animate-fade-up">
       {/* Header */}
-      <div className="flex items-center gap-3 border-b border-outline-variant/20 pb-4">
-        <div className="w-12 h-12 bg-surface-container border border-outline-variant/30 flex items-center justify-center text-primary sharp-shadow-sm">
-          <IconSettings className="w-6 h-6" />
-        </div>
-        <div>
-          <h1 className="font-headline text-3xl font-bold text-on-surface">Cài đặt cá nhân</h1>
-          <p className="text-xs font-bold uppercase tracking-wider text-secondary mt-0.5">Tùy biến trải nghiệm học tập của bạn</p>
-        </div>
-      </div>
+      <PageHeader
+        tag="Cá nhân hóa"
+        title="Cài đặt"
+        subtitle="Tùy biến cấu hình học tập và chủ đề giao diện."
+        ghostChar="設"
+      />
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Left column: Controls */}

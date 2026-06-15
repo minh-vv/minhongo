@@ -3,6 +3,7 @@ import { Navigate } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { useAuth } from '../hooks/useAuth';
 import { adminApi } from '../api/adminApi';
+import PageHeader from '../components/PageHeader';
 
 function SectionHeader({ title, accent = 'var(--secondary)' }) {
   return (
@@ -90,26 +91,14 @@ export default function AdminSettingsPage() {
   return (
     <div className="max-w-3xl mx-auto w-full p-6 md:p-8 space-y-10">
 
-      <section className="relative overflow-hidden animate-fade-up" style={{ minHeight: 120 }}>
-        <div className="absolute inset-0" style={{
-          background: 'linear-gradient(135deg, #4a148c 0%, #6a1b9a 50%, #311b92 100%)',
-        }} />
-        <div className="absolute inset-0 asanoha-bg opacity-15" />
-        <div className="absolute right-0 top-0 bottom-0 w-1" style={{ background: 'var(--secondary)' }} />
-        <div className="relative z-10 p-8 md:p-10">
-          <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4" style={{ backdropFilter: 'blur(4px)' }}>
-            <span className="w-1.5 h-1.5 rotate-45 flex-shrink-0" style={{ background: 'var(--secondary)' }} />
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">Admin · Cấu hình</span>
-          </div>
-          <h1 className="font-headline text-3xl md:text-4xl font-bold text-white leading-tight" style={{ letterSpacing: '-0.02em' }}>
-            Cấu hình hệ thống
-          </h1>
-          <p className="text-white/55 text-sm mt-2">
-            Điều khiển đăng ký, thông báo toàn cục và trải nghiệm khách
-          </p>
-        </div>
-        <div className="absolute -right-4 -bottom-4 font-jp font-bold text-white/[0.05] leading-none select-none pointer-events-none" style={{ fontSize: 140 }}>設</div>
-      </section>
+      <PageHeader
+        tag="Admin · Cấu hình"
+        title="Cấu hình hệ thống"
+        subtitle="Quản lý cấu hình đăng ký, thông báo và trải nghiệm khách."
+        ghostChar="設"
+        gradientBg="linear-gradient(135deg, #4a148c 0%, #6a1b9a 50%, #311b92 100%)"
+        minHeight={120}
+      />
 
       {isLoading ? (
         <div className="flex justify-center py-20 text-on-surface-variant text-sm gap-2">

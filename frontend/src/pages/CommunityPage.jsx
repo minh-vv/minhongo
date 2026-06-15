@@ -4,6 +4,7 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
 import { useAuth } from '../hooks/useAuth';
 import { Search, Copy, Layers, ExternalLink, Filter, BookOpen } from 'lucide-react';
+import PageHeader from '../components/PageHeader';
 
 // Định nghĩa danh mục
 const CATEGORIES = [
@@ -107,31 +108,12 @@ export default function CommunityPage() {
     <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-10">
       
       {/* ── HERO ────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden animate-fade-up" style={{ minHeight: 130 }}>
-        <div className="absolute inset-0" style={{
-          background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 60%, #0d1b5e 100%)'
-        }} />
-        <div className="absolute inset-0 asanoha-bg opacity-20" />
-        <div className="absolute right-0 top-0 bottom-0 w-1" style={{ background: 'var(--secondary)' }} />
-
-        <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div>
-            <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4"
-              style={{ backdropFilter: 'blur(4px)' }}>
-              <span className="w-1.5 h-1.5 rotate-45" style={{ background: 'var(--secondary)' }} />
-              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">
-                Chia sẻ & Học hỏi
-              </span>
-            </div>
-            <h1 className="font-headline text-3xl font-bold text-white"
-              style={{ letterSpacing: '-0.02em' }}>
-              Cộng đồng chia sẻ bộ thẻ
-            </h1>
-            <p className="text-white/50 text-sm mt-2 max-w-lg">
-              Nơi giao lưu, chia sẻ các bộ thẻ từ vựng, chữ Hán, ngữ pháp hữu ích từ những người học tiếng Nhật khắp mọi nơi.
-            </p>
-          </div>
-
+      <PageHeader
+        tag="Chia sẻ & Học hỏi"
+        title="Bộ thẻ cộng đồng"
+        subtitle="Khám phá và học các bộ thẻ được chia sẻ từ cộng đồng."
+        ghostChar="仲"
+        rightContent={
           <div className="flex gap-3 flex-shrink-0">
             <div className="text-center bg-white/10 px-5 py-3"
               style={{ backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.1)' }}>
@@ -141,11 +123,8 @@ export default function CommunityPage() {
               <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Bộ thẻ chia sẻ</p>
             </div>
           </div>
-        </div>
-
-        <div className="absolute -right-4 -bottom-4 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none"
-          style={{ fontSize: 160 }}>仲</div>
-      </section>
+        }
+      />
 
       {/* ── SEARCH & FILTER TOOLBAR ─────────────────────────── */}
       <section className="bg-surface-container-lowest p-6 border border-outline-variant/30 sharp-shadow-sm space-y-6">

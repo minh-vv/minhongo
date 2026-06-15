@@ -7,6 +7,7 @@ import { Link, useParams, useNavigate, useLocation } from 'react-router-dom';
 import axios from '../api/axios';
 import { useAuth } from '../hooks/useAuth';
 import ImportAnkiModal from './ImportAnkiModal';
+import PageHeader from './PageHeader';
 
 const JLPT_LEVELS = [5, 4, 3, 2, 1];
 
@@ -365,85 +366,33 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
     <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-8">
 
       {/* ── HERO & BREADCRUMBS MERGED ─────────────────────────────── */}
-      <section className="relative overflow-hidden animate-fade-up" style={{ minHeight: selectedBookLevel ? undefined : 130 }}>
-        <div className="absolute inset-0" style={{
-          background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-container) 60%, #0d1b5e 100%)'
-        }} />
-        <div className="absolute inset-0 asanoha-bg opacity-20" />
-        <div className="absolute right-0 top-0 bottom-0 w-1" style={{ background: 'var(--secondary)' }} />
-
-        {selectedBookLevel ? (
-          /* Merged layout when a book level is selected */
-          <div className="relative z-10 p-6 md:p-8 flex flex-col gap-6">
-            {/* Top row: Back button & Breadcrumbs */}
-            <div className="flex flex-wrap items-center gap-3 text-white/80">
-              <button
-                onClick={() => navigate(basePath)}
-                className="flex items-center gap-1.5 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-white border border-white/20 hover:bg-white/10 transition-all backdrop-blur-sm"
-              >
-                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-                </svg>
-                Quay lại
-              </button>
-              <div className="flex items-center gap-1.5 text-xs font-semibold text-white/85">
-                <span className="cursor-pointer hover:text-white transition-colors" onClick={() => navigate(basePath)}>Tất cả giáo trình</span>
-                <span className="text-white/40">/</span>
-                <span>{getBookInfo({ name: selectedBookLevel.bookId }).title}</span>
-                <span className="text-white/40">/</span>
-                <span className="font-bold text-white">Cấp độ N{selectedBookLevel.level}</span>
+      <PageHeader
+        tag={selectedBookLevel ? undefined : "JLPT N5 → N1"}
+        title={selectedBookLevel ? `${getBookInfo({ name: selectedBookLevel.bookId }).title} N${selectedBookLevel.level}` : title}
+        subtitle={selectedBookLevel ? getBookLevelCardMeta(selectedBookLevel.bookId, selectedBookLevel.level, category).bottomDesc : subtitle}
+        ghostChar={ghostChar}
+        accentColor={accentColor}
+        backLink={selectedBookLevel ? basePath : undefined}
+        backText={selectedBookLevel ? "Quay lại" : undefined}
+        rightContent={
+          selectedBookLevel ? (
+            <div className="flex items-center gap-3 shrink-0 self-start md:self-auto">
+              <div className="flex gap-2 text-white text-xs font-bold bg-white/10 px-3 py-1.5 border border-white/10 backdrop-blur-sm">
+                <span>{filtered.length} bài học</span>
+                <span className="text-white/30">|</span>
+                <span>{filtered.reduce((sum, d) => sum + (d._count?.cards || 0), 0)} {category === 'TUVUNG' ? 'từ vựng' : category === 'HANTU' ? 'hán tự' : 'thẻ'}</span>
               </div>
+              {isAdmin && (
+                <button
+                  onClick={() => setShowUpload(true)}
+                  className="flex items-center gap-2 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors"
+                  style={{ background: 'var(--secondary)' }}
+                >
+                  Upload Anki
+                </button>
+              )}
             </div>
-
-            {/* Bottom row: Title & Stats / Actions */}
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-              <div>
-                <h1 className="font-headline text-2xl md:text-3xl font-bold text-white leading-tight">
-                  {getBookInfo({ name: selectedBookLevel.bookId }).title} N{selectedBookLevel.level}
-                </h1>
-                <p className="text-white/60 text-xs mt-1 font-medium">
-                  {getBookLevelCardMeta(selectedBookLevel.bookId, selectedBookLevel.level, category).bottomDesc}
-                </p>
-              </div>
-
-              {/* Stats & Actions */}
-              <div className="flex items-center gap-3 shrink-0 self-start md:self-auto">
-                <div className="flex gap-2 text-white text-xs font-bold bg-white/10 px-3 py-1.5 border border-white/10 backdrop-blur-sm">
-                  <span>{filtered.length} bài học</span>
-                  <span className="text-white/30">|</span>
-                  <span>{filtered.reduce((sum, d) => sum + (d._count?.cards || 0), 0)} {category === 'TUVUNG' ? 'từ vựng' : category === 'HANTU' ? 'hán tự' : 'thẻ'}</span>
-                </div>
-                {isAdmin && (
-                  <button
-                    onClick={() => setShowUpload(true)}
-                    className="flex items-center gap-2 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-on-secondary hover:bg-secondary-dim transition-colors"
-                    style={{ background: 'var(--secondary)' }}
-                  >
-                    Upload Anki
-                  </button>
-                )}
-              </div>
-            </div>
-          </div>
-        ) : (
-          /* Default full hero layout */
-          <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-4">
-            <div className="min-w-0">
-              <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 mb-4"
-                style={{ backdropFilter: 'blur(4px)' }}>
-                <span className="w-1.5 h-1.5 rotate-45" style={{ background: 'var(--secondary)' }} />
-                <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/70">
-                  JLPT N5 → N1
-                </span>
-              </div>
-              <h1 className="font-headline text-3xl font-bold text-white"
-                style={{ letterSpacing: '-0.02em' }}>
-                {title}
-              </h1>
-              <p className="text-white/50 text-sm mt-2 max-w-lg">{subtitle}</p>
-            </div>
-
-            {/* Stats */}
+          ) : (
             <div className="flex gap-3 flex-shrink-0">
               <div className="text-center bg-white/10 px-5 py-3"
                 style={{ backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.1)' }}>
@@ -456,14 +405,27 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
                 <p className="text-[10px] font-bold uppercase tracking-widest text-white/50 mt-1">Thẻ học</p>
               </div>
             </div>
+          )
+        }
+      >
+        {selectedBookLevel && (
+          <div>
+            <div className="flex items-center gap-1.5 text-xs font-semibold text-white/85 mb-4">
+              <span className="cursor-pointer hover:text-white transition-colors" onClick={() => navigate(basePath)}>Tất cả giáo trình</span>
+              <span className="text-white/40">/</span>
+              <span>{getBookInfo({ name: selectedBookLevel.bookId }).title}</span>
+              <span className="text-white/40">/</span>
+              <span className="font-bold text-white">Cấp độ N{selectedBookLevel.level}</span>
+            </div>
+            <h1 className="font-headline text-2xl md:text-3xl font-bold text-white leading-tight">
+              {getBookInfo({ name: selectedBookLevel.bookId }).title} N{selectedBookLevel.level}
+            </h1>
+            <p className="text-white/60 text-xs mt-1 font-medium">
+              {getBookLevelCardMeta(selectedBookLevel.bookId, selectedBookLevel.level, category).bottomDesc}
+            </p>
           </div>
         )}
-
-        <div className="absolute -right-4 -bottom-4 font-jp font-bold text-white/[0.04] leading-none select-none pointer-events-none"
-          style={{ fontSize: 160 }}>
-          {ghostChar}
-        </div>
-      </section>
+      </PageHeader>
 
       {/* Admin Actions Bar (only home view) */}
       {!selectedBookLevel && isAdmin && (
