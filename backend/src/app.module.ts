@@ -14,14 +14,17 @@ import { HealthModule } from './health/health.module';
 import { AiRoadmapModule } from './ai-roadmap/ai-roadmap.module';
 import { AiTutorModule } from './ai-tutor/ai-tutor.module';
 import { S3Module } from './s3/s3.module';
+import { FeedbackModule } from './feedback/feedback.module';
 
 @Module({
   imports: [
     // Rate limiter mặc định: 60 requests / 60 giây per IP
-    ThrottlerModule.forRoot([{
-      ttl: 60000,
-      limit: 60,
-    }]),
+    ThrottlerModule.forRoot([
+      {
+        ttl: 60000,
+        limit: 60,
+      },
+    ]),
     PrismaModule,
     UsersModule,
     AuthModule,
@@ -33,6 +36,7 @@ import { S3Module } from './s3/s3.module';
     AiRoadmapModule,
     AiTutorModule,
     S3Module,
+    FeedbackModule,
   ],
   controllers: [AppController],
   providers: [

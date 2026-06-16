@@ -76,9 +76,7 @@ export async function withRetry<T>(
         isRateLimit ||
         (status >= 500 && status < 600);
 
-      const currentMaxRetries = isRateLimit
-        ? maxRateLimitRetries
-        : maxRetries;
+      const currentMaxRetries = isRateLimit ? maxRateLimitRetries : maxRetries;
       const isLastAttempt = attempt >= currentMaxRetries;
 
       if (isLastAttempt || !isRetryable) {
@@ -95,13 +93,14 @@ export async function withRetry<T>(
           finalDelay = retryAfterMs;
         } else {
           // Rate limit: start at 5s and increase aggressively
-          const rateLimitDelay = 5000 * Math.pow(backoffFactor, rateLimitHits - 1);
+          const rateLimitDelay =
+            5000 * Math.pow(backoffFactor, rateLimitHits - 1);
           // Cap at 60 seconds
           finalDelay = Math.min(rateLimitDelay, 60000);
         }
         logger.warn(
           `🚦 Rate limited (429) by Gemini API (hit #${rateLimitHits}, attempt ${attempt}/${currentMaxRetries}). ` +
-          `Waiting ${Math.round(finalDelay / 1000)}s before retry...`,
+            `Waiting ${Math.round(finalDelay / 1000)}s before retry...`,
         );
       } else {
         // Non-rate-limit transient error: use standard backoff
@@ -110,8 +109,8 @@ export async function withRetry<T>(
 
         logger.warn(
           `Gemini API request failed (Attempt ${attempt}/${currentMaxRetries}, ` +
-          `Status: ${status ?? 'Network Error'}). Retrying in ${finalDelay}ms... ` +
-          `Error: ${error.message}`,
+            `Status: ${status ?? 'Network Error'}). Retrying in ${finalDelay}ms... ` +
+            `Error: ${error.message}`,
         );
 
         delay *= backoffFactor;

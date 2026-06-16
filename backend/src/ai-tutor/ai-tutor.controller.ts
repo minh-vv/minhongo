@@ -39,10 +39,7 @@ export class AiTutorController {
   // AI đánh giá câu: tối đa 10 lần / phút
   @Post('evaluate')
   @Throttle({ default: { ttl: 60000, limit: 10 } })
-  evaluate(
-    @Request() req: RequestWithUser,
-    @Body() evaluateDto: EvaluateDto,
-  ) {
+  evaluate(@Request() req: RequestWithUser, @Body() evaluateDto: EvaluateDto) {
     return this.aiTutorService.evaluate(req.user.id, evaluateDto);
   }
 
@@ -78,10 +75,7 @@ export class AiTutorController {
   }
 
   @Delete('save-example/:id')
-  deleteSavedExample(
-    @Request() req: RequestWithUser,
-    @Param('id') id: string,
-  ) {
+  deleteSavedExample(@Request() req: RequestWithUser, @Param('id') id: string) {
     return this.aiTutorService.deleteSavedExample(req.user.id, id);
   }
 
