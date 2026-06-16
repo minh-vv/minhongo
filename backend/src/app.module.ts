@@ -14,6 +14,7 @@ import { HealthModule } from './health/health.module';
 import { AiRoadmapModule } from './ai-roadmap/ai-roadmap.module';
 import { AiTutorModule } from './ai-tutor/ai-tutor.module';
 import { S3Module } from './s3/s3.module';
+import { FeedbackModule } from './feedback/feedback.module';
 
 @Module({
   imports: [
@@ -33,6 +34,7 @@ import { S3Module } from './s3/s3.module';
     AiRoadmapModule,
     AiTutorModule,
     S3Module,
+    FeedbackModule,
   ],
   controllers: [AppController],
   providers: [

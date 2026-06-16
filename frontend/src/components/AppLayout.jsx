@@ -6,9 +6,9 @@ import { systemApi } from '../api/systemApi';
 import AuthModal from './AuthModal';
 import {
   IconHome, IconGlobe, IconList, IconBook, IconMap, IconLayers,
-  IconChart, IconTrophy, IconPeople, IconStar, IconShield,
+  IconChart, IconTrophy, IconPeople, IconFeedback, IconShield,
   IconFolder, IconSettings, IconUser, IconLogOut, IconChevronDown,
-  IconCheck, IconKanji, IconBot, IconHeadphones,
+  IconCheck, IconKanji, IconBot, IconHeadphones, IconMessageCircle,
 } from './Icons';
 
 const LANGUAGES = [
@@ -331,6 +331,23 @@ export default function AppLayout() {
                   </>
                 )}
               </NavLink>
+              <NavLink
+                to="/admin/feedbacks"
+                className={({ isActive }) =>
+                  isActive
+                    ? 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 vermilion-active font-bold'
+                    : 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                }
+              >
+                {({ isActive }) => (
+                  <>
+                    <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }}>
+                      <IconMessageCircle />
+                    </span>
+                    <span className="flex-1">Phản hồi</span>
+                  </>
+                )}
+              </NavLink>
             </div>
           )}
           </div>
@@ -338,22 +355,22 @@ export default function AppLayout() {
           {/* ── BOTTOM ACTIONS ──────────────────────────────────── */}
           <div className="flex-shrink-0 border-t" style={{ borderColor: 'rgba(0,0,0,0.07)' }}>
 
-            {/* Upgrade button */}
+            {/* Feedback button */}
             <div className="px-3 pt-2 pb-0.5">
               <NavLink
-                to="/upgrade"
+                to="/feedback"
                 className={({ isActive }) =>
                   `flex items-center gap-4 px-4 py-2.5 text-sm font-bold w-full transition-all duration-150 border-l-[3px] ${
-                    isActive ? 'border-amber-400' : 'border-transparent hover:bg-surface-container'
+                    isActive ? 'border-teal-500' : 'border-transparent hover:bg-surface-container'
                   }`
                 }
                 style={({ isActive }) => ({
-                  background: isActive ? 'rgba(245,158,11,0.08)' : undefined,
-                  color: '#b45309',
+                  background: isActive ? 'rgba(20,184,166,0.08)' : undefined,
+                  color: '#0d9488',
                 })}
               >
-                <span style={{ color: '#b45309' }}><IconStar /></span>
-                <span className="flex-1">Nâng cấp</span>
+                <span style={{ color: '#0d9488' }}><IconFeedback /></span>
+                <span className="flex-1">Phản hồi</span>
               </NavLink>
             </div>
 

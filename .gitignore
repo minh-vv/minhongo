@@ -38,3 +38,8 @@ coverage/
 
 # Local deployment documentation
 deploy-commands.md
+
+# Thesis / Report documentation
+docs/Chuong/
+docs/Hinhve/
+docs/DoAn.*

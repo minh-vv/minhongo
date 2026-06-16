@@ -70,6 +70,7 @@ export {
   // ── Communication ─────────────────────────────────────────
   Mail as IconMail,
   MessageCircle as IconMessageCircle,
+  MessageSquareHeart as IconFeedback,
 
   // ── Misc ──────────────────────────────────────────────────
   AlertCircle as IconAlertCircle,

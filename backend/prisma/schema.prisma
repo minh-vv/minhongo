@@ -30,6 +30,8 @@ model User {
   customRoadmaps CustomRoadmap[]
   grammarPractices GrammarPractice[]
   savedExamples    UserSavedExample[]
+  feedbacks        Feedback[]
+  feedbackComments FeedbackComment[]
 }
 
 enum DeckCategory {
@@ -330,4 +332,56 @@ model UserSavedExample {
 
   @@unique([userId, cardId, japanese])
   @@index([userId, cardId])
+}
+
+// ============================================================================
+// FEEDBACK
+// ============================================================================
+
+enum FeedbackType {
+  BUG
+  FEATURE
+  CONTENT
+  UI_UX
+  OTHER
+}
+
+enum FeedbackStatus {
+  PENDING
+  REVIEWED
+  RESOLVED
+  DISMISSED
+}
+
+model Feedback {
+  id          String         @id @default(uuid())
+  userId      String
+  type        FeedbackType
+  message     String         @db.Text
+  imageUrls   String[]
+  status      FeedbackStatus @default(PENDING)
+  adminNote   String?        @db.Text
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+
+  user        User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  comments    FeedbackComment[]
+
+  @@index([userId])
+  @@index([status])
+  @@index([type])
+}
+
+model FeedbackComment {
+  id         String   @id @default(uuid())
+  feedbackId String
+  userId     String
+  message    String   @db.Text
+  createdAt  DateTime @default(now())
+
+  feedback   Feedback @relation(fields: [feedbackId], references: [id], onDelete: Cascade)
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([feedbackId])
+  @@index([userId])
 }

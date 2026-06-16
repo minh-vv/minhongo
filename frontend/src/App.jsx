@@ -24,6 +24,7 @@ import AdminUsersPage from './pages/AdminUsersPage';
 import AdminContentPage from './pages/AdminContentPage';
 import AdminCoursesPage from './pages/AdminCoursesPage';
 import AdminSettingsPage from './pages/AdminSettingsPage';
+import AdminFeedbackPage from './pages/AdminFeedbackPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import ResetPasswordPage from './pages/ResetPasswordPage';
 import ProfilePage from './pages/ProfilePage';
@@ -34,7 +35,7 @@ import SettingsPage from './pages/SettingsPage';
 import ProgressPage from './pages/ProgressPage';
 import LeaderboardPage from './pages/LeaderboardPage';
 import CommunityPage from './pages/CommunityPage';
-import UpgradePage from './pages/UpgradePage';
+import FeedbackPage from './pages/FeedbackPage';
 import ListeningPage from './pages/ListeningPage';
 import ListeningDialogue from './pages/Listening/ListeningDialogue';
 import ListeningSentence from './pages/Listening/ListeningSentence';
@@ -96,6 +97,7 @@ function AppRoutes() {
         <Route path="/admin/content" element={<AdminContentPage />} />
         <Route path="/admin/courses" element={<AdminCoursesPage />} />
         <Route path="/admin/settings" element={<AdminSettingsPage />} />
+        <Route path="/admin/feedbacks" element={<AdminFeedbackPage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/demo/:deckId" element={<DemoPage />} />
@@ -103,7 +105,7 @@ function AppRoutes() {
         <Route path="/progress" element={<ProgressPage />} />
         <Route path="/leaderboard" element={<LeaderboardPage />} />
         <Route path="/community" element={<CommunityPage />} />
-        <Route path="/upgrade" element={<UpgradePage />} />
+        <Route path="/feedback" element={<FeedbackPage />} />
         <Route path="/listening" element={<ListeningPage />} />
         <Route path="/listening/dialogue" element={<ListeningDialogue />} />
         <Route path="/listening/sentence" element={<ListeningSentence />} />
@@ -115,7 +117,8 @@ function AppRoutes() {
         <Route path="/lotrinh" element={<Navigate to="/roadmap" replace />} />
         <Route path="/tuhoc" element={<Navigate to="/self-study" replace />} />
         <Route path="/cong-dong" element={<Navigate to="/community" replace />} />
-        <Route path="/nang-cap" element={<Navigate to="/upgrade" replace />} />
+        <Route path="/nang-cap" element={<Navigate to="/feedback" replace />} />
+        <Route path="/upgrade" element={<Navigate to="/feedback" replace />} />
         <Route path="/bai-hoc" element={<Navigate to="/kanji" replace />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
