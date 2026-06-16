@@ -47,7 +47,7 @@ export class AiRoadmapService {
     let targetJlptLevel: number | null = null;
     const goalUpper = dto.goal.toUpperCase();
     const currentUpper = dto.currentLevel.toUpperCase();
-    
+
     // Check goal first for N1-N5
     const goalMatch = goalUpper.match(/N([1-5])/);
     if (goalMatch) {
@@ -57,7 +57,10 @@ export class AiRoadmapService {
       const currentMatch = currentUpper.match(/N([1-5])/);
       if (currentMatch) {
         const level = parseInt(currentMatch[1], 10);
-        if (currentUpper.includes('ĐANG HỌC') || currentUpper.includes('LEARNING')) {
+        if (
+          currentUpper.includes('ĐANG HỌC') ||
+          currentUpper.includes('LEARNING')
+        ) {
           targetJlptLevel = level;
         } else {
           // If they are N3, they probably want N2
@@ -65,10 +68,15 @@ export class AiRoadmapService {
         }
       }
     }
-    
+
     // Default fallback: if no level is parsed, but they have other indicators
     if (!targetJlptLevel) {
-      if (currentUpper.includes('CHƯA BIẾT') || currentUpper.includes('BẮT ĐẦU') || currentUpper.includes('BẢNG CHỮ CÁI') || currentUpper.includes('SƠ CẤP')) {
+      if (
+        currentUpper.includes('CHƯA BIẾT') ||
+        currentUpper.includes('BẮT ĐẦU') ||
+        currentUpper.includes('BẢNG CHỮ CÁI') ||
+        currentUpper.includes('SƠ CẤP')
+      ) {
         targetJlptLevel = 5; // N5
       } else {
         targetJlptLevel = 3; // Default fallback to N3
@@ -365,7 +373,9 @@ Trả về JSON theo đúng cấu trúc sau:
           ...p,
           items: p.items.map((i) => ({
             ...i,
-            isCompleted: i.isCompleted || (i.lessonId ? passedLessonIds.has(i.lessonId) : false),
+            isCompleted:
+              i.isCompleted ||
+              (i.lessonId ? passedLessonIds.has(i.lessonId) : false),
           })),
         })),
       };
@@ -404,7 +414,9 @@ Trả về JSON theo đúng cấu trúc sau:
         ...p,
         items: p.items.map((i) => ({
           ...i,
-          isCompleted: i.isCompleted || (i.lessonId ? passedLessonIds.has(i.lessonId) : false),
+          isCompleted:
+            i.isCompleted ||
+            (i.lessonId ? passedLessonIds.has(i.lessonId) : false),
         })),
       })),
     }));
@@ -463,7 +475,9 @@ Trả về JSON theo đúng cấu trúc sau:
         ...p,
         items: p.items.map((i) => ({
           ...i,
-          isCompleted: i.isCompleted || (i.lessonId ? passedLessonIds.has(i.lessonId) : false),
+          isCompleted:
+            i.isCompleted ||
+            (i.lessonId ? passedLessonIds.has(i.lessonId) : false),
         })),
       })),
     };

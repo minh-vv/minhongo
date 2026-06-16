@@ -1,6 +1,12 @@
-import { Injectable, Logger, NotFoundException, ForbiddenException } from '@nestjs/common';
+import {
+  Injectable,
+  Logger,
+  NotFoundException,
+  ForbiddenException,
+} from '@nestjs/common';
 import { PrismaService } from 'src/prisma/prisma.service';
 import { S3Service } from 'src/s3/s3.service';
+import { FeedbackStatus as PrismaFeedbackStatus } from '@prisma/client';
 import { FeedbackType } from './dto/create-feedback.dto';
 import { FeedbackStatus } from './dto/update-feedback.dto';
 
@@ -11,7 +17,7 @@ export class FeedbackService {
   constructor(
     private prisma: PrismaService,
     private s3: S3Service,
-  ) { }
+  ) {}
 
   // ── User: Gửi feedback mới ──────────────────────────────────────────────
   async createFeedback(
@@ -39,17 +45,31 @@ export class FeedbackService {
       return this.prisma.feedback.update({
         where: { id: feedback.id },
         data: { imageUrls },
-        include: { user: { select: { id: true, name: true, email: true, avatarUrl: true } } },
+        include: {
+          user: {
+            select: { id: true, name: true, email: true, avatarUrl: true },
+          },
+        },
       });
     }
 
     return this.prisma.feedback.findUnique({
       where: { id: feedback.id },
       include: {
-        user: { select: { id: true, name: true, email: true, avatarUrl: true } },
+        user: {
+          select: { id: true, name: true, email: true, avatarUrl: true },
+        },
         comments: {
           include: {
-            user: { select: { id: true, name: true, email: true, avatarUrl: true, isAdmin: true } },
+            user: {
+              select: {
+                id: true,
+                name: true,
+                email: true,
+                avatarUrl: true,
+                isAdmin: true,
+              },
+            },
           },
           orderBy: { createdAt: 'asc' },
         },
@@ -66,7 +86,15 @@ export class FeedbackService {
         include: {
           comments: {
             include: {
-              user: { select: { id: true, name: true, email: true, avatarUrl: true, isAdmin: true } },
+              user: {
+                select: {
+                  id: true,
+                  name: true,
+                  email: true,
+                  avatarUrl: true,
+                  isAdmin: true,
+                },
+              },
             },
             orderBy: { createdAt: 'asc' },
           },
@@ -82,12 +110,7 @@ export class FeedbackService {
   }
 
   // ── Admin: Lấy tất cả feedback ─────────────────────────────────────────
-  async getAllFeedbacks(
-    page = 1,
-    limit = 20,
-    type?: string,
-    status?: string,
-  ) {
+  async getAllFeedbacks(page = 1, limit = 20, type?: string, status?: string) {
     const where: Record<string, unknown> = {};
     if (type && type !== 'all') where.type = type;
     if (status && status !== 'all') where.status = status;
@@ -97,10 +120,20 @@ export class FeedbackService {
       this.prisma.feedback.findMany({
         where,
         include: {
-          user: { select: { id: true, name: true, email: true, avatarUrl: true } },
+          user: {
+            select: { id: true, name: true, email: true, avatarUrl: true },
+          },
           comments: {
             include: {
-              user: { select: { id: true, name: true, email: true, avatarUrl: true, isAdmin: true } },
+              user: {
+                select: {
+                  id: true,
+                  name: true,
+                  email: true,
+                  avatarUrl: true,
+                  isAdmin: true,
+                },
+              },
             },
             orderBy: { createdAt: 'asc' },
           },
@@ -133,7 +166,10 @@ export class FeedbackService {
   }
 
   // ── Admin: Cập nhật status / admin note ─────────────────────────────────
-  async updateFeedback(id: string, data: { status?: FeedbackStatus; adminNote?: string }) {
+  async updateFeedback(
+    id: string,
+    data: { status?: FeedbackStatus; adminNote?: string },
+  ) {
     const existing = await this.prisma.feedback.findUnique({ where: { id } });
     if (!existing) throw new NotFoundException('Feedback không tồn tại');
 
@@ -141,10 +177,20 @@ export class FeedbackService {
       where: { id },
       data,
       include: {
-        user: { select: { id: true, name: true, email: true, avatarUrl: true } },
+        user: {
+          select: { id: true, name: true, email: true, avatarUrl: true },
+        },
         comments: {
           include: {
-            user: { select: { id: true, name: true, email: true, avatarUrl: true, isAdmin: true } },
+            user: {
+              select: {
+                id: true,
+                name: true,
+                email: true,
+                avatarUrl: true,
+                isAdmin: true,
+              },
+            },
           },
           orderBy: { createdAt: 'asc' },
         },
@@ -208,10 +254,10 @@ export class FeedbackService {
       },
     });
 
-    if (isAdmin && feedback.status === FeedbackStatus.PENDING) {
+    if (isAdmin && feedback.status === PrismaFeedbackStatus.PENDING) {
       await this.prisma.feedback.update({
         where: { id: feedbackId },
-        data: { status: FeedbackStatus.REVIEWED },
+        data: { status: PrismaFeedbackStatus.REVIEWED },
       });
     }
 

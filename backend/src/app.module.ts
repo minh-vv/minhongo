@@ -19,10 +19,12 @@ import { FeedbackModule } from './feedback/feedback.module';
 @Module({
   imports: [
     // Rate limiter mặc định: 60 requests / 60 giây per IP
-    ThrottlerModule.forRoot([{
-      ttl: 60000,
-      limit: 60,
-    }]),
+    ThrottlerModule.forRoot([
+      {
+        ttl: 60000,
+        limit: 60,
+      },
+    ]),
     PrismaModule,
     UsersModule,
     AuthModule,

@@ -120,10 +120,7 @@ export class FeedbackController {
   /** Cập nhật status / admin note */
   @Patch('admin/feedbacks/:id')
   @UseGuards(JwtAuthGuard, AdminGuard)
-  updateFeedback(
-    @Param('id') id: string,
-    @Body() dto: UpdateFeedbackDto,
-  ) {
+  updateFeedback(@Param('id') id: string, @Body() dto: UpdateFeedbackDto) {
     return this.feedbackService.updateFeedback(id, dto);
   }
 

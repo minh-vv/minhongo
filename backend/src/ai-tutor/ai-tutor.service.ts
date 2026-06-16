@@ -1,4 +1,9 @@
-import { Injectable, BadRequestException, Logger, NotFoundException } from '@nestjs/common';
+import {
+  Injectable,
+  BadRequestException,
+  Logger,
+  NotFoundException,
+} from '@nestjs/common';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import {
   ExplainDto,
@@ -35,7 +40,8 @@ const EvaluateSchema = {
   properties: {
     isCorrect: {
       type: 'boolean',
-      description: 'Đúng ngữ pháp tiếng Nhật và sử dụng chính xác cấu trúc/từ vựng được yêu cầu.',
+      description:
+        'Đúng ngữ pháp tiếng Nhật và sử dụng chính xác cấu trúc/từ vựng được yêu cầu.',
     },
     score: {
       type: 'integer',
@@ -43,11 +49,13 @@ const EvaluateSchema = {
     },
     feedback: {
       type: 'string',
-      description: 'Nhận xét chi tiết bằng tiếng Việt về ngữ pháp, lỗi sai nếu có.',
+      description:
+        'Nhận xét chi tiết bằng tiếng Việt về ngữ pháp, lỗi sai nếu có.',
     },
     suggestion: {
       type: 'string',
-      description: 'Câu đề xuất tiếng Nhật viết lại tự nhiên và chuẩn xác hơn (kèm kanji).',
+      description:
+        'Câu đề xuất tiếng Nhật viết lại tự nhiên và chuẩn xác hơn (kèm kanji).',
     },
   },
   required: ['isCorrect', 'score', 'feedback', 'suggestion'],
@@ -56,8 +64,8 @@ const EvaluateSchema = {
 // ============================================================================
 // Model configuration — thay đổi model tại đây khi cần
 // ============================================================================
-const PRIMARY_MODEL = 'gemini-3.1-flash-lite';   // 15 RPM, 500 RPD
-const FALLBACK_MODEL = 'gemini-2.5-flash-lite';   // 10 RPM, 20 RPD
+const PRIMARY_MODEL = 'gemini-3.1-flash-lite'; // 15 RPM, 500 RPD
+const FALLBACK_MODEL = 'gemini-2.5-flash-lite'; // 10 RPM, 20 RPD
 
 // ============================================================================
 // In-memory TTL Cache — giảm số lần gọi Gemini cho các request giống nhau
@@ -168,9 +176,7 @@ export class AiTutorService {
     try {
       return await withRetry(
         () =>
-          this.getModelWithJson(PRIMARY_MODEL, schema).generateContent(
-            prompt,
-          ),
+          this.getModelWithJson(PRIMARY_MODEL, schema).generateContent(prompt),
         { logger: this.logger },
       );
     } catch (primaryError: any) {
@@ -179,9 +185,7 @@ export class AiTutorService {
       );
       return await withRetry(
         () =>
-          this.getModelWithJson(FALLBACK_MODEL, schema).generateContent(
-            prompt,
-          ),
+          this.getModelWithJson(FALLBACK_MODEL, schema).generateContent(prompt),
         { logger: this.logger },
       );
     }
@@ -228,7 +232,10 @@ Hãy kiểm tra kỹ lưỡng câu viết của học viên và đánh giá chi 
 6. Đưa ra câu gợi ý viết lại (suggestion) tự nhiên hơn bằng tiếng Nhật (sử dụng Kanji phù hợp).`;
 
     try {
-      const result = await this.generateJsonContentWithFallback(prompt, EvaluateSchema);
+      const result = await this.generateJsonContentWithFallback(
+        prompt,
+        EvaluateSchema,
+      );
       const text = result.response.text().trim();
       const evalResult = JSON.parse(text);
 
@@ -247,7 +254,10 @@ Hãy kiểm tra kỹ lưỡng câu viết của học viên và đánh giá chi 
             },
           });
         } catch (dbError: any) {
-          this.logger.error(`Không thể lưu kết quả luyện tập ngữ pháp: ${dbError.message}`, dbError.stack);
+          this.logger.error(
+            `Không thể lưu kết quả luyện tập ngữ pháp: ${dbError.message}`,
+            dbError.stack,
+          );
         }
       }
 
@@ -295,7 +305,9 @@ Hãy kiểm tra kỹ lưỡng câu viết của học viên và đánh giá chi 
         });
         if (existing) return existing;
       }
-      throw new BadRequestException('Không thể lưu câu ví dụ: ' + error.message);
+      throw new BadRequestException(
+        'Không thể lưu câu ví dụ: ' + error.message,
+      );
     }
   }
 
@@ -327,7 +339,6 @@ Hãy kiểm tra kỹ lưỡng câu viết của học viên và đánh giá chi 
       },
     });
   }
-
 
   // 3. Luyện Chat với AI
   async chat(dto: ChatDto) {
@@ -391,7 +402,10 @@ Yêu cầu:
 2. Cung cấp câu tiếng Nhật (có kanji), phiên âm Romaji đầy đủ, và bản dịch tiếng Việt tương ứng.`;
 
     try {
-      const result = await this.generateJsonContentWithFallback(prompt, GrammarExampleSchema);
+      const result = await this.generateJsonContentWithFallback(
+        prompt,
+        GrammarExampleSchema,
+      );
       const text = result.response.text().trim();
       return JSON.parse(text);
     } catch (error: any) {

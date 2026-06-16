@@ -206,7 +206,9 @@ export class FlashcardsService {
       }));
 
     if (validCards.length === 0) {
-      throw new BadRequestException('Không tìm thấy thẻ học hợp lệ nào để thêm');
+      throw new BadRequestException(
+        'Không tìm thấy thẻ học hợp lệ nào để thêm',
+      );
     }
 
     await this.prisma.card.createMany({
@@ -691,7 +693,9 @@ export class FlashcardsService {
       throw new ForbiddenException('Bạn không có quyền thao tác deck này');
     }
 
-    const isSystemCategory = ['HANTU', 'TUVUNG', 'NGUPHAP'].includes(deck.category);
+    const isSystemCategory = ['HANTU', 'TUVUNG', 'NGUPHAP'].includes(
+      deck.category,
+    );
     if (isSystemCategory) {
       throw new ForbiddenException(
         'Chỉ admin mới có quyền sửa/xóa nội dung hệ thống',
