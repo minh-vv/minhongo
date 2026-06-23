@@ -84,7 +84,7 @@ export function annotateSentence(sentence) {
   
   // 3. Put the placeholders back
   for (const item of placeholders) {
-    tempSentence = tempSentence.replace(item.placeholder, item.html);
+    tempSentence = tempSentence.replaceAll(item.placeholder, item.html);
   }
 
   return tempSentence;

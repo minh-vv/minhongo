@@ -888,6 +888,7 @@ export default function DeckDetailPage() {
                   background-color: var(--surface-container-lowest);
                   border: 1px solid rgba(0, 0, 0, 0.06);
                   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                  height: 100%;
                 }
                 html.dark .vocab-card {
                   border: 1px solid var(--outline-variant);
@@ -914,8 +915,12 @@ export default function DeckDetailPage() {
               {filteredCards.map((card, index) => {
                 const isStarred = card.progress?.[0]?.isStarred || false;
                 
-                // Extract Japanese example and Vietnamese translation
-                const exampleParts = card.example ? card.example.split('\n') : [];
+                // Extract Japanese example, Vietnamese translation and note tag
+                const noteMatch = card.example ? card.example.match(/__NOTE__:\s*([\s\S]*)$/) : null;
+                const exampleNote = noteMatch ? noteMatch[1].trim() : '';
+                const cleanExample = card.example ? card.example.replace(/__NOTE__:\s*[\s\S]*$/, '').trim() : '';
+
+                const exampleParts = cleanExample ? cleanExample.split('\n') : [];
                 const exampleJp = exampleParts[0] || '';
                 const exampleViRaw = exampleParts[1] || '';
                 const exampleVi = exampleViRaw.replace(/^\s*\((.*)\)\s*$/, '$1');
@@ -926,7 +931,7 @@ export default function DeckDetailPage() {
                 return (
                   <div
                     key={card.id}
-                    className="vocab-card rounded-2xl p-5 sm:p-6 shadow-sm flex flex-col relative text-on-surface border-l-[6px] border-l-primary/70 dark:border-l-primary border border-outline-variant/20"
+                    className="vocab-card h-full rounded-2xl p-5 sm:p-6 shadow-sm flex flex-col relative text-on-surface border-l-[6px] border-l-primary/70 dark:border-l-primary border border-outline-variant/20"
                   >
                     {/* Top Row: Star & Volume controls */}
                     <div className="absolute top-4 right-4 flex items-center gap-2 z-10">
@@ -955,7 +960,7 @@ export default function DeckDetailPage() {
                     </div>
 
                     {/* Word Info Block */}
-                    <div className="flex-1 flex items-center flex-wrap gap-1 pr-16">
+                    <div className="flex-1 flex items-start gap-1 pr-16 min-w-0">
                       {/* STT and main Word */}
                       <div className="flex items-baseline gap-2 shrink-0">
                         <span className="text-xs font-bold text-on-surface-variant/70 tabular-nums">
@@ -967,10 +972,10 @@ export default function DeckDetailPage() {
                       </div>
 
                       {/* Vertical line separator */}
-                      <div className="hidden sm:block border-l border-outline-variant/30 h-8 mx-3 shrink-0" />
+                      <div className="hidden sm:block border-l border-outline-variant/30 self-stretch my-1 mx-3 shrink-0" />
 
                       {/* Reading and Translation info */}
-                      <div className="flex flex-col min-w-0">
+                      <div className="flex-1 flex flex-col min-w-0">
                         <div className="flex items-center gap-2 flex-wrap">
                           <span className="text-base font-bold text-primary font-jp select-text">
                             {card.romaji || '-'}
@@ -981,7 +986,7 @@ export default function DeckDetailPage() {
                             </span>
                           )}
                         </div>
-                        <span className="text-base font-bold text-on-surface mt-0.5 select-text">
+                        <span className="text-base font-bold text-on-surface mt-0.5 select-text whitespace-pre-wrap break-words">
                           {card.back}
                         </span>
                       </div>
@@ -1015,6 +1020,12 @@ export default function DeckDetailPage() {
                               <p className="text-xs sm:text-sm text-on-surface-variant mt-1 select-text leading-relaxed font-medium">
                                 {exampleVi}
                               </p>
+                            )}
+                            {exampleNote && (
+                              <div className="mt-2 text-[11px] sm:text-xs text-amber-800 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 border border-amber-200/50 dark:border-amber-900/30 px-3 py-1.5 rounded-lg select-text font-medium flex items-start gap-1.5">
+                                <span className="font-bold text-amber-600 dark:text-amber-400 shrink-0">Chú ý:</span>
+                                <span>{exampleNote.replace(/^Chú ý:\s*/i, '')}</span>
+                              </div>
                             )}
                           </>
                         ) : (
