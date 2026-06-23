@@ -24,7 +24,8 @@ import {
   ArrowLeft, ArrowRight, RotateCw, Check,
   Volume2, BookOpen, ChevronRight, ChevronLeft,
   Bookmark, Trash2, Play, Sparkles, PenTool,
-  History, Loader2, X, Info, Award, FileText
+  History, Loader2, X, Info, Award, FileText,
+  Shuffle
 } from 'lucide-react';
 
 /** Parse ví dụ: "日本語（Vietnamese translation）" */
@@ -661,6 +662,89 @@ function GrammarCard({ card, index, onStudy }) {
 }
 
 // ============================================================
+// LESSON STEPPER COMPONENT
+// ============================================================
+function LessonStepper({ currentPhase, onPhaseChange, lesson, hasResult, isPassed }) {
+  const steps = useMemo(() => {
+    if (!lesson) return [];
+    
+    const list = [{ id: PHASE.THEORY, label: 'Lý thuyết' }];
+
+    const hasVocab = lesson.decks?.some((d) => d.role === 'VOCAB');
+    const hasGrammar = lesson.decks?.some((d) => d.role === 'GRAMMAR');
+    const hasTest = !!lesson.test;
+
+    if (hasVocab) {
+      list.push({ id: PHASE.REVIEW, label: 'Từ vựng' });
+    }
+    if (hasGrammar) {
+      list.push({ id: PHASE.GRAMMAR_REVIEW, label: 'Ngữ pháp' });
+    }
+    if (hasTest) {
+      list.push({ id: PHASE.TEST, label: 'Kiểm tra' });
+    }
+    if (hasResult || isPassed) {
+      list.push({ id: PHASE.RESULT, label: 'Kết quả' });
+    }
+
+    const currentIdx = list.findIndex((s) => s.id === currentPhase);
+
+    return list.map((step, idx) => {
+      const isDone = isPassed || idx < currentIdx;
+      const isLocked = !isPassed && idx > currentIdx;
+      return {
+        ...step,
+        isDone,
+        isLocked,
+      };
+    });
+  }, [lesson, currentPhase, hasResult, isPassed]);
+
+  return (
+    <div className="w-full bg-surface-container-lowest border border-outline-variant/30 p-4 sharp-shadow-sm mb-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div className="text-xs font-bold text-on-surface-variant flex items-center gap-1.5 uppercase tracking-wider">
+        <span>Giai đoạn học:</span>
+      </div>
+      <div className="flex flex-wrap items-center gap-2 md:gap-3 overflow-x-auto w-full sm:w-auto">
+        {steps.map((step, idx) => {
+          const isActive = currentPhase === step.id;
+          const isDone = step.isDone;
+          const isLocked = step.isLocked;
+
+          let btnClass = '';
+          if (isActive) {
+            btnClass = 'bg-primary text-white border-primary';
+          } else if (isDone) {
+            btnClass = 'bg-emerald-50 text-emerald-800 border-emerald-300 hover:bg-emerald-100/50';
+          } else if (isLocked) {
+            btnClass = 'bg-surface-container border-outline-variant/10 text-on-surface-variant/40 cursor-not-allowed opacity-50';
+          } else {
+            btnClass = 'bg-surface border-outline-variant/30 text-on-surface-variant hover:bg-surface-container hover:text-on-surface';
+          }
+
+          return (
+            <button
+              key={step.id}
+              disabled={isLocked}
+              onClick={() => onPhaseChange(step.id)}
+              className={`flex items-center gap-2 px-3 py-2 border transition-all text-xs font-bold uppercase tracking-wider ${btnClass}`}
+              title={isLocked ? 'Hoàn thành phần trước để mở khóa' : `Chuyển sang phần ${step.label}`}
+            >
+              <span className={`w-5 h-5 rounded-full flex items-center justify-center border border-current text-[10px] ${
+                isDone && !isActive ? 'bg-emerald-100 text-emerald-800' : ''
+              }`}>
+                {isDone ? <Check className="w-3 h-3 stroke-[3]" /> : idx + 1}
+              </span>
+              <span>{step.label}</span>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// ============================================================
 // GRAMMAR REVIEW PHASE (Slideshow of grammar cards)
 // ============================================================
 function GrammarReviewPhase({ cards, hasTest, courseSlug, courseTitle, onContinue, onFinish }) {
@@ -698,15 +782,7 @@ function GrammarReviewPhase({ cards, hasTest, courseSlug, courseTitle, onContinu
   const activeCard = cards[activeIndex];
 
   return (
-    <div className="max-w-3xl mx-auto p-6 md:p-8 space-y-6 text-left">
-      <div className="mb-4">
-        <Link
-          to={`/courses/${courseSlug}`}
-          className="inline-flex items-center gap-1.5 text-sm text-on-surface-variant hover:text-primary transition-colors"
-        >
-          ← {courseTitle}
-        </Link>
-      </div>
+    <div className="max-w-3xl mx-auto space-y-6 text-left">
 
       <div className="flex items-center gap-3 text-xs text-on-surface-variant">
         <FileText className="w-4 h-4 text-primary" />
@@ -792,41 +868,8 @@ function TheoryPhase({ lesson, nextLesson, onContinue }) {
   const grammarDeck = lesson.decks?.find((d) => d.role === 'GRAMMAR');
 
   return (
-    <div className="max-w-3xl mx-auto p-6 md:p-8 text-left">
-      <div className="mb-4">
-        <Link
-          to={`/courses/${lesson.course.slug}`}
-          className="inline-flex items-center gap-1.5 text-sm text-on-surface-variant hover:text-primary transition-colors"
-        >
-          ← {lesson.course.title}
-        </Link>
-      </div>
-
-      <div className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow p-6 md:p-10 mb-6">
-        <div className="flex items-center gap-3 mb-2">
-          <span className="px-2 py-0.5 bg-primary/8 text-primary border border-primary/20 text-xs font-bold">
-            Bài {lesson.order}
-          </span>
-          {lesson.skills && lesson.skills.length > 0 && (
-            <div className="flex gap-1.5">
-              {lesson.skills.map((skill) => {
-                const s = SKILL_LABELS[skill];
-                if (!s) return null;
-                return (
-                  <span key={skill} className={`px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider ${s.color}`}>
-                    {s.label}
-                  </span>
-                );
-              })}
-            </div>
-          )}
-          <span className="text-xs text-on-surface-variant">
-            ~{lesson.estimatedMin} phút
-          </span>
-        </div>
-        <h1 className="text-2xl md:text-3xl font-headline font-extrabold text-on-surface mb-6">
-          {lesson.title}
-        </h1>
+    <div className="max-w-3xl mx-auto space-y-6 text-left">
+      <div className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow p-6 md:p-10">
 
         <article className="prose prose-slate max-w-none text-on-surface prose-headings:font-bold prose-h1:text-2xl prose-h2:text-xl prose-h3:text-lg prose-code:bg-surface-container prose-code:px-1 prose-code:text-on-surface">
           <ReactMarkdown>{lesson.theoryMd}</ReactMarkdown>
@@ -886,25 +929,82 @@ function TheoryPhase({ lesson, nextLesson, onContinue }) {
 function ReviewPhase({ cards, courseSlug, courseTitle, onContinue }) {
   const [idx, setIdx] = useState(0);
   const [flipped, setFlipped] = useState(false);
+  const [isAutoplay, setIsAutoplay] = useState(false);
+  const [isShuffled, setIsShuffled] = useState(false);
+  const [shuffledCards, setShuffledCards] = useState(() => cards || []);
 
-  const card = cards[idx];
-  const isLast = idx === cards.length - 1;
+  const card = shuffledCards[idx];
+  const isLast = idx === shuffledCards.length - 1;
 
-  const next = () => {
+  useEffect(() => {
+    const original = cards || [];
+    if (!isShuffled) {
+      setShuffledCards(original);
+    } else {
+      const shuffled = [...original];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      setShuffledCards(shuffled);
+    }
+  }, [cards, isShuffled]);
+
+  const next = useCallback(() => {
     if (isLast) {
       onContinue();
     } else {
-      setIdx(idx + 1);
+      setIdx((prev) => prev + 1);
       setFlipped(false);
     }
-  };
+  }, [isLast, onContinue]);
 
-  const prev = () => {
+  const prev = useCallback(() => {
     if (idx > 0) {
-      setIdx(idx - 1);
+      setIdx((prev) => prev - 1);
       setFlipped(false);
     }
-  };
+  }, [idx]);
+
+  // Autoplay feature
+  useEffect(() => {
+    if (!isAutoplay) return;
+
+    const timer = setInterval(() => {
+      if (!flipped) {
+        setFlipped(true);
+      } else {
+        if (idx < shuffledCards.length - 1) {
+          next();
+        } else {
+          setIsAutoplay(false);
+        }
+      }
+    }, 3000);
+
+    return () => clearInterval(timer);
+  }, [isAutoplay, flipped, idx, shuffledCards.length, next]);
+
+  // Keyboard Navigation Hook
+  useEffect(() => {
+    if (!shuffledCards.length) return;
+
+    const handleKeyDown = (e) => {
+      if (e.key === ' ' || e.key === 'Enter') {
+        e.preventDefault();
+        setFlipped((f) => !f);
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        prev();
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        next();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [idx, flipped, shuffledCards, next, prev]);
 
   if (!card) {
     return (
@@ -931,15 +1031,7 @@ function ReviewPhase({ cards, courseSlug, courseTitle, onContinue }) {
   }
 
   return (
-    <div className="max-w-2xl mx-auto p-6 md:p-8 text-left">
-      <div className="mb-4">
-        <Link
-          to={`/courses/${courseSlug}`}
-          className="inline-flex items-center gap-1.5 text-sm text-on-surface-variant hover:text-primary transition-colors"
-        >
-          ← {courseTitle}
-        </Link>
-      </div>
+    <div className="max-w-2xl mx-auto space-y-6 text-left">
       {/* Header & Progress */}
       <div className="mb-8">
         <div className="flex items-end justify-between mb-3">
@@ -949,14 +1041,14 @@ function ReviewPhase({ cards, courseSlug, courseTitle, onContinue }) {
           </div>
           <div className="text-right">
             <span className="text-2xl font-bold text-primary">{idx + 1}</span>
-            <span className="text-on-surface-variant font-medium"> / {cards.length}</span>
+            <span className="text-on-surface-variant font-medium"> / {shuffledCards.length}</span>
           </div>
         </div>
 
         <div className="w-full h-2.5 bg-surface-container overflow-hidden" style={{ border: '1px solid rgba(0,0,0,0.06)' }}>
           <div
             className="h-full bg-gradient-to-r from-primary to-primary-container transition-all duration-500 ease-out"
-            style={{ width: `${((idx + 1) / cards.length) * 100}%` }}
+            style={{ width: `${((idx + 1) / shuffledCards.length) * 100}%` }}
           />
         </div>
       </div>
@@ -970,85 +1062,157 @@ function ReviewPhase({ cards, courseSlug, courseTitle, onContinue }) {
           className="relative w-full h-full transition-transform duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] [transform-style:preserve-3d]"
           style={{ transform: flipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
         >
-          {/* Front */}
+          {/* Front face (Clean White + Sharp Shadow) */}
           <div
-            className="absolute inset-0 bg-surface-container-lowest border border-outline-variant/40 sharp-shadow flex flex-col items-center justify-center p-8 transition-all [backface-visibility:hidden]"
+            className="absolute inset-0 bg-surface-container-lowest border-2 border-outline-variant/80 sharp-shadow flex flex-col items-center justify-between p-8 [backface-visibility:hidden] -webkit-backface-visibility-hidden"
           >
-            <div className="absolute top-6 left-8 text-xs font-bold tracking-widest text-on-surface-variant uppercase">
-              Mặt trước
+            {/* Top accent line */}
+            <div className="absolute top-0 left-0 right-0 h-1 bg-secondary" />
+
+            <div className="flex items-center justify-between w-full mt-2">
+              <span className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant/70">
+                Mặt trước
+              </span>
+              {card.jlptLevel && (
+                <span className="px-2.5 py-0.5 bg-primary/5 border border-primary/20 text-primary text-[10px] font-bold uppercase tracking-wider">
+                  JLPT N{card.jlptLevel}
+                </span>
+              )}
             </div>
             
-            <p className="font-jp text-5xl md:text-6xl font-extrabold text-on-surface text-center mb-6 tracking-tight">
-              {card.front}
-            </p>
-            {card.romaji && (
-              <p className="text-xl md:text-2xl text-on-surface-variant font-medium tracking-wide">
-                {card.romaji}
+            <div className="flex-1 flex flex-col items-center justify-center w-full">
+              <p className="font-jp text-5xl md:text-6xl font-bold text-on-surface text-center tracking-tight leading-snug">
+                {card.front}
               </p>
-            )}
+              {card.romaji && (
+                <p className="text-xl md:text-2xl text-on-surface-variant font-medium tracking-wide mt-2">
+                  {card.romaji}
+                </p>
+              )}
+            </div>
 
-            <div className="absolute bottom-8 flex items-center gap-2 text-sm font-semibold text-on-surface-variant group-hover:text-primary transition-colors">
-              <RotateCw className="w-4 h-4" /> Nhấn để lật
+            <div className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-on-surface-variant/80 hover:text-secondary transition-colors mt-auto">
+              <RotateCw className="w-3.5 h-3.5" /> Nhấn để lật thẻ
             </div>
           </div>
 
-          {/* Back */}
+          {/* Back face (Clean White + Sharp Shadow) */}
           <div
-            className="absolute inset-0 bg-gradient-to-br from-primary to-primary-container sharp-shadow flex flex-col items-center justify-center p-8 text-white [backface-visibility:hidden]"
+            className="absolute inset-0 bg-surface-container-lowest border-2 border-outline-variant/80 sharp-shadow flex flex-col items-center justify-between p-6 md:p-8 [backface-visibility:hidden] -webkit-backface-visibility-hidden"
             style={{ transform: 'rotateY(180deg)' }}
           >
-            <div className="absolute top-6 left-8 text-xs font-bold tracking-widest text-white/70 uppercase">
-              Mặt sau
-            </div>
-            
-            <p className="text-3xl md:text-4xl font-bold text-center mb-8 drop-shadow-sm">
-              {card.back}
-            </p>
-            
-            {card.example && (
-              <CollapsibleExample 
-                example={card.example} 
-                onSpeak={speakJapanese} 
-                containerClass="w-full mt-2 p-5 bg-white/10 backdrop-blur-md border border-white/20 shadow-inner text-left text-white"
-                maxHeightClass="max-h-[140px]"
-                titleColorClass="text-white/80"
-                textColorClass="text-white"
-                secondaryTextColorClass="text-white/95"
-              />
-            )}
+            {/* Top accent line */}
+            <div className="absolute top-0 left-0 right-0 h-1 bg-primary" />
 
-            <div className="absolute bottom-8 flex items-center gap-2 text-sm font-medium text-white/70 group-hover:text-white transition-colors">
-              <RotateCw className="w-4 h-4" /> Nhấn để lật lại
+            <div className="flex items-center justify-between w-full mt-2 text-on-surface-variant/70">
+              <span className="text-[10px] font-bold uppercase tracking-widest text-primary">
+                Mặt sau
+              </span>
+              <span className="font-jp text-sm font-bold">
+                {card.front}
+              </span>
+            </div>
+
+            {/* Middle Content */}
+            <div className="flex-1 flex flex-col items-center justify-center w-full max-w-md my-auto gap-4">
+              <div className="text-center w-full">
+                <p className="text-[9px] font-bold uppercase tracking-widest text-on-surface-variant/40 mb-1">Giải nghĩa & Cách đọc</p>
+                {card.romaji && (
+                  <p className="font-jp text-lg text-secondary font-bold mb-2">
+                    {card.romaji}
+                  </p>
+                )}
+                <p className="text-2xl md:text-3xl font-black text-on-surface tracking-wide leading-snug whitespace-pre-line">
+                  {card.back}
+                </p>
+              </div>
+
+              {card.example && (
+                <CollapsibleExample 
+                  example={card.example} 
+                  onSpeak={speakJapanese} 
+                  maxHeightClass="max-h-[110px]"
+                />
+              )}
+            </div>
+
+            <div className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-on-surface-variant/80 hover:text-primary transition-colors mt-auto">
+              <RotateCw className="w-3.5 h-3.5" /> Nhấn để lật lại
             </div>
           </div>
         </div>
       </div>
 
-      {/* Controls */}
-      <div className="flex justify-between gap-4 w-full">
-        <button
-          onClick={prev}
-          disabled={idx === 0}
-          className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-surface-container-lowest border border-outline-variant/40 text-on-surface-variant hover:bg-surface-container disabled:opacity-40 disabled:cursor-not-allowed transition-all font-semibold sharp-shadow-sm"
-        >
-          <ArrowLeft className="w-5 h-5" /> <span className="hidden sm:inline">Trước</span>
-        </button>
+      {/* Controls matching standard vocabulary study page */}
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-3 w-full">
+        <div className="flex gap-2 w-full sm:w-auto">
+          {/* Autoplay */}
+          <button
+            type="button"
+            onClick={() => setIsAutoplay(!isAutoplay)}
+            className={`flex-1 sm:flex-initial px-4 py-3 border-2 border-outline-variant bg-surface-container-lowest text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm ${
+              isAutoplay ? 'text-secondary border-secondary bg-secondary/5 font-black' : 'text-on-surface hover:bg-surface-container'
+            }`}
+          >
+            {isAutoplay ? 'Dừng chạy' : 'Tự chạy'}
+          </button>
 
-        {isLast ? (
+          {/* Shuffle */}
           <button
-            onClick={next}
-            className="flex-[2] flex items-center justify-center gap-2 px-8 py-4 bg-secondary hover:opacity-90 text-white font-bold uppercase tracking-wider sharp-shadow transition-all"
+            type="button"
+            onClick={() => {
+              setIsShuffled(!isShuffled);
+              setIdx(0);
+              setFlipped(false);
+            }}
+            className={`flex-1 sm:flex-initial px-4 py-3 border-2 border-outline-variant bg-surface-container-lowest text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm flex items-center justify-center gap-1.5 ${
+              isShuffled ? 'text-secondary border-secondary bg-secondary/5 font-black' : 'text-on-surface hover:bg-surface-container'
+            }`}
           >
-            Kiểm tra <Check className="w-5 h-5" />
+            <Shuffle className="w-3.5 h-3.5" />
+            <span>{isShuffled ? 'Thứ tự gốc' : 'Tráo thẻ'}</span>
           </button>
-        ) : (
+        </div>
+
+        <div className="flex gap-2 flex-1 w-full">
+          {/* Prev */}
           <button
-            onClick={next}
-            className="flex-[2] flex items-center justify-center gap-2 px-8 py-4 bg-primary hover:opacity-90 text-white font-bold uppercase tracking-wider sharp-shadow transition-all"
+            type="button"
+            onClick={prev}
+            disabled={idx === 0}
+            className="flex-1 flex items-center justify-center gap-2 px-4 py-3 border-2 border-outline-variant bg-surface-container-lowest text-on-surface hover:bg-surface-container text-xs font-bold uppercase tracking-wider disabled:opacity-40 disabled:cursor-not-allowed transition-all sharp-shadow-sm"
           >
-            Tiếp theo <ArrowRight className="w-5 h-5" />
+            <ArrowLeft className="w-4 h-4" /> <span>Trước</span>
           </button>
-        )}
+
+          {/* Next/Complete */}
+          {isLast ? (
+            <button
+              type="button"
+              onClick={next}
+              className="flex-1 flex items-center justify-center gap-2 px-4 py-3 text-on-secondary hover:bg-secondary-dim text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm"
+              style={{ background: 'var(--secondary)' }}
+            >
+              <span>Kiểm tra</span> <Check className="w-4 h-4" />
+            </button>
+          ) : (
+            <button
+              type="button"
+              onClick={next}
+              className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-primary hover:bg-primary-container text-on-primary text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm"
+            >
+              <span>Tiếp theo</span> <ArrowRight className="w-4 h-4" />
+            </button>
+          )}
+        </div>
+      </div>
+
+      {/* Keyboard Shortcuts Hint */}
+      <div className="mt-6 flex flex-col items-center gap-2">
+        <div className="text-[10px] text-on-surface-variant/60 font-semibold uppercase tracking-wider flex items-center gap-5">
+          <span className="flex items-center gap-1.5"><kbd className="px-1.5 py-0.5 bg-white border border-outline-variant/40 rounded shadow-sm text-[9px]">⇦</kbd> <kbd className="px-1.5 py-0.5 bg-white border border-outline-variant/40 rounded shadow-sm text-[9px]">⇨</kbd> Di chuyển</span>
+          <span className="flex items-center gap-1.5"><kbd className="px-3 py-0.5 bg-white border border-outline-variant/40 rounded shadow-sm text-[9px]">Space / Enter</kbd> Lật thẻ</span>
+        </div>
       </div>
     </div>
   );
@@ -1109,15 +1273,7 @@ function TestPhase({ questions, passScore, courseSlug, courseTitle, onFinish }) 
   const isCorrect = selected === q.answer;
 
   return (
-    <div className="max-w-2xl mx-auto p-6 md:p-8 text-left">
-      <div className="mb-4">
-        <Link
-          to={`/courses/${courseSlug}`}
-          className="inline-flex items-center gap-1.5 text-sm text-on-surface-variant hover:text-primary transition-colors"
-        >
-          ← {courseTitle}
-        </Link>
-      </div>
+    <div className="max-w-2xl mx-auto space-y-6 text-left">
       <div className="mb-2 flex items-center justify-between text-sm text-on-surface-variant">
         <span>
           Câu {idx + 1} / {questions.length}
@@ -1199,15 +1355,7 @@ function ResultPhase({ result, lesson, nextLesson, onRetry }) {
   const { passed, score, passScore, correct, total } = result;
 
   return (
-    <div className="max-w-2xl mx-auto p-6 md:p-8 text-left">
-      <div className="mb-4">
-        <Link
-          to={`/courses/${lesson.course.slug}`}
-          className="inline-flex items-center gap-1.5 text-sm text-on-surface-variant hover:text-primary transition-colors"
-        >
-          ← {lesson.course.title}
-        </Link>
-      </div>
+    <div className="max-w-2xl mx-auto space-y-6 text-left">
 
       <div
         className={`border border-outline-variant/40 sharp-shadow p-8 md:p-10 text-center text-white ${
@@ -1406,67 +1554,73 @@ export default function CourseLessonPage() {
 
   if (!lesson) return null;
 
-  // PHASE: THEORY
+  // Render active phase component inside unified layout
+  let phaseContent = null;
+  const isPassed = lesson.progress?.status === 'PASSED';
+  const hasVocab = lesson.decks?.some((d) => d.role === 'VOCAB');
+  const hasGrammar = lesson.decks?.some((d) => d.role === 'GRAMMAR');
+  const hasTest = !!lesson.test;
+
   if (phase === PHASE.THEORY) {
-    return (
-      <TheoryPhase lesson={lesson} nextLesson={nextLesson} onContinue={() => setPhase(PHASE.REVIEW)} />
-    );
-  }
-
-  // PHASE: REVIEW (vocab flashcard quick)
-  if (phase === PHASE.REVIEW) {
-    if (!deckData) {
-      return (
-        <div className="p-12 text-center text-gray-500">Đang tải từ vựng...</div>
-      );
-    }
-    return (
-      <ReviewPhase
-        cards={deckData.cards || []}
-        courseSlug={lesson.course.slug}
-        courseTitle={lesson.course.title}
+    phaseContent = (
+      <TheoryPhase
+        lesson={lesson}
+        nextLesson={nextLesson}
         onContinue={() => {
-          if (grammarDeck) {
-            setPhase(PHASE.GRAMMAR_REVIEW);
-          } else {
-            setPhase(PHASE.TEST);
-          }
+          if (hasVocab) setPhase(PHASE.REVIEW);
+          else if (hasGrammar) setPhase(PHASE.GRAMMAR_REVIEW);
+          else if (hasTest) setPhase(PHASE.TEST);
+          else setPhase(PHASE.RESULT);
         }}
       />
     );
-  }
-
-  // PHASE: GRAMMAR_REVIEW
-  if (phase === PHASE.GRAMMAR_REVIEW) {
-    if (!grammarDeck) return null;
-    if (isLoadingGrammarDeck) {
-      return <div className="p-12 text-center text-gray-500">Đang tải thẻ ngữ pháp...</div>;
-    }
-    return (
-      <GrammarReviewPhase
-        cards={grammarDeckData?.cards || []}
-        hasTest={!!lesson.test}
-        courseSlug={lesson.course.slug}
-        courseTitle={lesson.course.title}
-        onContinue={() => setPhase(PHASE.TEST)}
-        onFinish={async () => {
-          const apiResult = await completeMutation.mutateAsync(100);
-          setResult({ ...apiResult, correct: 1, total: 1 });
-          setPhase(PHASE.RESULT);
-        }}
-      />
-    );
-  }
-
-  // PHASE: TEST
-  if (phase === PHASE.TEST) {
+  } else if (phase === PHASE.REVIEW) {
     if (!deckData) {
-      return (
-        <div className="p-12 text-center text-gray-500">Đang chuẩn bị bài kiểm tra...</div>
+      phaseContent = <div className="p-12 text-center text-gray-500">Đang tải từ vựng...</div>;
+    } else {
+      phaseContent = (
+        <ReviewPhase
+          cards={deckData.cards || []}
+          courseSlug={lesson.course.slug}
+          courseTitle={lesson.course.title}
+          onContinue={() => {
+            if (hasGrammar) {
+              setPhase(PHASE.GRAMMAR_REVIEW);
+            } else if (hasTest) {
+              setPhase(PHASE.TEST);
+            } else {
+              setPhase(PHASE.RESULT);
+            }
+          }}
+        />
       );
     }
-    if (questions.length === 0) {
-      return (
+  } else if (phase === PHASE.GRAMMAR_REVIEW) {
+    if (!grammarDeck) {
+      phaseContent = null;
+    } else if (isLoadingGrammarDeck) {
+      phaseContent = <div className="p-12 text-center text-gray-500">Đang tải thẻ ngữ pháp...</div>;
+    } else {
+      phaseContent = (
+        <GrammarReviewPhase
+          cards={grammarDeckData?.cards || []}
+          hasTest={hasTest}
+          courseSlug={lesson.course.slug}
+          courseTitle={lesson.course.title}
+          onContinue={() => setPhase(PHASE.TEST)}
+          onFinish={async () => {
+            const apiResult = await completeMutation.mutateAsync(100);
+            setResult({ ...apiResult, correct: 1, total: 1 });
+            setPhase(PHASE.RESULT);
+          }}
+        />
+      );
+    }
+  } else if (phase === PHASE.TEST) {
+    if (!deckData) {
+      phaseContent = <div className="p-12 text-center text-gray-500">Đang chuẩn bị bài kiểm tra...</div>;
+    } else if (questions.length === 0) {
+      phaseContent = (
         <div className="max-w-md mx-auto p-8 text-center text-gray-600">
           Bài này chưa có đủ thẻ để làm bài kiểm tra (cần ít nhất 2 thẻ).
           <Link
@@ -1477,36 +1631,70 @@ export default function CourseLessonPage() {
           </Link>
         </div>
       );
+    } else {
+      phaseContent = (
+        <TestPhase
+          questions={questions}
+          passScore={lesson.test?.passScore ?? 70}
+          courseSlug={lesson.course.slug}
+          courseTitle={lesson.course.title}
+          onFinish={async ({ score, correct, total }) => {
+            const apiResult = await completeMutation.mutateAsync(score);
+            setResult({ ...apiResult, correct, total });
+            setPhase(PHASE.RESULT);
+          }}
+        />
+      );
     }
-    return (
-      <TestPhase
-        questions={questions}
-        passScore={lesson.test?.passScore ?? 70}
-        courseSlug={lesson.course.slug}
-        courseTitle={lesson.course.title}
-        onFinish={async ({ score, correct, total }) => {
-          const apiResult = await completeMutation.mutateAsync(score);
-          setResult({ ...apiResult, correct, total });
-          setPhase(PHASE.RESULT);
+  } else if (phase === PHASE.RESULT) {
+    phaseContent = (
+      <ResultPhase
+        result={result}
+        lesson={lesson}
+        nextLesson={nextLesson}
+        onRetry={() => {
+          setResult(null);
+          if (hasVocab) {
+            setPhase(PHASE.REVIEW);
+          } else if (hasGrammar) {
+            setPhase(PHASE.GRAMMAR_REVIEW);
+          } else {
+            setPhase(PHASE.TEST);
+          }
         }}
       />
     );
   }
 
-  // PHASE: RESULT
   return (
-    <ResultPhase
-      result={result}
-      lesson={lesson}
-      nextLesson={nextLesson}
-      onRetry={() => {
-        setResult(null);
-        if (grammarDeck && !lesson.test) {
-          setPhase(PHASE.REVIEW);
-        } else {
-          setPhase(PHASE.TEST);
-        }
-      }}
-    />
+    <div className="max-w-4xl mx-auto p-4 md:p-6 text-left">
+      {/* Course Back Link & Lesson Header */}
+      <div className="mb-6 flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-outline-variant/30 pb-4">
+        <div>
+          <Link
+            to={`/courses/${lesson.course.slug}`}
+            className="inline-flex items-center gap-1.5 text-sm text-on-surface-variant hover:text-primary font-medium transition-colors mb-2"
+          >
+            ← {lesson.course.title}
+          </Link>
+          <h1 className="text-xl md:text-2xl font-headline font-extrabold text-on-surface">
+            Bài {lesson.order}: {lesson.title}
+          </h1>
+          <p className="text-sm text-on-surface-variant mt-1">{lesson.summary}</p>
+        </div>
+      </div>
+
+      {/* Visual Stepper */}
+      <LessonStepper
+        currentPhase={phase}
+        onPhaseChange={setPhase}
+        lesson={lesson}
+        hasResult={!!result}
+        isPassed={isPassed}
+      />
+
+      {/* Phase Content */}
+      <div className="mt-4">{phaseContent}</div>
+    </div>
   );
 }
