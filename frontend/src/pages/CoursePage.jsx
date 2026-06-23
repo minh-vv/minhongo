@@ -198,43 +198,45 @@ export default function CoursePage() {
         ← Lộ trình
       </Link>
 
-      <div className="mt-3 mb-6 flex flex-wrap items-start justify-between gap-4">
-        <div className="min-w-0 flex-1">
-          <div className="flex items-center gap-2 mb-1">
-            <span className="px-2 py-0.5 bg-primary/8 text-primary border border-primary/20 text-xs font-bold uppercase tracking-wider">
-              JLPT N{course.jlptLevel}
-            </span>
-            {course.textbookRef && (
-              <span className="text-xs text-on-surface-variant">{course.textbookRef}</span>
-            )}
-          </div>
-          <h1 className="text-2xl md:text-3xl font-headline font-extrabold text-on-surface leading-tight">
-            {course.title}
-          </h1>
-          {course.description && (
-            <p className="text-on-surface-variant mt-1.5 max-w-2xl text-sm leading-relaxed">{course.description}</p>
-          )}
-          {course.enrolled && (course.goal || course.targetDate) && (
-            <div className="mt-3 text-xs text-on-surface-variant space-y-1">
-              {course.goal && <div>Mục tiêu: <strong>{course.goal}</strong></div>}
-              {course.targetDate && (
-                <div>Ngày hoàn thành dự kiến: <strong>{formatDate(course.targetDate)}</strong></div>
-              )}
-            </div>
+      <div className="mt-3 mb-6">
+        <div className="flex items-center gap-2 mb-1">
+          <span className="px-2 py-0.5 bg-primary/8 text-primary border border-primary/20 text-xs font-bold uppercase tracking-wider">
+            JLPT N{course.jlptLevel}
+          </span>
+          {course.textbookRef && (
+            <span className="text-xs text-on-surface-variant">{course.textbookRef}</span>
           )}
         </div>
+        <h1 className="text-2xl md:text-3xl font-headline font-extrabold text-on-surface leading-tight">
+          {course.title}
+        </h1>
+        {course.description && (
+          <p className="text-on-surface-variant mt-1.5 max-w-2xl text-sm leading-relaxed">{course.description}</p>
+        )}
+        {course.enrolled && (course.goal || course.targetDate) && (
+          <div className="mt-3 text-xs text-on-surface-variant space-y-1">
+            {course.goal && <div>Mục tiêu: <strong>{course.goal}</strong></div>}
+            {course.targetDate && (
+              <div>Ngày hoàn thành dự kiến: <strong>{formatDate(course.targetDate)}</strong></div>
+            )}
+          </div>
+        )}
+      </div>
 
-        <div className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow-sm p-4 min-w-[180px]">
-          <div className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-1">Tiến độ</div>
-          <div className="text-2xl font-black text-primary">
-            {passed}/{total}
-          </div>
-          <div className="h-1.5 bg-surface-container overflow-hidden mt-2" style={{ border: '1px solid rgba(0,0,0,0.06)' }}>
-            <div
-              className="h-full bg-secondary transition-all duration-500"
-              style={{ width: `${percent}%` }}
-            />
-          </div>
+      {/* Lesson Progress Bar Container */}
+      <div className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow-sm p-5 mb-6">
+        <div className="flex justify-between items-center mb-2">
+          <span className="text-sm font-bold text-on-surface font-headline">Tiến độ học</span>
+          <span className="text-sm font-bold text-on-surface-variant">{passed}/{total} bài</span>
+        </div>
+        <div className="h-3 bg-surface-container overflow-hidden border border-outline-variant/20 rounded-full">
+          <div
+            className="h-full bg-secondary transition-all duration-500 rounded-full"
+            style={{ width: `${percent}%` }}
+          />
+        </div>
+        <div className="flex justify-end mt-1.5">
+          <span className="text-xs font-bold text-on-surface-variant">{percent}% hoàn thành</span>
         </div>
       </div>
 

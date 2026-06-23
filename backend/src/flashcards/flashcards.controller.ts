@@ -57,8 +57,17 @@ export class FlashcardsController {
   // ========== PUBLIC ROUTES (không cần đăng nhập) ==========
 
   @Get('public')
-  getPublicDecks() {
-    return this.flashcardsService.getPublicDecks();
+  getPublicDecks(@Request() req: any) {
+    let userId: string | undefined = undefined;
+    const authHeader = req.headers.authorization;
+    if (authHeader && authHeader.startsWith('Bearer ')) {
+      const token = authHeader.split(' ')[1];
+      try {
+        const payload = JSON.parse(Buffer.from(token.split('.')[1], 'base64').toString());
+        userId = payload.sub;
+      } catch (err) {}
+    }
+    return this.flashcardsService.getPublicDecks(userId);
   }
 
   @Get('public/:deckId')

@@ -279,11 +279,20 @@ export default function DeckDetailPage() {
   const [forking, setForking] = useState(false);
   const [viewMode, setViewMode] = useState('card');
 
-  // Lấy thông tin deck
   const { data: deck, isLoading } = useQuery({
     queryKey: ['deck', deckId],
     queryFn: () => flashcardApi.getDeck(deckId),
   });
+
+  // Calculate starting STT offset from deck description (e.g. "Từ 101 đến 220" or "Unit 2 [101 - 220]")
+  const startStt = useMemo(() => {
+    if (!deck?.description) return 1;
+    const match = deck.description.match(/(?:Từ|Từ\s+số)\s+(\d+)/i) || deck.description.match(/\[\s*(\d+)/);
+    if (match) {
+      return parseInt(match[1], 10);
+    }
+    return 1;
+  }, [deck?.description]);
 
   // Set default viewMode based on deck category once deck is loaded
   const hasInitializedViewMode = useRef(false);
@@ -950,7 +959,7 @@ export default function DeckDetailPage() {
                       {/* STT and main Word */}
                       <div className="flex items-baseline gap-2 shrink-0">
                         <span className="text-xs font-bold text-on-surface-variant/70 tabular-nums">
-                          {index + 1}.
+                          {startStt + index}.
                         </span>
                         <span className="font-jp font-black text-2xl sm:text-3xl text-on-surface select-text tracking-tight">
                           {card.front}
@@ -1064,7 +1073,7 @@ export default function DeckDetailPage() {
                   <tbody className="divide-y divide-outline-variant/20">
                     {filteredCards?.map((card, index) => (
                       <tr key={card.id} className="hover:bg-surface-container/20 transition-colors">
-                        <td className="px-6 py-4 text-xs font-semibold text-on-surface-variant tabular-nums">{index + 1}</td>
+                        <td className="px-6 py-4 text-xs font-semibold text-on-surface-variant tabular-nums">{startStt + index}</td>
                         <td className="px-6 py-4 font-jp font-bold text-xl text-on-surface">{card.front}</td>
                         <td className="px-6 py-4 text-sm font-medium text-on-surface-variant font-jp">{card.romaji || '-'}</td>
                         <td className="px-6 py-4 text-sm font-medium text-on-surface">{card.back}</td>

@@ -35,8 +35,8 @@ export class FlashcardsService {
     });
   }
 
-  async getPublicDecks() {
-    return this.prisma.deck.findMany({
+  async getPublicDecks(userId?: string) {
+    const decks = await this.prisma.deck.findMany({
       where: { isPublic: true },
       include: {
         user: {
@@ -48,6 +48,34 @@ export class FlashcardsService {
       },
       orderBy: { updatedAt: 'desc' },
     });
+
+    if (!userId) {
+      return decks.map(d => ({ ...d, studiedCount: 0 }));
+    }
+
+    const deckIds = decks.map(d => d.id);
+    const cardProgresses = await this.prisma.card.findMany({
+      where: { deckId: { in: deckIds } },
+      select: {
+        deckId: true,
+        progress: {
+          where: { userId },
+          select: { repetitions: true }
+        }
+      }
+    });
+
+    const deckStudiedMap: Record<string, number> = {};
+    cardProgresses.forEach(c => {
+      if (c.progress && c.progress.length > 0 && c.progress[0].repetitions > 0) {
+        deckStudiedMap[c.deckId] = (deckStudiedMap[c.deckId] || 0) + 1;
+      }
+    });
+
+    return decks.map(d => ({
+      ...d,
+      studiedCount: deckStudiedMap[d.id] || 0
+    }));
   }
 
   /** Lấy chi tiết một deck công khai kèm thẻ — không yêu cầu đăng nhập */
