@@ -19,7 +19,7 @@ const LANGUAGES = [
 
 const navItems = [
   { path: '/dashboard',  label: 'Trang chủ',    end: true, icon: <IconHome /> },
-  { path: '/kana',       label: 'Bảng chữ cái',            icon: <IconGlobe /> },
+  // { path: '/kana',       label: 'Bảng chữ cái',            icon: <IconGlobe /> },
   { path: '/kanji',      label: 'Hán tự',                  icon: <IconKanji /> },
   { path: '/vocabulary', label: 'Từ vựng',                 icon: <IconList /> },
   { path: '/grammar',    label: 'Ngữ pháp',                icon: <IconBook /> },
