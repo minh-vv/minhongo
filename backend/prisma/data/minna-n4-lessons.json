@@ -23,168 +23,168 @@
               "front": "周り",
               "back": "chu vi, vòng quanh",
               "romaji": "まわり",
-              "example": "周り（まわり）",
+              "example": "池の周りを歩きます。\nTôi đi bộ vòng quanh cái ao.",
               "jlptLevel": 4
             },
             {
               "front": "上げる",
               "back": "nâng lên, giơ lên",
               "romaji": "あげる",
-              "example": "上げる（あげる）",
+              "example": "手を上げてください。\nHãy giơ tay lên.",
               "jlptLevel": 4
             },
             {
               "front": "腕",
               "back": "cánh tay",
               "romaji": "うで",
-              "example": "腕（うで）",
+              "example": "腕を怪我しました。\nTôi bị thương ở cánh tay.",
               "jlptLevel": 4
             },
             {
               "front": "人形",
               "back": "búp bê, con rối",
               "romaji": "にんぎょう",
-              "example": "人形（にんぎょう）",
+              "example": "娘が人形と遊んでいます。\nCon gái tôi đang chơi với búp bê.",
               "jlptLevel": 4
             },
             {
               "front": "文化",
               "back": "văn hóa, văn minh",
               "romaji": "ぶんか",
-              "example": "文化（ぶんか）",
+              "example": "日本の文化に興味があります。\nTôi có hứng thú với văn hóa Nhật Bản.",
               "jlptLevel": 4
             },
             {
               "front": "海岸",
               "back": "bờ biển",
               "romaji": "かいがん",
-              "example": "海岸（かいがん）",
+              "example": "海岸を散歩しましょう。\nChúng ta cùng đi dạo bờ biển nhé.",
               "jlptLevel": 4
             },
             {
               "front": "産業",
               "back": "công nghiệp",
               "romaji": "さんぎょう",
-              "example": "産業（さんぎょう）",
+              "example": "日本の産業は発展しています。\nCông nghiệp Nhật Bản đang phát triển.",
               "jlptLevel": 4
             },
             {
               "front": "動物園",
               "back": "vườn bách thú",
               "romaji": "どうぶつえん",
-              "example": "動物園（どうぶつえん）",
+              "example": "昨日、動物園へ行きました。\nHôm qua tôi đã đi đến vườn bách thú.",
               "jlptLevel": 4
             },
             {
               "front": "美術館",
               "back": "bảo tàng nghệ thuật",
               "romaji": "びじゅつかん",
-              "example": "美術館（びじゅつかん）",
+              "example": "この美術館はとても有名です。\nBảo tàng nghệ thuật này rất nổi tiếng.",
               "jlptLevel": 4
             },
             {
               "front": "水道",
               "back": "cấp nước, thủy cục",
               "romaji": "すいどう",
-              "example": "水道（すいどう）",
+              "example": "水道の水を飲みます。\nTôi uống nước máy.",
               "jlptLevel": 4
             },
             {
               "front": "飛行場",
               "back": "sân bay",
               "romaji": "ひこうじょう",
-              "example": "飛行場（ひこうじょう）",
+              "example": "飛行場まで車で行きます。\nTôi đi ô tô đến sân bay.",
               "jlptLevel": 4
             },
             {
               "front": "葡萄",
               "back": "nho",
               "romaji": "ぶどう",
-              "example": "葡萄（ぶどう）",
+              "example": "この葡萄はとても甘いです。\nNho này rất ngọt.",
               "jlptLevel": 4
             },
             {
               "front": "事故",
               "back": "tai nạn, sự cố",
               "romaji": "じこ",
-              "example": "事故（じこ）",
+              "example": "道で事故がありました。\nCó vụ tai nạn trên đường.",
               "jlptLevel": 4
             },
             {
               "front": "息子",
               "back": "con trai",
               "romaji": "むすこ",
-              "example": "息子（むすこ）",
+              "example": "私の息子は大学生です。\nCon trai tôi là sinh viên đại học.",
               "jlptLevel": 4
             },
             {
               "front": "生活",
               "back": "cuộc sống, sinh hoạt",
               "romaji": "せいかつ",
-              "example": "生活（せいかつ）",
+              "example": "日本での生活は楽しいです。\nCuộc sống ở Nhật rất vui.",
               "jlptLevel": 4
             },
             {
               "front": "注意",
               "back": "chú ý, để ý",
               "romaji": "ちゅうい",
-              "example": "注意（ちゅうい）",
+              "example": "車に注意してください。\nHãy chú ý xe cộ nhé.",
               "jlptLevel": 4
             },
             {
               "front": "女性",
               "back": "phụ nữ, nữ giới",
               "romaji": "じょせい",
-              "example": "女性（じょせい）",
+              "example": "あの女性は誰ですか。\nNgười phụ nữ kia là ai thế?",
               "jlptLevel": 4
             },
             {
               "front": "生きる",
               "back": "sống, tồn tại",
               "romaji": "いきる",
-              "example": "生きる（いきる）",
+              "example": "一生懸命生きています。\nTôi đang sống hết mình.",
               "jlptLevel": 4
             },
             {
               "front": "船",
               "back": "tàu, thuyền",
               "romaji": "ふね",
-              "example": "船（ふね）",
+              "example": "海に船が浮かんでいます。\nCó con tàu đang nổi trên biển.",
               "jlptLevel": 4
             },
             {
               "front": "説明",
               "back": "giải thích, mô tả",
               "romaji": "せつめい",
-              "example": "説明（せつめい）",
+              "example": "先生が説明をします。\nGiáo viên sẽ giải thích.",
               "jlptLevel": 4
             },
             {
               "front": "警察",
               "back": "cảnh sát",
               "romaji": "けいさつ",
-              "example": "警察（けいさつ）",
+              "example": "警察を呼びましょう。\nHãy gọi cảnh sát thôi.",
               "jlptLevel": 4
             },
             {
               "front": "危険",
               "back": "nguy hiểm",
               "romaji": "きけん",
-              "example": "危険（きけん）",
+              "example": "ここはとても危険です。\nỞ đây rất nguy hiểm.",
               "jlptLevel": 4
             },
             {
               "front": "世界",
               "back": "thế giới, xã hội",
               "romaji": "せかい",
-              "example": "世界（せかい）",
+              "example": "世界中を旅行したいです。\nTôi muốn đi du lịch vòng quanh thế giới.",
               "jlptLevel": 4
             },
             {
               "front": "戦争",
               "back": "chiến tranh",
               "romaji": "せんそう",
-              "example": "戦争（せんそう）",
+              "example": "戦争は二度と起こしてはいけません。\nKhông được để chiến tranh xảy ra một lần nào nữa.",
               "jlptLevel": 4
             }
           ]
@@ -253,168 +253,168 @@
               "front": "小説",
               "back": "tiểu thuyết",
               "romaji": "しょうせつ",
-              "example": "小説（しょうせつ）",
+              "example": "私は小説を読むのが好きです。\nTôi thích đọc tiểu thuyết.",
               "jlptLevel": 4
             },
             {
               "front": "関係",
               "back": "mối quan hệ, liên quan",
               "romaji": "かんけい",
-              "example": "関係（かんけい）",
+              "example": "それは私と関係ありません。\nViệc đó không liên quan đến tôi.",
               "jlptLevel": 4
             },
             {
               "front": "研究",
               "back": "nghiên cứu",
               "romaji": "けんきゅう",
-              "example": "研究（けんきゅう）",
+              "example": "彼は大学で研究をしています。\nAnh ấy đang nghiên cứu tại trường đại học.",
               "jlptLevel": 4
             },
             {
               "front": "会議",
               "back": "cuộc họp, hội nghị",
               "romaji": "かいぎ",
-              "example": "会議（かいぎ）",
+              "example": "今から会議を始めます。\nBây giờ chúng ta bắt đầu cuộc họp.",
               "jlptLevel": 4
             },
             {
               "front": "音",
               "back": "âm thanh, tiếng ồn",
               "romaji": "おと",
-              "example": "音（おと）",
+              "example": "大きな音がしました。\nCó tiếng động lớn phát ra.",
               "jlptLevel": 4
             },
             {
               "front": "普通",
               "back": "bình thường, thông thường",
               "romaji": "ふつう",
-              "example": "普通（ふつう）",
+              "example": "普通、8時に起きます。\nThông thường, tôi thức dậy lúc 8 giờ.",
               "jlptLevel": 4
             },
             {
               "front": "湖",
               "back": "hồ",
               "romaji": "みずうみ",
-              "example": "湖（みずうみ）",
+              "example": "湖で釣りをしました。\nTôi đã đi câu cá ở hồ.",
               "jlptLevel": 4
             },
             {
               "front": "夢",
               "back": "giấc mơ",
               "romaji": "ゆめ",
-              "example": "夢（ゆめ）",
+              "example": "昨日の夜、変な夢を見ました。\nĐêm qua tôi đã mơ một giấc mơ kỳ lạ.",
               "jlptLevel": 4
             },
             {
               "front": "空港",
               "back": "sân bay",
               "romaji": "くうこう",
-              "example": "空港（くうこう）",
+              "example": "空港で友達を待っています。\nTôi đang đợi bạn ở sân bay.",
               "jlptLevel": 4
             },
             {
               "front": "数学",
               "back": "toán học",
               "romaji": "すうがく",
-              "example": "数学（すうがく）",
+              "example": "私は数学が苦手です。\nTôi kém môn toán.",
               "jlptLevel": 4
             },
             {
               "front": "教育",
               "back": "giáo dục, đào tạo",
               "romaji": "きょういく",
-              "example": "教育（きょういく）",
+              "example": "教育はとても大切です。\nGiáo dục rất quan trọng.",
               "jlptLevel": 4
             },
             {
               "front": "赤ちゃん",
               "back": "em bé, trẻ sơ sinh",
               "romaji": "あかちゃん",
-              "example": "赤ちゃん（あかちゃん）",
+              "example": "赤ちゃんが泣いています。\nEm bé đang khóc.",
               "jlptLevel": 4
             },
             {
               "front": "自由",
               "back": "tự do",
               "romaji": "じゆう",
-              "example": "自由（じゆう）",
+              "example": "週末は自由な時間が多いです。\nCuối tuần tôi có nhiều thời gian tự do.",
               "jlptLevel": 4
             },
             {
               "front": "火",
               "back": "lửa, ngọn lửa",
               "romaji": "ひ",
-              "example": "火（ひ）",
+              "example": "火を使わないでください。\nXin đừng dùng lửa.",
               "jlptLevel": 4
             },
             {
               "front": "森",
               "back": "rừng",
               "romaji": "もり",
-              "example": "森（もり）",
+              "example": "森の中で道に迷いました。\nTôi bị lạc trong rừng.",
               "jlptLevel": 4
             },
             {
               "front": "法律",
               "back": "pháp luật, luật pháp",
               "romaji": "ほうりつ",
-              "example": "法律（ほうりつ）",
+              "example": "法律を守るべきです。\nChúng ta nên tuân thủ pháp luật.",
               "jlptLevel": 4
             },
             {
               "front": "気分",
               "back": "tâm trạng, cảm giác",
               "romaji": "きぶん",
-              "example": "気分（きぶん）",
+              "example": "今日は気分がいいです。\nHôm nay tôi cảm thấy rất thoải mái.",
               "jlptLevel": 4
             },
             {
               "front": "壁",
               "back": "tường",
               "romaji": "かべ",
-              "example": "壁（かべ）",
+              "example": "壁にカレンダーを掛けます。\nTôi treo lịch lên tường.",
               "jlptLevel": 4
             },
             {
               "front": "田舎",
               "back": "nông thôn, vùng quê",
               "romaji": "いなか",
-              "example": "田舎（いなか）",
+              "example": "私の田舎はとても静かです。\nQuê của tôi rất yên tĩnh.",
               "jlptLevel": 4
             },
             {
               "front": "気",
               "back": "tinh thần, ý nghĩ",
               "romaji": "き",
-              "example": "気（き）",
+              "example": "気を付けて帰ってください。\nBạn hãy cẩn thận trên đường về nhé.",
               "jlptLevel": 4
             },
             {
               "front": "男性",
               "back": "đàn ông, nam giới",
               "romaji": "だんせい",
-              "example": "男性（だんせい）",
+              "example": "あの男性は誰ですか。\nNgười đàn ông đó là ai vậy?",
               "jlptLevel": 4
             },
             {
               "front": "地震",
               "back": "động đất",
               "romaji": "じしん",
-              "example": "地震（じしん）",
+              "example": "昨日、小さい地震がありました。\nHôm qua có một trận động đất nhỏ.",
               "jlptLevel": 4
             },
             {
               "front": "人口",
               "back": "dân số",
               "romaji": "じんこう",
-              "example": "人口（じんこう）",
+              "example": "日本の人口は減っています。\nDân số Nhật Bản đang giảm.",
               "jlptLevel": 4
             },
             {
               "front": "故障",
               "back": "hỏng hóc, trục trặc",
               "romaji": "こしょう",
-              "example": "故障（こしょう）",
+              "example": "パソコンが故障しました。\nMáy tính của tôi bị hỏng rồi.",
               "jlptLevel": 4
             }
           ]
@@ -483,161 +483,161 @@
               "front": "残念",
               "back": "đáng tiếc, không may",
               "romaji": "ざんねん",
-              "example": "残念（ざんねん）",
+              "example": "それは残念ですね。\nĐiều đó thật đáng tiếc nhỉ.",
               "jlptLevel": 4
             },
             {
               "front": "島",
               "back": "đảo",
               "romaji": "しま",
-              "example": "島（しま）",
+              "example": "その島へ船で行きます。\nTôi sẽ đi tàu ra hòn đảo đó.",
               "jlptLevel": 4
             },
             {
               "front": "教会",
               "back": "nhà thờ",
               "romaji": "きょうかい",
-              "example": "教会（きょうかい）",
+              "example": "町の教会で結婚式をします。\nChúng tôi sẽ tổ chức đám cưới tại nhà thờ trong thị trấn.",
               "jlptLevel": 4
             },
             {
               "front": "歴史",
               "back": "lịch sử",
               "romaji": "れきし",
-              "example": "歴史（れきし）",
+              "example": "日本の歴史を勉強しています。\nTôi đang học lịch sử Nhật Bản.",
               "jlptLevel": 4
             },
             {
               "front": "社会",
               "back": "xã hội, cộng đồng",
               "romaji": "しゃかい",
-              "example": "社会（しゃかい）",
+              "example": "社会のために働きたいです。\nTôi muốn làm việc vì xã hội.",
               "jlptLevel": 4
             },
             {
               "front": "住所",
               "back": "địa chỉ, nơi cư trú",
               "romaji": "じゅうしょ",
-              "example": "住所（じゅうしょ）",
+              "example": "ここに住所を書いてください。\nHãy viết địa chỉ của bạn vào đây.",
               "jlptLevel": 4
             },
             {
               "front": "工場",
               "back": "nhà máy, xưởng",
               "romaji": "こうじょう",
-              "example": "工場（こうじょう）",
+              "example": "父は車工場で働いています。\nBố tôi đang làm việc tại nhà máy sản xuất ô tô.",
               "jlptLevel": 4
             },
             {
               "front": "趣味",
               "back": "sở thích",
               "romaji": "しゅみ",
-              "example": "趣味（しゅみ）",
+              "example": "私の趣味は読書です。\nSở thích của tôi là đọc sách.",
               "jlptLevel": 4
             },
             {
               "front": "経済",
               "back": "kinh tế",
               "romaji": "けいざい",
-              "example": "経済（けいざい）",
+              "example": "大学で経済を専攻しています。\nTôi đang học chuyên ngành kinh tế ở đại học.",
               "jlptLevel": 4
             },
             {
               "front": "台風",
               "back": "bão, cuồng phong",
               "romaji": "たいふう",
-              "example": "台風（たいふう）",
+              "example": "台風で電車が止まりました。\nTàu đã dừng hoạt động do bão.",
               "jlptLevel": 4
             },
             {
               "front": "卒業",
               "back": "tốt nghiệp",
               "romaji": "そつぎょう",
-              "example": "卒業（そつぎょう）",
+              "example": "来月、大学を卒業します。\nTháng sau tôi sẽ tốt nghiệp đại học.",
               "jlptLevel": 4
             },
             {
               "front": "雲",
               "back": "mây",
               "romaji": "くも",
-              "example": "雲（くも）",
+              "example": "空に白い雲が浮かんでいます。\nCó những đám mây trắng đang trôi trên bầu trời.",
               "jlptLevel": 4
             },
             {
               "front": "光",
               "back": "ánh sáng",
               "romaji": "ひかり",
-              "example": "光（ひかり）",
+              "example": "遠くに町の光が見えます。\nTôi có thể nhìn thấy ánh sáng của thị trấn ở phía xa.",
               "jlptLevel": 4
             },
             {
               "front": "贈り物",
               "back": "quà tặng",
               "romaji": "おくりもの",
-              "example": "贈り物（おくりもの）",
+              "example": "友達に贈り物を買いました。\nTôi đã mua quà tặng cho bạn.",
               "jlptLevel": 4
             },
             {
               "front": "科学",
               "back": "khoa học",
               "romaji": "かがく",
-              "example": "科学（かがく）",
+              "example": "科学の実験は面白いです。\nThí nghiệm khoa học rất thú vị.",
               "jlptLevel": 4
             },
             {
               "front": "政治",
               "back": "chính trị, chính quyền",
               "romaji": "せいじ",
-              "example": "政治（せいじ）",
+              "example": "私は政治に興味があります。\nTôi có quan tâm đến chính trị.",
               "jlptLevel": 4
             },
             {
               "front": "特別",
               "back": "đặc biệt, phi thường",
               "romaji": "とくべつ",
-              "example": "特別（とくべつ）",
+              "example": "今日は特別な日です。\nHôm nay là một ngày đặc biệt.",
               "jlptLevel": 4
             },
             {
               "front": "水泳",
               "back": "bơi lội",
               "romaji": "すいえい",
-              "example": "水泳（すいえい）",
+              "example": "夏は水泳が楽しいです。\nBơi lội rất vui vào mùa hè.",
               "jlptLevel": 4
             },
             {
               "front": "講義",
               "back": "bài giảng",
               "romaji": "こうぎ",
-              "example": "講義（こうぎ）",
+              "example": "昨日の講義は難しかったです。\nBài giảng ngày hôm qua rất khó.",
               "jlptLevel": 4
             },
             {
               "front": "指",
               "back": "ngón tay, ngón chân",
               "romaji": "ゆび",
-              "example": "指（ゆび）",
+              "example": "指を怪我しました。\nTôi bị thương ở ngón tay.",
               "jlptLevel": 4
             },
             {
               "front": "生産",
               "back": "sản xuất",
               "romaji": "せいさん",
-              "example": "生産（せいさん）",
+              "example": "この工場では車を生産しています。\nNhà máy này đang sản xuất ô tô.",
               "jlptLevel": 4
             },
             {
               "front": "会話",
               "back": "trò chuyện, đối thoại",
               "romaji": "かいわ",
-              "example": "会話（かいわ）",
+              "example": "日本語で会話を練習します。\nTôi luyện tập hội thoại bằng tiếng Nhật.",
               "jlptLevel": 4
             },
             {
               "front": "玩具",
               "back": "đồ chơi",
               "romaji": "おもちゃ",
-              "example": "玩具（おもちゃ）",
+              "example": "子供におもちゃを買ってあげました。\nTôi đã mua đồ chơi cho bọn trẻ.",
               "jlptLevel": 4
             }
           ]
@@ -699,161 +699,161 @@
               "front": "季節",
               "back": "mùa, thời tiết",
               "romaji": "きせつ",
-              "example": "季節（きせつ）",
+              "example": "どの季節が一番好きですか。\nBạn thích mùa nào nhất?",
               "jlptLevel": 4
             },
             {
               "front": "翻訳",
               "back": "bản dịch, phiên dịch",
               "romaji": "ほんやく",
-              "example": "翻訳（ほんやく）",
+              "example": "この本を日本語に翻訳します。\nTôi sẽ dịch cuốn sách này sang tiếng Nhật.",
               "jlptLevel": 4
             },
             {
               "front": "貿易",
               "back": "thương mại, giao thương",
               "romaji": "ぼうえき",
-              "example": "貿易（ぼうえき）",
+              "example": "将来、貿易の仕事をしたいです。\nTương lai tôi muốn làm công việc về thương mại.",
               "jlptLevel": 4
             },
             {
               "front": "文学",
               "back": "văn học",
               "romaji": "ぶんがく",
-              "example": "文学（ぶんがく）",
+              "example": "日本の文学が好きです。\nTôi thích văn học Nhật Bản.",
               "jlptLevel": 4
             },
             {
               "front": "葉",
               "back": "lá",
               "romaji": "は",
-              "example": "葉（は）",
+              "example": "秋になると葉が赤くなります。\nKhi mùa thu đến, lá cây chuyển sang màu đỏ.",
               "jlptLevel": 4
             },
             {
               "front": "交通",
               "back": "giao thông, vận tải",
               "romaji": "こうつう",
-              "example": "交通（こうつう）",
+              "example": "この町は交通が便利です。\nThành phố này giao thông rất thuận tiện.",
               "jlptLevel": 4
             },
             {
               "front": "遊び",
               "back": "chơi, trò chơi",
               "romaji": "あそび",
-              "example": "遊び（あそび）",
+              "example": "休みの日は外で遊びます。\nVào ngày nghỉ, tôi ra ngoài chơi.",
               "jlptLevel": 4
             },
             {
               "front": "道具",
               "back": "dụng cụ, công cụ",
               "romaji": "どうぐ",
-              "example": "道具（どうぐ）",
+              "example": "この道具は使いやすいです。\nDụng cụ này rất dễ sử dụng.",
               "jlptLevel": 4
             },
             {
               "front": "入学",
               "back": "nhập học",
               "romaji": "にゅうがく",
-              "example": "入学（にゅうがく）",
+              "example": "来年、小学校に入学します。\nNăm tới tôi sẽ nhập học tiểu học.",
               "jlptLevel": 4
             },
             {
               "front": "背中",
               "back": "lưng",
               "romaji": "せなか",
-              "example": "背中（せなか）",
+              "example": "背中を洗ってください。\nHãy rửa lưng cho tôi với.",
               "jlptLevel": 4
             },
             {
               "front": "発音",
               "back": "phát âm",
               "romaji": "はつおん",
-              "example": "発音（はつおん）",
+              "example": "彼女の発音はとてもきれいです。\nPhát âm của cô ấy rất đẹp.",
               "jlptLevel": 4
             },
             {
               "front": "指輪",
               "back": "nhẫn",
               "romaji": "ゆびわ",
-              "example": "指輪（ゆびわ）",
+              "example": "きれいな指輪をはめています。\nTôi đang đeo một chiếc nhẫn đẹp.",
               "jlptLevel": 4
             },
             {
               "front": "医学",
               "back": "y học",
               "romaji": "いがく",
-              "example": "医学（いがく）",
+              "example": "兄は大学で医学を勉強しています。\nAnh trai tôi đang học y học ở trường đại học.",
               "jlptLevel": 4
             },
             {
               "front": "漫画",
               "back": "truyện tranh",
               "romaji": "まんが",
-              "example": "漫画（まんが）",
+              "example": "この漫画はとても面白いです。\nBộ truyện tranh này rất thú vị.",
               "jlptLevel": 4
             },
             {
               "front": "鏡",
               "back": "gương",
               "romaji": "かがみ",
-              "example": "鏡（かがみ）",
+              "example": "鏡を見て顔を洗います。\nTôi nhìn vào gương rồi rửa mặt.",
               "jlptLevel": 4
             },
             {
               "front": "電報",
               "back": "điện báo",
               "romaji": "でんぽう",
-              "example": "電報（でんぽう）",
+              "example": "昔は電報で知らせていました。\nNgày xưa người ta thông báo bằng điện báo.",
               "jlptLevel": 4
             },
             {
               "front": "校長",
               "back": "hiệu trưởng",
               "romaji": "こうちょう",
-              "example": "校長（こうちょう）",
+              "example": "校長先生のお話を聞きます。\nTôi lắng nghe bài phát biểu của thầy hiệu trưởng.",
               "jlptLevel": 4
             },
             {
               "front": "郊外",
               "back": "ngoại ô",
               "romaji": "こうがい",
-              "example": "郊外（こうがい）",
+              "example": "郊外に住んでいます。\nTôi đang sống ở vùng ngoại ô.",
               "jlptLevel": 4
             },
             {
               "front": "市民",
               "back": "công dân",
               "romaji": "しみん",
-              "example": "市民（しみん）",
+              "example": "市民のための公園です。\nĐây là công viên dành cho công dân.",
               "jlptLevel": 4
             },
             {
               "front": "国際",
               "back": "quốc tế",
               "romaji": "こくさい",
-              "example": "国際（こくさい）",
+              "example": "国際的な会議に参加します。\nTôi tham gia vào cuộc họp mang tầm quốc tế.",
               "jlptLevel": 4
             },
             {
               "front": "砂",
               "back": "cát",
               "romaji": "すな",
-              "example": "砂（すな）",
+              "example": "公園の砂で遊びます。\nTôi chơi đùa với cát ở công viên.",
               "jlptLevel": 4
             },
             {
               "front": "手袋",
               "back": "găng tay",
               "romaji": "てぶくろ",
-              "example": "手袋（てぶくろ）",
+              "example": "冬は手袋が必要です。\nMùa đông cần phải có găng tay.",
               "jlptLevel": 4
             },
             {
               "front": "絹",
               "back": "lụa",
               "romaji": "きぬ",
-              "example": "絹（きぬ）",
+              "example": "この着物は絹で作られています。\nBộ kimono này được làm từ lụa.",
               "jlptLevel": 4
             }
           ]
@@ -915,161 +915,161 @@
               "front": "日記",
               "back": "nhật ký",
               "romaji": "にっき",
-              "example": "日記（にっき）",
+              "example": "毎日、日記を書いています。\nTôi viết nhật ký mỗi ngày.",
               "jlptLevel": 4
             },
             {
               "front": "文法",
               "back": "ngữ pháp",
               "romaji": "ぶんぽう",
-              "example": "文法（ぶんぽう）",
+              "example": "日本語の文法は少し難しいです。\nNgữ pháp tiếng Nhật hơi khó một chút.",
               "jlptLevel": 4
             },
             {
               "front": "糸",
               "back": "sợi chỉ",
               "romaji": "いと",
-              "example": "糸（いと）",
+              "example": "針に糸を通します。\nTôi xỏ sợi chỉ qua kim.",
               "jlptLevel": 4
             },
             {
               "front": "神社",
               "back": "đền Thần đạo",
               "romaji": "じんじゃ",
-              "example": "神社（じんじゃ）",
+              "example": "神社にお参りに行きます。\nTôi đi lễ đền Thần đạo.",
               "jlptLevel": 4
             },
             {
               "front": "小学校",
               "back": "trường tiểu học",
               "romaji": "しょうがっこう",
-              "example": "小学校（しょうがっこう）",
+              "example": "子供が小学校に通っています。\nCon tôi đang học ở trường tiểu học.",
               "jlptLevel": 4
             },
             {
               "front": "展覧会",
               "back": "triển lãm",
               "romaji": "てんらんかい",
-              "example": "展覧会（てんらんかい）",
+              "example": "絵の展覧会に行きます。\nTôi đi đến buổi triển lãm tranh.",
               "jlptLevel": 4
             },
             {
               "front": "駐車場",
               "back": "bãi đỗ xe",
               "romaji": "ちゅうしゃじょう",
-              "example": "駐車場（ちゅうしゃじょう）",
+              "example": "車を駐車場に止めました。\nTôi đã đỗ xe ở bãi đỗ xe.",
               "jlptLevel": 4
             },
             {
               "front": "西洋",
               "back": "phương Tây",
               "romaji": "せいよう",
-              "example": "西洋（せいよう）",
+              "example": "西洋の文化に興味があります。\nTôi có hứng thú với văn hóa phương Tây.",
               "jlptLevel": 4
             },
             {
               "front": "先輩",
               "back": "tiền bối",
               "romaji": "せんぱい",
-              "example": "先輩（せんぱい）",
+              "example": "先輩に日本語を教えてもらいました。\nTôi đã được tiền bối dạy tiếng Nhật cho.",
               "jlptLevel": 4
             },
             {
               "front": "注射",
               "back": "mũi tiêm",
               "romaji": "ちゅうしゃ",
-              "example": "注射（ちゅうしゃ）",
+              "example": "病院で注射を打ちます。\nTôi tiêm thuốc ở bệnh viện.",
               "jlptLevel": 4
             },
             {
               "front": "坂",
               "back": "dốc",
               "romaji": "さか",
-              "example": "坂（さか）",
+              "example": "この坂はとても長いです。\nCái dốc này rất dài.",
               "jlptLevel": 4
             },
             {
               "front": "乗り物",
               "back": "phương tiện giao thông",
               "romaji": "のりもの",
-              "example": "乗り物（のりもの）",
+              "example": "どんな乗り物が好きですか？\nBạn thích phương tiện giao thông nào?",
               "jlptLevel": 4
             },
             {
               "front": "旅館",
               "back": "nhà trọ truyền thống Nhật Bản",
               "romaji": "りょかん",
-              "example": "旅館（りょかん）",
+              "example": "温泉がある旅館に泊まります。\nTôi sẽ ở tại nhà trọ truyền thống có suối nước nóng.",
               "jlptLevel": 4
             },
             {
               "front": "林",
               "back": "rừng",
               "romaji": "はやし",
-              "example": "林（はやし）",
+              "example": "林の中を歩きます。\nTôi đi bộ trong rừng.",
               "jlptLevel": 4
             },
             {
               "front": "布団",
               "back": "nệm futon",
               "romaji": "ふとん",
-              "example": "布団（ふとん）",
+              "example": "布団を敷いて寝ます。\nTôi trải nệm futon ra để ngủ.",
               "jlptLevel": 4
             },
             {
               "front": "研究室",
               "back": "phòng thí nghiệm",
               "romaji": "けんきゅうしつ",
-              "example": "研究室（けんきゅうしつ）",
+              "example": "先生は研究室にいます。\nThầy giáo đang ở trong phòng thí nghiệm.",
               "jlptLevel": 4
             },
             {
               "front": "会議室",
               "back": "phòng họp",
               "romaji": "かいぎしつ",
-              "example": "会議室（かいぎしつ）",
+              "example": "会議室で打ち合わせをします。\nTôi họp bàn trong phòng họp.",
               "jlptLevel": 4
             },
             {
               "front": "柔道",
               "back": "Judo",
               "romaji": "じゅうどう",
-              "example": "柔道（じゅうどう）",
+              "example": "学校で柔道を習っています。\nTôi đang học Judo ở trường.",
               "jlptLevel": 4
             },
             {
               "front": "中学校",
               "back": "trường trung học cơ sở",
               "romaji": "ちゅうがっこう",
-              "example": "中学校（ちゅうがっこう）",
+              "example": "妹は中学校に行っています。\nEm gái tôi đang học trường trung học cơ sở.",
               "jlptLevel": 4
             },
             {
               "front": "高等学校",
               "back": "trường trung học phổ thông",
               "romaji": "こうとうがっこう",
-              "example": "高等学校（こうとうがっこう）",
+              "example": "高等学校を卒業します。\nTôi sẽ tốt nghiệp trường trung học phổ thông.",
               "jlptLevel": 4
             },
             {
               "front": "花見",
               "back": "ngắm hoa anh đào",
               "romaji": "はなみ",
-              "example": "花見（はなみ）",
+              "example": "春になったら花見をします。\nKhi xuân đến, chúng ta đi ngắm hoa anh đào nhé.",
               "jlptLevel": 4
             },
             {
               "front": "公務員",
               "back": "công chức",
               "romaji": "こうむいん",
-              "example": "公務員（こうむいん）",
+              "example": "父は公務員です。\nBố tôi là công chức.",
               "jlptLevel": 4
             },
             {
               "front": "辞典",
               "back": "từ điển",
               "romaji": "じてん",
-              "example": "辞典（じてん）",
+              "example": "この辞典はとても便利です。\nCuốn từ điển này rất tiện lợi.",
               "jlptLevel": 4
             }
           ]
@@ -1131,161 +1131,161 @@
               "front": "心",
               "back": "tâm hồn",
               "romaji": "こころ",
-              "example": "心（こころ）",
+              "example": "心から感謝しています。\nTôi cảm ơn từ tận đáy lòng.",
               "jlptLevel": 4
             },
             {
               "front": "力",
               "back": "sức mạnh",
               "romaji": "ちから",
-              "example": "力（ちから）",
+              "example": "力を合わせて頑張りましょう。\nHãy cùng hợp sức cố gắng lên nào.",
               "jlptLevel": 4
             },
             {
               "front": "喧嘩",
               "back": "cãi vã",
               "romaji": "けんか",
-              "example": "喧嘩（けんか）",
+              "example": "友達と喧嘩をしてしまいました。\nTôi lỡ cãi vã với bạn mất rồi.",
               "jlptLevel": 4
             },
             {
               "front": "天気予報",
               "back": "dự báo thời tiết",
               "romaji": "てんきよほう",
-              "example": "天気予報（てんきよほう）",
+              "example": "天気予報を見てから出かけます。\nTôi xem dự báo thời tiết xong rồi mới ra ngoài.",
               "jlptLevel": 4
             },
             {
               "front": "髭",
               "back": "râu",
               "romaji": "ひげ",
-              "example": "髭（ひげ）",
+              "example": "父は髭を剃っています。\nBố tôi đang cạo râu.",
               "jlptLevel": 4
             },
             {
               "front": "押入れ",
               "back": "tủ âm tường",
               "romaji": "おしいれ",
-              "example": "押入れ（おしいれ）",
+              "example": "布団を押入れにしまいました。\nTôi đã cất đệm vào trong tủ âm tường.",
               "jlptLevel": 4
             },
             {
               "front": "味噌",
               "back": "tương Miso",
               "romaji": "みそ",
-              "example": "味噌（みそ）",
+              "example": "味噌汁は体にいいです。\nSúp Miso rất tốt cho sức khỏe.",
               "jlptLevel": 4
             },
             {
               "front": "皆",
               "back": "tất cả mọi người",
               "romaji": "みな",
-              "example": "皆（みな）",
+              "example": "皆で公園へ行きました。\nTất cả mọi người đã cùng đi đến công viên.",
               "jlptLevel": 4
             },
             {
               "front": "明日",
               "back": "ngày mai",
               "romaji": "あした",
-              "example": "明日（あした）",
+              "example": "明日は日曜日です。\nNgày mai là Chủ Nhật.",
               "jlptLevel": 4
             },
             {
               "front": "掛ける",
               "back": "treo",
               "romaji": "かける",
-              "example": "掛ける（かける）",
+              "example": "壁に絵を掛けます。\nTôi treo bức tranh lên tường.",
               "jlptLevel": 4
             },
             {
               "front": "降りる",
               "back": "xuống",
               "romaji": "おりる",
-              "example": "降りる（おりる）",
+              "example": "次の駅で電車を降ります。\nTôi sẽ xuống tàu ở ga tiếp theo.",
               "jlptLevel": 4
             },
             {
               "front": "彼",
               "back": "anh ấy",
               "romaji": "かれ",
-              "example": "彼（かれ）",
+              "example": "彼は私の親友です。\nAnh ấy là bạn thân của tôi.",
               "jlptLevel": 4
             },
             {
               "front": "客",
               "back": "khách",
               "romaji": "きゃく",
-              "example": "客（きゃく）",
+              "example": "今日はお客さんが来ます。\nHôm nay có khách đến chơi.",
               "jlptLevel": 4
             },
             {
               "front": "祖父",
               "back": "ông",
               "romaji": "そふ",
-              "example": "祖父（そふ）",
+              "example": "祖父は毎日散歩をします。\nÔng tôi đi dạo mỗi ngày.",
               "jlptLevel": 4
             },
             {
               "front": "高校",
               "back": "trường cấp ba",
               "romaji": "こうこう",
-              "example": "高校（こうこう）",
+              "example": "私は高校に通っています。\nTôi đang học trường cấp ba.",
               "jlptLevel": 4
             },
             {
               "front": "近所",
               "back": "khu vực lân cận",
               "romaji": "きんじょ",
-              "example": "近所（きんじょ）",
+              "example": "近所の人と挨拶します。\nTôi chào hỏi những người hàng xóm lân cận.",
               "jlptLevel": 4
             },
             {
               "front": "番組",
               "back": "chương trình",
               "romaji": "ばんぐみ",
-              "example": "番組（ばんぐみ）",
+              "example": "この番組はとても面白いです。\nChương trình này rất thú vị.",
               "jlptLevel": 4
             },
             {
               "front": "見物",
               "back": "tham quan",
               "romaji": "けんぶつ",
-              "example": "見物（けんぶつ）",
+              "example": "京都の寺を見物しました。\nTôi đã đi tham quan các ngôi chùa ở Kyoto.",
               "jlptLevel": 4
             },
             {
               "front": "亜米利加",
               "back": "Mỹ",
               "romaji": "アメリカ",
-              "example": "亜米利加（アメリカ）",
+              "example": "私は亜米利加へ留学したいです。\nTôi muốn đi du học ở Mỹ.",
               "jlptLevel": 4
             },
             {
               "front": "彼女",
               "back": "cô ấy",
               "romaji": "かのじょ",
-              "example": "彼女（かのじょ）",
+              "example": "彼女はとても優しいです。\nCô ấy rất dịu dàng.",
               "jlptLevel": 4
             },
             {
               "front": "思う",
               "back": "nghĩ",
               "romaji": "おもう",
-              "example": "思う（おもう）",
+              "example": "日本の料理はおいしいと思います。\nTôi nghĩ món ăn Nhật Bản rất ngon.",
               "jlptLevel": 4
             },
             {
               "front": "僕",
               "back": "tôi",
               "romaji": "ぼく",
-              "example": "僕（ぼく）",
+              "example": "僕は学生です。\nTôi là học sinh.",
               "jlptLevel": 4
             },
             {
               "front": "必要",
               "back": "cần thiết",
               "romaji": "ひつよう",
-              "example": "必要（ひつよう）",
+              "example": "パスポートが必要です。\nTôi cần hộ chiếu.",
               "jlptLevel": 4
             }
           ]
@@ -1354,161 +1354,161 @@
               "front": "見える",
               "back": "nhìn thấy",
               "romaji": "みえる",
-              "example": "見える（みえる）",
+              "example": "窓から富士山が見えます。\nCó thể nhìn thấy núi Phú Sĩ từ cửa sổ.",
               "jlptLevel": 4
             },
             {
               "front": "考える",
               "back": "suy nghĩ",
               "romaji": "かんがえる",
-              "example": "考える（かんがえる）",
+              "example": "よく考えてから答えを出します。\nTôi sẽ suy nghĩ kỹ rồi mới đưa ra câu trả lời.",
               "jlptLevel": 4
             },
             {
               "front": "為",
               "back": "lợi ích",
               "romaji": "ため",
-              "example": "為（ため）",
+              "example": "家族の為に働きます。\nTôi làm việc vì lợi ích của gia đình.",
               "jlptLevel": 4
             },
             {
               "front": "始める",
               "back": "bắt đầu",
               "romaji": "はじめる",
-              "example": "始める（はじめる）",
+              "example": "会議を始めます。\nChúng ta bắt đầu cuộc họp nào.",
               "jlptLevel": 4
             },
             {
               "front": "受ける",
               "back": "nhận",
               "romaji": "うける",
-              "example": "受ける（うける）",
+              "example": "昨日、日本語の試験を受けました。\nHôm qua tôi đã tham dự bài kiểm tra tiếng Nhật.",
               "jlptLevel": 4
             },
             {
               "front": "美しい",
               "back": "đẹp",
               "romaji": "うつくしい",
-              "example": "美しい（うつくしい）",
+              "example": "富士山はとても美しい山です。\nNúi Phú Sĩ là một ngọn núi rất đẹp.",
               "jlptLevel": 4
             },
             {
               "front": "試験",
               "back": "bài kiểm tra",
               "romaji": "しけん",
-              "example": "試験（しけん）",
+              "example": "試験の結果が心配です。\nTôi lo lắng về kết quả bài kiểm tra.",
               "jlptLevel": 4
             },
             {
               "front": "親切",
               "back": "tử tế",
               "romaji": "しんせつ",
-              "example": "親切（しんせつ）",
+              "example": "彼はとても親切な人です。\nAnh ấy là một người rất tử tế.",
               "jlptLevel": 4
             },
             {
               "front": "失敗",
               "back": "thất bại",
               "romaji": "しっぱい",
-              "example": "失敗（しっぱい）",
+              "example": "失敗は成功の母です。\nThất bại là mẹ thành công.",
               "jlptLevel": 4
             },
             {
               "front": "以上",
               "back": "trở lên",
               "romaji": "いじょう",
-              "example": "以上（いじょう）",
+              "example": "20歳以上が買えます。\nNgười từ 20 tuổi trở lên mới được mua.",
               "jlptLevel": 4
             },
             {
               "front": "意見",
               "back": "ý kiến",
               "romaji": "いけん",
-              "example": "意見（いけん）",
+              "example": "あなたの意見を教えてください。\nHãy cho tôi biết ý kiến của bạn.",
               "jlptLevel": 4
             },
             {
               "front": "決して",
               "back": "tuyệt đối không",
               "romaji": "けっして",
-              "example": "決して（けっして）",
+              "example": "このことは決して言わないでください。\nTuyệt đối không được nói chuyện này ra nhé.",
               "jlptLevel": 4
             },
             {
               "front": "十分",
               "back": "đủ",
               "romaji": "じゅうぶん",
-              "example": "十分（じゅうぶん）",
+              "example": "睡眠は十分とったほうがいいです。\nBạn nên ngủ đủ giấc.",
               "jlptLevel": 4
             },
             {
               "front": "試合",
               "back": "trận đấu",
               "romaji": "しあい",
-              "example": "試合（しあい）",
+              "example": "今日の試合は勝ちました。\nTrận đấu hôm nay chúng tôi đã thắng.",
               "jlptLevel": 4
             },
             {
               "front": "一生懸命",
               "back": "hết sức mình",
               "romaji": "いっしょうけんめい",
-              "example": "一生懸命（いっしょうけんめい）",
+              "example": "一生懸命日本語を勉強します。\nTôi sẽ học tiếng Nhật hết sức mình.",
               "jlptLevel": 4
             },
             {
               "front": "子",
               "back": "đứa trẻ",
               "romaji": "こ",
-              "example": "子（こ）",
+              "example": "公園で子が遊んでいます。\nĐứa trẻ đang chơi ở công viên.",
               "jlptLevel": 4
             },
             {
               "front": "探す",
               "back": "tìm kiếm",
               "romaji": "さがす",
-              "example": "探す（さがす）",
+              "example": "鍵を探しています。\nTôi đang tìm kiếm chìa khóa.",
               "jlptLevel": 4
             },
             {
               "front": "急ぐ",
               "back": "vội vàng",
               "romaji": "いそぐ",
-              "example": "急ぐ（いそぐ）",
+              "example": "時間がありませんから、急ぎましょう。\nVì không còn thời gian nên chúng ta hãy vội vàng đi thôi.",
               "jlptLevel": 4
             },
             {
               "front": "選ぶ",
               "back": "chọn",
               "romaji": "えらぶ",
-              "example": "選ぶ（えらぶ）",
+              "example": "好きな色を選んでください。\nHãy chọn màu bạn thích đi.",
               "jlptLevel": 4
             },
             {
               "front": "送る",
               "back": "gửi",
               "romaji": "おくる",
-              "example": "送る（おくる）",
+              "example": "友達にプレゼントを送ります。\nTôi gửi quà cho bạn bè.",
               "jlptLevel": 4
             },
             {
               "front": "必ず",
               "back": "chắc chắn, nhất định",
               "romaji": "かならず",
-              "example": "必ず（かならず）",
+              "example": "明日、必ず行きます。\nNgày mai tôi chắc chắn sẽ đi.",
               "jlptLevel": 4
             },
             {
               "front": "怒る",
               "back": "tức giận, nổi giận",
               "romaji": "おこる",
-              "example": "怒る（おこる）",
+              "example": "そんなに怒らないでください。\nXin đừng tức giận như vậy.",
               "jlptLevel": 4
             },
             {
               "front": "最近",
               "back": "gần đây, dạo gần đây",
               "romaji": "さいきん",
-              "example": "最近（さいきん）",
+              "example": "最近、忙しいです。\nDạo gần đây tôi rất bận.",
               "jlptLevel": 4
             }
           ]
@@ -1577,161 +1577,161 @@
               "front": "払う",
               "back": "trả tiền, thanh toán",
               "romaji": "はらう",
-              "example": "払う（はらう）",
+              "example": "お金を払います。\nTôi sẽ trả tiền.",
               "jlptLevel": 4
             },
             {
               "front": "合う",
               "back": "phù hợp, hợp",
               "romaji": "あう",
-              "example": "合う（あう）",
+              "example": "サイズが合います。\nKích thước này vừa vặn/phù hợp.",
               "jlptLevel": 4
             },
             {
               "front": "点",
               "back": "chấm, điểm",
               "romaji": "てん",
-              "example": "点（てん）",
+              "example": "テストで100点をとりました。\nTôi đã đạt 100 điểm trong bài kiểm tra.",
               "jlptLevel": 4
             },
             {
               "front": "決める",
               "back": "quyết định, lựa chọn",
               "romaji": "きめる",
-              "example": "決める（きめる）",
+              "example": "行くことを決めました。\nTôi đã quyết định đi.",
               "jlptLevel": 4
             },
             {
               "front": "笑う",
               "back": "cười",
               "romaji": "わらう",
-              "example": "笑う（わらう）",
+              "example": "いつも笑っています。\nAnh ấy lúc nào cũng cười.",
               "jlptLevel": 4
             },
             {
               "front": "最初",
               "back": "ban đầu, đầu tiên",
               "romaji": "さいしょ",
-              "example": "最初（さいしょ）",
+              "example": "最初は何もしりませんでした。\nBan đầu tôi không biết gì cả.",
               "jlptLevel": 4
             },
             {
               "front": "反対",
               "back": "phản đối, đối lập",
               "romaji": "はんたい",
-              "example": "反対（はんたい）",
+              "example": "父は留学に反対です。\nBố tôi phản đối việc đi du học.",
               "jlptLevel": 4
             },
             {
               "front": "娘",
               "back": "con gái",
               "romaji": "むすめ",
-              "example": "娘（むすめ）",
+              "example": "私の娘は5歳です。\nCon gái tôi được 5 tuổi.",
               "jlptLevel": 4
             },
             {
               "front": "理由",
               "back": "lý do",
               "romaji": "りゆう",
-              "example": "理由（りゆう）",
+              "example": "休んだ理由を教えてください。\nHãy cho tôi biết lý do nghỉ học.",
               "jlptLevel": 4
             },
             {
               "front": "喜ぶ",
               "back": "vui mừng, hoan hỉ",
               "romaji": "よろこぶ",
-              "example": "喜ぶ（よろこぶ）",
+              "example": "プレゼントをもらって喜んでいます。\nCô ấy rất vui vì nhận được quà.",
               "jlptLevel": 4
             },
             {
               "front": "昔",
               "back": "ngày xưa, quá khứ",
               "romaji": "むかし",
-              "example": "昔（むかし）",
+              "example": "昔、ここに学校がありました。\nNgày xưa ở đây từng có một ngôi trường.",
               "jlptLevel": 4
             },
             {
               "front": "約束",
               "back": "lời hứa, cuộc hẹn",
               "romaji": "やくそく",
-              "example": "約束（やくそく）",
+              "example": "約束を守ってください。\nHãy giữ lời hứa nhé.",
               "jlptLevel": 4
             },
             {
               "front": "思い出す",
               "back": "nhớ lại, hồi tưởng",
               "romaji": "おもいだす",
-              "example": "思い出す（おもいだす）",
+              "example": "昔のことを思い出します。\nTôi nhớ lại những chuyện ngày xưa.",
               "jlptLevel": 4
             },
             {
               "front": "変わる",
               "back": "thay đổi, biến đổi",
               "romaji": "かわる",
-              "example": "変わる（かわる）",
+              "example": "季節が変わりました。\nCác mùa đã thay đổi.",
               "jlptLevel": 4
             },
             {
               "front": "正しい",
               "back": "đúng, chính xác",
               "romaji": "ただしい",
-              "example": "正しい（ただしい）",
+              "example": "正しい答えを選んでください。\nHãy chọn câu trả lời đúng.",
               "jlptLevel": 4
             },
             {
               "front": "落ちる",
               "back": "rơi, ngã",
               "romaji": "おちる",
-              "example": "落ちる（おちる）",
+              "example": "りんごが木から落ちました。\nQuả táo đã rơi xuống từ trên cây.",
               "jlptLevel": 4
             },
             {
               "front": "場所",
               "back": "địa điểm, nơi chốn",
               "romaji": "ばしょ",
-              "example": "場所（ばしょ）",
+              "example": "ここは静かな場所です。\nĐây là một nơi yên tĩnh.",
               "jlptLevel": 4
             },
             {
               "front": "楽しむ",
               "back": "tận hưởng, vui vẻ",
               "romaji": "たのしむ",
-              "example": "楽しむ（たのしむ）",
+              "example": "パーティーを楽しみましょう。\nHãy tận hưởng bữa tiệc nào.",
               "jlptLevel": 4
             },
             {
               "front": "利用",
               "back": "sử dụng, tận dụng",
               "romaji": "りよう",
-              "example": "利用（りよう）",
+              "example": "図書館を利用します。\nTôi sử dụng thư viện.",
               "jlptLevel": 4
             },
             {
               "front": "間に合う",
               "back": "kịp giờ",
               "romaji": "まにあう",
-              "example": "間に合う（まにあう）",
+              "example": "電車に間に合いました。\nTôi đã kịp chuyến tàu.",
               "jlptLevel": 4
             },
             {
               "front": "今度",
               "back": "lần này, lần tới",
               "romaji": "こんど",
-              "example": "今度（こんど）",
+              "example": "今度、一緒に映画を見に行きましょう。\nLần tới chúng mình cùng đi xem phim nhé.",
               "jlptLevel": 4
             },
             {
               "front": "予定",
               "back": "dự định, kế hoạch",
               "romaji": "よてい",
-              "example": "予定（よてい）",
+              "example": "明日の予定は何ですか？\nDự định ngày mai của bạn là gì?",
               "jlptLevel": 4
             },
             {
               "front": "訪ねる",
               "back": "thăm, ghé thăm",
               "romaji": "たずねる",
-              "example": "訪ねる（たずねる）",
+              "example": "友人の家を訪ねます。\nTôi đi thăm nhà bạn.",
               "jlptLevel": 4
             }
           ]
@@ -1800,161 +1800,161 @@
               "front": "赤ん坊",
               "back": "em bé, trẻ sơ sinh",
               "romaji": "あかんぼう",
-              "example": "赤ん坊（あかんぼう）",
+              "example": "赤ん坊が泣いています。\nEm bé đang khóc.",
               "jlptLevel": 4
             },
             {
               "front": "進む",
               "back": "tiến lên, tiến bộ",
               "romaji": "すすむ",
-              "example": "進む（すすむ）",
+              "example": "前へ進んでください。\nHãy tiến về phía trước.",
               "jlptLevel": 4
             },
             {
               "front": "最後",
               "back": "cuối cùng, kết thúc",
               "romaji": "さいご",
-              "example": "最後（さいご）",
+              "example": "最後にもう一度言います。\nTôi sẽ nói lại một lần cuối cùng.",
               "jlptLevel": 4
             },
             {
               "front": "向かう",
               "back": "hướng về, đối mặt",
               "romaji": "むかう",
-              "example": "向かう（むかう）",
+              "example": "駅に向かっています。\nTôi đang đi hướng về phía nhà ga.",
               "jlptLevel": 4
             },
             {
               "front": "通る",
               "back": "đi qua, đi ngang qua",
               "romaji": "とおる",
-              "example": "通る（とおる）",
+              "example": "この道を通ります。\nTôi đi qua con đường này.",
               "jlptLevel": 4
             },
             {
               "front": "興味",
               "back": "hứng thú, sở thích",
               "romaji": "きょうみ",
-              "example": "興味（きょうみ）",
+              "example": "日本語に興味があります。\nTôi có hứng thú với tiếng Nhật.",
               "jlptLevel": 4
             },
             {
               "front": "時代",
               "back": "thời đại, kỷ nguyên",
               "romaji": "じだい",
-              "example": "時代（じだい）",
+              "example": "今は便利な時代です。\nBây giờ là thời đại tiện lợi.",
               "jlptLevel": 4
             },
             {
               "front": "返事",
               "back": "trả lời, hồi đáp",
               "romaji": "へんじ",
-              "example": "返事（へんじ）",
+              "example": "返事をください。\nHãy cho tôi câu trả lời.",
               "jlptLevel": 4
             },
             {
               "front": "途中",
               "back": "giữa đường, trên đường",
               "romaji": "とちゅう",
-              "example": "途中（とちゅう）",
+              "example": "学校へ行く途中で雨が降りました。\nĐang trên đường đến trường thì trời đổ mưa.",
               "jlptLevel": 4
             },
             {
               "front": "簡単",
               "back": "đơn giản, dễ dàng",
               "romaji": "かんたん",
-              "example": "簡単（かんたん）",
+              "example": "この問題は簡単です。\nCâu hỏi này rất đơn giản.",
               "jlptLevel": 4
             },
             {
               "front": "深い",
               "back": "sâu",
               "romaji": "ふかい",
-              "example": "深い（ふかい）",
+              "example": "ここは海が深いです。\nỞ đây biển rất sâu.",
               "jlptLevel": 4
             },
             {
               "front": "起こす",
               "back": "gây ra, đánh thức",
               "romaji": "おこす",
-              "example": "起こす（おこす）",
+              "example": "朝、母に起こされました。\nSáng nay tôi bị mẹ đánh thức.",
               "jlptLevel": 4
             },
             {
               "front": "夫",
               "back": "chồng",
               "romaji": "おっと",
-              "example": "夫（おっと）",
+              "example": "私の夫は医者です。\nChồng tôi là bác sĩ.",
               "jlptLevel": 4
             },
             {
               "front": "一度",
               "back": "một lần",
               "romaji": "いちど",
-              "example": "一度（いちど）",
+              "example": "日本へ一度行ったことがあります。\nTôi đã từng đến Nhật Bản một lần.",
               "jlptLevel": 4
             },
             {
               "front": "一度",
               "back": "một lần",
               "romaji": "いちど",
-              "example": "一度（いちど）",
+              "example": "一度だけ言います。\nTôi chỉ nói một lần thôi nhé.",
               "jlptLevel": 4
             },
             {
               "front": "運ぶ",
               "back": "vận chuyển, mang vác",
               "romaji": "はこぶ",
-              "example": "運ぶ（はこぶ）",
+              "example": "重い荷物を運びます。\nTôi vận chuyển hành lý nặng.",
               "jlptLevel": 4
             },
             {
               "front": "今夜",
               "back": "tối nay, đêm nay",
               "romaji": "こんや",
-              "example": "今夜（こんや）",
+              "example": "今夜はパーティーがあります。\nTối nay có một bữa tiệc.",
               "jlptLevel": 4
             },
             {
               "front": "盗む",
               "back": "đánh cắp, trộm",
               "romaji": "ぬすむ",
-              "example": "盗む（ぬすむ）",
+              "example": "泥棒が財布を盗みました。\nKẻ trộm đã lấy cắp ví tiền.",
               "jlptLevel": 4
             },
             {
               "front": "習慣",
               "back": "thói quen",
               "romaji": "しゅうかん",
-              "example": "習慣（しゅうかん）",
+              "example": "早起きはいい習慣です。\nDậy sớm là một thói quen tốt.",
               "jlptLevel": 4
             },
             {
               "front": "大抵",
               "back": "thông thường, thường thì",
               "romaji": "たいてい",
-              "example": "大抵（たいてい）",
+              "example": "大抵、八時に家を出ます。\nThông thường, tôi rời nhà lúc tám giờ.",
               "jlptLevel": 4
             },
             {
               "front": "残る",
               "back": "còn lại, ở lại",
               "romaji": "のこる",
-              "example": "残る（のこる）",
+              "example": "料理が少し残っています。\nThức ăn còn thừa lại một chút.",
               "jlptLevel": 4
             },
             {
               "front": "上がる",
               "back": "tăng lên, đi lên",
               "romaji": "あがる",
-              "example": "上がる（あがる）",
+              "example": "気温が上がりました。\nNhiệt độ đã tăng lên.",
               "jlptLevel": 4
             },
             {
               "front": "席",
               "back": "chỗ ngồi, ghế",
               "romaji": "せき",
-              "example": "席（せき）",
+              "example": "席に座ってください。\nHãy ngồi vào chỗ của bạn.",
               "jlptLevel": 4
             }
           ]
@@ -2023,161 +2023,161 @@
               "front": "値段",
               "back": "giá cả",
               "romaji": "ねだん",
-              "example": "値段（ねだん）",
+              "example": "この靴は値段が高いです。\nĐôi giày này giá cao.",
               "jlptLevel": 4
             },
             {
               "front": "将来",
               "back": "tương lai",
               "romaji": "しょうらい",
-              "example": "将来（しょうらい）",
+              "example": "将来、医者になりたいです。\nTương lai tôi muốn trở thành bác sĩ.",
               "jlptLevel": 4
             },
             {
               "front": "優しい",
               "back": "hiền lành, tốt bụng",
               "romaji": "やさしい",
-              "example": "優しい（やさしい）",
+              "example": "先生はとても優しいです。\nGiáo viên rất hiền lành.",
               "jlptLevel": 4
             },
             {
               "front": "致す",
               "back": "làm (khiêm tốn)",
               "romaji": "いたす",
-              "example": "致す（いたす）",
+              "example": "私がご案内いたします。\nTôi xin phép được hướng dẫn quý khách.",
               "jlptLevel": 4
             },
             {
               "front": "空気",
               "back": "không khí",
               "romaji": "くうき",
-              "example": "空気（くうき）",
+              "example": "朝の空気はきれいです。\nKhông khí buổi sáng rất trong lành.",
               "jlptLevel": 4
             },
             {
               "front": "逃げる",
               "back": "chạy trốn, thoát thân",
               "romaji": "にげる",
-              "example": "逃げる（にげる）",
+              "example": "犯人は逃げました。\nPhạm nhân đã chạy trốn.",
               "jlptLevel": 4
             },
             {
               "front": "役に立つ",
               "back": "có ích, hữu dụng",
               "romaji": "やくにたつ",
-              "example": "役に立つ（やくにたつ）",
+              "example": "この本は役に立ちます。\nCuốn sách này rất có ích.",
               "jlptLevel": 4
             },
             {
               "front": "機会",
               "back": "cơ hội",
               "romaji": "きかい",
-              "example": "機会（きかい）",
+              "example": "日本へ行く機会があります。\nTôi có cơ hội đi Nhật Bản.",
               "jlptLevel": 4
             },
             {
               "front": "予約",
               "back": "đặt trước, hẹn trước",
               "romaji": "よやく",
-              "example": "予約（よやく）",
+              "example": "レストランを予約します。\nTôi đặt chỗ trước tại nhà hàng.",
               "jlptLevel": 4
             },
             {
               "front": "原因",
               "back": "nguyên nhân",
               "romaji": "げんいん",
-              "example": "原因（げんいん）",
+              "example": "事故の原因を調べます。\nTôi điều tra nguyên nhân vụ tai nạn.",
               "jlptLevel": 4
             },
             {
               "front": "火事",
               "back": "hỏa hoạn, cháy",
               "romaji": "かじ",
-              "example": "火事（かじ）",
+              "example": "昨日、近所で火事がありました。\nHôm qua gần nhà tôi có hỏa hoạn.",
               "jlptLevel": 4
             },
             {
               "front": "泥棒",
               "back": "kẻ trộm",
               "romaji": "どろぼう",
-              "example": "泥棒（どろぼう）",
+              "example": "泥棒に鞄を盗まれました。\nTôi bị kẻ trộm lấy mất túi xách.",
               "jlptLevel": 4
             },
             {
               "front": "髪",
               "back": "tóc",
               "romaji": "かみ",
-              "example": "髪（かみ）",
+              "example": "髪を切りました。\nTôi đã đi cắt tóc.",
               "jlptLevel": 4
             },
             {
               "front": "行う",
               "back": "tiến hành, thực hiện",
               "romaji": "おこなう",
-              "example": "行う（おこなう）",
+              "example": "会議を行います。\nChúng tôi tiến hành cuộc họp.",
               "jlptLevel": 4
             },
             {
               "front": "代わり",
               "back": "thay thế, sự thay thế",
               "romaji": "かわり",
-              "example": "代わり（かわり）",
+              "example": "父の代わりに行きます。\nTôi đi thay cho bố.",
               "jlptLevel": 4
             },
             {
               "front": "見つかる",
               "back": "được tìm thấy, được phát hiện",
               "romaji": "みつかる",
-              "example": "見つかる（みつかる）",
+              "example": "鍵が見つかりました。\nChìa khóa đã được tìm thấy rồi.",
               "jlptLevel": 4
             },
             {
               "front": "打つ",
               "back": "đánh, đấm, gõ",
               "romaji": "うつ",
-              "example": "打つ（うつ）",
+              "example": "パソコンで文字を打ちます。\nTôi gõ chữ bằng máy tính.",
               "jlptLevel": 4
             },
             {
               "front": "厳しい",
               "back": "nghiêm khắc, khắt khe",
               "romaji": "きびしい",
-              "example": "厳しい（きびしい）",
+              "example": "父は仕事に厳しいです。\nBố tôi rất nghiêm khắc trong công việc.",
               "jlptLevel": 4
             },
             {
               "front": "増える",
               "back": "tăng lên, gia tăng",
               "romaji": "ふえる",
-              "example": "増える（ふえる）",
+              "example": "人口が増えました。\nDân số đã tăng lên.",
               "jlptLevel": 4
             },
             {
               "front": "迎える",
               "back": "đón tiếp, chào đón",
               "romaji": "むかえる",
-              "example": "迎える（むかえる）",
+              "example": "空港で友達を迎えます。\nTôi đón bạn ở sân bay.",
               "jlptLevel": 4
             },
             {
               "front": "怖い",
               "back": "đáng sợ, đáng sợ hãi",
               "romaji": "こわい",
-              "example": "怖い（こわい）",
+              "example": "暗い夜道は怖いです。\nĐường đêm tối rất đáng sợ.",
               "jlptLevel": 4
             },
             {
               "front": "社長",
               "back": "giám đốc công ty, chủ tịch",
               "romaji": "しゃちょう",
-              "example": "社長（しゃちょう）",
+              "example": "社長に報告します。\nTôi báo cáo với giám đốc.",
               "jlptLevel": 4
             },
             {
               "front": "紹介",
               "back": "giới thiệu",
               "romaji": "しょうかい",
-              "example": "紹介（しょうかい）",
+              "example": "友達を紹介します。\nTôi giới thiệu bạn của mình.",
               "jlptLevel": 4
             }
           ]
@@ -2246,161 +2246,161 @@
               "front": "集める",
               "back": "thu thập, tập hợp",
               "romaji": "あつめる",
-              "example": "集める（あつめる）",
+              "example": "切手を集めています。\nTôi đang sưu tập tem.",
               "jlptLevel": 4
             },
             {
               "front": "事務所",
               "back": "văn phòng",
               "romaji": "じむしょ",
-              "example": "事務所（じむしょ）",
+              "example": "事務所で働いています。\nTôi đang làm việc tại văn phòng.",
               "jlptLevel": 4
             },
             {
               "front": "星",
               "back": "ngôi sao, vì sao",
               "romaji": "ほし",
-              "example": "星（ほし）",
+              "example": "夜空に星がきれいです。\nVì sao trên bầu trời đêm rất đẹp.",
               "jlptLevel": 4
             },
             {
               "front": "特に",
               "back": "đặc biệt là, nhất là",
               "romaji": "とくに",
-              "example": "特に（とくに）",
+              "example": "特に暑い日が続きます。\nNhững ngày đặc biệt nóng đang tiếp diễn.",
               "jlptLevel": 4
             },
             {
               "front": "集まる",
               "back": "tập trung, tụ họp",
               "romaji": "あつまる",
-              "example": "集まる（あつまる）",
+              "example": "公園に子供たちが集まっています。\nCác bạn nhỏ đang tập trung ở công viên.",
               "jlptLevel": 4
             },
             {
               "front": "比べる",
               "back": "so sánh",
               "romaji": "くらべる",
-              "example": "比べる（くらべる）",
+              "example": "二つを比べてみましょう。\nHãy cùng so sánh hai cái này xem.",
               "jlptLevel": 4
             },
             {
               "front": "無理",
               "back": "vô lý, không thể",
               "romaji": "むり",
-              "example": "無理（むり）",
+              "example": "それは無理なお願いです。\nĐiều đó là yêu cầu vô lý.",
               "jlptLevel": 4
             },
             {
               "front": "用意",
               "back": "chuẩn bị, sắp xếp",
               "romaji": "ようい",
-              "example": "用意（ようい）",
+              "example": "昼ごはんを用意します。\nTôi chuẩn bị bữa trưa.",
               "jlptLevel": 4
             },
             {
               "front": "落とす",
               "back": "đánh rơi, làm mất",
               "romaji": "おとす",
-              "example": "落とす（おとす）",
+              "example": "電車に財布を落としました。\nTôi đã đánh rơi ví trên tàu.",
               "jlptLevel": 4
             },
             {
               "front": "壊れる",
               "back": "bị hỏng, bị vỡ",
               "romaji": "こわれる",
-              "example": "壊れる（こわれる）",
+              "example": "時計が壊れてしまいました。\nĐồng hồ đã bị hỏng mất rồi.",
               "jlptLevel": 4
             },
             {
               "front": "具合",
               "back": "tình trạng, trạng thái",
               "romaji": "ぐあい",
-              "example": "具合（ぐあい）",
+              "example": "少し具合が悪いです。\nTôi thấy tình trạng sức khỏe hơi tệ.",
               "jlptLevel": 4
             },
             {
               "front": "倒れる",
               "back": "ngã, đổ, sụp đổ",
               "romaji": "たおれる",
-              "example": "倒れる（たおれる）",
+              "example": "強風で木が倒れました。\nCây đã đổ do gió mạnh.",
               "jlptLevel": 4
             },
             {
               "front": "味",
               "back": "vị, hương vị",
               "romaji": "あじ",
-              "example": "味（あじ）",
+              "example": "この料理は味が濃いです。\nMón ăn này có vị đậm đà.",
               "jlptLevel": 4
             },
             {
               "front": "安全",
               "back": "an toàn",
               "romaji": "あんぜん",
-              "example": "安全（あんぜん）",
+              "example": "ここは安全な場所です。\nĐây là một nơi an toàn.",
               "jlptLevel": 4
             },
             {
               "front": "変",
               "back": "kỳ lạ, lạ",
               "romaji": "へん",
-              "example": "変（へん）",
+              "example": "変な音が聞こえます。\nTôi nghe thấy một âm thanh lạ.",
               "jlptLevel": 4
             },
             {
               "front": "連絡",
               "back": "liên lạc, liên hệ",
               "romaji": "れんらく",
-              "example": "連絡（れんらく）",
+              "example": "あとで連絡します。\nTôi sẽ liên lạc lại sau.",
               "jlptLevel": 4
             },
             {
               "front": "祖母",
               "back": "bà",
               "romaji": "そぼ",
-              "example": "祖母（そぼ）",
+              "example": "祖母は田舎に住んでいます。\nBà tôi đang sống ở quê.",
               "jlptLevel": 4
             },
             {
               "front": "大事",
               "back": "quan trọng, nghiêm trọng",
               "romaji": "だいじ",
-              "example": "大事（だいじ）",
+              "example": "体は一番大事です。\nCơ thể là quan trọng nhất.",
               "jlptLevel": 4
             },
             {
               "front": "下がる",
               "back": "hạ xuống, giảm xuống",
               "romaji": "さがる",
-              "example": "下がる（さがる）",
+              "example": "気温が少し下がりました。\nNhiệt độ đã giảm xuống một chút.",
               "jlptLevel": 4
             },
             {
               "front": "壊す",
               "back": "làm hỏng, phá hủy",
               "romaji": "こわす",
-              "example": "壊す（こわす）",
+              "example": "子供がおもちゃを壊しました。\nĐứa trẻ đã làm hỏng đồ chơi.",
               "jlptLevel": 4
             },
             {
               "front": "決まる",
               "back": "được quyết định, được ấn định",
               "romaji": "きまる",
-              "example": "決まる（きまる）",
+              "example": "旅行の日程が決まりました。\nLịch trình chuyến du lịch đã được quyết định.",
               "jlptLevel": 4
             },
             {
               "front": "確か",
               "back": "chắc chắn, tin chắc",
               "romaji": "たしか",
-              "example": "確か（たしか）",
+              "example": "確か、彼は明日来るはずです。\nNếu tôi nhớ không nhầm thì chắc là ngày mai cậu ấy sẽ đến.",
               "jlptLevel": 4
             },
             {
               "front": "楽しみ",
               "back": "niềm vui, sự thích thú",
               "romaji": "たのしみ",
-              "example": "楽しみ（たのしみ）",
+              "example": "週末の旅行が楽しみです。\nTôi rất mong chờ chuyến du lịch cuối tuần.",
               "jlptLevel": 4
             }
           ]
@@ -2469,161 +2469,161 @@
               "front": "汽車",
               "back": "tàu hỏa hơi nước",
               "romaji": "きしゃ",
-              "example": "汽車（きしゃ）",
+              "example": "昔、汽車に乗ったことがあります。\nTôi đã từng đi tàu hỏa hơi nước ngày xưa.",
               "jlptLevel": 4
             },
             {
               "front": "隅",
               "back": "góc",
               "romaji": "すみ",
-              "example": "隅（すみ）",
+              "example": "部屋の隅に荷物を置きます。\nTôi đặt hành lý ở góc phòng.",
               "jlptLevel": 4
             },
             {
               "front": "可笑しい",
               "back": "buồn cười, kỳ lạ",
               "romaji": "おかしい",
-              "example": "可笑しい（おかしい）",
+              "example": "それはとても可笑しい話ですね。\nĐó là một câu chuyện rất buồn cười nhỉ.",
               "jlptLevel": 4
             },
             {
               "front": "競争",
               "back": "cạnh tranh, cuộc thi",
               "romaji": "きょうそう",
-              "example": "競争（きょうそう）",
+              "example": "二人は激しく競争しています。\nHai người họ đang cạnh tranh gay gắt.",
               "jlptLevel": 4
             },
             {
               "front": "入院",
               "back": "nhập viện",
               "romaji": "にゅういん",
-              "example": "入院（にゅういん）",
+              "example": "先週から入院しています。\nTôi đã nhập viện từ tuần trước.",
               "jlptLevel": 4
             },
             {
               "front": "形",
               "back": "hình dạng",
               "romaji": "かたち",
-              "example": "形（かたち）",
+              "example": "星の形のクッキーを作りました。\nTôi đã làm bánh quy hình ngôi sao.",
               "jlptLevel": 4
             },
             {
               "front": "景色",
               "back": "phong cảnh, cảnh vật",
               "romaji": "けしき",
-              "example": "景色（けしき）",
+              "example": "ここからの景色は綺麗です。\nPhong cảnh từ chỗ này rất đẹp.",
               "jlptLevel": 4
             },
             {
               "front": "留守",
               "back": "vắng nhà, vắng mặt",
               "romaji": "るす",
-              "example": "留守（るす）",
+              "example": "母は今、留守です。\nMẹ tôi hiện đang vắng nhà.",
               "jlptLevel": 4
             },
             {
               "front": "仕方",
               "back": "cách, phương pháp",
               "romaji": "しかた",
-              "example": "仕方（しかた）",
+              "example": "漢字の書き方が分かりません。\nTôi không biết cách viết chữ Hán.",
               "jlptLevel": 4
             },
             {
               "front": "首",
               "back": "cổ",
               "romaji": "くび",
-              "example": "首（くび）",
+              "example": "首が痛いです。\nTôi bị đau cổ.",
               "jlptLevel": 4
             },
             {
               "front": "君",
               "back": "bạn, cậu",
               "romaji": "きみ",
-              "example": "君（きみ）",
+              "example": "君の名前を教えてください。\nHãy cho mình biết tên bạn nhé.",
               "jlptLevel": 4
             },
             {
               "front": "血",
               "back": "máu",
               "romaji": "ち",
-              "example": "血（ち）",
+              "example": "指から血が出ています。\nMáu đang chảy ra từ ngón tay.",
               "jlptLevel": 4
             },
             {
               "front": "以内",
               "back": "trong vòng, bên trong",
               "romaji": "いない",
-              "example": "以内（いない）",
+              "example": "30分以内に着きます。\nTôi sẽ đến trong vòng 30 phút nữa.",
               "jlptLevel": 4
             },
             {
               "front": "例えば",
               "back": "ví dụ, chẳng hạn",
               "romaji": "たとえば",
-              "example": "例えば（たとえば）",
+              "example": "例えば、これはどうですか。\nVí dụ như cái này thì sao?",
               "jlptLevel": 4
             },
             {
               "front": "別れる",
               "back": "chia tay",
               "romaji": "わかれる",
-              "example": "別れる（わかれる）",
+              "example": "駅で友達と別れました。\nTôi đã chia tay với bạn ở nhà ga.",
               "jlptLevel": 4
             },
             {
               "front": "棚",
               "back": "kệ, giá",
               "romaji": "たな",
-              "example": "棚（たな）",
+              "example": "本を棚に並べます。\nTôi sắp xếp sách lên kệ.",
               "jlptLevel": 4
             },
             {
               "front": "引っ越す",
               "back": "chuyển nhà",
               "romaji": "ひっこす",
-              "example": "引っ越す（ひっこす）",
+              "example": "来月、新しい家に引っ越します。\nTháng sau tôi sẽ chuyển đến nhà mới.",
               "jlptLevel": 4
             },
             {
               "front": "複雑",
               "back": "phức tạp",
               "romaji": "ふくざつ",
-              "example": "複雑（ふくざつ）",
+              "example": "問題が複雑になりました。\nVấn đề đã trở nên phức tạp.",
               "jlptLevel": 4
             },
             {
               "front": "申し上げる",
               "back": "nói, thưa (kính ngữ)",
               "romaji": "もうしあげる",
-              "example": "申し上げる（もうしあげる）",
+              "example": "心からお祝いを申し上げます。\nTôi xin gửi lời chúc mừng từ tận đáy lòng.",
               "jlptLevel": 4
             },
             {
               "front": "品物",
               "back": "hàng hóa, vật phẩm",
               "romaji": "しなもの",
-              "example": "品物（しなもの）",
+              "example": "店に品物を並べます。\nTôi bày hàng hóa lên kệ trong cửa hàng.",
               "jlptLevel": 4
             },
             {
               "front": "技術",
               "back": "kỹ thuật, công nghệ",
               "romaji": "ぎじゅつ",
-              "example": "技術（ぎじゅつ）",
+              "example": "日本の技術は進んでいます。\nKỹ thuật của Nhật Bản rất tiến bộ.",
               "jlptLevel": 4
             },
             {
               "front": "ご存知",
               "back": "biết (kính ngữ)",
               "romaji": "ごぞんじ",
-              "example": "ご存知（ごぞんじ）",
+              "example": "先生、このニュースをご存知ですか。\nThầy/cô có biết tin tức này không ạ?",
               "jlptLevel": 4
             },
             {
               "front": "草",
               "back": "cỏ",
               "romaji": "くさ",
-              "example": "草（くさ）",
+              "example": "庭に草がたくさん生えています。\nTrong vườn có rất nhiều cỏ mọc.",
               "jlptLevel": 4
             }
           ]
@@ -2692,161 +2692,161 @@
               "front": "以下",
               "back": "trở xuống, dưới",
               "romaji": "いか",
-              "example": "以下（いか）",
+              "example": "1000円以下の物を選んでください。\nHãy chọn món đồ dưới 1000 yên.",
               "jlptLevel": 4
             },
             {
               "front": "倍",
               "back": "gấp đôi, hai lần",
               "romaji": "ばい",
-              "example": "倍（ばい）",
+              "example": "値段が2倍になりました。\nGiá đã tăng lên gấp đôi.",
               "jlptLevel": 4
             },
             {
               "front": "両方",
               "back": "cả hai",
               "romaji": "りょうほう",
-              "example": "両方（りょうほう）",
+              "example": "両方（りょうほう）の意見を聞きます。\nTôi sẽ lắng nghe ý kiến của cả hai bên.",
               "jlptLevel": 4
             },
             {
               "front": "港",
               "back": "cảng, bến cảng",
               "romaji": "みなと",
-              "example": "港（みなと）",
+              "example": "船が港（みなと）に着きました。\nCon tàu đã cập bến cảng.",
               "jlptLevel": 4
             },
             {
               "front": "安心",
               "back": "yên tâm, an tâm",
               "romaji": "あんしん",
-              "example": "安心（あんしん）",
+              "example": "母の顔を見て安心（あんしん）しました。\nTôi đã thấy yên tâm khi nhìn thấy khuôn mặt của mẹ.",
               "jlptLevel": 4
             },
             {
               "front": "大体",
               "back": "đại khái, nói chung",
               "romaji": "だいたい",
-              "example": "大体（だいたい）",
+              "example": "大体（だいたい）わかります。\nTôi hiểu đại khái rồi.",
               "jlptLevel": 4
             },
             {
               "front": "線",
               "back": "đường, vạch",
               "romaji": "せん",
-              "example": "線（せん）",
+              "example": "この線（せん）の上に書いてください。\nHãy viết lên trên đường kẻ này.",
               "jlptLevel": 4
             },
             {
               "front": "下げる",
               "back": "hạ xuống, treo",
               "romaji": "さげる",
-              "example": "下げる（さげる）",
+              "example": "壁に絵を下げる（さげる）。\nTreo bức tranh lên tường.",
               "jlptLevel": 4
             },
             {
               "front": "虫",
               "back": "côn trùng",
               "romaji": "むし",
-              "example": "虫（むし）",
+              "example": "庭に虫（むし）がいます。\nTrong vườn có côn trùng.",
               "jlptLevel": 4
             },
             {
               "front": "小鳥",
               "back": "chim nhỏ",
               "romaji": "ことり",
-              "example": "小鳥（ことり）",
+              "example": "小鳥（ことり）が木で鳴いています。\nChim nhỏ đang hót trên cây.",
               "jlptLevel": 4
             },
             {
               "front": "高校生",
               "back": "học sinh cấp ba",
               "romaji": "こうこうせい",
-              "example": "高校生（こうこうせい）",
+              "example": "兄は高校生（こうこうせい）です。\nAnh trai tôi là học sinh cấp ba.",
               "jlptLevel": 4
             },
             {
               "front": "乗り換える",
               "back": "chuyển tàu/xe",
               "romaji": "のりかえる",
-              "example": "乗り換える（のりかえる）",
+              "example": "新宿で電車を乗り換える（のりかえる）。\nTôi chuyển tàu tại ga Shinjuku.",
               "jlptLevel": 4
             },
             {
               "front": "枝",
               "back": "cành, nhánh",
               "romaji": "えだ",
-              "example": "枝（えだ）",
+              "example": "木の枝（えだ）が折れました。\nCành cây đã bị gãy.",
               "jlptLevel": 4
             },
             {
               "front": "寺",
               "back": "chùa",
               "romaji": "てら",
-              "example": "寺（てら）",
+              "example": "京都には古い寺（てら）がたくさんあります。\nỞ Kyoto có rất nhiều ngôi chùa cổ.",
               "jlptLevel": 4
             },
             {
               "front": "通う",
               "back": "đi lại, lui tới",
               "romaji": "かよう",
-              "example": "通う（かよう）",
+              "example": "毎日学校へ通う（かよう）。\nTôi đi học (đến trường) mỗi ngày.",
               "jlptLevel": 4
             },
             {
               "front": "終わり",
               "back": "sự kết thúc, điểm cuối",
               "romaji": "おわり",
-              "example": "終わり（おわり）",
+              "example": "映画の終わり（おわり）は感動しました。\nTôi đã rất xúc động ở đoạn kết của bộ phim.",
               "jlptLevel": 4
             },
             {
               "front": "店員",
               "back": "nhân viên cửa hàng",
               "romaji": "てんいん",
-              "example": "店員（てんいん）",
+              "example": "店員（てんいん）を呼びます。\nTôi gọi nhân viên cửa hàng.",
               "jlptLevel": 4
             },
             {
               "front": "帰り",
               "back": "sự trở về",
               "romaji": "かえり",
-              "example": "帰り（かえり）",
+              "example": "帰りに買い物をする。\nTôi đi mua sắm trên đường về.",
               "jlptLevel": 4
             },
             {
               "front": "着物",
               "back": "kimono",
               "romaji": "きもの",
-              "example": "着物（きもの）",
+              "example": "着物（きもの）を着ます。\nTôi mặc kimono.",
               "jlptLevel": 4
             },
             {
               "front": "騒ぐ",
               "back": "làm ồn, gây ồn ào",
               "romaji": "さわぐ",
-              "example": "騒ぐ（さわぐ）",
+              "example": "そんなに騒ぐ（さわぐ）な。\nĐừng làm ồn như thế.",
               "jlptLevel": 4
             },
             {
               "front": "柔らかい",
               "back": "mềm, mềm mại",
               "romaji": "やわらかい",
-              "example": "柔らかい（やわらかい）",
+              "example": "このパンは柔らかい（やわらかい）です。\nChiếc bánh mì này rất mềm.",
               "jlptLevel": 4
             },
             {
               "front": "丁寧",
               "back": "lịch sự, cẩn thận",
               "romaji": "ていねい",
-              "example": "丁寧（ていねい）",
+              "example": "丁寧（ていねい）に説明します。\nTôi sẽ giải thích một cách cẩn thận/lịch sự.",
               "jlptLevel": 4
             },
             {
               "front": "丁寧",
               "back": "lịch sự, cẩn thận",
               "romaji": "ていねい",
-              "example": "丁寧（ていねい）",
+              "example": "丁寧（ていねい）に説明します。\nTôi sẽ giải thích một cách cẩn thận/lịch sự.",
               "jlptLevel": 4
             }
           ]
@@ -2915,161 +2915,161 @@
               "front": "裏",
               "back": "mặt sau, phía sau",
               "romaji": "うら",
-              "example": "裏（うら）",
+              "example": "家の裏（うら）に公園があります。\nCó một công viên ở phía sau nhà.",
               "jlptLevel": 4
             },
             {
               "front": "真ん中",
               "back": "giữa, trung tâm",
               "romaji": "まんなか",
-              "example": "真ん中（まんなか）",
+              "example": "部屋の真ん中（まんなか）に座る。\nNgồi ở chính giữa căn phòng.",
               "jlptLevel": 4
             },
             {
               "front": "冷える",
               "back": "lạnh đi, nguội đi",
               "romaji": "ひえる",
-              "example": "冷える（ひえる）",
+              "example": "体が冷える（ひえる）。\nCơ thể bị lạnh đi.",
               "jlptLevel": 4
             },
             {
               "front": "遠慮",
               "back": "ngần ngại, dè dặt",
               "romaji": "えんりょ",
-              "example": "遠慮（えんりょ）",
+              "example": "遠慮（えんりょ）しないで食べてください。\nHãy ăn tự nhiên đi, đừng ngần ngại.",
               "jlptLevel": 4
             },
             {
               "front": "飾る",
               "back": "trang trí",
               "romaji": "かざる",
-              "example": "飾る（かざる）",
+              "example": "部屋に花を飾る（かざる）。\nTrang trí hoa trong phòng.",
               "jlptLevel": 4
             },
             {
               "front": "表",
               "back": "bề mặt, mặt",
               "romaji": "おもて",
-              "example": "表（おもて）",
+              "example": "紙の表（おもて）に名前を書く。\nViết tên lên bề mặt của tờ giấy.",
               "jlptLevel": 4
             },
             {
               "front": "都合",
               "back": "hoàn cảnh, sự tiện lợi",
               "romaji": "つごう",
-              "example": "都合（つごう）",
+              "example": "都合（つごう）がいい時教えてください。\nHãy cho tôi biết khi nào bạn rảnh nhé.",
               "jlptLevel": 4
             },
             {
               "front": "暮れる",
               "back": "tối, chiều tối",
               "romaji": "くれる",
-              "example": "暮れる（くれる）",
+              "example": "日が暮れる（くれる）のが早くなりました。\nTrời đã tối nhanh hơn rồi.",
               "jlptLevel": 4
             },
             {
               "front": "昼間",
               "back": "ban ngày",
               "romaji": "ひるま",
-              "example": "昼間（ひるま）",
+              "example": "昼間（ひるま）は暑いです。\nBan ngày rất nóng.",
               "jlptLevel": 4
             },
             {
               "front": "部長",
               "back": "trưởng phòng, trưởng bộ phận",
               "romaji": "ぶちょう",
-              "example": "部長（ぶちょう）",
+              "example": "部長（ぶちょう）に報告します。\nTôi báo cáo với trưởng phòng.",
               "jlptLevel": 4
             },
             {
               "front": "急",
               "back": "đột ngột, cấp tốc",
               "romaji": "きゅう",
-              "example": "急（きゅう）",
+              "example": "急（きゅう）に雨が降ってきました。\nTrời đột ngột đổ mưa.",
               "jlptLevel": 4
             },
             {
               "front": "引き出し",
               "back": "ngăn kéo",
               "romaji": "ひきだし",
-              "example": "引き出し（ひきだし）",
+              "example": "引き出し（ひきだし）の中に鍵がある。\nChìa khóa ở trong ngăn kéo.",
               "jlptLevel": 4
             },
             {
               "front": "久しぶり",
               "back": "lâu rồi, đã lâu",
               "romaji": "ひさしぶり",
-              "example": "久しぶり（ひさしぶり）",
+              "example": "久しぶり（ひさしぶり）ですね。\nĐã lâu không gặp nhỉ.",
               "jlptLevel": 4
             },
             {
               "front": "会場",
               "back": "hội trường, địa điểm tổ chức",
               "romaji": "かいじょう",
-              "example": "会場（かいじょう）",
+              "example": "会場（かいじょう）に行きます。\nTôi sẽ đến hội trường.",
               "jlptLevel": 4
             },
             {
               "front": "急行",
               "back": "tàu tốc hành",
               "romaji": "きゅうこう",
-              "example": "急行（きゅうこう）",
+              "example": "急行（きゅうこう）に乗ります。\nTôi sẽ đi tàu tốc hành.",
               "jlptLevel": 4
             },
             {
               "front": "地理",
               "back": "địa lý",
               "romaji": "ちり",
-              "example": "地理（ちり）",
+              "example": "地理（ちり）を勉強します。\nTôi học địa lý.",
               "jlptLevel": 4
             },
             {
               "front": "電灯",
               "back": "đèn điện",
               "romaji": "でんとう",
-              "example": "電灯（でんとう）",
+              "example": "電灯（でんとう）をつける。\nBật đèn điện lên.",
               "jlptLevel": 4
             },
             {
               "front": "踊り",
               "back": "điệu nhảy, múa",
               "romaji": "おどり",
-              "example": "踊り（おどり）",
+              "example": "日本の踊り（おどり）を習います。\nTôi học điệu nhảy Nhật Bản.",
               "jlptLevel": 4
             },
             {
               "front": "又は",
               "back": "hoặc",
               "romaji": "または",
-              "example": "又は（または）",
+              "example": "現金又は（または）カードで払えます。\nCó thể thanh toán bằng tiền mặt hoặc thẻ.",
               "jlptLevel": 4
             },
             {
               "front": "適当",
               "back": "thích hợp, phù hợp",
               "romaji": "てきとう",
-              "example": "適当（てきとう）",
+              "example": "適当な仕事をしてはいけません。\nKhông được làm việc một cách qua loa, đại khái đâu đấy.",
               "jlptLevel": 4
             },
             {
               "front": "細かい",
               "back": "nhỏ, chi tiết",
               "romaji": "こまかい",
-              "example": "細かい（こまかい）",
+              "example": "細かいお金がありません。\nTôi không có tiền lẻ.",
               "jlptLevel": 4
             },
             {
               "front": "課長",
               "back": "trưởng phòng",
               "romaji": "かちょう",
-              "example": "課長（かちょう）",
+              "example": "課長は今、会議中です。\nTrưởng phòng hiện đang họp.",
               "jlptLevel": 4
             },
             {
               "front": "盛ん",
               "back": "thịnh vượng, phát triển mạnh",
               "romaji": "さかん",
-              "example": "盛ん（さかん）",
+              "example": "この町ではスポーツが盛んです。\nỞ thị trấn này, các môn thể thao rất phát triển.",
               "jlptLevel": 4
             }
           ]
@@ -3138,161 +3138,161 @@
               "front": "引き出す",
               "back": "kéo ra, rút ra",
               "romaji": "ひきだす",
-              "example": "引き出す（ひきだす）",
+              "example": "銀行でお金を引き出します。\nTôi rút tiền ở ngân hàng.",
               "jlptLevel": 4
             },
             {
               "front": "割合",
               "back": "tỷ lệ, tỷ số",
               "romaji": "わりあい",
-              "example": "割合（わりあい）",
+              "example": "この仕事は割合簡単です。\nCông việc này tương đối dễ.",
               "jlptLevel": 4
             },
             {
               "front": "暖房",
               "back": "sưởi ấm",
               "romaji": "だんぼう",
-              "example": "暖房（だんぼう）",
+              "example": "寒いので、暖房をつけてください。\nVì lạnh nên hãy bật lò sưởi lên nhé.",
               "jlptLevel": 4
             },
             {
               "front": "申す",
               "back": "nói, được gọi là (khiêm nhường ngữ)",
               "romaji": "もうす",
-              "example": "申す（もうす）",
+              "example": "佐藤と申します。\nTôi xin tự giới thiệu, tôi tên là Sato.",
               "jlptLevel": 4
             },
             {
               "front": "退院",
               "back": "xuất viện",
               "romaji": "たいいん",
-              "example": "退院（たいいん）",
+              "example": "父は来週退院します。\nBố tôi tuần sau sẽ xuất viện.",
               "jlptLevel": 4
             },
             {
               "front": "売り場",
               "back": "quầy bán hàng, khu vực bán hàng",
               "romaji": "うりば",
-              "example": "売り場（うりば）",
+              "example": "食料品売り場はどこですか。\nQuầy bán thực phẩm ở đâu vậy?",
               "jlptLevel": 4
             },
             {
               "front": "受付",
               "back": "quầy lễ tân, tiếp tân",
               "romaji": "うけつけ",
-              "example": "受付（うけつけ）",
+              "example": "受付で名前を書いてください。\nHãy viết tên của bạn tại quầy lễ tân.",
               "jlptLevel": 4
             },
             {
               "front": "苦い",
               "back": "đắng",
               "romaji": "にがい",
-              "example": "苦い（にがい）",
+              "example": "このコーヒーは苦いです。\nCà phê này đắng quá.",
               "jlptLevel": 4
             },
             {
               "front": "下宿",
               "back": "ở trọ",
               "romaji": "げしゅく",
-              "example": "下宿（げしゅく）",
+              "example": "大学の近くで下宿しています。\nTôi đang ở trọ gần trường đại học.",
               "jlptLevel": 4
             },
             {
               "front": "講堂",
               "back": "giảng đường, khán phòng",
               "romaji": "こうどう",
-              "example": "講堂（こうどう）",
+              "example": "入学式は講堂で行われます。\nLễ nhập học sẽ được tổ chức tại giảng đường.",
               "jlptLevel": 4
             },
             {
               "front": "不便",
               "back": "bất tiện",
               "romaji": "ふべん",
-              "example": "不便（ふべん）",
+              "example": "この辺は交通が不便です。\nKhu vực này giao thông rất bất tiện.",
               "jlptLevel": 4
             },
             {
               "front": "食料品",
               "back": "thực phẩm, đồ tạp hóa",
               "romaji": "しょくりょうひん",
-              "example": "食料品（しょくりょうひん）",
+              "example": "スーパーで食料品を買います。\nTôi mua thực phẩm ở siêu thị.",
               "jlptLevel": 4
             },
             {
               "front": "新聞社",
               "back": "công ty báo chí",
               "romaji": "しんぶんしゃ",
-              "example": "新聞社（しんぶんしゃ）",
+              "example": "彼は新聞社に勤めています。\nAnh ấy đang làm việc tại một công ty báo chí.",
               "jlptLevel": 4
             },
             {
               "front": "湯",
               "back": "nước nóng",
               "romaji": "ゆ",
-              "example": "湯（ゆ）",
+              "example": "湯を沸かしてください。\nHãy đun nước nóng lên.",
               "jlptLevel": 4
             },
             {
               "front": "写す",
               "back": "sao chép, chụp",
               "romaji": "うつす",
-              "example": "写す（うつす）",
+              "example": "黒板の文字をノートに写します。\nTôi chép chữ trên bảng vào vở.",
               "jlptLevel": 4
             },
             {
               "front": "工業",
               "back": "công nghiệp",
               "romaji": "こうぎょう",
-              "example": "工業（こうぎょう）",
+              "example": "日本は工業が発達しています。\nCông nghiệp ở Nhật Bản rất phát triển.",
               "jlptLevel": 4
             },
             {
               "front": "工業",
               "back": "công nghiệp",
               "romaji": "こうぎょう",
-              "example": "工業（こうぎょう）",
+              "example": "日本は工業が発達しています。\nCông nghiệp ở Nhật Bản rất phát triển.",
               "jlptLevel": 4
             },
             {
               "front": "下着",
               "back": "đồ lót",
               "romaji": "したぎ",
-              "example": "下着（したぎ）",
+              "example": "新しい下着を買いました。\nTôi đã mua đồ lót mới.",
               "jlptLevel": 4
             },
             {
               "front": "冷房",
               "back": "máy lạnh, điều hòa",
               "romaji": "れいぼう",
-              "example": "冷房（れいぼう）",
+              "example": "暑いので、冷房を入れましょう。\nVì nóng nên hãy bật điều hòa nhé.",
               "jlptLevel": 4
             },
             {
               "front": "畳",
               "back": "chiếu tatami",
               "romaji": "たたみ",
-              "example": "畳（たたみ）",
+              "example": "日本人は畳の部屋が好きです。\nNgười Nhật thích phòng trải chiếu tatami.",
               "jlptLevel": 4
             },
             {
               "front": "お嬢さん",
               "back": "con gái (người khác), tiểu thư",
               "romaji": "おじょうさん",
-              "example": "お嬢さん（おじょうさん）",
+              "example": "お嬢さんはおいくつですか。\nCon gái của chị năm nay bao nhiêu tuổi rồi ạ?",
               "jlptLevel": 4
             },
             {
               "front": "沸かす",
               "back": "đun sôi",
               "romaji": "わかす",
-              "example": "沸かす（わかす）",
+              "example": "お茶を飲むためにお湯を沸かします。\nTôi đun nước sôi để pha trà.",
               "jlptLevel": 4
             },
             {
               "front": "漬ける",
               "back": "ngâm, nhúng",
               "romaji": "つける",
-              "example": "漬ける（つける）",
+              "example": "野菜を塩に漬けます。\nTôi muối rau củ (ngâm rau củ trong muối).",
               "jlptLevel": 4
             }
           ]
@@ -3361,161 +3361,161 @@
               "front": "特急",
               "back": "tàu tốc hành đặc biệt",
               "romaji": "とっきゅう",
-              "example": "特急（とっきゅう）",
+              "example": "特急に乗れば、早く着きます。\nNếu đi tàu tốc hành đặc biệt, bạn sẽ đến nơi nhanh hơn.",
               "jlptLevel": 4
             },
             {
               "front": "呉れる",
               "back": "cho",
               "romaji": "くれる",
-              "example": "呉れる（くれる）",
+              "example": "友達が本をくれました。\nBạn tôi đã cho/tặng tôi một cuốn sách.",
               "jlptLevel": 4
             },
             {
               "front": "過ぎる",
               "back": "đi qua, vượt qua",
               "romaji": "すぎる",
-              "example": "過ぎる（すぎる）",
+              "example": "12時を過ぎました。\nĐã quá 12 giờ rồi.",
               "jlptLevel": 4
             },
             {
               "front": "積もり",
               "back": "ý định, dự định",
               "romaji": "つもり",
-              "example": "積もり（つもり）",
+              "example": "来年、日本へ行く積もりです。\nTôi dự định năm sau sẽ đi Nhật.",
               "jlptLevel": 4
             },
             {
               "front": "殆ど",
               "back": "hầu hết, gần như",
               "romaji": "ほとんど",
-              "example": "殆ど（ほとんど）",
+              "example": "宿題は殆ど終わりました。\nTôi đã làm xong gần hết bài tập rồi.",
               "jlptLevel": 4
             },
             {
               "front": "止める",
               "back": "dừng, tắt",
               "romaji": "とめる",
-              "example": "止める（とめる）",
+              "example": "車をここに止めてください。\nHãy đỗ xe ở đây.",
               "jlptLevel": 4
             },
             {
               "front": "酷い",
               "back": "tàn nhẫn, tồi tệ",
               "romaji": "ひどい",
-              "example": "酷い（ひどい）",
+              "example": "昨日、酷い雨が降りました。\nHôm qua đã có một trận mưa rất dữ dội.",
               "jlptLevel": 4
             },
             {
               "front": "遅れる",
               "back": "muộn, chậm trễ",
               "romaji": "おくれる",
-              "example": "遅れる（おくれる）",
+              "example": "電車が遅れてすみません。\nXin lỗi vì tàu đã bị chậm trễ.",
               "jlptLevel": 4
             },
             {
               "front": "続ける",
               "back": "tiếp tục, duy trì",
               "romaji": "つづける",
-              "example": "続ける（つづける）",
+              "example": "これからも日本語の勉強を続けます。\nTừ nay về sau tôi vẫn sẽ tiếp tục học tiếng Nhật.",
               "jlptLevel": 4
             },
             {
               "front": "手伝う",
               "back": "giúp đỡ, hỗ trợ",
               "romaji": "てつだう",
-              "example": "手伝う（てつだう）",
+              "example": "宿題を手伝ってください。\nHãy giúp tôi làm bài tập với.",
               "jlptLevel": 4
             },
             {
               "front": "見つける",
               "back": "tìm thấy, phát hiện",
               "romaji": "みつける",
-              "example": "見つける（みつける）",
+              "example": "鍵を見つけました。\nTôi đã tìm thấy chìa khóa rồi.",
               "jlptLevel": 4
             },
             {
               "front": "驚く",
               "back": "ngạc nhiên",
               "romaji": "おどろく",
-              "example": "驚く（おどろく）",
+              "example": "そのニュースを聞いて驚きました。\nTôi đã rất ngạc nhiên khi nghe tin đó.",
               "jlptLevel": 4
             },
             {
               "front": "開く",
               "back": "mở",
               "romaji": "ひらく",
-              "example": "開く（ひらく）",
+              "example": "窓を開いて、空気を入れ替えます。\nTôi mở cửa sổ để thay đổi không khí.",
               "jlptLevel": 4
             },
             {
               "front": "眠る",
               "back": "ngủ",
               "romaji": "ねむる",
-              "example": "眠る（ねむる）",
+              "example": "夜、ぐっすり眠る。\nBuổi tối tôi ngủ rất ngon.",
               "jlptLevel": 4
             },
             {
               "front": "勝つ",
               "back": "thắng, chiến thắng",
               "romaji": "かつ",
-              "example": "勝つ（かつ）",
+              "example": "試合に勝つ。\nThắng trong trận đấu.",
               "jlptLevel": 4
             },
             {
               "front": "聞こえる",
               "back": "nghe thấy",
               "romaji": "きこえる",
-              "example": "聞こえる（きこえる）",
+              "example": "遠くから声が聞こえる。\nTôi nghe thấy tiếng nói từ đằng xa.",
               "jlptLevel": 4
             },
             {
               "front": "尋ねる",
               "back": "hỏi, thăm hỏi",
               "romaji": "たずねる",
-              "example": "尋ねる（たずねる）",
+              "example": "道で人に道を尋ねる。\nTôi hỏi đường người khác trên phố.",
               "jlptLevel": 4
             },
             {
               "front": "慣れる",
               "back": "quen, làm quen",
               "romaji": "なれる",
-              "example": "慣れる（なれる）",
+              "example": "新しい生活に慣れる。\nQuen với cuộc sống mới.",
               "jlptLevel": 4
             },
             {
               "front": "泣く",
               "back": "khóc",
               "romaji": "なく",
-              "example": "泣く（なく）",
+              "example": "映画を見て泣く。\nTôi đã khóc khi xem bộ phim đó.",
               "jlptLevel": 4
             },
             {
               "front": "似る",
               "back": "giống, tương tự",
               "romaji": "にる",
-              "example": "似る（にる）",
+              "example": "母に似ている。\nTôi giống mẹ.",
               "jlptLevel": 4
             },
             {
               "front": "屹度",
               "back": "chắc chắn, nhất định",
               "romaji": "きっと",
-              "example": "屹度（きっと）",
+              "example": "明日はきっと晴れるでしょう。\nNgày mai chắc chắn trời sẽ đẹp.",
               "jlptLevel": 4
             },
             {
               "front": "戻る",
               "back": "quay lại, trở lại",
               "romaji": "もどる",
-              "example": "戻る（もどる）",
+              "example": "家に財布を忘れ、戻る。\nTôi quên ví ở nhà nên quay lại.",
               "jlptLevel": 4
             },
             {
               "front": "調べる",
               "back": "kiểm tra, điều tra",
               "romaji": "しらべる",
-              "example": "調べる（しらべる）",
+              "example": "辞書で意味を調べる。\nTra nghĩa từ vựng bằng từ điển.",
               "jlptLevel": 4
             }
           ]
@@ -3584,161 +3584,161 @@
               "front": "伝える",
               "back": "truyền đạt, thông báo",
               "romaji": "つたえる",
-              "example": "伝える（つたえる）",
+              "example": "先生にメッセージを伝える。\nTruyền đạt lại tin nhắn cho giáo viên.",
               "jlptLevel": 4
             },
             {
               "front": "筈",
               "back": "chắc hẳn, phải là",
               "romaji": "はず",
-              "example": "筈（はず）",
+              "example": "彼はもう来るはずだ。\nChắc hẳn anh ấy sắp đến nơi rồi.",
               "jlptLevel": 4
             },
             {
               "front": "無くなる",
               "back": "mất, bị mất",
               "romaji": "なくなる",
-              "example": "無くなる（なくなる）",
+              "example": "鍵が無くなった。\nChìa khóa bị mất rồi.",
               "jlptLevel": 4
             },
             {
               "front": "動く",
               "back": "di chuyển, chuyển động",
               "romaji": "うごく",
-              "example": "動く（うごく）",
+              "example": "機械が正しく動く。\nCỗ máy hoạt động chính xác.",
               "jlptLevel": 4
             },
             {
               "front": "知らせる",
               "back": "thông báo, báo cho biết",
               "romaji": "しらせる",
-              "example": "知らせる（しらせる）",
+              "example": "合格したことを母に知らせる。\nBáo tin đỗ cho mẹ biết.",
               "jlptLevel": 4
             },
             {
               "front": "続く",
               "back": "tiếp tục, kéo dài",
               "romaji": "つづく",
-              "example": "続く（つづく）",
+              "example": "雨が三日間も続く。\nMưa kéo dài suốt ba ngày.",
               "jlptLevel": 4
             },
             {
               "front": "別",
               "back": "khác biệt, phân biệt",
               "romaji": "べつ",
-              "example": "別（べつ）",
+              "example": "それは別問題です。\nĐó là một vấn đề khác.",
               "jlptLevel": 4
             },
             {
               "front": "鳴る",
               "back": "kêu, reo",
               "romaji": "なる",
-              "example": "鳴る（なる）",
+              "example": "電話が鳴る。\nĐiện thoại reo.",
               "jlptLevel": 4
             },
             {
               "front": "市",
               "back": "thành phố",
               "romaji": "し",
-              "example": "市（し）",
+              "example": "私は大阪市に住んでいます。\nTôi đang sống ở thành phố Osaka.",
               "jlptLevel": 4
             },
             {
               "front": "負ける",
               "back": "thua, bị đánh bại",
               "romaji": "まける",
-              "example": "負ける（まける）",
+              "example": "試合に負ける。\nThua trong trận đấu.",
               "jlptLevel": 4
             },
             {
               "front": "悲しい",
               "back": "buồn",
               "romaji": "かなしい",
-              "example": "悲しい（かなしい）",
+              "example": "悲しいニュースを聞く。\nNghe thấy một tin tức buồn.",
               "jlptLevel": 4
             },
             {
               "front": "亡くなる",
               "back": "qua đời, mất",
               "romaji": "なくなる",
-              "example": "亡くなる（なくなる）",
+              "example": "祖父が亡くなる。\nÔng tôi đã qua đời.",
               "jlptLevel": 4
             },
             {
               "front": "以外",
               "back": "ngoại trừ, trừ ra",
               "romaji": "いがい",
-              "example": "以外（いがい）",
+              "example": "私以外は全員行きました。\nNgoại trừ tôi ra thì tất cả mọi người đều đã đi.",
               "jlptLevel": 4
             },
             {
               "front": "直す",
               "back": "sửa chữa",
               "romaji": "なおす",
-              "example": "直す（なおす）",
+              "example": "壊れた時計を直す。\nSửa chiếc đồng hồ bị hỏng.",
               "jlptLevel": 4
             },
             {
               "front": "暫く",
               "back": "một lát, một lúc",
               "romaji": "しばらく",
-              "example": "暫く（しばらく）",
+              "example": "暫くお待ちください。\nXin vui lòng chờ cho một lát.",
               "jlptLevel": 4
             },
             {
               "front": "回る",
               "back": "quay, xoay",
               "romaji": "まわる",
-              "example": "回る（まわる）",
+              "example": "地球は太陽の周りを回る。\nTrái đất quay quanh mặt trời.",
               "jlptLevel": 4
             },
             {
               "front": "間違える",
               "back": "nhầm, sai, mắc lỗi",
               "romaji": "まちがえる",
-              "example": "間違える（まちがえる）",
+              "example": "漢字を間違える。\nViết nhầm chữ Hán.",
               "jlptLevel": 4
             },
             {
               "front": "捨てる",
               "back": "vứt, bỏ đi",
               "romaji": "すてる",
-              "example": "捨てる（すてる）",
+              "example": "ゴミを捨てる。\nVứt rác.",
               "jlptLevel": 4
             },
             {
               "front": "確り",
               "back": "chắc chắn, vững chắc",
               "romaji": "しっかり",
-              "example": "確り（しっかり）",
+              "example": "確り勉強する。\nHọc tập một cách chăm chỉ/vững chắc.",
               "jlptLevel": 4
             },
             {
               "front": "育てる",
               "back": "nuôi, nuôi dưỡng",
               "romaji": "そだてる",
-              "example": "育てる（そだてる）",
+              "example": "花を育てる。\nChăm sóc/trồng hoa.",
               "jlptLevel": 4
             },
             {
               "front": "褒める",
               "back": "khen, khen ngợi",
               "romaji": "ほめる",
-              "example": "褒める（ほめる）",
+              "example": "子供を褒める。\nKhen ngợi đứa trẻ.",
               "jlptLevel": 4
             },
             {
               "front": "石",
               "back": "đá, hòn đá",
               "romaji": "いし",
-              "example": "石（いし）",
+              "example": "道に石がある。\nCó hòn đá ở trên đường.",
               "jlptLevel": 4
             },
             {
               "front": "恥ずかしい",
               "back": "xấu hổ, ngại ngùng",
               "romaji": "はずかしい",
-              "example": "恥ずかしい（はずかしい）",
+              "example": "みんなの前で話すのは恥ずかしい。\nThật xấu hổ khi phải nói trước mặt mọi người.",
               "jlptLevel": 4
             }
           ]
@@ -3807,161 +3807,161 @@
               "front": "塗る",
               "back": "sơn, quét, phết",
               "romaji": "ぬる",
-              "example": "塗る（ぬる）",
+              "example": "壁にペンキを塗る。\nSơn tường.",
               "jlptLevel": 4
             },
             {
               "front": "泊まる",
               "back": "trọ, ở lại",
               "romaji": "とまる",
-              "example": "泊まる（とまる）",
+              "example": "ホテルに泊まる。\nTrọ lại khách sạn.",
               "jlptLevel": 4
             },
             {
               "front": "片付ける",
               "back": "sắp xếp, dọn dẹp",
               "romaji": "かたづける",
-              "example": "片付ける（かたづける）",
+              "example": "部屋を片付ける。\nDọn dẹp phòng ốc.",
               "jlptLevel": 4
             },
             {
               "front": "止む",
               "back": "dừng, tạnh (mưa), kết thúc",
               "romaji": "やむ",
-              "example": "止む（やむ）",
+              "example": "雨が止む。\nMưa tạnh rồi.",
               "jlptLevel": 4
             },
             {
               "front": "遠く",
               "back": "xa, nơi xa",
               "romaji": "とおく",
-              "example": "遠く（とおく）",
+              "example": "遠くに山が見える。\nCó thể nhìn thấy núi ở đằng xa.",
               "jlptLevel": 4
             },
             {
               "front": "済む",
               "back": "kết thúc, xong",
               "romaji": "すむ",
-              "example": "済む（すむ）",
+              "example": "宿題がやっと済んだ。\nBài tập cuối cùng đã làm xong.",
               "jlptLevel": 4
             },
             {
               "front": "到頭",
               "back": "cuối cùng, rốt cuộc",
               "romaji": "とうとう",
-              "example": "到頭（とうとう）",
+              "example": "到頭完成した。\nCuối cùng thì cũng hoàn thành rồi.",
               "jlptLevel": 4
             },
             {
               "front": "捕まえる",
               "back": "bắt, tóm",
               "romaji": "つかまえる",
-              "example": "捕まえる（つかまえる）",
+              "example": "犯人を捕まえる。\nTôi bắt tội phạm.",
               "jlptLevel": 4
             },
             {
               "front": "踊る",
               "back": "nhảy, múa",
               "romaji": "おどる",
-              "example": "踊る（おどる）",
+              "example": "祭りで踊る。\nNhảy múa ở lễ hội.",
               "jlptLevel": 4
             },
             {
               "front": "足りる",
               "back": "đủ",
               "romaji": "たりる",
-              "example": "足りる（たりる）",
+              "example": "お金が足りる。\nTiền là đủ.",
               "jlptLevel": 4
             },
             {
               "front": "治る",
               "back": "khỏi bệnh, hồi phục",
               "romaji": "なおる",
-              "example": "治る（なおる）",
+              "example": "風邪が早く治るように祈ります。\nTôi cầu nguyện cho bệnh cảm nhanh khỏi.",
               "jlptLevel": 4
             },
             {
               "front": "為さる",
               "back": "làm",
               "romaji": "なさる",
-              "example": "為さる（なさる）",
+              "example": "先生は何を為さいますか。\nThầy giáo đang làm gì vậy ạ?",
               "jlptLevel": 4
             },
             {
               "front": "硬い",
               "back": "cứng, rắn, dai",
               "romaji": "かたい",
-              "example": "硬い（かたい）",
+              "example": "このパンはとても硬い。\nỔ bánh mì này rất cứng.",
               "jlptLevel": 4
             },
             {
               "front": "建てる",
               "back": "xây, dựng",
               "romaji": "たてる",
-              "example": "建てる（たてる）",
+              "example": "新しい家を建てる。\nXây một ngôi nhà mới.",
               "jlptLevel": 4
             },
             {
               "front": "凄い",
               "back": "kinh khủng, khủng khiếp",
               "romaji": "すごい",
-              "example": "凄い（すごい）",
+              "example": "昨日の嵐は凄かった。\nCơn bão hôm qua thật khủng khiếp.",
               "jlptLevel": 4
             },
             {
               "front": "謝る",
               "back": "xin lỗi",
               "romaji": "あやまる",
-              "example": "謝る（あやまる）",
+              "example": "友だちに謝る。\nXin lỗi bạn bè.",
               "jlptLevel": 4
             },
             {
               "front": "此れから",
               "back": "từ bây giờ, từ giờ trở đi",
               "romaji": "これから",
-              "example": "此れから（これから）",
+              "example": "此れから出かけます。\nTôi chuẩn bị đi ra ngoài đây.",
               "jlptLevel": 4
             },
             {
               "front": "立てる",
               "back": "dựng, đặt",
               "romaji": "たてる",
-              "example": "立てる（たてる）",
+              "example": "コップをテーブルに立てる。\nĐặt cái cốc đứng trên bàn.",
               "jlptLevel": 4
             },
             {
               "front": "寂しい",
               "back": "cô đơn, buồn",
               "romaji": "さびしい",
-              "example": "寂しい（さびしい）",
+              "example": "一人で寂しいです。\nTôi cô đơn vì ở một mình.",
               "jlptLevel": 4
             },
             {
               "front": "濡れる",
               "back": "bị ướt",
               "romaji": "ぬれる",
-              "example": "濡れる（ぬれる）",
+              "example": "雨で服が濡れた。\nQuần áo bị ướt do mưa.",
               "jlptLevel": 4
             },
             {
               "front": "投げる",
               "back": "ném, quăng",
               "romaji": "なげる",
-              "example": "投げる（なげる）",
+              "example": "ボールを遠くに投げる。\nNém quả bóng ra xa.",
               "jlptLevel": 4
             },
             {
               "front": "太る",
               "back": "tăng cân, béo lên",
               "romaji": "ふとる",
-              "example": "太る（ふとる）",
+              "example": "最近少し太った。\nDạo này tôi hơi tăng cân một chút.",
               "jlptLevel": 4
             },
             {
               "front": "寄る",
               "back": "đến gần, ghé vào",
               "romaji": "よる",
-              "example": "寄る（よる）",
+              "example": "帰りにコンビニに寄る。\nTôi ghé cửa hàng tiện lợi trên đường về.",
               "jlptLevel": 4
             }
           ]
@@ -4030,161 +4030,161 @@
               "front": "歯医者",
               "back": "nha sĩ",
               "romaji": "はいしゃ",
-              "example": "歯医者（はいしゃ）",
+              "example": "歯医者に行く。\nĐi đến nha sĩ.",
               "jlptLevel": 4
             },
             {
               "front": "参る",
               "back": "đi, đến, ghé thăm",
               "romaji": "まいる",
-              "example": "参る（まいる）",
+              "example": "今から会社へ参ります。\nBây giờ tôi sẽ đến công ty.",
               "jlptLevel": 4
             },
             {
               "front": "召し上がる",
               "back": "ăn, uống",
               "romaji": "めしあがる",
-              "example": "召し上がる（めしあがる）",
+              "example": "どうぞ召し上がってください。\nMời bạn dùng bữa.",
               "jlptLevel": 4
             },
             {
               "front": "珍しい",
               "back": "hiếm, lạ",
               "romaji": "めずらしい",
-              "example": "珍しい（めずらしい）",
+              "example": "珍しい花を見つけた。\nTôi đã tìm thấy một loài hoa hiếm.",
               "jlptLevel": 4
             },
             {
               "front": "揺れる",
               "back": "rung, lắc",
               "romaji": "ゆれる",
-              "example": "揺れる（ゆれる）",
+              "example": "地震で家が揺れる。\nNhà cửa rung lắc vì động đất.",
               "jlptLevel": 4
             },
             {
               "front": "祈る",
               "back": "cầu nguyện",
               "romaji": "いのる",
-              "example": "祈る（いのる）",
+              "example": "神様に平和を祈る。\nCầu nguyện hòa bình với thần linh.",
               "jlptLevel": 4
             },
             {
               "front": "硝子",
               "back": "kính, thủy tinh",
               "romaji": "ガラス",
-              "example": "硝子（ガラス）",
+              "example": "硝子のコップを割った。\nTôi đã làm vỡ cái cốc thủy tinh.",
               "jlptLevel": 4
             },
             {
               "front": "込む",
               "back": "đông đúc, tắc nghẽn",
               "romaji": "こむ",
-              "example": "込む（こむ）",
+              "example": "電車が混んでいる。\nTàu điện đang rất đông đúc.",
               "jlptLevel": 4
             },
             {
               "front": "折る",
               "back": "bẻ, làm gãy",
               "romaji": "おる",
-              "example": "折る（おる）",
+              "example": "枝を折る。\nBẻ cành cây.",
               "jlptLevel": 4
             },
             {
               "front": "大学生",
               "back": "sinh viên đại học",
               "romaji": "だいがくせい",
-              "example": "大学生（だいがくせい）",
+              "example": "兄は大学生です。\nAnh trai tôi là sinh viên đại học.",
               "jlptLevel": 4
             },
             {
               "front": "お礼",
               "back": "lời cảm ơn",
               "romaji": "おれい",
-              "example": "お礼（おれい）",
+              "example": "先生にお礼を言う。\nNói lời cảm ơn với thầy giáo.",
               "jlptLevel": 4
             },
             {
               "front": "眠い",
               "back": "buồn ngủ",
               "romaji": "ねむい",
-              "example": "眠い（ねむい）",
+              "example": "昨夜はあまり寝ていないので眠い。\nVì tối qua không ngủ nhiều nên tôi đang buồn ngủ.",
               "jlptLevel": 4
             },
             {
               "front": "それ程",
               "back": "đến mức đó, như vậy",
               "romaji": "それほど",
-              "example": "それ程（それほど）",
+              "example": "それはそれ程難しくない。\nCái đó không đến mức khó như vậy đâu.",
               "jlptLevel": 4
             },
             {
               "front": "偶に",
               "back": "thỉnh thoảng, đôi khi",
               "romaji": "たまに",
-              "example": "偶に（たまに）",
+              "example": "偶に外食をする。\nThỉnh thoảng tôi đi ăn ngoài.",
               "jlptLevel": 4
             },
             {
               "front": "痩せる",
               "back": "gầy đi, giảm cân",
               "romaji": "やせる",
-              "example": "痩せる（やせる）",
+              "example": "ダイエットをして痩せる。\nGiảm cân bằng cách ăn kiêng.",
               "jlptLevel": 4
             },
             {
               "front": "噛む",
               "back": "cắn",
               "romaji": "かむ",
-              "example": "噛む（かむ）",
+              "example": "よく噛んで食べてください。\nHãy nhai kỹ rồi hãy ăn nhé.",
               "jlptLevel": 4
             },
             {
               "front": "億",
               "back": "hundred million, 100,000,000, 10^8",
               "romaji": "おく",
-              "example": "億（おく）",
+              "example": "人口は一億人以上です。\nDân số là hơn 100 triệu người.",
               "jlptLevel": 4
             },
             {
               "front": "触る",
               "back": "chạm, sờ",
               "romaji": "さわる",
-              "example": "触る（さわる）",
+              "example": "展示物に触らないでください。\nVui lòng không chạm vào vật trưng bày.",
               "jlptLevel": 4
             },
             {
               "front": "瓦斯",
               "back": "ga, khí đốt",
               "romaji": "ガス",
-              "example": "瓦斯（ガス）",
+              "example": "瓦斯のスイッチを切る。\nTắt công tắc ga.",
               "jlptLevel": 4
             },
             {
               "front": "掏摸",
               "back": "kẻ móc túi",
               "romaji": "すり",
-              "example": "掏摸（すり）",
+              "example": "掏摸に注意してください。\nHãy chú ý kẻ móc túi.",
               "jlptLevel": 4
             },
             {
               "front": "成る程",
               "back": "ra vậy, đúng rồi",
               "romaji": "なるほど",
-              "example": "成る程（なるほど）",
+              "example": "成る程、そういうことですね。\nRa là vậy, đúng là như thế nhỉ.",
               "jlptLevel": 4
             },
             {
               "front": "拾う",
               "back": "nhặt, lượm",
               "romaji": "ひろう",
-              "example": "拾う（ひろう）",
+              "example": "道で百円を拾った。\nTôi nhặt được 100 yên trên đường.",
               "jlptLevel": 4
             },
             {
               "front": "焼く",
               "back": "đốt, nướng",
               "romaji": "やく",
-              "example": "焼く（やく）",
+              "example": "魚を焼く。\nNướng cá.",
               "jlptLevel": 4
             }
           ]
@@ -4253,161 +4253,161 @@
               "front": "割れる",
               "back": "vỡ, bị đập vỡ",
               "romaji": "われる",
-              "example": "割れる（われる）",
+              "example": "お皿が割れた。\nCái đĩa bị vỡ.",
               "jlptLevel": 4
             },
             {
               "front": "滑る",
               "back": "trượt",
               "romaji": "すべる",
-              "example": "滑る（すべる）",
+              "example": "道が凍っていて滑りやすいです。\nĐường đang bị đóng băng nên rất dễ trượt.",
               "jlptLevel": 4
             },
             {
               "front": "些とも",
               "back": "một chút nào (không)",
               "romaji": "ちっとも",
-              "example": "些とも（ちっとも）",
+              "example": "そのことについては、些とも知りません。\nVề việc đó, tôi không biết một chút nào cả.",
               "jlptLevel": 4
             },
             {
               "front": "お宅",
               "back": "nhà (của người khác), gia đình",
               "romaji": "おたく",
-              "example": "お宅（おたく）",
+              "example": "お宅では、どんな料理をよく作りますか。\nỞ nhà bạn, mọi người thường nấu món gì thế?",
               "jlptLevel": 4
             },
             {
               "front": "折れる",
               "back": "bị gãy, bị bẻ",
               "romaji": "おれる",
-              "example": "折れる（おれる）",
+              "example": "転んで、腕が折れてしまいました。\nTôi bị ngã và bị gãy tay rồi.",
               "jlptLevel": 4
             },
             {
               "front": "移る",
               "back": "di chuyển, thay đổi, chuyển",
               "romaji": "うつる",
-              "example": "移る（うつる）",
+              "example": "来月、新しいアパートに移ります。\nTháng sau tôi sẽ chuyển đến căn hộ mới.",
               "jlptLevel": 4
             },
             {
               "front": "光る",
               "back": "chiếu sáng, lấp lánh",
               "romaji": "ひかる",
-              "example": "光る（ひかる）",
+              "example": "夜空に星が光っています。\nNhững ngôi sao đang lấp lánh trên bầu trời đêm.",
               "jlptLevel": 4
             },
             {
               "front": "植える",
               "back": "trồng, nuôi",
               "romaji": "うえる",
-              "example": "植える（うえる）",
+              "example": "庭にきれいな花を植えました。\nTôi đã trồng những bông hoa xinh đẹp trong vườn.",
               "jlptLevel": 4
             },
             {
               "front": "字",
               "back": "chữ, ký tự",
               "romaji": "じ",
-              "example": "字（じ）",
+              "example": "先生の字はとてもきれいです。\nChữ viết của giáo viên rất đẹp.",
               "jlptLevel": 4
             },
             {
               "front": "差し上げる",
               "back": "nâng lên, giơ lên",
               "romaji": "さしあげる",
-              "example": "差し上げる（さしあげる）",
+              "example": "先生にこの本を差し上げます。\nTôi xin gửi tặng thầy cuốn sách này.",
               "jlptLevel": 4
             },
             {
               "front": "焼ける",
               "back": "cháy, bị đốt",
               "romaji": "やける",
-              "example": "焼ける（やける）",
+              "example": "パンがこんがりと焼けました。\nBánh mì đã được nướng chín vàng đều.",
               "jlptLevel": 4
             },
             {
               "front": "取り替える",
               "back": "đổi, trao đổi",
               "romaji": "とりかえる",
-              "example": "取り替える（とりかえる）",
+              "example": "古くなった電池を取り替えます。\nTôi thay pin đã bị cũ.",
               "jlptLevel": 4
             },
             {
               "front": "釣る",
               "back": "câu cá",
               "romaji": "つる",
-              "example": "釣る（つる）",
+              "example": "海でたくさん魚を釣りました。\nTôi đã câu được rất nhiều cá ở biển.",
               "jlptLevel": 4
             },
             {
               "front": "乾く",
               "back": "khô, bị khô",
               "romaji": "かわく",
-              "example": "乾く（かわく）",
+              "example": "太陽が出て、服がすぐ乾きました。\nMặt trời lên nên quần áo đã khô nhanh chóng.",
               "jlptLevel": 4
             },
             {
               "front": "用事",
               "back": "việc bận, công việc",
               "romaji": "ようじ",
-              "example": "用事（ようじ）",
+              "example": "すみません、急な用事ができました。\nXin lỗi, tôi vừa có việc bận đột xuất.",
               "jlptLevel": 4
             },
             {
               "front": "成るべく",
               "back": "càng nhiều càng tốt, hết sức có thể",
               "romaji": "なるべく",
-              "example": "成るべく（なるべく）",
+              "example": "成るべく早く帰ってください。\nHãy về nhà sớm hết mức có thể nhé.",
               "jlptLevel": 4
             },
             {
               "front": "苛める",
               "back": "bắt nạt, hành hạ",
               "romaji": "いじめる",
-              "example": "苛める（いじめる）",
+              "example": "弱い者を苛めてはいけません。\nKhông được bắt nạt kẻ yếu.",
               "jlptLevel": 4
             },
             {
               "front": "届ける",
               "back": "gửi, giao",
               "romaji": "とどける",
-              "example": "届ける（とどける）",
+              "example": "この書類を事務所に届けてください。\nHãy mang tài liệu này đến văn phòng giúp tôi.",
               "jlptLevel": 4
             },
             {
               "front": "浅い",
               "back": "nông, cạn",
               "romaji": "あさい",
-              "example": "浅い（あさい）",
+              "example": "この川は浅いので、子供も遊べます。\nCon sông này nông nên trẻ em cũng có thể chơi được.",
               "jlptLevel": 4
             },
             {
               "front": "拝見",
               "back": "xem, nhìn",
               "romaji": "はいけん",
-              "example": "拝見（はいけん）",
+              "example": "手紙を拝見いたしました。\nTôi đã đọc (xem) bức thư của bạn rồi.",
               "jlptLevel": 4
             },
             {
               "front": "お土産",
               "back": "quà lưu niệm, đặc sản",
               "romaji": "おみやげ",
-              "example": "お土産（おみやげ）",
+              "example": "旅行のお土産にチョコレートを買いました。\nTôi đã mua sô cô la làm quà lưu niệm trong chuyến du lịch.",
               "jlptLevel": 4
             },
             {
               "front": "お土産",
               "back": "quà lưu niệm, đặc sản",
               "romaji": "おみやげ",
-              "example": "お土産（おみやげ）",
+              "example": "旅行のお土産にチョコレートを買いました。\nTôi đã mua sô cô la làm quà lưu niệm trong chuyến du lịch.",
               "jlptLevel": 4
             },
             {
               "front": "足す",
               "back": "thêm, cộng",
               "romaji": "たす",
-              "example": "足す（たす）",
+              "example": "このスープに少し塩を足してください。\nHãy thêm chút muối vào món súp này nhé.",
               "jlptLevel": 4
             }
           ]
@@ -4476,161 +4476,161 @@
               "front": "お釣り",
               "back": "tiền thừa, tiền thối",
               "romaji": "おつり",
-              "example": "お釣り（おつり）",
+              "example": "お釣りをください。\nLàm ơn cho tôi nhận tiền thừa.",
               "jlptLevel": 4
             },
             {
               "front": "予習",
               "back": "chuẩn bị bài, học trước bài",
               "romaji": "よしゅう",
-              "example": "予習（よしゅう）",
+              "example": "授業の前に必ず予習をします。\nTrước buổi học, tôi luôn chuẩn bị bài trước.",
               "jlptLevel": 4
             },
             {
               "front": "寝坊",
               "back": "ngủ dậy muộn, ngủ quên",
               "romaji": "ねぼう",
-              "example": "寝坊（ねぼう）",
+              "example": "今日は寝坊して、遅刻しました。\nHôm nay tôi ngủ quên nên đã bị muộn.",
               "jlptLevel": 4
             },
             {
               "front": "沸く",
               "back": "sôi, đun nóng",
               "romaji": "わく",
-              "example": "沸く（わく）",
+              "example": "お湯が沸きましたよ。\nNước đã sôi rồi đấy.",
               "jlptLevel": 4
             },
             {
               "front": "忘れ物",
               "back": "đồ bỏ quên, vật bị mất",
               "romaji": "わすれもの",
-              "example": "忘れ物（わすれもの）",
+              "example": "電車に忘れ物をしました。\nTôi để quên đồ trên tàu điện.",
               "jlptLevel": 4
             },
             {
               "front": "復習",
               "back": "ôn tập",
               "romaji": "ふくしゅう",
-              "example": "復習（ふくしゅう）",
+              "example": "習ったことを復習するのは大切です。\nÔn tập lại những gì đã học là rất quan trọng.",
               "jlptLevel": 4
             },
             {
               "front": "ご主人",
               "back": "chồng (của người khác)",
               "romaji": "ごしゅじん",
-              "example": "ご主人（ごしゅじん）",
+              "example": "ご主人はお元気ですか。\nChồng bạn có khỏe không?",
               "jlptLevel": 4
             },
             {
               "front": "再来週",
               "back": "tuần sau nữa",
               "romaji": "さらいしゅう",
-              "example": "再来週（さらいしゅう）",
+              "example": "再来週は試験があります。\nTuần sau nữa tôi có kỳ thi.",
               "jlptLevel": 4
             },
             {
               "front": "再来月",
               "back": "tháng sau nữa",
               "romaji": "さらいげつ",
-              "example": "再来月（さらいげつ）",
+              "example": "再来月に日本へ行きます。\nTháng sau nữa tôi sẽ đi Nhật.",
               "jlptLevel": 4
             },
             {
               "front": "付く",
               "back": "gắn vào, dính vào",
               "romaji": "つく",
-              "example": "付く（つく）",
+              "example": "シャツにインクが付いてしまいました。\nÁo sơ mi của tôi bị dính mực rồi.",
               "jlptLevel": 4
             },
             {
               "front": "変える",
               "back": "thay đổi, biến đổi",
               "romaji": "かえる",
-              "example": "変える（かえる）",
+              "example": "部屋の模様替えをして気分を変えます。\nTôi thay đổi cách bài trí phòng để đổi mới tâm trạng.",
               "jlptLevel": 4
             },
             {
               "front": "阿弗利加",
               "back": "Châu Phi",
               "romaji": "アフリカ",
-              "example": "阿弗利加（アフリカ）",
+              "example": "いつか阿弗利加へ行ってみたいです。\nTôi muốn thử đi Châu Phi một lần.",
               "jlptLevel": 4
             },
             {
               "front": "斯う",
               "back": "như thế này, như vậy",
               "romaji": "こう",
-              "example": "斯う（こう）",
+              "example": "斯うやって使うんですよ。\nCứ dùng theo cách này này.",
               "jlptLevel": 4
             },
             {
               "front": "看護師",
               "back": "y tá, điều dưỡng viên",
               "romaji": "かんごし",
-              "example": "看護師（かんごし）",
+              "example": "彼女は病院で看護師として働いています。\nCô ấy đang làm điều dưỡng viên tại bệnh viện.",
               "jlptLevel": 4
             },
             {
               "front": "降り出す",
               "back": "bắt đầu mưa, bắt đầu tuyết",
               "romaji": "ふりだす",
-              "example": "降り出す（ふりだす）",
+              "example": "急に雨が降り出しました。\nTrời đột nhiên bắt đầu đổ mưa.",
               "jlptLevel": 4
             },
             {
               "front": "けど",
               "back": "nhưng, tuy nhiên",
               "romaji": "けど",
-              "example": "けど",
+              "example": "忙しいけど、楽しいです。\nBận rộn nhưng mà vui.",
               "jlptLevel": 4
             },
             {
               "front": "日",
               "back": "ngày",
               "romaji": "ひ",
-              "example": "日（ひ）",
+              "example": "今日はとてもいい日ですね。\nHôm nay là một ngày rất tuyệt nhỉ.",
               "jlptLevel": 4
             },
             {
               "front": "大分",
               "back": "đáng kể, rất nhiều",
               "romaji": "だいぶ",
-              "example": "大分（だいぶ）",
+              "example": "大分涼しくなりましたね。\nTrời đã trở nên mát mẻ hơn đáng kể rồi nhỉ.",
               "jlptLevel": 4
             },
             {
               "front": "間",
               "back": "khoảng cách, giữa",
               "romaji": "あいだ",
-              "example": "間（あいだ）",
+              "example": "窓と窓の間には何がありますか。\nGiữa cửa sổ này và cửa sổ kia có gì vậy?",
               "jlptLevel": 4
             },
             {
               "front": "親",
               "back": "cha mẹ, bố mẹ",
               "romaji": "おや",
-              "example": "親（おや）",
+              "example": "親を大切にしなければなりません。\nChúng ta phải biết quý trọng cha mẹ.",
               "jlptLevel": 4
             },
             {
               "front": "熱",
               "back": "nhiệt, sức nóng",
               "romaji": "ねつ",
-              "example": "熱（ねつ）",
+              "example": "昨日から熱があります。\nTôi bị sốt từ hôm qua.",
               "jlptLevel": 4
             },
             {
               "front": "運転手",
               "back": "tài xế, người lái xe",
               "romaji": "うんてんしゅ",
-              "example": "運転手（うんてんしゅ）",
+              "example": "バスの運転手さんはとても親切です。\nBác tài xế xe buýt rất tốt bụng.",
               "jlptLevel": 4
             },
             {
               "front": "木綿",
               "back": "vải bông, sợi bông",
               "romaji": "もめん",
-              "example": "木綿（もめん）",
+              "example": "木綿のシャツは涼しいです。\nÁo sơ mi làm bằng vải bông thì rất mát.",
               "jlptLevel": 4
             }
           ]
@@ -4706,161 +4706,161 @@
               "front": "消しゴム",
               "back": "cục tẩy, gôm",
               "romaji": "けしゴム",
-              "example": "消しゴム（けしゴム）",
+              "example": "消しゴムを貸してください。\nHãy cho tôi mượn cục tẩy.",
               "jlptLevel": 4
             },
             {
               "front": "テニス",
               "back": "quần vợt, tennis",
               "romaji": "テニス",
-              "example": "テニス",
+              "example": "週末に友達とテニスをします。\nCuối tuần tôi sẽ chơi tennis cùng bạn bè.",
               "jlptLevel": 4
             },
             {
               "front": "ピアノ",
               "back": "đàn piano",
               "romaji": "ピアノ",
-              "example": "ピアノ",
+              "example": "私は毎日ピアノを練習します。\nTôi luyện tập đàn piano mỗi ngày.",
               "jlptLevel": 4
             },
             {
               "front": "コンピュータ",
               "back": "máy tính",
               "romaji": "コンピュータ",
-              "example": "コンピュータ",
+              "example": "このコンピュータはとても速いです。\nChiếc máy tính này rất nhanh.",
               "jlptLevel": 4
             },
             {
               "front": "ケーキ",
               "back": "bánh ngọt, bánh kem",
               "romaji": "ケーキ",
-              "example": "ケーキ",
+              "example": "誕生日にケーキを食べました。\nTôi đã ăn bánh kem vào ngày sinh nhật.",
               "jlptLevel": 4
             },
             {
               "front": "カーテン",
               "back": "rèm cửa, màn cửa",
               "romaji": "カーテン",
-              "example": "カーテン",
+              "example": "カーテンを閉めてください。\nHãy đóng rèm cửa lại giúp tôi.",
               "jlptLevel": 4
             },
             {
               "front": "ガソリン",
               "back": "xăng",
               "romaji": "ガソリン",
-              "example": "ガソリン",
+              "example": "車にガソリンを入れます。\nTôi đổ xăng vào xe ô tô.",
               "jlptLevel": 4
             },
             {
               "front": "アルコール",
               "back": "rượu, cồn",
               "romaji": "アルコール",
-              "example": "アルコール",
+              "example": "私はアルコールがあまり飲めません。\nTôi không uống được nhiều rượu.",
               "jlptLevel": 4
             },
             {
               "front": "サンドイッチ",
               "back": "bánh mì kẹp, sandwich",
               "romaji": "サンドイッチ",
-              "example": "サンドイッチ",
+              "example": "お昼ご飯にサンドイッチを食べます。\nTôi ăn sandwich cho bữa trưa.",
               "jlptLevel": 4
             },
             {
               "front": "オートバイ",
               "back": "xe máy, mô tô",
               "romaji": "オートバイ",
-              "example": "オートバイ",
+              "example": "オートバイで会社へ行きます。\nTôi đi làm bằng xe máy.",
               "jlptLevel": 4
             },
             {
               "front": "サラダ",
               "back": "rau trộn, salad",
               "romaji": "サラダ",
-              "example": "サラダ",
+              "example": "健康のためにサラダを食べます。\nVì sức khỏe, tôi ăn salad.",
               "jlptLevel": 4
             },
             {
               "front": "ソフト",
               "back": "mềm, nhẹ nhàng",
               "romaji": "ソフト",
-              "example": "ソフト",
+              "example": "このパンはとてもソフトです。\nChiếc bánh mì này rất mềm.",
               "jlptLevel": 4
             },
             {
               "front": "テキスト",
               "back": "văn bản, tài liệu",
               "romaji": "テキスト",
-              "example": "テキスト",
+              "example": "日本語のテキストを持ってきてください。\nHãy mang theo giáo trình tiếng Nhật đến nhé.",
               "jlptLevel": 4
             },
             {
               "front": "ガソリンスタンド",
               "back": "trạm xăng, cây xăng",
               "romaji": "ガソリンスタンド",
-              "example": "ガソリンスタンド",
+              "example": "近くにガソリンスタンドがありますか。\nGần đây có trạm xăng nào không?",
               "jlptLevel": 4
             },
             {
               "front": "ジャム",
               "back": "mứt",
               "romaji": "ジャム",
-              "example": "ジャム",
+              "example": "パンにジャムを塗ります。\nTôi phết mứt lên bánh mì.",
               "jlptLevel": 4
             },
             {
               "front": "ステレオ",
               "back": "âm thanh nổi, stereo",
               "romaji": "ステレオ",
-              "example": "ステレオ",
+              "example": "部屋でステレオを聞きます。\nTôi nghe nhạc bằng dàn stereo trong phòng.",
               "jlptLevel": 4
             },
             {
               "front": "アナウンサー",
               "back": "phát thanh viên, người dẫn chương trình",
               "romaji": "アナウンサー",
-              "example": "アナウンサー",
+              "example": "彼女は有名なアナウンサーです。\nCô ấy là một phát thanh viên nổi tiếng.",
               "jlptLevel": 4
             },
             {
               "front": "パート",
               "back": "phần, bộ phận",
               "romaji": "パート",
-              "example": "パート",
+              "example": "この仕事は重要なパートです。\nĐây là một phần quan trọng của công việc.",
               "jlptLevel": 4
             },
             {
               "front": "アクセサリー",
               "back": "phụ kiện, trang sức",
               "romaji": "アクセサリー",
-              "example": "アクセサリー",
+              "example": "彼女はアクセサリーをたくさん持っています。\nCô ấy có rất nhiều phụ kiện trang sức.",
               "jlptLevel": 4
             },
             {
               "front": "エスカレーター",
               "back": "thang cuốn",
               "romaji": "エスカレーター",
-              "example": "エスカレーター",
+              "example": "デパートのエスカレーターに乗ります。\nTôi đi thang cuốn trong trung tâm thương mại.",
               "jlptLevel": 4
             },
             {
               "front": "あっ",
               "back": "à, ồ",
               "romaji": "あっ",
-              "example": "あっ",
+              "example": "あっ、電車が来ました！\nÀ, tàu đến rồi kìa!",
               "jlptLevel": 4
             },
             {
               "front": "スーツケース",
               "back": "va li",
               "romaji": "スーツケース",
-              "example": "スーツケース",
+              "example": "空港でスーツケースを受け取ります。\nTôi nhận va li tại sân bay.",
               "jlptLevel": 4
             },
             {
               "front": "ステーキ",
               "back": "bít tết",
               "romaji": "ステーキ",
-              "example": "ステーキ",
+              "example": "レストランでステーキを食べます。\nTôi ăn bít tết tại nhà hàng.",
               "jlptLevel": 4
             }
           ]
@@ -4929,161 +4929,161 @@
               "front": "亜細亜",
               "back": "châu Á",
               "romaji": "アジア",
-              "example": "亜細亜（アジア）",
+              "example": "亜細亜には多くの国があります。\nỞ châu Á có rất nhiều quốc gia.",
               "jlptLevel": 4
             },
             {
               "front": "チェック",
               "back": "kẻ sọc, ca rô",
               "romaji": "チェック",
-              "example": "チェック",
+              "example": "チェックのシャツを着ています。\nTôi đang mặc chiếc áo sơ mi kẻ sọc.",
               "jlptLevel": 4
             },
             {
               "front": "サンダル",
               "back": "dép xăng đan",
               "romaji": "サンダル",
-              "example": "サンダル",
+              "example": "夏はサンダルをよく履きます。\nTôi thường đi dép xăng đan vào mùa hè.",
               "jlptLevel": 4
             },
             {
               "front": "スクリーン",
               "back": "màn hình, màn chiếu",
               "romaji": "スクリーン",
-              "example": "スクリーン",
+              "example": "大きなスクリーンで映画を見ます。\nTôi xem phim trên màn chiếu lớn.",
               "jlptLevel": 4
             },
             {
               "front": "開く",
               "back": "mở",
               "romaji": "あく",
-              "example": "開く（あく）",
+              "example": "ドアが開いています。\nCửa đang mở.",
               "jlptLevel": 4
             },
             {
               "front": "一杯",
               "back": "một cốc, một chén, một bát",
               "romaji": "いっぱい",
-              "example": "一杯（いっぱい）",
+              "example": "水を一杯ください。\nCho tôi một cốc nước.",
               "jlptLevel": 4
             },
             {
               "front": "用",
               "back": "việc, nhiệm vụ, công chuyện",
               "romaji": "よう",
-              "example": "用（よう）",
+              "example": "今日は用事があります。\nHôm nay tôi có công việc riêng.",
               "jlptLevel": 4
             },
             {
               "front": "レジ",
               "back": "quầy thu ngân",
               "romaji": "レジ",
-              "example": "レジ",
+              "example": "あちらのレジで払ってください。\nHãy thanh toán tại quầy thu ngân đằng kia nhé.",
               "jlptLevel": 4
             },
             {
               "front": "内",
               "back": "bên trong, trong vòng",
               "romaji": "うち",
-              "example": "内（うち）",
+              "example": "一時間以内に終わります。\nTôi sẽ kết thúc trong vòng một giờ.",
               "jlptLevel": 4
             },
             {
               "front": "訳",
               "back": "lý do, nguyên nhân",
               "romaji": "わけ",
-              "example": "訳（わけ）",
+              "example": "遅れた訳を話してください。\nHãy nói lý do bạn đến muộn.",
               "jlptLevel": 4
             },
             {
               "front": "お陰",
               "back": "ơn huệ, phước lành",
               "romaji": "おかげ",
-              "example": "お陰（おかげ）",
+              "example": "お陰様で元気です。\nNhờ ơn bạn mà tôi vẫn khỏe.",
               "jlptLevel": 4
             },
             {
               "front": "もう直ぐ",
               "back": "sắp sửa, chẳng bao lâu nữa",
               "romaji": "もうすぐ",
-              "example": "もう直ぐ（もうすぐ）",
+              "example": "もう直ぐバスが来ます。\nXe buýt sắp đến rồi.",
               "jlptLevel": 4
             },
             {
               "front": "君",
               "back": "ông, cậu, thằng bé",
               "romaji": "くん",
-              "example": "君（くん）",
+              "example": "君の鞄はどれですか？\nCái cặp của cậu là cái nào thế?",
               "jlptLevel": 4
             },
             {
               "front": "包む",
               "back": "gói, bọc",
               "romaji": "つつむ",
-              "example": "包む（つつむ）",
+              "example": "プレゼントを包装紙で包みます。\nTôi gói quà bằng giấy gói quà.",
               "jlptLevel": 4
             },
             {
               "front": "毛",
               "back": "tóc, lông",
               "romaji": "け",
-              "example": "毛（け）",
+              "example": "犬の毛が服についています。\nLông chó dính vào quần áo rồi.",
               "jlptLevel": 4
             },
             {
               "front": "泳ぎ方",
               "back": "cách bơi",
               "romaji": "およぎかた",
-              "example": "泳ぎ方（およぎかた）",
+              "example": "泳ぎ方を教えてください。\nHãy chỉ cho tôi cách bơi với.",
               "jlptLevel": 4
             },
             {
               "front": "都",
               "back": "thành phố lớn, thủ đô",
               "romaji": "と",
-              "example": "都（と）",
+              "example": "東京都に行きます。\nTôi sẽ đi Tokyo (thủ đô).",
               "jlptLevel": 4
             },
             {
               "front": "家内",
               "back": "vợ (của tôi)",
               "romaji": "かない",
-              "example": "家内（かない）",
+              "example": "家内は今、買い物に行っています。\nVợ tôi hiện đang đi mua sắm.",
               "jlptLevel": 4
             },
             {
               "front": "お見舞い",
               "back": "thăm hỏi (người ốm, gặp nạn)",
               "romaji": "おみまい",
-              "example": "お見舞い（おみまい）",
+              "example": "病気のお見舞いに行きます。\nTôi đi thăm người ốm.",
               "jlptLevel": 4
             },
             {
               "front": "そう",
               "back": "có vẻ như, dường như",
               "romaji": "そう",
-              "example": "そう",
+              "example": "雨が降りそうですね。\nCó vẻ sắp mưa rồi nhỉ.",
               "jlptLevel": 4
             },
             {
               "front": "そんな",
               "back": "như vậy, loại đó",
               "romaji": "そんな",
-              "example": "そんな",
+              "example": "そんなことは言っていません。\nTôi không có nói chuyện đó/loại đó.",
               "jlptLevel": 4
             },
             {
               "front": "若し",
               "back": "nếu, trong trường hợp",
               "romaji": "もし",
-              "example": "若し（もし）",
+              "example": "もし明日雨なら、行きません。\nNếu ngày mai mưa thì tôi sẽ không đi.",
               "jlptLevel": 4
             },
             {
               "front": "止める",
               "back": "dừng, ngừng, chấm dứt",
               "romaji": "やめる",
-              "example": "止める（やめる）",
+              "example": "タバコを止めることにしました。\nTôi đã quyết định bỏ thuốc lá.",
               "jlptLevel": 4
             }
           ]
@@ -5152,161 +5152,161 @@
               "front": "非常に",
               "back": "rất, vô cùng, cực kỳ",
               "romaji": "ひじょうに",
-              "example": "非常に（ひじょうに）",
+              "example": "今日は非常に暑いです。\nHôm nay trời rất nóng.",
               "jlptLevel": 4
             },
             {
               "front": "だから",
               "back": "vì vậy, do đó",
               "romaji": "だから",
-              "example": "だから",
+              "example": "頭が痛いです。だから休みます。\nTôi bị đau đầu, vì vậy tôi sẽ nghỉ.",
               "jlptLevel": 4
             },
             {
               "front": "はっきり",
               "back": "rõ ràng, minh bạch",
               "romaji": "はっきり",
-              "example": "はっきり",
+              "example": "もっとはっきり話してください。\nHãy nói rõ ràng hơn đi.",
               "jlptLevel": 4
             },
             {
               "front": "すっかり",
               "back": "hoàn toàn, toàn bộ",
               "romaji": "すっかり",
-              "example": "すっかり",
+              "example": "宿題をすっかり忘れていました。\nTôi đã hoàn toàn quên mất bài tập về nhà.",
               "jlptLevel": 4
             },
             {
               "front": "コンサート",
               "back": "buổi hòa nhạc",
               "romaji": "コンサート",
-              "example": "コンサート",
+              "example": "来週コンサートに行きます。\nTuần sau tôi sẽ đi xem hòa nhạc.",
               "jlptLevel": 4
             },
             {
               "front": "漸と",
               "back": "cuối cùng, sau cùng",
               "romaji": "やっと",
-              "example": "漸と（やっと）",
+              "example": "漸と仕事が終わりました。\nCuối cùng thì công việc cũng đã xong.",
               "jlptLevel": 4
             },
             {
               "front": "あんな",
               "back": "loại đó, như vậy",
               "romaji": "あんな",
-              "example": "あんな",
+              "example": "あんな大きいビルは見たことがない。\nTôi chưa từng thấy tòa nhà nào lớn như thế kia.",
               "jlptLevel": 4
             },
             {
               "front": "プレゼント",
               "back": "quà tặng",
               "romaji": "プレゼント",
-              "example": "プレゼント",
+              "example": "友達にプレゼントをあげました。\nTôi đã tặng quà cho bạn.",
               "jlptLevel": 4
             },
             {
               "front": "タイプ",
               "back": "loại, kiểu",
               "romaji": "タイプ",
-              "example": "タイプ",
+              "example": "彼は私の好きなタイプです。\nAnh ấy là kiểu người tôi thích.",
               "jlptLevel": 4
             },
             {
               "front": "レポート",
               "back": "báo cáo, bài báo cáo",
               "romaji": "レポート",
-              "example": "レポート",
+              "example": "レポートを提出しなければなりません。\nTôi phải nộp bài báo cáo.",
               "jlptLevel": 4
             },
             {
               "front": "仰る",
               "back": "nói, kể (kính ngữ)",
               "romaji": "おっしゃる",
-              "example": "仰る（おっしゃる）",
+              "example": "社長が仰る通りです。\nĐúng như những gì giám đốc nói.",
               "jlptLevel": 4
             },
             {
               "front": "そろそろ",
               "back": "sắp sửa, dần dần",
               "romaji": "そろそろ",
-              "example": "そろそろ",
+              "example": "そろそろ失礼します。\nĐã đến lúc tôi phải xin phép rồi.",
               "jlptLevel": 4
             },
             {
               "front": "米",
               "back": "gạo",
               "romaji": "こめ",
-              "example": "米（こめ）",
+              "example": "日本人は米をよく食べます。\nNgười Nhật ăn gạo (cơm) thường xuyên.",
               "jlptLevel": 4
             },
             {
               "front": "ベル",
               "back": "chuông",
               "romaji": "ベル",
-              "example": "ベル",
+              "example": "ベルを鳴らしてください。\nHãy nhấn chuông đi.",
               "jlptLevel": 4
             },
             {
               "front": "いらっしゃる",
               "back": "đến, đi, ở (kính ngữ)",
               "romaji": "いらっしゃる",
-              "example": "いらっしゃる",
+              "example": "先生がいらっしゃいました。\nThầy giáo đã đến rồi.",
               "jlptLevel": 4
             },
             {
               "front": "其れで",
               "back": "vì vậy, do đó, và",
               "romaji": "それで",
-              "example": "其れで（それで）",
+              "example": "体調が悪いです。それで休みます。\nTôi thấy không khỏe, vì vậy tôi sẽ nghỉ.",
               "jlptLevel": 4
             },
             {
               "front": "どんどん",
               "back": "dồn dập, liên tục, ầm ầm",
               "romaji": "どんどん",
-              "example": "どんどん",
+              "example": "景気がどんどん良くなっています。\nKinh tế đang dần dần (liên tục) tốt lên.",
               "jlptLevel": 4
             },
             {
               "front": "スーツ",
               "back": "bộ com lê, bộ vest",
               "romaji": "スーツ",
-              "example": "スーツ",
+              "example": "新しいスーツを買いました。\nTôi đã mua một bộ vest mới.",
               "jlptLevel": 4
             },
             {
               "front": "ワープロ",
               "back": "máy đánh chữ điện tử, máy xử lý văn bản",
               "romaji": "ワープロ",
-              "example": "ワープロ",
+              "example": "昔はワープロを使っていました。\nNgày xưa tôi đã từng sử dụng máy đánh chữ điện tử.",
               "jlptLevel": 4
             },
             {
               "front": "ちゃん",
               "back": "hậu tố gọi thân mật",
               "romaji": "ちゃん",
-              "example": "ちゃん",
+              "example": "田中ちゃん、こんにちは。\nChào bé Tanaka nhé.",
               "jlptLevel": 4
             },
             {
               "front": "汚れる",
               "back": "bị bẩn, bị dơ",
               "romaji": "よごれる",
-              "example": "汚れる（よごれる）",
+              "example": "靴が汚れてしまいました。\nGiày của tôi bị bẩn mất rồi.",
               "jlptLevel": 4
             },
             {
               "front": "パソコン",
               "back": "máy tính cá nhân, PC",
               "romaji": "パソコン",
-              "example": "パソコン",
+              "example": "パソコンでレポートを書きます。\nTôi viết báo cáo bằng máy tính.",
               "jlptLevel": 4
             },
             {
               "front": "ご馳走",
               "back": "chiêu đãi, thết đãi",
               "romaji": "ごちそう",
-              "example": "ご馳走（ごちそう）",
+              "example": "昨日は友達にご馳走になりました。\nHôm qua tôi đã được bạn mời đi ăn.",
               "jlptLevel": 4
             }
           ]
@@ -5375,161 +5375,161 @@
               "front": "この頃",
               "back": "dạo gần đây, hiện tại",
               "romaji": "このごろ",
-              "example": "この頃（このごろ）",
+              "example": "この頃、忙しいです。\nDạo gần đây tôi rất bận.",
               "jlptLevel": 4
             },
             {
               "front": "ハンドバッグ",
               "back": "túi xách",
               "romaji": "ハンドバッグ",
-              "example": "ハンドバッグ",
+              "example": "赤いハンドバッグを持っています。\nTôi đang mang một chiếc túi xách màu đỏ.",
               "jlptLevel": 4
             },
             {
               "front": "すると",
               "back": "sau đó, rồi, vậy thì",
               "romaji": "すると",
-              "example": "すると",
+              "example": "ドアを開けた。すると、犬がいた。\nTôi mở cửa ra. Thế rồi, có một con chó ở đó.",
               "jlptLevel": 4
             },
             {
               "front": "先",
               "back": "lúc nãy, vừa rồi, trước đó",
               "romaji": "さっき",
-              "example": "先（さっき）",
+              "example": "先、電話がありましたよ。\nLúc nãy có điện thoại gọi đến đấy.",
               "jlptLevel": 4
             },
             {
               "front": "この間",
               "back": "hôm trước, gần đây",
               "romaji": "このあいだ",
-              "example": "この間（このあいだ）",
+              "example": "この間、映画を見に行きました。\nHôm trước tôi đã đi xem phim.",
               "jlptLevel": 4
             },
             {
               "front": "其れに",
               "back": "ngoài ra, hơn nữa, thêm vào đó",
               "romaji": "それに",
-              "example": "其れに（それに）",
+              "example": "この店は安いです。それに美味しいです。\nQuán này rẻ. Ngoài ra, nó còn ngon nữa.",
               "jlptLevel": 4
             },
             {
               "front": "ＦＡＸ",
               "back": "máy fax",
               "romaji": "ファックス",
-              "example": "ＦＡＸ（ファックス）",
+              "example": "ＦＡＸで書類を送ります。\nTôi gửi tài liệu bằng máy fax.",
               "jlptLevel": 4
             },
             {
               "front": "すっと",
               "back": "thẳng tắp, nhanh chóng, trực tiếp",
               "romaji": "すっと",
-              "example": "すっと",
+              "example": "すっと立ち上がりました。\nAnh ấy đứng phắt dậy một cách nhanh chóng.",
               "jlptLevel": 4
             },
             {
               "front": "そんなに",
               "back": "đến mức đó, như thế",
               "romaji": "そんなに",
-              "example": "そんなに",
+              "example": "そんなに心配しないでください。\nXin đừng lo lắng đến mức đó.",
               "jlptLevel": 4
             },
             {
               "front": "うん",
               "back": "ừ, vâng",
               "romaji": "うん",
-              "example": "うん",
+              "example": "うん、わかった。\nỪ, tôi hiểu rồi.",
               "jlptLevel": 4
             },
             {
               "front": "ああ",
               "back": "như vậy, thế",
               "romaji": "ああ",
-              "example": "ああ",
+              "example": "ああ、そうですか。\nÀ, ra là vậy sao.",
               "jlptLevel": 4
             },
             {
               "front": "ご覧になる",
               "back": "xem, nhìn",
               "romaji": "ごらんになる",
-              "example": "ご覧になる（ごらんになる）",
+              "example": "社長が書類をご覧になります。\nGiám đốc xem tài liệu.",
               "jlptLevel": 4
             },
             {
               "front": "妻",
               "back": "vợ",
               "romaji": "つま",
-              "example": "妻（つま）",
+              "example": "妻とデパートへ行きます。\nTôi đi đến trung tâm thương mại cùng với vợ.",
               "jlptLevel": 4
             },
             {
               "front": "気持ち",
               "back": "cảm giác, tâm trạng",
               "romaji": "きもち",
-              "example": "気持ち（きもち）",
+              "example": "今日はとても気持ちがいい天気です。\nHôm nay thời tiết rất dễ chịu.",
               "jlptLevel": 4
             },
             {
               "front": "答え",
               "back": "câu trả lời",
               "romaji": "こたえ",
-              "example": "答え（こたえ）",
+              "example": "質問の答えを書いてください。\nHãy viết câu trả lời cho câu hỏi.",
               "jlptLevel": 4
             },
             {
               "front": "昼休み",
               "back": "nghỉ trưa",
               "romaji": "ひるやすみ",
-              "example": "昼休み（ひるやすみ）",
+              "example": "昼休みに友達とご飯を食べます。\nTôi ăn cơm cùng bạn vào giờ nghỉ trưa.",
               "jlptLevel": 4
             },
             {
               "front": "二階建て",
               "back": "tòa nhà hai tầng",
               "romaji": "にかいだて",
-              "example": "二階建て（にかいだて）",
+              "example": "私の家は二階建てです。\nNhà của tôi là nhà hai tầng.",
               "jlptLevel": 4
             },
             {
               "front": "お祝い",
               "back": "chúc mừng, lễ kỷ niệm",
               "romaji": "おいわい",
-              "example": "お祝い（おいわい）",
+              "example": "友達の誕生日のお祝いをします。\nTôi tổ chức chúc mừng sinh nhật cho bạn.",
               "jlptLevel": 4
             },
             {
               "front": "お出でになる",
               "back": "có mặt, đến, đi",
               "romaji": "おいでになる",
-              "example": "お出でになる（おいでになる）",
+              "example": "先生が会場にお出でになります。\nThầy giáo đến hội trường.",
               "jlptLevel": 4
             },
             {
               "front": "ビル",
               "back": "tòa nhà, cao ốc",
               "romaji": "ビル",
-              "example": "ビル",
+              "example": "あの高いビルは会社です。\nTòa nhà cao kia là công ty của tôi.",
               "jlptLevel": 4
             },
             {
               "front": "お祭り",
               "back": "lễ hội",
               "romaji": "おまつり",
-              "example": "お祭り（おまつり）",
+              "example": "来週、日本のお祭りがあります。\nTuần tới sẽ có lễ hội Nhật Bản.",
               "jlptLevel": 4
             },
             {
               "front": "アルバイト",
               "back": "việc làm thêm",
               "romaji": "アルバイト",
-              "example": "アルバイト",
+              "example": "週末にアルバイトをします。\nTôi làm thêm vào cuối tuần.",
               "jlptLevel": 4
             },
             {
               "front": "端",
               "back": "cạnh, mép, đầu",
               "romaji": "つま",
-              "example": "端（つま）",
+              "example": "道の端を歩いてください。\nHãy đi ở mép đường.",
               "jlptLevel": 4
             }
           ]

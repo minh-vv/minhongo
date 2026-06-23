@@ -14,6 +14,15 @@ export default function ListeningShadowing() {
   const activeShadow = shadowSentences[shadowIdx] || null;
 
   const [speechRate, setSpeechRate] = useState(1.0); // 0.5, 0.8, 1.0
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(() => localStorage.getItem('isSidebarCollapsed') === 'true');
+
+  const toggleSidebar = () => {
+    setIsSidebarCollapsed(prev => {
+      const newVal = !prev;
+      localStorage.setItem('isSidebarCollapsed', String(newVal));
+      return newVal;
+    });
+  };
   const synth = typeof window !== 'undefined' ? window.speechSynthesis : null;
 
   const playTTS = (text, rateOverride) => {
@@ -259,7 +268,7 @@ export default function ListeningShadowing() {
       {/* ── MAIN CONTENT ACCORDING TO TABS ── */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         {/* Left Column Shadowing Sentences list */}
-        <div className="lg:col-span-4 space-y-4">
+        <div className={`lg:col-span-4 space-y-4 ${isSidebarCollapsed ? 'lg:hidden' : ''}`}>
           <h2 className="text-xs font-bold uppercase tracking-widest text-on-surface-variant flex items-center gap-1.5">
             <Info className="w-4 h-4" /> Chọn câu luyện nói
           </h2>
@@ -298,7 +307,7 @@ export default function ListeningShadowing() {
         </div>
 
         {/* Right Column Shadowing Area */}
-        <div className="lg:col-span-8 space-y-6">
+        <div className={`${isSidebarCollapsed ? 'lg:col-span-12' : 'lg:col-span-8'} space-y-6`}>
           <div className="bg-surface-container-lowest border border-outline-variant/30 p-6 md:p-8 sharp-shadow relative">
             
             <div className="flex justify-between items-start pb-4 border-b border-outline-variant/20 mb-6">
@@ -310,13 +319,23 @@ export default function ListeningShadowing() {
                   Luyện nói đuổi theo giọng mẫu
                 </h3>
               </div>
-              <button
-                onClick={handleNextShadow}
-                className="p-1 text-on-surface-variant hover:text-on-surface"
-                title="Câu tiếp theo"
-              >
-                <ChevronRight className="w-5 h-5" />
-              </button>
+              <div className="flex gap-2 items-center">
+                <button
+                  onClick={toggleSidebar}
+                  className="hidden lg:flex items-center gap-1.5 px-2.5 py-1.5 bg-surface-container-low text-on-surface-variant hover:text-on-surface border border-outline-variant/40 text-[10px] font-bold uppercase tracking-wider transition-colors"
+                  title={isSidebarCollapsed ? "Hiển thị mục lục" : "Ẩn mục lục"}
+                >
+                  <Headphones className="w-3.5 h-3.5" />
+                  {isSidebarCollapsed ? 'Mở rộng' : 'Thu gọn'}
+                </button>
+                <button
+                  onClick={handleNextShadow}
+                  className="p-1 text-on-surface-variant hover:text-on-surface"
+                  title="Câu tiếp theo"
+                >
+                  <ChevronRight className="w-5 h-5" />
+                </button>
+              </div>
             </div>
 
             {/* Target sentence display */}

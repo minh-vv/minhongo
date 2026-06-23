@@ -419,30 +419,28 @@ export class FlashcardsService {
         interval = 0;
         minutesToAdd = 10;
       } else if (repetitions === 1) {
-        interval = 0;
-        minutesToAdd = 30;
+        interval = 1;
       } else {
-        interval = Math.max(1, Math.round(interval * 1.2));
+        interval = Math.max(existingProgress.interval + 1, Math.round(existingProgress.interval * 1.2));
       }
       easeFactor = Math.max(1.3, easeFactor - 0.15);
       repetitions++;
     } else if (quality === ReviewQuality.GOOD) {
       if (repetitions === 0) {
-        interval = 0;
-        minutesToAdd = 30;
-      } else if (repetitions === 1) {
-        interval = 1;
-      } else {
-        interval = Math.max(1, Math.round(interval * easeFactor));
-      }
-      repetitions++;
-    } else if (quality === ReviewQuality.EASY) {
-      if (repetitions === 0) {
         interval = 1;
       } else if (repetitions === 1) {
         interval = 3;
       } else {
-        interval = Math.max(1, Math.round(interval * easeFactor * 1.3));
+        interval = Math.max(existingProgress.interval + 2, Math.round(existingProgress.interval * easeFactor));
+      }
+      repetitions++;
+    } else if (quality === ReviewQuality.EASY) {
+      if (repetitions === 0) {
+        interval = 3;
+      } else if (repetitions === 1) {
+        interval = 7;
+      } else {
+        interval = Math.max(existingProgress.interval + 4, Math.round(existingProgress.interval * easeFactor * 1.3));
       }
       easeFactor = Math.min(3.0, easeFactor + 0.15);
       repetitions++;

@@ -9,6 +9,7 @@ import {
   IconChart, IconTrophy, IconPeople, IconFeedback, IconShield,
   IconFolder, IconSettings, IconUser, IconLogOut, IconChevronDown,
   IconCheck, IconKanji, IconBot, IconHeadphones, IconMessageCircle,
+  IconMenu,
 } from './Icons';
 
 const LANGUAGES = [
@@ -18,6 +19,7 @@ const LANGUAGES = [
 
 const navItems = [
   { path: '/dashboard',  label: 'Trang chủ',    end: true, icon: <IconHome /> },
+  { path: '/kana',       label: 'Bảng chữ cái',            icon: <IconGlobe /> },
   { path: '/kanji',      label: 'Hán tự',                  icon: <IconKanji /> },
   { path: '/vocabulary', label: 'Từ vựng',                 icon: <IconList /> },
   { path: '/grammar',    label: 'Ngữ pháp',                icon: <IconBook /> },
@@ -41,8 +43,19 @@ export default function AppLayout() {
   const navigate = useNavigate();
   const location = useLocation();
   const [dropdownOpen, setDropdownOpen]   = useState(false);
+  const [isAppSidebarCollapsed, setIsAppSidebarCollapsed] = useState(() => {
+    return localStorage.getItem('isAppSidebarCollapsed') === 'true';
+  });
   const [listeningOpen, setListeningOpen] = useState(() => location.pathname.startsWith('/listening'));
   const prevPathnameRef = useRef(location.pathname);
+
+  const toggleAppSidebar = () => {
+    setIsAppSidebarCollapsed((prev) => {
+      const next = !prev;
+      localStorage.setItem('isAppSidebarCollapsed', String(next));
+      return next;
+    });
+  };
 
   useEffect(() => {
     const wasListening = prevPathnameRef.current.startsWith('/listening');
@@ -90,9 +103,18 @@ export default function AppLayout() {
 
       {/* ── FIXED HEADER ──────────────────────────────────────── */}
       <header className="fixed top-0 w-full z-40 glass-panel flex justify-between items-center px-5 py-2.5">
-        <Link to="/" className="flex items-center">
-          <img src="/logo_main.png" alt="Minhongo" className="h-9 w-auto object-contain" />
-        </Link>
+        <div className="flex items-center gap-3">
+          <button
+            onClick={toggleAppSidebar}
+            className="hidden md:flex items-center justify-center p-1.5 rounded-lg hover:bg-surface-container transition-colors text-on-surface-variant hover:text-on-surface cursor-pointer"
+            title={isAppSidebarCollapsed ? "Mở rộng sidebar" : "Thu gọn sidebar"}
+          >
+            <IconMenu className="w-5 h-5" />
+          </button>
+          <Link to="/" className="flex items-center">
+            <img src="/logo_main.png" alt="Minhongo" className="h-9 w-auto object-contain" />
+          </Link>
+        </div>
 
         {isAuthenticated ? (
           <div className="flex items-center gap-2">
@@ -192,11 +214,11 @@ export default function AppLayout() {
       <div className="flex min-w-0 w-full relative" style={{ paddingTop: bodyPadTop }}>
 
         {/* ── FIXED SIDEBAR ──────────────────────────────────── */}
-        <aside className="fixed left-0 top-0 hidden md:flex flex-col h-screen w-64 bg-surface-container-lowest z-30 border-r asanoha-bg"
+        <aside className={`fixed left-0 top-0 hidden md:flex flex-col h-screen ${isAppSidebarCollapsed ? 'w-16' : 'w-64'} bg-surface-container-lowest z-30 border-r asanoha-bg transition-all duration-300`}
           style={{ borderColor: 'rgba(0,0,0,0.07)' }}>
 
           <div className="flex-1 overflow-y-auto no-scrollbar" style={{ paddingTop: bodyPadTop }}>
-            <nav className="flex-1 space-y-0.5 px-3 py-3">
+            <nav className={`flex-1 space-y-0.5 ${isAppSidebarCollapsed ? 'px-1' : 'px-3'} py-3`}>
               {navItems.map((item) => {
                 if (item.children) {
                   const isListeningActive = location.pathname.startsWith('/listening');
@@ -205,6 +227,12 @@ export default function AppLayout() {
                       <NavLink
                         to={item.path}
                         onClick={(e) => {
+                          if (isAppSidebarCollapsed) {
+                            toggleAppSidebar();
+                            setListeningOpen(true);
+                            e.preventDefault();
+                            return;
+                          }
                           if (isListeningActive) {
                             e.preventDefault();
                           }
@@ -212,18 +240,23 @@ export default function AppLayout() {
                         }}
                         className={
                           isListeningActive
-                            ? 'flex items-center gap-4 px-4 py-3 text-base transition-all duration-150 vermilion-active font-bold'
-                            : 'flex items-center gap-4 px-4 py-3 text-base transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                            ? `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-4 px-4'} py-3 text-base transition-all duration-150 vermilion-active font-bold`
+                            : `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-4 px-4'} py-3 text-base transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium`
                         }
+                        title={isAppSidebarCollapsed ? item.label : undefined}
                       >
-                        <span style={{ color: isListeningActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }}>
+                        <span style={{ color: isListeningActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }} className="flex-shrink-0">
                           {item.icon}
                         </span>
-                        <span className="flex-1">{item.label}</span>
-                        <IconChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${listeningOpen ? 'rotate-180' : ''}`} />
+                        {!isAppSidebarCollapsed && (
+                          <>
+                            <span className="flex-1 truncate">{item.label}</span>
+                            <IconChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${listeningOpen ? 'rotate-180' : ''}`} />
+                          </>
+                        )}
                       </NavLink>
                       
-                      {listeningOpen && (
+                      {!isAppSidebarCollapsed && listeningOpen && (
                         <div className="flex flex-col mt-0.5 space-y-0.5 animate-fade-up">
                           {item.children.map((child) => (
                             <NavLink
@@ -236,7 +269,7 @@ export default function AppLayout() {
                               }
                             >
                               <span className="w-1.5 h-1.5 rounded-full bg-current flex-shrink-0 animate-fade-up" />
-                              <span className="flex-1">{child.label}</span>
+                              <span className="flex-1 truncate">{child.label}</span>
                             </NavLink>
                           ))}
                         </div>
@@ -252,20 +285,25 @@ export default function AppLayout() {
                     end={item.end}
                     className={({ isActive }) =>
                       isActive
-                        ? 'flex items-center gap-4 px-4 py-3 text-base transition-all duration-150 vermilion-active font-bold'
-                        : 'flex items-center gap-4 px-4 py-3 text-base transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                        ? `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-4 px-4'} py-3 text-base transition-all duration-150 vermilion-active font-bold`
+                        : `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-4 px-4'} py-3 text-base transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium`
                     }
+                    title={isAppSidebarCollapsed ? item.label : undefined}
                   >
                     {({ isActive }) => (
                       <>
-                        <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }}>
+                        <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }} className="flex-shrink-0">
                           {item.icon}
                         </span>
-                        <span className="flex-1">{item.label}</span>
-                        {item.badge && (
-                          <span className="px-1.5 py-px bg-amber-400 text-amber-900 text-[9px] font-black leading-none">
-                            {item.badge}
-                          </span>
+                        {!isAppSidebarCollapsed && (
+                          <>
+                            <span className="flex-1 truncate">{item.label}</span>
+                            {item.badge && (
+                              <span className="px-1.5 py-px bg-amber-400 text-amber-900 text-[9px] font-black leading-none">
+                                {item.badge}
+                              </span>
+                            )}
+                          </>
                         )}
                       </>
                     )}
@@ -276,24 +314,27 @@ export default function AppLayout() {
 
           {/* ── ADMIN SECTION (chỉ hiện với admin) ──────────────── */}
           {user?.isAdmin && (
-            <div className="px-3 pb-1 border-t" style={{ borderColor: 'rgba(0,0,0,0.07)' }}>
-              <p className="px-4 pt-2 pb-0.5 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant opacity-60">
-                Quản trị
-              </p>
+            <div className={`${isAppSidebarCollapsed ? 'px-1' : 'px-3'} pb-1 border-t`} style={{ borderColor: 'rgba(0,0,0,0.07)' }}>
+              {!isAppSidebarCollapsed && (
+                <p className="px-4 pt-2 pb-0.5 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant opacity-60">
+                  Quản trị
+                </p>
+              )}
               <NavLink
                 to="/admin/users"
                 className={({ isActive }) =>
                   isActive
-                    ? 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 vermilion-active font-bold'
-                    : 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                    ? `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-3 px-4'} py-2.5 text-sm transition-all duration-150 vermilion-active font-bold`
+                    : `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-3 px-4'} py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium`
                 }
+                title={isAppSidebarCollapsed ? "Quản lý Users" : undefined}
               >
                 {({ isActive }) => (
                   <>
-                    <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }}>
+                    <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }} className="flex-shrink-0">
                       <IconShield />
                     </span>
-                    <span className="flex-1">Quản lý Users</span>
+                    {!isAppSidebarCollapsed && <span className="flex-1 truncate">Quản lý Users</span>}
                   </>
                 )}
               </NavLink>
@@ -301,16 +342,17 @@ export default function AppLayout() {
                 to="/admin/content"
                 className={({ isActive }) =>
                   isActive
-                    ? 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 vermilion-active font-bold'
-                    : 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                    ? `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-3 px-4'} py-2.5 text-sm transition-all duration-150 vermilion-active font-bold`
+                    : `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-3 px-4'} py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium`
                 }
+                title={isAppSidebarCollapsed ? "Nội dung" : undefined}
               >
                 {({ isActive }) => (
                   <>
-                    <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }}>
+                    <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }} className="flex-shrink-0">
                       <IconFolder />
                     </span>
-                    <span className="flex-1">Nội dung</span>
+                    {!isAppSidebarCollapsed && <span className="flex-1 truncate">Nội dung</span>}
                   </>
                 )}
               </NavLink>
@@ -318,16 +360,17 @@ export default function AppLayout() {
                 to="/admin/settings"
                 className={({ isActive }) =>
                   isActive
-                    ? 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 vermilion-active font-bold'
-                    : 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                    ? `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-3 px-4'} py-2.5 text-sm transition-all duration-150 vermilion-active font-bold`
+                    : `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-3 px-4'} py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium`
                 }
+                title={isAppSidebarCollapsed ? "Cấu hình" : undefined}
               >
                 {({ isActive }) => (
                   <>
-                    <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }}>
+                    <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }} className="flex-shrink-0">
                       <IconSettings />
                     </span>
-                    <span className="flex-1">Cấu hình</span>
+                    {!isAppSidebarCollapsed && <span className="flex-1 truncate">Cấu hình</span>}
                   </>
                 )}
               </NavLink>
@@ -335,16 +378,17 @@ export default function AppLayout() {
                 to="/admin/feedbacks"
                 className={({ isActive }) =>
                   isActive
-                    ? 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 vermilion-active font-bold'
-                    : 'flex items-center gap-3 px-4 py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                    ? `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-3 px-4'} py-2.5 text-sm transition-all duration-150 vermilion-active font-bold`
+                    : `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-3 px-4'} py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium`
                 }
+                title={isAppSidebarCollapsed ? "Phản hồi" : undefined}
               >
                 {({ isActive }) => (
                   <>
-                    <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }}>
+                    <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }} className="flex-shrink-0">
                       <IconMessageCircle />
                     </span>
-                    <span className="flex-1">Phản hồi</span>
+                    {!isAppSidebarCollapsed && <span className="flex-1 truncate">Phản hồi</span>}
                   </>
                 )}
               </NavLink>
@@ -356,11 +400,11 @@ export default function AppLayout() {
           <div className="flex-shrink-0 border-t" style={{ borderColor: 'rgba(0,0,0,0.07)' }}>
 
             {/* Feedback button */}
-            <div className="px-3 pt-2 pb-0.5">
+            <div className={isAppSidebarCollapsed ? 'px-1 pt-2 pb-0.5' : 'px-3 pt-2 pb-0.5'}>
               <NavLink
                 to="/feedback"
                 className={({ isActive }) =>
-                  `flex items-center gap-4 px-4 py-2.5 text-sm font-bold w-full transition-all duration-150 border-l-[3px] ${
+                  `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-4 px-4'} py-2.5 text-sm font-bold w-full transition-all duration-150 border-l-[3px] ${
                     isActive ? 'border-teal-500' : 'border-transparent hover:bg-surface-container'
                   }`
                 }
@@ -368,28 +412,30 @@ export default function AppLayout() {
                   background: isActive ? 'rgba(20,184,166,0.08)' : undefined,
                   color: '#0d9488',
                 })}
+                title={isAppSidebarCollapsed ? "Phản hồi" : undefined}
               >
-                <span style={{ color: '#0d9488' }}><IconFeedback /></span>
-                <span className="flex-1">Phản hồi</span>
+                <span style={{ color: '#0d9488' }} className="flex-shrink-0"><IconFeedback /></span>
+                {!isAppSidebarCollapsed && <span className="flex-1">Phản hồi</span>}
               </NavLink>
             </div>
 
             {/* Settings button */}
-            <div className="px-3 pb-2">
+            <div className={isAppSidebarCollapsed ? 'px-1 pb-2' : 'px-3 pb-2'}>
               <NavLink
                 to="/settings"
                 className={({ isActive }) =>
                   isActive
-                    ? 'flex items-center gap-4 px-4 py-2.5 text-sm transition-all duration-150 vermilion-active font-bold border-l-[3px]'
-                    : 'flex items-center gap-4 px-4 py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium'
+                    ? `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-4 px-4'} py-2.5 text-sm transition-all duration-150 vermilion-active font-bold border-l-[3px]`
+                    : `flex items-center ${isAppSidebarCollapsed ? 'justify-center px-0 gap-0' : 'gap-4 px-4'} py-2.5 text-sm transition-all duration-150 text-on-surface-variant border-l-[3px] border-transparent hover:border-outline-variant/30 hover:bg-surface-container hover:text-on-surface font-medium`
                 }
+                title={isAppSidebarCollapsed ? "Cài đặt" : undefined}
               >
                 {({ isActive }) => (
                   <>
-                    <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }}>
+                    <span style={{ color: isActive ? 'var(--secondary)' : 'var(--on-surface-variant)' }} className="flex-shrink-0">
                       <IconSettings />
                     </span>
-                    <span className="flex-1 text-left">Cài đặt</span>
+                    {!isAppSidebarCollapsed && <span className="flex-1 text-left">Cài đặt</span>}
                   </>
                 )}
               </NavLink>
@@ -398,7 +444,7 @@ export default function AppLayout() {
         </aside>
 
         {/* ── MAIN ──────────────────────────────────────────────── */}
-        <main className="flex-1 min-w-0 w-full md:ml-64 pb-8 overflow-x-hidden">
+        <main className={`flex-1 min-w-0 w-full ${isAppSidebarCollapsed ? 'md:ml-16' : 'md:ml-64'} pb-8 overflow-x-hidden transition-all duration-300`}>
           <Outlet />
         </main>
       </div>

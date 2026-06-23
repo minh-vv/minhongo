@@ -14,6 +14,15 @@ export default function ListeningDialogue() {
   const [levelFilter, setLevelFilter] = useState('ALL');
 
   const [speechRate, setSpeechRate] = useState(1.0); // 0.5, 0.8, 1.0
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(() => localStorage.getItem('isSidebarCollapsed') === 'true');
+
+  const toggleSidebar = () => {
+    setIsSidebarCollapsed(prev => {
+      const newVal = !prev;
+      localStorage.setItem('isSidebarCollapsed', String(newVal));
+      return newVal;
+    });
+  };
   const [isPlayingAll, setIsPlayingAll] = useState(false);
   const [currentLineIndex, setCurrentLineIndex] = useState(-1);
   
@@ -139,7 +148,7 @@ export default function ListeningDialogue() {
       {/* ── MAIN CONTENT ACCORDING TO TABS ── */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         {/* Sidebar list dialogues */}
-        <div className="lg:col-span-4 space-y-4">
+        <div className={`lg:col-span-4 space-y-4 ${isSidebarCollapsed ? 'lg:hidden' : ''}`}>
           <div className="flex items-center justify-between">
             <h2 className="text-xs font-bold uppercase tracking-widest text-on-surface-variant flex items-center gap-1.5">
               <BookOpen className="w-4 h-4" /> Danh sách hội thoại
@@ -197,7 +206,7 @@ export default function ListeningDialogue() {
         </div>
 
         {/* Conversation detail screen */}
-        <div className="lg:col-span-8 space-y-6">
+        <div className={`${isSidebarCollapsed ? 'lg:col-span-12' : 'lg:col-span-8'} space-y-6`}>
           <div className="bg-surface-container-lowest border border-outline-variant/30 p-6 sharp-shadow relative">
             
             {/* Dialogue Actions Header */}
@@ -211,6 +220,14 @@ export default function ListeningDialogue() {
               
               {/* Controls */}
               <div className="flex gap-2">
+                <button
+                  onClick={toggleSidebar}
+                  className="hidden lg:flex items-center gap-1.5 px-3 py-2 bg-surface-container-low text-on-surface-variant hover:text-on-surface border border-outline-variant/40 text-xs font-bold uppercase tracking-wider transition-colors"
+                  title={isSidebarCollapsed ? "Hiển thị mục lục" : "Ẩn mục lục"}
+                >
+                  <BookOpen className="w-3.5 h-3.5" />
+                  {isSidebarCollapsed ? 'Mở rộng' : 'Thu gọn'}
+                </button>
                 <button
                   onClick={startAutoPlay}
                   className={`px-4 py-2 text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 transition-colors border ${

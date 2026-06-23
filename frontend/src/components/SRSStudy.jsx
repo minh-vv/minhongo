@@ -39,27 +39,27 @@ const getNextIntervalLabel = (card, quality) => {
     if (repetitions === 0) {
       return "10 phút";
     } else if (repetitions === 1) {
-      return "30 phút";
+      return "1 ngày";
     } else {
-      const days = Math.max(1, Math.round(interval * 1.2));
+      const days = Math.max(interval + 1, Math.round(interval * 1.2));
       return `${days} ngày`;
     }
   } else if (quality === 2) { // GOOD
-    if (repetitions === 0) {
-      return "30 phút";
-    } else if (repetitions === 1) {
-      return "1 ngày";
-    } else {
-      const days = Math.max(1, Math.round(interval * easeFactor));
-      return `${days} ngày`;
-    }
-  } else if (quality === 3) { // EASY
     if (repetitions === 0) {
       return "1 ngày";
     } else if (repetitions === 1) {
       return "3 ngày";
     } else {
-      const days = Math.max(1, Math.round(interval * easeFactor * 1.3));
+      const days = Math.max(interval + 2, Math.round(interval * easeFactor));
+      return `${days} ngày`;
+    }
+  } else if (quality === 3) { // EASY
+    if (repetitions === 0) {
+      return "3 ngày";
+    } else if (repetitions === 1) {
+      return "7 ngày";
+    } else {
+      const days = Math.max(interval + 4, Math.round(interval * easeFactor * 1.3));
       return `${days} ngày`;
     }
   }
@@ -132,8 +132,8 @@ export default function SRSStudy({ dueData, onComplete }) {
         const currentRepetitions = currentCard.progress?.repetitions ?? 0;
         let newSessionCards = [...sessionCards];
 
-        // If Again (0) or Hard (1) (when repetitions was 0 or 1), push to the end for repeating in same session
-        if (quality === 0 || (quality === 1 && currentRepetitions <= 1)) {
+        // If Again (0) or Hard (1) (when repetitions was 0), push to the end for repeating in same session
+        if (quality === 0 || (quality === 1 && currentRepetitions === 0)) {
           const updatedCard = {
             ...currentCard,
             progress: {

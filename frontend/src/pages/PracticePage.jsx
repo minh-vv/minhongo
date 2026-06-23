@@ -635,6 +635,26 @@ function ExerciseRunner({ exercises, deckId, onComplete }) {
           </div>
         )}
 
+        {/* Typing guide tip for type-japanese mode */}
+        {current.type === 'type-japanese' && !answered && (() => {
+          const dismissed = localStorage.getItem('minhongo_typing_tip_dismissed');
+          if (dismissed) return null;
+          return (
+            <div className="relative z-10 mb-4 p-3 bg-primary/[0.04] border border-primary/20 rounded-lg flex items-start gap-3 text-xs text-on-surface-variant animate-fade-up">
+              <span className="text-primary mt-0.5 flex-shrink-0">💡</span>
+              <div className="flex-1 leading-relaxed">
+                <strong className="text-on-surface">Mẹo:</strong> Bạn có thể gõ bằng <strong>Romaji</strong> (vd: <kbd className="px-1 py-0.5 bg-white border border-outline-variant/40 text-[10px] font-bold mx-0.5 rounded">sakura</kbd>) hoặc <strong>Hiragana</strong>.
+                {' '}<a href="/kana" target="_blank" className="text-primary font-bold hover:underline">Xem hướng dẫn gõ tiếng Nhật →</a>
+              </div>
+              <button
+                onClick={(e) => { e.stopPropagation(); localStorage.setItem('minhongo_typing_tip_dismissed', '1'); e.target.closest('[class*="bg-primary"]').remove(); }}
+                className="text-on-surface-variant/50 hover:text-on-surface flex-shrink-0 p-0.5"
+                title="Ẩn mẹo này"
+              >✕</button>
+            </div>
+          );
+        })()}
+
         {/* Exercise component */}
         <div className="relative z-10">
           {current.type === 'multiple-choice' && (

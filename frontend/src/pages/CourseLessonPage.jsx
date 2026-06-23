@@ -74,11 +74,11 @@ const PHASE = {
 };
 
 const SKILL_LABELS = {
-  VOCABULARY: { label: 'Từ vựng', color: 'bg-blue-100 text-blue-700' },
-  KANJI: { label: 'Hán tự', color: 'bg-red-100 text-red-700' },
-  GRAMMAR: { label: 'Ngữ pháp', color: 'bg-purple-100 text-purple-700' },
-  READING: { label: 'Đọc hiểu', color: 'bg-orange-100 text-orange-700' },
-  LISTENING: { label: 'Nghe hiểu', color: 'bg-teal-100 text-teal-700' },
+  VOCABULARY: { label: 'Từ vựng', color: 'bg-primary/8 text-primary border border-primary/20' },
+  KANJI: { label: 'Hán tự', color: 'bg-secondary/8 text-secondary border border-secondary/20' },
+  GRAMMAR: { label: 'Ngữ pháp', color: 'bg-tertiary/8 text-tertiary border border-tertiary/20' },
+  READING: { label: 'Đọc hiểu', color: 'bg-blue-500/10 border border-blue-500/30 text-blue-700' },
+  LISTENING: { label: 'Nghe hiểu', color: 'bg-teal-500/10 border border-teal-500/30 text-teal-700' },
 };
 
 /** Fisher–Yates shuffle (immutable). */
@@ -683,11 +683,11 @@ function GrammarReviewPhase({ cards, hasTest, courseSlug, courseTitle, onContinu
 
   if (cards.length === 0) {
     return (
-      <div className="max-w-2xl mx-auto p-8 text-center flex flex-col items-center">
-        <p className="text-xl text-slate-500 font-medium mb-6">Bài này chưa có dữ liệu ngữ pháp.</p>
+      <div className="max-w-2xl mx-auto p-8 text-center flex flex-col items-center bg-surface text-left">
+        <p className="text-xl text-on-surface-variant font-medium mb-6">Bài này chưa có dữ liệu ngữ pháp.</p>
         <button
           onClick={hasTest ? onContinue : onFinish}
-          className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 shadow-lg"
+          className="px-6 py-3 bg-primary text-on-primary font-bold uppercase tracking-wider hover:opacity-90 transition-all sharp-shadow-sm"
         >
           {hasTest ? 'Sang phần kiểm tra →' : 'Hoàn thành bài học →'}
         </button>
@@ -698,32 +698,32 @@ function GrammarReviewPhase({ cards, hasTest, courseSlug, courseTitle, onContinu
   const activeCard = cards[activeIndex];
 
   return (
-    <div className="max-w-3xl mx-auto p-6 md:p-8 space-y-6">
-      <div className="mb-4 text-left">
+    <div className="max-w-3xl mx-auto p-6 md:p-8 space-y-6 text-left">
+      <div className="mb-4">
         <Link
           to={`/courses/${courseSlug}`}
-          className="text-sm text-indigo-600 hover:underline"
+          className="inline-flex items-center gap-1.5 text-sm text-on-surface-variant hover:text-primary transition-colors"
         >
           ← {courseTitle}
         </Link>
       </div>
 
       <div className="flex items-center gap-3 text-xs text-on-surface-variant">
-        <FileText className="w-4 h-4 text-indigo-600" />
+        <FileText className="w-4 h-4 text-primary" />
         <span>
           Bài học gồm <span className="font-bold text-on-surface">{cards.length}</span> điểm ngữ pháp. Học từng cấu trúc bằng cách chuyển trang bên dưới.
         </span>
       </div>
 
       {/* Progress Bar */}
-      <div className="space-y-2 text-left">
+      <div className="space-y-2">
         <div className="flex justify-between items-center text-xs font-bold text-on-surface-variant uppercase tracking-wider">
           <span>Tiến độ học ngữ pháp</span>
           <span>{activeIndex + 1} / {cards.length}</span>
         </div>
-        <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden shadow-inner">
+        <div className="w-full h-2.5 bg-surface-container overflow-hidden" style={{ border: '1px solid rgba(0,0,0,0.06)' }}>
           <div
-            className="h-full bg-gradient-to-r from-indigo-500 to-violet-500 rounded-full transition-all duration-300 ease-out"
+            className="h-full bg-gradient-to-r from-primary to-primary-container transition-all duration-300 ease-out"
             style={{ width: `${((activeIndex + 1) / cards.length) * 100}%` }}
           />
         </div>
@@ -744,20 +744,20 @@ function GrammarReviewPhase({ cards, hasTest, courseSlug, courseTitle, onContinu
         <button
           onClick={() => setActiveIndex((prev) => Math.max(0, prev - 1))}
           disabled={activeIndex === 0}
-          className="flex items-center gap-1.5 px-5 py-3 border border-slate-200 text-slate-600 bg-white hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition-all font-semibold rounded-2xl shadow-sm"
+          className="flex items-center gap-1.5 px-5 py-3 border border-outline-variant/40 text-on-surface-variant bg-surface-container-lowest hover:bg-surface-container disabled:opacity-40 disabled:cursor-not-allowed transition-all font-semibold sharp-shadow-sm"
         >
           <ChevronLeft className="w-5 h-5" />
           Trước đó
         </button>
 
-        <span className="text-xs font-bold text-slate-500 bg-slate-50 px-4 py-2 border rounded-full">
+        <span className="text-xs font-bold text-on-surface-variant bg-surface-container px-4 py-2 border border-outline-variant/40">
           Ngữ pháp {activeIndex + 1} / {cards.length}
         </span>
 
         {activeIndex < cards.length - 1 ? (
           <button
             onClick={() => setActiveIndex((prev) => Math.min(cards.length - 1, prev + 1))}
-            className="flex items-center gap-1.5 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-2xl font-bold shadow-[0_8px_20px_rgb(79,70,229,0.3)] transition-all"
+            className="flex items-center gap-1.5 px-6 py-3 bg-primary hover:opacity-90 text-white font-bold uppercase tracking-wider transition-all sharp-shadow-sm"
           >
             Tiếp theo
             <ChevronRight className="w-5 h-5" />
@@ -765,7 +765,7 @@ function GrammarReviewPhase({ cards, hasTest, courseSlug, courseTitle, onContinu
         ) : (
           <button
             onClick={hasTest ? onContinue : onFinish}
-            className="flex items-center gap-1.5 px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-white rounded-2xl font-bold shadow-[0_8px_20px_rgb(16,185,129,0.3)] transition-all"
+            className="flex items-center gap-1.5 px-6 py-3 bg-secondary hover:opacity-90 text-white font-bold uppercase tracking-wider transition-all sharp-shadow-sm"
           >
             {hasTest ? (
               <>
@@ -792,19 +792,19 @@ function TheoryPhase({ lesson, nextLesson, onContinue }) {
   const grammarDeck = lesson.decks?.find((d) => d.role === 'GRAMMAR');
 
   return (
-    <div className="max-w-3xl mx-auto p-6 md:p-8">
+    <div className="max-w-3xl mx-auto p-6 md:p-8 text-left">
       <div className="mb-4">
         <Link
           to={`/courses/${lesson.course.slug}`}
-          className="text-sm text-indigo-600 hover:underline"
+          className="inline-flex items-center gap-1.5 text-sm text-on-surface-variant hover:text-primary transition-colors"
         >
           ← {lesson.course.title}
         </Link>
       </div>
 
-      <div className="bg-white rounded-2xl shadow-md p-6 md:p-10 mb-6">
+      <div className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow p-6 md:p-10 mb-6">
         <div className="flex items-center gap-3 mb-2">
-          <span className="px-2 py-0.5 bg-indigo-100 text-indigo-700 text-xs font-bold rounded">
+          <span className="px-2 py-0.5 bg-primary/8 text-primary border border-primary/20 text-xs font-bold">
             Bài {lesson.order}
           </span>
           {lesson.skills && lesson.skills.length > 0 && (
@@ -813,38 +813,38 @@ function TheoryPhase({ lesson, nextLesson, onContinue }) {
                 const s = SKILL_LABELS[skill];
                 if (!s) return null;
                 return (
-                  <span key={skill} className={`px-1.5 py-0.5 text-[10px] font-bold rounded-sm uppercase tracking-wider ${s.color}`}>
+                  <span key={skill} className={`px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider ${s.color}`}>
                     {s.label}
                   </span>
                 );
               })}
             </div>
           )}
-          <span className="text-xs text-gray-500">
+          <span className="text-xs text-on-surface-variant">
             ~{lesson.estimatedMin} phút
           </span>
         </div>
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+        <h1 className="text-2xl md:text-3xl font-headline font-extrabold text-on-surface mb-6">
           {lesson.title}
         </h1>
 
-        <article className="prose prose-slate max-w-none prose-headings:font-bold prose-h1:text-2xl prose-h2:text-xl prose-h3:text-lg prose-code:bg-gray-100 prose-code:px-1 prose-code:rounded">
+        <article className="prose prose-slate max-w-none text-on-surface prose-headings:font-bold prose-h1:text-2xl prose-h2:text-xl prose-h3:text-lg prose-code:bg-surface-container prose-code:px-1 prose-code:text-on-surface">
           <ReactMarkdown>{lesson.theoryMd}</ReactMarkdown>
         </article>
       </div>
 
       {grammarDeck && (
-        <div className="bg-purple-55 border border-purple-200 rounded-2xl p-6 mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4" style={{ backgroundColor: '#faf5ff' }}>
+        <div className="bg-primary/5 border border-primary/20 p-6 mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div>
-            <h3 className="font-bold text-purple-900 text-base">Thẻ ghi nhớ Ngữ pháp</h3>
-            <p className="text-sm text-purple-700 mt-1">
+            <h3 className="font-headline font-bold text-primary text-base">Thẻ ghi nhớ Ngữ pháp</h3>
+            <p className="text-sm text-on-surface-variant mt-1">
               Bài học này bao gồm bộ thẻ luyện tập {grammarDeck.cardCount} mẫu cấu trúc ngữ pháp (Nghe phát âm, chép chính tả, shadowing & AI đặt câu).
             </p>
           </div>
           <Link
             to={`/grammar/${grammarDeck.deckId}`}
             target="_blank"
-            className="inline-flex items-center justify-center px-5 py-2.5 bg-purple-600 hover:bg-purple-700 text-white text-xs font-bold rounded-xl uppercase tracking-wider transition-all shadow-sm shrink-0"
+            className="inline-flex items-center justify-center px-5 py-2.5 bg-primary text-on-primary text-xs font-bold uppercase tracking-wider transition-all sharp-shadow-sm shrink-0"
           >
             Luyện ngữ pháp
           </Link>
@@ -854,7 +854,7 @@ function TheoryPhase({ lesson, nextLesson, onContinue }) {
       <div className="flex flex-col sm:flex-row gap-3">
         <button
           onClick={onContinue}
-          className="flex-1 sm:flex-initial px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl shadow-sm transition-colors text-center"
+          className="flex-1 sm:flex-initial px-6 py-3 bg-primary hover:opacity-90 text-on-primary font-bold uppercase tracking-wider transition-all text-center sharp-shadow-sm cursor-pointer"
         >
           {lesson.decks?.some((d) => d.role === 'VOCAB') ? 'Tiếp theo: Học từ vựng →' : 'Tiếp theo: Luyện ngữ pháp →'}
         </button>
@@ -862,14 +862,14 @@ function TheoryPhase({ lesson, nextLesson, onContinue }) {
           nextLesson.locked ? (
             <button
               disabled
-              className="flex-1 sm:flex-initial px-6 py-3 bg-gray-100 border border-gray-200 text-gray-400 font-semibold rounded-xl cursor-not-allowed text-center flex items-center justify-center gap-1.5"
+              className="flex-1 sm:flex-initial px-6 py-3 bg-surface-container border border-outline-variant/30 text-on-surface-variant/40 font-bold uppercase tracking-wider cursor-not-allowed text-center flex items-center justify-center gap-1.5"
             >
               🔒 Bài {nextLesson.order} →
             </button>
           ) : (
             <Link
               to={`/learn/${nextLesson.id}`}
-              className="flex-1 sm:flex-initial px-6 py-3 bg-white border border-gray-300 hover:bg-gray-50 text-gray-700 font-semibold rounded-xl shadow-sm transition-colors text-center flex items-center justify-center"
+              className="flex-1 sm:flex-initial px-6 py-3 bg-surface-container-lowest border border-outline-variant/40 hover:bg-surface-container text-on-surface font-bold uppercase tracking-wider sharp-shadow-sm transition-all text-center flex items-center justify-center"
             >
               Bài {nextLesson.order} →
             </Link>
@@ -908,21 +908,21 @@ function ReviewPhase({ cards, courseSlug, courseTitle, onContinue }) {
 
   if (!card) {
     return (
-      <div className="max-w-2xl mx-auto p-8 text-center flex flex-col items-center">
+      <div className="max-w-2xl mx-auto p-8 text-center flex flex-col items-center bg-surface text-left">
         {courseSlug && (
           <div className="mb-4 w-full text-left">
             <Link
               to={`/courses/${courseSlug}`}
-              className="text-sm text-indigo-600 hover:underline"
+              className="inline-flex items-center gap-1.5 text-sm text-on-surface-variant hover:text-primary transition-colors"
             >
               ← {courseTitle || 'Quay lại giáo trình'}
             </Link>
           </div>
         )}
-        <p className="text-xl text-slate-500 font-medium mb-6">Bài này chưa có từ vựng để ôn.</p>
+        <p className="text-xl text-on-surface-variant font-medium mb-6">Bài này chưa có từ vựng để ôn.</p>
         <button
           onClick={onContinue}
-          className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 shadow-lg shadow-indigo-200 transition-all"
+          className="px-6 py-3 bg-primary text-on-primary font-bold uppercase tracking-wider hover:opacity-90 transition-all sharp-shadow-sm"
         >
           Sang phần kiểm tra →
         </button>
@@ -931,11 +931,11 @@ function ReviewPhase({ cards, courseSlug, courseTitle, onContinue }) {
   }
 
   return (
-    <div className="max-w-2xl mx-auto p-6 md:p-8">
+    <div className="max-w-2xl mx-auto p-6 md:p-8 text-left">
       <div className="mb-4">
         <Link
           to={`/courses/${courseSlug}`}
-          className="text-sm text-indigo-600 hover:underline"
+          className="inline-flex items-center gap-1.5 text-sm text-on-surface-variant hover:text-primary transition-colors"
         >
           ← {courseTitle}
         </Link>
@@ -944,18 +944,18 @@ function ReviewPhase({ cards, courseSlug, courseTitle, onContinue }) {
       <div className="mb-8">
         <div className="flex items-end justify-between mb-3">
           <div>
-            <h1 className="text-2xl font-extrabold text-slate-900 tracking-tight">Ôn tập từ vựng</h1>
-            <p className="text-sm font-medium text-slate-400 mt-1">Ghi nhớ nhanh trước khi kiểm tra</p>
+            <h1 className="text-2xl font-headline font-extrabold text-on-surface tracking-tight">Ôn tập từ vựng</h1>
+            <p className="text-sm font-medium text-on-surface-variant mt-1">Ghi nhớ nhanh trước khi kiểm tra</p>
           </div>
           <div className="text-right">
-            <span className="text-2xl font-bold text-indigo-600">{idx + 1}</span>
-            <span className="text-slate-400 font-medium"> / {cards.length}</span>
+            <span className="text-2xl font-bold text-primary">{idx + 1}</span>
+            <span className="text-on-surface-variant font-medium"> / {cards.length}</span>
           </div>
         </div>
 
-        <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden shadow-inner">
+        <div className="w-full h-2.5 bg-surface-container overflow-hidden" style={{ border: '1px solid rgba(0,0,0,0.06)' }}>
           <div
-            className="h-full bg-gradient-to-r from-indigo-500 to-violet-500 rounded-full transition-all duration-500 ease-out"
+            className="h-full bg-gradient-to-r from-primary to-primary-container transition-all duration-500 ease-out"
             style={{ width: `${((idx + 1) / cards.length) * 100}%` }}
           />
         </div>
@@ -972,36 +972,36 @@ function ReviewPhase({ cards, courseSlug, courseTitle, onContinue }) {
         >
           {/* Front */}
           <div
-            className="absolute inset-0 bg-white/80 backdrop-blur-xl border border-slate-100 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col items-center justify-center p-8 group-hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all [backface-visibility:hidden]"
+            className="absolute inset-0 bg-surface-container-lowest border border-outline-variant/40 sharp-shadow flex flex-col items-center justify-center p-8 transition-all [backface-visibility:hidden]"
           >
-            <div className="absolute top-6 left-8 text-xs font-bold tracking-widest text-slate-400 uppercase">
+            <div className="absolute top-6 left-8 text-xs font-bold tracking-widest text-on-surface-variant uppercase">
               Mặt trước
             </div>
             
-            <p className="text-6xl md:text-7xl font-extrabold text-slate-800 text-center mb-6 tracking-tight">
+            <p className="font-jp text-5xl md:text-6xl font-extrabold text-on-surface text-center mb-6 tracking-tight">
               {card.front}
             </p>
             {card.romaji && (
-              <p className="text-xl md:text-2xl text-slate-400 font-medium tracking-wide">
+              <p className="text-xl md:text-2xl text-on-surface-variant font-medium tracking-wide">
                 {card.romaji}
               </p>
             )}
 
-            <div className="absolute bottom-8 flex items-center gap-2 text-sm font-semibold text-slate-300 group-hover:text-indigo-400 transition-colors">
+            <div className="absolute bottom-8 flex items-center gap-2 text-sm font-semibold text-on-surface-variant group-hover:text-primary transition-colors">
               <RotateCw className="w-4 h-4" /> Nhấn để lật
             </div>
           </div>
 
           {/* Back */}
           <div
-            className="absolute inset-0 bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-600 rounded-[2rem] shadow-[0_8px_30px_rgb(79,70,229,0.3)] flex flex-col items-center justify-center p-8 text-white [backface-visibility:hidden]"
+            className="absolute inset-0 bg-gradient-to-br from-primary to-primary-container sharp-shadow flex flex-col items-center justify-center p-8 text-white [backface-visibility:hidden]"
             style={{ transform: 'rotateY(180deg)' }}
           >
-            <div className="absolute top-6 left-8 text-xs font-bold tracking-widest text-indigo-200 uppercase">
+            <div className="absolute top-6 left-8 text-xs font-bold tracking-widest text-white/70 uppercase">
               Mặt sau
             </div>
             
-            <p className="text-4xl md:text-5xl font-bold text-center mb-8 drop-shadow-sm">
+            <p className="text-3xl md:text-4xl font-bold text-center mb-8 drop-shadow-sm">
               {card.back}
             </p>
             
@@ -1009,15 +1009,15 @@ function ReviewPhase({ cards, courseSlug, courseTitle, onContinue }) {
               <CollapsibleExample 
                 example={card.example} 
                 onSpeak={speakJapanese} 
-                containerClass="w-full mt-2 p-5 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-inner text-left text-white"
+                containerClass="w-full mt-2 p-5 bg-white/10 backdrop-blur-md border border-white/20 shadow-inner text-left text-white"
                 maxHeightClass="max-h-[140px]"
-                titleColorClass="text-indigo-200"
+                titleColorClass="text-white/80"
                 textColorClass="text-white"
-                secondaryTextColorClass="text-indigo-100"
+                secondaryTextColorClass="text-white/95"
               />
             )}
 
-            <div className="absolute bottom-8 flex items-center gap-2 text-sm font-medium text-indigo-200 group-hover:text-white transition-colors">
+            <div className="absolute bottom-8 flex items-center gap-2 text-sm font-medium text-white/70 group-hover:text-white transition-colors">
               <RotateCw className="w-4 h-4" /> Nhấn để lật lại
             </div>
           </div>
@@ -1029,7 +1029,7 @@ function ReviewPhase({ cards, courseSlug, courseTitle, onContinue }) {
         <button
           onClick={prev}
           disabled={idx === 0}
-          className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-white border border-slate-200 text-slate-600 rounded-2xl hover:bg-slate-50 hover:border-slate-300 disabled:opacity-40 disabled:cursor-not-allowed transition-all font-semibold shadow-sm"
+          className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-surface-container-lowest border border-outline-variant/40 text-on-surface-variant hover:bg-surface-container disabled:opacity-40 disabled:cursor-not-allowed transition-all font-semibold sharp-shadow-sm"
         >
           <ArrowLeft className="w-5 h-5" /> <span className="hidden sm:inline">Trước</span>
         </button>
@@ -1037,14 +1037,14 @@ function ReviewPhase({ cards, courseSlug, courseTitle, onContinue }) {
         {isLast ? (
           <button
             onClick={next}
-            className="flex-[2] flex items-center justify-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-2xl font-bold shadow-[0_8px_20px_rgb(16,185,129,0.3)] transition-all hover:-translate-y-0.5 active:translate-y-0"
+            className="flex-[2] flex items-center justify-center gap-2 px-8 py-4 bg-secondary hover:opacity-90 text-white font-bold uppercase tracking-wider sharp-shadow transition-all"
           >
             Kiểm tra <Check className="w-5 h-5" />
           </button>
         ) : (
           <button
             onClick={next}
-            className="flex-[2] flex items-center justify-center gap-2 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-2xl font-bold shadow-[0_8px_20px_rgb(79,70,229,0.3)] transition-all hover:-translate-y-0.5 active:translate-y-0"
+            className="flex-[2] flex items-center justify-center gap-2 px-8 py-4 bg-primary hover:opacity-90 text-white font-bold uppercase tracking-wider sharp-shadow transition-all"
           >
             Tiếp theo <ArrowRight className="w-5 h-5" />
           </button>
@@ -1090,12 +1090,12 @@ function TestPhase({ questions, passScore, courseSlug, courseTitle, onFinish }) 
 
   if (!q) {
     return (
-      <div className="max-w-2xl mx-auto p-8 text-center text-gray-600">
+      <div className="max-w-2xl mx-auto p-8 text-center text-on-surface-variant bg-surface text-left">
         {courseSlug && (
           <div className="mb-4 text-left">
             <Link
               to={`/courses/${courseSlug}`}
-              className="text-sm text-indigo-600 hover:underline"
+              className="inline-flex items-center gap-1.5 text-sm text-on-surface-variant hover:text-primary transition-colors"
             >
               ← {courseTitle || 'Quay lại giáo trình'}
             </Link>
@@ -1109,35 +1109,35 @@ function TestPhase({ questions, passScore, courseSlug, courseTitle, onFinish }) 
   const isCorrect = selected === q.answer;
 
   return (
-    <div className="max-w-2xl mx-auto p-6 md:p-8">
+    <div className="max-w-2xl mx-auto p-6 md:p-8 text-left">
       <div className="mb-4">
         <Link
           to={`/courses/${courseSlug}`}
-          className="text-sm text-indigo-600 hover:underline"
+          className="inline-flex items-center gap-1.5 text-sm text-on-surface-variant hover:text-primary transition-colors"
         >
           ← {courseTitle}
         </Link>
       </div>
-      <div className="mb-2 flex items-center justify-between text-sm text-gray-500">
+      <div className="mb-2 flex items-center justify-between text-sm text-on-surface-variant">
         <span>
           Câu {idx + 1} / {questions.length}
         </span>
         <span>Đạt {passScore}% để qua bài</span>
       </div>
-      <div className="h-1 bg-gray-200 rounded-full mb-6 overflow-hidden">
+      <div className="h-1.5 bg-surface-container overflow-hidden mb-6" style={{ border: '1px solid rgba(0,0,0,0.06)' }}>
         <div
-          className="h-full bg-amber-500 transition-all"
+          className="h-full bg-secondary transition-all"
           style={{ width: `${((idx + 1) / questions.length) * 100}%` }}
         />
       </div>
 
-      <div className="bg-white rounded-2xl shadow-md p-6 md:p-8 mb-4">
-        <div className="text-xs text-gray-500 mb-2">Nghĩa của từ sau là?</div>
-        <div className="text-3xl md:text-4xl font-bold text-gray-900 mb-1">
+      <div className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow p-6 md:p-8 mb-4">
+        <div className="text-xs text-on-surface-variant mb-2">Nghĩa của từ sau là?</div>
+        <div className="font-jp text-3xl md:text-4xl font-extrabold text-on-surface mb-1">
           {q.question}
         </div>
         {q.hint && (
-          <div className="text-sm text-gray-500 italic">{q.hint}</div>
+          <div className="text-sm text-on-surface-variant font-mono">{q.hint}</div>
         )}
       </div>
 
@@ -1145,20 +1145,20 @@ function TestPhase({ questions, passScore, courseSlug, courseTitle, onFinish }) 
         {q.options.map((opt) => {
           const isThis = selected === opt;
           const isAnswer = opt === q.answer;
-          let cls = 'bg-white border-gray-300 hover:bg-gray-50';
+          let cls = 'bg-surface-container-lowest border-outline-variant/40 hover:bg-surface-container text-on-surface';
           if (showFeedback) {
-            if (isAnswer) cls = 'bg-emerald-50 border-emerald-500';
-            else if (isThis) cls = 'bg-rose-50 border-rose-500';
-            else cls = 'bg-white border-gray-200 opacity-60';
+            if (isAnswer) cls = 'bg-green-500/10 border-green-500 text-green-700';
+            else if (isThis) cls = 'bg-red-500/10 border-red-500 text-red-700';
+            else cls = 'bg-surface-container-lowest border-outline-variant/20 opacity-60 text-on-surface-variant';
           } else if (isThis) {
-            cls = 'bg-indigo-50 border-indigo-500';
+            cls = 'bg-primary/5 border-primary text-primary';
           }
           return (
             <button
               key={opt}
               disabled={showFeedback}
               onClick={() => setSelected(opt)}
-              className={`w-full text-left px-4 py-3 border-2 rounded-xl font-medium text-gray-800 transition-colors ${cls}`}
+              className={`w-full text-left px-4 py-3 border-2 transition-colors font-medium ${cls}`}
             >
               {opt}
             </button>
@@ -1169,10 +1169,10 @@ function TestPhase({ questions, passScore, courseSlug, courseTitle, onFinish }) 
       {showFeedback ? (
         <button
           onClick={next}
-          className={`w-full px-5 py-3 text-white font-semibold rounded-xl ${
+          className={`w-full px-5 py-3 text-white font-bold uppercase tracking-wider sharp-shadow transition-colors ${
             isCorrect
-              ? 'bg-emerald-600 hover:bg-emerald-700'
-              : 'bg-amber-600 hover:bg-amber-700'
+              ? 'bg-green-600 hover:opacity-90'
+              : 'bg-secondary hover:opacity-90'
           }`}
         >
           {isCorrect ? '✓ Đúng — ' : '✗ Sai — '}
@@ -1182,7 +1182,7 @@ function TestPhase({ questions, passScore, courseSlug, courseTitle, onFinish }) 
         <button
           onClick={submit}
           disabled={selected == null}
-          className="w-full px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl disabled:opacity-40 disabled:cursor-not-allowed"
+          className="w-full px-5 py-3 bg-primary hover:opacity-90 text-white font-bold uppercase tracking-wider sharp-shadow disabled:opacity-40 disabled:cursor-not-allowed transition-all"
         >
           Kiểm tra đáp án
         </button>
@@ -1199,25 +1199,25 @@ function ResultPhase({ result, lesson, nextLesson, onRetry }) {
   const { passed, score, passScore, correct, total } = result;
 
   return (
-    <div className="max-w-2xl mx-auto p-6 md:p-8">
+    <div className="max-w-2xl mx-auto p-6 md:p-8 text-left">
       <div className="mb-4">
         <Link
           to={`/courses/${lesson.course.slug}`}
-          className="text-sm text-indigo-600 hover:underline"
+          className="inline-flex items-center gap-1.5 text-sm text-on-surface-variant hover:text-primary transition-colors"
         >
           ← {lesson.course.title}
         </Link>
       </div>
 
       <div
-        className={`rounded-2xl shadow-md p-8 md:p-10 text-center text-white ${
+        className={`border border-outline-variant/40 sharp-shadow p-8 md:p-10 text-center text-white ${
           passed
-            ? 'bg-gradient-to-br from-emerald-500 to-emerald-700'
-            : 'bg-gradient-to-br from-amber-500 to-rose-500'
+            ? 'bg-gradient-to-br from-primary to-primary-container'
+            : 'bg-gradient-to-br from-secondary to-secondary-dim'
         }`}
       >
         <div className="text-5xl mb-3">{passed ? '✓' : '↻'}</div>
-        <h2 className="text-2xl font-bold mb-1">
+        <h2 className="text-2xl font-headline font-extrabold mb-1">
           {passed ? 'Hoàn thành bài!' : 'Chưa đạt'}
         </h2>
         <p className="text-white/80 text-sm">
@@ -1227,8 +1227,8 @@ function ResultPhase({ result, lesson, nextLesson, onRetry }) {
         </p>
 
         <div className="mt-6 inline-flex items-baseline gap-2">
-          <span className="text-5xl md:text-6xl font-bold">{score}</span>
-          <span className="text-xl font-semibold">%</span>
+          <span className="text-5xl md:text-6xl font-black">{score}</span>
+          <span className="text-xl font-bold">%</span>
         </div>
         <p className="text-white/80 text-sm mt-1">
           {correct} / {total} câu đúng
@@ -1240,14 +1240,14 @@ function ResultPhase({ result, lesson, nextLesson, onRetry }) {
           !nextLesson.locked ? (
             <Link
               to={`/learn/${nextLesson.id}`}
-              className="text-center px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl"
+              className="text-center px-5 py-3 bg-primary hover:opacity-90 text-white font-bold uppercase tracking-wider sharp-shadow transition-all"
             >
               Bài {nextLesson.order} →
             </Link>
           ) : (
             <button
               disabled
-              className="px-5 py-3 bg-gray-100 border border-gray-200 text-gray-400 font-semibold rounded-xl cursor-not-allowed flex items-center justify-center gap-1.5"
+              className="px-5 py-3 bg-surface-container border border-outline-variant/30 text-on-surface-variant/40 font-bold uppercase tracking-wider cursor-not-allowed flex items-center justify-center gap-1.5"
             >
               🔒 Bài {nextLesson.order} →
             </button>
@@ -1257,21 +1257,21 @@ function ResultPhase({ result, lesson, nextLesson, onRetry }) {
         {!passed ? (
           <button
             onClick={onRetry}
-            className="px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl"
+            className="px-5 py-3 bg-primary hover:opacity-90 text-white font-bold uppercase tracking-wider sharp-shadow transition-all"
           >
             Làm lại bài kiểm tra
           </button>
         ) : (
           <button
             onClick={onRetry}
-            className="px-5 py-3 bg-white border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-50 transition-colors"
+            className="px-5 py-3 bg-surface-container-lowest border border-outline-variant/40 text-on-surface-variant hover:bg-surface-container transition-all font-bold uppercase tracking-wider sharp-shadow-sm"
           >
             Làm lại bài kiểm tra (Cải thiện điểm)
           </button>
         )}
         <Link
           to={`/courses/${lesson.course.slug}`}
-          className="text-center px-5 py-3 bg-white border border-gray-300 text-gray-700 font-medium rounded-xl hover:bg-gray-50"
+          className="text-center px-5 py-3 bg-surface-container-lowest border border-outline-variant/40 text-on-surface-variant hover:bg-surface-container font-bold uppercase tracking-wider sharp-shadow-sm"
         >
           Quay lại giáo trình
         </Link>
@@ -1383,7 +1383,7 @@ export default function CourseLessonPage() {
 
   if (isLoading || phase === null) {
     return (
-      <div className="p-12 text-center text-gray-500">Đang tải bài học...</div>
+      <div className="p-12 text-center text-on-surface-variant bg-surface">Đang tải bài học...</div>
     );
   }
 
@@ -1392,11 +1392,11 @@ export default function CourseLessonPage() {
       error.response?.data?.message ||
       'Không tải được bài học. Bạn cần hoàn thành bài trước đó để mở khóa.';
     return (
-      <div className="max-w-md mx-auto p-8 text-center">
-        <div className="text-rose-600 font-semibold mb-2">⚠ {msg}</div>
+      <div className="max-w-md mx-auto p-8 text-center bg-surface">
+        <div className="text-secondary font-bold mb-2">⚠ {msg}</div>
         <Link
           to="/roadmap"
-          className="inline-block mt-2 px-5 py-2 bg-indigo-600 text-white rounded-lg"
+          className="inline-block mt-2 px-5 py-2 bg-primary hover:opacity-90 text-on-primary font-bold uppercase tracking-wider transition-all"
         >
           Về lộ trình
         </Link>
