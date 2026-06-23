@@ -9,6 +9,17 @@ import { useAuth } from '../hooks/useAuth';
 import ImportAnkiModal from './ImportAnkiModal';
 import PageHeader from './PageHeader';
 
+const cleanDeckName = (name) => {
+  if (!name) return '';
+  const regex = /^\s*(?:mimikara|shinkanzen|kanzen|minna|soumatome|somatome|try!?|genki|dekiru)(?:\s+(?:oboeru|master|no\s+nihongo|tăng\s+cường\s+ngữ\s+pháp))?\s*(?:n\d+)?\s*[-——–—]\s*/i;
+  return name.replace(regex, '').trim();
+};
+
+const cleanDeckDescription = (desc) => {
+  if (!desc) return '';
+  return desc.replace(/\s*bám\s+sát\s+sách\s+.*$/i, '').trim();
+};
+
 const JLPT_LEVELS = [5, 4, 3, 2, 1];
 
 /** Chủ đề học — keyword matching trên tên/mô tả deck */
@@ -264,9 +275,9 @@ function DeckCard({ deck, accentColor }) {
       </div>
 
       <div className="flex-1">
-        <h3 className="font-bold text-on-surface text-base mb-1.5 leading-snug">{deck.name}</h3>
+        <h3 className="font-bold text-on-surface text-base mb-1.5 leading-snug">{cleanDeckName(deck.name)}</h3>
         {deck.description && (
-          <p className="text-sm text-on-surface-variant line-clamp-2 leading-relaxed">{deck.description}</p>
+          <p className="text-sm text-on-surface-variant line-clamp-2 leading-relaxed">{cleanDeckDescription(deck.description)}</p>
         )}
       </div>
 
@@ -548,11 +559,11 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
                   >
                     <div className="space-y-1">
                       <h3 className="font-jp font-bold text-on-surface text-base group-hover:text-primary transition-colors">
-                        {deck.name}
+                        {cleanDeckName(deck.name)}
                       </h3>
                       {deck.description && (
                         <p className="text-xs text-on-surface-variant max-w-2xl leading-relaxed">
-                          {deck.description}
+                          {cleanDeckDescription(deck.description)}
                         </p>
                       )}
                     </div>

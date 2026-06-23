@@ -15,8 +15,18 @@ export default function CollapsibleExample({
 
   if (!example) return null;
 
+  const cleanBlockText = (blockText) => {
+    if (!blockText) return '';
+    return blockText.split('\n').map(line => {
+      return line.replace(/^\s*\((.*)\)\s*$/, '$1');
+    }).join('\n');
+  };
+
   // Split example by double newlines to separate individual example blocks or notes
-  const blocks = example.split(/\n\s*\n/).map(b => b.trim()).filter(Boolean);
+  const blocks = example.split(/\n\s*\n/)
+    .map(b => b.trim())
+    .filter(Boolean)
+    .map(cleanBlockText);
 
   if (blocks.length === 0) return null;
 

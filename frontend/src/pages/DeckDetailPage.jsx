@@ -279,6 +279,12 @@ export default function DeckDetailPage() {
   const [forking, setForking] = useState(false);
   const [viewMode, setViewMode] = useState('card');
 
+  // Lấy thông tin deck
+  const { data: deck, isLoading } = useQuery({
+    queryKey: ['deck', deckId],
+    queryFn: () => flashcardApi.getDeck(deckId),
+  });
+
   // Set default viewMode based on deck category once deck is loaded
   const hasInitializedViewMode = useRef(false);
   useEffect(() => {
@@ -305,12 +311,6 @@ export default function DeckDetailPage() {
       setForking(false);
     }
   };
-
-  // Lấy thông tin deck
-  const { data: deck, isLoading } = useQuery({
-    queryKey: ['deck', deckId],
-    queryFn: () => flashcardApi.getDeck(deckId),
-  });
 
   const associatedCourse = useMemo(() => {
     return deck?.lessonDecks?.[0]?.lesson?.course;
@@ -872,19 +872,32 @@ export default function DeckDetailPage() {
               </p>
             </div>
           ) : viewMode === 'card' ? (
-            <div className="space-y-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
               {/* Inject custom styles for ruby tags alignment */}
               <style dangerouslySetInnerHTML={{__html: `
-                .dark-vocab-card ruby {
+                .vocab-card {
+                  background-color: var(--surface-container-lowest);
+                  border: 1px solid rgba(0, 0, 0, 0.06);
+                  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                }
+                html.dark .vocab-card {
+                  border: 1px solid var(--outline-variant);
+                }
+                .vocab-card:hover {
+                  transform: translateY(-3px);
+                  box-shadow: 0 12px 28px -8px var(--shadow-color);
+                  border-color: var(--primary);
+                }
+                .vocab-card ruby {
                   ruby-position: over;
                   ruby-align: center;
                 }
-                .dark-vocab-card rt {
-                  font-size: 0.58em;
-                  color: #94a3b8; /* slate-400 */
+                .vocab-card rt {
+                  font-size: 0.65em;
+                  color: var(--secondary); /* use secondary (vermilion) for high contrast and readability */
                   user-select: none;
-                  padding-bottom: 0.08em;
-                  font-weight: 600;
+                  padding-bottom: 0.12em;
+                  font-weight: 700;
                   letter-spacing: 0.05em;
                 }
               `}} />
@@ -895,7 +908,8 @@ export default function DeckDetailPage() {
                 // Extract Japanese example and Vietnamese translation
                 const exampleParts = card.example ? card.example.split('\n') : [];
                 const exampleJp = exampleParts[0] || '';
-                const exampleVi = exampleParts[1] || '';
+                const exampleViRaw = exampleParts[1] || '';
+                const exampleVi = exampleViRaw.replace(/^\s*\((.*)\)\s*$/, '$1');
 
                 // Calculate Sino-Vietnamese reading
                 const hanVietText = getHanViet(card.front);
@@ -903,16 +917,16 @@ export default function DeckDetailPage() {
                 return (
                   <div
                     key={card.id}
-                    className="dark-vocab-card bg-[#1a2238] border border-slate-800 rounded-xl p-5 sm:p-6 shadow-md transition-all hover:shadow-lg flex flex-col relative text-white"
+                    className="vocab-card rounded-2xl p-5 sm:p-6 shadow-sm flex flex-col relative text-on-surface border-l-[6px] border-l-primary/70 dark:border-l-primary border border-outline-variant/20"
                   >
                     {/* Top Row: Star & Volume controls */}
-                    <div className="absolute top-4 right-4 flex items-center gap-2.5 z-10">
+                    <div className="absolute top-4 right-4 flex items-center gap-2 z-10">
                       <button
                         onClick={(e) => {
                           e.stopPropagation();
                           speakJapanese(card.front);
                         }}
-                        className="p-1.5 bg-slate-800/60 hover:bg-slate-700/80 rounded-full text-slate-300 hover:text-white transition-colors"
+                        className="p-1.5 bg-surface-container/50 hover:bg-surface-container-high rounded-full text-on-surface-variant hover:text-primary transition-colors border border-outline-variant/20"
                         title="Phát âm từ"
                       >
                         <Volume2 className="w-4 h-4" />
@@ -922,59 +936,59 @@ export default function DeckDetailPage() {
                           e.stopPropagation();
                           toggleStarMutation.mutate(card.id);
                         }}
-                        className={`p-1.5 bg-slate-800/60 hover:bg-slate-700/80 rounded-full transition-colors ${
-                          isStarred ? 'text-amber-400' : 'text-slate-400 hover:text-white'
+                        className={`p-1.5 bg-surface-container/50 hover:bg-surface-container-high rounded-full transition-colors border border-outline-variant/20 ${
+                          isStarred ? 'text-amber-500' : 'text-on-surface-variant hover:text-amber-500'
                         }`}
                         title={isStarred ? 'Bỏ đánh dấu sao' : 'Đánh dấu sao'}
                       >
-                        <Star className={`w-4 h-4 ${isStarred ? 'fill-amber-400' : ''}`} />
+                        <Star className={`w-4 h-4 ${isStarred ? 'fill-amber-500 text-amber-500' : ''}`} />
                       </button>
                     </div>
 
                     {/* Word Info Block */}
-                    <div className="flex items-center flex-wrap gap-1 pr-16 mb-4">
+                    <div className="flex-1 flex items-center flex-wrap gap-1 pr-16">
                       {/* STT and main Word */}
                       <div className="flex items-baseline gap-2 shrink-0">
-                        <span className="text-sm font-semibold text-slate-400 tabular-nums">
+                        <span className="text-xs font-bold text-on-surface-variant/70 tabular-nums">
                           {index + 1}.
                         </span>
-                        <span className="font-jp font-black text-2xl sm:text-3xl text-white select-text tracking-tight">
+                        <span className="font-jp font-black text-2xl sm:text-3xl text-on-surface select-text tracking-tight">
                           {card.front}
                         </span>
                       </div>
 
                       {/* Vertical line separator */}
-                      <div className="hidden sm:block border-l border-slate-700/60 h-10 mx-4 shrink-0" />
+                      <div className="hidden sm:block border-l border-outline-variant/30 h-8 mx-3 shrink-0" />
 
                       {/* Reading and Translation info */}
                       <div className="flex flex-col min-w-0">
-                        <div className="flex items-center gap-2">
-                          <span className="text-base font-bold text-cyan-400 font-jp select-text">
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className="text-base font-bold text-primary font-jp select-text">
                             {card.romaji || '-'}
                           </span>
                           {hanVietText && (
-                            <span className="text-[10px] sm:text-xs font-black tracking-wider text-slate-400 bg-slate-800 px-1.5 py-0.5 rounded uppercase">
+                            <span className="text-[10px] sm:text-xs font-black tracking-wider text-secondary bg-surface-container-low border border-outline-variant/40 px-2 py-0.5 rounded-lg uppercase">
                               {hanVietText}
                             </span>
                           )}
                         </div>
-                        <span className="text-sm font-medium text-slate-200 truncate mt-0.5 select-text">
+                        <span className="text-base font-bold text-on-surface mt-0.5 select-text">
                           {card.back}
                         </span>
                       </div>
                     </div>
 
                     {/* Divider */}
-                    <div className="border-t border-slate-800/60 my-3" />
+                    <div className="border-t border-outline-variant/30 mt-6 mb-4" />
 
                     {/* Bottom Row: Example sentence */}
-                    <div className="mt-1 flex items-start gap-3">
+                    <div className="flex items-start gap-3">
                       <div className="flex-1 min-w-0">
                         {exampleJp ? (
                           <>
                             <div className="flex items-center flex-wrap gap-2">
                               <span 
-                                className="text-sm sm:text-base text-slate-100 font-jp leading-loose select-text"
+                                className="text-sm sm:text-base text-on-surface font-jp leading-loose select-text"
                                 dangerouslySetInnerHTML={{ __html: annotateSentence(exampleJp) }}
                               />
                               <button
@@ -982,20 +996,20 @@ export default function DeckDetailPage() {
                                   e.stopPropagation();
                                   speakJapanese(exampleJp);
                                 }}
-                                className="p-1 bg-slate-800/40 hover:bg-slate-700/60 rounded text-slate-400 hover:text-white transition-colors self-center"
+                                className="p-1 bg-surface-container/40 hover:bg-surface-container-high rounded text-on-surface-variant hover:text-primary transition-colors self-center border border-outline-variant/20"
                                 title="Nghe câu ví dụ"
                               >
                                 <Volume2 className="w-3.5 h-3.5" />
                               </button>
                             </div>
                             {exampleVi && (
-                              <p className="text-xs sm:text-sm text-slate-400 mt-1 select-text leading-relaxed font-medium">
+                              <p className="text-xs sm:text-sm text-on-surface-variant mt-1 select-text leading-relaxed font-medium">
                                 {exampleVi}
                               </p>
                             )}
                           </>
                         ) : (
-                          <span className="text-xs text-slate-500 italic">Chưa có câu ví dụ</span>
+                          <span className="text-xs text-on-surface-variant/60 italic">Chưa có câu ví dụ</span>
                         )}
                       </div>
 
@@ -1004,7 +1018,7 @@ export default function DeckDetailPage() {
                         <div className="flex gap-1 shrink-0 self-end">
                           <button
                             onClick={() => setEditingCard(card)}
-                            className="p-1.5 text-slate-400 hover:text-primary hover:bg-slate-800 rounded transition-colors"
+                            className="p-1.5 text-on-surface-variant hover:text-primary hover:bg-surface-container rounded-lg transition-colors border border-outline-variant/20 bg-surface-container-lowest shadow-sm"
                             title="Sửa thẻ"
                           >
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
@@ -1017,7 +1031,7 @@ export default function DeckDetailPage() {
                                 deleteCardMutation.mutate(card.id);
                               }
                             }}
-                            className="p-1.5 text-slate-400 hover:text-secondary hover:bg-slate-800 rounded transition-colors"
+                            className="p-1.5 text-on-surface-variant hover:text-secondary hover:bg-surface-container rounded-lg transition-colors border border-outline-variant/20 bg-surface-container-lowest shadow-sm"
                             title="Xóa thẻ"
                           >
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
