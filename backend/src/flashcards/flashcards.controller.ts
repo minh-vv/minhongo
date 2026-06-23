@@ -63,9 +63,13 @@ export class FlashcardsController {
     if (authHeader && authHeader.startsWith('Bearer ')) {
       const token = authHeader.split(' ')[1];
       try {
-        const payload = JSON.parse(Buffer.from(token.split('.')[1], 'base64').toString());
+        const payload = JSON.parse(
+          Buffer.from(token.split('.')[1], 'base64').toString(),
+        );
         userId = payload.sub;
-      } catch (err) {}
+      } catch (err) {
+        // Ignore token parsing errors for public/optional authentication
+      }
     }
     return this.flashcardsService.getPublicDecks(userId);
   }

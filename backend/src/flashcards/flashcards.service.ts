@@ -50,31 +50,35 @@ export class FlashcardsService {
     });
 
     if (!userId) {
-      return decks.map(d => ({ ...d, studiedCount: 0 }));
+      return decks.map((d) => ({ ...d, studiedCount: 0 }));
     }
 
-    const deckIds = decks.map(d => d.id);
+    const deckIds = decks.map((d) => d.id);
     const cardProgresses = await this.prisma.card.findMany({
       where: { deckId: { in: deckIds } },
       select: {
         deckId: true,
         progress: {
           where: { userId },
-          select: { repetitions: true }
-        }
-      }
+          select: { repetitions: true },
+        },
+      },
     });
 
     const deckStudiedMap: Record<string, number> = {};
-    cardProgresses.forEach(c => {
-      if (c.progress && c.progress.length > 0 && c.progress[0].repetitions > 0) {
+    cardProgresses.forEach((c) => {
+      if (
+        c.progress &&
+        c.progress.length > 0 &&
+        c.progress[0].repetitions > 0
+      ) {
         deckStudiedMap[c.deckId] = (deckStudiedMap[c.deckId] || 0) + 1;
       }
     });
 
-    return decks.map(d => ({
+    return decks.map((d) => ({
       ...d,
-      studiedCount: deckStudiedMap[d.id] || 0
+      studiedCount: deckStudiedMap[d.id] || 0,
     }));
   }
 
@@ -320,7 +324,9 @@ export class FlashcardsService {
     return {
       cardId,
       isStarred: updatedProgress.isStarred,
-      message: updatedProgress.isStarred ? 'Đã đánh dấu sao thẻ' : 'Đã bỏ đánh dấu sao thẻ',
+      message: updatedProgress.isStarred
+        ? 'Đã đánh dấu sao thẻ'
+        : 'Đã bỏ đánh dấu sao thẻ',
     };
   }
 
@@ -485,7 +491,10 @@ export class FlashcardsService {
       } else if (repetitions === 1) {
         interval = 1;
       } else {
-        interval = Math.max(existingProgress.interval + 1, Math.round(existingProgress.interval * 1.2));
+        interval = Math.max(
+          existingProgress.interval + 1,
+          Math.round(existingProgress.interval * 1.2),
+        );
       }
       easeFactor = Math.max(1.3, easeFactor - 0.15);
       repetitions++;
@@ -495,7 +504,10 @@ export class FlashcardsService {
       } else if (repetitions === 1) {
         interval = 3;
       } else {
-        interval = Math.max(existingProgress.interval + 2, Math.round(existingProgress.interval * easeFactor));
+        interval = Math.max(
+          existingProgress.interval + 2,
+          Math.round(existingProgress.interval * easeFactor),
+        );
       }
       repetitions++;
     } else if (quality === ReviewQuality.EASY) {
@@ -504,7 +516,10 @@ export class FlashcardsService {
       } else if (repetitions === 1) {
         interval = 7;
       } else {
-        interval = Math.max(existingProgress.interval + 4, Math.round(existingProgress.interval * easeFactor * 1.3));
+        interval = Math.max(
+          existingProgress.interval + 4,
+          Math.round(existingProgress.interval * easeFactor * 1.3),
+        );
       }
       easeFactor = Math.min(3.0, easeFactor + 0.15);
       repetitions++;
