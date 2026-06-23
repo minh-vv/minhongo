@@ -675,7 +675,6 @@ function ExerciseRunner({ exercises, deckId, onComplete }) {
               <span className="text-primary mt-0.5 flex-shrink-0">💡</span>
               <div className="flex-1 leading-relaxed">
                 <strong className="text-on-surface">Mẹo:</strong> Bạn có thể gõ bằng <strong>Romaji</strong> (vd: <kbd className="px-1 py-0.5 bg-white border border-outline-variant/40 text-[10px] font-bold mx-0.5 rounded">sakura</kbd>) hoặc <strong>Hiragana</strong>.
-                {' '}<a href="/kana" target="_blank" className="text-primary font-bold hover:underline">Xem hướng dẫn gõ tiếng Nhật →</a>
               </div>
               <button
                 onClick={(e) => { e.stopPropagation(); localStorage.setItem('minhongo_typing_tip_dismissed', '1'); e.target.closest('[class*="bg-primary"]').remove(); }}
