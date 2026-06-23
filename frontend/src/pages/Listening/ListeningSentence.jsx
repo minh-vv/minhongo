@@ -21,6 +21,15 @@ export default function ListeningSentence() {
   const [customSentence, setCustomSentence] = useState(null);
   
   const [speechRate, setSpeechRate] = useState(1.0); // 0.5, 0.8, 1.0
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(() => localStorage.getItem('isSidebarCollapsed') === 'true');
+
+  const toggleSidebar = () => {
+    setIsSidebarCollapsed(prev => {
+      const newVal = !prev;
+      localStorage.setItem('isSidebarCollapsed', String(newVal));
+      return newVal;
+    });
+  };
   const synth = typeof window !== 'undefined' ? window.speechSynthesis : null;
 
   const playTTS = useCallback((text, rateOverride) => {
@@ -212,7 +221,7 @@ export default function ListeningSentence() {
       {/* ── MAIN CONTENT AREA ── */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         {/* Left Column Config controls */}
-        <div className="lg:col-span-4 space-y-6">
+        <div className={`lg:col-span-4 space-y-6 ${isSidebarCollapsed ? 'lg:hidden' : ''}`}>
           
           {/* Mode Selection */}
           <div className="bg-surface-container-lowest border border-outline-variant/30 p-5 sharp-shadow space-y-4">
@@ -330,7 +339,7 @@ export default function ListeningSentence() {
         </div>
 
         {/* Right Column sentence work area */}
-        <div className="lg:col-span-8 space-y-6">
+        <div className={`${isSidebarCollapsed ? 'lg:col-span-12' : 'lg:col-span-8'} space-y-6`}>
           {isLoadingDeck && sentSource === 'deck' ? (
             <div className="bg-surface-container-lowest border border-outline-variant/30 p-12 text-center sharp-shadow">
               <div className="w-8 h-8 border-2 border-outline-variant border-t-secondary animate-spin rounded-full mx-auto mb-4" />
@@ -356,6 +365,14 @@ export default function ListeningSentence() {
                   <h3 className="font-headline text-base font-bold text-on-surface inline-block ml-3">
                     Luyện chép chính tả
                   </h3>
+                  <button
+                    onClick={toggleSidebar}
+                    className="hidden lg:inline-flex items-center gap-1.5 ml-4 px-2.5 py-1 bg-surface-container-low text-on-surface-variant hover:text-on-surface border border-outline-variant/40 text-[10px] font-bold uppercase tracking-wider transition-colors"
+                    title={isSidebarCollapsed ? "Hiển thị mục lục" : "Ẩn mục lục"}
+                  >
+                    <Layers className="w-3.5 h-3.5" />
+                    {isSidebarCollapsed ? "Mở rộng mục lục" : "Thu gọn mục lục"}
+                  </button>
                 </div>
                 <div className="text-right">
                   <span className="text-lg font-black text-secondary">{currentSentIdx + 1}</span>

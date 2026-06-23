@@ -9,7 +9,7 @@ import TodaysLessonCard from '../components/TodaysLessonCard';
 import {
   IconBook, IconList, IconLayers, IconMap, IconArrowRight,
   IconArrowUpRight, IconUpload, IconPlus, IconFlame, IconBookMarked,
-  IconTimer, IconTarget,
+  IconTimer, IconTarget, IconBrain,
 } from '../components/Icons';
 
 /* ── helpers ────────────────────────────────────────────────── */
@@ -95,7 +95,7 @@ export default function DashboardPage() {
     { label: 'Streak',    value: String(gamification?.streak ?? 0), sub: 'ngày liên tiếp',  icon: <IconFlame className="w-5 h-5" /> },
     { label: 'Đã luyện', value: String(reviewedToday),             sub: 'thẻ hôm nay',    icon: <IconBookMarked className="w-5 h-5" /> },
     { label: 'Tổng ôn',   value: String(gamification?.totalReviews ?? 0), sub: 'lượt ôn',  icon: <IconTimer className="w-5 h-5" /> },
-    { label: 'Chính xác',value: historyData?.summary?.overallRate !== undefined ? `${historyData.summary.overallRate}%` : '—', sub: 'trung bình',      icon: <IconTarget className="w-5 h-5" /> },
+    { label: 'Tỉ lệ ghi nhớ', value: historyData?.summary?.overallRate !== undefined ? `${historyData.summary.overallRate}%` : '—', sub: 'trung bình', icon: <IconBrain className="w-5 h-5" /> },
   ];
 
   const createDeckMutation = useMutation({

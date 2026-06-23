@@ -57,8 +57,21 @@ export class FlashcardsController {
   // ========== PUBLIC ROUTES (không cần đăng nhập) ==========
 
   @Get('public')
-  getPublicDecks() {
-    return this.flashcardsService.getPublicDecks();
+  getPublicDecks(@Request() req: any) {
+    let userId: string | undefined = undefined;
+    const authHeader = req.headers.authorization;
+    if (authHeader && authHeader.startsWith('Bearer ')) {
+      const token = authHeader.split(' ')[1];
+      try {
+        const payload = JSON.parse(
+          Buffer.from(token.split('.')[1], 'base64').toString(),
+        );
+        userId = payload.sub;
+      } catch (err) {
+        // Ignore token parsing errors for public/optional authentication
+      }
+    }
+    return this.flashcardsService.getPublicDecks(userId);
   }
 
   @Get('public/:deckId')
@@ -181,6 +194,15 @@ export class FlashcardsController {
     @Body() dto: ReviewCardDto,
   ) {
     return this.flashcardsService.reviewCard(cardId, req.user.id, dto.quality);
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Post('cards/:cardId/star')
+  toggleStarCard(
+    @Param('cardId') cardId: string,
+    @Request() req: RequestWithUser,
+  ) {
+    return this.flashcardsService.toggleStarCard(cardId, req.user.id);
   }
 
   // ========== DECK PARAM ROUTES (:deckId — khai báo sau tất cả đường dẫn tĩnh) ==========

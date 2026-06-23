@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { useParams, useSearchParams, Link } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
@@ -29,7 +30,27 @@ export default function StudyPage() {
     queryFn: () => flashcardApi.getDeckStats(deckId),
   });
 
-  const deckName = mode === 'normal' ? deck?.name : dueData?.deck?.name;
+  const starredOnly = searchParams.get('starred') === 'true';
+
+  const filteredDeck = useMemo(() => {
+    if (!deck) return null;
+    if (!starredOnly) return deck;
+    return {
+      ...deck,
+      cards: deck.cards.filter(c => c.progress?.[0]?.isStarred)
+    };
+  }, [deck, starredOnly]);
+
+  const filteredDueData = useMemo(() => {
+    if (!dueData) return null;
+    if (!starredOnly) return dueData;
+    return {
+      ...dueData,
+      dueCards: dueData.dueCards.filter(c => c.progress?.[0]?.isStarred)
+    };
+  }, [dueData, starredOnly]);
+
+  const deckName = (mode === 'normal' ? deck?.name : dueData?.deck?.name) + (starredOnly ? ' (★ Đã đánh dấu sao)' : '');
   const isLoading = mode === 'normal' ? deckLoading : dueLoading;
   const error = mode === 'normal' ? deckError : dueError;
 
@@ -104,9 +125,9 @@ export default function StudyPage() {
 
       {/* Study Content */}
       {mode === 'srs' ? (
-        <SRSStudy dueData={dueData} />
+        <SRSStudy dueData={filteredDueData} starredOnly={starredOnly} />
       ) : (
-        <FlashcardStudy deck={deck} />
+        <FlashcardStudy deck={filteredDeck} starredOnly={starredOnly} />
       )}
     </div>
   );

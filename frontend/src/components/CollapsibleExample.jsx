@@ -15,8 +15,22 @@ export default function CollapsibleExample({
 
   if (!example) return null;
 
+  // Strip __NOTE__ tag and its content from example before rendering
+  const cleanExampleStr = example.replace(/__NOTE__:\s*[\s\S]*$/, '').trim();
+  if (!cleanExampleStr) return null;
+
+  const cleanBlockText = (blockText) => {
+    if (!blockText) return '';
+    return blockText.split('\n').map(line => {
+      return line.replace(/^\s*\((.*)\)\s*$/, '$1');
+    }).join('\n');
+  };
+
   // Split example by double newlines to separate individual example blocks or notes
-  const blocks = example.split(/\n\s*\n/).map(b => b.trim()).filter(Boolean);
+  const blocks = cleanExampleStr.split(/\n\s*\n/)
+    .map(b => b.trim())
+    .filter(Boolean)
+    .map(cleanBlockText);
 
   if (blocks.length === 0) return null;
 

@@ -8,6 +8,7 @@ import RegisterPage from './pages/RegisterPage';
 import HomePage from './pages/HomePage';
 import DashboardPage from './pages/DashboardPage';
 import KanjiPage from './pages/KanjiPage';
+import KanaPage from './pages/KanaPage';
 import VocabularyPage from './pages/VocabularyPage';
 import GrammarPage from './pages/GrammarPage';
 import GrammarLessonPage from './pages/GrammarLessonPage';
@@ -76,6 +77,7 @@ function AppRoutes() {
       <Route element={<AppLayout />}>
         <Route path="/" element={<HomePage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/kana" element={<KanaPage />} />
         <Route path="/kanji" element={<KanjiPage />} />
         <Route path="/kanji/:bookId/:level" element={<KanjiPage />} />
         <Route path="/vocabulary" element={<VocabularyPage />} />

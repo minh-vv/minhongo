@@ -113,6 +113,11 @@ export const flashcardApi = {
     return response.data;
   },
 
+  toggleStarCard: async (cardId) => {
+    const response = await api.post(`/flashcards/cards/${cardId}/star`);
+    return response.data;
+  },
+
   // ========== IMPORT ANKI APIs ==========
 
   previewAnkiFile: async (file) => {

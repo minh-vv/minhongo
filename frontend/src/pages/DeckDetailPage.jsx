@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
@@ -8,7 +8,8 @@ import { useAuth } from '../hooks/useAuth';
 import KanjiInteractiveWorkspace from '../components/KanjiInteractiveWorkspace';
 import CollapsibleExample from '../components/CollapsibleExample';
 import BulkCardModal from '../components/BulkCardModal';
-import { BookOpen, Layers, RefreshCw, HelpCircle, PenTool, CheckSquare, Lock, Copy } from 'lucide-react';
+import { BookOpen, Layers, RefreshCw, HelpCircle, PenTool, CheckSquare, Lock, Copy, Star, Volume2, List, LayoutGrid } from 'lucide-react';
+import { annotateSentence, getHanViet } from '../utils/furiganaHelper';
 
 function speakJapanese(text) {
   if (!window.speechSynthesis) return;
@@ -276,6 +277,36 @@ export default function DeckDetailPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [activeKanjiCard, setActiveKanjiCard] = useState(null);
   const [forking, setForking] = useState(false);
+  const [viewMode, setViewMode] = useState('card');
+  const [showStarredOnly, setShowStarredOnly] = useState(false);
+
+  const { data: deck, isLoading } = useQuery({
+    queryKey: ['deck', deckId],
+    queryFn: () => flashcardApi.getDeck(deckId),
+  });
+
+  // Calculate starting STT offset from deck description (e.g. "Từ 101 đến 220" or "Unit 2 [101 - 220]")
+  const startStt = useMemo(() => {
+    if (!deck?.description) return 1;
+    const match = deck.description.match(/(?:Từ|Từ\s+số)\s+(\d+)/i) || deck.description.match(/\[\s*(\d+)/);
+    if (match) {
+      return parseInt(match[1], 10);
+    }
+    return 1;
+  }, [deck?.description]);
+
+  // Set default viewMode based on deck category once deck is loaded
+  const hasInitializedViewMode = useRef(false);
+  useEffect(() => {
+    if (deck && !hasInitializedViewMode.current) {
+      if (deck.category === 'TUVUNG' || deck.category === 'TUHOC') {
+        setViewMode('card');
+      } else {
+        setViewMode('table');
+      }
+      hasInitializedViewMode.current = true;
+    }
+  }, [deck]);
 
   const handleForkDeck = async () => {
     setForking(true);
@@ -290,12 +321,6 @@ export default function DeckDetailPage() {
       setForking(false);
     }
   };
-
-  // Lấy thông tin deck
-  const { data: deck, isLoading } = useQuery({
-    queryKey: ['deck', deckId],
-    queryFn: () => flashcardApi.getDeck(deckId),
-  });
 
   const associatedCourse = useMemo(() => {
     return deck?.lessonDecks?.[0]?.lesson?.course;
@@ -388,6 +413,14 @@ export default function DeckDetailPage() {
     },
   });
 
+  // Đánh dấu sao / bỏ đánh dấu sao thẻ
+  const toggleStarMutation = useMutation({
+    mutationFn: (cardId) => flashcardApi.toggleStarCard(cardId),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['deck', deckId] });
+    },
+  });
+
   // Cập nhật deck
   const updateDeckMutation = useMutation({
     mutationFn: (data) => flashcardApi.updateDeck(deckId, data),
@@ -407,9 +440,17 @@ export default function DeckDetailPage() {
     },
   });
 
-  // Lọc cards theo search
+  // Đếm số thẻ được đánh dấu sao
+  const starredCount = useMemo(() => {
+    return deck?.cards?.filter((card) => card.progress?.[0]?.isStarred).length || 0;
+  }, [deck]);
+
+  // Lọc cards theo search và starred
   const filteredCards = useMemo(() => {
-    const cards = deck?.cards || [];
+    let cards = deck?.cards || [];
+    if (showStarredOnly) {
+      cards = cards.filter((card) => card.progress?.[0]?.isStarred);
+    }
     const search = searchTerm.toLowerCase();
     return cards.filter((card) => {
       return (
@@ -418,7 +459,7 @@ export default function DeckDetailPage() {
         card.romaji?.toLowerCase().includes(search)
       );
     });
-  }, [deck, searchTerm]);
+  }, [deck, searchTerm, showStarredOnly]);
 
   if (isLoading) {
     return (
@@ -474,6 +515,7 @@ export default function DeckDetailPage() {
   };
   const parentPath = getParentPath();
   const canModify = isCuratedDeck ? isAdmin : isOwner;
+  const starredQuery = showStarredOnly ? '&starred=true' : '';
 
   return (
     <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-8 animate-fade-up">
@@ -602,7 +644,7 @@ export default function DeckDetailPage() {
           <div className="flex flex-wrap items-center gap-2">
             {/* 1. Thẻ ghi nhớ */}
             <Link
-              to={`/study/${deckId}?mode=normal`}
+              to={`/study/${deckId}?mode=normal${starredQuery}`}
               className="px-3.5 py-2 bg-emerald-50 text-emerald-800 border border-emerald-200/60 hover:bg-emerald-100/70 hover:border-emerald-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
             >
               <Layers className="w-3.5 h-3.5 text-emerald-600" />
@@ -611,7 +653,7 @@ export default function DeckDetailPage() {
 
             {/* 2. Học SRS */}
             <Link
-              to={`/study/${deckId}?mode=srs`}
+              to={`/study/${deckId}?mode=srs${starredQuery}`}
               className="px-3.5 py-2 bg-indigo-50 text-indigo-800 border border-indigo-200/60 hover:bg-indigo-100/70 hover:border-indigo-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md relative shadow-sm"
             >
               <RefreshCw className="w-3.5 h-3.5 text-indigo-600" />
@@ -625,7 +667,7 @@ export default function DeckDetailPage() {
 
             {/* 3. Trắc nghiệm */}
             <Link
-              to={`/practice/${deckId}?type=multiple-choice`}
+              to={`/practice/${deckId}?type=multiple-choice${starredQuery}`}
               className="px-3.5 py-2 bg-amber-50 text-amber-800 border border-amber-200/60 hover:bg-amber-100/70 hover:border-amber-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
             >
               <HelpCircle className="w-3.5 h-3.5 text-amber-600" />
@@ -634,7 +676,7 @@ export default function DeckDetailPage() {
 
             {/* 4. Tự luận */}
             <Link
-              to={`/practice/${deckId}?type=type-japanese`}
+              to={`/practice/${deckId}?type=type-japanese${starredQuery}`}
               className="px-3.5 py-2 bg-blue-50 text-blue-800 border border-blue-200/60 hover:bg-blue-100/70 hover:border-blue-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
             >
               <PenTool className="w-3.5 h-3.5 text-blue-600" />
@@ -644,7 +686,7 @@ export default function DeckDetailPage() {
             {/* 5. Hoàn thành câu */}
             {hasExamples ? (
               <Link
-                to={`/practice/${deckId}?type=fill-sentence`}
+                to={`/practice/${deckId}?type=fill-sentence${starredQuery}`}
                 className="px-3.5 py-2 bg-rose-50 text-rose-800 border border-rose-200/60 hover:bg-rose-100/70 hover:border-rose-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
               >
                 <CheckSquare className="w-3.5 h-3.5 text-rose-600" />
@@ -675,6 +717,21 @@ export default function DeckDetailPage() {
 
         {/* Right side controls: compact search + action buttons */}
         <div className="flex items-center gap-2 w-full lg:w-auto justify-between lg:justify-end shrink-0">
+          <button
+            type="button"
+            onClick={() => setShowStarredOnly(!showStarredOnly)}
+            className={`px-2.5 h-[30px] flex items-center justify-center gap-1.5 transition-all border rounded-md shadow-sm text-xs font-semibold shrink-0 ${
+              showStarredOnly
+                ? 'border-amber-500 bg-amber-50 text-amber-800 font-bold dark:bg-amber-950/20 dark:text-amber-300'
+                : 'border-outline-variant/60 bg-surface-container-lowest text-on-surface hover:bg-surface-container'
+            }`}
+            title="Chỉ hiển thị thẻ đã đánh dấu sao"
+          >
+            <Star className={`w-3.5 h-3.5 ${showStarredOnly ? 'fill-amber-500 text-amber-500' : 'text-on-surface-variant'}`} />
+            <span className="hidden sm:inline">Sao ({starredCount})</span>
+            <span className="inline sm:hidden">({starredCount})</span>
+          </button>
+
           <div className="relative">
             <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-on-surface-variant pointer-events-none"
               fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
@@ -688,6 +745,37 @@ export default function DeckDetailPage() {
               className="pl-8 pr-2.5 py-1.5 text-xs bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant focus:outline-none w-32 focus:w-48 transition-all duration-300 border border-outline-variant/50 focus:border-secondary rounded-md shadow-sm"
             />
           </div>
+
+          {deck?.category !== 'HANTU' && (
+            <div className="flex items-center border border-outline-variant/60 rounded-md overflow-hidden bg-surface-container-lowest shadow-sm h-[30px] shrink-0">
+              <button
+                type="button"
+                onClick={() => setViewMode('card')}
+                className={`px-2.5 h-full flex items-center justify-center transition-colors ${
+                  viewMode === 'card'
+                    ? 'text-white'
+                    : 'text-on-surface-variant hover:bg-surface-container'
+                }`}
+                style={viewMode === 'card' ? { background: 'var(--secondary)' } : {}}
+                title="Chế độ thẻ học"
+              >
+                <LayoutGrid className="w-3.5 h-3.5" />
+              </button>
+              <button
+                type="button"
+                onClick={() => setViewMode('table')}
+                className={`px-2.5 h-full flex items-center justify-center transition-colors border-l border-outline-variant/30 ${
+                  viewMode === 'table'
+                    ? 'text-white'
+                    : 'text-on-surface-variant hover:bg-surface-container'
+                }`}
+                style={viewMode === 'table' ? { background: 'var(--secondary)' } : {}}
+                title="Chế độ danh sách bảng"
+              >
+                <List className="w-3.5 h-3.5" />
+              </button>
+            </div>
+          )}
 
           {canModify && (
             <div className="flex items-center gap-1.5 shrink-0">
@@ -810,74 +898,261 @@ export default function DeckDetailPage() {
           )}
         </div>
       ) : (
-        <div className="bg-surface-container-lowest border border-outline-variant/30 sharp-shadow-sm overflow-hidden">
+        <div>
           {filteredCards?.length === 0 ? (
-            <div className="text-center py-16">
+            <div className="text-center py-16 bg-surface-container-lowest border border-outline-variant/30 sharp-shadow-sm rounded-lg">
               <p className="text-on-surface-variant text-sm font-medium">
                 {searchTerm ? 'Không tìm thấy thẻ nào.' : 'Chưa có thẻ nào. Thêm thẻ để bắt đầu học!'}
               </p>
             </div>
-          ) : (
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse">
-                <thead>
-                  <tr className="bg-surface-container-low border-b border-outline-variant/40">
-                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-16">STT</th>
-                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-36">Tiếng Nhật</th>
-                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-36">Hiragana</th>
-                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-48">Nghĩa tiếng Việt</th>
-                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Ví dụ</th>
-                    {canModify && (
-                      <th className="px-6 py-3.5 text-right text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-28">Hành động</th>
-                    )}
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-outline-variant/20">
-                  {filteredCards?.map((card, index) => (
-                    <tr key={card.id} className="hover:bg-surface-container/20 transition-colors">
-                      <td className="px-6 py-4 text-xs font-semibold text-on-surface-variant tabular-nums">{index + 1}</td>
-                      <td className="px-6 py-4 font-jp font-bold text-xl text-on-surface">{card.front}</td>
-                      <td className="px-6 py-4 text-sm font-medium text-on-surface-variant font-jp">{card.romaji || '-'}</td>
-                      <td className="px-6 py-4 text-sm font-medium text-on-surface">{card.back}</td>
-                      <td className="px-6 py-4 text-xs text-on-surface-variant leading-relaxed max-w-lg">
-                        {card.example ? (
-                          <CollapsibleExample 
-                            example={card.example} 
-                            onSpeak={speakJapanese} 
-                            variant="text"
-                          />
-                        ) : '-'}
-                      </td>
+          ) : viewMode === 'card' ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
+              {/* Inject custom styles for ruby tags alignment */}
+              <style dangerouslySetInnerHTML={{__html: `
+                .vocab-card {
+                  background-color: var(--surface-container-lowest);
+                  border: 1px solid rgba(0, 0, 0, 0.06);
+                  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                  height: 100%;
+                }
+                html.dark .vocab-card {
+                  border: 1px solid var(--outline-variant);
+                }
+                .vocab-card:hover {
+                  transform: translateY(-3px);
+                  box-shadow: 0 12px 28px -8px var(--shadow-color);
+                  border-color: var(--primary);
+                }
+                .vocab-card ruby {
+                  ruby-position: over;
+                  ruby-align: center;
+                }
+                .vocab-card rt {
+                  font-size: 0.65em;
+                  color: var(--secondary); /* use secondary (vermilion) for high contrast and readability */
+                  user-select: none;
+                  padding-bottom: 0.12em;
+                  font-weight: 700;
+                  letter-spacing: 0.05em;
+                }
+              `}} />
+
+              {filteredCards.map((card, index) => {
+                const isStarred = card.progress?.[0]?.isStarred || false;
+                
+                // Extract Japanese example, Vietnamese translation and note tag
+                const noteMatch = card.example ? card.example.match(/__NOTE__:\s*([\s\S]*)$/) : null;
+                const exampleNote = noteMatch ? noteMatch[1].trim() : '';
+                const cleanExample = card.example ? card.example.replace(/__NOTE__:\s*[\s\S]*$/, '').trim() : '';
+
+                const exampleParts = cleanExample ? cleanExample.split('\n') : [];
+                const exampleJp = exampleParts[0] || '';
+                const exampleViRaw = exampleParts[1] || '';
+                const exampleVi = exampleViRaw.replace(/^\s*\((.*)\)\s*$/, '$1');
+
+                // Calculate Sino-Vietnamese reading
+                const hanVietText = getHanViet(card.front);
+
+                return (
+                  <div
+                    key={card.id}
+                    className="vocab-card h-full rounded-2xl p-5 sm:p-6 shadow-sm flex flex-col relative text-on-surface border-l-[6px] border-l-primary/70 dark:border-l-primary border border-outline-variant/20"
+                  >
+                    {/* Top Row: Star & Volume controls */}
+                    <div className="absolute top-4 right-4 flex items-center gap-2 z-10">
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          speakJapanese(card.front);
+                        }}
+                        className="p-1.5 bg-surface-container/50 hover:bg-surface-container-high rounded-full text-on-surface-variant hover:text-primary transition-colors border border-outline-variant/20"
+                        title="Phát âm từ"
+                      >
+                        <Volume2 className="w-4 h-4" />
+                      </button>
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          toggleStarMutation.mutate(card.id);
+                        }}
+                        className={`p-1.5 bg-surface-container/50 hover:bg-surface-container-high rounded-full transition-colors border border-outline-variant/20 ${
+                          isStarred ? 'text-amber-500' : 'text-on-surface-variant hover:text-amber-500'
+                        }`}
+                        title={isStarred ? 'Bỏ đánh dấu sao' : 'Đánh dấu sao'}
+                      >
+                        <Star className={`w-4 h-4 ${isStarred ? 'fill-amber-500 text-amber-500' : ''}`} />
+                      </button>
+                    </div>
+
+                    {/* Word Info Block */}
+                    <div className="flex-1 flex items-start gap-1 pr-16 min-w-0">
+                      {/* STT and main Word */}
+                      <div className="flex items-baseline gap-2 shrink-0">
+                        <span className="text-xs font-bold text-on-surface-variant/70 tabular-nums">
+                          {startStt + index}.
+                        </span>
+                        <span className="font-jp font-black text-2xl sm:text-3xl text-on-surface select-text tracking-tight">
+                          {card.front}
+                        </span>
+                      </div>
+
+                      {/* Vertical line separator */}
+                      <div className="hidden sm:block border-l border-outline-variant/30 self-stretch my-1 mx-3 shrink-0" />
+
+                      {/* Reading and Translation info */}
+                      <div className="flex-1 flex flex-col min-w-0">
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className="text-base font-bold text-primary font-jp select-text">
+                            {card.romaji || '-'}
+                          </span>
+                          {hanVietText && (
+                            <span className="text-[10px] sm:text-xs font-black tracking-wider text-secondary bg-surface-container-low border border-outline-variant/40 px-2 py-0.5 rounded-lg uppercase">
+                              {hanVietText}
+                            </span>
+                          )}
+                        </div>
+                        <span className="text-base font-bold text-on-surface mt-0.5 select-text whitespace-pre-wrap break-words">
+                          {card.back}
+                        </span>
+                      </div>
+                    </div>
+
+                    {/* Divider */}
+                    <div className="border-t border-outline-variant/30 mt-6 mb-4" />
+
+                    {/* Bottom Row: Example sentence */}
+                    <div className="flex items-start gap-3">
+                      <div className="flex-1 min-w-0">
+                        {exampleJp ? (
+                          <>
+                            <div className="flex items-center flex-wrap gap-2">
+                              <span 
+                                className="text-sm sm:text-base text-on-surface font-jp leading-loose select-text"
+                                dangerouslySetInnerHTML={{ __html: annotateSentence(exampleJp) }}
+                              />
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  speakJapanese(exampleJp);
+                                }}
+                                className="p-1 bg-surface-container/40 hover:bg-surface-container-high rounded text-on-surface-variant hover:text-primary transition-colors self-center border border-outline-variant/20"
+                                title="Nghe câu ví dụ"
+                              >
+                                <Volume2 className="w-3.5 h-3.5" />
+                              </button>
+                            </div>
+                            {exampleVi && (
+                              <p className="text-xs sm:text-sm text-on-surface-variant mt-1 select-text leading-relaxed font-medium">
+                                {exampleVi}
+                              </p>
+                            )}
+                            {exampleNote && (
+                              <div className="mt-2 text-[11px] sm:text-xs text-amber-800 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 border border-amber-200/50 dark:border-amber-900/30 px-3 py-1.5 rounded-lg select-text font-medium flex items-start gap-1.5">
+                                <span className="font-bold text-amber-600 dark:text-amber-400 shrink-0">Chú ý:</span>
+                                <span>{exampleNote.replace(/^Chú ý:\s*/i, '')}</span>
+                              </div>
+                            )}
+                          </>
+                        ) : (
+                          <span className="text-xs text-on-surface-variant/60 italic">Chưa có câu ví dụ</span>
+                        )}
+                      </div>
+
+                      {/* Edit/Delete Admin overlay */}
                       {canModify && (
-                        <td className="px-6 py-4 text-right">
-                          <div className="flex justify-end gap-1">
-                            <button
-                              onClick={() => setEditingCard(card)}
-                              className="p-1.5 text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container rounded"
-                            >
-                              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                              </svg>
-                            </button>
-                            <button
-                              onClick={() => {
-                                if (confirm('Bạn có chắc muốn xóa thẻ này?')) {
-                                  deleteCardMutation.mutate(card.id);
-                                }
-                              }}
-                              className="p-1.5 text-on-surface-variant hover:text-secondary transition-colors hover:bg-surface-container rounded"
-                            >
-                              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                              </svg>
-                            </button>
-                          </div>
-                        </td>
+                        <div className="flex gap-1 shrink-0 self-end">
+                          <button
+                            onClick={() => setEditingCard(card)}
+                            className="p-1.5 text-on-surface-variant hover:text-primary hover:bg-surface-container rounded-lg transition-colors border border-outline-variant/20 bg-surface-container-lowest shadow-sm"
+                            title="Sửa thẻ"
+                          >
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                            </svg>
+                          </button>
+                          <button
+                            onClick={() => {
+                              if (confirm('Bạn có chắc muốn xóa thẻ này?')) {
+                                deleteCardMutation.mutate(card.id);
+                              }
+                            }}
+                            className="p-1.5 text-on-surface-variant hover:text-secondary hover:bg-surface-container rounded-lg transition-colors border border-outline-variant/20 bg-surface-container-lowest shadow-sm"
+                            title="Xóa thẻ"
+                          >
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                            </svg>
+                          </button>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          ) : (
+            <div className="bg-surface-container-lowest border border-outline-variant/30 sharp-shadow-sm overflow-hidden rounded-lg">
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse">
+                  <thead>
+                    <tr className="bg-surface-container-low border-b border-outline-variant/40">
+                      <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-16">STT</th>
+                      <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-36">Tiếng Nhật</th>
+                      <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-36">Hiragana</th>
+                      <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-48">Nghĩa tiếng Việt</th>
+                      <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Ví dụ</th>
+                      {canModify && (
+                        <th className="px-6 py-3.5 text-right text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-28">Hành động</th>
                       )}
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody className="divide-y divide-outline-variant/20">
+                    {filteredCards?.map((card, index) => (
+                      <tr key={card.id} className="hover:bg-surface-container/20 transition-colors">
+                        <td className="px-6 py-4 text-xs font-semibold text-on-surface-variant tabular-nums">{startStt + index}</td>
+                        <td className="px-6 py-4 font-jp font-bold text-xl text-on-surface">{card.front}</td>
+                        <td className="px-6 py-4 text-sm font-medium text-on-surface-variant font-jp">{card.romaji || '-'}</td>
+                        <td className="px-6 py-4 text-sm font-medium text-on-surface">{card.back}</td>
+                        <td className="px-6 py-4 text-xs text-on-surface-variant leading-relaxed max-w-lg">
+                          {card.example ? (
+                            <CollapsibleExample 
+                              example={card.example} 
+                              onSpeak={speakJapanese} 
+                              variant="text"
+                            />
+                          ) : '-'}
+                        </td>
+                        {canModify && (
+                          <td className="px-6 py-4 text-right">
+                            <div className="flex justify-end gap-1">
+                              <button
+                                onClick={() => setEditingCard(card)}
+                                className="p-1.5 text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container rounded"
+                              >
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                </svg>
+                              </button>
+                              <button
+                                onClick={() => {
+                                  if (confirm('Bạn có chắc muốn xóa thẻ này?')) {
+                                    deleteCardMutation.mutate(card.id);
+                                  }
+                                }}
+                                className="p-1.5 text-on-surface-variant hover:text-secondary transition-colors hover:bg-surface-container rounded"
+                              >
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                </svg>
+                              </button>
+                            </div>
+                          </td>
+                        )}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           )}
         </div>

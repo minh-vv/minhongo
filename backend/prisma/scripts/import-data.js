@@ -142,33 +142,28 @@ async function main() {
           });
 
           // Upsert Cards
-          const existingCardsCount = await prisma.card.count({ where: { deckId } });
-          if (existingCardsCount === ld.deck.cards.length) {
-            // Đã có đủ cards, bỏ qua loop
-          } else {
-            for (let i = 0; i < ld.deck.cards.length; i++) {
-              const card = ld.deck.cards[i];
-              const cardId = `${deckId}-${i + 1}`;
-              await prisma.card.upsert({
-                where: { id: cardId },
-                update: {
-                  front: card.front,
-                  back: card.back,
-                  romaji: card.romaji,
-                  example: card.example,
-                  jlptLevel: card.jlptLevel,
-                },
-                create: {
-                  id: cardId,
-                  front: card.front,
-                  back: card.back,
-                  romaji: card.romaji,
-                  example: card.example,
-                  jlptLevel: card.jlptLevel,
-                  deckId: deckId,
-                },
-              });
-            }
+          for (let i = 0; i < ld.deck.cards.length; i++) {
+            const card = ld.deck.cards[i];
+            const cardId = `${deckId}-${i + 1}`;
+            await prisma.card.upsert({
+              where: { id: cardId },
+              update: {
+                front: card.front,
+                back: card.back,
+                romaji: card.romaji,
+                example: card.example,
+                jlptLevel: card.jlptLevel,
+              },
+              create: {
+                id: cardId,
+                front: card.front,
+                back: card.back,
+                romaji: card.romaji,
+                example: card.example,
+                jlptLevel: card.jlptLevel,
+                deckId: deckId,
+              },
+            });
           }
 
           // Connect Lesson ↔ Deck

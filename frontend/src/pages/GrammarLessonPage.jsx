@@ -661,6 +661,15 @@ export default function GrammarLessonPage() {
   const [loading, setLoading] = useState(true);
   const [activeIndex, setActiveIndex] = useState(0);
   const [isMobileSheetOpen, setIsMobileSheetOpen] = useState(false);
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(() => localStorage.getItem('isSidebarCollapsed') === 'true');
+
+  const toggleSidebar = () => {
+    setIsSidebarCollapsed(prev => {
+      const newVal = !prev;
+      localStorage.setItem('isSidebarCollapsed', String(newVal));
+      return newVal;
+    });
+  };
 
   useEffect(() => {
     setLoading(true);
@@ -789,7 +798,7 @@ export default function GrammarLessonPage() {
       ) : (
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           {/* Left Column: Desktop Grammar Index Sheet */}
-          <div className="lg:col-span-4 bg-surface-container-lowest border-2 border-outline-variant/50 p-4 sharp-shadow sticky top-20 hidden lg:block">
+          <div className={`lg:col-span-4 bg-surface-container-lowest border-2 border-outline-variant/50 p-4 sharp-shadow sticky top-20 hidden lg:block ${isSidebarCollapsed ? 'lg:hidden' : ''}`}>
             <div className="flex items-center gap-2 pb-3 mb-3 border-b border-outline-variant/30 text-primary">
               <List className="w-4 h-4" />
               <h3 className="font-headline font-bold text-sm uppercase tracking-wider">Mục lục ngữ pháp</h3>
@@ -827,11 +836,21 @@ export default function GrammarLessonPage() {
           </div>
 
           {/* Right Column: Active Card Details */}
-          <div className="lg:col-span-8 space-y-6 w-full">
+          <div className={`${isSidebarCollapsed ? 'lg:col-span-12' : 'lg:col-span-8'} space-y-6 w-full`}>
             {/* Progress Bar & Mobile TOC Trigger */}
             <div className="space-y-2">
               <div className="flex justify-between items-center text-xs font-bold text-on-surface-variant uppercase tracking-wider">
-                <span>Tiến độ học</span>
+                <div className="flex items-center gap-3">
+                  <span>Tiến độ học</span>
+                  <button
+                    onClick={toggleSidebar}
+                    className="hidden lg:flex items-center gap-1.5 px-2.5 py-1 text-[10px] font-bold text-primary border border-primary/20 bg-primary/5 hover:bg-primary/10 transition-colors"
+                    title={isSidebarCollapsed ? "Hiển thị mục lục" : "Ẩn mục lục"}
+                  >
+                    <List className="w-3.5 h-3.5" />
+                    {isSidebarCollapsed ? "Mở rộng mục lục" : "Thu gọn mục lục"}
+                  </button>
+                </div>
                 <div className="flex items-center gap-3">
                   {/* Mobile Trigger Button */}
                   <button

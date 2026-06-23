@@ -9,6 +9,29 @@ import { useAuth } from '../hooks/useAuth';
 import ImportAnkiModal from './ImportAnkiModal';
 import PageHeader from './PageHeader';
 
+const cleanDeckName = (name) => {
+  if (!name) return '';
+  const regex = /^\s*(?:mimikara|shinkanzen|kanzen|minna|soumatome|somatome|try!?|genki|dekiru)(?:\s+(?:oboeru|master|no\s+nihongo|tăng\s+cường\s+ngữ\s+pháp))?\s*(?:n\d+)?\s*[-——–—]\s*/i;
+  let cleaned = name.replace(regex, '').trim();
+  // Strip "Bài X: " if there is actual content after it to reduce redundancy
+  const match = cleaned.match(/^Bài\s*\d+\s*:\s*(.+)$/i);
+  if (match) {
+    cleaned = match[1];
+  }
+  return cleaned.trim();
+};
+
+const cleanDeckDescription = (desc) => {
+  if (!desc) return '';
+  let cleaned = desc.replace(/\s*bám\s+sát\s+sách\s+.*$/i, '').trim();
+  // Clean range formatting like "Từ X đến Y" -> "STT: X - Y"
+  const match = cleaned.match(/(?:Từ|Từ\s+số)\s+(\d+)\s+(?:đến|-)\s+(\d+)/i);
+  if (match) {
+    return `STT: ${match[1]} - ${match[2]}`;
+  }
+  return cleaned;
+};
+
 const JLPT_LEVELS = [5, 4, 3, 2, 1];
 
 /** Chủ đề học — keyword matching trên tên/mô tả deck */
@@ -264,9 +287,9 @@ function DeckCard({ deck, accentColor }) {
       </div>
 
       <div className="flex-1">
-        <h3 className="font-bold text-on-surface text-base mb-1.5 leading-snug">{deck.name}</h3>
+        <h3 className="font-bold text-on-surface text-base mb-1.5 leading-snug">{cleanDeckName(deck.name)}</h3>
         {deck.description && (
-          <p className="text-sm text-on-surface-variant line-clamp-2 leading-relaxed">{deck.description}</p>
+          <p className="text-sm text-on-surface-variant line-clamp-2 leading-relaxed">{cleanDeckDescription(deck.description)}</p>
         )}
       </div>
 
@@ -516,61 +539,98 @@ export default function PublicContentPage({ title, subtitle, category, accentCol
           accentColor={accentColor}
         />
       ) : (
-        /* Render Decks in a timeline flow */
-        <div className="space-y-8 animate-fade-up">
-          <div className="flex items-center justify-between text-sm text-on-surface-variant px-1">
+        /* Render Decks in a 2-column grid flow */
+        <div className="space-y-6 animate-fade-up">
+          {/* Progress bar container */}
+          {(() => {
+            const totalDecks = filtered.length;
+            const passedDecks = filtered.filter(
+              (d) => d.studiedCount && d.studiedCount >= (d._count?.cards || 1)
+            ).length;
+            const percent = totalDecks > 0 ? Math.round((passedDecks / totalDecks) * 100) : 0;
+
+            return (
+              <div className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow-sm p-6">
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-sm font-bold text-on-surface font-headline">Tiến độ học</span>
+                  <span className="text-sm font-bold text-on-surface-variant">
+                    {passedDecks}/{totalDecks} bài
+                  </span>
+                </div>
+                <div className="h-2 bg-surface-container overflow-hidden border border-outline-variant/20">
+                  <div
+                    className="h-full transition-all duration-500"
+                    style={{
+                      width: `${percent}%`,
+                      backgroundColor: accentColor || 'var(--primary)',
+                    }}
+                  />
+                </div>
+                <div className="flex justify-end mt-1.5">
+                  <span className="text-xs font-bold text-on-surface-variant">{percent}% hoàn thành</span>
+                </div>
+              </div>
+            );
+          })()}
+
+          <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-on-surface-variant px-1">
             <p>
-              Hiển thị <span className="font-bold text-on-surface">{filtered.length}</span> bài học
+              Hiển thị <span className="font-extrabold" style={{ color: accentColor || 'var(--primary)' }}>{filtered.length}</span> bài học
             </p>
           </div>
 
-          <div className="relative border-l-2 border-primary/20 ml-6 pl-8 py-2 space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {filtered.map((deck, index) => {
               const lessonNum = getLessonNumber(deck.name);
               const displayNum = lessonNum !== 999 ? lessonNum : index + 1;
-              
+
               let unitText = 'thẻ';
-              if (category === 'TUVUNG') unitText = 'từ vựng';
-              else if (category === 'HANTU') unitText = 'hán tự';
+              if (category === 'TUVUNG') unitText = 'từ';
+              else if (category === 'HANTU') unitText = 'chữ';
+
+              const isPassed = deck.studiedCount != null && deck.studiedCount >= (deck._count?.cards || 1);
 
               return (
-                <div key={deck.id} className="relative">
-                  {/* Timeline Dot */}
-                  <div className="absolute -left-[46px] top-6 w-8 h-8 rounded-full bg-surface-container-lowest border-2 flex items-center justify-center text-xs font-black shadow-sm"
-                    style={{ borderColor: accentColor || 'var(--primary)', color: accentColor || 'var(--primary)' }}>
-                    {displayNum}
-                  </div>
-
-                  {/* Card Content */}
-                  <Link
-                    to={`/deck/${deck.id}`}
-                    className="group bg-surface-container-lowest border-2 border-outline-variant/50 p-5 flex flex-col md:flex-row md:items-center justify-between gap-4 transition-all sharp-shadow hover:sharp-shadow-sm hover:-translate-y-0.5 w-full text-left"
-                  >
-                    <div className="space-y-1">
-                      <h3 className="font-jp font-bold text-on-surface text-base group-hover:text-primary transition-colors">
-                        {deck.name}
+                <Link
+                  key={deck.id}
+                  to={`/deck/${deck.id}`}
+                  className="group bg-surface-container-lowest border-2 border-outline-variant/50 p-4 flex items-center justify-between gap-4 transition-all sharp-shadow hover:sharp-shadow-sm hover:-translate-y-0.5 w-full text-left"
+                >
+                  <div className="flex items-center gap-3.5 min-w-0">
+                    {/* Index Square Box */}
+                    <div
+                      className="w-10 h-10 flex items-center justify-center flex-shrink-0 font-black text-sm border"
+                      style={{
+                        borderColor: accentColor || 'var(--primary)',
+                        color: accentColor || 'var(--primary)',
+                        background: `color-mix(in srgb, ${accentColor || 'var(--primary)'} 8%, transparent)`,
+                      }}
+                    >
+                      {displayNum}
+                    </div>
+                    <div className="min-w-0">
+                      <h3 className="font-jp font-bold text-on-surface text-sm md:text-base group-hover:text-primary transition-colors truncate">
+                        {cleanDeckName(deck.name)}
                       </h3>
                       {deck.description && (
-                        <p className="text-xs text-on-surface-variant max-w-2xl leading-relaxed">
-                          {deck.description}
+                        <p className="text-xs text-on-surface-variant font-medium mt-0.5 truncate max-w-[200px] md:max-w-xs">
+                          {cleanDeckDescription(deck.description)}
                         </p>
                       )}
                     </div>
+                  </div>
 
-                    <div className="flex items-center justify-between md:justify-end gap-6 shrink-0 border-t md:border-t-0 pt-3 md:pt-0 border-outline-variant/20">
-                      <span className="text-xs font-bold px-2.5 py-1 bg-surface-container text-on-surface border border-outline-variant/40">
-                        {deck._count?.cards || 0} {unitText}
+                  <div className="flex items-center gap-2.5 shrink-0">
+                    <span className="text-xs font-bold px-2.5 py-1 bg-surface-container text-on-surface border border-outline-variant/40">
+                      {deck._count?.cards || 0} {unitText}
+                    </span>
+                    {isPassed && (
+                      <span className="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 bg-green-500/10 border border-green-500/30 text-green-700">
+                        Đã học
                       </span>
-                      <span className="inline-flex items-center gap-1 text-xs font-bold opacity-80 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all"
-                        style={{ color: accentColor || 'var(--primary)' }}>
-                        Học ngay
-                        <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                        </svg>
-                      </span>
-                    </div>
-                  </Link>
-                </div>
+                    )}
+                  </div>
+                </Link>
               );
             })}
           </div>

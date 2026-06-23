@@ -25,6 +25,7 @@ export {
   FolderOpen as IconFolder,
   Settings as IconSettings,
   Bot as IconBot,
+  Menu as IconMenu,
 
   // ── User / auth ───────────────────────────────────────────
   User as IconUser,

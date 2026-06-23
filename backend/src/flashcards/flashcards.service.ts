@@ -35,8 +35,8 @@ export class FlashcardsService {
     });
   }
 
-  async getPublicDecks() {
-    return this.prisma.deck.findMany({
+  async getPublicDecks(userId?: string) {
+    const decks = await this.prisma.deck.findMany({
       where: { isPublic: true },
       include: {
         user: {
@@ -48,6 +48,38 @@ export class FlashcardsService {
       },
       orderBy: { updatedAt: 'desc' },
     });
+
+    if (!userId) {
+      return decks.map((d) => ({ ...d, studiedCount: 0 }));
+    }
+
+    const deckIds = decks.map((d) => d.id);
+    const cardProgresses = await this.prisma.card.findMany({
+      where: { deckId: { in: deckIds } },
+      select: {
+        deckId: true,
+        progress: {
+          where: { userId },
+          select: { repetitions: true },
+        },
+      },
+    });
+
+    const deckStudiedMap: Record<string, number> = {};
+    cardProgresses.forEach((c) => {
+      if (
+        c.progress &&
+        c.progress.length > 0 &&
+        c.progress[0].repetitions > 0
+      ) {
+        deckStudiedMap[c.deckId] = (deckStudiedMap[c.deckId] || 0) + 1;
+      }
+    });
+
+    return decks.map((d) => ({
+      ...d,
+      studiedCount: deckStudiedMap[d.id] || 0,
+    }));
   }
 
   /** Lấy chi tiết một deck công khai kèm thẻ — không yêu cầu đăng nhập */
@@ -260,6 +292,44 @@ export class FlashcardsService {
     return this.prisma.card.delete({ where: { id } });
   }
 
+  async toggleStarCard(cardId: string, userId: string) {
+    const card = await this.prisma.card.findUnique({
+      where: { id: cardId },
+      include: {
+        progress: {
+          where: { userId },
+        },
+      },
+    });
+
+    if (!card) {
+      throw new NotFoundException('Thẻ không tồn tại');
+    }
+
+    const progress = card.progress[0];
+    const isStarred = progress ? !progress.isStarred : true;
+
+    const updatedProgress = await this.prisma.cardProgress.upsert({
+      where: { userId_cardId: { userId, cardId } },
+      update: {
+        isStarred,
+      },
+      create: {
+        userId,
+        cardId,
+        isStarred,
+      },
+    });
+
+    return {
+      cardId,
+      isStarred: updatedProgress.isStarred,
+      message: updatedProgress.isStarred
+        ? 'Đã đánh dấu sao thẻ'
+        : 'Đã bỏ đánh dấu sao thẻ',
+    };
+  }
+
   // ========== SRS (SPACED REPETITION) ==========
 
   /**
@@ -419,30 +489,37 @@ export class FlashcardsService {
         interval = 0;
         minutesToAdd = 10;
       } else if (repetitions === 1) {
-        interval = 0;
-        minutesToAdd = 30;
+        interval = 1;
       } else {
-        interval = Math.max(1, Math.round(interval * 1.2));
+        interval = Math.max(
+          existingProgress.interval + 1,
+          Math.round(existingProgress.interval * 1.2),
+        );
       }
       easeFactor = Math.max(1.3, easeFactor - 0.15);
       repetitions++;
     } else if (quality === ReviewQuality.GOOD) {
       if (repetitions === 0) {
-        interval = 0;
-        minutesToAdd = 30;
-      } else if (repetitions === 1) {
-        interval = 1;
-      } else {
-        interval = Math.max(1, Math.round(interval * easeFactor));
-      }
-      repetitions++;
-    } else if (quality === ReviewQuality.EASY) {
-      if (repetitions === 0) {
         interval = 1;
       } else if (repetitions === 1) {
         interval = 3;
       } else {
-        interval = Math.max(1, Math.round(interval * easeFactor * 1.3));
+        interval = Math.max(
+          existingProgress.interval + 2,
+          Math.round(existingProgress.interval * easeFactor),
+        );
+      }
+      repetitions++;
+    } else if (quality === ReviewQuality.EASY) {
+      if (repetitions === 0) {
+        interval = 3;
+      } else if (repetitions === 1) {
+        interval = 7;
+      } else {
+        interval = Math.max(
+          existingProgress.interval + 4,
+          Math.round(existingProgress.interval * easeFactor * 1.3),
+        );
       }
       easeFactor = Math.min(3.0, easeFactor + 0.15);
       repetitions++;
