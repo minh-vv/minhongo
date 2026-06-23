@@ -260,6 +260,42 @@ export class FlashcardsService {
     return this.prisma.card.delete({ where: { id } });
   }
 
+  async toggleStarCard(cardId: string, userId: string) {
+    const card = await this.prisma.card.findUnique({
+      where: { id: cardId },
+      include: {
+        progress: {
+          where: { userId },
+        },
+      },
+    });
+
+    if (!card) {
+      throw new NotFoundException('Thẻ không tồn tại');
+    }
+
+    const progress = card.progress[0];
+    const isStarred = progress ? !progress.isStarred : true;
+
+    const updatedProgress = await this.prisma.cardProgress.upsert({
+      where: { userId_cardId: { userId, cardId } },
+      update: {
+        isStarred,
+      },
+      create: {
+        userId,
+        cardId,
+        isStarred,
+      },
+    });
+
+    return {
+      cardId,
+      isStarred: updatedProgress.isStarred,
+      message: updatedProgress.isStarred ? 'Đã đánh dấu sao thẻ' : 'Đã bỏ đánh dấu sao thẻ',
+    };
+  }
+
   // ========== SRS (SPACED REPETITION) ==========
 
   /**

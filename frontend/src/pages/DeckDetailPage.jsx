@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
@@ -8,7 +8,8 @@ import { useAuth } from '../hooks/useAuth';
 import KanjiInteractiveWorkspace from '../components/KanjiInteractiveWorkspace';
 import CollapsibleExample from '../components/CollapsibleExample';
 import BulkCardModal from '../components/BulkCardModal';
-import { BookOpen, Layers, RefreshCw, HelpCircle, PenTool, CheckSquare, Lock, Copy } from 'lucide-react';
+import { BookOpen, Layers, RefreshCw, HelpCircle, PenTool, CheckSquare, Lock, Copy, Star, Volume2, List, LayoutGrid } from 'lucide-react';
+import { annotateSentence, getHanViet } from '../utils/furiganaHelper';
 
 function speakJapanese(text) {
   if (!window.speechSynthesis) return;
@@ -276,6 +277,20 @@ export default function DeckDetailPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [activeKanjiCard, setActiveKanjiCard] = useState(null);
   const [forking, setForking] = useState(false);
+  const [viewMode, setViewMode] = useState('card');
+
+  // Set default viewMode based on deck category once deck is loaded
+  const hasInitializedViewMode = useRef(false);
+  useEffect(() => {
+    if (deck && !hasInitializedViewMode.current) {
+      if (deck.category === 'TUVUNG' || deck.category === 'TUHOC') {
+        setViewMode('card');
+      } else {
+        setViewMode('table');
+      }
+      hasInitializedViewMode.current = true;
+    }
+  }, [deck]);
 
   const handleForkDeck = async () => {
     setForking(true);
@@ -385,6 +400,14 @@ export default function DeckDetailPage() {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['deck', deckId] });
       queryClient.invalidateQueries({ queryKey: ['deckStats', deckId] });
+    },
+  });
+
+  // Đánh dấu sao / bỏ đánh dấu sao thẻ
+  const toggleStarMutation = useMutation({
+    mutationFn: (cardId) => flashcardApi.toggleStarCard(cardId),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['deck', deckId] });
     },
   });
 
@@ -689,6 +712,37 @@ export default function DeckDetailPage() {
             />
           </div>
 
+          {deck?.category !== 'HANTU' && (
+            <div className="flex items-center border border-outline-variant/60 rounded-md overflow-hidden bg-surface-container-lowest shadow-sm h-[30px] shrink-0">
+              <button
+                type="button"
+                onClick={() => setViewMode('card')}
+                className={`px-2.5 h-full flex items-center justify-center transition-colors ${
+                  viewMode === 'card'
+                    ? 'text-white'
+                    : 'text-on-surface-variant hover:bg-surface-container'
+                }`}
+                style={viewMode === 'card' ? { background: 'var(--secondary)' } : {}}
+                title="Chế độ thẻ học"
+              >
+                <LayoutGrid className="w-3.5 h-3.5" />
+              </button>
+              <button
+                type="button"
+                onClick={() => setViewMode('table')}
+                className={`px-2.5 h-full flex items-center justify-center transition-colors border-l border-outline-variant/30 ${
+                  viewMode === 'table'
+                    ? 'text-white'
+                    : 'text-on-surface-variant hover:bg-surface-container'
+                }`}
+                style={viewMode === 'table' ? { background: 'var(--secondary)' } : {}}
+                title="Chế độ danh sách bảng"
+              >
+                <List className="w-3.5 h-3.5" />
+              </button>
+            </div>
+          )}
+
           {canModify && (
             <div className="flex items-center gap-1.5 shrink-0">
               <button
@@ -810,74 +864,236 @@ export default function DeckDetailPage() {
           )}
         </div>
       ) : (
-        <div className="bg-surface-container-lowest border border-outline-variant/30 sharp-shadow-sm overflow-hidden">
+        <div>
           {filteredCards?.length === 0 ? (
-            <div className="text-center py-16">
+            <div className="text-center py-16 bg-surface-container-lowest border border-outline-variant/30 sharp-shadow-sm rounded-lg">
               <p className="text-on-surface-variant text-sm font-medium">
                 {searchTerm ? 'Không tìm thấy thẻ nào.' : 'Chưa có thẻ nào. Thêm thẻ để bắt đầu học!'}
               </p>
             </div>
-          ) : (
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse">
-                <thead>
-                  <tr className="bg-surface-container-low border-b border-outline-variant/40">
-                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-16">STT</th>
-                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-36">Tiếng Nhật</th>
-                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-36">Hiragana</th>
-                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-48">Nghĩa tiếng Việt</th>
-                    <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Ví dụ</th>
-                    {canModify && (
-                      <th className="px-6 py-3.5 text-right text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-28">Hành động</th>
-                    )}
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-outline-variant/20">
-                  {filteredCards?.map((card, index) => (
-                    <tr key={card.id} className="hover:bg-surface-container/20 transition-colors">
-                      <td className="px-6 py-4 text-xs font-semibold text-on-surface-variant tabular-nums">{index + 1}</td>
-                      <td className="px-6 py-4 font-jp font-bold text-xl text-on-surface">{card.front}</td>
-                      <td className="px-6 py-4 text-sm font-medium text-on-surface-variant font-jp">{card.romaji || '-'}</td>
-                      <td className="px-6 py-4 text-sm font-medium text-on-surface">{card.back}</td>
-                      <td className="px-6 py-4 text-xs text-on-surface-variant leading-relaxed max-w-lg">
-                        {card.example ? (
-                          <CollapsibleExample 
-                            example={card.example} 
-                            onSpeak={speakJapanese} 
-                            variant="text"
-                          />
-                        ) : '-'}
-                      </td>
+          ) : viewMode === 'card' ? (
+            <div className="space-y-4">
+              {/* Inject custom styles for ruby tags alignment */}
+              <style dangerouslySetInnerHTML={{__html: `
+                .dark-vocab-card ruby {
+                  ruby-position: over;
+                  ruby-align: center;
+                }
+                .dark-vocab-card rt {
+                  font-size: 0.58em;
+                  color: #94a3b8; /* slate-400 */
+                  user-select: none;
+                  padding-bottom: 0.08em;
+                  font-weight: 600;
+                  letter-spacing: 0.05em;
+                }
+              `}} />
+
+              {filteredCards.map((card, index) => {
+                const isStarred = card.progress?.[0]?.isStarred || false;
+                
+                // Extract Japanese example and Vietnamese translation
+                const exampleParts = card.example ? card.example.split('\n') : [];
+                const exampleJp = exampleParts[0] || '';
+                const exampleVi = exampleParts[1] || '';
+
+                // Calculate Sino-Vietnamese reading
+                const hanVietText = getHanViet(card.front);
+
+                return (
+                  <div
+                    key={card.id}
+                    className="dark-vocab-card bg-[#1a2238] border border-slate-800 rounded-xl p-5 sm:p-6 shadow-md transition-all hover:shadow-lg flex flex-col relative text-white"
+                  >
+                    {/* Top Row: Star & Volume controls */}
+                    <div className="absolute top-4 right-4 flex items-center gap-2.5 z-10">
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          speakJapanese(card.front);
+                        }}
+                        className="p-1.5 bg-slate-800/60 hover:bg-slate-700/80 rounded-full text-slate-300 hover:text-white transition-colors"
+                        title="Phát âm từ"
+                      >
+                        <Volume2 className="w-4 h-4" />
+                      </button>
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          toggleStarMutation.mutate(card.id);
+                        }}
+                        className={`p-1.5 bg-slate-800/60 hover:bg-slate-700/80 rounded-full transition-colors ${
+                          isStarred ? 'text-amber-400' : 'text-slate-400 hover:text-white'
+                        }`}
+                        title={isStarred ? 'Bỏ đánh dấu sao' : 'Đánh dấu sao'}
+                      >
+                        <Star className={`w-4 h-4 ${isStarred ? 'fill-amber-400' : ''}`} />
+                      </button>
+                    </div>
+
+                    {/* Word Info Block */}
+                    <div className="flex items-center flex-wrap gap-1 pr-16 mb-4">
+                      {/* STT and main Word */}
+                      <div className="flex items-baseline gap-2 shrink-0">
+                        <span className="text-sm font-semibold text-slate-400 tabular-nums">
+                          {index + 1}.
+                        </span>
+                        <span className="font-jp font-black text-2xl sm:text-3xl text-white select-text tracking-tight">
+                          {card.front}
+                        </span>
+                      </div>
+
+                      {/* Vertical line separator */}
+                      <div className="hidden sm:block border-l border-slate-700/60 h-10 mx-4 shrink-0" />
+
+                      {/* Reading and Translation info */}
+                      <div className="flex flex-col min-w-0">
+                        <div className="flex items-center gap-2">
+                          <span className="text-base font-bold text-cyan-400 font-jp select-text">
+                            {card.romaji || '-'}
+                          </span>
+                          {hanVietText && (
+                            <span className="text-[10px] sm:text-xs font-black tracking-wider text-slate-400 bg-slate-800 px-1.5 py-0.5 rounded uppercase">
+                              {hanVietText}
+                            </span>
+                          )}
+                        </div>
+                        <span className="text-sm font-medium text-slate-200 truncate mt-0.5 select-text">
+                          {card.back}
+                        </span>
+                      </div>
+                    </div>
+
+                    {/* Divider */}
+                    <div className="border-t border-slate-800/60 my-3" />
+
+                    {/* Bottom Row: Example sentence */}
+                    <div className="mt-1 flex items-start gap-3">
+                      <div className="flex-1 min-w-0">
+                        {exampleJp ? (
+                          <>
+                            <div className="flex items-center flex-wrap gap-2">
+                              <span 
+                                className="text-sm sm:text-base text-slate-100 font-jp leading-loose select-text"
+                                dangerouslySetInnerHTML={{ __html: annotateSentence(exampleJp) }}
+                              />
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  speakJapanese(exampleJp);
+                                }}
+                                className="p-1 bg-slate-800/40 hover:bg-slate-700/60 rounded text-slate-400 hover:text-white transition-colors self-center"
+                                title="Nghe câu ví dụ"
+                              >
+                                <Volume2 className="w-3.5 h-3.5" />
+                              </button>
+                            </div>
+                            {exampleVi && (
+                              <p className="text-xs sm:text-sm text-slate-400 mt-1 select-text leading-relaxed font-medium">
+                                {exampleVi}
+                              </p>
+                            )}
+                          </>
+                        ) : (
+                          <span className="text-xs text-slate-500 italic">Chưa có câu ví dụ</span>
+                        )}
+                      </div>
+
+                      {/* Edit/Delete Admin overlay */}
                       {canModify && (
-                        <td className="px-6 py-4 text-right">
-                          <div className="flex justify-end gap-1">
-                            <button
-                              onClick={() => setEditingCard(card)}
-                              className="p-1.5 text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container rounded"
-                            >
-                              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                              </svg>
-                            </button>
-                            <button
-                              onClick={() => {
-                                if (confirm('Bạn có chắc muốn xóa thẻ này?')) {
-                                  deleteCardMutation.mutate(card.id);
-                                }
-                              }}
-                              className="p-1.5 text-on-surface-variant hover:text-secondary transition-colors hover:bg-surface-container rounded"
-                            >
-                              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                              </svg>
-                            </button>
-                          </div>
-                        </td>
+                        <div className="flex gap-1 shrink-0 self-end">
+                          <button
+                            onClick={() => setEditingCard(card)}
+                            className="p-1.5 text-slate-400 hover:text-primary hover:bg-slate-800 rounded transition-colors"
+                            title="Sửa thẻ"
+                          >
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                            </svg>
+                          </button>
+                          <button
+                            onClick={() => {
+                              if (confirm('Bạn có chắc muốn xóa thẻ này?')) {
+                                deleteCardMutation.mutate(card.id);
+                              }
+                            }}
+                            className="p-1.5 text-slate-400 hover:text-secondary hover:bg-slate-800 rounded transition-colors"
+                            title="Xóa thẻ"
+                          >
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                            </svg>
+                          </button>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          ) : (
+            <div className="bg-surface-container-lowest border border-outline-variant/30 sharp-shadow-sm overflow-hidden rounded-lg">
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse">
+                  <thead>
+                    <tr className="bg-surface-container-low border-b border-outline-variant/40">
+                      <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-16">STT</th>
+                      <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-36">Tiếng Nhật</th>
+                      <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-36">Hiragana</th>
+                      <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-48">Nghĩa tiếng Việt</th>
+                      <th className="px-6 py-3.5 text-left text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">Ví dụ</th>
+                      {canModify && (
+                        <th className="px-6 py-3.5 text-right text-[10px] font-bold text-on-surface-variant uppercase tracking-wider w-28">Hành động</th>
                       )}
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody className="divide-y divide-outline-variant/20">
+                    {filteredCards?.map((card, index) => (
+                      <tr key={card.id} className="hover:bg-surface-container/20 transition-colors">
+                        <td className="px-6 py-4 text-xs font-semibold text-on-surface-variant tabular-nums">{index + 1}</td>
+                        <td className="px-6 py-4 font-jp font-bold text-xl text-on-surface">{card.front}</td>
+                        <td className="px-6 py-4 text-sm font-medium text-on-surface-variant font-jp">{card.romaji || '-'}</td>
+                        <td className="px-6 py-4 text-sm font-medium text-on-surface">{card.back}</td>
+                        <td className="px-6 py-4 text-xs text-on-surface-variant leading-relaxed max-w-lg">
+                          {card.example ? (
+                            <CollapsibleExample 
+                              example={card.example} 
+                              onSpeak={speakJapanese} 
+                              variant="text"
+                            />
+                          ) : '-'}
+                        </td>
+                        {canModify && (
+                          <td className="px-6 py-4 text-right">
+                            <div className="flex justify-end gap-1">
+                              <button
+                                onClick={() => setEditingCard(card)}
+                                className="p-1.5 text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container rounded"
+                              >
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                </svg>
+                              </button>
+                              <button
+                                onClick={() => {
+                                  if (confirm('Bạn có chắc muốn xóa thẻ này?')) {
+                                    deleteCardMutation.mutate(card.id);
+                                  }
+                                }}
+                                className="p-1.5 text-on-surface-variant hover:text-secondary transition-colors hover:bg-surface-container rounded"
+                              >
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                </svg>
+                              </button>
+                            </div>
+                          </td>
+                        )}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           )}
         </div>

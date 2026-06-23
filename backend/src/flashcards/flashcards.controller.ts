@@ -183,6 +183,15 @@ export class FlashcardsController {
     return this.flashcardsService.reviewCard(cardId, req.user.id, dto.quality);
   }
 
+  @UseGuards(JwtAuthGuard)
+  @Post('cards/:cardId/star')
+  toggleStarCard(
+    @Param('cardId') cardId: string,
+    @Request() req: RequestWithUser,
+  ) {
+    return this.flashcardsService.toggleStarCard(cardId, req.user.id);
+  }
+
   // ========== DECK PARAM ROUTES (:deckId — khai báo sau tất cả đường dẫn tĩnh) ==========
 
   @UseGuards(JwtAuthGuard)

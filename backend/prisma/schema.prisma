@@ -104,6 +104,9 @@ model CardProgress {
   nextReviewDate  DateTime @default(now()) // Ngày ôn tập tiếp theo
   lastReviewDate  DateTime?
   
+  // Trạng thái đánh dấu sao
+  isStarred       Boolean  @default(false)
+  
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 
