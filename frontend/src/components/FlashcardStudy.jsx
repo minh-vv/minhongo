@@ -18,7 +18,7 @@ function speakJapanese(text) {
   window.speechSynthesis.speak(utterance);
 }
 
-export default function FlashcardStudy({ deck, onComplete }) {
+export default function FlashcardStudy({ deck, starredOnly = false, onComplete }) {
   const navigate = useNavigate();
   const { showRomaji, autoPlayAudio } = useSettings();
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -137,7 +137,11 @@ export default function FlashcardStudy({ deck, onComplete }) {
   if (!cards.length) {
     return (
       <div className="text-center py-20 flex flex-col items-center">
-        <p className="text-sm font-medium text-on-surface-variant mb-6">Bộ thẻ này chưa có thẻ ghi nhớ nào.</p>
+        <p className="text-sm font-medium text-on-surface-variant mb-6">
+          {starredOnly 
+            ? "Không có thẻ đã đánh dấu sao nào trong bộ thẻ này." 
+            : "Bộ thẻ này chưa có thẻ ghi nhớ nào."}
+        </p>
         <button
           onClick={() => navigate(`/deck/${deck.id}`)}
           className="px-5 py-2.5 text-on-secondary hover:bg-secondary-dim text-xs font-bold uppercase tracking-wider transition-all"

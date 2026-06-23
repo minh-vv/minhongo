@@ -67,7 +67,7 @@ const getNextIntervalLabel = (card, quality) => {
 };
 
 
-export default function SRSStudy({ dueData, onComplete }) {
+export default function SRSStudy({ dueData, starredOnly = false, onComplete }) {
   const navigate = useNavigate();
   const queryClient = useQueryClient();
   const { showRomaji, autoPlayAudio } = useSettings();
@@ -214,7 +214,11 @@ export default function SRSStudy({ dueData, onComplete }) {
       <div className="text-center py-20 animate-fade-up">
         <div className="text-5xl mb-4">🎉</div>
         <h2 className="font-headline text-2xl font-bold text-on-surface mb-2">Tuyệt vời!</h2>
-        <p className="text-on-surface-variant text-sm mb-6">Bạn đã hoàn thành tất cả thẻ cần ôn tập hôm nay.</p>
+        <p className="text-on-surface-variant text-sm mb-6">
+          {starredOnly 
+            ? "Bạn không có thẻ đã đánh dấu sao nào cần ôn tập hôm nay." 
+            : "Bạn đã hoàn thành tất cả thẻ cần ôn tập hôm nay."}
+        </p>
         <button
           onClick={() => navigate(`/deck/${dueData.deck.id}`)}
           className="px-5 py-2.5 text-on-secondary hover:bg-secondary-dim text-xs font-bold uppercase tracking-wider transition-all"

@@ -278,6 +278,7 @@ export default function DeckDetailPage() {
   const [activeKanjiCard, setActiveKanjiCard] = useState(null);
   const [forking, setForking] = useState(false);
   const [viewMode, setViewMode] = useState('card');
+  const [showStarredOnly, setShowStarredOnly] = useState(false);
 
   const { data: deck, isLoading } = useQuery({
     queryKey: ['deck', deckId],
@@ -439,9 +440,17 @@ export default function DeckDetailPage() {
     },
   });
 
-  // Lọc cards theo search
+  // Đếm số thẻ được đánh dấu sao
+  const starredCount = useMemo(() => {
+    return deck?.cards?.filter((card) => card.progress?.[0]?.isStarred).length || 0;
+  }, [deck]);
+
+  // Lọc cards theo search và starred
   const filteredCards = useMemo(() => {
-    const cards = deck?.cards || [];
+    let cards = deck?.cards || [];
+    if (showStarredOnly) {
+      cards = cards.filter((card) => card.progress?.[0]?.isStarred);
+    }
     const search = searchTerm.toLowerCase();
     return cards.filter((card) => {
       return (
@@ -450,7 +459,7 @@ export default function DeckDetailPage() {
         card.romaji?.toLowerCase().includes(search)
       );
     });
-  }, [deck, searchTerm]);
+  }, [deck, searchTerm, showStarredOnly]);
 
   if (isLoading) {
     return (
@@ -506,6 +515,7 @@ export default function DeckDetailPage() {
   };
   const parentPath = getParentPath();
   const canModify = isCuratedDeck ? isAdmin : isOwner;
+  const starredQuery = showStarredOnly ? '&starred=true' : '';
 
   return (
     <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-8 animate-fade-up">
@@ -634,7 +644,7 @@ export default function DeckDetailPage() {
           <div className="flex flex-wrap items-center gap-2">
             {/* 1. Thẻ ghi nhớ */}
             <Link
-              to={`/study/${deckId}?mode=normal`}
+              to={`/study/${deckId}?mode=normal${starredQuery}`}
               className="px-3.5 py-2 bg-emerald-50 text-emerald-800 border border-emerald-200/60 hover:bg-emerald-100/70 hover:border-emerald-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
             >
               <Layers className="w-3.5 h-3.5 text-emerald-600" />
@@ -643,7 +653,7 @@ export default function DeckDetailPage() {
 
             {/* 2. Học SRS */}
             <Link
-              to={`/study/${deckId}?mode=srs`}
+              to={`/study/${deckId}?mode=srs${starredQuery}`}
               className="px-3.5 py-2 bg-indigo-50 text-indigo-800 border border-indigo-200/60 hover:bg-indigo-100/70 hover:border-indigo-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md relative shadow-sm"
             >
               <RefreshCw className="w-3.5 h-3.5 text-indigo-600" />
@@ -657,7 +667,7 @@ export default function DeckDetailPage() {
 
             {/* 3. Trắc nghiệm */}
             <Link
-              to={`/practice/${deckId}?type=multiple-choice`}
+              to={`/practice/${deckId}?type=multiple-choice${starredQuery}`}
               className="px-3.5 py-2 bg-amber-50 text-amber-800 border border-amber-200/60 hover:bg-amber-100/70 hover:border-amber-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
             >
               <HelpCircle className="w-3.5 h-3.5 text-amber-600" />
@@ -666,7 +676,7 @@ export default function DeckDetailPage() {
 
             {/* 4. Tự luận */}
             <Link
-              to={`/practice/${deckId}?type=type-japanese`}
+              to={`/practice/${deckId}?type=type-japanese${starredQuery}`}
               className="px-3.5 py-2 bg-blue-50 text-blue-800 border border-blue-200/60 hover:bg-blue-100/70 hover:border-blue-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
             >
               <PenTool className="w-3.5 h-3.5 text-blue-600" />
@@ -676,7 +686,7 @@ export default function DeckDetailPage() {
             {/* 5. Hoàn thành câu */}
             {hasExamples ? (
               <Link
-                to={`/practice/${deckId}?type=fill-sentence`}
+                to={`/practice/${deckId}?type=fill-sentence${starredQuery}`}
                 className="px-3.5 py-2 bg-rose-50 text-rose-800 border border-rose-200/60 hover:bg-rose-100/70 hover:border-rose-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
               >
                 <CheckSquare className="w-3.5 h-3.5 text-rose-600" />
@@ -707,6 +717,21 @@ export default function DeckDetailPage() {
 
         {/* Right side controls: compact search + action buttons */}
         <div className="flex items-center gap-2 w-full lg:w-auto justify-between lg:justify-end shrink-0">
+          <button
+            type="button"
+            onClick={() => setShowStarredOnly(!showStarredOnly)}
+            className={`px-2.5 h-[30px] flex items-center justify-center gap-1.5 transition-all border rounded-md shadow-sm text-xs font-semibold shrink-0 ${
+              showStarredOnly
+                ? 'border-amber-500 bg-amber-50 text-amber-800 font-bold dark:bg-amber-950/20 dark:text-amber-300'
+                : 'border-outline-variant/60 bg-surface-container-lowest text-on-surface hover:bg-surface-container'
+            }`}
+            title="Chỉ hiển thị thẻ đã đánh dấu sao"
+          >
+            <Star className={`w-3.5 h-3.5 ${showStarredOnly ? 'fill-amber-500 text-amber-500' : 'text-on-surface-variant'}`} />
+            <span className="hidden sm:inline">Sao ({starredCount})</span>
+            <span className="inline sm:hidden">({starredCount})</span>
+          </button>
+
           <div className="relative">
             <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-on-surface-variant pointer-events-none"
               fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">

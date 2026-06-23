@@ -119,11 +119,17 @@ const EXERCISE_TYPES = [
 
 // ===== Setup Screen =====
 
-function SetupScreen({ deck, onStart }) {
+function SetupScreen({ deck, initialStarred = false, onStart }) {
   const [types, setTypes] = useState(['multiple-choice']);
   const [count, setCount] = useState('10');
   const [shuffle, setShuffle] = useState(true);
-  const cardCount = deck?.cards?.length || 0;
+  const [starredOnly, setStarredOnly] = useState(initialStarred);
+
+  const starredCount = useMemo(() => {
+    return deck?.cards?.filter((c) => c.progress?.[0]?.isStarred).length || 0;
+  }, [deck]);
+
+  const activeCardCount = starredOnly ? starredCount : (deck?.cards?.length || 0);
 
   const toggle = (id) => setTypes((prev) =>
     prev.includes(id) ? prev.filter((t) => t !== id) : [...prev, id]
@@ -153,7 +159,9 @@ function SetupScreen({ deck, onStart }) {
             </div>
             <div>
               <h1 className="font-headline text-2xl font-bold text-on-surface">Luyện tập</h1>
-              <p className="text-xs font-bold uppercase tracking-wider text-secondary mt-0.5">{deck.name} · {cardCount} thẻ</p>
+              <p className="text-xs font-bold uppercase tracking-wider text-secondary mt-0.5">
+                {deck.name} · {starredOnly ? `${starredCount} từ sao` : `${deck?.cards?.length || 0} thẻ`}
+              </p>
             </div>
           </div>
         </div>
@@ -204,8 +212,8 @@ function SetupScreen({ deck, onStart }) {
           </p>
           <div className="flex gap-2">
             {['10', '20', 'all'].map((c) => {
-              const label = c === 'all' ? `Tất cả (${cardCount})` : c;
-              const disabled = c !== 'all' && parseInt(c) > cardCount;
+              const label = c === 'all' ? `Tất cả (${activeCardCount})` : c;
+              const disabled = c !== 'all' && parseInt(c) > activeCardCount;
               return (
                 <button key={c}
                   onClick={() => !disabled && setCount(c)}
@@ -224,6 +232,29 @@ function SetupScreen({ deck, onStart }) {
           </div>
         </div>
 
+        {/* Starred Only Toggle */}
+        {starredCount > 0 && (
+          <div className="relative z-10 mb-3 flex items-center gap-2 p-3 bg-surface border border-outline-variant/30 rounded-lg">
+            <input
+              type="checkbox"
+              id="starredOnlyQuestions"
+              checked={starredOnly}
+              onChange={(e) => {
+                const checked = e.target.checked;
+                setStarredOnly(checked);
+                // If switching, make sure selected count is valid
+                if (checked && count !== 'all' && parseInt(count) > starredCount) {
+                  setCount('all');
+                }
+              }}
+              className="w-4 h-4 border-outline-variant focus:ring-secondary text-secondary accent-secondary cursor-pointer"
+            />
+            <label htmlFor="starredOnlyQuestions" className="text-xs font-bold text-on-surface cursor-pointer select-none uppercase tracking-wider">
+              Chỉ luyện tập từ đã đánh dấu sao ({starredCount} từ)
+            </label>
+          </div>
+        )}
+
         {/* Shuffle Option */}
         <div className="relative z-10 mb-6 flex items-center gap-2 p-3 bg-surface border border-outline-variant/30 rounded-lg">
           <input
@@ -239,15 +270,15 @@ function SetupScreen({ deck, onStart }) {
         </div>
 
         <button
-          onClick={() => onStart({ types, count, shuffle })}
-          disabled={types.length === 0 || cardCount < 2}
+          onClick={() => onStart({ types, count, shuffle, starredOnly })}
+          disabled={types.length === 0 || activeCardCount < (starredOnly ? 1 : 2)}
           className="w-full py-3.5 text-sm font-bold text-on-secondary uppercase tracking-wider hover:bg-secondary-dim transition-all disabled:opacity-40 relative z-10"
           style={{ background: 'var(--secondary)' }}>
           Bắt đầu luyện tập →
         </button>
-        {cardCount < 2 && (
+        {activeCardCount < (starredOnly ? 1 : 2) && (
           <p className="text-center text-secondary text-[10px] font-bold uppercase tracking-wider mt-3 relative z-10">
-            Cần ít nhất 2 thẻ để luyện tập
+            {starredOnly ? 'Cần ít nhất 1 từ sao để luyện tập' : 'Cần ít nhất 2 thẻ để luyện tập'}
           </p>
         )}
       </div>
@@ -838,6 +869,7 @@ export default function PracticePage() {
   const { deckId } = useParams();
   const [searchParams] = useSearchParams();
   const typeParam = searchParams.get('type'); // 'multiple-choice' | 'type-japanese' | 'fill-sentence'
+  const starredParam = searchParams.get('starred') === 'true';
 
   const [phase, setPhase] = useState('setup');
   const [exercises, setExercises] = useState([]);
@@ -865,7 +897,11 @@ export default function PracticePage() {
   }, []);
 
   const handleStart = useCallback((config) => {
-    const cards = deck?.cards || [];
+    const allCards = deck?.cards || [];
+    let cards = allCards;
+    if (config.starredOnly) {
+      cards = cards.filter((c) => c.progress?.[0]?.isStarred);
+    }
     const shouldShuffle = config.shuffle !== false;
     const processedCards = shouldShuffle ? shuffleArray(cards) : [...cards];
     const selected = config.count === 'all'
@@ -876,15 +912,15 @@ export default function PracticePage() {
     const built = selected
       .map((card, i) => {
         const preferredType = types[i % types.length];
-        const ex = buildExercise(card, cards, preferredType);
+        const ex = buildExercise(card, allCards, preferredType);
         if (ex) return ex;
         // Fallback: try other selected types
         for (const type of types) {
-          const fallback = buildExercise(card, cards, type);
+          const fallback = buildExercise(card, allCards, type);
           if (fallback) return fallback;
         }
         // Final fallback: multiple-choice always works
-        return buildExercise(card, cards, 'multiple-choice');
+        return buildExercise(card, allCards, 'multiple-choice');
       })
       .filter(Boolean);
 
@@ -955,7 +991,7 @@ export default function PracticePage() {
     );
   }
 
-  if (phase === 'setup') return <SetupScreen deck={deck} onStart={handleStart} />;
+  if (phase === 'setup') return <SetupScreen deck={deck} initialStarred={starredParam} onStart={handleStart} />;
   if (phase === 'exercises') return (
     <ExerciseRunner exercises={exercises} deckId={deckId} onComplete={handleComplete} />
   );
