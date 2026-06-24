@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
-import { Link, useParams, useNavigate } from 'react-router-dom';
+import { Link, useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { flashcardApi } from '../api/flashcardApi';
 import { coursesApi } from '../api/coursesApi';
@@ -269,6 +269,8 @@ export default function DeckDetailPage() {
   const navigate = useNavigate();
   const queryClient = useQueryClient();
   const { user } = useAuth();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const practiceParam = searchParams.get('practice');
 
   const [showAddCard, setShowAddCard] = useState(false);
   const [showBulkAddCard, setShowBulkAddCard] = useState(false);
@@ -279,11 +281,49 @@ export default function DeckDetailPage() {
   const [forking, setForking] = useState(false);
   const [viewMode, setViewMode] = useState('card');
   const [showStarredOnly, setShowStarredOnly] = useState(false);
+  const [showPracticeModal, setShowPracticeModal] = useState(false);
+  const [modalPracticeType, setModalPracticeType] = useState('');
+  const [modalConfig, setModalConfig] = useState({
+    count: '10',
+    shuffle: true,
+    starredOnly: false,
+    customCount: '',
+    isCustom: false
+  });
 
   const { data: deck, isLoading } = useQuery({
     queryKey: ['deck', deckId],
     queryFn: () => flashcardApi.getDeck(deckId),
   });
+
+  const starredCount = useMemo(() => {
+    return deck?.cards?.filter((card) => card.progress?.[0]?.isStarred).length || 0;
+  }, [deck]);
+
+  const activePracticeCardCount = useMemo(() => {
+    return modalConfig.starredOnly ? starredCount : (deck?.cards?.length || 0);
+  }, [deck, starredCount, modalConfig.starredOnly]);
+
+  const handleOpenPracticeModal = (type) => {
+    setModalPracticeType(type);
+    setModalConfig({
+      count: '10',
+      shuffle: true,
+      starredOnly: showStarredOnly && starredCount > 0,
+      customCount: '',
+      isCustom: false
+    });
+    setShowPracticeModal(true);
+  };
+
+  const handleStartPractice = () => {
+    const finalCount = modalConfig.isCustom 
+      ? (parseInt(modalConfig.customCount, 10) || 10) 
+      : modalConfig.count;
+    
+    navigate(`/practice/${deckId}?type=${modalPracticeType}&count=${finalCount}&shuffle=${modalConfig.shuffle}&starred=${modalConfig.starredOnly}`);
+    setShowPracticeModal(false);
+  };
 
   // Calculate starting STT offset from deck description (e.g. "Từ 101 đến 220" or "Unit 2 [101 - 220]")
   const startStt = useMemo(() => {
@@ -307,6 +347,19 @@ export default function DeckDetailPage() {
       hasInitializedViewMode.current = true;
     }
   }, [deck]);
+
+  useEffect(() => {
+    if (deck && practiceParam) {
+      const type = ['multiple-choice', 'type-japanese', 'fill-sentence'].includes(practiceParam)
+        ? practiceParam
+        : 'multiple-choice';
+      handleOpenPracticeModal(type);
+      
+      const newParams = new URLSearchParams(searchParams);
+      newParams.delete('practice');
+      setSearchParams(newParams, { replace: true });
+    }
+  }, [deck, practiceParam, searchParams, setSearchParams]);
 
   const handleForkDeck = async () => {
     setForking(true);
@@ -440,10 +493,7 @@ export default function DeckDetailPage() {
     },
   });
 
-  // Đếm số thẻ được đánh dấu sao
-  const starredCount = useMemo(() => {
-    return deck?.cards?.filter((card) => card.progress?.[0]?.isStarred).length || 0;
-  }, [deck]);
+  // Đếm số thẻ được đánh dấu sao (được khai báo ở trên)
 
   // Lọc cards theo search và starred
   const filteredCards = useMemo(() => {
@@ -666,32 +716,32 @@ export default function DeckDetailPage() {
             </Link>
 
             {/* 3. Trắc nghiệm */}
-            <Link
-              to={`/practice/${deckId}?type=multiple-choice${starredQuery}`}
+            <button
+              onClick={() => handleOpenPracticeModal('multiple-choice')}
               className="px-3.5 py-2 bg-amber-50 text-amber-800 border border-amber-200/60 hover:bg-amber-100/70 hover:border-amber-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
             >
               <HelpCircle className="w-3.5 h-3.5 text-amber-600" />
               <span>Trắc nghiệm</span>
-            </Link>
+            </button>
 
             {/* 4. Tự luận */}
-            <Link
-              to={`/practice/${deckId}?type=type-japanese${starredQuery}`}
+            <button
+              onClick={() => handleOpenPracticeModal('type-japanese')}
               className="px-3.5 py-2 bg-blue-50 text-blue-800 border border-blue-200/60 hover:bg-blue-100/70 hover:border-blue-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
             >
               <PenTool className="w-3.5 h-3.5 text-blue-600" />
               <span>Tự luận</span>
-            </Link>
+            </button>
 
             {/* 5. Hoàn thành câu */}
             {hasExamples ? (
-              <Link
-                to={`/practice/${deckId}?type=fill-sentence${starredQuery}`}
+              <button
+                onClick={() => handleOpenPracticeModal('fill-sentence')}
                 className="px-3.5 py-2 bg-rose-50 text-rose-800 border border-rose-200/60 hover:bg-rose-100/70 hover:border-rose-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
               >
                 <CheckSquare className="w-3.5 h-3.5 text-rose-600" />
                 <span>Hoàn thành câu</span>
-              </Link>
+              </button>
             ) : (
               <button
                 disabled
@@ -1025,9 +1075,9 @@ export default function DeckDetailPage() {
                       <div className="flex-1 min-w-0">
                         {exampleJp ? (
                           <>
-                            <div className="flex items-center flex-wrap gap-2">
+                            <div className="flex items-start justify-between gap-4">
                               <span 
-                                className="text-sm sm:text-base text-on-surface font-jp leading-loose select-text"
+                                className="text-sm sm:text-base text-on-surface font-jp leading-loose select-text flex-1"
                                 dangerouslySetInnerHTML={{ __html: annotateSentence(exampleJp) }}
                               />
                               <button
@@ -1035,7 +1085,7 @@ export default function DeckDetailPage() {
                                   e.stopPropagation();
                                   speakJapanese(exampleJp);
                                 }}
-                                className="p-1 bg-surface-container/40 hover:bg-surface-container-high rounded text-on-surface-variant hover:text-primary transition-colors self-center border border-outline-variant/20"
+                                className="p-1.5 bg-surface-container/40 hover:bg-surface-container-high rounded-lg text-on-surface-variant hover:text-primary transition-colors shrink-0 border border-outline-variant/20 self-start"
                                 title="Nghe câu ví dụ"
                               >
                                 <Volume2 className="w-3.5 h-3.5" />
@@ -1209,6 +1259,174 @@ export default function DeckDetailPage() {
           onClose={() => setActiveKanjiCard(null)}
           accentColor="var(--primary)"
         />
+      )}
+
+      {/* Practice Setup Modal Portal */}
+      {showPracticeModal && createPortal(
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/25 backdrop-blur-[1.5px] animate-fade-in">
+          <div className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow p-6 md:p-8 max-w-md w-full relative overflow-hidden rounded-xl animate-scale-up">
+            <div className="absolute inset-0 asanoha-bg opacity-5 pointer-events-none" />
+            
+            {/* Header */}
+            <div className="relative z-10 mb-6 flex items-center gap-3">
+              <div className="w-11 h-11 bg-surface-container border border-outline-variant/30 flex items-center justify-center flex-shrink-0 text-secondary rounded-lg">
+                <HelpCircle className="w-5 h-5 text-secondary" />
+              </div>
+              <div>
+                <h2 className="font-headline text-lg font-bold text-on-surface">Cấu hình luyện tập</h2>
+                <p className="text-[10px] font-bold uppercase tracking-widest text-secondary mt-0.5">
+                  {deck.name}
+                </p>
+              </div>
+            </div>
+
+            {/* Selected Mode Display */}
+            <div className="relative z-10 mb-5 p-3.5 bg-surface-container border border-outline-variant/35 rounded-lg">
+              <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant/80 mb-1">Chế độ đã chọn</p>
+              <p className="text-sm font-bold text-on-surface">
+                {modalPracticeType === 'multiple-choice' && 'Trắc nghiệm (Từ → Nghĩa)'}
+                {modalPracticeType === 'type-japanese' && 'Tự luận (Nghĩa → Từ)'}
+                {modalPracticeType === 'fill-sentence' && 'Hoàn thành câu'}
+              </p>
+            </div>
+
+            {/* Question count selection */}
+            <div className="relative z-10 mb-5">
+              <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-2.5">
+                Số lượng từ kiểm tra ({activePracticeCardCount} thẻ khả dụng)
+              </p>
+              <div className="flex gap-2 mb-2.5">
+                {['10', '20', 'custom', 'all'].map((c) => {
+                  const isActive = (c === 'custom' && modalConfig.isCustom) || (c !== 'custom' && !modalConfig.isCustom && modalConfig.count === c);
+                  
+                  let label = c;
+                  if (c === 'all') label = `Tất cả`;
+                  else if (c === 'custom') label = 'Tự chọn';
+
+                  const disabled = c !== 'all' && c !== 'custom' && parseInt(c, 10) > activePracticeCardCount;
+                  return (
+                    <button
+                      key={c}
+                      disabled={disabled}
+                      onClick={() => {
+                        setModalConfig(prev => ({
+                          ...prev,
+                          isCustom: c === 'custom',
+                          count: c !== 'custom' ? c : prev.count
+                        }));
+                      }}
+                      className={`flex-1 py-2 text-xs font-bold uppercase tracking-wider transition-all border rounded-lg ${
+                        isActive
+                          ? 'border-secondary bg-red-500/5 text-secondary font-extrabold'
+                          : disabled
+                            ? 'border-outline-variant/10 text-on-surface-variant/20 cursor-not-allowed'
+                            : 'border-outline-variant/60 bg-surface-container-lowest text-on-surface hover:bg-surface-container-low'
+                      }`}
+                    >
+                      {label}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {modalConfig.isCustom && (
+                <div className="animate-fade-up">
+                  <label className="block text-[9.5px] font-bold uppercase tracking-widest text-on-surface-variant mb-1.5">
+                    Nhập số từ (từ 1 đến {activePracticeCardCount}):
+                  </label>
+                  <input
+                    type="number"
+                    min="1"
+                    max={activePracticeCardCount}
+                    value={modalConfig.customCount}
+                    onChange={(e) => {
+                      const val = e.target.value;
+                      setModalConfig(prev => ({ ...prev, customCount: val }));
+                    }}
+                    placeholder={`Ví dụ: ${Math.min(5, activePracticeCardCount)}`}
+                    className="w-full px-3.5 py-2 border border-outline-variant bg-surface text-on-surface text-sm font-bold focus:outline-none focus:border-secondary transition-colors rounded-lg"
+                  />
+                </div>
+              )}
+            </div>
+
+            {/* Starred Toggle */}
+            {starredCount > 0 && (
+              <div className="relative z-10 mb-3.5 flex items-center gap-2 p-2.5 bg-surface-container border border-outline-variant/30 rounded-lg">
+                <input
+                  type="checkbox"
+                  id="quickStarredOnly"
+                  checked={modalConfig.starredOnly}
+                  onChange={(e) => {
+                    const checked = e.target.checked;
+                    setModalConfig(prev => {
+                      const newStarred = checked;
+                      const nextActiveCount = newStarred ? starredCount : deck.cards.length;
+                      let newCount = prev.count;
+                      let newIsCustom = prev.isCustom;
+                      let newCustomCount = prev.customCount;
+                      
+                      // Auto-adjust if selected count is now invalid
+                      if (newCount !== 'all' && parseInt(newCount, 10) > nextActiveCount) {
+                        newCount = 'all';
+                      }
+                      if (newIsCustom && parseInt(newCustomCount, 10) > nextActiveCount) {
+                        newCustomCount = nextActiveCount.toString();
+                      }
+
+                      return {
+                        ...prev,
+                        starredOnly: newStarred,
+                        count: newCount,
+                        customCount: newCustomCount
+                      };
+                    });
+                  }}
+                  className="w-4 h-4 border-outline-variant focus:ring-secondary text-secondary accent-secondary cursor-pointer"
+                />
+                <label htmlFor="quickStarredOnly" className="text-xs font-bold text-on-surface cursor-pointer select-none uppercase tracking-wider">
+                  Chỉ kiểm tra từ đã đánh dấu sao ({starredCount} từ)
+                </label>
+              </div>
+            )}
+
+            {/* Shuffle option */}
+            <div className="relative z-10 mb-6 flex items-center gap-2 p-2.5 bg-surface-container border border-outline-variant/30 rounded-lg">
+              <input
+                type="checkbox"
+                id="quickShuffle"
+                checked={modalConfig.shuffle}
+                onChange={(e) => setModalConfig(prev => ({ ...prev, shuffle: e.target.checked }))}
+                className="w-4 h-4 border-outline-variant focus:ring-secondary text-secondary accent-secondary cursor-pointer"
+              />
+              <label htmlFor="quickShuffle" className="text-xs font-bold text-on-surface cursor-pointer select-none uppercase tracking-wider">
+                Xáo trộn câu hỏi
+              </label>
+            </div>
+
+            {/* Actions */}
+            <div className="relative z-10 flex gap-3">
+              <button
+                onClick={() => setShowPracticeModal(false)}
+                className="flex-1 py-3 border border-outline-variant bg-surface-container-lowest hover:bg-surface-container-low text-on-surface text-xs font-bold uppercase tracking-wider transition-colors text-center rounded-lg"
+              >
+                Hủy
+              </button>
+              <button
+                onClick={handleStartPractice}
+                disabled={
+                  activePracticeCardCount < (modalConfig.starredOnly ? 1 : 2) ||
+                  (modalConfig.isCustom && (isNaN(parseInt(modalConfig.customCount, 10)) || parseInt(modalConfig.customCount, 10) <= 0 || parseInt(modalConfig.customCount, 10) > activePracticeCardCount))
+                }
+                className="flex-1 py-3 text-xs font-bold text-on-secondary uppercase tracking-wider hover:bg-secondary-dim transition-all disabled:opacity-40 rounded-lg"
+                style={{ background: 'var(--secondary)' }}
+              >
+                Bắt đầu →
+              </button>
+            </div>
+          </div>
+        </div>,
+        document.body
       )}
     </div>
   );

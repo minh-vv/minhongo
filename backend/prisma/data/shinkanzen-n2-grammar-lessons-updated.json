@@ -1,7 +1,7 @@
 [
   {
     "order": 1,
-    "title": "Bài 1: 〜際・〜に際して・〜にあたって",
+    "title": "Bài 1: Thời điểm, cơ hội (〜祭（に）, 〜に際して・〜にあたって)",
     "summary": "Các cấu trúc liên quan đến thời điểm, cơ hội: 〜祭（に）, 〜に際して, 〜にあたって",
     "theoryMd": "### Bài 1: Thời điểm và cơ hội (〜際・〜に際して・〜にあたって)\n\n### 1. 〜際（に）\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Khi, vào lúc. Sắc thái cứng, trang trọng hơn \"toki\", dùng nhiều trong thông báo, hướng dẫn.\n- **Cấu trúc**: V-ru / V-ta / N-no + 際（に）\n\n#### 📝 Ví dụ minh họa\n- お食事の際は、こちらのテーブルをお使いいただけます。\n(Khi dùng bữa, quý khách có thể sử dụng cái bàn này.)\n\n- カードを紛失した際は、すぐにカード会社にご連絡ください。\n(Trong trường hợp làm mất thẻ, xin vui lòng liên hệ ngay với công ty thẻ.)\n\n### 2. 〜に際して\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Khi, nhân dịp. Dùng cho các sự kiện trọng đại, chuẩn bị cho một việc gì đó.\n- **Cấu trúc**: V-ru / N + に際して\n\n#### 📝 Ví dụ minh họa\n- 父は手術を受けるに際して、医者にいろいろ質問した。\n(Trước khi bố tôi phẫu thuật, ông đã hỏi bác sĩ rất nhiều điều.)\n\n- 新商品の発売に際して、大がかりなキャンペーンが行われた。\n(Nhân dịp mở bán sản phẩm mới, một chiến dịch quảng bá quy mô lớn đã được tiến hành.)\n\n### 3. 〜にあたって\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Khi, nhân dịp. Dùng cho sự kiện tích cực, có kế hoạch cụ thể, chủ động.\n- **Cấu trúc**: V-ru / N + にあたって\n\n#### 📝 Ví dụ minh họa\n- 新しく事業を始めるにあたって、しっかりと準備をしようと思っております。\n(Khi chuẩn bị bắt đầu sự nghiệp mới, tôi sẽ chuẩn bị kĩ càng.)\n\n- 新しい門出を迎えるにあたって、一言お祝いの言葉を申し上げます。\n(Nhân dịp đón chào một chặng đường mới, tôi xin phép có đôi lời chúc mừng.)",
     "skills": [
@@ -13,8 +13,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 1: 〜際・〜に際して・〜にあたって",
-          "description": "Chủ đề: Thời điểm, cơ hội",
+          "name": "Shinkanzen N2 — Bài 1 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 1: Thời điểm, cơ hội (〜祭（に）, 〜に際して・〜にあたって)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -50,7 +50,7 @@
   },
   {
     "order": 2,
-    "title": "Bài 2: 〜たとたん・〜と思うと・〜か〜ないかのうちに...",
+    "title": "Bài 2: Ngay sau đó / Đang xảy ra (〜たとたん (に), 〜（か）と思うと, 〜か〜ないかのうちに, 〜最中だ, 〜ばかりだ・〜一方だ, 〜（よ）うとしている, 〜つつある, 〜つつ)",
     "summary": "Các cấu trúc diễn tả hành động xảy ra liên tiếp, đồng thời hoặc đang trong tiến trình: 〜たとたん (に), 〜（か）と思うと, 〜か〜ないかのうちに, 〜最中だ, 〜ばかりだ・〜一方だ, 〜（よ）うとしている, 〜つつある, 〜つつ",
     "theoryMd": "### Bài 2: Sự tiếp diễn và biến đổi (Ngay sau đó, Đang xảy ra)\n\n#### 1. Hành động xảy ra liên tiếp: 〜たとたん, 〜（か）と思うと, 〜か〜ないかのうちに\n- **〜たとたん**: Ngay lập tức xảy ra việc bất ngờ sau hành động trước.\n- **〜（か）と思うと**: Diễn tả sự biến đổi nhanh đến mức bất ngờ.\n- **〜か〜ないかのうちに**: Hai hành động diễn ra gần như đồng thời.\n\n#### 2. Hành động đang xảy ra: 〜最中だ, 〜つつある, 〜つつ\n- **〜最中だ**: Đúng lúc đang làm gì đó thì có việc xen vào.\n- **〜つつある**: Đang dần dần biến đổi theo một hướng.\n- **〜つつ**: Vừa làm việc này, vừa làm việc kia (trang trọng).\n\n#### 3. Xu hướng: 〜ばかりだ, 〜一方だ, 〜（よ）うとしている\n- **〜ばかりだ / 一方だ**: Chỉ xu hướng thay đổi (xấu/tốt).\n- **〜（よ）うとしている**: Sắp sửa xảy ra một sự việc trong khoảnh khắc.",
     "skills": [
@@ -62,8 +62,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 2: 〜たとたん・〜と思うと・〜か〜ないかのうちに...",
-          "description": "Chủ đề: Ngay sau đó / Đang xảy ra",
+          "name": "Shinkanzen N2 — Bài 2 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 2: Ngay sau đó / Đang xảy ra (〜たとたん (に), 〜（か）と思うと, 〜か〜ないかのうちに, 〜最中だ, 〜ばかりだ・〜一方だ, 〜（よ）うとしている, 〜つつある, 〜つつ)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -83,7 +83,7 @@
             },
             {
               "front": "〜か〜ないかのうちに",
-              "back": "Ý nghĩa: Vừa mới... thì đã (diễn tả hành động vế sau xảy ra gần như đồng thời khi vế trước chưa kết thúc).\nCấu trúc: V-ru / V-ta + か + V-nai + かのうちに\n* Giải thích thêm: thể hiện hành động hay sự thay đổi trong thời gian ngắn",
+              "back": "Ý nghĩa: Vừa mới... thì đã (diễn tả hành động vế sau xảy ra gần như đồng thời khi vế trước chưa kết thúc).\nCấu trúc: V-ru / V-ta + か + V-nai + かのうちに\n* Giải thích thêm: thể hiện hành động hay sự thay đổi trong thời gian ngắn\n* Giải thích thêm: ① trong lúc này lăm tốt hơn là để sau\n② trong lúc (thời gian ngắn) đang làm gì thì có sự biến đổi trạng thái",
               "romaji": "ka nai ka no uchi ni",
               "example": "雨がやんだかやまないかのうちに、せみが鳴き出した。\nMưa vừa dứt, ve sầu lập tức bắt đầu kêu.\n\nチャイムが鳴るか鳴らないかのうちに、先生が教室に入ってきた。\nChuông vừa mới reo lên thì thầy giáo đã bước vào lớp học.\n\n布団に入るか入らないかのうちに、眠ってしまった。\nVừa mới chui vào chăn là tôi đã ngủ thiếp đi ngay.\n\n映画が終わるか終わらないかのうちに、席を立った。\nPhim vừa chiếu xong là tôi đã đứng dậy rời khỏi ghế.\n\n夜が明けたか明けないかのうちに",
               "jlptLevel": 2
@@ -122,13 +122,6 @@
               "romaji": "tsutsu",
               "example": "住民と話し合いつつ、計画を立てていきたい。\nTôi muốn vừa thảo luận với người dân, vừa lập kế hoạch.\n\n将来のことを考えつつ、進路を決めなければならない。\nVừa phải suy nghĩ về tương lai, vừa phải quyết định con đường sự nghiệp.\n\n彼と手紙をやり取りしつつ、親交を深めた。\nVừa trao đổi thư từ với anh ấy, vừa vun đắp tình bạn.\n\n政府は物価を抑えつつ、経済成長を図る。\nChính phủ vừa tìm cách kìm hãm vật giá, vừa nhắm đến tăng trưởng kinh tế.\n\nボートをこぎつつ",
               "jlptLevel": 2
-            },
-            {
-              "front": "～うちに",
-              "back": "Ý nghĩa: trong lúc (① trong lúc này lăm tốt hơn là để sau ② trong lúc (thời gian ngắn) đang làm gì thì có sự biến đổi trạng thái)\nCấu trúc: ①V　普通 + うちに / ②V　ている/ない　＋　うちに",
-              "romaji": "",
-              "example": "",
-              "jlptLevel": 2
             }
           ]
         }
@@ -141,7 +134,7 @@
   },
   {
     "order": 3,
-    "title": "Bài 3: 〜てはじめて・〜上で・〜次第...",
+    "title": "Bài 3: Trình tự thời gian (〜てはじめて, 〜上で, 〜次第, 〜て以来・〜てこのかた, 〜てからでないと・〜てからでなければ)",
     "summary": "Các cấu trúc về trình tự hành động: 〜てはじめて, 〜上で, 〜次第, 〜て以来・〜てこのかた, 〜てからでないと・〜てからでなければ",
     "theoryMd": "### Bài 3: Trình tự thời gian\n\n- **〜てはじめて**: Nhấn mạnh việc sau khi làm A mới đạt được B (thường là nhận thức mới).\n- **〜上で**: A là tiền đề, chuẩn bị cho B.\n- **〜次第**: A xong lập tức làm B (thường là ý chí/hành động).\n- **〜て以来・〜てこのかた**: Từ lúc đó đến giờ, trạng thái không thay đổi.\n- **〜てからでないと**: Nếu không có A (điều kiện cần), thì không làm được B.",
     "skills": [
@@ -153,8 +146,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 3: 〜てはじめて・〜上で・〜次第...",
-          "description": "Chủ đề: Trình tự thời gian",
+          "name": "Shinkanzen N2 — Bài 3 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 3: Trình tự thời gian (〜てはじめて, 〜上で, 〜次第, 〜て以来・〜てこのかた, 〜てからでないと・〜てからでなければ)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -204,7 +197,7 @@
   },
   {
     "order": 4,
-    "title": "Bài 4: 〜をはじめ・〜からして・〜にわたって...",
+    "title": "Bài 4: Phạm vi (〜をはじめ（として）, 〜からして, 〜にわたって, 〜を通じて・〜を通して, 〜限り, 〜だけ)",
     "summary": "Các cấu trúc liên quan đến phạm vi: 〜をはじめ（として）, 〜からして, 〜にわたって, 〜を通じて・〜を通して, 〜限り, 〜だけ",
     "theoryMd": "### Bài 4: Phạm vi và Giới hạn\n\n- **〜をはじめ**: Đưa ra ví dụ đại diện đầu tiên.\n- **〜からして**: Đánh giá tổng thể qua một chi tiết nhỏ.\n- **〜にわたって**: Phạm vi trải dài (không gian, thời gian).\n- **〜を通じて・を通して**: Thông qua trung gian hoặc suốt thời gian dài.\n- **〜限り**: Giới hạn phạm vi hiểu biết/khả năng.\n- **〜だけ**: Đến mức tối đa có thể.",
     "skills": [
@@ -216,8 +209,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 4: 〜をはじめ・〜からして・〜にわたって...",
-          "description": "Chủ đề: Phạm vi",
+          "name": "Shinkanzen N2 — Bài 4 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 4: Phạm vi (〜をはじめ（として）, 〜からして, 〜にわたって, 〜を通じて・〜を通して, 〜限り, 〜だけ)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -274,7 +267,7 @@
   },
   {
     "order": 5,
-    "title": "Bài 5: 〜に限り・〜限り・〜限りでは...",
+    "title": "Bài 5: Giới hạn (〜に限り, 〜限り（は）, 〜に限りでは, 〜に限って)",
     "summary": "Các cấu trúc diễn tả sự giới hạn: 〜に限り, 〜限り（は）, 〜に限りでは, 〜に限って",
     "theoryMd": "### Bài 5: Giới hạn và ngoại lệ\n\n- **〜に限り**: Chỉ riêng một nhóm/đối tượng cụ thể (thông báo).\n- **〜限り（は）**: Chừng nào còn giữ trạng thái A, thì B còn tiếp diễn.\n- **〜限りでは**: Giới hạn trong những thông tin mình có.\n- **〜に限って**: Nhấn mạnh sự đen đủi (đúng lúc) hoặc tin tưởng tuyệt đối vào đối tượng đặc biệt.",
     "skills": [
@@ -286,8 +279,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 5: 〜に限り・〜限り・〜限りでは...",
-          "description": "Chủ đề: Giới hạn",
+          "name": "Shinkanzen N2 — Bài 5 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 5: Giới hạn (〜に限り, 〜限り（は）, 〜に限りでは, 〜に限って)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -330,7 +323,7 @@
   },
   {
     "order": 6,
-    "title": "Bài 6: 〜に限らず・〜のみならず・〜ばかりか...",
+    "title": "Bài 6: Không chỉ (〜に限らず, 〜のみならず, 〜ばかりか, 〜はもとより, 〜上（に）)",
     "summary": "Các cấu trúc diễn tả sự bổ sung: 〜に限らず, 〜のみならず, 〜ばかりか, 〜はもとより, 〜上（に）",
     "theoryMd": "### 6. Cấu trúc bổ sung (Không chỉ, Hơn nữa)\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜に限らず**: Không chỉ trong phạm vi A, mà phạm vi rộng hơn B cũng vậy.\n- **〜のみならず**: Không chỉ cái này, mà còn cái kia (Trang trọng hơn 'dake de naku').\n- **〜ばかりか**: Không chỉ A, mà còn thêm mức độ nghiêm trọng hoặc điều bất ngờ B.\n- **〜はもとより**: A là đương nhiên, và cả B cũng thế.\n- **〜上（に）**: Hơn nữa, thêm vào đó (kết quả cùng chiều tốt hoặc xấu).\n\n#### 📝 Ví dụ minh họa\n- *〜に限らず*: この映画は子どもに限らず、大人でも楽しめる。\n- *〜のみならず*: 彼は英語のみならず、日本語も堪能だ。\n- *〜ばかりか*: 彼は嘘をついたばかりか、人のせいにもした。\n- *〜はもとより*: たばこは本人はもとより、周りの人にも害を及ぼす。\n- *〜上（に）*: 今日は寝不足の上、少し熱がある。",
     "skills": [
@@ -342,8 +335,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 6: 〜に限らず・〜のみならず・〜ばかりか...",
-          "description": "Chủ đề: Không chỉ",
+          "name": "Shinkanzen N2 — Bài 6 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 6: Không chỉ (〜に限らず, 〜のみならず, 〜ばかりか, 〜はもとより, 〜上（に）)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -393,7 +386,7 @@
   },
   {
     "order": 7,
-    "title": "Bài 7: 〜に関して・〜をめぐって・〜にかけては...",
+    "title": "Bài 7: Liên quan đến đối tượng (〜に関して, 〜をめぐって, 〜にかけては, 〜に対して, 〜にこたえて)",
     "summary": "Các cấu trúc liên quan đến đối tượng: 〜に関して, 〜をめぐって, 〜にかけては, 〜に対して, 〜にこたえて",
     "theoryMd": "### 7. Cấu trúc liên quan đến đối tượng\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜に関して**: Liên quan đến, về vấn đề gì đó.\n- **〜をめぐって**: Xoay quanh (thường là tranh luận, bất đồng).\n- **〜にかけては**: Riêng về khoản... thì là số một.\n- **〜に対して**: Đối với (hướng tới ai đó) hoặc Trái ngược với.\n- **〜にこたえて**: Đáp lại, đáp ứng yêu cầu/kỳ vọng.\n\n#### 📝 Ví dụ minh họa\n- *〜に関して*: この事件に関して、何か知っていることはありますか。\n- *〜をめぐって*: 親が残した土地をめぐって親族が争っている。\n- *〜にかけては*: 料理の技術にかけては、彼女に勝てる人はいない。\n- *〜に対して*: 政府の案に対して住民は大反対した。\n- *〜にこたえて*: 皆様のご期待にこたえて精いっぱい頑張ります。",
     "skills": [
@@ -405,8 +398,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 7: 〜に関して・〜をめぐって・〜にかけては...",
-          "description": "Chủ đề: Liên quan đến đối tượng",
+          "name": "Shinkanzen N2 — Bài 7 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 7: Liên quan đến đối tượng (〜に関して, 〜をめぐって, 〜にかけては, 〜に対して, 〜にこたえて)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -456,7 +449,7 @@
   },
   {
     "order": 8,
-    "title": "Bài 8: 〜をもとに・〜に基づいて・〜に沿って...",
+    "title": "Bài 8: Dựa trên / Dành cho (〜をもとに（して）, 〜に基づいて, 〜に沿って, 〜のもとで・〜のもとに, 〜向けだ)",
     "summary": "Các cấu trúc liên quan đến nền tảng, đối tượng mục tiêu: 〜をもとに（して）, 〜に基づいて, 〜に沿って, 〜のもとで・〜のもとに, 〜向けだ",
     "theoryMd": "### 8. Cấu trúc nền tảng và đối tượng mục tiêu\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜をもとに（して）**: Lấy cái gì làm nền tảng để tạo ra cái mới.\n- **〜に基づいて**: Dựa trên (luật, dữ liệu, căn cứ rõ ràng).\n- **〜に沿って**: Men theo (đường) hoặc Tuân theo (kế hoạch/hướng dẫn).\n- **〜のもとで・〜のもとに**: Dưới sự hướng dẫn/điều kiện của ai/cái gì.\n- **〜向けだ**: Thiết kế dành riêng cho đối tượng cụ thể.\n\n#### 📝 Ví dụ minh họa\n- *〜をもとに*: この小説は、実際の事件をもとに書かれた。\n- *〜に基づいて*: 最新のデータに基づいて売り上げ計画を立てる。\n- *〜に沿って*: マニュアルに沿って、機械を操作してください。\n- *〜のもとで*: チームは新しい監督のもとで練習している。\n- *〜向けだ*: このマンションは高齢者向けに設計されている。",
     "skills": [
@@ -468,8 +461,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 8: 〜をもとに・〜に基づいて・〜に沿って...",
-          "description": "Chủ đề: Dựa trên / Dành cho",
+          "name": "Shinkanzen N2 — Bài 8 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 8: Dựa trên / Dành cho (〜をもとに（して）, 〜に基づいて, 〜に沿って, 〜のもとで・〜のもとに, 〜向けだ)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -519,7 +512,7 @@
   },
   {
     "order": 9,
-    "title": "Bài 9: 〜につれて・〜に伴って・〜次第だ...",
+    "title": "Bài 9: Thay đổi cùng chiều / Sự tương ứng (〜につれて・〜にしたがって, 〜に伴って・〜とともに, 〜次第だ, 〜応じて, 〜につけて)",
     "summary": "Các cấu trúc diễn tả sự thay đổi hoặc tương ứng: 〜につれて・〜にしたがって, 〜に伴って・〜とともに, 〜次第だ, 〜応じて, 〜につけて",
     "theoryMd": "### 9. Sự thay đổi cùng chiều & Sự tương ứng\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜につれて・〜にしたがって**: Tỉ lệ thuận, A thay đổi thì B cũng thay đổi.\n- **〜に伴って・〜とともに**: Đồng thời, đi kèm với sự thay đổi của A.\n- **〜次第だ**: Phụ thuộc vào, quyết định bởi.\n- **〜応じて**: Phù hợp, tương ứng với đối tượng/điều kiện.\n- **〜につけて**: Mỗi khi... thì cảm xúc luôn hiện hữu.\n\n#### 📝 Ví dụ minh họa\n- *〜につれて*: 台風の接近につれて、雨や風が強くなってきた。\n- *〜に伴って*: 自動車の普及に伴って、交通事故も増加した。\n- *〜次第だ*: 人生が楽しいかどうかは考え方次第だ。\n- *〜応じて*: お子さんの年齢に応じて本を選んでください。\n- *〜につけて*: この絵を見るにつけて、心に希望がわいてくる。",
     "skills": [
@@ -531,8 +524,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 9: 〜につれて・〜に伴って・〜次第だ...",
-          "description": "Chủ đề: Thay đổi cùng chiều / Sự tương ứng",
+          "name": "Shinkanzen N2 — Bài 9 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 9: Thay đổi cùng chiều / Sự tương ứng (〜につれて・〜にしたがって, 〜に伴って・〜とともに, 〜次第だ, 〜応じて, 〜につけて)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -582,7 +575,7 @@
   },
   {
     "order": 10,
-    "title": "Bài 10: 〜やら〜やら・〜というか〜というか・〜にしても〜にしても...",
+    "title": "Bài 10: Liệt kê ví dụ / Đánh giá (〜やら〜やら, 〜というか〜というか, 〜にしても・〜にしろ, 〜といった)",
     "summary": "Các cấu trúc liệt kê và đưa ra nhận định: 〜やら〜やら, 〜というか〜というか, 〜にしても・〜にしろ, 〜といった",
     "theoryMd": "### 10. Liệt kê ví dụ và nhận định\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜やら〜やら**: Liệt kê ví dụ (thường đi kèm cảm xúc khó xử hoặc bận rộn).\n- **〜というか〜というか**: Phân vân không biết dùng từ nào diễn tả cho đúng.\n- **〜にしても〜にしても**: Dù A hay B thì cũng (không thay đổi kết luận).\n- **〜といった**: Đưa ra ví dụ khái quát hóa về nhóm đối tượng.\n\n#### 📝 Ví dụ minh họa\n- *〜やら*: 今週は試験やらレポート提出やらで、本当に忙しい。\n- *〜というか*: 彼の態度は、親切というかお節介というか、判断に迷う。\n- *〜にしても*: 行くにしても行かないにしても、早めに連絡してください。\n- *〜といった*: 京都とか鎌倉といった古い街には寺が多い。",
     "skills": [
@@ -594,8 +587,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 10: 〜やら〜やら・〜というか〜というか・〜にしても〜にしても...",
-          "description": "Chủ đề: Liệt kê ví dụ / Đánh giá",
+          "name": "Shinkanzen N2 — Bài 10 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 10: Liệt kê ví dụ / Đánh giá (〜やら〜やら, 〜というか〜というか, 〜にしても・〜にしろ, 〜といった)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -638,7 +631,7 @@
   },
   {
     "order": 11,
-    "title": "Bài 11: 〜を問わず・〜にかかわりなく・〜もかまわず...",
+    "title": "Bài 11: Không quan tâm đến / Bỏ qua (〜を問わず, 〜にかかわりなく・〜にかかわらず, 〜もかまわず, 〜はともかく（として）, 〜はさておき)",
     "summary": "Các cấu trúc diễn tả sự không liên quan: 〜を問わず, 〜にかかわりなく・〜にかかわらず, 〜もかまわず, 〜はともかく（として）, 〜はさておき",
     "theoryMd": "### Bài 11: Ngữ pháp về sự Không quan tâm / Bỏ qua\n\n#### 1. 〜を問わず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Không phân biệt, không yêu cầu.\n- Cấu trúc: N + を問わず\n#### 📝 Ví dụ minh họa\n性別を問わず、誰でも応募できます。\nKhông phân biệt giới tính, ai cũng có thể ứng tuyển.\n\n#### 2. 〜にかかわりなく・〜にかかわらず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Bất kể, không liên quan đến.\n- Cấu trúc: N / V-ru / V-nai + にかかわりなく・にかかわらず\n#### 📝 Ví dụ minh họa\n天候にかかわらず、イベントは開催されます。\nBất kể thời tiết, sự kiện vẫn được tổ chức.\n\n#### 3. 〜もかまわず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Không màng đến (điều gì đó).\n- Cấu trúc: N / V-ru + もかまわず\n#### 📝 Ví dụ minh họa\n人目もかまわず泣いた。\nTôi khóc mà chẳng màng đến ánh mắt người khác.\n\n#### 4. 〜はともかく（として）\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Tạm thời gác lại A để ưu tiên B.\n- Cấu trúc: N + はともかく（として）\n#### 📝 Ví dụ minh họa\n料理はともかく、雰囲気は良い。\nChưa bàn đến món ăn, không khí ở đây rất tuyệt.\n\n#### 5. 〜はさておき\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Tạm gác lại chuyện A để vào chuyện chính.\n- Cấu trúc: N + はさておき\n#### 📝 Ví dụ minh họa\n冗談はさておき、真面目に話しましょう。\nĐùa đủ rồi, hãy nói chuyện nghiêm túc nào.",
     "skills": [
@@ -650,8 +643,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 11: 〜を問わず・〜にかかわりなく・〜もかまわず...",
-          "description": "Chủ đề: Không quan tâm đến / Bỏ qua",
+          "name": "Shinkanzen N2 — Bài 11 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 11: Không quan tâm đến / Bỏ qua (〜を問わず, 〜にかかわりなく・〜にかかわらず, 〜もかまわず, 〜はともかく（として）, 〜はさておき)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -701,7 +694,7 @@
   },
   {
     "order": 12,
-    "title": "Bài 12: 〜わけがない・〜どころではない・〜ものか...",
+    "title": "Bài 12: Phủ định (〜わけがない, 〜どころではない・〜どころか, 〜ものか, 〜わけではない, 〜というものではない)",
     "summary": "Các cấu trúc thể hiện sự phủ định: 〜わけがない, 〜どころではない・〜どころか, 〜ものか, 〜わけではない, 〜というものではない",
     "theoryMd": "### Bài 12: Ngữ pháp về Phủ định\n\n#### 1. 〜わけがない\n- Ý nghĩa: Tuyệt đối không thể.\n- Cấu trúc: V/A/N (phủ định mạnh)\n\n#### 2. 〜どころではない・〜どころか\n- Ý nghĩa: Không phải mức độ đó, còn hơn thế.\n\n#### 3. 〜ものか\n- Ý nghĩa: Phủ định mạnh mẽ (thường dùng trong văn nói).\n\n#### 4. 〜わけではない\n- Ý nghĩa: Không hẳn là hoàn toàn như vậy.\n\n#### 5. 〜というものではない\n- Ý nghĩa: Không phải cứ A là đương nhiên B.",
     "skills": [
@@ -713,8 +706,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 12: 〜わけがない・〜どころではない・〜ものか...",
-          "description": "Chủ đề: Phủ định",
+          "name": "Shinkanzen N2 — Bài 12 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 12: Phủ định (〜わけがない, 〜どころではない・〜どころか, 〜ものか, 〜わけではない, 〜というものではない)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -764,7 +757,7 @@
   },
   {
     "order": 13,
-    "title": "Bài 13: 〜とは・〜といえば・〜というと...",
+    "title": "Bài 13: Định nghĩa / Liên tưởng (〜とは, 〜といえば, 〜というと, 〜（こと）となると, 〜といったら)",
     "summary": "Các cấu trúc định nghĩa và liên tưởng: 〜とは, 〜といえば, 〜というと, 〜（こと）となると, 〜といったら",
     "theoryMd": "### Bài 13: Định nghĩa và Liên tưởng\n\n- **〜とは**: Định nghĩa từ ngữ.\n- **〜といえば・〜というと**: Gợi nhớ về một chủ đề cụ thể.\n- **〜（こと）となると**: Thái độ thay đổi khi nhắc đến chủ đề.\n- **〜といったら**: Nhấn mạnh cảm xúc cực độ.",
     "skills": [
@@ -776,8 +769,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 13: 〜とは・〜といえば・〜というと...",
-          "description": "Chủ đề: Định nghĩa / Liên tưởng",
+          "name": "Shinkanzen N2 — Bài 13 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 13: Định nghĩa / Liên tưởng (〜とは, 〜といえば, 〜というと, 〜（こと）となると, 〜といったら)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -827,7 +820,7 @@
   },
   {
     "order": 14,
-    "title": "Bài 14: 〜にもかかわらず・〜ものの・〜ながら...",
+    "title": "Bài 14: Dù... nhưng... (〜にもかかわらず, 〜ものの・〜とはいうものの, 〜ながら（も）, 〜つつ（も）, 〜といっても)",
     "summary": "Các cấu trúc nghịch lý: 〜にもかかわらず, 〜ものの・〜とはいうものの, 〜ながら（も）, 〜つつ（も）, 〜といっても",
     "theoryMd": "### Bài 14: Cấu trúc biểu thị sự đối lập\n\nCác cấu trúc trên đều dùng để diễn tả ý **\"Mặc dù A nhưng B\"**. Tuy nhiên, sắc thái mỗi từ có sự khác biệt về hoàn cảnh và mức độ của sự việc.",
     "skills": [
@@ -839,8 +832,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 14: 〜にもかかわらず・〜ものの・〜ながら...",
-          "description": "Chủ đề: Dù... nhưng...",
+          "name": "Shinkanzen N2 — Bài 14 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 14: Dù... nhưng... (〜にもかかわらず, 〜ものの・〜とはいうものの, 〜ながら（も）, 〜つつ（も）, 〜といっても)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -890,7 +883,7 @@
   },
   {
     "order": 15,
-    "title": "Bài 15: 〜としたら・〜ものなら・〜うものなら...",
+    "title": "Bài 15: Giả định (〜としたら・〜とすれば, 〜ものなら, 〜（よ）うものなら, 〜ないことには, 〜を抜きにしては, 〜としても)",
     "summary": "Các cấu trúc giả định: 〜としたら・〜とすれば, 〜ものなら, 〜（よ）うものなら, 〜ないことには, 〜を抜きにしては, 〜としても",
     "theoryMd": "### Bài 15: Cấu trúc giả định\n\n- **〜としたら・〜とすれば**: Đặt giả thuyết.\n- **〜ものなら**: Mong ước trong trường hợp không thể.\n- **〜（よ）うものなら**: Cảnh báo kết quả xấu nếu lỡ làm.\n- **〜ないことには**: Điều kiện cần để B xảy ra.",
     "skills": [
@@ -902,8 +895,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 15: 〜としたら・〜ものなら・〜うものなら...",
-          "description": "Chủ đề: Giả định",
+          "name": "Shinkanzen N2 — Bài 15 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 15: Giả định (〜としたら・〜とすれば, 〜ものなら, 〜（よ）うものなら, 〜ないことには, 〜を抜きにしては, 〜としても)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -960,7 +953,7 @@
   },
   {
     "order": 16,
-    "title": "Bài 16: 〜によって・〜ものだから・〜おかげで...",
+    "title": "Bài 16: Nguyên nhân / Lý do (〜によって, 〜ものながら・〜もので, 〜おかげだ / 〜せいだ, 〜あまり・〜あまりの〜に, 〜につき)",
     "summary": "Các cấu trúc chỉ nguyên nhân lý do: 〜によって, 〜ものながら・〜もので, 〜おかげだ / 〜せいだ, 〜あまり・〜あまりの〜に, 〜につき",
     "theoryMd": "### Bài 16: Các mẫu câu chỉ nguyên nhân, lý do\n\nTrong bài này, chúng ta học cách diễn đạt lý do trong các tình huống từ giao tiếp hàng ngày đến thông báo trang trọng.\n\n### 1. 〜によって\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ nguyên nhân gây ra kết quả hoặc phương thức thực hiện.\n- **Cấu trúc**: N + によって / による + N\n\n#### 📝 Ví dụ minh họa\n- 会長が交替したことによって、会の雰囲気が大きく変わった。\n- この問題は専門家による調査が必要だ。\n\n### 2. 〜ものだから・〜もので・〜もの\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đưa ra lý do để biện hộ, phân trần.\n- **Cấu trúc**: Thể thông thường + ものだから / もので (N/Na + な)\n\n### 3. 〜おかげで / 〜せいで\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhờ có (tích cực) / Tại vì (tiêu cực).\n- **Cấu trúc**: Thể thông thường + おかげで / せいで (N + の, Na + な)\n\n### 4. 〜あまり / 〜あまりの〜に\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Vì quá mức độ dẫn đến kết quả ngoài dự kiến.\n- **Cấu trúc**: V-ru/V-ta/N-no + あまり ; あまりの + N + に\n\n### 5. 〜につき\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Vì lý do... (dùng trong văn bản, thông báo trang trọng).\n- **Cấu trúc**: N + につき",
     "skills": [
@@ -972,8 +965,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 16: 〜によって・〜ものだから・〜おかげで...",
-          "description": "Chủ đề: Nguyên nhân / Lý do",
+          "name": "Shinkanzen N2 — Bài 16 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 16: Nguyên nhân / Lý do (〜によって, 〜ものながら・〜もので, 〜おかげだ / 〜せいだ, 〜あまり・〜あまりの〜に, 〜につき)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -1023,7 +1016,7 @@
   },
   {
     "order": 17,
-    "title": "Bài 17: 〜ことだし・〜のことだから・〜だけに...",
+    "title": "Bài 17: Lý do đưa ra sau (〜ことだし, 〜のことだから, 〜だけに, 〜ばかりに, 〜からには・〜以上(は)・〜上は)",
     "summary": "Các cấu trúc lý do đặc thù: 〜ことだし, 〜のことだから, 〜だけに, 〜ばかりに, 〜からには・〜以上(は)・〜上は",
     "theoryMd": "### Bài 17: Các cấu trúc chỉ lý do đặc thù\n\nCác cấu trúc này nhấn mạnh lý do đi kèm với cảm xúc hoặc sự phán đoán logic.\n\n### 1. 〜ことだし\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đưa ra lý do tiêu biểu, vế sau thường kèm theo ý định, mời mọc.\n- **Cấu trúc**: Thể thông thường + ことだし\n\n### 2. 〜のことだから\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dựa vào tính cách của người nào đó để đưa ra phán đoán chắc chắn.\n- **Cấu trúc**: N + のことだから\n\n### 3. 〜だけに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chính vì... nên kết quả xứng đáng/tương xứng.\n- **Cấu trúc**: Thể thông thường + だけに\n\n### 4. 〜ばかりに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ vì một nguyên nhân duy nhất dẫn đến kết quả xấu.\n- **Cấu trúc**: Thể thông thường + ばかりに\n\n### 5. 〜からには・〜以上は・〜上は\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Một khi đã... thì đương nhiên phải...\n- **Cấu trúc**: V-ru / V-ta + からには/以上は/上は",
     "skills": [
@@ -1035,8 +1028,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 17: 〜ことだし・〜のことだから・〜だけに...",
-          "description": "Chủ đề: Lý do đưa ra sau",
+          "name": "Shinkanzen N2 — Bài 17 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 17: Lý do đưa ra sau (〜ことだし, 〜のことだから, 〜だけに, 〜ばかりに, 〜からには・〜以上(は)・〜上は)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -1086,7 +1079,7 @@
   },
   {
     "order": 18,
-    "title": "Bài 18: 〜がたい・〜わけにはいかない・〜かねる...",
+    "title": "Bài 18: Không thể làm gì (〜がたい, 〜わけにはいかない, 〜かねる, 〜ようがない, 〜どころではない, 〜得る/〜得ない)",
     "summary": "Các cấu trúc diễn tả sự không thể hoặc khó thực hiện: 〜がたい, 〜わけにはいかない, 〜かねる, 〜ようがない, 〜どころではない, 〜得る/〜得ない",
     "theoryMd": "### Bài 18: Các cấu trúc diễn tả sự không thể\n\nNội dung bài học tập trung vào các sắc thái khác nhau của việc không thể thực hiện một hành động.\n\n### 1. 〜がたい\n- Khó làm gì (cảm xúc chủ quan).\n\n### 2. 〜わけにはいかない\n- Không thể làm gì (nguyên tắc, trách nhiệm).\n\n### 3. 〜かねる\n- Khó làm gì (từ chối lịch sự).\n\n### 4. 〜ようがない\n- Không có cách nào để thực hiện.\n\n### 5. 〜どころではない\n- Không phải lúc làm gì đó.\n\n### 6. 〜得る / 〜得ない\n- Có thể / Không thể xảy ra (logic/thực tế).",
     "skills": [
@@ -1098,8 +1091,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 18: 〜がたい・〜わけにはいかない・〜かねる...",
-          "description": "Chủ đề: Không thể làm gì",
+          "name": "Shinkanzen N2 — Bài 18 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 18: Không thể làm gì (〜がたい, 〜わけにはいかない, 〜かねる, 〜ようがない, 〜どころではない, 〜得る/〜得ない)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -1156,7 +1149,7 @@
   },
   {
     "order": 19,
-    "title": "Bài 19: 〜わりに・〜にしては・〜だけのことはある...",
+    "title": "Bài 19: So sánh / Đánh giá (〜わりに（は）, 〜にしては, 〜だけ（のことは）ある, 〜として, 〜にとって, 〜にしたら)",
     "summary": "Các cấu trúc so sánh và góc nhìn: 〜わりに（は）, 〜にしては, 〜だけ（のことは）ある, 〜として, 〜にとって, 〜にしたら",
     "theoryMd": "### Bài 19: So sánh và Đánh giá\n\nNội dung tập trung vào cách biểu đạt quan điểm, sự so sánh và vai trò của các đối tượng.\n\n### 1. 〜わりに / 〜にしては\n- Cả hai đều dùng để so sánh kết quả thực tế với tiêu chuẩn, nhưng 〜にしては thường dùng cho các tiêu chuẩn khách quan hơn.\n\n### 2. 〜だけのことはある\n- Diễn tả sự xứng đáng, kết quả hợp lý.\n\n### 3. 〜として / 〜にとって / 〜にしたら\n- Cách nêu vai trò (として), góc nhìn (にとって) và lập trường (にしたら).",
     "skills": [
@@ -1168,8 +1161,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 19: 〜わりに・〜にしては・〜だけのことはある...",
-          "description": "Chủ đề: So sánh / Đánh giá",
+          "name": "Shinkanzen N2 — Bài 19 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 19: So sánh / Đánh giá (〜わりに（は）, 〜にしては, 〜だけ（のことは）ある, 〜として, 〜にとって, 〜にしたら)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -1226,7 +1219,7 @@
   },
   {
     "order": 20,
-    "title": "Bài 20: 〜たところ・〜きり・〜あげく...",
+    "title": "Bài 20: Kết quả / Sự việc đã xảy ra (〜たところ, 〜きり, 〜あげく, 〜末（に）, 〜ところだった, 〜ずじまいだ)",
     "summary": "Các cấu trúc kết quả: 〜たところ, 〜きり, 〜あげく, 〜末（に）, 〜ところだった, 〜ずじまいだ",
     "theoryMd": "### Bài 20: Các cấu trúc chỉ kết quả và sự việc đã xảy ra\n\nNội dung tập trung vào kết quả của các hành động và trạng thái sau khi một quá trình kết thúc.\n\n### 1. 〜たところ\n- Sau khi làm thử thì phát hiện kết quả mới.\n\n### 2. 〜きり\n- Kể từ lúc đó không còn thay đổi gì nữa.\n\n### 3. 〜あげく / 〜末（に）\n- Sự khác biệt về sắc thái: 〜あげく (kết quả xấu) vs 〜末（に） (quyết định, nỗ lực).\n\n### 4. 〜ところだった\n- Suýt nữa thì xảy ra việc gì đó.\n\n### 5. 〜ずじまいだ\n- Định làm nhưng không làm được, kết thúc trong tiếc nuối.",
     "skills": [
@@ -1238,8 +1231,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 20: 〜たところ・〜きり・〜あげく...",
-          "description": "Chủ đề: Kết quả / Sự việc đã xảy ra",
+          "name": "Shinkanzen N2 — Bài 20 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 20: Kết quả / Sự việc đã xảy ra (〜たところ, 〜きり, 〜あげく, 〜末（に）, 〜ところだった, 〜ずじまいだ)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -1296,7 +1289,7 @@
   },
   {
     "order": 21,
-    "title": "Bài 21: 〜ぐらい・〜など・〜まで...",
+    "title": "Bài 21: Mức độ (〜ぐらい・〜くらい, 〜など・〜なんて・〜なんか, 〜まで・〜までして, 〜として〜ない, 〜さえ, 〜てでも)",
     "summary": "Các cấu trúc chỉ mức độ: 〜ぐらい・〜くらい, 〜など・〜なんて・〜なんか, 〜まで・〜までして, 〜として〜ない, 〜さえ, 〜てでも",
     "theoryMd": "# Bài 21: Mức độ\n\n### 1. 〜ぐらい・〜くらい\n#### 💡 Cấu trúc & Ý nghĩa\n- N / V-ru + ぐらい・くらい\n- Ý nghĩa: Mức độ tối thiểu, hoặc ước lượng.\n#### 📝 Ví dụ minh họa\n- うちに帰ってきたら、自分の靴ぐらいちゃんと並べなさい。（Sau khi về, ít nhất hãy xếp giày gọn gàng）\n\n### 2. 〜など・〜なんて・〜なんか\n#### 💡 Cấu trúc & Ý nghĩa\n- N / Thể thường + など・なんて・なんか\n- Ý nghĩa: Coi nhẹ, hạ thấp đối tượng.\n#### 📝 Ví dụ minh họa\n- 私なんかまだまだ勉強が足りません。（Cỡ như tôi thì vẫn chưa đủ trình độ）\n\n### 3. 〜まで・〜までして・〜てまで\n#### 💡 Cấu trúc & Ý nghĩa\n- N/V-te + まで / までして\n- Ý nghĩa: Đến mức cực đoan.\n#### 📝 Ví dụ minh họa\n- 借金をしてまで高い車を買う必要はない。（Không cần phải vay nợ để mua xe sang）\n\n### 4. 〜として〜ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Số từ + として + V-nai\n- Ý nghĩa: Phủ định hoàn toàn.\n#### 📝 Ví dụ minh họa\n- 人生に無駄なものは何一つとしてない。（Không có gì là vô nghĩa cả）\n\n### 5. 〜さえ\n#### 💡 Cấu trúc & Ý nghĩa\n- N/V-te + さえ\n- Ý nghĩa: Ngay cả, đến cả.\n#### 📝 Ví dụ minh họa\n- ひらがなさえ読めなかった。（Ngay cả Hiragana cũng không đọc được）\n\n### 6. 〜てでも\n#### 💡 Cấu trúc & Ý nghĩa\n- V-te + でも\n- Ý nghĩa: Dù có phải làm gì đó (cực đoan).\n#### 📝 Ví dụ minh họa\n- 薬を飲んででも行く。（Dù có phải uống thuốc cũng sẽ đi）",
     "skills": [
@@ -1308,8 +1301,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 21: 〜ぐらい・〜など・〜まで...",
-          "description": "Chủ đề: Mức độ",
+          "name": "Shinkanzen N2 — Bài 21 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 21: Mức độ (〜ぐらい・〜くらい, 〜など・〜なんて・〜なんか, 〜まで・〜までして, 〜として〜ない, 〜さえ, 〜てでも)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -1366,7 +1359,7 @@
   },
   {
     "order": 22,
-    "title": "Bài 22: 〜とみえる・〜かねない・〜おそれがある...",
+    "title": "Bài 22: Phán đoán (〜とみえる, 〜かねない, 〜おそれがある, 〜に違いない・に相違ない, 〜にきまっている)",
     "summary": "Các cấu trúc phán đoán: 〜とみえる, 〜かねない, 〜おそれがある, 〜に違いない・に相違ない, 〜にきまっている",
     "theoryMd": "# Bài 22: Phán đoán\n\n### 1. 〜とみえる\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường + とみえる\n- Ý nghĩa: Phán đoán dựa trên chứng cứ.\n#### 📝 Ví dụ minh họa\n- ずいぶん暇だとみえる。（Trông có vẻ khá là rảnh）\n\n### 2. 〜かねない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-masu + かねない\n- Ý nghĩa: Có khả năng xảy ra kết quả xấu.\n#### 📝 Ví dụ minh họa\n- 大事故を起こしかねない。（E rằng sẽ gây tai nạn lớn）\n\n### 3. 〜おそれがある\n#### 💡 Cấu trúc & Ý nghĩa\n- Nの / V-ru + おそれがある\n- Ý nghĩa: Nguy cơ xảy ra chuyện xấu.\n#### 📝 Ví dụ minh họa\n- 大雨のおそれがあります。（Có nguy cơ mưa lớn）\n\n### 4. 〜に違いない・に相違ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường (A-na/N bỏ da) + に違いない\n- Ý nghĩa: Chắc chắn là.\n#### 📝 Ví dụ minh họa\n- 彼も慣れたに違いない。（Chắc chắn anh ấy đã quen）\n\n### 5. 〜にきまっている\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường + にきまっている\n- Ý nghĩa: Chắc chắn (chủ quan).\n#### 📝 Ví dụ minh họa\n- 体に悪いにきまっています。（Chắc chắn là có hại cho sức khỏe）",
     "skills": [
@@ -1378,8 +1371,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 22: 〜とみえる・〜かねない・〜おそれがある...",
-          "description": "Chủ đề: Phán đoán",
+          "name": "Shinkanzen N2 — Bài 22 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 22: Phán đoán (〜とみえる, 〜かねない, 〜おそれがある, 〜に違いない・に相違ない, 〜にきまっている)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -1429,7 +1422,7 @@
   },
   {
     "order": 23,
-    "title": "Bài 23: 〜ものだ・〜というものだ・〜にすぎない...",
+    "title": "Bài 23: Lẽ thường / Giới hạn (〜ものだ, 〜というものだ, 〜にすぎない, 〜にほかならない, 〜に越したことはない)",
     "summary": "Các cấu trúc khẳng định lẽ thường hoặc giới hạn: 〜ものだ, 〜というものだ, 〜にすぎない, 〜にほかならない, 〜に越したことはない",
     "theoryMd": "# Bài 23: Lẽ thường / Giới hạn\n\n### 1. 〜ものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru/A-i/A-na + ものだ\n- Ý nghĩa: Lẽ thường, chân lý.\n#### 📝 Ví dụ minh họa\n- どんな人にもくせがあるものだ。（Ai cũng có thói xấu）\n\n### 2. 〜というものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- N/Thể thường + というものだ\n- Ý nghĩa: Khẳng định tính hiển nhiên.\n#### 📝 Ví dụ minh họa\n- プライバシーの侵害というものだ。（Đúng là xâm phạm đời tư）\n\n### 3. 〜にすぎない\n#### 💡 Cấu trúc & Ý nghĩa\n- N/V-ru + にすぎない\n- Ý nghĩa: Chỉ là, không hơn.\n#### 📝 Ví dụ minh họa\n- ただの噂話にすぎない。（Chỉ là tin đồn nhảm）\n\n### 4. 〜にほかならない\n#### 💡 Cấu trúc & Ý nghĩa\n- N + にほかならない\n- Ý nghĩa: Chính là (nhấn mạnh lý do).\n#### 📝 Ví dụ minh họa\n- 本人の努力の結果にほかならない。（Chính là kết quả của nỗ lực）\n\n### 5. 〜に越したことはない\n#### 💡 Cấu trúc & Ý nghĩa\n- V/A/N + に越したことはない\n- Ý nghĩa: Là tốt nhất.\n#### 📝 Ví dụ minh họa\n- 軽いに越したことはない。（Nhẹ là tốt nhất）",
     "skills": [
@@ -1441,8 +1434,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 23: 〜ものだ・〜というものだ・〜にすぎない...",
-          "description": "Chủ đề: Lẽ thường / Giới hạn",
+          "name": "Shinkanzen N2 — Bài 23 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 23: Lẽ thường / Giới hạn (〜ものだ, 〜というものだ, 〜にすぎない, 〜にほかならない, 〜に越したことはない)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -1492,7 +1485,7 @@
   },
   {
     "order": 24,
-    "title": "Bài 24: 〜うではないか・〜ことだ・〜ものだ...",
+    "title": "Bài 24: Khuyên bảo / Phủ định ý định (〜しかない, 〜べきだ, 〜（よ）うではないか, 〜ことだ, 〜ものだ, 〜ことはない, 〜まい, 〜ものか)",
     "summary": "Các cấu trúc lời khuyên và phủ định ý chí: 〜しかない, 〜べきだ, 〜（よ）うではないか, 〜ことだ, 〜ものだ, 〜ことはない, 〜まい, 〜ものか",
     "theoryMd": "# Bài 24: Khuyên bảo / Phủ định ý định\n\n### 1. 〜（よ）うではないか\n#### 💡 Cấu trúc & Ý nghĩa\n- V-vol + ではないか\n- Ý nghĩa: Kêu gọi trang trọng.\n#### 📝 Ví dụ minh họa\n- 考えてみようではないか。（Hãy cùng suy nghĩ đi）\n\n### 2. 〜ことだ\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru/nai + ことだ\n- Ý nghĩa: Lời khuyên cụ thể.\n#### 📝 Ví dụ minh họa\n- 食べないことです。（Không nên ăn）\n\n### 3. 〜ものだ / 〜ものではない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru + ものだ/ものではない\n- Ý nghĩa: Lời khuyên lẽ thường.\n#### 📝 Ví dụ minh họa\n- 大切にするものだ。（Nên trân trọng）\n\n### 4. 〜ことはない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru + ことはない\n- Ý nghĩa: Không cần thiết.\n#### 📝 Ví dụ minh họa\n- 気にすることはない。（Không cần bận tâm）\n\n### 5. 〜まい / 〜(よ)うか〜まいか\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru/masu + まい\n- Ý nghĩa: Quyết không làm / Phân vân.\n#### 📝 Ví dụ minh họa\n- 二度とするまい。（Quyết không làm lần hai）\n\n### 6. 〜ものか\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường + ものか\n- Ý nghĩa: Tuyệt đối không.\n#### 📝 Ví dụ minh họa\n- 負けるものか。（Đời nào chịu thua）",
     "skills": [
@@ -1504,8 +1497,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 24: 〜うではないか・〜ことだ・〜ものだ...",
-          "description": "Chủ đề: Khuyên bảo / Phủ định ý định",
+          "name": "Shinkanzen N2 — Bài 24 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 24: Khuyên bảo / Phủ định ý định (〜しかない, 〜べきだ, 〜（よ）うではないか, 〜ことだ, 〜ものだ, 〜ことはない, 〜まい, 〜ものか)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -1576,7 +1569,7 @@
   },
   {
     "order": 25,
-    "title": "Bài 25: 〜てしかたがない・〜てならない・〜ないではいられない...",
+    "title": "Bài 25: Cảm xúc (〜てしかたがない, 〜てならない, 〜ないではいられない, 〜ないわけに（は）いかない, 〜ざるを得ない)",
     "summary": "Các cấu trúc thể hiện cảm xúc và sự bất khả kháng: 〜てしかたがない, 〜てならない, 〜ないではいられない, 〜ないわけに（は）いかない, 〜ざるを得ない",
     "theoryMd": "# Bài 25: Cảm xúc\n\n### 1. 〜てしかたがない / 〜てたまらない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-te / A-kute / A-na-de + しかたがない\n- Ý nghĩa: Cảm xúc cực độ.\n#### 📝 Ví dụ minh họa\n- 不便でしかたがない。（Bất tiện không chịu nổi）\n\n### 2. 〜てならない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-te / A-kute / A-na-de + ならない\n- Ý nghĩa: Vô cùng (tự phát).\n#### 📝 Ví dụ minh họa\n- 心配でならない。（Vô cùng lo lắng）\n\n### 3. 〜ないではいられない / 〜ずにはいられない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-nai + ないではいられない\n- Ý nghĩa: Không thể không làm.\n#### 📝 Ví dụ minh họa\n- 笑わずにはいられない。（Không thể nhịn cười）\n\n### 4. 〜ないわけにはいかない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-nai + わけにはいかない\n- Ý nghĩa: Buộc phải làm (nghĩa vụ).\n#### 📝 Ví dụ minh họa\n- 出席しないわけにはいかない。（Không thể không tham dự）\n\n### 5. 〜ざるを得ない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-nai + ざるを得ない\n- Ý nghĩa: Đành phải làm.\n#### 📝 Ví dụ minh họa\n- 歩いて帰らざるを得ない。（Đành phải đi bộ về）",
     "skills": [
@@ -1588,8 +1581,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 25: 〜てしかたがない・〜てならない・〜ないではいられない...",
-          "description": "Chủ đề: Cảm xúc",
+          "name": "Shinkanzen N2 — Bài 25 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài 25: Cảm xúc (〜てしかたがない, 〜てならない, 〜ないではいられない, 〜ないわけに（は）いかない, 〜ざるを得ない)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -1639,7 +1632,7 @@
   },
   {
     "order": 26,
-    "title": "Bài cuối: 〜たいものだ・〜ものだ・〜ないものか...",
+    "title": "Bài cuối: Nguyện vọng / Cảm nhận (〜たいものだ, 〜ものだ, 〜ないもの（だろう）か, 〜ものがある, 〜ことだ, 〜ことだろう・〜ことか)",
     "summary": "Các cấu trúc diễn tả cảm xúc cuối bài: 〜たいものだ, 〜ものだ, 〜ないもの（だろう）か, 〜ものがある, 〜ことだ, 〜ことだろう・〜ことか",
     "theoryMd": "# Bài cuối: Nguyện vọng và Cảm nhận\n\nTrong bài này, chúng ta sẽ học các mẫu câu dùng để bộc lộ cảm xúc, mong muốn hoặc những ấn tượng mạnh mẽ đối với sự việc.\n\n### 1. 〜たいものだ・〜てほしいものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả nguyện vọng, mong muốn mạnh mẽ từ tận đáy lòng.\n- **Cấu trúc**: V-masu (bỏ masu) + たいものだ / V-te + ほしいものだ\n\n#### 📝 Ví dụ minh họa\n- 早く春にならないものかな。(Giá mà mùa xuân mau đến nhỉ.)\n- ぜひ一度見てみたいものです。(Tôi rất muốn đến xem một lần.)\n\n### 2. 〜ものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để hồi tưởng thói quen trong quá khứ (V-ta) hoặc khẳng định một sự thật hiển nhiên (V-ru).\n- **Cấu trúc**: V-ta / V-ru + ものだ\n\n#### 📝 Ví dụ minh họa\n- 子供のころ、夏になるとこの川で泳いだものです。(Hồi nhỏ, cứ đến mùa hè là tôi hay bơi ở dòng sông này.)\n- 人生とは、思い通りにいかないものだ。(Cuộc đời là vậy, không phải lúc nào cũng diễn ra đúng như ý muốn.)\n\n### 3. 〜ないもの（だろう）か\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Mong mỏi một điều gì đó xảy ra dù rất khó thực hiện.\n- **Cấu trúc**: V-nai + もの（だろう）か\n\n#### 📝 Ví dụ minh họa\n- 何とか解決できないものだろうか。(Liệu có cách nào giải quyết được bài toán khó này không nhỉ.)\n\n### 4. 〜ものがある\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh cảm giác/ấn tượng mạnh mẽ về một sự việc.\n- **Cấu trúc**: V-ru / A-i / A-na (na) + ものがある\n\n#### 📝 Ví dụ minh họa\n- 彼の話にはどこか納得できるものがある。(Trong câu chuyện của anh ấy có điểm gì đó khiến người ta thấy thuyết phục.)\n\n### 5. 〜ことだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh cảm xúc ngạc nhiên, cảm thán.\n- **Cấu trúc**: V-ta / A-i / A-na (na) + ことだ\n\n#### 📝 Ví dụ minh họa\n- 試験に合格できて、なんと嬉しいことだ。(Thi đỗ kỳ thi rồi, vui mừng biết bao.)\n\n### 6. 〜ことだろう・〜ことか\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh mức độ cảm xúc rất cao (kết hợp với từ nghi vấn).\n- **Cấu trúc**: (Từ nghi vấn) + V/A/Na + ことだろう/ことか\n\n#### 📝 Ví dụ minh họa\n- ご両親はどんなに心配していることか。(Bố mẹ đã lo lắng cho bạn biết bao.)",
     "skills": [
@@ -1651,8 +1644,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài cuối: 〜たいものだ・〜ものだ・〜ないものか...",
-          "description": "Chủ đề: Nguyện vọng / Cảm nhận",
+          "name": "Shinkanzen N2 — Bài 26 — Ngữ pháp",
+          "description": "Bộ thẻ ngữ pháp cho: Bài cuối: Nguyện vọng / Cảm nhận (〜たいものだ, 〜ものだ, 〜ないもの（だろう）か, 〜ものがある, 〜ことだ, 〜ことだろう・〜ことか)",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [

@@ -108,6 +108,18 @@ export function fuzzyMatch(userAnswer, correctAnswer) {
  * @param {number} count        - number of distractors needed (default 3)
  * @returns {string[]} array of unique distractor strings
  */
+const FALLBACK_JA = [
+  '日本', '学生', '先生', '学校', '友達', '本', '車', '水', '魚', '肉', '野菜', 
+  '果物', '時間', '今日', '明日', '昨日', '毎日', '日本語', '英語', '電話', 
+  '部屋', '食堂', '机', '椅子', '手紙', '写真', '音楽', '映画', '旅行', '宿題'
+];
+
+const FALLBACK_VI = [
+  'Nhật Bản', 'Học sinh', 'Giáo viên', 'Trường học', 'Bạn bè', 'Sách', 'Ô tô', 'Nước', 'Cá', 'Thịt', 'Rau',
+  'Hoa quả', 'Thời gian', 'Hôm nay', 'Ngày mai', 'Hôm qua', 'Mỗi ngày', 'Tiếng Nhật', 'Tiếng Anh', 'Điện thoại',
+  'Căn phòng', 'Nhà ăn', 'Cái bàn', 'Cái ghế', 'Thư', 'Bức ảnh', 'Âm nhạc', 'Bộ phim', 'Du lịch', 'Bài tập về nhà'
+];
+
 export function generateDistractors(answer, allCards, cardId, field = 'back', count = 3) {
   const normAnswer = normalizeAnswer(answer);
   const seen = new Set([normAnswer]);
@@ -125,10 +137,23 @@ export function generateDistractors(answer, allCards, cardId, field = 'back', co
     }
   }
 
-  // Pad if deck has fewer than count+1 unique cards
+  // Pad if deck has fewer than count+1 unique cards with quality words
+  const fallbacks = field === 'front' ? FALLBACK_JA : FALLBACK_VI;
+  let fallbackIdx = 0;
+  while (distractors.length < count && fallbackIdx < fallbacks.length) {
+    const fallbackText = fallbacks[fallbackIdx];
+    const normFallback = normalizeAnswer(fallbackText);
+    if (!seen.has(normFallback)) {
+      seen.add(normFallback);
+      distractors.push(fallbackText);
+    }
+    fallbackIdx++;
+  }
+
+  // Emergency final fallback padding
   let padIdx = 2;
   while (distractors.length < count) {
-    distractors.push(`Phương án ${distractors.length + padIdx}`);
+    distractors.push(field === 'front' ? `言葉 ${distractors.length + padIdx}` : `Phương án ${distractors.length + padIdx}`);
     padIdx++;
   }
 
@@ -173,11 +198,14 @@ export function getDirectionLabels(direction) {
 export function romajiToHiragana(romaji) {
   let text = romaji.toLowerCase().trim();
   
-  // Handle double consonants: e.g. kk -> っk, tch -> っch
+  // Handle double consonants: e.g. kk -> っk, tch -> っch (excluding 'n' since 'nn' maps to 'ん')
   text = text.replace(/tc/g, 'っc');
-  text = text.replace(/([bcdfghjklmpqrstvwxyz])\1/g, 'っ$1');
+  text = text.replace(/([bcdfghjklmprstvwxyz])\1/g, 'っ$1');
   
   const mapping = {
+    // 4 chars
+    'nnya': 'んにゃ', 'nnyu': 'んにゅ', 'nnyo': 'んにょ',
+    
     // 3 chars
     'kya': 'きゃ', 'kyu': 'きゅ', 'kyo': 'きょ',
     'sha': 'しゃ', 'shu': 'しゅ', 'sho': 'しょ',
@@ -191,6 +219,7 @@ export function romajiToHiragana(romaji) {
     'bya': 'びゃ', 'byu': 'びゅ', 'byo': 'びょ',
     'pya': 'ぴゃ', 'pyu': 'ぴゅ', 'pyo': 'ぴょ',
     'tsu': 'つ', 'chi': 'ち', 'shi': 'し',
+    'nna': 'んな', 'nni': 'んに', 'nnu': 'んぬ', 'nne': 'んね', 'nno': 'んの',
     
     // 2 chars
     'ka': 'か', 'ki': 'き', 'ku': 'く', 'ke': 'け', 'ko': 'こ',
@@ -218,7 +247,7 @@ export function romajiToHiragana(romaji) {
   let i = 0;
   while (i < text.length) {
     let matched = false;
-    for (let len = 3; len >= 1; len--) {
+    for (let len = 4; len >= 1; len--) {
       if (i + len <= text.length) {
         const substr = text.substring(i, i + len);
         if (mapping[substr]) {
@@ -254,9 +283,8 @@ export function normalizeToHiragana(text) {
     result = romajiToHiragana(result);
   }
   
-  // Phonetic normalization: convert 'は' (read as 'wa') to 'わ'
-  // and convert long vowel symbols 'ー' to appropriate hiragana vowels (or ignore for spelling checks)
-  result = result.replace(/は/g, 'わ');
+  // Phonetic normalization: long vowel symbols 'ー' can be normalized if needed,
+  // but we remove the global 'は' -> 'わ' conversion to prevent wrong spelling matching.
   
   return result;
 }
@@ -306,7 +334,7 @@ export function fuzzyMatchReading(userAnswer, card) {
     const normR = normalizeToHiragana(r);
     if (normR) {
       const distance = levenshtein(normUser, normR);
-      const tolerance = normR.length <= 5 ? 1 : 2;
+      const tolerance = normR.length <= 3 ? 0 : normR.length <= 6 ? 1 : 2;
       if (distance <= tolerance) {
         return { isExact: false, isFuzzy: true, distance };
       }
@@ -315,4 +343,219 @@ export function fuzzyMatchReading(userAnswer, card) {
   
   return { isExact: false, isFuzzy: false, distance: 99 };
 }
+
+/**
+ * Generates smart grammatical distractors for sentence completion questions.
+ * Focuses on particles, verb/adjective inflections, or grammar suffix variations.
+ * Falls back to deck-based distractors if it cannot generate enough smart distractors.
+ *
+ * @param {string} answer - the correct target word/phrase (e.g. card.front)
+ * @param {object[]} allCards - other cards in the deck
+ * @param {string} cardId - current card ID
+ * @param {number} count - number of distractors needed
+ * @returns {string[]} array of unique distractors
+ */
+export function generateSmartDistractorsForSentence(answer, allCards, cardId, count = 3) {
+  const cleanAnswer = answer
+    .replace(/^[〜~]/, '')
+    .replace(/[〜~]$/, '')
+    .replace(/[（\(].*?[）\)]/g, '')
+    .trim();
+
+  const seen = new Set([normalizeAnswer(cleanAnswer), normalizeAnswer(answer)]);
+  const trimAnswer = cleanAnswer;
+  const distractors = [];
+
+  // Helper to add clean options
+  const addOption = (opt) => {
+    if (distractors.length >= count) return;
+    const cleanOpt = opt.trim();
+    const norm = normalizeAnswer(cleanOpt);
+    if (!seen.has(norm) && cleanOpt !== '') {
+      seen.add(norm);
+      distractors.push(cleanOpt);
+    }
+  };
+
+  // 1. Particles: if it is a single/double character common particle
+  const commonParticles = ['に', 'が', 'を', 'は', 'で', 'も', 'と', 'へ', 'の', 'から', 'まで', 'より', 'や', 'し', 'ね', 'よ'];
+  if (commonParticles.includes(trimAnswer)) {
+    // Select other particles randomly
+    const candidates = commonParticles.filter(p => p !== trimAnswer).sort(() => 0.5 - Math.random());
+    for (const c of candidates) {
+      addOption(c);
+    }
+  }
+
+  // 2. Verb/Adjective / Suffix Inflections
+  // A. Ends with て / で (Te-form or Te-form like grammar suffixes: e.g. にともなって, あたって, に際して)
+  if (distractors.length < count && (trimAnswer.endsWith('て') || trimAnswer.endsWith('で')) && trimAnswer.length > 1) {
+    if (trimAnswer.endsWith('って')) {
+      const stem = trimAnswer.slice(0, -2);
+      const variations = [
+        stem + 'う',
+        stem + 'った',
+        stem + 'わない',
+        stem + 'います',
+        stem + 'い',
+        stem + 'えば'
+      ];
+      for (const v of variations) addOption(v);
+    } else if (trimAnswer.endsWith('して')) {
+      const stem = trimAnswer.slice(0, -2);
+      const variations = [
+        stem + 'する',
+        stem + 'した',
+        stem + 'しない',
+        stem + 'します',
+        stem + 'し',
+        stem + 'すれば'
+      ];
+      for (const v of variations) addOption(v);
+    } else if (trimAnswer.endsWith('くて')) {
+      const stem = trimAnswer.slice(0, -2);
+      const variations = [
+        stem + 'い',
+        stem + 'かった',
+        stem + 'くない',
+        stem + 'ければ',
+        stem + 'く',
+        stem + 'さ'
+      ];
+      for (const v of variations) addOption(v);
+    } else if (trimAnswer.endsWith('て')) {
+      const stem = trimAnswer.slice(0, -1);
+      const variations = [
+        stem + 'る',
+        stem + 'た',
+        stem + 'ない',
+        stem + 'ます',
+        stem + 'れば',
+        stem + 'よう'
+      ];
+      for (const v of variations) addOption(v);
+    } else if (trimAnswer.endsWith('んで')) {
+      const stem = trimAnswer.slice(0, -2);
+      const variations = [
+        stem + 'む',
+        stem + 'ぶ',
+        stem + 'んだ',
+        stem + 'まない',
+        stem + 'ばない',
+        stem + 'みます',
+        stem + 'びます'
+      ];
+      for (const v of variations) addOption(v);
+    } else if (trimAnswer.endsWith('いで')) {
+      const stem = trimAnswer.slice(0, -2);
+      const variations = [
+        stem + 'ぐ',
+        stem + 'いだ',
+        stem + 'がない',
+        stem + 'ぎます',
+        stem + 'げば'
+      ];
+      for (const v of variations) addOption(v);
+    } else if (trimAnswer.endsWith('いて')) {
+      const stem = trimAnswer.slice(0, -2);
+      const variations = [
+        stem + 'く',
+        stem + 'いた',
+        stem + 'かない',
+        stem + 'きます',
+        stem + 'けば'
+      ];
+      for (const v of variations) addOption(v);
+    } else {
+      const stem = trimAnswer.slice(0, -1);
+      const variations = [
+        stem + (trimAnswer.endsWith('で') ? 'だ' : 'た'),
+        stem + (trimAnswer.endsWith('で') ? 'ず' : 'ない'),
+        stem + 'る',
+        stem + 'ます'
+      ];
+      for (const v of variations) addOption(v);
+    }
+  }
+
+  // B. i-Adjective inflection: ends with い (e.g. 新しい, 高い)
+  if (distractors.length < count && trimAnswer.endsWith('い') && trimAnswer.length > 1 && !trimAnswer.endsWith('てい')) {
+    const stem = trimAnswer.slice(0, -1);
+    const variations = [
+      stem + 'かった',
+      stem + 'くない',
+      stem + 'ければ',
+      stem + 'く',
+      stem + 'さ'
+    ];
+    for (const v of variations) addOption(v);
+  }
+
+  // C. Verb inflection: ends with dictionary verb endings
+  const verbEndings = ['う', 'つ', 'る', 'む', 'ぬ', 'ぶ', 'く', 'ぐ', 'す'];
+  const lastChar = trimAnswer.slice(-1);
+  if (distractors.length < count && verbEndings.includes(lastChar) && trimAnswer.length > 1) {
+    const stem = trimAnswer.slice(0, -1);
+    let options = [];
+    if (lastChar === 'く') {
+      options = [stem + 'いて', stem + 'いた', stem + 'かない', stem + 'きます', stem + 'けば'];
+    } else if (lastChar === 'ぐ') {
+      options = [stem + 'いで', stem + 'いだ', stem + 'がない', stem + 'ぎます', stem + 'げば'];
+    } else if (lastChar === 'す') {
+      options = [stem + 'して', stem + 'した', stem + 'さない', stem + 'します', stem + 'せば'];
+    } else if (lastChar === 'つ') {
+      options = [stem + 'って', stem + 'った', stem + 'たない', stem + 'chます', stem + 'てば'];
+    } else if (lastChar === 'ぬ') {
+      options = [stem + 'んで', stem + 'んだ', stem + 'なない', stem + 'にます', stem + 'ねば'];
+    } else if (lastChar === 'ぶ') {
+      options = [stem + 'んで', stem + 'んだ', stem + 'ばない', stem + 'びます', stem + 'べば'];
+    } else if (lastChar === 'む') {
+      options = [stem + 'んで', stem + 'んだ', stem + 'まない', stem + 'みます', stem + 'めば'];
+    } else if (lastChar === 'う') {
+      options = [stem + 'って', stem + 'った', stem + 'わない', stem + 'います', stem + 'えば'];
+    } else if (lastChar === 'る') {
+      options = [
+        stem + 'て', stem + 'た', stem + 'ない', stem + 'ます',
+        stem + 'って', stem + 'った', stem + 'らない', stem + 'ります', stem + 'れば'
+      ];
+    }
+    options.sort(() => 0.5 - Math.random());
+    for (const o of options) {
+      addOption(o);
+    }
+  }
+
+  // 3. Fallback to similar cards in the same deck (e.g. other grammar structures or vocabulary)
+  if (distractors.length < count) {
+    const deckPool = allCards.filter(c => c.id !== cardId).map(c => c.front);
+    deckPool.sort(() => 0.5 - Math.random());
+    for (const word of deckPool) {
+      addOption(word);
+    }
+  }
+
+  // 4. Final safety fallbacks (use smarter, level-appropriate words if we know them)
+  const fallbackJa = [
+    'これ', 'それ', 'あれ', 'どれ', 'ここ', 'そこ', 'あそこ', 'どこ',
+    'なに', 'だれ', 'いつ', 'どうして', 'nghĩa', 'いくら', 'いくつ',
+    'しかし', '그리고', 'だから', '즉', 'たとえば', '또는',
+    'いつも', 'ときどき', 'ぜんぜん', 'ちかく', 'すこし', 'とても'
+  ];
+  fallbackJa.sort(() => 0.5 - Math.random());
+  let fallbackIdx = 0;
+  while (distractors.length < count && fallbackIdx < fallbackJa.length) {
+    addOption(fallbackJa[fallbackIdx]);
+    fallbackIdx++;
+  }
+
+  // Emergency safety pads
+  let padIdx = 2;
+  while (distractors.length < count) {
+    distractors.push(`言葉 ${distractors.length + padIdx}`);
+    padIdx++;
+  }
+
+  return distractors;
+}
+
 

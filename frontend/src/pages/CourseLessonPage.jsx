@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import ReactMarkdown from 'react-markdown';
@@ -123,6 +123,154 @@ function buildQuestions(cards, count) {
 // ============================================================
 
 /** Single grammar point card */
+
+/** Phân tích trường back thành các cấu trúc nhỏ: Ý nghĩa, Cấu trúc, Giải thích, Cách dùng */
+function parseBackContent(backText) {
+  if (!backText) return { meaning: '', formula: '', explanation: '', usage: '' };
+
+  const result = {
+    meaning: '',
+    formula: '',
+    explanation: '',
+    usage: ''
+  };
+
+  const lines = backText.split('\n');
+  let currentKey = '';
+
+  lines.forEach(line => {
+    const trimmed = line.trim();
+    if (!trimmed) return;
+
+    const meaningMatch = trimmed.match(/^(?:[^\p{L}]|\s|[0-9a-zA-Z]|[一二三四五六七八九十])*(?:Ý\s*nghĩa|Nghĩa)\s*:/iu);
+    const formulaMatch = trimmed.match(/^(?:[^\p{L}]|\s|[0-9a-zA-Z]|[一二三四五六七八九十])*Cấu\s*trúc\s*:/iu);
+    const explanationMatch = trimmed.match(/^(?:[^\p{L}]|\s|[0-9a-zA-Z]|[一二三四五六七八九十])*Giải\s*thích\s*(?:thêm\s*)?:/iu);
+    const usageMatch = trimmed.match(/^(?:[^\p{L}]|\s|[0-9a-zA-Z]|[一二三四五六七八九十])*Cách\s*dùng\s*:/iu);
+
+    if (meaningMatch) {
+      currentKey = 'meaning';
+      result.meaning += (result.meaning ? '\n' : '') + trimmed.substring(meaningMatch[0].length).trim();
+    } else if (formulaMatch) {
+      currentKey = 'formula';
+      result.formula += (result.formula ? '\n' : '') + trimmed.substring(formulaMatch[0].length).trim();
+    } else if (explanationMatch) {
+      currentKey = 'explanation';
+      result.explanation += (result.explanation ? '\n' : '') + trimmed.substring(explanationMatch[0].length).trim();
+    } else if (usageMatch) {
+      currentKey = 'usage';
+      result.usage += (result.usage ? '\n' : '') + trimmed.substring(usageMatch[0].length).trim();
+    } else {
+      if (currentKey) {
+        result[currentKey] += (result[currentKey] ? '\n' : '') + trimmed;
+      } else {
+        result.meaning += (result.meaning ? '\n' : '') + trimmed;
+      }
+    }
+  });
+
+  return result;
+}
+
+
+/** Chuẩn hóa các từ loại viết tắt trong công thức ngữ pháp */
+function normalizeGrammarToken(token) {
+  let t = token.trim();
+  
+  if (/^(?:V-plain|Thể thông thường|V\s*thông thường|V-plain\s*\(thông thường\))$/i.test(t)) {
+    return 'V-plain';
+  }
+  if (/^(?:V-ru|Động từ thể từ điển|V\s*từ điển|V-ru\s*\(từ điển\))$/i.test(t)) {
+    return 'V-ru';
+  }
+  if (/^(?:V-masu\s*\(bỏ\s*masu\)|V-masu\s*\(bỏ\s*ます\))$/i.test(t)) {
+    return 'V-masu (bỏ masu)';
+  }
+  if (/^(?:V-ta|Động từ thể quá khứ|V-ta\s*\(quá khứ\))$/i.test(t)) {
+    return 'V-ta';
+  }
+  if (/^(?:V-te|Động từ thể te|V-te\s*\(thể te\))$/i.test(t)) {
+    return 'V-te';
+  }
+  if (/^(?:A-i|Tính từ đuôi i|Tính từ -i)$/i.test(t)) {
+    return 'A-i';
+  }
+  if (/^(?:A-na|Tính từ đuôi na|Tính từ -na)$/i.test(t)) {
+    return 'A-na';
+  }
+  if (/^(?:N|Danh từ)$/i.test(t)) {
+    return 'N';
+  }
+  
+  return t;
+}
+
+/** Renders connection formula with formatted badges and primary suffix */
+function renderFormula(formulaStr) {
+  if (!formulaStr) return null;
+
+  if (formulaStr.includes('+')) {
+    const plusIndex = formulaStr.indexOf('+');
+    const left = formulaStr.substring(0, plusIndex).trim();
+    const right = formulaStr.substring(plusIndex + 1).trim();
+
+    const leftPills = left.split('/').map(p => p.trim()).filter(Boolean);
+
+    return (
+      <div className="flex flex-wrap items-center gap-1.5 py-1">
+        <div className="flex flex-wrap items-center gap-1">
+          {leftPills.map((pill, idx) => {
+            const normalized = normalizeGrammarToken(pill);
+            return (
+              <React.Fragment key={idx}>
+                {idx > 0 && <span className="text-on-surface-variant/40 text-xs px-0.5 font-bold">/</span>}
+                <span className="inline-flex items-center px-1.5 py-0.5 text-[11px] font-mono font-semibold bg-surface-container border border-outline-variant/60 text-on-surface-variant/80 rounded-sm">
+                  {normalized}
+                </span>
+              </React.Fragment>
+            );
+          })}
+        </div>
+
+        <span className="text-on-surface-variant/50 font-bold text-xs px-1">+</span>
+
+        <span
+          className="inline-block font-jp font-extrabold text-primary text-sm md:text-base leading-none"
+          dangerouslySetInnerHTML={{ __html: annotateSentence(right) }}
+        />
+      </div>
+    );
+  }
+
+  // Fallback: If no plus, but contains slashes
+  if (formulaStr.includes('/')) {
+    const pills = formulaStr.split('/').map(p => p.trim()).filter(Boolean);
+    return (
+      <div className="flex flex-wrap items-center gap-1 py-1">
+        {pills.map((pill, idx) => {
+          const normalized = normalizeGrammarToken(pill);
+          return (
+            <React.Fragment key={idx}>
+              {idx > 0 && <span className="text-on-surface-variant/40 text-xs px-0.5 font-bold">/</span>}
+              <span className="inline-flex items-center px-1.5 py-0.5 text-[11px] font-mono font-semibold bg-surface-container border border-outline-variant/60 text-on-surface-variant/80 rounded-sm">
+                {normalized}
+              </span>
+            </React.Fragment>
+          );
+        })}
+      </div>
+    );
+  }
+
+  // Simple string fallback
+  return (
+    <div
+      className="font-jp font-bold text-sm md:text-base text-primary leading-relaxed"
+      dangerouslySetInnerHTML={{ __html: annotateSentence(formulaStr) }}
+    />
+  );
+}
+
+
 function GrammarCard({ card, index, onStudy }) {
   const [expanded, setExpanded] = useState(false);
   const parsedExamples = parseAllExamples(card.example);
@@ -263,7 +411,7 @@ function GrammarCard({ card, index, onStudy }) {
           <div className="flex items-center gap-3">
             <span
               className="w-7 h-7 flex items-center justify-center text-xs font-black text-white flex-shrink-0"
-              style={{ background: 'var(--primary, #1a237e)' }}
+              style={{ background: 'var(--primary)' }}
             >
               {index + 1}
             </span>
@@ -291,15 +439,75 @@ function GrammarCard({ card, index, onStudy }) {
           </h2>
         </div>
 
-        {/* ── Meaning ── */}
-        <div className="space-y-1 mb-4">
-          <span className="inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-primary mb-1">
-            <BookOpen className="w-3 h-3" /> Ý nghĩa & Giải thích
+        {/* ── Meaning & Details Section (Parsed) ── */}
+        <div className="space-y-4 mb-5 border border-outline-variant/25 bg-surface p-4 shadow-sm text-left">
+          <span className="inline-flex items-center gap-1.5 text-[10px] font-black uppercase tracking-wider text-primary border-b border-primary/20 pb-1 block">
+            <BookOpen className="w-3.5 h-3.5" /> Ý nghĩa & Giải thích
           </span>
-          <p className="font-medium text-on-surface text-sm leading-relaxed whitespace-pre-line">{card.back}</p>
-          {card.romaji && (
-            <p className="text-xs text-on-surface-variant font-mono">{card.romaji}</p>
-          )}
+          {(() => {
+            const parsed = parseBackContent(card.back);
+            return (
+              <div className="space-y-4">
+                {/* Meaning Block */}
+                {parsed.meaning && (
+                  <div className="space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant/60 block">
+                      Ý nghĩa
+                    </span>
+                    <p className="font-semibold text-on-surface text-sm md:text-base leading-relaxed bg-primary/5 p-3 border-l-4 border-primary">
+                      {parsed.meaning}
+                    </p>
+                  </div>
+                )}
+
+                {/* Connection Formula */}
+                {parsed.formula && (
+                  <div className="space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant/60 block">
+                      Cách kết hợp
+                    </span>
+                    <div className="bg-surface-container-low border border-outline-variant/30 p-2.5 px-3.5 inline-block w-full sm:w-auto">
+                      {renderFormula(parsed.formula)}
+                    </div>
+                  </div>
+                )}
+
+                {/* Explanation */}
+                {parsed.explanation && (
+                  <div className="space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant/60 block">
+                      Giải thích thêm
+                    </span>
+                    <p className="text-xs text-on-surface-variant leading-relaxed bg-surface border border-outline-variant/20 p-3 whitespace-pre-line">
+                      {parsed.explanation}
+                    </p>
+                  </div>
+                )}
+
+                {/* Usage Notes */}
+                {parsed.usage && (
+                  <div className="p-3 bg-blue-500/[0.03] border-l-4 border-blue-500/50 space-y-1">
+                    <span className="text-[10px] font-black text-blue-900 uppercase block tracking-wider">
+                      💡 Phân biệt & Cách dùng
+                    </span>
+                    <p 
+                      className="text-xs text-on-surface-variant/90 leading-relaxed font-medium whitespace-pre-line font-jp"
+                      dangerouslySetInnerHTML={{ __html: annotateSentence(parsed.usage) }}
+                    />
+                  </div>
+                )}
+
+                {/* Romaji */}
+                {card.romaji && (
+                  <div className="pt-1.5 border-t border-outline-variant/20">
+                    <p className="text-[10px] text-on-surface-variant/50 font-mono font-medium tracking-wide">
+                      Romaji: {card.romaji}
+                    </p>
+                  </div>
+                )}
+              </div>
+            );
+          })()}
         </div>
 
         {/* ── Example (collapsed/expanded) ── */}
@@ -322,7 +530,8 @@ function GrammarCard({ card, index, onStudy }) {
                 {parsedExamples.map((ex, exIndex) => (
                   <div
                     key={exIndex}
-                    className="p-4 relative group bg-surface border border-outline-variant/30 hover:border-emerald-500/20 transition-all sharp-shadow-sm text-left"
+                    className="p-4 relative group"
+                    style={{ background: 'rgba(0,100,70,0.03)', border: '1px solid rgba(0,100,70,0.15)' }}
                   >
                     {/* TTS button */}
                     <button
@@ -372,7 +581,8 @@ function GrammarCard({ card, index, onStudy }) {
                 return (
                   <div
                     key={exIndex}
-                    className="p-4 relative group bg-surface border border-outline-variant/30 hover:border-emerald-500/20 transition-all sharp-shadow-sm text-left"
+                    className="p-4 relative group animate-fade-left"
+                    style={{ background: 'rgba(16,185,129,0.03)', border: '1px solid rgba(16,185,129,0.15)' }}
                   >
                     <div className="absolute right-3 top-3 flex items-center gap-1.5">
                       <button
@@ -478,7 +688,7 @@ function GrammarCard({ card, index, onStudy }) {
 
         {/* ── Interactive Practice Panel ── */}
         {showPractice && (
-          <div className="mt-6 p-4 border-2 border-primary/20 bg-primary/[0.01] space-y-4 text-left">
+          <div className="mt-6 p-4 border-2 border-primary/20 bg-primary/[0.01] space-y-4">
             <div className="flex items-center justify-between">
               <span className="text-[10px] font-bold uppercase tracking-wider text-primary flex items-center gap-1">
                 <PenTool className="w-3 h-3" /> Luyện đặt câu

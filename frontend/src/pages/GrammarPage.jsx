@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams, Link } from 'react-router-dom';
 import {
   Search,
   BookOpen,
@@ -176,6 +176,39 @@ const getBookLevelCardMeta = (bookId, level) => {
   };
 };
 
+const cleanDeckName = (name) => {
+  if (!name) return '';
+  const regex = /^\s*(?:mimikara|shinkanzen|kanzen|minna|soumatome|somatome|try!?|genki|dekiru)(?:\s+(?:oboeru|master|no\s+nihongo|tăng\s+cường\s+ngữ\s+pháp))?\s*(?:n\d+)?\s*[-——–—]\s*/i;
+  let cleaned = name.replace(regex, '').trim();
+  // Strip "Bài X: " if there is actual content after it to reduce redundancy
+  const match = cleaned.match(/^Bài\s*\d+\s*:\s*(.+)$/i);
+  if (match) {
+    cleaned = match[1];
+  }
+  return cleaned.trim();
+};
+
+const cleanDeckDescription = (desc, cleanedTitle) => {
+  if (!desc) return '';
+  let cleaned = desc.replace(/\s*bám\s+sát\s+sách\s+.*$/i, '').trim();
+  // Strip redundant prefix "Bộ thẻ ngữ pháp cho: Bài X: "
+  cleaned = cleaned.replace(/^Bộ\s+thẻ\s+ngữ\s+pháp\s+cho:\s*(?:Bài\s*(?:\d+|cuối)\s*:\s*)?/i, '').trim();
+  // Clean range formatting like "Từ X đến Y" -> "STT: X - Y"
+  const match = cleaned.match(/(?:Từ|Từ\s+số)\s+(\d+)\s+(?:đến|-)\s+(\d+)/i);
+  if (match) {
+    return `STT: ${match[1]} - ${match[2]}`;
+  }
+  if (cleanedTitle) {
+    const tClean = cleanedTitle.toLowerCase();
+    const dClean = cleaned.toLowerCase();
+    if (tClean.includes(dClean) || dClean.includes(tClean)) {
+      return '';
+    }
+  }
+  return cleaned;
+};
+
+
 const groupDecksByBookAndLevel = (decks) => {
   const booksMap = {};
 
@@ -323,7 +356,8 @@ const groupDecksIntoParts = (decksList, bookId, level) => {
 
   if (bookId === 'kanzen') {
     const parts = [];
-    const totalLessons = 26;
+    const maxLessonNum = Math.max(...sortedDecks.map(d => getLessonNumber(d.name)).filter(n => n !== 999), 0);
+    const totalLessons = maxLessonNum || 26;
     for (let i = 1; i <= totalLessons; i += 5) {
       const partStart = i;
       const partEnd = Math.min(i + 4, totalLessons);
@@ -535,53 +569,103 @@ export default function GrammarPage() {
           </button>
         </div>
       ) : (
-        /* Render Decks in a timeline flow */
-        <div className="space-y-8 animate-fade-up">
-          <div className="flex items-center justify-between text-sm text-on-surface-variant px-1">
+        /* Render Decks in a 2-column grid flow */
+        <div className="space-y-6 animate-fade-up">
+          {/* Progress bar container */}
+          {(() => {
+            const totalDecks = filteredDecks.length;
+            const passedDecks = filteredDecks.filter(
+              (d) => d.studiedCount && d.studiedCount >= (d._count?.cards || 1)
+            ).length;
+            const percent = totalDecks > 0 ? Math.round((passedDecks / totalDecks) * 100) : 0;
+
+            return (
+              <div className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow-sm p-6">
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-sm font-bold text-on-surface font-headline">Tiến độ học</span>
+                  <span className="text-sm font-bold text-on-surface-variant">
+                    {passedDecks}/{totalDecks} bài
+                  </span>
+                </div>
+                <div className="h-2 bg-surface-container overflow-hidden border border-outline-variant/20">
+                  <div
+                    className="h-full transition-all duration-500"
+                    style={{
+                      width: `${percent}%`,
+                      backgroundColor: 'var(--primary)',
+                    }}
+                  />
+                </div>
+                <div className="flex justify-end mt-1.5">
+                  <span className="text-xs font-bold text-on-surface-variant">{percent}% hoàn thành</span>
+                </div>
+              </div>
+            );
+          })()}
+
+          <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-on-surface-variant px-1">
             <p>
-              Hiển thị <span className="font-bold text-on-surface">{filteredDecks.length}</span> bài học ngữ pháp
+              Hiển thị <span className="font-extrabold text-primary">{filteredDecks.length}</span> bài học ngữ pháp
             </p>
           </div>
 
-          <div className="relative border-l-2 border-primary/20 ml-6 pl-8 py-2 space-y-6">
-            {filteredDecks.map((deck, index) => {
-              const lessonNum = getLessonNumber(deck.name);
-              const displayNum = lessonNum !== 999 ? lessonNum : index + 1;
-              return (
-                <div key={deck.id} className="relative">
-                  {/* Timeline Dot */}
-                  <div className="absolute -left-[46px] top-6 w-8 h-8 rounded-full bg-surface-container-lowest border-2 border-primary flex items-center justify-center text-xs font-black text-primary shadow-sm">
-                    {displayNum}
-                  </div>
+          <div className="space-y-8">
+            {groupDecksIntoParts(filteredDecks, selectedBookLevel.bookId, selectedBookLevel.level).map((part, partIdx) => (
+              <div key={partIdx} className="space-y-4">
+                <h3 className="text-sm font-extrabold uppercase tracking-wider text-on-surface-variant/80 border-b border-outline-variant/30 pb-1 mt-4">
+                  {part.title}
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {part.decks.map((deck) => {
+                    const lessonNum = getLessonNumber(deck.name);
+                    const overallIndex = filteredDecks.findIndex(d => d.id === deck.id);
+                    const displayNum = lessonNum !== 999 ? lessonNum : overallIndex + 1;
+                    const isPassed = deck.studiedCount != null && deck.studiedCount >= (deck._count?.cards || 1);
 
-                  {/* Lesson card content */}
-                  <button
-                    onClick={() => navigate(`/grammar/${deck.id}`)}
-                    className="group bg-surface-container-lowest border-2 border-outline-variant/50 p-5 flex flex-col md:flex-row md:items-center justify-between gap-4 transition-all sharp-shadow hover:sharp-shadow-sm hover:-translate-y-0.5 w-full text-left"
-                  >
-                    <div className="space-y-1">
-                      <h3 className="font-jp font-bold text-on-surface text-base group-hover:text-primary transition-colors flex items-center gap-2">
-                        {deck.name}
-                      </h3>
-                      {deck.description && (
-                        <p className="text-xs text-on-surface-variant max-w-2xl leading-relaxed">
-                          {deck.description}
-                        </p>
-                      )}
-                    </div>
+                    return (
+                      <Link
+                        key={deck.id}
+                        to={`/grammar/${deck.id}`}
+                        className="group bg-surface-container-lowest border-2 border-outline-variant/50 p-4 flex items-center justify-between gap-4 transition-all sharp-shadow hover:sharp-shadow-sm hover:-translate-y-0.5 w-full text-left"
+                      >
+                        <div className="flex items-center gap-3.5 min-w-0">
+                          {/* Index Square Box */}
+                          <div
+                            className="w-10 h-10 flex items-center justify-center flex-shrink-0 font-black text-sm border border-primary text-primary"
+                            style={{
+                              background: 'color-mix(in srgb, var(--primary) 8%, transparent)',
+                            }}
+                          >
+                            {displayNum}
+                          </div>
+                          <div className="min-w-0">
+                            <h3 className="font-jp font-bold text-on-surface text-sm md:text-base group-hover:text-primary transition-colors truncate">
+                              {cleanDeckName(deck.name)}
+                            </h3>
+                            {deck.description && cleanDeckDescription(deck.description, cleanDeckName(deck.name)) && (
+                              <p className="text-xs text-on-surface-variant font-medium mt-0.5 truncate max-w-[200px] md:max-w-xs">
+                                {cleanDeckDescription(deck.description, cleanDeckName(deck.name))}
+                              </p>
+                            )}
+                          </div>
+                        </div>
 
-                    <div className="flex items-center justify-between md:justify-end gap-6 shrink-0 border-t md:border-t-0 pt-3 md:pt-0 border-outline-variant/20">
-                      <span className="text-xs font-bold px-2.5 py-1 bg-surface-container text-on-surface border border-outline-variant/40">
-                        {deck._count?.cards || 0} cấu trúc
-                      </span>
-                      <span className="inline-flex items-center gap-1 text-xs font-bold text-primary opacity-80 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all">
-                        Xem lý thuyết <ChevronRight className="w-4.5 h-4.5" />
-                      </span>
-                    </div>
-                  </button>
+                        <div className="flex items-center gap-2.5 shrink-0">
+                          <span className="text-xs font-bold px-2.5 py-1 bg-surface-container text-on-surface border border-outline-variant/40">
+                            {deck._count?.cards || 0} cấu trúc
+                          </span>
+                          {isPassed && (
+                            <span className="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 bg-green-500/10 border border-green-500/30 text-green-700">
+                              Đã học
+                            </span>
+                          )}
+                        </div>
+                      </Link>
+                    );
+                  })}
                 </div>
-              );
-            })}
+              </div>
+            ))}
           </div>
         </div>
       )}

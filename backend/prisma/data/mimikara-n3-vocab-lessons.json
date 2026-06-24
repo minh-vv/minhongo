@@ -13,7 +13,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Mimikara N3 — Bài 1 — Từ vựng",
+          "name": "Mimikara N3 — Bài 1: Danh từ",
           "description": "Từ 1 đến 120 bám sát sách Mimikara Oboeru N3.",
           "category": "TUVUNG",
           "jlptLevel": 3,
@@ -881,7 +881,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Mimikara N3 — Bài 2 — Từ vựng",
+          "name": "Mimikara N3 — Bài 2: Động từ",
           "description": "Từ 121 đến 220 bám sát sách Mimikara Oboeru N3.",
           "category": "TUVUNG",
           "jlptLevel": 3,
@@ -1609,7 +1609,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Mimikara N3 — Bài 3 — Từ vựng",
+          "name": "Mimikara N3 — Bài 3: Danh từ từ động từ (Liên dụng danh từ)",
           "description": "Từ 221 đến 298 bám sát sách Mimikara Oboeru N3.",
           "category": "TUVUNG",
           "jlptLevel": 3,
@@ -2183,7 +2183,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Mimikara N3 — Bài 4 — Từ vựng",
+          "name": "Mimikara N3 — Bài 4: Tính từ",
           "description": "Từ 299 đến 410 bám sát sách Mimikara Oboeru N3.",
           "category": "TUVUNG",
           "jlptLevel": 3,
@@ -2995,7 +2995,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Mimikara N3 — Bài 5 — Từ vựng",
+          "name": "Mimikara N3 — Bài 5: Động từ B",
           "description": "Từ 411 đến 510 bám sát sách Mimikara Oboeru N3.",
           "category": "TUVUNG",
           "jlptLevel": 3,
@@ -3723,7 +3723,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Mimikara N3 — Bài 6 — Từ vựng",
+          "name": "Mimikara N3 — Bài 6: Từ mượn Katakana A",
           "description": "Từ 511 đến 550 bám sát sách Mimikara Oboeru N3.",
           "category": "TUVUNG",
           "jlptLevel": 3,
@@ -4031,7 +4031,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Mimikara N3 — Bài 7 — Từ vựng",
+          "name": "Mimikara N3 — Bài 7: Tính từ B",
           "description": "Từ 551 đến 590 bám sát sách Mimikara Oboeru N3.",
           "category": "TUVUNG",
           "jlptLevel": 3,
@@ -4339,7 +4339,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Mimikara N3 — Bài 8 — Từ vựng",
+          "name": "Mimikara N3 — Bài 8: Phó từ A",
           "description": "Từ 591 đến 635 bám sát sách Mimikara Oboeru N3.",
           "category": "TUVUNG",
           "jlptLevel": 3,
@@ -4682,7 +4682,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Mimikara N3 — Bài 9 — Từ vựng",
+          "name": "Mimikara N3 — Bài 9: Danh từ C",
           "description": "Từ 636 đến 715 bám sát sách Mimikara Oboeru N3.",
           "category": "TUVUNG",
           "jlptLevel": 3,
@@ -5270,7 +5270,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Mimikara N3 — Bài 10 — Từ vựng",
+          "name": "Mimikara N3 — Bài 10: Động từ C",
           "description": "Từ 716 đến 795 bám sát sách Mimikara Oboeru N3.",
           "category": "TUVUNG",
           "jlptLevel": 3,
@@ -5858,7 +5858,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Mimikara N3 — Bài 11 — Từ vựng",
+          "name": "Mimikara N3 — Bài 11: Từ mượn Katakana B",
           "description": "Từ 796 đến 845 bám sát sách Mimikara Oboeru N3.",
           "category": "TUVUNG",
           "jlptLevel": 3,
@@ -6236,7 +6236,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Mimikara N3 — Bài 12 — Từ vựng",
+          "name": "Mimikara N3 — Bài 12: Phó từ B",
           "description": "Từ 846 đến 880 bám sát sách Mimikara Oboeru N3.",
           "category": "TUVUNG",
           "jlptLevel": 3,
