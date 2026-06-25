@@ -29,6 +29,7 @@ const navItems = [
     icon: <IconHeadphones />,
     children: [
       { path: '/listening/dialogue', label: 'Nghe hội thoại' },
+      { path: '/listening/video', label: 'Nghe qua video' },
       { path: '/listening/sentence', label: 'Điền từ & chép câu' },
     ]
   },

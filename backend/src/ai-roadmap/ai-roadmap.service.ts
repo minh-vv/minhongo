@@ -19,6 +19,8 @@ interface GenerateRoadmapDto {
   targetMonths: number;
   minutesPerDay: number;
   currentLevel: string;
+  targetJlpt?: number;       // explicit JLPT target 1–5 (overrides regex parsing)
+  prioritySkills?: string[]; // ['VOCABULARY','GRAMMAR','KANJI','LISTENING','READING']
   achievements?: string;
   testResults?: TestResult[];
 }
@@ -43,43 +45,43 @@ export class AiRoadmapService {
       );
     }
 
-    // Parse target JLPT level from goal or currentLevel
-    let targetJlptLevel: number | null = null;
-    const goalUpper = dto.goal.toUpperCase();
-    const currentUpper = dto.currentLevel.toUpperCase();
+    // Use explicit targetJlpt if provided (most reliable — avoids regex guessing)
+    let targetJlptLevel: number | null = dto.targetJlpt || null;
 
-    // Check goal first for N1-N5
-    const goalMatch = goalUpper.match(/N([1-5])/);
-    if (goalMatch) {
-      targetJlptLevel = parseInt(goalMatch[1], 10);
-    } else {
-      // Check currentLevel for N1-N5
-      const currentMatch = currentUpper.match(/N([1-5])/);
-      if (currentMatch) {
-        const level = parseInt(currentMatch[1], 10);
-        if (
-          currentUpper.includes('ĐANG HỌC') ||
-          currentUpper.includes('LEARNING')
-        ) {
-          targetJlptLevel = level;
-        } else {
-          // If they are N3, they probably want N2
-          targetJlptLevel = Math.max(1, level - 1);
+    if (!targetJlptLevel) {
+      // Fallback: parse from free-text goal / currentLevel
+      const goalUpper = dto.goal.toUpperCase();
+      const currentUpper = dto.currentLevel.toUpperCase();
+
+      const goalMatch = goalUpper.match(/N([1-5])/);
+      if (goalMatch) {
+        targetJlptLevel = parseInt(goalMatch[1], 10);
+      } else {
+        const currentMatch = currentUpper.match(/N([1-5])/);
+        if (currentMatch) {
+          const level = parseInt(currentMatch[1], 10);
+          if (
+            currentUpper.includes('ĐANG HỌC') ||
+            currentUpper.includes('LEARNING')
+          ) {
+            targetJlptLevel = level;
+          } else {
+            targetJlptLevel = Math.max(1, level - 1);
+          }
         }
       }
-    }
 
-    // Default fallback: if no level is parsed, but they have other indicators
-    if (!targetJlptLevel) {
-      if (
-        currentUpper.includes('CHƯA BIẾT') ||
-        currentUpper.includes('BẮT ĐẦU') ||
-        currentUpper.includes('BẢNG CHỮ CÁI') ||
-        currentUpper.includes('SƠ CẤP')
-      ) {
-        targetJlptLevel = 5; // N5
-      } else {
-        targetJlptLevel = 3; // Default fallback to N3
+      if (!targetJlptLevel) {
+        if (
+          currentUpper.includes('CHƯA BIẾT') ||
+          currentUpper.includes('BẮT ĐẦU') ||
+          currentUpper.includes('BẢNG CHỮ CÁI') ||
+          currentUpper.includes('SƠ CẤP')
+        ) {
+          targetJlptLevel = 5;
+        } else {
+          targetJlptLevel = 3;
+        }
       }
     }
 
@@ -152,32 +154,69 @@ export class AiRoadmapService {
     );
 
     const formatLesson = (l: (typeof availableLessons)[0]) =>
-      `  - ID="${l.id}" | [N${l.course.jlptLevel}] ${l.course.title} › ${l.title} | Kỹ năng: ${l.skills.join(',')} | ~${l.estimatedMin}ph`;
+      `  ID="${l.id}" | [N${l.course.jlptLevel}] ${l.course.title} › ${l.title} | Skills:${l.skills.join('+')} | ~${l.estimatedMin}ph`;
 
-    const lessonListStr =
-      notYetStudied.length > 0
-        ? notYetStudied.map(formatLesson).join('\n')
-        : availableLessons.map(formatLesson).join('\n');
+    // ── Skill grouping: prioritize user-selected skills, cap to 90 lessons ──
+    const prioritySkills: string[] =
+      dto.prioritySkills && dto.prioritySkills.length > 0
+        ? dto.prioritySkills
+        : ['VOCABULARY', 'GRAMMAR'];
+
+    const sourceLessons =
+      notYetStudied.length > 0 ? notYetStudied : availableLessons;
+    const sortedSource = [...sourceLessons].sort((a, b) => {
+      const aP = a.skills.some((s) => prioritySkills.includes(s as string)) ? 0 : 1;
+      const bP = b.skills.some((s) => prioritySkills.includes(s as string)) ? 0 : 1;
+      return aP - bP;
+    });
+    const capped = sortedSource.slice(0, 90);
+
+    const SKILL_DISPLAY: Record<string, string> = {
+      VOCABULARY: '語彙・Từ vựng',
+      GRAMMAR: '文法・Ngữ pháp',
+      KANJI: '漢字・Hán tự',
+      LISTENING: '聴解・Nghe hiểu',
+      READING: '読解・Đọc hiểu',
+    };
+    const shownIds = new Set<string>();
+    const groupedSections: string[] = [];
+    const allSkillOrder = [
+      ...prioritySkills,
+      ...Object.keys(SKILL_DISPLAY).filter((k) => !prioritySkills.includes(k)),
+    ];
+    for (const skill of allSkillOrder) {
+      const lessons = capped.filter(
+        (l) => (l.skills as string[]).includes(skill) && !shownIds.has(l.id),
+      );
+      if (lessons.length === 0) continue;
+      lessons.forEach((l) => shownIds.add(l.id));
+      const label = prioritySkills.includes(skill)
+        ? `⭐ ${SKILL_DISPLAY[skill] || skill}`
+        : SKILL_DISPLAY[skill] || skill;
+      groupedSections.push(
+        `[${label}] — ${lessons.length} bài:\n${lessons.map(formatLesson).join('\n')}`,
+      );
+    }
+    const remaining = capped.filter((l) => !shownIds.has(l.id));
+    if (remaining.length > 0) {
+      groupedSections.push(
+        `[Khác] — ${remaining.length} bài:\n${remaining.map(formatLesson).join('\n')}`,
+      );
+    }
+    const lessonListStr = groupedSections.join('\n\n');
 
     const alreadyStr =
       alreadyStudied.length > 0
-        ? `\nBÀI HỌC ĐÃ HOÀN THÀNH (bỏ qua hoặc chỉ ôn nhanh):\n` +
+        ? `\nBÀI ĐÃ HỌC (không lặp lại):\n` +
           alreadyStudied
-            .map((l) => {
-              const progress = userProgress.find(
-                (p) => p.lessonId === l.id && p.status === 'PASSED',
-              );
-              const scoreStr = progress?.score
-                ? ` (Score: ${progress.score}%)`
-                : '';
-              return `  - [N${l.course.jlptLevel}] ${l.title} | ${l.skills.join(',')}${scoreStr}`;
-            })
+            .slice(0, 20)
+            .map((l) => `  - [N${l.course.jlptLevel}] ${l.title}`)
             .join('\n')
         : '';
 
     // 4. Context thành tích + kết quả kiểm tra
     const achievementsContext = dto.achievements
-      ? `\nTHÀNH TÍCH CÁ NHÂN:\n${dto.achievements}`
+      ? `\nTHÀNH TÍCH HỌC VIÊN:\n${dto.achievements}`
       : '';
 
     const testResultsContext =
@@ -191,61 +230,71 @@ export class AiRoadmapService {
             .join('\n')
         : '';
 
-    // Model will be instantiated dynamically below to support model fallback
+    // 5. Skill distribution guidance for prompt
+    const skillNames: Record<string, string> = {
+      VOCABULARY: 'Từ vựng', GRAMMAR: 'Ngữ pháp',
+      KANJI: 'Hán tự', LISTENING: 'Nghe hiểu', READING: 'Đọc hiểu',
+    };
+    const prioritySkillsLabel = prioritySkills
+      .map((s) => skillNames[s] || s)
+      .join(' + ');
+    const pctPerSkill = Math.floor(70 / prioritySkills.length);
+    const otherPct = 100 - pctPerSkill * prioritySkills.length;
+    const skillDistributionStr =
+      prioritySkills
+        .map((s) => `${skillNames[s] || s} (${pctPerSkill}%)`)
+        .join(', ') +
+      (otherPct > 0 ? `; Kỹ năng khác (${otherPct}%)` : '');
 
-    // Tính toán số ngày học mỗi tuần (5–6 ngày/tuần tùy phút học)
+    // Tính toán số ngày học mỗi tuần
     const studyDaysPerWeek =
       dto.minutesPerDay >= 60 ? 5 : dto.minutesPerDay >= 30 ? 5 : 4;
     const totalStudyDays = dto.targetMonths * 4 * studyDaysPerWeek;
+    const minLessonsPerPhase = Math.ceil(studyDaysPerWeek * 0.65);
 
-    const prompt = `Bạn là Sensei AI — chuyên gia thiết kế lộ trình học tiếng Nhật cá nhân hóa dựa trên dữ liệu thực tế.
+    const prompt = `Bạn là Sensei AI — hệ thống tạo lộ trình học tiếng Nhật cá nhân hóa.
 
-## THÔNG TIN HỌC VIÊN
+# NHIỆM VỤ
+Tạo lộ trình ${dto.targetMonths} tháng bằng cách CHỌN bài học từ CATALOG bên dưới.
+⚠️ Chỉ dùng lessonId có trong catalog. Không được tự bịa UUID. Nếu không có bài phù hợp, đặt lessonId = null.
+
+# THÔNG TIN HỌC VIÊN
 - Mục tiêu: ${dto.goal}
-- Thời gian: ${dto.targetMonths} tháng (${dto.targetMonths * 4} tuần)
-- Học mỗi ngày: ${dto.minutesPerDay} phút/ngày (~${studyDaysPerWeek} ngày/tuần)
+- Trình độ JLPT mục tiêu: N${targetJlptLevel}
 - Trình độ hiện tại: ${dto.currentLevel}
-- Tổng số ngày học dự kiến: ${totalStudyDays} ngày
+- Thời gian: ${dto.targetMonths} tháng (${dto.targetMonths * 4} tuần) · ${dto.minutesPerDay} phút/ngày · ~${studyDaysPerWeek} ngày/tuần
+- Kỹ năng ưu tiên: ${prioritySkillsLabel}
+- Tổng ngày học dự kiến: ${totalStudyDays} ngày
 ${achievementsContext}${testResultsContext}${alreadyStr}
 
-## BÀI HỌC CÓ SẴN TRONG HỆ THỐNG (CHƯA HỌC)
+# CATALOG BÀI HỌC (⭐ = kỹ năng ưu tiên của học viên)
 ${lessonListStr}
 
-## NHIỆM VỤ
-Tạo lộ trình học THEO NGÀY dựa trên các bài học có sẵn ở trên.
+# PHÂN BỔ KỸ NĂNG
+${skillDistributionStr}
+Tiến trình: Tuần 1–${Math.ceil(dto.targetMonths * 4 * 0.35)} → nền tảng từ vựng; Tuần giữa → đào sâu ngữ pháp; Tuần cuối → luyện tổng hợp.
 
-### NGUYÊN TẮC BẮT BUỘC:
-1. **MỖI ITEM = MỘT NGÀY HỌC** — label: "Ngày X: [tên ngắn gọn bài học]"
-2. **lessonId PHẢI là ID chính xác** từ danh sách trên (copy nguyên văn UUID). Không được tự bịa ID.
-3. **ƯU TIÊN gán lessonId**: Mỗi ngày học nên là một bài học thực tế từ hệ thống. Chỉ để lessonId=null khi ngày đó là ôn tập tổng hợp hoặc nghỉ ngơi.
-4. Sắp xếp bài học từ DỄ đến KHÓ, phù hợp với trình độ học viên
-5. Không lặp lại cùng một lessonId trong một lộ trình
-6. Số items mỗi phase = ${studyDaysPerWeek} ngày (hoặc ít hơn nếu hết bài)
-7. Tổng số phases = ${dto.targetMonths * 4} tuần
+# RÀNG BUỘC BẮT BUỘC
+1. Mỗi phase (tuần) = đúng ${studyDaysPerWeek} items
+2. Ít nhất ${minLessonsPerPhase}/${studyDaysPerWeek} items/tuần phải có lessonId hợp lệ từ catalog
+3. Không lặp lại lessonId trong toàn lộ trình
+4. Quy trình mỗi item: (a) Tìm bài phù hợp trong catalog → (b) Copy UUID nguyên văn vào lessonId → (c) Viết customTitle phản ánh đúng bài đó
 
-### VÍ DỤ ITEM (theo đúng format):
+# JSON OUTPUT
 {
-  "order": 1,
-  "customTitle": "Ngày 1: Giới thiệu bản thân - はじめまして",
-  "customDesc": "Học cách tự giới thiệu trong tiếng Nhật, các mẫu câu cơ bản nhất.",
-  "lessonId": "UUID-CHÍNH-XÁC-TỪ-DANH-SÁCH"
-}
-
-Trả về JSON theo đúng cấu trúc sau:
-{
-  "title": "Lộ trình: [Tên phản ánh mục tiêu của học viên]",
-  "description": "[Mô tả 2 câu: xuất phát từ đâu, đến đâu]",
+  "title": "Lộ trình JLPT N${targetJlptLevel}: [tên phản ánh mục tiêu cụ thể]",
+  "description": "[2 câu: học viên bắt đầu từ đâu và đạt gì sau ${dto.targetMonths} tháng]",
   "phases": [
     {
       "order": 1,
-      "title": "Tuần 1: [Chủ đề tuần]",
-      "description": "[Mục tiêu tuần, 1 câu]",
+      "title": "Tuần 1: [chủ đề kỹ năng tập trung]",
+      "description": "[mục tiêu kỹ năng tuần này, 1 câu]",
       "items": [
         {
           "order": 1,
-          "customTitle": "Ngày 1: [Tên bài/topic ngắn]",
-          "customDesc": "[Mô tả 1-2 câu tại sao học bài này hôm nay]",
-          "lessonId": "[UUID chính xác hoặc null]"
+          "lessonId": "<UUID nguyên văn từ catalog hoặc null>",
+          "customTitle": "Ngày 1: [tên ngắn phản ánh nội dung bài]",
+          "customDesc": "[lý do học bài này hôm nay, 1 câu ngắn]"
         }
       ]
     }
