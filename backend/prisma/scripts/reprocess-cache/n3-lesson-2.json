@@ -2,7 +2,7 @@
   "order": 2,
   "title": "2. ～間…・～間に…",
   "summary": "Ngữ pháp bài số 2 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. ～間／～間に\n#### 💡 Cấu trúc & Ý nghĩa\n- **～間:** Diễn tả hành động diễn ra xuyên suốt thời gian của trạng thái khác.\n- **～間に:** Diễn tả hành động xảy ra tại một thời điểm ngắn trong khoảng thời gian trạng thái khác đang diễn ra.\n- **Cấu trúc:** N-no / V-ru / V-teiru / V-nai + 間 / 間に\n\n#### 📝 Ví dụ minh họa\n- 母が買い物に行っている間、ずっと弟の面倒を見ていた。\n- 母が買い物に行っている間に、弟が寝てしまった。",
+  "theoryMd": "### 1. ～間／～間に\n#### 💡 Cấu trúc & Ý nghĩa\n- **～間:** Diễn tả hành động diễn ra xuyên suốt thời gian của trạng thái khác.\n- **～間に:** Diễn tả hành động xảy ra tại một thời điểm ngắn trong khoảng thời gian trạng thái khác đang diễn ra.\n- **Cấu trúc:** N-no / Vる / Vている / Vない + 間 / 間に\n\n#### 📝 Ví dụ minh họa\n- 母が買い物に行っている間、ずっと弟の面倒を見ていた。\n- 母が買い物に行っている間に、弟が寝てしまった。",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜間／〜間に",
-            "back": "Ý nghĩa: ～間 là hành động kéo dài suốt trong khi một trạng thái khác diễn ra. ～間に là hành động diễn ra tại một thời điểm trong khi trạng thái khác đang tiếp diễn.\nCấu trúc: N-no / V-ru / V-teiru / V-nai + 間／間に",
+            "back": "Ý nghĩa: ～間 là hành động kéo dài suốt trong khi một trạng thái khác diễn ra. ～間に là hành động diễn ra tại một thời điểm trong khi trạng thái khác đang tiếp diễn.\nCấu trúc: N-no / Vる / Vている / Vない + 間／間に",
             "romaji": "aida / aida-ni",
             "example": "母が買い物に行っている間、ずっと弟の面倒を見ていた。\nTrong lúc mẹ đi mua sắm, tôi đã trông em trai suốt.\n\n母が買い物に行っている間に、弟が寝てしまった。\nTrong lúc mẹ đi mua sắm, em trai tôi đã ngủ thiếp đi.\n\n私が日本にいる間に、富士山に登りたいです。\nTrong lúc tôi đang ở Nhật, tôi muốn leo núi Phú Sĩ.\n\n留守の間に、手紙が届いた。\nTrong lúc tôi vắng nhà, thư đã được gửi đến.",
             "jlptLevel": 3

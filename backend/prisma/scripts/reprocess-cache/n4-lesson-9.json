@@ -2,7 +2,7 @@
   "order": 9,
   "title": "Bài 34 — Từ vựng JLPT N4 (Phần 9)",
   "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 9/25.",
-  "theoryMd": "### 1. V-ている + 途中\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả một sự việc khác xảy ra xen ngang trong quá trình làm một việc gì đó.\nCông thức: V-ている + 途中\n\n#### 📝 Ví dụ minh họa\n家へ帰る途中で、友達に会いました。\nTôi đã gặp bạn trong khi đang trên đường về nhà.\n\n### 2. N + を起こす\n#### 💡 Cấu trúc & Ý nghĩa\nCó 2 nghĩa: gây ra vấn đề/tai nạn hoặc đánh thức ai đó.\nCông thức: N + を起こす\n\n#### 📝 Ví dụ minh họa\n彼は大きな問題を起こしました。\nAnh ấy đã gây ra một vấn đề lớn.",
+  "theoryMd": "### 1. Vている + 途中\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả một sự việc khác xảy ra xen ngang trong quá trình làm một việc gì đó.\nCông thức: Vている + 途中\n\n#### 📝 Ví dụ minh họa\n家へ帰る途中で、友達に会いました。\nTôi đã gặp bạn trong khi đang trên đường về nhà.\n\n### 2. N + を起こす\n#### 💡 Cấu trúc & Ý nghĩa\nCó 2 nghĩa: gây ra vấn đề/tai nạn hoặc đánh thức ai đó.\nCông thức: N + を起こす\n\n#### 📝 Ví dụ minh họa\n彼は大きな問題を起こしました。\nAnh ấy đã gây ra một vấn đề lớn.",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -192,8 +192,8 @@
         "jlptLevel": 4,
         "cards": [
           {
-            "front": "V-ている + 途中",
-            "back": "Ý nghĩa: Đang làm dở việc gì đó thì có việc khác xảy ra.\nCấu trúc: V-ている + 途中",
+            "front": "Vている + 途中",
+            "back": "Ý nghĩa: Đang làm dở việc gì đó thì có việc khác xảy ra.\nCấu trúc: Vている + 途中",
             "romaji": "tochu",
             "example": "家へ帰る途中で、友達に会いました。\nTôi đã gặp bạn trong khi đang trên đường về nhà.\n\n本を読む途中で寝てしまいました。\nTôi đã ngủ thiếp đi trong khi đang đọc sách.\n\n食事の途中で電話がかかってきました。\nĐang ăn dở bữa thì có điện thoại gọi đến.\n\n仕事の途中で雨が降ってきました。\nĐang làm việc dở thì trời mưa.",
             "jlptLevel": 4

@@ -2,7 +2,7 @@
   "order": 8,
   "title": "Bài 8 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 8/92).",
-  "theoryMd": "### 1. 〜につけ〜につけ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dù trong trường hợp nào thì cũng đều có chung một cảm xúc hoặc hành động.\n- **Cấu trúc**: V-ru / N + につけ + V-ru / N + につけ\n\n#### 📝 Ví dụ minh họa\n- 見るにつけ聞くにつけ、彼の努力に頭が下がる。\n- うれしいにつけ悲しいにつけ、彼女は日記に書き留める。\n- 何事につけ、慎重に考えるべきだ。\n\n### 2. 〜のやら〜のやら\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Biểu hiện sự phân vân, nghi vấn, khó xác định rõ ràng tình trạng.\n- **Cấu trúc**: V-ru / A-i / Na-adj + のやら + V-ru / A-i / Na-adj + のやら\n\n#### 📝 Ví dụ minh họa\n- 彼は怒っているのやら冗談を言っているのやら、さっぱりわからない。\n- 合格して、うれしいのやらほっとしたのやら、言葉が出なかった。\n- いつのやらどこへ行ったのやら、全くの手がかりがない。",
+  "theoryMd": "### 1. 〜につけ〜につけ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dù trong trường hợp nào thì cũng đều có chung một cảm xúc hoặc hành động.\n- **Cấu trúc**: Vる / N + につけ + Vる / N + につけ\n\n#### 📝 Ví dụ minh họa\n- 見るにつけ聞くにつけ、彼の努力に頭が下がる。\n- うれしいにつけ悲しいにつけ、彼女は日記に書き留める。\n- 何事につけ、慎重に考えるべきだ。\n\n### 2. 〜のやら〜のやら\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Biểu hiện sự phân vân, nghi vấn, khó xác định rõ ràng tình trạng.\n- **Cấu trúc**: Vる / A-i / Na-adj + のやら + Vる / A-i / Na-adj + のやら\n\n#### 📝 Ví dụ minh họa\n- 彼は怒っているのやら冗談を言っているのやら、さっぱりわからない。\n- 合格して、うれしいのやらほっとしたのやら、言葉が出なかった。\n- いつのやらどこへ行ったのやら、全くの手がかりがない。",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,14 +19,14 @@
         "cards": [
           {
             "front": "〜につけ〜につけ",
-            "back": "Ý nghĩa: Trong cả trường hợp A và B đều...\nCấu trúc: V-ru / N + につけ + V-ru / N + につけ",
+            "back": "Ý nghĩa: Trong cả trường hợp A và B đều...\nCấu trúc: Vる / N + につけ + Vる / N + につけ",
             "romaji": "ni-tsuke-ni-tsuke",
             "example": "見るにつけ聞くにつけ、彼の努力に頭が下がる。\nMỗi khi thấy hay nghe, tôi đều khâm phục nỗ lực của anh ấy.\n\nうれしいにつけ悲しいにつけ、彼女は日記に書き留める。\nDù vui hay buồn, cô ấy đều ghi lại vào nhật ký.\n\n何事につけ、慎重に考えるべきだ。\nDù là chuyện gì đi nữa, cũng cần suy nghĩ thận trọng.",
             "jlptLevel": 1
           },
           {
             "front": "〜のやら〜のやら",
-            "back": "Ý nghĩa: Không biết là A hay là B (diễn tả sự mơ hồ, không rõ ràng).\nCấu trúc: V-ru / A-i / Na-adj + のやら + V-ru / A-i / Na-adj + のやら",
+            "back": "Ý nghĩa: Không biết là A hay là B (diễn tả sự mơ hồ, không rõ ràng).\nCấu trúc: Vる / A-i / Na-adj + のやら + Vる / A-i / Na-adj + のやら",
             "romaji": "no-yara-no-yara",
             "example": "彼は怒っているのやら冗談を言っているのやら、さっぱりわからない。\nKhông biết anh ta đang giận thật hay đang đùa, tôi hoàn toàn không hiểu.\n\n合格して、うれしいのやらほっとしたのやら、言葉が出なかった。\nĐậu rồi, không biết là vui hay nhẹ nhõm nữa, tôi không thốt nên lời.\n\nいつのやらどこへ行ったのやら、全くの手がかりがない。\nChẳng biết từ bao giờ hay đã đi đâu, hoàn toàn không có manh mối.",
             "jlptLevel": 1

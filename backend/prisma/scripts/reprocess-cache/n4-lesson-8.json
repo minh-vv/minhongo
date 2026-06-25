@@ -2,7 +2,7 @@
   "order": 8,
   "title": "Bài 33 — Từ vựng JLPT N4 (Phần 8)",
   "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 8/25.",
-  "theoryMd": "### 1. V-る + ことにする\n#### 💡 Cấu trúc & Ý nghĩa\nQuyết định thực hiện một hành động sau khi đã suy nghĩ.\nCông thức: V-る + ことにする\n\n#### 📝 Ví dụ minh họa\n今日、新しいパソコンを買うことにしました。\nHôm nay, tôi đã quyết định mua máy tính mới.\n\n### 2. V-た + ことがある\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả kinh nghiệm đã trải qua.\nCông thức: V-た + ことがある\n\n#### 📝 Ví dụ minh họa\n私は日本料理を食べたことがあります。\nTôi đã từng ăn món Nhật rồi.",
+  "theoryMd": "### 1. Vる + ことにする\n#### 💡 Cấu trúc & Ý nghĩa\nQuyết định thực hiện một hành động sau khi đã suy nghĩ.\nCông thức: Vる + ことにする\n\n#### 📝 Ví dụ minh họa\n今日、新しいパソコンを買うことにしました。\nHôm nay, tôi đã quyết định mua máy tính mới.\n\n### 2. Vた + ことがある\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả kinh nghiệm đã trải qua.\nCông thức: Vた + ことがある\n\n#### 📝 Ví dụ minh họa\n私は日本料理を食べたことがあります。\nTôi đã từng ăn món Nhật rồi.",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -192,15 +192,15 @@
         "jlptLevel": 4,
         "cards": [
           {
-            "front": "V-る + ことにする",
-            "back": "Ý nghĩa: Quyết định làm gì đó (thể hiện ý chí cá nhân).\nCấu trúc: V-る + ことにする",
+            "front": "Vる + ことにする",
+            "back": "Ý nghĩa: Quyết định làm gì đó (thể hiện ý chí cá nhân).\nCấu trúc: Vる + ことにする",
             "romaji": "koto-ni-suru",
             "example": "今日、新しいパソコンを買うことにしました。\nHôm nay, tôi đã quyết định mua máy tính mới.\n\n明日から毎日運動することにします。\nTôi quyết định từ mai ngày nào cũng sẽ tập thể dục.\n\n来月、日本へ行くことにしました。\nTôi đã quyết định tháng sau đi Nhật.\n\n禁煙することに決めました。\nTôi đã quyết định cai thuốc lá.",
             "jlptLevel": 4
           },
           {
-            "front": "V-た + ことがある",
-            "back": "Ý nghĩa: Đã từng trải nghiệm việc gì đó trong quá khứ.\nCấu trúc: V-た + ことがある",
+            "front": "Vた + ことがある",
+            "back": "Ý nghĩa: Đã từng trải nghiệm việc gì đó trong quá khứ.\nCấu trúc: Vた + ことがある",
             "romaji": "koto-ga-aru",
             "example": "私は日本料理を食べたことがあります。\nTôi đã từng ăn món Nhật rồi.\n\n北海道へ行ったことがありますか。\nBạn đã từng đến Hokkaido chưa?\n\n一度飛行機に乗ったことがあります。\nTôi đã từng đi máy bay một lần.\n\n富士山に登ったことがあります。\nTôi đã từng leo núi Phú Sĩ.",
             "jlptLevel": 4

@@ -2,7 +2,7 @@
   "order": 2,
   "title": "Bài 27 — Từ vựng JLPT N4 (Phần 2)",
   "summary": "Học và rèn luyện 24 từ vựng JLPT N4 - Lớp bài học 2/25.",
-  "theoryMd": "### 1. られる / れる (Thể khả năng)\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Thể hiện khả năng có thể làm một việc gì đó.\n- Cấu trúc: Nhóm 1: V-u → V-eru; Nhóm 2: V-ru → V-rareru; Nhóm 3: くる→こられる, する→できる\n#### 📝 Ví dụ minh họa\n- 漢字が読めます。(Tôi có thể đọc được chữ Hán.)\n- 肉が食べられます。(Tôi có thể ăn được thịt.)\n- 明日、行くことができます。(Ngày mai tôi có thể đi được.)\n- このペンで書けます。(Tôi có thể viết bằng chiếc bút này.)\n\n### 2. 見える / 聞こえる\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Nhìn thấy/nghe thấy một cách tự nhiên.\n- Cấu trúc: N + が + 見える/聞こえる\n#### 📝 Ví dụ minh họa\n- 山が見えます。(Tôi nhìn thấy núi.)\n- 鳥の声が聞こえます。(Tôi nghe thấy tiếng chim.)\n- ここから海が見えます。(Từ đây có thể nhìn thấy biển.)\n- 隣の部屋の音が聞こえます。(Tôi nghe thấy tiếng từ phòng bên cạnh.)\n\n### 3. N しか 〜 ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Nhấn mạnh sự ít ỏi, chỉ có duy nhất.\n- Cấu trúc: N + しか + V (phủ định)\n#### 📝 Ví dụ minh họa\n- 100円しかありません。(Tôi chỉ có 100 yên.)\n- 一人しかいません。(Chỉ có một người.)\n- 水しか飲みません。(Tôi chỉ uống nước.)\n- 日本語しか話せません。(Tôi chỉ có thể nói được tiếng Nhật.)",
+  "theoryMd": "### 1. られる / れる (Thể khả năng)\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Thể hiện khả năng có thể làm một việc gì đó.\n- Cấu trúc: Nhóm 1: V-u → V-eru; Nhóm 2: Vる → V-rareru; Nhóm 3: くる→こられる, する→できる\n#### 📝 Ví dụ minh họa\n- 漢字が読めます。(Tôi có thể đọc được chữ Hán.)\n- 肉が食べられます。(Tôi có thể ăn được thịt.)\n- 明日、行くことができます。(Ngày mai tôi có thể đi được.)\n- このペンで書けます。(Tôi có thể viết bằng chiếc bút này.)\n\n### 2. 見える / 聞こえる\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Nhìn thấy/nghe thấy một cách tự nhiên.\n- Cấu trúc: N + が + 見える/聞こえる\n#### 📝 Ví dụ minh họa\n- 山が見えます。(Tôi nhìn thấy núi.)\n- 鳥の声が聞こえます。(Tôi nghe thấy tiếng chim.)\n- ここから海が見えます。(Từ đây có thể nhìn thấy biển.)\n- 隣の部屋の音が聞こえます。(Tôi nghe thấy tiếng từ phòng bên cạnh.)\n\n### 3. N しか 〜 ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Nhấn mạnh sự ít ỏi, chỉ có duy nhất.\n- Cấu trúc: N + しか + V (phủ định)\n#### 📝 Ví dụ minh họa\n- 100円しかありません。(Tôi chỉ có 100 yên.)\n- 一人しかいません。(Chỉ có một người.)\n- 水しか飲みません。(Tôi chỉ uống nước.)\n- 日本語しか話せません。(Tôi chỉ có thể nói được tiếng Nhật.)",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -200,7 +200,7 @@
         "cards": [
           {
             "front": "られる / れる",
-            "back": "Ý nghĩa: Thể hiện khả năng có thể làm một việc gì đó.\nCấu trúc: Nhóm 1: V-u → V-eru; Nhóm 2: V-ru → V-rareru; Nhóm 3: くる→こられる, する→できる",
+            "back": "Ý nghĩa: Thể hiện khả năng có thể làm một việc gì đó.\nCấu trúc: Nhóm 1: V-u → V-eru; Nhóm 2: Vる → V-rareru; Nhóm 3: くる→こられる, する→できる",
             "romaji": "rareru / reru",
             "example": "漢字が読めます。\nTôi có thể đọc được chữ Hán.\n\n肉が食べられます。\nTôi có thể ăn được thịt.\n\n明日、行くことができます。\nNgày mai tôi có thể đi được.\n\nこのペンで書けます。\nTôi có thể viết bằng chiếc bút này.",
             "jlptLevel": 4

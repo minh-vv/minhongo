@@ -2,7 +2,7 @@
   "order": 63,
   "title": "Bài 63 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 63/92).",
-  "theoryMd": "### 1. 〜というもの\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N(thời gian) + というもの\n- **Ý nghĩa:** Nhấn mạnh một khoảng thời gian dài liên tục mà trạng thái/hành động kéo dài xuyên suốt không nghỉ.\n\n#### 📝 Ví dụ minh họa\n- ここ一ヶ月というもの、まともに休めていない。(Suốt một tháng nay, tôi chẳng nghỉ ngơi tử tế được.)\n- 試験前の三日というもの、毎日図書館にこもっていた。(Suốt ba ngày trước kỳ thi, tôi chỉ ở lì trong thư viện.)\n- この一週間というもの、彼は部屋から出ていない。(Suốt một tuần nay, anh ấy không ra khỏi phòng.)\n\n### 2. 〜というところだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N / V-ru + というところだ\n- **Ý nghĩa:** Dùng để đưa ra con số ước lượng, đánh giá mức độ vừa phải, không quá cao cũng không quá thấp.\n\n#### 📝 Ví dụ minh họa\n- 準備は８割というところだ。(Khâu chuẩn bị được khoảng 80%.)\n- 今年の成長率は５％増というところだ。(Tăng trưởng năm nay vào khoảng +5%.)\n- 今回の成績はまあまあというところだ。(Thành tích lần này ở mức tàm tạm.)",
+  "theoryMd": "### 1. 〜というもの\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N(thời gian) + というもの\n- **Ý nghĩa:** Nhấn mạnh một khoảng thời gian dài liên tục mà trạng thái/hành động kéo dài xuyên suốt không nghỉ.\n\n#### 📝 Ví dụ minh họa\n- ここ一ヶ月というもの、まともに休めていない。(Suốt một tháng nay, tôi chẳng nghỉ ngơi tử tế được.)\n- 試験前の三日というもの、毎日図書館にこもっていた。(Suốt ba ngày trước kỳ thi, tôi chỉ ở lì trong thư viện.)\n- この一週間というもの、彼は部屋から出ていない。(Suốt một tuần nay, anh ấy không ra khỏi phòng.)\n\n### 2. 〜というところだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N / Vる + というところだ\n- **Ý nghĩa:** Dùng để đưa ra con số ước lượng, đánh giá mức độ vừa phải, không quá cao cũng không quá thấp.\n\n#### 📝 Ví dụ minh họa\n- 準備は８割というところだ。(Khâu chuẩn bị được khoảng 80%.)\n- 今年の成長率は５％増というところだ。(Tăng trưởng năm nay vào khoảng +5%.)\n- 今回の成績はまあまあというところだ。(Thành tích lần này ở mức tàm tạm.)",
   "skills": [
     "GRAMMAR"
   ],
@@ -26,7 +26,7 @@
           },
           {
             "front": "〜というところだ",
-            "back": "Ý nghĩa: Ở mức độ, đại khái là, khoảng chừng.\nCấu trúc: N / V-ru + というところだ",
+            "back": "Ý nghĩa: Ở mức độ, đại khái là, khoảng chừng.\nCấu trúc: N / Vる + というところだ",
             "romaji": "toiu-tokoro-da",
             "example": "準備は８割というところだ。\nKhâu chuẩn bị được khoảng 80%.\n\n今年の成長率は５％増というところだ。\nTăng trưởng năm nay vào khoảng +5%.\n\n今回の成績はまあまあというところだ。\nThành tích lần này ở mức tàm tạm.",
             "jlptLevel": 1

@@ -6,6 +6,7 @@ import { coursesApi } from '../api/coursesApi';
 import { flashcardApi } from '../api/flashcardApi';
 import aiTutorApi from '../api/aiTutorApi';
 import CollapsibleExample from '../components/CollapsibleExample';
+import { annotateSentence } from '../utils/furiganaHelper';
 
 function speakJapanese(text) {
   if (!window.speechSynthesis) return;
@@ -179,17 +180,23 @@ function normalizeGrammarToken(token) {
   if (/^(?:V-plain|Thể thông thường|V\s*thông thường|V-plain\s*\(thông thường\))$/i.test(t)) {
     return 'V-plain';
   }
-  if (/^(?:V-ru|Động từ thể từ điển|V\s*từ điển|V-ru\s*\(từ điển\))$/i.test(t)) {
-    return 'V-ru';
+  if (/^(?:V-ru|Động từ thể từ điển|V\s*từ điển|V-ru\s*\(từ điển\)|Vる)$/i.test(t)) {
+    return 'Vる';
   }
-  if (/^(?:V-masu\s*\(bỏ\s*masu\)|V-masu\s*\(bỏ\s*ます\))$/i.test(t)) {
-    return 'V-masu (bỏ masu)';
+  if (/^(?:V-masu\s*\(bỏ\s*masu\)|V-masu\s*\(bỏ\s*ます\)|Vます\s*\(bỏ\s*ます\))$/i.test(t)) {
+    return 'Vます (bỏ ます)';
   }
-  if (/^(?:V-ta|Động từ thể quá khứ|V-ta\s*\(quá khứ\))$/i.test(t)) {
-    return 'V-ta';
+  if (/^(?:V-ta|Động từ thể quá khứ|V-ta\s*\(quá khứ\)|Vた)$/i.test(t)) {
+    return 'Vた';
   }
-  if (/^(?:V-te|Động từ thể te|V-te\s*\(thể te\))$/i.test(t)) {
-    return 'V-te';
+  if (/^(?:V-te|Động từ thể te|V-te\s*\(thể te\)|Vて)$/i.test(t)) {
+    return 'Vて';
+  }
+  if (/^(?:V-nai|Động từ thể nai|V-nai\s*\(phủ định\)|Vない)$/i.test(t)) {
+    return 'Vない';
+  }
+  if (/^(?:V-ba|Động từ thể ba|V-ba\s*\(điều kiện\)|Vば)$/i.test(t)) {
+    return 'Vば';
   }
   if (/^(?:A-i|Tính từ đuôi i|Tính từ -i)$/i.test(t)) {
     return 'A-i';

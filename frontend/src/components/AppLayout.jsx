@@ -30,7 +30,6 @@ const navItems = [
     children: [
       { path: '/listening/dialogue', label: 'Nghe hội thoại' },
       { path: '/listening/sentence', label: 'Điền từ & chép câu' },
-      { path: '/listening/shadowing', label: 'Nói đuổi Shadowing' },
     ]
   },
   { path: '/roadmap',    label: 'Lộ trình',                icon: <IconMap /> },

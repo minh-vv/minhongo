@@ -2,7 +2,7 @@
   "order": 79,
   "title": "79. ～している・～ことにしている",
   "summary": "Ngữ pháp bài số 79 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. 〜ことにしている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả một thói quen hoặc một quy tắc mà bản thân tự đặt ra và duy trì thực hiện đều đặn.\n- **Cấu trúc**:\n  - Động từ thể từ điển (V-ru) / Động từ phủ định (V-nai) + ことにしている\n\n#### 📝 Ví dụ minh họa\n- 毎朝、自分で作ったお弁当を食べることにしている。\n  (Mỗi sáng, tôi đều duy trì thói quen ăn cơm hộp tự mình làm.)\n- 健康のため、夜遅くには何も食べないことにしています。\n  (Để bảo vệ sức khỏe, tôi duy trì thói quen không ăn gì vào đêm muộn.)\n- 寝る前に必ずストレッチをすることにしている。\n  (Tôi duy trì thói quen nhất định phải tập giãn cơ trước khi đi ngủ.)\n- 毎日日記を書くことにしている。\n  (Tôi duy trì thói quen viết nhật ký mỗi ngày.)",
+  "theoryMd": "### 1. 〜ことにしている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả một thói quen hoặc một quy tắc mà bản thân tự đặt ra và duy trì thực hiện đều đặn.\n- **Cấu trúc**:\n  - Động từ thể từ điển (Vる) / Động từ phủ định (Vない) + ことにしている\n\n#### 📝 Ví dụ minh họa\n- 毎朝、自分で作ったお弁当を食べることにしている。\n  (Mỗi sáng, tôi đều duy trì thói quen ăn cơm hộp tự mình làm.)\n- 健康のため、夜遅くには何も食べないことにしています。\n  (Để bảo vệ sức khỏe, tôi duy trì thói quen không ăn gì vào đêm muộn.)\n- 寝る前に必ずストレッチをすることにしている。\n  (Tôi duy trì thói quen nhất định phải tập giãn cơ trước khi đi ngủ.)\n- 毎日日記を書くことにしている。\n  (Tôi duy trì thói quen viết nhật ký mỗi ngày.)",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜ことにしている",
-            "back": "Ý nghĩa: Cố gắng duy trì một thói quen (quy tắc do bản thân tự quyết định và thực hiện đều đặn).\nCấu trúc: V-ru・V-nai + ことにしている",
+            "back": "Ý nghĩa: Cố gắng duy trì một thói quen (quy tắc do bản thân tự quyết định và thực hiện đều đặn).\nCấu trúc: Vる・Vない + ことにしている",
             "romaji": "koto-ni-shite-iru",
             "example": "毎朝、自分で作ったお弁当を食べることにしている。\nMỗi sáng, tôi đều duy trì thói quen ăn cơm hộp tự mình làm.\n\n健康のため、夜遅くには何も食べないことにしています。\nĐể bảo vệ sức khỏe, tôi duy trì thói quen không ăn gì vào đêm muộn.\n\n寝る前に必ずストレッチをすることにしている。\nTôi duy trì thói quen nhất định phải tập giãn cơ trước khi đi ngủ.\n\n毎日日記を書くことにしている。\nTôi duy trì thói quen viết nhật ký mỗi ngày.",
             "jlptLevel": 3

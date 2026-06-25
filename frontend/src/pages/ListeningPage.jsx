@@ -12,7 +12,7 @@ export default function ListeningPage() {
     if (deckId || mode === 'cloze' || mode === 'dictation') {
       navigate(`/listening/sentence?${searchParams.toString()}`, { replace: true });
     } else if (mode === 'shadowing') {
-      navigate(`/listening/shadowing?${searchParams.toString()}`, { replace: true });
+      navigate('/listening/dialogue', { replace: true });
     } else {
       navigate('/listening/dialogue', { replace: true });
     }

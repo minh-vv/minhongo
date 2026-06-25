@@ -2,7 +2,7 @@
   "order": 16,
   "title": "Bài 16 — Thể て (2): ～ています trạng thái",
   "summary": "Phân biệt ～ています tiếp diễn vs trạng thái kết quả.",
-  "theoryMd": "### 1. V-ています (Trạng thái kết quả)\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để diễn tả trạng thái hiện tại của sự vật, sự việc là kết quả từ một hành động đã thực hiện trước đó.\n- **Cấu trúc:** V-te + います\n\n#### 📝 Ví dụ minh họa\n- 窓が閉まっています。(Cửa sổ đang đóng.)\n- 結婚しています。(Tôi đã kết hôn.)",
+  "theoryMd": "### 1. Vています (Trạng thái kết quả)\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để diễn tả trạng thái hiện tại của sự vật, sự việc là kết quả từ một hành động đã thực hiện trước đó.\n- **Cấu trúc:** Vて + います\n\n#### 📝 Ví dụ minh họa\n- 窓が閉まっています。(Cửa sổ đang đóng.)\n- 結婚しています。(Tôi đã kết hôn.)",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -262,15 +262,15 @@
         "jlptLevel": 5,
         "cards": [
           {
-            "front": "V-ています (trạng thái kết quả)",
-            "back": "Ý nghĩa: Diễn tả trạng thái hiện tại là kết quả của một hành động đã xảy ra trong quá khứ.\nCấu trúc: V-te + います",
+            "front": "Vています (trạng thái kết quả)",
+            "back": "Ý nghĩa: Diễn tả trạng thái hiện tại là kết quả của một hành động đã xảy ra trong quá khứ.\nCấu trúc: Vて + います",
             "romaji": "v-te-imasu",
             "example": "窓が閉まっています。\nCửa sổ đang đóng.\n\n結婚しています。\nTôi đã kết hôn.\n\n田中さんは知っています。\nAnh Tanaka biết việc đó.\n\n電気がついています。\nĐèn đang bật.",
             "jlptLevel": 5
           },
           {
-            "front": "V-ていません",
-            "back": "Ý nghĩa: Phủ định của trạng thái kết quả, diễn tả sự việc chưa xảy ra hoặc không ở trong trạng thái đó.\nCấu trúc: V-te + いません",
+            "front": "Vていません",
+            "back": "Ý nghĩa: Phủ định của trạng thái kết quả, diễn tả sự việc chưa xảy ra hoặc không ở trong trạng thái đó.\nCấu trúc: Vて + いません",
             "romaji": "v-te-imasen",
             "example": "結婚していません。\nTôi chưa kết hôn.\n\n何も持っていません。\nTôi không cầm theo gì cả.\n\n名前を知っていません。\nTôi không biết tên.\n\n窓が開いていません。\nCửa sổ không mở.",
             "jlptLevel": 5

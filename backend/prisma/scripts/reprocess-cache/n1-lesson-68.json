@@ -2,7 +2,7 @@
   "order": 68,
   "title": "Bài 68 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 68/92).",
-  "theoryMd": "### 1. 〜のいかんによっては\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Tùy thuộc vào kết quả, mức độ mà có thể dẫn đến hệ quả khác.\n- **Cấu trúc**: N(kết quả/mức độ) + のいかんによっては\n\n#### 📝 Ví dụ minh họa\n- 面談の評価のいかんによっては、配属先が変更される場合があります。(Tùy đánh giá phỏng vấn, nơi phân công có thể thay đổi.)\n- 提出物の品質のいかんによっては、再提出をお願いすることがあります。(Tùy chất lượng bài nộp, có thể yêu cầu nộp lại.)\n\n### 2. 〜にとどまらず\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không chỉ dừng lại ở phạm vi đó mà còn lan rộng ra ngoài.\n- **Cấu trúc**: N / V-ru + にとどまらず\n\n#### 📝 Ví dụ minh họa\n- 問題は教育現場にとどまらず、家庭にも波及している。(Vấn đề không chỉ dừng ở trường học mà còn lan tới gia đình.)\n- 彼の研究は学術界にとどまらず、産業界にも影響を与えた。(Nghiên cứu của anh ấy không chỉ trong giới học thuật mà còn ảnh hưởng đến công nghiệp.)",
+  "theoryMd": "### 1. 〜のいかんによっては\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Tùy thuộc vào kết quả, mức độ mà có thể dẫn đến hệ quả khác.\n- **Cấu trúc**: N(kết quả/mức độ) + のいかんによっては\n\n#### 📝 Ví dụ minh họa\n- 面談の評価のいかんによっては、配属先が変更される場合があります。(Tùy đánh giá phỏng vấn, nơi phân công có thể thay đổi.)\n- 提出物の品質のいかんによっては、再提出をお願いすることがあります。(Tùy chất lượng bài nộp, có thể yêu cầu nộp lại.)\n\n### 2. 〜にとどまらず\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Không chỉ dừng lại ở phạm vi đó mà còn lan rộng ra ngoài.\n- **Cấu trúc**: N / Vる + にとどまらず\n\n#### 📝 Ví dụ minh họa\n- 問題は教育現場にとどまらず、家庭にも波及している。(Vấn đề không chỉ dừng ở trường học mà còn lan tới gia đình.)\n- 彼の研究は学術界にとどまらず、産業界にも影響を与えた。(Nghiên cứu của anh ấy không chỉ trong giới học thuật mà còn ảnh hưởng đến công nghiệp.)",
   "skills": [
     "GRAMMAR"
   ],
@@ -26,7 +26,7 @@
           },
           {
             "front": "〜にとどまらず",
-            "back": "Ý nghĩa: Không chỉ dừng lại ở phạm vi đó mà còn lan rộng hơn.\nCấu trúc: N / V-ru + にとどまらず",
+            "back": "Ý nghĩa: Không chỉ dừng lại ở phạm vi đó mà còn lan rộng hơn.\nCấu trúc: N / Vる + にとどまらず",
             "romaji": "ni-todomara-zu",
             "example": "問題は教育現場にとどまらず、家庭にも波及している。\nVấn đề không chỉ dừng ở trường học mà còn lan tới gia đình.\n\n彼の研究は学術界にとどまらず、産業界にも影響を与えた。\nNghiên cứu của anh ấy không chỉ trong giới học thuật mà còn ảnh hưởng đến công nghiệp.\n\n人気は首都圏にとどまらず、地方にも広がった。\nĐộ nổi tiếng không chỉ ở vùng thủ đô mà còn lan tới địa phương.",
             "jlptLevel": 1

@@ -386,7 +386,7 @@
   },
   {
     "front": "～たらきりがない &#8211; Kể ra thì vô số",
-    "back": "V-たらきりがない\n\nÝ nghĩa: V-たらきりがない",
+    "back": "Vたらきりがない\n\nÝ nghĩa: Vたらきりがない",
     "romaji": "tarakiriga-nai",
     "example": "欠点を挙げたらきりがないから、このくらいでやめよう。\nNếu mà liệt kê khuyết điểm thì chẳng có hồi kết, dừng ở đây nhé.\n\n心配し始めたらきりがないよ。まずやってみよう。\nNếu mà bắt đầu lo thì lo hoài. Cứ làm thử trước đã.\n\n欲を言い出したらきりがない。\nNếu mà bắt đầu tham thì chẳng có điểm dừng.",
     "jlptLevel": 1
@@ -1198,14 +1198,14 @@
   },
   {
     "front": "～に難くない &#8211; Không khó để…",
-    "back": "V-る + に難くない\n\nÝ nghĩa: Không khó để V (dễ để…)",
+    "back": "Vる + に難くない\n\nÝ nghĩa: Không khó để V (dễ để…)",
     "romaji": "ni-katakunai",
     "example": "被災者の不安は想像に難くない。\nNỗi bất an của người bị nạn không khó để tưởng tượng.\n\n突然の解雇が彼に与えた衝撃は察するに難くない。\nKhông khó để cảm nhận cú sốc mà việc sa thải đột ngột gây ra cho anh ấy.\n\nこの決断がいかに困難だったかは理解に難くない。\nKhông khó để hiểu quyết định này khó khăn đến mức nào.",
     "jlptLevel": 1
   },
   {
     "front": "～に越したことはない &#8211; Tốt nhất là…",
-    "back": "V-る + に越したことはない\n\nÝ nghĩa: Làm V là tốt nhất/không gì bằng",
+    "back": "Vる + に越したことはない\n\nÝ nghĩa: Làm V là tốt nhất/không gì bằng",
     "romaji": "ni-koshita-koto-wa-nai",
     "example": "早めに出発するに越したことはない。\nĐi sớm thì không gì bằng.\n\n安全であるに越したことはないが、過剰な警戒は不要だ。\nAn toàn thì tốt nhất nhưng cảnh giác quá mức thì không cần.\n\n初めてなら、説明書を読んでから始めるに越したことはない。\nNếu lần đầu, tốt nhất là đọc hướng dẫn rồi hãy bắt đầu.",
     "jlptLevel": 1
@@ -1240,14 +1240,14 @@
   },
   {
     "front": "～たが最後 &#8211; Một khi đã… là…",
-    "back": "いったんV-たが最後、～ / 一度V-たが最後、～\n\nÝ nghĩa: いったんV-たが最後、～ / 一度V-たが最後、～",
+    "back": "いったんVたが最後、～ / 一度Vたが最後、～\n\nÝ nghĩa: いったんVたが最後、～ / 一度Vたが最後、～",
     "romaji": "ta-ga-saigo",
     "example": "彼にお金を貸したが最後、二度と戻ってこない。\nMột khi đã cho anh ta vay tiền thì chẳng bao giờ lấy lại được.\n\nギャンブルに手を出したが最後、人生が転落してしまう人もいる。\nMột khi đã nhúng tay vào cờ bạc, có người cuộc đời tụt dốc.\n\nその噂を信じたが最後、彼を正しく評価できなくなる。\nMột khi tin lời đồn đó thì không thể đánh giá anh ấy đúng nữa.",
     "jlptLevel": 1
   },
   {
     "front": "～たら最後 &#8211; Nếu… là… tiêu",
-    "back": "V-たら最後、～\n\nÝ nghĩa: V-たら最後、～",
+    "back": "Vたら最後、～\n\nÝ nghĩa: Vたら最後、～",
     "romaji": "tara-saigo",
     "example": "スマホゲームを始めたら最後、課金が止まらなくなるよ。\nMột khi bắt đầu game điện thoại là nạp tiền không dừng đâu.\n\n彼に秘密を話したら最後、すぐ広まってしまう。\nNếu mà nói bí mật với anh ta là sẽ lan nhanh ngay.\n\n一度サボり始めたら最後、癖になる。\nMột khi đã bắt đầu trốn việc là thành tật.",
     "jlptLevel": 1

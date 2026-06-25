@@ -2,7 +2,7 @@
   "order": 43,
   "title": "43. ～こと",
   "summary": "Ngữ pháp bài số 43 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. ～こと\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để đưa ra chỉ thị, yêu cầu, hoặc quy định mang tính cứng rắn, khách quan (thường thấy trong văn bản, thông báo, nội quy).\n- **Cấu trúc:** V-ru / V-nai + こと\n\n#### 📝 Ví dụ minh họa\n- 図書館では静かにすること。(Phải giữ im lặng trong thư viện)\n- 試験中は携帯電話を使わないこと。(Không được sử dụng điện thoại trong giờ thi)",
+  "theoryMd": "### 1. ～こと\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để đưa ra chỉ thị, yêu cầu, hoặc quy định mang tính cứng rắn, khách quan (thường thấy trong văn bản, thông báo, nội quy).\n- **Cấu trúc:** Vる / Vない + こと\n\n#### 📝 Ví dụ minh họa\n- 図書館では静かにすること。(Phải giữ im lặng trong thư viện)\n- 試験中は携帯電話を使わないこと。(Không được sử dụng điện thoại trong giờ thi)",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜こと",
-            "back": "Ý nghĩa: Phải làm / Không được làm (Dùng để đưa ra quy tắc, chỉ thị, nội quy).\nCấu trúc: V-ru / V-nai + こと",
+            "back": "Ý nghĩa: Phải làm / Không được làm (Dùng để đưa ra quy tắc, chỉ thị, nội quy).\nCấu trúc: Vる / Vない + こと",
             "romaji": "koto",
             "example": "図書館では静かにすること。\nHãy giữ yên lặng trong thư viện.\n\n試験中は携帯電話を使わないこと。\nKhông được sử dụng điện thoại di động trong giờ thi.\n\n期日までにレポートを提出すること。\nHãy nộp báo cáo đúng thời hạn.\n\n夜遅く大きな音を出さないこと。\nKhông được gây tiếng ồn lớn vào đêm muộn.",
             "jlptLevel": 3

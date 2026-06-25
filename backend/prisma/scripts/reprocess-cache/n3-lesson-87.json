@@ -2,7 +2,7 @@
   "order": 87,
   "title": "87. ～も…ば～も…・～も…なら～も",
   "summary": "Ngữ pháp bài số 87 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. ～も…ば～も…・～も…なら～も\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để liệt kê hai đặc điểm, tính chất cùng tốt hoặc cùng xấu của một sự vật, sự việc. Nhấn mạnh rằng cả hai khía cạnh đều có tính chất tương đồng.\n- **Cấu trúc:** \n  - N + も + V-ba / A-kereba + N + も\n  - N + も + Adj-na nara / N + nara + N + も\n\n#### 📝 Ví dụ minh họa\n彼は勉強もできれば、スポーツも得意だ。\nAnh ấy học cũng giỏi mà chơi thể thao cũng tài.\n\nこのレストランは、味も良ければ雰囲気も良い。\nNhà hàng này đồ ăn vừa ngon mà không khí cũng tốt.\n\n彼女は歌も歌えれば、ダンスも上手だ。\nCô ấy vừa biết hát lại vừa nhảy đẹp.\n\n彼は性格も良ければ、頭もいい。\nAnh ấy vừa có tính cách tốt, lại vừa thông minh.",
+  "theoryMd": "### 1. ～も…ば～も…・～も…なら～も\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để liệt kê hai đặc điểm, tính chất cùng tốt hoặc cùng xấu của một sự vật, sự việc. Nhấn mạnh rằng cả hai khía cạnh đều có tính chất tương đồng.\n- **Cấu trúc:** \n  - N + も + Vば / A-kereba + N + も\n  - N + も + Adj-na nara / N + nara + N + も\n\n#### 📝 Ví dụ minh họa\n彼は勉強もできれば、スポーツも得意だ。\nAnh ấy học cũng giỏi mà chơi thể thao cũng tài.\n\nこのレストランは、味も良ければ雰囲気も良い。\nNhà hàng này đồ ăn vừa ngon mà không khí cũng tốt.\n\n彼女は歌も歌えれば、ダンスも上手だ。\nCô ấy vừa biết hát lại vừa nhảy đẹp.\n\n彼は性格も良ければ、頭もいい。\nAnh ấy vừa có tính cách tốt, lại vừa thông minh.",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜も…ば〜も…・〜も…なら〜も",
-            "back": "Ý nghĩa: Liệt kê hai đặc điểm cùng tốt hoặc cùng xấu của một sự vật, sự việc.\nCấu trúc: N + も + V-ba / A-kereba / Adj-na nara / N + nara + N + も",
+            "back": "Ý nghĩa: Liệt kê hai đặc điểm cùng tốt hoặc cùng xấu của một sự vật, sự việc.\nCấu trúc: N + も + Vば / A-kereba / Adj-na nara / N + nara + N + も",
             "romaji": "mo...ba...mo / mo...nara...mo",
             "example": "彼は勉強もできれば、スポーツも得意だ。\nAnh ấy học cũng giỏi mà chơi thể thao cũng tài.\n\nこのレストランは、味も良ければ雰囲気も良い。\nNhà hàng này đồ ăn vừa ngon mà không khí cũng tốt.\n\n彼女は歌も歌えれば、ダンスも上手だ。\nCô ấy vừa biết hát lại vừa nhảy đẹp.\n\n彼は性格も良ければ、頭もいい。\nAnh ấy vừa có tính cách tốt, lại vừa thông minh.",
             "jlptLevel": 3

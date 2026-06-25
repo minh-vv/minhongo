@@ -2,7 +2,7 @@
   "order": 19,
   "title": "Bài 19 — Thể ない: Phủ định dạng tự nhiên",
   "summary": "Chia thể ない, ～なければなりません, ～なくてもいいです.",
-  "theoryMd": "### 1. V-なければなりません\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ sự bắt buộc, nghĩa vụ phải thực hiện hành động.\n- **Cấu trúc:** V-nai (bỏ ない) + なければなりません\n\n### 2. V-なくてもいいです\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ sự cho phép, không bắt buộc làm hành động đó.\n- **Cấu trúc:** V-nai (bỏ ない) + くてもいいです",
+  "theoryMd": "### 1. V-なければなりません\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ sự bắt buộc, nghĩa vụ phải thực hiện hành động.\n- **Cấu trúc:** Vない (bỏ ない) + なければなりません\n\n### 2. V-なくてもいいです\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ sự cho phép, không bắt buộc làm hành động đó.\n- **Cấu trúc:** Vない (bỏ ない) + くてもいいです",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -263,14 +263,14 @@
         "cards": [
           {
             "front": "V-なければなりません",
-            "back": "Ý nghĩa: Phải làm gì đó (thể hiện nghĩa vụ, trách nhiệm).\nCấu trúc: V-nai (bỏ ない) + なければなりません",
+            "back": "Ý nghĩa: Phải làm gì đó (thể hiện nghĩa vụ, trách nhiệm).\nCấu trúc: Vない (bỏ ない) + なければなりません",
             "romaji": "v-nakereba-narimasen",
             "example": "毎日勉強しなければなりません。\nMỗi ngày tôi phải học bài.\n\n薬を飲まなければなりません。\nTôi phải uống thuốc.\n\n宿題をしなければなりません。\nTôi phải làm bài tập về nhà.\n\n早く起きなければなりません。\nTôi phải dậy sớm.",
             "jlptLevel": 5
           },
           {
             "front": "V-なくてもいいです",
-            "back": "Ý nghĩa: Không cần phải làm gì đó cũng được (cho phép không làm).\nCấu trúc: V-nai (bỏ ない) + くてもいいです",
+            "back": "Ý nghĩa: Không cần phải làm gì đó cũng được (cho phép không làm).\nCấu trúc: Vない (bỏ ない) + くてもいいです",
             "romaji": "v-nakutemo-ii-desu",
             "example": "明日来なくてもいいです。\nNgày mai bạn không đến cũng được.\n\n傘を持たなくてもいいです。\nBạn không cần mang ô cũng được.\n\n残業しなくてもいいです。\nBạn không cần tăng ca cũng được.\n\n掃除しなくてもいいです。\nBạn không cần dọn dẹp cũng được.",
             "jlptLevel": 5

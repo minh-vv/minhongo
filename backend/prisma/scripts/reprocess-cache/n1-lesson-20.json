@@ -2,7 +2,7 @@
   "order": 20,
   "title": "Bài 20 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 20/92).",
-  "theoryMd": "### 1. 〜を余儀なくされる\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: N + を余儀なくされる\n- **Ý nghĩa**: Dùng để nói về việc bị ép buộc vào tình thế không mong muốn do các nguyên nhân khách quan.\n\n#### 📝 Ví dụ minh họa\n- 大雨のため、野外コンサートは中止を余儀なくされた。\n- 彼は病気で引退を余儀なくされた。\n\n### 2. 〜ないではすまない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: V-nai + ではすまない\n- **Ý nghĩa**: Thể hiện trách nhiệm hoặc tính tất yếu phải làm một việc gì đó.\n\n#### 📝 Ví dụ minh họa\n- みんなに迷惑をかけたのだから、謝らないではすまない。\n- ルールに違反した以上、処分しないではすまない。",
+  "theoryMd": "### 1. 〜を余儀なくされる\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: N + を余儀なくされる\n- **Ý nghĩa**: Dùng để nói về việc bị ép buộc vào tình thế không mong muốn do các nguyên nhân khách quan.\n\n#### 📝 Ví dụ minh họa\n- 大雨のため、野外コンサートは中止を余儀なくされた。\n- 彼は病気で引退を余儀なくされた。\n\n### 2. 〜ないではすまない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: Vない + ではすまない\n- **Ý nghĩa**: Thể hiện trách nhiệm hoặc tính tất yếu phải làm một việc gì đó.\n\n#### 📝 Ví dụ minh họa\n- みんなに迷惑をかけたのだから、謝らないではすまない。\n- ルールに違反した以上、処分しないではすまない。",
   "skills": [
     "GRAMMAR"
   ],
@@ -26,7 +26,7 @@
           },
           {
             "front": "〜ないではすまない",
-            "back": "Ý nghĩa: Không thể không làm (vì trách nhiệm/hoàn cảnh, nếu không làm sẽ không xong).\nCấu trúc: V-nai + ではすまない",
+            "back": "Ý nghĩa: Không thể không làm (vì trách nhiệm/hoàn cảnh, nếu không làm sẽ không xong).\nCấu trúc: Vない + ではすまない",
             "romaji": "nai-dewa-sumanai",
             "example": "これだけ騒ぎを起こしたのだから、責任者は記者会見で説明しないではすまない。\nĐã gây ồn ào đến mức này thì người chịu trách nhiệm không thể không họp báo giải thích.\n\nみんなに迷惑をかけたのだから、謝らないではすまない。\nVì đã làm phiền mọi người nên không thể không xin lỗi.\n\nルールに違反した以上、処分しないではすまない。\nĐã vi phạm quy định thì không thể không xử lý.",
             "jlptLevel": 1

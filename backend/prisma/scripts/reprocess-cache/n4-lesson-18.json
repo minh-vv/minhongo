@@ -2,7 +2,7 @@
   "order": 18,
   "title": "Bài 43 — Từ vựng JLPT N4 (Phần 18)",
   "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 18/25.",
-  "theoryMd": "### 1. V-る + ことがあります\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả hành động thỉnh thoảng mới xảy ra, không thường xuyên.\nCông thức: V-る + ことがあります\n\n#### 📝 Ví dụ minh họa\n週末、外で踊ることがあります。\nCuối tuần, thỉnh thoảng tôi có khiêu vũ bên ngoài.\n\nたまに一人で旅行することがあります。\nThỉnh thoảng tôi có đi du lịch một mình.\n\n朝、コーヒーを飲まないことがあります。\nBuổi sáng, thỉnh thoảng tôi không uống cà phê.\n\n疲れて早く寝ることがあります。\nCó khi tôi mệt nên đi ngủ sớm.\n\n---\n### 2. V-た + 後で\n#### 💡 Cấu trúc & Ý nghĩa\nThứ tự hành động: Sau khi hoàn thành hành động A thì tiếp tục hành động B.\nCông thức: V-た + 後で\n\n#### 📝 Ví dụ minh họa\n部屋を片付けた後で、宿題を済ませます。\nSau khi dọn phòng xong, tôi sẽ làm bài tập.\n\n仕事が終わった後で、食事に行きましょう。\nSau khi xong việc, mình cùng đi ăn nhé.\n\n映画を見た後で、お茶を飲みました。\nSau khi xem phim xong, tôi đã đi uống trà.\n\nシャワーを浴びた後で、出かけます。\nSau khi tắm xong, tôi sẽ ra ngoài.\n\n---\n### 3. とうとう\n#### 💡 Cấu trúc & Ý nghĩa\nPhó từ nhấn mạnh kết quả đạt được sau một quá trình dài chờ đợi hoặc nỗ lực.\nCông thức: とうとう + V\n\n#### 📝 Ví dụ minh họa\nずっと雨が降っていましたが、とうとう止みました。\nTrời mưa suốt nhưng cuối cùng cũng đã tạnh.\n\nとうとう完成しました。\nCuối cùng cũng đã hoàn thành.\n\nとうとう彼が来ました。\nCuối cùng thì anh ấy cũng đến.\n\n長い間待って、とうとう合格しました。\nĐợi một thời gian dài, cuối cùng tôi cũng đỗ.",
+  "theoryMd": "### 1. Vる + ことがあります\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả hành động thỉnh thoảng mới xảy ra, không thường xuyên.\nCông thức: Vる + ことがあります\n\n#### 📝 Ví dụ minh họa\n週末、外で踊ることがあります。\nCuối tuần, thỉnh thoảng tôi có khiêu vũ bên ngoài.\n\nたまに一人で旅行することがあります。\nThỉnh thoảng tôi có đi du lịch một mình.\n\n朝、コーヒーを飲まないことがあります。\nBuổi sáng, thỉnh thoảng tôi không uống cà phê.\n\n疲れて早く寝ることがあります。\nCó khi tôi mệt nên đi ngủ sớm.\n\n---\n### 2. Vた + 後で\n#### 💡 Cấu trúc & Ý nghĩa\nThứ tự hành động: Sau khi hoàn thành hành động A thì tiếp tục hành động B.\nCông thức: Vた + 後で\n\n#### 📝 Ví dụ minh họa\n部屋を片付けた後で、宿題を済ませます。\nSau khi dọn phòng xong, tôi sẽ làm bài tập.\n\n仕事が終わった後で、食事に行きましょう。\nSau khi xong việc, mình cùng đi ăn nhé.\n\n映画を見た後で、お茶を飲みました。\nSau khi xem phim xong, tôi đã đi uống trà.\n\nシャワーを浴びた後で、出かけます。\nSau khi tắm xong, tôi sẽ ra ngoài.\n\n---\n### 3. とうとう\n#### 💡 Cấu trúc & Ý nghĩa\nPhó từ nhấn mạnh kết quả đạt được sau một quá trình dài chờ đợi hoặc nỗ lực.\nCông thức: とうとう + V\n\n#### 📝 Ví dụ minh họa\nずっと雨が降っていましたが、とうとう止みました。\nTrời mưa suốt nhưng cuối cùng cũng đã tạnh.\n\nとうとう完成しました。\nCuối cùng cũng đã hoàn thành.\n\nとうとう彼が来ました。\nCuối cùng thì anh ấy cũng đến.\n\n長い間待って、とうとう合格しました。\nĐợi một thời gian dài, cuối cùng tôi cũng đỗ.",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -192,15 +192,15 @@
         "jlptLevel": 4,
         "cards": [
           {
-            "front": "V-る + ことがあります",
-            "back": "Ý nghĩa: Thỉnh thoảng làm gì đó (tần suất thấp).\nCấu trúc: V-る + ことがあります",
+            "front": "Vる + ことがあります",
+            "back": "Ý nghĩa: Thỉnh thoảng làm gì đó (tần suất thấp).\nCấu trúc: Vる + ことがあります",
             "romaji": "koto-ga-arimasu",
             "example": "週末、外で踊ることがあります。\nCuối tuần, thỉnh thoảng tôi có khiêu vũ bên ngoài.\n\nたまに一人で旅行することがあります。\nThỉnh thoảng tôi có đi du lịch một mình.\n\n朝、コーヒーを飲まないことがあります。\nBuổi sáng, thỉnh thoảng tôi không uống cà phê.\n\n疲れて早く寝ることがあります。\nCó khi tôi mệt nên đi ngủ sớm.",
             "jlptLevel": 4
           },
           {
-            "front": "V-た + 後で",
-            "back": "Ý nghĩa: Sau khi làm xong việc gì đó thì mới làm tiếp việc khác.\nCấu trúc: V-た + 後で",
+            "front": "Vた + 後で",
+            "back": "Ý nghĩa: Sau khi làm xong việc gì đó thì mới làm tiếp việc khác.\nCấu trúc: Vた + 後で",
             "romaji": "ato-de",
             "example": "部屋を片付けた後で、宿題を済ませます。\nSau khi dọn phòng xong, tôi sẽ làm bài tập.\n\n仕事が終わった後で、食事に行きましょう。\nSau khi xong việc, mình cùng đi ăn nhé.\n\n映画を見た後で、お茶を飲みました。\nSau khi xem phim xong, tôi đã đi uống trà.\n\nシャワーを浴びた後で、出かけます。\nSau khi tắm xong, tôi sẽ ra ngoài.",
             "jlptLevel": 4

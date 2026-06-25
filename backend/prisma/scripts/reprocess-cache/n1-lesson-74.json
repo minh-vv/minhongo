@@ -2,7 +2,7 @@
   "order": 74,
   "title": "Bài 74 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 74/92).",
-  "theoryMd": "### 1. 〜もしないで\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Không làm việc A (lẽ ra nên làm) mà lại làm việc B (thường mang ý bất mãn).\n- **Cấu trúc:** V-masu (bỏ masu) + もしないで\n\n### 2. 〜ながらに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Giữ nguyên trạng thái, tình trạng.\n- **Cấu trúc:** N/V-masu + ながらに\n- **Lưu ý:** Thường kết hợp với các từ như: 生まれ (bẩm sinh), 涙 (nước mắt), 居 (ở).",
+  "theoryMd": "### 1. 〜もしないで\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Không làm việc A (lẽ ra nên làm) mà lại làm việc B (thường mang ý bất mãn).\n- **Cấu trúc:** Vます (bỏ masu) + もしないで\n\n### 2. 〜ながらに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Giữ nguyên trạng thái, tình trạng.\n- **Cấu trúc:** N/Vます + ながらに\n- **Lưu ý:** Thường kết hợp với các từ như: 生まれ (bẩm sinh), 涙 (nước mắt), 居 (ở).",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,14 +19,14 @@
         "cards": [
           {
             "front": "〜もしないで",
-            "back": "Ý nghĩa: Không làm... (một việc lẽ ra nên làm) mà đã thực hiện hành động khác (thể hiện sự bất mãn hoặc trách móc).\nCấu trúc: V-masu (bỏ masu) + もしないで",
+            "back": "Ý nghĩa: Không làm... (một việc lẽ ra nên làm) mà đã thực hiện hành động khác (thể hiện sự bất mãn hoặc trách móc).\nCấu trúc: Vます (bỏ masu) + もしないで",
             "romaji": "mo-shinaide",
             "example": "彼は人の話を聞きもしないで結論を出す。\nAnh ta chẳng thèm nghe người ta nói đã vội đưa ra kết luận.\n\n彼女は資料を読みもしないで批判した。\nCô ấy phê bình mà không thèm đọc tài liệu.\n\n挨拶をしもしないで部屋に入ってきた。\nVào phòng mà chẳng thèm chào hỏi.\n\n調べもしないで間違っていると決めつけるのはよくない。\nChưa tìm hiểu mà đã khẳng định sai là không tốt.",
             "jlptLevel": 1
           },
           {
             "front": "〜ながらに",
-            "back": "Ý nghĩa: Vẫn giữ nguyên trạng thái (từ lúc bắt đầu đến giờ).\nCấu trúc: N + ながらに / V-masu (bỏ masu) + ながらに",
+            "back": "Ý nghĩa: Vẫn giữ nguyên trạng thái (từ lúc bắt đầu đến giờ).\nCấu trúc: N + ながらに / Vます (bỏ masu) + ながらに",
             "romaji": "nagara-ni",
             "example": "彼は生まれながらに優れた音感を持っている。\nAnh ấy bẩm sinh đã có tai nghe âm nhạc tuyệt vời.\n\n家にいながらにして世界の講義を受けられる時代だ。\nĐã đến thời có thể học các bài giảng trên thế giới ngay khi ở nhà.\n\n彼女は涙ながらに真実を語った。\nCô ấy vừa rơi lệ vừa kể sự thật.\n\n昔ながらに守り続けられた伝統料理だ。\nĐây là món ăn truyền thống được giữ gìn từ xưa đến nay.",
             "jlptLevel": 1

@@ -2,7 +2,7 @@
   "order": 22,
   "title": "Bài 22 — Điều kiện: ～とき và ～まえに/あとで",
   "summary": "Diễn đạt thời điểm, trước/sau hành động.",
-  "theoryMd": "### 1. V-る/V-た とき\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Khi...\n- Cấu trúc: V-る(hành động chưa xong) / V-た(hành động xong rồi) + とき\n\n### 2. V-る まえに\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trước khi làm A thì làm B.\n- Cấu trúc: V-る + まえに\n\n### 3. V-た あとで\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Sau khi làm A thì làm B.\n- Cấu trúc: V-た + あとで",
+  "theoryMd": "### 1. Vる/Vた とき\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Khi...\n- Cấu trúc: Vる(hành động chưa xong) / Vた(hành động xong rồi) + とき\n\n### 2. Vる まえに\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trước khi làm A thì làm B.\n- Cấu trúc: Vる + まえに\n\n### 3. Vた あとで\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Sau khi làm A thì làm B.\n- Cấu trúc: Vた + あとで",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -262,22 +262,22 @@
         "jlptLevel": 5,
         "cards": [
           {
-            "front": "V-る / V-た + とき",
-            "back": "Ý nghĩa: Diễn đạt thời điểm khi làm gì đó. V-る khi hành động chưa kết thúc, V-た khi hành động đã xong.\nCấu trúc: V-る / V-た + とき",
+            "front": "Vる / Vた + とき",
+            "back": "Ý nghĩa: Diễn đạt thời điểm khi làm gì đó. Vる khi hành động chưa kết thúc, Vた khi hành động đã xong.\nCấu trúc: Vる / Vた + とき",
             "romaji": "v-ru/v-ta toki",
             "example": "日本へ行くとき、カメラを買いました。\nKhi đi Nhật, tôi đã mua máy ảnh.\n\n日本へ行ったとき、友達に会いました。\nKhi đã đến Nhật, tôi đã gặp bạn.\n\n暇なとき、音楽を聴きます。\nKhi rảnh rỗi, tôi nghe nhạc.\n\n疲れたとき、よく眠ります。\nKhi mệt, tôi ngủ rất ngon.",
             "jlptLevel": 5
           },
           {
-            "front": "V-る まえに",
-            "back": "Ý nghĩa: Làm việc A trước khi làm việc B.\nCấu trúc: V-る + まえに",
+            "front": "Vる まえに",
+            "back": "Ý nghĩa: Làm việc A trước khi làm việc B.\nCấu trúc: Vる + まえに",
             "romaji": "v-ru mae ni",
             "example": "食事のまえに、手を洗います。\nTrước khi ăn, tôi rửa tay.\n\n寝るまえに、本を読みます。\nTrước khi đi ngủ, tôi đọc sách.\n\n出かけるまえに、電気を消します。\nTrước khi đi ra ngoài, tôi tắt điện.\n\n会議のまえに、資料を確認します。\nTrước cuộc họp, tôi kiểm tra tài liệu.",
             "jlptLevel": 5
           },
           {
-            "front": "V-た あとで",
-            "back": "Ý nghĩa: Làm việc A sau khi làm việc B.\nCấu trúc: V-た + あとで",
+            "front": "Vた あとで",
+            "back": "Ý nghĩa: Làm việc A sau khi làm việc B.\nCấu trúc: Vた + あとで",
             "romaji": "v-ta ato de",
             "example": "仕事のあとで、飲みに行きます。\nSau khi làm việc, tôi đi uống.\n\n映画を見たあとで、ご飯を食べます。\nSau khi xem phim xong, tôi đi ăn.\n\n掃除したあとで、買い物に行きます。\nSau khi dọn dẹp, tôi đi mua sắm.\n\n勉強したあとで、テレビを見ます。\nSau khi học bài, tôi xem tivi.",
             "jlptLevel": 5

@@ -2,7 +2,7 @@
   "order": 6,
   "title": "Bài 31 — Từ vựng JLPT N4 (Phần 6)",
   "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 6/25.",
-  "theoryMd": "### 1. V-te + います\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả trạng thái hiện tại là kết quả của một hành động đã xảy ra trước đó.\nCông thức: V-te + います\n\n#### 📝 Ví dụ minh họa\n壁にカレンダーが掛けてあります。\nCó cuốn lịch được treo trên tường.\n\n彼には長い髭が生えています。\nAnh ấy đang để râu dài.\n\n### 2. N (nơi chốn) + に + V\n#### 💡 Cấu trúc & Ý nghĩa\nChỉ địa điểm đặt để đồ vật.\nCông thức: N (nơi chốn) + に + V\n\n#### 📝 Ví dụ minh họa\n押入れに布団をしまいます。\nCất nệm vào trong tủ âm tường.\n\n冷蔵庫にビールを入れました。\nTôi đã cho bia vào trong tủ lạnh.",
+  "theoryMd": "### 1. Vて + います\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả trạng thái hiện tại là kết quả của một hành động đã xảy ra trước đó.\nCông thức: Vて + います\n\n#### 📝 Ví dụ minh họa\n壁にカレンダーが掛けてあります。\nCó cuốn lịch được treo trên tường.\n\n彼には長い髭が生えています。\nAnh ấy đang để râu dài.\n\n### 2. N (nơi chốn) + に + V\n#### 💡 Cấu trúc & Ý nghĩa\nChỉ địa điểm đặt để đồ vật.\nCông thức: N (nơi chốn) + に + V\n\n#### 📝 Ví dụ minh họa\n押入れに布団をしまいます。\nCất nệm vào trong tủ âm tường.\n\n冷蔵庫にビールを入れました。\nTôi đã cho bia vào trong tủ lạnh.",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -192,8 +192,8 @@
         "jlptLevel": 4,
         "cards": [
           {
-            "front": "V-te + います",
-            "back": "Ý nghĩa: Diễn tả trạng thái duy trì hoặc kết quả của một hành động đã xảy ra trong quá khứ.\nCấu trúc: V-te + います",
+            "front": "Vて + います",
+            "back": "Ý nghĩa: Diễn tả trạng thái duy trì hoặc kết quả của một hành động đã xảy ra trong quá khứ.\nCấu trúc: Vて + います",
             "romaji": "te-imasu",
             "example": "壁にカレンダーが掛けてあります。\nCó cuốn lịch được treo trên tường.\n\n彼には長い髭が生えています。\nAnh ấy đang để râu dài.\n\n窓が閉まっています。\nCửa sổ đang đóng.\n\n電気が点いています。\nĐèn đang bật.",
             "jlptLevel": 4

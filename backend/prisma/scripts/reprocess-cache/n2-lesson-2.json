@@ -19,35 +19,35 @@
         "cards": [
           {
             "front": "〜たとたん（に）",
-            "back": "Ý nghĩa: Ngay sau khi... thì đột nhiên (vế sau xảy ra việc bất ngờ ngoài dự đoán, không thể hiện ý chí).\nCấu trúc: V-ta + とたん（に）",
+            "back": "Ý nghĩa: Ngay sau khi... thì đột nhiên (vế sau xảy ra việc bất ngờ ngoài dự đoán, không thể hiện ý chí).\nCấu trúc: Vた + とたん（に）",
             "romaji": "ta totan (ni)",
             "example": "結婚したとたんに、態度が変わった。\nNgay sau khi kết hôn, thái độ anh ấy đã thay đổi.\n\n立ち上がったとたんに、目眩がした。\nVừa mới đứng dậy một cái là tôi đã thấy chóng mặt.\n\nベルが鳴ったとたんに、教室から飛び出した。\nNgay khi chuông reo, cậu ấy đã lao ra khỏi lớp.\n\n一口食べたとたんに、吐き出してしまった。\nNgay sau khi ăn một miếng, tôi đã nhổ ra ngay.",
             "jlptLevel": 2
           },
           {
             "front": "〜（か）と思うと",
-            "back": "Ý nghĩa: Vừa mới thấy... thì lập tức (diễn tả sự biến đổi cực nhanh chóng, bất ngờ).\nCấu trúc: V-u / V-ta + (か)と思うと",
+            "back": "Ý nghĩa: Vừa mới thấy... thì lập tức (diễn tả sự biến đổi cực nhanh chóng, bất ngờ).\nCấu trúc: V-u / Vた + (か)と思うと",
             "romaji": "(ka) to omou to",
             "example": "部屋が片付いたかと思ったら、子どもたちがすぐまた散らかした。\nPhòng vừa dọn xong, đám trẻ đã làm loạn lại ngay.\n\n赤ちゃんはさっきまで泣いていたかと思うと、もう笑っている。\nĐứa bé vừa mới khóc lúc nãy mà giờ đã cười ngay được rồi.\n\n空が暗くなったかと思うと、激しい雨が降り出した。\nTrời vừa tối sầm lại thì mưa như trút nước bắt đầu rơi.\n\n彼は走り出したかと思うと、すぐに止まった。\nVừa thấy anh ấy chạy đi, thì đã dừng lại ngay.",
             "jlptLevel": 2
           },
           {
             "front": "〜か〜ないかのうちに",
-            "back": "Ý nghĩa: Vừa mới... thì đã (diễn tả hành động vế sau xảy ra gần như đồng thời khi vế trước chưa kết thúc).\nCấu trúc: V-ru / V-ta + か + V-nai + かのうちに",
+            "back": "Ý nghĩa: Vừa mới... thì đã (diễn tả hành động vế sau xảy ra gần như đồng thời khi vế trước chưa kết thúc).\nCấu trúc: Vる / Vた + か + Vない + かのうちに",
             "romaji": "ka nai ka no uchi ni",
             "example": "雨がやんだかやまないかのうちに、せみが鳴き出した。\nMưa vừa dứt, ve sầu lập tức bắt đầu kêu.\n\nチャイムが鳴るか鳴らないかのうちに、先生が教室に入ってきた。\nChuông vừa mới reo lên thì thầy giáo đã bước vào lớp học.\n\n布団に入るか入らないかのうちに、眠ってしまった。\nVừa mới chui vào chăn là tôi đã ngủ thiếp đi ngay.\n\n映画が終わるか終わらないかのうちに、席を立った。\nPhim vừa chiếu xong là tôi đã đứng dậy rời khỏi ghế.",
             "jlptLevel": 2
           },
           {
             "front": "〜最中だ",
-            "back": "Ý nghĩa: Đúng lúc đang làm gì đó (thường có sự việc bất ngờ hoặc gây cản trở xen vào).\nCấu trúc: V-te iru / N-no + 最中だ",
+            "back": "Ý nghĩa: Đúng lúc đang làm gì đó (thường có sự việc bất ngờ hoặc gây cản trở xen vào).\nCấu trúc: Vている / N-no + 最中だ",
             "romaji": "saichuu da",
             "example": "スピーチの最中に、突然電気が消えた。\nĐang phát biểu thì điện đột nhiên bị ngắt.\n\n会議の最中だから、静かにしてください。\nVì đang giữa cuộc họp nên xin hãy giữ im lặng.\n\n食事の最中に電話がかかってきた。\nĐang trong bữa ăn thì điện thoại reo.\n\n彼は今、仕事の最中です。\nAnh ấy hiện đang trong giờ làm việc.",
             "jlptLevel": 2
           },
           {
             "front": "〜ばかりだ・〜一方だ",
-            "back": "Ý nghĩa: Càng ngày càng... (ばかりだ thường tiêu cực; 一方だ tích cực lẫn tiêu cực).\nCấu trúc: V-ru + ばかりだ / 一方だ",
+            "back": "Ý nghĩa: Càng ngày càng... (ばかりだ thường tiêu cực; 一方だ tích cực lẫn tiêu cực).\nCấu trúc: Vる + ばかりだ / 一方だ",
             "romaji": "bakari da / ippou da",
             "example": "人間関係は悪くなる一方だ。\nMối quan hệ nhân sinh chỉ có xấu dần đi.\n\n最近、祖父の病気は悪化するばかりだ。\nGần đây, bệnh tình của ông tôi cứ ngày một xấu đi.\n\n人口は減る一方だ。\nDân số cứ ngày một giảm dần.\n\n技術は向上するばかりだ。\nKỹ thuật cứ ngày một tiến bộ.",
             "jlptLevel": 2
@@ -61,14 +61,14 @@
           },
           {
             "front": "〜つつある",
-            "back": "Ý nghĩa: Đang dần dần... (tiến trình biến đổi đang diễn ra từ từ).\nCấu trúc: V-masu (bỏ masu) + つつある",
+            "back": "Ý nghĩa: Đang dần dần... (tiến trình biến đổi đang diễn ra từ từ).\nCấu trúc: Vます (bỏ masu) + つつある",
             "romaji": "tsutsu aru",
             "example": "この会社は現在発展つつあり、将来が期待される。\nCông ty này hiện đang phát triển và được kỳ vọng trong tương lai.\n\n景気は徐々に回復しつつある。\nTình hình kinh tế đang dần dần hồi phục.\n\n社会は変わりつつある。\nXã hội đang dần thay đổi.\n\n問題は解決に向かいつつある。\nVấn đề đang dần tiến tới việc được giải quyết.",
             "jlptLevel": 2
           },
           {
             "front": "〜つつ",
-            "back": "Ý nghĩa: Vừa... vừa... (hành động song song, trang trọng hơn 'nagara').\nCấu trúc: V-masu (bỏ masu) + つつ",
+            "back": "Ý nghĩa: Vừa... vừa... (hành động song song, trang trọng hơn 'nagara').\nCấu trúc: Vます (bỏ masu) + つつ",
             "romaji": "tsutsu",
             "example": "住民と話し合いつつ、計画を立てていきたい。\nTôi muốn vừa thảo luận với người dân, vừa lập kế hoạch.\n\n将来のことを考えつつ、進路を決めなければならない。\nVừa phải suy nghĩ về tương lai, vừa phải quyết định con đường sự nghiệp.\n\n彼と手紙をやり取りしつつ、親交を深めた。\nVừa trao đổi thư từ với anh ấy, vừa vun đắp tình bạn.\n\n政府は物価を抑えつつ、経済成長を図る。\nChính phủ vừa tìm cách kìm hãm vật giá, vừa nhắm đến tăng trưởng kinh tế.",
             "jlptLevel": 2

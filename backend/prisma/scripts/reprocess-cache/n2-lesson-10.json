@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜やら〜やら",
-            "back": "Ý nghĩa: Nào là... nào là... (Liệt kê ví dụ nhấn mạnh sự bận rộn/khó khăn/cảm xúc phức tạp).\nCấu trúc: N / V-ru / A-i + やら + N / V-ru / A-i + やら",
+            "back": "Ý nghĩa: Nào là... nào là... (Liệt kê ví dụ nhấn mạnh sự bận rộn/khó khăn/cảm xúc phức tạp).\nCấu trúc: N / Vる / A-i + やら + N / Vる / A-i + やら",
             "romaji": "yara-yara",
             "example": "娘の結婚式の日は、うれしいやら寂しいやら複雑な気持ちだった。\nVào ngày cưới của con gái, cảm xúc của tôi thật phức tạp, nào là vui, nào là cô đơn.\n\n今週は試験やらレポート提出やらで、本当に忙しい。\nTuần này nào là thi cử, nào là nộp báo cáo, thực sự bận rộn.\n\n部屋には服やら本やらが散らかっている。\nTrong phòng nào là quần áo, nào là sách vở bày bừa bãi.\n\n借金があるやら病気があるやら、本当に大変な生活だ。\nNào là nợ nần, nào là bệnh tật, thật là một cuộc sống vất vả.",
             "jlptLevel": 2
@@ -33,7 +33,7 @@
           },
           {
             "front": "〜にしても〜にしても / 〜にしろ〜にしろ",
-            "back": "Ý nghĩa: Dù là A hay B (thì kết quả/nhận định vẫn giống nhau).\nCấu trúc: N / V-ru + にしても / にしろ",
+            "back": "Ý nghĩa: Dù là A hay B (thì kết quả/nhận định vẫn giống nhau).\nCấu trúc: N / Vる + にしても / にしろ",
             "romaji": "ni-shite-mo-ni-shite-mo",
             "example": "野菜にしても魚にしても、料理の材料は新鮮さが第一です。\nDù là rau hay là cá, nguyên liệu nấu ăn thì độ tươi ngon luôn là ưu tiên hàng đầu.\n\n行くにしても行かないにしても、早めに連絡してください。\nDù đi hay không đi, xin vui lòng liên lạc sớm giúp tôi.\n\n高いにしろ安いにしろ、品質は確認すべきだ。\nDù đắt hay rẻ, vẫn nên kiểm tra chất lượng.\n\n学生にしろ社会人にしろ、時間管理は大切だ。\nDù là sinh viên hay người đi làm, quản lý thời gian đều quan trọng.",
             "jlptLevel": 2

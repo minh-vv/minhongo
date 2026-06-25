@@ -2,7 +2,7 @@
   "order": 34,
   "title": "Bài 34 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 34/92).",
-  "theoryMd": "### 1. 〜といったらない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V/Adj/N + といったらない\n- **Ý nghĩa:** …hết sức, không thể tả được. Khác với hai cấu trúc trên, mẫu này dùng được cho cả cảm xúc tích cực và tiêu cực.\n\n#### 📝 Ví dụ minh họa\n- 合格の知らせを聞いて、嬉しいといったらない。\n- 彼の配慮の細やかさといったらない。\n- この道の暗さといったらない。危なくて歩けない。\n\n### 2. 〜ないものだろうか\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V-nai + ものだろうか\n- **Ý nghĩa:** Liệu có cách nào… không? (Diễn tả nguyện vọng, mong muốn hoặc sự băn khoăn về một điều gì đó khó thực hiện).\n\n#### 📝 Ví dụ minh họa\n- 事故をこれ以上増やさないものだろうか。\n- もう少し締め切りを延ばせないものだろうか。\n- 何とか解決できないものだろうか。",
+  "theoryMd": "### 1. 〜といったらない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V/Adj/N + といったらない\n- **Ý nghĩa:** …hết sức, không thể tả được. Khác với hai cấu trúc trên, mẫu này dùng được cho cả cảm xúc tích cực và tiêu cực.\n\n#### 📝 Ví dụ minh họa\n- 合格の知らせを聞いて、嬉しいといったらない。\n- 彼の配慮の細やかさといったらない。\n- この道の暗さといったらない。危なくて歩けない。\n\n### 2. 〜ないものだろうか\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** Vない + ものだろうか\n- **Ý nghĩa:** Liệu có cách nào… không? (Diễn tả nguyện vọng, mong muốn hoặc sự băn khoăn về một điều gì đó khó thực hiện).\n\n#### 📝 Ví dụ minh họa\n- 事故をこれ以上増やさないものだろうか。\n- もう少し締め切りを延ばせないものだろうか。\n- 何とか解決できないものだろうか。",
   "skills": [
     "GRAMMAR"
   ],
@@ -26,7 +26,7 @@
           },
           {
             "front": "〜ないものだろうか",
-            "back": "Ý nghĩa: Liệu có cách nào làm được… không / Ước gì có thể…\nCấu trúc: V-nai + ものだろうか",
+            "back": "Ý nghĩa: Liệu có cách nào làm được… không / Ước gì có thể…\nCấu trúc: Vない + ものだろうか",
             "romaji": "nai-mono-darouka",
             "example": "事故をこれ以上増やさないものだろうか。\nLiệu không thể giảm thêm tai nạn sao?\n\nもう少し締め切りを延ばせないものだろうか。\nKhông thể gia hạn thêm hạn chót sao?\n\n何とか解決できないものだろうか。\nKhông có cách nào giải quyết được sao?",
             "jlptLevel": 1

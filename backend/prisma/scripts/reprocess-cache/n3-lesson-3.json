@@ -2,7 +2,7 @@
   "order": 3,
   "title": "3. ～てからでないと…・～てからでなければ…",
   "summary": "Ngữ pháp bài số 3 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. ～てからでないと／～てからでなければ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ điều kiện cần. Phải làm xong vế trước thì vế sau mới làm được (thường vế sau mang nghĩa phủ định).\n- **Cấu trúc:** V-te + からでないと / からでなければ\n\n#### 📝 Ví dụ minh họa\n- 契約書をよく読んでからでないと、サインしてはいけません。\n- 実際に会って話してからでないと、信用できない。",
+  "theoryMd": "### 1. ～てからでないと／～てからでなければ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ điều kiện cần. Phải làm xong vế trước thì vế sau mới làm được (thường vế sau mang nghĩa phủ định).\n- **Cấu trúc:** Vて + からでないと / からでなければ\n\n#### 📝 Ví dụ minh họa\n- 契約書をよく読んでからでないと、サインしてはいけません。\n- 実際に会って話してからでないと、信用できない。",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜てからでないと／〜てからでなければ",
-            "back": "Ý nghĩa: Nếu không thực hiện việc ở vế trước thì việc ở vế sau không thể xảy ra hoặc không thể thực hiện.\nCấu trúc: V-te + からでないと／からでなければ",
+            "back": "Ý nghĩa: Nếu không thực hiện việc ở vế trước thì việc ở vế sau không thể xảy ra hoặc không thể thực hiện.\nCấu trúc: Vて + からでないと／からでなければ",
             "romaji": "tekaranideinito / tekaranidekereba",
             "example": "契約書をよく読んでからでないと、サインしてはいけません。\nNếu chưa đọc kỹ hợp đồng thì không được ký.\n\n実際に会って話してからでないと、信用できない。\nNếu chưa gặp mặt nói chuyện trực tiếp thì không thể tin tưởng được.\n\nこの薬は医者の許可を得てからでなければ、飲んではいけません。\nLoại thuốc này nếu chưa được sự cho phép của bác sĩ thì không được uống.\n\n雨が止んでからでなければ、出発することはできません。\nNếu trời chưa tạnh mưa thì không thể xuất phát được.",
             "jlptLevel": 3

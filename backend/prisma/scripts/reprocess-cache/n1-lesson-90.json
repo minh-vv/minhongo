@@ -2,7 +2,7 @@
   "order": 90,
   "title": "Bài 90 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 90/92).",
-  "theoryMd": "### 1. 〜たら最後\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V-tara + 最後\n- **Ý nghĩa:** Giống với \"〜たが最後\", diễn tả sự việc xảy ra không thể kiểm soát, thường dẫn đến kết quả xấu.\n\n#### 📝 Ví dụ minh họa\n- スマホゲームを始めたら最後、課金が止まらなくなるよ。\nMột khi bắt đầu game điện thoại là nạp tiền không dừng đâu.\n\n### 2. 〜をよそに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N + をよそに\n- **Ý nghĩa:** Không quan tâm đến, phớt lờ ý kiến, sự lo lắng, hay hoàn cảnh của người khác để làm điều mình muốn.\n\n#### 📝 Ví dụ minh họa\n- 親の心配をよそに、彼は海外へ一人旅に出た。\nBất chấp sự lo lắng của cha mẹ, anh ấy đã đi du lịch nước ngoài một mình.",
+  "theoryMd": "### 1. 〜たら最後\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** Vたら + 最後\n- **Ý nghĩa:** Giống với \"〜たが最後\", diễn tả sự việc xảy ra không thể kiểm soát, thường dẫn đến kết quả xấu.\n\n#### 📝 Ví dụ minh họa\n- スマホゲームを始めたら最後、課金が止まらなくなるよ。\nMột khi bắt đầu game điện thoại là nạp tiền không dừng đâu.\n\n### 2. 〜をよそに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N + をよそに\n- **Ý nghĩa:** Không quan tâm đến, phớt lờ ý kiến, sự lo lắng, hay hoàn cảnh của người khác để làm điều mình muốn.\n\n#### 📝 Ví dụ minh họa\n- 親の心配をよそに、彼は海外へ一人旅に出た。\nBất chấp sự lo lắng của cha mẹ, anh ấy đã đi du lịch nước ngoài một mình.",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜たら最後",
-            "back": "Ý nghĩa: Một khi đã làm gì thì kết cục là sẽ tệ hại, khó dừng lại.\nCấu trúc: V-tara + 最後",
+            "back": "Ý nghĩa: Một khi đã làm gì thì kết cục là sẽ tệ hại, khó dừng lại.\nCấu trúc: Vたら + 最後",
             "romaji": "tara-saigo",
             "example": "スマホゲームを始めたら最後、課金が止まらなくなるよ。\nMột khi bắt đầu game điện thoại là nạp tiền không dừng đâu.\n\n彼に秘密を話したら最後、すぐ広まってしまう。\nNếu mà nói bí mật với anh ta là sẽ lan nhanh ngay.\n\n一度サボり始めたら最後、癖になる。\nMột khi đã bắt đầu trốn việc là thành tật.",
             "jlptLevel": 1

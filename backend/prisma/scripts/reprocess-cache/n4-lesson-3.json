@@ -2,7 +2,7 @@
   "order": 3,
   "title": "Bài 28 — Từ vựng JLPT N4 (Phần 3)",
   "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 3/25.",
-  "theoryMd": "### 1. V-たほうがいいです\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đưa ra lời khuyên nên làm gì đó thì tốt hơn.\n- Cấu trúc: V-た + ほうがいいです\n#### 📝 Ví dụ minh họa\n- 毎日運動したほうがいいです。(Bạn nên tập thể dục mỗi ngày.)\n- 早く寝たほうがいいですよ。(Bạn nên đi ngủ sớm đi.)\n- 薬を飲んだほうがいいです。(Bạn nên uống thuốc đi.)\n- 野菜を食べたほうがいいです。(Bạn nên ăn rau đi.)\n\n### 2. 〜から\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Biểu thị lý do, nguyên nhân.\n- Cấu trúc: Mệnh đề nguyên nhân + から + Mệnh đề kết quả\n#### 📝 Ví dụ minh họa\n- 雨が降るから、傘を持っていきます。(Vì trời mưa nên tôi mang theo ô.)\n- 忙しいから、行きません。(Vì bận nên tôi không đi.)\n- 暑いから、窓を開けます。(Vì nóng nên tôi mở cửa sổ.)\n- 安いから、これを買います。(Vì rẻ nên tôi mua cái này.)",
+  "theoryMd": "### 1. Vたほうがいいです\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đưa ra lời khuyên nên làm gì đó thì tốt hơn.\n- Cấu trúc: Vた + ほうがいいです\n#### 📝 Ví dụ minh họa\n- 毎日運動したほうがいいです。(Bạn nên tập thể dục mỗi ngày.)\n- 早く寝たほうがいいですよ。(Bạn nên đi ngủ sớm đi.)\n- 薬を飲んだほうがいいです。(Bạn nên uống thuốc đi.)\n- 野菜を食べたほうがいいです。(Bạn nên ăn rau đi.)\n\n### 2. 〜から\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Biểu thị lý do, nguyên nhân.\n- Cấu trúc: Mệnh đề nguyên nhân + から + Mệnh đề kết quả\n#### 📝 Ví dụ minh họa\n- 雨が降るから、傘を持っていきます。(Vì trời mưa nên tôi mang theo ô.)\n- 忙しいから、行きません。(Vì bận nên tôi không đi.)\n- 暑いから、窓を開けます。(Vì nóng nên tôi mở cửa sổ.)\n- 安いから、これを買います。(Vì rẻ nên tôi mua cái này.)",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -192,8 +192,8 @@
         "jlptLevel": 4,
         "cards": [
           {
-            "front": "V-たほうがいいです",
-            "back": "Ý nghĩa: Đưa ra lời khuyên nên làm gì đó thì tốt hơn.\nCấu trúc: V-た + ほうがいいです",
+            "front": "Vたほうがいいです",
+            "back": "Ý nghĩa: Đưa ra lời khuyên nên làm gì đó thì tốt hơn.\nCấu trúc: Vた + ほうがいいです",
             "romaji": "V-ta-houga-ii-desu",
             "example": "毎日運動したほうがいいです。\nBạn nên tập thể dục mỗi ngày.\n\n早く寝たほうがいいですよ。\nBạn nên đi ngủ sớm đi.\n\n薬を飲んだほうがいいです。\nBạn nên uống thuốc đi.\n\n野菜を食べたほうがいいです。\nBạn nên ăn rau đi.",
             "jlptLevel": 4

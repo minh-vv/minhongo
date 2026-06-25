@@ -2,7 +2,7 @@
   "order": 13,
   "title": "13. ～に限る",
   "summary": "Ngữ pháp bài số 13 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. ～に限る\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Diễn tả quan điểm chủ quan của người nói rằng cái gì đó là tốt nhất, hoặc là phương pháp tốt nhất trong hoàn cảnh hiện tại.\n- **Cấu trúc:** Danh từ / V-ru / V-nai + に限る\n\n#### 📝 Ví dụ minh họa\n- 夏はやっぱり、冷たいビールに限るね！\n- Mùa hè thì bia lạnh là nhất rồi!\n\n- 疲れた時は、家でゆっくり休むに限る。\n- Khi mệt mỏi, tốt nhất là cứ ở nhà nghỉ ngơi thật thoải mái.\n\n- 健康のためには、毎日運動するに限ります。\n- Để có sức khỏe, tốt nhất là nên tập thể dục mỗi ngày.\n\n- 悩みがあるときは信頼できる人に相談するに限る。\n- Khi có nỗi lo, tốt nhất là nên bàn bạc với người mình tin tưởng.",
+  "theoryMd": "### 1. ～に限る\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Diễn tả quan điểm chủ quan của người nói rằng cái gì đó là tốt nhất, hoặc là phương pháp tốt nhất trong hoàn cảnh hiện tại.\n- **Cấu trúc:** Danh từ / Vる / Vない + に限る\n\n#### 📝 Ví dụ minh họa\n- 夏はやっぱり、冷たいビールに限るね！\n- Mùa hè thì bia lạnh là nhất rồi!\n\n- 疲れた時は、家でゆっくり休むに限る。\n- Khi mệt mỏi, tốt nhất là cứ ở nhà nghỉ ngơi thật thoải mái.\n\n- 健康のためには、毎日運動するに限ります。\n- Để có sức khỏe, tốt nhất là nên tập thể dục mỗi ngày.\n\n- 悩みがあるときは信頼できる人に相談するに限る。\n- Khi có nỗi lo, tốt nhất là nên bàn bạc với người mình tin tưởng.",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜に限る",
-            "back": "Ý nghĩa: Là tốt nhất, là cách hay nhất.\nCấu trúc: N / V-ru / V-nai + に限る",
+            "back": "Ý nghĩa: Là tốt nhất, là cách hay nhất.\nCấu trúc: N / Vる / Vない + に限る",
             "romaji": "ni-kagiru",
             "example": "夏はやっぱり、冷たいビールに限るね！\nMùa hè thì bia lạnh là nhất rồi!\n\n疲れた時は、家でゆっくり休むに限る。\nKhi mệt mỏi, tốt nhất là cứ ở nhà nghỉ ngơi thật thoải mái.\n\n健康のためには、毎日運動するに限ります。\nĐể có sức khỏe, tốt nhất là nên tập thể dục mỗi ngày.\n\n悩みがあるときは信頼できる人に相談するに限る。\nKhi có nỗi lo, tốt nhất là nên bàn bạc với người mình tin tưởng.",
             "jlptLevel": 3

@@ -19,35 +19,35 @@
         "cards": [
           {
             "front": "〜てはじめて",
-            "back": "Ý nghĩa: Chỉ sau khi trải qua việc A thì mới nhận ra/xảy ra việc B.\nCấu trúc: V-te + はじめて",
+            "back": "Ý nghĩa: Chỉ sau khi trải qua việc A thì mới nhận ra/xảy ra việc B.\nCấu trúc: Vて + はじめて",
             "romaji": "te hajimete",
             "example": "実際に現地の様子を見てはじめて、今回の地震のひどさを知った。\nSau khi nhìn tận mắt tình hình nơi địa phương đó, tôi đã hiểu sự dữ dội của trận động đất lần này.\n\n病気になってはじめて、健康のありがたさが分かった。\nChỉ sau khi bị ốm, tôi mới thấu hiểu được giá trị của sức khỏe.\n\n先生に言われてはじめて、間違いに気づいた。\nSau khi được thầy chỉ ra, tôi mới nhận ra lỗi sai.\n\n親になってはじめて、親の苦労が分かった。\nChỉ sau khi làm cha mẹ, tôi mới hiểu nỗi vất vả của cha mẹ.",
             "jlptLevel": 2
           },
           {
             "front": "〜上で",
-            "back": "Ý nghĩa: Sau khi làm hành động A (làm chuẩn bị) thì mới làm hành động B.\nCấu trúc: V-ta / N-no + 上で",
+            "back": "Ý nghĩa: Sau khi làm hành động A (làm chuẩn bị) thì mới làm hành động B.\nCấu trúc: Vた / N-no + 上で",
             "romaji": "ue de",
             "example": "文書が保存されていることを確かめた上でパソコンをシャットダウンしてください。\nSau khi xác nhận tài liệu đã được lưu, hãy tắt máy tính.\n\n家族と相談した上で、留学するかどうかを決めます。\nSau khi thảo luận với gia đình, tôi mới quyết định có đi du học hay không.\n\nよく考えた上で、結論を出します。\nSau khi suy nghĩ kỹ, tôi sẽ đưa ra kết luận.\n\n実物を見た上で、購入するか決める。\nSau khi nhìn vật thực tế, tôi mới quyết định có mua hay không.",
             "jlptLevel": 2
           },
           {
             "front": "〜次第",
-            "back": "Ý nghĩa: Ngay sau khi xong việc A thì lập tức làm việc B (vế sau là ý chí).\nCấu trúc: V-masu (bỏ masu) / N + 次第",
+            "back": "Ý nghĩa: Ngay sau khi xong việc A thì lập tức làm việc B (vế sau là ý chí).\nCấu trúc: Vます (bỏ masu) / N + 次第",
             "romaji": "shidai",
             "example": "全員集まり次第、出発します。\nSau khi tất cả mọi người tập trung đủ, chúng ta sẽ xuất phát.\n\n詳しいことが分かり次第、ご連絡いたします。\nNgay sau khi biết chi tiết, tôi sẽ liên lạc lại.\n\n準備ができ次第、会場へ向かいます。\nNgay sau khi chuẩn bị xong, tôi sẽ đến hội trường.\n\n帰宅次第、電話をかけてください。\nNgay sau khi về nhà, hãy gọi điện cho tôi.",
             "jlptLevel": 2
           },
           {
             "front": "〜て以来・〜てこのかた",
-            "back": "Ý nghĩa: Kể từ sau khi việc A xảy ra, tình trạng B tiếp diễn liên tục đến nay.\nCấu trúc: V-te + 以来 / このかた",
+            "back": "Ý nghĩa: Kể từ sau khi việc A xảy ra, tình trạng B tiếp diễn liên tục đến nay.\nCấu trúc: Vて + 以来 / このかた",
             "romaji": "te irai / te kono kata",
             "example": "母がいなくなってこのかた、母のことを考えない日はない。\nTừ sau khi mẹ mất, không có ngày nào tôi không nghĩ về mẹ.\n\n日本に来て以来、一度も実家に帰っていない。\nKể từ khi đến Nhật Bản, tôi chưa một lần nào về quê nhà.\n\n卒業して以来、彼とは会っていない。\nKể từ sau khi tốt nghiệp, tôi chưa gặp lại anh ấy.\n\n結婚してこのかた、一度も喧嘩をしたことがない。\nTừ khi cưới nhau đến nay, chúng tôi chưa bao giờ cãi nhau.",
             "jlptLevel": 2
           },
           {
             "front": "〜てからでないと・〜てからでなければ",
-            "back": "Ý nghĩa: Nếu không hoàn thành A thì không thể thực hiện B (vế sau phủ định).\nCấu trúc: V-te + からでないと / からでなければ",
+            "back": "Ý nghĩa: Nếu không hoàn thành A thì không thể thực hiện B (vế sau phủ định).\nCấu trúc: Vて + からでないと / からでなければ",
             "romaji": "te kara denai to / te kara de nakereba",
             "example": "もっと情報を集めてからでないと、その話が本当かどうか判断できない。\nNếu chưa thu thập thêm thông tin, tôi không thể phán đoán câu chuyện đó có thật hay không.\n\n宿題を済ませてからでないと、遊びに行ってはいけません。\nNếu chưa làm xong bài tập thì không được đi chơi.\n\n確認してからでなければ、契約書にサインはできない。\nNếu chưa kiểm tra, tôi không thể ký tên vào hợp đồng.\n\n実物を見てからでないと、買うかどうか決められない。\nNếu chưa xem thực tế, tôi không thể quyết định có mua hay không.",
             "jlptLevel": 2

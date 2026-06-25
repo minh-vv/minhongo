@@ -2,7 +2,7 @@
   "order": 7,
   "title": "Bài 32 — Từ vựng JLPT N4 (Phần 7)",
   "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 7/25.",
-  "theoryMd": "### 1. V-る + ため（に）\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả mục đích thực hiện hành động.\nCông thức: V-る + ため（に）\n\n#### 📝 Ví dụ minh họa\n試験に合格するために、一生懸命勉強します。\nĐể thi đỗ kỳ thi, tôi học tập hết sức mình.\n\n### 2. V-khả năng + 見える\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả khả năng tự nhiên có thể nhìn thấy mà không cần ý chí.\nCông thức: V-khả năng + 見える\n\n#### 📝 Ví dụ minh họa\n窓から山が見えます。\nTừ cửa sổ có thể nhìn thấy núi.",
+  "theoryMd": "### 1. Vる + ため（に）\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả mục đích thực hiện hành động.\nCông thức: Vる + ため（に）\n\n#### 📝 Ví dụ minh họa\n試験に合格するために、一生懸命勉強します。\nĐể thi đỗ kỳ thi, tôi học tập hết sức mình.\n\n### 2. V-khả năng + 見える\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả khả năng tự nhiên có thể nhìn thấy mà không cần ý chí.\nCông thức: V-khả năng + 見える\n\n#### 📝 Ví dụ minh họa\n窓から山が見えます。\nTừ cửa sổ có thể nhìn thấy núi.",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -192,8 +192,8 @@
         "jlptLevel": 4,
         "cards": [
           {
-            "front": "V-る + ため（に）",
-            "back": "Ý nghĩa: Diễn tả mục đích thực hiện hành động.\nCấu trúc: V-る + ため（に）",
+            "front": "Vる + ため（に）",
+            "back": "Ý nghĩa: Diễn tả mục đích thực hiện hành động.\nCấu trúc: Vる + ため（に）",
             "romaji": "tame-ni",
             "example": "試験に合格するために、一生懸命勉強します。\nĐể thi đỗ kỳ thi, tôi học tập hết sức mình.\n\n健康のために、毎日走っています。\nVì sức khỏe, tôi chạy bộ mỗi ngày.\n\n日本語を学ぶために、日本へ行きます。\nTôi đi Nhật để học tiếng Nhật.\n\n将来のために、お金を貯めています。\nTôi đang tiết kiệm tiền vì tương lai.",
             "jlptLevel": 4

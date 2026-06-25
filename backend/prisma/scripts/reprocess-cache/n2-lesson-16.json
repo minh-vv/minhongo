@@ -2,7 +2,7 @@
   "order": 16,
   "title": "Bài 16: Nguyên nhân / Lý do (〜によって, 〜ものながら・〜もので, 〜おかげだ / 〜せいだ, 〜あまり・〜あまりの〜に, 〜につき)",
   "summary": "Các cấu trúc chỉ nguyên nhân lý do: 〜によって, 〜ものながら・〜もので, 〜おかげだ / 〜せいだ, 〜あまり・〜あまりの〜に, 〜につき",
-  "theoryMd": "### Bài 16: Các mẫu câu chỉ nguyên nhân, lý do\n\nTrong bài này, chúng ta học cách diễn đạt lý do trong các tình huống từ giao tiếp hàng ngày đến thông báo trang trọng.\n\n### 1. 〜によって\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ nguyên nhân gây ra kết quả hoặc phương thức thực hiện.\n- **Cấu trúc**: N + によって / による + N\n\n#### 📝 Ví dụ minh họa\n- 会長が交替したことによって、会の雰囲気が大きく変わった。\n- この問題は専門家による調査が必要だ。\n\n### 2. 〜ものだから・〜もので・〜もの\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đưa ra lý do để biện hộ, phân trần.\n- **Cấu trúc**: Thể thông thường + ものだから / もので (N/Na + な)\n\n### 3. 〜おかげで / 〜せいで\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhờ có (tích cực) / Tại vì (tiêu cực).\n- **Cấu trúc**: Thể thông thường + おかげで / せいで (N + の, Na + な)\n\n### 4. 〜あまり / 〜あまりの〜に\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Vì quá mức độ dẫn đến kết quả ngoài dự kiến.\n- **Cấu trúc**: V-ru/V-ta/N-no + あまり ; あまりの + N + に\n\n### 5. 〜につき\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Vì lý do... (dùng trong văn bản, thông báo trang trọng).\n- **Cấu trúc**: N + につき",
+  "theoryMd": "### Bài 16: Các mẫu câu chỉ nguyên nhân, lý do\n\nTrong bài này, chúng ta học cách diễn đạt lý do trong các tình huống từ giao tiếp hàng ngày đến thông báo trang trọng.\n\n### 1. 〜によって\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ nguyên nhân gây ra kết quả hoặc phương thức thực hiện.\n- **Cấu trúc**: N + によって / による + N\n\n#### 📝 Ví dụ minh họa\n- 会長が交替したことによって、会の雰囲気が大きく変わった。\n- この問題は専門家による調査が必要だ。\n\n### 2. 〜ものだから・〜もので・〜もの\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đưa ra lý do để biện hộ, phân trần.\n- **Cấu trúc**: Thể thông thường + ものだから / もので (N/Na + な)\n\n### 3. 〜おかげで / 〜せいで\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhờ có (tích cực) / Tại vì (tiêu cực).\n- **Cấu trúc**: Thể thông thường + おかげで / せいで (N + の, Na + な)\n\n### 4. 〜あまり / 〜あまりの〜に\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Vì quá mức độ dẫn đến kết quả ngoài dự kiến.\n- **Cấu trúc**: Vる/Vた/N-no + あまり ; あまりの + N + に\n\n### 5. 〜につき\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Vì lý do... (dùng trong văn bản, thông báo trang trọng).\n- **Cấu trúc**: N + につき",
   "skills": [
     "GRAMMAR"
   ],
@@ -40,7 +40,7 @@
           },
           {
             "front": "〜あまり / 〜あまりの〜に",
-            "back": "Ý nghĩa: Vì quá mức độ cực đoan dẫn đến một kết quả không tốt ngoài dự kiến.\nCấu trúc: V-ru / V-ta / N-no + あまり ; あまりの + N + に",
+            "back": "Ý nghĩa: Vì quá mức độ cực đoan dẫn đến một kết quả không tốt ngoài dự kiến.\nCấu trúc: Vる / Vた / N-no + あまり ; あまりの + N + に",
             "romaji": "amari / amari no ... ni",
             "example": "悔しさのあまり、ぼろぼろ涙がこぼれた。\nVì quá ấm ức nên nước mắt cứ thế tuôn rơi.\n\nあまりの驚きに、声も出なかった。\nVì quá kinh ngạc nên tôi không thốt ra được thành lời.\n\n緊張のあまり、頭が真っ白になってしまった。\nVì quá căng thẳng nên đầu óc tôi trở nên trống rỗng.\n\nあまりの暑さに、エアコンをつけずにはいられなかった。\nVì quá nóng nên tôi không thể chịu được mà phải bật điều hòa.",
             "jlptLevel": 2

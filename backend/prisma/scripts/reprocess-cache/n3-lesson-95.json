@@ -2,7 +2,7 @@
   "order": 95,
   "title": "95. ～すぎる・～すぎだ",
   "summary": "Ngữ pháp bài số 95 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. 〜すぎる・〜すぎだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: \n  - V-masu + すぎる\n  - A-i (bỏ い) + すぎる\n  - A-na (bỏ な) + すぎる\n- **Ý nghĩa**: Dùng để nhấn mạnh một hành động hoặc trạng thái vượt quá mức độ trung bình hoặc mức độ phù hợp (mang nghĩa tiêu cực).\n\n#### 📝 Ví dụ minh họa\n- 夕べ、お酒を飲みすぎました。\n(Tối qua tôi đã uống quá nhiều rượu.)\n\n- この部屋は狭すぎます。\n(Căn phòng này quá chật hẹp.)\n\n- あの店は高すぎて、あまり行かない。\n(Cửa hàng đó quá đắt nên tôi không hay đến.)",
+  "theoryMd": "### 1. 〜すぎる・〜すぎだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc**: \n  - Vます + すぎる\n  - A-i (bỏ い) + すぎる\n  - A-na (bỏ な) + すぎる\n- **Ý nghĩa**: Dùng để nhấn mạnh một hành động hoặc trạng thái vượt quá mức độ trung bình hoặc mức độ phù hợp (mang nghĩa tiêu cực).\n\n#### 📝 Ví dụ minh họa\n- 夕べ、お酒を飲みすぎました。\n(Tối qua tôi đã uống quá nhiều rượu.)\n\n- この部屋は狭すぎます。\n(Căn phòng này quá chật hẹp.)\n\n- あの店は高すぎて、あまり行かない。\n(Cửa hàng đó quá đắt nên tôi không hay đến.)",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜すぎる・〜すぎだ",
-            "back": "Ý nghĩa: Diễn tả trạng thái hoặc hành động vượt quá mức độ, giới hạn phù hợp (quá...).\nCấu trúc: V-masu / A-i (bỏ い) / A-na (bỏ な) + すぎる・すぎだ",
+            "back": "Ý nghĩa: Diễn tả trạng thái hoặc hành động vượt quá mức độ, giới hạn phù hợp (quá...).\nCấu trúc: Vます / A-i (bỏ い) / A-na (bỏ な) + すぎる・すぎだ",
             "romaji": "sugiru / sugida",
             "example": "夕べ、お酒を飲みすぎました。\nTối qua tôi đã uống quá nhiều rượu.\n\nこの部屋は狭すぎます。\nCăn phòng này quá chật hẹp.\n\nあの店は高すぎて、あまり行かない。\nCửa hàng đó quá đắt nên tôi không hay đến.",
             "jlptLevel": 3

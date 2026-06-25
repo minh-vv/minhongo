@@ -2,7 +2,7 @@
   "order": 23,
   "title": "Bài 23: Lẽ thường / Giới hạn (〜ものだ, 〜というものだ, 〜にすぎない, 〜にほかならない, 〜に越したことはない)",
   "summary": "Các cấu trúc khẳng định lẽ thường hoặc giới hạn: 〜ものだ, 〜というものだ, 〜にすぎない, 〜にほかならない, 〜に越したことはない",
-  "theoryMd": "# Bài 23: Lẽ thường / Giới hạn\n\n### 1. 〜ものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru/A-i/A-na + ものだ\n- Ý nghĩa: Lẽ thường, chân lý.\n#### 📝 Ví dụ minh họa\n- どんな人にもくせがあるものだ。（Ai cũng có thói xấu）\n\n### 2. 〜というものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- N/Thể thường + というものだ\n- Ý nghĩa: Khẳng định tính hiển nhiên.\n#### 📝 Ví dụ minh họa\n- プライバシーの侵害というものだ。（Đúng là xâm phạm đời tư）\n\n### 3. 〜にすぎない\n#### 💡 Cấu trúc & Ý nghĩa\n- N/V-ru + にすぎない\n- Ý nghĩa: Chỉ là, không hơn.\n#### 📝 Ví dụ minh họa\n- ただの噂話にすぎない。（Chỉ là tin đồn nhảm）\n\n### 4. 〜にほかならない\n#### 💡 Cấu trúc & Ý nghĩa\n- N + にほかならない\n- Ý nghĩa: Chính là (nhấn mạnh lý do).\n#### 📝 Ví dụ minh họa\n- 本人の努力の結果にほかならない。（Chính là kết quả của nỗ lực）\n\n### 5. 〜に越したことはない\n#### 💡 Cấu trúc & Ý nghĩa\n- V/A/N + に越したことはない\n- Ý nghĩa: Là tốt nhất.\n#### 📝 Ví dụ minh họa\n- 軽いに越したことはない。（Nhẹ là tốt nhất）",
+  "theoryMd": "# Bài 23: Lẽ thường / Giới hạn\n\n### 1. 〜ものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- Vる/A-i/A-na + ものだ\n- Ý nghĩa: Lẽ thường, chân lý.\n#### 📝 Ví dụ minh họa\n- どんな人にもくせがあるものだ。（Ai cũng có thói xấu）\n\n### 2. 〜というものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- N/Thể thường + というものだ\n- Ý nghĩa: Khẳng định tính hiển nhiên.\n#### 📝 Ví dụ minh họa\n- プライバシーの侵害というものだ。（Đúng là xâm phạm đời tư）\n\n### 3. 〜にすぎない\n#### 💡 Cấu trúc & Ý nghĩa\n- N/Vる + にすぎない\n- Ý nghĩa: Chỉ là, không hơn.\n#### 📝 Ví dụ minh họa\n- ただの噂話にすぎない。（Chỉ là tin đồn nhảm）\n\n### 4. 〜にほかならない\n#### 💡 Cấu trúc & Ý nghĩa\n- N + にほかならない\n- Ý nghĩa: Chính là (nhấn mạnh lý do).\n#### 📝 Ví dụ minh họa\n- 本人の努力の結果にほかならない。（Chính là kết quả của nỗ lực）\n\n### 5. 〜に越したことはない\n#### 💡 Cấu trúc & Ý nghĩa\n- V/A/N + に越したことはない\n- Ý nghĩa: Là tốt nhất.\n#### 📝 Ví dụ minh họa\n- 軽いに越したことはない。（Nhẹ là tốt nhất）",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜ものだ",
-            "back": "Ý nghĩa: Lẽ thường tình, chân lý, bản chất sự việc.\nCấu trúc: V-ru / V-nai / A-i / A-na + ものだ",
+            "back": "Ý nghĩa: Lẽ thường tình, chân lý, bản chất sự việc.\nCấu trúc: Vる / Vない / A-i / A-na + ものだ",
             "romaji": "mono da",
             "example": "自分では気が付きにくいが、どんな人にもくせがあるものだ。\nDù bản thân khó nhận ra, nhưng ai cũng có thói xấu.\n\n子どもは元気に外で遊ぶものだ。\nTrẻ con thì nên chơi đùa khỏe mạnh ở bên ngoài.\n\n地震のときは怖いものだ。\nKhi có động đất thì đương nhiên là sợ rồi.\n\n昔はよくここへ遊びに来たものだ。\nNgày xưa tôi thường hay đến đây chơi (nhớ về quá khứ).",
             "jlptLevel": 2
@@ -33,7 +33,7 @@
           },
           {
             "front": "〜にすぎない",
-            "back": "Ý nghĩa: Chẳng qua chỉ là, không hơn mức đó.\nCấu trúc: N / V-ru + にすぎない",
+            "back": "Ý nghĩa: Chẳng qua chỉ là, không hơn mức đó.\nCấu trúc: N / Vる + にすぎない",
             "romaji": "ni suginai",
             "example": "一社員にすぎない私に、経営のことなど決められない。\nTôi chỉ là một nhân viên, không thể quyết định chuyện công ty.\n\nこれはただの噂話にすぎないから、信じないほうがいい。\nĐây chỉ là tin đồn nhảm, đừng nên tin.\n\n彼のおかげではなく、運が良かったにすぎない。\nKhông phải nhờ anh ấy, chỉ là vận may thôi.\n\n言葉を知っているにすぎない。\nChỉ là biết từ vựng thôi.",
             "jlptLevel": 2
@@ -47,7 +47,7 @@
           },
           {
             "front": "〜に越したことはない",
-            "back": "Ý nghĩa: Nếu được như vậy thì là tốt nhất.\nCấu trúc: V-ru / V-nai / A-i / A-na(bỏ da) / N + に越したことはない",
+            "back": "Ý nghĩa: Nếu được như vậy thì là tốt nhất.\nCấu trúc: Vる / Vない / A-i / A-na(bỏ da) / N + に越したことはない",
             "romaji": "ni koshita koto wa nai",
             "example": "旅行の荷物は軽いに越したことはない。\nĐồ đi du lịch thì nhẹ là tốt nhất.\n\n早めに医者に診てもらうに越したことはない。\nNên đi khám bác sĩ sớm là tốt nhất.\n\nお金はあるに越したことはない。\nCó tiền thì vẫn là tốt nhất.\n\nタクシーで行くに越したことはないが、高いからね。\nĐi taxi là tốt nhất nhưng mà đắt lắm.",
             "jlptLevel": 2

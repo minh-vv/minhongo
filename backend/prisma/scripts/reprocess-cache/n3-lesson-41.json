@@ -2,7 +2,7 @@
   "order": 41,
   "title": "41. ～といい・～ばいい・～たらいい",
   "summary": "Ngữ pháp bài số 41 sách Shinkanzen Master N3 (2 thẻ).",
-  "theoryMd": "### 1. ～といい・～ばいい・～たらいい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Mong ước:** Dùng để thể hiện hy vọng về một sự việc khách quan hoặc mong muốn của bản thân đối với tương lai.\n  - Cấu trúc: V-ru + といい / V-ba + いい / V-tara + いい\n- **Lời khuyên:** Dùng để đưa ra lời gợi ý hoặc khuyên bảo người khác nên làm gì.\n  - Cấu trúc: V-ru + といい / V-ba + いい / V-tara + いい\n\n#### 📝 Ví dụ minh họa\n- 明日、晴れるといいですね。(Mong là ngày mai trời đẹp)\n- 疲れたら、少し休めばいい。(Nếu mệt thì bạn nên nghỉ ngơi)",
+  "theoryMd": "### 1. ～といい・～ばいい・～たらいい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Mong ước:** Dùng để thể hiện hy vọng về một sự việc khách quan hoặc mong muốn của bản thân đối với tương lai.\n  - Cấu trúc: Vる + といい / Vば + いい / Vたら + いい\n- **Lời khuyên:** Dùng để đưa ra lời gợi ý hoặc khuyên bảo người khác nên làm gì.\n  - Cấu trúc: Vる + といい / Vば + いい / Vたら + いい\n\n#### 📝 Ví dụ minh họa\n- 明日、晴れるといいですね。(Mong là ngày mai trời đẹp)\n- 疲れたら、少し休めばいい。(Nếu mệt thì bạn nên nghỉ ngơi)",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,14 +19,14 @@
         "cards": [
           {
             "front": "〜といい / 〜ばいい / 〜たらいい",
-            "back": "Ý nghĩa: Mong là, ước gì (Thể hiện mong ước về một sự việc không nằm trong tầm kiểm soát của người nói).\nCấu trúc: V-ru + といい / V-ba + いい / V-tara + いい",
+            "back": "Ý nghĩa: Mong là, ước gì (Thể hiện mong ước về một sự việc không nằm trong tầm kiểm soát của người nói).\nCấu trúc: Vる + といい / Vば + いい / Vたら + いい",
             "romaji": "to ii / ba ii / tara ii",
             "example": "明日、晴れるといいですね。\nHy vọng ngày mai trời sẽ đẹp.\n\n試験、合格できればいいんだけど。\nƯớc gì mình có thể đỗ kỳ thi này.\n\n早く熱が下がったらいいですね。\nMong là bạn nhanh chóng hạ sốt.",
             "jlptLevel": 3
           },
           {
             "front": "〜といい / 〜ばいい / 〜たらいい",
-            "back": "Ý nghĩa: Nên làm gì thì tốt (Khuyên đối phương thực hiện một hành vi nào đó).\nCấu trúc: V-ru + といい / V-ba + いい / V-tara + いい",
+            "back": "Ý nghĩa: Nên làm gì thì tốt (Khuyên đối phương thực hiện một hành vi nào đó).\nCấu trúc: Vる + といい / Vば + いい / Vたら + いい",
             "romaji": "to ii / ba ii / tara ii",
             "example": "わからないときは、先生に聞くといいですよ。\nKhi không hiểu, bạn nên hỏi giáo viên thì tốt đấy.\n\n疲れたら、少し休めばいい。\nNếu mệt thì cậu nên nghỉ ngơi một chút.\n\nもっと早く起きればいいのに。\nPhải chi cậu thức dậy sớm hơn thì tốt biết mấy.",
             "jlptLevel": 3

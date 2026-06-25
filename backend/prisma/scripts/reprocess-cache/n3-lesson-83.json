@@ -2,7 +2,7 @@
   "order": 83,
   "title": "83. ～ようになっている",
   "summary": "Ngữ pháp bài số 83 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. 〜ようになっている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh vào trạng thái đã được thiết lập sẵn, cấu tạo máy móc hoặc quy tắc tự động.\n- **Cấu trúc**: V-ru / V-nai + ようになっている\n\n#### 📝 Ví dụ minh họa\n- このドアは人が近づくと、自動で開くようになっている。\n(Cánh cửa này được thiết kế để tự động mở khi có người đến gần.)\n\n- このボタンを押さないと、水が出ないようになっています。\n(Nếu không bấm nút này thì nước được thiết lập là không chảy ra.)",
+  "theoryMd": "### 1. 〜ようになっている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh vào trạng thái đã được thiết lập sẵn, cấu tạo máy móc hoặc quy tắc tự động.\n- **Cấu trúc**: Vる / Vない + ようになっている\n\n#### 📝 Ví dụ minh họa\n- このドアは人が近づくと、自動で開くようになっている。\n(Cánh cửa này được thiết kế để tự động mở khi có người đến gần.)\n\n- このボタンを押さないと、水が出ないようになっています。\n(Nếu không bấm nút này thì nước được thiết lập là không chảy ra.)",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜ようになっている",
-            "back": "Ý nghĩa: Diễn tả một vật đã được thiết lập, cài đặt hoặc có cấu tạo tự động để thực hiện một chức năng nhất định.\nCấu trúc: V-ru / V-nai + ようになっている",
+            "back": "Ý nghĩa: Diễn tả một vật đã được thiết lập, cài đặt hoặc có cấu tạo tự động để thực hiện một chức năng nhất định.\nCấu trúc: Vる / Vない + ようになっている",
             "romaji": "youni natte iru",
             "example": "このドアは人が近づくと、自動で開くようになっている。\nCánh cửa này được thiết kế để tự động mở khi có người đến gần.\n\nこのボタンを押さないと、水が出ないようになっています。\nNếu không bấm nút này thì nước được thiết lập là không chảy ra.\n\nこのアプリは新しいメッセージが来ると通知が来るようになっている。\nỨng dụng này được thiết lập để gửi thông báo khi có tin nhắn mới.\n\n夜になると自動的にライトが消えるようになっている。\nNó được thiết kế để đèn tự động tắt khi trời tối.",
             "jlptLevel": 3

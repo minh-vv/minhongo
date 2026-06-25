@@ -2,7 +2,7 @@
   "order": 11,
   "title": "Bài 36 — Từ vựng JLPT N4 (Phần 11)",
   "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 11/25.",
-  "theoryMd": "### 1. 〜ように\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Để, nhằm mục đích làm gì đó.\n- Cấu trúc: V-dic / V-nai + ように\n#### 📝 Ví dụ minh họa\n忘れないように、メモをします。\nTôi ghi chú để không quên.\n\n### 2. 〜ようになります\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trở nên, chuyển biến thành một trạng thái năng lực nào đó.\n- Cấu trúc: V-dic / V-nai + ようになります\n#### 📝 Ví dụ minh họa\n日本語が話せるようになります。\nTôi trở nên nói được tiếng Nhật.\n\n### 3. 〜ようにしてください\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Hãy cố gắng làm (hoặc không làm) việc gì đó (lời khuyên/yêu cầu).\n- Cấu trúc: V-dic / V-nai + ようにしてください\n#### 📝 Ví dụ minh họa\n毎日、野菜を食べるようにしてください。\nHãy cố gắng ăn rau mỗi ngày nhé.",
+  "theoryMd": "### 1. 〜ように\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Để, nhằm mục đích làm gì đó.\n- Cấu trúc: V-dic / Vない + ように\n#### 📝 Ví dụ minh họa\n忘れないように、メモをします。\nTôi ghi chú để không quên.\n\n### 2. 〜ようになります\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trở nên, chuyển biến thành một trạng thái năng lực nào đó.\n- Cấu trúc: V-dic / Vない + ようになります\n#### 📝 Ví dụ minh họa\n日本語が話せるようになります。\nTôi trở nên nói được tiếng Nhật.\n\n### 3. 〜ようにしてください\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Hãy cố gắng làm (hoặc không làm) việc gì đó (lời khuyên/yêu cầu).\n- Cấu trúc: V-dic / Vない + ようにしてください\n#### 📝 Ví dụ minh họa\n毎日、野菜を食べるようにしてください。\nHãy cố gắng ăn rau mỗi ngày nhé.",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -193,21 +193,21 @@
         "cards": [
           {
             "front": "〜ように",
-            "back": "Ý nghĩa: Để, nhằm mục đích làm gì đó.\nCấu trúc: V-dic / V-nai + ように",
+            "back": "Ý nghĩa: Để, nhằm mục đích làm gì đó.\nCấu trúc: V-dic / Vない + ように",
             "romaji": "you-ni",
             "example": "忘れないように、メモをします。\nTôi ghi chú để không quên.\n\n風邪をひかないように、気をつけています。\nTôi đang chú ý để không bị cảm lạnh.\n\n早く起きられるように、目覚ましをかけます。\nTôi đặt báo thức để có thể dậy sớm.",
             "jlptLevel": 4
           },
           {
             "front": "〜ようになります",
-            "back": "Ý nghĩa: Trở nên, chuyển biến thành một trạng thái năng lực nào đó.\nCấu trúc: V-dic / V-nai + ようになります",
+            "back": "Ý nghĩa: Trở nên, chuyển biến thành một trạng thái năng lực nào đó.\nCấu trúc: V-dic / Vない + ようになります",
             "romaji": "you-ni-narimasu",
             "example": "日本語が話せるようになります。\nTôi trở nên nói được tiếng Nhật.\n\n毎日練習して、泳げるようになりました。\nTôi đã luyện tập mỗi ngày và đã có thể bơi được.\n\n野菜が食べられるようになりました。\nTôi đã trở nên ăn được rau.",
             "jlptLevel": 4
           },
           {
             "front": "〜ようにしてください",
-            "back": "Ý nghĩa: Hãy cố gắng làm (hoặc không làm) việc gì đó (lời khuyên/yêu cầu).\nCấu trúc: V-dic / V-nai + ようにしてください",
+            "back": "Ý nghĩa: Hãy cố gắng làm (hoặc không làm) việc gì đó (lời khuyên/yêu cầu).\nCấu trúc: V-dic / Vない + ようにしてください",
             "romaji": "you-ni-shitekudasai",
             "example": "毎日、野菜を食べるようにしてください。\nHãy cố gắng ăn rau mỗi ngày nhé.\n\n夜遅く食べないようにしてください。\nHãy cố gắng không ăn vào đêm muộn.\n\n忘れ物をしないようにしてください。\nHãy cố gắng không để quên đồ đạc.",
             "jlptLevel": 4

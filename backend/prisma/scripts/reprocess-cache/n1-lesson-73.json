@@ -2,7 +2,7 @@
   "order": 73,
   "title": "Bài 73 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 73/92).",
-  "theoryMd": "### 1. 〜んばかりに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Như thể là sắp, đến mức gần như...\n- **Cấu trúc:** V-nai (bỏ ない) + んばかりに (する → せんばかりに)\n\n### 2. 〜るものとする\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Quy định, xem như là, được quyết định là...\n- **Cấu trúc:** V-dictionary form + ものとする\n- **Lưu ý:** Dùng trong văn bản hành chính, hợp đồng, quy tắc để nêu lên quy định cố định.",
+  "theoryMd": "### 1. 〜んばかりに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Như thể là sắp, đến mức gần như...\n- **Cấu trúc:** Vない (bỏ ない) + んばかりに (する → せんばかりに)\n\n### 2. 〜るものとする\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Quy định, xem như là, được quyết định là...\n- **Cấu trúc:** V-dictionary form + ものとする\n- **Lưu ý:** Dùng trong văn bản hành chính, hợp đồng, quy tắc để nêu lên quy định cố định.",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜んばかりに",
-            "back": "Ý nghĩa: Như thể là sắp, gần như là (mô tả trạng thái gần chạm ngưỡng một hành động nào đó).\nCấu trúc: V-nai (bỏ ない) + んばかりに (riêng する thành せんばかりに)",
+            "back": "Ý nghĩa: Như thể là sắp, gần như là (mô tả trạng thái gần chạm ngưỡng một hành động nào đó).\nCấu trúc: Vない (bỏ ない) + んばかりに (riêng する thành せんばかりに)",
             "romaji": "nba-kari-ni",
             "example": "彼は涙を流さんばかりに喜んだ。\nAnh ấy vui đến mức như sắp rơi nước mắt.\n\n頭を床に擦りつけんばかりに謝った。\nAnh ta xin lỗi đến mức như muốn cọ đầu xuống sàn.\n\n会場は割れんばかりの拍手に包まれた。\nCả khán phòng vang dội trong tràng pháo tay như muốn vỡ tung.\n\n彼は怒りに震えんばかりの様子で部屋を出た。\nAnh ta rời khỏi phòng với dáng vẻ như muốn run lên vì giận dữ.",
             "jlptLevel": 1

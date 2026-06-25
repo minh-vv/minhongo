@@ -2,7 +2,7 @@
   "order": 71,
   "title": "Bài 71 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 71/92).",
-  "theoryMd": "### 1. 〜てやまない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Luôn, không ngừng... (thể hiện cảm xúc mạnh mẽ, chân thành từ sâu trong lòng).\n- **Cấu trúc:** V-te + やまない\n- **Lưu ý:** Thường dùng với các động từ chỉ tình cảm, nguyện vọng (願う, 祈る, 愛する, 期待する).\n\n#### 📝 Ví dụ minh họa\n- 皆様の健康を願ってやまない。\n- 私は故郷を愛してやまない。\n\n### 2. 〜るべく\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Để, với mục đích làm gì đó (văn viết trang trọng).\n- **Cấu trúc:** V-dictionary form + べく\n- **Lưu ý:** Vế sau thường là một hành động có ý chí để đạt mục đích ở vế trước. Không dùng với các câu ra lệnh hoặc rủ rê.\n\n#### 📝 Ví dụ minh họa\n- 生産性を高めるべく、システムを変更した。\n- 留学すべく、準備を進めている。",
+  "theoryMd": "### 1. 〜てやまない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Luôn, không ngừng... (thể hiện cảm xúc mạnh mẽ, chân thành từ sâu trong lòng).\n- **Cấu trúc:** Vて + やまない\n- **Lưu ý:** Thường dùng với các động từ chỉ tình cảm, nguyện vọng (願う, 祈る, 愛する, 期待する).\n\n#### 📝 Ví dụ minh họa\n- 皆様の健康を願ってやまない。\n- 私は故郷を愛してやまない。\n\n### 2. 〜るべく\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Để, với mục đích làm gì đó (văn viết trang trọng).\n- **Cấu trúc:** V-dictionary form + べく\n- **Lưu ý:** Vế sau thường là một hành động có ý chí để đạt mục đích ở vế trước. Không dùng với các câu ra lệnh hoặc rủ rê.\n\n#### 📝 Ví dụ minh họa\n- 生産性を高めるべく、システムを変更した。\n- 留学すべく、準備を進めている。",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜てやまない",
-            "back": "Ý nghĩa: Rất..., luôn luôn..., không ngừng... (thể hiện cảm xúc mạnh mẽ, chân thành từ sâu trong lòng).\nCấu trúc: V-te + やまない",
+            "back": "Ý nghĩa: Rất..., luôn luôn..., không ngừng... (thể hiện cảm xúc mạnh mẽ, chân thành từ sâu trong lòng).\nCấu trúc: Vて + やまない",
             "romaji": "te-yamanai",
             "example": "皆様のご健康とご多幸を願ってやまない。\nTôi luôn cầu chúc sức khỏe và hạnh phúc cho mọi người.\n\n被災地の一日も早い復興を祈ってやまない。\nTôi không ngừng cầu mong vùng thiên tai sớm được phục hồi.\n\n私は故郷を愛してやまない。\nTôi yêu quê hương khôn nguôi.\n\n将来の成功を信じてやまない。\nTôi vẫn luôn tin tưởng vào thành công trong tương lai.",
             "jlptLevel": 1

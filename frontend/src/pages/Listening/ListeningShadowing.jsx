@@ -6,6 +6,7 @@ import {
   Headphones, Info, CheckCircle2, AlertCircle
 } from 'lucide-react';
 import PageHeader from '../../components/PageHeader';
+// import ListeningNav from '../../components/ListeningNav';
 
 export default function ListeningShadowing() {
   const [searchParams] = useSearchParams();
@@ -237,7 +238,7 @@ export default function ListeningShadowing() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-8 animate-fade-up">
+    <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-6 animate-fade-up">
       {/* ── HERO BANNER ── */}
       <PageHeader
         tag="Luyện kỹ năng thực hành nghe nói"
@@ -245,17 +246,16 @@ export default function ListeningShadowing() {
         subtitle="Luyện nói đuổi và phát âm tự nhiên theo giọng đọc mẫu."
         ghostChar="聴"
         rightContent={
-          <div className="flex gap-4 items-center bg-white/5 border border-white/10 px-5 py-3 text-white">
+          <div className="flex gap-3.5 items-center bg-white/5 border border-white/10 px-4 py-2 rounded text-white">
             <span className="text-[10px] font-bold uppercase tracking-wider text-white/50">Tốc độ đọc TTS:</span>
             <div className="flex gap-1.5">
               {[0.5, 0.8, 1.0].map(rate => (
                 <button
                   key={rate}
                   onClick={() => setSpeechRate(rate)}
-                  className={`px-2 py-1 text-xs font-bold transition-all ${
-                    speechRate === rate ? 'bg-amber-400 text-amber-950 font-black' : 'hover:bg-white/10 text-white'
+                  className={`px-2.5 py-1 text-xs font-bold transition-all border border-white/10 rounded hover:bg-white/10 cursor-pointer ${
+                    speechRate === rate ? 'bg-amber-400 text-amber-950 border-amber-400 font-black' : 'text-white'
                   }`}
-                  style={{ border: '1px solid rgba(255,255,255,0.2)' }}
                 >
                   {rate}x
                 </button>
@@ -265,7 +265,7 @@ export default function ListeningShadowing() {
         }
       />
 
-      {/* ── MAIN CONTENT ACCORDING TO TABS ── */}
+      {/* ── MAIN CONTENT AREA ── */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         {/* Left Column Shadowing Sentences list */}
         <div className={`lg:col-span-4 space-y-4 ${isSidebarCollapsed ? 'lg:hidden' : ''}`}>
@@ -339,9 +339,9 @@ export default function ListeningShadowing() {
             </div>
 
             {/* Target sentence display */}
-            <div className="text-center py-6 bg-surface border border-outline-variant/20 mb-8 space-y-3 relative">
-              <div className="absolute top-2 left-4 text-[9px] font-bold uppercase tracking-widest text-on-surface-variant/40">
-                Câu luyện tập
+            <div className="text-center py-8 bg-surface border border-outline-variant/20 mb-8 space-y-3 rounded relative overflow-hidden">
+              <div className="absolute top-2.5 left-4 text-[9px] font-bold uppercase tracking-widest text-on-surface-variant/50">
+                Mẫu câu luyện tập
               </div>
 
               <p className="font-jp text-xl md:text-2xl font-bold text-on-surface px-6 leading-normal tracking-wide">
@@ -354,45 +354,52 @@ export default function ListeningShadowing() {
                 </p>
               )}
 
-              <p className="text-xs text-on-surface-variant max-w-md mx-auto pt-2 border-t border-outline-variant/10">
+              <div className="w-16 h-px bg-outline-variant/20 mx-auto my-1" />
+
+              <p className="text-xs text-on-surface-variant max-w-md mx-auto px-6 font-medium">
                 {activeShadow?.translation}
               </p>
             </div>
 
             {/* Play Sample & Record Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
               
               {/* Left panel: Listen target */}
-              <div className="p-5 border border-outline-variant/20 bg-surface-container flex flex-col items-center justify-center text-center space-y-4">
-                <span className="text-xs font-bold uppercase tracking-wider text-on-surface-variant">1. Nghe giọng đọc mẫu</span>
+              <div className="p-6 border border-outline-variant/20 bg-surface-container flex flex-col items-center justify-center text-center space-y-4 rounded-sm">
+                <span className="text-xs font-bold uppercase tracking-wider text-on-surface-variant">1. Nghe phát âm mẫu</span>
                 <button
                   onClick={playShadowSample}
-                  className="w-14 h-14 bg-primary hover:bg-primary-container text-white flex items-center justify-center rounded-full transition-all sharp-shadow"
+                  className="w-14 h-14 bg-primary hover:bg-primary-container text-white flex items-center justify-center rounded-full transition-all duration-150 transform hover:scale-105 active:scale-95 sharp-shadow cursor-pointer"
                   aria-label="Nghe giọng đọc chuẩn"
                 >
                   <Volume2 className="w-6 h-6" />
                 </button>
-                <span className="text-[10px] text-on-surface-variant/70 font-medium">Bấm để nghe cách phát âm chuẩn</span>
+                <span className="text-[10px] text-on-surface-variant/75 font-semibold">Nhấn để nghe giọng đọc bản xứ</span>
               </div>
 
               {/* Right panel: Speak & Record */}
-              <div className="p-5 border border-outline-variant/20 bg-surface-container flex flex-col items-center justify-center text-center space-y-4 relative">
+              <div className="p-6 border border-outline-variant/20 bg-surface-container flex flex-col items-center justify-center text-center space-y-4 relative rounded-sm">
                 <span className="text-xs font-bold uppercase tracking-wider text-on-surface-variant">2. Nói đuổi (Shadowing)</span>
                 
-                <button
-                  onClick={toggleSpeechRecognition}
-                  className={`w-14 h-14 rounded-full flex items-center justify-center transition-all sharp-shadow ${
-                    isRecording || isFallbackRecording
-                      ? 'bg-rose-600 text-white animate-pulse border-2 border-rose-200'
-                      : 'bg-secondary hover:bg-secondary-dim text-white'
-                  }`}
-                  aria-label={isRecording || isFallbackRecording ? 'Dừng thu âm' : 'Bắt đầu nói'}
-                >
-                  {isRecording || isFallbackRecording ? <MicOff className="w-6 h-6" /> : <Mic className="w-6 h-6" />}
-                </button>
+                <div className="relative flex items-center justify-center w-14 h-14">
+                  {(isRecording || isFallbackRecording) && (
+                    <span className="absolute inset-0 bg-rose-600/10 rounded-full animate-ping opacity-75" />
+                  )}
+                  <button
+                    onClick={toggleSpeechRecognition}
+                    className={`w-14 h-14 rounded-full flex items-center justify-center transition-all duration-150 transform hover:scale-105 active:scale-95 sharp-shadow cursor-pointer z-10 ${
+                      isRecording || isFallbackRecording
+                        ? 'bg-rose-600 text-white border-2 border-rose-200 dark:border-rose-800'
+                        : 'bg-secondary hover:bg-secondary-dim text-white'
+                    }`}
+                    aria-label={isRecording || isFallbackRecording ? 'Dừng thu âm' : 'Bắt đầu nói'}
+                  >
+                    {isRecording || isFallbackRecording ? <MicOff className="w-6 h-6" /> : <Mic className="w-6 h-6" />}
+                  </button>
+                </div>
 
-                <span className="text-[10px] text-on-surface-variant/70 font-medium">
-                  {isRecording || isFallbackRecording ? 'Đang thu âm... Bấm lại để dừng' : 'Bấm mic để bắt đầu nói'}
+                <span className="text-[10px] text-on-surface-variant/75 font-semibold">
+                  {isRecording || isFallbackRecording ? 'Đang thu giọng... Bấm để kết thúc' : 'Bấm mic để bắt đầu luyện nói'}
                 </span>
               </div>
 
@@ -406,25 +413,29 @@ export default function ListeningShadowing() {
                 </h4>
 
                 {speechSupported && shadowScore !== null ? (
-                  <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center bg-surface p-5 border border-outline-variant/20">
+                  <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center bg-surface p-5 border border-outline-variant/20 rounded-sm">
                     {/* Circle Score */}
                     <div className="md:col-span-4 flex flex-col items-center justify-center border-b md:border-b-0 md:border-r border-outline-variant/20 pb-4 md:pb-0">
-                      <span className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1">Độ chính xác</span>
+                      <span className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-1.5">Độ chính xác</span>
                       <span className="text-4xl font-black text-secondary leading-none">{shadowScore}%</span>
-                      <span className="text-[10px] font-bold text-on-surface-variant/80 uppercase mt-2">
+                      <span className="text-[10px] font-bold text-on-surface-variant/80 uppercase mt-2.5">
                         {shadowScore >= 85 ? 'Tuyệt vời!' : shadowScore >= 60 ? 'Rất tốt!' : 'Hãy thử lại!'}
                       </span>
                     </div>
 
                     {/* Speech text review */}
-                    <div className="md:col-span-8 space-y-2">
-                      <p className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant">Chi tiết phát âm:</p>
+                    <div className="md:col-span-8 space-y-3.5">
+                      <p className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant">So sánh phát âm chi tiết:</p>
                       <div className="flex flex-wrap gap-1 font-jp text-lg font-bold leading-normal">
                         {shadowFeedbacks.length > 0 ? (
                           shadowFeedbacks.map((f, i) => (
                             <span
                               key={i}
-                              className={f.matched ? 'text-emerald-600' : 'text-rose-500 line-through decoration-rose-350 decoration-1'}
+                              className={
+                                f.matched 
+                                  ? 'text-emerald-600 dark:text-emerald-400' 
+                                  : 'text-rose-500 dark:text-rose-450 bg-rose-50 dark:bg-rose-950/20 px-0.5 border-b border-rose-300 dark:border-rose-900 rounded-sm'
+                              }
                               title={f.matched ? 'Phát âm đúng' : 'Chưa nhận diện đúng'}
                             >
                               {f.char}
@@ -436,14 +447,14 @@ export default function ListeningShadowing() {
                       </div>
 
                       <div className="text-xs text-on-surface-variant mt-2 pt-2 border-t border-outline-variant/10">
-                        <span className="font-bold">Nhận dạng thực tế:</span> "{shadowTranscript || '...'}"
+                        <span className="font-bold text-on-surface">Nhận dạng thực tế:</span> <span className="italic">"{shadowTranscript || '...'}"</span>
                       </div>
                     </div>
                   </div>
                 ) : (
                   // Display fallback for when Web Speech Recognition is not supported
                   !speechSupported && (
-                    <div className="bg-amber-50 border border-amber-200 text-amber-900 p-4 text-xs leading-relaxed">
+                    <div className="bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800 text-amber-900 dark:text-amber-300 p-4 text-xs leading-relaxed rounded-sm">
                       <span className="font-bold block mb-1">Lưu ý:</span>
                       Trình duyệt này hiện không hỗ trợ Web Speech API để tự động chấm điểm phát âm. Bạn hãy phát bản ghi âm giọng đọc ở dưới và so sánh trực tiếp với giọng mẫu nhé!
                     </div>
@@ -452,29 +463,31 @@ export default function ListeningShadowing() {
 
                 {/* Audio Voice Playback block */}
                 {recordedAudioUrl && (
-                  <div className="p-4 bg-surface border border-outline-variant/20 flex flex-col sm:flex-row items-center justify-between gap-4">
+                  <div className="p-4 bg-surface border border-outline-variant/20 flex flex-col sm:flex-row items-center justify-between gap-4 rounded-sm shadow-sm">
                     <div className="flex items-center gap-3">
-                      <Volume2 className="w-5 h-5 text-secondary" />
+                      <div className="w-9 h-9 bg-secondary/10 dark:bg-secondary/20 text-secondary flex items-center justify-center rounded-full">
+                        <Volume2 className="w-4.5 h-4.5" />
+                      </div>
                       <div>
                         <p className="text-xs font-bold text-on-surface">Bản ghi âm giọng của bạn</p>
-                        <p className="text-[10px] text-on-surface-variant mt-0.5">Nghe lại và tự nhận xét điểm phát âm khác biệt</p>
+                        <p className="text-[10px] text-on-surface-variant mt-0.5">Nghe lại để tự cảm nhận độ chính xác ngữ điệu</p>
                       </div>
                     </div>
 
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 w-full sm:w-auto">
                       <button
                         onClick={playRecordedAudio}
-                        className="px-4 py-2 bg-secondary hover:bg-secondary-dim text-white text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-1.5"
+                        className="flex-1 sm:flex-none px-4 py-2 bg-secondary hover:bg-secondary-dim text-white text-xs font-bold uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5 cursor-pointer rounded-sm"
                       >
                         <Play className="w-3.5 h-3.5" />
-                        Nghe lại giọng bạn
+                        Nghe giọng bạn
                       </button>
                       <button
                         onClick={playShadowSample}
-                        className="px-4 py-2 border border-outline-variant bg-surface-container-low text-on-surface-variant hover:text-on-surface text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-1.5"
+                        className="flex-1 sm:flex-none px-4 py-2 border border-outline-variant bg-surface-container-low text-on-surface-variant hover:text-on-surface text-xs font-bold uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5 cursor-pointer rounded-sm"
                       >
                         <Play className="w-3.5 h-3.5" />
-                        Nghe lại giọng mẫu
+                        Giọng mẫu
                       </button>
                     </div>
                   </div>
