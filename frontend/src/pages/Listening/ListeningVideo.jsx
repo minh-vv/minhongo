@@ -171,8 +171,7 @@ export default function ListeningVideo() {
       const activeEl = sidebarRef.current.querySelector(`[data-line-index="${activeLineIndex}"]`);
       if (activeEl) {
         const container = sidebarRef.current;
-        const targetScrollTop = activeEl.offsetTop - container.offsetTop;
-        container.scrollTo({ top: targetScrollTop, behavior: 'smooth' });
+        container.scrollTo({ top: activeEl.offsetTop, behavior: 'smooth' });
       }
     }
   }, [activeLineIndex]);
@@ -456,7 +455,7 @@ export default function ListeningVideo() {
         />
 
         {/* ── Two-column workspace ─────────────────────────────────────── */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:flex-1 lg:min-h-0 overflow-y-auto lg:overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:h-[calc(100vh-140px)] lg:min-h-0 overflow-y-auto lg:overflow-hidden">
 
           {/* ── LEFT: Player + Active subtitle ────────────────────────── */}
           <div className="lg:col-span-8 flex flex-col gap-4 lg:h-full lg:min-h-0 min-h-0">
@@ -550,7 +549,7 @@ export default function ListeningVideo() {
             {/* Script list */}
             <div
               ref={sidebarRef}
-              className="flex-1 overflow-y-auto custom-scrollbar divide-y divide-outline-variant/40"
+              className="flex-1 overflow-y-auto custom-scrollbar divide-y divide-outline-variant/40 relative"
             >
               {activeVideo.subtitles.map((line, idx) => {
                 const isActive = activeLineIndex === idx;
