@@ -2,7 +2,7 @@
   "order": 10,
   "title": "Bài 10 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 10/92).",
-  "theoryMd": "### 1. 〜たら〜たで\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dù là tình trạng đó đi chăng nữa, vẫn có cách giải quyết hoặc sự thật tồn tại.\n- **Cấu trúc**: V-ta / A-i-ta / A-na-ta + ら + V-ta / A-i-ta / A-na-ta + で\n\n#### 📝 Ví dụ minh họa\n- 雨なら雨で、楽しみ方はある。\n- お金がなかったらなかったで、工夫すればいい。\n- 家が広かったら広かったで、掃除が大変だ。\n\n### 2. 〜ば〜ものを\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Thể hiện sự nuối tiếc, bất mãn vì thực tế đã không làm đúng như mong đợi.\n- **Cấu trúc**: V-ba + ～ものを\n\n#### 📝 Ví dụ minh họa\n- 一言相談してくれれば助けられたものを。\n- もっと早く病院に行けば治ったものを。\n- 知っていれば教えたものを。",
+  "theoryMd": "### 1. 〜たら〜たで\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dù là tình trạng đó đi chăng nữa, vẫn có cách giải quyết hoặc sự thật tồn tại.\n- **Cấu trúc**: Vた / A-i-ta / A-na-ta + ら + Vた / A-i-ta / A-na-ta + で\n\n#### 📝 Ví dụ minh họa\n- 雨なら雨で、楽しみ方はある。\n- お金がなかったらなかったで、工夫すればいい。\n- 家が広かったら広かったで、掃除が大変だ。\n\n### 2. 〜ば〜ものを\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Thể hiện sự nuối tiếc, bất mãn vì thực tế đã không làm đúng như mong đợi.\n- **Cấu trúc**: Vば + ～ものを\n\n#### 📝 Ví dụ minh họa\n- 一言相談してくれれば助けられたものを。\n- もっと早く病院に行けば治ったものを。\n- 知っていれば教えたものを。",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,14 +19,14 @@
         "cards": [
           {
             "front": "〜たら〜たで",
-            "back": "Ý nghĩa: Nếu làm A thì sẽ có tình trạng A (tốt hoặc xấu), chấp nhận thực tế đó.\nCấu trúc: V-ta / A-i-ta / A-na-ta + ら + V-ta / A-i-ta / A-na-ta + で",
+            "back": "Ý nghĩa: Nếu làm A thì sẽ có tình trạng A (tốt hoặc xấu), chấp nhận thực tế đó.\nCấu trúc: Vた / A-i-ta / A-na-ta + ら + Vた / A-i-ta / A-na-ta + で",
             "romaji": "tara-tade",
             "example": "雨なら雨で、楽しみ方はある。\nNếu trời mưa thì mưa cũng có cách tận hưởng của nó.\n\nお金がなかったらなかったで、工夫すればいい。\nNếu không có tiền thì không có cũng xoay xở được.\n\n家が広かったら広かったで、掃除が大変だ。\nNhà rộng thì rộng thật đấy, nhưng dọn dẹp lại vất vả.",
             "jlptLevel": 1
           },
           {
             "front": "〜ば〜ものを",
-            "back": "Ý nghĩa: Giá mà làm A thì đã tốt, tiếc là không làm nên kết quả không tốt.\nCấu trúc: V-ba + ～ものを",
+            "back": "Ý nghĩa: Giá mà làm A thì đã tốt, tiếc là không làm nên kết quả không tốt.\nCấu trúc: Vば + ～ものを",
             "romaji": "ba-mono-wo",
             "example": "一言相談してくれれば助けられたものを。\nNếu cậu hỏi tớ một câu thôi thì đã giúp được rồi, vậy mà…\n\nもっと早く病院に行けば治ったものを。\nNếu đi bệnh viện sớm hơn thì đã khỏi rồi.\n\n知っていれば教えたものを。\nNếu biết thì tôi đã chỉ cho rồi.",
             "jlptLevel": 1

@@ -2,7 +2,7 @@
   "order": 14,
   "title": "Bài 39 — Từ vựng JLPT N4 (Phần 14)",
   "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 14/25.",
-  "theoryMd": "### 1. 〜て / 〜ので / から\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trình bày lý do, nguyên nhân dẫn đến kết quả.\n- Cấu trúc: V-te / V-nai / V-ta + ので / から\n#### 📝 Ví dụ minh họa\n天気が悪いですから、行きません。\nVì thời tiết xấu nên tôi không đi.\n\n### 2. 表と裏\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đối lập mặt trước và mặt sau, bề ngoài và bên trong.\n- Cấu trúc: Danh từ + の 表 / 裏\n#### 📝 Ví dụ minh họa\n紙の表に名前を書いてください。\nHãy viết tên lên mặt trước của tờ giấy.\n\n### 3. 遠慮しないで\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Lời động viên, mời mọc một cách lịch sự, không cần khách sáo.\n- Cấu trúc: 遠慮しないで + V\n#### 📝 Ví dụ minh họa\n遠慮しないで、たくさん食べてください。\nĐừng ngại, hãy ăn nhiều vào nhé.",
+  "theoryMd": "### 1. 〜て / 〜ので / から\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trình bày lý do, nguyên nhân dẫn đến kết quả.\n- Cấu trúc: Vて / Vない / Vた + ので / から\n#### 📝 Ví dụ minh họa\n天気が悪いですから、行きません。\nVì thời tiết xấu nên tôi không đi.\n\n### 2. 表と裏\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đối lập mặt trước và mặt sau, bề ngoài và bên trong.\n- Cấu trúc: Danh từ + の 表 / 裏\n#### 📝 Ví dụ minh họa\n紙の表に名前を書いてください。\nHãy viết tên lên mặt trước của tờ giấy.\n\n### 3. 遠慮しないで\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Lời động viên, mời mọc một cách lịch sự, không cần khách sáo.\n- Cấu trúc: 遠慮しないで + V\n#### 📝 Ví dụ minh họa\n遠慮しないで、たくさん食べてください。\nĐừng ngại, hãy ăn nhiều vào nhé.",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -193,7 +193,7 @@
         "cards": [
           {
             "front": "〜て / 〜ので / から",
-            "back": "Ý nghĩa: Vì... nên (diễn tả lý do).\nCấu trúc: V-te / V-nai / V-ta + ので / から",
+            "back": "Ý nghĩa: Vì... nên (diễn tả lý do).\nCấu trúc: Vて / Vない / Vた + ので / から",
             "romaji": "te-node-kara",
             "example": "急な用事があって、すみません。\nXin lỗi, tôi có việc bận đột xuất.\n\n天気が悪いですから、行きません。\nVì thời tiết xấu nên tôi không đi.\n\n雨が降ったので、遅れました。\nVì trời mưa nên tôi đã đến muộn.",
             "jlptLevel": 4

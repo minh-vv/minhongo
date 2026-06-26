@@ -636,7 +636,7 @@ function ResultsScreen({ results, deckId, deckName, wordCount, onRetry }) {
             Muốn củng cố những từ chưa nhớ sâu?
           </p>
           <Link
-            to={`/practice/${deckId}`}
+            to={`/deck/${deckId}?practice=true`}
             className="inline-flex items-center gap-1.5 px-4 py-2 bg-primary hover:bg-primary-container text-on-primary text-xs font-bold uppercase tracking-wider transition-colors"
           >
             <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">

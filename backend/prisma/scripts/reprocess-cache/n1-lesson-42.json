@@ -2,7 +2,7 @@
   "order": 42,
   "title": "Bài 42 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 42/92).",
-  "theoryMd": "### 1. 〜かたわら\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Vừa làm việc chính, vừa làm thêm một việc khác (thường là hoạt động mang tính bền vững).\n- **Cấu trúc:** N + の / V-る + かたわら\n#### 📝 Ví dụ minh họa\n- 彼は教師のかたわら、小説も書いている。\n- 大学で経営を学ぶかたわら、父の店を手伝っている。\n- 研究のかたわら、地域のボランティア活動にも参加している。\n\n### 2. 〜つ〜つ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Hai hành động diễn ra luân phiên, song song hoặc lặp đi lặp lại.\n- **Cấu trúc:** V-ます (bỏ ます) + つ + V-ます (bỏ ます) + つ\n#### 📝 Ví dụ minh họa\n- 係員が会場を行きつ戻りつして、準備を確認している。\n- 波に浮きつ沈みつする小舟が見えた。\n- 二人は抜きつ抜かれつのデッドヒートを繰り広げた。",
+  "theoryMd": "### 1. 〜かたわら\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Vừa làm việc chính, vừa làm thêm một việc khác (thường là hoạt động mang tính bền vững).\n- **Cấu trúc:** N + の / Vる + かたわら\n#### 📝 Ví dụ minh họa\n- 彼は教師のかたわら、小説も書いている。\n- 大学で経営を学ぶかたわら、父の店を手伝っている。\n- 研究のかたわら、地域のボランティア活動にも参加している。\n\n### 2. 〜つ〜つ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Hai hành động diễn ra luân phiên, song song hoặc lặp đi lặp lại.\n- **Cấu trúc:** V-ます (bỏ ます) + つ + V-ます (bỏ ます) + つ\n#### 📝 Ví dụ minh họa\n- 係員が会場を行きつ戻りつして、準備を確認している。\n- 波に浮きつ沈みつする小舟が見えた。\n- 二人は抜きつ抜かれつのデッドヒートを繰り広げた。",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜かたわら",
-            "back": "Ý nghĩa: Vừa làm việc chính, vừa làm thêm một việc khác (thường là hoạt động mang tính bền vững).\nCấu trúc: N + の / V-る + かたわら",
+            "back": "Ý nghĩa: Vừa làm việc chính, vừa làm thêm một việc khác (thường là hoạt động mang tính bền vững).\nCấu trúc: N + の / Vる + かたわら",
             "romaji": "katawara",
             "example": "彼は教師のかたわら、小説も書いている。\nAnh ấy ngoài công việc là giáo viên còn viết tiểu thuyết.\n\n大学で経営を学ぶかたわら、父の店を手伝っている。\nBên cạnh việc học quản trị ở đại học, tôi còn phụ cửa hàng của bố.\n\n研究のかたわら、地域のボランティア活動にも参加している。\nNgoài việc nghiên cứu, tôi cũng tham gia hoạt động tình nguyện địa phương.",
             "jlptLevel": 1

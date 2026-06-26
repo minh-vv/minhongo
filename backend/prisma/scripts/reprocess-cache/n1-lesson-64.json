@@ -2,7 +2,7 @@
   "order": 64,
   "title": "Bài 64 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 64/92).",
-  "theoryMd": "### 1. 〜といったところだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N / V-ru + といったところだ\n- **Ý nghĩa:** Tương tự 'というところだ' nhưng thường nhấn mạnh rằng mức độ đó là không cao hoặc hạn chế.\n\n#### 📝 Ví dụ minh họa\n- 参加者は30人といったところだ。(Số người tham gia chỉ khoảng 30 người.)\n- 休みは多くても月に二日といったところだ。(Nhiều lắm thì mỗi tháng được hai ngày nghỉ.)\n- 読んだ本は月に３冊といったところだ。(Mỗi tháng tôi chỉ đọc được tầm 3 cuốn sách.)\n\n### 2. 〜なりとも\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N + なりとも\n- **Ý nghĩa:** Nhấn mạnh ý nghĩa 'ít nhất là một ít'. Thường dùng với các danh từ chỉ số lượng nhỏ (1 câu, một chút, 1 đồng).\n\n#### 📝 Ví dụ minh họa\n- 一言なりともご感想をいただけますか。(Dù chỉ một lời thôi, mong nhận được cảm tưởng của bạn.)\n- 少しなりとも力になれれば幸いです。(Nếu có thể giúp được dù chỉ một chút thì tôi rất mừng.)\n- １円なりとも無駄にしてはいけない。(Dù chỉ một yên cũng không được lãng phí.)",
+  "theoryMd": "### 1. 〜といったところだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N / Vる + といったところだ\n- **Ý nghĩa:** Tương tự 'というところだ' nhưng thường nhấn mạnh rằng mức độ đó là không cao hoặc hạn chế.\n\n#### 📝 Ví dụ minh họa\n- 参加者は30人といったところだ。(Số người tham gia chỉ khoảng 30 người.)\n- 休みは多くても月に二日といったところだ。(Nhiều lắm thì mỗi tháng được hai ngày nghỉ.)\n- 読んだ本は月に３冊といったところだ。(Mỗi tháng tôi chỉ đọc được tầm 3 cuốn sách.)\n\n### 2. 〜なりとも\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** N + なりとも\n- **Ý nghĩa:** Nhấn mạnh ý nghĩa 'ít nhất là một ít'. Thường dùng với các danh từ chỉ số lượng nhỏ (1 câu, một chút, 1 đồng).\n\n#### 📝 Ví dụ minh họa\n- 一言なりともご感想をいただけますか。(Dù chỉ một lời thôi, mong nhận được cảm tưởng của bạn.)\n- 少しなりとも力になれれば幸いです。(Nếu có thể giúp được dù chỉ một chút thì tôi rất mừng.)\n- １円なりとも無駄にしてはいけない。(Dù chỉ một yên cũng không được lãng phí.)",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜といったところだ",
-            "back": "Ý nghĩa: Chỉ ở mức độ, tầm cỡ (đánh giá mức độ thấp, không nhiều).\nCấu trúc: N / V-ru + といったところだ",
+            "back": "Ý nghĩa: Chỉ ở mức độ, tầm cỡ (đánh giá mức độ thấp, không nhiều).\nCấu trúc: N / Vる + といったところだ",
             "romaji": "to-itta-tokoro-da",
             "example": "参加者は30人といったところだ。\nSố người tham gia chỉ khoảng 30 người.\n\n休みは多くても月に二日といったところだ。\nNhiều lắm thì mỗi tháng được hai ngày nghỉ.\n\n読んだ本は月に３冊といったところだ。\nMỗi tháng tôi chỉ đọc được tầm 3 cuốn sách.",
             "jlptLevel": 1

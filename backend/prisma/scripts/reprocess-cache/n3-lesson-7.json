@@ -2,7 +2,7 @@
   "order": 7,
   "title": "7. ～たびに…",
   "summary": "Ngữ pháp bài số 7 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. ～たびに\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Diễn tả hành động diễn ra lặp đi lặp lại mỗi khi có một sự việc nào đó xảy ra. Lưu ý: Không dùng cho các trạng thái hiển nhiên.\n- **Công thức:** Nの / V-る + たびに\n\n#### 📝 Ví dụ minh họa\n- この曲を聞くたびに、学生時代を思い出す。\n(Mỗi lần nghe bài hát này, tôi lại nhớ về thời học sinh.)\n- 海外旅行に行くたびに、新しい文化に触れることができる。\n(Mỗi lần đi du lịch nước ngoài, tôi lại có thể tiếp xúc với một nền văn hóa mới.)\n- 彼は会議のたびに、必ず意見を言う。\n(Anh ấy cứ mỗi lần họp là lại nhất định phát biểu ý kiến.)",
+  "theoryMd": "### 1. ～たびに\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Diễn tả hành động diễn ra lặp đi lặp lại mỗi khi có một sự việc nào đó xảy ra. Lưu ý: Không dùng cho các trạng thái hiển nhiên.\n- **Công thức:** Nの / Vる + たびに\n\n#### 📝 Ví dụ minh họa\n- この曲を聞くたびに、学生時代を思い出す。\n(Mỗi lần nghe bài hát này, tôi lại nhớ về thời học sinh.)\n- 海外旅行に行くたびに、新しい文化に触れることができる。\n(Mỗi lần đi du lịch nước ngoài, tôi lại có thể tiếp xúc với một nền văn hóa mới.)\n- 彼は会議のたびに、必ず意見を言う。\n(Anh ấy cứ mỗi lần họp là lại nhất định phát biểu ý kiến.)",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜たびに",
-            "back": "Ý nghĩa: Mỗi khi làm gì đó thì một hành động khác lại diễn ra. Nhấn mạnh sự lặp lại giống nhau mỗi khi xảy ra sự việc.\nCấu trúc: Nの / V-る + たびに",
+            "back": "Ý nghĩa: Mỗi khi làm gì đó thì một hành động khác lại diễn ra. Nhấn mạnh sự lặp lại giống nhau mỗi khi xảy ra sự việc.\nCấu trúc: Nの / Vる + たびに",
             "romaji": "tabi-ni",
             "example": "この曲を聞くたびに、学生時代を思い出す。\nMỗi lần nghe bài hát này, tôi lại nhớ về thời học sinh.\n\n海外旅行に行くたびに、新しい文化に触れることができる。\nMỗi lần đi du lịch nước ngoài, tôi lại có thể tiếp xúc với một nền văn hóa mới.\n\n彼は会議のたびに、必ず意見を言う。\nAnh ấy cứ mỗi lần họp là lại nhất định phát biểu ý kiến.",
             "jlptLevel": 3

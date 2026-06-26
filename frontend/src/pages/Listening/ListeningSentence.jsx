@@ -9,6 +9,7 @@ import {
   Sparkles, Layers, RefreshCw, AlertCircle, AlertTriangle
 } from 'lucide-react';
 import PageHeader from '../../components/PageHeader';
+// import ListeningNav from '../../components/ListeningNav';
 
 export default function ListeningSentence() {
   const { isAuthenticated } = useAuth();
@@ -190,7 +191,7 @@ export default function ListeningSentence() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-8 animate-fade-up">
+    <div className="max-w-7xl mx-auto w-full p-6 md:p-8 space-y-6 animate-fade-up">
       {/* ── HERO BANNER ── */}
       <PageHeader
         tag="Luyện kỹ năng thực hành nghe nói"
@@ -198,17 +199,16 @@ export default function ListeningSentence() {
         subtitle="Luyện nghe chi tiết qua bài tập điền từ và ghi chép."
         ghostChar="聴"
         rightContent={
-          <div className="flex gap-4 items-center bg-white/5 border border-white/10 px-5 py-3 text-white">
+          <div className="flex gap-3.5 items-center bg-white/5 border border-white/10 px-4 py-2 rounded text-white">
             <span className="text-[10px] font-bold uppercase tracking-wider text-white/50">Tốc độ đọc TTS:</span>
             <div className="flex gap-1.5">
               {[0.5, 0.8, 1.0].map(rate => (
                 <button
                   key={rate}
                   onClick={() => setSpeechRate(rate)}
-                  className={`px-2 py-1 text-xs font-bold transition-all ${
-                    speechRate === rate ? 'bg-amber-400 text-amber-950 font-black' : 'hover:bg-white/10 text-white'
+                  className={`px-2.5 py-1 text-xs font-bold transition-all border border-white/10 rounded hover:bg-white/10 cursor-pointer ${
+                    speechRate === rate ? 'bg-amber-400 text-amber-950 border-amber-400 font-black' : 'text-white'
                   }`}
-                  style={{ border: '1px solid rgba(255,255,255,0.2)' }}
                 >
                   {rate}x
                 </button>
@@ -381,26 +381,33 @@ export default function ListeningSentence() {
               </div>
 
               {/* Main Listening Exercise Board */}
-              <div className="flex flex-col items-center justify-center py-8 bg-surface border border-outline-variant/20 mb-8 relative">
-                <div className="absolute top-3 left-4 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant/60">
+              <div className="flex flex-col items-center justify-center py-10 bg-surface border border-outline-variant/20 mb-8 rounded relative overflow-hidden">
+                <div className="absolute top-3 left-4 text-[9px] font-bold uppercase tracking-widest text-on-surface-variant/60">
                   Bảng nghe phát âm
                 </div>
 
-                <button
-                  onClick={() => playTTS(activeSent?.japanese)}
-                  className="w-20 h-20 bg-secondary hover:bg-secondary-dim text-white flex items-center justify-center rounded-full transition-all duration-150 transform hover:scale-105 active:scale-95 sharp-shadow"
-                  aria-label="Phát âm thanh câu tiếng Nhật"
-                >
-                  <Volume2 className="w-8 h-8" />
-                </button>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mt-4">
-                  Nhấp vào để nghe giọng phát âm mẫu
+                <div className="relative flex items-center justify-center w-24 h-24">
+                  {/* Subtle pulsing background wave */}
+                  <span className="absolute inset-0 bg-secondary/5 rounded-full animate-ping opacity-60" style={{ animationDuration: '3s' }} />
+                  <span className="absolute inset-2 bg-secondary/10 rounded-full animate-ping opacity-40" style={{ animationDuration: '2s' }} />
+                  
+                  <button
+                    onClick={() => playTTS(activeSent?.japanese)}
+                    className="w-16 h-16 bg-secondary hover:bg-secondary-dim text-white flex items-center justify-center rounded-full transition-all duration-150 transform hover:scale-105 active:scale-95 sharp-shadow cursor-pointer z-10"
+                    aria-label="Phát âm thanh câu tiếng Nhật"
+                  >
+                    <Volume2 className="w-7 h-7" />
+                  </button>
+                </div>
+                
+                <span className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mt-5">
+                  Nhấp vào để nghe phát âm mẫu
                 </span>
               </div>
 
               {/* Masked display when Cloze Mode */}
               {sentMode === 'cloze' && (
-                <div className="mb-6 text-center">
+                <div className="mb-6 text-center animate-fade-up">
                   <p className="font-jp text-xl md:text-2xl font-bold text-on-surface leading-normal tracking-wide">
                     {getMaskedSentence(activeSent?.japanese, activeSent?.keyword)}
                   </p>
@@ -413,7 +420,7 @@ export default function ListeningSentence() {
               )}
 
               {/* Input form */}
-              <div className="space-y-4">
+              <div className="space-y-5">
                 <div>
                   <label htmlFor="user-listening-input" className="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant block mb-2">
                     {sentMode === 'cloze'
@@ -431,12 +438,12 @@ export default function ListeningSentence() {
                         if (e.key === 'Enter') checkSentenceAnswer();
                       }}
                       placeholder={sentMode === 'cloze' ? 'Ví dụ: 友達' : 'Ví dụ: 私はベトナム人です。'}
-                      className="flex-1 p-3 border border-outline-variant bg-surface text-sm focus:border-secondary outline-none font-jp"
+                      className="flex-1 p-3 border border-outline-variant bg-surface text-sm focus:border-secondary outline-none font-jp rounded-sm"
                     />
                     <button
                       onClick={handleHint}
                       disabled={sentChecked && sentIsCorrect}
-                      className="px-4 py-2 border border-outline-variant bg-surface-container-low text-on-surface-variant hover:text-on-surface transition-colors flex items-center justify-center gap-1.5 disabled:opacity-40"
+                      className="px-4 py-2 border border-outline-variant bg-surface-container-low text-on-surface-variant hover:text-on-surface transition-colors flex items-center justify-center gap-1.5 disabled:opacity-40 cursor-pointer rounded-sm"
                       title="Gợi ý ký tự đầu"
                     >
                       <HelpCircle className="w-4 h-4" />
@@ -447,27 +454,29 @@ export default function ListeningSentence() {
 
                 {/* Feedback section */}
                 {sentChecked && (
-                  <div className={`p-4 border flex items-start gap-3 animate-fade-up ${
+                  <div className={`p-4 border flex items-start gap-3 animate-fade-up rounded-sm ${
                     sentIsCorrect
-                      ? 'bg-emerald-50 border-emerald-500 text-emerald-800'
-                      : 'bg-rose-50 border-rose-400 text-rose-800'
+                      ? 'bg-emerald-50 dark:bg-emerald-950/20 border-emerald-500 dark:border-emerald-800 text-emerald-800 dark:text-emerald-300'
+                      : 'bg-rose-50 dark:bg-rose-950/20 border-rose-400 dark:border-rose-800 text-rose-800 dark:text-rose-300'
                   }`}>
                     {sentIsCorrect ? (
                       <>
-                        <CheckCircle2 className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                        <div className="space-y-1">
+                        <CheckCircle2 className="w-5 h-5 text-emerald-600 dark:text-emerald-400 flex-shrink-0 mt-0.5" />
+                        <div className="space-y-1 w-full">
                           <p className="text-xs font-bold uppercase tracking-wider">Chính xác!</p>
-                          <p className="font-jp text-base font-bold text-on-surface">{activeSent?.japanese}</p>
-                          <p className="text-xs text-on-surface-variant italic font-medium">{activeSent?.romaji}</p>
-                          <p className="text-xs text-on-surface mt-1">{activeSent?.translation}</p>
+                          <p className="font-jp text-base font-bold text-on-surface mt-1">{activeSent?.japanese}</p>
+                          {activeSent?.romaji && (
+                            <p className="text-xs text-on-surface-variant italic font-medium">{activeSent?.romaji}</p>
+                          )}
+                          <p className="text-xs text-on-surface/90 mt-1.5 pt-1.5 border-t border-outline-variant/10">{activeSent?.translation}</p>
                         </div>
                       </>
                     ) : (
                       <>
-                        <XCircle className="w-5 h-5 text-rose-500 flex-shrink-0 mt-0.5" />
+                        <XCircle className="w-5 h-5 text-rose-500 dark:text-rose-400 flex-shrink-0 mt-0.5" />
                         <div>
                           <p className="text-xs font-bold uppercase tracking-wider">Chưa chính xác</p>
-                          <p className="text-xs">Hãy nghe kỹ lại và kiểm tra lỗi chính tả nhé!</p>
+                          <p className="text-xs mt-0.5">Hãy nghe kỹ lại và kiểm tra lỗi chính tả nhé!</p>
                         </div>
                       </>
                     )}
@@ -481,7 +490,7 @@ export default function ListeningSentence() {
                       onClick={() => {
                         setUserInput(sentMode === 'cloze' ? activeSent.keyword : activeSent.japanese);
                       }}
-                      className="text-xs font-bold text-secondary hover:underline"
+                      className="text-xs font-bold text-secondary hover:underline cursor-pointer"
                     >
                       Xem đáp án
                     </button>
@@ -491,14 +500,14 @@ export default function ListeningSentence() {
                     {!sentIsCorrect || !sentChecked ? (
                       <button
                         onClick={checkSentenceAnswer}
-                        className="px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-on-secondary bg-secondary hover:bg-secondary-dim transition-colors"
+                        className="px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-on-secondary bg-secondary hover:bg-secondary-dim transition-colors cursor-pointer rounded-sm"
                       >
                         Kiểm tra kết quả
                       </button>
                     ) : (
                       <button
                         onClick={handleNextSentence}
-                        className="px-6 py-2.5 bg-primary hover:bg-primary-container text-on-primary text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5"
+                        className="px-6 py-2.5 bg-primary hover:bg-primary-container text-on-primary text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 cursor-pointer rounded-sm"
                       >
                         Câu tiếp theo
                         <ArrowRight className="w-4 h-4" />

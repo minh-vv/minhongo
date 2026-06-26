@@ -2,7 +2,7 @@
   "order": 21,
   "title": "Bài 21 — Danh từ hóa: ～こと và ～の",
   "summary": "Biến mệnh đề thành danh từ, sở thích, khả năng.",
-  "theoryMd": "### 1. V-る こと\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Danh từ hóa hành động, biến động từ thành danh từ.\n- Cấu trúc: V-る + こと\n#### 📝 Ví dụ minh họa\n- 私の趣味はお菓子を作ることです。(Sở thích của tôi là làm bánh kẹo.)\n\n### 2. V-る の\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Danh từ hóa động từ, dùng phổ biến trong giao tiếp hằng ngày.\n- Cấu trúc: V-る + の\n#### 📝 Ví dụ minh họa\n- ギターを弾くのが好きです。(Tôi thích chơi đàn ghi-ta.)",
+  "theoryMd": "### 1. Vる こと\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Danh từ hóa hành động, biến động từ thành danh từ.\n- Cấu trúc: Vる + こと\n#### 📝 Ví dụ minh họa\n- 私の趣味はお菓子を作ることです。(Sở thích của tôi là làm bánh kẹo.)\n\n### 2. Vる の\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Danh từ hóa động từ, dùng phổ biến trong giao tiếp hằng ngày.\n- Cấu trúc: Vる + の\n#### 📝 Ví dụ minh họa\n- ギターを弾くのが好きです。(Tôi thích chơi đàn ghi-ta.)",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -262,15 +262,15 @@
         "jlptLevel": 5,
         "cards": [
           {
-            "front": "V-る こと",
-            "back": "Ý nghĩa: Danh từ hóa động từ, biến hành động thành một danh từ để làm chủ ngữ hoặc tân ngữ.\nCấu trúc: V-る + こと",
+            "front": "Vる こと",
+            "back": "Ý nghĩa: Danh từ hóa động từ, biến hành động thành một danh từ để làm chủ ngữ hoặc tân ngữ.\nCấu trúc: Vる + こと",
             "romaji": "v-ru koto",
             "example": "私の趣味はお菓子を作ることです。\nSở thích của tôi là làm bánh kẹo.\n\n日本語を話すことは難しいです。\nNói tiếng Nhật thì khó.\n\n寝ることは大切です。\nViệc ngủ là quan trọng.\n\n運動することは体にいいです。\nViệc tập thể dục tốt cho cơ thể.",
             "jlptLevel": 5
           },
           {
-            "front": "V-る の",
-            "back": "Ý nghĩa: Danh từ hóa động từ, thường dùng trong hội thoại thân mật hoặc thay thế cho 'koto'.\nCấu trúc: V-る + の",
+            "front": "Vる の",
+            "back": "Ý nghĩa: Danh từ hóa động từ, thường dùng trong hội thoại thân mật hoặc thay thế cho 'koto'.\nCấu trúc: Vる + の",
             "romaji": "v-ru no",
             "example": "ギターを弾くのが好きです。\nTôi thích chơi đàn ghi-ta.\n\n日本語を勉強するのは楽しいです。\nViệc học tiếng Nhật rất vui.\n\nケーキを食べるのは幸せです。\nViệc ăn bánh kem thật hạnh phúc.\n\n走るのが速いです。\nViệc chạy thì nhanh.",
             "jlptLevel": 5

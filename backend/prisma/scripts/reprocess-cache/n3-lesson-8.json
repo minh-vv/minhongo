@@ -2,7 +2,7 @@
   "order": 8,
   "title": "8. （～ば）～ほど…・（～なら）～ほど…・～ほど…",
   "summary": "Ngữ pháp bài số 8 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. ～ば～ほど\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Thể hiện sự tương quan tỷ lệ thuận/nghịch: khi mức độ của vế trước tăng lên thì vế sau cũng thay đổi theo.\n- **Công thức:** \n  - Động từ: V-ば V-る + ほど\n  - Tính từ -i: A-ければ A-い + ほど\n  - Tính từ -na: Na-であれば Na-である + ほど\n  - Danh từ: N-であれば N-である + ほど\n\n#### 📝 Ví dụ minh họa\n- 勉強すればするほど、日本語が面白くなる。\n(Càng học, tiếng Nhật càng trở nên thú vị.)\n- 荷物は多ければ多いほど、運ぶのが大変だ。\n(Hành lý càng nhiều thì việc vận chuyển càng vất vả.)\n- 操作が簡単であればあるほど、使いやすい。\n(Thao tác càng đơn giản thì càng dễ sử dụng.)",
+  "theoryMd": "### 1. ～ば～ほど\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Thể hiện sự tương quan tỷ lệ thuận/nghịch: khi mức độ của vế trước tăng lên thì vế sau cũng thay đổi theo.\n- **Công thức:** \n  - Động từ: Vば Vる + ほど\n  - Tính từ -i: A-ければ A-い + ほど\n  - Tính từ -na: Na-であれば Na-である + ほど\n  - Danh từ: N-であれば N-である + ほど\n\n#### 📝 Ví dụ minh họa\n- 勉強すればするほど、日本語が面白くなる。\n(Càng học, tiếng Nhật càng trở nên thú vị.)\n- 荷物は多ければ多いほど、運ぶのが大変だ。\n(Hành lý càng nhiều thì việc vận chuyển càng vất vả.)\n- 操作が簡単であればあるほど、使いやすい。\n(Thao tác càng đơn giản thì càng dễ sử dụng.)",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜ば〜ほど",
-            "back": "Ý nghĩa: Diễn tả việc một điều gì đó tiến triển (tăng/giảm) thì mức độ của một điều khác cũng tiến triển tương ứng (Càng... càng...).\nCấu trúc: V-ばVる / A-ければAい / NaであればNaである / NであればNである + ほど",
+            "back": "Ý nghĩa: Diễn tả việc một điều gì đó tiến triển (tăng/giảm) thì mức độ của một điều khác cũng tiến triển tương ứng (Càng... càng...).\nCấu trúc: VばVる / A-ければAい / NaであればNaである / NであればNである + ほど",
             "romaji": "ba-hodo",
             "example": "勉強すればするほど、日本語が面白くなる。\nCàng học, tiếng Nhật càng trở nên thú vị.\n\n荷物は多ければ多いほど、運ぶのが大変だ。\nHành lý càng nhiều thì việc vận chuyển càng vất vả.\n\n操作が簡単であればあるほど、使いやすい。\nThao tác càng đơn giản thì càng dễ sử dụng.",
             "jlptLevel": 3

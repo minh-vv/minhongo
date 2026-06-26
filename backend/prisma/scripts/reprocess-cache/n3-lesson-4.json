@@ -2,7 +2,7 @@
   "order": 4,
   "title": "4. ～ところだ・～ところ（＋助詞）…",
   "summary": "Ngữ pháp bài số 4 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. ～ところだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **V-ruところ:** Sắp sửa thực hiện hành động.\n- **V-teiruところ:** Đang thực hiện hành động.\n- **V-taところ:** Vừa mới kết thúc hành động.\n- **Cấu trúc:** V-ru / V-teiru / V-ta + ところ\n\n#### 📝 Ví dụ minh họa\n- 今から出かけるところだ。\n- 宿題をしているところだよ。",
+  "theoryMd": "### 1. ～ところだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Vるところ:** Sắp sửa thực hiện hành động.\n- **Vているところ:** Đang thực hiện hành động.\n- **Vたところ:** Vừa mới kết thúc hành động.\n- **Cấu trúc:** Vる / Vている / Vた + ところ\n\n#### 📝 Ví dụ minh họa\n- 今から出かけるところだ。\n- 宿題をしているところだよ。",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜ところだ／〜ところ（＋助詞）",
-            "back": "Ý nghĩa: Diễn tả thời điểm hành động: sắp làm (V-ru), đang làm (V-teiru), vừa mới làm xong (V-ta).\nCấu trúc: V-ru / V-teiru / V-ta + ところ（だ・を・へ・で）",
+            "back": "Ý nghĩa: Diễn tả thời điểm hành động: sắp làm (Vる), đang làm (Vている), vừa mới làm xong (Vた).\nCấu trúc: Vる / Vている / Vた + ところ（だ・を・へ・で）",
             "romaji": "tokoro-da / tokoro-joshi",
             "example": "今から出かけるところだ。\nTôi sắp sửa ra ngoài đây.\n\n宿題をしているところだよ。\nTớ đang làm bài tập.\n\n電車は今、駅を出たところです。\nChuyến tàu vừa mới rời ga.\n\nちょうど今、ご飯を食べたところです。\nVừa mới ăn cơm xong.",
             "jlptLevel": 3

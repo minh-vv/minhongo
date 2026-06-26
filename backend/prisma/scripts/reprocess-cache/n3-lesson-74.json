@@ -2,7 +2,7 @@
   "order": 74,
   "title": "74. ～たばかりだ",
   "summary": "Ngữ pháp bài số 74 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. 〜たばかりだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả một hành động vừa mới kết thúc theo cảm nhận chủ quan của người nói, dù thời gian thực tế có thể đã trôi qua một lúc lâu.\n- **Cấu trúc**: V-ta + ばかりだ\n\n#### 📝 Ví dụ minh họa\n- さっき昼ご飯を食べたばかりなので、お腹がいっぱいです。\nTôi vừa mới ăn trưa lúc nãy nên giờ vẫn còn no.\n\n- 日本に来たばかりの時は、日本語が全然話せませんでした。\nHồi mới đến Nhật Bản, tôi hoàn toàn không nói được tiếng Nhật.\n\n- 先月買ったばかりのスマホを落としてしまった。\nTôi đã làm rơi chiếc điện thoại vừa mới mua tháng trước.",
+  "theoryMd": "### 1. 〜たばかりだ\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả một hành động vừa mới kết thúc theo cảm nhận chủ quan của người nói, dù thời gian thực tế có thể đã trôi qua một lúc lâu.\n- **Cấu trúc**: Vた + ばかりだ\n\n#### 📝 Ví dụ minh họa\n- さっき昼ご飯を食べたばかりなので、お腹がいっぱいです。\nTôi vừa mới ăn trưa lúc nãy nên giờ vẫn còn no.\n\n- 日本に来たばかりの時は、日本語が全然話せませんでした。\nHồi mới đến Nhật Bản, tôi hoàn toàn không nói được tiếng Nhật.\n\n- 先月買ったばかりのスマホを落としてしまった。\nTôi đã làm rơi chiếc điện thoại vừa mới mua tháng trước.",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜たばかりだ",
-            "back": "Ý nghĩa: Vừa mới làm gì đó (cảm giác của người nói là mới đây).\nCấu trúc: V-ta + ばかりだ",
+            "back": "Ý nghĩa: Vừa mới làm gì đó (cảm giác của người nói là mới đây).\nCấu trúc: Vた + ばかりだ",
             "romaji": "ta bakari da",
             "example": "さっき昼ご飯を食べたばかりなので、お腹がいっぱいです。\nTôi vừa mới ăn trưa lúc nãy nên giờ vẫn còn no.\n\n日本に来たばかりの時は、日本語が全然話せませんでした。\nHồi mới đến Nhật Bản, tôi hoàn toàn không nói được tiếng Nhật.\n\n先月買ったばかりのスマホを落としてしまった。\nTôi đã làm rơi chiếc điện thoại vừa mới mua tháng trước.",
             "jlptLevel": 3

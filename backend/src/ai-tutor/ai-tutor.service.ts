@@ -64,8 +64,8 @@ const EvaluateSchema = {
 // ============================================================================
 // Model configuration — thay đổi model tại đây khi cần
 // ============================================================================
-const PRIMARY_MODEL = 'gemini-3.1-flash-lite'; // 15 RPM, 500 RPD
-const FALLBACK_MODEL = 'gemini-2.5-flash-lite'; // 10 RPM, 20 RPD
+const PRIMARY_MODEL = 'gemini-3.1-flash-lite';
+const FALLBACK_MODEL = 'gemini-2.5-flash-lite';
 
 // ============================================================================
 // In-memory TTL Cache — giảm số lần gọi Gemini cho các request giống nhau

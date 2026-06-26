@@ -2,7 +2,7 @@
   "order": 43,
   "title": "Bài 43 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 43/92).",
-  "theoryMd": "### 1. 〜てからというもの\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Kể từ sau khi một sự việc xảy ra, tình trạng/thái độ thay đổi hoàn toàn và duy trì trạng thái đó.\n- **Cấu trúc:** V-て + からというもの\n#### 📝 Ví dụ minh họa\n- 子どもが生まれてからというもの、外で飲むことがほとんどなくなった。\n- この町に引っ越してからというもの、車を使う頻度がぐっと増えた。\n- あの事故を目撃してからというもの、夜道を一人で歩けなくなった。\n\n### 2. 〜あっての〜\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Nhờ có A mới có B; A là điều kiện tiên quyết để tồn tại B.\n- **Cấu trúc:** N1 + あっての + N2\n#### 📝 Ví dụ minh họa\n- お客様あっての私たちの会社です。\n- 家族あっての幸せだと実感している。\n- 信頼あっての取引だ。",
+  "theoryMd": "### 1. 〜てからというもの\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Kể từ sau khi một sự việc xảy ra, tình trạng/thái độ thay đổi hoàn toàn và duy trì trạng thái đó.\n- **Cấu trúc:** Vて + からというもの\n#### 📝 Ví dụ minh họa\n- 子どもが生まれてからというもの、外で飲むことがほとんどなくなった。\n- この町に引っ越してからというもの、車を使う頻度がぐっと増えた。\n- あの事故を目撃してからというもの、夜道を一人で歩けなくなった。\n\n### 2. 〜あっての〜\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Nhờ có A mới có B; A là điều kiện tiên quyết để tồn tại B.\n- **Cấu trúc:** N1 + あっての + N2\n#### 📝 Ví dụ minh họa\n- お客様あっての私たちの会社です。\n- 家族あっての幸せだと実感している。\n- 信頼あっての取引だ。",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜てからというもの",
-            "back": "Ý nghĩa: Kể từ sau khi một sự việc xảy ra, tình trạng/thái độ thay đổi hoàn toàn và duy trì trạng thái đó.\nCấu trúc: V-て + からというもの",
+            "back": "Ý nghĩa: Kể từ sau khi một sự việc xảy ra, tình trạng/thái độ thay đổi hoàn toàn và duy trì trạng thái đó.\nCấu trúc: Vて + からというもの",
             "romaji": "te-kara-to-iu-mono",
             "example": "子どもが生まれてからというもの、外で飲むことがほとんどなくなった。\nKể từ khi con chào đời, tôi hầu như không còn đi nhậu bên ngoài.\n\nこの町に引っ越してからというもの、車を使う頻度がぐっと増えた。\nKể từ khi chuyển tới thị trấn này, tần suất dùng ô tô tăng hẳn.\n\nあの事故を目撃してからというもの、夜道を一人で歩けなくなった。\nKể từ khi chứng kiến tai nạn đó, tôi không thể đi một mình trong đêm nữa.",
             "jlptLevel": 1

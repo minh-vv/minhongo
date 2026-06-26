@@ -1,6 +1,6 @@
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
-import { useState, Fragment } from 'react';
+import React, { useState } from 'react';
 import { aiApi } from '../api/aiApi';
 import { useAuth } from '../hooks/useAuth';
 import LoginPrompt from '../components/LoginPrompt';
@@ -203,7 +203,7 @@ function PhaseSection({ phase, dayOffset, selectedId, nextItemId, onSelect }) {
                   const connDone = item.isCompleted && nextItem?.isCompleted;
 
                   return (
-                    <Fragment key={item.id}>
+                    <React.Fragment key={item.id}>
                       <DayNode
                         item={item}
                         dayNum={dayNum}
@@ -212,7 +212,7 @@ function PhaseSection({ phase, dayOffset, selectedId, nextItemId, onSelect }) {
                         onSelect={onSelect}
                       />
                       {colIdx < displayItems.length - 1 && <HConn done={connDone} />}
-                    </Fragment>
+                    </React.Fragment>
                   );
                 })}
 
@@ -220,10 +220,10 @@ function PhaseSection({ phase, dayOffset, selectedId, nextItemId, onSelect }) {
                 {rowItems.length < COLS && (
                   <>
                     {Array.from({ length: COLS - rowItems.length }).map((_, i) => (
-                      <Fragment key={`empty-${i}`}>
+                      <React.Fragment key={`empty-${i}`}>
                         <HConn done={false} />
                         <div className="flex-shrink-0" style={{ width: 64 }} />
-                      </Fragment>
+                      </React.Fragment>
                     ))}
                   </>
                 )}

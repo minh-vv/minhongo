@@ -2,7 +2,7 @@
   "order": 80,
   "title": "80. ～になっている・～ことになっている",
   "summary": "Ngữ pháp bài số 80 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. 〜になっている・〜ことになっている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả một sự việc đã trở thành quy định, luật lệ, hoặc kế hoạch đã được định sẵn bởi tổ chức/cộng đồng.\n- **Cấu trúc**:\n  - Danh từ + になっている\n  - Động từ thể từ điển (V-ru) / Động từ phủ định (V-nai) + ことになっている\n\n#### 📝 Ví dụ minh họa\n- この部屋には入ってはいけないことになっています。\n  (Căn phòng này có quy định là không được vào.)\n- 明日、社長に会うことになっています。\n  (Theo kế hoạch thì ngày mai tôi sẽ gặp giám đốc.)\n- 授業中は日本語だけで話すことになっている。\n  (Có quy định là chỉ được nói tiếng Nhật trong giờ học.)\n- 毎月第2火曜日は燃えないゴミの日になっている。\n  (Thứ Ba tuần thứ 2 hàng tháng là ngày thu gom rác không cháy được.)",
+  "theoryMd": "### 1. 〜になっている・〜ことになっている\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả một sự việc đã trở thành quy định, luật lệ, hoặc kế hoạch đã được định sẵn bởi tổ chức/cộng đồng.\n- **Cấu trúc**:\n  - Danh từ + になっている\n  - Động từ thể từ điển (Vる) / Động từ phủ định (Vない) + ことになっている\n\n#### 📝 Ví dụ minh họa\n- この部屋には入ってはいけないことになっています。\n  (Căn phòng này có quy định là không được vào.)\n- 明日、社長に会うことになっています。\n  (Theo kế hoạch thì ngày mai tôi sẽ gặp giám đốc.)\n- 授業中は日本語だけで話すことになっている。\n  (Có quy định là chỉ được nói tiếng Nhật trong giờ học.)\n- 毎月第2火曜日は燃えないゴミの日になっている。\n  (Thứ Ba tuần thứ 2 hàng tháng là ngày thu gom rác không cháy được.)",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜になっている・〜ことになっている",
-            "back": "Ý nghĩa: Quy định là, kế hoạch là (tập quán, luật lệ hoặc lịch trình đã được định sẵn bởi tổ chức/người khác).\nCấu trúc: N + になっている / V-ru・V-nai + ことになっている",
+            "back": "Ý nghĩa: Quy định là, kế hoạch là (tập quán, luật lệ hoặc lịch trình đã được định sẵn bởi tổ chức/người khác).\nCấu trúc: N + になっている / Vる・Vない + ことになっている",
             "romaji": "ni-natte-iru / koto-ni-natte-iru",
             "example": "この部屋には入ってはいけないことになっています。\nCăn phòng này có quy định là không được vào.\n\n明日、社長に会うことになっています。\nTheo kế hoạch thì ngày mai tôi sẽ gặp giám đốc.\n\n授業中は日本語だけで話すことになっている。\nCó quy định là chỉ được nói tiếng Nhật trong giờ học.\n\n毎月第2火曜日は燃えないゴミの日になっている。\nThứ Ba tuần thứ 2 hàng tháng là ngày thu gom rác không cháy được.",
             "jlptLevel": 3

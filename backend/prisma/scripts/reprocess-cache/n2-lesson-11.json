@@ -2,7 +2,7 @@
   "order": 11,
   "title": "Bài 11: Không quan tâm đến / Bỏ qua (〜を問わず, 〜にかかわりなく・〜にかかわらず, 〜もかまわず, 〜はともかく（として）, 〜はさておき)",
   "summary": "Các cấu trúc diễn tả sự không liên quan: 〜を問わず, 〜にかかわりなく・〜にかかわらず, 〜もかまわず, 〜はともかく（として）, 〜はさておき",
-  "theoryMd": "### Bài 11: Ngữ pháp về sự Không quan tâm / Bỏ qua\n\n#### 1. 〜を問わず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Không phân biệt, không yêu cầu.\n- Cấu trúc: N + を問わず\n#### 📝 Ví dụ minh họa\n性別を問わず、誰でも応募できます。\nKhông phân biệt giới tính, ai cũng có thể ứng tuyển.\n\n#### 2. 〜にかかわりなく・〜にかかわらず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Bất kể, không liên quan đến.\n- Cấu trúc: N / V-ru / V-nai + にかかわりなく・にかかわらず\n#### 📝 Ví dụ minh họa\n天候にかかわらず、イベントは開催されます。\nBất kể thời tiết, sự kiện vẫn được tổ chức.\n\n#### 3. 〜もかまわず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Không màng đến (điều gì đó).\n- Cấu trúc: N / V-ru + もかまわず\n#### 📝 Ví dụ minh họa\n人目もかまわず泣いた。\nTôi khóc mà chẳng màng đến ánh mắt người khác.\n\n#### 4. 〜はともかく（として）\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Tạm thời gác lại A để ưu tiên B.\n- Cấu trúc: N + はともかく（として）\n#### 📝 Ví dụ minh họa\n料理はともかく、雰囲気は良い。\nChưa bàn đến món ăn, không khí ở đây rất tuyệt.\n\n#### 5. 〜はさておき\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Tạm gác lại chuyện A để vào chuyện chính.\n- Cấu trúc: N + はさておき\n#### 📝 Ví dụ minh họa\n冗談はさておき、真面目に話しましょう。\nĐùa đủ rồi, hãy nói chuyện nghiêm túc nào.",
+  "theoryMd": "### Bài 11: Ngữ pháp về sự Không quan tâm / Bỏ qua\n\n#### 1. 〜を問わず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Không phân biệt, không yêu cầu.\n- Cấu trúc: N + を問わず\n#### 📝 Ví dụ minh họa\n性別を問わず、誰でも応募できます。\nKhông phân biệt giới tính, ai cũng có thể ứng tuyển.\n\n#### 2. 〜にかかわりなく・〜にかかわらず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Bất kể, không liên quan đến.\n- Cấu trúc: N / Vる / Vない + にかかわりなく・にかかわらず\n#### 📝 Ví dụ minh họa\n天候にかかわらず、イベントは開催されます。\nBất kể thời tiết, sự kiện vẫn được tổ chức.\n\n#### 3. 〜もかまわず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Không màng đến (điều gì đó).\n- Cấu trúc: N / Vる + もかまわず\n#### 📝 Ví dụ minh họa\n人目もかまわず泣いた。\nTôi khóc mà chẳng màng đến ánh mắt người khác.\n\n#### 4. 〜はともかく（として）\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Tạm thời gác lại A để ưu tiên B.\n- Cấu trúc: N + はともかく（として）\n#### 📝 Ví dụ minh họa\n料理はともかく、雰囲気は良い。\nChưa bàn đến món ăn, không khí ở đây rất tuyệt.\n\n#### 5. 〜はさておき\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Tạm gác lại chuyện A để vào chuyện chính.\n- Cấu trúc: N + はさておき\n#### 📝 Ví dụ minh họa\n冗談はさておき、真面目に話しましょう。\nĐùa đủ rồi, hãy nói chuyện nghiêm túc nào.",
   "skills": [
     "GRAMMAR"
   ],
@@ -26,14 +26,14 @@
           },
           {
             "front": "〜にかかわりなく・〜にかかわらず",
-            "back": "Ý nghĩa: Bất kể điều gì, không liên quan đến, dù thế nào thì kết quả vẫn như vậy.\nCấu trúc: N / V-ru / V-nai + にかかわりなく / にかかわらず",
+            "back": "Ý nghĩa: Bất kể điều gì, không liên quan đến, dù thế nào thì kết quả vẫn như vậy.\nCấu trúc: N / Vる / Vない + にかかわりなく / にかかわらず",
             "romaji": "ni kakawari naku / ni kakawarazu",
             "example": "この路線バスの料金は、乗った距離にかかわりなく一律２００円です。\nTiền xe buýt tuyến này không liên quan đến cự ly đi xa hay không, đều là 200 yên.\n\n天候にかかわらず、試合は行われます。\nBất kể thời tiết thế nào, trận đấu vẫn sẽ được tiến hành.\n\n結果がどうであるかにかかわらず、全力を尽くすつもりだ。\nBất kể kết quả ra sao, tôi dự định sẽ dốc toàn lực.",
             "jlptLevel": 2
           },
           {
             "front": "〜もかまわず",
-            "back": "Ý nghĩa: Không màng đến, không để tâm đến điều gì đó mà vẫn thực hiện hành động.\nCấu trúc: N / V-ru / V-ta + もかまわず",
+            "back": "Ý nghĩa: Không màng đến, không để tâm đến điều gì đó mà vẫn thực hiện hành động.\nCấu trúc: N / Vる / Vた + もかまわず",
             "romaji": "mo kamawazu",
             "example": "人目もかまわず、道で大泣きしている人を見かけた。\nTôi đã thấy có người không màng đến ánh mắt mọi người mà khóc lớn giữa đường.\n\n濡れるのもかまわず、雨の中を走った。\nKhông bận tâm đến việc bị ướt, tôi đã chạy trong mưa.\n\n時間をかまわず電話してくる友達に困っている。\nTôi đang rất phiền vì người bạn cứ gọi điện đến bất kể giờ giấc.",
             "jlptLevel": 2

@@ -2,7 +2,7 @@
   "order": 71,
   "title": "71. ～てばかりいる",
   "summary": "Ngữ pháp bài số 71 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. 〜てばかりいる\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả việc một hành động nào đó cứ lặp đi lặp lại liên tục. Mẫu câu này thường mang sắc thái phê phán, chê trách hoặc cảm giác tiêu cực của người nói.\n- **Cấu trúc**: V-te + ばかりいる\n\n#### 📝 Ví dụ minh họa\n- 弟は毎日、勉強もしないでゲームをしてばかりいる。\nEm trai tôi ngày nào cũng chỉ toàn chơi game mà không chịu học hành gì.\n\n- 働きすぎて病気になるなんて、あなたは無理をしてばかりいるね。\nLàm việc quá sức đến mức ngã bệnh, anh toàn là tự bắt bản thân làm quá sức thôi.\n\n- 彼女はいつも文句ばかり言っている。\nCô ấy lúc nào cũng chỉ toàn càm ràm phàn nàn thôi.",
+  "theoryMd": "### 1. 〜てばかりいる\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả việc một hành động nào đó cứ lặp đi lặp lại liên tục. Mẫu câu này thường mang sắc thái phê phán, chê trách hoặc cảm giác tiêu cực của người nói.\n- **Cấu trúc**: Vて + ばかりいる\n\n#### 📝 Ví dụ minh họa\n- 弟は毎日、勉強もしないでゲームをしてばかりいる。\nEm trai tôi ngày nào cũng chỉ toàn chơi game mà không chịu học hành gì.\n\n- 働きすぎて病気になるなんて、あなたは無理をしてばかりいるね。\nLàm việc quá sức đến mức ngã bệnh, anh toàn là tự bắt bản thân làm quá sức thôi.\n\n- 彼女はいつも文句ばかり言っている。\nCô ấy lúc nào cũng chỉ toàn càm ràm phàn nàn thôi.",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜てばかりいる",
-            "back": "Ý nghĩa: Chỉ toàn làm một hành động gì đó (thường mang sắc thái tiêu cực, phàn nàn).\nCấu trúc: V-te + ばかりいる",
+            "back": "Ý nghĩa: Chỉ toàn làm một hành động gì đó (thường mang sắc thái tiêu cực, phàn nàn).\nCấu trúc: Vて + ばかりいる",
             "romaji": "te bakari iru",
             "example": "弟は毎日、勉強もしないでゲームをしてばかりいる。\nEm trai tôi ngày nào cũng chỉ toàn chơi game mà không chịu học hành gì.\n\n働きすぎて病気になるなんて、あなたは無理をしてばかりいるね。\nLàm việc quá sức đến mức ngã bệnh, anh toàn là tự bắt bản thân làm quá sức thôi.\n\n彼女はいつも文句ばかり言っている。\nCô ấy lúc nào cũng chỉ toàn càm ràm phàn nàn thôi.",
             "jlptLevel": 3

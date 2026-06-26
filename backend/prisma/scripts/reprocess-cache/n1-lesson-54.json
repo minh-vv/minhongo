@@ -2,7 +2,7 @@
   "order": 54,
   "title": "Bài 54 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 54/92).",
-  "theoryMd": "### 1. 〜も兼ねて\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Làm A với mục đích là A và kiêm cả B.\n- **Cấu trúc**: N + も兼ねて / V-ru + ことも兼ねて\n\n#### 📝 Ví dụ minh họa\n- 観光も兼ねて北海道へ出張する。\n(Đi công tác Hokkaido kiêm du lịch.)",
+  "theoryMd": "### 1. 〜も兼ねて\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Làm A với mục đích là A và kiêm cả B.\n- **Cấu trúc**: N + も兼ねて / Vる + ことも兼ねて\n\n#### 📝 Ví dụ minh họa\n- 観光も兼ねて北海道へ出張する。\n(Đi công tác Hokkaido kiêm du lịch.)",
   "skills": [
     "GRAMMAR"
   ],
@@ -26,7 +26,7 @@
           },
           {
             "front": "〜も兼ねて",
-            "back": "Ý nghĩa: Kiêm cả, tiện thể làm… (thực hiện 2 mục đích cùng lúc).\nCấu trúc: N / V-ru + も兼ねて",
+            "back": "Ý nghĩa: Kiêm cả, tiện thể làm… (thực hiện 2 mục đích cùng lúc).\nCấu trúc: N / Vる + も兼ねて",
             "romaji": "mo-kanete",
             "example": "挨拶も兼ねて、課長のところへ伺いました。\nTôi ghé chỗ trưởng bộ phận, tiện thể chào hỏi luôn.\n\n観光も兼ねて北海道へ出張する。\nĐi công tác Hokkaido kiêm du lịch.\n\nお詫びも兼ねて、手土産を持っていった。\nTôi mang quà đến kiêm lời xin lỗi.",
             "jlptLevel": 1

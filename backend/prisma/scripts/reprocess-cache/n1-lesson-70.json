@@ -2,7 +2,7 @@
   "order": 70,
   "title": "Bài 70 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 70/92).",
-  "theoryMd": "### 1. 〜をおいて他にない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh rằng chỉ có duy nhất đối tượng này là phù hợp nhất, ngoài ra không có ai khác.\n- **Cấu trúc**: N + をおいて + 他にない\n\n#### 📝 Ví dụ minh họa\n- この件を任せられるのは、彼をおいて他にない。(Người có thể giao việc này thì ngoài anh ấy ra không còn ai.)\n- 日本文化に精通している指導者は、田中先生をおいてはいない。(Người am hiểu văn hóa Nhật như thầy Tanaka thì không còn ai.)\n\n### 2. 〜てみせる\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Thể hiện ý chí, quyết tâm thực hiện một hành động.\n- **Cấu trúc**: V-te + みせる\n\n#### 📝 Ví dụ minh họa\n- 難しくても、必ず合格してみせる。(Dù khó đến mấy, tôi nhất định sẽ đỗ cho xem.)\n- 彼女をもう一度笑わせてみせる。(Tôi sẽ làm cô ấy cười trở lại cho mà xem.)",
+  "theoryMd": "### 1. 〜をおいて他にない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh rằng chỉ có duy nhất đối tượng này là phù hợp nhất, ngoài ra không có ai khác.\n- **Cấu trúc**: N + をおいて + 他にない\n\n#### 📝 Ví dụ minh họa\n- この件を任せられるのは、彼をおいて他にない。(Người có thể giao việc này thì ngoài anh ấy ra không còn ai.)\n- 日本文化に精通している指導者は、田中先生をおいてはいない。(Người am hiểu văn hóa Nhật như thầy Tanaka thì không còn ai.)\n\n### 2. 〜てみせる\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Thể hiện ý chí, quyết tâm thực hiện một hành động.\n- **Cấu trúc**: Vて + みせる\n\n#### 📝 Ví dụ minh họa\n- 難しくても、必ず合格してみせる。(Dù khó đến mấy, tôi nhất định sẽ đỗ cho xem.)\n- 彼女をもう一度笑わせてみせる。(Tôi sẽ làm cô ấy cười trở lại cho mà xem.)",
   "skills": [
     "GRAMMAR"
   ],
@@ -26,7 +26,7 @@
           },
           {
             "front": "〜てみせる",
-            "back": "Ý nghĩa: Quyết tâm thực hiện hành động gì đó (thường là để chứng minh bản thân).\nCấu trúc: V-te + みせる",
+            "back": "Ý nghĩa: Quyết tâm thực hiện hành động gì đó (thường là để chứng minh bản thân).\nCấu trúc: Vて + みせる",
             "romaji": "te-miseru",
             "example": "難しくても、必ず合格してみせる。\nDù khó đến mấy, tôi nhất định sẽ đỗ cho xem.\n\nこのマジック、もう一度やってみせます。\nTôi sẽ làm lại màn ảo thuật này cho mọi người xem.\n\n彼女をもう一度笑わせてみせる。\nTôi sẽ làm cô ấy cười trở lại cho mà xem.",
             "jlptLevel": 1

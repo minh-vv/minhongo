@@ -2,7 +2,7 @@
   "order": 86,
   "title": "Bài 86 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 86/92).",
-  "theoryMd": "### 1. 〜るにはあたらない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V-ru + にはあたらない\n- **Ý nghĩa:** Dùng để diễn tả một hành động, phản ứng là không cần thiết hoặc không đáng vì sự việc đó là đương nhiên hoặc không nghiêm trọng.\n\n#### 📝 Ví dụ minh họa\n- 新人が時間をかけるのは驚くにはあたらない。\nViệc người mới làm mất thời gian là điều không có gì phải ngạc nhiên.\n\n### 2. 〜に難くない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** V-ru + に難くない (Thường đi với các động từ như 想像する, 察する, 理解する)\n- **Ý nghĩa:** Không khó để làm gì đó (thường nói về việc cảm nhận, suy đoán).\n\n#### 📝 Ví dụ minh họa\n- 被災者の不安は想像に難くない。\nNỗi bất an của người bị nạn không khó để tưởng tượng.",
+  "theoryMd": "### 1. 〜るにはあたらない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** Vる + にはあたらない\n- **Ý nghĩa:** Dùng để diễn tả một hành động, phản ứng là không cần thiết hoặc không đáng vì sự việc đó là đương nhiên hoặc không nghiêm trọng.\n\n#### 📝 Ví dụ minh họa\n- 新人が時間をかけるのは驚くにはあたらない。\nViệc người mới làm mất thời gian là điều không có gì phải ngạc nhiên.\n\n### 2. 〜に難くない\n#### 💡 Cấu trúc & Ý nghĩa\n- **Cấu trúc:** Vる + に難くない (Thường đi với các động từ như 想像する, 察する, 理解する)\n- **Ý nghĩa:** Không khó để làm gì đó (thường nói về việc cảm nhận, suy đoán).\n\n#### 📝 Ví dụ minh họa\n- 被災者の不安は想像に難くない。\nNỗi bất an của người bị nạn không khó để tưởng tượng.",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,14 +19,14 @@
         "cards": [
           {
             "front": "〜るにはあたらない",
-            "back": "Ý nghĩa: Không đáng để làm gì, không cần thiết phải làm gì vì không có lý do chính đáng.\nCấu trúc: V-ru + にはあたらない",
+            "back": "Ý nghĩa: Không đáng để làm gì, không cần thiết phải làm gì vì không có lý do chính đáng.\nCấu trúc: Vる + にはあたらない",
             "romaji": "ru-niwa-ataranai",
             "example": "新人が時間をかけるのは驚くにはあたらない。\nViệc người mới làm mất thời gian là điều không có gì phải ngạc nhiên.\n\n彼のミスは非難するにはあたらない。\nLỗi của anh ấy không đáng để chỉ trích.\n\nこの程度で騒ぐにはあたらない。落ち着いて対処しよう。\nMức độ này không cần làm ầm lên. Hãy bình tĩnh xử lý.",
             "jlptLevel": 1
           },
           {
             "front": "〜に難くない",
-            "back": "Ý nghĩa: Không khó để làm gì (thường dùng với các động từ chỉ cảm xúc, nhận thức).\nCấu trúc: V-ru + に難くない",
+            "back": "Ý nghĩa: Không khó để làm gì (thường dùng với các động từ chỉ cảm xúc, nhận thức).\nCấu trúc: Vる + に難くない",
             "romaji": "ni-katakunai",
             "example": "被災者の不安は想像に難くない。\nNỗi bất an của người bị nạn không khó để tưởng tượng.\n\n突然の解雇が彼に与えた衝撃は察するに難くない。\nKhông khó để cảm nhận cú sốc mà việc sa thải đột ngột gây ra cho anh ấy.\n\nこの決断がいかに困難だったかは理解に難くない。\nKhông khó để hiểu quyết định này khó khăn đến mức nào.",
             "jlptLevel": 1

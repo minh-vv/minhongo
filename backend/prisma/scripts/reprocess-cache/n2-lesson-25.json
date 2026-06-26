@@ -2,7 +2,7 @@
   "order": 25,
   "title": "Bài 25: Cảm xúc (〜てしかたがない, 〜てならない, 〜ないではいられない, 〜ないわけに（は）いかない, 〜ざるを得ない)",
   "summary": "Các cấu trúc thể hiện cảm xúc và sự bất khả kháng: 〜てしかたがない, 〜てならない, 〜ないではいられない, 〜ないわけに（は）いかない, 〜ざるを得ない",
-  "theoryMd": "# Bài 25: Cảm xúc\n\n### 1. 〜てしかたがない / 〜てたまらない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-te / A-kute / A-na-de + しかたがない\n- Ý nghĩa: Cảm xúc cực độ.\n#### 📝 Ví dụ minh họa\n- 不便でしかたがない。（Bất tiện không chịu nổi）\n\n### 2. 〜てならない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-te / A-kute / A-na-de + ならない\n- Ý nghĩa: Vô cùng (tự phát).\n#### 📝 Ví dụ minh họa\n- 心配でならない。（Vô cùng lo lắng）\n\n### 3. 〜ないではいられない / 〜ずにはいられない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-nai + ないではいられない\n- Ý nghĩa: Không thể không làm.\n#### 📝 Ví dụ minh họa\n- 笑わずにはいられない。（Không thể nhịn cười）\n\n### 4. 〜ないわけにはいかない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-nai + わけにはいかない\n- Ý nghĩa: Buộc phải làm (nghĩa vụ).\n#### 📝 Ví dụ minh họa\n- 出席しないわけにはいかない。（Không thể không tham dự）\n\n### 5. 〜ざるを得ない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-nai + ざるを得ない\n- Ý nghĩa: Đành phải làm.\n#### 📝 Ví dụ minh họa\n- 歩いて帰らざるを得ない。（Đành phải đi bộ về）",
+  "theoryMd": "# Bài 25: Cảm xúc\n\n### 1. 〜てしかたがない / 〜てたまらない\n#### 💡 Cấu trúc & Ý nghĩa\n- Vて / A-kute / A-na-de + しかたがない\n- Ý nghĩa: Cảm xúc cực độ.\n#### 📝 Ví dụ minh họa\n- 不便でしかたがない。（Bất tiện không chịu nổi）\n\n### 2. 〜てならない\n#### 💡 Cấu trúc & Ý nghĩa\n- Vて / A-kute / A-na-de + ならない\n- Ý nghĩa: Vô cùng (tự phát).\n#### 📝 Ví dụ minh họa\n- 心配でならない。（Vô cùng lo lắng）\n\n### 3. 〜ないではいられない / 〜ずにはいられない\n#### 💡 Cấu trúc & Ý nghĩa\n- Vない + ないではいられない\n- Ý nghĩa: Không thể không làm.\n#### 📝 Ví dụ minh họa\n- 笑わずにはいられない。（Không thể nhịn cười）\n\n### 4. 〜ないわけにはいかない\n#### 💡 Cấu trúc & Ý nghĩa\n- Vない + わけにはいかない\n- Ý nghĩa: Buộc phải làm (nghĩa vụ).\n#### 📝 Ví dụ minh họa\n- 出席しないわけにはいかない。（Không thể không tham dự）\n\n### 5. 〜ざるを得ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Vない + ざるを得ない\n- Ý nghĩa: Đành phải làm.\n#### 📝 Ví dụ minh họa\n- 歩いて帰らざるを得ない。（Đành phải đi bộ về）",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,35 +19,35 @@
         "cards": [
           {
             "front": "〜てしかたがない・〜てしょうがない・〜てたまらない",
-            "back": "Ý nghĩa: Rất..., không thể chịu nổi (cảm xúc bộc phát).\nCấu trúc: V-te / A-i(kute) / A-na(de) + しかたがない / しょうがない / たまらない",
+            "back": "Ý nghĩa: Rất..., không thể chịu nổi (cảm xúc bộc phát).\nCấu trúc: Vて / A-i(kute) / A-na(de) + しかたがない / しょうがない / たまらない",
             "romaji": "te shikata ga nai / te shou ga nai / te tamaranai",
             "example": "近所のスーパーが閉店してしまい、不便でしかたがない。\nSiêu thị gần nhà đóng cửa rồi, bất tiện không chịu nổi.\n\n昨夜は眠れなかったので、眠くてたまらない。\nĐêm qua không ngủ được nên giờ buồn ngủ không chịu được.\n\n合格して嬉しくてしょうがない。\nĐỗ rồi nên vui không tả nổi.\n\n暑くてたまらない。\nNóng không chịu nổi.",
             "jlptLevel": 2
           },
           {
             "front": "〜てならない",
-            "back": "Ý nghĩa: Rất..., vô cùng (cảm xúc tự phát).\nCấu trúc: V-te / A-i(kute) / A-na(de) + ならない",
+            "back": "Ý nghĩa: Rất..., vô cùng (cảm xúc tự phát).\nCấu trúc: Vて / A-i(kute) / A-na(de) + ならない",
             "romaji": "te naranai",
             "example": "面接でうまく話せるかどうか、心配でならない。\nKhông biết phỏng vấn có nói tốt không, tôi vô cùng lo lắng.\n\nこの結末はどうなるのか、気になってならない。\nKết cục ra sao, tôi tò mò không chịu được.\n\n会いたくてならない。\nNhớ nhung vô cùng.\n\n残念でならない。\nTiếc nuối vô cùng.",
             "jlptLevel": 2
           },
           {
             "front": "〜ないではいられない・〜ずにはいられない",
-            "back": "Ý nghĩa: Không thể không..., không kìm chế nổi hành động.\nCấu trúc: V-nai(bỏ nai) + ないではいられない / V-nai(bỏ nai) + ずにはいられない",
+            "back": "Ý nghĩa: Không thể không..., không kìm chế nổi hành động.\nCấu trúc: Vない(bỏ nai) + ないではいられない / Vない(bỏ nai) + ずにはいられない",
             "romaji": "nai de wa irarenai / zu ni wa irarenai",
             "example": "この曲が聞こえてくると、体を動かさないではいられない。\nCứ nghe bài hát này, cơ thể lại tự cử động theo.\n\n彼の話は面白くて、誰もが笑わずにはいられない。\nCâu chuyện của anh ấy thú vị đến mức ai cũng không thể nhịn cười.\n\n泣かずにはいられない。\nKhông thể không khóc.\n\n言わずにはいられない。\nKhông thể không nói.",
             "jlptLevel": 2
           },
           {
             "front": "〜ないわけに（は）いかない",
-            "back": "Ý nghĩa: Buộc phải làm (do trách nhiệm, nghĩa vụ).\nCấu trúc: V-nai + わけにはいかない",
+            "back": "Ý nghĩa: Buộc phải làm (do trách nhiệm, nghĩa vụ).\nCấu trúc: Vない + わけにはいかない",
             "romaji": "nai wake ni wa ikanai",
             "example": "親友の結婚式だから、忙しくても出席しないわけにはいかない。\nLà đám cưới bạn thân, dù bận cũng không thể không tham dự.\n\n試験が近いので、今日は勉強しないわけにはいかない。\nKỳ thi sắp tới nên hôm nay không thể không học.\n\nやらざるを得ない。\nĐành phải làm.\n\n行かないわけにはいかない。\nKhông thể không đi.",
             "jlptLevel": 2
           },
           {
             "front": "〜ざるを得ない",
-            "back": "Ý nghĩa: Đành phải làm dù không muốn (do hoàn cảnh).\nCấu trúc: V-nai(bỏ nai) + ざるを得ない",
+            "back": "Ý nghĩa: Đành phải làm dù không muốn (do hoàn cảnh).\nCấu trúc: Vない(bỏ nai) + ざるを得ない",
             "romaji": "zaru o enai",
             "example": "証拠が多いから、彼の説は間違っていたと言わざるを得ない。\nVì nhiều chứng cứ, nên đành phải thừa nhận lý thuyết của anh ấy sai.\n\n台風で電車が止まったので、歩いて帰らざるを得ない。\nVì bão dừng tàu, đành phải đi bộ về.\n\n中止せざるを得ない。\nĐành phải hủy bỏ.\n\n認めざるを得ない。\nĐành phải thừa nhận.",
             "jlptLevel": 2

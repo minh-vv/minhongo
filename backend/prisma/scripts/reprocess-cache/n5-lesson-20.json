@@ -2,7 +2,7 @@
   "order": 20,
   "title": "Bài 20 — Thể từ điển: Khả năng và cho phép",
   "summary": "～ことができます (có thể), ～てもいいです (được phép).",
-  "theoryMd": "### 1. V-ru ことができます\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ năng lực, khả năng thực hiện hành động.\n- **Cấu trúc:** V-ru + ことができます\n\n### 2. V-te もいいです / V-te は いけません\n#### 💡 Cấu trúc & Ý nghĩa\n- **V-te もいいです:** Chỉ sự cho phép làm hành động.\n- **V-te は いけません:** Chỉ sự cấm đoán, không được phép làm hành động.",
+  "theoryMd": "### 1. Vる ことができます\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ năng lực, khả năng thực hiện hành động.\n- **Cấu trúc:** Vる + ことができます\n\n### 2. Vて もいいです / Vて は いけません\n#### 💡 Cấu trúc & Ý nghĩa\n- **Vて もいいです:** Chỉ sự cho phép làm hành động.\n- **Vて は いけません:** Chỉ sự cấm đoán, không được phép làm hành động.",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -262,22 +262,22 @@
         "jlptLevel": 5,
         "cards": [
           {
-            "front": "V-ru ことができます",
-            "back": "Ý nghĩa: Có khả năng làm gì đó.\nCấu trúc: V-ru + ことができます",
+            "front": "Vる ことができます",
+            "back": "Ý nghĩa: Có khả năng làm gì đó.\nCấu trúc: Vる + ことができます",
             "romaji": "v-ru-koto-ga-dekimasu",
             "example": "私は日本語を話すことができます。\nTôi có thể nói tiếng Nhật.\n\n漢字を読むことができます。\nTôi có thể đọc chữ Hán.\n\nここで車を運転することができます。\nTôi có thể lái xe ở đây.\n\n5キロ泳ぐことができます。\nTôi có thể bơi 5 cây số.",
             "jlptLevel": 5
           },
           {
-            "front": "V-te もいいです",
-            "back": "Ý nghĩa: Được phép làm gì đó (xin phép hoặc cho phép).\nCấu trúc: V-te + もいいです",
+            "front": "Vて もいいです",
+            "back": "Ý nghĩa: Được phép làm gì đó (xin phép hoặc cho phép).\nCấu trúc: Vて + もいいです",
             "romaji": "v-te-mo-ii-desu",
             "example": "ここで写真を撮ってもいいです。\nỞ đây chụp ảnh được.\n\n帰ってもいいですか。\nTôi về có được không?\n\n窓を開けてもいいです。\nBạn mở cửa sổ được đấy.\n\nここで待ってもいいです。\nBạn đợi ở đây cũng được.",
             "jlptLevel": 5
           },
           {
-            "front": "V-te は いけません",
-            "back": "Ý nghĩa: Không được làm gì đó (cấm đoán).\nCấu trúc: V-te + は いけません",
+            "front": "Vて は いけません",
+            "back": "Ý nghĩa: Không được làm gì đó (cấm đoán).\nCấu trúc: Vて + は いけません",
             "romaji": "v-te-wa-ikemasen",
             "example": "ここでタバコを吸ってはいけません。\nKhông được hút thuốc ở đây.\n\n入ってはいけません。\nKhông được vào.\n\nここで遊んではいけません。\nKhông được chơi đùa ở đây.\n\n写真を撮ってはいけません。\nKhông được chụp ảnh.",
             "jlptLevel": 5

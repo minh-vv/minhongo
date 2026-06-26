@@ -2,7 +2,7 @@
   "order": 5,
   "title": "5. ～とおりだ・とおり（に）…・～どおりだ・～どおり（に）…",
   "summary": "Ngữ pháp bài số 5 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. ～とおりだ／〜どおりだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Làm, thực hiện đúng theo nội dung đã biết/nghe/đọc/thấy.\n- **Cấu trúc:** V-ru / V-ta / V-te-aru / V-te-iru / N-no / N + とおりだ / どおりだ\n\n#### 📝 Ví dụ minh họa\n- 先生が言ったとおり、試験は難しかったです。\n- 私の計画どおりに、全てがうまくいった。",
+  "theoryMd": "### 1. ～とおりだ／〜どおりだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Làm, thực hiện đúng theo nội dung đã biết/nghe/đọc/thấy.\n- **Cấu trúc:** Vる / Vた / Vてある / Vている / N-no / N + とおりだ / どおりだ\n\n#### 📝 Ví dụ minh họa\n- 先生が言ったとおり、試験は難しかったです。\n- 私の計画どおりに、全てがうまくいった。",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜とおりだ／〜とおりに／〜どおりだ／〜どおりに",
-            "back": "Ý nghĩa: Làm một việc theo đúng cách thức, thông tin đã biết hoặc đã chỉ dẫn.\nCấu trúc: V-ru / V-ta / V-te-aru / V-te-iru / N-no / N + とおりだ／とおりに／どおりだ／どおりに",
+            "back": "Ý nghĩa: Làm một việc theo đúng cách thức, thông tin đã biết hoặc đã chỉ dẫn.\nCấu trúc: Vる / Vた / Vてある / Vている / N-no / N + とおりだ／とおりに／どおりだ／どおりに",
             "romaji": "toori-da / toori-ni / doori-da / doori-ni",
             "example": "先生が言ったとおり、試験は難しかったです。\nĐúng như thầy giáo nói, đề thi rất khó.\n\n図のとおりに、線を引いてください。\nHãy vẽ đường thẳng theo đúng như trong hình.\n\n私の計画どおりに、全てがうまくいった。\nMọi thứ đã diễn ra suôn sẻ đúng như kế hoạch của tôi.\n\n壁に貼ってある説明書のとおりに組み立ててください。\nHãy lắp ráp theo đúng như hướng dẫn dán trên tường.",
             "jlptLevel": 3

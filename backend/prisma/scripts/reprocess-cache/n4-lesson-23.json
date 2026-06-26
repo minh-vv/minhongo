@@ -2,7 +2,7 @@
   "order": 23,
   "title": "Bài 48 — Từ vựng JLPT N4 (Phần 23)",
   "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 23/25.",
-  "theoryMd": "### 1. V-te + あります\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + が + V-te + あります\n- Ý nghĩa: Trạng thái kết quả của hành động có chủ đích.\n#### 📝 Ví dụ minh họa\n- 壁に絵が掛けてあります。(Bức tranh được treo trên tường.)\n\n### 2. のおかげで\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N/V (ngắn) + のおかげで\n- Ý nghĩa: Nhờ vào (kết quả tích cực).\n#### 📝 Ví dụ minh họa\n- 先生のおかげで合格しました。(Nhờ thầy giáo mà tôi đã đỗ.)\n\n### 3. わけです\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: V/Adj/N (ngắn) + わけです\n- Ý nghĩa: Thảo nào mà/Lý do là.\n#### 📝 Ví dụ minh họa\n- 忙しいわけです。(Thảo nào mà bận rộn như vậy.)",
+  "theoryMd": "### 1. Vて + あります\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + が + Vて + あります\n- Ý nghĩa: Trạng thái kết quả của hành động có chủ đích.\n#### 📝 Ví dụ minh họa\n- 壁に絵が掛けてあります。(Bức tranh được treo trên tường.)\n\n### 2. のおかげで\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N/V (ngắn) + のおかげで\n- Ý nghĩa: Nhờ vào (kết quả tích cực).\n#### 📝 Ví dụ minh họa\n- 先生のおかげで合格しました。(Nhờ thầy giáo mà tôi đã đỗ.)\n\n### 3. わけです\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: V/Adj/N (ngắn) + わけです\n- Ý nghĩa: Thảo nào mà/Lý do là.\n#### 📝 Ví dụ minh họa\n- 忙しいわけです。(Thảo nào mà bận rộn như vậy.)",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -192,8 +192,8 @@
         "jlptLevel": 4,
         "cards": [
           {
-            "front": "V-te + あります",
-            "back": "Ý nghĩa: Diễn tả trạng thái hiện tại của một vật là kết quả của một hành động có chủ ý.\nCấu trúc: N + が + V-te + あります",
+            "front": "Vて + あります",
+            "back": "Ý nghĩa: Diễn tả trạng thái hiện tại của một vật là kết quả của một hành động có chủ ý.\nCấu trúc: N + が + Vて + あります",
             "romaji": "v-te-arimasu",
             "example": "ドアが開いてあります。\nCửa đang ở trạng thái mở (có ai đó đã mở).\n\n壁に絵が掛けてあります。\nBức tranh được treo trên tường.\n\nテーブルの上に料理が並べてあります。\nĐồ ăn đã được bày biện trên bàn.",
             "jlptLevel": 4

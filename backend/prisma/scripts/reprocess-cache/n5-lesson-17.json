@@ -2,7 +2,7 @@
   "order": 17,
   "title": "Bài 17 — Thể た (Quá khứ tự nhiên) và ～たことがあります",
   "summary": "Chia thể た, nói về trải nghiệm quá khứ.",
-  "theoryMd": "### 1. V-た ことがあります\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Trình bày kinh nghiệm, trải nghiệm trong quá khứ.\n- **Cấu trúc:** V-ta + ことがあります\n\n### 2. V1-たり V2-たり します\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Liệt kê các hành động tiêu biểu. Thì của câu phụ thuộc vào đuôi します.\n- **Cấu trúc:** V1-ta + り, V2-ta + り + します",
+  "theoryMd": "### 1. Vた ことがあります\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Trình bày kinh nghiệm, trải nghiệm trong quá khứ.\n- **Cấu trúc:** Vた + ことがあります\n\n### 2. V1-たり V2-たり します\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Liệt kê các hành động tiêu biểu. Thì của câu phụ thuộc vào đuôi します.\n- **Cấu trúc:** V1-ta + り, V2-ta + り + します",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -262,8 +262,8 @@
         "jlptLevel": 5,
         "cards": [
           {
-            "front": "V-た ことがあります",
-            "back": "Ý nghĩa: Diễn tả kinh nghiệm đã từng trải qua trong quá khứ.\nCấu trúc: V-ta + ことがあります",
+            "front": "Vた ことがあります",
+            "back": "Ý nghĩa: Diễn tả kinh nghiệm đã từng trải qua trong quá khứ.\nCấu trúc: Vた + ことがあります",
             "romaji": "v-ta-koto-ga-arimasu",
             "example": "日本へ行ったことがあります。\nTôi đã từng đi Nhật.\n\n富士山に登ったことがあります。\nTôi đã từng leo núi Phú Sĩ.\n\n納豆を食べたことがあります。\nTôi đã từng ăn đậu phụ lên men.\n\nこの映画を見たことがあります。\nTôi đã từng xem bộ phim này.",
             "jlptLevel": 5

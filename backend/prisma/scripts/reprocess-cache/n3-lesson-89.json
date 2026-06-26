@@ -2,7 +2,7 @@
   "order": 89,
   "title": "89. ～きる",
   "summary": "Ngữ pháp bài số 89 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. 〜きる\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \n  1. Làm cái gì đó đến cùng, hoàn tất triệt để.\n  2. Làm với mức độ tối đa (vắt kiệt lực, hoàn toàn).\n- **Cấu trúc:** V-masu (bỏ masu) + きる\n\n#### 📝 Ví dụ minh họa\nこんなに長い小説を、一日で読みきった。\nTôi đã đọc xong hoàn toàn cuốn tiểu thuyết dài thế này chỉ trong một ngày.\n\n42キロのマラソンコースを、最後まで走りきった。\nTôi đã chạy hết chặng đường marathon 42 km cho đến tận cùng.\n\n一生懸命働いて、疲れきった。\nTôi làm việc hết sức mình nên đã kiệt sức.\n\nそのニュースを聞いて、困りきった顔をした。\nNghe tin đó xong, anh ấy làm vẻ mặt vô cùng lúng túng.",
+  "theoryMd": "### 1. 〜きる\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** \n  1. Làm cái gì đó đến cùng, hoàn tất triệt để.\n  2. Làm với mức độ tối đa (vắt kiệt lực, hoàn toàn).\n- **Cấu trúc:** Vます (bỏ masu) + きる\n\n#### 📝 Ví dụ minh họa\nこんなに長い小説を、一日で読みきった。\nTôi đã đọc xong hoàn toàn cuốn tiểu thuyết dài thế này chỉ trong một ngày.\n\n42キロのマラソンコースを、最後まで走りきった。\nTôi đã chạy hết chặng đường marathon 42 km cho đến tận cùng.\n\n一生懸命働いて、疲れきった。\nTôi làm việc hết sức mình nên đã kiệt sức.\n\nそのニュースを聞いて、困りきった顔をした。\nNghe tin đó xong, anh ấy làm vẻ mặt vô cùng lúng túng.",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜きる",
-            "back": "Ý nghĩa: Làm xong hoàn toàn, triệt để hoặc làm với mức độ tối đa.\nCấu trúc: V-masu (bỏ masu) + きる",
+            "back": "Ý nghĩa: Làm xong hoàn toàn, triệt để hoặc làm với mức độ tối đa.\nCấu trúc: Vます (bỏ masu) + きる",
             "romaji": "kiru",
             "example": "こんなに長い小説を、一日で読みきった。\nTôi đã đọc xong hoàn toàn cuốn tiểu thuyết dài thế này chỉ trong một ngày.\n\n42キロのマラソンコースを、最後まで走りきった。\nTôi đã chạy hết chặng đường marathon 42 km cho đến tận cùng.\n\n一生懸命働いて、疲れきった。\nTôi làm việc hết sức mình nên đã kiệt sức.\n\nそのニュースを聞いて、困りきった顔をした。\nNghe tin đó xong, anh ấy làm vẻ mặt vô cùng lúng túng.",
             "jlptLevel": 3

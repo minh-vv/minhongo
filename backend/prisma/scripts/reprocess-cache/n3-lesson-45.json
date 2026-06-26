@@ -2,7 +2,7 @@
   "order": 45,
   "title": "45. ～たらどうか",
   "summary": "Ngữ pháp bài số 45 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. ～たらどうか\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Đưa ra lời khuyên hoặc gợi ý một cách nhẹ nhàng. Đôi khi dùng để mỉa mai, chê trách khi đối phương không làm theo điều mình mong muốn.\n- **Cấu trúc:** V-tara + どうか\n\n#### 📝 Ví dụ minh họa\n- 疲れているなら、早く寝たらどうですか。(Nếu mệt, sao không thử đi ngủ sớm xem?)\n- はっきり言ったらどうなの？(Sao không nói rõ ra đi chứ?)",
+  "theoryMd": "### 1. ～たらどうか\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Đưa ra lời khuyên hoặc gợi ý một cách nhẹ nhàng. Đôi khi dùng để mỉa mai, chê trách khi đối phương không làm theo điều mình mong muốn.\n- **Cấu trúc:** Vたら + どうか\n\n#### 📝 Ví dụ minh họa\n- 疲れているなら、早く寝たらどうですか。(Nếu mệt, sao không thử đi ngủ sớm xem?)\n- はっきり言ったらどうなの？(Sao không nói rõ ra đi chứ?)",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜たらどうか",
-            "back": "Ý nghĩa: Thử làm… xem sao / Sao không làm… đi (Lời khuyên, gợi ý hoặc chê trách nhẹ).\nCấu trúc: V-tara + どうか",
+            "back": "Ý nghĩa: Thử làm… xem sao / Sao không làm… đi (Lời khuyên, gợi ý hoặc chê trách nhẹ).\nCấu trúc: Vたら + どうか",
             "romaji": "tara dou ka",
             "example": "疲れているなら、今日は早く寝たらどうですか。\nNếu mệt thì hôm nay cậu đi ngủ sớm xem sao?\n\nそんなに悩むなら、みんなに相談してみたらどう？\nNếu lo lắng đến vậy, sao cậu không thử thảo luận với mọi người xem?\n\n言いたいことがあるなら、はっきり言ったらどうなの？\nNếu có điều muốn nói thì sao không nói rõ ra đi chứ?\n\n一度先生に聞いてみたらどうですか。\nThử hỏi thầy giáo một lần xem sao?",
             "jlptLevel": 3

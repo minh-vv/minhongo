@@ -2,7 +2,7 @@
   "order": 3,
   "title": "Bài 3 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 3/92).",
-  "theoryMd": "### Bài 3: Cấu trúc biểu thị sự không quan trọng hóa (N1)\n\n#### 1. ～うと～うと\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dù thế nào đi nữa thì kết quả vẫn như vậy (tương tự ～うが～うが).\n- Cấu trúc: V-ý chí (u/you) + と + V-ý chí (u/you) + と\n\n#### 📝 Ví dụ minh họa\n- 雨が降ろうと風が吹こうと、マラソンは予定通り行う。\n(Dù mưa hay gió thổi, cuộc marathon vẫn diễn ra như dự định.)\n\n---\n\n#### 2. ～ようが～るまいが\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dù làm hay không làm thì cũng không ảnh hưởng đến kết quả.\n- Cấu trúc: V-ý chí (you) + が + V-ru (nai-kei) + まい + が\n\n#### 📝 Ví dụ minh họa\n- 雨が降ろうが降るまいが、試合は予定どおり行う。\n(Dù có mưa hay không, trận đấu vẫn diễn ra như dự định.)",
+  "theoryMd": "### Bài 3: Cấu trúc biểu thị sự không quan trọng hóa (N1)\n\n#### 1. ～うと～うと\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dù thế nào đi nữa thì kết quả vẫn như vậy (tương tự ～うが～うが).\n- Cấu trúc: V-ý chí (u/you) + と + V-ý chí (u/you) + と\n\n#### 📝 Ví dụ minh họa\n- 雨が降ろうと風が吹こうと、マラソンは予定通り行う。\n(Dù mưa hay gió thổi, cuộc marathon vẫn diễn ra như dự định.)\n\n---\n\n#### 2. ～ようが～るまいが\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dù làm hay không làm thì cũng không ảnh hưởng đến kết quả.\n- Cấu trúc: V-ý chí (you) + が + Vる (nai-kei) + まい + が\n\n#### 📝 Ví dụ minh họa\n- 雨が降ろうが降るまいが、試合は予定どおり行う。\n(Dù có mưa hay không, trận đấu vẫn diễn ra như dự định.)",
   "skills": [
     "GRAMMAR"
   ],
@@ -26,7 +26,7 @@
           },
           {
             "front": "〜ようが〜るまいが",
-            "back": "Ý nghĩa: Dù có làm... hay không làm... thì cũng không ảnh hưởng\nCấu trúc: V-ý chí (you) + が + V-ru (nai-kei) + まい + が",
+            "back": "Ý nghĩa: Dù có làm... hay không làm... thì cũng không ảnh hưởng\nCấu trúc: V-ý chí (you) + が + Vる (nai-kei) + まい + が",
             "romaji": "youga-rumaiga",
             "example": "雨が降ろうが降るまいが、試合は予定どおり行う。\nDù có mưa hay không, trận đấu vẫn diễn ra như dự định.\n\n彼が賛成しようがするまいが、計画は進める。\nDù anh ta có tán thành hay không, kế hoạch vẫn tiến hành.\n\n誰が来ようが来るまいが、私はやるべきことをやる。\nBất kể ai có đến hay không, tôi vẫn làm việc phải làm.",
             "jlptLevel": 1

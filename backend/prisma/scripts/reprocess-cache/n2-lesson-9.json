@@ -19,14 +19,14 @@
         "cards": [
           {
             "front": "〜につれて・〜にしたがって",
-            "back": "Ý nghĩa: Cùng với, đi kèm với sự thay đổi (tỉ lệ thuận).\nCấu trúc: N / V-ru + につれて / にしたがって",
+            "back": "Ý nghĩa: Cùng với, đi kèm với sự thay đổi (tỉ lệ thuận).\nCấu trúc: N / Vる + につれて / にしたがって",
             "romaji": "ni-tsurete / ni-shitagatte",
             "example": "台風の接近につれて、雨や風が強くなってきた。\nCơn bão càng tiến gần, mưa và gió càng trở nên mạnh hơn.\n\n時間が経つにつれて、怒りも収まってきた。\nThời gian trôi đi, cơn giận dữ cũng dần nguôi ngoai.\n\n年をとるにしたがって、体力が衰えてくる。\nCàng già đi thì thể lực càng suy giảm.\n\n道が広くなるにしたがって、車が増えてきた。\nĐường càng rộng ra thì xe cộ càng nhiều lên.",
             "jlptLevel": 2
           },
           {
             "front": "〜に伴って・〜とともに",
-            "back": "Ý nghĩa: Cùng với, đồng thời với sự thay đổi của A thì B cũng thay đổi.\nCấu trúc: N / V-ru + に伴って / とともに",
+            "back": "Ý nghĩa: Cùng với, đồng thời với sự thay đổi của A thì B cũng thay đổi.\nCấu trúc: N / Vる + に伴って / とともに",
             "romaji": "ni-tomonatte / to-tomo-ni",
             "example": "経済の回復とともに、人々の表情も明るくなってきた。\nKinh tế hồi phục kéo theo biểu cảm của mọi người cũng rạng rỡ hơn.\n\n自動車の普及に伴って、交通事故も増加した。\nCùng với sự phổ biến của ô tô, tai nạn giao thông cũng gia tăng.\n\n社会の変化とともに、価値観も変わる。\nCùng với sự thay đổi của xã hội, quan niệm giá trị cũng thay đổi.\n\n人口の増加に伴って、ゴミ問題が深刻になった。\nCùng với sự gia tăng dân số, vấn đề rác thải trở nên nghiêm trọng.",
             "jlptLevel": 2
@@ -47,7 +47,7 @@
           },
           {
             "front": "〜につけて",
-            "back": "Ý nghĩa: Mỗi khi làm gì/nhìn thấy gì thì luôn cảm thấy...\nCấu trúc: V-ru + につけて",
+            "back": "Ý nghĩa: Mỗi khi làm gì/nhìn thấy gì thì luôn cảm thấy...\nCấu trúc: Vる + につけて",
             "romaji": "ni-tsukete",
             "example": "この絵を見るにつけて、心に希望がわいてくる。\nMỗi lần ngắm bức tranh này, niềm hy vọng trong tim tôi lại sôi sục.\n\nニュースを見るにつけて、世の中の理不尽さを感じる。\nMỗi khi xem tin tức, tôi lại cảm thấy sự bất công của thế gian.\n\n彼の話を聞くにつけて、悲しい気持ちになる。\nMỗi khi nghe câu chuyện của anh ấy, tôi lại cảm thấy buồn.\n\n写真を眺めるにつけて、昔のことが懐かしく思える。\nMỗi lần ngắm tấm ảnh, tôi lại nhớ về ngày xưa.",
             "jlptLevel": 2

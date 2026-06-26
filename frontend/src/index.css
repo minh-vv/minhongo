@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Playpen+Sans:wght@400;600;800&family=Mochiy+Pop+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -118,6 +120,12 @@ html.dark {
   .font-jp-sans {
     font-family: 'Noto Sans JP', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   }
+  .font-hand {
+    font-family: 'Playpen Sans', 'Patrick Hand', cursive, sans-serif;
+  }
+  .font-jp-pop {
+    font-family: 'Mochiy Pop One', 'Playpen Sans', cursive, sans-serif;
+  }
 
   /* ── Fade-in animations ──────────────────────────────────── */
   @keyframes fadeSlideUp {
@@ -153,5 +161,78 @@ html.dark {
   }
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0, 0.24);
+  }
+
+  /* ── Notebook Redesign Utilities ─────────────────────────── */
+  .bg-notebook-grid {
+    background-image:
+      linear-gradient(to right, rgba(239, 68, 68, 0.5) 2px, transparent 2px),
+      linear-gradient(to right, rgba(14, 165, 233, 0.22) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(14, 165, 233, 0.22) 1px, transparent 1px);
+    background-size: 100% 100%, 20px 20px, 20px 20px;
+    background-position: 40px 0, 0 0, 0 0;
+    background-repeat: no-repeat, repeat, repeat;
+    background-color: #faf9f5;
+  }
+  .dark .bg-notebook-grid {
+    background-image:
+      linear-gradient(to right, rgba(239, 68, 68, 0.5) 2px, transparent 2px),
+      linear-gradient(to right, rgba(14, 165, 233, 0.16) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(14, 165, 233, 0.16) 1px, transparent 1px);
+    background-size: 100% 100%, 20px 20px, 20px 20px;
+    background-position: 40px 0, 0 0, 0 0;
+    background-repeat: no-repeat, repeat, repeat;
+    background-color: #1e1d1b;
+  }
+
+  .bg-legal-pad {
+    background-image:
+      linear-gradient(to right, rgba(239, 68, 68, 0.45) 1.5px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 100, 200, 0.16) 1px, transparent 1px);
+    background-size: 100% 100%, 100% 28px;
+    background-position: 36px 0, 0 0;
+    background-repeat: no-repeat, repeat;
+    background-color: #fefdf0;
+  }
+  .dark .bg-legal-pad {
+    background-image:
+      linear-gradient(to right, rgba(239, 68, 68, 0.5) 1.5px, transparent 1.5px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+    background-size: 100% 100%, 100% 28px;
+    background-position: 36px 0, 0 0;
+    background-repeat: no-repeat, repeat;
+    background-color: #242320;
+  }
+
+  .washi-tape-pink {
+    background-color: rgba(244, 143, 177, 0.85);
+    border: 1px dashed rgba(244, 143, 177, 0.5);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255, 255, 255, 0.2) 5px, rgba(255, 255, 255, 0.2) 10px);
+  }
+  .washi-tape-green {
+    background-color: rgba(165, 214, 167, 0.85);
+    border: 1px dashed rgba(165, 214, 167, 0.5);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(255, 255, 255, 0.2) 5px, rgba(255, 255, 255, 0.2) 10px);
+  }
+  .washi-tape-yellow {
+    background-color: rgba(255, 224, 130, 0.9);
+    border: 1px dashed rgba(255, 224, 130, 0.5);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 4px, rgba(255, 255, 255, 0.25) 4px, rgba(255, 255, 255, 0.25) 8px);
+  }
+  .washi-tape-blue {
+    background-color: rgba(129, 212, 250, 0.85);
+    border: 1px dashed rgba(129, 212, 250, 0.5);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 4px, rgba(255, 255, 255, 0.25) 4px, rgba(255, 255, 255, 0.25) 8px);
+  }
+
+  .notebook-shadow {
+    box-shadow: 5px 5px 0 0 #2c2a29;
+  }
+  .dark .notebook-shadow {
+    box-shadow: 5px 5px 0 0 #0d0c0c;
   }
 }

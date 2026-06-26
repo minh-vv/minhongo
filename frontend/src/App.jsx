@@ -40,7 +40,8 @@ import FeedbackPage from './pages/FeedbackPage';
 import ListeningPage from './pages/ListeningPage';
 import ListeningDialogue from './pages/Listening/ListeningDialogue';
 import ListeningSentence from './pages/Listening/ListeningSentence';
-import ListeningShadowing from './pages/Listening/ListeningShadowing';
+// import ListeningShadowing from './pages/Listening/ListeningShadowing';
+import ListeningVideo from './pages/Listening/ListeningVideo';
 
 const queryClient = new QueryClient();
 
@@ -111,7 +112,8 @@ function AppRoutes() {
         <Route path="/listening" element={<ListeningPage />} />
         <Route path="/listening/dialogue" element={<ListeningDialogue />} />
         <Route path="/listening/sentence" element={<ListeningSentence />} />
-        <Route path="/listening/shadowing" element={<ListeningShadowing />} />
+        <Route path="/listening/video" element={<ListeningVideo />} />
+        <Route path="/listening/shadowing" element={<Navigate to="/listening/dialogue" replace />} />
         {/* Legacy redirects */}
         <Route path="/hantu" element={<Navigate to="/kanji" replace />} />
         <Route path="/tuvung" element={<Navigate to="/vocabulary" replace />} />

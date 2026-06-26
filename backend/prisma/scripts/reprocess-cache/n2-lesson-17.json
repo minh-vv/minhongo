@@ -2,7 +2,7 @@
   "order": 17,
   "title": "Bài 17: Lý do đưa ra sau (〜ことだし, 〜のことだから, 〜だけに, 〜ばかりに, 〜からには・〜以上(は)・〜上は)",
   "summary": "Các cấu trúc lý do đặc thù: 〜ことだし, 〜のことだから, 〜だけに, 〜ばかりに, 〜からには・〜以上(は)・〜上は",
-  "theoryMd": "### Bài 17: Các cấu trúc chỉ lý do đặc thù\n\nCác cấu trúc này nhấn mạnh lý do đi kèm với cảm xúc hoặc sự phán đoán logic.\n\n### 1. 〜ことだし\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đưa ra lý do tiêu biểu, vế sau thường kèm theo ý định, mời mọc.\n- **Cấu trúc**: Thể thông thường + ことだし\n\n### 2. 〜のことだから\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dựa vào tính cách của người nào đó để đưa ra phán đoán chắc chắn.\n- **Cấu trúc**: N + のことだから\n\n### 3. 〜だけに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chính vì... nên kết quả xứng đáng/tương xứng.\n- **Cấu trúc**: Thể thông thường + だけに\n\n### 4. 〜ばかりに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ vì một nguyên nhân duy nhất dẫn đến kết quả xấu.\n- **Cấu trúc**: Thể thông thường + ばかりに\n\n### 5. 〜からには・〜以上は・〜上は\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Một khi đã... thì đương nhiên phải...\n- **Cấu trúc**: V-ru / V-ta + からには/以上は/上は",
+  "theoryMd": "### Bài 17: Các cấu trúc chỉ lý do đặc thù\n\nCác cấu trúc này nhấn mạnh lý do đi kèm với cảm xúc hoặc sự phán đoán logic.\n\n### 1. 〜ことだし\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đưa ra lý do tiêu biểu, vế sau thường kèm theo ý định, mời mọc.\n- **Cấu trúc**: Thể thông thường + ことだし\n\n### 2. 〜のことだから\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dựa vào tính cách của người nào đó để đưa ra phán đoán chắc chắn.\n- **Cấu trúc**: N + のことだから\n\n### 3. 〜だけに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chính vì... nên kết quả xứng đáng/tương xứng.\n- **Cấu trúc**: Thể thông thường + だけに\n\n### 4. 〜ばかりに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ vì một nguyên nhân duy nhất dẫn đến kết quả xấu.\n- **Cấu trúc**: Thể thông thường + ばかりに\n\n### 5. 〜からには・〜以上は・〜上は\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Một khi đã... thì đương nhiên phải...\n- **Cấu trúc**: Vる / Vた + からには/以上は/上は",
   "skills": [
     "GRAMMAR"
   ],
@@ -47,7 +47,7 @@
           },
           {
             "front": "〜からには・〜以上は・〜上は",
-            "back": "Ý nghĩa: Một khi đã... thì đương nhiên phải hoặc quyết tâm làm gì đó.\nCấu trúc: V-ru / V-ta + からには / 以上は / 上は",
+            "back": "Ý nghĩa: Một khi đã... thì đương nhiên phải hoặc quyết tâm làm gì đó.\nCấu trúc: Vる / Vた + からには / 以上は / 上は",
             "romaji": "kara ni wa / ijou wa / ue wa",
             "example": "留学するからには、ちゃんと目的を果たすつもりだ。\nMột khi đã đi du học, tôi quyết tâm sẽ hoàn thành mục tiêu của mình.\n\n約束した以上は、何があっても守らなければならない。\nMột khi đã hứa thì dù có chuyện gì xảy ra cũng phải giữ lời.\n\n試合に出る上は、精一杯頑張りたい。\nMột khi đã ra sân thi đấu, tôi muốn nỗ lực hết mình.\n\n自分で引き受けた以上は、最後まで責任を持つべきだ。\nMột khi đã tự tay đảm nhận thì nên chịu trách nhiệm đến cùng.",
             "jlptLevel": 2

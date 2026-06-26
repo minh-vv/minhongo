@@ -2,7 +2,7 @@
   "order": 78,
   "title": "78. ～になる・～ことになる",
   "summary": "Ngữ pháp bài số 78 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. 〜になる・〜ことになる\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả một sự việc đã được quyết định bởi hoàn cảnh, tổ chức hoặc người khác (không phải do ý chí chủ quan của người nói).\n- **Cấu trúc**:\n  - Danh từ + になる\n  - Động từ thể từ điển (V-ru) / Động từ phủ định (V-nai) + ことになる\n\n#### 📝 Ví dụ minh họa\n- 来月、日本へ出張することになりました。\n  (Tháng sau, tôi đã được quyết định là sẽ đi công tác Nhật Bản.)\n- 法律により、ここではタバコが吸えないことになります。\n  (Theo luật pháp, ở đây sẽ thành ra là không được hút thuốc.)\n- 今度の会議は中止になるそうです。\n  (Nghe nói cuộc họp lần này đã được quyết định là sẽ hủy bỏ.)\n- 来年から新しい寮に住むことになりました。\n  (Tôi đã được quyết định là sẽ chuyển sang sống ở ký túc xá mới từ năm sau.)",
+  "theoryMd": "### 1. 〜になる・〜ことになる\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả một sự việc đã được quyết định bởi hoàn cảnh, tổ chức hoặc người khác (không phải do ý chí chủ quan của người nói).\n- **Cấu trúc**:\n  - Danh từ + になる\n  - Động từ thể từ điển (Vる) / Động từ phủ định (Vない) + ことになる\n\n#### 📝 Ví dụ minh họa\n- 来月、日本へ出張することになりました。\n  (Tháng sau, tôi đã được quyết định là sẽ đi công tác Nhật Bản.)\n- 法律により、ここではタバコが吸えないことになります。\n  (Theo luật pháp, ở đây sẽ thành ra là không được hút thuốc.)\n- 今度の会議は中止になるそうです。\n  (Nghe nói cuộc họp lần này đã được quyết định là sẽ hủy bỏ.)\n- 来年から新しい寮に住むことになりました。\n  (Tôi đã được quyết định là sẽ chuyển sang sống ở ký túc xá mới từ năm sau.)",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜になる・〜ことになる",
-            "back": "Ý nghĩa: Được quyết định là, hóa ra là (do quy định, hoàn cảnh khách quan hoặc người khác quyết định, không phải ý chí cá nhân).\nCấu trúc: N + になる / V-ru・V-nai + ことになる",
+            "back": "Ý nghĩa: Được quyết định là, hóa ra là (do quy định, hoàn cảnh khách quan hoặc người khác quyết định, không phải ý chí cá nhân).\nCấu trúc: N + になる / Vる・Vない + ことになる",
             "romaji": "ni-naru / koto-ni-naru",
             "example": "来月、日本へ出張することになりました。\nTháng sau, tôi đã được quyết định là sẽ đi công tác Nhật Bản.\n\n法律により、ここではタバコが吸えないことになります。\nTheo luật pháp, ở đây sẽ thành ra là không được hút thuốc.\n\n今度の会議は中止になるそうです。\nNghe nói cuộc họp lần này đã được quyết định là sẽ hủy bỏ.\n\n来年から新しい寮に住むことになりました。\nTôi đã được quyết định là sẽ chuyển sang sống ở ký túc xá mới từ năm sau.",
             "jlptLevel": 3

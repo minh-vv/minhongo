@@ -2,7 +2,7 @@
   "order": 98,
   "title": "98. ～っぽい",
   "summary": "Ngữ pháp bài số 98 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. 〜っぽい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Có đặc tính, cảm giác giống như là... (Dùng cho cả tính từ, danh từ và động từ. Thường dùng trong văn nói).\n- **Cấu trúc:** N / V-masu / Adj-i (bỏ i) + っぽい\n\n#### 📝 Ví dụ minh họa\n- あの小学生は、大人っぽい服装をしている。\n(Đứa trẻ tiểu học kia mặc trang phục trông rất người lớn.)\n\n- 年を取ると、忘れっぽくなって困る。\n(Cứ có tuổi vào là lại hay quên, thật khổ sở.)\n\n- このスープは油っぽくて食べられない。\n(Món súp này toàn dầu mỡ, không thể ăn nổi.)",
+  "theoryMd": "### 1. 〜っぽい\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Có đặc tính, cảm giác giống như là... (Dùng cho cả tính từ, danh từ và động từ. Thường dùng trong văn nói).\n- **Cấu trúc:** N / Vます / Adj-i (bỏ i) + っぽい\n\n#### 📝 Ví dụ minh họa\n- あの小学生は、大人っぽい服装をしている。\n(Đứa trẻ tiểu học kia mặc trang phục trông rất người lớn.)\n\n- 年を取ると、忘れっぽくなって困る。\n(Cứ có tuổi vào là lại hay quên, thật khổ sở.)\n\n- このスープは油っぽくて食べられない。\n(Món súp này toàn dầu mỡ, không thể ăn nổi.)",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜っぽい",
-            "back": "Ý nghĩa: Có vẻ, trông giống như, hay (mang tính chất, thiên hướng giống như là...).\nCấu trúc: N / V-masu / Adj-i (bỏ i) + っぽい",
+            "back": "Ý nghĩa: Có vẻ, trông giống như, hay (mang tính chất, thiên hướng giống như là...).\nCấu trúc: N / Vます / Adj-i (bỏ i) + っぽい",
             "romaji": "ppoi",
             "example": "あの小学生は、大人っぽい服装をしている。\nĐứa trẻ tiểu học kia mặc trang phục trông rất người lớn.\n\n年を取ると、忘れっぽくなって困る。\nCứ có tuổi vào là lại hay quên, thật khổ sở.\n\nこのスープは油っぽくて食べられない。\nMón súp này toàn dầu mỡ, không thể ăn nổi.",
             "jlptLevel": 3

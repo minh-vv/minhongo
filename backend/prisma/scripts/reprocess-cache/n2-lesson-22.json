@@ -2,7 +2,7 @@
   "order": 22,
   "title": "Bài 22: Phán đoán (〜とみえる, 〜かねない, 〜おそれがある, 〜に違いない・に相違ない, 〜にきまっている)",
   "summary": "Các cấu trúc phán đoán: 〜とみえる, 〜かねない, 〜おそれがある, 〜に違いない・に相違ない, 〜にきまっている",
-  "theoryMd": "# Bài 22: Phán đoán\n\n### 1. 〜とみえる\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường + とみえる\n- Ý nghĩa: Phán đoán dựa trên chứng cứ.\n#### 📝 Ví dụ minh họa\n- ずいぶん暇だとみえる。（Trông có vẻ khá là rảnh）\n\n### 2. 〜かねない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-masu + かねない\n- Ý nghĩa: Có khả năng xảy ra kết quả xấu.\n#### 📝 Ví dụ minh họa\n- 大事故を起こしかねない。（E rằng sẽ gây tai nạn lớn）\n\n### 3. 〜おそれがある\n#### 💡 Cấu trúc & Ý nghĩa\n- Nの / V-ru + おそれがある\n- Ý nghĩa: Nguy cơ xảy ra chuyện xấu.\n#### 📝 Ví dụ minh họa\n- 大雨のおそれがあります。（Có nguy cơ mưa lớn）\n\n### 4. 〜に違いない・に相違ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường (A-na/N bỏ da) + に違いない\n- Ý nghĩa: Chắc chắn là.\n#### 📝 Ví dụ minh họa\n- 彼も慣れたに違いない。（Chắc chắn anh ấy đã quen）\n\n### 5. 〜にきまっている\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường + にきまっている\n- Ý nghĩa: Chắc chắn (chủ quan).\n#### 📝 Ví dụ minh họa\n- 体に悪いにきまっています。（Chắc chắn là có hại cho sức khỏe）",
+  "theoryMd": "# Bài 22: Phán đoán\n\n### 1. 〜とみえる\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường + とみえる\n- Ý nghĩa: Phán đoán dựa trên chứng cứ.\n#### 📝 Ví dụ minh họa\n- ずいぶん暇だとみえる。（Trông có vẻ khá là rảnh）\n\n### 2. 〜かねない\n#### 💡 Cấu trúc & Ý nghĩa\n- Vます + かねない\n- Ý nghĩa: Có khả năng xảy ra kết quả xấu.\n#### 📝 Ví dụ minh họa\n- 大事故を起こしかねない。（E rằng sẽ gây tai nạn lớn）\n\n### 3. 〜おそれがある\n#### 💡 Cấu trúc & Ý nghĩa\n- Nの / Vる + おそれがある\n- Ý nghĩa: Nguy cơ xảy ra chuyện xấu.\n#### 📝 Ví dụ minh họa\n- 大雨のおそれがあります。（Có nguy cơ mưa lớn）\n\n### 4. 〜に違いない・に相違ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường (A-na/N bỏ da) + に違いない\n- Ý nghĩa: Chắc chắn là.\n#### 📝 Ví dụ minh họa\n- 彼も慣れたに違いない。（Chắc chắn anh ấy đã quen）\n\n### 5. 〜にきまっている\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường + にきまっている\n- Ý nghĩa: Chắc chắn (chủ quan).\n#### 📝 Ví dụ minh họa\n- 体に悪いにきまっています。（Chắc chắn là có hại cho sức khỏe）",
   "skills": [
     "GRAMMAR"
   ],
@@ -26,14 +26,14 @@
           },
           {
             "front": "〜かねない",
-            "back": "Ý nghĩa: Có khả năng xảy ra kết quả xấu.\nCấu trúc: V-masu (bỏ masu) + かねない",
+            "back": "Ý nghĩa: Có khả năng xảy ra kết quả xấu.\nCấu trúc: Vます (bỏ masu) + かねない",
             "romaji": "kanenai",
             "example": "うわさはどんどん変な方向へ発展していきかねない。\nCó khả năng tin đồn sẽ phát triển theo chiều hướng xấu.\n\nそんなスピードを出すと、大事故を起こしかねない。\nChạy tốc độ như thế thì e rằng sẽ gây ra tai nạn lớn.\n\nこのままでは負けかねない。\nCứ đà này thì có khả năng sẽ thua đấy.\n\n誰にも言わないと言っても、漏らしかねない。\nDù bảo là không nói với ai, nhưng có khi lại làm lộ ra đấy.",
             "jlptLevel": 2
           },
           {
             "front": "〜おそれがある",
-            "back": "Ý nghĩa: E rằng có nguy cơ (dùng trong ngữ cảnh nghiêm trọng, tin tức).\nCấu trúc: N の / V-ru + おそれがある",
+            "back": "Ý nghĩa: E rằng có nguy cơ (dùng trong ngữ cảnh nghiêm trọng, tin tức).\nCấu trúc: N の / Vる + おそれがある",
             "romaji": "osore ga aru",
             "example": "今夜から明日にかけて東日本で大雨のおそれがあります。\nTừ đêm nay tới ngày mai, e rằng phía đông Nhật Bản sẽ có mưa lớn.\n\nこの病気は放置すると、悪化するおそれがあります。\nCăn bệnh này nếu bỏ mặc e rằng có nguy cơ trở nên trầm trọng.\n\n倒壊のおそれがあるため、立ち入り禁止です。\nVì có nguy cơ sập đổ nên cấm vào.\n\n被害が拡大するおそれがある。\nCó nguy cơ thiệt hại sẽ lan rộng.",
             "jlptLevel": 2

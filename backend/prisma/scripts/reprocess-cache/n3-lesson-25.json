@@ -2,7 +2,7 @@
   "order": 25,
   "title": "25. ～ては…・～（の）では…",
   "summary": "Ngữ pháp bài số 25 sách Shinkanzen Master N3 (1 thẻ).",
-  "theoryMd": "### 1. ～ては・～のでは\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để nói về một tình trạng hoặc hành động mang tính tiêu cực, nếu tiếp diễn sẽ gây ra kết quả không tốt.\n- **Cấu trúc**: V-te / A-i(くて) / A-na(で) / N(で) + は\n- **Lưu ý**: Không dùng cho ý chí, nguyện vọng của người nói.\n\n#### 📝 Ví dụ minh họa\n- そんなに急いでは、かえって危ないよ。\n- 毎日ゲームばかりしては、目が悪くなる一方だ。\n- こんなに暑いのでは、勉強に集中できない。\n- 彼が来ないのでは、パーティーが盛り上がらない。",
+  "theoryMd": "### 1. ～ては・～のでは\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để nói về một tình trạng hoặc hành động mang tính tiêu cực, nếu tiếp diễn sẽ gây ra kết quả không tốt.\n- **Cấu trúc**: Vて / A-i(くて) / A-na(で) / N(で) + は\n- **Lưu ý**: Không dùng cho ý chí, nguyện vọng của người nói.\n\n#### 📝 Ví dụ minh họa\n- そんなに急いでは、かえって危ないよ。\n- 毎日ゲームばかりしては、目が悪くなる一方だ。\n- こんなに暑いのでは、勉強に集中できない。\n- 彼が来ないのでは、パーティーが盛り上がらない。",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,7 +19,7 @@
         "cards": [
           {
             "front": "〜ては…・〜（の）では…",
-            "back": "Ý nghĩa: Nếu giả định/sự thật ~ xảy ra thì sẽ dẫn đến kết quả tiêu cực không mong muốn.\nCấu trúc: V-te / A-i(くて) / A-na(で) / N(で) + は",
+            "back": "Ý nghĩa: Nếu giả định/sự thật ~ xảy ra thì sẽ dẫn đến kết quả tiêu cực không mong muốn.\nCấu trúc: Vて / A-i(くて) / A-na(で) / N(で) + は",
             "romaji": "te-wa / no-de-wa",
             "example": "そんなに急いでは、かえって危ないよ。\nNếu vội vàng như thế thì ngược lại sẽ nguy hiểm đấy.\n\n毎日ゲームばかりしては、目が悪くなる一方だ。\nNếu cứ chơi game mỗi ngày như vậy thì mắt sẽ ngày càng kém đi thôi.\n\nこんなに暑いのでは、勉強に集中できない。\nNóng thế này thì làm sao mà tập trung học được.\n\n彼が来ないのでは、パーティーが盛り上がらない。\nAnh ấy mà không đến thì bữa tiệc sẽ không vui đâu.",
             "jlptLevel": 3

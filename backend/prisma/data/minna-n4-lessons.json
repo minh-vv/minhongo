@@ -1,8 +1,8 @@
 [
   {
     "order": 1,
-    "title": "Bài 26 — Từ vựng JLPT N4 (Phần 1)",
-    "summary": "Học và rèn luyện 24 từ vựng JLPT N4 - Lớp bài học 1/25.",
+    "title": "Bài 26 — Đời sống & Thắc mắc",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 26 — Đời sống & Thắc mắc.",
     "theoryMd": "### 1. 〜てあげる\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Làm việc gì đó có lợi cho người khác.\n- Cấu trúc: Động từ thể て + あげる\n#### 📝 Ví dụ minh họa\n- 荷物を運んであげます。(Tôi mang hành lý giúp bạn.)\n- 写真を撮ってあげました。(Tôi đã chụp ảnh giúp cô ấy.)\n- 友達に料理を作ってあげました。(Tôi đã nấu ăn giúp bạn tôi.)\n- 花に水をやってあげます。(Tôi tưới nước cho hoa giúp mẹ.)\n\n### 2. N で\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trợ từ chỉ địa điểm xảy ra hành động.\n- Cấu trúc: Danh từ (địa điểm) + で\n#### 📝 Ví dụ minh họa\n- 図書館で本を読みます。(Tôi đọc sách ở thư viện.)\n- 公園で遊びます。(Tôi chơi ở công viên.)\n- 食堂で昼ご飯を食べます。(Tôi ăn trưa tại nhà ăn.)\n- 家でテレビを見ます。(Tôi xem tivi ở nhà.)\n\n### 3. N の N\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Biểu thị quan hệ sở hữu hoặc thuộc tính giữa hai danh từ.\n- Cấu trúc: N1 (sở hữu/chủ thể) + の + N2 (vật/đối tượng)\n#### 📝 Ví dụ minh họa\n- 私の車です。(Đó là xe của tôi.)\n- 先生の辞書です。(Đó là từ điển của thầy giáo.)\n- 日本の地図です。(Đây là bản đồ của Nhật Bản.)\n- 田中さんのカバンです。(Đây là cặp của anh Tanaka.)",
     "skills": [
       "VOCABULARY",
@@ -14,7 +14,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 26 — Từ vựng",
+          "name": "Minna N4 — Bài 26",
           "description": "Từ vựng bài số 26 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -336,9 +336,9 @@
   },
   {
     "order": 2,
-    "title": "Bài 27 — Từ vựng JLPT N4 (Phần 2)",
-    "summary": "Học và rèn luyện 24 từ vựng JLPT N4 - Lớp bài học 2/25.",
-    "theoryMd": "### 1. られる / れる (Thể khả năng)\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Thể hiện khả năng có thể làm một việc gì đó.\n- Cấu trúc: Nhóm 1: V-u → V-eru; Nhóm 2: V-ru → V-rareru; Nhóm 3: くる→こられる, する→できる\n#### 📝 Ví dụ minh họa\n- 漢字が読めます。(Tôi có thể đọc được chữ Hán.)\n- 肉が食べられます。(Tôi có thể ăn được thịt.)\n- 明日、行くことができます。(Ngày mai tôi có thể đi được.)\n- このペンで書けます。(Tôi có thể viết bằng chiếc bút này.)\n\n### 2. 見える / 聞こえる\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Nhìn thấy/nghe thấy một cách tự nhiên.\n- Cấu trúc: N + が + 見える/聞こえる\n#### 📝 Ví dụ minh họa\n- 山が見えます。(Tôi nhìn thấy núi.)\n- 鳥の声が聞こえます。(Tôi nghe thấy tiếng chim.)\n- ここから海が見えます。(Từ đây có thể nhìn thấy biển.)\n- 隣の部屋の音が聞こえます。(Tôi nghe thấy tiếng từ phòng bên cạnh.)\n\n### 3. N しか 〜 ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Nhấn mạnh sự ít ỏi, chỉ có duy nhất.\n- Cấu trúc: N + しか + V (phủ định)\n#### 📝 Ví dụ minh họa\n- 100円しかありません。(Tôi chỉ có 100 yên.)\n- 一人しかいません。(Chỉ có một người.)\n- 水しか飲みません。(Tôi chỉ uống nước.)\n- 日本語しか話せません。(Tôi chỉ có thể nói được tiếng Nhật.)",
+    "title": "Bài 27 — Khả năng & Giác quan",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 27 — Khả năng & Giác quan.",
+    "theoryMd": "### 1. られる / れる (Thể khả năng)\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Thể hiện khả năng có thể làm một việc gì đó.\n- Cấu trúc: Nhóm 1: V-u → V-eru; Nhóm 2: Vる → V-rareru; Nhóm 3: くる→こられる, する→できる\n#### 📝 Ví dụ minh họa\n- 漢字が読めます。(Tôi có thể đọc được chữ Hán.)\n- 肉が食べられます。(Tôi có thể ăn được thịt.)\n- 明日、行くことができます。(Ngày mai tôi có thể đi được.)\n- このペンで書けます。(Tôi có thể viết bằng chiếc bút này.)\n\n### 2. 見える / 聞こえる\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Nhìn thấy/nghe thấy một cách tự nhiên.\n- Cấu trúc: N + が + 見える/聞こえる\n#### 📝 Ví dụ minh họa\n- 山が見えます。(Tôi nhìn thấy núi.)\n- 鳥の声が聞こえます。(Tôi nghe thấy tiếng chim.)\n- ここから海が見えます。(Từ đây có thể nhìn thấy biển.)\n- 隣の部屋の音が聞こえます。(Tôi nghe thấy tiếng từ phòng bên cạnh.)\n\n### 3. N しか 〜 ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Nhấn mạnh sự ít ỏi, chỉ có duy nhất.\n- Cấu trúc: N + しか + V (phủ định)\n#### 📝 Ví dụ minh họa\n- 100円しかありません。(Tôi chỉ có 100 yên.)\n- 一人しかいません。(Chỉ có một người.)\n- 水しか飲みません。(Tôi chỉ uống nước.)\n- 日本語しか話せません。(Tôi chỉ có thể nói được tiếng Nhật.)",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -349,7 +349,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 27 — Từ vựng",
+          "name": "Minna N4 — Bài 27",
           "description": "Từ vựng bài số 27 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -358,7 +358,7 @@
               "front": "走る",
               "back": "Chạy",
               "romaji": "はしる",
-              "example": "__NOTE__: trên đường",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -491,7 +491,7 @@
               "front": "～しか",
               "back": "Chỉ ~",
               "romaji": "～しか",
-              "example": "__NOTE__: phủ định",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -641,7 +641,7 @@
           "cards": [
             {
               "front": "られる / れる",
-              "back": "Ý nghĩa: Thể hiện khả năng có thể làm một việc gì đó.\nCấu trúc: Nhóm 1: V-u → V-eru; Nhóm 2: V-ru → V-rareru; Nhóm 3: くる→こられる, する→できる",
+              "back": "Ý nghĩa: Thể hiện khả năng có thể làm một việc gì đó.\nCấu trúc: Nhóm 1: V-u → V-eru; Nhóm 2: Vる → V-rareru; Nhóm 3: くる→こられる, する→できる",
               "romaji": "rareru / reru",
               "example": "漢字が読めます。\nTôi có thể đọc được chữ Hán.\n\n肉が食べられます。\nTôi có thể ăn được thịt.\n\n明日、行くことができます。\nNgày mai tôi có thể đi được.\n\nこのペンで書けます。\nTôi có thể viết bằng chiếc bút này.",
               "jlptLevel": 4
@@ -671,9 +671,9 @@
   },
   {
     "order": 3,
-    "title": "Bài 28 — Từ vựng JLPT N4 (Phần 3)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 3/25.",
-    "theoryMd": "### 1. V-たほうがいいです\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đưa ra lời khuyên nên làm gì đó thì tốt hơn.\n- Cấu trúc: V-た + ほうがいいです\n#### 📝 Ví dụ minh họa\n- 毎日運動したほうがいいです。(Bạn nên tập thể dục mỗi ngày.)\n- 早く寝たほうがいいですよ。(Bạn nên đi ngủ sớm đi.)\n- 薬を飲んだほうがいいです。(Bạn nên uống thuốc đi.)\n- 野菜を食べたほうがいいです。(Bạn nên ăn rau đi.)\n\n### 2. 〜から\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Biểu thị lý do, nguyên nhân.\n- Cấu trúc: Mệnh đề nguyên nhân + から + Mệnh đề kết quả\n#### 📝 Ví dụ minh họa\n- 雨が降るから、傘を持っていきます。(Vì trời mưa nên tôi mang theo ô.)\n- 忙しいから、行きません。(Vì bận nên tôi không đi.)\n- 暑いから、窓を開けます。(Vì nóng nên tôi mở cửa sổ.)\n- 安いから、これを買います。(Vì rẻ nên tôi mua cái này.)",
+    "title": "Bài 28 — Thói quen & Cuộc sống",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 28 — Thói quen & Cuộc sống.",
+    "theoryMd": "### 1. Vたほうがいいです\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đưa ra lời khuyên nên làm gì đó thì tốt hơn.\n- Cấu trúc: Vた + ほうがいいです\n#### 📝 Ví dụ minh họa\n- 毎日運動したほうがいいです。(Bạn nên tập thể dục mỗi ngày.)\n- 早く寝たほうがいいですよ。(Bạn nên đi ngủ sớm đi.)\n- 薬を飲んだほうがいいです。(Bạn nên uống thuốc đi.)\n- 野菜を食べたほうがいいです。(Bạn nên ăn rau đi.)\n\n### 2. 〜から\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Biểu thị lý do, nguyên nhân.\n- Cấu trúc: Mệnh đề nguyên nhân + から + Mệnh đề kết quả\n#### 📝 Ví dụ minh họa\n- 雨が降るから、傘を持っていきます。(Vì trời mưa nên tôi mang theo ô.)\n- 忙しいから、行きません。(Vì bận nên tôi không đi.)\n- 暑いから、窓を開けます。(Vì nóng nên tôi mở cửa sổ.)\n- 安いから、これを買います。(Vì rẻ nên tôi mua cái này.)",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -684,7 +684,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 28 — Từ vựng",
+          "name": "Minna N4 — Bài 28",
           "description": "Từ vựng bài số 28 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -975,8 +975,8 @@
           "jlptLevel": 4,
           "cards": [
             {
-              "front": "V-たほうがいいです",
-              "back": "Ý nghĩa: Đưa ra lời khuyên nên làm gì đó thì tốt hơn.\nCấu trúc: V-た + ほうがいいです",
+              "front": "Vたほうがいいです",
+              "back": "Ý nghĩa: Đưa ra lời khuyên nên làm gì đó thì tốt hơn.\nCấu trúc: Vた + ほうがいいです",
               "romaji": "V-ta-houga-ii-desu",
               "example": "毎日運動したほうがいいです。\nBạn nên tập thể dục mỗi ngày.\n\n早く寝たほうがいいですよ。\nBạn nên đi ngủ sớm đi.\n\n薬を飲んだほうがいいです。\nBạn nên uống thuốc đi.\n\n野菜を食べたほうがいいです。\nBạn nên ăn rau đi.",
               "jlptLevel": 4
@@ -999,8 +999,8 @@
   },
   {
     "order": 4,
-    "title": "Bài 29 — Từ vựng JLPT N4 (Phần 4)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 4/25.",
+    "title": "Bài 29 — Trạng thái đồ vật & Hoàn thành",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 29 — Trạng thái đồ vật & Hoàn thành.",
     "theoryMd": "### 1. N1 の N2\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Bổ nghĩa cho danh từ, N1 giải thích thêm cho N2.\n- Cấu trúc: N1 + の + N2\n#### 📝 Ví dụ minh họa\n- 日本語の本です。(Đó là sách tiếng Nhật.)\n- 駅の近くです。(Ở gần nhà ga.)\n- 私の国の料理です。(Đây là món ăn của nước tôi.)\n- 東京のホテルです。(Đây là khách sạn ở Tokyo.)\n\n### 2. 〜に 入学します\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Nhập học vào một cơ sở giáo dục.\n- Cấu trúc: Địa điểm + に + 入学します\n#### 📝 Ví dụ minh họa\n- 大学に入学します。(Tôi nhập học đại học.)\n- 専門学校に入学しました。(Tôi đã nhập học trường chuyên môn.)\n- 来年、高校に入学します。(Năm sau tôi sẽ nhập học cấp 3.)\n- 良い大学に入学したいです。(Tôi muốn nhập học trường đại học tốt.)",
     "skills": [
       "VOCABULARY",
@@ -1012,7 +1012,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 29 — Từ vựng",
+          "name": "Minna N4 — Bài 29",
           "description": "Từ vựng bài số 29 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -1327,8 +1327,8 @@
   },
   {
     "order": 5,
-    "title": "Bài 30 — Từ vựng JLPT N4 (Phần 5)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 5/25.",
+    "title": "Bài 30 — Trạng thái chuẩn bị & Dự phòng",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 30 — Trạng thái chuẩn bị & Dự phòng.",
     "theoryMd": "### 1. へ / に (Trợ từ chỉ hướng)\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trợ từ chỉ hướng chuyển động hoặc điểm đến.\n- Cấu trúc: Địa điểm + へ/に + 行きます/来ます/帰ります\n#### 📝 Ví dụ minh họa\n- 日本へ行きます。(Tôi đi đến Nhật Bản.)\n- 家へ帰ります。(Tôi về nhà.)\n- 学校に来ます。(Tôi đến trường.)\n- 公園へ行きます。(Tôi đi đến công viên.)\n\n### 2. N(hành động) + に + 行きます/来ます\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đi hoặc đến đâu để thực hiện một mục đích/hành động.\n- Cấu trúc: N (hành động) + に + 行きます/来ます\n#### 📝 Ví dụ minh họa\n- 買い物に行きます。(Tôi đi mua sắm.)\n- 食事に来ました。(Tôi đến để ăn cơm.)\n- 映画を見に行きます。(Tôi đi xem phim.)\n- 旅行に行きます。(Tôi đi du lịch.)",
     "skills": [
       "VOCABULARY",
@@ -1340,7 +1340,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 30 — Từ vựng",
+          "name": "Minna N4 — Bài 30",
           "description": "Từ vựng bài số 30 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -1655,9 +1655,9 @@
   },
   {
     "order": 6,
-    "title": "Bài 31 — Từ vựng JLPT N4 (Phần 6)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 6/25.",
-    "theoryMd": "### 1. V-te + います\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả trạng thái hiện tại là kết quả của một hành động đã xảy ra trước đó.\nCông thức: V-te + います\n\n#### 📝 Ví dụ minh họa\n壁にカレンダーが掛けてあります。\nCó cuốn lịch được treo trên tường.\n\n彼には長い髭が生えています。\nAnh ấy đang để râu dài.\n\n### 2. N (nơi chốn) + に + V\n#### 💡 Cấu trúc & Ý nghĩa\nChỉ địa điểm đặt để đồ vật.\nCông thức: N (nơi chốn) + に + V\n\n#### 📝 Ví dụ minh họa\n押入れに布団をしまいます。\nCất nệm vào trong tủ âm tường.\n\n冷蔵庫にビールを入れました。\nTôi đã cho bia vào trong tủ lạnh.",
+    "title": "Bài 31 — Ý định & Kế hoạch",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 31 — Ý định & Kế hoạch.",
+    "theoryMd": "### 1. Vて + います\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả trạng thái hiện tại là kết quả của một hành động đã xảy ra trước đó.\nCông thức: Vて + います\n\n#### 📝 Ví dụ minh họa\n壁にカレンダーが掛けてあります。\nCó cuốn lịch được treo trên tường.\n\n彼には長い髭が生えています。\nAnh ấy đang để râu dài.\n\n### 2. N (nơi chốn) + に + V\n#### 💡 Cấu trúc & Ý nghĩa\nChỉ địa điểm đặt để đồ vật.\nCông thức: N (nơi chốn) + に + V\n\n#### 📝 Ví dụ minh họa\n押入れに布団をしまいます。\nCất nệm vào trong tủ âm tường.\n\n冷蔵庫にビールを入れました。\nTôi đã cho bia vào trong tủ lạnh.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -1668,7 +1668,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 31 — Từ vựng",
+          "name": "Minna N4 — Bài 31",
           "description": "Từ vựng bài số 31 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -1959,8 +1959,8 @@
           "jlptLevel": 4,
           "cards": [
             {
-              "front": "V-te + います",
-              "back": "Ý nghĩa: Diễn tả trạng thái duy trì hoặc kết quả của một hành động đã xảy ra trong quá khứ.\nCấu trúc: V-te + います",
+              "front": "Vて + います",
+              "back": "Ý nghĩa: Diễn tả trạng thái duy trì hoặc kết quả của một hành động đã xảy ra trong quá khứ.\nCấu trúc: Vて + います",
               "romaji": "te-imasu",
               "example": "壁にカレンダーが掛けてあります。\nCó cuốn lịch được treo trên tường.\n\n彼には長い髭が生えています。\nAnh ấy đang để râu dài.\n\n窓が閉まっています。\nCửa sổ đang đóng.\n\n電気が点いています。\nĐèn đang bật.",
               "jlptLevel": 4
@@ -1990,9 +1990,9 @@
   },
   {
     "order": 7,
-    "title": "Bài 32 — Từ vựng JLPT N4 (Phần 7)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 7/25.",
-    "theoryMd": "### 1. V-る + ため（に）\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả mục đích thực hiện hành động.\nCông thức: V-る + ため（に）\n\n#### 📝 Ví dụ minh họa\n試験に合格するために、一生懸命勉強します。\nĐể thi đỗ kỳ thi, tôi học tập hết sức mình.\n\n### 2. V-khả năng + 見える\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả khả năng tự nhiên có thể nhìn thấy mà không cần ý chí.\nCông thức: V-khả năng + 見える\n\n#### 📝 Ví dụ minh họa\n窓から山が見えます。\nTừ cửa sổ có thể nhìn thấy núi.",
+    "title": "Bài 32 — Khuyên bảo & Dự đoán",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 32 — Khuyên bảo & Dự đoán.",
+    "theoryMd": "### 1. Vる + ため（に）\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả mục đích thực hiện hành động.\nCông thức: Vる + ため（に）\n\n#### 📝 Ví dụ minh họa\n試験に合格するために、一生懸命勉強します。\nĐể thi đỗ kỳ thi, tôi học tập hết sức mình.\n\n### 2. V-khả năng + 見える\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả khả năng tự nhiên có thể nhìn thấy mà không cần ý chí.\nCông thức: V-khả năng + 見える\n\n#### 📝 Ví dụ minh họa\n窓から山が見えます。\nTừ cửa sổ có thể nhìn thấy núi.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -2003,7 +2003,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 32 — Từ vựng",
+          "name": "Minna N4 — Bài 32",
           "description": "Từ vựng bài số 32 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -2294,8 +2294,8 @@
           "jlptLevel": 4,
           "cards": [
             {
-              "front": "V-る + ため（に）",
-              "back": "Ý nghĩa: Diễn tả mục đích thực hiện hành động.\nCấu trúc: V-る + ため（に）",
+              "front": "Vる + ため（に）",
+              "back": "Ý nghĩa: Diễn tả mục đích thực hiện hành động.\nCấu trúc: Vる + ため（に）",
               "romaji": "tame-ni",
               "example": "試験に合格するために、一生懸命勉強します。\nĐể thi đỗ kỳ thi, tôi học tập hết sức mình.\n\n健康のために、毎日走っています。\nVì sức khỏe, tôi chạy bộ mỗi ngày.\n\n日本語を学ぶために、日本へ行きます。\nTôi đi Nhật để học tiếng Nhật.\n\n将来のために、お金を貯めています。\nTôi đang tiết kiệm tiền vì tương lai.",
               "jlptLevel": 4
@@ -2325,9 +2325,9 @@
   },
   {
     "order": 8,
-    "title": "Bài 33 — Từ vựng JLPT N4 (Phần 8)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 8/25.",
-    "theoryMd": "### 1. V-る + ことにする\n#### 💡 Cấu trúc & Ý nghĩa\nQuyết định thực hiện một hành động sau khi đã suy nghĩ.\nCông thức: V-る + ことにする\n\n#### 📝 Ví dụ minh họa\n今日、新しいパソコンを買うことにしました。\nHôm nay, tôi đã quyết định mua máy tính mới.\n\n### 2. V-た + ことがある\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả kinh nghiệm đã trải qua.\nCông thức: V-た + ことがある\n\n#### 📝 Ví dụ minh họa\n私は日本料理を食べたことがあります。\nTôi đã từng ăn món Nhật rồi.",
+    "title": "Bài 33 — Hiệu lệnh & Biển báo",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 33 — Hiệu lệnh & Biển báo.",
+    "theoryMd": "### 1. Vる + ことにする\n#### 💡 Cấu trúc & Ý nghĩa\nQuyết định thực hiện một hành động sau khi đã suy nghĩ.\nCông thức: Vる + ことにする\n\n#### 📝 Ví dụ minh họa\n今日、新しいパソコンを買うことにしました。\nHôm nay, tôi đã quyết định mua máy tính mới.\n\n### 2. Vた + ことがある\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả kinh nghiệm đã trải qua.\nCông thức: Vた + ことがある\n\n#### 📝 Ví dụ minh họa\n私は日本料理を食べたことがあります。\nTôi đã từng ăn món Nhật rồi.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -2338,7 +2338,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 33 — Từ vựng",
+          "name": "Minna N4 — Bài 33",
           "description": "Từ vựng bài số 33 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -2494,7 +2494,7 @@
               "front": "が　当たる",
               "back": "Trúng",
               "romaji": "あたる",
-              "example": "__NOTE__: xổ số",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -2629,15 +2629,15 @@
           "jlptLevel": 4,
           "cards": [
             {
-              "front": "V-る + ことにする",
-              "back": "Ý nghĩa: Quyết định làm gì đó (thể hiện ý chí cá nhân).\nCấu trúc: V-る + ことにする",
+              "front": "Vる + ことにする",
+              "back": "Ý nghĩa: Quyết định làm gì đó (thể hiện ý chí cá nhân).\nCấu trúc: Vる + ことにする",
               "romaji": "koto-ni-suru",
               "example": "今日、新しいパソコンを買うことにしました。\nHôm nay, tôi đã quyết định mua máy tính mới.\n\n明日から毎日運動することにします。\nTôi quyết định từ mai ngày nào cũng sẽ tập thể dục.\n\n来月、日本へ行くことにしました。\nTôi đã quyết định tháng sau đi Nhật.\n\n禁煙することに決めました。\nTôi đã quyết định cai thuốc lá.",
               "jlptLevel": 4
             },
             {
-              "front": "V-た + ことがある",
-              "back": "Ý nghĩa: Đã từng trải nghiệm việc gì đó trong quá khứ.\nCấu trúc: V-た + ことがある",
+              "front": "Vた + ことがある",
+              "back": "Ý nghĩa: Đã từng trải nghiệm việc gì đó trong quá khứ.\nCấu trúc: Vた + ことがある",
               "romaji": "koto-ga-aru",
               "example": "私は日本料理を食べたことがあります。\nTôi đã từng ăn món Nhật rồi.\n\n北海道へ行ったことがありますか。\nBạn đã từng đến Hokkaido chưa?\n\n一度飛行機に乗ったことがあります。\nTôi đã từng đi máy bay một lần.\n\n富士山に登ったことがあります。\nTôi đã từng leo núi Phú Sĩ.",
               "jlptLevel": 4
@@ -2660,9 +2660,9 @@
   },
   {
     "order": 9,
-    "title": "Bài 34 — Từ vựng JLPT N4 (Phần 9)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 9/25.",
-    "theoryMd": "### 1. V-ている + 途中\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả một sự việc khác xảy ra xen ngang trong quá trình làm một việc gì đó.\nCông thức: V-ている + 途中\n\n#### 📝 Ví dụ minh họa\n家へ帰る途中で、友達に会いました。\nTôi đã gặp bạn trong khi đang trên đường về nhà.\n\n### 2. N + を起こす\n#### 💡 Cấu trúc & Ý nghĩa\nCó 2 nghĩa: gây ra vấn đề/tai nạn hoặc đánh thức ai đó.\nCông thức: N + を起こす\n\n#### 📝 Ví dụ minh họa\n彼は大きな問題を起こしました。\nAnh ấy đã gây ra một vấn đề lớn.",
+    "title": "Bài 34 — Hướng dẫn & Thực hiện",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 34 — Hướng dẫn & Thực hiện.",
+    "theoryMd": "### 1. Vている + 途中\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả một sự việc khác xảy ra xen ngang trong quá trình làm một việc gì đó.\nCông thức: Vている + 途中\n\n#### 📝 Ví dụ minh họa\n家へ帰る途中で、友達に会いました。\nTôi đã gặp bạn trong khi đang trên đường về nhà.\n\n### 2. N + を起こす\n#### 💡 Cấu trúc & Ý nghĩa\nCó 2 nghĩa: gây ra vấn đề/tai nạn hoặc đánh thức ai đó.\nCông thức: N + を起こす\n\n#### 📝 Ví dụ minh họa\n彼は大きな問題を起こしました。\nAnh ấy đã gây ra một vấn đề lớn.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -2673,7 +2673,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 34 — Từ vựng",
+          "name": "Minna N4 — Bài 34",
           "description": "Từ vựng bài số 34 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -2836,7 +2836,7 @@
               "front": "危篤",
               "back": "Nguy kịch",
               "romaji": "キトク",
-              "example": "__NOTE__: bệnh",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -2899,7 +2899,7 @@
               "front": "磨く",
               "back": "Mài, đánh",
               "romaji": "みがく",
-              "example": "__NOTE__: răng",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -2964,8 +2964,8 @@
           "jlptLevel": 4,
           "cards": [
             {
-              "front": "V-ている + 途中",
-              "back": "Ý nghĩa: Đang làm dở việc gì đó thì có việc khác xảy ra.\nCấu trúc: V-ている + 途中",
+              "front": "Vている + 途中",
+              "back": "Ý nghĩa: Đang làm dở việc gì đó thì có việc khác xảy ra.\nCấu trúc: Vている + 途中",
               "romaji": "tochu",
               "example": "家へ帰る途中で、友達に会いました。\nTôi đã gặp bạn trong khi đang trên đường về nhà.\n\n本を読む途中で寝てしまいました。\nTôi đã ngủ thiếp đi trong khi đang đọc sách.\n\n食事の途中で電話がかかってきました。\nĐang ăn dở bữa thì có điện thoại gọi đến.\n\n仕事の途中で雨が降ってきました。\nĐang làm việc dở thì trời mưa.",
               "jlptLevel": 4
@@ -2995,8 +2995,8 @@
   },
   {
     "order": 10,
-    "title": "Bài 35 — Từ vựng JLPT N4 (Phần 10)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 10/25.",
+    "title": "Bài 35 — Điều kiện & Giả định",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 35 — Điều kiện & Giả định.",
     "theoryMd": "### 1. 原因\n#### 💡 Cấu trúc & Ý nghĩa\nChỉ nguyên nhân của một kết quả.\nCông thức: 事実 + の原因は + 名詞/こと.\n\n#### 📝 Ví dụ minh họa\n火事の原因はタバコです。\nNguyên nhân vụ hỏa hoạn là thuốc lá.\n\n### 2. 代わり\n#### 💡 Cấu trúc & Ý nghĩa\nThay thế cho vật hoặc người khác.\nCông thức: A の 代わりに B.\n\n#### 📝 Ví dụ minh họa\nコーヒーの代わりに、紅茶を飲みます。\nTôi uống trà thay cho cà phê.",
     "skills": [
       "VOCABULARY",
@@ -3008,7 +3008,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 35 — Từ vựng",
+          "name": "Minna N4 — Bài 35",
           "description": "Từ vựng bài số 35 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -3276,7 +3276,7 @@
               "front": "が　かかる",
               "back": "Có",
               "romaji": "が　かかる",
-              "example": "__NOTE__: điện thoại",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -3330,9 +3330,9 @@
   },
   {
     "order": 11,
-    "title": "Bài 36 — Từ vựng JLPT N4 (Phần 11)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 11/25.",
-    "theoryMd": "### 1. 〜ように\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Để, nhằm mục đích làm gì đó.\n- Cấu trúc: V-dic / V-nai + ように\n#### 📝 Ví dụ minh họa\n忘れないように、メモをします。\nTôi ghi chú để không quên.\n\n### 2. 〜ようになります\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trở nên, chuyển biến thành một trạng thái năng lực nào đó.\n- Cấu trúc: V-dic / V-nai + ようになります\n#### 📝 Ví dụ minh họa\n日本語が話せるようになります。\nTôi trở nên nói được tiếng Nhật.\n\n### 3. 〜ようにしてください\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Hãy cố gắng làm (hoặc không làm) việc gì đó (lời khuyên/yêu cầu).\n- Cấu trúc: V-dic / V-nai + ようにしてください\n#### 📝 Ví dụ minh họa\n毎日、野菜を食べるようにしてください。\nHãy cố gắng ăn rau mỗi ngày nhé.",
+    "title": "Bài 36 — Mục tiêu & Thói quen mới",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 36 — Mục tiêu & Thói quen mới.",
+    "theoryMd": "### 1. 〜ように\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Để, nhằm mục đích làm gì đó.\n- Cấu trúc: V-dic / Vない + ように\n#### 📝 Ví dụ minh họa\n忘れないように、メモをします。\nTôi ghi chú để không quên.\n\n### 2. 〜ようになります\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trở nên, chuyển biến thành một trạng thái năng lực nào đó.\n- Cấu trúc: V-dic / Vない + ようになります\n#### 📝 Ví dụ minh họa\n日本語が話せるようになります。\nTôi trở nên nói được tiếng Nhật.\n\n### 3. 〜ようにしてください\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Hãy cố gắng làm (hoặc không làm) việc gì đó (lời khuyên/yêu cầu).\n- Cấu trúc: V-dic / Vない + ようにしてください\n#### 📝 Ví dụ minh họa\n毎日、野菜を食べるようにしてください。\nHãy cố gắng ăn rau mỗi ngày nhé.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -3343,7 +3343,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 36 — Từ vựng",
+          "name": "Minna N4 — Bài 36",
           "description": "Từ vựng bài số 36 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -3635,21 +3635,21 @@
           "cards": [
             {
               "front": "〜ように",
-              "back": "Ý nghĩa: Để, nhằm mục đích làm gì đó.\nCấu trúc: V-dic / V-nai + ように",
+              "back": "Ý nghĩa: Để, nhằm mục đích làm gì đó.\nCấu trúc: V-dic / Vない + ように",
               "romaji": "you-ni",
               "example": "忘れないように、メモをします。\nTôi ghi chú để không quên.\n\n風邪をひかないように、気をつけています。\nTôi đang chú ý để không bị cảm lạnh.\n\n早く起きられるように、目覚ましをかけます。\nTôi đặt báo thức để có thể dậy sớm.",
               "jlptLevel": 4
             },
             {
               "front": "〜ようになります",
-              "back": "Ý nghĩa: Trở nên, chuyển biến thành một trạng thái năng lực nào đó.\nCấu trúc: V-dic / V-nai + ようになります",
+              "back": "Ý nghĩa: Trở nên, chuyển biến thành một trạng thái năng lực nào đó.\nCấu trúc: V-dic / Vない + ようになります",
               "romaji": "you-ni-narimasu",
               "example": "日本語が話せるようになります。\nTôi trở nên nói được tiếng Nhật.\n\n毎日練習して、泳げるようになりました。\nTôi đã luyện tập mỗi ngày và đã có thể bơi được.\n\n野菜が食べられるようになりました。\nTôi đã trở nên ăn được rau.",
               "jlptLevel": 4
             },
             {
               "front": "〜ようにしてください",
-              "back": "Ý nghĩa: Hãy cố gắng làm (hoặc không làm) việc gì đó (lời khuyên/yêu cầu).\nCấu trúc: V-dic / V-nai + ようにしてください",
+              "back": "Ý nghĩa: Hãy cố gắng làm (hoặc không làm) việc gì đó (lời khuyên/yêu cầu).\nCấu trúc: V-dic / Vない + ようにしてください",
               "romaji": "you-ni-shitekudasai",
               "example": "毎日、野菜を食べるようにしてください。\nHãy cố gắng ăn rau mỗi ngày nhé.\n\n夜遅く食べないようにしてください。\nHãy cố gắng không ăn vào đêm muộn.\n\n忘れ物をしないようにしてください。\nHãy cố gắng không để quên đồ đạc.",
               "jlptLevel": 4
@@ -3665,8 +3665,8 @@
   },
   {
     "order": 12,
-    "title": "Bài 37 — Từ vựng JLPT N4 (Phần 12)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 12/25.",
+    "title": "Bài 37 — Tai nạn & Bị động",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 37 — Tai nạn & Bị động.",
     "theoryMd": "### 1. 〜以内\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trong vòng, giới hạn thời gian hoặc số lượng.\n- Cấu trúc: Khoảng thời gian / Số lượng + 以内\n#### 📝 Ví dụ minh họa\n1週間以内にレポートを出してください。\nHãy nộp báo cáo trong vòng 1 tuần.\n\n### 2. 例えば\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dùng để đưa ra ví dụ minh họa.\n- Cấu trúc: 例えば + Danh từ/Câu\n#### 📝 Ví dụ minh họa\n趣味はたくさんあります。例えば、映画やスポーツです。\nTôi có nhiều sở thích. Ví dụ như phim ảnh và thể thao.\n\n### 3. 留守\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Vắng nhà, không có ở địa điểm nào đó.\n- Cấu trúc: N + が 留守です / 留守にする\n#### 📝 Ví dụ minh họa\n田中さんは留守です。\nAnh Tanaka hiện không có ở nhà.",
     "skills": [
       "VOCABULARY",
@@ -3678,7 +3678,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 37 — Từ vựng",
+          "name": "Minna N4 — Bài 37",
           "description": "Từ vựng bài số 37 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -3848,7 +3848,7 @@
               "front": "していらっしゃいます",
               "back": "Đang làm",
               "romaji": "していらっしゃいます",
-              "example": "__NOTE__: kính ngữ",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -3918,7 +3918,7 @@
               "front": "大勢の",
               "back": "Nhiều",
               "romaji": "おおぜいの",
-              "example": "__NOTE__: người",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -4000,8 +4000,8 @@
   },
   {
     "order": 13,
-    "title": "Bài 38 — Từ vựng JLPT N4 (Phần 13)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 13/25.",
+    "title": "Bài 38 — Sở thích & Kỹ năng",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 38 — Sở thích & Kỹ năng.",
     "theoryMd": "### 1. AはBのN倍\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Diễn tả sự so sánh gấp bao nhiêu lần.\n- Cấu trúc: Aは Bの + Số đếm + 倍 です\n#### 📝 Ví dụ minh họa\nこの港はあの港の2倍の大きさです。\nCảng này lớn gấp đôi cảng kia.\n\n### 2. 〜に通う\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Thói quen đi lại thường xuyên đến một địa điểm (trường học, công ty).\n- Cấu trúc: Địa điểm に 通う\n#### 📝 Ví dụ minh họa\n私は日本語学校に通っています。\nTôi đang theo học tại trường tiếng Nhật.\n\n### 3. 両方\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Chỉ hai vật hoặc hai người.\n- Cấu trúc: A と B (の) + 両方\n#### 📝 Ví dụ minh họa\nりんごとバナナ、両方ください。\nCho tôi cả táo và chuối.",
     "skills": [
       "VOCABULARY",
@@ -4013,7 +4013,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 38 — Từ vựng",
+          "name": "Minna N4 — Bài 38",
           "description": "Từ vựng bài số 38 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -4335,9 +4335,9 @@
   },
   {
     "order": 14,
-    "title": "Bài 39 — Từ vựng JLPT N4 (Phần 14)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 14/25.",
-    "theoryMd": "### 1. 〜て / 〜ので / から\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trình bày lý do, nguyên nhân dẫn đến kết quả.\n- Cấu trúc: V-te / V-nai / V-ta + ので / から\n#### 📝 Ví dụ minh họa\n天気が悪いですから、行きません。\nVì thời tiết xấu nên tôi không đi.\n\n### 2. 表と裏\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đối lập mặt trước và mặt sau, bề ngoài và bên trong.\n- Cấu trúc: Danh từ + の 表 / 裏\n#### 📝 Ví dụ minh họa\n紙の表に名前を書いてください。\nHãy viết tên lên mặt trước của tờ giấy.\n\n### 3. 遠慮しないで\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Lời động viên, mời mọc một cách lịch sự, không cần khách sáo.\n- Cấu trúc: 遠慮しないで + V\n#### 📝 Ví dụ minh họa\n遠慮しないで、たくさん食べてください。\nĐừng ngại, hãy ăn nhiều vào nhé.",
+    "title": "Bài 39 — Nguyên nhân & Cảm xúc",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 39 — Nguyên nhân & Cảm xúc.",
+    "theoryMd": "### 1. 〜て / 〜ので / から\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trình bày lý do, nguyên nhân dẫn đến kết quả.\n- Cấu trúc: Vて / Vない / Vた + ので / から\n#### 📝 Ví dụ minh họa\n天気が悪いですから、行きません。\nVì thời tiết xấu nên tôi không đi.\n\n### 2. 表と裏\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đối lập mặt trước và mặt sau, bề ngoài và bên trong.\n- Cấu trúc: Danh từ + の 表 / 裏\n#### 📝 Ví dụ minh họa\n紙の表に名前を書いてください。\nHãy viết tên lên mặt trước của tờ giấy.\n\n### 3. 遠慮しないで\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Lời động viên, mời mọc một cách lịch sự, không cần khách sáo.\n- Cấu trúc: 遠慮しないで + V\n#### 📝 Ví dụ minh họa\n遠慮しないで、たくさん食べてください。\nĐừng ngại, hãy ăn nhiều vào nhé.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -4348,7 +4348,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 39 — Từ vựng",
+          "name": "Minna N4 — Bài 39",
           "description": "Từ vựng bài số 39 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -4640,7 +4640,7 @@
           "cards": [
             {
               "front": "〜て / 〜ので / から",
-              "back": "Ý nghĩa: Vì... nên (diễn tả lý do).\nCấu trúc: V-te / V-nai / V-ta + ので / から",
+              "back": "Ý nghĩa: Vì... nên (diễn tả lý do).\nCấu trúc: Vて / Vない / Vた + ので / から",
               "romaji": "te-node-kara",
               "example": "急な用事があって、すみません。\nXin lỗi, tôi có việc bận đột xuất.\n\n天気が悪いですから、行きません。\nVì thời tiết xấu nên tôi không đi.\n\n雨が降ったので、遅れました。\nVì trời mưa nên tôi đã đến muộn.",
               "jlptLevel": 4
@@ -4670,8 +4670,8 @@
   },
   {
     "order": 15,
-    "title": "Bài 40 — Từ vựng JLPT N4 (Phần 15)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 15/25.",
+    "title": "Bài 40 — Đo lường & Nghi vấn",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 40 — Đo lường & Nghi vấn.",
     "theoryMd": "### 1. 申します\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Là dạng khiêm nhường ngữ của 「言います」, dùng để giới thiệu tên.\n- Cấu trúc: Tên + と 申します\n#### 📝 Ví dụ minh họa\nわたしはタナカと申します。\nTôi tên là Tanaka.\n\n### 2. 写すと引き出す\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Các động từ thông dụng trong đời sống (Sao chép và Rút tiền).\n- Cấu trúc: V-dic\n#### 📝 Ví dụ minh họa\nATMからお金を引き出します。\nTôi rút tiền từ máy ATM.\n\n### 3. 不便\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Tính từ chỉ trạng thái khó khăn, không thuận tiện.\n- Cấu trúc: N / Na-adj + は 不便です\n#### 📝 Ví dụ minh họa\nインターネットがないと不便です。\nKhông có internet thì thật bất tiện.",
     "skills": [
       "VOCABULARY",
@@ -4683,7 +4683,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 40 — Từ vựng",
+          "name": "Minna N4 — Bài 40",
           "description": "Từ vựng bài số 40 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -5005,9 +5005,9 @@
   },
   {
     "order": 16,
-    "title": "Bài 41 — Từ vựng JLPT N4 (Phần 16)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 16/25.",
-    "theoryMd": "### 1. V-る + つもりです\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả ý định, dự định làm một hành động nào đó của bản thân.\nCông thức: V (thể từ điển) + つもりです\n\n#### 📝 Ví dụ minh họa\n今日、早く寝るつもりです。\nHôm nay tôi dự định sẽ ngủ sớm.\n\n来週、日本へ行くつもりです。\nTuần sau tôi dự định sẽ đi Nhật.\n\n来年は国へ帰るつもりです。\nNăm tới tôi dự định sẽ về nước.\n\nこの本を全部読むつもりです。\nTôi dự định sẽ đọc hết cuốn sách này.\n\n---\n### 2. V-ます + つづける\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả hành động diễn ra liên tục, không ngắt quãng.\nCông thức: V (bỏ ます) + つづけます\n\n#### 📝 Ví dụ minh họa\n彼は日本語の勉強をつづけています。\nAnh ấy vẫn đang tiếp tục việc học tiếng Nhật.\n\n朝からずっと本を読みつづけました。\nTôi đã đọc sách liên tục từ sáng đến giờ.\n\n雨が降りつづけています。\nTrời đang mưa không ngừng.\n\n彼は走りつづけました。\nAnh ấy đã tiếp tục chạy mãi.\n\n---\n### 3. N / V-ます + 過ぎる\n#### 💡 Cấu trúc & Ý nghĩa\nChỉ hành động đi vượt qua một mốc địa điểm hoặc thời gian.\nCông thức: N / V (bỏ ます) + 過ぎる\n\n#### 📝 Ví dụ minh họa\n12時を過ぎました。\nĐã qua 12 giờ rồi.\n\n駅を過ぎてから、右に曲がってください。\nSau khi đi qua nhà ga, hãy rẽ phải.\n\n信号を過ぎたら、左側にあります。\nSau khi qua cột đèn tín hiệu, nó nằm ở phía bên trái.\n\n試験の時間が過ぎました。\nThời gian làm bài thi đã qua rồi.",
+    "title": "Bài 41 — Biếu tặng & Kính trọng",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 41 — Biếu tặng & Kính trọng.",
+    "theoryMd": "### 1. Vる + つもりです\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả ý định, dự định làm một hành động nào đó của bản thân.\nCông thức: V (thể từ điển) + つもりです\n\n#### 📝 Ví dụ minh họa\n今日、早く寝るつもりです。\nHôm nay tôi dự định sẽ ngủ sớm.\n\n来週、日本へ行くつもりです。\nTuần sau tôi dự định sẽ đi Nhật.\n\n来年は国へ帰るつもりです。\nNăm tới tôi dự định sẽ về nước.\n\nこの本を全部読むつもりです。\nTôi dự định sẽ đọc hết cuốn sách này.\n\n---\n### 2. V-ます + つづける\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả hành động diễn ra liên tục, không ngắt quãng.\nCông thức: V (bỏ ます) + つづけます\n\n#### 📝 Ví dụ minh họa\n彼は日本語の勉強をつづけています。\nAnh ấy vẫn đang tiếp tục việc học tiếng Nhật.\n\n朝からずっと本を読みつづけました。\nTôi đã đọc sách liên tục từ sáng đến giờ.\n\n雨が降りつづけています。\nTrời đang mưa không ngừng.\n\n彼は走りつづけました。\nAnh ấy đã tiếp tục chạy mãi.\n\n---\n### 3. N / V-ます + 過ぎる\n#### 💡 Cấu trúc & Ý nghĩa\nChỉ hành động đi vượt qua một mốc địa điểm hoặc thời gian.\nCông thức: N / V (bỏ ます) + 過ぎる\n\n#### 📝 Ví dụ minh họa\n12時を過ぎました。\nĐã qua 12 giờ rồi.\n\n駅を過ぎてから、右に曲がってください。\nSau khi đi qua nhà ga, hãy rẽ phải.\n\n信号を過ぎたら、左側にあります。\nSau khi qua cột đèn tín hiệu, nó nằm ở phía bên trái.\n\n試験の時間が過ぎました。\nThời gian làm bài thi đã qua rồi.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -5018,7 +5018,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 41 — Từ vựng",
+          "name": "Minna N4 — Bài 41",
           "description": "Từ vựng bài số 41 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -5244,7 +5244,7 @@
               "front": "―号",
               "back": "Số -",
               "romaji": "ごう",
-              "example": "__NOTE__: tàu, cơn bão",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -5258,7 +5258,7 @@
               "front": "―本",
               "back": "-cái",
               "romaji": "ほん",
-              "example": "__NOTE__: thon dài",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -5309,7 +5309,7 @@
           "jlptLevel": 4,
           "cards": [
             {
-              "front": "V-る + つもりです",
+              "front": "Vる + つもりです",
               "back": "Ý nghĩa: Dự định làm một việc gì đó trong tương lai.\nCấu trúc: V (thể từ điển) + つもりです",
               "romaji": "tsumori-desu",
               "example": "今日、早く寝るつもりです。\nHôm nay tôi dự định sẽ ngủ sớm.\n\n来週、日本へ行くつもりです。\nTuần sau tôi dự định sẽ đi Nhật.\n\n来年は国へ帰るつもりです。\nNăm tới tôi dự định sẽ về nước.\n\nこの本を全部読むつもりです。\nTôi dự định sẽ đọc hết cuốn sách này.",
@@ -5340,8 +5340,8 @@
   },
   {
     "order": 17,
-    "title": "Bài 42 — Từ vựng JLPT N4 (Phần 17)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 17/25.",
+    "title": "Bài 42 — Mục đích & Tiện ích",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 42 — Mục đích & Tiện ích.",
     "theoryMd": "### 1. 亡くなる\n#### 💡 Cấu trúc & Ý nghĩa\nCách nói giảm nói tránh, lịch sự của 'chết'. Dùng khi nói về người khác một cách tôn trọng.\nCông thức: N + が + 亡くなる\n\n#### 📝 Ví dụ minh họa\n先月、祖父が亡くなりました。\nTháng trước ông tôi đã qua đời.\n\n有名な俳優が昨日亡くなりました。\nMột diễn viên nổi tiếng đã qua đời ngày hôm qua.\n\n彼は若くして亡くなりました。\nÔng ấy đã qua đời khi còn trẻ.\n\n親友が亡くなって、とても悲しいです。\nBạn thân của tôi qua đời nên tôi rất buồn.\n\n---\n### 2. はずです\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả sự suy đoán dựa trên căn cứ, chắc chắn điều gì đó sẽ xảy ra hoặc đã xảy ra.\nCông thức: V/A/N (thể ngắn) + はずです\n\n#### 📝 Ví dụ minh họa\n彼は昨日帰ったはずです。\nChắc hẳn là anh ấy đã về từ hôm qua rồi.\n\n彼は知っているはずです。\nAnh ấy chắc chắn là biết điều đó.\n\n今日は日曜日だから、学校は休みのはずです。\nHôm nay là chủ nhật nên chắc chắn trường nghỉ.\n\nあの店は美味しいはずです。\nCửa hàng đó chắc hẳn là ngon.\n\n---\n### 3. 以外\n#### 💡 Cấu trúc & Ý nghĩa\nChỉ ra ngoại lệ, ngoài danh từ đó ra thì không tính.\nCông thức: N + 以外\n\n#### 📝 Ví dụ minh họa\n私以外、みんな行きました。\nNgoài tôi ra, mọi người đều đã đi hết.\n\nこれ以外に方法はありません。\nNgoài cách này ra thì không còn phương pháp nào khác.\n\n週末以外は毎日働いています。\nTôi làm việc mỗi ngày trừ cuối tuần.\n\nこの人以外は知りません。\nNgoài người này ra tôi không biết ai cả.",
     "skills": [
       "VOCABULARY",
@@ -5353,7 +5353,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 42 — Từ vựng",
+          "name": "Minna N4 — Bài 42",
           "description": "Từ vựng bài số 42 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -5376,7 +5376,7 @@
               "front": "どうでしょうか",
               "back": "Thế nào",
               "romaji": "どうでしょうか",
-              "example": "__NOTE__: lịch sự",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -5397,7 +5397,7 @@
               "front": "いらっしゃいます",
               "back": "Đến",
               "romaji": "いらっしゃいます",
-              "example": "__NOTE__: tôn kính ngữ",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -5495,14 +5495,14 @@
               "front": "頂きます",
               "back": "Nhận",
               "romaji": "いただきます",
-              "example": "__NOTE__: khiêm",
+              "example": "",
               "jlptLevel": 4
             },
             {
               "front": "くださいます",
               "back": "Cho, tặng",
               "romaji": "くださいます",
-              "example": "__NOTE__: khiêm",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -5675,9 +5675,9 @@
   },
   {
     "order": 18,
-    "title": "Bài 43 — Từ vựng JLPT N4 (Phần 18)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 18/25.",
-    "theoryMd": "### 1. V-る + ことがあります\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả hành động thỉnh thoảng mới xảy ra, không thường xuyên.\nCông thức: V-る + ことがあります\n\n#### 📝 Ví dụ minh họa\n週末、外で踊ることがあります。\nCuối tuần, thỉnh thoảng tôi có khiêu vũ bên ngoài.\n\nたまに一人で旅行することがあります。\nThỉnh thoảng tôi có đi du lịch một mình.\n\n朝、コーヒーを飲まないことがあります。\nBuổi sáng, thỉnh thoảng tôi không uống cà phê.\n\n疲れて早く寝ることがあります。\nCó khi tôi mệt nên đi ngủ sớm.\n\n---\n### 2. V-た + 後で\n#### 💡 Cấu trúc & Ý nghĩa\nThứ tự hành động: Sau khi hoàn thành hành động A thì tiếp tục hành động B.\nCông thức: V-た + 後で\n\n#### 📝 Ví dụ minh họa\n部屋を片付けた後で、宿題を済ませます。\nSau khi dọn phòng xong, tôi sẽ làm bài tập.\n\n仕事が終わった後で、食事に行きましょう。\nSau khi xong việc, mình cùng đi ăn nhé.\n\n映画を見た後で、お茶を飲みました。\nSau khi xem phim xong, tôi đã đi uống trà.\n\nシャワーを浴びた後で、出かけます。\nSau khi tắm xong, tôi sẽ ra ngoài.\n\n---\n### 3. とうとう\n#### 💡 Cấu trúc & Ý nghĩa\nPhó từ nhấn mạnh kết quả đạt được sau một quá trình dài chờ đợi hoặc nỗ lực.\nCông thức: とうとう + V\n\n#### 📝 Ví dụ minh họa\nずっと雨が降っていましたが、とうとう止みました。\nTrời mưa suốt nhưng cuối cùng cũng đã tạnh.\n\nとうとう完成しました。\nCuối cùng cũng đã hoàn thành.\n\nとうとう彼が来ました。\nCuối cùng thì anh ấy cũng đến.\n\n長い間待って、とうとう合格しました。\nĐợi một thời gian dài, cuối cùng tôi cũng đỗ.",
+    "title": "Bài 43 — Trạng thái vẻ ngoài",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 43 — Trạng thái vẻ ngoài.",
+    "theoryMd": "### 1. Vる + ことがあります\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả hành động thỉnh thoảng mới xảy ra, không thường xuyên.\nCông thức: Vる + ことがあります\n\n#### 📝 Ví dụ minh họa\n週末、外で踊ることがあります。\nCuối tuần, thỉnh thoảng tôi có khiêu vũ bên ngoài.\n\nたまに一人で旅行することがあります。\nThỉnh thoảng tôi có đi du lịch một mình.\n\n朝、コーヒーを飲まないことがあります。\nBuổi sáng, thỉnh thoảng tôi không uống cà phê.\n\n疲れて早く寝ることがあります。\nCó khi tôi mệt nên đi ngủ sớm.\n\n---\n### 2. Vた + 後で\n#### 💡 Cấu trúc & Ý nghĩa\nThứ tự hành động: Sau khi hoàn thành hành động A thì tiếp tục hành động B.\nCông thức: Vた + 後で\n\n#### 📝 Ví dụ minh họa\n部屋を片付けた後で、宿題を済ませます。\nSau khi dọn phòng xong, tôi sẽ làm bài tập.\n\n仕事が終わった後で、食事に行きましょう。\nSau khi xong việc, mình cùng đi ăn nhé.\n\n映画を見た後で、お茶を飲みました。\nSau khi xem phim xong, tôi đã đi uống trà.\n\nシャワーを浴びた後で、出かけます。\nSau khi tắm xong, tôi sẽ ra ngoài.\n\n---\n### 3. とうとう\n#### 💡 Cấu trúc & Ý nghĩa\nPhó từ nhấn mạnh kết quả đạt được sau một quá trình dài chờ đợi hoặc nỗ lực.\nCông thức: とうとう + V\n\n#### 📝 Ví dụ minh họa\nずっと雨が降っていましたが、とうとう止みました。\nTrời mưa suốt nhưng cuối cùng cũng đã tạnh.\n\nとうとう完成しました。\nCuối cùng cũng đã hoàn thành.\n\nとうとう彼が来ました。\nCuối cùng thì anh ấy cũng đến.\n\n長い間待って、とうとう合格しました。\nĐợi một thời gian dài, cuối cùng tôi cũng đỗ.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -5688,7 +5688,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 43 — Từ vựng",
+          "name": "Minna N4 — Bài 43",
           "description": "Từ vựng bài số 43 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -5732,14 +5732,14 @@
               "front": "叔母",
               "back": "Cô, dì, bác",
               "romaji": "おば",
-              "example": "__NOTE__: mình",
+              "example": "",
               "jlptLevel": 4
             },
             {
               "front": "叔母さん",
               "back": "Cô, dì, bác",
               "romaji": "おばさん",
-              "example": "__NOTE__: khác",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -5979,15 +5979,15 @@
           "jlptLevel": 4,
           "cards": [
             {
-              "front": "V-る + ことがあります",
-              "back": "Ý nghĩa: Thỉnh thoảng làm gì đó (tần suất thấp).\nCấu trúc: V-る + ことがあります",
+              "front": "Vる + ことがあります",
+              "back": "Ý nghĩa: Thỉnh thoảng làm gì đó (tần suất thấp).\nCấu trúc: Vる + ことがあります",
               "romaji": "koto-ga-arimasu",
               "example": "週末、外で踊ることがあります。\nCuối tuần, thỉnh thoảng tôi có khiêu vũ bên ngoài.\n\nたまに一人で旅行することがあります。\nThỉnh thoảng tôi có đi du lịch một mình.\n\n朝、コーヒーを飲まないことがあります。\nBuổi sáng, thỉnh thoảng tôi không uống cà phê.\n\n疲れて早く寝ることがあります。\nCó khi tôi mệt nên đi ngủ sớm.",
               "jlptLevel": 4
             },
             {
-              "front": "V-た + 後で",
-              "back": "Ý nghĩa: Sau khi làm xong việc gì đó thì mới làm tiếp việc khác.\nCấu trúc: V-た + 後で",
+              "front": "Vた + 後で",
+              "back": "Ý nghĩa: Sau khi làm xong việc gì đó thì mới làm tiếp việc khác.\nCấu trúc: Vた + 後で",
               "romaji": "ato-de",
               "example": "部屋を片付けた後で、宿題を済ませます。\nSau khi dọn phòng xong, tôi sẽ làm bài tập.\n\n仕事が終わった後で、食事に行きましょう。\nSau khi xong việc, mình cùng đi ăn nhé.\n\n映画を見た後で、お茶を飲みました。\nSau khi xem phim xong, tôi đã đi uống trà.\n\nシャワーを浴びた後で、出かけます。\nSau khi tắm xong, tôi sẽ ra ngoài.",
               "jlptLevel": 4
@@ -6010,8 +6010,8 @@
   },
   {
     "order": 19,
-    "title": "Bài 44 — Từ vựng JLPT N4 (Phần 19)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 19/25.",
+    "title": "Bài 44 — Mức độ & Tính chất hành động",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 44 — Mức độ & Tính chất hành động.",
     "theoryMd": "### 1. 参る\n#### 💡 Cấu trúc & Ý nghĩa\nLà khiêm nhường ngữ của 'đi' (行く) và 'đến' (来る). Dùng khi nói về bản thân hoặc người cùng nhóm với mình khiêm tốn trước người khác.\nCông thức: Dùng cho hành động di chuyển hướng về phía người nghe hoặc địa điểm khác.\n\n#### 📝 Ví dụ minh họa\n今からそちらに参ります。\nTôi sẽ đến đó ngay bây giờ.\n\n明日、会社に参ります。\nNgày mai tôi sẽ đến công ty.\n\nおじいちゃんの家へ参りました。\nTôi đã đến nhà ông.\n\nご挨拶に参りました。\nTôi đến đây để chào hỏi.\n\n---\n### 2. 召し上がる\n#### 💡 Cấu trúc & Ý nghĩa\nLà tôn kính ngữ của 'ăn' (食べる) và 'uống' (飲む). Dùng để tôn trọng người nghe hoặc người thứ ba.\nCông thức: Dùng để mời hoặc hỏi thăm người bề trên.\n\n#### 📝 Ví dụ minh họa\nどうぞ、召し上がってください。\nXin mời ông dùng bữa.\n\n先生は何を召し上がりますか。\nThầy dùng gì ạ?\n\n美味しいケーキを召し上がりました。\nNgài đã ăn món bánh rất ngon.\n\n何でもお好きなものを召し上がってください。\nXin ngài cứ dùng bất cứ thứ gì ngài thích.\n\n---\n### 3. 偶に\n#### 💡 Cấu trúc & Ý nghĩa\nDiễn tả một hành động xảy ra không thường xuyên.\nCông thức: 偶に + V\n\n#### 📝 Ví dụ minh họa\n偶に映画を見ます。\nThỉnh thoảng tôi xem phim.\n\n偶に日本料理を食べます。\nThỉnh thoảng tôi ăn món Nhật.\n\n偶に散歩をします。\nThỉnh thoảng tôi đi dạo.\n\n偶に早く帰ります。\nThỉnh thoảng tôi về sớm.",
     "skills": [
       "VOCABULARY",
@@ -6023,7 +6023,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 44 — Từ vựng",
+          "name": "Minna N4 — Bài 44",
           "description": "Từ vựng bài số 44 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -6298,7 +6298,7 @@
               "front": "服のセンスがある",
               "back": "Có khiếu, có gu",
               "romaji": "ふくのセンスがある",
-              "example": "__NOTE__: ăn mặc",
+              "example": "",
               "jlptLevel": 4
             }
           ]
@@ -6345,8 +6345,8 @@
   },
   {
     "order": 20,
-    "title": "Bài 45 — Từ vựng JLPT N4 (Phần 20)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 20/25.",
+    "title": "Bài 45 — Trường hợp khẩn cấp",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 45 — Trường hợp khẩn cấp.",
     "theoryMd": "### 1. 割れる / 折れる\n#### 💡 Cấu trúc & Ý nghĩa\nNội động từ chỉ trạng thái tự bị vỡ hoặc bị gãy.\nCông thức: N + が + 割れる/折れる\n\n#### 📝 Ví dụ minh họa\nコップが割れました。\nCái cốc bị vỡ.\n\n枝が折れました。\nCành cây bị gãy.\n\n皿が割れました。\nCái đĩa bị vỡ.\n\n傘の骨が折れました。\nCái khung dù bị gãy.\n\n---\n### 2. ちっとも\n#### 💡 Cấu trúc & Ý nghĩa\nPhó từ đi kèm với phủ định, nhấn mạnh sự không có chút gì.\nCông thức: ちっとも + V/A (phủ định)\n\n#### 📝 Ví dụ minh họa\n今日はちっとも寒くないです。\nHôm nay không lạnh chút nào cả.\n\n全然わかりません。\nTôi không hiểu chút nào cả.\n\n彼はちっとも動きません。\nAnh ta không nhúc nhích chút nào.\n\nこの本はちっとも面白くありません。\nCuốn sách này không thú vị chút nào.\n\n---\n### 3. 差し上げる\n#### 💡 Cấu trúc & Ý nghĩa\nKhiêm nhường ngữ của 'tặng'. Dùng khi làm hành động tặng cho người bề trên hoặc người mình cần tôn trọng.\nCông thức: N1 に N2 を 差し上げる\n\n#### 📝 Ví dụ minh họa\n先生に花を差し上げました。\nTôi đã tặng hoa cho thầy giáo.\n\n贈り物にこれを差し上げます。\nTôi xin tặng bạn món quà này.\n\n手紙を差し上げます。\nTôi xin gửi thư cho ngài.\n\n本を差し上げましょうか。\nTôi tặng ngài cuốn sách này nhé?",
     "skills": [
       "VOCABULARY",
@@ -6358,7 +6358,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 45 — Từ vựng",
+          "name": "Minna N4 — Bài 45",
           "description": "Từ vựng bài số 45 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -6465,7 +6465,7 @@
               "front": "が　起きる",
               "back": "Xảy ra",
               "romaji": "おきる",
-              "example": "__NOTE__: tai nạn",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -6673,9 +6673,9 @@
   },
   {
     "order": 21,
-    "title": "Bài 46 — Từ vựng JLPT N4 (Phần 21)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 21/25.",
-    "theoryMd": "### 1. V-masu + だす\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: V (bỏ ます) + だす\n- Ý nghĩa: Hành động bắt đầu đột ngột, bộc phát.\n#### 📝 Ví dụ minh họa\n- 急に雨が降り出しました。(Đột nhiên trời bắt đầu đổ mưa.)\n\n### 2. 沸く\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + が + 沸く\n- Ý nghĩa: Nước hoặc chất lỏng sôi.\n#### 📝 Ví dụ minh họa\n- お湯が沸きました。(Nước đã sôi rồi.)\n\n### 3. 付く\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + が + 付く\n- Ý nghĩa: Được gắn, đính hoặc dính vào.\n#### 📝 Ví dụ minh họa\n- ポケットにボタンが付いています。(Cái cúc được đính trên túi.)\n\n### 4. 変える\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + を + 変える\n- Ý nghĩa: Thay đổi (tác động lên vật khác).\n#### 📝 Ví dụ minh họa\n- 計画を変えました。(Tôi đã thay đổi kế hoạch.)",
+    "title": "Bài 46 — Thời điểm & Tiến độ hành động",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 46 — Thời điểm & Tiến độ hành động.",
+    "theoryMd": "### 1. Vます + だす\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: V (bỏ ます) + だす\n- Ý nghĩa: Hành động bắt đầu đột ngột, bộc phát.\n#### 📝 Ví dụ minh họa\n- 急に雨が降り出しました。(Đột nhiên trời bắt đầu đổ mưa.)\n\n### 2. 沸く\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + が + 沸く\n- Ý nghĩa: Nước hoặc chất lỏng sôi.\n#### 📝 Ví dụ minh họa\n- お湯が沸きました。(Nước đã sôi rồi.)\n\n### 3. 付く\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + が + 付く\n- Ý nghĩa: Được gắn, đính hoặc dính vào.\n#### 📝 Ví dụ minh họa\n- ポケットにボタンが付いています。(Cái cúc được đính trên túi.)\n\n### 4. 変える\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + を + 変える\n- Ý nghĩa: Thay đổi (tác động lên vật khác).\n#### 📝 Ví dụ minh họa\n- 計画を変えました。(Tôi đã thay đổi kế hoạch.)",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -6686,7 +6686,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 46 — Từ vựng",
+          "name": "Minna N4 — Bài 46",
           "description": "Từ vựng bài số 46 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -6970,7 +6970,7 @@
           "jlptLevel": 4,
           "cards": [
             {
-              "front": "V-masu + だす",
+              "front": "Vます + だす",
               "back": "Ý nghĩa: Diễn tả hành động bắt đầu một cách đột ngột hoặc bộc phát.\nCấu trúc: V (bỏ ます) + だす",
               "romaji": "v-masu-dasu",
               "example": "急に雨が降り出しました。\nĐột nhiên trời bắt đầu đổ mưa.\n\n赤ちゃんが泣き出しました。\nEm bé bắt đầu bật khóc.\n\n彼女は話し出しました。\nCô ấy bắt đầu lên tiếng.",
@@ -7008,8 +7008,8 @@
   },
   {
     "order": 22,
-    "title": "Bài 47 — Từ vựng JLPT N4 (Phần 22)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 22/25.",
+    "title": "Bài 47 — Tin đồn & Cảm giác",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 47 — Tin đồn & Cảm giác.",
     "theoryMd": "### 1. N + で\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N (phương tiện/nguyên liệu) + で\n- Ý nghĩa: Chỉ phương tiện hoặc nguyên liệu tạo thành.\n#### 📝 Ví dụ minh họa\n- バスで行きます。(Tôi đi bằng xe buýt.)\n\n### 2. N + が + すきです\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + が + すきです\n- Ý nghĩa: Yêu thích cái gì đó.\n#### 📝 Ví dụ minh họa\n- 私はサラダが好きです。(Tôi thích món salad.)\n\n### 3. ソフトな\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + は + ソフトな + N\n- Ý nghĩa: Mềm mại, dịu dàng.\n#### 📝 Ví dụ minh họa\n- 彼はソフトな人です。(Anh ấy là một người dịu dàng.)",
     "skills": [
       "VOCABULARY",
@@ -7021,7 +7021,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 47 — Từ vựng",
+          "name": "Minna N4 — Bài 47",
           "description": "Từ vựng bài số 47 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -7336,9 +7336,9 @@
   },
   {
     "order": 23,
-    "title": "Bài 48 — Từ vựng JLPT N4 (Phần 23)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 23/25.",
-    "theoryMd": "### 1. V-te + あります\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + が + V-te + あります\n- Ý nghĩa: Trạng thái kết quả của hành động có chủ đích.\n#### 📝 Ví dụ minh họa\n- 壁に絵が掛けてあります。(Bức tranh được treo trên tường.)\n\n### 2. のおかげで\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N/V (ngắn) + のおかげで\n- Ý nghĩa: Nhờ vào (kết quả tích cực).\n#### 📝 Ví dụ minh họa\n- 先生のおかげで合格しました。(Nhờ thầy giáo mà tôi đã đỗ.)\n\n### 3. わけです\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: V/Adj/N (ngắn) + わけです\n- Ý nghĩa: Thảo nào mà/Lý do là.\n#### 📝 Ví dụ minh họa\n- 忙しいわけです。(Thảo nào mà bận rộn như vậy.)",
+    "title": "Bài 48 — Sai khiến & Cho phép",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 48 — Sai khiến & Cho phép.",
+    "theoryMd": "### 1. Vて + あります\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N + が + Vて + あります\n- Ý nghĩa: Trạng thái kết quả của hành động có chủ đích.\n#### 📝 Ví dụ minh họa\n- 壁に絵が掛けてあります。(Bức tranh được treo trên tường.)\n\n### 2. のおかげで\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: N/V (ngắn) + のおかげで\n- Ý nghĩa: Nhờ vào (kết quả tích cực).\n#### 📝 Ví dụ minh họa\n- 先生のおかげで合格しました。(Nhờ thầy giáo mà tôi đã đỗ.)\n\n### 3. わけです\n#### 💡 Cấu trúc & Ý nghĩa\n- Cấu trúc: V/Adj/N (ngắn) + わけです\n- Ý nghĩa: Thảo nào mà/Lý do là.\n#### 📝 Ví dụ minh họa\n- 忙しいわけです。(Thảo nào mà bận rộn như vậy.)",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -7349,7 +7349,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 48 — Từ vựng",
+          "name": "Minna N4 — Bài 48",
           "description": "Từ vựng bài số 48 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -7470,7 +7470,7 @@
               "front": "お忙しいですか",
               "back": "A/c có bận không",
               "romaji": "おいそがしいですね",
-              "example": "__NOTE__: kính ngữ",
+              "example": "",
               "jlptLevel": 4
             },
             {
@@ -7633,8 +7633,8 @@
           "jlptLevel": 4,
           "cards": [
             {
-              "front": "V-te + あります",
-              "back": "Ý nghĩa: Diễn tả trạng thái hiện tại của một vật là kết quả của một hành động có chủ ý.\nCấu trúc: N + が + V-te + あります",
+              "front": "Vて + あります",
+              "back": "Ý nghĩa: Diễn tả trạng thái hiện tại của một vật là kết quả của một hành động có chủ ý.\nCấu trúc: N + が + Vて + あります",
               "romaji": "v-te-arimasu",
               "example": "ドアが開いてあります。\nCửa đang ở trạng thái mở (có ai đó đã mở).\n\n壁に絵が掛けてあります。\nBức tranh được treo trên tường.\n\nテーブルの上に料理が並べてあります。\nĐồ ăn đã được bày biện trên bàn.",
               "jlptLevel": 4
@@ -7664,8 +7664,8 @@
   },
   {
     "order": 24,
-    "title": "Bài 49 — Từ vựng JLPT N4 (Phần 24)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 24/25.",
+    "title": "Bài 49 — Kính ngữ (Tôn kính ngữ)",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 49 — Kính ngữ (Tôn kính ngữ).",
     "theoryMd": "### 1. Kính ngữ (いらっしゃる / おっしゃる)\n#### 💡 Cấu trúc & Ý nghĩa\n- いらっしゃる: Kính ngữ của 行く, 来る, いる.\n- おっしゃる: Kính ngữ của 言う.\n#### 📝 Ví dụ minh họa\n- 先生がいらっしゃいました。(Thầy giáo đã đến.)\n- 先生がそうおっしゃいました。(Thầy giáo đã nói như vậy.)\n\n### 2. Trạng từ (非常に / すっかり)\n#### 💡 Cấu trúc & Ý nghĩa\n- 非常に: Rất (trang trọng).\n- すっかり: Hoàn toàn.\n#### 📝 Ví dụ minh họa\n- 非常に暑い日です。(Ngày hôm nay rất nóng.)",
     "skills": [
       "VOCABULARY",
@@ -7677,7 +7677,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 49 — Từ vựng",
+          "name": "Minna N4 — Bài 49",
           "description": "Từ vựng bài số 49 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -7992,8 +7992,8 @@
   },
   {
     "order": 25,
-    "title": "Bài 50 — Từ vựng JLPT N4 (Phần 25)",
-    "summary": "Học và rèn luyện 23 từ vựng JLPT N4 - Lớp bài học 25/25.",
+    "title": "Bài 50 — Khiêm nhường ngữ",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 50 — Khiêm nhường ngữ.",
     "theoryMd": "### 1. ご覧になる\n#### 💡 Cấu trúc & Ý nghĩa\n- Kính ngữ của 見る.\n#### 📝 Ví dụ minh họa\n- 社長は資料をご覧になります。(Giám đốc xem tài liệu.)\n\n### 2. Liên từ (すると / それに)\n#### 💡 Cấu trúc & Ý nghĩa\n- すると: Kết quả đột ngột.\n- それに: Bổ sung thêm thông tin.\n#### 📝 Ví dụ minh họa\n- この店は安い。それに、美味しいです。(Quán này rẻ. Hơn nữa, còn ngon nữa.)\n\n### 3. Trạng từ thời gian (さっき / この間)\n#### 💡 Cấu trúc & Ý nghĩa\n- さっき: Vừa mới đây.\n- この間: Hôm nọ/dạo gần đây.\n#### 📝 Ví dụ minh họa\n- さっき会いました。(Tôi vừa gặp lúc nãy.)",
     "skills": [
       "VOCABULARY",
@@ -8005,7 +8005,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "MINNA-N4 — Bài 50 — Từ vựng",
+          "name": "Minna N4 — Bài 50",
           "description": "Từ vựng bài số 50 cấp độ JLPT N4.",
           "category": "TUVUNG",
           "jlptLevel": 4,
@@ -8133,7 +8133,7 @@
               "front": "ただ今",
               "back": "Bây giờ",
               "romaji": "ただいま",
-              "example": "__NOTE__: lịch sự",
+              "example": "",
               "jlptLevel": 4
             },
             {

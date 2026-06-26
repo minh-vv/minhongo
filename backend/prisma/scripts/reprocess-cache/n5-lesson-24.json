@@ -2,7 +2,7 @@
   "order": 24,
   "title": "Bài 24 — Điều kiện: ～と、～ば、～たら",
   "summary": "Ba cấu trúc điều kiện và sự khác biệt về sắc thái.",
-  "theoryMd": "### 1. Các mẫu câu điều kiện\n#### 💡 Cấu trúc & Ý nghĩa\n- V-る と: Kết quả tất yếu, hiển nhiên.\n- V-ば / Adj-ければ: Giả định chung.\n- V-たら: Sau khi hoàn thành / Giả định.",
+  "theoryMd": "### 1. Các mẫu câu điều kiện\n#### 💡 Cấu trúc & Ý nghĩa\n- Vる と: Kết quả tất yếu, hiển nhiên.\n- Vば / Adj-ければ: Giả định chung.\n- Vたら: Sau khi hoàn thành / Giả định.",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -255,22 +255,22 @@
         "jlptLevel": 5,
         "cards": [
           {
-            "front": "V-る + と",
-            "back": "Ý nghĩa: Khi/Hễ/Nếu... thì chắc chắn xảy ra kết quả tất yếu.\nCấu trúc: V-る + と",
+            "front": "Vる + と",
+            "back": "Ý nghĩa: Khi/Hễ/Nếu... thì chắc chắn xảy ra kết quả tất yếu.\nCấu trúc: Vる + と",
             "romaji": "v-ru to",
             "example": "ボタンを押すと、ドアが開きます。\nNếu ấn nút, cửa sẽ mở.\n\n右に曲がると、郵便局があります。\nNếu rẽ phải, sẽ thấy bưu điện.\n\n春になると、暖かくなります。\nKhi mùa xuân đến, trời sẽ ấm lên.\n\nこの薬を飲むと、元気になります。\nNếu uống thuốc này, sẽ khỏe lên.",
             "jlptLevel": 5
           },
           {
-            "front": "V-ば / Adj-ければ",
+            "front": "Vば / Adj-ければ",
             "back": "Ý nghĩa: Giả định điều kiện \"Nếu... thì...\".\nCấu trúc: V-thể ba / Adj-i (bỏ i -> ければ) + ば",
             "romaji": "v-ba / adj-kereba",
             "example": "安ければ、買います。\nNếu rẻ thì tôi sẽ mua.\n\n時間があれば、行きます。\nNếu có thời gian, tôi sẽ đi.\n\n雨が降れば、中止します。\nNếu trời mưa, sẽ dừng lại.\n\n美味しければ、食べます。\nNếu ngon thì tôi ăn.",
             "jlptLevel": 5
           },
           {
-            "front": "V-たら",
-            "back": "Ý nghĩa: Sau khi... / Nếu...\nCấu trúc: V-た + ら",
+            "front": "Vたら",
+            "back": "Ý nghĩa: Sau khi... / Nếu...\nCấu trúc: Vた + ら",
             "romaji": "v-tara",
             "example": "日本に着いたら、電話してください。\nSau khi đến Nhật, hãy gọi điện cho tôi.\n\nお金があったら、旅行します。\nNếu có tiền, tôi sẽ đi du lịch.\n\n着いたら、連絡します。\nKhi nào đến nơi, tôi sẽ liên lạc.\n\n休みだったら、遊びに行きます。\nNếu là ngày nghỉ, tôi sẽ đi chơi.",
             "jlptLevel": 5

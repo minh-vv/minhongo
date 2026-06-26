@@ -2,7 +2,7 @@
   "order": 7,
   "title": "Bài 7 — Ngữ pháp JLPT N1",
   "summary": "Học và rèn luyện các cấu trúc ngữ pháp JLPT N1 (Phần 7/92).",
-  "theoryMd": "### 1. 〜といわず〜といわず\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ phạm vi rộng lớn, bất kể chỗ nào hay lúc nào đều có chung một trạng thái.\n- **Cấu trúc**: N + といわず + N + といわず\n\n#### 📝 Ví dụ minh họa\n- 昼といわず夜といわず、救急車のサイレンが鳴りやまない。\n- 教室は床といわず机といわず、埃だらけだ。\n- 大人といわず子供といわず、みんなが楽しんでいる。\n\n### 2. 〜なり〜なり\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Gợi ý các phương án cụ thể, đưa ra ví dụ để đối phương lựa chọn.\n- **Cấu trúc**: N / V-ru + なり + N / V-ru + なり\n\n#### 📝 Ví dụ minh họa\n- コーヒーなり紅茶なり、何か飲みませんか。\n- 困ったら、先生に聞くなり、図書館で調べるなりしなさい。\n- メールなり電話なり、連絡をください。",
+  "theoryMd": "### 1. 〜といわず〜といわず\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ phạm vi rộng lớn, bất kể chỗ nào hay lúc nào đều có chung một trạng thái.\n- **Cấu trúc**: N + といわず + N + といわず\n\n#### 📝 Ví dụ minh họa\n- 昼といわず夜といわず、救急車のサイレンが鳴りやまない。\n- 教室は床といわず机といわず、埃だらけだ。\n- 大人といわず子供といわず、みんなが楽しんでいる。\n\n### 2. 〜なり〜なり\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Gợi ý các phương án cụ thể, đưa ra ví dụ để đối phương lựa chọn.\n- **Cấu trúc**: N / Vる + なり + N / Vる + なり\n\n#### 📝 Ví dụ minh họa\n- コーヒーなり紅茶なり、何か飲みませんか。\n- 困ったら、先生に聞くなり、図書館で調べるなりしなさい。\n- メールなり電話なり、連絡をください。",
   "skills": [
     "GRAMMAR"
   ],
@@ -26,7 +26,7 @@
           },
           {
             "front": "〜なり〜なり",
-            "back": "Ý nghĩa: Hoặc là... hoặc là... (đưa ra các ví dụ gợi ý/phương án để giải quyết vấn đề).\nCấu trúc: N / V-ru + なり + N / V-ru + なり",
+            "back": "Ý nghĩa: Hoặc là... hoặc là... (đưa ra các ví dụ gợi ý/phương án để giải quyết vấn đề).\nCấu trúc: N / Vる + なり + N / Vる + なり",
             "romaji": "nari-nari",
             "example": "コーヒーなり紅茶なり、何か飲みませんか。\nCà phê hay trà gì đó, uống chút chứ?\n\n困ったら、先生に聞くなり、図書館で調べるなりしなさい。\nNếu gặp khó thì hoặc hỏi thầy, hoặc tra ở thư viện đi.\n\nメールなり電話なり、連絡をください。\nHãy liên lạc cho tôi, bằng email hay điện thoại đều được.",
             "jlptLevel": 1

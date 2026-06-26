@@ -2,7 +2,7 @@
   "order": 15,
   "title": "Bài 15 — Thể て (1): Nối câu và yêu cầu",
   "summary": "Chia động từ thể て, mẫu ～てください, ～ています.",
-  "theoryMd": "### 1. Thể て và các mẫu câu liên quan\n#### 💡 Cấu trúc & Ý nghĩa\n- **V-て**: Dạng liên kết, dùng để tạo các mẫu câu nhờ vả hoặc tiếp diễn.\n- **V-て ください**: Lời nhờ vả, yêu cầu lịch sự.\n- **V-て います**: Diễn tả hành động đang diễn ra tại thời điểm hiện tại.\n\n#### 📝 Ví dụ minh họa\n- ここに 名前を 書いてください。 (Hãy viết tên vào đây.)\n- あめが ふっています。 (Trời đang mưa.)",
+  "theoryMd": "### 1. Thể て và các mẫu câu liên quan\n#### 💡 Cấu trúc & Ý nghĩa\n- **Vて**: Dạng liên kết, dùng để tạo các mẫu câu nhờ vả hoặc tiếp diễn.\n- **Vて ください**: Lời nhờ vả, yêu cầu lịch sự.\n- **Vて います**: Diễn tả hành động đang diễn ra tại thời điểm hiện tại.\n\n#### 📝 Ví dụ minh họa\n- ここに 名前を 書いてください。 (Hãy viết tên vào đây.)\n- あめが ふっています。 (Trời đang mưa.)",
   "skills": [
     "VOCABULARY",
     "GRAMMAR"
@@ -262,22 +262,22 @@
         "jlptLevel": 5,
         "cards": [
           {
-            "front": "V-て (Cách chia)",
+            "front": "Vて (Cách chia)",
             "back": "Ý nghĩa: Thể て là dạng liên kết động từ, dùng để nối câu hoặc kết hợp ngữ pháp.\nCấu trúc: Phụ thuộc vào nhóm động từ (Ví dụ: Nhóm 1 đuôi い,ち,り -> って...)",
             "romaji": "te-kei",
             "example": "かきます -> かいて (viết)\n\nのみます -> のんで (uống)\n\nたべます -> たべて (ăn)\n\nします -> して (làm)",
             "jlptLevel": 5
           },
           {
-            "front": "V-て ください",
-            "back": "Ý nghĩa: Mẫu câu nhờ vả, yêu cầu người khác làm gì đó một cách lịch sự.\nCấu trúc: V-て + ください",
+            "front": "Vて ください",
+            "back": "Ý nghĩa: Mẫu câu nhờ vả, yêu cầu người khác làm gì đó một cách lịch sự.\nCấu trúc: Vて + ください",
             "romaji": "te-kudasai",
             "example": "荷物を返してください。\nHãy trả lại hành lý cho tôi.\n\nここに 名前を 書いてください。\nHãy viết tên vào đây.\n\nドアを 開けてください。\nHãy mở cửa ra.\n\nゆっくり 話してください。\nHãy nói chậm thôi.",
             "jlptLevel": 5
           },
           {
-            "front": "V-て います",
-            "back": "Ý nghĩa: Diễn tả hành động đang tiếp diễn tại thời điểm nói.\nCấu trúc: V-て + います",
+            "front": "Vて います",
+            "back": "Ý nghĩa: Diễn tả hành động đang tiếp diễn tại thời điểm nói.\nCấu trúc: Vて + います",
             "romaji": "te-imasu",
             "example": "私は今、手紙を書いています。\nBây giờ tôi đang viết thư.\n\nあめが ふっています。\nTrời đang mưa.\n\nこどもが 公園で 遊んでいます。\nBọn trẻ đang chơi ở công viên.\n\nみんなは 勉強しています。\nMọi người đang học bài.",
             "jlptLevel": 5

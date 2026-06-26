@@ -1,8 +1,8 @@
 [
   {
     "order": 1,
-    "title": "Bài 1 — Tự giới thiệu (わたしは ◯◯ です)",
-    "summary": "Mẫu câu \"Tôi là...\", trợ từ は, ですか hỏi, kính ngữ さん.",
+    "title": "Bài 1 — Chào hỏi & Giới thiệu bản thân",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 1 — Chào hỏi & Giới thiệu bản thân.",
     "theoryMd": "### 1. N1 は N2 です\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: N1 là N2.\n- Cấu trúc: N1 (Chủ ngữ) + は + N2 (Danh từ) + です\n\n#### 📝 Ví dụ minh họa\nわたしは マイク です。\nTôi là Mike.\n\nかれは がくせい です。\nAnh ấy là học sinh.\n\n### 2. N1 は N2 じゃ ありません\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: N1 không phải là N2.\n- Cấu trúc: N1 + は + N2 + じゃ ありません\n\n#### 📝 Ví dụ minh họa\nわたしは がくせい じゃ ありません。\nTôi không phải là học sinh.\n\nあれは ほん じゃ ありません。\nCái đó không phải là sách.\n\n### 3. N1 は N2 ですか\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: N1 có phải là N2 không?\n- Cấu trúc: N1 + は + N2 + ですか\n\n#### 📝 Ví dụ minh họa\nあなたは マイクさん ですか。\nBạn có phải là anh Mike không?\n\nそれは じしょ ですか。\nĐó có phải là từ điển không?\n\n### 4. N + さん\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Hậu tố lịch sự thêm vào sau tên người.\n- Cấu trúc: Tên người + さん\n\n#### 📝 Ví dụ minh họa\nやまださんは せんせい です。\nAnh Yamada là giáo viên.\n\nマイクさんは アメリカじん です。\nAnh Mike là người Mỹ.",
     "skills": [
       "VOCABULARY",
@@ -14,7 +14,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 1 — Từ vựng",
+          "name": "Minna N5 — Bài 1",
           "description": "Từ vựng bài 1: Bài 1 — Tự giới thiệu (わたしは ◯◯ です)",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -149,7 +149,7 @@
               "front": "失礼ですが",
               "back": "Xin lỗi",
               "romaji": "しつれい",
-              "example": "__NOTE__: nhờ vả, hỏi thăm",
+              "example": "",
               "jlptLevel": 5
             },
             {
@@ -280,8 +280,8 @@
   },
   {
     "order": 2,
-    "title": "Bài 2 — これ・それ・あれ (Đồ vật xung quanh)",
-    "summary": "Đại từ chỉ vật, trợ từ の sở hữu, câu hỏi なんですか.",
+    "title": "Bài 2 — Đồ vật & Đồ dùng học tập",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 2 — Đồ vật & Đồ dùng học tập.",
     "theoryMd": "### 1. これ・それ・あれ\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đại từ chỉ đồ vật.\n- Cấu trúc: (これ/それ/あれ) + は + N + です\n\n#### 📝 Ví dụ minh họa\nこれは ほん です。\nĐây là cuốn sách.\n\nそれは つくえ です。\nĐó là cái bàn.\n\n### 2. この・その・あの\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Từ chỉ định bổ nghĩa cho danh từ.\n- Cấu trúc: (この/その/あの) + N + は ... です\n\n#### 📝 Ví dụ minh họa\nこの ほんは わたしの です。\nCuốn sách này là của tôi.\n\nあの かばんは だれの ですか。\nCái cặp kia là của ai?\n\n### 3. N1 の N2\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Sở hữu cách, dùng 'の' để nối hai danh từ.\n- Cấu trúc: N1 + の + N2\n\n#### 📝 Ví dụ minh họa\nわたしの ほん\nSách của tôi.\n\nせんせいの かばん\nCái cặp của giáo viên.",
     "skills": [
       "VOCABULARY",
@@ -293,7 +293,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 2 — Từ vựng",
+          "name": "Minna N5 — Bài 2",
           "description": "Từ vựng bài 2: Bài 2 — これ・それ・あれ (Đồ vật xung quanh)",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -442,7 +442,7 @@
               "front": "お土産",
               "back": "Quà",
               "romaji": "おみやげ",
-              "example": "__NOTE__: chơi xa",
+              "example": "",
               "jlptLevel": 5
             },
             {
@@ -552,8 +552,8 @@
   },
   {
     "order": 3,
-    "title": "Bài 3 — ここ・そこ・あそこ (Địa điểm)",
-    "summary": "Đại từ chỉ nơi chốn, hỏi giá tiền, đếm tiền yên.",
+    "title": "Bài 3 — Địa điểm & Phương hướng",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 3 — Địa điểm & Phương hướng.",
     "theoryMd": "### 1. ここ・そこ・あそこ\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Đại từ chỉ địa điểm.\n- Cấu trúc: (ここ/そこ/あそこ) + は + N (địa điểm) + です\n\n#### 📝 Ví dụ minh họa\nここは しょくどう です。\nĐây là nhà ăn.\n\nあそこは としょかん です。\nKia là thư viện.\n\n### 2. こちら・そちら・あちら\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Dạng lịch sự của nơi chốn.\n- Cấu trúc: (こちら/そちら/あちら) + は + N です\n\n#### 📝 Ví dụ minh họa\nこちらは やまださんです。\nĐây là anh Yamada.\n\nそちらは うけつけです。\nĐó là quầy lễ tân.\n\n### 3. いくら ですか\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Hỏi giá cả.\n- Cấu trúc: N + は + いくら ですか\n\n#### 📝 Ví dụ minh họa\nこれは いくら ですか。\nCái này bao nhiêu tiền?\n\nその とけいは 1000えん です。\nCái đồng hồ đó 1000 yên.",
     "skills": [
       "VOCABULARY",
@@ -565,7 +565,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 3 — Từ vựng",
+          "name": "Minna N5 — Bài 3",
           "description": "Từ vựng bài 3: Bài 3 — ここ・そこ・あそこ (Địa điểm)",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -824,8 +824,8 @@
   },
   {
     "order": 4,
-    "title": "Bài 4 — Giờ giấc & Động từ thể ます",
-    "summary": "Hỏi giờ, động từ ます, thời gian xuất hiện trong câu.",
+    "title": "Bài 4 — Thời gian & Lịch trình",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 4 — Thời gian & Lịch trình.",
     "theoryMd": "### 1. いま 何時 ですか\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Hỏi thời gian.\n- Cấu trúc: いま + giờ + じ + phút + ふん/ぷん + です\n\n#### 📝 Ví dụ minh họa\nいま 9じ 30ぷん です。\nBây giờ là 9 giờ 30 phút.\n\nいま 10じ です。\nBây giờ là 10 giờ.\n\n### 2. N (thời gian) に V ます\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Chỉ thời điểm thực hiện hành động.\n- Cấu trúc: N (thời gian) + に + V ます\n\n#### 📝 Ví dụ minh họa\n7じ に おきます。\nTôi thức dậy lúc 7 giờ.\n\n8がつ 15にちに にほんへ いきます。\nTôi đi Nhật vào ngày 15 tháng 8.\n\n### 3. 〜から〜まで\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Chỉ điểm bắt đầu và kết thúc.\n- Cấu trúc: N1 + から + N2 + まで\n\n#### 📝 Ví dụ minh họa\n9じ から 5じ まで はたらきます。\nTôi làm việc từ 9 giờ đến 5 giờ.\n\n7じ から 8じ まで べんきょうします。\nTôi học từ 7 giờ đến 8 giờ.",
     "skills": [
       "VOCABULARY",
@@ -837,7 +837,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 4 — Từ vựng",
+          "name": "Minna N5 — Bài 4",
           "description": "Từ vựng bài 4: Bài 4 — Giờ giấc & Động từ thể ます",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -1096,8 +1096,8 @@
   },
   {
     "order": 5,
-    "title": "Bài 5 — Động từ di chuyển (いきます／きます／かえります)",
-    "summary": "Trợ từ へ chỉ hướng, で chỉ phương tiện, と cùng với ai.",
+    "title": "Bài 5 — Phương tiện & Di chuyển",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 5 — Phương tiện & Di chuyển.",
     "theoryMd": "### 1. N (địa điểm) へ V\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trợ từ へ chỉ hướng di chuyển.\n- Cấu trúc: N (địa điểm) + へ + (いきます/きます/かえります)\n\n#### 📝 Ví dụ minh họa\nがっこう へ いきます。\nTôi đi đến trường.\n\nうち へ かえります。\nTôi về nhà.\n\n### 2. N (phương tiện) で N (địa điểm) へ V\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trợ từ で chỉ phương tiện giao thông.\n- Cấu trúc: N (phương tiện) + で + N (địa điểm) + へ + V\n\n#### 📝 Ví dụ minh họa\nでんしゃ で とうきょう へ いきます。\nTôi đi Tokyo bằng tàu điện.\n\nタクシー で いきます。\nTôi đi bằng taxi.\n\n### 3. N (người) と V\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trợ từ と chỉ đối tượng cùng thực hiện hành động.\n- Cấu trúc: N (người) + と + V\n\n#### 📝 Ví dụ minh họa\nともだち と いきます。\nTôi đi cùng bạn bè.\n\nかぞく と にほんへ きました。\nTôi đã đến Nhật cùng gia đình.",
     "skills": [
       "VOCABULARY",
@@ -1109,7 +1109,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 5 — Từ vựng",
+          "name": "Minna N5 — Bài 5",
           "description": "Từ vựng bài 5: Bài 5 — Động từ di chuyển (いきます／きます／かえります)",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -1368,8 +1368,8 @@
   },
   {
     "order": 6,
-    "title": "Bài 6 — Động từ nhóm 1 thể ます (Ăn, Uống, Nghe...)",
-    "summary": "Động từ nhóm 1, trợ từ を cho tân ngữ, から/まで thời gian.",
+    "title": "Bài 6 — Hoạt động hàng ngày",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 6 — Hoạt động hàng ngày.",
     "theoryMd": "### Bài 6: Động từ nhóm 1 và Thời gian\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **N を Vます**: Trợ từ 「を」 biểu thị tân ngữ trực tiếp của hành động. Động từ đứng cuối câu.\n- **Nから Nまで**: Xác định mốc thời gian bắt đầu (から) và kết thúc (まで).\n\n#### 📝 Ví dụ minh họa\n- わたしは たばこを すいます。(Tôi hút thuốc lá)\n- 9時から 5時まで 仕事を します。(Tôi làm việc từ 9 giờ đến 5 giờ)",
     "skills": [
       "VOCABULARY",
@@ -1381,7 +1381,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 6 — Từ vựng",
+          "name": "Minna N5 — Bài 6",
           "description": "Từ vựng bài 6: Bài 6 — Động từ nhóm 1 thể ます (Ăn, Uống, Nghe...)",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -1626,8 +1626,8 @@
   },
   {
     "order": 7,
-    "title": "Bài 7 — Địa điểm + Động từ di chuyển nâng cao",
-    "summary": "に chỉ điểm đến, で chỉ phương tiện, と cùng với ai, ひとりで.",
+    "title": "Bài 7 — Giao tiếp & Cho nhận hành động",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 7 — Giao tiếp & Cho nhận hành động.",
     "theoryMd": "### Bài 7: Di chuyển và Phương tiện\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **N(địa điểm) へ V**: Trợ từ 「へ」 (đọc là 'e') chỉ đích đến của các động từ như いきます, きます, かえります.\n- **N(phương tiện) で V**: Trợ từ 「で」 chỉ phương tiện thực hiện hành động.\n- **N(người) と V**: Trợ từ 「と」 chỉ người/đối tượng đồng hành.\n\n#### 📝 Ví dụ minh họa\n- わたしは こうえんへ いきます。(Tôi đi đến công viên)\n- ちかてつで いきます。(Tôi đi bằng tàu điện ngầm)",
     "skills": [
       "VOCABULARY",
@@ -1639,7 +1639,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 7 — Từ vựng",
+          "name": "Minna N5 — Bài 7",
           "description": "Từ vựng bài 7: Bài 7 — Địa điểm + Động từ di chuyển nâng cao",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -1891,8 +1891,8 @@
   },
   {
     "order": 8,
-    "title": "Bài 8 — Tính từ đuôi い và な",
-    "summary": "Hai loại tính từ, cách chia phủ định và quá khứ.",
+    "title": "Bài 8 — Tính từ & Trạng thái",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 8 — Tính từ & Trạng thái.",
     "theoryMd": "### Bài 8: Tính từ đuôi い\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **Khẳng định**: Dùng 「い + です」.\n- **Phủ định**: Bỏ 「い」, thêm 「くないです」.\n- **Lưu ý**: Tính từ 「いい」 (tốt) khi phủ định phải chuyển thành 「よくないです」.\n\n#### 📝 Ví dụ minh họa\n- このはしは ふるいです。(Cây cầu này cũ)\n- このにくは おいしくないです。(Thịt này không ngon)",
     "skills": [
       "VOCABULARY",
@@ -1904,7 +1904,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 8 — Từ vựng",
+          "name": "Minna N5 — Bài 8",
           "description": "Từ vựng bài 8: Bài 8 — Tính từ đuôi い và な",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -2149,8 +2149,8 @@
   },
   {
     "order": 9,
-    "title": "Bài 9 — Danh từ + があります/います",
-    "summary": "Diễn đạt \"có/tồn tại\" cho vật và người, vị trí với に.",
+    "title": "Bài 9 — Sở thích & Năng lực",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 9 — Sở thích & Năng lực.",
     "theoryMd": "### Bài 9: Sự tồn tại của sự vật\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **N が あります**: Dùng cho vật vô tri, cây cối.\n- **N が います**: Dùng cho người và động vật.\n- Vị trí thường được xác định bởi: Địa điểm に Vật/Người が あります/います.\n\n#### 📝 Ví dụ minh họa\n- つくえの うえに 本が あります。(Trên bàn có quyển sách)\n- 教室に 学生が います。(Trong lớp học có học sinh)",
     "skills": [
       "VOCABULARY",
@@ -2162,7 +2162,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 9 — Từ vựng",
+          "name": "Minna N5 — Bài 9",
           "description": "Từ vựng bài 9: Bài 9 — Danh từ + があります/います",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -2407,8 +2407,8 @@
   },
   {
     "order": 10,
-    "title": "Bài 10 — Đếm đồ vật và con người",
-    "summary": "Lượng từ đếm: 枚, 本, 冊, 台, 匹... và câu hỏi いくつ/なんまい.",
+    "title": "Bài 10 — Sự hiện hữu & Vị trí",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 10 — Sự hiện hữu & Vị trí.",
     "theoryMd": "### Bài 10: Đếm đồ vật và con người\n\n#### 💡 Cấu trúc & Ý nghĩa\n- Số lượng đặt sau danh từ (hoặc sau trợ từ を). Hậu tố đếm thay đổi tùy loại vật (枚: mỏng, 本: dài, 冊: sách, 台: máy móc).\n- **Người**: Dùng 「人 (にん)」. Lưu ý đặc biệt: 1 người (一人 - ひとり), 2 người (二人 - ふたり).\n\n#### 📝 Ví dụ minh họa\n- 切手を 3枚 買いました。(Tôi đã mua 3 con tem)\n- 一人で 行きます。(Tôi đi một mình)",
     "skills": [
       "VOCABULARY",
@@ -2420,7 +2420,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 10 — Từ vựng",
+          "name": "Minna N5 — Bài 10",
           "description": "Từ vựng bài 10: Bài 10 — Đếm đồ vật và con người",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -2665,8 +2665,8 @@
   },
   {
     "order": 11,
-    "title": "Bài 11 — Muốn làm gì: ～たい",
-    "summary": "Diễn đạt mong muốn với たい, hỏi và đáp về sở thích.",
+    "title": "Bài 11 — Số lượng & Khoảng thời gian",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 11 — Số lượng & Khoảng thời gian.",
     "theoryMd": "### 1. Muốn làm gì với ～たい\n#### 💡 Cấu trúc & Ý nghĩa\n- **Khẳng định**: V-ます(bỏ ます) + たいです: Diễn tả mong muốn của người nói.\n- **Phủ định**: V-ます(bỏ ます) + たくないです: Diễn tả ý muốn không làm.\n- **Nghi vấn**: V-ます(bỏ ます) + たいですか: Hỏi về mong muốn của đối phương.\n\n#### 📝 Ví dụ minh họa\n- わたしは おみずを のみたいです。 (Tôi muốn uống nước.)\n- なにを したいですか。 (Bạn muốn làm gì?)",
     "skills": [
       "VOCABULARY",
@@ -2678,7 +2678,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 11 — Từ vựng",
+          "name": "Minna N5 — Bài 11",
           "description": "Từ vựng bài 11: Bài 11 — Muốn làm gì: ～たい",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -2930,8 +2930,8 @@
   },
   {
     "order": 12,
-    "title": "Bài 12 — Lời mời và đề nghị: ～ませんか / ましょう",
-    "summary": "Cách mời ai làm gì cùng, từ chối lịch sự.",
+    "title": "Bài 12 — Thời tiết & So sánh",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 12 — Thời tiết & So sánh.",
     "theoryMd": "### 1. Lời mời và đề nghị\n#### 💡 Cấu trúc & Ý nghĩa\n- **～ませんか**: Dùng để mời ai đó làm gì, mang tính chất hỏi ý kiến.\n- **～ましょう**: Dùng để rủ rê, đề nghị cùng làm, mang tính chất khẳng định việc thực hiện.\n\n#### 📝 Ví dụ minh họa\n- コーヒーを のみませんか。 (Bạn có muốn uống cà phê cùng tôi không?)\n- えきへ いきましょう。 (Chúng ta cùng đi nhà ga nhé.)",
     "skills": [
       "VOCABULARY",
@@ -2943,7 +2943,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 12 — Từ vựng",
+          "name": "Minna N5 — Bài 12",
           "description": "Từ vựng bài 12: Bài 12 — Lời mời và đề nghị: ～ませんか / ましょう",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -3188,8 +3188,8 @@
   },
   {
     "order": 13,
-    "title": "Bài 13 — Trợ từ で (phương tiện/nơi chốn) nâng cao",
-    "summary": "で chỉ nguyên liệu, ngôn ngữ, phương tiện; と cùng nhau.",
+    "title": "Bài 13 — Ước muốn & Mục đích di chuyển",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 13 — Ước muốn & Mục đích di chuyển.",
     "theoryMd": "### 1. Sử dụng trợ từ trong câu\n#### 💡 Cấu trúc & Ý nghĩa\n- **N + で**: Dùng để chỉ phương tiện đi lại, công cụ thực hiện hoặc nguyên liệu làm ra vật phẩm.\n- **N + と**: Dùng để chỉ người hoặc động vật đồng hành trong hành động.\n\n#### 📝 Ví dụ minh họa\n- バスで いきます。 (Tôi đi bằng xe buýt.)\n- ともだちと あそびます。 (Tôi chơi cùng bạn bè.)",
     "skills": [
       "VOCABULARY",
@@ -3201,7 +3201,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 13 — Từ vựng",
+          "name": "Minna N5 — Bài 13",
           "description": "Từ vựng bài 13: Bài 13 — Trợ từ で (phương tiện/nơi chốn) nâng cao",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -3453,8 +3453,8 @@
   },
   {
     "order": 14,
-    "title": "Bài 14 — Cho và nhận: あげます/もらいます/くれます",
-    "summary": "Ba động từ trao đổi cơ bản và hướng trao đổi.",
+    "title": "Bài 14 — Yêu cầu & Động tác (Thể て)",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 14 — Yêu cầu & Động tác (Thể て).",
     "theoryMd": "### 1. Cho và nhận (授受表現)\n#### 💡 Cấu trúc & Ý nghĩa\n- **あげます**: Người nói cho người khác.\n- **もらいます**: Người nói nhận từ người khác.\n- **くれます**: Người khác cho người nói (hoặc người trong nhóm người nói).\n\n#### 📝 Ví dụ minh họa\n- ともだちに プレゼントを あげます。 (Tôi tặng quà cho bạn.)\n- 母が わたしに はなを くれました。 (Mẹ tặng hoa cho tôi.)",
     "skills": [
       "VOCABULARY",
@@ -3466,7 +3466,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 14 — Từ vựng",
+          "name": "Minna N5 — Bài 14",
           "description": "Từ vựng bài 14: Bài 14 — Cho và nhận: あげます/もらいます/くれます",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -3718,9 +3718,9 @@
   },
   {
     "order": 15,
-    "title": "Bài 15 — Thể て (1): Nối câu và yêu cầu",
-    "summary": "Chia động từ thể て, mẫu ～てください, ～ています.",
-    "theoryMd": "### 1. Thể て và các mẫu câu liên quan\n#### 💡 Cấu trúc & Ý nghĩa\n- **V-て**: Dạng liên kết, dùng để tạo các mẫu câu nhờ vả hoặc tiếp diễn.\n- **V-て ください**: Lời nhờ vả, yêu cầu lịch sự.\n- **V-て います**: Diễn tả hành động đang diễn ra tại thời điểm hiện tại.\n\n#### 📝 Ví dụ minh họa\n- ここに 名前を 書いてください。 (Hãy viết tên vào đây.)\n- あめが ふっています。 (Trời đang mưa.)",
+    "title": "Bài 15 — Xin phép & Trạng thái",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 15 — Xin phép & Trạng thái.",
+    "theoryMd": "### 1. Thể て và các mẫu câu liên quan\n#### 💡 Cấu trúc & Ý nghĩa\n- **Vて**: Dạng liên kết, dùng để tạo các mẫu câu nhờ vả hoặc tiếp diễn.\n- **Vて ください**: Lời nhờ vả, yêu cầu lịch sự.\n- **Vて います**: Diễn tả hành động đang diễn ra tại thời điểm hiện tại.\n\n#### 📝 Ví dụ minh họa\n- ここに 名前を 書いてください。 (Hãy viết tên vào đây.)\n- あめが ふっています。 (Trời đang mưa.)",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -3731,7 +3731,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 15 — Từ vựng",
+          "name": "Minna N5 — Bài 15",
           "description": "Từ vựng bài 15: Bài 15 — Thể て (1): Nối câu và yêu cầu",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -3952,22 +3952,22 @@
           "jlptLevel": 5,
           "cards": [
             {
-              "front": "V-て (Cách chia)",
+              "front": "Vて (Cách chia)",
               "back": "Ý nghĩa: Thể て là dạng liên kết động từ, dùng để nối câu hoặc kết hợp ngữ pháp.\nCấu trúc: Phụ thuộc vào nhóm động từ (Ví dụ: Nhóm 1 đuôi い,ち,り -> って...)",
               "romaji": "te-kei",
               "example": "かきます -> かいて (viết)\n\nのみます -> のんで (uống)\n\nたべます -> たべて (ăn)\n\nします -> して (làm)",
               "jlptLevel": 5
             },
             {
-              "front": "V-て ください",
-              "back": "Ý nghĩa: Mẫu câu nhờ vả, yêu cầu người khác làm gì đó một cách lịch sự.\nCấu trúc: V-て + ください",
+              "front": "Vて ください",
+              "back": "Ý nghĩa: Mẫu câu nhờ vả, yêu cầu người khác làm gì đó một cách lịch sự.\nCấu trúc: Vて + ください",
               "romaji": "te-kudasai",
               "example": "荷物を返してください。\nHãy trả lại hành lý cho tôi.\n\nここに 名前を 書いてください。\nHãy viết tên vào đây.\n\nドアを 開けてください。\nHãy mở cửa ra.\n\nゆっくり 話してください。\nHãy nói chậm thôi.",
               "jlptLevel": 5
             },
             {
-              "front": "V-て います",
-              "back": "Ý nghĩa: Diễn tả hành động đang tiếp diễn tại thời điểm nói.\nCấu trúc: V-て + います",
+              "front": "Vて います",
+              "back": "Ý nghĩa: Diễn tả hành động đang tiếp diễn tại thời điểm nói.\nCấu trúc: Vて + います",
               "romaji": "te-imasu",
               "example": "私は今、手紙を書いています。\nBây giờ tôi đang viết thư.\n\nあめが ふっています。\nTrời đang mưa.\n\nこどもが 公園で 遊んでいます。\nBọn trẻ đang chơi ở công viên.\n\nみんなは 勉強しています。\nMọi người đang học bài.",
               "jlptLevel": 5
@@ -3983,9 +3983,9 @@
   },
   {
     "order": 16,
-    "title": "Bài 16 — Thể て (2): ～ています trạng thái",
-    "summary": "Phân biệt ～ています tiếp diễn vs trạng thái kết quả.",
-    "theoryMd": "### 1. V-ています (Trạng thái kết quả)\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để diễn tả trạng thái hiện tại của sự vật, sự việc là kết quả từ một hành động đã thực hiện trước đó.\n- **Cấu trúc:** V-te + います\n\n#### 📝 Ví dụ minh họa\n- 窓が閉まっています。(Cửa sổ đang đóng.)\n- 結婚しています。(Tôi đã kết hôn.)",
+    "title": "Bài 16 — Trình tự & Thân thể",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 16 — Trình tự & Thân thể.",
+    "theoryMd": "### 1. Vています (Trạng thái kết quả)\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để diễn tả trạng thái hiện tại của sự vật, sự việc là kết quả từ một hành động đã thực hiện trước đó.\n- **Cấu trúc:** Vて + います\n\n#### 📝 Ví dụ minh họa\n- 窓が閉まっています。(Cửa sổ đang đóng.)\n- 結婚しています。(Tôi đã kết hôn.)",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -3996,7 +3996,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 16 — Từ vựng",
+          "name": "Minna N5 — Bài 16",
           "description": "Từ vựng bài 16: Bài 16 — Thể て (2): ～ています trạng thái",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -4217,15 +4217,15 @@
           "jlptLevel": 5,
           "cards": [
             {
-              "front": "V-ています (trạng thái kết quả)",
-              "back": "Ý nghĩa: Diễn tả trạng thái hiện tại là kết quả của một hành động đã xảy ra trong quá khứ.\nCấu trúc: V-te + います",
+              "front": "Vています (trạng thái kết quả)",
+              "back": "Ý nghĩa: Diễn tả trạng thái hiện tại là kết quả của một hành động đã xảy ra trong quá khứ.\nCấu trúc: Vて + います",
               "romaji": "v-te-imasu",
               "example": "窓が閉まっています。\nCửa sổ đang đóng.\n\n結婚しています。\nTôi đã kết hôn.\n\n田中さんは知っています。\nAnh Tanaka biết việc đó.\n\n電気がついています。\nĐèn đang bật.",
               "jlptLevel": 5
             },
             {
-              "front": "V-ていません",
-              "back": "Ý nghĩa: Phủ định của trạng thái kết quả, diễn tả sự việc chưa xảy ra hoặc không ở trong trạng thái đó.\nCấu trúc: V-te + いません",
+              "front": "Vていません",
+              "back": "Ý nghĩa: Phủ định của trạng thái kết quả, diễn tả sự việc chưa xảy ra hoặc không ở trong trạng thái đó.\nCấu trúc: Vて + いません",
               "romaji": "v-te-imasen",
               "example": "結婚していません。\nTôi chưa kết hôn.\n\n何も持っていません。\nTôi không cầm theo gì cả.\n\n名前を知っていません。\nTôi không biết tên.\n\n窓が開いていません。\nCửa sổ không mở.",
               "jlptLevel": 5
@@ -4241,9 +4241,9 @@
   },
   {
     "order": 17,
-    "title": "Bài 17 — Thể た (Quá khứ tự nhiên) và ～たことがあります",
-    "summary": "Chia thể た, nói về trải nghiệm quá khứ.",
-    "theoryMd": "### 1. V-た ことがあります\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Trình bày kinh nghiệm, trải nghiệm trong quá khứ.\n- **Cấu trúc:** V-ta + ことがあります\n\n### 2. V1-たり V2-たり します\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Liệt kê các hành động tiêu biểu. Thì của câu phụ thuộc vào đuôi します.\n- **Cấu trúc:** V1-ta + り, V2-ta + り + します",
+    "title": "Bài 17 — Khuyên nhủ & Nghĩa vụ (Thể ない)",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 17 — Khuyên nhủ & Nghĩa vụ (Thể ない).",
+    "theoryMd": "### 1. Vた ことがあります\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Trình bày kinh nghiệm, trải nghiệm trong quá khứ.\n- **Cấu trúc:** Vた + ことがあります\n\n### 2. V1-たり V2-たり します\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Liệt kê các hành động tiêu biểu. Thì của câu phụ thuộc vào đuôi します.\n- **Cấu trúc:** V1-ta + り, V2-ta + り + します",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -4254,7 +4254,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 17 — Từ vựng",
+          "name": "Minna N5 — Bài 17",
           "description": "Từ vựng bài 17: Bài 17 — Thể た (Quá khứ tự nhiên) và ～たことがあります",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -4475,8 +4475,8 @@
           "jlptLevel": 5,
           "cards": [
             {
-              "front": "V-た ことがあります",
-              "back": "Ý nghĩa: Diễn tả kinh nghiệm đã từng trải qua trong quá khứ.\nCấu trúc: V-ta + ことがあります",
+              "front": "Vた ことがあります",
+              "back": "Ý nghĩa: Diễn tả kinh nghiệm đã từng trải qua trong quá khứ.\nCấu trúc: Vた + ことがあります",
               "romaji": "v-ta-koto-ga-arimasu",
               "example": "日本へ行ったことがあります。\nTôi đã từng đi Nhật.\n\n富士山に登ったことがあります。\nTôi đã từng leo núi Phú Sĩ.\n\n納豆を食べたことがあります。\nTôi đã từng ăn đậu phụ lên men.\n\nこの映画を見たことがあります。\nTôi đã từng xem bộ phim này.",
               "jlptLevel": 5
@@ -4499,8 +4499,8 @@
   },
   {
     "order": 18,
-    "title": "Bài 18 — Thể た: ～たり～たりします",
-    "summary": "Liệt kê hành động không theo thứ tự với ～たり～たり.",
+    "title": "Bài 18 — Khả năng & Thể từ điển",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 18 — Khả năng & Thể từ điển.",
     "theoryMd": "### 1. V1-たり V2-たり します\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Dùng để liệt kê một vài hành động tiêu biểu. Hành động được chọn không theo thứ tự thời gian.\n- **Cấu trúc:** V1-ta + り + V2-ta + り + します (thì tùy thuộc vào します)\n\n#### 📝 Ví dụ minh họa\n- 休みの日は映画を見たり、買い物に行ったりします。(Ngày nghỉ tôi xem phim, đi mua sắm.)",
     "skills": [
       "VOCABULARY",
@@ -4512,7 +4512,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 18 — Từ vựng",
+          "name": "Minna N5 — Bài 18",
           "description": "Từ vựng bài 18: Bài 18 — Thể た: ～たり～たりします",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -4750,9 +4750,9 @@
   },
   {
     "order": 19,
-    "title": "Bài 19 — Thể ない: Phủ định dạng tự nhiên",
-    "summary": "Chia thể ない, ～なければなりません, ～なくてもいいです.",
-    "theoryMd": "### 1. V-なければなりません\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ sự bắt buộc, nghĩa vụ phải thực hiện hành động.\n- **Cấu trúc:** V-nai (bỏ ない) + なければなりません\n\n### 2. V-なくてもいいです\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ sự cho phép, không bắt buộc làm hành động đó.\n- **Cấu trúc:** V-nai (bỏ ない) + くてもいいです",
+    "title": "Bài 19 — Kinh nghiệm & Biến đổi (Thể た)",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 19 — Kinh nghiệm & Biến đổi (Thể た).",
+    "theoryMd": "### 1. V-なければなりません\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ sự bắt buộc, nghĩa vụ phải thực hiện hành động.\n- **Cấu trúc:** Vない (bỏ ない) + なければなりません\n\n### 2. V-なくてもいいです\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ sự cho phép, không bắt buộc làm hành động đó.\n- **Cấu trúc:** Vない (bỏ ない) + くてもいいです",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -4763,7 +4763,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 19 — Từ vựng",
+          "name": "Minna N5 — Bài 19",
           "description": "Từ vựng bài 19: Bài 19 — Thể ない: Phủ định dạng tự nhiên",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -4912,7 +4912,7 @@
               "front": "「健康」保険証",
               "back": "Thẻ bảo hiểm",
               "romaji": "けんこう",
-              "example": "__NOTE__: sức khỏe",
+              "example": "",
               "jlptLevel": 5
             },
             {
@@ -4985,14 +4985,14 @@
           "cards": [
             {
               "front": "V-なければなりません",
-              "back": "Ý nghĩa: Phải làm gì đó (thể hiện nghĩa vụ, trách nhiệm).\nCấu trúc: V-nai (bỏ ない) + なければなりません",
+              "back": "Ý nghĩa: Phải làm gì đó (thể hiện nghĩa vụ, trách nhiệm).\nCấu trúc: Vない (bỏ ない) + なければなりません",
               "romaji": "v-nakereba-narimasen",
               "example": "毎日勉強しなければなりません。\nMỗi ngày tôi phải học bài.\n\n薬を飲まなければなりません。\nTôi phải uống thuốc.\n\n宿題をしなければなりません。\nTôi phải làm bài tập về nhà.\n\n早く起きなければなりません。\nTôi phải dậy sớm.",
               "jlptLevel": 5
             },
             {
               "front": "V-なくてもいいです",
-              "back": "Ý nghĩa: Không cần phải làm gì đó cũng được (cho phép không làm).\nCấu trúc: V-nai (bỏ ない) + くてもいいです",
+              "back": "Ý nghĩa: Không cần phải làm gì đó cũng được (cho phép không làm).\nCấu trúc: Vない (bỏ ない) + くてもいいです",
               "romaji": "v-nakutemo-ii-desu",
               "example": "明日来なくてもいいです。\nNgày mai bạn không đến cũng được.\n\n傘を持たなくてもいいです。\nBạn không cần mang ô cũng được.\n\n残業しなくてもいいです。\nBạn không cần tăng ca cũng được.\n\n掃除しなくてもいいです。\nBạn không cần dọn dẹp cũng được.",
               "jlptLevel": 5
@@ -5008,9 +5008,9 @@
   },
   {
     "order": 20,
-    "title": "Bài 20 — Thể từ điển: Khả năng và cho phép",
-    "summary": "～ことができます (có thể), ～てもいいです (được phép).",
-    "theoryMd": "### 1. V-ru ことができます\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ năng lực, khả năng thực hiện hành động.\n- **Cấu trúc:** V-ru + ことができます\n\n### 2. V-te もいいです / V-te は いけません\n#### 💡 Cấu trúc & Ý nghĩa\n- **V-te もいいです:** Chỉ sự cho phép làm hành động.\n- **V-te は いけません:** Chỉ sự cấm đoán, không được phép làm hành động.",
+    "title": "Bài 20 — Giao tiếp thân mật",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 20 — Giao tiếp thân mật.",
+    "theoryMd": "### 1. Vる ことができます\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa:** Chỉ năng lực, khả năng thực hiện hành động.\n- **Cấu trúc:** Vる + ことができます\n\n### 2. Vて もいいです / Vて は いけません\n#### 💡 Cấu trúc & Ý nghĩa\n- **Vて もいいです:** Chỉ sự cho phép làm hành động.\n- **Vて は いけません:** Chỉ sự cấm đoán, không được phép làm hành động.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -5021,7 +5021,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 20 — Từ vựng",
+          "name": "Minna N5 — Bài 20",
           "description": "Từ vựng bài 20: Bài 20 — Thể từ điển: Khả năng và cho phép",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -5242,22 +5242,22 @@
           "jlptLevel": 5,
           "cards": [
             {
-              "front": "V-ru ことができます",
-              "back": "Ý nghĩa: Có khả năng làm gì đó.\nCấu trúc: V-ru + ことができます",
+              "front": "Vる ことができます",
+              "back": "Ý nghĩa: Có khả năng làm gì đó.\nCấu trúc: Vる + ことができます",
               "romaji": "v-ru-koto-ga-dekimasu",
               "example": "私は日本語を話すことができます。\nTôi có thể nói tiếng Nhật.\n\n漢字を読むことができます。\nTôi có thể đọc chữ Hán.\n\nここで車を運転することができます。\nTôi có thể lái xe ở đây.\n\n5キロ泳ぐことができます。\nTôi có thể bơi 5 cây số.",
               "jlptLevel": 5
             },
             {
-              "front": "V-te もいいです",
-              "back": "Ý nghĩa: Được phép làm gì đó (xin phép hoặc cho phép).\nCấu trúc: V-te + もいいです",
+              "front": "Vて もいいです",
+              "back": "Ý nghĩa: Được phép làm gì đó (xin phép hoặc cho phép).\nCấu trúc: Vて + もいいです",
               "romaji": "v-te-mo-ii-desu",
               "example": "ここで写真を撮ってもいいです。\nỞ đây chụp ảnh được.\n\n帰ってもいいですか。\nTôi về có được không?\n\n窓を開けてもいいです。\nBạn mở cửa sổ được đấy.\n\nここで待ってもいいです。\nBạn đợi ở đây cũng được.",
               "jlptLevel": 5
             },
             {
-              "front": "V-te は いけません",
-              "back": "Ý nghĩa: Không được làm gì đó (cấm đoán).\nCấu trúc: V-te + は いけません",
+              "front": "Vて は いけません",
+              "back": "Ý nghĩa: Không được làm gì đó (cấm đoán).\nCấu trúc: Vて + は いけません",
               "romaji": "v-te-wa-ikemasen",
               "example": "ここでタバコを吸ってはいけません。\nKhông được hút thuốc ở đây.\n\n入ってはいけません。\nKhông được vào.\n\nここで遊んではいけません。\nKhông được chơi đùa ở đây.\n\n写真を撮ってはいけません。\nKhông được chụp ảnh.",
               "jlptLevel": 5
@@ -5273,9 +5273,9 @@
   },
   {
     "order": 21,
-    "title": "Bài 21 — Danh từ hóa: ～こと và ～の",
-    "summary": "Biến mệnh đề thành danh từ, sở thích, khả năng.",
-    "theoryMd": "### 1. V-る こと\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Danh từ hóa hành động, biến động từ thành danh từ.\n- Cấu trúc: V-る + こと\n#### 📝 Ví dụ minh họa\n- 私の趣味はお菓子を作ることです。(Sở thích của tôi là làm bánh kẹo.)\n\n### 2. V-る の\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Danh từ hóa động từ, dùng phổ biến trong giao tiếp hằng ngày.\n- Cấu trúc: V-る + の\n#### 📝 Ví dụ minh họa\n- ギターを弾くのが好きです。(Tôi thích chơi đàn ghi-ta.)",
+    "title": "Bài 21 — Ý kiến & Truyền đạt",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 21 — Ý kiến & Truyền đạt.",
+    "theoryMd": "### 1. Vる こと\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Danh từ hóa hành động, biến động từ thành danh từ.\n- Cấu trúc: Vる + こと\n#### 📝 Ví dụ minh họa\n- 私の趣味はお菓子を作ることです。(Sở thích của tôi là làm bánh kẹo.)\n\n### 2. Vる の\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Danh từ hóa động từ, dùng phổ biến trong giao tiếp hằng ngày.\n- Cấu trúc: Vる + の\n#### 📝 Ví dụ minh họa\n- ギターを弾くのが好きです。(Tôi thích chơi đàn ghi-ta.)",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -5286,7 +5286,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 21 — Từ vựng",
+          "name": "Minna N5 — Bài 21",
           "description": "Từ vựng bài 21: Bài 21 — Danh từ hóa: ～こと và ～の",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -5477,14 +5477,14 @@
               "front": "僕",
               "back": "Tôi, tớ",
               "romaji": "ぼく",
-              "example": "__NOTE__: khiêm tốn",
+              "example": "",
               "jlptLevel": 5
             },
             {
               "front": "君",
               "back": "Bạn",
               "romaji": "きみ",
-              "example": "__NOTE__: thân mật",
+              "example": "",
               "jlptLevel": 5
             },
             {
@@ -5507,15 +5507,15 @@
           "jlptLevel": 5,
           "cards": [
             {
-              "front": "V-る こと",
-              "back": "Ý nghĩa: Danh từ hóa động từ, biến hành động thành một danh từ để làm chủ ngữ hoặc tân ngữ.\nCấu trúc: V-る + こと",
+              "front": "Vる こと",
+              "back": "Ý nghĩa: Danh từ hóa động từ, biến hành động thành một danh từ để làm chủ ngữ hoặc tân ngữ.\nCấu trúc: Vる + こと",
               "romaji": "v-ru koto",
               "example": "私の趣味はお菓子を作ることです。\nSở thích của tôi là làm bánh kẹo.\n\n日本語を話すことは難しいです。\nNói tiếng Nhật thì khó.\n\n寝ることは大切です。\nViệc ngủ là quan trọng.\n\n運動することは体にいいです。\nViệc tập thể dục tốt cho cơ thể.",
               "jlptLevel": 5
             },
             {
-              "front": "V-る の",
-              "back": "Ý nghĩa: Danh từ hóa động từ, thường dùng trong hội thoại thân mật hoặc thay thế cho 'koto'.\nCấu trúc: V-る + の",
+              "front": "Vる の",
+              "back": "Ý nghĩa: Danh từ hóa động từ, thường dùng trong hội thoại thân mật hoặc thay thế cho 'koto'.\nCấu trúc: Vる + の",
               "romaji": "v-ru no",
               "example": "ギターを弾くのが好きです。\nTôi thích chơi đàn ghi-ta.\n\n日本語を勉強するのは楽しいです。\nViệc học tiếng Nhật rất vui.\n\nケーキを食べるのは幸せです。\nViệc ăn bánh kem thật hạnh phúc.\n\n走るのが速いです。\nViệc chạy thì nhanh.",
               "jlptLevel": 5
@@ -5531,9 +5531,9 @@
   },
   {
     "order": 22,
-    "title": "Bài 22 — Điều kiện: ～とき và ～まえに/あとで",
-    "summary": "Diễn đạt thời điểm, trước/sau hành động.",
-    "theoryMd": "### 1. V-る/V-た とき\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Khi...\n- Cấu trúc: V-る(hành động chưa xong) / V-た(hành động xong rồi) + とき\n\n### 2. V-る まえに\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trước khi làm A thì làm B.\n- Cấu trúc: V-る + まえに\n\n### 3. V-た あとで\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Sau khi làm A thì làm B.\n- Cấu trúc: V-た + あとで",
+    "title": "Bài 22 — Trang phục & Định ngữ",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 22 — Trang phục & Định ngữ.",
+    "theoryMd": "### 1. Vる/Vた とき\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Khi...\n- Cấu trúc: Vる(hành động chưa xong) / Vた(hành động xong rồi) + とき\n\n### 2. Vる まえに\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Trước khi làm A thì làm B.\n- Cấu trúc: Vる + まえに\n\n### 3. Vた あとで\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Sau khi làm A thì làm B.\n- Cấu trúc: Vた + あとで",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -5544,7 +5544,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 22 — Từ vựng",
+          "name": "Minna N5 — Bài 22",
           "description": "Từ vựng bài 22: Bài 22 — Điều kiện: ～とき và ～まえに/あとで",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -5765,22 +5765,22 @@
           "jlptLevel": 5,
           "cards": [
             {
-              "front": "V-る / V-た + とき",
-              "back": "Ý nghĩa: Diễn đạt thời điểm khi làm gì đó. V-る khi hành động chưa kết thúc, V-た khi hành động đã xong.\nCấu trúc: V-る / V-た + とき",
+              "front": "Vる / Vた + とき",
+              "back": "Ý nghĩa: Diễn đạt thời điểm khi làm gì đó. Vる khi hành động chưa kết thúc, Vた khi hành động đã xong.\nCấu trúc: Vる / Vた + とき",
               "romaji": "v-ru/v-ta toki",
               "example": "日本へ行くとき、カメラを買いました。\nKhi đi Nhật, tôi đã mua máy ảnh.\n\n日本へ行ったとき、友達に会いました。\nKhi đã đến Nhật, tôi đã gặp bạn.\n\n暇なとき、音楽を聴きます。\nKhi rảnh rỗi, tôi nghe nhạc.\n\n疲れたとき、よく眠ります。\nKhi mệt, tôi ngủ rất ngon.",
               "jlptLevel": 5
             },
             {
-              "front": "V-る まえに",
-              "back": "Ý nghĩa: Làm việc A trước khi làm việc B.\nCấu trúc: V-る + まえに",
+              "front": "Vる まえに",
+              "back": "Ý nghĩa: Làm việc A trước khi làm việc B.\nCấu trúc: Vる + まえに",
               "romaji": "v-ru mae ni",
               "example": "食事のまえに、手を洗います。\nTrước khi ăn, tôi rửa tay.\n\n寝るまえに、本を読みます。\nTrước khi đi ngủ, tôi đọc sách.\n\n出かけるまえに、電気を消します。\nTrước khi đi ra ngoài, tôi tắt điện.\n\n会議のまえに、資料を確認します。\nTrước cuộc họp, tôi kiểm tra tài liệu.",
               "jlptLevel": 5
             },
             {
-              "front": "V-た あとで",
-              "back": "Ý nghĩa: Làm việc A sau khi làm việc B.\nCấu trúc: V-た + あとで",
+              "front": "Vた あとで",
+              "back": "Ý nghĩa: Làm việc A sau khi làm việc B.\nCấu trúc: Vた + あとで",
               "romaji": "v-ta ato de",
               "example": "仕事のあとで、飲みに行きます。\nSau khi làm việc, tôi đi uống.\n\n映画を見たあとで、ご飯を食べます。\nSau khi xem phim xong, tôi đi ăn.\n\n掃除したあとで、買い物に行きます。\nSau khi dọn dẹp, tôi đi mua sắm.\n\n勉強したあとで、テレビを見ます。\nSau khi học bài, tôi xem tivi.",
               "jlptLevel": 5
@@ -5796,9 +5796,9 @@
   },
   {
     "order": 23,
-    "title": "Bài 23 — Thể bình thường trong hội thoại",
-    "summary": "Chuyển từ thể lịch sự sang thể bình thường (casual).",
-    "theoryMd": "### 1. Thể ngắn (Casual form)\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Sử dụng trong giao tiếp thân mật.\n- Cách chuyển đổi: Chuyển đổi đuôi từ lịch sự sang thể từ điển (V-ru), thể nai (V-nai), thể quá khứ (V-ta/V-nakatta).\n#### 📝 Ví dụ minh họa\n- 明日は休みだ。(Ngày mai được nghỉ.)",
+    "title": "Bài 23 — Thời điểm & Chỉ đường",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 23 — Thời điểm & Chỉ đường.",
+    "theoryMd": "### 1. Thể ngắn (Casual form)\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Sử dụng trong giao tiếp thân mật.\n- Cách chuyển đổi: Chuyển đổi đuôi từ lịch sự sang thể từ điển (Vる), thể nai (Vない), thể quá khứ (Vた/V-nakatta).\n#### 📝 Ví dụ minh họa\n- 明日は休みだ。(Ngày mai được nghỉ.)",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -5809,7 +5809,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 23 — Từ vựng",
+          "name": "Minna N5 — Bài 23",
           "description": "Từ vựng bài 23: Bài 23 — Thể bình thường trong hội thoại",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -6047,9 +6047,9 @@
   },
   {
     "order": 24,
-    "title": "Bài 24 — Điều kiện: ～と、～ば、～たら",
-    "summary": "Ba cấu trúc điều kiện và sự khác biệt về sắc thái.",
-    "theoryMd": "### 1. Các mẫu câu điều kiện\n#### 💡 Cấu trúc & Ý nghĩa\n- V-る と: Kết quả tất yếu, hiển nhiên.\n- V-ば / Adj-ければ: Giả định chung.\n- V-たら: Sau khi hoàn thành / Giả định.",
+    "title": "Bài 24 — Cứu giúp & Cho nhận hành động",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 24 — Cứu giúp & Cho nhận hành động.",
+    "theoryMd": "### 1. Các mẫu câu điều kiện\n#### 💡 Cấu trúc & Ý nghĩa\n- Vる と: Kết quả tất yếu, hiển nhiên.\n- Vば / Adj-ければ: Giả định chung.\n- Vたら: Sau khi hoàn thành / Giả định.",
     "skills": [
       "VOCABULARY",
       "GRAMMAR"
@@ -6060,7 +6060,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 24 — Từ vựng",
+          "name": "Minna N5 — Bài 24",
           "description": "Từ vựng bài 24: Bài 24 — Điều kiện: ～と、～ば、～たら",
           "category": "TUVUNG",
           "jlptLevel": 5,
@@ -6281,22 +6281,22 @@
           "jlptLevel": 5,
           "cards": [
             {
-              "front": "V-る + と",
-              "back": "Ý nghĩa: Khi/Hễ/Nếu... thì chắc chắn xảy ra kết quả tất yếu.\nCấu trúc: V-る + と",
+              "front": "Vる + と",
+              "back": "Ý nghĩa: Khi/Hễ/Nếu... thì chắc chắn xảy ra kết quả tất yếu.\nCấu trúc: Vる + と",
               "romaji": "v-ru to",
               "example": "ボタンを押すと、ドアが開きます。\nNếu ấn nút, cửa sẽ mở.\n\n右に曲がると、郵便局があります。\nNếu rẽ phải, sẽ thấy bưu điện.\n\n春になると、暖かくなります。\nKhi mùa xuân đến, trời sẽ ấm lên.\n\nこの薬を飲むと、元気になります。\nNếu uống thuốc này, sẽ khỏe lên.",
               "jlptLevel": 5
             },
             {
-              "front": "V-ば / Adj-ければ",
+              "front": "Vば / Adj-ければ",
               "back": "Ý nghĩa: Giả định điều kiện \"Nếu... thì...\".\nCấu trúc: V-thể ba / Adj-i (bỏ i -> ければ) + ば",
               "romaji": "v-ba / adj-kereba",
               "example": "安ければ、買います。\nNếu rẻ thì tôi sẽ mua.\n\n時間があれば、行きます。\nNếu có thời gian, tôi sẽ đi.\n\n雨が降れば、中止します。\nNếu trời mưa, sẽ dừng lại.\n\n美味しければ、食べます。\nNếu ngon thì tôi ăn.",
               "jlptLevel": 5
             },
             {
-              "front": "V-たら",
-              "back": "Ý nghĩa: Sau khi... / Nếu...\nCấu trúc: V-た + ら",
+              "front": "Vたら",
+              "back": "Ý nghĩa: Sau khi... / Nếu...\nCấu trúc: Vた + ら",
               "romaji": "v-tara",
               "example": "日本に着いたら、電話してください。\nSau khi đến Nhật, hãy gọi điện cho tôi.\n\nお金があったら、旅行します。\nNếu có tiền, tôi sẽ đi du lịch.\n\n着いたら、連絡します。\nKhi nào đến nơi, tôi sẽ liên lạc.\n\n休みだったら、遊びに行きます。\nNếu là ngày nghỉ, tôi sẽ đi chơi.",
               "jlptLevel": 5
@@ -6312,8 +6312,8 @@
   },
   {
     "order": 25,
-    "title": "Bài 25 — Ôn tập tổng kết N5",
-    "summary": "Tổng hợp toàn bộ ngữ pháp N5, luyện tập tổng hợp.",
+    "title": "Bài 25 — Điều kiện & Giả định",
+    "summary": "Học và rèn luyện từ vựng và ngữ pháp Bài 25 — Điều kiện & Giả định.",
     "theoryMd": "### 1. Sự tồn tại (あります/います)\n#### 💡 Cấu trúc & Ý nghĩa\n- あります: Dùng cho đồ vật, thực vật.\n- います: Dùng cho người, động vật.\n#### 📝 Ví dụ minh họa\n- 部屋に机があります。(Trong phòng có cái bàn.)\n- 教室に学生がいます。(Trong lớp có học sinh.)",
     "skills": [
       "VOCABULARY",
@@ -6326,7 +6326,7 @@
         "role": "VOCAB",
         "order": 0,
         "deck": {
-          "name": "Minna N5 — Bài 25 — Từ vựng",
+          "name": "Minna N5 — Bài 25",
           "description": "Từ vựng bài 25: Bài 25 — Ôn tập tổng kết N5",
           "category": "TUVUNG",
           "jlptLevel": 5,

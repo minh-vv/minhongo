@@ -1,9 +1,9 @@
 [
   {
     "order": 1,
-    "title": "Bài 1: Thời điểm, cơ hội (〜祭（に）, 〜に際して・〜にあたって)",
+    "title": "Bài 1: 〜際・〜に際して・〜にあたって",
     "summary": "Các cấu trúc liên quan đến thời điểm, cơ hội: 〜祭（に）, 〜に際して, 〜にあたって",
-    "theoryMd": "### Bài 1: Thời điểm và cơ hội (〜際・〜に際して・〜にあたって)\n\n### 1. 〜際（に）\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Khi, vào lúc. Sắc thái cứng, trang trọng hơn \"toki\", dùng nhiều trong thông báo, hướng dẫn.\n- **Cấu trúc**: V-ru / V-ta / N-no + 際（に）\n\n#### 📝 Ví dụ minh họa\n- お食事の際は、こちらのテーブルをお使いいただけます。\n(Khi dùng bữa, quý khách có thể sử dụng cái bàn này.)\n\n- カードを紛失した際は、すぐにカード会社にご連絡ください。\n(Trong trường hợp làm mất thẻ, xin vui lòng liên hệ ngay với công ty thẻ.)\n\n### 2. 〜に際して\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Khi, nhân dịp. Dùng cho các sự kiện trọng đại, chuẩn bị cho một việc gì đó.\n- **Cấu trúc**: V-ru / N + に際して\n\n#### 📝 Ví dụ minh họa\n- 父は手術を受けるに際して、医者にいろいろ質問した。\n(Trước khi bố tôi phẫu thuật, ông đã hỏi bác sĩ rất nhiều điều.)\n\n- 新商品の発売に際して、大がかりなキャンペーンが行われた。\n(Nhân dịp mở bán sản phẩm mới, một chiến dịch quảng bá quy mô lớn đã được tiến hành.)\n\n### 3. 〜にあたって\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Khi, nhân dịp. Dùng cho sự kiện tích cực, có kế hoạch cụ thể, chủ động.\n- **Cấu trúc**: V-ru / N + にあたって\n\n#### 📝 Ví dụ minh họa\n- 新しく事業を始めるにあたって、しっかりと準備をしようと思っております。\n(Khi chuẩn bị bắt đầu sự nghiệp mới, tôi sẽ chuẩn bị kĩ càng.)\n\n- 新しい門出を迎えるにあたって、一言お祝いの言葉を申し上げます。\n(Nhân dịp đón chào một chặng đường mới, tôi xin phép có đôi lời chúc mừng.)",
+    "theoryMd": "### Bài 1: Thời điểm và cơ hội (〜際・〜に際して・〜にあたって)\n\n### 1. 〜際（に）\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Khi, vào lúc. Sắc thái cứng, trang trọng hơn \"toki\", dùng nhiều trong thông báo, hướng dẫn.\n- **Cấu trúc**: Vる / Vた / N-no + 際（に）\n\n#### 📝 Ví dụ minh họa\n- お食事の際は、こちらのテーブルをお使いいただけます。\n(Khi dùng bữa, quý khách có thể sử dụng cái bàn này.)\n\n- カードを紛失した際は、すぐにカード会社にご連絡ください。\n(Trong trường hợp làm mất thẻ, xin vui lòng liên hệ ngay với công ty thẻ.)\n\n### 2. 〜に際して\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Khi, nhân dịp. Dùng cho các sự kiện trọng đại, chuẩn bị cho một việc gì đó.\n- **Cấu trúc**: Vる / N + に際して\n\n#### 📝 Ví dụ minh họa\n- 父は手術を受けるに際して、医者にいろいろ質問した。\n(Trước khi bố tôi phẫu thuật, ông đã hỏi bác sĩ rất nhiều điều.)\n\n- 新商品の発売に際して、大がかりなキャンペーンが行われた。\n(Nhân dịp mở bán sản phẩm mới, một chiến dịch quảng bá quy mô lớn đã được tiến hành.)\n\n### 3. 〜にあたって\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Khi, nhân dịp. Dùng cho sự kiện tích cực, có kế hoạch cụ thể, chủ động.\n- **Cấu trúc**: Vる / N + にあたって\n\n#### 📝 Ví dụ minh họa\n- 新しく事業を始めるにあたって、しっかりと準備をしようと思っております。\n(Khi chuẩn bị bắt đầu sự nghiệp mới, tôi sẽ chuẩn bị kĩ càng.)\n\n- 新しい門出を迎えるにあたって、一言お祝いの言葉を申し上げます。\n(Nhân dịp đón chào một chặng đường mới, tôi xin phép có đôi lời chúc mừng.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -13,28 +13,28 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 1 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 1: Thời điểm, cơ hội (〜祭（に）, 〜に際して・〜にあたって)",
+          "name": "Shinkanzen N2 — Bài 1: 〜際・〜に際して・〜にあたって",
+          "description": "Chủ đề: Thời điểm, cơ hội",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜際（に）",
-              "back": "Ý nghĩa: Khi..., vào lúc... (Sắc thái cứng, trang trọng hơn 'toki', thường dùng trong thông báo, văn bản hướng dẫn).\nCấu trúc: V-ru / V-ta / N-no + 際（に）",
+              "back": "Ý nghĩa: Khi..., vào lúc... (Sắc thái cứng, trang trọng hơn 'toki', thường dùng trong thông báo, văn bản hướng dẫn).\nCấu trúc: Vる / Vた / N-no + 際（に）\n* Giải thích thêm: mang tính thông báo, tính quần chúng",
               "romaji": "sai (ni)",
-              "example": "お食事の際は、こちらのテーブルをお使いいただけます。\nKhi dùng bữa, quý khách có thể sử dụng cái bàn này.\n\nカードを紛失した際は、すぐにカード会社にご連絡ください。\nTrong trường hợp làm mất thẻ, xin vui lòng liên hệ ngay với công ty thẻ.\n\nお帰りの際は、忘れ物がないかご確認ください。\nKhi ra về, xin vui lòng kiểm tra xem có quên đồ đạc gì không.\n\n入場の際は、チケットを提示してください。\nKhi vào cửa, vui lòng xuất trình vé.",
+              "example": "お食事の際は、こちらのテーブルをお使いいただけます。\nKhi dùng bữa, quý khách có thể sử dụng cái bàn này.\n\nカードを紛失した際は、すぐにカード会社にご連絡ください。\nTrong trường hợp làm mất thẻ, xin vui lòng liên hệ ngay với công ty thẻ.\n\nお帰りの際は、忘れ物がないかご確認ください。\nKhi ra về, xin vui lòng kiểm tra xem có quên đồ đạc gì không.\n\n入場の際は、チケットを提示してください。\nKhi vào cửa, vui lòng xuất trình vé.\n\n会議室をご利用になる際に\nKhi sử dụng phòng họp, hãy điền vào mẫu yêu cầu ở quầy lễ tân.",
               "jlptLevel": 2
             },
             {
               "front": "〜に際して",
-              "back": "Ý nghĩa: Khi..., nhân dịp... (Dùng cho sự kiện trọng đại, đặc biệt, mang tính chuẩn bị trước khi thực hiện).\nCấu trúc: V-ru / N + に際して",
+              "back": "Ý nghĩa: Khi..., nhân dịp... (Dùng cho sự kiện trọng đại, đặc biệt, mang tính chuẩn bị trước khi thực hiện).\nCấu trúc: Vる / N + に際して\n* Giải thích thêm: thời gian đặc biệt, mang tính chủ ý, thường chỉ xảy ra một lần",
               "romaji": "ni saishite",
               "example": "父は手術を受けるに際して、医者にいろいろ質問した。\nTrước khi bố tôi phẫu thuật, ông đã hỏi bác sĩ rất nhiều điều.\n\n新商品の発売に際して、大がかりなキャンペーンが行われた。\nNhân dịp mở bán sản phẩm mới, một chiến dịch quảng bá quy mô lớn đã được tiến hành.\n\n留学に際して、奨学金を申請することにした。\nNhân dịp đi du học, tôi đã quyết định nộp đơn xin học bổng.\n\n開店に際して、特別なイベントを企画しました。\nNhân dịp khai trương cửa hàng, chúng tôi đã lên kế hoạch cho một sự kiện đặc biệt.",
               "jlptLevel": 2
             },
             {
               "front": "〜にあたって",
-              "back": "Ý nghĩa: Khi..., nhân dịp... (Thường dùng cho các sự kiện mang tính tích cực, chủ động, có kế hoạch rõ ràng).\nCấu trúc: V-ru / N + にあたって",
+              "back": "Ý nghĩa: Khi..., nhân dịp... (Thường dùng cho các sự kiện mang tính tích cực, chủ động, có kế hoạch rõ ràng).\nCấu trúc: Vる / N + にあたって\n* Giải thích thêm: thời gian đặc biệt, mang tính chủ ý, thường chỉ xảy ra một lần,  mang tính tích cực hơn",
               "romaji": "ni atatte",
               "example": "新しく事業を始めるにあたって、しっかりと準備をしようと思っております。\nKhi chuẩn bị bắt đầu sự nghiệp mới, tôi sẽ chuẩn bị kĩ càng.\n\nアパートを契約するにあたって、いくつか注意すべき点があります。\nKhi ký hợp đồng thuê căn hộ, có một số điểm cần phải lưu ý.\n\n新しい門出を迎えるにあたって、一言お祝いの言葉を申し上げます。\nNhân dịp đón chào một chặng đường mới, tôi xin phép có đôi lời chúc mừng.\n\n調査を行うにあたって、十分な資料を集めた。\nKhi tiến hành khảo sát, tôi đã thu thập đầy đủ tài liệu.",
               "jlptLevel": 2
@@ -50,7 +50,7 @@
   },
   {
     "order": 2,
-    "title": "Bài 2: Ngay sau đó / Đang xảy ra (〜たとたん (に), 〜（か）と思うと, 〜か〜ないかのうちに, 〜最中だ, 〜ばかりだ・〜一方だ, 〜（よ）うとしている, 〜つつある, 〜つつ)",
+    "title": "Bài 2: 〜たとたん・〜と思うと・〜か〜ないかのうちに...",
     "summary": "Các cấu trúc diễn tả hành động xảy ra liên tiếp, đồng thời hoặc đang trong tiến trình: 〜たとたん (に), 〜（か）と思うと, 〜か〜ないかのうちに, 〜最中だ, 〜ばかりだ・〜一方だ, 〜（よ）うとしている, 〜つつある, 〜つつ",
     "theoryMd": "### Bài 2: Sự tiếp diễn và biến đổi (Ngay sau đó, Đang xảy ra)\n\n#### 1. Hành động xảy ra liên tiếp: 〜たとたん, 〜（か）と思うと, 〜か〜ないかのうちに\n- **〜たとたん**: Ngay lập tức xảy ra việc bất ngờ sau hành động trước.\n- **〜（か）と思うと**: Diễn tả sự biến đổi nhanh đến mức bất ngờ.\n- **〜か〜ないかのうちに**: Hai hành động diễn ra gần như đồng thời.\n\n#### 2. Hành động đang xảy ra: 〜最中だ, 〜つつある, 〜つつ\n- **〜最中だ**: Đúng lúc đang làm gì đó thì có việc xen vào.\n- **〜つつある**: Đang dần dần biến đổi theo một hướng.\n- **〜つつ**: Vừa làm việc này, vừa làm việc kia (trang trọng).\n\n#### 3. Xu hướng: 〜ばかりだ, 〜一方だ, 〜（よ）うとしている\n- **〜ばかりだ / 一方だ**: Chỉ xu hướng thay đổi (xấu/tốt).\n- **〜（よ）うとしている**: Sắp sửa xảy ra một sự việc trong khoảnh khắc.",
     "skills": [
@@ -62,65 +62,72 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 2 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 2: Ngay sau đó / Đang xảy ra (〜たとたん (に), 〜（か）と思うと, 〜か〜ないかのうちに, 〜最中だ, 〜ばかりだ・〜一方だ, 〜（よ）うとしている, 〜つつある, 〜つつ)",
+          "name": "Shinkanzen N2 — Bài 2: 〜たとたん・〜と思うと・〜か〜ないかのうちに...",
+          "description": "Chủ đề: Ngay sau đó / Đang xảy ra",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜たとたん（に）",
-              "back": "Ý nghĩa: Ngay sau khi... thì đột nhiên (vế sau xảy ra việc bất ngờ ngoài dự đoán, không thể hiện ý chí).\nCấu trúc: V-ta + とたん（に）",
+              "back": "Ý nghĩa: Ngay sau khi... thì đột nhiên (vế sau xảy ra việc bất ngờ ngoài dự đoán, không thể hiện ý chí).\nCấu trúc: Vた + とたん（に）\n* Giải thích thêm: thể hiện sự thay đổi, hoặc hành động xảy ra trong thời gian ngắn.Phía sau たとたん là nội dung mang tính bất ngờ, không chủ đích.",
               "romaji": "ta totan (ni)",
               "example": "結婚したとたんに、態度が変わった。\nNgay sau khi kết hôn, thái độ anh ấy đã thay đổi.\n\n立ち上がったとたんに、目眩がした。\nVừa mới đứng dậy một cái là tôi đã thấy chóng mặt.\n\nベルが鳴ったとたんに、教室から飛び出した。\nNgay khi chuông reo, cậu ấy đã lao ra khỏi lớp.\n\n一口食べたとたんに、吐き出してしまった。\nNgay sau khi ăn một miếng, tôi đã nhổ ra ngay.",
               "jlptLevel": 2
             },
             {
-              "front": "〜（か）と思うと",
-              "back": "Ý nghĩa: Vừa mới thấy... thì lập tức (diễn tả sự biến đổi cực nhanh chóng, bất ngờ).\nCấu trúc: V-u / V-ta + (か)と思うと",
+              "front": "〜（か）と思うと / 〜（か）と思ったら",
+              "back": "Ý nghĩa: Vừa mới thấy... thì lập tức (diễn tả sự biến đổi cực nhanh chóng, bất ngờ).\nCấu trúc: V-u / Vた + (か)と思うと\n* Giải thích thêm: “Tôi vừa nghĩ là…” Không dùng cho hành vi của chính người nói. Vế phía sau mang nội dung bất ngờ.",
               "romaji": "(ka) to omou to",
               "example": "部屋が片付いたかと思ったら、子どもたちがすぐまた散らかした。\nPhòng vừa dọn xong, đám trẻ đã làm loạn lại ngay.\n\n赤ちゃんはさっきまで泣いていたかと思うと、もう笑っている。\nĐứa bé vừa mới khóc lúc nãy mà giờ đã cười ngay được rồi.\n\n空が暗くなったかと思うと、激しい雨が降り出した。\nTrời vừa tối sầm lại thì mưa như trút nước bắt đầu rơi.\n\n彼は走り出したかと思うと、すぐに止まった。\nVừa thấy anh ấy chạy đi, thì đã dừng lại ngay.",
               "jlptLevel": 2
             },
             {
               "front": "〜か〜ないかのうちに",
-              "back": "Ý nghĩa: Vừa mới... thì đã (diễn tả hành động vế sau xảy ra gần như đồng thời khi vế trước chưa kết thúc).\nCấu trúc: V-ru / V-ta + か + V-nai + かのうちに",
+              "back": "Ý nghĩa: Vừa mới... thì đã (diễn tả hành động vế sau xảy ra gần như đồng thời khi vế trước chưa kết thúc).\nCấu trúc: Vる / Vた + か + Vない + かのうちに\n* Giải thích thêm: thể hiện hành động hay sự thay đổi trong thời gian ngắn",
               "romaji": "ka nai ka no uchi ni",
-              "example": "雨がやんだかやまないかのうちに、せみが鳴き出した。\nMưa vừa dứt, ve sầu lập tức bắt đầu kêu.\n\nチャイムが鳴るか鳴らないかのうちに、先生が教室に入ってきた。\nChuông vừa mới reo lên thì thầy giáo đã bước vào lớp học.\n\n布団に入るか入らないかのうちに、眠ってしまった。\nVừa mới chui vào chăn là tôi đã ngủ thiếp đi ngay.\n\n映画が終わるか終わらないかのうちに、席を立った。\nPhim vừa chiếu xong là tôi đã đứng dậy rời khỏi ghế.",
+              "example": "雨がやんだかやまないかのうちに、せみが鳴き出した。\nMưa vừa dứt, ve sầu lập tức bắt đầu kêu.\n\nチャイムが鳴るか鳴らないかのうちに、先生が教室に入ってきた。\nChuông vừa mới reo lên thì thầy giáo đã bước vào lớp học.\n\n布団に入るか入らないかのうちに、眠ってしまった。\nVừa mới chui vào chăn là tôi đã ngủ thiếp đi ngay.\n\n映画が終わるか終わらないかのうちに、席を立った。\nPhim vừa chiếu xong là tôi đã đứng dậy rời khỏi ghế.\n\n夜が明けたか明けないかのうちに",
               "jlptLevel": 2
             },
             {
               "front": "〜最中だ",
-              "back": "Ý nghĩa: Đúng lúc đang làm gì đó (thường có sự việc bất ngờ hoặc gây cản trở xen vào).\nCấu trúc: V-te iru / N-no + 最中だ",
+              "back": "Ý nghĩa: Đúng lúc đang làm gì đó (thường có sự việc bất ngờ hoặc gây cản trở xen vào).\nCấu trúc: Vている / N-no + 最中だ\n* Giải thích thêm: trong lúc đang làm gì thì có việc xảy ra, gây cản trở",
               "romaji": "saichuu da",
               "example": "スピーチの最中に、突然電気が消えた。\nĐang phát biểu thì điện đột nhiên bị ngắt.\n\n会議の最中だから、静かにしてください。\nVì đang giữa cuộc họp nên xin hãy giữ im lặng.\n\n食事の最中に電話がかかってきた。\nĐang trong bữa ăn thì điện thoại reo.\n\n彼は今、仕事の最中です。\nAnh ấy hiện đang trong giờ làm việc.",
               "jlptLevel": 2
             },
             {
-              "front": "〜ばかりだ・〜一方だ",
-              "back": "Ý nghĩa: Càng ngày càng... (ばかりだ thường tiêu cực; 一方だ tích cực lẫn tiêu cực).\nCấu trúc: V-ru + ばかりだ / 一方だ",
+              "front": "〜ばかりだ・〜一方だ / ～ばかりだ / ～一方だ",
+              "back": "Ý nghĩa: Càng ngày càng... (ばかりだ thường tiêu cực; 一方だ tích cực lẫn tiêu cực).\nCấu trúc: Vる + ばかりだ / 一方だ\n* Giải thích thêm: thể hiện sự biến đổi theo 1 chiều, xu hướng(ばかり　là theo xu hướng xấu)",
               "romaji": "bakari da / ippou da",
-              "example": "人間関係は悪くなる一方だ。\nMối quan hệ nhân sinh chỉ có xấu dần đi.\n\n最近、祖父の病気は悪化するばかりだ。\nGần đây, bệnh tình của ông tôi cứ ngày một xấu đi.\n\n人口は減る一方だ。\nDân số cứ ngày một giảm dần.\n\n技術は向上するばかりだ。\nKỹ thuật cứ ngày một tiến bộ.",
+              "example": "人間関係は悪くなる一方だ。\nMối quan hệ nhân sinh chỉ có xấu dần đi.\n\n最近、祖父の病気は悪化するばかりだ。\nGần đây, bệnh tình của ông tôi cứ ngày một xấu đi.\n\n人口は減る一方だ。\nDân số cứ ngày một giảm dần.\n\n技術は向上するばかりだ。\nKỹ thuật cứ ngày một tiến bộ.\n\n複雑になるばかりで\nGiao thông ở Tokyo ngày càng phức tạp, tôi cũng trở nên không hiểu rõ nữa.",
               "jlptLevel": 2
             },
             {
               "front": "〜（よ）うとしている",
-              "back": "Ý nghĩa: Sắp sửa, chuẩn bị (sự việc sắp diễn ra, văn viết trang trọng).\nCấu trúc: V-volitional + としている",
+              "back": "Ý nghĩa: Sắp sửa, chuẩn bị (sự việc sắp diễn ra, văn viết trang trọng).\nCấu trúc: V-volitional + としている\n* Giải thích thêm: sắp sửa có sự kiện xảy ra, kết thúc",
               "romaji": "(yo)u to shite iru",
-              "example": "決勝戦が今始まろうとしています。\nTrận chung kết sắp bắt đầu ngay bây giờ.\n\n桜の花が満開になろうとしている。\nHoa anh đào chuẩn bị nở rộ đến nơi rồi.\n\n日が沈もうとしている。\nMặt trời đang chuẩn bị lặn.\n\n家を出ようとしたところに、雨が降ってきた。\nNgay lúc tôi định rời khỏi nhà thì trời mưa.",
+              "example": "決勝戦が今始まろうとしています。\nTrận chung kết sắp bắt đầu ngay bây giờ.\n\n桜の花が満開になろうとしている。\nHoa anh đào chuẩn bị nở rộ đến nơi rồi.\n\n日が沈もうとしている。\nMặt trời đang chuẩn bị lặn.\n\n家を出ようとしたところに、雨が降ってきた。\nNgay lúc tôi định rời khỏi nhà thì trời mưa.\n\n桜が満開になろうとしているとき",
               "jlptLevel": 2
             },
             {
               "front": "〜つつある",
-              "back": "Ý nghĩa: Đang dần dần... (tiến trình biến đổi đang diễn ra từ từ).\nCấu trúc: V-masu (bỏ masu) + つつある",
+              "back": "Ý nghĩa: Đang dần dần... (tiến trình biến đổi đang diễn ra từ từ).\nCấu trúc: Vます (bỏ masu) + つつある\n* Giải thích thêm: Đang trong quá trình một sự vật, hiện tượng biến đổi. Ấn tượng đối với người nói thì nhẹ hơn so với　ばかりだ/一方だ。",
               "romaji": "tsutsu aru",
               "example": "この会社は現在発展つつあり、将来が期待される。\nCông ty này hiện đang phát triển và được kỳ vọng trong tương lai.\n\n景気は徐々に回復しつつある。\nTình hình kinh tế đang dần dần hồi phục.\n\n社会は変わりつつある。\nXã hội đang dần thay đổi.\n\n問題は解決に向かいつつある。\nVấn đề đang dần tiến tới việc được giải quyết.",
               "jlptLevel": 2
             },
             {
               "front": "〜つつ",
-              "back": "Ý nghĩa: Vừa... vừa... (hành động song song, trang trọng hơn 'nagara').\nCấu trúc: V-masu (bỏ masu) + つつ",
+              "back": "Ý nghĩa: Vừa... vừa... (hành động song song, trang trọng hơn 'nagara').\nCấu trúc: Vます (bỏ masu) + つつ\n* Giải thích thêm: Vừa thực hiện hành động này, vừa thực hiện hành động kia. Mẫu này có ý nghĩa giống với ながら nhưng là cách nói cứng hơn",
               "romaji": "tsutsu",
-              "example": "住民と話し合いつつ、計画を立てていきたい。\nTôi muốn vừa thảo luận với người dân, vừa lập kế hoạch.\n\n将来のことを考えつつ、進路を決めなければならない。\nVừa phải suy nghĩ về tương lai, vừa phải quyết định con đường sự nghiệp.\n\n彼と手紙をやり取りしつつ、親交を深めた。\nVừa trao đổi thư từ với anh ấy, vừa vun đắp tình bạn.\n\n政府は物価を抑えつつ、経済成長を図る。\nChính phủ vừa tìm cách kìm hãm vật giá, vừa nhắm đến tăng trưởng kinh tế.",
+              "example": "住民と話し合いつつ、計画を立てていきたい。\nTôi muốn vừa thảo luận với người dân, vừa lập kế hoạch.\n\n将来のことを考えつつ、進路を決めなければならない。\nVừa phải suy nghĩ về tương lai, vừa phải quyết định con đường sự nghiệp.\n\n彼と手紙をやり取りしつつ、親交を深めた。\nVừa trao đổi thư từ với anh ấy, vừa vun đắp tình bạn.\n\n政府は物価を抑えつつ、経済成長を図る。\nChính phủ vừa tìm cách kìm hãm vật giá, vừa nhắm đến tăng trưởng kinh tế.\n\nボートをこぎつつ",
+              "jlptLevel": 2
+            },
+            {
+              "front": "～うちに",
+              "back": "Ý nghĩa: trong lúc (① trong lúc này lăm tốt hơn là để sau ② trong lúc (thời gian ngắn) đang làm gì thì có sự biến đổi trạng thái)\nCấu trúc: ①V　普通 + うちに / ②V　ている/ない　＋　うちに",
+              "romaji": "",
+              "example": "",
               "jlptLevel": 2
             }
           ]
@@ -134,7 +141,7 @@
   },
   {
     "order": 3,
-    "title": "Bài 3: Trình tự thời gian (〜てはじめて, 〜上で, 〜次第, 〜て以来・〜てこのかた, 〜てからでないと・〜てからでなければ)",
+    "title": "Bài 3: 〜てはじめて・〜上で・〜次第...",
     "summary": "Các cấu trúc về trình tự hành động: 〜てはじめて, 〜上で, 〜次第, 〜て以来・〜てこのかた, 〜てからでないと・〜てからでなければ",
     "theoryMd": "### Bài 3: Trình tự thời gian\n\n- **〜てはじめて**: Nhấn mạnh việc sau khi làm A mới đạt được B (thường là nhận thức mới).\n- **〜上で**: A là tiền đề, chuẩn bị cho B.\n- **〜次第**: A xong lập tức làm B (thường là ý chí/hành động).\n- **〜て以来・〜てこのかた**: Từ lúc đó đến giờ, trạng thái không thay đổi.\n- **〜てからでないと**: Nếu không có A (điều kiện cần), thì không làm được B.",
     "skills": [
@@ -146,42 +153,42 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 3 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 3: Trình tự thời gian (〜てはじめて, 〜上で, 〜次第, 〜て以来・〜てこのかた, 〜てからでないと・〜てからでなければ)",
+          "name": "Shinkanzen N2 — Bài 3: 〜てはじめて・〜上で・〜次第...",
+          "description": "Chủ đề: Trình tự thời gian",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜てはじめて",
-              "back": "Ý nghĩa: Chỉ sau khi trải qua việc A thì mới nhận ra/xảy ra việc B.\nCấu trúc: V-te + はじめて",
+              "back": "Ý nghĩa: Chỉ sau khi trải qua việc A thì mới nhận ra/xảy ra việc B.\nCấu trúc: Vて + はじめて\n* Giải thích thêm: Sau khi trải qua một sự kiện thì xảy một điều chưa từng có từ trước đến nay",
               "romaji": "te hajimete",
-              "example": "実際に現地の様子を見てはじめて、今回の地震のひどさを知った。\nSau khi nhìn tận mắt tình hình nơi địa phương đó, tôi đã hiểu sự dữ dội của trận động đất lần này.\n\n病気になってはじめて、健康のありがたさが分かった。\nChỉ sau khi bị ốm, tôi mới thấu hiểu được giá trị của sức khỏe.\n\n先生に言われてはじめて、間違いに気づいた。\nSau khi được thầy chỉ ra, tôi mới nhận ra lỗi sai.\n\n親になってはじめて、親の苦労が分かった。\nChỉ sau khi làm cha mẹ, tôi mới hiểu nỗi vất vả của cha mẹ.",
+              "example": "実際に現地の様子を見てはじめて、今回の地震のひどさを知った。\nSau khi nhìn tận mắt tình hình nơi địa phương đó, tôi đã hiểu sự dữ dội của trận động đất lần này.\n\n病気になってはじめて、健康のありがたさが分かった。\nChỉ sau khi bị ốm, tôi mới thấu hiểu được giá trị của sức khỏe.\n\n先生に言われてはじめて、間違いに気づいた。\nSau khi được thầy chỉ ra, tôi mới nhận ra lỗi sai.\n\n親になってはじめて、親の苦労が分かった。\nChỉ sau khi làm cha mẹ, tôi mới hiểu nỗi vất vả của cha mẹ.\n\n人に言われてはじめて",
               "jlptLevel": 2
             },
             {
               "front": "〜上で",
-              "back": "Ý nghĩa: Sau khi làm hành động A (làm chuẩn bị) thì mới làm hành động B.\nCấu trúc: V-ta / N-no + 上で",
+              "back": "Ý nghĩa: Sau khi làm hành động A (làm chuẩn bị) thì mới làm hành động B.\nCấu trúc: Vた / N-no + 上で\n* Giải thích thêm: Phải làm một hành động trước, như là một sự chuẩn bị, sau đó mới tiếp tục thực hiện hành động sau",
               "romaji": "ue de",
               "example": "文書が保存されていることを確かめた上でパソコンをシャットダウンしてください。\nSau khi xác nhận tài liệu đã được lưu, hãy tắt máy tính.\n\n家族と相談した上で、留学するかどうかを決めます。\nSau khi thảo luận với gia đình, tôi mới quyết định có đi du học hay không.\n\nよく考えた上で、結論を出します。\nSau khi suy nghĩ kỹ, tôi sẽ đưa ra kết luận.\n\n実物を見た上で、購入するか決める。\nSau khi nhìn vật thực tế, tôi mới quyết định có mua hay không.",
               "jlptLevel": 2
             },
             {
               "front": "〜次第",
-              "back": "Ý nghĩa: Ngay sau khi xong việc A thì lập tức làm việc B (vế sau là ý chí).\nCấu trúc: V-masu (bỏ masu) / N + 次第",
+              "back": "Ý nghĩa: Ngay sau khi xong việc A thì lập tức làm việc B (vế sau là ý chí).\nCấu trúc: Vます (bỏ masu) / N + 次第\n* Giải thích thêm: Sau khi xong một việc gì thì thực hiện một việc khác ngay sau.Việc phía trước chắc chắn xảy ra",
               "romaji": "shidai",
               "example": "全員集まり次第、出発します。\nSau khi tất cả mọi người tập trung đủ, chúng ta sẽ xuất phát.\n\n詳しいことが分かり次第、ご連絡いたします。\nNgay sau khi biết chi tiết, tôi sẽ liên lạc lại.\n\n準備ができ次第、会場へ向かいます。\nNgay sau khi chuẩn bị xong, tôi sẽ đến hội trường.\n\n帰宅次第、電話をかけてください。\nNgay sau khi về nhà, hãy gọi điện cho tôi.",
               "jlptLevel": 2
             },
             {
               "front": "〜て以来・〜てこのかた",
-              "back": "Ý nghĩa: Kể từ sau khi việc A xảy ra, tình trạng B tiếp diễn liên tục đến nay.\nCấu trúc: V-te + 以来 / このかた",
+              "back": "Ý nghĩa: Kể từ sau khi việc A xảy ra, tình trạng B tiếp diễn liên tục đến nay.\nCấu trúc: Vて + 以来 / このかた\n* Giải thích thêm: Sau một sự việc, sự kiện xảy ra thì có một tình trạng cứ mãi tiếp diễn",
               "romaji": "te irai / te kono kata",
               "example": "母がいなくなってこのかた、母のことを考えない日はない。\nTừ sau khi mẹ mất, không có ngày nào tôi không nghĩ về mẹ.\n\n日本に来て以来、一度も実家に帰っていない。\nKể từ khi đến Nhật Bản, tôi chưa một lần nào về quê nhà.\n\n卒業して以来、彼とは会っていない。\nKể từ sau khi tốt nghiệp, tôi chưa gặp lại anh ấy.\n\n結婚してこのかた、一度も喧嘩をしたことがない。\nTừ khi cưới nhau đến nay, chúng tôi chưa bao giờ cãi nhau.",
               "jlptLevel": 2
             },
             {
               "front": "〜てからでないと・〜てからでなければ",
-              "back": "Ý nghĩa: Nếu không hoàn thành A thì không thể thực hiện B (vế sau phủ định).\nCấu trúc: V-te + からでないと / からでなければ",
+              "back": "Ý nghĩa: Nếu không hoàn thành A thì không thể thực hiện B (vế sau phủ định).\nCấu trúc: Vて + からでないと / からでなければ\n* Giải thích thêm: Nếu chưa hoàn thành một việc gì, thì một việc khác không thể thực hiện được. Vế phía sau mang ý nghĩa phủ định.",
               "romaji": "te kara denai to / te kara de nakereba",
               "example": "もっと情報を集めてからでないと、その話が本当かどうか判断できない。\nNếu chưa thu thập thêm thông tin, tôi không thể phán đoán câu chuyện đó có thật hay không.\n\n宿題を済ませてからでないと、遊びに行ってはいけません。\nNếu chưa làm xong bài tập thì không được đi chơi.\n\n確認してからでなければ、契約書にサインはできない。\nNếu chưa kiểm tra, tôi không thể ký tên vào hợp đồng.\n\n実物を見てからでないと、買うかどうか決められない。\nNếu chưa xem thực tế, tôi không thể quyết định có mua hay không.",
               "jlptLevel": 2
@@ -197,7 +204,7 @@
   },
   {
     "order": 4,
-    "title": "Bài 4: Phạm vi (〜をはじめ（として）, 〜からして, 〜にわたって, 〜を通じて・〜を通して, 〜限り, 〜だけ)",
+    "title": "Bài 4: 〜をはじめ・〜からして・〜にわたって...",
     "summary": "Các cấu trúc liên quan đến phạm vi: 〜をはじめ（として）, 〜からして, 〜にわたって, 〜を通じて・〜を通して, 〜限り, 〜だけ",
     "theoryMd": "### Bài 4: Phạm vi và Giới hạn\n\n- **〜をはじめ**: Đưa ra ví dụ đại diện đầu tiên.\n- **〜からして**: Đánh giá tổng thể qua một chi tiết nhỏ.\n- **〜にわたって**: Phạm vi trải dài (không gian, thời gian).\n- **〜を通じて・を通して**: Thông qua trung gian hoặc suốt thời gian dài.\n- **〜限り**: Giới hạn phạm vi hiểu biết/khả năng.\n- **〜だけ**: Đến mức tối đa có thể.",
     "skills": [
@@ -209,51 +216,51 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 4 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 4: Phạm vi (〜をはじめ（として）, 〜からして, 〜にわたって, 〜を通じて・〜を通して, 〜限り, 〜だけ)",
+          "name": "Shinkanzen N2 — Bài 4: 〜をはじめ・〜からして・〜にわたって...",
+          "description": "Chủ đề: Phạm vi",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜をはじめ（として）",
-              "back": "Ý nghĩa: Đưa ra ví dụ tiêu biểu nhất, ngoài ra còn nhiều thứ khác nữa.\nCấu trúc: N + をはじめ（として）",
+              "back": "Ý nghĩa: Đưa ra ví dụ tiêu biểu nhất, ngoài ra còn nhiều thứ khác nữa.\nCấu trúc: N + をはじめ（として）\n* Giải thích thêm: Lấy ra một thứ để đại diện trong số nhiều thứ. Vế phía sau thường có từ thể hiện số nhiều",
               "romaji": "o hajime (to shite)",
               "example": "この体育館では水泳をはじめ、いろいろなスポーツが楽しめる。\nTại nhà thi đấu này, có thể chơi các môn thể thao, bắt đầu từ bơi lội.\n\n校長先生をはじめ、先生方には大変お世話になりました。\nTôi đã nhận được sự giúp đỡ rất nhiều từ các thầy cô, trước hết là thầy hiệu trưởng.\n\n日本には富士山をはじめ、美しい山がたくさんある。\nỞ Nhật có nhiều núi đẹp, tiêu biểu là núi Phú Sĩ.\n\n家族をはじめ、多くの人に支えられた。\nTôi được nhiều người ủng hộ, trước hết là gia đình.",
               "jlptLevel": 2
             },
             {
               "front": "〜からして",
-              "back": "Ý nghĩa: Ngay từ một ví dụ nhỏ đã thế, suy ra toàn thể cũng vậy (thường tiêu cực).\nCấu trúc: N + からして",
+              "back": "Ý nghĩa: Ngay từ một ví dụ nhỏ đã thế, suy ra toàn thể cũng vậy (thường tiêu cực).\nCấu trúc: N + からして\n* Giải thích thêm: Ví dụ được đưa ra chỉ phần nhỏ là không phải là điểm trọng yếu của vấn đề. Vế sau của câu thường là đánh giá không tích cực.",
               "romaji": "kara shite",
-              "example": "出発時間からして早すぎる。\nNgay từ thời gian xuất phát đã quá sớm rồi.\n\n彼の態度は、挨拶の仕方からしてなっていない。\nThái độ của anh ta, ngay từ cách chào hỏi đã không ra làm sao rồi.\n\nこの店は料理の味からして違う。\nCửa hàng này, ngay từ hương vị món ăn đã khác hẳn rồi.\n\n服装からして、だらしない感じだ。\nNgay từ cách ăn mặc đã thấy lôi thôi rồi.",
+              "example": "出発時間からして早すぎる。\nNgay từ thời gian xuất phát đã quá sớm rồi.\n\n彼の態度は、挨拶の仕方からしてなっていない。\nThái độ của anh ta, ngay từ cách chào hỏi đã không ra làm sao rồi.\n\nこの店は料理の味からして違う。\nCửa hàng này, ngay từ hương vị món ăn đã khác hẳn rồi.\n\n服装からして、だらしない感じだ。\nNgay từ cách ăn mặc đã thấy lôi thôi rồi.\n\n走り方からして\nQuả là tuyển thủ chuyên nghiệp, từ cách chạy đã khác với chúng tôi",
               "jlptLevel": 2
             },
             {
               "front": "〜にわたって",
-              "back": "Ý nghĩa: Trải suốt, suốt (phạm vi rộng về thời gian, không gian, số lần).\nCấu trúc: N + にわたって",
+              "back": "Ý nghĩa: Trải suốt, suốt (phạm vi rộng về thời gian, không gian, số lần).\nCấu trúc: N + にわたって\n* Giải thích thêm: Chỉ phạm vi, mà có một trạng thái, hiện tượng, sự việc nào đó đã lan rộng ra toàn thể phạm vi này.\n Cách dùng: Đi kèm với những từ thể hiện phạm vi, như địa điểm, thời gian, số lần,…",
               "romaji": "ni watatte",
               "example": "高速道路は２０キロにわたって渋滞が続いた。\nĐường cao tốc tắc nghẽn kéo dài suốt 20km.\n\n会議は３日間にわたって行われました。\nHội nghị đã được tiến hành suốt 3 ngày liền.\n\n彼は長年にわたってこの研究を続けている。\nÔng ấy đã tiếp tục nghiên cứu này suốt nhiều năm trời.\n\n広い範囲にわたって被害が出た。\nThiệt hại đã xảy ra trên diện rộng.",
               "jlptLevel": 2
             },
             {
               "front": "〜を通じて・〜を通して",
-              "back": "Ý nghĩa: Thông qua (phương tiện, trung gian) HOẶC Suốt (khoảng thời gian dài).\nCấu trúc: N + を通じて / をを通して",
+              "back": "Ý nghĩa: Thông qua (phương tiện, trung gian) HOẶC Suốt (khoảng thời gian dài).\nCấu trúc: N + を通じて / をを通して\n* Giải thích thêm: ①Trong một khoảng thời gian, một trạng thái diễn ra không đổi.\n②Bằng cách, phương pháp nào đó để thực hiện việc gì.",
               "romaji": "o tsuujite / o tooshite",
-              "example": "インターネットを通じて世界中の情報が手に入る。\nThông qua internet, có thể nắm bắt thông tin khắp thế giới.\n\nこの地域は、一年を通じて温暖な気候です。\nKhu vực này có khí hậu ôn hòa suốt cả năm.\n\n友人を通して彼と知り合った。\nTôi quen biết anh ấy thông qua một người bạn.\n\n夏の間を通じて、毎日泳ぎに行った。\nSuốt cả mùa hè, tôi đã đi bơi hàng ngày.",
+              "example": "インターネットを通じて世界中の情報が手に入る。\nThông qua internet, có thể nắm bắt thông tin khắp thế giới.\n\nこの地域は、一年を通じて温暖な気候です。\nKhu vực này có khí hậu ôn hòa suốt cả năm.\n\n友人を通して彼と知り合った。\nTôi quen biết anh ấy thông qua một người bạn.\n\n夏の間を通じて、毎日泳ぎに行った。\nSuốt cả mùa hè, tôi đã đi bơi hàng ngày.\n\n①Thị trấn này suốt 4 mùa đều có khách thăm quan ghé thăm. 四季を通じて\n\n②Ngày nay, chúng ta biết được thông tin trên khắp thế giới thông qua internet. インターネットを通じて",
               "jlptLevel": 2
             },
             {
               "front": "〜限り",
-              "back": "Ý nghĩa: Trong giới hạn, phạm vi (khả năng, hiểu biết, thời gian).\nCấu trúc: V-ru / V-te iru / N-no + 限り",
+              "back": "Ý nghĩa: Trong giới hạn, phạm vi (khả năng, hiểu biết, thời gian).\nCấu trúc: Vる / Vている / N-no + 限り\n* Giải thích thêm: Chỉ toàn bộ những sự việc, hiện trượng, những điều nằm trong một phạm vi.\n Cách dùng: Trong trường hợp đi kèm động từ, 限り thường đi kèm với thểている và thể khả năng.",
               "romaji": "kagiri",
               "example": "力の限り頑張ろう。\nHãy cố gắng hết sức mình.\n\n私が調べた限りでは、その情報は正しいようです。\nTrong phạm vi những gì tôi đã tìm hiểu, thông tin đó có vẻ chính xác.\n\n知っている限りのことを教えます。\nTôi sẽ chỉ cho bạn tất cả những gì tôi biết.\n\n今の限りの力では、これが精一杯だ。\nVới sức lực hiện tại, đây là mức cao nhất rồi.",
               "jlptLevel": 2
             },
             {
               "front": "〜だけ",
-              "back": "Ý nghĩa: Đến mức giới hạn, hết mức có thể (thể khả năng/mong muốn).\nCấu trúc: V-ru (thể khả năng / mong muốn) + だけ",
+              "back": "Ý nghĩa: Đến mức giới hạn, hết mức có thể (thể khả năng/mong muốn).\nCấu trúc: Vる (thể khả năng / mong muốn) + だけ",
               "romaji": "dake",
-              "example": "積めるだけ積んでください。\nHãy chất lên hết mức có thể.\n\n食べたいだけ食べていいですよ。\nBạn có thể ăn bao nhiêu tùy thích.\n\n走れるだけ走った。\nTôi đã chạy hết sức có thể.\n\n泣きたいだけ泣けばいい。\nBạn cứ khóc bao nhiêu tùy thích.",
+              "example": "積めるだけ積んでください。\nHãy chất lên hết mức có thể.\n\n食べたいだけ食べていいですよ。\nBạn có thể ăn bao nhiêu tùy thích.\n\n走れるだけ走った。\nTôi đã chạy hết sức có thể.\n\n泣きたいだけ泣けばいい。\nBạn cứ khóc bao nhiêu tùy thích.\n\n部長に言いたいだけの不満を",
               "jlptLevel": 2
             }
           ]
@@ -267,7 +274,7 @@
   },
   {
     "order": 5,
-    "title": "Bài 5: Giới hạn (〜に限り, 〜限り（は）, 〜に限りでは, 〜に限って)",
+    "title": "Bài 5: 〜に限り・〜限り・〜限りでは...",
     "summary": "Các cấu trúc diễn tả sự giới hạn: 〜に限り, 〜限り（は）, 〜に限りでは, 〜に限って",
     "theoryMd": "### Bài 5: Giới hạn và ngoại lệ\n\n- **〜に限り**: Chỉ riêng một nhóm/đối tượng cụ thể (thông báo).\n- **〜限り（は）**: Chừng nào còn giữ trạng thái A, thì B còn tiếp diễn.\n- **〜限りでは**: Giới hạn trong những thông tin mình có.\n- **〜に限って**: Nhấn mạnh sự đen đủi (đúng lúc) hoặc tin tưởng tuyệt đối vào đối tượng đặc biệt.",
     "skills": [
@@ -279,37 +286,37 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 5 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 5: Giới hạn (〜に限り, 〜限り（は）, 〜に限りでは, 〜に限って)",
+          "name": "Shinkanzen N2 — Bài 5: 〜に限り・〜限り・〜限りでは...",
+          "description": "Chủ đề: Giới hạn",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜に限り",
-              "back": "Ý nghĩa: Chỉ riêng, ngoại lệ (dùng trong thông báo, quảng cáo).\nCấu trúc: N + に限り",
+              "back": "Ý nghĩa: Chỉ riêng, ngoại lệ (dùng trong thông báo, quảng cáo).\nCấu trúc: N + に限り\n* Giải thích thêm: Là cách nói được dùng khi trình bày với mọi người nói chung, với công chúng. Đi kèm với những từ thể hiện sự đối đãi khác biệt, ngoại lệ. Vế phía sau thể hiện sự đối đãi ngoại lệ dành cho đối tượng đó. Thường không dùng thể phủ định.\n* Giải thích thêm: Trong giới hạn phạm vi của nguồn thông tin, có thể nói được điều gì.\n Cách dùng: Đi kèm với những từ liên quan tới việc có được thông tin (nhìn, nghe, nhớ, biết, điều tra…) Vế sau là câu thể hiện thông tin hoặc phán đoán.",
               "romaji": "ni kagiri",
-              "example": "欠席理由が正当な場合に限り出席扱いにします。\nChỉ đối với trường hợp vắng mặt có lí do chính đáng thì mới được coi là có mặt.\n\n女性のお客様に限り、ドリンクを1杯サービスいたします。\nChỉ riêng khách hàng nữ mới được tặng một ly đồ uống miễn phí.\n\n本日ご来店の方に限り、半額といたします。\nChỉ áp dụng giảm giá một nửa cho khách hàng đến hôm nay.\n\n会員の方に限り入場可能です。\nChỉ hội viên mới được phép vào cửa.",
+              "example": "欠席理由が正当な場合に限り出席扱いにします。\nChỉ đối với trường hợp vắng mặt có lí do chính đáng thì mới được coi là có mặt.\n\n女性のお客様に限り、ドリンクを1杯サービスいたします。\nChỉ riêng khách hàng nữ mới được tặng một ly đồ uống miễn phí.\n\n本日ご来店の方に限り、半額といたします。\nChỉ áp dụng giảm giá một nửa cho khách hàng đến hôm nay.\n\n会員の方に限り入場可能です。\nChỉ hội viên mới được phép vào cửa.\n\n急を要す患者さんに限り\n\n私が知っている限りでは",
               "jlptLevel": 2
             },
             {
               "front": "〜限り（は）",
-              "back": "Ý nghĩa: Chừng nào mà... thì vẫn... (điều kiện duy trì).\nCấu trúc: V-ru / V-nai / A-i / A-na / N-de aru + 限り(は)",
+              "back": "Ý nghĩa: Chừng nào mà... thì vẫn... (điều kiện duy trì).\nCấu trúc: Vる / Vない / A-i / A-na / N-de aru + 限り(は)\n* Giải thích thêm: Trong giới hạn khoảng thời gian một trạng thái tiếp diễn, cũng có một trạng thái khác diễn ra liên tục.\n Cách dùng: Cả vế trước và vế sau đều là từ thể hiện trạng thái. Vì là mẫu câu mang ý nghĩa điều kiện, nên vế phía sau không dùng thể quá khứ.",
               "romaji": "kagiri (wa)",
               "example": "足が丈夫な限り、まだまだ山登りが楽しめるだろう。\nChừng nào chân còn khỏe thì vẫn còn tận hưởng việc leo núi được.\n\nこの国にいる限り、法律を守らなければならない。\nChừng nào còn ở đất nước này thì phải tuân thủ pháp luật.\n\n約束を破らない限りは、彼を信頼している。\nChừng nào anh ấy chưa phá vỡ lời hứa, tôi vẫn tin tưởng anh ấy.\n\n悪い生活習慣を直さない限り、病気は治らない。\nChừng nào còn chưa bỏ thói quen xấu, bệnh sẽ không khỏi.",
               "jlptLevel": 2
             },
             {
               "front": "〜限りでは",
-              "back": "Ý nghĩa: Trong giới hạn nguồn thông tin (nhìn, nghe, biết, điều tra) thì...\nCấu trúc: V-ru / V-ta / V-te iru / N-no + 限りでは",
+              "back": "Ý nghĩa: Trong giới hạn nguồn thông tin (nhìn, nghe, biết, điều tra) thì...\nCấu trúc: Vる / Vた / Vている / N-no + 限りでは",
               "romaji": "kagiri dewa",
               "example": "私が知っている限りでは、この近所に花屋はありません。\nTrong giới hạn những gì tôi biết, ở gần đây không có cửa hàng hoa nào cả.\n\n新聞の報道する限りでは、事件の真相はまだ明らかになっていない。\nTheo như những gì báo chí đưa tin, chân tướng sự việc vẫn chưa sáng tỏ.\n\n聞いた限りでは、彼はとても親切な人らしい。\nTheo những gì tôi nghe được, anh ấy có vẻ là người rất tử tế.\n\n私の覚えている限りでは、彼は来なかったはずだ。\nTheo những gì tôi nhớ, đáng lẽ anh ấy đã không đến.",
               "jlptLevel": 2
             },
             {
               "front": "〜に限って",
-              "back": "Ý nghĩa: Đúng vào lúc không may / Riêng đối với ai đó thì tin tưởng tuyệt đối (vế sau phủ định).\nCấu trúc: N + に限って",
+              "back": "Ý nghĩa: Đúng vào lúc không may / Riêng đối với ai đó thì tin tưởng tuyệt đối (vế sau phủ định).\nCấu trúc: N + に限って\n* Giải thích thêm: Bình thường thì luôn luôn thế này, nhưng chỉ riêng lần đó là không như vậy",
               "romaji": "ni kagitte",
-              "example": "庭の手入れをしようと思っている日に限って雨が降る。\nĐúng cái ngày tôi định dọn vườn thì trời mưa.\n\nうちの子に限って、そんな悪いことをするはずがありません。\nRiêng con nhà tôi thì tuyệt đối không đời nào làm việc xấu xa như vậy.\n\n忙しい時に限って、電話がかかってくる。\nĐúng lúc bận rộn thì lại có điện thoại.\n\nあの方に限って、そんなミスはしないだろう。\nĐối với người đó, chắc chắn sẽ không bao giờ mắc lỗi như vậy.",
+              "example": "庭の手入れをしようと思っている日に限って雨が降る。\nĐúng cái ngày tôi định dọn vườn thì trời mưa.\n\nうちの子に限って、そんな悪いことをするはずがありません。\nRiêng con nhà tôi thì tuyệt đối không đời nào làm việc xấu xa như vậy.\n\n忙しい時に限って、電話がかかってくる。\nĐúng lúc bận rộn thì lại có điện thoại.\n\nあの方に限って、そんなミスはしないだろう。\nĐối với người đó, chắc chắn sẽ không bao giờ mắc lỗi như vậy.\n\nその日に限って",
               "jlptLevel": 2
             }
           ]
@@ -323,7 +330,7 @@
   },
   {
     "order": 6,
-    "title": "Bài 6: Không chỉ (〜に限らず, 〜のみならず, 〜ばかりか, 〜はもとより, 〜上（に）)",
+    "title": "Bài 6: 〜に限らず・〜のみならず・〜ばかりか...",
     "summary": "Các cấu trúc diễn tả sự bổ sung: 〜に限らず, 〜のみならず, 〜ばかりか, 〜はもとより, 〜上（に）",
     "theoryMd": "### 6. Cấu trúc bổ sung (Không chỉ, Hơn nữa)\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜に限らず**: Không chỉ trong phạm vi A, mà phạm vi rộng hơn B cũng vậy.\n- **〜のみならず**: Không chỉ cái này, mà còn cái kia (Trang trọng hơn 'dake de naku').\n- **〜ばかりか**: Không chỉ A, mà còn thêm mức độ nghiêm trọng hoặc điều bất ngờ B.\n- **〜はもとより**: A là đương nhiên, và cả B cũng thế.\n- **〜上（に）**: Hơn nữa, thêm vào đó (kết quả cùng chiều tốt hoặc xấu).\n\n#### 📝 Ví dụ minh họa\n- *〜に限らず*: この映画は子どもに限らず、大人でも楽しめる。\n- *〜のみならず*: 彼は英語のみならず、日本語も堪能だ。\n- *〜ばかりか*: 彼は嘘をついたばかりか、人のせいにもした。\n- *〜はもとより*: たばこは本人はもとより、周りの人にも害を及ぼす。\n- *〜上（に）*: 今日は寝不足の上、少し熱がある。",
     "skills": [
@@ -335,8 +342,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 6 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 6: Không chỉ (〜に限らず, 〜のみならず, 〜ばかりか, 〜はもとより, 〜上（に）)",
+          "name": "Shinkanzen N2 — Bài 6: 〜に限らず・〜のみならず・〜ばかりか...",
+          "description": "Chủ đề: Không chỉ",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -349,28 +356,28 @@
             },
             {
               "front": "〜のみならず",
-              "back": "Ý nghĩa: Không chỉ cái này, mà còn cái khác (tương đương với 'dake de naku' nhưng trang trọng hơn).\nCấu trúc: N / V-ru / A-i / A-na (である) + のみならず",
+              "back": "Ý nghĩa: Không chỉ cái này, mà còn cái khác (tương đương với 'dake de naku' nhưng trang trọng hơn).\nCấu trúc: N / Vる / A-i / A-na (である) + のみならず\n* Giải thích thêm: Khác với に限らず, mẫu câu này có thể dùng trong trường hợp thứ khác cũng vậy là thứ cùng cấp độ, cùng dạng (không cần có phạm vi lớn hơn). Vế phía sau thường có もthể hiện ý nghĩa cái khác cũng thế",
               "romaji": "nomi-narazu",
               "example": "電気代のみならず、ガス代や水道代も値上がりするようだ。\nKhông chỉ tiền điện, cả tiền gas và tiền nước cũng tăng giá.\n\n彼は英語のみならず、日本語も堪能だ。\nAnh ấy không chỉ thành thạo tiếng Anh mà cả tiếng Nhật cũng vậy.\n\n今回の失敗は、本人のみならず責任者全員に関わる問題だ。\nThất bại lần này không chỉ là vấn đề của cá nhân mà liên quan đến tất cả những người chịu trách nhiệm.\n\nこの薬は、身体のみならず心にも悪影響を及ぼす可能性がある。\nLoại thuốc này có khả năng gây ảnh hưởng xấu không chỉ đến cơ thể mà cả tinh thần.",
               "jlptLevel": 2
             },
             {
               "front": "〜ばかりか",
-              "back": "Ý nghĩa: Không chỉ A mà còn B (nhấn mạnh mức độ cao hơn hoặc kết quả bất ngờ).\nCấu trúc: N / V-ru / A-i / A-na (な/である) + ばかりか",
+              "back": "Ý nghĩa: Không chỉ A mà còn B (nhấn mạnh mức độ cao hơn hoặc kết quả bất ngờ).\nCấu trúc: N / Vる / A-i / A-na (な/である) + ばかりか\n* Giải thích thêm: Ở vế trước của câu nói một điều không xảy ra thường xuyên, ở vế sau là điều khác nữa thêm vào, có cảm giác ngoài dự đoán.",
               "romaji": "bakari-ka",
-              "example": "A先生の説明は、子供にわかりやすいばかりか、非常に面白くてためになる。\nBài giải thích của thầy A không chỉ dễ hiểu với trẻ em mà còn rất thú vị và hữu ích.\n\n彼女は親切なばかりか、頭も非常に良い。\nCô ấy không chỉ thân thiện mà còn cực kỳ thông minh.\n\n彼は嘘をついたばかりか、人のせいにもした。\nAnh ta không chỉ nói dối mà còn đổ lỗi cho người khác.\n\nこの村は空気がきれいなばかりか、野菜もとても美味しい。\nNgôi làng này không chỉ không khí trong lành mà rau củ cũng rất ngon.",
+              "example": "A先生の説明は、子供にわかりやすいばかりか、非常に面白くてためになる。\nBài giải thích của thầy A không chỉ dễ hiểu với trẻ em mà còn rất thú vị và hữu ích.\n\n彼女は親切なばかりか、頭も非常に良い。\nCô ấy không chỉ thân thiện mà còn cực kỳ thông minh.\n\n彼は嘘をついたばかりか、人のせいにもした。\nAnh ta không chỉ nói dối mà còn đổ lỗi cho người khác.\n\nこの村は空気がきれいなばかりか、野菜もとても美味しい。\nNgôi làng này không chỉ không khí trong lành mà rau củ cũng rất ngon.\n\n友達ばかりか\nKhông chỉ bạn bè, mà cả bố mẹ, anh em cũng không biết nơi ở của anh ấy.",
               "jlptLevel": 2
             },
             {
-              "front": "〜はもとより",
-              "back": "Ý nghĩa: A là đương nhiên rồi, và B cũng vậy (thường dùng để nhấn mạnh điều đương nhiên).\nCấu trúc: N + はもとより",
+              "front": "〜はもとより / ＝はもちとん",
+              "back": "Ý nghĩa: A là đương nhiên rồi, và B cũng vậy (thường dùng để nhấn mạnh điều đương nhiên).\nCấu trúc: N + はもとより\n* Giải thích thêm: Với việc này, thứ này thì đương nhiên, với việc khác, thứ khác cũng vậy.\n Cách dùng: Đi kèm với những từ chỉ ví dụ mà người nói nghĩ là đương nhiên. Vế sau là một ví dụ khác được thêm vào. Câu thường đi kèm với もđể thiện ý còn có khác nữa.",
               "romaji": "wa-motoyori",
               "example": "たばこは本人はもとより、周りの人にも害を及ぼす。\nThuốc lá đối với bản thân người hút thì đương nhiên, nhưng với cả những người xung quanh cũng có hại.\n\n私の国では、漢字はもとより、ひらがなさえ知らない人が多い。\nỞ nước tôi, chữ Hán thì đương nhiên rồi, ngay cả Hiragana cũng có nhiều người không biết.\n\n休日はもとより、平日も仕事に追われている。\nNgày nghỉ thì đương nhiên rồi, ngày thường tôi cũng bị công việc đuổi theo.\n\nプロはもとより、アマチュアの大会でも厳しいルールが適用される。\nGiải chuyên nghiệp là đương nhiên, giải nghiệp dư cũng áp dụng quy tắc nghiêm ngặt.",
               "jlptLevel": 2
             },
             {
               "front": "〜上（に）",
-              "back": "Ý nghĩa: Hơn nữa, thêm vào đó (bổ sung các tính chất tốt hoặc xấu cùng chiều).\nCấu trúc: N-no / V-ru / A-i / A-na (な/である) + 上（に）",
+              "back": "Ý nghĩa: Hơn nữa, thêm vào đó (bổ sung các tính chất tốt hoặc xấu cùng chiều).\nCấu trúc: N-no / Vる / A-i / A-na (な/である) + 上（に）\n* Giải thích thêm: Vế trước và vế sau cùng một dạng đánh giá, tốt cùng tốt, xấu cùng xấu. Không dùng hai vế trái ngược nhau hoặc không liên quan đến nhau.",
               "romaji": "ue-ni",
               "example": "今日は寝不足の上、少し熱がある。\nHôm nay tôi thiếu ngủ, hơn nữa còn hơi sốt.\n\nこの町は治安が良い上に、物価も安いので住みやすい。\nThị trấn này an ninh tốt, hơn nữa giá cả lại rẻ nên rất dễ sống.\n\n彼は誠実な上に、仕事も速くて非常に信頼されている。\nAnh ấy trung thực, hơn nữa làm việc lại nhanh nhẹn nên rất được tin tưởng.\n\nこの店はまずい上に、店員の態度も悪かった。\nQuán này không chỉ dở mà thái độ của nhân viên còn tệ.",
               "jlptLevel": 2
@@ -386,7 +393,7 @@
   },
   {
     "order": 7,
-    "title": "Bài 7: Liên quan đến đối tượng (〜に関して, 〜をめぐって, 〜にかけては, 〜に対して, 〜にこたえて)",
+    "title": "Bài 7: 〜に関して・〜をめぐって・〜にかけては...",
     "summary": "Các cấu trúc liên quan đến đối tượng: 〜に関して, 〜をめぐって, 〜にかけては, 〜に対して, 〜にこたえて",
     "theoryMd": "### 7. Cấu trúc liên quan đến đối tượng\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜に関して**: Liên quan đến, về vấn đề gì đó.\n- **〜をめぐって**: Xoay quanh (thường là tranh luận, bất đồng).\n- **〜にかけては**: Riêng về khoản... thì là số một.\n- **〜に対して**: Đối với (hướng tới ai đó) hoặc Trái ngược với.\n- **〜にこたえて**: Đáp lại, đáp ứng yêu cầu/kỳ vọng.\n\n#### 📝 Ví dụ minh họa\n- *〜に関して*: この事件に関して、何か知っていることはありますか。\n- *〜をめぐって*: 親が残した土地をめぐって親族が争っている。\n- *〜にかけては*: 料理の技術にかけては、彼女に勝てる人はいない。\n- *〜に対して*: 政府の案に対して住民は大反対した。\n- *〜にこたえて*: 皆様のご期待にこたえて精いっぱい頑張ります。",
     "skills": [
@@ -398,8 +405,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 7 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 7: Liên quan đến đối tượng (〜に関して, 〜をめぐって, 〜にかけては, 〜に対して, 〜にこたえて)",
+          "name": "Shinkanzen N2 — Bài 7: 〜に関して・〜をめぐって・〜にかけては...",
+          "description": "Chủ đề: Liên quan đến đối tượng",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -407,33 +414,33 @@
               "front": "〜に関して",
               "back": "Ý nghĩa: Liên quan đến, về việc... (Dùng trong văn viết hoặc trang trọng).\nCấu trúc: N + に関して / に関する + N",
               "romaji": "ni-kanshite",
-              "example": "高齢者の生活に関するアンケートにご協力ください。\nXin hãy giúp chúng tôi làm khảo sát liên quan đến cuộc sống người cao tuổi.\n\nこの事件に関して、何か知っていることはありますか。\nBạn có biết điều gì liên quan đến vụ án này không?\n\n申し込み方法に関しては、ホームページをご覧ください。\nVề cách thức đăng ký, xin vui lòng xem trên trang chủ.\n\n新しいプロジェクトに関する会議が明日行われる。\nCuộc họp liên quan đến dự án mới sẽ diễn ra vào ngày mai.",
+              "example": "高齢者の生活に関するアンケートにご協力ください。\nXin hãy giúp chúng tôi làm khảo sát liên quan đến cuộc sống người cao tuổi.\n\nこの事件に関して、何か知っていることはありますか。\nBạn có biết điều gì liên quan đến vụ án này không?\n\n申し込み方法に関しては、ホームページをご覧ください。\nVề cách thức đăng ký, xin vui lòng xem trên trang chủ.\n\n新しいプロジェクトに関する会議が明日行われる。\nCuộc họp liên quan đến dự án mới sẽ diễn ra vào ngày mai.\n\n犯行の動機に関して",
               "jlptLevel": 2
             },
             {
               "front": "〜をめぐって",
-              "back": "Ý nghĩa: Xoay quanh một vấn đề (thường là tranh luận, xung đột, dư luận).\nCấu trúc: N + をめぐって / をめぐる + N",
+              "back": "Ý nghĩa: Xoay quanh một vấn đề (thường là tranh luận, xung đột, dư luận).\nCấu trúc: N + をめぐって / をめぐる + N\n* Giải thích thêm: Tranh luận, đưa nhiều ý kiến đối lập về một vấn đề\n Cách dùng: Chủ thể thực hiện hành động là số nhiều. Vế sau là câu chứa động từ thể hiện ý nhiều người đấu tranh, tranh luận về một điều gì đó",
               "romaji": "o-megutte",
               "example": "親が残した土地をめぐって親族が争っている。\nHọ hàng đang tranh giành nhau xoay quanh mảnh đất mà cha mẹ để lại.\n\n新しい政策をめぐって、激しい議論が交わされた。\nCuộc thảo luận gay gắt đã diễn ra xoay quanh chính sách mới.\n\n一人の女性をめぐって二人の男が対立した。\nHai người đàn ông đã đối đầu nhau xoay quanh một người phụ nữ.\n\n環境問題をめぐる議論は世界中で続いている。\nCuộc thảo luận xoay quanh vấn đề môi trường đang tiếp diễn trên toàn thế giới.",
               "jlptLevel": 2
             },
             {
               "front": "〜にかけては",
-              "back": "Ý nghĩa: Nếu nói về lĩnh vực này thì là nhất, giỏi nhất.\nCấu trúc: N + にかけては",
+              "back": "Ý nghĩa: Nếu nói về lĩnh vực này thì là nhất, giỏi nhất.\nCấu trúc: N + にかけては\n* Giải thích thêm: Giỏi nhất về điều gì đó\n Cách dùng: Đi kèm với từ thể hiện năng lực, kĩ thuật. Câu mang ý nghĩa có năng lực giỏi nhất về điều gì",
               "romaji": "ni-kakete-wa",
               "example": "ボール運びのうまさにかけてはA選手の右に出るものはいない。\nVề việc đi bóng giỏi thì không ai vượt qua được tuyển thủ A.\n\n料理の技術にかけては、彼女に勝てる人はいない。\nRiêng về kỹ năng nấu ăn thì không ai có thể thắng được cô ấy.\n\n計算の速さにかけては、彼が一番だ。\nNếu nói về tốc độ tính toán thì anh ấy là nhất.\n\n歌のうまさにかけては、クラスで右に出る者はいない。\nVề khoản hát hay thì trong lớp không ai vượt qua được cậu ấy.",
               "jlptLevel": 2
             },
             {
               "front": "〜に対して",
-              "back": "Ý nghĩa: Đối với (hướng tới); Trái ngược với (sự so sánh).\nCấu trúc: N + に対して / に対する + N",
+              "back": "Ý nghĩa: Đối với (hướng tới); Trái ngược với (sự so sánh).\nCấu trúc: N + に対して / に対する + N\n* Giải thích thêm: Với ý nghĩa “đối tượng”, trước に対して thường là từ thể hiện chủ đề, người, quan điểm. Vế sau là câu thể hiện hành vi, thái độ, cảm xúc trực tiếp đối với đối tượng trước đó.",
               "romaji": "ni-taishite",
-              "example": "政府の案に対して住民は大反対した。\nDân chúng phản đối mạnh mẽ đối với đề án của chính phủ.\n\nお客様に対して、失礼な態度を取ってはいけません。\nKhông được có thái độ thất lễ đối với khách hàng.\n\n昨日の晴天に対して、今日は雨が降っている。\nTrái ngược với thời tiết đẹp ngày hôm qua, hôm nay trời đang mưa.\n\n息子は慎重だが、娘は活発で大胆だ。\nTrái ngược với đứa con trai cẩn thận, con gái tôi lại năng động và táo bạo.",
+              "example": "政府の案に対して住民は大反対した。\nDân chúng phản đối mạnh mẽ đối với đề án của chính phủ.\n\nお客様に対して、失礼な態度を取ってはいけません。\nKhông được có thái độ thất lễ đối với khách hàng.\n\n昨日の晴天に対して、今日は雨が降っている。\nTrái ngược với thời tiết đẹp ngày hôm qua, hôm nay trời đang mưa.\n\n息子は慎重だが、娘は活発で大胆だ。\nTrái ngược với đứa con trai cẩn thận, con gái tôi lại năng động và táo bạo.\n\n目上の人に対して\nKhông được có cách nói hỗn láo như vậy với người trên",
               "jlptLevel": 2
             },
             {
               "front": "〜にこたえて",
-              "back": "Ý nghĩa: Đáp lại, đáp ứng (kỳ vọng, yêu cầu, nguyện vọng).\nCấu trúc: N + にこたえて / にこたえる + N",
+              "back": "Ý nghĩa: Đáp lại, đáp ứng (kỳ vọng, yêu cầu, nguyện vọng).\nCấu trúc: N + にこたえて / にこたえる + N\n* Giải thích thêm: Làm điều gì đó để mong chờ, kì vọng thành hiện thực\n Cách dùng: Đi kèm với những từ thể hiện nguyện vọng như “Kì vọng, yêu cầu, hi vọng…” Vế sau là câu mang động từ.",
               "romaji": "ni-kotaete",
               "example": "皆様のご期待にこたえて精いっぱい頑張ります。\nĐáp lại kì vọng của mọi người, tôi sẽ cố gắng hết sức.\n\n客の要望にこたえて、営業時間を延長することにした。\nĐể đáp ứng yêu cầu của khách hàng, chúng tôi quyết định kéo dài thời gian mở cửa.\n\nファンの声援にこたえてアンコールに応じた。\nĐáp lại tiếng reo hò của người hâm mộ, họ đã hát thêm bài nữa.\n\n住民の期待にこたえるような新しい計画を立てる。\nLập ra kế hoạch mới để đáp ứng kỳ vọng của người dân.",
               "jlptLevel": 2
@@ -449,7 +456,7 @@
   },
   {
     "order": 8,
-    "title": "Bài 8: Dựa trên / Dành cho (〜をもとに（して）, 〜に基づいて, 〜に沿って, 〜のもとで・〜のもとに, 〜向けだ)",
+    "title": "Bài 8: 〜をもとに・〜に基づいて・〜に沿って...",
     "summary": "Các cấu trúc liên quan đến nền tảng, đối tượng mục tiêu: 〜をもとに（して）, 〜に基づいて, 〜に沿って, 〜のもとで・〜のもとに, 〜向けだ",
     "theoryMd": "### 8. Cấu trúc nền tảng và đối tượng mục tiêu\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜をもとに（して）**: Lấy cái gì làm nền tảng để tạo ra cái mới.\n- **〜に基づいて**: Dựa trên (luật, dữ liệu, căn cứ rõ ràng).\n- **〜に沿って**: Men theo (đường) hoặc Tuân theo (kế hoạch/hướng dẫn).\n- **〜のもとで・〜のもとに**: Dưới sự hướng dẫn/điều kiện của ai/cái gì.\n- **〜向けだ**: Thiết kế dành riêng cho đối tượng cụ thể.\n\n#### 📝 Ví dụ minh họa\n- *〜をもとに*: この小説は、実際の事件をもとに書かれた。\n- *〜に基づいて*: 最新のデータに基づいて売り上げ計画を立てる。\n- *〜に沿って*: マニュアルに沿って、機械を操作してください。\n- *〜のもとで*: チームは新しい監督のもとで練習している。\n- *〜向けだ*: このマンションは高齢者向けに設計されている。",
     "skills": [
@@ -461,44 +468,44 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 8 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 8: Dựa trên / Dành cho (〜をもとに（して）, 〜に基づいて, 〜に沿って, 〜のもとで・〜のもとに, 〜向けだ)",
+          "name": "Shinkanzen N2 — Bài 8: 〜をもとに・〜に基づいて・〜に沿って...",
+          "description": "Chủ đề: Dựa trên / Dành cho",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜をもとに（して）",
-              "back": "Ý nghĩa: Dựa trên cái gốc là (tư liệu, nguyên liệu) để tạo ra cái mới.\nCấu trúc: N + をもとに / をもとにして",
+              "back": "Ý nghĩa: Dựa trên cái gốc là (tư liệu, nguyên liệu) để tạo ra cái mới.\nCấu trúc: N + をもとに / をもとにして\n* Giải thích thêm: Từ dữ kiện, nền tảng cơ bản để làm ra cái gì đó mới\n Cách dùng: Không dùng với nguyên liệu mang tính vật chất thực tế. Vế sau thường là câu có động từ thể hiện ý nghĩa làm ra cái gì mới.",
               "romaji": "o-moto-ni",
               "example": "漢字をもとにしてひらがなとカタカナができた。\nHiragana và Katakana được tạo nên dựa trên chữ Hán.\n\nこの小説は、実際の事件をもとに書かれた。\nCuốn tiểu thuyết này được viết dựa trên một sự kiện có thật.\n\nアンケートの結果をもとにしてレポートを作成する。\nTạo báo cáo dựa trên kết quả khảo sát.\n\n日本の文化をもとにして新しいデザインを考えた。\nĐã suy nghĩ ra thiết kế mới dựa trên văn hóa Nhật Bản.",
               "jlptLevel": 2
             },
             {
               "front": "〜に基づいて",
-              "back": "Ý nghĩa: Dựa trên (cơ sở pháp lý, dữ liệu, nguyên tắc).\nCấu trúc: N + に基づいて / に基づく + N",
+              "back": "Ý nghĩa: Dựa trên (cơ sở pháp lý, dữ liệu, nguyên tắc).\nCấu trúc: N + に基づいて / に基づく + N\n* Giải thích thêm: Dựa theo dữ liệu, cơ sở rõ ràng để làm điều gì đó\n Cách dùng: Thường đi kèm với những từ mang ý nghĩa chuẩn mực, rõ ràng (phương pháp, dữ liệu, kế hoạch, phương châm, kết quả điều tra…) Vế sau là từ thể hiện hành động",
               "romaji": "ni-motozuite",
               "example": "最新のデータに基づいて売り上げ計画を立てたいと思います。\nTôi muốn lập kế hoạch doanh số dựa trên dữ liệu mới nhất.\n\n法律に基づいて、公平に処理されます。\nVụ việc sẽ được xử lý công bằng dựa trên luật pháp.\n\n長年の経験に基づいて判断を下した。\nĐưa ra phán đoán dựa trên kinh nghiệm lâu năm.\n\nこの規則に基づいて行動してください。\nHãy hành động dựa trên quy tắc này.",
               "jlptLevel": 2
             },
             {
               "front": "〜に沿って",
-              "back": "Ý nghĩa: Men theo; Tuân theo (quy tắc, kế hoạch).\nCấu trúc: N + に沿って / に沿う + N",
+              "back": "Ý nghĩa: Men theo; Tuân theo (quy tắc, kế hoạch).\nCấu trúc: N + に沿って / に沿う + N\n* Giải thích thêm: Tuân theo, dựa theo, không thể lệch khỏi điều gì.\n Cách dùng: Thường đi với những từ mang tính quy tắc, chuẩn mực (Luật, phương châm, quy định…) Vế sau là câu thể hiện hành động tuân theo chuẩn mực đó",
               "romaji": "ni-sotte",
               "example": "日本の運動会はプログラムに沿って順番に進めています。\nHội thể thao ở Nhật Bản được tiến hành tuần tự theo đúng chương trình.\n\nマニュアルに沿って、機械を操作してください。\nHãy vận hành máy móc theo đúng sách hướng dẫn.\n\n川に沿って道を歩く。\nĐi bộ dọc theo con sông.\n\nの方針に沿って会社を運営する。\nĐiều hành công ty theo phương châm đã đề ra.",
               "jlptLevel": 2
             },
             {
               "front": "〜のもとで・〜のもとに",
-              "back": "Ý nghĩa: Dưới sự bảo trợ, hướng dẫn (của ai) / Dưới điều kiện (hoàn cảnh).\nCấu trúc: N + のもとで / のもとに",
+              "back": "Ý nghĩa: Dưới sự bảo trợ, hướng dẫn (của ai) / Dưới điều kiện (hoàn cảnh).\nCấu trúc: N + のもとで / のもとに\n* Giải thích thêm: Chịu sự ảnh hưởng của điều gì, dưới sự bảo vệ của điều gì\n Cách dùng: のもとで đi với từ chỉ người là chính, mang ý nghĩa là chịu sự ảnh hưởng của người đó. Vế sau hay là câu thể hiện hành vi. のもとにđi với danh từ thể hiện trạng thái là chính, mang ý nghĩa là trong trạng thái đó, trong tình huống đó. Vế sau là câu thể hiện hành vi, thái độ.",
               "romaji": "no-moto-de / no-moto-ni",
               "example": "チームは新しい監督のもとで練習に励んでいる。\nĐội bóng đang nỗ lực luyện tập dưới sự hướng dẫn của huấn luyện viên mới.\n\n憲法のもとに、すべての国民の権利が保障されている。\nDưới hiến pháp, quyền lợi của mọi người dân đều được bảo đảm.\n\n先生のもとで研究を続けている。\nĐang tiếp tục nghiên cứu dưới sự dẫn dắt của thầy giáo.\n\n平和な社会のもとに暮らす。\nSống dưới một xã hội hòa bình.",
               "jlptLevel": 2
             },
             {
               "front": "〜向けだ",
-              "back": "Ý nghĩa: Dành riêng cho đối tượng nào đó.\nCấu trúc: N + 向けだ / 向けに / 向けの + N",
+              "back": "Ý nghĩa: Dành riêng cho đối tượng nào đó.\nCấu trúc: N + 向けだ / 向けに / 向けの + N\n* Giải thích thêm: Hướng đến đối tượng đặc biệt\n Cách dùng: Chủ yếu đi kèm với những danh từ chỉ người. Vế sau thường là câu đi với các động từ có ý nghĩa là làm, thiết kế,.. dành cho đối tượng đó",
               "romaji": "muke-da",
-              "example": "このマンションは一人暮らしの高齢者向けに設計されています。\nTòa nhà này được thiết kế dành riêng cho người cao tuổi sống một mình.\n\nこれは子ども向けの易しい日本語で書かれた本です。\nĐây là cuốn sách được viết bằng tiếng Nhật dễ hiểu dành cho trẻ em.\n\n海外向けの商品を開発する。\nPhát triển sản phẩm dành cho thị trường nước ngoài.\n\n初心者向けに解説する。\nGiải thích dành cho người mới bắt đầu.",
+              "example": "このマンションは一人暮らしの高齢者向けに設計されています。\nTòa nhà này được thiết kế dành riêng cho người cao tuổi sống một mình.\n\nこれは子ども向けの易しい日本語で書かれた本です。\nĐây là cuốn sách được viết bằng tiếng Nhật dễ hiểu dành cho trẻ em.\n\n海外向けの商品を開発する。\nPhát triển sản phẩm dành cho thị trường nước ngoài.\n\n初心者向けに解説する。\nGiải thích dành cho người mới bắt đầu.\n\n理科が好きな子供向けに\nĐây là tạp chí được biên tập dành cho trẻ em yêu thích khoa học",
               "jlptLevel": 2
             }
           ]
@@ -512,7 +519,7 @@
   },
   {
     "order": 9,
-    "title": "Bài 9: Thay đổi cùng chiều / Sự tương ứng (〜につれて・〜にしたがって, 〜に伴って・〜とともに, 〜次第だ, 〜応じて, 〜につけて)",
+    "title": "Bài 9: 〜につれて・〜に伴って・〜次第だ...",
     "summary": "Các cấu trúc diễn tả sự thay đổi hoặc tương ứng: 〜につれて・〜にしたがって, 〜に伴って・〜とともに, 〜次第だ, 〜応じて, 〜につけて",
     "theoryMd": "### 9. Sự thay đổi cùng chiều & Sự tương ứng\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜につれて・〜にしたがって**: Tỉ lệ thuận, A thay đổi thì B cũng thay đổi.\n- **〜に伴って・〜とともに**: Đồng thời, đi kèm với sự thay đổi của A.\n- **〜次第だ**: Phụ thuộc vào, quyết định bởi.\n- **〜応じて**: Phù hợp, tương ứng với đối tượng/điều kiện.\n- **〜につけて**: Mỗi khi... thì cảm xúc luôn hiện hữu.\n\n#### 📝 Ví dụ minh họa\n- *〜につれて*: 台風の接近につれて、雨や風が強くなってきた。\n- *〜に伴って*: 自動車の普及に伴って、交通事故も増加した。\n- *〜次第だ*: 人生が楽しいかどうかは考え方次第だ。\n- *〜応じて*: お子さんの年齢に応じて本を選んでください。\n- *〜につけて*: この絵を見るにつけて、心に希望がわいてくる。",
     "skills": [
@@ -524,44 +531,44 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 9 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 9: Thay đổi cùng chiều / Sự tương ứng (〜につれて・〜にしたがって, 〜に伴って・〜とともに, 〜次第だ, 〜応じて, 〜につけて)",
+          "name": "Shinkanzen N2 — Bài 9: 〜につれて・〜に伴って・〜次第だ...",
+          "description": "Chủ đề: Thay đổi cùng chiều / Sự tương ứng",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜につれて・〜にしたがって",
-              "back": "Ý nghĩa: Cùng với, đi kèm với sự thay đổi (tỉ lệ thuận).\nCấu trúc: N / V-ru + につれて / にしたがって",
+              "back": "Ý nghĩa: Cùng với, đi kèm với sự thay đổi (tỉ lệ thuận).\nCấu trúc: N / Vる + につれて / にしたがって\n* Giải thích thêm: cùng với sự thay đổi theo một chiều hướng của một sự vật, hiện tượng, cũng có một sự vật hiện tượng khác thay đổi theo một chiều hướng.\n Cách dùng: Vế trước là những từ thể hiện sự thay đổi dần dần (進む・上がる・多くなる…) Trong đóにつれて chỉ dùng cho trường hợp cùng thay đổi theo một chiều hướng (A tăng thì B tăng, A giảm thì B giảm) . Còn にしたがって không thay đổi theo một chiều hướng cũng được (Có thể A tăng thì B giảm hoặc ngược lại).",
               "romaji": "ni-tsurete / ni-shitagatte",
               "example": "台風の接近につれて、雨や風が強くなってきた。\nCơn bão càng tiến gần, mưa và gió càng trở nên mạnh hơn.\n\n時間が経つにつれて、怒りも収まってきた。\nThời gian trôi đi, cơn giận dữ cũng dần nguôi ngoai.\n\n年をとるにしたがって、体力が衰えてくる。\nCàng già đi thì thể lực càng suy giảm.\n\n道が広くなるにしたがって、車が増えてきた。\nĐường càng rộng ra thì xe cộ càng nhiều lên.",
               "jlptLevel": 2
             },
             {
               "front": "〜に伴って・〜とともに",
-              "back": "Ý nghĩa: Cùng với, đồng thời với sự thay đổi của A thì B cũng thay đổi.\nCấu trúc: N / V-ru + に伴って / とともに",
+              "back": "Ý nghĩa: Cùng với, đồng thời với sự thay đổi của A thì B cũng thay đổi.\nCấu trúc: N / Vる + に伴って / とともに\n* Giải thích thêm: Cùng với sự thay đổi theo một chiều hướng của một sự vật, hiện tượng, cũng có một sự vật hiện tượng khác thay đổi, không theo chiều hướng rõ ràng\n Cách dùng: Vế trước và sau đều là câu thể hiện sự thay đổi. Với とともに sự thay đổi ở hai vế trước và sau là cùng chiều ( A càng xấu thì B càng xấu, A càng tốt thì B càng tốt). に伴って không cần cùng chiều cũng được.",
               "romaji": "ni-tomonatte / to-tomo-ni",
               "example": "経済の回復とともに、人々の表情も明るくなってきた。\nKinh tế hồi phục kéo theo biểu cảm của mọi người cũng rạng rỡ hơn.\n\n自動車の普及に伴って、交通事故も増加した。\nCùng với sự phổ biến của ô tô, tai nạn giao thông cũng gia tăng.\n\n社会の変化とともに、価値観も変わる。\nCùng với sự thay đổi của xã hội, quan niệm giá trị cũng thay đổi.\n\n人口の増加に伴って、ゴミ問題が深刻になった。\nCùng với sự gia tăng dân số, vấn đề rác thải trở nên nghiêm trọng.",
               "jlptLevel": 2
             },
             {
               "front": "〜次第だ",
-              "back": "Ý nghĩa: Tùy thuộc vào... mà quyết định.\nCấu trúc: N + 次第だ / 次第で",
+              "back": "Ý nghĩa: Tùy thuộc vào... mà quyết định.\nCấu trúc: N + 次第だ / 次第で\n* Giải thích thêm: Đi kèm với những từ thể hiện sự đa dạng, có nhiều cái khác nhau. Vế sau là sự thay đổi ứng với phần đằng trước hoặc đưa ra quyết định",
               "romaji": "shidai-da",
               "example": "人生が楽しいかどうかは考え方次第だ。\nCuộc sống có vui vẻ hay không là phụ thuộc vào cách suy nghĩ.\n\n結果は君たちの努力次第で変わる。\nKết quả thay đổi tùy thuộc vào nỗ lực của các em.\n\n明日の天気次第で、出発の時間を決める。\nTùy vào thời tiết ngày mai mà tôi sẽ quyết định giờ xuất phát.\n\nやる気次第で、成績はいくらでも伸びる。\nTùy vào sự quyết tâm mà thành tích có thể tăng lên không giới hạn.",
               "jlptLevel": 2
             },
             {
               "front": "〜応じて",
-              "back": "Ý nghĩa: Ứng với, tương ứng, phù hợp với.\nCấu trúc: N + に応じて / に応じた + N",
+              "back": "Ý nghĩa: Ứng với, tương ứng, phù hợp với.\nCấu trúc: N + に応じて / に応じた + N\n* Giải thích thêm: Sự thay đổi cho phù hợp, ứng với điều gì đó\n Cách dùng: Đi với những từ thể hiện sự thay đổi có thể dự đoán được (thể lực, tuổi tác, thời tiết…) Vế sau là câu mang ý nghĩa thay đổi cho phù hợp, ứng với điều đó.",
               "romaji": "ni-oujite",
               "example": "お子さんの年齢に応じて本を選んであげてください。\nHãy chọn sách ứng với lứa tuổi của con bạn.\n\n体力や体調に応じて、運動の強度を調節してください。\nHãy điều chỉnh cường độ tập luyện phù hợp với thể lực và thể trạng.\n\n予算に応じてメニューを変える。\nThay đổi thực đơn ứng với ngân sách.\n\nレベルに応じたクラスに分けられる。\nĐược chia vào các lớp tương ứng với trình độ.",
               "jlptLevel": 2
             },
             {
               "front": "〜につけて",
-              "back": "Ý nghĩa: Mỗi khi làm gì/nhìn thấy gì thì luôn cảm thấy...\nCấu trúc: V-ru + につけて",
+              "back": "Ý nghĩa: Mỗi khi làm gì/nhìn thấy gì thì luôn cảm thấy...\nCấu trúc: Vる + につけて",
               "romaji": "ni-tsukete",
-              "example": "この絵を見るにつけて、心に希望がわいてくる。\nMỗi lần ngắm bức tranh này, niềm hy vọng trong tim tôi lại sôi sục.\n\nニュースを見るにつけて、世の中の理不尽さを感じる。\nMỗi khi xem tin tức, tôi lại cảm thấy sự bất công của thế gian.\n\n彼の話を聞くにつけて、悲しい気持ちになる。\nMỗi khi nghe câu chuyện của anh ấy, tôi lại cảm thấy buồn.\n\n写真を眺めるにつけて、昔のことが懐かしく思える。\nMỗi lần ngắm tấm ảnh, tôi lại nhớ về ngày xưa.",
+              "example": "この絵を見るにつけて、心に希望がわいてくる。\nMỗi lần ngắm bức tranh này, niềm hy vọng trong tim tôi lại sôi sục.\n\nニュースを見るにつけて、世の中の理不尽さを感じる。\nMỗi khi xem tin tức, tôi lại cảm thấy sự bất công của thế gian.\n\n彼の話を聞くにつけて、悲しい気持ちになる。\nMỗi khi nghe câu chuyện của anh ấy, tôi lại cảm thấy buồn.\n\n写真を眺めるにつけて、昔のことが懐かしく思える。\nMỗi lần ngắm tấm ảnh, tôi lại nhớ về ngày xưa.\n\n彼女のうわさを聞くにつけて",
               "jlptLevel": 2
             }
           ]
@@ -575,7 +582,7 @@
   },
   {
     "order": 10,
-    "title": "Bài 10: Liệt kê ví dụ / Đánh giá (〜やら〜やら, 〜というか〜というか, 〜にしても・〜にしろ, 〜といった)",
+    "title": "Bài 10: 〜やら〜やら・〜というか〜というか・〜にしても〜にしても...",
     "summary": "Các cấu trúc liệt kê và đưa ra nhận định: 〜やら〜やら, 〜というか〜というか, 〜にしても・〜にしろ, 〜といった",
     "theoryMd": "### 10. Liệt kê ví dụ và nhận định\n\n#### 💡 Cấu trúc & Ý nghĩa\n- **〜やら〜やら**: Liệt kê ví dụ (thường đi kèm cảm xúc khó xử hoặc bận rộn).\n- **〜というか〜というか**: Phân vân không biết dùng từ nào diễn tả cho đúng.\n- **〜にしても〜にしても**: Dù A hay B thì cũng (không thay đổi kết luận).\n- **〜といった**: Đưa ra ví dụ khái quát hóa về nhóm đối tượng.\n\n#### 📝 Ví dụ minh họa\n- *〜やら*: 今週は試験やらレポート提出やらで、本当に忙しい。\n- *〜というか*: 彼の態度は、親切というかお節介というか、判断に迷う。\n- *〜にしても*: 行くにしても行かないにしても、早めに連絡してください。\n- *〜といった*: 京都とか鎌倉といった古い街には寺が多い。",
     "skills": [
@@ -587,16 +594,16 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 10 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 10: Liệt kê ví dụ / Đánh giá (〜やら〜やら, 〜というか〜というか, 〜にしても・〜にしろ, 〜といった)",
+          "name": "Shinkanzen N2 — Bài 10: 〜やら〜やら・〜というか〜というか・〜にしても〜にしても...",
+          "description": "Chủ đề: Liệt kê ví dụ / Đánh giá",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜やら〜やら",
-              "back": "Ý nghĩa: Nào là... nào là... (Liệt kê ví dụ nhấn mạnh sự bận rộn/khó khăn/cảm xúc phức tạp).\nCấu trúc: N / V-ru / A-i + やら + N / V-ru / A-i + やら",
+              "back": "Ý nghĩa: Nào là... nào là... (Liệt kê ví dụ nhấn mạnh sự bận rộn/khó khăn/cảm xúc phức tạp).\nCấu trúc: N / Vる / A-i + やら + N / Vる / A-i + やら\n* Giải thích thêm: Đưa ra ví dụ, ngoài ví dụ đưa ra còn có nhiều cái khác nữa\n Cách dùng: Dùng với những từ cùng một nhóm cạnh nhau, nhấn mạnh là có rất nhiều ví dụ, khi đưa ra không có sắp xếp theo thứ tự. Hay dùng với những trường hợp người nói nghĩ là có quá nhiều ví dụ, hoặc là không thể giới hạn rõ ràng được.",
               "romaji": "yara-yara",
-              "example": "娘の結婚式の日は、うれしいやら寂しいやら複雑な気持ちだった。\nVào ngày cưới của con gái, cảm xúc của tôi thật phức tạp, nào là vui, nào là cô đơn.\n\n今週は試験やらレポート提出やらで、本当に忙しい。\nTuần này nào là thi cử, nào là nộp báo cáo, thực sự bận rộn.\n\n部屋には服やら本やらが散らかっている。\nTrong phòng nào là quần áo, nào là sách vở bày bừa bãi.\n\n借金があるやら病気があるやら、本当に大変な生活だ。\nNào là nợ nần, nào là bệnh tật, thật là một cuộc sống vất vả.",
+              "example": "娘の結婚式の日は、うれしいやら寂しいやら複雑な気持ちだった。\nVào ngày cưới của con gái, cảm xúc của tôi thật phức tạp, nào là vui, nào là cô đơn.\n\n今週は試験やらレポート提出やらで、本当に忙しい。\nTuần này nào là thi cử, nào là nộp báo cáo, thực sự bận rộn.\n\n部屋には服やら本やらが散らかっている。\nTrong phòng nào là quần áo, nào là sách vở bày bừa bãi.\n\n借金があるやら病気があるやら、本当に大変な生活だ。\nNào là nợ nần, nào là bệnh tật, thật là một cuộc sống vất vả.\n\n四角いものやら丸いものやら",
               "jlptLevel": 2
             },
             {
@@ -607,15 +614,15 @@
               "jlptLevel": 2
             },
             {
-              "front": "〜にしても〜にしても / 〜にしろ〜にしろ",
-              "back": "Ý nghĩa: Dù là A hay B (thì kết quả/nhận định vẫn giống nhau).\nCấu trúc: N / V-ru + にしても / にしろ",
+              "front": "〜にしても〜にしても / 〜にしろ〜にしろ / 〜にしよ〜にちよ",
+              "back": "Ý nghĩa: Dù là A hay B (thì kết quả/nhận định vẫn giống nhau).\nCấu trúc: N / Vる + にしても / にしろ\n* Giải thích thêm: Dù với ví dụ này hay với ví dụ khác thì đều có thể nói cùng một điều\n Cách dùng: Đưa ra hai ví dụ cùng loại, hoặc có ý nghĩa đối lập. Vế sau thường là câu thể hiện phán đoán của người nói. にしよ〜にちよ là cách nói mềm hơn.",
               "romaji": "ni-shite-mo-ni-shite-mo",
               "example": "野菜にしても魚にしても、料理の材料は新鮮さが第一です。\nDù là rau hay là cá, nguyên liệu nấu ăn thì độ tươi ngon luôn là ưu tiên hàng đầu.\n\n行くにしても行かないにしても、早めに連絡してください。\nDù đi hay không đi, xin vui lòng liên lạc sớm giúp tôi.\n\n高いにしろ安いにしろ、品質は確認すべきだ。\nDù đắt hay rẻ, vẫn nên kiểm tra chất lượng.\n\n学生にしろ社会人にしろ、時間管理は大切だ。\nDù là sinh viên hay người đi làm, quản lý thời gian đều quan trọng.",
               "jlptLevel": 2
             },
             {
               "front": "〜といった",
-              "back": "Ý nghĩa: Những thứ như là... (liệt kê ví dụ).\nCấu trúc: N1, N2 + といった + N3",
+              "back": "Ý nghĩa: Những thứ như là... (liệt kê ví dụ).\nCấu trúc: N1, N2 + といった + N3\n* Giải thích thêm: Đưa ra một loạt ví dụ để sau đó tóm lại điểm chung của các ví dụ\n Cách dùng: Đi với những từ thể hiện rằng có nhiều ví dụ có thể đưa ra. Tổ hợp や, とか được sử dụng khá nhiều.",
               "romaji": "to-itta",
               "example": "京都とか鎌倉といった古い街には寺が多い。\nỞ những thành phố cổ như Kyoto hay Kamakura, có rất nhiều đền chùa.\n\nテニスやサッカーといったスポーツは、世界中で人気がある。\nNhững môn thể thao như tennis hay bóng đá được yêu thích trên toàn thế giới.\n\nパンやケーキといった甘いものが大好きです。\nTôi rất thích những thứ ngọt như bánh mì hay bánh ngọt.\n\n動物といった生き物が苦手です。\nTôi không giỏi (sợ) những sinh vật như động vật.",
               "jlptLevel": 2
@@ -631,9 +638,9 @@
   },
   {
     "order": 11,
-    "title": "Bài 11: Không quan tâm đến / Bỏ qua (〜を問わず, 〜にかかわりなく・〜にかかわらず, 〜もかまわず, 〜はともかく（として）, 〜はさておき)",
+    "title": "Bài 11: 〜を問わず・〜にかかわりなく・〜もかまわず...",
     "summary": "Các cấu trúc diễn tả sự không liên quan: 〜を問わず, 〜にかかわりなく・〜にかかわらず, 〜もかまわず, 〜はともかく（として）, 〜はさておき",
-    "theoryMd": "### Bài 11: Ngữ pháp về sự Không quan tâm / Bỏ qua\n\n#### 1. 〜を問わず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Không phân biệt, không yêu cầu.\n- Cấu trúc: N + を問わず\n#### 📝 Ví dụ minh họa\n性別を問わず、誰でも応募できます。\nKhông phân biệt giới tính, ai cũng có thể ứng tuyển.\n\n#### 2. 〜にかかわりなく・〜にかかわらず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Bất kể, không liên quan đến.\n- Cấu trúc: N / V-ru / V-nai + にかかわりなく・にかかわらず\n#### 📝 Ví dụ minh họa\n天候にかかわらず、イベントは開催されます。\nBất kể thời tiết, sự kiện vẫn được tổ chức.\n\n#### 3. 〜もかまわず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Không màng đến (điều gì đó).\n- Cấu trúc: N / V-ru + もかまわず\n#### 📝 Ví dụ minh họa\n人目もかまわず泣いた。\nTôi khóc mà chẳng màng đến ánh mắt người khác.\n\n#### 4. 〜はともかく（として）\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Tạm thời gác lại A để ưu tiên B.\n- Cấu trúc: N + はともかく（として）\n#### 📝 Ví dụ minh họa\n料理はともかく、雰囲気は良い。\nChưa bàn đến món ăn, không khí ở đây rất tuyệt.\n\n#### 5. 〜はさておき\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Tạm gác lại chuyện A để vào chuyện chính.\n- Cấu trúc: N + はさておき\n#### 📝 Ví dụ minh họa\n冗談はさておき、真面目に話しましょう。\nĐùa đủ rồi, hãy nói chuyện nghiêm túc nào.",
+    "theoryMd": "### Bài 11: Ngữ pháp về sự Không quan tâm / Bỏ qua\n\n#### 1. 〜を問わず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Không phân biệt, không yêu cầu.\n- Cấu trúc: N + を問わず\n#### 📝 Ví dụ minh họa\n性別を問わず、誰でも応募できます。\nKhông phân biệt giới tính, ai cũng có thể ứng tuyển.\n\n#### 2. 〜にかかわりなく・〜にかかわらず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Bất kể, không liên quan đến.\n- Cấu trúc: N / Vる / Vない + にかかわりなく・にかかわらず\n#### 📝 Ví dụ minh họa\n天候にかかわらず、イベントは開催されます。\nBất kể thời tiết, sự kiện vẫn được tổ chức.\n\n#### 3. 〜もかまわず\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Không màng đến (điều gì đó).\n- Cấu trúc: N / Vる + もかまわず\n#### 📝 Ví dụ minh họa\n人目もかまわず泣いた。\nTôi khóc mà chẳng màng đến ánh mắt người khác.\n\n#### 4. 〜はともかく（として）\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Tạm thời gác lại A để ưu tiên B.\n- Cấu trúc: N + はともかく（として）\n#### 📝 Ví dụ minh họa\n料理はともかく、雰囲気は良い。\nChưa bàn đến món ăn, không khí ở đây rất tuyệt.\n\n#### 5. 〜はさておき\n#### 💡 Cấu trúc & Ý nghĩa\n- Ý nghĩa: Tạm gác lại chuyện A để vào chuyện chính.\n- Cấu trúc: N + はさておき\n#### 📝 Ví dụ minh họa\n冗談はさておき、真面目に話しましょう。\nĐùa đủ rồi, hãy nói chuyện nghiêm túc nào.",
     "skills": [
       "GRAMMAR"
     ],
@@ -643,42 +650,42 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 11 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 11: Không quan tâm đến / Bỏ qua (〜を問わず, 〜にかかわりなく・〜にかかわらず, 〜もかまわず, 〜はともかく（として）, 〜はさておき)",
+          "name": "Shinkanzen N2 — Bài 11: 〜を問わず・〜にかかわりなく・〜もかまわず...",
+          "description": "Chủ đề: Không quan tâm đến / Bỏ qua",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜を問わず",
-              "back": "Ý nghĩa: Không quan tâm, không đặt ra yêu cầu, không phân biệt về phương diện nào đó.\nCấu trúc: N + を問わず",
+              "back": "Ý nghĩa: Không quan tâm, không đặt ra yêu cầu, không phân biệt về phương diện nào đó.\nCấu trúc: N + を問わず\n* Giải thích thêm: Không hỏi đến, không yêu cầu về phương diện nào đó, dù có hay không cũng giống nhau\n Cách dùng: Đi kèm với những từ có nghĩa bao hàm nhiều mức lớn nhỏ, hoặc nhiều loại khác nhau (年齢 tuổi tác, 国籍 quốc tịch, 天候 thời tiết…) và từ chỉ sự đối lập (男女 Nam nữ, 内外 Trong ngoài, 有無 Có không)",
               "romaji": "o towazu",
               "example": "このマラソン大会は性別、年齢を問わず、誰でも参加できます。\nCuộc thi maraton này không phân biệt giới tính, tuổi tác, ai cũng có thể tham gia.\n\n経験の有無を問わず、募集しています。\nChúng tôi đang tuyển dụng không phân biệt có kinh nghiệm hay không.\n\n国籍を問わず、多くの留学生がこの大学で学んでいる。\nKhông phân biệt quốc tịch, nhiều lưu học sinh đang học tại trường đại học này.",
               "jlptLevel": 2
             },
             {
-              "front": "〜にかかわりなく・〜にかかわらず",
-              "back": "Ý nghĩa: Bất kể điều gì, không liên quan đến, dù thế nào thì kết quả vẫn như vậy.\nCấu trúc: N / V-ru / V-nai + にかかわりなく / にかかわらず",
+              "front": "〜にかかわりなく・〜にかかわらず / (関わる)",
+              "back": "Ý nghĩa: Bất kể điều gì, không liên quan đến, dù thế nào thì kết quả vẫn như vậy.\nCấu trúc: N / Vる / Vない + にかかわりなく / にかかわらず\n* Giải thích thêm: Không liên quan đến một phương diện nào đó,dù thế nào cũng giống nhau\n Cách dùng: Đi kèm với những từ có nghĩa bao hàm nhiều mức lớn nhỏ (距離 khoảng cách, 金額 lượng tiền, 大きさđộ lớn…) Ngoài ra còn đi với cặp từ thể hiện sự đối lập (行く、行かない・多く、多くない), đi với từ nghi vấn kèm theo 〜か thể hiện ý nghi vấn",
               "romaji": "ni kakawari naku / ni kakawarazu",
               "example": "この路線バスの料金は、乗った距離にかかわりなく一律２００円です。\nTiền xe buýt tuyến này không liên quan đến cự ly đi xa hay không, đều là 200 yên.\n\n天候にかかわらず、試合は行われます。\nBất kể thời tiết thế nào, trận đấu vẫn sẽ được tiến hành.\n\n結果がどうであるかにかかわらず、全力を尽くすつもりだ。\nBất kể kết quả ra sao, tôi dự định sẽ dốc toàn lực.",
               "jlptLevel": 2
             },
             {
               "front": "〜もかまわず",
-              "back": "Ý nghĩa: Không màng đến, không để tâm đến điều gì đó mà vẫn thực hiện hành động.\nCấu trúc: N / V-ru / V-ta + もかまわず",
+              "back": "Ý nghĩa: Không màng đến, không để tâm đến điều gì đó mà vẫn thực hiện hành động.\nCấu trúc: N / Vる / Vた + もかまわず\n* Giải thích thêm: Xuất phát từ động từ 構うcó nghĩa là để tâm, quan tâm. もかまわず có nghĩa là không để tâm đến điều gì đó mà hành động\n Cách dùng: Vế sau là câu thể hiện hành động không bình thường, hành động gây cảm giác bất ngờ. Không thể hiện ý chí, nguyện vọng người nói.",
               "romaji": "mo kamawazu",
               "example": "人目もかまわず、道で大泣きしている人を見かけた。\nTôi đã thấy có người không màng đến ánh mắt mọi người mà khóc lớn giữa đường.\n\n濡れるのもかまわず、雨の中を走った。\nKhông bận tâm đến việc bị ướt, tôi đã chạy trong mưa.\n\n時間をかまわず電話してくる友達に困っている。\nTôi đang rất phiền vì người bạn cứ gọi điện đến bất kể giờ giấc.",
               "jlptLevel": 2
             },
             {
               "front": "〜はともかく（として）",
-              "back": "Ý nghĩa: Tạm thời bỏ qua A (để ưu tiên bàn luận B quan trọng hơn).\nCấu trúc: N + はともかく（として）",
+              "back": "Ý nghĩa: Tạm thời bỏ qua A (để ưu tiên bàn luận B quan trọng hơn).\nCấu trúc: N + はともかく（として）\n* Giải thích thêm: Vì có điều khác muốn nhấn mạnh hơn, nên trước hết tạm bỏ qua điều này\n Cách dùng: Vế phía trước はともかくlà điều được tạm bỏ qua vì không phải là điều người nói muốn chú trọng tới. Thường hay đi với từ nghi vấn kèm theo 〜か thể hiện ý nghi vấn. Ở vế sau là câu muốn nhấn mạnh hơn so với vế đằng trước",
               "romaji": "wa tomokaku (toshite)",
               "example": "この店は、店の雰囲気はともかく、料理の味は最高だ。\nCửa hàng này, chưa bàn đến bầu không khí, hương vị món ăn là tuyệt nhất.\n\nデザインはともかく、この靴は履き心地がとても良い。\nChưa nói đến thiết kế, đôi giày này đi rất thoải mái.\n\n値段はともかく、この家は広くて気に入った。\nTạm gác chuyện giá cả, tôi rất ưng căn nhà này vì nó rộng.",
               "jlptLevel": 2
             },
             {
               "front": "〜はさておき",
-              "back": "Ý nghĩa: Tạm gác lại chuyện A (chuyển sang nội dung chính).\nCấu trúc: N + はさておき",
+              "back": "Ý nghĩa: Tạm gác lại chuyện A (chuyển sang nội dung chính).\nCấu trúc: N + はさておき\n* Giải thích thêm: Vì có điều khác quan trọng hơn, nên trước hết hãy bắt đầu từ chuyện quan trọng trước\n Cách dùng: Hay đi với những từ thể hiện chuyện quan trọng, chuyện trở thành chủ đề sau đó. Thường hay đi với từ nghi vấn kèm theo 〜か thể hiện ý nghi vấn. Vế phía sau được xếp ưu tiên cao hơn so với vế trước, có tính quan trọng vì là điều cơ bản.",
               "romaji": "wa sateoki",
               "example": "どんな家がいいかはさておき、どんな地域に引っ越したいかを考えよう。\nTạm gác chuyện nhà thế nào thì được, hãy nghĩ xem muốn chuyển đến khu vực nào đã.\n\n冗談はさておき、本題に入りましょう。\nĐùa thế đủ rồi, chúng ta hãy vào chủ đề chính thôi.\n\n細かい点はさておき、全体的な計画を確認しましょう。\nTạm gác các chi tiết nhỏ, chúng ta hãy kiểm tra kế hoạch tổng thể.",
               "jlptLevel": 2
@@ -694,7 +701,7 @@
   },
   {
     "order": 12,
-    "title": "Bài 12: Phủ định (〜わけがない, 〜どころではない・〜どころか, 〜ものか, 〜わけではない, 〜というものではない)",
+    "title": "Bài 12: 〜わけがない・〜どころではない・〜ものか...",
     "summary": "Các cấu trúc thể hiện sự phủ định: 〜わけがない, 〜どころではない・〜どころか, 〜ものか, 〜わけではない, 〜というものではない",
     "theoryMd": "### Bài 12: Ngữ pháp về Phủ định\n\n#### 1. 〜わけがない\n- Ý nghĩa: Tuyệt đối không thể.\n- Cấu trúc: V/A/N (phủ định mạnh)\n\n#### 2. 〜どころではない・〜どころか\n- Ý nghĩa: Không phải mức độ đó, còn hơn thế.\n\n#### 3. 〜ものか\n- Ý nghĩa: Phủ định mạnh mẽ (thường dùng trong văn nói).\n\n#### 4. 〜わけではない\n- Ý nghĩa: Không hẳn là hoàn toàn như vậy.\n\n#### 5. 〜というものではない\n- Ý nghĩa: Không phải cứ A là đương nhiên B.",
     "skills": [
@@ -706,8 +713,8 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 12 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 12: Phủ định (〜わけがない, 〜どころではない・〜どころか, 〜ものか, 〜わけではない, 〜というものではない)",
+          "name": "Shinkanzen N2 — Bài 12: 〜わけがない・〜どころではない・〜ものか...",
+          "description": "Chủ đề: Phủ định",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
@@ -715,33 +722,33 @@
               "front": "〜わけがない",
               "back": "Ý nghĩa: Tuyệt đối không, không thể có chuyện.\nCấu trúc: V-plain / A-i / A-na (na) / N (no) + わけがない",
               "romaji": "wake ga nai",
-              "example": "私一人でできるわけがありませんよ。\nChỉ có mình tôi thì chắc chắn không thể làm được.\n\nあんなに優しい人が、嘘をつくわけがない。\nNgười hiền lành như thế chắc chắn không có chuyện nói dối.\n\nこんな難しい問題、子供に解けるわけがない。\nBài toán khó thế này, đứa trẻ chắc chắn không thể giải được.",
+              "example": "私一人でできるわけがありませんよ。\nChỉ có mình tôi thì chắc chắn không thể làm được.\n\nあんなに優しい人が、嘘をつくわけがない。\nNgười hiền lành như thế chắc chắn không có chuyện nói dối.\n\nこんな難しい問題、子供に解けるわけがない。\nBài toán khó thế này, đứa trẻ chắc chắn không thể giải được.\n\nそんなに簡単なわけがない\nBài thi của thầy A chắc chắn không thể đơn giản thế này được. Thầy ấy nổi tiếng vì nghiêm khắc mà",
               "jlptLevel": 2
             },
             {
               "front": "〜どころではない・〜どころか",
-              "back": "Ý nghĩa: Không chỉ ở mức độ này, mà còn hơn thế (thể hiện mức độ chênh lệch hoặc trái ngược lớn).\nCấu trúc: N / V-ru / A-i / A-na + どころではない / どころか",
+              "back": "Ý nghĩa: Không chỉ ở mức độ này, mà còn hơn thế (thể hiện mức độ chênh lệch hoặc trái ngược lớn).\nCấu trúc: N / Vる / A-i / A-na + どころではない / どころか",
               "romaji": "dokoro de wa nai / dokoro ka",
-              "example": "ただの風邪どころではなく、肺炎だった。\nKhông chỉ là cảm lạnh, mà là viêm phổi.\n\n忙しくて、旅行どころではない。\nBận rộn thế này thì thời gian đâu mà đi du lịch nữa.\n\n暑いどころか、暖房が必要なくらいだ。\nKhông những không nóng, mà còn cần phải bật sưởi nữa.",
+              "example": "ただの風邪どころではなく、肺炎だった。\nKhông chỉ là cảm lạnh, mà là viêm phổi.\n\n忙しくて、旅行どころではない。\nBận rộn thế này thì thời gian đâu mà đi du lịch nữa.\n\n暑いどころか、暖房が必要なくらいだ。\nKhông những không nóng, mà còn cần phải bật sưởi nữa.\n\n一度も勝てないどころか\nMột đội yếu như thế này, không chỉ thi đấu bao lần cũng không thắng được,mà cả một điểm cũng không ghi được.",
               "jlptLevel": 2
             },
             {
               "front": "〜ものか",
-              "back": "Ý nghĩa: Tuyệt đối không, làm sao mà... được (thể hiện sự phủ định mạnh mẽ).\nCấu trúc: V-ru / A-i / A-na (na) / N (na) + ものか",
+              "back": "Ý nghĩa: Tuyệt đối không, làm sao mà... được (thể hiện sự phủ định mạnh mẽ).\nCấu trúc: Vる / A-i / A-na (na) / N (na) + ものか",
               "romaji": "mono ka",
               "example": "あの人が正直なもんか。\nLàm gì có chuyện anh ta là người chính trực.\n\n二度とあのお店に行くものか。\nTôi quyết không bao giờ thèm đến cửa hàng đó lần thứ hai nữa.\n\nこんな簡単なことがわかるものか。\nViệc đơn giản thế này làm sao mà không hiểu được chứ.",
               "jlptLevel": 2
             },
             {
-              "front": "〜わけではない",
+              "front": "〜わけではない / 〜というわけだはない",
               "back": "Ý nghĩa: Không phải tất cả, không hẳn là (phủ định một phần).\nCấu trúc: V-plain / A-i / A-na (na) / N (no) + わけではない",
               "romaji": "wake de wa nai",
               "example": "いつでも電話に出られるわけではない。\nKhông hẳn là lúc nào tôi cũng có thể nghe điện thoại được.\n\n嫌いなわけではないが、お腹がいっぱいで食べられない。\nKhông phải là ghét đâu, mà vì no quá nên không ăn nổi thôi.\n\n高いものがすべていいわけではない。\nKhông phải tất cả những thứ đắt tiền đều tốt.",
               "jlptLevel": 2
             },
             {
-              "front": "〜というものではない",
-              "back": "Ý nghĩa: Không phải cứ đáp ứng điều kiện là đạt được kết quả như ý.\nCấu trúc: V-ru / A-i / A-na / N + というものではない",
+              "front": "〜というものではない / 〜というものでもない",
+              "back": "Ý nghĩa: Không phải cứ đáp ứng điều kiện là đạt được kết quả như ý.\nCấu trúc: Vる / A-i / A-na / N + というものではない",
               "romaji": "to iu mono de wa nai",
               "example": "努力すれば必ず成功するというものではない。\nKhông phải cứ nỗ lực là sẽ chắc chắn thành công.\n\nお金があれば幸せになれるというものでもない。\nKhông phải cứ có tiền là sẽ hạnh phúc.\n\nテストが満点ならいいというものではない。\nKhông phải cứ được điểm tối đa là tốt.",
               "jlptLevel": 2
@@ -757,7 +764,7 @@
   },
   {
     "order": 13,
-    "title": "Bài 13: Định nghĩa / Liên tưởng (〜とは, 〜といえば, 〜というと, 〜（こと）となると, 〜といったら)",
+    "title": "Bài 13: 〜とは・〜といえば・〜というと...",
     "summary": "Các cấu trúc định nghĩa và liên tưởng: 〜とは, 〜といえば, 〜というと, 〜（こと）となると, 〜といったら",
     "theoryMd": "### Bài 13: Định nghĩa và Liên tưởng\n\n- **〜とは**: Định nghĩa từ ngữ.\n- **〜といえば・〜というと**: Gợi nhớ về một chủ đề cụ thể.\n- **〜（こと）となると**: Thái độ thay đổi khi nhắc đến chủ đề.\n- **〜といったら**: Nhấn mạnh cảm xúc cực độ.",
     "skills": [
@@ -769,42 +776,42 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 13 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 13: Định nghĩa / Liên tưởng (〜とは, 〜といえば, 〜というと, 〜（こと）となると, 〜といったら)",
+          "name": "Shinkanzen N2 — Bài 13: 〜とは・〜といえば・〜というと...",
+          "description": "Chủ đề: Định nghĩa / Liên tưởng",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜とは",
-              "back": "Ý nghĩa: Dùng để định nghĩa hoặc giải thích bản chất của danh từ.\nCấu trúc: N + とは",
+              "back": "Ý nghĩa: Dùng để định nghĩa hoặc giải thích bản chất của danh từ.\nCấu trúc: N + とは\n* Giải thích thêm: Đưa ra định nghĩa, thuyết minh.\n Cách dùng: Là cách nói cứng hơn của というのは. Vế sau là câu đưa ra định nghĩa, giải thích về bản chất, ý nghĩa của từ đứng trước. Thường kết thúc ở dạng khẳng định như 〜だ、〜である、〜という意味である、〜のことである",
               "romaji": "to wa",
               "example": "「正義」とはどういう意味ですか。\n\"Chính nghĩa\" có nghĩa là gì?\n\nネットショッピングとは、インターネットで買い物をすることだ。\nMua sắm trực tuyến là việc mua đồ qua Internet.\n\n愛とは、相手のことを一番に考えることだ。\nTình yêu là việc nghĩ cho đối phương trước nhất.",
               "jlptLevel": 2
             },
             {
-              "front": "〜といえば",
-              "back": "Ý nghĩa: Nhắc đến chủ đề nào đó để gợi liên tưởng hoặc chấp nhận một phần.\nCấu trúc: N / V-ru + といえば",
+              "front": "〜といえば / 〜というと / 〜といったら",
+              "back": "Ý nghĩa: Nhắc đến chủ đề nào đó để gợi liên tưởng hoặc chấp nhận một phần.\nCấu trúc: N / Vる + といえば\n* Giải thích thêm: Nhắc đến điều gì thì nghĩ ngay đến điều gì. Ngoài ra còn dùng để xác nhận thông tin\n Cách dùng: Điều được nghĩ đến chính là điều đặc trưng, tiêu biểu của điều được nhắc đến. Khi được dùng để xác nhận thông tin, cuối câu thường hay đi kèm 〜か・〜など",
               "romaji": "to ieba",
-              "example": "ハワイといえば、Aさんが来月結婚式をするんだそうです。\nNhắc đến Hawaii mới nhớ, nghe nói tháng tới anh A sẽ tổ chức đám cưới ở đó đấy.\n\n日本の食べ物といえば、やはり寿司が一番有名でしょう。\nNói về món ăn Nhật Bản thì quả nhiên sushi là nổi tiếng nhất nhỉ.\n\n朝といえば、必ずコーヒーを飲む。\nNhắc đến buổi sáng là tôi nhất định phải uống cà phê.",
+              "example": "ハワイといえば、Aさんが来月結婚式をするんだそうです。\nNhắc đến Hawaii mới nhớ, nghe nói tháng tới anh A sẽ tổ chức đám cưới ở đó đấy.\n\n日本の食べ物といえば、やはり寿司が一番有名でしょう。\nNói về món ăn Nhật Bản thì quả nhiên sushi là nổi tiếng nhất nhỉ.\n\n朝といえば、必ずコーヒーを飲む。\nNhắc đến buổi sáng là tôi nhất định phải uống cà phê.\n\nオーストラリアといえば、",
               "jlptLevel": 2
             },
             {
               "front": "〜というと",
-              "back": "Ý nghĩa: Nhắc đến A thì nghĩ ngay đến B (đặc trưng).\nCấu trúc: N / V-ru + というと",
+              "back": "Ý nghĩa: Nhắc đến A thì nghĩ ngay đến B (đặc trưng).\nCấu trúc: N / Vる + というと",
               "romaji": "to iu to",
               "example": "京都というと、古いお寺をイメージします。\nNhắc đến Kyoto, tôi lại hình dung ra những ngôi chùa cổ kính.\n\n夏というと、海を思い出す。\nNhắc đến mùa hè, tôi lại nhớ về biển.\n\n日本の冬というと、雪がたくさん降る地域が多い。\nNhắc đến mùa đông Nhật Bản, nhiều nơi tuyết rơi rất dày.",
               "jlptLevel": 2
             },
             {
               "front": "〜（こと）となると",
-              "back": "Ý nghĩa: Cứ hễ động đến chủ đề nào đó thì thái độ/trạng thái thay đổi.\nCấu trúc: N (の) / V-ru + こととなると",
+              "back": "Ý nghĩa: Cứ hễ động đến chủ đề nào đó thì thái độ/trạng thái thay đổi.\nCấu trúc: N (の) / Vる + こととなると\n* Giải thích thêm: Cứ động đến, nhắc đến điều gì thì thế nào\n Cách dùng: Vế phía sau mang ý nghĩa có thái độ thay đổi khác thường mỗi khi động đến chủ đề nào đó",
               "romaji": "koto to naru to",
               "example": "弟は、車のこととなると急に専門家みたいになる。\nEm trai tôi cứ hễ động đến chuyện xe hơi là tự nhiên trở nên như một chuyên gia.\n\n普段は物静かな彼だが、アニメのこととなると急に早口になる。\nBình thường anh ấy rất lầm lì, nhưng hễ động đến anime là bỗng nói liến thoắng.\n\nお金のこととなると、彼は非常に厳しくなる。\nHễ động đến chuyện tiền nong là anh ấy trở nên rất khắt khe.",
               "jlptLevel": 2
             },
             {
               "front": "〜といったら",
-              "back": "Ý nghĩa: Nhấn mạnh mức độ cao (kinh ngạc, tuyệt vời, đáng sợ).\nCấu trúc: N + といったら",
+              "back": "Ý nghĩa: Nhấn mạnh mức độ cao (kinh ngạc, tuyệt vời, đáng sợ).\nCấu trúc: N + といったら\n* Giải thích thêm: nhắc đến tình trạng, trạng thái thì đó thì nhấn mạnh mức độ nghiêm trọng của trạng thái đó.",
               "romaji": "to ittara",
               "example": "暗い山道を一人で歩いたときの怖さといったら。\nSự đáng sợ khi đi một mình trên con đường núi tối tăm thật không sao tả xiết.\n\nその景色の美しさといったら、言葉では表現できない。\nVẻ đẹp của phong cảnh đó thật không từ ngữ nào có thể diễn tả được.\n\n試験に落ちたときの悔しさといったら、言葉では言い表せない。\nNỗi uất ức khi trượt bài thi thật không từ ngữ nào diễn tả được.",
               "jlptLevel": 2
@@ -820,7 +827,7 @@
   },
   {
     "order": 14,
-    "title": "Bài 14: Dù... nhưng... (〜にもかかわらず, 〜ものの・〜とはいうものの, 〜ながら（も）, 〜つつ（も）, 〜といっても)",
+    "title": "Bài 14: 〜にもかかわらず・〜ものの・〜ながら...",
     "summary": "Các cấu trúc nghịch lý: 〜にもかかわらず, 〜ものの・〜とはいうものの, 〜ながら（も）, 〜つつ（も）, 〜といっても",
     "theoryMd": "### Bài 14: Cấu trúc biểu thị sự đối lập\n\nCác cấu trúc trên đều dùng để diễn tả ý **\"Mặc dù A nhưng B\"**. Tuy nhiên, sắc thái mỗi từ có sự khác biệt về hoàn cảnh và mức độ của sự việc.",
     "skills": [
@@ -832,42 +839,42 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 14 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 14: Dù... nhưng... (〜にもかかわらず, 〜ものの・〜とはいうものの, 〜ながら（も）, 〜つつ（も）, 〜といっても)",
+          "name": "Shinkanzen N2 — Bài 14: 〜にもかかわらず・〜ものの・〜ながら...",
+          "description": "Chủ đề: Dù... nhưng...",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜にもかかわらず",
-              "back": "Ý nghĩa: Mặc dù A nhưng B (sự việc bất ngờ xảy ra bất chấp hoàn cảnh).\nCấu trúc: V-plain / A-i / A-na (である) / N (である) + にもかかわらず",
+              "back": "Ý nghĩa: Mặc dù A nhưng B (sự việc bất ngờ xảy ra bất chấp hoàn cảnh).\nCấu trúc: V-plain / A-i / A-na (である) / N (である) + にもかかわらず\n* Giải thích thêm: Thực hiện một hành động mà không bị ảnh hưởng bởi tác động khác\n Cách dùng: Toàn thể câu thể hiện cảm giác bất ngờ đối với việc hành động này không bị ảnh hưởng bởi tác động đằng trước. Vế phía sau không dùng động từ thể hiện ý hướng của tác giả.",
               "romaji": "ni mo kakawarazu",
-              "example": "足を痛めたにもかかわらず、A選手は最後まで走った。\nMặc cho đau chân, tuyển thủ A vẫn chạy tới đích cuối cùng.\n\n大雨にもかかわらず、たくさんの人がイベントに来てくれた。\nMặc cho mưa lớn, rất nhiều người vẫn đến tham dự sự kiện.\n\n彼は忙しいにもかかわらず、手伝ってくれた。\nMặc dù bận rộn nhưng anh ấy vẫn giúp tôi.",
+              "example": "足を痛めたにもかかわらず、A選手は最後まで走った。\nMặc cho đau chân, tuyển thủ A vẫn chạy tới đích cuối cùng.\n\n大雨にもかかわらず、たくさんの人がイベントに来てくれた。\nMặc cho mưa lớn, rất nhiều người vẫn đến tham dự sự kiện.\n\n彼は忙しいにもかかわらず、手伝ってくれた。\nMặc dù bận rộn nhưng anh ấy vẫn giúp tôi.\n\nお忙しいにもかかわらず",
               "jlptLevel": 2
             },
             {
-              "front": "〜ものの",
-              "back": "Ý nghĩa: Dù... nhưng... (sự thật trái với suy nghĩ/dự đoán).\nCấu trúc: V-plain / A-i / A-na (na/である) / N (である) + ものの",
+              "front": "〜ものの / 〜とはいうものの",
+              "back": "Ý nghĩa: Dù... nhưng... (sự thật trái với suy nghĩ/dự đoán).\nCấu trúc: V-plain / A-i / A-na (na/である) / N (である) + ものの\n* Giải thích thêm: Không xảy ra điều đúng như tưởng tượng rằng đương nhiên sẽ xảy ra\n Cách dùng: Đi kèm với những từ thể hiện sự thật, sự việc có tính xác thực cao. Vế phía sau không theo đúng tưởng tượng của người nói.",
               "romaji": "mono no",
               "example": "手術は成功したとはいうものの、まだ心配です。\nDù nói là phẫu thuật đã thành công, nhưng tôi vẫn còn lo lắng.\n\n免許は持っているものの、もう10年以上運転していない。\nDù có bằng lái xe đấy nhưng tôi đã không lái xe hơn 10 năm nay rồi.\n\n春になったものの、まだ寒い日が続いている。\nDù đã sang xuân nhưng những ngày lạnh vẫn tiếp diễn.",
               "jlptLevel": 2
             },
             {
               "front": "〜ながら（も）",
-              "back": "Ý nghĩa: Dù... nhưng... (mặc dù ở trạng thái đó).\nCấu trúc: V-masu (bỏ masu) / A-i / A-na / N + ながら（も）",
+              "back": "Ý nghĩa: Dù... nhưng... (mặc dù ở trạng thái đó).\nCấu trúc: Vます (bỏ masu) / A-i / A-na / N + ながら（も）\n* Giải thích thêm: Nêu lên điều trái với dự đoán suy ra từ một trạng thái nào đó\n Cách dùng: Hay đi kèm với những từ thể hiện trạng thái. Vế trước và sau cùng chủ ngữ.",
               "romaji": "nagara (mo)",
               "example": "あの子は子供ながら、社会の動きをよく知っていますね。\nĐứa trẻ đó dù còn nhỏ nhưng hiểu biết rất rõ về xã hội nhỉ.\n\n残念ながら、今回の提案は不採用となりました。\nThật đáng tiếc, nhưng đề xuất lần này đã không được thông qua.\n\n狭いながらも、快適な部屋です。\nDù hẹp nhưng là căn phòng thoải mái.",
               "jlptLevel": 2
             },
             {
               "front": "〜つつ（も）",
-              "back": "Ý nghĩa: Dù... nhưng... (hành động trái với suy nghĩ).\nCấu trúc: V-masu (bỏ masu) + つつ（も）",
+              "back": "Ý nghĩa: Dù... nhưng... (hành động trái với suy nghĩ).\nCấu trúc: Vます (bỏ masu) + つつ（も）\n* Giải thích thêm: Hành động khác với suy nghĩ trong lòng.\n Cách dùng: Thường đi kèm với những động từ liên quan đến hoạt động ngôn ngữ hoặc nội tâm (nói, nghĩ, biết…) Vế sau là từ thể hiện suy đoán, ý hướng, nguyện vọng của người nói. Hai vế trước và sau cùng chủ ngữ.",
               "romaji": "tsutsu (mo)",
               "example": "危険だと知りつつ、山道を登り続けた。\nDù biết là nguy hiểm, tôi vẫn tiếp tục leo lên con đường núi.\n\n体に悪いと思いながらも、夜遅くにラーメンを食べてしまう。\nDù tự biết là không tốt cho sức khỏe nhưng tôi vẫn lỡ ăn mì ramen.\n\n謝りつつも、心の中では納得していない。\nVừa xin lỗi nhưng trong lòng thì chưa phục.",
               "jlptLevel": 2
             },
             {
               "front": "〜といっても",
-              "back": "Ý nghĩa: Dù nói là A nhưng thực tế chỉ ở mức độ thấp.\nCấu trúc: V-plain / N / A-i / A-na + といっても",
+              "back": "Ý nghĩa: Dù nói là A nhưng thực tế chỉ ở mức độ thấp.\nCấu trúc: V-plain / N / A-i / A-na + といっても\n* Giải thích thêm: Sự thực trái với hình ảnh tưởng tượng ra\n Cách dùng: Vế sau là câu ý nghĩa khác với hình ảnh tưởng tượng ra theo thông tin được biết từ vế trước",
               "romaji": "to itte mo",
               "example": "料理ができるといっても、私が作れるのはかんたんなものだけです。\nDù nói là biết nấu ăn, tôi chỉ nấu được những món đơn giản thôi.\n\n家を買ったといっても、とても小さな中古住宅です。\nDù nói là mua nhà nhưng đó chỉ là một căn nhà cũ rất nhỏ thôi.\n\n勉強したといっても、1時間だけです。\nDù nói là học bài nhưng chỉ có 1 tiếng thôi.",
               "jlptLevel": 2
@@ -883,7 +890,7 @@
   },
   {
     "order": 15,
-    "title": "Bài 15: Giả định (〜としたら・〜とすれば, 〜ものなら, 〜（よ）うものなら, 〜ないことには, 〜を抜きにしては, 〜としても)",
+    "title": "Bài 15: 〜としたら・〜ものなら・〜うものなら...",
     "summary": "Các cấu trúc giả định: 〜としたら・〜とすれば, 〜ものなら, 〜（よ）うものなら, 〜ないことには, 〜を抜きにしては, 〜としても",
     "theoryMd": "### Bài 15: Cấu trúc giả định\n\n- **〜としたら・〜とすれば**: Đặt giả thuyết.\n- **〜ものなら**: Mong ước trong trường hợp không thể.\n- **〜（よ）うものなら**: Cảnh báo kết quả xấu nếu lỡ làm.\n- **〜ないことには**: Điều kiện cần để B xảy ra.",
     "skills": [
@@ -895,35 +902,35 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 15 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 15: Giả định (〜としたら・〜とすれば, 〜ものなら, 〜（よ）うものなら, 〜ないことには, 〜を抜きにしては, 〜としても)",
+          "name": "Shinkanzen N2 — Bài 15: 〜としたら・〜ものなら・〜うものなら...",
+          "description": "Chủ đề: Giả định",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
-              "front": "〜としたら・〜とすれば",
-              "back": "Ý nghĩa: Giả định trường hợp xảy ra.\nCấu trúc: V-plain / N / A-i / A-na + としたら・とすれば",
+              "front": "〜としたら・〜とすれば / 〜とすると / 〜となったら / 〜となれば / 〜となると",
+              "back": "Ý nghĩa: Giả định trường hợp xảy ra.\nCấu trúc: V-plain / N / A-i / A-na + としたら・とすれば\n* Giải thích thêm: Đưa ra trường hợp giả định. Nếu trường hợp đó xảy ra thì làm gì\n Cách dùng: としたら・とすれば・とすると mang ý nghĩa giả định mạnh. Còn となったら・となれば・となると là trường hợp có thể thực sự xảy ra. Vế phía sau là câu thể hiện phán đoán của người nói. Với とすると và なると, câu phía sau không được là ý chí, nguyện vọng của người nói.",
               "romaji": "to shitara / to sureba",
               "example": "無人島に何か一つだけ持っていけるとしたら、何を持っていきたいですか。\nNếu được mang theo một thứ duy nhất tới đảo hoang, bạn muốn mang theo thứ gì?\n\n明日地球が滅びるとしたら、最後に何を食べたいですか。\nNếu ngày mai trái đất diệt vong, bạn muốn ăn món gì cuối cùng?\n\n100万円あるとすれば、何に使いますか。\nNếu có 1 triệu yên, bạn sẽ dùng làm gì?",
               "jlptLevel": 2
             },
             {
               "front": "〜ものなら",
-              "back": "Ý nghĩa: Nếu có thể... thì muốn làm (giả định việc khó hoặc không thể).\nCấu trúc: V-potential (thể khả năng) + ものなら",
+              "back": "Ý nghĩa: Nếu có thể... thì muốn làm (giả định việc khó hoặc không thể).\nCấu trúc: V-potential (thể khả năng) + ものなら\n* Giải thích thêm: Nếu được như mong muốn\n Cách dùng: Giả định là điều không thể xảy ra. Vế trước là động từ thể hiện ý nghĩa khả năng, vế sau là nguyện vọng, mong muốn của người nói. Ngoài ra, mẫu này còn nằm trong câu やれるものならやってみろ (Nếu làm được thì làm thử đi), thường hay được sử dụng để động viên, khích lệ",
               "romaji": "mono nara",
               "example": "戻れるものなら２０年前の私に戻って人生をやり直したい。\nNếu có thể quay lại, tôi muốn quay lại làm bản thân 20 năm trước.\n\n病気が治るものなら、どんな高い薬でも買いたい。\nNếu bệnh này chữa khỏi được, dù thuốc có đắt thế nào tôi cũng mua.\n\nやめられるものなら、今すぐこの仕事をやめたい。\nNếu có thể bỏ được, tôi muốn bỏ công việc này ngay lập tức.",
               "jlptLevel": 2
             },
             {
               "front": "〜（よ）うものなら",
-              "back": "Ý nghĩa: Nếu lỡ làm điều đó thì hậu quả rất lớn.\nCấu trúc: V-volitional (thể ý chí) + ものなら",
+              "back": "Ý nghĩa: Nếu lỡ làm điều đó thì hậu quả rất lớn.\nCấu trúc: V-volitional (thể ý chí) + ものなら\n* Giải thích thêm: Nếu làm điều gì đó thì có hậu quả lớn xảy ra\n Cách dùng: Vế phía trước là giả định, vế phía sau là câu thể hiện ý nghĩa suy luận nhất định sẽ có hậu quả xảy ra",
               "romaji": "yo u mono nara",
-              "example": "山道は危ない。ちょっと足を踏み外そうものなら、大けがをするだろう。\nĐường núi rất nguy hiểm. Nếu trượt chân một chút là sẽ bị thương nặng ngay.\n\n先生に隠れて携帯を使おうものなら、没収されてしまう。\nNếu lén lút dùng điện thoại trước mặt thầy cô, sẽ bị tịch thu ngay.\n\n嘘をつこうものなら、父はとても怒るだろう。\nNếu lỡ nói dối, bố chắc chắn sẽ giận dữ lắm.",
+              "example": "山道は危ない。ちょっと足を踏み外そうものなら、大けがをするだろう。\nĐường núi rất nguy hiểm. Nếu trượt chân một chút là sẽ bị thương nặng ngay.\n\n先生に隠れて携帯を使おうものなら、没収されてしまう。\nNếu lén lút dùng điện thoại trước mặt thầy cô, sẽ bị tịch thu ngay.\n\n嘘をつこうものなら、父はとても怒るだろう。\nNếu lỡ nói dối, bố chắc chắn sẽ giận dữ lắm.\n\n一瞬でもよそ見をしようものなら\nKhi đang lái xe, nếu lơ là dù chỉ một giây, sẽ xảy ra tai nạn đấy",
               "jlptLevel": 2
             },
             {
               "front": "〜ないことには",
-              "back": "Ý nghĩa: Nếu không làm A thì không thể thực hiện B.\nCấu trúc: V-nai / A-kunai / A-de nai / N-de nai + ことには",
+              "back": "Ý nghĩa: Nếu không làm A thì không thể thực hiện B.\nCấu trúc: Vない / A-kunai / A-de nai / N-de nai + ことには",
               "romaji": "nai koto ni wa",
               "example": "お金がないことには、この計画は進められない。\nNếu không có tiền, kế hoạch này không thể tiến hành được.\n\n本人に直接聞かないことには、本当の理由はわからない。\nNếu không hỏi trực tiếp chính chủ thì không thể biết được lý do thực sự.\n\nやってみないことには、成功するかどうかわからない。\nNếu không thử làm thì không thể biết được có thành công hay không.",
               "jlptLevel": 2
@@ -932,7 +939,14 @@
               "front": "〜を抜きにしては",
               "back": "Ý nghĩa: Nếu không có A thì không thể làm B.\nCấu trúc: N + を抜きにしては",
               "romaji": "o nuki ni shite wa",
-              "example": "ボランティアの人たちの助けを抜きにしては、計画は無理だと思う。\nNếu không có sự giúp đỡ của các bạn tình nguyện viên, kế hoạch này bất khả thi.\n\n彼の努力を抜きにしては、このプロジェクトの成功は語れない。\nNếu không có nỗ lực của anh ấy, không thể nói đến thành công của dự án này.\n\n笑顔を抜きにしては、よいサービスとは言えない。\nNếu không có nụ cười, thì không thể gọi là dịch vụ tốt.",
+              "example": "ボランティアの人たちの助けを抜きにしては、計画は無理だと思う。\nNếu không có sự giúp đỡ của các bạn tình nguyện viên, kế hoạch này bất khả thi.\n\n彼の努力を抜きにしては、このプロジェクトの成功は語れない。\nNếu không có nỗ lực của anh ấy, không thể nói đến thành công của dự án này.\n\n笑顔を抜きにしては、よいサービスとは言えない。\nNếu không có nụ cười, thì không thể gọi là dịch vụ tốt.\n\nご指導を抜きにしては",
+              "jlptLevel": 2
+            },
+            {
+              "front": "〜としても\n〜にしても\n〜にしろ\n〜にせよ",
+              "back": "Ý nghĩa: cho dù (Dù điều gì đó có xảy ra, cảm xúc, lý trí của người nói vẫn không bị ảnh hưởng  Cách dùng: Vế trước của としても chỉ là giả định. Còn vế trước của にしても・にしろ・にせよ có thể là giả định, có thể là sự thực. Có nhiều khi đi kèm từ nghi vấn. Vế phía sau chủ yếu là câu thể hiện đánh giá, phán đoán, cảm tưởng của người nói.)\nCấu trúc: Thể thông thường + としても / N・Thể thông thường (Na・Nだ –である) + にしても・にしろ・にせよ",
+              "romaji": "",
+              "example": "親元を離れるとしても",
               "jlptLevel": 2
             }
           ]
@@ -946,9 +960,9 @@
   },
   {
     "order": 16,
-    "title": "Bài 16: Nguyên nhân / Lý do (〜によって, 〜ものながら・〜もので, 〜おかげだ / 〜せいだ, 〜あまり・〜あまりの〜に, 〜につき)",
+    "title": "Bài 16: 〜によって・〜ものだから・〜おかげで...",
     "summary": "Các cấu trúc chỉ nguyên nhân lý do: 〜によって, 〜ものながら・〜もので, 〜おかげだ / 〜せいだ, 〜あまり・〜あまりの〜に, 〜につき",
-    "theoryMd": "### Bài 16: Các mẫu câu chỉ nguyên nhân, lý do\n\nTrong bài này, chúng ta học cách diễn đạt lý do trong các tình huống từ giao tiếp hàng ngày đến thông báo trang trọng.\n\n### 1. 〜によって\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ nguyên nhân gây ra kết quả hoặc phương thức thực hiện.\n- **Cấu trúc**: N + によって / による + N\n\n#### 📝 Ví dụ minh họa\n- 会長が交替したことによって、会の雰囲気が大きく変わった。\n- この問題は専門家による調査が必要だ。\n\n### 2. 〜ものだから・〜もので・〜もの\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đưa ra lý do để biện hộ, phân trần.\n- **Cấu trúc**: Thể thông thường + ものだから / もので (N/Na + な)\n\n### 3. 〜おかげで / 〜せいで\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhờ có (tích cực) / Tại vì (tiêu cực).\n- **Cấu trúc**: Thể thông thường + おかげで / せいで (N + の, Na + な)\n\n### 4. 〜あまり / 〜あまりの〜に\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Vì quá mức độ dẫn đến kết quả ngoài dự kiến.\n- **Cấu trúc**: V-ru/V-ta/N-no + あまり ; あまりの + N + に\n\n### 5. 〜につき\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Vì lý do... (dùng trong văn bản, thông báo trang trọng).\n- **Cấu trúc**: N + につき",
+    "theoryMd": "### Bài 16: Các mẫu câu chỉ nguyên nhân, lý do\n\nTrong bài này, chúng ta học cách diễn đạt lý do trong các tình huống từ giao tiếp hàng ngày đến thông báo trang trọng.\n\n### 1. 〜によって\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ nguyên nhân gây ra kết quả hoặc phương thức thực hiện.\n- **Cấu trúc**: N + によって / による + N\n\n#### 📝 Ví dụ minh họa\n- 会長が交替したことによって、会の雰囲気が大きく変わった。\n- この問題は専門家による調査が必要だ。\n\n### 2. 〜ものだから・〜もので・〜もの\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đưa ra lý do để biện hộ, phân trần.\n- **Cấu trúc**: Thể thông thường + ものだから / もので (N/Na + な)\n\n### 3. 〜おかげで / 〜せいで\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhờ có (tích cực) / Tại vì (tiêu cực).\n- **Cấu trúc**: Thể thông thường + おかげで / せいで (N + の, Na + な)\n\n### 4. 〜あまり / 〜あまりの〜に\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Vì quá mức độ dẫn đến kết quả ngoài dự kiến.\n- **Cấu trúc**: Vる/Vた/N-no + あまり ; あまりの + N + に\n\n### 5. 〜につき\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Vì lý do... (dùng trong văn bản, thông báo trang trọng).\n- **Cấu trúc**: N + につき",
     "skills": [
       "GRAMMAR"
     ],
@@ -958,44 +972,44 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 16 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 16: Nguyên nhân / Lý do (〜によって, 〜ものながら・〜もので, 〜おかげだ / 〜せいだ, 〜あまり・〜あまりの〜に, 〜につき)",
+          "name": "Shinkanzen N2 — Bài 16: 〜によって・〜ものだから・〜おかげで...",
+          "description": "Chủ đề: Nguyên nhân / Lý do",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜によって",
-              "back": "Ý nghĩa: Chỉ nguyên nhân/lý do gây ra kết quả, hoặc bằng phương thức/cách thức nào đó.\nCấu trúc: N + によって / による + N",
+              "back": "Ý nghĩa: Chỉ nguyên nhân/lý do gây ra kết quả, hoặc bằng phương thức/cách thức nào đó.\nCấu trúc: N + によって / による + N\n* Giải thích thêm: Vì nguyên nhân nào đó mà gây ra kết quả. Bằng phương pháp, cách thức nào đó.\n Cách dùng: Với ý nghĩa chỉ cách thức, mẫu khó dùng với trường hợp sử dụng đồ thường ngày cho mục đích cá nhân (điện thoại, bút, xe điện…), nhưng có thể dùng ở dạng bổ nghĩa cho danh từ, như ở ví dụ 2 bên dưới",
               "romaji": "ni yotte",
-              "example": "会長が交替したことによって、会の雰囲気が大きく変わった。\nVì việc thay đổi chủ tịch, bầu không khí của hội đã thay đổi nhiều.\n\n不注意によって引き起こされた事故は、十分に防ぐことができた。\nTai nạn do bất cẩn gây ra hoàn toàn có thể phòng tránh được.\n\nこの問題は専門家による調査が必要だ。\nVấn đề này cần sự điều tra bởi chuyên gia.\n\n法律によって、未成年の飲酒は禁止されている。\nTheo luật định, việc uống rượu ở người chưa thành niên bị cấm.",
+              "example": "会長が交替したことによって、会の雰囲気が大きく変わった。\nVì việc thay đổi chủ tịch, bầu không khí của hội đã thay đổi nhiều.\n\n不注意によって引き起こされた事故は、十分に防ぐことができた。\nTai nạn do bất cẩn gây ra hoàn toàn có thể phòng tránh được.\n\nこの問題は専門家による調査が必要だ。\nVấn đề này cần sự điều tra bởi chuyên gia.\n\n法律によって、未成年の飲酒は禁止されている。\nTheo luật định, việc uống rượu ở người chưa thành niên bị cấm.\n\n電話による\nKết quả đỗ hay trượt, chúng tôi sẽ liên lạc qua thư. Chúng tôi không nhận câu hỏi qua điện thoại.",
               "jlptLevel": 2
             },
             {
-              "front": "〜ものだから・〜もので・〜もの",
-              "back": "Ý nghĩa: Đưa ra lý do để biện hộ, phân trần cho bản thân (thường dùng trong văn nói).\nCấu trúc: Thể thông thường + ものだから / もので / もの (Tính từ-na: な, Danh từ: な)",
+              "front": "〜ものだから・〜もので・〜もの / 〜ものながら",
+              "back": "Ý nghĩa: Đưa ra lý do để biện hộ, phân trần cho bản thân (thường dùng trong văn nói).\nCấu trúc: Thể thông thường + ものだから / もので / もの (Tính từ-na: な, Danh từ: な)\n* Giải thích thêm: Đưa ra lời lẽ, lí do bao biện. Dùng trong ngôn ngữ nói\n Cách dùng: Dùng đưa ra lí lẽ mang tính cá nhân. Vế sau không đưa mệnh lệnh hoặc thể ý hướng. ものchủ yếu đứng cuối câu, đặc biệt sử dụng nhiều với phụ nữ và trẻ con. Có thể nói cách khác ở dạng もんだから・もんで・もん",
               "romaji": "mono dakara / monde / mono",
               "example": "このところ忙しかったもので、お返事が遅れてしまいました。\nVì dạo này bận quá nên tôi đã trả lời chậm mất.\n\n知らなかったものだから、失礼なことを言ってしまいました。\nVì tôi không biết chuyện đó nên đã lỡ lời nói điều thất lễ.\n\nつい眠かったものだから、授業中に居眠りをしてしまった。\nVì lỡ buồn ngủ quá nên tôi đã ngủ gật trong giờ học.\n\n一人暮らしなもので、料理はあまり作らないんです。\nVì sống một mình nên tôi không nấu ăn mấy.",
               "jlptLevel": 2
             },
             {
-              "front": "〜おかげで / 〜せいで",
-              "back": "Ý nghĩa: Nhờ có (kết quả tốt) / Tại vì (kết quả xấu).\nCấu trúc: Thể thông thường + おかげで / せいで (Tính từ-na: な, Danh từ: の)",
+              "front": "〜おかげで / 〜せいで / 〜おかげだ / 〜せいだ",
+              "back": "Ý nghĩa: Nhờ có (kết quả tốt) / Tại vì (kết quả xấu).\nCấu trúc: Thể thông thường + おかげで / せいで (Tính từ-na: な, Danh từ: の)\n* Giải thích thêm: Nhờ có điều gì mà có được kết quả tốt / Vì điều gì mà bị kết quả xấu\n Cách dùng: Vế trước là nguyên nhân gây ảnh hưởng. Vế sau おかげで là kết quả tốt, vế sau せいで là kết quả xấu. Không dùng với từ thể hiện ý hướng của người nói.",
               "romaji": "okage de / sei de",
               "example": "私が大学に合格できたのは、A先生のおかげです。\nTôi có thể đỗ được đại học là nhờ ơn của thầy A.\n\n昨日飲みすぎたせいで、今日は頭が痛い。\nTại vì hôm qua uống quá chén nên hôm nay tôi bị đau đầu.\n\n天気のおかげで、楽しい遠足になった。\nNhờ thời tiết đẹp mà buổi dã ngoại đã rất vui vẻ.\n\n君が嘘をついたせいで、みんなに迷惑をかけたんだぞ。\nTại vì cậu nói dối nên đã gây phiền phức cho mọi người rồi đấy.",
               "jlptLevel": 2
             },
             {
               "front": "〜あまり / 〜あまりの〜に",
-              "back": "Ý nghĩa: Vì quá mức độ cực đoan dẫn đến một kết quả không tốt ngoài dự kiến.\nCấu trúc: V-ru / V-ta / N-no + あまり ; あまりの + N + に",
+              "back": "Ý nghĩa: Vì quá mức độ cực đoan dẫn đến một kết quả không tốt ngoài dự kiến.\nCấu trúc: Vる / Vた / N-no + あまり ; あまりの + N + に",
               "romaji": "amari / amari no ... ni",
-              "example": "悔しさのあまり、ぼろぼろ涙がこぼれた。\nVì quá ấm ức nên nước mắt cứ thế tuôn rơi.\n\nあまりの驚きに、声も出なかった。\nVì quá kinh ngạc nên tôi không thốt ra được thành lời.\n\n緊張のあまり、頭が真っ白になってしまった。\nVì quá căng thẳng nên đầu óc tôi trở nên trống rỗng.\n\nあまりの暑さに、エアコンをつけずにはいられなかった。\nVì quá nóng nên tôi không thể chịu được mà phải bật điều hòa.",
+              "example": "悔しさのあまり、ぼろぼろ涙がこぼれた。\nVì quá ấm ức nên nước mắt cứ thế tuôn rơi.\n\nあまりの驚きに、声も出なかった。\nVì quá kinh ngạc nên tôi không thốt ra được thành lời.\n\n緊張のあまり、頭が真っ白になってしまった。\nVì quá căng thẳng nên đầu óc tôi trở nên trống rỗng.\n\nあまりの暑さに、エアコンをつけずにはいられなかった。\nVì quá nóng nên tôi không thể chịu được mà phải bật điều hòa.\n\n兄のあまりの変化に",
               "jlptLevel": 2
             },
             {
               "front": "〜につき",
-              "back": "Ý nghĩa: Vì lý do... (dùng trong văn bản chính thức, thông báo trang trọng).\nCấu trúc: N + につき",
+              "back": "Ý nghĩa: Vì lý do... (dùng trong văn bản chính thức, thông báo trang trọng).\nCấu trúc: N + につき\n* Giải thích thêm: Nêu lí do, dùng cho thông báo.\nCách dùng: Đi kèm với những từ thể hiện trạng thái ở thời điểm hiện tại. Thường thấy trên bảng tin, thông báo.",
               "romaji": "ni tsuki",
-              "example": "本日は祝日につき、閉館しております。\nHôm nay là ngày lễ nên chúng tôi xin phép đóng cửa.\n\nただいま清掃中につき、立ち入り禁止。\nHiện đang dọn dẹp nên cấm vào.\n\n店内の改装につき、臨時休業いたします。\nVì cửa hàng đang sửa chữa nên chúng tôi xin tạm nghỉ.\n\n雨天につき、試合は中止となります。\nVì trời mưa nên trận đấu sẽ bị hủy.",
+              "example": "本日は祝日につき、閉館しております。\nHôm nay là ngày lễ nên chúng tôi xin phép đóng cửa.\n\nただいま清掃中につき、立ち入り禁止。\nHiện đang dọn dẹp nên cấm vào.\n\n店内の改装につき、臨時休業いたします。\nVì cửa hàng đang sửa chữa nên chúng tôi xin tạm nghỉ.\n\n雨天につき、試合は中止となります。\nVì trời mưa nên trận đấu sẽ bị hủy.\n\nトイレはただ清掃中につき",
               "jlptLevel": 2
             }
           ]
@@ -1009,9 +1023,9 @@
   },
   {
     "order": 17,
-    "title": "Bài 17: Lý do đưa ra sau (〜ことだし, 〜のことだから, 〜だけに, 〜ばかりに, 〜からには・〜以上(は)・〜上は)",
+    "title": "Bài 17: 〜ことだし・〜のことだから・〜だけに...",
     "summary": "Các cấu trúc lý do đặc thù: 〜ことだし, 〜のことだから, 〜だけに, 〜ばかりに, 〜からには・〜以上(は)・〜上は",
-    "theoryMd": "### Bài 17: Các cấu trúc chỉ lý do đặc thù\n\nCác cấu trúc này nhấn mạnh lý do đi kèm với cảm xúc hoặc sự phán đoán logic.\n\n### 1. 〜ことだし\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đưa ra lý do tiêu biểu, vế sau thường kèm theo ý định, mời mọc.\n- **Cấu trúc**: Thể thông thường + ことだし\n\n### 2. 〜のことだから\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dựa vào tính cách của người nào đó để đưa ra phán đoán chắc chắn.\n- **Cấu trúc**: N + のことだから\n\n### 3. 〜だけに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chính vì... nên kết quả xứng đáng/tương xứng.\n- **Cấu trúc**: Thể thông thường + だけに\n\n### 4. 〜ばかりに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ vì một nguyên nhân duy nhất dẫn đến kết quả xấu.\n- **Cấu trúc**: Thể thông thường + ばかりに\n\n### 5. 〜からには・〜以上は・〜上は\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Một khi đã... thì đương nhiên phải...\n- **Cấu trúc**: V-ru / V-ta + からには/以上は/上は",
+    "theoryMd": "### Bài 17: Các cấu trúc chỉ lý do đặc thù\n\nCác cấu trúc này nhấn mạnh lý do đi kèm với cảm xúc hoặc sự phán đoán logic.\n\n### 1. 〜ことだし\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Đưa ra lý do tiêu biểu, vế sau thường kèm theo ý định, mời mọc.\n- **Cấu trúc**: Thể thông thường + ことだし\n\n### 2. 〜のことだから\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dựa vào tính cách của người nào đó để đưa ra phán đoán chắc chắn.\n- **Cấu trúc**: N + のことだから\n\n### 3. 〜だけに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chính vì... nên kết quả xứng đáng/tương xứng.\n- **Cấu trúc**: Thể thông thường + だけに\n\n### 4. 〜ばかりに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Chỉ vì một nguyên nhân duy nhất dẫn đến kết quả xấu.\n- **Cấu trúc**: Thể thông thường + ばかりに\n\n### 5. 〜からには・〜以上は・〜上は\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Một khi đã... thì đương nhiên phải...\n- **Cấu trúc**: Vる / Vた + からには/以上は/上は",
     "skills": [
       "GRAMMAR"
     ],
@@ -1021,42 +1035,42 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 17 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 17: Lý do đưa ra sau (〜ことだし, 〜のことだから, 〜だけに, 〜ばかりに, 〜からには・〜以上(は)・〜上は)",
+          "name": "Shinkanzen N2 — Bài 17: 〜ことだし・〜のことだから・〜だけに...",
+          "description": "Chủ đề: Lý do đưa ra sau",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜ことだし",
-              "back": "Ý nghĩa: Vì lý do... (đưa ra một lý do tiêu biểu, vế sau thường là ý chí, lời mời).\nCấu trúc: Thể thông thường + ことだし (Tính từ-na: な, Danh từ: の/である)",
+              "back": "Ý nghĩa: Vì lý do... (đưa ra một lý do tiêu biểu, vế sau thường là ý chí, lời mời).\nCấu trúc: Thể thông thường + ことだし (Tính từ-na: な, Danh từ: の/である)\n* Giải thích thêm: Có nhiều lí do khác nữa, nhưng trước hết là vì lí do này\n Cách dùng: Vế sau là câu mang ý chí, nguyện vọng, phán đoán của người nói, hoặc là lời mời, rủ",
               "romaji": "koto dashi",
-              "example": "来週はお客様が来ることだし、家の中の大掃除をしなくちゃ。\nVì tuần sau có khách đến chơi nên phải tổng vệ sinh trong nhà thôi.\n\n雨も降ってきたことだし、今日はもう帰ろう。\nTrời cũng đã mưa rồi, hôm nay chúng ta về thôi.\n\n明日も休みだし、今日はゆっくり映画でも見よう。\nNgày mai cũng là ngày nghỉ, hôm nay hãy thong thả xem phim thôi.\n\n時間も遅いことだし、タクシーで帰ろうか。\nVì cũng muộn rồi, hay là mình bắt taxi về nhé.",
+              "example": "来週はお客様が来ることだし、家の中の大掃除をしなくちゃ。\nVì tuần sau có khách đến chơi nên phải tổng vệ sinh trong nhà thôi.\n\n雨も降ってきたことだし、今日はもう帰ろう。\nTrời cũng đã mưa rồi, hôm nay chúng ta về thôi.\n\n明日も休みだし、今日はゆっくり映画でも見よう。\nNgày mai cũng là ngày nghỉ, hôm nay hãy thong thả xem phim thôi.\n\n時間も遅いことだし、タクシーで帰ろうか。\nVì cũng muộn rồi, hay là mình bắt taxi về nhé.\n\n父さんも休みのことだし\nNgày mai bố cũng được nghỉ, nên mọi người cùng đi mua đồ chứ?",
               "jlptLevel": 2
             },
             {
               "front": "〜のことだから",
-              "back": "Ý nghĩa: Vì là... (dựa vào tính cách, đặc điểm quen thuộc để phán đoán).\nCấu trúc: N + のことだから",
+              "back": "Ý nghĩa: Vì là... (dựa vào tính cách, đặc điểm quen thuộc để phán đoán).\nCấu trúc: N + のことだから\n* Giải thích thêm: Dựa vào tính cách hay hay thái độ thông thường của một sự vật, để dưa ra suy luận\n Cách dùng: Chủ yếu đi với từ chỉ người. Vế phía sau là suy luận, phán đoán của người nói. Cũng có trường hợp được dùng đứng cuối câu",
               "romaji": "no koto dakara",
               "example": "頑張り屋のAさんのことだから、きっと今度のテストでもいい点を取りますよ。\nVì là người luôn cố gắng như cậu A, chắc chắn bài kiểm tra tới cậu ấy cũng sẽ đạt điểm cao.\n\n約束に厳しい彼のことだから、遅れることはないはずだ。\nVì là người rất nghiêm túc trong hẹn ước như anh ấy, chắc chắn sẽ không có chuyện đến muộn.\n\n子供のことだから、少しはわがままを言っても仕方がない。\nVì là con nít, nên việc nó có chút bướng bỉnh cũng là chuyện bình thường thôi.\n\nいつも親切な彼女のことだから、相談に乗ってくれるでしょう。\nVì là cô ấy, người luôn tốt bụng, chắc chắn cô ấy sẽ lắng nghe tâm sự thôi.",
               "jlptLevel": 2
             },
             {
               "front": "〜だけに",
-              "back": "Ý nghĩa: Chính vì... nên kết quả càng xứng đáng, mức độ tương xứng.\nCấu trúc: Thể thông thường + だけに (Tính từ-na: な/である, Danh từ: である)",
+              "back": "Ý nghĩa: Chính vì... nên kết quả càng xứng đáng, mức độ tương xứng.\nCấu trúc: Thể thông thường + だけに (Tính từ-na: な/である, Danh từ: である)\n* Giải thích thêm: Chính bởi lí do này mà kết quả đằng sau là đương nhiên\n Cách dùng: Vế sau là câu thể hiện trạng thái phù hợp với lí do đằng trước. Không dùng để đưa lời mời.",
               "romaji": "dake ni",
               "example": "母は花が好きなだけに、花をもらうと大喜びする。\nMẹ tôi vốn là người thích hoa, nên cứ nhận được hoa là lại vô cùng vui mừng.\n\n一生懸命勉強しただけに、不合格の知らせは本当にショックだった。\nChính vì đã học hành cực kỳ chăm chỉ nên tin trượt đại học thực sự là một cú sốc lớn.\n\nこのホテルは一流なだけに、サービスも完璧だ。\nKhách sạn này vì là khách sạn hạng nhất nên dịch vụ cũng hoàn hảo.\n\n長い間待っていただけに、彼に会えた時の喜びは大きかった。\nVì đã chờ đợi rất lâu nên niềm vui khi gặp được anh ấy thật là lớn.",
               "jlptLevel": 2
             },
             {
               "front": "〜ばかりに",
-              "back": "Ý nghĩa: Chỉ vì một nguyên nhân duy nhất dẫn đến kết quả xấu ngoài ý muốn.\nCấu trúc: Thể thông thường + ばかりに (Tính từ-na: な/である, Danh từ: である)",
+              "back": "Ý nghĩa: Chỉ vì một nguyên nhân duy nhất dẫn đến kết quả xấu ngoài ý muốn.\nCấu trúc: Thể thông thường + ばかりに (Tính từ-na: な/である, Danh từ: である)\n* Giải thích thêm: Vì một nguyên nhân mà gây ra kết quả xấu không dự đoán trước.\n Cách dùng: Mẫu câu thể hiện kết quả xấu không dự đoán trước, không đi thể hiện ý hướng, nguyện vọng của người nói. Khi đi kèm với động từ thể たい , vế sau là câu thể hiện việc tốn công tốn sức cho mong muốn ở trước. Trong trường hợp này, có thể không phải kết quả xấu cũng được.",
               "romaji": "bakari ni",
               "example": "家のかぎを忘れて出かけたばかりに、家族が帰ってくるまで家に入れなかった。\nChỉ vì ra ngoài quên mang chìa khóa nhà mà tôi không thể vào nhà cho đến khi gia đình về.\n\n一言余計なことを言ったばかりに、彼と大喧嘩になってしまった。\nChỉ vì lỡ lời nói thêm một câu không cần thiết mà tôi đã cãi nhau to với anh ấy.\n\n名前を間違えたばかりに、相手を怒らせてしまった。\nChỉ vì nhầm tên mà tôi đã làm cho đối phương tức giận.\n\nお金がないばかりに、旅行を諦めなければならない。\nChỉ vì không có tiền mà tôi phải từ bỏ chuyến du lịch.",
               "jlptLevel": 2
             },
             {
-              "front": "〜からには・〜以上は・〜上は",
-              "back": "Ý nghĩa: Một khi đã... thì đương nhiên phải hoặc quyết tâm làm gì đó.\nCấu trúc: V-ru / V-ta + からには / 以上は / 上は",
+              "front": "〜からには・〜以上は・〜上は / 〜以上(は)",
+              "back": "Ý nghĩa: Một khi đã... thì đương nhiên phải hoặc quyết tâm làm gì đó.\nCấu trúc: Vる / Vた + からには / 以上は / 上は\n* Giải thích thêm: Vì lí do đó nên muốn làm gì, có dự định gì\n Cách dùng: Cả câu thể hiện một điều mang ý hiển nhiên, thông thường. Vế sau là câu thể hiện nguyện vọng, ý hướng, phán đoán của người nói, hoặc câu mời, rủ.",
               "romaji": "kara ni wa / ijou wa / ue wa",
               "example": "留学するからには、ちゃんと目的を果たすつもりだ。\nMột khi đã đi du học, tôi quyết tâm sẽ hoàn thành mục tiêu của mình.\n\n約束した以上は、何があっても守らなければならない。\nMột khi đã hứa thì dù có chuyện gì xảy ra cũng phải giữ lời.\n\n試合に出る上は、精一杯頑張りたい。\nMột khi đã ra sân thi đấu, tôi muốn nỗ lực hết mình.\n\n自分で引き受けた以上は、最後まで責任を持つべきだ。\nMột khi đã tự tay đảm nhận thì nên chịu trách nhiệm đến cùng.",
               "jlptLevel": 2
@@ -1072,7 +1086,7 @@
   },
   {
     "order": 18,
-    "title": "Bài 18: Không thể làm gì (〜がたい, 〜わけにはいかない, 〜かねる, 〜ようがない, 〜どころではない, 〜得る/〜得ない)",
+    "title": "Bài 18: 〜がたい・〜わけにはいかない・〜かねる...",
     "summary": "Các cấu trúc diễn tả sự không thể hoặc khó thực hiện: 〜がたい, 〜わけにはいかない, 〜かねる, 〜ようがない, 〜どころではない, 〜得る/〜得ない",
     "theoryMd": "### Bài 18: Các cấu trúc diễn tả sự không thể\n\nNội dung bài học tập trung vào các sắc thái khác nhau của việc không thể thực hiện một hành động.\n\n### 1. 〜がたい\n- Khó làm gì (cảm xúc chủ quan).\n\n### 2. 〜わけにはいかない\n- Không thể làm gì (nguyên tắc, trách nhiệm).\n\n### 3. 〜かねる\n- Khó làm gì (từ chối lịch sự).\n\n### 4. 〜ようがない\n- Không có cách nào để thực hiện.\n\n### 5. 〜どころではない\n- Không phải lúc làm gì đó.\n\n### 6. 〜得る / 〜得ない\n- Có thể / Không thể xảy ra (logic/thực tế).",
     "skills": [
@@ -1084,49 +1098,49 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 18 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 18: Không thể làm gì (〜がたい, 〜わけにはいかない, 〜かねる, 〜ようがない, 〜どころではない, 〜得る/〜得ない)",
+          "name": "Shinkanzen N2 — Bài 18: 〜がたい・〜わけにはいかない・〜かねる...",
+          "description": "Chủ đề: Không thể làm gì",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜がたい",
-              "back": "Ý nghĩa: Khó lòng mà thực hiện được việc gì (về mặt tâm lý, cảm xúc).\nCấu trúc: V-masu (bỏ masu) + がたい",
+              "back": "Ý nghĩa: Khó lòng mà thực hiện được việc gì (về mặt tâm lý, cảm xúc).\nCấu trúc: Vます (bỏ masu) + がたい\n* Giải thích thêm: Khó làm, không thể làm việc gì\n Cách dùng: Không sử dụng với ý nghĩa “không thể” mang tính khả năng. Chủ yếu dùng với những động từ liên quan đến phát ngôn (nói, biểu đạt…) hoặc động từ liên quan đến cảm xúc, tâm lí (cảm tưởng, lí giải, tin tưởng…)",
               "romaji": "gatai",
               "example": "あの優しい彼がそんなひどいことをしたとは信じがたい。\nThật khó tin là một người hiền lành như anh ấy lại làm điều tồi tệ như vậy.\n\n幼い子どもを一人で残して行くのは、私には耐えがたいことだ。\nViệc bỏ lại đứa con nhỏ một mình để đi là điều tôi không thể nào chịu đựng nổi.\n\nこの提案を受け入れがたいことは理解している。\nTôi hiểu rằng lời đề nghị này rất khó để chấp nhận.\n\n彼の態度は理解しがたいものだった。\nThái độ của anh ta là điều khó mà hiểu được.",
               "jlptLevel": 2
             },
             {
-              "front": "〜わけにはいかない",
-              "back": "Ý nghĩa: Không thể làm gì vì rào cản đạo đức, lương tâm, quy tắc xã hội.\nCấu trúc: V-ru + わけにはいかない",
+              "front": "〜わけにはいかない / 〜わけにもいかない",
+              "back": "Ý nghĩa: Không thể làm gì vì rào cản đạo đức, lương tâm, quy tắc xã hội.\nCấu trúc: Vる + わけにはいかない\n* Giải thích thêm: Vì trái với lẽ thường trong xã hội, vì trái với lương tâm nên không thể làm việc gì\n Cách dùng: Không sử dụng với ý nghĩa “không thể” mang tính khả năng. Chủ ngữ thường là ngôi thứ nhất",
               "romaji": "wake ni wa ikanai",
               "example": "病気の子供を一人家において、仕事に行くわけにはいかない。\nKhông thể để đứa con đang ốm ở nhà một mình mà đi làm được.\n\n明日大事な試験があるので、今夜は遊ぶわけにはいかない。\nVì ngày mai có kỳ thi quan trọng nên tối nay tôi không thể đi chơi được.\n\n大事な会議を休むわけにはいかない。\nTôi không thể nghỉ buổi họp quan trọng này được.\n\n友達に教えられた秘密を漏らすわけにはいかない。\nTôi không thể tiết lộ bí mật mà bạn đã dạy cho tôi.",
               "jlptLevel": 2
             },
             {
               "front": "〜かねる",
-              "back": "Ý nghĩa: Khó lòng mà / Không thể làm được (từ chối lịch sự).\nCấu trúc: V-masu (bỏ masu) + かねる",
+              "back": "Ý nghĩa: Khó lòng mà / Không thể làm được (từ chối lịch sự).\nCấu trúc: Vます (bỏ masu) + かねる\n* Giải thích thêm: Trong trường hợp, trong điều kiện, lập trường của người nói thì không thể làm được\n Cách dùng: Không sử dụng với ý nghĩa “không thể” mang tính khả năng. Thường dùng trong trường hợp từ chối một cách lịch sự.",
               "romaji": "kaneru",
               "example": "あなたの気持ちも理解できますが、その案には賛成しかねます。\nTôi có thể hiểu được cảm xúc của anh, nhưng tôi khó lòng mà tán thành phương án đó được.\n\n個人情報に関わることですので、お答えしかねます。\nVì đây là vấn đề liên quan đến thông tin cá nhân nên tôi không thể trả lời được.\n\nそのような要望には応じかねます。\nChúng tôi không thể đáp ứng yêu cầu như vậy được.\n\n判断しかねる問題です。\nĐây là vấn đề khó mà phán đoán được.",
               "jlptLevel": 2
             },
             {
               "front": "〜ようがない",
-              "back": "Ý nghĩa: Hoàn toàn không có phương pháp, không có cách nào để thực hiện.\nCấu trúc: V-masu (bỏ masu) + ようがない / ようもない",
+              "back": "Ý nghĩa: Hoàn toàn không có phương pháp, không có cách nào để thực hiện.\nCấu trúc: Vます (bỏ masu) + ようがない / ようもない\n* Giải thích thêm: Dù muốn làm nhưng không biết làm thế nào thì được, hoàn toàn không có khả năng làm được\n Cách dùng: Dùng với ý nghĩa hoàn toàn không có cách làm gì đó. Nhấn mạnh sắc thái “không thể”",
               "romaji": "you ga nai",
-              "example": "実力はあるのだから、今回の結果には運がなかったとしか言いようがない。\nBởi vì có thực lực nên kết quả lần này chỉ có thể nói là do không may mắn mà thôi.\n\n連絡先もわからないので、連絡のしようがない。\nĐịa chỉ liên lạc cũng không biết nên hoàn toàn không có cách nào liên lạc được.\n\n火事で家が燃えてしまい、どうしようもなかった。\nNgôi nhà đã bị cháy rụi, tôi chẳng biết phải làm sao cả.\n\nあの人の考えは理解しようがない。\nKhông có cách nào để hiểu được suy nghĩ của người đó.",
+              "example": "実力はあるのだから、今回の結果には運がなかったとしか言いようがない。\nBởi vì có thực lực nên kết quả lần này chỉ có thể nói là do không may mắn mà thôi.\n\n連絡先もわからないので、連絡のしようがない。\nĐịa chỉ liên lạc cũng không biết nên hoàn toàn không có cách nào liên lạc được.\n\n火事で家が燃えてしまい、どうしようもなかった。\nNgôi nhà đã bị cháy rụi, tôi chẳng biết phải làm sao cả.\n\nあの人の考えは理解しようがない。\nKhông có cách nào để hiểu được suy nghĩ của người đó.\n\n迷いようがない\nTừ nhà ga đi thẳng là đến rồi nên tôi nghĩ không thể bị lạc được.",
               "jlptLevel": 2
             },
             {
               "front": "〜どころではない",
-              "back": "Ý nghĩa: Không phải lúc / Không thể ở trạng thái làm gì (vì bận rộn, việc khác chen vào).\nCấu trúc: V-ru / N + どころではない",
+              "back": "Ý nghĩa: Không phải lúc / Không thể ở trạng thái làm gì (vì bận rộn, việc khác chen vào).\nCấu trúc: Vる / N + どころではない",
               "romaji": "dokoro de wa nai",
               "example": "仕事が忙しくて、旅行どころではない。\nCông việc bận rộn ngập đầu, chẳng phải là lúc để đi du lịch đâu.\n\n風邪がひどくて、勉強どころではない。\nTôi bị cảm nặng, không thể nào học hành gì được lúc này.\n\n騒音がひどくて、眠れたものではない。\nTiếng ồn dữ dội quá, không thể nào ngủ được.\n\nパーティーどころではなく、家でゆっくり休みたい。\nKhông phải là lúc tiệc tùng, tôi chỉ muốn nghỉ ngơi ở nhà.",
               "jlptLevel": 2
             },
             {
               "front": "〜得る / 〜得ない",
-              "back": "Ý nghĩa: Có khả năng xảy ra / Tuyệt đối không có khả năng xảy ra.\nCấu trúc: V-masu (bỏ masu) + 得る / 得ない",
+              "back": "Ý nghĩa: Có khả năng xảy ra / Tuyệt đối không có khả năng xảy ra.\nCấu trúc: Vます (bỏ masu) + 得る / 得ない\n* Giải thích thêm: Khi dùng để nói về khả năng vốn có của một người (VD: Có thể nói tiếng Anh) hoặc khả năng trong tình huống (VD: Không uống rượu nên có thể lái xe), thì khó sử dụng mẫu câu này. Động từ得る có hai cách đọc làえるvà うる, với cách sử dụng này thì thường đọc là うる, phủ định là えない. Mẫu câu không dùng để nói về khả năng bản thân.",
               "romaji": "uru / enai",
               "example": "がんが誰でもかかり得る病気だ。\nUng thư là căn bệnh mà bất cứ ai cũng có khả năng mắc phải.\n\nそんな馬鹿なことは、絶対にあり得ない。\nChuyện ngớ ngẩn như thế tuyệt đối không thể nào xảy ra được.\n\n可能性は十分あり得る。\nKhả năng là hoàn toàn có thể xảy ra.\n\nこの事故は予想し得ない出来事だった。\nTai nạn này là một sự kiện không thể dự đoán được.",
               "jlptLevel": 2
@@ -1142,7 +1156,7 @@
   },
   {
     "order": 19,
-    "title": "Bài 19: So sánh / Đánh giá (〜わりに（は）, 〜にしては, 〜だけ（のことは）ある, 〜として, 〜にとって, 〜にしたら)",
+    "title": "Bài 19: 〜わりに・〜にしては・〜だけのことはある...",
     "summary": "Các cấu trúc so sánh và góc nhìn: 〜わりに（は）, 〜にしては, 〜だけ（のことは）ある, 〜として, 〜にとって, 〜にしたら",
     "theoryMd": "### Bài 19: So sánh và Đánh giá\n\nNội dung tập trung vào cách biểu đạt quan điểm, sự so sánh và vai trò của các đối tượng.\n\n### 1. 〜わりに / 〜にしては\n- Cả hai đều dùng để so sánh kết quả thực tế với tiêu chuẩn, nhưng 〜にしては thường dùng cho các tiêu chuẩn khách quan hơn.\n\n### 2. 〜だけのことはある\n- Diễn tả sự xứng đáng, kết quả hợp lý.\n\n### 3. 〜として / 〜にとって / 〜にしたら\n- Cách nêu vai trò (として), góc nhìn (にとって) và lập trường (にしたら).",
     "skills": [
@@ -1154,28 +1168,28 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 19 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 19: So sánh / Đánh giá (〜わりに（は）, 〜にしては, 〜だけ（のことは）ある, 〜として, 〜にとって, 〜にしたら)",
+          "name": "Shinkanzen N2 — Bài 19: 〜わりに・〜にしては・〜だけのことはある...",
+          "description": "Chủ đề: So sánh / Đánh giá",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜わりに / 〜わりには",
-              "back": "Ý nghĩa: Mặc dù... nhưng (kết quả không tương xứng, bất ngờ so với tiêu chuẩn thông thường).\nCấu trúc: Thể thông thường + わりに / わりには (Tính từ-na: な/である, Danh từ: の)",
+              "back": "Ý nghĩa: Mặc dù... nhưng (kết quả không tương xứng, bất ngờ so với tiêu chuẩn thông thường).\nCấu trúc: Thể thông thường + わりに / わりには (Tính từ-na: な/である, Danh từ: の)\n* Giải thích thêm: Lấy một điều gì đó là tiêu chuẩn để đánh giá, thì mức độ thay đổi\n Cách dùng: Thường đi kèm với những từ có tính chất mức độ cao-thấp (tuổi tác, giá cả, lo lắng, trẻ tuổi…) Vế sau là câu đưa ra đánh giá không phù hợp với mức độ được dự đoán ở trước",
               "romaji": "wari ni / wari ni wa",
               "example": "このお菓子は値段のわりには量が少ない。\nMón bánh kẹo này mặc dù giá đắt nhưng lượng lại ít quá.\n\n彼はあまり勉強しなかったわりに、テストで高得点を取った。\nCậu ấy mặc dù không học mấy nhưng lại đạt điểm cao trong bài kiểm tra.\n\nこのレストランは有名なわりに、味は普通だ。\nNhà hàng này mặc dù nổi tiếng nhưng vị lại rất bình thường.\n\n彼女は年齢のわりに若く見える。\nCô ấy trông trẻ hơn so với tuổi thật của mình.",
               "jlptLevel": 2
             },
             {
               "front": "〜にしては",
-              "back": "Ý nghĩa: So với một tiêu chuẩn cụ thể, thực tế nào đó thì kết quả lại khác biệt.\nCấu trúc: N / V-ru + にしては",
+              "back": "Ý nghĩa: So với một tiêu chuẩn cụ thể, thực tế nào đó thì kết quả lại khác biệt.\nCấu trúc: N / Vる + にしては\n* Giải thích thêm: Nếu so với sự thật, tiêu chuẩn nào đó thì khác với dự đoán\n Cách dùng: Đi kèm với những từ không mang tính chất chỉ mức độ (VD: 2 tháng, 100 yên,…) Vế sau là câu thể hiện sự đánh giá khác với dự đoán",
               "romaji": "ni shite wa",
               "example": "今日は２月にしては暖かかった。\nHôm nay trời khá ấm áp so với thời tiết thông thường của tháng hai.\n\n彼女は初めてにしては、ピアノをとても上手に弾いた。\nCô ấy chơi piano rất giỏi so với một người mới chơi lần đầu.\n\nプロにしては、今日の演奏はひどいね。\nĐã là chuyên nghiệp rồi mà hôm nay biểu diễn tệ thế.\n\n忙しいにしては、よく時間を作ってくれたね。\nBạn bận rộn thế mà cũng cố dành thời gian cho mình nhỉ.",
               "jlptLevel": 2
             },
             {
               "front": "〜だけのことはある",
-              "back": "Ý nghĩa: Quả đúng là... / Thật chẳng uổng công... (xứng đáng).\nCấu trúc: Thể thông thường + だけのことはある",
+              "back": "Ý nghĩa: Quả đúng là... / Thật chẳng uổng công... (xứng đáng).\nCấu trúc: Thể thông thường + だけのことはある\n* Giải thích thêm: Đúng với kì vọng khi ứng với một điều kiện nào đó\n Cách dùng: Phía sau だけあって là câu thể hiện đánh giá cao. Không dùng với câu thể hiện suy luận hoặc mang ý tương lai",
               "romaji": "dake no koto wa aru",
               "example": "すばらしいマンションだ。家賃が高いだけのことはある。\nCăn hộ tuyệt vời thật đấy. Đúng là đáng đồng tiền bát gạo với cái giá thuê cao như thế.\n\n毎日練習しただけのことはあって、彼女の歌は本当に素晴らしかった。\nĐúng là không bõ công luyện tập mỗi ngày, giọng hát của cô ấy thật sự rất tuyệt vời.\n\n日本に長く住んでいるだけあって、日本語がとても上手だ。\nSống ở Nhật lâu năm quả là không bõ công, tiếng Nhật giỏi thật đấy.\n\n優勝できたのは、毎日頑張っただけのことはあるよ。\nCó thể giành chiến thắng, quả là xứng đáng với những gì bạn đã nỗ lực hàng ngày.",
               "jlptLevel": 2
@@ -1184,19 +1198,19 @@
               "front": "〜として",
               "back": "Ý nghĩa: Với tư cách là... / Dưới danh nghĩa là...\nCấu trúc: N + として",
               "romaji": "to shite",
-              "example": "子供の安全に気をつけることは、親として当然だ。\nChú ý đến sự an toàn của con trẻ là điều đương nhiên với vai trò làm cha mẹ.\n\n私は留学生として日本にやってきました。\nTôi đã đến Nhật Bản với tư cách là một du học sinh.\n\n彼は代表として会議に出席した。\nAnh ấy tham dự cuộc họp với tư cách là người đại diện.\n\nボランティアとして、老人ホームで働いている。\nTôi đang làm việc tại viện dưỡng lão với tư cách là tình nguyện viên.",
+              "example": "子供の安全に気をつけることは、親として当然だ。\nChú ý đến sự an toàn của con trẻ là điều đương nhiên với vai trò làm cha mẹ.\n\n私は留学生として日本にやってきました。\nTôi đã đến Nhật Bản với tư cách là một du học sinh.\n\n彼は代表として会議に出席した。\nAnh ấy tham dự cuộc họp với tư cách là người đại diện.\n\nボランティアとして、老人ホームで働いている。\nTôi đang làm việc tại viện dưỡng lão với tư cách là tình nguyện viên.\n\n子供の安全に気をつけることは親として当然だ",
               "jlptLevel": 2
             },
             {
               "front": "〜にとって",
-              "back": "Ý nghĩa: Đối với... (góc nhìn, quan điểm cá nhân).\nCấu trúc: N + にとって",
+              "back": "Ý nghĩa: Đối với... (góc nhìn, quan điểm cá nhân).\nCấu trúc: N + にとって\n* Giải thích thêm: Chủ yếu đi với danh từ chỉ người. Vế phía sau là câu thể hiện cách người đó đánh giá về một sự việc. Không đi với câu biểu hiện hành động.",
               "romaji": "ni totte",
               "example": "今の私にとって、一番大切なのは家族です。\nĐối với tôi hiện tại, điều quan trọng nhất chính là gia đình.\n\n現代人にとって、スマートフォンは手放せないものになっている。\nĐối với người hiện đại, điện thoại thông minh đã trở thành thứ không thể rời tay.\n\n彼にとって、その仕事は天職だ。\nĐối với anh ấy, công việc đó là nghề nghiệp lý tưởng.\n\n国にとって、教育は最も重要な投資である。\nĐối với một quốc gia, giáo dục là sự đầu tư quan trọng nhất.",
               "jlptLevel": 2
             },
             {
-              "front": "〜にしたら・〜にすれば",
-              "back": "Ý nghĩa: Nếu đặt mình vào vị trí, lập trường của đối tượng đó để suy nghĩ.\nCấu trúc: N + にしたら / にすれば",
+              "front": "〜にしたら・〜にすれば / 〜にしてみれば / 〜にしても",
+              "back": "Ý nghĩa: Nếu đặt mình vào vị trí, lập trường của đối tượng đó để suy nghĩ.\nCấu trúc: N + にしたら / にすれば\n* Giải thích thêm: Nếu đứng từ lập trường của ai thì có thể nói điều gì\n Cách dùng: Thông thường, mẫu câu đi với từ chỉ người không phải là người nói. Vế phía sau là câu thể hiện suy luận về cảm xúc, suy nghĩ của người ở lập trường đó.",
               "romaji": "ni shitara / ni sureba",
               "example": "たばこを吸う人にすれば、たばこの害についての話題は避けたいだろう。\nNếu đứng ở lập trường của người hút thuốc, họ có lẽ sẽ muốn né tránh các chủ đề về tác hại của thuốc lá.\n\n親にしたら、子供が健康でいてくれるだけで十分だ。\nĐặt mình vào vị trí của cha mẹ, con cái chỉ cần khỏe mạnh là đã đủ lắm rồi.\n\n先生にすれば、生徒が成長するのが一番嬉しいことだ。\nĐối với giáo viên, học sinh trưởng thành là điều hạnh phúc nhất.\n\nペットにしたら、飼い主と遊ぶ時間が一番楽しい。\nĐối với vật nuôi, thời gian chơi với chủ là vui nhất.",
               "jlptLevel": 2
@@ -1212,7 +1226,7 @@
   },
   {
     "order": 20,
-    "title": "Bài 20: Kết quả / Sự việc đã xảy ra (〜たところ, 〜きり, 〜あげく, 〜末（に）, 〜ところだった, 〜ずじまいだ)",
+    "title": "Bài 20: 〜たところ・〜きり・〜あげく...",
     "summary": "Các cấu trúc kết quả: 〜たところ, 〜きり, 〜あげく, 〜末（に）, 〜ところだった, 〜ずじまいだ",
     "theoryMd": "### Bài 20: Các cấu trúc chỉ kết quả và sự việc đã xảy ra\n\nNội dung tập trung vào kết quả của các hành động và trạng thái sau khi một quá trình kết thúc.\n\n### 1. 〜たところ\n- Sau khi làm thử thì phát hiện kết quả mới.\n\n### 2. 〜きり\n- Kể từ lúc đó không còn thay đổi gì nữa.\n\n### 3. 〜あげく / 〜末（に）\n- Sự khác biệt về sắc thái: 〜あげく (kết quả xấu) vs 〜末（に） (quyết định, nỗ lực).\n\n### 4. 〜ところだった\n- Suýt nữa thì xảy ra việc gì đó.\n\n### 5. 〜ずじまいだ\n- Định làm nhưng không làm được, kết thúc trong tiếc nuối.",
     "skills": [
@@ -1224,51 +1238,51 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 20 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 20: Kết quả / Sự việc đã xảy ra (〜たところ, 〜きり, 〜あげく, 〜末（に）, 〜ところだった, 〜ずじまいだ)",
+          "name": "Shinkanzen N2 — Bài 20: 〜たところ・〜きり・〜あげく...",
+          "description": "Chủ đề: Kết quả / Sự việc đã xảy ra",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜たところ",
-              "back": "Ý nghĩa: Sau khi thử làm gì thì phát hiện ra kết quả/tình trạng mới.\nCấu trúc: V-ta + ところ",
+              "back": "Ý nghĩa: Sau khi thử làm gì thì phát hiện ra kết quả/tình trạng mới.\nCấu trúc: Vた + ところ",
               "romaji": "ta tokoro",
               "example": "２、３日休したいと課長に相談したところ、２週間休んでもいいと言われた。\nSau khi tôi bàn bạc với trưởng phòng về việc muốn nghỉ 2, 3 ngày, ông ấy bảo tôi nghỉ hẳn 2 tuần cũng được.\n\n新しいレストランに行ってみたところ、想像以上に美味しかった。\nSau khi đi thử nhà hàng mới mở, tôi thấy đồ ăn ngon ngoài sức tưởng tượng.\n\n先生に聞いてみたところ、答えがわかった。\nSau khi thử hỏi thầy giáo, tôi đã biết được câu trả lời.\n\n調べたところ、犯人は国外へ逃亡していた。\nSau khi điều tra, tôi phát hiện tội phạm đã trốn ra nước ngoài.",
               "jlptLevel": 2
             },
             {
               "front": "〜きり",
-              "back": "Ý nghĩa: Kể từ sau đó thì không có thay đổi nào xảy ra nữa (thường đi với phủ định).\nCấu trúc: V-ta + きり",
+              "back": "Ý nghĩa: Kể từ sau đó thì không có thay đổi nào xảy ra nữa (thường đi với phủ định).\nCấu trúc: Vた + きり\n* Giải thích thêm: Sau một hành động, một trạng thái cứ mãi tiếp diễn\n Cách dùng: Vế sau là câu thể hiện trạng thái điều được dự đoán mãi chưa xảy ra. Phần lớn ở dạng phủ định. Ngoài ra, cụm từ それきり(từ đó về sau) cũng là một cụm từ thường gặp trong hội thoại hàng ngày.",
               "romaji": "kiri",
               "example": "その本は、子供の頃読んだきり、その後一度も読んでいない。\nCuốn sách đó tôi chỉ đọc từ hồi nhỏ, từ đó đến nay chưa từng đọc lại một lần nào nữa.\n\n彼は「ちょっとコンビニに行く」と言って出かけたきり、戻ってこない。\nAnh ấy nói \"ra ngoài tiện lợi chút\" rồi đi biệt tích từ lúc đó vẫn chưa về.\n\n最後に会ったきり、連絡を取っていない。\nLần cuối gặp nhau là từ đó đến nay không liên lạc nữa.\n\n彼は部屋に入ったきり、出てこない。\nAnh ta vào phòng rồi cứ thế không bước ra nữa.",
               "jlptLevel": 2
             },
             {
               "front": "〜あげく",
-              "back": "Ý nghĩa: Sau một thời gian dài trải qua rắc rối, đắn đo, rốt cuộc dẫn đến kết quả không tốt.\nCấu trúc: V-ta / N-no + あげく",
+              "back": "Ý nghĩa: Sau một thời gian dài trải qua rắc rối, đắn đo, rốt cuộc dẫn đến kết quả không tốt.\nCấu trúc: Vた / N-no + あげく\n* Giải thích thêm: Sau một khoảng thời gian dài, sau nhiều chuyện, rốt cuộc kết quả không tốt\n Cách dùng: Đi với câu mang ý nghĩa một trạng thái không ổn kéo dài. Vế sau không đưa ra được kết quả tốt",
               "romaji": "ageku",
               "example": "５時間に及ぶ議論のあげく、結局結論が出なかった。\nSau cuộc thảo luận kéo dài suốt 5 tiếng đồng hồ, rốt cuộc vẫn không đưa ra được kết luận nào.\n\nさんざん悩んだあげく、仕事を辞めることにした。\nSau một hồi đắn đo suy nghĩ mãi, cuối cùng tôi đã chọn nghỉ việc.\n\n大声で叫んだあげく、倒れてしまった。\nSau khi gào thét lớn, cuối cùng anh ấy đã ngã xuống.\n\n長い入院のあげく、残念ながら亡くなった。\nSau một thời gian dài nằm viện, cuối cùng thì thật đáng tiếc anh ấy đã qua đời.",
               "jlptLevel": 2
             },
             {
               "front": "〜末に",
-              "back": "Ý nghĩa: Sau một quá trình dài trăn trở, nỗ lực thì đi đến kết cục (thường là kết quả tốt hoặc một quyết định).\nCấu trúc: V-ta / N-no + 末に",
+              "back": "Ý nghĩa: Sau một quá trình dài trăn trở, nỗ lực thì đi đến kết cục (thường là kết quả tốt hoặc một quyết định).\nCấu trúc: Vた / N-no + 末に\n* Giải thích thêm: Sau một khoảng thời gian dài, sau nhiều chuyện, rốt cuộc cũng mang lại kết quả\n Cách dùng: Đi với câu mang ý nghĩa một trạng thái không ổn kéo dài. Vế sau đưa ra kết quả hoặc một quyết định",
               "romaji": "sue ni",
-              "example": "悩んだ末に、手術を受けようと決めた。\nSau một hồi trăn trở đắn đo, tôi đã quyết định sẽ phẫu thuật.\n\n激しいバトルの末に、我がチームが優勝を勝ち取った。\nSau một trận chiến gay cấn, đội chúng tôi cuối cùng đã giành được chức vô địch.\n\n長い話し合いの末に、やっと契約を結んだ。\nSau cuộc thảo luận dài, cuối cùng chúng tôi đã ký hợp đồng.\n\n検討した末に、今回は見送ることにした。\nSau khi xem xét kỹ, chúng tôi quyết định hoãn lại lần này.",
+              "example": "悩んだ末に、手術を受けようと決めた。\nSau một hồi trăn trở đắn đo, tôi đã quyết định sẽ phẫu thuật.\n\n激しいバトルの末に、我がチームが優勝を勝ち取った。\nSau một trận chiến gay cấn, đội chúng tôi cuối cùng đã giành được chức vô địch.\n\n長い話し合いの末に、やっと契約を結んだ。\nSau cuộc thảo luận dài, cuối cùng chúng tôi đã ký hợp đồng.\n\n検討した末に、今回は見送ることにした。\nSau khi xem xét kỹ, chúng tôi quyết định hoãn lại lần này.\n\n長い戦いの末",
               "jlptLevel": 2
             },
             {
               "front": "〜ところだった",
-              "back": "Ý nghĩa: Suýt chút nữa thì một sự việc (thường là xấu) đã xảy ra.\nCấu trúc: V-ru + ところだった",
+              "back": "Ý nghĩa: Suýt chút nữa thì một sự việc (thường là xấu) đã xảy ra.\nCấu trúc: Vる + ところだった\n* Giải thích thêm: Suýt nữa, chỉ một chút trước khi một trạng thái xảy ra. Nhưng thực tế không xảy ra như vậy\n Cách dùng: Đi kèm với những phó từ nhưうっかり, 危うく, thường đi với câu thể hiện một trạng thái xấu suýt xảy ra. Riêng khi đi kèm vớiのに cũng có thể là suýt đạt được kết quả tốt. Khó dùng khi muốn nói về hiện tượng tự nhiên, hay sự việc không thể tránh khỏi.",
               "romaji": "tokoro datta",
               "example": "うっかり約束を忘れるところだった。\nSuýt chút nữa là tôi quên béng mất cuộc hẹn rồi.\n\nもう少しで車にひかれるところだった。\nChỉ một chút nữa thôi là tôi đã bị xe tông trúng rồi.\n\nあやうく転ぶところだった。\nSuýt chút nữa là tôi ngã rồi.\n\n危うく合格点に届かないところだった。\nSuýt chút nữa là không đủ điểm đậu rồi.",
               "jlptLevel": 2
             },
             {
-              "front": "〜ずじまいだ",
-              "back": "Ý nghĩa: Định làm nhưng rốt cuộc đã không thể thực hiện, tiếc nuối.\nCấu trúc: V-nai (bỏ nai) + ずじまいだ (する -> せずじまいだ)",
+              "front": "〜ずじまいだ / ず　じまい　（ず　仕舞い）",
+              "back": "Ý nghĩa: Định làm nhưng rốt cuộc đã không thể thực hiện, tiếc nuối.\nCấu trúc: Vない (bỏ nai) + ずじまいだ (する -> せずじまいだ)\n* Giải thích thêm: Định làm gì mà kết cục không làm được\n Cách dùng: Toàn thể câu mang cảm giác tiếc vì lỡ mất thời gian. Thường hay dùng với thể quá khứ. Không dùng với trường hợp vẫn còn cơ hội làm lại lần nữa",
               "romaji": "zujimai da",
-              "example": "連絡先はわからずじまいだった。\nRốt cuộc tôi vẫn không thể biết được địa chỉ liên lạc của người đó.\n\n留学中に富士山に登りたかったが、結局登らずじまいで帰国した。\nTôi rất muốn leo núi Phú Sĩ trong thời gian đi du học, nhưng cuối cùng đành về nước mà chưa leo được lần nào.\n\n結局、彼に会わずじまいだった。\nCuối cùng, tôi vẫn không thể gặp được anh ấy.\n\nその本は買わずじまいで、図書館で借りた。\nTôi không mua cuốn sách đó mà cuối cùng đã mượn ở thư viện.",
+              "example": "連絡先はわからずじまいだった。\nRốt cuộc tôi vẫn không thể biết được địa chỉ liên lạc của người đó.\n\n留学中に富士山に登りたかったが、結局登らずじまいで帰国した。\nTôi rất muốn leo núi Phú Sĩ trong thời gian đi du học, nhưng cuối cùng đành về nước mà chưa leo được lần nào.\n\n結局、彼に会わずじまいだった。\nCuối cùng, tôi vẫn không thể gặp được anh ấy.\n\nその本は買わずじまいで、図書館で借りた。\nTôi không mua cuốn sách đó mà cuối cùng đã mượn ở thư viện.\n\n忙しくてどこへも行かずじまいで帰国した。",
               "jlptLevel": 2
             }
           ]
@@ -1282,9 +1296,9 @@
   },
   {
     "order": 21,
-    "title": "Bài 21: Mức độ (〜ぐらい・〜くらい, 〜など・〜なんて・〜なんか, 〜まで・〜までして, 〜として〜ない, 〜さえ, 〜てでも)",
+    "title": "Bài 21: 〜ぐらい・〜など・〜まで...",
     "summary": "Các cấu trúc chỉ mức độ: 〜ぐらい・〜くらい, 〜など・〜なんて・〜なんか, 〜まで・〜までして, 〜として〜ない, 〜さえ, 〜てでも",
-    "theoryMd": "# Bài 21: Mức độ\n\n### 1. 〜ぐらい・〜くらい\n#### 💡 Cấu trúc & Ý nghĩa\n- N / V-ru + ぐらい・くらい\n- Ý nghĩa: Mức độ tối thiểu, hoặc ước lượng.\n#### 📝 Ví dụ minh họa\n- うちに帰ってきたら、自分の靴ぐらいちゃんと並べなさい。（Sau khi về, ít nhất hãy xếp giày gọn gàng）\n\n### 2. 〜など・〜なんて・〜なんか\n#### 💡 Cấu trúc & Ý nghĩa\n- N / Thể thường + など・なんて・なんか\n- Ý nghĩa: Coi nhẹ, hạ thấp đối tượng.\n#### 📝 Ví dụ minh họa\n- 私なんかまだまだ勉強が足りません。（Cỡ như tôi thì vẫn chưa đủ trình độ）\n\n### 3. 〜まで・〜までして・〜てまで\n#### 💡 Cấu trúc & Ý nghĩa\n- N/V-te + まで / までして\n- Ý nghĩa: Đến mức cực đoan.\n#### 📝 Ví dụ minh họa\n- 借金をしてまで高い車を買う必要はない。（Không cần phải vay nợ để mua xe sang）\n\n### 4. 〜として〜ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Số từ + として + V-nai\n- Ý nghĩa: Phủ định hoàn toàn.\n#### 📝 Ví dụ minh họa\n- 人生に無駄なものは何一つとしてない。（Không có gì là vô nghĩa cả）\n\n### 5. 〜さえ\n#### 💡 Cấu trúc & Ý nghĩa\n- N/V-te + さえ\n- Ý nghĩa: Ngay cả, đến cả.\n#### 📝 Ví dụ minh họa\n- ひらがなさえ読めなかった。（Ngay cả Hiragana cũng không đọc được）\n\n### 6. 〜てでも\n#### 💡 Cấu trúc & Ý nghĩa\n- V-te + でも\n- Ý nghĩa: Dù có phải làm gì đó (cực đoan).\n#### 📝 Ví dụ minh họa\n- 薬を飲んででも行く。（Dù có phải uống thuốc cũng sẽ đi）",
+    "theoryMd": "# Bài 21: Mức độ\n\n### 1. 〜ぐらい・〜くらい\n#### 💡 Cấu trúc & Ý nghĩa\n- N / Vる + ぐらい・くらい\n- Ý nghĩa: Mức độ tối thiểu, hoặc ước lượng.\n#### 📝 Ví dụ minh họa\n- うちに帰ってきたら、自分の靴ぐらいちゃんと並べなさい。（Sau khi về, ít nhất hãy xếp giày gọn gàng）\n\n### 2. 〜など・〜なんて・〜なんか\n#### 💡 Cấu trúc & Ý nghĩa\n- N / Thể thường + など・なんて・なんか\n- Ý nghĩa: Coi nhẹ, hạ thấp đối tượng.\n#### 📝 Ví dụ minh họa\n- 私なんかまだまだ勉強が足りません。（Cỡ như tôi thì vẫn chưa đủ trình độ）\n\n### 3. 〜まで・〜までして・〜てまで\n#### 💡 Cấu trúc & Ý nghĩa\n- N/Vて + まで / までして\n- Ý nghĩa: Đến mức cực đoan.\n#### 📝 Ví dụ minh họa\n- 借金をしてまで高い車を買う必要はない。（Không cần phải vay nợ để mua xe sang）\n\n### 4. 〜として〜ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Số từ + として + Vない\n- Ý nghĩa: Phủ định hoàn toàn.\n#### 📝 Ví dụ minh họa\n- 人生に無駄なものは何一つとしてない。（Không có gì là vô nghĩa cả）\n\n### 5. 〜さえ\n#### 💡 Cấu trúc & Ý nghĩa\n- N/Vて + さえ\n- Ý nghĩa: Ngay cả, đến cả.\n#### 📝 Ví dụ minh họa\n- ひらがなさえ読めなかった。（Ngay cả Hiragana cũng không đọc được）\n\n### 6. 〜てでも\n#### 💡 Cấu trúc & Ý nghĩa\n- Vて + でも\n- Ý nghĩa: Dù có phải làm gì đó (cực đoan).\n#### 📝 Ví dụ minh họa\n- 薬を飲んででも行く。（Dù có phải uống thuốc cũng sẽ đi）",
     "skills": [
       "GRAMMAR"
     ],
@@ -1294,14 +1308,14 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 21 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 21: Mức độ (〜ぐらい・〜くらい, 〜など・〜なんて・〜なんか, 〜まで・〜までして, 〜として〜ない, 〜さえ, 〜てでも)",
+          "name": "Shinkanzen N2 — Bài 21: 〜ぐらい・〜など・〜まで...",
+          "description": "Chủ đề: Mức độ",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜ぐらい・〜くらい",
-              "back": "Ý nghĩa: Thể hiện mức độ thấp nhất, tối thiểu hoặc dùng để ước lượng.\nCấu trúc: N / V-ru + ぐらい・くらい",
+              "back": "Ý nghĩa: Thể hiện mức độ thấp nhất, tối thiểu hoặc dùng để ước lượng.\nCấu trúc: N / Vる + ぐらい・くらい",
               "romaji": "gurai / kurai",
               "example": "うちに帰ってきたら、自分の靴ぐらいちゃんと並べなさい。\nSau khi trở về nhà, ít nhất thì hãy xếp giày của mình gọn gàng đi.\n\nひらがなぐらいなら、３日あれば覚えられます。\nNếu chỉ là Hiragana thì chỉ cần 3 ngày là có thể nhớ được.\n\nこのかばん、いくらぐらいだと思いますか。\nBạn nghĩ chiếc cặp này giá khoảng bao nhiêu?\n\n死ぬほど忙しい。\nBận đến mức muốn chết.",
               "jlptLevel": 2
@@ -1315,28 +1329,28 @@
             },
             {
               "front": "〜まで・〜までして・〜てまで",
-              "back": "Ý nghĩa: Làm việc gì đó đến mức cực đoan, quá mức bình thường.\nCấu trúc: N + まで / V-te + まで / V-te + までして",
+              "back": "Ý nghĩa: Làm việc gì đó đến mức cực đoan, quá mức bình thường.\nCấu trúc: N + まで / Vて + まで / Vて + までして\n* Giải thích thêm: Thể hiện mức độ cao nhất, đến mức.\n Cách dùng: Đi với những từ đưa ra ví dụ, với mức độ cao nhất. Khi dùng 〜までして,〜てまで, câu chứa hàm ý bất ngờ của người nói. Toàn câu thể hiện thái độ bất ngờ, nghi vấn hoặc trách mắng.",
               "romaji": "made / made shite / te made",
-              "example": "カンニングまでしていい点を取りたかったのですか。\nCậu muốn có điểm cao đến mức gian lận ư?\n\n借金をしてまで高い車を買う必要はない。\nKhông cần thiết phải mua xe đắt tiền đến mức đi vay nợ đâu.\n\n親に嘘をついてまで遊びに行きたくない。\nTôi không muốn đi chơi đến mức phải nói dối bố mẹ.\n\nストライキをしてまで要求を通そうとしている。\nHọ đang cố gắng đạt được yêu cầu đến mức đình công.",
+              "example": "カンニングまでしていい点を取りたかったのですか。\nCậu muốn có điểm cao đến mức gian lận ư?\n\n借金をしてまで高い車を買う必要はない。\nKhông cần thiết phải mua xe đắt tiền đến mức đi vay nợ đâu.\n\n親に嘘をついてまで遊びに行きたくない。\nTôi không muốn đi chơi đến mức phải nói dối bố mẹ.\n\nストライキをしてまで要求を通そうとしている。\nHọ đang cố gắng đạt được yêu cầu đến mức đình công.\n\n一番に賛成してくれると思っていた母まで",
               "jlptLevel": 2
             },
             {
               "front": "〜として〜ない",
-              "back": "Ý nghĩa: Phủ định hoàn toàn, không có lấy một đơn vị nhỏ nhất nào.\nCấu trúc: Số từ + として + V-nai",
+              "back": "Ý nghĩa: Phủ định hoàn toàn, không có lấy một đơn vị nhỏ nhất nào.\nCấu trúc: Số từ + として + Vない\n* Giải thích thêm: Phủ định “Đến mức thấp nhất cũng không có”\n Cách dùng: Đi với trợ từ chỉ số ở đơn vị thấp nhất. Vế phía sau là câu phủ định",
               "romaji": "toshite-nai",
-              "example": "人生に無駄なものは何一つとしてない。\nTrên đời không có điều gì là vô nghĩa hết.\n\n彼を忘れた日は一日としてない。\nKhông có một ngày nào tôi quên được anh ấy.\n\nこの辺りには、レストランは一軒としてない。\nỞ khu vực này, không có lấy một nhà hàng nào.\n\n彼が失敗した理由は一つとして説明されていない。\nKhông có một lý do nào được giải thích cho thất bại của anh ta.",
+              "example": "人生に無駄なものは何一つとしてない。\nTrên đời không có điều gì là vô nghĩa hết.\n\n彼を忘れた日は一日としてない。\nKhông có một ngày nào tôi quên được anh ấy.\n\nこの辺りには、レストランは一軒としてない。\nỞ khu vực này, không có lấy một nhà hàng nào.\n\n彼が失敗した理由は一つとして説明されていない。\nKhông có một lý do nào được giải thích cho thất bại của anh ta.\n\n一度もとして練習を休んだことはない。",
               "jlptLevel": 2
             },
             {
               "front": "〜さえ",
-              "back": "Ý nghĩa: Nhấn mạnh sự ngạc nhiên về một ví dụ cực đoan (ngay cả, đến cả).\nCấu trúc: N + (trợ từ) + さえ / V-te + さえ",
+              "back": "Ý nghĩa: Nhấn mạnh sự ngạc nhiên về một ví dụ cực đoan (ngay cả, đến cả).\nCấu trúc: N + (trợ từ) + さえ / Vて + さえ\n* Giải thích thêm: ① Đưa ra ví dụ là mức độ thấp nhất, nên những ví dụ khác là đương nhiên\n② Chỉ cần một điều kiện thỏa mãn, những điều khác không còn là vấn đề",
               "romaji": "sae",
-              "example": "日本に来たばかりのときは、ひらがなさえ読めなかった。\nKhi vừa đến Nhật Bản, ngay cả Hiragana tôi cũng không đọc được.\n\nその問題は専門家でさえ答えられなかった。\nCâu hỏi đó ngay cả chuyên gia cũng không trả lời được.\n\n忙しくて、食事をする時間さえ取れない。\nBận đến mức ngay cả thời gian ăn cơm cũng không có.\n\n彼さえ来てくれれば、なんとかなる。\nChỉ cần anh ấy đến, mọi việc sẽ ổn thôi.",
+              "example": "日本に来たばかりのときは、ひらがなさえ読めなかった。\nKhi vừa đến Nhật Bản, ngay cả Hiragana tôi cũng không đọc được.\n\nその問題は専門家でさえ答えられなかった。\nCâu hỏi đó ngay cả chuyên gia cũng không trả lời được.\n\n忙しくて、食事をする時間さえ取れない。\nBận đến mức ngay cả thời gian ăn cơm cũng không có.\n\n彼さえ来てくれれば、なんとかなる。\nChỉ cần anh ấy đến, mọi việc sẽ ổn thôi.\n\n年をとっても体さえ丈夫なら",
               "jlptLevel": 2
             },
             {
               "front": "〜てでも",
-              "back": "Ý nghĩa: Dù có phải thực hiện hành động vất vả, cực đoan cũng quyết tâm làm.\nCấu trúc: V-te + でも",
+              "back": "Ý nghĩa: Dù có phải thực hiện hành động vất vả, cực đoan cũng quyết tâm làm.\nCấu trúc: Vて + でも\n* Giải thích thêm: Phải dùng tới cách bình thường sẽ không làm\nCách dùng: Đi kèm với những động từ biểu hiện cách, phương pháp cùng cực nhất. Vế phía sau là ý chí, nguyện vọng người nói.",
               "romaji": "te demo",
               "example": "２倍の金額を払ってでもそのコンサートのチケットがほしい。\nDù có phải trả tiền gấp 2 lần tôi cũng muốn có được vé concert đó.\n\n熱があるが、薬を飲んででも行く。\nTôi bị sốt nhưng dù có phải uống thuốc tôi cũng sẽ đi.\n\n無理をしてでも終わらせるつもりだ。\nDù có phải cố quá sức tôi cũng định làm cho xong.\n\n嘘をついてでも彼を助けたい。\nDù có phải nói dối, tôi vẫn muốn cứu anh ấy.",
               "jlptLevel": 2
@@ -1352,9 +1366,9 @@
   },
   {
     "order": 22,
-    "title": "Bài 22: Phán đoán (〜とみえる, 〜かねない, 〜おそれがある, 〜に違いない・に相違ない, 〜にきまっている)",
+    "title": "Bài 22: 〜とみえる・〜かねない・〜おそれがある...",
     "summary": "Các cấu trúc phán đoán: 〜とみえる, 〜かねない, 〜おそれがある, 〜に違いない・に相違ない, 〜にきまっている",
-    "theoryMd": "# Bài 22: Phán đoán\n\n### 1. 〜とみえる\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường + とみえる\n- Ý nghĩa: Phán đoán dựa trên chứng cứ.\n#### 📝 Ví dụ minh họa\n- ずいぶん暇だとみえる。（Trông có vẻ khá là rảnh）\n\n### 2. 〜かねない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-masu + かねない\n- Ý nghĩa: Có khả năng xảy ra kết quả xấu.\n#### 📝 Ví dụ minh họa\n- 大事故を起こしかねない。（E rằng sẽ gây tai nạn lớn）\n\n### 3. 〜おそれがある\n#### 💡 Cấu trúc & Ý nghĩa\n- Nの / V-ru + おそれがある\n- Ý nghĩa: Nguy cơ xảy ra chuyện xấu.\n#### 📝 Ví dụ minh họa\n- 大雨のおそれがあります。（Có nguy cơ mưa lớn）\n\n### 4. 〜に違いない・に相違ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường (A-na/N bỏ da) + に違いない\n- Ý nghĩa: Chắc chắn là.\n#### 📝 Ví dụ minh họa\n- 彼も慣れたに違いない。（Chắc chắn anh ấy đã quen）\n\n### 5. 〜にきまっている\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường + にきまっている\n- Ý nghĩa: Chắc chắn (chủ quan).\n#### 📝 Ví dụ minh họa\n- 体に悪いにきまっています。（Chắc chắn là có hại cho sức khỏe）",
+    "theoryMd": "# Bài 22: Phán đoán\n\n### 1. 〜とみえる\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường + とみえる\n- Ý nghĩa: Phán đoán dựa trên chứng cứ.\n#### 📝 Ví dụ minh họa\n- ずいぶん暇だとみえる。（Trông có vẻ khá là rảnh）\n\n### 2. 〜かねない\n#### 💡 Cấu trúc & Ý nghĩa\n- Vます + かねない\n- Ý nghĩa: Có khả năng xảy ra kết quả xấu.\n#### 📝 Ví dụ minh họa\n- 大事故を起こしかねない。（E rằng sẽ gây tai nạn lớn）\n\n### 3. 〜おそれがある\n#### 💡 Cấu trúc & Ý nghĩa\n- Nの / Vる + おそれがある\n- Ý nghĩa: Nguy cơ xảy ra chuyện xấu.\n#### 📝 Ví dụ minh họa\n- 大雨のおそれがあります。（Có nguy cơ mưa lớn）\n\n### 4. 〜に違いない・に相違ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường (A-na/N bỏ da) + に違いない\n- Ý nghĩa: Chắc chắn là.\n#### 📝 Ví dụ minh họa\n- 彼も慣れたに違いない。（Chắc chắn anh ấy đã quen）\n\n### 5. 〜にきまっている\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường + にきまっている\n- Ý nghĩa: Chắc chắn (chủ quan).\n#### 📝 Ví dụ minh họa\n- 体に悪いにきまっています。（Chắc chắn là có hại cho sức khỏe）",
     "skills": [
       "GRAMMAR"
     ],
@@ -1364,42 +1378,42 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 22 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 22: Phán đoán (〜とみえる, 〜かねない, 〜おそれがある, 〜に違いない・に相違ない, 〜にきまっている)",
+          "name": "Shinkanzen N2 — Bài 22: 〜とみえる・〜かねない・〜おそれがある...",
+          "description": "Chủ đề: Phán đoán",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜とみえる",
-              "back": "Ý nghĩa: Hình như là, có vẻ như là (phán đoán dựa trên quan sát).\nCấu trúc: Thể thông thường + とみえる",
+              "back": "Ý nghĩa: Hình như là, có vẻ như là (phán đoán dựa trên quan sát).\nCấu trúc: Thể thông thường + とみえる\n* Giải thích thêm: Dựa vào chứng cứ thấy được để suy đoán điều gì đó\n Cách dùng: Chủ yếu dùng khi nhìn vào tình hình, trạng thái của người khác để lấy đó làm chứng cứ suy đoán",
               "romaji": "to mieru",
               "example": "朝からパチンコに行くなんて、ずいぶん暇だとみえる。\nTừ sáng đã đi chơi pachinko, trông có vẻ khá là rảnh.\n\n彼女は何か良いことがあったとみえて、ずっとにこにこしている。\nCô ấy trông có vẻ như đã gặp chuyện gì vui, cứ cười suốt thôi.\n\n彼は疲れているとみえて、すぐ眠ってしまった。\nAnh ấy trông có vẻ mệt, nên đã ngủ thiếp đi ngay.\n\nこの地域は人が少ないとみえて、静かだ。\nKhu vực này có vẻ ít người nên rất yên tĩnh.",
               "jlptLevel": 2
             },
             {
               "front": "〜かねない",
-              "back": "Ý nghĩa: Có khả năng xảy ra kết quả xấu.\nCấu trúc: V-masu (bỏ masu) + かねない",
+              "back": "Ý nghĩa: Có khả năng xảy ra kết quả xấu.\nCấu trúc: Vます (bỏ masu) + かねない",
               "romaji": "kanenai",
               "example": "うわさはどんどん変な方向へ発展していきかねない。\nCó khả năng tin đồn sẽ phát triển theo chiều hướng xấu.\n\nそんなスピードを出すと、大事故を起こしかねない。\nChạy tốc độ như thế thì e rằng sẽ gây ra tai nạn lớn.\n\nこのままでは負けかねない。\nCứ đà này thì có khả năng sẽ thua đấy.\n\n誰にも言わないと言っても、漏らしかねない。\nDù bảo là không nói với ai, nhưng có khi lại làm lộ ra đấy.",
               "jlptLevel": 2
             },
             {
               "front": "〜おそれがある",
-              "back": "Ý nghĩa: E rằng có nguy cơ (dùng trong ngữ cảnh nghiêm trọng, tin tức).\nCấu trúc: N の / V-ru + おそれがある",
+              "back": "Ý nghĩa: E rằng có nguy cơ (dùng trong ngữ cảnh nghiêm trọng, tin tức).\nCấu trúc: N の / Vる + おそれがある\n* Giải thích thêm: E rằng, có khả năng có chuyện xấu xảy ra\n Cách dùng: Sử dụng với ý nghĩa có thể có sự việc không tốt xảy ra. Thường sử dụng trên thời sự, khi trình bày, thuyết minh.",
               "romaji": "osore ga aru",
               "example": "今夜から明日にかけて東日本で大雨のおそれがあります。\nTừ đêm nay tới ngày mai, e rằng phía đông Nhật Bản sẽ có mưa lớn.\n\nこの病気は放置すると、悪化するおそれがあります。\nCăn bệnh này nếu bỏ mặc e rằng có nguy cơ trở nên trầm trọng.\n\n倒壊のおそれがあるため、立ち入り禁止です。\nVì có nguy cơ sập đổ nên cấm vào.\n\n被害が拡大するおそれがある。\nCó nguy cơ thiệt hại sẽ lan rộng.",
               "jlptLevel": 2
             },
             {
               "front": "〜に違いない・に相違ない",
-              "back": "Ý nghĩa: Chắc chắn là, không sai vào đâu được (phán đoán mạnh mẽ).\nCấu trúc: Thể thông thường (A-na/N bỏ da) + に違いない・に相違ない",
+              "back": "Ý nghĩa: Chắc chắn là, không sai vào đâu được (phán đoán mạnh mẽ).\nCấu trúc: Thể thông thường (A-na/N bỏ da) + に違いない・に相違ない\n* Giải thích thêm: Từ chúng cứ có được để phán đoán chắc chắn. に相違ない là cách nói cứng hơn so với に違いない\n Cách dùng: Đứng ở cuối câu, liền ngay trước đó là điều được phán đoán. Có trường hợp có thể đi liền trước đó là thể thông thường + から",
               "romaji": "ni chigainai / ni souinai",
-              "example": "日本に１年住んでいるのだから、彼も慣れたに違いない。\nĐã sống ở Nhật 1 năm, anh ấy chắc hẳn đã quen rồi.\n\n犯人はこのの中にいるに相違ない。\nThủ phạm chắc chắn ở trong số những người này.\n\n鍵を忘れたに違いない。\nChắc chắn là đã quên chìa khóa rồi.\n\n彼は真実を知っているに相違ない。\nAnh ta chắc chắn biết sự thật.",
+              "example": "日本に１年住んでいるのだから、彼も慣れたに違いない。\nĐã sống ở Nhật 1 năm, anh ấy chắc hẳn đã quen rồi.\n\n犯人はこのの中にいるに相違ない。\nThủ phạm chắc chắn ở trong số những người này.\n\n鍵を忘れたに違いない。\nChắc chắn là đã quên chìa khóa rồi.\n\n彼は真実を知っているに相違ない。\nAnh ta chắc chắn biết sự thật.\n\n生活に慣れたに違いない",
               "jlptLevel": 2
             },
             {
               "front": "〜にきまっている",
-              "back": "Ý nghĩa: Chắc chắn là (phán đoán chủ quan, tự tin của người nói).\nCấu trúc: Thể thông thường (A-na/N bỏ da) + にきまっている",
+              "back": "Ý nghĩa: Chắc chắn là (phán đoán chủ quan, tự tin của người nói).\nCấu trúc: Thể thông thường (A-na/N bỏ da) + にきまっている\n* Giải thích thêm: Nêu phán đoán chủ quan chắc chắn.\n Cách dùng: Khác với に違いない là dựa vào chứng cứ để phán đoán, にきまっている là cách nói mang tính chủ quan, trực cảm, mang ý là dù là ai cũng sẽ nghĩ vậy",
               "romaji": "ni kimatte iru",
               "example": "こんな派手な色のお菓子、体に悪いにきまっています。\nThứ bánh kẹo màu sặc sỡ này, chắc chắn có hại cho sức khỏe.\n\n今日言ったって、無理だと言われるにきまっている。\nHôm nay mới nói thì chắc chắn sẽ bị bảo là không thể làm được.\n\nそんなのは嘘にきまっている。\nĐiều đó chắc chắn là nói dối.\n\n勝つにきまっている。\nChắc chắn là sẽ thắng.",
               "jlptLevel": 2
@@ -1415,9 +1429,9 @@
   },
   {
     "order": 23,
-    "title": "Bài 23: Lẽ thường / Giới hạn (〜ものだ, 〜というものだ, 〜にすぎない, 〜にほかならない, 〜に越したことはない)",
+    "title": "Bài 23: 〜ものだ・〜というものだ・〜にすぎない...",
     "summary": "Các cấu trúc khẳng định lẽ thường hoặc giới hạn: 〜ものだ, 〜というものだ, 〜にすぎない, 〜にほかならない, 〜に越したことはない",
-    "theoryMd": "# Bài 23: Lẽ thường / Giới hạn\n\n### 1. 〜ものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru/A-i/A-na + ものだ\n- Ý nghĩa: Lẽ thường, chân lý.\n#### 📝 Ví dụ minh họa\n- どんな人にもくせがあるものだ。（Ai cũng có thói xấu）\n\n### 2. 〜というものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- N/Thể thường + というものだ\n- Ý nghĩa: Khẳng định tính hiển nhiên.\n#### 📝 Ví dụ minh họa\n- プライバシーの侵害というものだ。（Đúng là xâm phạm đời tư）\n\n### 3. 〜にすぎない\n#### 💡 Cấu trúc & Ý nghĩa\n- N/V-ru + にすぎない\n- Ý nghĩa: Chỉ là, không hơn.\n#### 📝 Ví dụ minh họa\n- ただの噂話にすぎない。（Chỉ là tin đồn nhảm）\n\n### 4. 〜にほかならない\n#### 💡 Cấu trúc & Ý nghĩa\n- N + にほかならない\n- Ý nghĩa: Chính là (nhấn mạnh lý do).\n#### 📝 Ví dụ minh họa\n- 本人の努力の結果にほかならない。（Chính là kết quả của nỗ lực）\n\n### 5. 〜に越したことはない\n#### 💡 Cấu trúc & Ý nghĩa\n- V/A/N + に越したことはない\n- Ý nghĩa: Là tốt nhất.\n#### 📝 Ví dụ minh họa\n- 軽いに越したことはない。（Nhẹ là tốt nhất）",
+    "theoryMd": "# Bài 23: Lẽ thường / Giới hạn\n\n### 1. 〜ものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- Vる/A-i/A-na + ものだ\n- Ý nghĩa: Lẽ thường, chân lý.\n#### 📝 Ví dụ minh họa\n- どんな人にもくせがあるものだ。（Ai cũng có thói xấu）\n\n### 2. 〜というものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- N/Thể thường + というものだ\n- Ý nghĩa: Khẳng định tính hiển nhiên.\n#### 📝 Ví dụ minh họa\n- プライバシーの侵害というものだ。（Đúng là xâm phạm đời tư）\n\n### 3. 〜にすぎない\n#### 💡 Cấu trúc & Ý nghĩa\n- N/Vる + にすぎない\n- Ý nghĩa: Chỉ là, không hơn.\n#### 📝 Ví dụ minh họa\n- ただの噂話にすぎない。（Chỉ là tin đồn nhảm）\n\n### 4. 〜にほかならない\n#### 💡 Cấu trúc & Ý nghĩa\n- N + にほかならない\n- Ý nghĩa: Chính là (nhấn mạnh lý do).\n#### 📝 Ví dụ minh họa\n- 本人の努力の結果にほかならない。（Chính là kết quả của nỗ lực）\n\n### 5. 〜に越したことはない\n#### 💡 Cấu trúc & Ý nghĩa\n- V/A/N + に越したことはない\n- Ý nghĩa: Là tốt nhất.\n#### 📝 Ví dụ minh họa\n- 軽いに越したことはない。（Nhẹ là tốt nhất）",
     "skills": [
       "GRAMMAR"
     ],
@@ -1427,42 +1441,42 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 23 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 23: Lẽ thường / Giới hạn (〜ものだ, 〜というものだ, 〜にすぎない, 〜にほかならない, 〜に越したことはない)",
+          "name": "Shinkanzen N2 — Bài 23: 〜ものだ・〜というものだ・〜にすぎない...",
+          "description": "Chủ đề: Lẽ thường / Giới hạn",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜ものだ",
-              "back": "Ý nghĩa: Lẽ thường tình, chân lý, bản chất sự việc.\nCấu trúc: V-ru / V-nai / A-i / A-na + ものだ",
+              "back": "Ý nghĩa: Lẽ thường tình, chân lý, bản chất sự việc.\nCấu trúc: Vる / Vない / A-i / A-na + ものだ\n* Giải thích thêm: Đưa ra một chân lí, sự thật, lẽ thường\nCách dùng: Không sử dụng với dạng quá khứ. Chủ ngữ không phải là người cá biệt, mà là một tập thể, tập hợp",
               "romaji": "mono da",
               "example": "自分では気が付きにくいが、どんな人にもくせがあるものだ。\nDù bản thân khó nhận ra, nhưng ai cũng có thói xấu.\n\n子どもは元気に外で遊ぶものだ。\nTrẻ con thì nên chơi đùa khỏe mạnh ở bên ngoài.\n\n地震のときは怖いものだ。\nKhi có động đất thì đương nhiên là sợ rồi.\n\n昔はよくここへ遊びに来たものだ。\nNgày xưa tôi thường hay đến đây chơi (nhớ về quá khứ).",
               "jlptLevel": 2
             },
             {
               "front": "〜というものだ",
-              "back": "Ý nghĩa: Nhấn mạnh ý kiến/phán đoán mang tính lẽ thường.\nCấu trúc: N / Thể thông thường + というものだ",
+              "back": "Ý nghĩa: Nhấn mạnh ý kiến/phán đoán mang tính lẽ thường.\nCấu trúc: N / Thể thông thường + というものだ\n* Giải thích thêm: Theo lẽ thường thì đúng là…\nCách dùng: Dùng lẽ thường để đánh giá một sự việc trong hoàn cảnh xác định. Không dùng với từ thể hiện cảm xúc người nói.",
               "romaji": "to iu mono da",
               "example": "今日中にアメリカまで荷物を届けるのは無理というものだ。\nDù nói là giao hàng đến Mỹ trong ngày, nhưng đúng là không thể.\n\n他人の日記を勝手に見るのは、プライバシーの侵害というものだ。\nTự ý xem nhật ký người khác là xâm phạm đời tư.\n\nそれが努力というものだ。\nĐó mới gọi là nỗ lực.\n\n初対面でそんなことを聞くのは失礼というものだ。\nLần đầu gặp mà hỏi như vậy đúng là thất lễ.",
               "jlptLevel": 2
             },
             {
               "front": "〜にすぎない",
-              "back": "Ý nghĩa: Chẳng qua chỉ là, không hơn mức đó.\nCấu trúc: N / V-ru + にすぎない",
+              "back": "Ý nghĩa: Chẳng qua chỉ là, không hơn mức đó.\nCấu trúc: N / Vる + にすぎない\n* Giải thích thêm: Chỉ vậy, không quá\n Cách dùng: Dùng để nêu suy nghĩ của người nói về một sự vật sự việc rằng không phải trọng yếu, không phải đặc biệt, chỉ ít.",
               "romaji": "ni suginai",
               "example": "一社員にすぎない私に、経営のことなど決められない。\nTôi chỉ là một nhân viên, không thể quyết định chuyện công ty.\n\nこれはただの噂話にすぎないから、信じないほうがいい。\nĐây chỉ là tin đồn nhảm, đừng nên tin.\n\n彼のおかげではなく、運が良かったにすぎない。\nKhông phải nhờ anh ấy, chỉ là vận may thôi.\n\n言葉を知っているにすぎない。\nChỉ là biết từ vựng thôi.",
               "jlptLevel": 2
             },
             {
               "front": "〜にほかならない",
-              "back": "Ý nghĩa: Chính là..., lý do chính xác là (không gì khác ngoài).\nCấu trúc: N + にほかならない",
+              "back": "Ý nghĩa: Chính là..., lý do chính xác là (không gì khác ngoài).\nCấu trúc: N + にほかならない\n* Giải thích thêm: Chính là. Không phải gì khác\n Cách dùng: Là cách nói thể hiện phán đoán mang tính kết luận của người nói.",
               "romaji": "ni hokanaranai",
-              "example": "将来この国を支えるのは、若い君たちにほかならない。\nNgười hỗ trợ đất nước trong tương lai chính là các bạn trẻ.\n\n合格できたのは、本人の努力の結果にほかならない。\nĐỗ được là kết quả của sự nỗ lực chứ không gì khác.\n\nそれは愛情にほかならない。\nĐó chính là tình yêu.\n\n彼が怒っているのは、心配していることにほかならない。\nAnh ấy giận là vì anh ấy lo lắng thôi.",
+              "example": "将来この国を支えるのは、若い君たちにほかならない。\nNgười hỗ trợ đất nước trong tương lai chính là các bạn trẻ.\n\n合格できたのは、本人の努力の結果にほかならない。\nĐỗ được là kết quả của sự nỗ lực chứ không gì khác.\n\nそれは愛情にほかならない。\nĐó chính là tình yêu.\n\n彼が怒っているのは、心配していることにほかならない。\nAnh ấy giận là vì anh ấy lo lắng thôi.\n\n人間も自然の一部にほかならない",
               "jlptLevel": 2
             },
             {
               "front": "〜に越したことはない",
-              "back": "Ý nghĩa: Nếu được như vậy thì là tốt nhất.\nCấu trúc: V-ru / V-nai / A-i / A-na(bỏ da) / N + に越したことはない",
+              "back": "Ý nghĩa: Nếu được như vậy thì là tốt nhất.\nCấu trúc: Vる / Vない / A-i / A-na(bỏ da) / N + に越したことはない\n* Giải thích thêm: Đưa ra một điều không nhất thiết phải có, nhưng nên như vậy\n Cách dùng: Đưa ra ý kiến chủ quan về một điều rằng có thể không đến mức bắt buộc, nhưng nếu có được như vậy thì tốt.",
               "romaji": "ni koshita koto wa nai",
               "example": "旅行の荷物は軽いに越したことはない。\nĐồ đi du lịch thì nhẹ là tốt nhất.\n\n早めに医者に診てもらうに越したことはない。\nNên đi khám bác sĩ sớm là tốt nhất.\n\nお金はあるに越したことはない。\nCó tiền thì vẫn là tốt nhất.\n\nタクシーで行くに越したことはないが、高いからね。\nĐi taxi là tốt nhất nhưng mà đắt lắm.",
               "jlptLevel": 2
@@ -1478,9 +1492,9 @@
   },
   {
     "order": 24,
-    "title": "Bài 24: Khuyên bảo / Phủ định ý định (〜しかない, 〜べきだ, 〜（よ）うではないか, 〜ことだ, 〜ものだ, 〜ことはない, 〜まい, 〜ものか)",
+    "title": "Bài 24: 〜うではないか・〜ことだ・〜ものだ...",
     "summary": "Các cấu trúc lời khuyên và phủ định ý chí: 〜しかない, 〜べきだ, 〜（よ）うではないか, 〜ことだ, 〜ものだ, 〜ことはない, 〜まい, 〜ものか",
-    "theoryMd": "# Bài 24: Khuyên bảo / Phủ định ý định\n\n### 1. 〜（よ）うではないか\n#### 💡 Cấu trúc & Ý nghĩa\n- V-vol + ではないか\n- Ý nghĩa: Kêu gọi trang trọng.\n#### 📝 Ví dụ minh họa\n- 考えてみようではないか。（Hãy cùng suy nghĩ đi）\n\n### 2. 〜ことだ\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru/nai + ことだ\n- Ý nghĩa: Lời khuyên cụ thể.\n#### 📝 Ví dụ minh họa\n- 食べないことです。（Không nên ăn）\n\n### 3. 〜ものだ / 〜ものではない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru + ものだ/ものではない\n- Ý nghĩa: Lời khuyên lẽ thường.\n#### 📝 Ví dụ minh họa\n- 大切にするものだ。（Nên trân trọng）\n\n### 4. 〜ことはない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru + ことはない\n- Ý nghĩa: Không cần thiết.\n#### 📝 Ví dụ minh họa\n- 気にすることはない。（Không cần bận tâm）\n\n### 5. 〜まい / 〜(よ)うか〜まいか\n#### 💡 Cấu trúc & Ý nghĩa\n- V-ru/masu + まい\n- Ý nghĩa: Quyết không làm / Phân vân.\n#### 📝 Ví dụ minh họa\n- 二度とするまい。（Quyết không làm lần hai）\n\n### 6. 〜ものか\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường + ものか\n- Ý nghĩa: Tuyệt đối không.\n#### 📝 Ví dụ minh họa\n- 負けるものか。（Đời nào chịu thua）",
+    "theoryMd": "# Bài 24: Khuyên bảo / Phủ định ý định\n\n### 1. 〜（よ）うではないか\n#### 💡 Cấu trúc & Ý nghĩa\n- V-vol + ではないか\n- Ý nghĩa: Kêu gọi trang trọng.\n#### 📝 Ví dụ minh họa\n- 考えてみようではないか。（Hãy cùng suy nghĩ đi）\n\n### 2. 〜ことだ\n#### 💡 Cấu trúc & Ý nghĩa\n- Vる/nai + ことだ\n- Ý nghĩa: Lời khuyên cụ thể.\n#### 📝 Ví dụ minh họa\n- 食べないことです。（Không nên ăn）\n\n### 3. 〜ものだ / 〜ものではない\n#### 💡 Cấu trúc & Ý nghĩa\n- Vる + ものだ/ものではない\n- Ý nghĩa: Lời khuyên lẽ thường.\n#### 📝 Ví dụ minh họa\n- 大切にするものだ。（Nên trân trọng）\n\n### 4. 〜ことはない\n#### 💡 Cấu trúc & Ý nghĩa\n- Vる + ことはない\n- Ý nghĩa: Không cần thiết.\n#### 📝 Ví dụ minh họa\n- 気にすることはない。（Không cần bận tâm）\n\n### 5. 〜まい / 〜(よ)うか〜まいか\n#### 💡 Cấu trúc & Ý nghĩa\n- Vる/masu + まい\n- Ý nghĩa: Quyết không làm / Phân vân.\n#### 📝 Ví dụ minh họa\n- 二度とするまい。（Quyết không làm lần hai）\n\n### 6. 〜ものか\n#### 💡 Cấu trúc & Ý nghĩa\n- Thể thường + ものか\n- Ý nghĩa: Tuyệt đối không.\n#### 📝 Ví dụ minh họa\n- 負けるものか。（Đời nào chịu thua）",
     "skills": [
       "GRAMMAR"
     ],
@@ -1490,51 +1504,65 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 24 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 24: Khuyên bảo / Phủ định ý định (〜しかない, 〜べきだ, 〜（よ）うではないか, 〜ことだ, 〜ものだ, 〜ことはない, 〜まい, 〜ものか)",
+          "name": "Shinkanzen N2 — Bài 24: 〜うではないか・〜ことだ・〜ものだ...",
+          "description": "Chủ đề: Khuyên bảo / Phủ định ý định",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜（よ）うではないか",
-              "back": "Ý nghĩa: Hãy cùng làm (kêu gọi mạnh mẽ, trang trọng).\nCấu trúc: V-volative (ý chí) + ではないか",
+              "back": "Ý nghĩa: Hãy cùng làm (kêu gọi mạnh mẽ, trang trọng).\nCấu trúc: V-volative (ý chí) + ではないか\n* Giải thích thêm: cách nói mạnh mẽ để mời gọi",
               "romaji": "you dewa nai ka",
               "example": "環境を守るために何ができるか、考えてみようではないか。\nChúng ta hãy cùng suy nghĩ xem có thể làm gì để bảo vệ môi trường.\n\nみんなで力を合わせて、この困難を乗り越えようではないか。\nTất cả hãy cùng hợp lực vượt qua khó khăn này.\n\n一度話し合おうではないか。\nChúng ta hãy cùng thảo luận đi.\n\n諦めずに頑張ろうではないか。\nChúng ta đừng từ bỏ mà cùng cố gắng đi.",
               "jlptLevel": 2
             },
             {
               "front": "〜ことだ",
-              "back": "Ý nghĩa: Lời khuyên nên làm hoặc không nên làm.\nCấu trúc: V-ru / V-nai + ことだ",
+              "back": "Ý nghĩa: Lời khuyên nên làm hoặc không nên làm.\nCấu trúc: Vる / Vない + ことだ\n* Giải thích thêm: Đưa ra lời khuyên, trong tình huống cụ thể\n Cách dùng: Không dùng dạng quá khứ, phủ định, nghi vấn. Đi với động từ thể hiện ý chí. Là cách nói đưa ra lời khuyên, lời cảnh báo nên không nên dùng với người vế trên",
               "romaji": "koto da",
               "example": "太りたくなければ、夜遅く食べないことです。\nNếu không muốn béo thì không nên ăn đêm.\n\n日本語が上手になりたければ、毎日話すことだ。\nNếu muốn giỏi tiếng Nhật thì nên nói mỗi ngày.\n\n忘れたければ、早く忘れることだ。\nNếu muốn quên thì nên quên sớm đi.\n\n無理をしないことだ。\nĐừng có cố quá.",
               "jlptLevel": 2
             },
             {
               "front": "〜ものだ / 〜ものではない",
-              "back": "Ý nghĩa: Lời khuyên mang tính đạo đức/lẽ thường.\nCấu trúc: V-ru + ものだ / V-ru + ものではない",
+              "back": "Ý nghĩa: Lời khuyên mang tính đạo đức/lẽ thường.\nCấu trúc: Vる + ものだ / Vる + ものではない\n* Giải thích thêm: Dùng cho những tri thức lẽ thường, chỉ chung chung mọi người",
               "romaji": "mono da / mono dewa nai",
               "example": "人との出会いは大切にするものだ。\nNên trân trọng các cuộc gặp gỡ.\n\n目上の人には、そんな乱暴な言葉を使うものではない。\nKhông được dùng lời lẽ thô lỗ với cấp trên.\n\n約束は守るものだ。\nLời hứa là phải giữ.\n\n人の悪口を言うものではない。\nKhông nên nói xấu người khác.",
               "jlptLevel": 2
             },
             {
               "front": "〜ことはない",
-              "back": "Ý nghĩa: Không cần thiết phải làm gì.\nCấu trúc: V-ru + ことはない",
+              "back": "Ý nghĩa: Không cần thiết phải làm gì.\nCấu trúc: Vる + ことはない\n* Giải thích thêm: Đưa ra phán đoán của người nói. Không dùng ở dạng câu hỏi. Hầu như không dùng nói về bản thân người nói.",
               "romaji": "koto wa nai",
               "example": "彼の言葉など気にすることはないよ。\nKhông cần phải bận tâm lời anh ta nói đâu.\n\n時間はたっぷりあるから、そんなに急ぐことはない。\nThời gian còn nhiều nên không cần phải vội.\n\n謝ることはない。\nKhông cần phải xin lỗi đâu.\n\nわざわざ来ることはない。\nKhông cần phải cất công đến đâu.",
               "jlptLevel": 2
             },
             {
-              "front": "〜まい / 〜(よ)うか〜まいか",
-              "back": "Ý nghĩa: Quyết không làm / Phân vân có nên làm hay không.\nCấu trúc: V-ru (nhóm 1) / V-masu (bỏ masu, nhóm 2,3) + まい",
+              "front": "〜まい / 〜(よ)うか〜まいか / ～まい / ～ではあるまいか / 〜(よ）うか〜まいか",
+              "back": "Ý nghĩa: Quyết không làm / Phân vân có nên làm hay không.\nCấu trúc: Vる (nhóm 1) / Vます (bỏ masu, nhóm 2,3) + まい\n* Giải thích thêm: Nêu phán đoán chủ quan \n Cách dùng:Nói bóng gió về cách suy nghĩ của bản thân, mang hàm ý chê trách, chế giễu.\n* Giải thích thêm: Trong trường hợpまい không mang ý chí người nói, cần có thêm〜と思っているようだ hay 〜としている. Khi đi kèm với những từ này thì thể hiện ý suy luận của người nói.",
               "romaji": "mai / you ka mai ka",
-              "example": "こんなばかな失敗は二度とするまい。\nTôi quyết không mắc sai lầm ngớ ngẩn này lần nữa.\n\n本当のことを話そうか話すまいか、一晩中悩んだ。\nCó nên nói sự thật hay không, tôi đã trăn trở cả đêm.\n\n彼は来るまい。\nChắc anh ta không đến đâu.\n\n二度と行くまいと誓った。\nTôi thề sẽ không bao giờ đến đó nữa.",
+              "example": "こんなばかな失敗は二度とするまい。\nTôi quyết không mắc sai lầm ngớ ngẩn này lần nữa.\n\n本当のことを話そうか話すまいか、一晩中悩んだ。\nCó nên nói sự thật hay không, tôi đã trăn trở cả đêm.\n\n彼は来るまい。\nChắc anh ta không đến đâu.\n\n二度と行くまいと誓った。\nTôi thề sẽ không bao giờ đến đó nữa.\n\n買おうか買うまいか決心がつかない。",
               "jlptLevel": 2
             },
             {
-              "front": "〜ものか",
-              "back": "Ý nghĩa: Tuyệt đối không (phủ định mạnh mẽ).\nCấu trúc: V-ru / A-i / A-na / N + ものか",
+              "front": "〜ものか / 〜もんか",
+              "back": "Ý nghĩa: Tuyệt đối không (phủ định mạnh mẽ).\nCấu trúc: Vる / A-i / A-na / N + ものか\n* Giải thích thêm: Là cách nói mang cảm tính người nói, nhấn mạnh ý phủ định.",
               "romaji": "mono ka",
               "example": "あんな無責任な人とはもう一緒に仕事をするものか。\nĐời nào tôi lại làm việc với kẻ vô trách nhiệm như vậy nữa.\n\nこんな下手な絵が売れるもんか。\nTranh vẽ tệ thế này mà đời nào bán được.\n\n誰が言うものか。\nĐời nào tôi nói (ai mà thèm nói chứ).\n\n負けるものか。\nKhông đời nào tôi chịu thua.",
+              "jlptLevel": 2
+            },
+            {
+              "front": "〜しかない・よりほかない",
+              "back": "Ý nghĩa: Không có cách nào khác (Không có cách nào khác, không có khả năng, lựa chọn nào khác  Cách dùng: Thể hiện cảm xúc của ngừi nói rằng không còn lựa chọn nào khác, đành phải làm việc gì đó.)\nCấu trúc: Vる + しかない・よりほかない",
+              "romaji": "",
+              "example": "真っ直ぐ行くしかない",
+              "jlptLevel": 2
+            },
+            {
+              "front": "〜べきだ /〜べきではない",
+              "back": "Ý nghĩa: Đương nhiên nên làm việc gì / Không được làm việc gì (Đương nhiên nên làm việc gì / Không được làm việc gì  Cách dùng: Đưa ra ý kiến của người nói rằng nên hay không nên. Không dùng với luật lệ, nội quy. Không nên dùng trực tiếp với người vế trên)\nCấu trúc: Vる + べきだ / べきではない / (Ngoại lệ: する = >するべき・すべき) / Vる+ べき / べきではない + N",
+              "romaji": "",
+              "example": "明日に延ばさず今日するべきだ",
               "jlptLevel": 2
             }
           ]
@@ -1548,9 +1576,9 @@
   },
   {
     "order": 25,
-    "title": "Bài 25: Cảm xúc (〜てしかたがない, 〜てならない, 〜ないではいられない, 〜ないわけに（は）いかない, 〜ざるを得ない)",
+    "title": "Bài 25: 〜てしかたがない・〜てならない・〜ないではいられない...",
     "summary": "Các cấu trúc thể hiện cảm xúc và sự bất khả kháng: 〜てしかたがない, 〜てならない, 〜ないではいられない, 〜ないわけに（は）いかない, 〜ざるを得ない",
-    "theoryMd": "# Bài 25: Cảm xúc\n\n### 1. 〜てしかたがない / 〜てたまらない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-te / A-kute / A-na-de + しかたがない\n- Ý nghĩa: Cảm xúc cực độ.\n#### 📝 Ví dụ minh họa\n- 不便でしかたがない。（Bất tiện không chịu nổi）\n\n### 2. 〜てならない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-te / A-kute / A-na-de + ならない\n- Ý nghĩa: Vô cùng (tự phát).\n#### 📝 Ví dụ minh họa\n- 心配でならない。（Vô cùng lo lắng）\n\n### 3. 〜ないではいられない / 〜ずにはいられない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-nai + ないではいられない\n- Ý nghĩa: Không thể không làm.\n#### 📝 Ví dụ minh họa\n- 笑わずにはいられない。（Không thể nhịn cười）\n\n### 4. 〜ないわけにはいかない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-nai + わけにはいかない\n- Ý nghĩa: Buộc phải làm (nghĩa vụ).\n#### 📝 Ví dụ minh họa\n- 出席しないわけにはいかない。（Không thể không tham dự）\n\n### 5. 〜ざるを得ない\n#### 💡 Cấu trúc & Ý nghĩa\n- V-nai + ざるを得ない\n- Ý nghĩa: Đành phải làm.\n#### 📝 Ví dụ minh họa\n- 歩いて帰らざるを得ない。（Đành phải đi bộ về）",
+    "theoryMd": "# Bài 25: Cảm xúc\n\n### 1. 〜てしかたがない / 〜てたまらない\n#### 💡 Cấu trúc & Ý nghĩa\n- Vて / A-kute / A-na-de + しかたがない\n- Ý nghĩa: Cảm xúc cực độ.\n#### 📝 Ví dụ minh họa\n- 不便でしかたがない。（Bất tiện không chịu nổi）\n\n### 2. 〜てならない\n#### 💡 Cấu trúc & Ý nghĩa\n- Vて / A-kute / A-na-de + ならない\n- Ý nghĩa: Vô cùng (tự phát).\n#### 📝 Ví dụ minh họa\n- 心配でならない。（Vô cùng lo lắng）\n\n### 3. 〜ないではいられない / 〜ずにはいられない\n#### 💡 Cấu trúc & Ý nghĩa\n- Vない + ないではいられない\n- Ý nghĩa: Không thể không làm.\n#### 📝 Ví dụ minh họa\n- 笑わずにはいられない。（Không thể nhịn cười）\n\n### 4. 〜ないわけにはいかない\n#### 💡 Cấu trúc & Ý nghĩa\n- Vない + わけにはいかない\n- Ý nghĩa: Buộc phải làm (nghĩa vụ).\n#### 📝 Ví dụ minh họa\n- 出席しないわけにはいかない。（Không thể không tham dự）\n\n### 5. 〜ざるを得ない\n#### 💡 Cấu trúc & Ý nghĩa\n- Vない + ざるを得ない\n- Ý nghĩa: Đành phải làm.\n#### 📝 Ví dụ minh họa\n- 歩いて帰らざるを得ない。（Đành phải đi bộ về）",
     "skills": [
       "GRAMMAR"
     ],
@@ -1560,42 +1588,42 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 25 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài 25: Cảm xúc (〜てしかたがない, 〜てならない, 〜ないではいられない, 〜ないわけに（は）いかない, 〜ざるを得ない)",
+          "name": "Shinkanzen N2 — Bài 25: 〜てしかたがない・〜てならない・〜ないではいられない...",
+          "description": "Chủ đề: Cảm xúc",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜てしかたがない・〜てしょうがない・〜てたまらない",
-              "back": "Ý nghĩa: Rất..., không thể chịu nổi (cảm xúc bộc phát).\nCấu trúc: V-te / A-i(kute) / A-na(de) + しかたがない / しょうがない / たまらない",
+              "back": "Ý nghĩa: Rất..., không thể chịu nổi (cảm xúc bộc phát).\nCấu trúc: Vて / A-i(kute) / A-na(de) + しかたがない / しょうがない / たまらない\n* Giải thích thêm: Đi kèm với những từ biểu hiện mong muốn, cảm giác của người nói. Đặc biệt てたまらないthường đi với cảm giác cơ thể. Khi chủ ngữ là ngôi thứ ba cần đi kèm ようだ, らしい",
               "romaji": "te shikata ga nai / te shou ga nai / te tamaranai",
               "example": "近所のスーパーが閉店してしまい、不便でしかたがない。\nSiêu thị gần nhà đóng cửa rồi, bất tiện không chịu nổi.\n\n昨夜は眠れなかったので、眠くてたまらない。\nĐêm qua không ngủ được nên giờ buồn ngủ không chịu được.\n\n合格して嬉しくてしょうがない。\nĐỗ rồi nên vui không tả nổi.\n\n暑くてたまらない。\nNóng không chịu nổi.",
               "jlptLevel": 2
             },
             {
               "front": "〜てならない",
-              "back": "Ý nghĩa: Rất..., vô cùng (cảm xúc tự phát).\nCấu trúc: V-te / A-i(kute) / A-na(de) + ならない",
+              "back": "Ý nghĩa: Rất..., vô cùng (cảm xúc tự phát).\nCấu trúc: Vて / A-i(kute) / A-na(de) + ならない\n* Giải thích thêm: Đi với những từ thể hiện cảm giác cơ thể, cảm xúc người nói hay những động từ thể hiện cảm nghĩ tự nhiên (気がする、思える、感じられる) Hay đi với cảm giác tiêu cực. Khi chủ ngữ là ngôi thứ ba cần đi kèm ようだ, らしい",
               "romaji": "te naranai",
               "example": "面接でうまく話せるかどうか、心配でならない。\nKhông biết phỏng vấn có nói tốt không, tôi vô cùng lo lắng.\n\nこの結末はどうなるのか、気になってならない。\nKết cục ra sao, tôi tò mò không chịu được.\n\n会いたくてならない。\nNhớ nhung vô cùng.\n\n残念でならない。\nTiếc nuối vô cùng.",
               "jlptLevel": 2
             },
             {
               "front": "〜ないではいられない・〜ずにはいられない",
-              "back": "Ý nghĩa: Không thể không..., không kìm chế nổi hành động.\nCấu trúc: V-nai(bỏ nai) + ないではいられない / V-nai(bỏ nai) + ずにはいられない",
+              "back": "Ý nghĩa: Không thể không..., không kìm chế nổi hành động.\nCấu trúc: Vない(bỏ nai) + ないではいられない / Vない(bỏ nai) + ずにはいられない\n* Giải thích thêm: Biểu hiện những hành động, cảm giác mang tính cá nhân xuất hiện tự nhiên. Khi chủ ngữ là ngôi thứ ba cần đi kèm ようだ, らしい",
               "romaji": "nai de wa irarenai / zu ni wa irarenai",
               "example": "この曲が聞こえてくると、体を動かさないではいられない。\nCứ nghe bài hát này, cơ thể lại tự cử động theo.\n\n彼の話は面白くて、誰もが笑わずにはいられない。\nCâu chuyện của anh ấy thú vị đến mức ai cũng không thể nhịn cười.\n\n泣かずにはいられない。\nKhông thể không khóc.\n\n言わずにはいられない。\nKhông thể không nói.",
               "jlptLevel": 2
             },
             {
               "front": "〜ないわけに（は）いかない",
-              "back": "Ý nghĩa: Buộc phải làm (do trách nhiệm, nghĩa vụ).\nCấu trúc: V-nai + わけにはいかない",
+              "back": "Ý nghĩa: Buộc phải làm (do trách nhiệm, nghĩa vụ).\nCấu trúc: Vない + わけにはいかない\n* Giải thích thêm: Đi với những động từ có ý chí. Chủ ngữ không phải là ngôi thứ ba, thường là ngôi thứ nhất, ít được dùng trong văn bản. Thường dùng với lẽ thường trong đời sống xã hội.",
               "romaji": "nai wake ni wa ikanai",
               "example": "親友の結婚式だから、忙しくても出席しないわけにはいかない。\nLà đám cưới bạn thân, dù bận cũng không thể không tham dự.\n\n試験が近いので、今日は勉強しないわけにはいかない。\nKỳ thi sắp tới nên hôm nay không thể không học.\n\nやらざるを得ない。\nĐành phải làm.\n\n行かないわけにはいかない。\nKhông thể không đi.",
               "jlptLevel": 2
             },
             {
               "front": "〜ざるを得ない",
-              "back": "Ý nghĩa: Đành phải làm dù không muốn (do hoàn cảnh).\nCấu trúc: V-nai(bỏ nai) + ざるを得ない",
+              "back": "Ý nghĩa: Đành phải làm dù không muốn (do hoàn cảnh).\nCấu trúc: Vない(bỏ nai) + ざるを得ない\n* Giải thích thêm: Đi kèm với động từ có ý chí. Chủ ngữ không phải là ngôi thứ ba, thường là ngôi thứ nhất, ít được dùng trong văn bản.",
               "romaji": "zaru o enai",
               "example": "証拠が多いから、彼の説は間違っていたと言わざるを得ない。\nVì nhiều chứng cứ, nên đành phải thừa nhận lý thuyết của anh ấy sai.\n\n台風で電車が止まったので、歩いて帰らざるを得ない。\nVì bão dừng tàu, đành phải đi bộ về.\n\n中止せざるを得ない。\nĐành phải hủy bỏ.\n\n認めざるを得ない。\nĐành phải thừa nhận.",
               "jlptLevel": 2
@@ -1611,9 +1639,9 @@
   },
   {
     "order": 26,
-    "title": "Bài cuối: Nguyện vọng / Cảm nhận (〜たいものだ, 〜ものだ, 〜ないもの（だろう）か, 〜ものがある, 〜ことだ, 〜ことだろう・〜ことか)",
+    "title": "Bài cuối: 〜たいものだ・〜ものだ・〜ないものか...",
     "summary": "Các cấu trúc diễn tả cảm xúc cuối bài: 〜たいものだ, 〜ものだ, 〜ないもの（だろう）か, 〜ものがある, 〜ことだ, 〜ことだろう・〜ことか",
-    "theoryMd": "# Bài cuối: Nguyện vọng và Cảm nhận\n\nTrong bài này, chúng ta sẽ học các mẫu câu dùng để bộc lộ cảm xúc, mong muốn hoặc những ấn tượng mạnh mẽ đối với sự việc.\n\n### 1. 〜たいものだ・〜てほしいものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả nguyện vọng, mong muốn mạnh mẽ từ tận đáy lòng.\n- **Cấu trúc**: V-masu (bỏ masu) + たいものだ / V-te + ほしいものだ\n\n#### 📝 Ví dụ minh họa\n- 早く春にならないものかな。(Giá mà mùa xuân mau đến nhỉ.)\n- ぜひ一度見てみたいものです。(Tôi rất muốn đến xem một lần.)\n\n### 2. 〜ものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để hồi tưởng thói quen trong quá khứ (V-ta) hoặc khẳng định một sự thật hiển nhiên (V-ru).\n- **Cấu trúc**: V-ta / V-ru + ものだ\n\n#### 📝 Ví dụ minh họa\n- 子供のころ、夏になるとこの川で泳いだものです。(Hồi nhỏ, cứ đến mùa hè là tôi hay bơi ở dòng sông này.)\n- 人生とは、思い通りにいかないものだ。(Cuộc đời là vậy, không phải lúc nào cũng diễn ra đúng như ý muốn.)\n\n### 3. 〜ないもの（だろう）か\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Mong mỏi một điều gì đó xảy ra dù rất khó thực hiện.\n- **Cấu trúc**: V-nai + もの（だろう）か\n\n#### 📝 Ví dụ minh họa\n- 何とか解決できないものだろうか。(Liệu có cách nào giải quyết được bài toán khó này không nhỉ.)\n\n### 4. 〜ものがある\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh cảm giác/ấn tượng mạnh mẽ về một sự việc.\n- **Cấu trúc**: V-ru / A-i / A-na (na) + ものがある\n\n#### 📝 Ví dụ minh họa\n- 彼の話にはどこか納得できるものがある。(Trong câu chuyện của anh ấy có điểm gì đó khiến người ta thấy thuyết phục.)\n\n### 5. 〜ことだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh cảm xúc ngạc nhiên, cảm thán.\n- **Cấu trúc**: V-ta / A-i / A-na (na) + ことだ\n\n#### 📝 Ví dụ minh họa\n- 試験に合格できて、なんと嬉しいことだ。(Thi đỗ kỳ thi rồi, vui mừng biết bao.)\n\n### 6. 〜ことだろう・〜ことか\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh mức độ cảm xúc rất cao (kết hợp với từ nghi vấn).\n- **Cấu trúc**: (Từ nghi vấn) + V/A/Na + ことだろう/ことか\n\n#### 📝 Ví dụ minh họa\n- ご両親はどんなに心配していることか。(Bố mẹ đã lo lắng cho bạn biết bao.)",
+    "theoryMd": "# Bài cuối: Nguyện vọng và Cảm nhận\n\nTrong bài này, chúng ta sẽ học các mẫu câu dùng để bộc lộ cảm xúc, mong muốn hoặc những ấn tượng mạnh mẽ đối với sự việc.\n\n### 1. 〜たいものだ・〜てほしいものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Diễn tả nguyện vọng, mong muốn mạnh mẽ từ tận đáy lòng.\n- **Cấu trúc**: Vます (bỏ masu) + たいものだ / Vて + ほしいものだ\n\n#### 📝 Ví dụ minh họa\n- 早く春にならないものかな。(Giá mà mùa xuân mau đến nhỉ.)\n- ぜひ一度見てみたいものです。(Tôi rất muốn đến xem một lần.)\n\n### 2. 〜ものだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Dùng để hồi tưởng thói quen trong quá khứ (Vた) hoặc khẳng định một sự thật hiển nhiên (Vる).\n- **Cấu trúc**: Vた / Vる + ものだ\n\n#### 📝 Ví dụ minh họa\n- 子供のころ、夏になるとこの川で泳いだものです。(Hồi nhỏ, cứ đến mùa hè là tôi hay bơi ở dòng sông này.)\n- 人生とは、思い通りにいかないものだ。(Cuộc đời là vậy, không phải lúc nào cũng diễn ra đúng như ý muốn.)\n\n### 3. 〜ないもの（だろう）か\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Mong mỏi một điều gì đó xảy ra dù rất khó thực hiện.\n- **Cấu trúc**: Vない + もの（だろう）か\n\n#### 📝 Ví dụ minh họa\n- 何とか解決できないものだろうか。(Liệu có cách nào giải quyết được bài toán khó này không nhỉ.)\n\n### 4. 〜ものがある\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh cảm giác/ấn tượng mạnh mẽ về một sự việc.\n- **Cấu trúc**: Vる / A-i / A-na (na) + ものがある\n\n#### 📝 Ví dụ minh họa\n- 彼の話にはどこか納得できるものがある。(Trong câu chuyện của anh ấy có điểm gì đó khiến người ta thấy thuyết phục.)\n\n### 5. 〜ことだ\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh cảm xúc ngạc nhiên, cảm thán.\n- **Cấu trúc**: Vた / A-i / A-na (na) + ことだ\n\n#### 📝 Ví dụ minh họa\n- 試験に合格できて、なんと嬉しいことだ。(Thi đỗ kỳ thi rồi, vui mừng biết bao.)\n\n### 6. 〜ことだろう・〜ことか\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa**: Nhấn mạnh mức độ cảm xúc rất cao (kết hợp với từ nghi vấn).\n- **Cấu trúc**: (Từ nghi vấn) + V/A/Na + ことだろう/ことか\n\n#### 📝 Ví dụ minh họa\n- ご両親はどんなに心配していることか。(Bố mẹ đã lo lắng cho bạn biết bao.)",
     "skills": [
       "GRAMMAR"
     ],
@@ -1623,49 +1651,49 @@
         "role": "GRAMMAR",
         "order": 1,
         "deck": {
-          "name": "Shinkanzen N2 — Bài 26 — Ngữ pháp",
-          "description": "Bộ thẻ ngữ pháp cho: Bài cuối: Nguyện vọng / Cảm nhận (〜たいものだ, 〜ものだ, 〜ないもの（だろう）か, 〜ものがある, 〜ことだ, 〜ことだろう・〜ことか)",
+          "name": "Shinkanzen N2 — Bài cuối: 〜たいものだ・〜ものだ・〜ないものか...",
+          "description": "Chủ đề: Nguyện vọng / Cảm nhận",
           "category": "NGUPHAP",
           "jlptLevel": 2,
           "cards": [
             {
               "front": "〜たいものだ・〜てほしいものだ",
-              "back": "Ý nghĩa: Diễn tả nguyện vọng, mong muốn mạnh mẽ từ tận đáy lòng.\nCấu trúc: V-masu (bỏ masu) + たいものだ / V-te + ほしいものだ",
+              "back": "Ý nghĩa: Diễn tả nguyện vọng, mong muốn mạnh mẽ từ tận đáy lòng.\nCấu trúc: Vます (bỏ masu) + たいものだ / Vて + ほしいものだ\n* Giải thích thêm: thể hiện nguyện vọng, mong muốn trong lòng người nói. Không dùng để nói trực tiếp yêu cầu hay nguyện vọng cụ thể.",
               "romaji": "tai mono da / te hoshii mono da",
               "example": "そんなにきれいな絵なら、ぜひ一度見てみたいものです。\nNếu bức tranh đẹp đến vậy, tôi rất muốn đến xem một lần.\n\n早く春にならないものかな。\nGiá mà mùa xuân mau đến nhỉ.\n\n一度でいいから、世界一周旅行をしてみたいものだ。\nChỉ một lần thôi cũng được, tôi rất muốn đi du lịch vòng quanh thế giới.",
               "jlptLevel": 2
             },
             {
               "front": "〜ものだ",
-              "back": "Ý nghĩa: Hồi tưởng một thói quen trong quá khứ hoặc nhấn mạnh một lẽ thường tình, một sự thật hiển nhiên.\nCấu trúc: V-ta / V-ru + ものだ",
+              "back": "Ý nghĩa: Hồi tưởng một thói quen trong quá khứ hoặc nhấn mạnh một lẽ thường tình, một sự thật hiển nhiên.\nCấu trúc: Vた / Vる + ものだ\n* Giải thích thêm: ① Hồi tưởng lại thói quen trong quá khứ、không dùng cho sự việc chỉ xảy ra một lần\n② Nhấn mạnh cảm xúc về một sự vật, sự việc、Thường hay đi kèm với tính từ, phó từ (よく、ずいぶん…)",
               "romaji": "mono da",
-              "example": "子供のころ、夏になるとこの川で泳いだものです。\nHồi nhỏ, cứ đến mùa hè là tôi hay bơi ở dòng sông này.\n\n人生とは、思い通りにいかないものだ。\nCuộc đời là vậy, không phải lúc nào cũng diễn ra đúng như ý muốn.\n\n善は急げというものだ。\nNgười ta thường nói làm việc thiện thì nên làm nhanh.",
+              "example": "子供のころ、夏になるとこの川で泳いだものです。\nHồi nhỏ, cứ đến mùa hè là tôi hay bơi ở dòng sông này.\n\n人生とは、思い通りにいかないものだ。\nCuộc đời là vậy, không phải lúc nào cũng diễn ra đúng như ý muốn.\n\n善は急げというものだ。\nNgười ta thường nói làm việc thiện thì nên làm nhanh.\n\n時間が過ぎるのは早いものだ",
               "jlptLevel": 2
             },
             {
               "front": "〜ないもの（だろう）か",
-              "back": "Ý nghĩa: Cảm xúc mong mỏi một điều gì đó xảy ra mặc dù thực tế rất khó khăn, không rõ cách thực hiện.\nCấu trúc: V-nai + もの（だろう）か",
+              "back": "Ý nghĩa: Cảm xúc mong mỏi một điều gì đó xảy ra mặc dù thực tế rất khó khăn, không rõ cách thực hiện.\nCấu trúc: Vない + もの（だろう）か\n* Giải thích thêm: Mong muốn một việc xảy ra dù hiện thực khó có thể xảy ra được. Đi với động từ thể khả năng hoặc động từ không chứa ý chí người nói",
               "romaji": "nai mono (darou) ka",
               "example": "どうにかして母の病気が治らないものか。\nLàm thế nào để mẹ tôi khỏi bệnh đây.\n\nこの難問を何とか解決できないものだろうか。\nLiệu có cách nào giải quyết được bài toán khó này không nhỉ.\n\nあの日のことを忘れることはできないものだろうか。\nLiệu có cách nào quên đi chuyện ngày hôm đó được không nhỉ.",
               "jlptLevel": 2
             },
             {
               "front": "〜ものがある",
-              "back": "Ý nghĩa: Cảm giác có một điều gì đó (thường dùng để nhấn mạnh cảm xúc/ấn tượng về một sự việc).\nCấu trúc: V-ru / A-i / A-na (na) + ものがある",
+              "back": "Ý nghĩa: Cảm giác có một điều gì đó (thường dùng để nhấn mạnh cảm xúc/ấn tượng về một sự việc).\nCấu trúc: Vる / A-i / A-na (na) + ものがある\n* Giải thích thêm: Có cảm giác gì đó\nĐi kèm với những từ thể hiện cảm tưởng của người nói",
               "romaji": "mono ga aru",
               "example": "ここまで完成しているのにあきらめなければならないなんて、残念なものがある。\nĐã hoàn thiện đến mức này rồi mà phải bỏ cuộc, thật là cảm thấy đáng tiếc.\n\n彼の話にはどこか納得できるものがある。\nTrong câu chuyện của anh ấy có điểm gì đó khiến người ta thấy thuyết phục.\n\nこの映画には、見る人を感動させるものがある。\nBộ phim này có một điều gì đó khiến người xem cảm động.",
               "jlptLevel": 2
             },
             {
               "front": "〜ことだ",
-              "back": "Ý nghĩa: Nhấn mạnh cảm xúc ngạc nhiên, cảm thán trước một sự việc.\nCấu trúc: V-ta / A-i / A-na (na) + ことだ",
+              "back": "Ý nghĩa: Nhấn mạnh cảm xúc ngạc nhiên, cảm thán trước một sự việc.\nCấu trúc: Vた / A-i / A-na (na) + ことだ\n* Giải thích thêm: Cảm giác thật là…\nCách dùng: Đi kèm với những tính từ thể hiện chủ quan người nói. Khi sử dụng động từ có tính chất như tính từ, động từ đó ở thể Vた",
               "romaji": "koto da",
-              "example": "なんとひどいことだ。\nThật là quá đáng làm sao.\n\n試験に合格できて、なんと嬉しいことだ。\nThi đỗ kỳ thi rồi, vui mừng biết bao.\n\n一度でいいから有名人に会えるなんて、夢のようなことだ。\nCó thể gặp người nổi tiếng dù chỉ một lần, đúng là như mơ vậy.",
+              "example": "なんとひどいことだ。\nThật là quá đáng làm sao.\n\n試験に合格できて、なんと嬉しいことだ。\nThi đỗ kỳ thi rồi, vui mừng biết bao.\n\n一度でいいから有名人に会えるなんて、夢のようなことだ。\nCó thể gặp người nổi tiếng dù chỉ một lần, đúng là như mơ vậy.\n\nまったく困ったことだ",
               "jlptLevel": 2
             },
             {
               "front": "〜ことだろう・〜ことか",
-              "back": "Ý nghĩa: Diễn tả mức độ cảm xúc rất cao (thường đi kèm với từ nghi vấn như: bao nhiêu, biết bao).\nCấu trúc: (Nghi vấn từ) + V/A/Na + ことだろう・ことか",
+              "back": "Ý nghĩa: Diễn tả mức độ cảm xúc rất cao (thường đi kèm với từ nghi vấn như: bao nhiêu, biết bao).\nCấu trúc: (Nghi vấn từ) + V/A/Na + ことだろう・ことか\n* Giải thích thêm: Rất nhiều, biết bao\nCách dùng: Đi với từ nghi vấn thể hiện mức độ (どんなに, 何回) hay (なんと, いったい)",
               "romaji": "koto darou / koto ka",
               "example": "ご両親はどんなに心配していることか。\nBố mẹ đã lo lắng cho bạn biết bao.\n\n合格発表の日、私はどれほどドキドキしたことだろう。\nVào ngày công bố kết quả thi, tôi đã hồi hộp biết bao nhiêu.\n\n故郷を離れて、どれほど寂しかったことか。\nRời xa quê hương, tôi đã thấy cô đơn biết bao.",
               "jlptLevel": 2

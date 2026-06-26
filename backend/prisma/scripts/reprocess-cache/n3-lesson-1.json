@@ -2,7 +2,7 @@
   "order": 1,
   "title": "1. ～うちに…",
   "summary": "Ngữ pháp bài số 1 sách Shinkanzen Master N3 (2 thẻ).",
-  "theoryMd": "### 1. ～うちに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa 1:** Tranh thủ lúc điều kiện còn thuận lợi (trước khi trạng thái kết thúc) để làm gì đó. (Có ý chí)\n- **Ý nghĩa 2:** Trong lúc làm gì đó thì có sự thay đổi tự nhiên xảy ra. (Không có ý chí)\n- **Cấu trúc:** N-no / V-ru / V-teiru / V-nai / Adj-i / Adj-na + うちに\n\n#### 📝 Ví dụ minh họa\n- 若いうちに、いろいろな経験をしたほうがいい。\n- 話しているうちに、だんだん相手の意見に賛成するようになった。",
+  "theoryMd": "### 1. ～うちに\n#### 💡 Cấu trúc & Ý nghĩa\n- **Ý nghĩa 1:** Tranh thủ lúc điều kiện còn thuận lợi (trước khi trạng thái kết thúc) để làm gì đó. (Có ý chí)\n- **Ý nghĩa 2:** Trong lúc làm gì đó thì có sự thay đổi tự nhiên xảy ra. (Không có ý chí)\n- **Cấu trúc:** N-no / Vる / Vている / Vない / Adj-i / Adj-na + うちに\n\n#### 📝 Ví dụ minh họa\n- 若いうちに、いろいろな経験をしたほうがいい。\n- 話しているうちに、だんだん相手の意見に賛成するようになった。",
   "skills": [
     "GRAMMAR"
   ],
@@ -19,14 +19,14 @@
         "cards": [
           {
             "front": "〜うちに",
-            "back": "Ý nghĩa: Trong khi trạng thái còn chưa thay đổi thì hãy thực hiện một hành động có chủ đích.\nCấu trúc: N-no / V-ru / V-teiru / V-nai / Adj-i / Adj-na + うちに",
+            "back": "Ý nghĩa: Trong khi trạng thái còn chưa thay đổi thì hãy thực hiện một hành động có chủ đích.\nCấu trúc: N-no / Vる / Vている / Vない / Adj-i / Adj-na + うちに",
             "romaji": "uchini",
             "example": "日本にいるうちに、一度富士山に登ってみたい。\nKhi còn ở Nhật, tôi muốn thử một lần leo núi Phú Sĩ.\n\n若いうちに、いろいろな経験をしたほうがいい。\nKhi còn trẻ, nên trải nghiệm nhiều điều.\n\n雨が降らないうちに、洗濯物を取り込もう。\nTrong khi trời chưa mưa, hãy mang quần áo vào.\n\n暗くならないうちに、帰ったほうがいい。\nTrước khi trời tối, nên về nhà thôi.",
             "jlptLevel": 3
           },
           {
             "front": "〜うちに",
-            "back": "Ý nghĩa: Trong khi đang thực hiện một hành động nào đó thì một sự thay đổi diễn ra ngoài ý muốn.\nCấu trúc: V-ru / V-teiru / V-nai + うちに",
+            "back": "Ý nghĩa: Trong khi đang thực hiện một hành động nào đó thì một sự thay đổi diễn ra ngoài ý muốn.\nCấu trúc: Vる / Vている / Vない + うちに",
             "romaji": "uchini",
             "example": "知らないうちに、彼女は私の財布からお金を抜き取っていた。\nLúc tôi không biết, cô ấy đã lấy tiền từ ví của tôi.\n\nこの本を読んでいるうちに、眠ってしまった。\nTrong lúc đang đọc cuốn sách này, tôi đã ngủ quên mất.\n\n話しているうちに、だんだん相手の意見に賛成するようになった。\nTrong lúc đang nói chuyện, tôi dần dần trở nên đồng ý với ý kiến của đối phương.\n\nテレビを見ているうちに、いつの間にか寝てしまった。\nTrong khi xem tivi, tôi đã ngủ quên lúc nào không hay.",
             "jlptLevel": 3
