@@ -41,6 +41,15 @@ async function main() {
   console.log('User:', user.email);
 
   // ========== HÁN TỰ (Kanji) ==========
+  console.log('Đang dọn dẹp các khóa học Hán tự cũ...');
+  await prisma.course.deleteMany({
+    where: {
+      slug: {
+        in: ['kanji-n1', 'kanji-n2', 'kanji-n3', 'kanji-n4', 'kanji-n5']
+      }
+    }
+  });
+
   console.log('Đang dọn dẹp các bộ thẻ Hán tự cũ...');
   await prisma.deck.deleteMany({
     where: {
@@ -61,6 +70,28 @@ async function main() {
       const cardsPerLesson = 30;
       const totalLessons = Math.ceil(kanjiData.length / cardsPerLesson);
       console.log(`Đang seed ${kanjiData.length} thẻ Kanji vào ${totalLessons} bài học cho JLPT N${lvl}...`);
+
+      const courseSlug = `kanji-n${lvl}`;
+      const kanjiCourse = await prisma.course.upsert({
+        where: { slug: courseSlug },
+        update: {
+          title: `2220 Kanji Master N${lvl}`,
+          description: `Luyện tập chữ Hán tự JLPT N${lvl} bám sát giáo trình 2220 Kanji Master.`,
+          jlptLevel: lvl,
+          textbookRef: `2220 Kanji Master N${lvl}`,
+          isPublic: true,
+          isDefault: false,
+        },
+        create: {
+          slug: courseSlug,
+          title: `2220 Kanji Master N${lvl}`,
+          description: `Luyện tập chữ Hán tự JLPT N${lvl} bám sát giáo trình 2220 Kanji Master.`,
+          jlptLevel: lvl,
+          textbookRef: `2220 Kanji Master N${lvl}`,
+          isPublic: true,
+          isDefault: false,
+        },
+      });
       
       for (let i = 0; i < totalLessons; i++) {
         const lessonNum = i + 1;
@@ -84,6 +115,55 @@ async function main() {
             category: DeckCategory.HANTU,
             jlptLevel: lvl,
             userId: admin.id,
+          },
+        });
+
+        const lesson = await prisma.lesson.upsert({
+          where: { courseId_order: { courseId: kanjiCourse.id, order: lessonNum } },
+          update: {
+            title: `Bài ${lessonNum}`,
+            summary: `Học các chữ Hán tự bài ${lessonNum}`,
+            theoryMd: `## Hướng dẫn học chữ Hán Bài ${lessonNum}\n\nHọc cách viết và cách đọc Onyomi/Kunyomi của các chữ Hán tự từ số ${i * cardsPerLesson + 1} đến ${Math.min((i + 1) * cardsPerLesson, kanjiData.length)} trong bài.\nNhấp vào **Thẻ ghi nhớ** để ôn tập và luyện viết nét trực tuyến.`,
+            skills: [SkillType.KANJI],
+            estimatedMin: 30,
+          },
+          create: {
+            courseId: kanjiCourse.id,
+            order: lessonNum,
+            title: `Bài ${lessonNum}`,
+            summary: `Học các chữ Hán tự bài ${lessonNum}`,
+            theoryMd: `## Hướng dẫn học chữ Hán Bài ${lessonNum}\n\nHọc cách viết và cách đọc Onyomi/Kunyomi của các chữ Hán tự từ số ${i * cardsPerLesson + 1} đến ${Math.min((i + 1) * cardsPerLesson, kanjiData.length)} trong bài.\nNhấp vào **Thẻ ghi nhớ** để ôn tập và luyện viết nét trực tuyến.`,
+            skills: [SkillType.KANJI],
+            estimatedMin: 30,
+          },
+        });
+
+        await prisma.lessonDeck.upsert({
+          where: { lessonId_deckId: { lessonId: lesson.id, deckId: kanjiDeck.id } },
+          update: {
+            role: LessonDeckRole.KANJI,
+            order: 0,
+          },
+          create: {
+            lessonId: lesson.id,
+            deckId: kanjiDeck.id,
+            role: LessonDeckRole.KANJI,
+            order: 0,
+          },
+        });
+
+        await prisma.lessonTest.upsert({
+          where: { lessonId: lesson.id },
+          update: {
+            deckId: kanjiDeck.id,
+            passScore: 70,
+            questionCount: Math.min(10, cardsPerLesson),
+          },
+          create: {
+            lessonId: lesson.id,
+            deckId: kanjiDeck.id,
+            passScore: 70,
+            questionCount: Math.min(10, cardsPerLesson),
           },
         });
 

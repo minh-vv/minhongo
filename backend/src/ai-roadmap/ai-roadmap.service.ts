@@ -122,7 +122,7 @@ export class AiRoadmapService {
         order: true,
         course: { select: { title: true, jlptLevel: true, slug: true } },
         decks: {
-          where: { role: 'VOCAB' },
+          where: { role: { in: ['VOCAB', 'KANJI'] } },
           select: {
             deck: {
               select: {
@@ -154,7 +154,7 @@ export class AiRoadmapService {
           order: true,
           course: { select: { title: true, jlptLevel: true, slug: true } },
           decks: {
-            where: { role: 'VOCAB' },
+            where: { role: { in: ['VOCAB', 'KANJI'] } },
             select: {
               deck: {
                 select: {

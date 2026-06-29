@@ -45,7 +45,7 @@ async function main() {
       where: { id: { startsWith: 'jisho-' } }
     });
 
-    if (courseCount >= 8 && lessonCount >= 166 && jishoCount === 0) {
+    if (courseCount >= 13 && lessonCount >= 244 && jishoCount === 0) {
       console.log(`  ✅ Database đã được đồng bộ đầy đủ (${courseCount} khóa học, ${lessonCount} bài học, 0 jisho). Bỏ qua full seed.`);
       
       // Tuy nhiên, vẫn đồng bộ lại phần example/back của Card ngữ pháp
