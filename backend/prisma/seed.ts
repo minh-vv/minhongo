@@ -44,9 +44,10 @@ async function main() {
   console.log('Đang dọn dẹp các bộ thẻ Hán tự cũ...');
   await prisma.deck.deleteMany({
     where: {
-      id: {
-        in: ['hantu-jlpt-n1', 'hantu-jlpt-n2', 'hantu-jlpt-n3', 'hantu-jlpt-n4', 'hantu-jlpt-n5']
-      }
+      OR: [
+        { id: { startsWith: 'hantu-jlpt-' } },
+        { id: { in: ['hantu-jlpt-n1', 'hantu-jlpt-n2', 'hantu-jlpt-n3', 'hantu-jlpt-n4', 'hantu-jlpt-n5'] } }
+      ]
     }
   });
 
@@ -57,7 +58,7 @@ async function main() {
       const fileContent = fs.readFileSync(jsonPath, 'utf8');
       const kanjiData = JSON.parse(fileContent);
       
-      const cardsPerLesson = 10;
+      const cardsPerLesson = 30;
       const totalLessons = Math.ceil(kanjiData.length / cardsPerLesson);
       console.log(`Đang seed ${kanjiData.length} thẻ Kanji vào ${totalLessons} bài học cho JLPT N${lvl}...`);
       

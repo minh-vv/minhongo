@@ -8,7 +8,7 @@ import { useAuth } from '../hooks/useAuth';
 import KanjiInteractiveWorkspace from '../components/KanjiInteractiveWorkspace';
 import CollapsibleExample from '../components/CollapsibleExample';
 import BulkCardModal from '../components/BulkCardModal';
-import { BookOpen, Layers, RefreshCw, HelpCircle, PenTool, CheckSquare, Lock, Copy, Star, Volume2, List, LayoutGrid } from 'lucide-react';
+import { BookOpen, Layers, RefreshCw, HelpCircle, PenTool, CheckSquare, Lock, Copy, Star, Volume2, List, LayoutGrid, X } from 'lucide-react';
 import { annotateSentence, getHanViet } from '../utils/furiganaHelper';
 
 function speakJapanese(text) {

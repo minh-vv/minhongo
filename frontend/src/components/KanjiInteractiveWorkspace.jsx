@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
+import { createPortal } from 'react-dom';
 import { getKanjiData } from '../utils/kanjiDataN5';
 import CollapsibleExample from './CollapsibleExample';
 
@@ -12,7 +13,8 @@ const parseKanjiBack = (backText) => {
     on: '',
     kun: '',
     examplesOn: [],
-    examplesKun: []
+    examplesKun: [],
+    mnemonic: ''
   };
   
   let currentSection = '';
@@ -28,6 +30,8 @@ const parseKanjiBack = (backText) => {
       info.on = trimmed.replace(/Onyomi\s*\(Âm\s*On\):\s*|Onyomi:\s*/gi, '').trim();
     } else if (trimmed.startsWith('Kunyomi (Âm Kun):') || trimmed.startsWith('Kunyomi:')) {
       info.kun = trimmed.replace(/Kunyomi\s*\(Âm\s*Kun\):\s*|Kunyomi:\s*/gi, '').trim();
+    } else if (trimmed.startsWith('Cách ghi nhớ:')) {
+      info.mnemonic = trimmed.replace('Cách ghi nhớ:', '').trim();
     } else if (trimmed.startsWith('Ví dụ Onyomi:')) {
       currentSection = 'examplesOn';
     } else if (trimmed.startsWith('Ví dụ Kunyomi:')) {
@@ -212,9 +216,15 @@ export default function KanjiInteractiveWorkspace({ card, onClose, accentColor =
     }
   }, [practiceMode, writerInstance, handlePlayAnimation, handleStartQuiz]);
 
-  return (
-    <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-in">
-      <div className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow-lg w-full max-w-4xl max-h-[85vh] overflow-hidden flex flex-col md:flex-row relative animate-scale-up">
+  return createPortal(
+    <div 
+      className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-in"
+      onClick={onClose}
+    >
+      <div 
+        className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow-lg w-full max-w-4xl max-h-[85vh] overflow-hidden flex flex-col md:flex-row relative animate-scale-up"
+        onClick={(e) => e.stopPropagation()}
+      >
         
         {/* Nút đóng */}
         <button 
@@ -385,7 +395,11 @@ export default function KanjiInteractiveWorkspace({ card, onClose, accentColor =
                 Ý nghĩa / Mnemonic
               </h5>
               <div className="p-3 bg-amber-500/5 border border-amber-500/15 text-on-surface text-xs leading-relaxed italic rounded-md">
-                {kanjiInfo?.mnemonic ? `"${kanjiInfo.mnemonic}"` : (parsedBack.meaning ? `Ý nghĩa: ${parsedBack.meaning}` : 'Đang biên soạn câu chuyện gợi nhớ cho chữ Kanji này...')}
+                {kanjiInfo?.mnemonic 
+                  ? `"${kanjiInfo.mnemonic}"` 
+                  : parsedBack.mnemonic 
+                    ? `"${parsedBack.mnemonic}"` 
+                    : (parsedBack.meaning ? `Ý nghĩa: ${parsedBack.meaning}` : 'Đang biên soạn câu chuyện gợi nhớ cho chữ Kanji này...')}
               </div>
             </div>
 
@@ -480,6 +494,7 @@ export default function KanjiInteractiveWorkspace({ card, onClose, accentColor =
 
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
