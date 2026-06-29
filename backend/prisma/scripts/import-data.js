@@ -209,6 +209,17 @@ async function main() {
     }
   }
 
+  // 5. Seed Hán tự (Kanji)
+  console.log('\n--- 5. Seed dữ liệu Hán tự (Kanji) ---');
+  const seedKanjiScript = path.join(__dirname, 'seed-kanji.js');
+  if (fs.existsSync(seedKanjiScript)) {
+    const { execSync } = require('child_process');
+    execSync(`node "${seedKanjiScript}"`, {
+      stdio: 'inherit',
+      env: process.env,
+    });
+  }
+
   console.log('\n🎉 Đã import toàn bộ dữ liệu thành công!\n');
 }
 
