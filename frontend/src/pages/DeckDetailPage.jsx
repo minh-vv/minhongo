@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useRef } from 'react';
+import { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 import { Link, useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
@@ -268,10 +268,11 @@ function DeckEditModal({ isOpen, onClose, onSave, deck }) {
 }
 
 function VocabDetailModal({ isOpen, onClose, onSpeak, onToggleStar, card }) {
+  const cardFront = card?.front;
   const hanVietText = useMemo(() => {
-    if (!card) return '';
-    return getHanViet(card.front);
-  }, [card?.front]);
+    if (!cardFront) return '';
+    return getHanViet(cardFront);
+  }, [cardFront]);
 
   if (!isOpen || !card) return null;
 
@@ -462,7 +463,7 @@ export default function DeckDetailPage() {
     return modalConfig.starredOnly ? starredCount : (deck?.cards?.length || 0);
   }, [deck, starredCount, modalConfig.starredOnly]);
 
-  const handleOpenPracticeModal = (type) => {
+  const handleOpenPracticeModal = useCallback((type) => {
     setModalPracticeType(type);
     setModalConfig({
       count: '10',
@@ -472,7 +473,7 @@ export default function DeckDetailPage() {
       isCustom: false
     });
     setShowPracticeModal(true);
-  };
+  }, [showStarredOnly, starredCount]);
 
   const handleStartPractice = () => {
     const finalCount = modalConfig.isCustom 
@@ -517,7 +518,7 @@ export default function DeckDetailPage() {
       newParams.delete('practice');
       setSearchParams(newParams, { replace: true });
     }
-  }, [deck, practiceParam, searchParams, setSearchParams]);
+  }, [deck, practiceParam, searchParams, setSearchParams, handleOpenPracticeModal]);
 
   const handleForkDeck = async () => {
     setForking(true);
