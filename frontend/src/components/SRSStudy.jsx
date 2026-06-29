@@ -4,6 +4,7 @@ import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { RotateCw } from 'lucide-react';
 import { flashcardApi } from '../api/flashcardApi';
 import CollapsibleExample from './CollapsibleExample';
+import StudyKanjiBack from './StudyKanjiBack';
 import { useSettings } from '../hooks/useSettings';
 
 function speakJapanese(text) {
@@ -330,24 +331,30 @@ export default function SRSStudy({ dueData, starredOnly = false, onComplete }) {
 
             {/* Middle Content */}
             <div className="flex-1 flex flex-col items-center justify-center w-full max-w-md my-auto gap-4">
-              <div className="text-center w-full">
-                <p className="text-[9px] font-bold uppercase tracking-widest text-on-surface-variant/40 mb-1">Giải nghĩa & Cách đọc</p>
-                {showRomaji && currentCard.romaji && (
-                  <p className="font-jp text-lg text-secondary font-bold mb-2">
-                    {currentCard.romaji}
-                  </p>
-                )}
-                <p className="text-2xl md:text-3xl font-black text-on-surface tracking-wide leading-snug whitespace-pre-line">
-                  {currentCard.back}
-                </p>
-              </div>
+              {currentCard.back?.includes('Âm Hán Việt:') || currentCard.back?.includes('Bộ thủ:') ? (
+                <StudyKanjiBack kanji={currentCard.front} backText={currentCard.back} />
+              ) : (
+                <>
+                  <div className="text-center w-full">
+                    <p className="text-[9px] font-bold uppercase tracking-widest text-on-surface-variant/40 mb-1">Giải nghĩa & Cách đọc</p>
+                    {showRomaji && currentCard.romaji && (
+                      <p className="font-jp text-lg text-secondary font-bold mb-2">
+                        {currentCard.romaji}
+                      </p>
+                    )}
+                    <p className="text-2xl md:text-3xl font-black text-on-surface tracking-wide leading-snug whitespace-pre-line">
+                      {currentCard.back}
+                    </p>
+                  </div>
 
-              {currentCard.example && (
-                <CollapsibleExample 
-                  example={currentCard.example} 
-                  onSpeak={speakJapanese} 
-                  maxHeightClass="max-h-[110px]"
-                />
+                  {currentCard.example && (
+                    <CollapsibleExample 
+                      example={currentCard.example} 
+                      onSpeak={speakJapanese} 
+                      maxHeightClass="max-h-[110px]"
+                    />
+                  )}
+                </>
               )}
             </div>
 

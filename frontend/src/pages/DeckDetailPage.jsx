@@ -800,18 +800,19 @@ export default function DeckDetailPage() {
       </section>
 
       {/* Stats */}
-      {stats && deck?.category !== 'HANTU' && (
+      {stats && (
         (() => {
           const total = stats.totalCards || 1;
           const newPct = (stats.newCards / total) * 100;
           const learningPct = (stats.learning / total) * 100;
           const reviewPct = (stats.review / total) * 100;
           const masteredPct = (stats.mastered / total) * 100;
+          const cardTypeLabel = deck?.category === 'HANTU' ? 'chữ Hán' : (deck?.category === 'NGUPHAP' ? 'ngữ pháp' : 'từ vựng');
           return (
             <div className="bg-surface-container-lowest p-4 border border-outline-variant/30 rounded-lg space-y-3 shadow-sm">
               <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-on-surface-variant">
                 <span>Tiến trình học tập</span>
-                <span className="text-on-surface">{stats.totalCards} từ vựng</span>
+                <span className="text-on-surface">{stats.totalCards} {cardTypeLabel}</span>
               </div>
               
               {/* Segmented Progress Bar */}
@@ -848,80 +849,68 @@ export default function DeckDetailPage() {
 
       {/* Learning Modes Toolbar & Actions (Search, Add Card) */}
       <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-4 border-b border-outline-variant/30">
-        {deck?.category !== 'HANTU' ? (
-          <div className="flex flex-wrap items-center gap-2">
-            {/* 1. Thẻ ghi nhớ */}
-            <Link
-              to={`/study/${deckId}?mode=normal${starredQuery}`}
-              className="px-3.5 py-2 bg-emerald-50 text-emerald-800 border border-emerald-200/60 hover:bg-emerald-100/70 hover:border-emerald-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
-            >
-              <Layers className="w-3.5 h-3.5 text-emerald-600" />
-              <span>Thẻ ghi nhớ</span>
-            </Link>
+        <div className="flex flex-wrap items-center gap-2">
+          {/* 1. Thẻ ghi nhớ */}
+          <Link
+            to={`/study/${deckId}?mode=normal${starredQuery}`}
+            className="px-3.5 py-2 bg-emerald-50 text-emerald-800 border border-emerald-200/60 hover:bg-emerald-100/70 hover:border-emerald-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
+          >
+            <Layers className="w-3.5 h-3.5 text-emerald-600" />
+            <span>Thẻ ghi nhớ</span>
+          </Link>
 
-            {/* 2. Học SRS */}
-            <Link
-              to={`/study/${deckId}?mode=srs${starredQuery}`}
-              className="px-3.5 py-2 bg-indigo-50 text-indigo-800 border border-indigo-200/60 hover:bg-indigo-100/70 hover:border-indigo-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md relative shadow-sm"
-            >
-              <RefreshCw className="w-3.5 h-3.5 text-indigo-600" />
-              <span>Học SRS</span>
-              {stats?.dueToday > 0 && (
-                <span className="absolute -top-1.5 -right-1.5 bg-secondary text-white text-[9px] font-black px-1.5 py-0.5 rounded-full border border-surface-container-lowest">
-                  {stats.dueToday}
-                </span>
-              )}
-            </Link>
-
-            {/* 3. Trắc nghiệm */}
-            <button
-              onClick={() => handleOpenPracticeModal('multiple-choice')}
-              className="px-3.5 py-2 bg-amber-50 text-amber-800 border border-amber-200/60 hover:bg-amber-100/70 hover:border-amber-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
-            >
-              <HelpCircle className="w-3.5 h-3.5 text-amber-600" />
-              <span>Trắc nghiệm</span>
-            </button>
-
-            {/* 4. Tự luận */}
-            <button
-              onClick={() => handleOpenPracticeModal('type-japanese')}
-              className="px-3.5 py-2 bg-blue-50 text-blue-800 border border-blue-200/60 hover:bg-blue-100/70 hover:border-blue-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
-            >
-              <PenTool className="w-3.5 h-3.5 text-blue-600" />
-              <span>Tự luận</span>
-            </button>
-
-            {/* 5. Hoàn thành câu */}
-            {hasExamples ? (
-              <button
-                onClick={() => handleOpenPracticeModal('fill-sentence')}
-                className="px-3.5 py-2 bg-rose-50 text-rose-800 border border-rose-200/60 hover:bg-rose-100/70 hover:border-rose-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
-              >
-                <CheckSquare className="w-3.5 h-3.5 text-rose-600" />
-                <span>Hoàn thành câu</span>
-              </button>
-            ) : (
-              <button
-                disabled
-                title="Cần câu ví dụ trong bộ thẻ để mở chế độ này"
-                className="px-3.5 py-2 bg-slate-50 border border-slate-200 text-slate-400 opacity-60 text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 rounded-md cursor-not-allowed"
-              >
-                <Lock className="w-3.5 h-3.5 text-slate-400" />
-                <span>Hoàn thành câu</span>
-              </button>
+          {/* 2. Học SRS */}
+          <Link
+            to={`/study/${deckId}?mode=srs${starredQuery}`}
+            className="px-3.5 py-2 bg-indigo-50 text-indigo-800 border border-indigo-200/60 hover:bg-indigo-100/70 hover:border-indigo-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md relative shadow-sm"
+          >
+            <RefreshCw className="w-3.5 h-3.5 text-indigo-600" />
+            <span>Học SRS</span>
+            {stats?.dueToday > 0 && (
+              <span className="absolute -top-1.5 -right-1.5 bg-secondary text-white text-[9px] font-black px-1.5 py-0.5 rounded-full border border-surface-container-lowest">
+                {stats.dueToday}
+              </span>
             )}
-          </div>
-        ) : (
-          <div className="flex items-center gap-2">
-            <div className="w-1 h-5 flex-shrink-0" style={{ background: 'var(--primary)' }} />
-            <h2 className="text-sm font-headline font-bold text-on-surface-variant uppercase tracking-wider">
-              Danh sách chữ Hán
-            </h2>
-            <span className="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-black rounded-full">
-              {deck?.cards?.length || 0}
-            </span>
-          </div>
-        )}
+          </Link>
+
+          {/* 3. Trắc nghiệm */}
+          <button
+            onClick={() => handleOpenPracticeModal('multiple-choice')}
+            className="px-3.5 py-2 bg-amber-50 text-amber-800 border border-amber-200/60 hover:bg-amber-100/70 hover:border-amber-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
+          >
+            <HelpCircle className="w-3.5 h-3.5 text-amber-600" />
+            <span>Trắc nghiệm</span>
+          </button>
+
+          {/* 4. Tự luận */}
+          <button
+            onClick={() => handleOpenPracticeModal('type-japanese')}
+            className="px-3.5 py-2 bg-blue-50 text-blue-800 border border-blue-200/60 hover:bg-blue-100/70 hover:border-blue-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
+          >
+            <PenTool className="w-3.5 h-3.5 text-blue-600" />
+            <span>Tự luận</span>
+          </button>
+
+          {/* 5. Hoàn thành câu */}
+          {hasExamples ? (
+            <button
+              onClick={() => handleOpenPracticeModal('fill-sentence')}
+              className="px-3.5 py-2 bg-rose-50 text-rose-800 border border-rose-200/60 hover:bg-rose-100/70 hover:border-rose-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
+            >
+              <CheckSquare className="w-3.5 h-3.5 text-rose-600" />
+              <span>Hoàn thành câu</span>
+            </button>
+          ) : (
+            <button
+              disabled
+              title="Cần câu ví dụ trong bộ thẻ để mở chế độ này"
+              className="px-3.5 py-2 bg-slate-50 border border-slate-200 text-slate-400 opacity-60 text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 rounded-md cursor-not-allowed"
+            >
+              <Lock className="w-3.5 h-3.5 text-slate-400" />
+              <span>Hoàn thành câu</span>
+            </button>
+          )}
+        </div>
 
         {/* Right side controls: compact search + action buttons */}
         <div className="flex items-center gap-2 w-full lg:w-auto justify-between lg:justify-end shrink-0">
