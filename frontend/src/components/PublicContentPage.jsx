@@ -11,7 +11,7 @@ import PageHeader from './PageHeader';
 
 const cleanDeckName = (name) => {
   if (!name) return '';
-  const regex = /^\s*(?:mimikara|shinkanzen|kanzen|minna|soumatome|somatome|try!?|genki|dekiru)(?:\s+(?:oboeru|master|no\s+nihongo|tăng\s+cường\s+ngữ\s+pháp))?\s*(?:n\d+)?\s*[-——–—]\s*/i;
+  const regex = /^\s*(?:2220\s*(?:kanji\s+master|chữ\s+hán)?|mimikara|shinkanzen|kanzen|minna|soumatome|somatome|try!?|genki|dekiru)(?:\s+(?:oboeru|master|no\s+nihongo|tăng\s+cường\s+ngữ\s+pháp))?\s*(?:n\d+)?\s*[-——–—]\s*/i;
   let cleaned = name.replace(regex, '').trim();
   // Strip "Bài X: " if there is actual content after it to reduce redundancy
   const match = cleaned.match(/^Bài\s*\d+\s*:\s*(.+)$/i);
@@ -76,6 +76,15 @@ const getBookInfo = (deck) => {
   const nameLower = deck.name.toLowerCase();
   const descLower = (deck.description || '').toLowerCase();
   
+  if (nameLower.includes('2220') || nameLower.includes('kanji master') || nameLower.includes('hán tự master') || nameLower.includes('kanji-master')) {
+    return {
+      id: '2220-kanji-master',
+      title: '2220 Chữ Hán JLPT Master',
+      japaneseTitle: '漢字マスター 2220',
+      description: 'Giáo trình Kanji đầy đủ phân chia theo cấp độ JLPT từ N5 tới N1.',
+    };
+  }
+
   if (nameLower.includes('minna') || nameLower.includes('nihongo') || descLower.includes('minna')) {
     return {
       id: 'minna',
@@ -156,6 +165,13 @@ const getBookLevelCardMeta = (bookId, level, category) => {
   if (isGrammar) typeText = 'Ngữ pháp';
   else if (isVocab) typeText = 'Từ vựng';
   else if (isKanji) typeText = 'Hán tự';
+
+  if (bookId === '2220-kanji-master') {
+    return {
+      topText: `漢字マスター N${level}`,
+      bottomDesc: `Học chữ Hán tự N${level} - Giáo trình 2220 Kanji Master`,
+    };
+  }
 
   if (bookId === 'minna') {
     if (level === 5) {
@@ -243,7 +259,7 @@ const groupDecksByBookAndLevel = (decks, category) => {
     booksMap[book.id].levels[level].push(deck);
   });
 
-  const BOOK_ORDER = ['minna', 'kanzen', 'soumatome', 'mimikara', 'try', 'genki', 'dekiru', 'other'];
+  const BOOK_ORDER = ['2220-kanji-master', 'minna', 'kanzen', 'soumatome', 'mimikara', 'try', 'genki', 'dekiru', 'other'];
 
   return Object.values(booksMap)
     .map((book) => {

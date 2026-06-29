@@ -30,6 +30,9 @@ const getBookInfo = (deck) => {
   const nameLower = deck.name.toLowerCase();
   const descLower = (deck.description || '').toLowerCase();
   
+  if (nameLower.includes('2220') || nameLower.includes('kanji master') || nameLower.includes('hán tự master') || nameLower.includes('kanji-master')) {
+    return { id: '2220-kanji-master', title: '2220 Chữ Hán JLPT Master' };
+  }
   if (nameLower.includes('minna') || nameLower.includes('nihongo') || descLower.includes('minna')) {
     return { id: 'minna', title: 'Minna no Nihongo' };
   }
@@ -264,6 +267,154 @@ function DeckEditModal({ isOpen, onClose, onSave, deck }) {
   );
 }
 
+function VocabDetailModal({ isOpen, onClose, onSpeak, onToggleStar, card }) {
+  const hanVietText = useMemo(() => {
+    if (!card) return '';
+    return getHanViet(card.front);
+  }, [card?.front]);
+
+  if (!isOpen || !card) return null;
+
+  const isStarred = card.progress?.[0]?.isStarred || false;
+
+  // Split example sentence if available
+  const noteMatch = card.example ? card.example.match(/__NOTE__:\s*([\s\S]*)$/) : null;
+  const exampleNote = noteMatch ? noteMatch[1].trim() : '';
+  const cleanExample = card.example ? card.example.replace(/__NOTE__:\s*[\s\S]*$/, '').trim() : '';
+
+  const exampleParts = cleanExample ? cleanExample.split('\n') : [];
+  const exampleJp = exampleParts[0] || '';
+  const exampleVi = exampleParts[1] || '';
+
+  return createPortal(
+    <div 
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in"
+      onClick={onClose}
+    >
+      <div 
+        className="relative w-full max-w-md bg-surface-container-lowest border border-outline-variant/40 sharp-shadow-lg rounded-2xl overflow-hidden p-6 sm:p-8 animate-scale-up"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Top Control Bar */}
+        <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center gap-2">
+            <span className="px-2.5 py-1 text-xs font-bold uppercase tracking-wider text-primary border border-primary/20 bg-primary/5 rounded-lg">
+              Từ vựng N{card.jlptLevel || 5}
+            </span>
+          </div>
+          <div className="flex items-center gap-1.5">
+            {onToggleStar && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onToggleStar();
+                }}
+                className={`p-2 hover:bg-surface-container rounded-full transition-colors border border-outline-variant/20 ${
+                  isStarred ? 'text-amber-500' : 'text-on-surface-variant hover:text-amber-500'
+                }`}
+                title={isStarred ? 'Bỏ đánh dấu sao' : 'Đánh dấu sao'}
+              >
+                <Star className={`w-4 h-4 ${isStarred ? 'fill-amber-500 text-amber-500' : ''}`} />
+              </button>
+            )}
+            <button
+              onClick={onClose}
+              className="p-2 hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors rounded-full"
+            >
+              <X className="w-5 h-5" />
+            </button>
+          </div>
+        </div>
+
+        {/* Word Presentation */}
+        <div className="text-center mb-6">
+          <div className="flex items-center justify-center gap-3">
+            <h3 className="font-jp font-black text-4xl sm:text-5xl text-on-surface select-text tracking-tight">
+              {card.front}
+            </h3>
+            {onSpeak && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onSpeak(card.front);
+                }}
+                className="p-2 bg-primary/10 hover:bg-primary/20 text-primary rounded-full transition-colors"
+                title="Phát âm từ"
+              >
+                <Volume2 className="w-5 h-5" />
+              </button>
+            )}
+          </div>
+          <div className="flex items-center justify-center gap-2 mt-3 flex-wrap">
+            <span className="text-lg font-bold text-primary font-jp select-text">
+              {card.romaji || '-'}
+            </span>
+            {hanVietText && (
+              <span className="text-xs font-black tracking-wider text-secondary bg-secondary/10 border border-secondary/20 px-2.5 py-0.5 rounded-lg uppercase">
+                {hanVietText}
+              </span>
+            )}
+          </div>
+        </div>
+
+        {/* Divider */}
+        <div className="border-t border-outline-variant/20 my-5" />
+
+        {/* Meaning / Translation */}
+        <div className="mb-6 text-left">
+          <h5 className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2 font-headline">
+            Ý nghĩa
+          </h5>
+          <p className="text-lg font-bold text-on-surface leading-relaxed select-text whitespace-pre-wrap">
+            {card.back}
+          </p>
+        </div>
+
+        {/* Example Sentence */}
+        {exampleJp && (
+          <div className="space-y-3 bg-surface-container-low/40 p-4 rounded-xl border border-outline-variant/20 text-left">
+            <h5 className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest font-headline">
+              Ví dụ minh họa
+            </h5>
+            <div className="space-y-2">
+              <div className="flex items-start justify-between gap-4">
+                <span 
+                  className="text-base text-on-surface font-jp leading-loose select-text flex-1"
+                  dangerouslySetInnerHTML={{ __html: annotateSentence(exampleJp) }}
+                />
+                {onSpeak && (
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onSpeak(exampleJp);
+                    }}
+                    className="p-1.5 bg-surface-container/40 hover:bg-surface-container-high rounded-lg text-on-surface-variant hover:text-primary transition-colors shrink-0 border border-outline-variant/20 self-start"
+                    title="Nghe câu ví dụ"
+                  >
+                    <Volume2 className="w-3.5 h-3.5" />
+                  </button>
+                )}
+              </div>
+              {exampleVi && (
+                <p className="text-sm text-on-surface-variant select-text leading-relaxed font-medium">
+                  {exampleVi}
+                </p>
+              )}
+              {exampleNote && (
+                <div className="mt-2 text-xs text-amber-800 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 border border-amber-200/50 dark:border-amber-900/30 px-3 py-1.5 rounded-lg select-text font-medium flex items-start gap-1.5">
+                  <span className="font-bold text-amber-600 dark:text-amber-400 shrink-0">Chú ý:</span>
+                  <span>{exampleNote.replace(/^Chú ý:\s*/i, '')}</span>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>,
+    document.body
+  );
+}
+
 export default function DeckDetailPage() {
   const { deckId } = useParams();
   const navigate = useNavigate();
@@ -278,6 +429,13 @@ export default function DeckDetailPage() {
   const [showEditDeck, setShowEditDeck] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [activeKanjiCard, setActiveKanjiCard] = useState(null);
+  const [activeVocabCard, setActiveVocabCard] = useState(null);
+
+  const currentActiveVocabCard = useMemo(() => {
+    if (!activeVocabCard || !deck?.cards) return null;
+    return deck.cards.find(c => c.id === activeVocabCard.id) || activeVocabCard;
+  }, [activeVocabCard, deck?.cards]);
+
   const [forking, setForking] = useState(false);
   const [viewMode, setViewMode] = useState('card');
   const [showStarredOnly, setShowStarredOnly] = useState(false);
@@ -1006,7 +1164,8 @@ export default function DeckDetailPage() {
                 return (
                   <div
                     key={card.id}
-                    className="vocab-card h-full rounded-2xl p-5 sm:p-6 shadow-sm flex flex-col relative text-on-surface border-l-[6px] border-l-primary/70 dark:border-l-primary border border-outline-variant/20"
+                    onClick={() => setActiveVocabCard(card)}
+                    className="vocab-card h-full rounded-2xl p-5 sm:p-6 shadow-sm flex flex-col relative text-on-surface border-l-[6px] border-l-primary/70 dark:border-l-primary border border-outline-variant/20 cursor-pointer"
                   >
                     {/* Top Row: Star & Volume controls */}
                     <div className="absolute top-4 right-4 flex items-center gap-2 z-10">
@@ -1110,9 +1269,12 @@ export default function DeckDetailPage() {
 
                       {/* Edit/Delete Admin overlay */}
                       {canModify && (
-                        <div className="flex gap-1 shrink-0 self-end">
+                        <div className="flex gap-1 shrink-0 self-end" onClick={(e) => e.stopPropagation()}>
                           <button
-                            onClick={() => setEditingCard(card)}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setEditingCard(card);
+                            }}
                             className="p-1.5 text-on-surface-variant hover:text-primary hover:bg-surface-container rounded-lg transition-colors border border-outline-variant/20 bg-surface-container-lowest shadow-sm"
                             title="Sửa thẻ"
                           >
@@ -1121,7 +1283,8 @@ export default function DeckDetailPage() {
                             </svg>
                           </button>
                           <button
-                            onClick={() => {
+                            onClick={(e) => {
+                              e.stopPropagation();
                               if (confirm('Bạn có chắc muốn xóa thẻ này?')) {
                                 deleteCardMutation.mutate(card.id);
                               }
@@ -1158,7 +1321,11 @@ export default function DeckDetailPage() {
                   </thead>
                   <tbody className="divide-y divide-outline-variant/20">
                     {filteredCards?.map((card, index) => (
-                      <tr key={card.id} className="hover:bg-surface-container/20 transition-colors">
+                      <tr 
+                        key={card.id} 
+                        onClick={() => setActiveVocabCard(card)}
+                        className="hover:bg-surface-container/20 transition-colors cursor-pointer"
+                      >
                         <td className="px-6 py-4 text-xs font-semibold text-on-surface-variant tabular-nums">{startStt + index}</td>
                         <td className="px-6 py-4 font-jp font-bold text-xl text-on-surface">{card.front}</td>
                         <td className="px-6 py-4 text-sm font-medium text-on-surface-variant font-jp">{card.romaji || '-'}</td>
@@ -1174,9 +1341,12 @@ export default function DeckDetailPage() {
                         </td>
                         {canModify && (
                           <td className="px-6 py-4 text-right">
-                            <div className="flex justify-end gap-1">
+                            <div className="flex justify-end gap-1" onClick={(e) => e.stopPropagation()}>
                               <button
-                                onClick={() => setEditingCard(card)}
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  setEditingCard(card);
+                                }}
                                 className="p-1.5 text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container rounded"
                               >
                                 <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
@@ -1258,6 +1428,16 @@ export default function DeckDetailPage() {
           card={activeKanjiCard}
           onClose={() => setActiveKanjiCard(null)}
           accentColor="var(--primary)"
+        />
+      )}
+
+      {activeVocabCard && (
+        <VocabDetailModal
+          isOpen={!!activeVocabCard}
+          onClose={() => setActiveVocabCard(null)}
+          onSpeak={speakJapanese}
+          onToggleStar={() => toggleStarMutation.mutate(activeVocabCard.id)}
+          card={currentActiveVocabCard}
         />
       )}
 

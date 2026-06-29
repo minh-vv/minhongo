@@ -3,10 +3,10 @@ import PublicContentPage from '../components/PublicContentPage';
 export default function KanjiPage() {
   return (
     <PublicContentPage
-      title="Chữ Hán"
-      subtitle="Luyện tập chữ Hán theo các cấp độ JLPT."
+      title="Hán tự (Kanji)"
+      subtitle="Tra cứu cấu trúc bộ thủ, tập viết nét trực tuyến và luyện tập trí nhớ dài hạn qua Flashcard & SRS."
       category="HANTU"
-      accentColor="var(--primary)"
+      accentColor="#e65100" // Premium orange accent for Kanji
       ghostChar="漢"
     />
   );

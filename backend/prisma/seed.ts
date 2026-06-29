@@ -1,6 +1,8 @@
 import { PrismaClient, DeckCategory, LessonDeckRole, SkillType } from '@prisma/client';
 import * as bcrypt from 'bcrypt';
 import 'dotenv/config';
+import * as fs from 'fs';
+import * as path from 'path';
 import { MINNA_N5_LESSONS } from './seed/minna-n5';
 
 const prisma = new PrismaClient();
@@ -39,50 +41,74 @@ async function main() {
   console.log('User:', user.email);
 
   // ========== HÁN TỰ (Kanji) ==========
-  const kanjiDeckN5 = await prisma.deck.upsert({
-    where: { id: 'hantu-jlpt-n5' },
-    update: {},
-    create: {
-      id: 'hantu-jlpt-n5',
-      name: 'Hán tự N5',
-      description: '213 chữ Hán tự N5 - JLPT N5 Kanji',
-      isPublic: true,
-      category: DeckCategory.HANTU,
-      jlptLevel: 5,
-      userId: user.id,
-    },
+  console.log('Đang dọn dẹp các bộ thẻ Hán tự cũ...');
+  await prisma.deck.deleteMany({
+    where: {
+      id: {
+        in: ['hantu-jlpt-n1', 'hantu-jlpt-n2', 'hantu-jlpt-n3', 'hantu-jlpt-n4', 'hantu-jlpt-n5']
+      }
+    }
   });
 
-  const kanjiData = [
-    { front: '日', back: 'Nhật, ngày', romaji: 'nichi, hi', jlptLevel: 5 },
-    { front: '月', back: 'Nguyệt, tháng', romaji: 'getsu, tsuki', jlptLevel: 5 },
-    { front: '火', back: 'Hỏa, lửa', romaji: 'ka, hi', jlptLevel: 5 },
-    { front: '水', back: 'Thủy, nước', romaji: 'sui, mizu', jlptLevel: 5 },
-    { front: '木', back: 'Mộc, cây', romaji: 'moku, ki', jlptLevel: 5 },
-    { front: '金', back: 'Kim, vàng', romaji: 'kin, kane', jlptLevel: 5 },
-    { front: '土', back: 'Thổ, đất', romaji: 'do, tsuchi', jlptLevel: 5 },
-    { front: '人', back: 'Nhân, người', romaji: 'jin, hito', jlptLevel: 5 },
-    { front: '大', back: 'Đại, lớn', romaji: 'dai, ōkii', jlptLevel: 5 },
-    { front: '小', back: 'Tiểu, nhỏ', romaji: 'shō, chiisai', jlptLevel: 5 },
-  ];
+  console.log('Đang nạp dữ liệu Kanji từ file JSON...');
+  for (let lvl = 1; lvl <= 5; lvl++) {
+    const jsonPath = path.join(__dirname, `data/kanji_n${lvl}.json`);
+    if (fs.existsSync(jsonPath)) {
+      const fileContent = fs.readFileSync(jsonPath, 'utf8');
+      const kanjiData = JSON.parse(fileContent);
+      
+      const cardsPerLesson = 10;
+      const totalLessons = Math.ceil(kanjiData.length / cardsPerLesson);
+      console.log(`Đang seed ${kanjiData.length} thẻ Kanji vào ${totalLessons} bài học cho JLPT N${lvl}...`);
+      
+      for (let i = 0; i < totalLessons; i++) {
+        const lessonNum = i + 1;
+        const deckId = `hantu-jlpt-n${lvl}-bai-${lessonNum}`;
+        const deckName = `2220 Kanji Master N${lvl} — Bài ${lessonNum}`;
+        
+        const kanjiDeck = await prisma.deck.upsert({
+          where: { id: deckId },
+          update: {
+            name: deckName,
+            description: `Bài học ${lessonNum} của giáo trình 2220 Kanji Master N${lvl}. Chữ Hán từ số ${i * cardsPerLesson + 1} đến ${Math.min((i + 1) * cardsPerLesson, kanjiData.length)}.`,
+            isPublic: true,
+            category: DeckCategory.HANTU,
+            jlptLevel: lvl,
+          },
+          create: {
+            id: deckId,
+            name: deckName,
+            description: `Bài học ${lessonNum} của giáo trình 2220 Kanji Master N${lvl}. Chữ Hán từ số ${i * cardsPerLesson + 1} đến ${Math.min((i + 1) * cardsPerLesson, kanjiData.length)}.`,
+            isPublic: true,
+            category: DeckCategory.HANTU,
+            jlptLevel: lvl,
+            userId: admin.id,
+          },
+        });
 
-  for (const kanji of kanjiData) {
-    await prisma.card.upsert({
-      where: { id: `hantu-${kanji.front}` },
-      update: {},
-      create: {
-        id: `hantu-${kanji.front}`,
-        front: kanji.front,
-        back: kanji.back,
-        romaji: kanji.romaji,
-        jlptLevel: kanji.jlptLevel,
-        example: `${kanji.front}曜日 (${kanji.romaji.split(',')[0]}youbi)`,
-        deckId: kanjiDeckN5.id,
-      },
-    });
+        const lessonCards = kanjiData.slice(i * cardsPerLesson, (i + 1) * cardsPerLesson);
+        for (const kanji of lessonCards) {
+          await prisma.card.upsert({
+            where: { id: `hantu-n${lvl}-${kanji.front}` },
+            update: {
+              back: kanji.back,
+              romaji: kanji.romaji,
+              jlptLevel: kanji.jlptLevel,
+              deckId: kanjiDeck.id,
+            },
+            create: {
+              id: `hantu-n${lvl}-${kanji.front}`,
+              front: kanji.front,
+              back: kanji.back,
+              romaji: kanji.romaji,
+              jlptLevel: kanji.jlptLevel,
+              deckId: kanjiDeck.id,
+            },
+          });
+        }
+      }
+    }
   }
-
-  console.log(`Created ${kanjiData.length} kanji cards`);
 
   // ========== TỪ VỰNG (Vocabulary) ==========
   const vocabDeckN5 = await prisma.deck.upsert({

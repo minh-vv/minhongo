@@ -1,0 +1,482 @@
+[
+  {
+    "front": "一",
+    "back": "Ý nghĩa: Một\nÂm Hán Việt: Nhất\nBộ thủ: 一 (Nhất)\nOnyomi (Âm On): イチ\nKunyomi (Âm Kun): ひとつ\nVí dụ Onyomi:\n  - 一月 (いちがつ: tháng 1),  一番 (いちばん: số 1)\nVí dụ Kunyomi:\n  - 一つ (ひとつ: một cái),  一人 (ひとり: một người)",
+    "romaji": "Nhất",
+    "jlptLevel": 5
+  },
+  {
+    "front": "七",
+    "back": "Ý nghĩa: Bảy\nÂm Hán Việt: Thất\nBộ thủ: 一 (Nhất)\nOnyomi (Âm On): シチ\nKunyomi (Âm Kun): なな\nVí dụ Onyomi:\n  - 七月 (しちがつ: tháng 7)\nVí dụ Kunyomi:\n  - 七つ (ななつ: bảy cái),  七日 (なのか: ngày 7)",
+    "romaji": "Thất",
+    "jlptLevel": 5
+  },
+  {
+    "front": "万",
+    "back": "Ý nghĩa: Mười nghìn\nÂm Hán Việt: Vạn\nBộ thủ: 一 (Nhất)\nOnyomi (Âm On): マン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 一万 (いちまん: mười nghìn)",
+    "romaji": "Vạn",
+    "jlptLevel": 5
+  },
+  {
+    "front": "三",
+    "back": "Ý nghĩa: Ba\nÂm Hán Việt: Tam\nBộ thủ: 一 (Nhất)\nOnyomi (Âm On): サン\nKunyomi (Âm Kun): みっつ\nVí dụ Onyomi:\n  - 三月 (さんがつ: tháng 3)\nVí dụ Kunyomi:\n  - 三つ (みっつ: ba cái),  三日 (みっか: ngày 3)",
+    "romaji": "Tam",
+    "jlptLevel": 5
+  },
+  {
+    "front": "上",
+    "back": "Ý nghĩa: Trên, thượng\nÂm Hán Việt: Thượng\nBộ thủ: 一 (Nhất)\nOnyomi (Âm On): ジョウ\nKunyomi (Âm Kun): うえ\nVí dụ Onyomi:\n  - 上手 (じょうず: giỏi)\nVí dụ Kunyomi:\n  - 上がる (あがる: leo lên),  上げる (あげる: nâng lên)",
+    "romaji": "Thượng",
+    "jlptLevel": 5
+  },
+  {
+    "front": "下",
+    "back": "Ý nghĩa: Dưới, hạ\nÂm Hán Việt: Hạ\nBộ thủ: 一 (Nhất)\nOnyomi (Âm On): カ、ゲ\nKunyomi (Âm Kun): した\nVí dụ Onyomi:\n  - 地下 (ちか: dưới đất)\nVí dụ Kunyomi:\n  - 下がる (さがる: hạ xuống),  下さい (ください: hãy cho tôi)",
+    "romaji": "Hạ",
+    "jlptLevel": 5
+  },
+  {
+    "front": "中",
+    "back": "Ý nghĩa: Trong, giữa\nÂm Hán Việt: Trung\nBộ thủ: 丨 (Cổn)\nOnyomi (Âm On): チュウ\nKunyomi (Âm Kun): なか\nVí dụ Onyomi:\n  - 中学校 (ちゅうがっこう: trường THCS)\nVí dụ Kunyomi:\n  - 中 (なか: bên trong)",
+    "romaji": "Trung",
+    "jlptLevel": 5
+  },
+  {
+    "front": "九",
+    "back": "Ý nghĩa: Chín\nÂm Hán Việt: Cửu\nBộ thủ: 丨 (Cổn)\nOnyomi (Âm On): キュウ\nKunyomi (Âm Kun): ここの\nVí dụ Onyomi:\n  - 九月 (くがつ: tháng 9)\nVí dụ Kunyomi:\n  - 九つ (ここのつ: chín cái)",
+    "romaji": "Cửu",
+    "jlptLevel": 5
+  },
+  {
+    "front": "二",
+    "back": "Ý nghĩa: Hai\nÂm Hán Việt: Nhị\nBộ thủ: 二 (Nhị)\nOnyomi (Âm On): ニ\nKunyomi (Âm Kun): ふた\nVí dụ Onyomi:\n  - 二月 (にがつ: tháng 2)\nVí dụ Kunyomi:\n  - 二つ (ふたつ: hai cái)",
+    "romaji": "Nhị",
+    "jlptLevel": 5
+  },
+  {
+    "front": "五",
+    "back": "Ý nghĩa: Năm\nÂm Hán Việt: Ngũ\nBộ thủ: 二 (Nhị)\nOnyomi (Âm On): ゴ\nKunyomi (Âm Kun): いつ\nVí dụ Onyomi:\n  - 五月 (ごがつ: tháng 5)\nVí dụ Kunyomi:\n  - 五つ (いつつ: năm cái),  五日 (いつか: ngày 5)",
+    "romaji": "Ngũ",
+    "jlptLevel": 5
+  },
+  {
+    "front": "人",
+    "back": "Ý nghĩa: Người\nÂm Hán Việt: Nhân\nBộ thủ: 人 (Nhân)\nOnyomi (Âm On): ジン、ニン\nKunyomi (Âm Kun): ひと\nVí dụ Onyomi:\n  - 人口 (じんこう: dân số)\nVí dụ Kunyomi:\n  - 人 (ひと: người),  大人 (おとな: người lớn)",
+    "romaji": "Nhân",
+    "jlptLevel": 5
+  },
+  {
+    "front": "今",
+    "back": "Ý nghĩa: Hiện tại, bây giờ\nÂm Hán Việt: Kim\nBộ thủ: 人 (Nhân)\nOnyomi (Âm On): コン\nKunyomi (Âm Kun): いま\nVí dụ Onyomi:\n  - 今月 (こんげつ: tháng này)\nVí dụ Kunyomi:\n  - 今 (いま: bây giờ)",
+    "romaji": "Kim",
+    "jlptLevel": 5
+  },
+  {
+    "front": "休",
+    "back": "Ý nghĩa: Nghỉ ngơi\nÂm Hán Việt: Hưu\nBộ thủ: 人 (Nhân)\nOnyomi (Âm On): キュウ\nKunyomi (Âm Kun): やすむ\nVí dụ Onyomi:\n  - 休日 (きゅうじつ: ngày nghỉ)\nVí dụ Kunyomi:\n  - 休む (やすむ: nghỉ),  休み (やすみ: kỳ nghỉ)",
+    "romaji": "Hưu",
+    "jlptLevel": 5
+  },
+  {
+    "front": "何",
+    "back": "Ý nghĩa: Gì, cái gì\nÂm Hán Việt: Hà\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): カ\nKunyomi (Âm Kun): なに、なん\nVí dụ Onyomi:\n  - 何人 (なんにん: bao nhiêu người)\nVí dụ Kunyomi:\n  - 何 (なに: cái gì),何時 (なんじ: mấy giờ)",
+    "romaji": "Hà",
+    "jlptLevel": 5
+  },
+  {
+    "front": "先",
+    "back": "Ý nghĩa: Trước, tiên\nÂm Hán Việt: Tiên\nBộ thủ: 儿 (Nhân)\nOnyomi (Âm On): セン\nKunyomi (Âm Kun): さき\nVí dụ Onyomi:\n  - 先生 (せんせい: giáo viên)\nVí dụ Kunyomi:\n  - 先 (さき: trước, trước tiên)",
+    "romaji": "Tiên",
+    "jlptLevel": 5
+  },
+  {
+    "front": "入",
+    "back": "Ý nghĩa: Vào\nÂm Hán Việt: Nhập\nBộ thủ: 入 (Nhập)\nOnyomi (Âm On): ニュウ\nKunyomi (Âm Kun): いれる\nVí dụ Onyomi:\n  - 入学 (にゅうがく: nhập học)\nVí dụ Kunyomi:\n  - 入れる (いれる: đưa vào),  入る (はいる: vào)",
+    "romaji": "Nhập",
+    "jlptLevel": 5
+  },
+  {
+    "front": "八",
+    "back": "Ý nghĩa: Tám\nÂm Hán Việt: Bát\nBộ thủ: 八 (Bát)\nOnyomi (Âm On): ハチ\nKunyomi (Âm Kun): やっつ\nVí dụ Onyomi:\n  - 八月 (はちがつ: tháng 8)\nVí dụ Kunyomi:\n  - 八つ (やっつ: tám cái),  八日 (ようか: ngày 8)",
+    "romaji": "Bát",
+    "jlptLevel": 5
+  },
+  {
+    "front": "六",
+    "back": "Ý nghĩa: Sáu\nÂm Hán Việt: Lục\nBộ thủ: 八 (Bát)\nOnyomi (Âm On): ロク\nKunyomi (Âm Kun): むっつ\nVí dụ Onyomi:\n  - 六月 (ろくがつ: tháng 6)\nVí dụ Kunyomi:\n  - 六つ (むっつ: sáu cái),  六日 (むいか: ngày 6)",
+    "romaji": "Lục",
+    "jlptLevel": 5
+  },
+  {
+    "front": "円",
+    "back": "Ý nghĩa: Tiền Yên, vòng tròn\nÂm Hán Việt: Viên\nBộ thủ: 冂 (Quynh)\nOnyomi (Âm On): エン\nKunyomi (Âm Kun): まる\nVí dụ Onyomi:\n  - 一円 (いちえん: một yên)\nVí dụ Kunyomi:\n  - 円い (まるい: hình tròn)",
+    "romaji": "Viên",
+    "jlptLevel": 5
+  },
+  {
+    "front": "出",
+    "back": "Ý nghĩa: Ra, xuất\nÂm Hán Việt: Xuất\nBộ thủ: 山 (Sơn)\nOnyomi (Âm On): シュツ\nKunyomi (Âm Kun): でる\nVí dụ Onyomi:\n  - 出発 (しゅっぱつ: khởi hành)\nVí dụ Kunyomi:\n  - 出る(でる: ra ngoài),  出す (だす: đưa ra)",
+    "romaji": "Xuất",
+    "jlptLevel": 5
+  },
+  {
+    "front": "分",
+    "back": "Ý nghĩa: Phút, chia\nÂm Hán Việt: Phân\nBộ thủ: 刀 (Đao)\nOnyomi (Âm On): ブン、フン\nKunyomi (Âm Kun): わける\nVí dụ Onyomi:\n  - 五分 (ごふん: năm phút)\nVí dụ Kunyomi:\n  - 分ける(わける: chia ra)",
+    "romaji": "Phân",
+    "jlptLevel": 5
+  },
+  {
+    "front": "前",
+    "back": "Ý nghĩa: Trước\nÂm Hán Việt: Tiền\nBộ thủ: 刂 (Đao)\nOnyomi (Âm On): ゼン\nKunyomi (Âm Kun): まえ\nVí dụ Onyomi:\n  - 午前 (ごぜん: buổi sáng)\nVí dụ Kunyomi:\n  - 前 (まえ: phía trước)",
+    "romaji": "Tiền",
+    "jlptLevel": 5
+  },
+  {
+    "front": "北",
+    "back": "Ý nghĩa: Phía bắc\nÂm Hán Việt: Bắc\nBộ thủ: 匕 (Chuỷ)\nOnyomi (Âm On): ホク\nKunyomi (Âm Kun): きた\nVí dụ Onyomi:\n  - 北風 (ほくふう: gió bắc)\nVí dụ Kunyomi:\n  - 北 (きた: phía bắc)",
+    "romaji": "Bắc",
+    "jlptLevel": 5
+  },
+  {
+    "front": "十",
+    "back": "Ý nghĩa: Mười\nÂm Hán Việt: Thập\nBộ thủ: 十 (Thập)\nOnyomi (Âm On): ジュウ\nKunyomi (Âm Kun): とお\nVí dụ Onyomi:\n  - 十月 (じゅうがつ: tháng 10)\nVí dụ Kunyomi:\n  - 十 (とお: mười cái),  十日 (とおか: ngày 10)",
+    "romaji": "Thập",
+    "jlptLevel": 5
+  },
+  {
+    "front": "千",
+    "back": "Ý nghĩa: Nghìn\nÂm Hán Việt: Thiên\nBộ thủ: 十 (Thập)\nOnyomi (Âm On): セン\nKunyomi (Âm Kun): ち\nVí dụ Onyomi:\n  - 千円 (せんえん: nghìn yên)\nVí dụ Kunyomi:\n  - 千 (ち: một nghìn)",
+    "romaji": "Thiên",
+    "jlptLevel": 5
+  },
+  {
+    "front": "午",
+    "back": "Ý nghĩa: Trưa\nÂm Hán Việt: Ngọ\nBộ thủ: 十 (Thập)\nOnyomi (Âm On): ゴ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 午後 (ごご: buổi chiều)",
+    "romaji": "Ngọ",
+    "jlptLevel": 5
+  },
+  {
+    "front": "半",
+    "back": "Ý nghĩa: Một nửa\nÂm Hán Việt: Bán\nBộ thủ: 十 (Thập)\nOnyomi (Âm On): ハン\nKunyomi (Âm Kun): なかば\nVí dụ Onyomi:\n  - 半分 (はんぶん: một nửa)\nVí dụ Kunyomi:\n  - 半ば (なかば: giữa)",
+    "romaji": "Bán",
+    "jlptLevel": 5
+  },
+  {
+    "front": "南",
+    "back": "Ý nghĩa: Phía nam\nÂm Hán Việt: Nam\nBộ thủ: 十 (Thập)\nOnyomi (Âm On): ナン\nKunyomi (Âm Kun): みなみ\nVí dụ Onyomi:\n  - 南米 (なんべい: Nam Mỹ)\nVí dụ Kunyomi:\n  - 南 (みなみ: phía nam)",
+    "romaji": "Nam",
+    "jlptLevel": 5
+  },
+  {
+    "front": "友",
+    "back": "Ý nghĩa: Bạn bè\nÂm Hán Việt: Hữu\nBộ thủ: 又 (Hựu)\nOnyomi (Âm On): ユウ\nKunyomi (Âm Kun): とも\nVí dụ Onyomi:\n  - 友人 (ゆうじん: bạn bè)\nVí dụ Kunyomi:\n  - 友達 (ともだち: bạn bè)",
+    "romaji": "Hữu",
+    "jlptLevel": 5
+  },
+  {
+    "front": "右",
+    "back": "Ý nghĩa: Bên phải\nÂm Hán Việt: Hữu\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): ウ\nKunyomi (Âm Kun): みぎ\nVí dụ Onyomi:\n  - 右側 (うそく: bên phải)\nVí dụ Kunyomi:\n  - 右 (みぎ: phải)",
+    "romaji": "Hữu",
+    "jlptLevel": 5
+  },
+  {
+    "front": "名",
+    "back": "Ý nghĩa: Tên, danh\nÂm Hán Việt: Danh\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): メ イ、 ミョウ\nKunyomi (Âm Kun): な\nVí dụ Onyomi:\n  - 有名 (ゆうめい: nổi tiếng)\nVí dụ Kunyomi:\n  - 名前 (なまえ: tên)",
+    "romaji": "Danh",
+    "jlptLevel": 5
+  },
+  {
+    "front": "四",
+    "back": "Ý nghĩa: Bốn\nÂm Hán Việt: Tứ\nBộ thủ: 囗 (Vi)\nOnyomi (Âm On): シ\nKunyomi (Âm Kun): よん、よ\nVí dụ Onyomi:\n  - 四月 (しがつ: tháng 4)\nVí dụ Kunyomi:\n  - 四つ (よっつ: bốn cái),  四人 (よにん: bốn người)",
+    "romaji": "Tứ",
+    "jlptLevel": 5
+  },
+  {
+    "front": "国",
+    "back": "Ý nghĩa: Quốc gia\nÂm Hán Việt: Quốc\nBộ thủ: 囗 (Vi)\nOnyomi (Âm On): コク\nKunyomi (Âm Kun): くに\nVí dụ Onyomi:\n  - 国際 (こくさい: quốc tế)\nVí dụ Kunyomi:\n  - 国 (くに: quốc gia)",
+    "romaji": "Quốc",
+    "jlptLevel": 5
+  },
+  {
+    "front": "土",
+    "back": "Ý nghĩa: Đất\nÂm Hán Việt: Thổ\nBộ thủ: 土 (Thổ)\nOnyomi (Âm On): ド、ト\nKunyomi (Âm Kun): つち\nVí dụ Onyomi:\n  - 土曜日 (どようび: thứ bảy)\nVí dụ Kunyomi:\n  - 土 (つち: đất)",
+    "romaji": "Thổ",
+    "jlptLevel": 5
+  },
+  {
+    "front": "外",
+    "back": "Ý nghĩa: Ngoài, bên ngoài\nÂm Hán Việt: Ngoại\nBộ thủ: 夕 (Tịch)\nOnyomi (Âm On): ガイ\nKunyomi (Âm Kun): そと\nVí dụ Onyomi:\n  - 外国 (がいこく: nước ngoài)\nVí dụ Kunyomi:\n  - 外 (そと: bên ngoài)",
+    "romaji": "Ngoại",
+    "jlptLevel": 5
+  },
+  {
+    "front": "大",
+    "back": "Ý nghĩa: To, lớn\nÂm Hán Việt: Đại\nBộ thủ: 大 (Đại)\nOnyomi (Âm On): ダ イ、タイ\nKunyomi (Âm Kun): おお\nVí dụ Onyomi:\n  - 大学 (だいがく: đại học),  大人 (だ いじん: người lớn)\nVí dụ Kunyomi:\n  - 大きい (おおきい: lớn)",
+    "romaji": "Đại",
+    "jlptLevel": 5
+  },
+  {
+    "front": "天",
+    "back": "Ý nghĩa: Trời, thiên\nÂm Hán Việt: Thiên\nBộ thủ: 大 (Đại)\nOnyomi (Âm On): テン\nKunyomi (Âm Kun): あめ、あま\nVí dụ Onyomi:\n  - 天気 (てんき: thời tiết),  天国 (てんごく: thiên đường)\nVí dụ Kunyomi:\n  - 天 (あめ: trời)",
+    "romaji": "Thiên",
+    "jlptLevel": 5
+  },
+  {
+    "front": "女",
+    "back": "Ý nghĩa: Phụ nữ\nÂm Hán Việt: Nữ\nBộ thủ: 女 (Nữ)\nOnyomi (Âm On): ジョ\nKunyomi (Âm Kun): おんな\nVí dụ Onyomi:\n  - 女性 (じょせい: phụ nữ)\nVí dụ Kunyomi:\n  - 女の子 (おんなのこ: cô bé)",
+    "romaji": "Nữ",
+    "jlptLevel": 5
+  },
+  {
+    "front": "子",
+    "back": "Ý nghĩa: Con, trẻ con\nÂm Hán Việt: Tử\nBộ thủ: 子 (Tử)\nOnyomi (Âm On): シ\nKunyomi (Âm Kun): こ\nVí dụ Onyomi:\n  - 子供 (こども: trẻ em)\nVí dụ Kunyomi:\n  - 子 (こ: con)",
+    "romaji": "Tử",
+    "jlptLevel": 5
+  },
+  {
+    "front": "学",
+    "back": "Ý nghĩa: Học\nÂm Hán Việt: Học\nBộ thủ: 子 (Tử)\nOnyomi (Âm On): ガク\nKunyomi (Âm Kun): まなぶ\nVí dụ Onyomi:\n  - 学校 (がっこう: trường học),  学生 (がくせい: học sinh)\nVí dụ Kunyomi:\n  - 学ぶ (まなぶ: học)",
+    "romaji": "Học",
+    "jlptLevel": 5
+  },
+  {
+    "front": "小",
+    "back": "Ý nghĩa: Nhỏ\nÂm Hán Việt: Tiểu\nBộ thủ: 小 (Tiểu)\nOnyomi (Âm On): ショウ\nKunyomi (Âm Kun): ちいさい\nVí dụ Onyomi:\n  - 小学校 (しょうがっこう: tiểu học)\nVí dụ Kunyomi:\n  - 小さい (ちいさい: nhỏ),  小人 (こびと: người lùn)",
+    "romaji": "Tiểu",
+    "jlptLevel": 5
+  },
+  {
+    "front": "山",
+    "back": "Ý nghĩa: Núi\nÂm Hán Việt: Sơn\nBộ thủ: 山 (Sơn)\nOnyomi (Âm On): サン\nKunyomi (Âm Kun): やま\nVí dụ Onyomi:\n  - 火山 (かざん: núi lửa)\nVí dụ Kunyomi:\n  - 山 (やま: núi)",
+    "romaji": "Sơn",
+    "jlptLevel": 5
+  },
+  {
+    "front": "川",
+    "back": "Ý nghĩa: Sông\nÂm Hán Việt: Xuyên\nBộ thủ: 川 (Xuyên)\nOnyomi (Âm On): セン\nKunyomi (Âm Kun): かわ\nVí dụ Onyomi:\n  - 河川 (かせん: sông ngòi)\nVí dụ Kunyomi:\n  - 川 (かわ: sông)",
+    "romaji": "Xuyên",
+    "jlptLevel": 5
+  },
+  {
+    "front": "左",
+    "back": "Ý nghĩa: Bên trái\nÂm Hán Việt: Tả\nBộ thủ: 工 (Công)\nOnyomi (Âm On): サ\nKunyomi (Âm Kun): ひだり\nVí dụ Onyomi:\n  - 左右 (さゆう: trái phải)\nVí dụ Kunyomi:\n  - 左 (ひだり: trái)",
+    "romaji": "Tả",
+    "jlptLevel": 5
+  },
+  {
+    "front": "年",
+    "back": "Ý nghĩa: Năm\nÂm Hán Việt: Niên\nBộ thủ: 干 (Can)\nOnyomi (Âm On): ネン\nKunyomi (Âm Kun): とし\nVí dụ Onyomi:\n  - 年月 (ねんげつ: năm tháng),  年生 (ねんせい: học sinh năm...)\nVí dụ Kunyomi:\n  - 年 (とし: năm)",
+    "romaji": "Niên",
+    "jlptLevel": 5
+  },
+  {
+    "front": "後",
+    "back": "Ý nghĩa: Sau\nÂm Hán Việt: Hậu\nBộ thủ: 彳 (Xích)\nOnyomi (Âm On): ゴ\nKunyomi (Âm Kun): あと\nVí dụ Onyomi:\n  - 午後 (ごご: buổi chiều),  後輩 (こ うはい: hậu bối)\nVí dụ Kunyomi:\n  - 後 (あと: sau),後ろ (うしろ: đằng sau)",
+    "romaji": "Hậu",
+    "jlptLevel": 5
+  },
+  {
+    "front": "日",
+    "back": "Ý nghĩa: Ngày, mặt trời\nÂm Hán Việt: Nhật\nBộ thủ: 日 (Nhật)\nOnyomi (Âm On): ニ チ、ジツ\nKunyomi (Âm Kun): ひ、か\nVí dụ Onyomi:\n  - 日曜日 (にちようび: chủ nhật), 日本 (にほん: Nhật Bản)\nVí dụ Kunyomi:\n  - 日 (ひ: mặt trời),  三日 (みっか: ngày 3)",
+    "romaji": "Nhật",
+    "jlptLevel": 5
+  },
+  {
+    "front": "時",
+    "back": "Ý nghĩa: Thời gian, giờ\nÂm Hán Việt: Thời\nBộ thủ: 日 (Nhật)\nOnyomi (Âm On): ジ\nKunyomi (Âm Kun): とき\nVí dụ Onyomi:\n  - 時間 (じかん: thời gian),  時計 (とけい: đồng hồ)\nVí dụ Kunyomi:\n  - 時 (とき: khi, thời)",
+    "romaji": "Thời",
+    "jlptLevel": 5
+  },
+  {
+    "front": "書",
+    "back": "Ý nghĩa: Viết, sách\nÂm Hán Việt: Thư\nBộ thủ: 曰 (Viết)\nOnyomi (Âm On): ショ\nKunyomi (Âm Kun): かく\nVí dụ Onyomi:\n  - 図書館 (としょかん: thư viện)\nVí dụ Kunyomi:\n  - 書く (かく: viết)",
+    "romaji": "Thư",
+    "jlptLevel": 5
+  },
+  {
+    "front": "月",
+    "back": "Ý nghĩa: Tháng, mặt trăng\nÂm Hán Việt: Nguyệt\nBộ thủ: 月 (Nguyệt)\nOnyomi (Âm On): ゲ ツ、ガツ\nKunyomi (Âm Kun): つき\nVí dụ Onyomi:\n  - 一月 (いちがつ: tháng 1),  今月 (こんげつ: tháng này)\nVí dụ Kunyomi:\n  - 月 (つき: mặt trăng)",
+    "romaji": "Nguyệt",
+    "jlptLevel": 5
+  },
+  {
+    "front": "木",
+    "back": "Ý nghĩa: Cây\nÂm Hán Việt: Mộc\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): モ ク、ボク\nKunyomi (Âm Kun): き\nVí dụ Onyomi:\n  - 木曜日 (もくようび: thứ năm)\nVí dụ Kunyomi:\n  - 木 (き: cây)",
+    "romaji": "Mộc",
+    "jlptLevel": 5
+  },
+  {
+    "front": "本",
+    "back": "Ý nghĩa: Sách, nguồn\nÂm Hán Việt: Bản\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): ホン\nKunyomi (Âm Kun): もと\nVí dụ Onyomi:\n  - 本屋 (ほんや: hiệu sách),  日本 (にほん: Nhật Bản)\nVí dụ Kunyomi:\n  - 本 (もと: nguồn gốc)",
+    "romaji": "Bản",
+    "jlptLevel": 5
+  },
+  {
+    "front": "来",
+    "back": "Ý nghĩa: Đến\nÂm Hán Việt: Lai\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): ライ\nKunyomi (Âm Kun): くる\nVí dụ Onyomi:\n  - 来月 (らいげつ: tháng tới),  未来 (みらい: tương lai)\nVí dụ Kunyomi:\n  - 来る (くる: đến)",
+    "romaji": "Lai",
+    "jlptLevel": 5
+  },
+  {
+    "front": "東",
+    "back": "Ý nghĩa: Phía đông\nÂm Hán Việt: Đông\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): トウ\nKunyomi (Âm Kun): ひがし\nVí dụ Onyomi:\n  - 東西 (とうざい: đông tây),  東京 (とうきょう: Tokyo)\nVí dụ Kunyomi:\n  - 東 (ひがし: phía đông)",
+    "romaji": "Đông",
+    "jlptLevel": 5
+  },
+  {
+    "front": "校",
+    "back": "Ý nghĩa: Trường học\nÂm Hán Việt: Hiệu\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): コウ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 学校 (がっこう: trường học)",
+    "romaji": "Hiệu",
+    "jlptLevel": 5
+  },
+  {
+    "front": "母",
+    "back": "Ý nghĩa: Mẹ\nÂm Hán Việt: Mẫu\nBộ thủ: 毋 (Vô)\nOnyomi (Âm On): ボ\nKunyomi (Âm Kun): はは\nVí dụ Onyomi:\n  - 母国 (ぼこく: quê hương),  母語 (ぼご: tiếng mẹ đẻ)\nVí dụ Kunyomi:\n  - 母 (はは: mẹ)",
+    "romaji": "Mẫu",
+    "jlptLevel": 5
+  },
+  {
+    "front": "毎",
+    "back": "Ý nghĩa: Mỗi\nÂm Hán Việt: Mỗi\nBộ thủ: 毋 (Vô)\nOnyomi (Âm On): マイ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 毎日 (まいにち: mỗi ngày),  毎月 (まいつき: mỗi tháng)",
+    "romaji": "Mỗi",
+    "jlptLevel": 5
+  },
+  {
+    "front": "気",
+    "back": "Ý nghĩa: Khí, tinh thần\nÂm Hán Việt: Khí\nBộ thủ: 气 (Khí)\nOnyomi (Âm On): キ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 天気 (てんき: thời tiết),  気持ち (きもち: cảm xúc)",
+    "romaji": "Khí",
+    "jlptLevel": 5
+  },
+  {
+    "front": "水",
+    "back": "Ý nghĩa: Nước\nÂm Hán Việt: Thuỷ\nBộ thủ: 水 (Thuỷ)\nOnyomi (Âm On): スイ\nKunyomi (Âm Kun): みず\nVí dụ Onyomi:\n  - 水曜日 (すいようび: thứ tư)\nVí dụ Kunyomi:\n  - 水 (みず: nước)",
+    "romaji": "Thuỷ",
+    "jlptLevel": 5
+  },
+  {
+    "front": "火",
+    "back": "Ý nghĩa: Lửa\nÂm Hán Việt: Hoả\nBộ thủ: 火 (Hoả)\nOnyomi (Âm On): カ\nKunyomi (Âm Kun): ひ\nVí dụ Onyomi:\n  - 火山 (かざん: núi lửa)\nVí dụ Kunyomi:\n  - 火 (ひ: lửa)",
+    "romaji": "Hoả",
+    "jlptLevel": 5
+  },
+  {
+    "front": "父",
+    "back": "Ý nghĩa: Bố\nÂm Hán Việt: Phụ\nBộ thủ: 父 (Phụ)\nOnyomi (Âm On): フ\nKunyomi (Âm Kun): ちち\nVí dụ Onyomi:\n  - 父母 (ふぼ: cha mẹ),  父親 (ちち おや: người cha)\nVí dụ Kunyomi:\n  - 父 (ちち: bố)",
+    "romaji": "Phụ",
+    "jlptLevel": 5
+  },
+  {
+    "front": "生",
+    "back": "Ý nghĩa: Sống, sinh\nÂm Hán Việt: Sinh\nBộ thủ: 生 (Sinh)\nOnyomi (Âm On): セ イ、ショ ウ\nKunyomi (Âm Kun): いき る、うまれる\nVí dụ Onyomi:\n  - 先生 (せんせい: giáo viên),  生徒 (せいと: học sinh)\nVí dụ Kunyomi:\n  - 生きる (いきる: sống),  生まれる (うまれ る: sinh ra)",
+    "romaji": "Sinh",
+    "jlptLevel": 5
+  },
+  {
+    "front": "男",
+    "back": "Ý nghĩa: Đàn ông\nÂm Hán Việt: Nam\nBộ thủ: 田 (Điền)\nOnyomi (Âm On): ダ ン、ナン\nKunyomi (Âm Kun): おとこ\nVí dụ Onyomi:\n  - 男子 (だんし: nam sinh),  男性 (だんせい: đàn ông)\nVí dụ Kunyomi:\n  - 男 (おとこ: người đàn ông)",
+    "romaji": "Nam",
+    "jlptLevel": 5
+  },
+  {
+    "front": "白",
+    "back": "Ý nghĩa: Màu trắng\nÂm Hán Việt: Bạch\nBộ thủ: 白 (Bạch)\nOnyomi (Âm On): ハク\nKunyomi (Âm Kun): しろ\nVí dụ Onyomi:\n  - 白紙 (はくし: giấy trắng),  明白 (めいはく: rõ ràng)\nVí dụ Kunyomi:\n  - 白い (しろい: trắng)",
+    "romaji": "Bạch",
+    "jlptLevel": 5
+  },
+  {
+    "front": "百",
+    "back": "Ý nghĩa: Một trăm\nÂm Hán Việt: Bách\nBộ thủ: 白 (Bạch)\nOnyomi (Âm On): ヒャク\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 百円 (ひゃくえん: một trăm yên)",
+    "romaji": "Bách",
+    "jlptLevel": 5
+  },
+  {
+    "front": "聞",
+    "back": "Ý nghĩa: Nghe\nÂm Hán Việt: Văn\nBộ thủ: 耳 (Nhĩ)\nOnyomi (Âm On): ブ ン、モン\nKunyomi (Âm Kun): きく\nVí dụ Onyomi:\n  - 新聞 (しんぶん: báo chí)\nVí dụ Kunyomi:\n  - 聞く (きく: nghe)",
+    "romaji": "Văn",
+    "jlptLevel": 5
+  },
+  {
+    "front": "行",
+    "back": "Ý nghĩa: Đi, thực hiện\nÂm Hán Việt: Hành\nBộ thủ: 行 (Hành)\nOnyomi (Âm On): コ ウ、ギョ ウ\nKunyomi (Âm Kun): いく、おこなう\nVí dụ Onyomi:\n  - 行動 (こうどう: hành động),  行列 (ぎょうれつ: hàng dài)\nVí dụ Kunyomi:\n  - 行く (いく: đi),行う (おこなう: thực hiện)",
+    "romaji": "Hành",
+    "jlptLevel": 5
+  },
+  {
+    "front": "西",
+    "back": "Ý nghĩa: Phía tây\nÂm Hán Việt: Tây\nBộ thủ: 襾 (Á)\nOnyomi (Âm On): セ イ、サイ\nKunyomi (Âm Kun): にし\nVí dụ Onyomi:\n  - 西洋 (せいよう: phương Tây)\nVí dụ Kunyomi:\n  - 西 (にし: phía tây)",
+    "romaji": "Tây",
+    "jlptLevel": 5
+  },
+  {
+    "front": "見",
+    "back": "Ý nghĩa: Nhìn, thấy\nÂm Hán Việt: Kiến\nBộ thủ: 見 (Kiến)\nOnyomi (Âm On): ケン\nKunyomi (Âm Kun): みる\nVí dụ Onyomi:\n  - 見学 (けんがく: tham quan học tập),  意見 (いけ ん: ý kiến)\nVí dụ Kunyomi:\n  - 見る (みる: nhìn),  見せる (みせる: cho xem)",
+    "romaji": "Kiến",
+    "jlptLevel": 5
+  },
+  {
+    "front": "話",
+    "back": "Ý nghĩa: Nói chuyện\nÂm Hán Việt: Thoại\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): ワ\nKunyomi (Âm Kun): はな す、はなし\nVí dụ Onyomi:\n  - 会話 (かいわ: hội thoại),  電話 (でんわ: điện thoại)\nVí dụ Kunyomi:\n  - 話す (はなす: nói),  話 (はなし: câu chuyện)",
+    "romaji": "Thoại",
+    "jlptLevel": 5
+  },
+  {
+    "front": "語",
+    "back": "Ý nghĩa: Ngôn ngữ\nÂm Hán Việt: Ngữ\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): ゴ\nKunyomi (Âm Kun): かたる\nVí dụ Onyomi:\n  - 日本語 (にほんご: tiếng Nhật),英語 (えいご: tiếng Anh)\nVí dụ Kunyomi:\n  - 語る (かたる: kể chuyện)",
+    "romaji": "Ngữ",
+    "jlptLevel": 5
+  },
+  {
+    "front": "読",
+    "back": "Ý nghĩa: Đọc\nÂm Hán Việt: Độc\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): ドク\nKunyomi (Âm Kun): よむ\nVí dụ Onyomi:\n  - 読書 (どくしょ: việc đọc sách)\nVí dụ Kunyomi:\n  - 読む (よむ: đọc)",
+    "romaji": "Độc",
+    "jlptLevel": 5
+  },
+  {
+    "front": "車",
+    "back": "Ý nghĩa: Xe\nÂm Hán Việt: Xa\nBộ thủ: 車 (Xa)\nOnyomi (Âm On): シャ\nKunyomi (Âm Kun): くるま\nVí dụ Onyomi:\n  - 電車 (でんしゃ: tàu điện),  自動車 (じどうしゃ: xe hơi)\nVí dụ Kunyomi:\n  - 車 (くるま: xe)",
+    "romaji": "Xa",
+    "jlptLevel": 5
+  },
+  {
+    "front": "金",
+    "back": "Ý nghĩa: Vàng, tiền\nÂm Hán Việt: Kim\nBộ thủ: 金 (Kim)\nOnyomi (Âm On): キ ン、 コン\nKunyomi (Âm Kun): かね\nVí dụ Onyomi:\n  - 金曜日 (きんようび: thứ sáu),  お 金 (おかね: tiền)\nVí dụ Kunyomi:\n  - 金 (かね: tiền, vàng)",
+    "romaji": "Kim",
+    "jlptLevel": 5
+  },
+  {
+    "front": "長",
+    "back": "Ý nghĩa: Dài, lớn\nÂm Hán Việt: Trường, Trưởng\nBộ thủ: 長 (Trường)\nOnyomi (Âm On): チョウ\nKunyomi (Âm Kun): ながい\nVí dụ Onyomi:\n  - 校長 (こうちょう: hiệu trưởng),社長 (しゃちょ う: giám đốc)\nVí dụ Kunyomi:\n  - 長い (ながい: dài)",
+    "romaji": "Trường, Trưởng",
+    "jlptLevel": 5
+  },
+  {
+    "front": "間",
+    "back": "Ý nghĩa: Khoảng thời gian\nÂm Hán Việt: Gian\nBộ thủ: 門 (Môn)\nOnyomi (Âm On): カ ン、ケン\nKunyomi (Âm Kun): あい だ、ま\nVí dụ Onyomi:\n  - 時間 (じかん: thời gian),  人間 (にんげん: con người)\nVí dụ Kunyomi:\n  - 間 (あいだ: giữa),  間に合う (まにあう: kịp thời)",
+    "romaji": "Gian",
+    "jlptLevel": 5
+  },
+  {
+    "front": "雨",
+    "back": "Ý nghĩa: Mưa\nÂm Hán Việt: Vũ\nBộ thủ: 雨 (Vũ)\nOnyomi (Âm On): ウ\nKunyomi (Âm Kun): あめ\nVí dụ Onyomi:\n  - 雨天 (うてん: thời tiết mưa)\nVí dụ Kunyomi:\n  - 雨 (あめ: mưa)",
+    "romaji": "Vũ",
+    "jlptLevel": 5
+  },
+  {
+    "front": "電",
+    "back": "Ý nghĩa: Điện, điện lực\nÂm Hán Việt: Điện\nBộ thủ: 雨 (Vũ)\nOnyomi (Âm On): デン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 電話 (でんわ: điện thoại),  電車 (でんしゃ: tàu điện)",
+    "romaji": "Điện",
+    "jlptLevel": 5
+  },
+  {
+    "front": "食",
+    "back": "Ý nghĩa: Ăn, thực phẩm\nÂm Hán Việt: Thực\nBộ thủ: 飠 (Thực)\nOnyomi (Âm On): ショク、ジキ\nKunyomi (Âm Kun): たべる\nVí dụ Onyomi:\n  - 食事 (しょくじ: bữa ăn),  食品 (しょくひん: thực phẩm)\nVí dụ Kunyomi:\n  - 食べる (たべる: ăn)",
+    "romaji": "Thực",
+    "jlptLevel": 5
+  },
+  {
+    "front": "高",
+    "back": "Ý nghĩa: Cao, đắt\nÂm Hán Việt: Cao\nBộ thủ: 高 (Cao)\nOnyomi (Âm On): コウ\nKunyomi (Âm Kun): たかい\nVí dụ Onyomi:\n  - 高校 (こうこう: trường cấp 3),  高 速 (こうそく: tốc độ cao)\nVí dụ Kunyomi:\n  - 高い (たかい: cao, đắt)",
+    "romaji": "Cao",
+    "jlptLevel": 5
+  }
+]

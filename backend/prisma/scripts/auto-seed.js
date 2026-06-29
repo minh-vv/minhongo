@@ -45,7 +45,7 @@ async function main() {
       where: { id: { startsWith: 'jisho-' } }
     });
 
-    if (courseCount >= 8 && lessonCount >= 437 && jishoCount === 0) {
+    if (courseCount >= 8 && lessonCount >= 166 && jishoCount === 0) {
       console.log(`  ✅ Database đã được đồng bộ đầy đủ (${courseCount} khóa học, ${lessonCount} bài học, 0 jisho). Bỏ qua full seed.`);
       
       // Tuy nhiên, vẫn đồng bộ lại phần example/back của Card ngữ pháp
@@ -69,7 +69,7 @@ async function main() {
     needsSync = true;
     console.log(`  ⚠️ Dữ liệu chưa đồng bộ đủ hoặc thừa Jisho:`);
     console.log(`    - Số khóa học hiện tại: ${courseCount} / 8`);
-    console.log(`    - Số bài học hiện tại: ${lessonCount} / 437`);
+    console.log(`    - Số bài học hiện tại: ${lessonCount} / 166`);
     console.log(`    - Số lượng deck Jisho dư thừa: ${jishoCount}`);
     console.log('  ⚙️ Bắt đầu dọn dẹp Jisho và đồng bộ dữ liệu chuẩn...');
   } catch (err) {
