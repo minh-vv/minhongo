@@ -293,6 +293,8 @@ model CustomRoadmapItem {
   phaseId     String
   order       Int
   lessonId    String?  // Trỏ tới một Lesson có sẵn trong hệ thống (Optional)
+  partIndex   Int?     // phần thứ mấy (1,2,3...) — null nếu bài không tách
+  partTotal   Int?     // tổng số phần — null nếu không tách
   customTitle String?  // Tên task tự do (nếu AI tạo ra một bài tập ngoài)
   customDesc  String?  // Mô tả task tự do
   isCompleted Boolean  @default(false)

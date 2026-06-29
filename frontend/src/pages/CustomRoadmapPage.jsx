@@ -217,7 +217,7 @@ function PhaseSection({ phase, dayOffset, selectedId, nextItemId, onSelect }) {
                 })}
 
                 {/* Empty placeholder nodes to fill incomplete last row */}
-                {rowItems.length < COLS && (
+                {items.length > COLS && rowItems.length < COLS && (
                   <>
                     {Array.from({ length: COLS - rowItems.length }).map((_, i) => (
                       <React.Fragment key={`empty-${i}`}>
@@ -356,6 +356,19 @@ function NodeDetailPanel({ node, dayNum, phaseTitle, onClose, onToggle, isToggli
           {node.customDesc && (
             <div className="mb-4">
               <p className="text-sm text-on-surface-variant leading-relaxed">{node.customDesc}</p>
+            </div>
+          )}
+
+          {/* Guide banner for review day nodes */}
+          {!hasLesson && (
+            <div className="p-4 mb-4 bg-amber-500/5 border border-amber-500/20 rounded-xl text-left space-y-2">
+              <div className="flex items-center gap-2 text-amber-800 dark:text-amber-300 font-bold text-xs uppercase tracking-wider">
+                <Sparkles className="w-4 h-4 text-amber-600" />
+                <span>Hướng dẫn ngày ôn tập</span>
+              </div>
+              <p className="text-xs text-on-surface-variant leading-relaxed">
+                Hôm nay là ngày củng cố kiến thức! Bạn hãy truy cập vào các bộ thẻ đã học trên <Link to="/dashboard" className="text-primary font-bold hover:underline">Trang chủ (Dashboard)</Link> để ôn tập các từ vựng và chữ Hán tự đến hạn ôn (SRS). Sau khi hoàn thành ôn tập, hãy nhấn <strong>"Đánh dấu hoàn thành"</strong> bên dưới để mở khóa ngày học tiếp theo.
+              </p>
             </div>
           )}
 

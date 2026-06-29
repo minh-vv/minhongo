@@ -11,10 +11,10 @@ const STATUS_LABEL = {
 function NoEnrollCard() {
   return (
     <div
-      className="bg-surface-container-lowest p-6 md:p-8 transition-all hover:sharp-shadow-sm"
+      className="bg-surface-container-lowest p-6 md:p-8 transition-all hover:sharp-shadow-sm text-left"
       style={{ border: '1px solid rgba(0,0,0,0.07)' }}
     >
-      <div className="flex flex-col md:flex-row md:items-center gap-4">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div className="flex-1">
           <h3 className="text-base font-headline font-bold text-on-surface mb-1.5">
             Bắt đầu lộ trình học của bạn
@@ -41,32 +41,36 @@ function NoEnrollCard() {
 function FinishedCard({ courseTitle, courseSlug }) {
   return (
     <div
-      className="bg-surface-container-lowest p-6 transition-all hover:sharp-shadow-sm"
+      className="bg-surface-container-lowest p-6 transition-all hover:sharp-shadow-sm text-left"
       style={{ border: '1px solid rgba(0,0,0,0.07)' }}
     >
-      <div className="flex items-center gap-2 mb-2">
-        <h3 className="text-base font-headline font-bold text-on-surface">
-          Hoàn thành lộ trình!
-        </h3>
-        <span
-          className="px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider"
-          style={{ background: 'rgba(16, 185, 129, 0.08)', color: '#047857' }}
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div className="flex-1">
+          <div className="flex items-center gap-2 mb-2">
+            <h3 className="text-base font-headline font-bold text-on-surface">
+              Hoàn thành lộ trình!
+            </h3>
+            <span
+              className="px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider"
+              style={{ background: 'rgba(16, 185, 129, 0.08)', color: '#047857' }}
+            >
+              Đã hoàn thành
+            </span>
+          </div>
+          <p className="text-xs text-on-surface-variant leading-relaxed">
+            Bạn đã pass toàn bộ bài của <strong className="text-on-surface">{courseTitle}</strong>.
+          </p>
+        </div>
+        <Link
+          to={`/courses/${courseSlug}`}
+          className="flex-shrink-0 px-5 py-2.5 text-on-secondary font-bold text-xs uppercase tracking-wider text-center transition-colors"
+          style={{ background: 'var(--secondary)' }}
+          onMouseEnter={(e) => (e.currentTarget.style.background = 'var(--secondary-dim)')}
+          onMouseLeave={(e) => (e.currentTarget.style.background = 'var(--secondary)')}
         >
-          Đã hoàn thành
-        </span>
+          Xem lại lộ trình
+        </Link>
       </div>
-      <p className="text-xs text-on-surface-variant leading-relaxed mb-4">
-        Bạn đã pass toàn bộ bài của <strong className="text-on-surface">{courseTitle}</strong>.
-      </p>
-      <Link
-        to={`/courses/${courseSlug}`}
-        className="inline-block px-4 py-2 text-on-secondary font-bold text-xs uppercase tracking-wider transition-colors"
-        style={{ background: 'var(--secondary)' }}
-        onMouseEnter={(e) => (e.currentTarget.style.background = 'var(--secondary-dim)')}
-        onMouseLeave={(e) => (e.currentTarget.style.background = 'var(--secondary)')}
-      >
-        Xem lại lộ trình
-      </Link>
     </div>
   );
 }
@@ -105,11 +109,14 @@ export default function TodaysLessonCard() {
 
   const { lesson, courseTitle, courseSlug, pace } = data;
 
+  const isReviewDay = !lesson.id;
+
   return (
     <div
       className="bg-surface-container-lowest transition-all hover:sharp-shadow"
       style={{ border: '1px solid rgba(0,0,0,0.07)' }}
     >
+      {/* Header */}
       <div
         className="text-white px-6 py-3 flex items-center justify-between"
         style={{ background: 'var(--primary)' }}
@@ -118,45 +125,59 @@ export default function TodaysLessonCard() {
           Bài học hôm nay
         </span>
         <Link
-          to={`/courses/${courseSlug}`}
+          to={lesson?.customRoadmapId ? `/custom-roadmap/${lesson.customRoadmapId}` : `/courses/${courseSlug}`}
           className="text-xs font-headline font-bold text-on-primary/80 hover:text-on-primary transition-colors underline"
         >
           {courseTitle}
         </Link>
       </div>
 
-      <div className="p-6">
-        <div className="flex items-start gap-4">
-          <div
-            className="w-12 h-12 font-headline font-bold text-xl flex items-center justify-center flex-shrink-0"
-            style={{ background: 'rgba(26, 35, 126, 0.08)', color: 'var(--primary)' }}
-          >
-            {lesson.order}
-          </div>
-          <div className="flex-1 min-w-0">
-            <div className="flex items-center gap-2 mb-1">
-              <h3 className="text-base font-headline font-bold text-on-surface truncate">
-                {lesson.title}
-              </h3>
-              <span
-                className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider flex-shrink-0"
-                style={
-                  lesson.status === 'NOT_STARTED'
-                    ? { background: 'rgba(245, 158, 11, 0.08)', color: '#b45309' }
-                    : lesson.status === 'IN_PROGRESS'
-                    ? { background: 'rgba(59, 130, 246, 0.08)', color: '#1d4ed8' }
-                    : { background: 'rgba(16, 185, 129, 0.08)', color: '#047857' }
-                }
-              >
-                {STATUS_LABEL[lesson.status] || STATUS_LABEL.NOT_STARTED}
-              </span>
+      {/* Body */}
+      <div className="p-6 text-left">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-5">
+          <div className="flex items-center gap-4">
+            <div
+              className="w-12 h-12 font-headline font-bold text-xl flex items-center justify-center flex-shrink-0"
+              style={{ background: 'rgba(26, 35, 126, 0.08)', color: 'var(--primary)' }}
+            >
+              {lesson.order}
             </div>
-            <p className="text-xs text-on-surface-variant">~{lesson.estimatedMin} phút</p>
+            <div className="min-w-0">
+              <div className="flex items-center gap-2 mb-1 flex-wrap">
+                <h3 className="text-base font-headline font-bold text-on-surface truncate leading-snug">
+                  {lesson.title}
+                </h3>
+                <span
+                  className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider flex-shrink-0"
+                  style={
+                    lesson.status === 'NOT_STARTED'
+                      ? { background: 'rgba(245, 158, 11, 0.08)', color: '#b45309' }
+                      : lesson.status === 'IN_PROGRESS'
+                      ? { background: 'rgba(59, 130, 246, 0.08)', color: '#1d4ed8' }
+                      : { background: 'rgba(16, 185, 129, 0.08)', color: '#047857' }
+                  }
+                >
+                  {STATUS_LABEL[lesson.status] || STATUS_LABEL.NOT_STARTED}
+                </span>
+              </div>
+              <p className="text-xs text-on-surface-variant">~{lesson.estimatedMin} phút</p>
+            </div>
           </div>
+
+          <Link
+            to={lesson?.id ? `/learn/${lesson.id}` : `/custom-roadmap/${lesson?.customRoadmapId}`}
+            className="px-5 py-2.5 text-on-secondary font-bold text-xs uppercase tracking-wider transition-colors flex items-center justify-center flex-shrink-0"
+            style={{ background: 'var(--secondary)' }}
+            onMouseEnter={(e) => (e.currentTarget.style.background = 'var(--secondary-dim)')}
+            onMouseLeave={(e) => (e.currentTarget.style.background = 'var(--secondary)')}
+          >
+            {isReviewDay ? "Xem chi tiết →" : "Học ngay →"}
+          </Link>
         </div>
 
+        {/* Pace details (if standard course) */}
         {pace && (
-          <div className="mt-5 grid grid-cols-3 gap-3">
+          <div className="mt-5 grid grid-cols-3 gap-3 pt-5" style={{ borderTop: '1px solid rgba(0,0,0,0.06)' }}>
             <div
               className="bg-surface-container-low p-3 text-center"
               style={{ border: '1px solid rgba(0,0,0,0.05)' }}
@@ -202,18 +223,7 @@ export default function TodaysLessonCard() {
             Đã quá hạn mục tiêu. Hãy điều chỉnh deadline ở trang lộ trình.
           </p>
         )}
-
-        <Link
-          to={`/learn/${lesson.id}`}
-          className="block mt-5 px-5 py-3 text-center font-bold text-sm uppercase tracking-wider transition-colors"
-          style={{ background: 'var(--secondary)', color: 'var(--on-secondary)' }}
-          onMouseEnter={(e) => (e.currentTarget.style.background = 'var(--secondary-dim)')}
-          onMouseLeave={(e) => (e.currentTarget.style.background = 'var(--secondary)')}
-        >
-          Vào học bài này →
-        </Link>
       </div>
     </div>
   );
 }
-

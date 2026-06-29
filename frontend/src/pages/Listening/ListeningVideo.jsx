@@ -50,7 +50,24 @@ export default function ListeningVideo() {
   const sidebarRef = useRef(null);
   const playerContainerRef = useRef(null);
 
-  const initPlayer = () => {
+  const stopPolling = useCallback(() => {
+    if (pollInterval.current) {
+      clearInterval(pollInterval.current);
+      pollInterval.current = null;
+    }
+  }, []);
+
+  const startPolling = useCallback(() => {
+    stopPolling();
+    pollInterval.current = setInterval(() => {
+      if (playerInstance.current && typeof playerInstance.current.getCurrentTime === 'function') {
+        const time = playerInstance.current.getCurrentTime();
+        setCurrentTime(time);
+      }
+    }, 250);
+  }, [stopPolling]);
+
+  const initPlayer = useCallback(() => {
     if (!window.YT || !window.YT.Player || !activeVideo || !playerContainerRef.current) return;
 
     if (playerInstance.current) {
@@ -86,24 +103,7 @@ export default function ListeningVideo() {
         }
       }
     });
-  };
-
-  const startPolling = () => {
-    stopPolling();
-    pollInterval.current = setInterval(() => {
-      if (playerInstance.current && typeof playerInstance.current.getCurrentTime === 'function') {
-        const time = playerInstance.current.getCurrentTime();
-        setCurrentTime(time);
-      }
-    }, 250);
-  };
-
-  const stopPolling = () => {
-    if (pollInterval.current) {
-      clearInterval(pollInterval.current);
-      pollInterval.current = null;
-    }
-  };
+  }, [activeVideo, markVideoAsCompleted, startPolling, stopPolling]);
 
   // Sync YouTube iframe library
   useEffect(() => {
@@ -156,7 +156,7 @@ export default function ListeningVideo() {
         playerInstance.current = null;
       }
     };
-  }, [activeVideo]);
+  }, [activeVideo, initPlayer, stopPolling]);
 
   const activeLineIndex = useMemo(() => {
     if (!activeVideo) return -1;

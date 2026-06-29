@@ -9,7 +9,7 @@ import PageHeader from '../components/PageHeader';
 import {
   Sparkles, X, Loader2, ChevronRight, ChevronLeft,
   Plus, Trash2, Trophy, BookOpen, Target, Clock, Brain,
-  CheckCircle2, Download, ArrowRight,
+  CheckCircle2, Download, ArrowRight, List, Headphones, Eye, FileText
 } from 'lucide-react';
 
 function formatDate(d) {
@@ -30,11 +30,7 @@ const SKILLS = [
     accent: 'var(--primary)',
     accentEnd: 'var(--primary-container)',
     ghost: '語',
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-      </svg>
-    ),
+    icon: <List className="w-6 h-6 text-indigo-600" />,
   },
   {
     id: 'grammar',
@@ -45,11 +41,7 @@ const SKILLS = [
     accent: '#006064',
     accentEnd: '#00838f',
     ghost: '文',
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-      </svg>
-    ),
+    icon: <FileText className="w-6 h-6 text-teal-600" />,
   },
   {
     id: 'reading',
@@ -60,12 +52,7 @@ const SKILLS = [
     accent: '#1565c0',
     accentEnd: '#1976d2',
     ghost: '読',
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-      </svg>
-    ),
+    icon: <Eye className="w-6 h-6 text-blue-600" />,
   },
   {
     id: 'listening',
@@ -76,11 +63,7 @@ const SKILLS = [
     accent: 'var(--secondary)',
     accentEnd: 'var(--secondary-container)',
     ghost: '聴',
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M15.536 8.464a5 5 0 010 7.072M12 6a7 7 0 010 14M17.07 6.93a9 9 0 010 10.14M9 9l-2 2H4v2h3l2 2V9z" />
-      </svg>
-    ),
+    icon: <Headphones className="w-6 h-6 text-rose-600" />,
   },
 ];
 
@@ -128,23 +111,19 @@ function StepDot({ step, current, label }) {
   const done = current > step;
   const active = current === step;
   return (
-    <div className="flex flex-col items-center gap-1 relative z-10">
-      <div className="w-8 h-8 flex items-center justify-center text-xs font-bold transition-all border-2"
-        style={{
-          background: done
-            ? '#22c55e'
-            : active
-              ? 'var(--primary)'
-              : 'var(--surface-container-lowest)',
-          color: done || active ? '#ffffff' : 'var(--on-surface-variant)',
-          borderColor: active ? 'var(--primary)' : done ? '#22c55e' : 'var(--outline-variant)',
-          boxShadow: active ? '2px 2px 0 0 var(--shadow-color)' : 'none',
-        }}
-      >
-        {done ? <CheckCircle2 className="w-4 h-4 text-white" /> : step}
+    <div className="flex flex-col items-center gap-1.5 relative z-10">
+      <div className={`w-9 h-9 flex items-center justify-center text-xs font-bold rounded-full border-2 transition-all duration-300 ${
+        done
+          ? 'bg-emerald-500 border-emerald-500 text-white shadow-md shadow-emerald-500/20'
+          : active
+            ? 'bg-indigo-600 border-indigo-600 text-white shadow-md shadow-indigo-600/20'
+            : 'bg-white border-slate-200 text-slate-400'
+      }`}>
+        {done ? <CheckCircle2 className="w-5 h-5 text-white" /> : step}
       </div>
-      <span className="text-[10px] font-extrabold whitespace-nowrap"
-        style={{ color: active ? 'var(--primary)' : 'var(--on-surface-variant)' }}>
+      <span className={`text-[10px] font-bold tracking-wider uppercase transition-colors duration-300 ${
+        active ? 'text-indigo-600' : done ? 'text-emerald-500' : 'text-slate-400'
+      }`}>
         {label}
       </span>
     </div>
@@ -294,27 +273,23 @@ function AiModal({ onClose, onSuccess, userProgress }) {
       role="dialog"
       aria-modal="true"
       aria-labelledby="modal-title"
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-[2px]"
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm"
     >
-      <div className="bg-surface-container-lowest w-full sm:max-w-xl flex flex-col max-h-[90vh] overflow-hidden border-2 border-primary sharp-shadow"
-        style={{
-          boxShadow: '4px 4px 0 0 var(--shadow-color), 0 20px 25px -5px rgba(0, 0, 0, 0.1)'
-        }}
-      >
+      <div className="bg-white w-full sm:max-w-xl flex flex-col max-h-[90vh] overflow-hidden rounded-2xl border border-slate-100 shadow-2xl transition-all duration-300">
         {/* Header */}
-        <div className="px-6 py-4 border-b border-outline-variant/50 bg-surface-container flex-shrink-0 flex justify-between items-center">
+        <div className="px-6 py-5 border-b border-slate-100 bg-slate-50 flex-shrink-0 flex justify-between items-center">
           <div>
-            <h2 id="modal-title" className="text-base font-headline font-extrabold text-on-surface flex items-center gap-2">
-              <Sparkles className="w-5 h-5 text-primary" />
+            <h2 id="modal-title" className="text-base font-bold text-slate-800 flex items-center gap-2">
+              <Sparkles className="w-5 h-5 text-indigo-600 animate-pulse" />
               Tạo lộ trình AI cá nhân
             </h2>
-            <p className="text-xs text-on-surface-variant mt-0.5">Sensei AI thiết kế lộ trình tối ưu cho riêng bạn</p>
+            <p className="text-xs text-slate-500 mt-0.5">Sensei AI thiết kế lộ trình tối ưu cho riêng bạn</p>
           </div>
           <button
             onClick={onClose}
             disabled={generateMutation.isPending}
             aria-label="Đóng bảng tạo lộ trình"
-            className="p-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+            className="p-2 text-slate-400 hover:text-slate-600 hover:bg-slate-100 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
           >
             <X className="w-5 h-5" />
           </button>
@@ -322,28 +297,28 @@ function AiModal({ onClose, onSuccess, userProgress }) {
 
         {/* Step indicators */}
         {!generateMutation.isPending && (
-          <div className="flex items-center justify-center gap-6 py-3 border-b border-outline-variant/30 bg-surface-container-low/40 flex-shrink-0">
+          <div className="flex items-center justify-center gap-8 py-4 border-b border-slate-100 bg-slate-50/50 flex-shrink-0">
             <StepDot step={1} current={step} label="Cơ bản" />
-            <div className="w-12 h-[2px]" style={{ background: step > 1 ? 'var(--primary)' : 'var(--outline-variant)' }} />
+            <div className={`w-14 h-[2px] rounded-full transition-colors duration-300 ${step > 1 ? 'bg-indigo-600' : 'bg-slate-200'}`} />
             <StepDot step={2} current={step} label="Thành tích" />
-            <div className="w-12 h-[2px]" style={{ background: step > 2 ? 'var(--primary)' : 'var(--outline-variant)' }} />
+            <div className={`w-14 h-[2px] rounded-full transition-colors duration-300 ${step > 2 ? 'bg-indigo-600' : 'bg-slate-200'}`} />
             <StepDot step={3} current={step} label="Xác nhận" />
           </div>
         )}
 
         {/* Body (scrollable) */}
-        <div className="flex-1 overflow-y-auto px-6 py-5 custom-scrollbar bg-surface-container-lowest">
+        <div className="flex-1 overflow-y-auto px-6 py-6 custom-scrollbar bg-white">
           {generateMutation.isPending ? (
-            <div className="flex flex-col items-center justify-center py-12 space-y-4">
-              <Loader2 className="w-8 h-8 text-primary animate-spin" />
-              <div className="text-center space-y-1 max-w-xs">
-                <h3 className="font-headline font-bold text-base text-on-surface">
+            <div className="flex flex-col items-center justify-center py-16 space-y-4">
+              <Loader2 className="w-8 h-8 text-indigo-600 animate-spin" />
+              <div className="text-center space-y-2 max-w-xs">
+                <h3 className="font-bold text-base text-slate-800">
                   Sensei AI đang thiết kế lộ trình...
                 </h3>
-                <p className="text-sm font-bold text-primary animate-pulse">
+                <p className="text-sm font-semibold text-indigo-600 animate-pulse">
                   {loadingMessages[loadingStage]}
                 </p>
-                <p className="text-[10px] text-on-surface-variant/80 mt-2">
+                <p className="text-[10px] text-slate-400 mt-2">
                   Quá trình phân tích bài học, kỹ năng và tối ưu thời gian có thể mất khoảng 15-30 giây.
                 </p>
               </div>
@@ -354,60 +329,60 @@ function AiModal({ onClose, onSuccess, userProgress }) {
               {step === 1 && (
                 <div className="space-y-6">
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-1.5 flex items-center gap-1.5">
-                      <Target className="w-4 h-4 text-primary" /> Mục tiêu của bạn
+                    <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5 flex items-center gap-1.5">
+                      <Target className="w-4 h-4 text-indigo-600" /> Mục tiêu của bạn
                     </label>
                     <input
                       type="text"
                       placeholder="VD: Làm lập trình viên tại Tokyo, Đạt N4 tháng 12..."
-                      className="w-full px-4 py-2.5 bg-surface text-on-surface border border-outline-variant focus:outline-none focus:border-primary text-sm shadow-sm transition-all"
+                      className="w-full px-4 py-2.5 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 text-sm shadow-sm transition-all outline-none"
                       value={formData.goal}
                       onChange={(e) => setFormData({ ...formData, goal: e.target.value })}
                     />
-                    <p className="text-[10px] text-on-surface-variant/80 mt-1 pl-1">Nhập mục tiêu cụ thể giúp AI định hướng nội dung bài học tốt hơn.</p>
+                    <p className="text-[10px] text-slate-400 mt-1 pl-1">Nhập mục tiêu cụ thể giúp AI định hướng nội dung bài học tốt hơn.</p>
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div className="bg-surface-container-low/80 p-4 border border-outline-variant/30 flex flex-col gap-2">
+                    <div className="bg-slate-50 border border-slate-100 rounded-2xl p-4 flex flex-col gap-2 shadow-sm">
                       <div className="flex justify-between items-center">
-                        <span className="text-xs font-extrabold uppercase tracking-wider text-on-surface-variant flex items-center gap-1.5">
-                          <Clock className="w-4 h-4 text-primary" /> Thời gian học
+                        <span className="text-xs font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1.5">
+                          <Clock className="w-4 h-4 text-indigo-600" /> Thời gian học
                         </span>
-                        <span className="px-2.5 py-0.5 text-xs font-black text-primary bg-primary-container/10 border border-primary/20">
+                        <span className="px-2.5 py-0.5 rounded-full text-xs font-bold text-indigo-700 bg-indigo-50 border border-indigo-100">
                           {formData.targetMonths} tháng
                         </span>
                       </div>
                       <input
                         type="range" min="1" max="24" step="1"
-                        className="w-full h-1 bg-outline-variant/60 rounded appearance-none cursor-pointer"
+                        className="w-full h-1 bg-slate-200 rounded-full appearance-none cursor-pointer"
                         style={{ accentColor: 'var(--primary)' }}
                         value={formData.targetMonths}
                         onChange={(e) => setFormData({ ...formData, targetMonths: parseInt(e.target.value) })}
                       />
-                      <div className="flex justify-between text-[9px] text-on-surface-variant/80 font-bold">
+                      <div className="flex justify-between text-[9px] text-slate-400 font-bold">
                         <span>1 tháng</span>
                         <span>12 tháng</span>
                         <span>24 tháng</span>
                       </div>
                     </div>
 
-                    <div className="bg-surface-container-low/80 p-4 border border-outline-variant/30 flex flex-col gap-2">
+                    <div className="bg-slate-50 border border-slate-100 rounded-2xl p-4 flex flex-col gap-2 shadow-sm">
                       <div className="flex justify-between items-center">
-                        <span className="text-xs font-extrabold uppercase tracking-wider text-on-surface-variant flex items-center gap-1.5">
-                          <BookOpen className="w-4 h-4 text-primary" /> Phút mỗi ngày
+                        <span className="text-xs font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1.5">
+                          <BookOpen className="w-4 h-4 text-indigo-600" /> Phút mỗi ngày
                         </span>
-                        <span className="px-2.5 py-0.5 text-xs font-black text-primary bg-primary-container/10 border border-primary/20">
+                        <span className="px-2.5 py-0.5 rounded-full text-xs font-bold text-indigo-700 bg-indigo-50 border border-indigo-100">
                           {formData.minutesPerDay} phút
                         </span>
                       </div>
                       <input
                         type="range" min="10" max="180" step="10"
-                        className="w-full h-1 bg-outline-variant/60 rounded appearance-none cursor-pointer"
+                        className="w-full h-1 bg-slate-200 rounded-full appearance-none cursor-pointer"
                         style={{ accentColor: 'var(--primary)' }}
                         value={formData.minutesPerDay}
                         onChange={(e) => setFormData({ ...formData, minutesPerDay: parseInt(e.target.value) })}
                       />
-                      <div className="flex justify-between text-[9px] text-on-surface-variant/80 font-bold">
+                      <div className="flex justify-between text-[9px] text-slate-400 font-bold">
                         <span>10m</span>
                         <span>90m</span>
                         <span>180m</span>
@@ -416,8 +391,8 @@ function AiModal({ onClose, onSuccess, userProgress }) {
                   </div>
 
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-2 flex items-center gap-1.5">
-                      <Brain className="w-4 h-4 text-primary" /> Trình độ hiện tại
+                    <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2 flex items-center gap-1.5">
+                      <Brain className="w-4 h-4 text-indigo-600" /> Trình độ hiện tại
                     </label>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                       {LEVEL_OPTIONS.map((opt) => {
@@ -427,18 +402,18 @@ function AiModal({ onClose, onSuccess, userProgress }) {
                             key={opt.value}
                             type="button"
                             onClick={() => setFormData({ ...formData, currentLevel: opt.value })}
-                            className={`flex items-center gap-3 p-3 border text-left transition-all ${
+                            className={`flex items-center gap-3 p-3 border rounded-xl text-left transition-all duration-300 ${
                               isActive
-                                ? 'border-primary bg-primary/5 shadow-[2px_2px_0_0_var(--primary)]'
-                                : 'border-outline-variant bg-surface-container-lowest hover:border-outline-variant/80 text-on-surface'
+                                ? 'border-indigo-600 bg-indigo-50/40 ring-2 ring-indigo-500/10 shadow-[0_4px_12px_rgba(79,70,229,0.05)]'
+                                : 'border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50/50 text-slate-700'
                             }`}
                           >
-                            <span className="text-xl p-1 bg-surface-container-low border border-outline-variant/30 shadow-sm">{opt.emoji}</span>
+                            <span className="text-xl p-1 bg-slate-100 border border-slate-200/50 rounded-lg shadow-sm">{opt.emoji}</span>
                             <div className="min-w-0">
-                              <p className={`text-xs font-bold truncate ${isActive ? 'text-primary' : 'text-on-surface'}`}>
+                              <p className={`text-xs font-bold truncate ${isActive ? 'text-indigo-600' : 'text-slate-800'}`}>
                                 {opt.label}
                               </p>
-                              <p className="text-[10px] text-on-surface-variant truncate mt-0.5">{opt.sub}</p>
+                              <p className="text-[10px] text-slate-400 truncate mt-0.5">{opt.sub}</p>
                             </div>
                           </button>
                         );
@@ -447,8 +422,8 @@ function AiModal({ onClose, onSuccess, userProgress }) {
                   </div>
 
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-2 flex items-center gap-1.5">
-                      <Trophy className="w-4 h-4 text-secondary" />
+                    <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2 flex items-center gap-1.5">
+                      <Trophy className="w-4 h-4 text-amber-500" />
                       Mục tiêu JLPT <span className="text-rose-500 ml-0.5">*</span>
                     </label>
                     <div className="flex gap-2 flex-wrap">
@@ -459,16 +434,16 @@ function AiModal({ onClose, onSuccess, userProgress }) {
                             key={t.value}
                             type="button"
                             onClick={() => setFormData({ ...formData, targetJlpt: t.value })}
-                            className={`flex-1 min-w-[70px] flex flex-col items-center py-2 px-1 border transition-all ${
+                            className={`flex-1 min-w-[70px] flex flex-col items-center py-2.5 px-2 border rounded-xl transition-all duration-300 ${
                               isActive
-                                ? 'border-secondary bg-secondary text-white shadow-[2px_2px_0_0_var(--secondary-container)]'
-                                : 'border-outline-variant bg-surface-container-lowest hover:border-outline-variant/80 text-on-surface'
+                                ? 'border-indigo-600 bg-indigo-600 text-white shadow-lg shadow-indigo-600/15'
+                                : 'border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50/50 text-slate-700'
                             }`}
                           >
-                            <span className={`text-xs font-black ${isActive ? 'text-white' : 'text-on-surface'}`}>
+                            <span className={`text-xs font-black ${isActive ? 'text-white' : 'text-slate-800'}`}>
                               {t.label}
                             </span>
-                            <span className={`text-[9px] mt-0.5 text-center leading-none ${isActive ? 'text-white/85' : 'text-on-surface-variant'}`}>
+                            <span className={`text-[9px] mt-0.5 text-center leading-none ${isActive ? 'text-indigo-50' : 'text-slate-400'}`}>
                               {t.desc}
                             </span>
                           </button>
@@ -476,14 +451,16 @@ function AiModal({ onClose, onSuccess, userProgress }) {
                       })}
                     </div>
                     {!formData.targetJlpt && (
-                      <p className="text-[10px] text-rose-500 mt-1 pl-1 font-bold">Vui lòng chọn mục tiêu JLPT để tiếp tục</p>
+                      <p className="text-[10px] text-rose-500 mt-1.5 pl-1 font-bold flex items-center gap-1">
+                        <span className="w-1.5 h-1.5 rounded-full bg-rose-500" /> Vui lòng chọn mục tiêu JLPT để tiếp tục
+                      </p>
                     )}
                   </div>
 
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-2 flex items-center gap-1.5">
-                      <BookOpen className="w-4 h-4 text-primary" />
-                      Kỹ năng muốn tập trung <span className="text-[10px] font-normal normal-case text-on-surface-variant/80">(tùy chọn)</span>
+                    <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2 flex items-center gap-1.5">
+                      <BookOpen className="w-4 h-4 text-indigo-600" />
+                      Kỹ năng muốn tập trung <span className="text-[10px] font-normal normal-case text-slate-400">(tùy chọn)</span>
                     </label>
                     <div className="flex flex-wrap gap-2">
                       {SKILL_PRIORITIES.map((skill) => {
@@ -498,21 +475,21 @@ function AiModal({ onClose, onSuccess, userProgress }) {
                                 : [...formData.prioritySkills, skill.id];
                               setFormData({ ...formData, prioritySkills: newSkills });
                             }}
-                            className={`flex items-center gap-1.5 px-3 py-1.5 border text-[11px] font-extrabold transition-all ${
+                            className={`flex items-center gap-1.5 px-4 py-2 border rounded-full text-[11px] font-extrabold transition-all duration-300 ${
                               isSelected
-                                ? 'border-primary bg-primary text-white shadow-[2px_2px_0_0_var(--primary-container)]'
-                                : 'border-outline-variant bg-surface-container-lowest hover:border-outline-variant/80 text-on-surface-variant'
+                                ? 'border-indigo-600 bg-indigo-600 text-white shadow-lg shadow-indigo-600/15'
+                                : 'border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50/50 text-slate-600'
                             }`}
                           >
                             <span>{skill.emoji}</span>
                             <span className="font-jp-sans">{skill.label}</span>
-                            <span className={`font-jp text-[9px] opacity-70 ${isSelected ? 'text-white' : 'text-on-surface-variant'}`}>({skill.jp})</span>
+                            <span className={`text-[9px] opacity-70 ${isSelected ? 'text-indigo-50' : 'text-slate-400'}`}>({skill.jp})</span>
                           </button>
                         );
                       })}
                     </div>
                     {formData.prioritySkills.length === 0 && (
-                      <p className="text-[10px] text-on-surface-variant/80 mt-1 pl-1">Không chọn = AI phân bổ cân bằng tất cả kỹ năng.</p>
+                      <p className="text-[10px] text-slate-400 mt-1 pl-1">Không chọn = AI phân bổ cân bằng tất cả kỹ năng.</p>
                     )}
                   </div>
                 </div>
@@ -523,14 +500,14 @@ function AiModal({ onClose, onSuccess, userProgress }) {
                 <div className="space-y-6">
                   <div>
                     <div className="flex items-center justify-between mb-2">
-                      <label className="text-xs font-bold uppercase tracking-wider text-on-surface-variant flex items-center gap-1.5">
+                      <label className="text-xs font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1.5">
                         <Trophy className="w-4 h-4 text-amber-500" /> Thành tích học tập
                       </label>
                       {userProgress && userProgress.length > 0 && (
                         <button
                           type="button"
                           onClick={autoFillFromSystem}
-                          className="flex items-center gap-1 text-[10px] font-bold px-2.5 py-1 border border-primary/30 text-primary bg-primary/5 hover:bg-primary hover:text-white transition-all shadow-sm"
+                          className="flex items-center gap-1 text-[10px] font-bold px-3 py-1.5 border border-indigo-200 text-indigo-600 bg-indigo-50/40 hover:bg-indigo-600 hover:text-white rounded-full transition-all duration-300"
                         >
                           <Download className="w-3.5 h-3.5" /> Điền từ hệ thống
                         </button>
@@ -539,64 +516,62 @@ function AiModal({ onClose, onSuccess, userProgress }) {
                     <textarea
                       rows={4}
                       placeholder={`VD:\n- Đã tự học bảng chữ cái Hiragana & Katakana\n- Đã học xong giáo trình Minna no Nihongo sơ cấp 1`}
-                      className="w-full px-3 py-2 bg-surface border border-outline-variant text-on-surface focus:outline-none text-sm resize-none focus:border-primary shadow-sm"
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 text-slate-800 focus:bg-white focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 transition-all outline-none text-sm resize-none"
                       value={formData.achievements}
                       onChange={(e) => setFormData({ ...formData, achievements: e.target.value })}
                     />
                   </div>
 
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-2 flex items-center gap-1.5">
-                      <CheckCircle2 className="w-4 h-4 text-green-600" /> Kết quả bài kiểm tra gần đây
+                    <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2 flex items-center gap-1.5">
+                      <CheckCircle2 className="w-4 h-4 text-emerald-500" /> Kết quả bài kiểm tra gần đây
                     </label>
                     <div className="flex gap-2 mb-3">
                       <input
                         type="text"
                         placeholder="Tên bài kiểm tra / Bài học..."
-                        className="flex-1 px-3 py-2 bg-surface border border-outline-variant text-on-surface focus:outline-none text-sm focus:border-primary shadow-sm"
+                        className="flex-1 px-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-slate-800 focus:bg-white focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 transition-all outline-none text-sm"
                         value={newTest.lessonTitle}
                         onChange={(e) => setNewTest({ ...newTest, lessonTitle: e.target.value })}
                         onKeyDown={(e) => e.key === 'Enter' && addTestResult()}
                       />
                       <input
                         type="number" placeholder="Điểm %" min="0" max="100"
-                        className="w-20 px-3 py-2 bg-surface border border-outline-variant text-on-surface focus:outline-none text-sm focus:border-primary shadow-sm"
+                        className="w-24 px-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-slate-800 focus:bg-white focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 transition-all outline-none text-sm"
                         value={newTest.score}
                         onChange={(e) => setNewTest({ ...newTest, score: e.target.value })}
                         onKeyDown={(e) => e.key === 'Enter' && addTestResult()}
                       />
-                       <button
+                      <button
                         type="button"
                         onClick={addTestResult}
                         aria-label="Thêm kết quả bài kiểm tra"
-                        className="px-3.5 py-2 text-white hover:opacity-90 transition-all flex items-center justify-center shadow-sm"
-                        style={{ background: 'var(--primary)' }}
+                        className="w-10 h-10 rounded-full text-white bg-indigo-600 hover:bg-indigo-700 transition-all flex items-center justify-center flex-shrink-0 shadow-md shadow-indigo-600/10 active:scale-95"
                       >
-                        <Plus className="w-4 h-4" />
+                        <Plus className="w-5 h-5" />
                       </button>
                     </div>
 
                     {formData.testResults.length > 0 ? (
                       <div className="space-y-2 max-h-[160px] overflow-y-auto custom-scrollbar pr-1">
                         {formData.testResults.map((t, idx) => {
-                          let scoreBadge = 'bg-rose-500 text-white';
+                          let scoreBadge = 'bg-rose-50 text-rose-700 border border-rose-100';
                           if (t.score >= 75) {
-                            scoreBadge = 'bg-green-600 text-white';
+                            scoreBadge = 'bg-emerald-50 text-emerald-700 border border-emerald-100';
                           } else if (t.score >= 50) {
-                            scoreBadge = 'bg-amber-500 text-white';
+                            scoreBadge = 'bg-amber-50 text-amber-700 border border-amber-100';
                           }
                           return (
-                            <div key={idx} className="flex items-center gap-3 border px-3 py-2 bg-surface-container-low"
-                              style={{ borderColor: 'var(--outline-variant)' }}>
-                              <span className={`text-xs font-black px-2 py-0.5 ${scoreBadge}`}>
+                            <div key={idx} className="flex items-center gap-3 border border-slate-100 rounded-xl px-4 py-2.5 bg-slate-50/50">
+                              <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${scoreBadge}`}>
                                 {t.score}%
                               </span>
-                              <span className="flex-1 text-sm font-bold text-on-surface truncate">{t.lessonTitle}</span>
-                               <button
+                              <span className="flex-1 text-sm font-semibold text-slate-700 truncate">{t.lessonTitle}</span>
+                              <button
                                 type="button"
                                 onClick={() => removeTestResult(idx)}
                                 aria-label="Xóa kết quả này"
-                                className="text-on-surface-variant hover:text-secondary transition-all p-1"
+                                className="text-slate-400 hover:text-rose-600 hover:bg-rose-50 rounded-full p-1.5 transition-all"
                               >
                                 <Trash2 className="w-4 h-4" />
                               </button>
@@ -605,8 +580,8 @@ function AiModal({ onClose, onSuccess, userProgress }) {
                         })}
                       </div>
                     ) : (
-                      <div className="text-center py-5 bg-surface-container border border-dashed border-outline-variant/40">
-                        <p className="text-xs text-on-surface-variant">Chưa có kết quả nào. Nhập và thêm để AI cá nhân hóa chính xác hơn.</p>
+                      <div className="text-center py-6 bg-slate-50/50 border-2 border-dashed border-slate-200/60 rounded-xl px-4">
+                        <p className="text-xs text-slate-400 leading-relaxed">Chưa có kết quả nào. Nhập và thêm để AI cá nhân hóa chính xác hơn.</p>
                       </div>
                     )}
                   </div>
@@ -616,36 +591,36 @@ function AiModal({ onClose, onSuccess, userProgress }) {
               {/* Step 3 */}
               {step === 3 && (
                 <div className="space-y-4">
-                  <div className="border-2 border-primary bg-surface-container-low p-4 shadow-[2px_2px_0_0_var(--shadow-color)]">
-                    <h3 className="font-extrabold text-on-surface mb-3 text-xs uppercase tracking-wider flex items-center gap-1.5 pb-2 border-b border-outline-variant/30">
-                      <Sparkles className="w-4 h-4 text-primary" /> Vé thông hành học tập AI
+                  <div className="border border-indigo-100 bg-indigo-50/20 rounded-2xl p-5 shadow-sm space-y-4">
+                    <h3 className="font-bold text-slate-800 text-xs uppercase tracking-wider flex items-center gap-2 pb-2 border-b border-indigo-100/50">
+                      <Sparkles className="w-4 h-4 text-indigo-600" /> Vé thông hành học tập AI
                     </h3>
 
-                    <div className="space-y-3">
-                      <div className="flex items-start gap-2.5">
-                        <Target className="w-4 h-4 text-primary mt-0.5" />
+                    <div className="space-y-4">
+                      <div className="flex items-start gap-3">
+                        <Target className="w-5 h-5 text-indigo-600 flex-shrink-0 mt-0.5" />
                         <div>
-                          <p className="text-[10px] font-bold text-primary uppercase tracking-wider">Mục tiêu học tập</p>
-                          <p className="text-xs font-extrabold text-on-surface leading-tight mt-0.5">{formData.goal || '(chưa nhập)'}</p>
+                          <p className="text-[10px] font-bold text-indigo-600 uppercase tracking-wider">Mục tiêu học tập</p>
+                          <p className="text-sm font-semibold text-slate-700 leading-relaxed mt-0.5">{formData.goal || '(chưa nhập)'}</p>
                         </div>
                       </div>
 
                       <div className="grid grid-cols-2 gap-4">
                         {formData.targetJlpt && (
-                          <div className="flex items-start gap-2.5">
-                            <Trophy className="w-4 h-4 text-secondary mt-0.5" />
+                          <div className="flex items-start gap-3">
+                            <Trophy className="w-5 h-5 text-amber-500 flex-shrink-0 mt-0.5" />
                             <div>
-                              <p className="text-[10px] font-bold text-secondary uppercase tracking-wider">JLPT Mục tiêu</p>
-                              <p className="text-xs font-extrabold text-on-surface mt-0.5">JLPT N{formData.targetJlpt}</p>
+                              <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">JLPT Mục tiêu</p>
+                              <p className="text-sm font-bold text-slate-700 mt-0.5">JLPT N{formData.targetJlpt}</p>
                             </div>
                           </div>
                         )}
 
-                        <div className="flex items-start gap-2.5">
-                          <Clock className="w-4 h-4 text-emerald-600 mt-0.5" />
+                        <div className="flex items-start gap-3">
+                          <Clock className="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" />
                           <div>
-                            <p className="text-[10px] font-bold text-emerald-600 uppercase tracking-wider">Lịch trình</p>
-                            <p className="text-xs font-extrabold text-on-surface mt-0.5">
+                            <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Lịch trình học</p>
+                            <p className="text-sm font-bold text-slate-700 mt-0.5">
                               {formData.targetMonths} tháng · {formData.minutesPerDay}m/ngày
                             </p>
                           </div>
@@ -653,24 +628,24 @@ function AiModal({ onClose, onSuccess, userProgress }) {
                       </div>
 
                       <div className="grid grid-cols-2 gap-4">
-                        <div className="flex items-start gap-2.5">
-                          <Brain className="w-4 h-4 text-amber-600 mt-0.5" />
+                        <div className="flex items-start gap-3">
+                          <Brain className="w-5 h-5 text-indigo-500 flex-shrink-0 mt-0.5" />
                           <div>
-                            <p className="text-[10px] font-bold text-amber-600 uppercase tracking-wider">Trình độ hiện tại</p>
-                            <p className="text-xs font-extrabold text-on-surface mt-0.5">{formData.currentLevel}</p>
+                            <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Trình độ hiện tại</p>
+                            <p className="text-sm font-bold text-slate-700 mt-0.5">{formData.currentLevel}</p>
                           </div>
                         </div>
 
                         {formData.prioritySkills.length > 0 && (
-                          <div className="flex items-start gap-2.5">
-                            <BookOpen className="w-4 h-4 text-indigo-600 mt-0.5" />
+                          <div className="flex items-start gap-3">
+                            <BookOpen className="w-5 h-5 text-indigo-600 flex-shrink-0 mt-0.5" />
                             <div>
-                              <p className="text-[10px] font-bold text-indigo-600 uppercase tracking-wider">Kỹ năng ưu tiên</p>
+                              <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Kỹ năng ưu tiên</p>
                               <div className="flex flex-wrap gap-1 mt-1">
                                 {formData.prioritySkills.map(sid => {
                                   const s = SKILL_PRIORITIES.find(x => x.id === sid);
                                   return s ? (
-                                    <span key={sid} className="text-[9px] font-bold px-2 py-0.5 bg-primary/10 text-primary border border-primary/20">
+                                    <span key={sid} className="text-[9px] font-bold px-2 py-0.5 rounded bg-indigo-50 text-indigo-600 border border-indigo-100 flex items-center gap-1">
                                       {s.emoji} {s.label}
                                     </span>
                                   ) : null;
@@ -690,12 +665,12 @@ function AiModal({ onClose, onSuccess, userProgress }) {
 
         {/* Footer */}
         {!generateMutation.isPending && (
-          <div className="px-6 py-4 bg-surface-container border-t border-outline-variant/40 flex-shrink-0 flex gap-3">
+          <div className="px-6 py-4 bg-slate-50 border-t border-slate-100 flex-shrink-0 flex gap-3">
             {step > 1 && (
               <button
                 type="button"
                 onClick={() => setStep(step - 1)}
-                className="flex items-center gap-1.5 px-4 py-2 border border-outline-variant text-on-surface-variant font-bold hover:bg-surface-container-high transition-all text-sm shadow-sm"
+                className="flex items-center gap-1.5 px-4 py-2 border border-slate-200 rounded-xl text-slate-600 font-bold hover:bg-slate-100 transition-all text-sm"
               >
                 <ChevronLeft className="w-4 h-4" /> Quay lại
               </button>
@@ -708,8 +683,7 @@ function AiModal({ onClose, onSuccess, userProgress }) {
                   if (step === 1 && !formData.targetJlpt) { alert('Vui lòng chọn trình độ JLPT mục tiêu'); return; }
                   setStep(step + 1);
                 }}
-                className="flex-1 flex items-center justify-center gap-1.5 px-6 py-2 text-white font-bold text-sm transition-all hover:opacity-90 shadow-sm"
-                style={{ background: 'var(--primary)' }}
+                className="flex-1 flex items-center justify-center gap-1.5 px-6 py-2.5 rounded-xl text-white font-bold text-sm bg-indigo-600 hover:bg-indigo-700 active:scale-95 transition-all shadow-md shadow-indigo-600/10"
               >
                 Tiếp theo <ChevronRight className="w-4 h-4" />
               </button>

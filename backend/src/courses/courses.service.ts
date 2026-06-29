@@ -315,6 +315,76 @@ export class CoursesService {
       },
     });
 
+    const latestCustomRoadmap = await this.prisma.customRoadmap.findFirst({
+      where: { userId },
+      orderBy: { updatedAt: 'desc' },
+      include: {
+        phases: {
+          orderBy: { order: 'asc' },
+          include: {
+            items: {
+              orderBy: { order: 'asc' },
+              include: {
+                lesson: {
+                  select: {
+                    id: true,
+                    order: true,
+                    title: true,
+                    estimatedMin: true,
+                    skills: true,
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    });
+
+    let useCustom = false;
+    if (latestCustomRoadmap) {
+      if (!activeEnroll) {
+        useCustom = true;
+      } else {
+        useCustom = latestCustomRoadmap.updatedAt > activeEnroll.updatedAt;
+      }
+    }
+
+    if (useCustom && latestCustomRoadmap) {
+      const allItems = latestCustomRoadmap.phases.flatMap((p) => p.items);
+      const nextItem = allItems.find((item) => !item.isCompleted);
+
+      if (!nextItem) {
+        return {
+          courseSlug: `custom-${latestCustomRoadmap.id}`,
+          courseTitle: latestCustomRoadmap.title,
+          finished: true,
+          lesson: null,
+          isCustom: true,
+        };
+      }
+
+      const dayIndex = allItems.indexOf(nextItem);
+      const dayNum = dayIndex + 1;
+
+      return {
+        courseSlug: `custom-${latestCustomRoadmap.id}`,
+        courseTitle: latestCustomRoadmap.title,
+        finished: false,
+        lesson: {
+          id: nextItem.lessonId ?? null,
+          order: dayNum,
+          title: nextItem.customTitle || nextItem.lesson?.title || `Ngày ${dayNum}`,
+          skills: nextItem.lesson?.skills ?? [],
+          estimatedMin: nextItem.lesson?.estimatedMin ?? 30,
+          status: 'NOT_STARTED',
+          customRoadmapId: latestCustomRoadmap.id,
+        },
+        isCustom: true,
+        pace: null,
+      };
+    }
+
     if (!activeEnroll) return null;
 
     const lessonIds = activeEnroll.course.lessons.map((l) => l.id);

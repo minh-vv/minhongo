@@ -4,6 +4,7 @@ import {
   IsOptional,
   IsArray,
   ValidateNested,
+  MaxLength,
 } from 'class-validator';
 import { Type } from 'class-transformer';
 
@@ -20,6 +21,7 @@ export class ExplainDto {
 export class EvaluateDto {
   @IsString()
   @IsNotEmpty()
+  @MaxLength(500, { message: 'Câu trả lời không được vượt quá 500 ký tự' })
   userAnswer: string;
 
   @IsString()

@@ -190,6 +190,43 @@ export default function DashboardPage() {
                 </div>
               ))}
             </div>
+
+            {/* 7-day study activity chart */}
+            {historyData?.history && historyData.history.length > 0 && (
+              <div className="mt-5 pt-4 border-t border-outline-variant/20">
+                <p className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-3 text-left">
+                  Ôn tập 7 ngày qua (Lượt ôn)
+                </p>
+                <div className="flex items-end justify-between h-14 px-1 gap-2">
+                  {historyData.history.map((day, i) => {
+                    const maxVal = Math.max(...historyData.history.map(d => d.total), 5);
+                    const pct = (day.total / maxVal) * 100;
+                    const dateObj = new Date(day.date);
+                    const label = `${dateObj.getDate()}/${dateObj.getMonth() + 1}`;
+                    
+                    return (
+                      <div key={i} className="flex flex-col items-center gap-1.5 flex-1 group relative">
+                        {/* Tooltip on hover */}
+                        <div className="absolute bottom-full mb-1 bg-slate-800 text-white text-[9px] font-bold py-1 px-1.5 rounded opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-20 shadow">
+                          {day.total} lượt ôn
+                        </div>
+                        {/* Bar */}
+                        <div className="w-full bg-surface-container rounded-t-sm h-8 flex items-end overflow-hidden">
+                          <div 
+                            className="w-full bg-secondary rounded-t-sm transition-all duration-500" 
+                            style={{ height: `${pct}%` }}
+                          />
+                        </div>
+                        {/* Date label */}
+                        <span className="text-[9px] font-bold text-on-surface-variant/80 scale-90">
+                          {label}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </section>

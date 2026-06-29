@@ -16,6 +16,23 @@ const sortedDialogues = [...DIALOGUES].sort((a, b) => {
   return a.id.localeCompare(b.id, undefined, { numeric: true });
 });
 
+const parseNum = (str) => {
+  if (!str) return '';
+  return str.replace(/[０-９]/g, (s) => String.fromCharCode(s.charCodeAt(0) - 65248));
+};
+
+const getLessonNumber = (title) => {
+  const norm = parseNum(title);
+  const match = norm.match(/Bài\s*(\d+)/i);
+  return match ? parseInt(match[1], 10) : 999;
+};
+
+const getSubLessonNumber = (title) => {
+  const norm = parseNum(title);
+  const match = norm.match(/(\d+)\s*番/i);
+  return match ? parseInt(match[1], 10) : 999;
+};
+
 export default function ListeningDialogue() {
   const [searchParams, setSearchParams] = useSearchParams();
   const currentDiagId = searchParams.get('id');
@@ -178,22 +195,6 @@ export default function ListeningDialogue() {
   };
 
   // N2 numbering utilities
-  const parseNum = (str) => {
-    if (!str) return '';
-    return str.replace(/[０-９]/g, (s) => String.fromCharCode(s.charCodeAt(0) - 65248));
-  };
-
-  const getLessonNumber = (title) => {
-    const norm = parseNum(title);
-    const match = norm.match(/Bài\s*(\d+)/i);
-    return match ? parseInt(match[1], 10) : 999;
-  };
-
-  const getSubLessonNumber = (title) => {
-    const norm = parseNum(title);
-    const match = norm.match(/(\d+)\s*番/i);
-    return match ? parseInt(match[1], 10) : 999;
-  };
 
   const levelDialogues = useMemo(() => {
     if (!currentLevel) return [];

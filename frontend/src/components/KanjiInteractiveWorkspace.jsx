@@ -1,6 +1,47 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
+import { createPortal } from 'react-dom';
 import { getKanjiData } from '../utils/kanjiDataN5';
 import CollapsibleExample from './CollapsibleExample';
+
+const parseKanjiBack = (backText) => {
+  if (!backText) return {};
+  const lines = backText.split('\n');
+  const info = {
+    meaning: '',
+    hanViet: '',
+    boThu: '',
+    on: '',
+    kun: '',
+    examplesOn: [],
+    examplesKun: [],
+    mnemonic: ''
+  };
+  
+  let currentSection = '';
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (trimmed.startsWith('Ý nghĩa:')) {
+      info.meaning = trimmed.replace('Ý nghĩa:', '').trim();
+    } else if (trimmed.startsWith('Âm Hán Việt:')) {
+      info.hanViet = trimmed.replace('Âm Hán Việt:', '').trim();
+    } else if (trimmed.startsWith('Bộ thủ:')) {
+      info.boThu = trimmed.replace('Bộ thủ:', '').trim();
+    } else if (trimmed.startsWith('Onyomi (Âm On):') || trimmed.startsWith('Onyomi:')) {
+      info.on = trimmed.replace(/Onyomi\s*\(Âm\s*On\):\s*|Onyomi:\s*/gi, '').trim();
+    } else if (trimmed.startsWith('Kunyomi (Âm Kun):') || trimmed.startsWith('Kunyomi:')) {
+      info.kun = trimmed.replace(/Kunyomi\s*\(Âm\s*Kun\):\s*|Kunyomi:\s*/gi, '').trim();
+    } else if (trimmed.startsWith('Cách ghi nhớ:')) {
+      info.mnemonic = trimmed.replace('Cách ghi nhớ:', '').trim();
+    } else if (trimmed.startsWith('Ví dụ Onyomi:')) {
+      currentSection = 'examplesOn';
+    } else if (trimmed.startsWith('Ví dụ Kunyomi:')) {
+      currentSection = 'examplesKun';
+    } else if (trimmed.startsWith('-') && currentSection) {
+      info[currentSection].push(trimmed.replace(/^-/, '').trim());
+    }
+  }
+  return info;
+};
 
 function speakJapanese(text) {
   if (!window.speechSynthesis) return;
@@ -26,6 +67,7 @@ export default function KanjiInteractiveWorkspace({ card, onClose, accentColor =
   const canvasContainerRef = useRef(null);
   const kanjiChar = card?.front ? card.front.trim()[0] : '';
   const kanjiInfo = getKanjiData(kanjiChar);
+  const parsedBack = useMemo(() => parseKanjiBack(card?.back), [card?.back]);
 
   // Hàm phụ trợ để hủy hoạt ảnh và quiz một cách an toàn
   const safeCancel = (writer) => {
@@ -174,9 +216,15 @@ export default function KanjiInteractiveWorkspace({ card, onClose, accentColor =
     }
   }, [practiceMode, writerInstance, handlePlayAnimation, handleStartQuiz]);
 
-  return (
-    <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-in">
-      <div className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow-lg w-full max-w-4xl max-h-[85vh] overflow-hidden flex flex-col md:flex-row relative animate-scale-up">
+  return createPortal(
+    <div 
+      className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-in"
+      onClick={onClose}
+    >
+      <div 
+        className="bg-surface-container-lowest border border-outline-variant/40 sharp-shadow-lg w-full max-w-4xl max-h-[85vh] overflow-hidden flex flex-col md:flex-row relative animate-scale-up"
+        onClick={(e) => e.stopPropagation()}
+      >
         
         {/* Nút đóng */}
         <button 
@@ -197,7 +245,7 @@ export default function KanjiInteractiveWorkspace({ card, onClose, accentColor =
             </span>
             <h3 className="font-headline text-3xl font-black text-on-surface mt-2 font-jp">{kanjiChar}</h3>
             <p className="text-xs text-on-surface-variant/80 mt-1 font-semibold uppercase tracking-wider">
-              {card?.romaji || 'Đang cập nhật cách đọc'} • {card?.back || 'Đang cập nhật nghĩa'}
+              {parsedBack.hanViet || card?.romaji || 'Đang tải'} • {parsedBack.meaning || 'Đang tải'}
             </p>
           </div>
 
@@ -310,15 +358,17 @@ export default function KanjiInteractiveWorkspace({ card, onClose, accentColor =
           <div className="flex-1 overflow-y-auto space-y-5 pr-1.5 custom-scrollbar">
             {/* 1. Phân tích bộ thủ */}
             <div className="space-y-2">
-              <h5 className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest flex items-center gap-1.5">
+              <h5 className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest flex items-center gap-1.5 font-headline">
                 <svg className="w-3.5 h-3.5 text-primary" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                 </svg>
                 Phân tích bộ thủ (Radicals)
               </h5>
               <div className="p-3 bg-surface-container-low border border-outline-variant/30 rounded-md">
-                <p className="text-xs font-bold text-on-surface">{kanjiInfo?.radicalExplanation || 'Đang cập nhật bộ thủ...'}</p>
-                {kanjiInfo?.radicals && kanjiInfo.radicals.length > 0 && (
+                <p className="text-xs font-bold text-on-surface">
+                  {kanjiInfo?.radicalExplanation || (parsedBack.boThu ? `Bộ thủ tạo thành: ${parsedBack.boThu}` : 'Đang cập nhật bộ thủ...')}
+                </p>
+                {kanjiInfo?.radicals && kanjiInfo.radicals.length > 0 ? (
                   <div className="flex gap-2 mt-2">
                     {kanjiInfo.radicals.map((rad, idx) => (
                       <span key={idx} className="px-2 py-0.5 bg-surface-container-lowest border border-outline-variant/30 text-xs font-bold text-primary rounded font-jp">
@@ -326,44 +376,103 @@ export default function KanjiInteractiveWorkspace({ card, onClose, accentColor =
                       </span>
                     ))}
                   </div>
-                )}
+                ) : parsedBack.boThu ? (
+                  <div className="flex gap-2 mt-2">
+                    <span className="px-2 py-0.5 bg-surface-container-lowest border border-outline-variant/30 text-xs font-bold text-primary rounded font-jp">
+                      {parsedBack.boThu.split(' ')[0]}
+                    </span>
+                  </div>
+                ) : null}
               </div>
             </div>
 
-            {/* 2. Câu chuyện liên tưởng */}
+            {/* 2. Ý nghĩa / Câu chuyện liên tưởng */}
             <div className="space-y-2">
-              <h5 className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest flex items-center gap-1.5">
+              <h5 className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest flex items-center gap-1.5 font-headline">
                 <svg className="w-3.5 h-3.5 text-amber-500" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                 </svg>
-                Câu chuyện gợi nhớ (Mnemonic)
+                Ý nghĩa / Mnemonic
               </h5>
               <div className="p-3 bg-amber-500/5 border border-amber-500/15 text-on-surface text-xs leading-relaxed italic rounded-md">
-                "{kanjiInfo?.mnemonic || 'Đang biên soạn câu chuyện gợi nhớ cho chữ Kanji này...'}"
+                {kanjiInfo?.mnemonic 
+                  ? `"${kanjiInfo.mnemonic}"` 
+                  : parsedBack.mnemonic 
+                    ? `"${parsedBack.mnemonic}"` 
+                    : (parsedBack.meaning ? `Ý nghĩa: ${parsedBack.meaning}` : 'Đang biên soạn câu chuyện gợi nhớ cho chữ Kanji này...')}
               </div>
             </div>
 
-            {/* 3. Từ ghép từ vựng (Jukugo) */}
+            {/* 3. Onyomi / Kunyomi */}
+            <div className="grid grid-cols-2 gap-4">
+              <div className="bg-surface-container-low border border-outline-variant/20 p-3 rounded-md">
+                <h5 className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-1.5 font-headline">
+                  Onyomi (Âm On)
+                </h5>
+                <p className="font-jp font-black text-sm text-primary">
+                  {parsedBack.on && parsedBack.on !== '-' ? parsedBack.on : 'Không có'}
+                </p>
+              </div>
+              <div className="bg-surface-container-low border border-outline-variant/20 p-3 rounded-md">
+                <h5 className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-1.5 font-headline">
+                  Kunyomi (Âm Kun)
+                </h5>
+                <p className="font-jp font-black text-sm text-secondary">
+                  {parsedBack.kun && parsedBack.kun !== '-' ? parsedBack.kun : 'Không có'}
+                </p>
+              </div>
+            </div>
+
+            {/* 4. Từ ghép phổ biến (Jukugo) */}
             <div className="space-y-2">
-              <h5 className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest flex items-center gap-1.5">
+              <h5 className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest flex items-center gap-1.5 font-headline">
                 <svg className="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" />
                 </svg>
-                Từ ghép phổ biến (Jukugo)
+                Từ ghép phổ biến
               </h5>
-              <div className="space-y-1.5">
+              <div className="space-y-3">
                 {kanjiInfo?.jukugo && kanjiInfo.jukugo.length > 0 ? (
-                  kanjiInfo.jukugo.map((jk, idx) => (
-                    <div key={idx} className="flex items-center justify-between p-2 bg-surface-container-low border border-outline-variant/20 rounded hover:bg-surface-container transition-all text-xs">
-                      <div className="flex items-baseline gap-1.5">
-                        <span className="font-jp font-black text-sm text-on-surface">{jk.word}</span>
-                        <span className="text-[10px] text-on-surface-variant/80 font-medium font-jp">({jk.reading})</span>
+                  <div className="space-y-1.5">
+                    {kanjiInfo.jukugo.map((jk, idx) => (
+                      <div key={idx} className="flex items-center justify-between p-2 bg-surface-container-low border border-outline-variant/20 rounded hover:bg-surface-container transition-all text-xs">
+                        <div className="flex items-baseline gap-1.5">
+                          <span className="font-jp font-black text-sm text-on-surface">{jk.word}</span>
+                          <span className="text-[10px] text-on-surface-variant/80 font-medium font-jp">({jk.reading})</span>
+                        </div>
+                        <span className="text-[10px] font-bold text-emerald-800 bg-emerald-50 px-1.5 py-0.5 border border-emerald-100 rounded">
+                          {jk.meaning}
+                        </span>
                       </div>
-                      <span className="text-[10px] font-bold text-emerald-800 bg-emerald-50 px-1.5 py-0.5 border border-emerald-100 rounded">
-                        {jk.meaning}
-                      </span>
-                    </div>
-                  ))
+                    ))}
+                  </div>
+                ) : (parsedBack.examplesOn && parsedBack.examplesOn.length > 0) || (parsedBack.examplesKun && parsedBack.examplesKun.length > 0) ? (
+                  <div className="space-y-3">
+                    {parsedBack.examplesOn && parsedBack.examplesOn.length > 0 && (
+                      <div>
+                        <p className="text-[10px] font-bold text-primary uppercase tracking-wider mb-1.5 font-headline">• Từ ghép Onyomi</p>
+                        <div className="space-y-1">
+                          {parsedBack.examplesOn.map((ex, idx) => (
+                            <div key={idx} className="p-2 bg-surface-container-low border border-outline-variant/15 rounded text-xs font-jp text-on-surface font-semibold">
+                              {ex}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {parsedBack.examplesKun && parsedBack.examplesKun.length > 0 && (
+                      <div>
+                        <p className="text-[10px] font-bold text-secondary uppercase tracking-wider mb-1.5 font-headline">• Từ ghép Kunyomi</p>
+                        <div className="space-y-1">
+                          {parsedBack.examplesKun.map((ex, idx) => (
+                            <div key={idx} className="p-2 bg-surface-container-low border border-outline-variant/15 rounded text-xs font-jp text-on-surface font-semibold">
+                              {ex}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
                 ) : (
                   <p className="text-xs text-on-surface-variant italic">Đang cập nhật các từ ghép...</p>
                 )}
@@ -385,6 +494,7 @@ export default function KanjiInteractiveWorkspace({ card, onClose, accentColor =
 
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

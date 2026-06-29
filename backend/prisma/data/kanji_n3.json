@@ -1,0 +1,2222 @@
+[
+  {
+    "front": "与",
+    "back": "Ý nghĩa: Ban, cho\nÂm Hán Việt: Dữ, Dự\nBộ thủ: 丿 (Phiệt)\nOnyomi (Âm On): ヨ\nKunyomi (Âm Kun): あたえる\nVí dụ Onyomi:\n  - 与党 (よとう: đảng cầm quyền),  参与 (さんよ: tham gia)\nVí dụ Kunyomi:\n  - 与える(あたえる: ban cho)\nCách ghi nhớ: Ban cho biển số 5 1",
+    "romaji": "Dữ, Dự",
+    "jlptLevel": 3
+  },
+  {
+    "front": "両",
+    "back": "Ý nghĩa: Cả hai, lưỡng\nÂm Hán Việt: Lưỡng\nBộ thủ: 一 (Nhất)\nOnyomi (Âm On): リョウ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 両親 (りょうしん: cha mẹ),  両方 (りょうほう: hai bên)\nCách ghi nhớ: Cả hai đều một 一 mình đi qua biên giới 冂 đến ngọn núi 山",
+    "romaji": "Lưỡng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "乗",
+    "back": "Ý nghĩa: Lên xe, cưỡi\nÂm Hán Việt: Thừa\nBộ thủ: 丿 (Phiệt)\nOnyomi (Âm On): ジョウ\nKunyomi (Âm Kun): のる\nVí dụ Onyomi:\n  - 乗車 (じょうしゃ: lên xe),  乗客 (じょうきゃく: hành khách)\nVí dụ Kunyomi:\n  - 乗る(のる: lên xe)\nCách ghi nhớ: Lên xe ở 1 bên phía đông 東",
+    "romaji": "Thừa",
+    "jlptLevel": 3
+  },
+  {
+    "front": "予",
+    "back": "Ý nghĩa: Dự đoán, dự định\nÂm Hán Việt: Dự\nBộ thủ: 亅 (Quyết)\nOnyomi (Âm On): ヨ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 予定 (よてい: dự định),  予習 (よしゅう: chuẩn bị bài)\nCách ghi nhớ: Dự 予 báo là khi gặp Ma マ sẽ kêu a lên",
+    "romaji": "Dự",
+    "jlptLevel": 3
+  },
+  {
+    "front": "争",
+    "back": "Ý nghĩa: Tranh đấu\nÂm Hán Việt: Tranh\nBộ thủ: 丿 (Phiệt)\nOnyomi (Âm On): ソウ\nKunyomi (Âm Kun): あらそう\nVí dụ Onyomi:\n  - 競争 (きょうそう: cạnh tranh),  戦争 (せんそう: chiến tranh)\nVí dụ Kunyomi:\n  - 争う(あらそう: tranh đấu)\nCách ghi nhớ: Móc em ra khỏi chiến tranh",
+    "romaji": "Tranh",
+    "jlptLevel": 3
+  },
+  {
+    "front": "互",
+    "back": "Ý nghĩa: Lẫn nhau\nÂm Hán Việt: Hỗ\nBộ thủ: 二 (Nhị)\nOnyomi (Âm On): ゴ\nKunyomi (Âm Kun): たがい\nVí dụ Onyomi:\n  - 互助 (ごじょ: sự giúp đỡ lẫn nhau),  相互 (そうご: tương hỗ)\nVí dụ Kunyomi:\n  - 互い (たがい: lẫn nhau)\nCách ghi nhớ: Hỗ trợ giống số 6 và 9",
+    "romaji": "Hỗ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "亡",
+    "back": "Ý nghĩa: Chết, mất\nÂm Hán Việt: Vong\nBộ thủ: 亠 (Đầu)\nOnyomi (Âm On): ボウ\nKunyomi (Âm Kun): なくなる\nVí dụ Onyomi:\n  - 亡者 (ぼうじゃ: người đã khuất),  亡命 (ぼうめい: lưu vong)\nVí dụ Kunyomi:\n  - 亡くなる (なくなる: qua đời)\nCách ghi nhớ: Mất Đầu 亠 là L sẽ chết",
+    "romaji": "Vong",
+    "jlptLevel": 3
+  },
+  {
+    "front": "交",
+    "back": "Ý nghĩa: Giao nhau, qua lại\nÂm Hán Việt: Giao\nBộ thủ: 亠 (Đầu)\nOnyomi (Âm On): コウ\nKunyomi (Âm Kun): まじわる\nVí dụ Onyomi:\n  - 交通 (こうつう: giao thông),  交換 (こうかん: trao đổi)\nVí dụ Kunyomi:\n  - 交わる (まじわる: giao tiếp)\nCách ghi nhớ: Ông Bố 父 Đầu 亠 đội mũ đi giao lưu",
+    "romaji": "Giao",
+    "jlptLevel": 3
+  },
+  {
+    "front": "他",
+    "back": "Ý nghĩa: Khác, người khác\nÂm Hán Việt: Tha\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): タ\nKunyomi (Âm Kun): ほか\nVí dụ Onyomi:\n  - 他人 (たにん: người khác),  他国 (たこく: quốc gia khác)\nVí dụ Kunyomi:\n  - 他 (ほか: khác)\nCách ghi nhớ: người亻 thả C là người lạ",
+    "romaji": "Tha",
+    "jlptLevel": 3
+  },
+  {
+    "front": "付",
+    "back": "Ý nghĩa: Gắn, kèm theo\nÂm Hán Việt: Phó\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): フ\nKunyomi (Âm Kun): つける\nVí dụ Onyomi:\n  - 付属 (ふぞく: phụ thuộc),  付き合い (つきあい: mối quan hệ)\nVí dụ Kunyomi:\n  - 付ける(つける: gắn)\nCách ghi nhớ: người 亻 khi được giao phó công việc mặt rất thốn 寸",
+    "romaji": "Phó",
+    "jlptLevel": 3
+  },
+  {
+    "front": "件",
+    "back": "Ý nghĩa: Vụ việc, sự kiện\nÂm Hán Việt: Kiện\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): ケン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 事件 (じけん: sự kiện),  条件 (じょうけん: điều kiện)\nCách ghi nhớ: người 亻 dẫn trâu 牛 đi dự Sự kiện",
+    "romaji": "Kiện",
+    "jlptLevel": 3
+  },
+  {
+    "front": "任",
+    "back": "Ý nghĩa: Giao phó, trách nhiệm\nÂm Hán Việt: Nhiệm\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): ニン\nKunyomi (Âm Kun): まかせる\nVí dụ Onyomi:\n  - 任務 (にんむ: nhiệm vụ),  責任 (せきにん: trách nhiệm)\nVí dụ Kunyomi:\n  - 任せる (まかせる: giao phó)\nCách ghi nhớ: người 亻 làm Vua 王 phải có trách nhiệm",
+    "romaji": "Nhiệm",
+    "jlptLevel": 3
+  },
+  {
+    "front": "伝",
+    "back": "Ý nghĩa: Truyền đạt, truyền tin\nÂm Hán Việt: Truyền\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): デン\nKunyomi (Âm Kun): つたえる\nVí dụ Onyomi:\n  - 伝統 (でんとう: truyền thống),  伝言 (でんごん: lời nhắn)\nVí dụ Kunyomi:\n  - 伝える(つたえる: truyền đạt)\nCách ghi nhớ: người 亻 suốt 2 二4 giờ đi tuyên truyền",
+    "romaji": "Truyền",
+    "jlptLevel": 3
+  },
+  {
+    "front": "似",
+    "back": "Ý nghĩa: Giống, tương tự\nÂm Hán Việt: Tự\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): ジ\nKunyomi (Âm Kun): にる\nVí dụ Onyomi:\n  - 似顔絵 (にがおえ: tranh chân dung),  類似 (るいじ: tương tự)\nVí dụ Kunyomi:\n  - 似る(にる: giống)\nCách ghi nhớ: người 亻 đứng làm mốc 以 thường giống nhau",
+    "romaji": "Tự",
+    "jlptLevel": 3
+  },
+  {
+    "front": "位",
+    "back": "Ý nghĩa: Vị trí, cấp bậc\nÂm Hán Việt: Vị\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): イ\nKunyomi (Âm Kun): くらい\nVí dụ Onyomi:\n  - 地位 (ちい: địa vị),  一位 (いちい: vị trí số 1)\nVí dụ Kunyomi:\n  - 位 (くらい: vị trí)\nCách ghi nhớ: người 亻 đứng 立 đúng Vị trí",
+    "romaji": "Vị",
+    "jlptLevel": 3
+  },
+  {
+    "front": "余",
+    "back": "Ý nghĩa: Dư thừa\nÂm Hán Việt: Dư\nBộ thủ: 人 (Nhân)\nOnyomi (Âm On): ヨ\nKunyomi (Âm Kun): あまる\nVí dụ Onyomi:\n  - 余裕 (よゆう: dư dả),  余計 (よけい: dư thừa)\nVí dụ Kunyomi:\n  - 余る(あまる: dư)\nCách ghi nhớ: người 人  1 mình cười hô hô ホ ăn đồ dư thừa",
+    "romaji": "Dư",
+    "jlptLevel": 3
+  },
+  {
+    "front": "例",
+    "back": "Ý nghĩa: Ví dụ\nÂm Hán Việt: Lệ\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): レイ\nKunyomi (Âm Kun): たとえば\nVí dụ Onyomi:\n  - 例外 (れいがい: ngoại lệ),  実例 (じつれい: ví dụ thực tế)\nVí dụ Kunyomi:\n  - 例えば (たとえば: ví dụ)\nCách ghi nhớ: người 亻 đứng xếp hàng 列 đưa ra ví dụ",
+    "romaji": "Lệ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "供",
+    "back": "Ý nghĩa: Cung cấp, dâng hiến\nÂm Hán Việt: Cung\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): キョウ\nKunyomi (Âm Kun): そなえる\nVí dụ Onyomi:\n  - 提供 (ていきょう: cung cấp),  供養 (くよう: cúng tế)\nVí dụ Kunyomi:\n  - 供える(そなえる: dâng, cúng)\nCách ghi nhớ: người 亻 cung cấp hàng hóa  nơi công cộng 共",
+    "romaji": "Cung",
+    "jlptLevel": 3
+  },
+  {
+    "front": "便",
+    "back": "Ý nghĩa: Tiện lợi\nÂm Hán Việt: Tiện\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): ベン\nKunyomi (Âm Kun): たより\nVí dụ Onyomi:\n  - 便利 (べんり: tiện lợi),  郵便 (ゆうびん: bưu điện)\nVí dụ Kunyomi:\n  - 便り(たより: thư, tin tức)\nCách ghi nhớ: người 亻 mới 更 tiện để sai bảo",
+    "romaji": "Tiện",
+    "jlptLevel": 3
+  },
+  {
+    "front": "係",
+    "back": "Ý nghĩa: Quan hệ, liên hệ\nÂm Hán Việt: Hệ\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): ケイ\nKunyomi (Âm Kun): かかる\nVí dụ Onyomi:\n  - 関係 (かんけい: quan hệ),  係員 (かかりいん: người phụ trách)\nVí dụ Kunyomi:\n  - 係る(かかる: liên quan)\nCách ghi nhớ: người 亻 được vào hệ 系 thống thì chắc chắn có quan hệ rồi",
+    "romaji": "Hệ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "信",
+    "back": "Ý nghĩa: Tin tưởng\nÂm Hán Việt: Tín\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): シン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 信号 (しんごう: tín hiệu),  信頼 (しんらい: tin cậy)\nCách ghi nhớ: ngườ 亻quen nói 言 sẽ được Tin tưởng",
+    "romaji": "Tín",
+    "jlptLevel": 3
+  },
+  {
+    "front": "倒",
+    "back": "Ý nghĩa: Đổ, ngã\nÂm Hán Việt: Đảo\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): トウ\nKunyomi (Âm Kun): たおれる\nVí dụ Onyomi:\n  - 倒産 (とうさん: phá sản),  転倒 (てんとう: ngã nhào)\nVí dụ Kunyomi:\n  - 倒れる (たおれる: ngã)\nCách ghi nhớ: người 亻 đến nơi 到 là đổ luôn",
+    "romaji": "Đảo",
+    "jlptLevel": 3
+  },
+  {
+    "front": "候",
+    "back": "Ý nghĩa: Khí hậu, tình hình\nÂm Hán Việt: Hầu\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): コウ\nKunyomi (Âm Kun): うかがう\nVí dụ Onyomi:\n  - 気候 (きこう: khí hậu),  天候 (てんこう: thời tiết)\nVí dụ Kunyomi:\n  - 伺う(うかがう: thăm hỏi)\nCách ghi nhớ: Tước hầu 侯 có 1 vật có thể điều khiển Khí hậu",
+    "romaji": "Hầu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "値",
+    "back": "Ý nghĩa: Giá trị\nÂm Hán Việt: Trị\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): チ\nKunyomi (Âm Kun): ね\nVí dụ Onyomi:\n  - 価値 (かち: giá trị),  値段 (ねだん: giá cả)\nVí dụ Kunyomi:\n  - 値 (ね: giá trị)\nCách ghi nhớ: người 亻 đứng nói trực 直 tiếp sẽ có giá trị",
+    "romaji": "Trị",
+    "jlptLevel": 3
+  },
+  {
+    "front": "偉",
+    "back": "Ý nghĩa: Vĩ đại\nÂm Hán Việt: Vĩ\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): イ\nKunyomi (Âm Kun): えらい\nVí dụ Onyomi:\n  - 偉大 (いだい: vĩ đại),  偉業 (いぎょう: sự nghiệp vĩ đại)\nVí dụ Kunyomi:\n  - 偉い (えらい: tuyệt vời, vĩ đại)\nCách ghi nhớ: người 亻 đi vi 韋 hành là vĩ nhân",
+    "romaji": "Vĩ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "側",
+    "back": "Ý nghĩa: Bên, phía\nÂm Hán Việt: Trắc\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): ソク\nKunyomi (Âm Kun): かわ\nVí dụ Onyomi:\n  - 側面 (そくめん: mặt bên),  両側 (りょうがわ: hai phía)\nVí dụ Kunyomi:\n  - 側 (かわ: phía)\nCách ghi nhớ: người 亻 đứng về phía quy tắc 則",
+    "romaji": "Trắc",
+    "jlptLevel": 3
+  },
+  {
+    "front": "偶",
+    "back": "Ý nghĩa: Tình cờ, ngẫu nhiên\nÂm Hán Việt: Ngẫu\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): グウ\nKunyomi (Âm Kun): たま\nVí dụ Onyomi:\n  - 偶然 (ぐうぜん: ngẫu nhiên),  偶数 (ぐうすう: số chẵn)\nVí dụ Kunyomi:\n  - 偶に (たまに: thỉnh thoảng)\nCách ghi nhớ: Chọn ngẫu nhiên phải 1 người 亻 ngu dốt 禺",
+    "romaji": "Ngẫu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "備",
+    "back": "Ý nghĩa: Chuẩn bị\nÂm Hán Việt: Bị\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): ビ\nKunyomi (Âm Kun): そなえる\nVí dụ Onyomi:\n  - 準備 (じゅんび: chuẩn bị),  備考 (びこう: ghi chú)\nVí dụ Kunyomi:\n  - 備える(そなえる: chuẩn bị)\nCách ghi nhớ: người 亻 đứng  chuẩn bị cỏ 艹 ở sườn núi 厂 để sử dụng 用",
+    "romaji": "Bị",
+    "jlptLevel": 3
+  },
+  {
+    "front": "働",
+    "back": "Ý nghĩa: Làm việc\nÂm Hán Việt: Động\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): ドウ\nKunyomi (Âm Kun): はたらく\nVí dụ Onyomi:\n  - 労働 (ろうどう: lao động),  働き者 (はたらきもの: người chăm chỉ)\nVí dụ Kunyomi:\n  - 働く(はたらく: làm việc)\nCách ghi nhớ: người 亻 chuyển động 動 là lao động",
+    "romaji": "Động",
+    "jlptLevel": 3
+  },
+  {
+    "front": "優",
+    "back": "Ý nghĩa: Hiền lành, ưu tú\nÂm Hán Việt: Ưu\nBộ thủ: 亻 (Nhân đứng)\nOnyomi (Âm On): ユウ\nKunyomi (Âm Kun): やさしい\nVí dụ Onyomi:\n  - 優勝 (ゆうしょう: chiến thắng),  優秀 (ゆうしゅう: ưu tú)\nVí dụ Kunyomi:\n  - 優しい(やさしい: hiền lành)\nCách ghi nhớ: Những người 亻 buồn rầu 憂 thì hiền lành",
+    "romaji": "Ưu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "光",
+    "back": "Ý nghĩa: Ánh sáng\nÂm Hán Việt: Quang\nBộ thủ: 儿 (Nhi)\nOnyomi (Âm On): コウ\nKunyomi (Âm Kun): ひかり\nVí dụ Onyomi:\n  - 光線 (こうせん: tia sáng),  日光 (にっこう: ánh sáng mặt trời)\nVí dụ Kunyomi:\n  - 光 (ひかり: ánh sáng)\nCách ghi nhớ: người  có một 一 đôi chân 儿 đẹp sẽ Tỏa Sáng",
+    "romaji": "Quang",
+    "jlptLevel": 3
+  },
+  {
+    "front": "全",
+    "back": "Ý nghĩa: Toàn bộ\nÂm Hán Việt: Toàn\nBộ thủ: 入 (Nhập)\nOnyomi (Âm On): ゼン\nKunyomi (Âm Kun): すべて\nVí dụ Onyomi:\n  - 全部 (ぜんぶ: tất cả),  全体 (ぜんたい: toàn thể)\nVí dụ Kunyomi:\n  - 全て(すべて: tất cả)\nCách ghi nhớ: người 人 làm Vua 王 phải toàn diện",
+    "romaji": "Toàn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "共",
+    "back": "Ý nghĩa: Cùng, chung\nÂm Hán Việt: Cộng\nBộ thủ: 八 (Bát)\nOnyomi (Âm On): キョウ\nKunyomi (Âm Kun): とも\nVí dụ Onyomi:\n  - 共同 (きょうどう: cộng đồng),  共通 (きょうつう: chung)\nVí dụ Kunyomi:\n  - 共に (ともに: cùng nhau)\nCách ghi nhớ: Có 8 八 hàng rào nơi công cộng 共",
+    "romaji": "Cộng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "具",
+    "back": "Ý nghĩa: Dụng cụ, trang bị\nÂm Hán Việt: Cụ\nBộ thủ: 八 (Bát)\nOnyomi (Âm On): グ\nKunyomi (Âm Kun): そなえる\nVí dụ Onyomi:\n  - 具体的 (ぐたいてき: cụ thể),  道具 (どうぐ: dụng cụ)\nVí dụ Kunyomi:\n  - 具える(そなえる: trang bị)\nCách ghi nhớ: Dùng 1 一 công cụ 具 cắt đôi bảo bối 貝",
+    "romaji": "Cụ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "内",
+    "back": "Ý nghĩa: Bên trong\nÂm Hán Việt: Nội\nBộ thủ: 冂 (Quynh)\nOnyomi (Âm On): ナイ\nKunyomi (Âm Kun): うち\nVí dụ Onyomi:\n  - 内容 (ないよう: nội dung),  内部 (ないぶ: bên trong)\nVí dụ Kunyomi:\n  - 内 (うち: bên trong)\nCách ghi nhớ: người 人  ở biên giới 冂 sống hướng nội",
+    "romaji": "Nội",
+    "jlptLevel": 3
+  },
+  {
+    "front": "冷",
+    "back": "Ý nghĩa: Lạnh\nÂm Hán Việt: Lãnh\nBộ thủ: 冫 (Băng)\nOnyomi (Âm On): レイ\nKunyomi (Âm Kun): つめたい\nVí dụ Onyomi:\n  - 冷蔵庫 (れいぞうこ: tủ lạnh),  冷静 (れいせい: điềm tĩnh)\nVí dụ Kunyomi:\n  - 冷たい (つめたい: lạnh)\nCách ghi nhớ: băng 冫 Đá không cần có lệnh 令 vẫn lạnh",
+    "romaji": "Lãnh",
+    "jlptLevel": 3
+  },
+  {
+    "front": "処",
+    "back": "Ý nghĩa: Xử lý\nÂm Hán Việt: Xử\nBộ thủ: 几 (Kỷ)\nOnyomi (Âm On): ショ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 処分 (しょぶん: xử lý),  処理 (しょり: xử lý)\nCách ghi nhớ: Cầm ghế 几 phía sau 夂 để xử lý",
+    "romaji": "Xử",
+    "jlptLevel": 3
+  },
+  {
+    "front": "列",
+    "back": "Ý nghĩa: Hàng, dãy\nÂm Hán Việt: Liệt\nBộ thủ: 刀 (Đao)\nOnyomi (Âm On): レツ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 列車 (れっしゃ: tàu hỏa),  行列 (ぎょうれつ: hàng dài)\nCách ghi nhớ: 1 一 mình ta タ cầm đao 刂 đứng xếp hàng",
+    "romaji": "Liệt",
+    "jlptLevel": 3
+  },
+  {
+    "front": "初",
+    "back": "Ý nghĩa: Ban đầu\nÂm Hán Việt: Sơ\nBộ thủ: 刀 (Đao)\nOnyomi (Âm On): ショ\nKunyomi (Âm Kun): はじめ\nVí dụ Onyomi:\n  - 初心者 (しょしんしゃ: người mới),  初級 (しょきゅう: sơ cấp)\nVí dụ Kunyomi:\n  - 初め (はじめ: bắt đầu)\nCách ghi nhớ: Lần Đầu ra mắt mặc y phục 衤 cầm đao 刀",
+    "romaji": "Sơ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "判",
+    "back": "Ý nghĩa: Phán đoán\nÂm Hán Việt: Phán\nBộ thủ: 刂 (Đao)\nOnyomi (Âm On): ハン、バン\nKunyomi (Âm Kun): わかる\nVí dụ Onyomi:\n  - 判断 (はんだん: phán đoán),  判決 (はんけつ: phán quyết)\nVí dụ Kunyomi:\n  - 判る(わかる: hiểu)\nCách ghi nhớ: Ông bán 半 đao 刂 đang phán đoán",
+    "romaji": "Phán",
+    "jlptLevel": 3
+  },
+  {
+    "front": "利",
+    "back": "Ý nghĩa: Lợi ích\nÂm Hán Việt: Lợi\nBộ thủ: 刂 (Đao)\nOnyomi (Âm On): リ\nKunyomi (Âm Kun): きく\nVí dụ Onyomi:\n  - 利用 (りよう: sử dụng),  便利 (べんり: tiện lợi)\nVí dụ Kunyomi:\n  - 利く(きく: có hiệu quả)\nCách ghi nhớ: Cắt lúa 禾 bằng đao 刂 rất tiện lợi",
+    "romaji": "Lợi",
+    "jlptLevel": 3
+  },
+  {
+    "front": "到",
+    "back": "Ý nghĩa: Đến nơi\nÂm Hán Việt: Đáo\nBộ thủ: 刂 (Đao)\nOnyomi (Âm On): トウ\nKunyomi (Âm Kun): いたる\nVí dụ Onyomi:\n  - 到着 (とうちゃく: đến nơi),  到達 (とうたつ: đạt đến)\nVí dụ Kunyomi:\n  - 到る(いたる: đến nơi)\nCách ghi nhớ: chí 至 phèo vác đao 刂 đến nơi",
+    "romaji": "Đáo",
+    "jlptLevel": 3
+  },
+  {
+    "front": "制",
+    "back": "Ý nghĩa: Hệ thống, điều chỉnh\nÂm Hán Việt: Chế\nBộ thủ: 刂 (Đao)\nOnyomi (Âm On): セイ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 制度 (せいど: hệ thống),  制作 (せいさく: sản xuất)\nCách ghi nhớ: Cầm đao 刂 ở biên giới 冂 chia thịt trâu 牛 là chế độ ngày xưa",
+    "romaji": "Chế",
+    "jlptLevel": 3
+  },
+  {
+    "front": "刻",
+    "back": "Ý nghĩa: Chạm khắc, khắc sâu\nÂm Hán Việt: Khắc\nBộ thủ: 刂 (Đao)\nOnyomi (Âm On): コク\nKunyomi (Âm Kun): きざむ\nVí dụ Onyomi:\n  - 時刻 (じこく: thời gian),  深刻 (しんこく: nghiêm trọng)\nVí dụ Kunyomi:\n  - 刻む (きざむ: khắc, chạm)\nCách ghi nhớ: Con lợn 亥 dùng đao 刂 điêu khắc",
+    "romaji": "Khắc",
+    "jlptLevel": 3
+  },
+  {
+    "front": "割",
+    "back": "Ý nghĩa: Chia, bể\nÂm Hán Việt: Cát\nBộ thủ: 刂 (Đao)\nOnyomi (Âm On): カツ\nKunyomi (Âm Kun): わる\nVí dụ Onyomi:\n  - 割引 (わりびき: giảm giá),  分割 (ぶんかつ: phân chia)\nVí dụ Kunyomi:\n  - 割る(わる: chia, bể)\nCách ghi nhớ: đao 刂 có tác hại 害 làm dễ vỡ đồ",
+    "romaji": "Cát",
+    "jlptLevel": 3
+  },
+  {
+    "front": "加",
+    "back": "Ý nghĩa: Thêm vào\nÂm Hán Việt: Gia\nBộ thủ: 力 (Lực)\nOnyomi (Âm On): カ\nKunyomi (Âm Kun): くわえる\nVí dụ Onyomi:\n  - 参加 (さんか: tham gia),  増加 (ぞうか: gia tăng)\nVí dụ Kunyomi:\n  - 加える(くわえる: thêm vào)\nCách ghi nhớ: mồm 口 có lực 力 mới tham gia cổ vũ được",
+    "romaji": "Gia",
+    "jlptLevel": 3
+  },
+  {
+    "front": "助",
+    "back": "Ý nghĩa: Giúp đỡ\nÂm Hán Việt: Trợ\nBộ thủ: 力 (Lực)\nOnyomi (Âm On): ジョ\nKunyomi (Âm Kun): たすける\nVí dụ Onyomi:\n  - 助手 (じょしゅ: trợ lý),  助言 (じょげん: lời khuyên)\nVí dụ Kunyomi:\n  - 助ける(たすける: giúp)\nCách ghi nhớ: Ngoài 且 sức lực 力 ra thì không trợ giúp được thêm gì",
+    "romaji": "Trợ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "努",
+    "back": "Ý nghĩa: Nỗ lực\nÂm Hán Việt: Nỗ\nBộ thủ: 力 (Lực)\nOnyomi (Âm On): ド\nKunyomi (Âm Kun): つとめる\nVí dụ Onyomi:\n  - 努力 (どりょく: nỗ lực),  努める (つとめる: cố gắng)\nVí dụ Kunyomi:\n  - 努める (つとめる: nỗ lực)\nCách ghi nhớ: Nô tỳ 奴 nỗ lực 力 làm việc",
+    "romaji": "Nỗ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "労",
+    "back": "Ý nghĩa: Lao động\nÂm Hán Việt: Lao\nBộ thủ: 力 (Lực)\nOnyomi (Âm On): ロウ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 労働 (ろうどう: lao động),  労力 (ろうりょく: công sức)\nCách ghi nhớ: Làm việc cật lực  力 trong đêm 冖 toát 3 giọt mồ hôi là lao động",
+    "romaji": "Lao",
+    "jlptLevel": 3
+  },
+  {
+    "front": "務",
+    "back": "Ý nghĩa: Công việc, nhiệm vụ\nÂm Hán Việt: Vụ\nBộ thủ: 力 (Lực)\nOnyomi (Âm On): ム\nKunyomi (Âm Kun): つとめる\nVí dụ Onyomi:\n  - 義務 (ぎむ: nghĩa vụ),  事務 (じむ: công việc văn phòng)\nVí dụ Kunyomi:\n  - 務める (つとめる: đảm nhiệm)\nCách ghi nhớ: Xảy ra vụ mâu 矛 thuẫn đánh 攵 nhau bằng vũ lực 力",
+    "romaji": "Vụ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "勝",
+    "back": "Ý nghĩa: Chiến thắng\nÂm Hán Việt: Thắng\nBộ thủ: 力 (Lực)\nOnyomi (Âm On): ショウ\nKunyomi (Âm Kun): かつ\nVí dụ Onyomi:\n  - 勝利 (しょうり: chiến thắng),  決勝 (けっしょう: chung kết)\nVí dụ Kunyomi:\n  - 勝つ (かつ: thắng)\nCách ghi nhớ: Thắng lợi của em Nguyệt 月 trước chồng 夫 do có 2 二 năng lực 力",
+    "romaji": "Thắng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "勤",
+    "back": "Ý nghĩa: Chăm chỉ, làm việc\nÂm Hán Việt: Cần\nBộ thủ: 力 (Lực)\nOnyomi (Âm On): キン\nKunyomi (Âm Kun): つとめる\nVí dụ Onyomi:\n  - 通勤 (つうきん: đi làm),  勤務 (きんむ: công việc)\nVí dụ Kunyomi:\n  - 勤める (つとめる: làm việc)\nCách ghi nhớ: Ông chủ 主mở mồm 口 nói cô thảo 艹 hãy nỗ lực 力 cần cù làm việc",
+    "romaji": "Cần",
+    "jlptLevel": 3
+  },
+  {
+    "front": "化",
+    "back": "Ý nghĩa: Biến hóa, thay đổi\nÂm Hán Việt: Hóa\nBộ thủ: 匕 (Chủy)\nOnyomi (Âm On): カ\nKunyomi (Âm Kun): ばける\nVí dụ Onyomi:\n  - 文化 (ぶんか: văn hóa),  化学 (かがく: hóa học)\nVí dụ Kunyomi:\n  - 化ける(ばける: biến hóa)\nCách ghi nhớ: người 亻 cưới hihi ヒ là hóa 化 điên",
+    "romaji": "Hóa",
+    "jlptLevel": 3
+  },
+  {
+    "front": "単",
+    "back": "Ý nghĩa: Đơn giản\nÂm Hán Việt: Đơn\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): タン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 簡単 (かんたん: đơn giản),  単位 (たんい: đơn vị)\nCách ghi nhớ: Đơn giản lắm, cứ có 10 十 mảnh ruộng 田 là đời tươi sáng",
+    "romaji": "Đơn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "危",
+    "back": "Ý nghĩa: Nguy hiểm\nÂm Hán Việt: Nguy\nBộ thủ: 卩 (Tiết)\nOnyomi (Âm On): キ\nKunyomi (Âm Kun): あぶない\nVí dụ Onyomi:\n  - 危険 (きけん: nguy hiểm),  危機 (きき: khủng hoảng)\nVí dụ Kunyomi:\n  - 危ない (あぶない: nguy hiểm)\nCách ghi nhớ: Móc vào Tai họa 厄 rất nguy hiểm",
+    "romaji": "Nguy",
+    "jlptLevel": 3
+  },
+  {
+    "front": "原",
+    "back": "Ý nghĩa: Gốc, nguyên bản\nÂm Hán Việt: Nguyên\nBộ thủ: 厂 (Hán)\nOnyomi (Âm On): ゲン\nKunyomi (Âm Kun): はら\nVí dụ Onyomi:\n  - 原因 (げんいん: nguyên nhân),  原料 (げんりょう: nguyên liệu)\nVí dụ Kunyomi:\n  - 原 (はら: đồng bằng)\nCách ghi nhớ: Dưới sườn núi 厂 vừa Trắng 白 vừa nhỏ 小 là có nguyên nhân",
+    "romaji": "Nguyên",
+    "jlptLevel": 3
+  },
+  {
+    "front": "参",
+    "back": "Ý nghĩa: Tham gia, đi\nÂm Hán Việt: Tham\nBộ thủ: 厶 (Tư)\nOnyomi (Âm On): サン\nKunyomi (Âm Kun): まいる\nVí dụ Onyomi:\n  - 参加 (さんか: tham gia),  参考 (さんこう: tham khảo)\nVí dụ Kunyomi:\n  - 参る(まいる: đi, đến)\nCách ghi nhớ: Tư 4 nhân làm To 大 tham gia buôn bán tóc 彡",
+    "romaji": "Tham",
+    "jlptLevel": 3
+  },
+  {
+    "front": "反",
+    "back": "Ý nghĩa: Phản đối, ngược\nÂm Hán Việt: Phản\nBộ thủ: 又 (Hựu)\nOnyomi (Âm On): ハン\nKunyomi (Âm Kun): そる\nVí dụ Onyomi:\n  - 反対 (はんたい: phản đối),  反映 (はんえい: phản ánh)\nVí dụ Kunyomi:\n  - 反る(そる: cong, vênh)\nCách ghi nhớ: Đi lại 又 dưới sườn núi 厂 để phản đối",
+    "romaji": "Phản",
+    "jlptLevel": 3
+  },
+  {
+    "front": "収",
+    "back": "Ý nghĩa: Thu thập\nÂm Hán Việt: Thu\nBộ thủ: 又 (Hựu)\nOnyomi (Âm On): シュウ\nKunyomi (Âm Kun): おさめる\nVí dụ Onyomi:\n  - 収入 (しゅうにゅう: thu nhập),  収集 (しゅうしゅう: thu gom)\nVí dụ Kunyomi:\n  - 収める (おさめる: thu thập)\nCách ghi nhớ: Tháng này thu nhập lại 又 được 4 triệu",
+    "romaji": "Thu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "取",
+    "back": "Ý nghĩa: Lấy, nhận\nÂm Hán Việt: Thủ\nBộ thủ: 又 (Hựu)\nOnyomi (Âm On): シュ\nKunyomi (Âm Kun): とる\nVí dụ Onyomi:\n  - 取材 (しゅざい: thu thập thông tin),  取得 (しゅとく: thu nhận)\nVí dụ Kunyomi:\n  - 取る(とる: lấy)\nCách ghi nhớ: Tai 耳 lại 又 bị lấy mất",
+    "romaji": "Thủ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "受",
+    "back": "Ý nghĩa: Nhận\nÂm Hán Việt: Thụ\nBộ thủ: 又 (Hựu)\nOnyomi (Âm On): ジュ\nKunyomi (Âm Kun): うける\nVí dụ Onyomi:\n  - 受験 (じゅけん: dự thi),  受付 (うけつけ: lễ tân)\nVí dụ Kunyomi:\n  - 受ける(うける: nhận)\nCách ghi nhớ: Đi lại 又 trong đêm 冖 cắt móng tay 爫 là đang hưởng thụ",
+    "romaji": "Thụ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "可",
+    "back": "Ý nghĩa: Có thể\nÂm Hán Việt: Khả\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): カ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 可能 (かのう: có thể),  許可 (きょか: cho phép)\nCách ghi nhớ: Miệng 口 có khả 可 năng",
+    "romaji": "Khả",
+    "jlptLevel": 3
+  },
+  {
+    "front": "号",
+    "back": "Ý nghĩa: Số hiệu, tín hiệu\nÂm Hán Việt: Hiệu\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): ゴウ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 信号 (しんごう: tín hiệu),  番号 (ばんごう: số hiệu)\nCách ghi nhớ: mồm 口 hình số 5 là đang ra hiệu",
+    "romaji": "Hiệu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "合",
+    "back": "Ý nghĩa: Hợp, kết hợp\nÂm Hán Việt: Hợp\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): ゴウ\nKunyomi (Âm Kun): あう\nVí dụ Onyomi:\n  - 合計 (ごうけい: tổng cộng),  相談 (そうだん: thảo luận)\nVí dụ Kunyomi:\n  - 合う(あう: hợp)\nCách ghi nhớ: Dưới mái nhà 人 cùng chung 1 miệng 口 là hợp nhau",
+    "romaji": "Hợp",
+    "jlptLevel": 3
+  },
+  {
+    "front": "向",
+    "back": "Ý nghĩa: Hướng về\nÂm Hán Việt: Hướng\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): コウ\nKunyomi (Âm Kun): むく\nVí dụ Onyomi:\n  - 方向 (ほうこう: phương hướng),  向上 (こうじょう: tiến bộ)\nVí dụ Kunyomi:\n  - 向く(むく: hướng về)\nCách ghi nhớ: mồm 口 đang Hướng về phía Biên giới 冂",
+    "romaji": "Hướng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "君",
+    "back": "Ý nghĩa: Bạn, cậu\nÂm Hán Việt: Quân\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): クン\nKunyomi (Âm Kun): きみ\nVí dụ Onyomi:\n  - 君主 (くんしゅ: quân chủ),  君 (きみ: cậu, bạn)\nVí dụ Kunyomi:\n  - 君 (きみ: bạn, cậu)\nCách ghi nhớ: Em phải 右 là chính em",
+    "romaji": "Quân",
+    "jlptLevel": 3
+  },
+  {
+    "front": "否",
+    "back": "Ý nghĩa: Phủ nhận\nÂm Hán Việt: Phủ\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): ヒ\nKunyomi (Âm Kun): いな\nVí dụ Onyomi:\n  - 否定 (ひてい: phủ định),  否決 (ひけつ: bác bỏ)\nVí dụ Kunyomi:\n  - 否 (いな: không)\nCách ghi nhớ: mồm 口 không 不 nói  lời phủ định",
+    "romaji": "Phủ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "吸",
+    "back": "Ý nghĩa: Hút\nÂm Hán Việt: Hấp\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): キュウ\nKunyomi (Âm Kun): すう\nVí dụ Onyomi:\n  - 吸収 (きゅうしゅう: hấp thụ),  呼吸 (こきゅう: hô hấp)\nVí dụ Kunyomi:\n  - 吸う(すう: hút)\nCách ghi nhớ: Hô hấp bằng miệng 口 là phổ cập 及",
+    "romaji": "Hấp",
+    "jlptLevel": 3
+  },
+  {
+    "front": "吹",
+    "back": "Ý nghĩa: Thổi\nÂm Hán Việt: Xuy\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): スイ\nKunyomi (Âm Kun): ふく\nVí dụ Onyomi:\n  - 吹奏 (すいそう: trình diễn nhạc cụ thổi),  吹雪 (ふぶき: bão tuyết)\nVí dụ Kunyomi:\n  - 吹く(ふく: thổi)\nCách ghi nhớ: thiếu 欠 mồm 口 thì không thể thổi được",
+    "romaji": "Xuy",
+    "jlptLevel": 3
+  },
+  {
+    "front": "告",
+    "back": "Ý nghĩa: Thông báo\nÂm Hán Việt: Cáo\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): コク\nKunyomi (Âm Kun): つげる\nVí dụ Onyomi:\n  - 告白 (こくはく: thổ lộ),  報告 (ほうこく: báo cáo)\nVí dụ Kunyomi:\n  - 告げる (つげる: thông báo)\nCách ghi nhớ: Con trâu 牛 mở mồm 口 quảng cáo",
+    "romaji": "Cáo",
+    "jlptLevel": 3
+  },
+  {
+    "front": "呼",
+    "back": "Ý nghĩa: Gọi\nÂm Hán Việt: Hô\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): コ\nKunyomi (Âm Kun): よぶ\nVí dụ Onyomi:\n  - 呼吸 (こきゅう: hô hấp),  呼び🎧す (よびだす: gọi ra)\nVí dụ Kunyomi:\n  - 呼ぶ (よぶ: gọi)\nCách ghi nhớ: mồm 口 bình 平 đang hô hấp",
+    "romaji": "Hô",
+    "jlptLevel": 3
+  },
+  {
+    "front": "命",
+    "back": "Ý nghĩa: Mệnh lệnh, mạng sống\nÂm Hán Việt: Mệnh\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): メイ、ミョウ\nKunyomi (Âm Kun): いのち\nVí dụ Onyomi:\n  - 生命 (せいめい: sinh mệnh),  命令 (めいれい: mệnh lệnh)\nVí dụ Kunyomi:\n  - 命 (いのち: mạng sống)\nCách ghi nhớ: người 人  lính mồm 口 nhất 一 định không ăn để tiết 卩 kiệm theo mệnh lệnh",
+    "romaji": "Mệnh",
+    "jlptLevel": 3
+  },
+  {
+    "front": "和",
+    "back": "Ý nghĩa: Hòa bình, hòa hợp\nÂm Hán Việt: Hòa\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): ワ\nKunyomi (Âm Kun): やわらぐ\nVí dụ Onyomi:\n  - 平和 (へいわ: hòa bình),  和食 (わしょく: món Nhật)\nVí dụ Kunyomi:\n  - 和らぐ(やわらぐ: làm dịu đi)\nCách ghi nhớ: có thoải mái lúa 禾 gạo đưa vào mồm 口 là thời hòa bình",
+    "romaji": "Hòa",
+    "jlptLevel": 3
+  },
+  {
+    "front": "商",
+    "back": "Ý nghĩa: Buôn bán\nÂm Hán Việt: Thương\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): ショウ\nKunyomi (Âm Kun): あきなう\nVí dụ Onyomi:\n  - 商業 (しょうぎょう: thương nghiệp),  商品 (しょうひん: sản phẩm)\nVí dụ Kunyomi:\n  - 商う(あきなう: buôn bán)\nCách ghi nhớ: đứng 立 ở biên giới 冂 mồm 口 nói chân 儿 đi bán thương phẩm",
+    "romaji": "Thương",
+    "jlptLevel": 3
+  },
+  {
+    "front": "喜",
+    "back": "Ý nghĩa: Niềm vui\nÂm Hán Việt: Hỉ\nBộ thủ: 口 (Khẩu)\nOnyomi (Âm On): キ\nKunyomi (Âm Kun): よろこぶ\nVí dụ Onyomi:\n  - 喜劇 (きげき: hài kịch),  歓喜 (かんき: vui mừng)\nVí dụ Kunyomi:\n  - 喜ぶ (よろこぶ: vui)\nCách ghi nhớ: 10 十 điểm đậu 豆 đại học mở mồm 口 cười hoan hỉ",
+    "romaji": "Hỉ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "回",
+    "back": "Ý nghĩa: Quay, lần\nÂm Hán Việt: Hồi\nBộ thủ: 囗 (Vi)\nOnyomi (Âm On): カイ\nKunyomi (Âm Kun): まわる\nVí dụ Onyomi:\n  - 回転 (かいてん: xoay vòng),  回数 (かいすう: số lần)\nVí dụ Kunyomi:\n  - 回る(まわる: xoay)\nCách ghi nhớ: mồm 口 nói liền Hồi 回",
+    "romaji": "Hồi",
+    "jlptLevel": 3
+  },
+  {
+    "front": "因",
+    "back": "Ý nghĩa: Nguyên nhân\nÂm Hán Việt: Nhân\nBộ thủ: 囗 (Vi)\nOnyomi (Âm On): イン\nKunyomi (Âm Kun): よる\nVí dụ Onyomi:\n  - 原因 (げんいん: nguyên nhân),  因果 (いんが: nhân quả)\nVí dụ Kunyomi:\n  - 因る(よる: do, vì)\nCách ghi nhớ: Xung quanh 口 chuyện lớn 大 có rất nhiều nguyên nhân",
+    "romaji": "Nhân",
+    "jlptLevel": 3
+  },
+  {
+    "front": "困",
+    "back": "Ý nghĩa: Khốn đốn, khó khăn\nÂm Hán Việt: Khốn\nBộ thủ: 囗 (Vi)\nOnyomi (Âm On): コン\nKunyomi (Âm Kun): こまる\nVí dụ Onyomi:\n  - 困難 (こんなん: khó khăn),  困惑 (こんわく: bối rối)\nVí dụ Kunyomi:\n  - 困る(こまる: khó khăn)\nCách ghi nhớ: Làm hàng rào vây quanh 囗 cái cây 木 đúng là khốn khổ",
+    "romaji": "Khốn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "園",
+    "back": "Ý nghĩa: Vườn, công viên\nÂm Hán Việt: Viên\nBộ thủ: 囗 (Vi)\nOnyomi (Âm On): エン\nKunyomi (Âm Kun): その\nVí dụ Onyomi:\n  - 公園 (こうえん: công viên),  幼稚園 (ようちえん: nhà trẻ)\nVí dụ Kunyomi:\n  - 園 (その: vườn)\nCách ghi nhớ: Mặc y phục 衣  đẹp mồm 口 nói  chuyện trên Đất 土 ở công viên",
+    "romaji": "Viên",
+    "jlptLevel": 3
+  },
+  {
+    "front": "在",
+    "back": "Ý nghĩa: Tồn tại\nÂm Hán Việt: Tại\nBộ thủ: 土 (Thổ)\nOnyomi (Âm On): ザイ\nKunyomi (Âm Kun): ある\nVí dụ Onyomi:\n  - 存在 (そんざい: tồn tại),  現在 (げんざい: hiện tại)\nVí dụ Kunyomi:\n  - 在る(ある: tồn tại)\nCách ghi nhớ: đứng tại mảnh Đất 土 này ăn 1 quả na",
+    "romaji": "Tại",
+    "jlptLevel": 3
+  },
+  {
+    "front": "報",
+    "back": "Ý nghĩa: Báo cáo\nÂm Hán Việt: Báo\nBộ thủ: 土 (Thổ)\nOnyomi (Âm On): ホウ\nKunyomi (Âm Kun): むくいる\nVí dụ Onyomi:\n  - 情報 (じょうほう: thông tin),  報告 (ほうこく: báo cáo)\nVí dụ Kunyomi:\n  - 報いる(むくいる: báo đáp)\nCách ghi nhớ: Dự báo hạnh 幸 phúc đó sẽ bị phản đối 反",
+    "romaji": "Báo",
+    "jlptLevel": 3
+  },
+  {
+    "front": "増",
+    "back": "Ý nghĩa: Tăng lên\nÂm Hán Việt: Tăng\nBộ thủ: 土 (Thổ)\nOnyomi (Âm On): ゾウ\nKunyomi (Âm Kun): ふえる\nVí dụ Onyomi:\n  - 増加 (ぞうか: gia tăng),  増大 (ぞうだい: mở rộng)\nVí dụ Kunyomi:\n  - 増える(ふえる: tăng lên)\nCách ghi nhớ: Đứa cháu 曽 có miếng Đất 土 đang tăng giá",
+    "romaji": "Tăng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "声",
+    "back": "Ý nghĩa: Giọng nói\nÂm Hán Việt: Thanh\nBộ thủ: 士 (Sĩ)\nOnyomi (Âm On): セイ\nKunyomi (Âm Kun): こえ\nVí dụ Onyomi:\n  - 声明 (せいめい: lời tuyên bố),  声優 (せいゆう: diễn viên lồng tiếng)\nVí dụ Kunyomi:\n  - 声 (こえ: tiếng nói)\nCách ghi nhớ: Binh sĩ  士 trở thành xác chết 尸  bị bịt miệng nên không phát ra Âm thanh",
+    "romaji": "Thanh",
+    "jlptLevel": 3
+  },
+  {
+    "front": "変",
+    "back": "Ý nghĩa: Thay đổi, khác\nÂm Hán Việt: Biến\nBộ thủ: 夂 (Truy)\nOnyomi (Âm On): ヘン\nKunyomi (Âm Kun): かわる\nVí dụ Onyomi:\n  - 変化 (へんか: biến hóa),  変更 (へんこう: thay đổi)\nVí dụ Kunyomi:\n  - 変わる (かわる: thay đổi)\nCách ghi nhớ: Đầu 亠 bốc lửa  ,,,, sau 夂 khi biến đổi",
+    "romaji": "Biến",
+    "jlptLevel": 3
+  },
+  {
+    "front": "夢",
+    "back": "Ý nghĩa: Giấc mơ\nÂm Hán Việt: Mộng\nBộ thủ: 夕 (Tịch)\nOnyomi (Âm On): ム\nKunyomi (Âm Kun): ゆめ\nVí dụ Onyomi:\n  - 夢中 (むちゅう: say mê),  悪夢 (あくむ: ác mộng)\nVí dụ Kunyomi:\n  - 夢 (ゆめ: giấc mơ)\nCách ghi nhớ: Ta タ trong đêm 冖 nhắm mắt ⺫ mơ về cô thảo 艹",
+    "romaji": "Mộng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "太",
+    "back": "Ý nghĩa: To, lớn, mập\nÂm Hán Việt: Thái\nBộ thủ: 大 (Đại)\nOnyomi (Âm On): タイ\nKunyomi (Âm Kun): ふとい\nVí dụ Onyomi:\n  - 太陽 (たいよう: mặt trời),  太平洋 (たいへいよう: Thái Bình Dương)\nVí dụ Kunyomi:\n  - 太い (ふとい: béo)\nCách ghi nhớ: vừa To 大 vừa Béo",
+    "romaji": "Thái",
+    "jlptLevel": 3
+  },
+  {
+    "front": "夫",
+    "back": "Ý nghĩa: Chồng\nÂm Hán Việt: Phu\nBộ thủ: 大 (Đại)\nOnyomi (Âm On): フ\nKunyomi (Âm Kun): おっと\nVí dụ Onyomi:\n  - 夫婦 (ふうふ: vợ chồng),  夫妻 (ふさい: phu thê)\nVí dụ Kunyomi:\n  - 夫 (おっと: chồng)\nCách ghi nhớ: chồng 夫 cao hơn trời 天",
+    "romaji": "Phu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "失",
+    "back": "Ý nghĩa: Mất, thất bại\nÂm Hán Việt: Thất\nBộ thủ: 大 (Đại)\nOnyomi (Âm On): シツ\nKunyomi (Âm Kun): うしなう\nVí dụ Onyomi:\n  - 失敗 (しっぱい: thất bại),  失業 (しつぎょう: thất nghiệp)\nVí dụ Kunyomi:\n  - 失う(うしなう: mất)\nCách ghi nhớ: một 一 người chồng 夫 làm ăn Thất bại",
+    "romaji": "Thất",
+    "jlptLevel": 3
+  },
+  {
+    "front": "好",
+    "back": "Ý nghĩa: Thích, tốt\nÂm Hán Việt: Hảo\nBộ thủ: 女 (Nữ)\nOnyomi (Âm On): コウ\nKunyomi (Âm Kun): すき\nVí dụ Onyomi:\n  - 好意 (こうい: thiện chí),  好調 (こうちょう: thuận lợi)\nVí dụ Kunyomi:\n  - 好き(すき: thích)\nCách ghi nhớ: Phụ nữ 女 thích trẻ con 子",
+    "romaji": "Hảo",
+    "jlptLevel": 3
+  },
+  {
+    "front": "妻",
+    "back": "Ý nghĩa: Vợ\nÂm Hán Việt: Thê\nBộ thủ: 女 (Nữ)\nOnyomi (Âm On): サイ\nKunyomi (Âm Kun): つま\nVí dụ Onyomi:\n  - 妻子 (さいし: vợ con),  夫妻 (ふさい: vợ chồng)\nVí dụ Kunyomi:\n  - 妻 (つま: vợ)\nCách ghi nhớ: Lấy 10 十 em gái 女 về làm vợ",
+    "romaji": "Thê",
+    "jlptLevel": 3
+  },
+  {
+    "front": "娘",
+    "back": "Ý nghĩa: Con gái\nÂm Hán Việt: Nương\nBộ thủ: 女 (Nữ)\nOnyomi (Âm On): ジョウ\nKunyomi (Âm Kun): むすめ\nVí dụ Onyomi:\n  - 娘婿 (むすめむこ: con rể),  親娘 (おやむすめ: con gái)\nVí dụ Kunyomi:\n  - 娘 (むすめ: con gái)\nCách ghi nhớ: Nuôi dạy con gái trở thành người  phụ nữ 女 tốt 良",
+    "romaji": "Nương",
+    "jlptLevel": 3
+  },
+  {
+    "front": "婚",
+    "back": "Ý nghĩa: Kết hôn\nÂm Hán Việt: Hôn\nBộ thủ: 女 (Nữ)\nOnyomi (Âm On): コン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 結婚 (けっこん: kết hôn),  婚約 (こんやく: đính hôn)\nCách ghi nhớ: người con gái 女 kết hôn với chồng nhật 日 thì phải đổi họ 氏",
+    "romaji": "Hôn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "婦",
+    "back": "Ý nghĩa: Phụ nữ\nÂm Hán Việt: Phụ\nBộ thủ: 女 (Nữ)\nOnyomi (Âm On): フ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 主婦 (しゅふ: nội trợ),  婦人 (ふじん: phụ nữ)\nCách ghi nhớ: người  con gái 女 cầm chổi 帚 đã trở thành phụ nữ 女",
+    "romaji": "Phụ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "存",
+    "back": "Ý nghĩa: Tồn tại\nÂm Hán Việt: Tồn\nBộ thủ: 子 (Tử)\nOnyomi (Âm On): ソン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 存在 (そんざい: tồn tại),  保存 (ほぞん: bảo tồn)\nCách ghi nhớ: Tồn tại 1 đứa trẻ con 子 ăn na",
+    "romaji": "Tồn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "宅",
+    "back": "Ý nghĩa: Nhà, nơi ở\nÂm Hán Việt: Trạch\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): タク\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 自宅 (じたく: nhà riêng),  住宅 (じゅうたく: nhà ở)\nCách ghi nhớ: Nhà ở chỗ mái nhà 宀 được chống đỡ bằng 7 cây gậy",
+    "romaji": "Trạch",
+    "jlptLevel": 3
+  },
+  {
+    "front": "守",
+    "back": "Ý nghĩa: Bảo vệ\nÂm Hán Việt: Thủ\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): シュ\nKunyomi (Âm Kun): まもる\nVí dụ Onyomi:\n  - 守備 (しゅび: phòng thủ),  留守 (るす: vắng nhà)\nVí dụ Kunyomi:\n  - 守る(まもる: bảo vệ)\nCách ghi nhớ: Ở dưới mái nhà 宀 rất thốn 寸 nên phải phòng thủ",
+    "romaji": "Thủ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "完",
+    "back": "Ý nghĩa: Hoàn thành\nÂm Hán Việt: Hoàn\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): カン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 完成 (かんせい: hoàn thành),  完全 (かんぜん: toàn bộ)\nCách ghi nhớ: mái nhà 宀 còn nguyên 元 là hoàn thành xong",
+    "romaji": "Hoàn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "官",
+    "back": "Ý nghĩa: Cơ quan, chính phủ\nÂm Hán Việt: Quan\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): カン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 警官 (けいかん: cảnh sát),  官庁 (かんちょう: cơ quan chính phủ)\nCách ghi nhớ: Quan mà có mái nhà 宀 đẹp chắc chức quan To lắm",
+    "romaji": "Quan",
+    "jlptLevel": 3
+  },
+  {
+    "front": "定",
+    "back": "Ý nghĩa: Quyết định\nÂm Hán Việt: Định\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): テイ\nKunyomi (Âm Kun): さだめる\nVí dụ Onyomi:\n  - 決定 (けってい: quyết định),  安定 (あんてい: ổn định)\nVí dụ Kunyomi:\n  - 定める (さだめる: quyết định)\nCách ghi nhớ: Dưới mái nhà 宀 Hạ 下 Nhân 人 bị cố định 定 lại",
+    "romaji": "Định",
+    "jlptLevel": 3
+  },
+  {
+    "front": "実",
+    "back": "Ý nghĩa: Sự thực, thực tế\nÂm Hán Việt: Thực\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): ジツ\nKunyomi (Âm Kun): み\nVí dụ Onyomi:\n  - 実際 (じっさい: thực tế),  実行 (じっこう: thực hiện)\nVí dụ Kunyomi:\n  - 実 (み: quả, hạt)\nCách ghi nhớ: Dưới mái nhà 宀 có 3 三 người 人  là thực sự rất mệt mỏi",
+    "romaji": "Thực",
+    "jlptLevel": 3
+  },
+  {
+    "front": "客",
+    "back": "Ý nghĩa: Khách hàng\nÂm Hán Việt: Khách\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): キャク\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - お客さん(おきゃくさん: khách hàng),  客室 (きゃくしつ: phòng khách)\nCách ghi nhớ: Dưới mái nhà 宀 có các 各 vị khách",
+    "romaji": "Khách",
+    "jlptLevel": 3
+  },
+  {
+    "front": "害",
+    "back": "Ý nghĩa: Tổn hại, nguy hiểm\nÂm Hán Việt: Hại\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): ガイ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 災害 (さいがい: thảm họa),  公害 (こうがい: ô nhiễm)\nCách ghi nhớ: Dưới mái nhà 宀 ông chủ 主mở mồm 口 nói những lời gây tổn hại người khác",
+    "romaji": "Hại",
+    "jlptLevel": 3
+  },
+  {
+    "front": "容",
+    "back": "Ý nghĩa: Dung tích, nội dung\nÂm Hán Việt: Dung\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): ヨウ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 容器 (ようき: đồ chứa),  内容 (ないよう: nội dung)\nCách ghi nhớ: Dưới mái nhà 宀 có chiếc cốc 谷 đang dung",
+    "romaji": "Dung",
+    "jlptLevel": 3
+  },
+  {
+    "front": "宿",
+    "back": "Ý nghĩa: Trọ, nhà trọ\nÂm Hán Việt: Túc\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): シュク\nKunyomi (Âm Kun): やど\nVí dụ Onyomi:\n  - 宿題 (しゅくだい: bài tập),  宿泊 (しゅくはく: ở trọ)\nVí dụ Kunyomi:\n  - 宿 (やど: chỗ trọ)\nCách ghi nhớ: Dưới mái nhà 宀 có 100 百 người 亻 trọ lại",
+    "romaji": "Túc",
+    "jlptLevel": 3
+  },
+  {
+    "front": "寄",
+    "back": "Ý nghĩa: Đến gần, ghé qua\nÂm Hán Việt: Ký\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): キ\nKunyomi (Âm Kun): よる\nVí dụ Onyomi:\n  - 寄付 (きふ: quyên góp),  近寄る(ちかよる: đến gần)\nVí dụ Kunyomi:\n  - 寄る(よる: ghé qua)\nCách ghi nhớ: Ký gửi dưới mái nhà 宀 kì 奇 lạ",
+    "romaji": "Ký",
+    "jlptLevel": 3
+  },
+  {
+    "front": "富",
+    "back": "Ý nghĩa: Giàu có, phú quý\nÂm Hán Việt: Phú\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): フ\nKunyomi (Âm Kun): とみ\nVí dụ Onyomi:\n  - 富士山 (ふじさん: núi Phú Sĩ),  富豪 (ふご う: người giàu)\nVí dụ Kunyomi:\n  - 富 (とみ: sự giàu có)\nCách ghi nhớ: Dưới mái nhà 宀 có 1 cái miệng 口 nhiều ruộng 田 là phú ông",
+    "romaji": "Phú",
+    "jlptLevel": 3
+  },
+  {
+    "front": "寒",
+    "back": "Ý nghĩa: Lạnh, giá rét\nÂm Hán Việt: Hàn\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): カン\nKunyomi (Âm Kun): さむい\nVí dụ Onyomi:\n  - 寒気 (さむけ: cơn ớn lạnh),  寒波 (かんぱ: đợt lạnh)\nVí dụ Kunyomi:\n  - 寒い (さむい: lạnh)\nCách ghi nhớ: Dưới mái nhà 宀 chỗ cái giếng số 18 八 có băng 冫 lạnh",
+    "romaji": "Hàn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "寝",
+    "back": "Ý nghĩa: Ngủ\nÂm Hán Việt: Tẩm\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): シン\nKunyomi (Âm Kun): ねる\nVí dụ Onyomi:\n  - 寝室 (しんしつ: phòng ngủ),  昼寝 (ひるね: ngủ trưa)\nVí dụ Kunyomi:\n  - 寝る(ねる: ngủ)\nCách ghi nhớ: Dưới mái nhà 宀 Em đi lại 又 trong đêm 冖 rồi dựa tường ngủ",
+    "romaji": "Tẩm",
+    "jlptLevel": 3
+  },
+  {
+    "front": "察",
+    "back": "Ý nghĩa: Quan sát, cảnh sát\nÂm Hán Việt: Sát\nBộ thủ: 宀 (Miên)\nOnyomi (Âm On): サツ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 警察 (けいさつ: cảnh sát),  観察 (かんさつ: quan sát)\nCách ghi nhớ: Dưới mái nhà 宀 đang tổ chức lễ hội 祭 thì cảnh sát ập vào",
+    "romaji": "Sát",
+    "jlptLevel": 3
+  },
+  {
+    "front": "対",
+    "back": "Ý nghĩa: Đối diện, đối xử\nÂm Hán Việt: Đối\nBộ thủ: 寸 (Thốn)\nOnyomi (Âm On): タイ\nKunyomi (Âm Kun): つい\nVí dụ Onyomi:\n  - 反対 (はんたい: phản đối),  対策 (たいさく: biện pháp)\nVí dụ Kunyomi:\n  - 対 (つい: đối)\nCách ghi nhớ: Làm văn 文  thốn 寸 quá nên bị phản đối",
+    "romaji": "Đối",
+    "jlptLevel": 3
+  },
+  {
+    "front": "局",
+    "back": "Ý nghĩa: Cục, bộ phận\nÂm Hán Việt: Cục\nBộ thủ: 尸 (Thi)\nOnyomi (Âm On): キョク\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 郵便局 (ゆうびんきょく: bưu điện),  薬局 (やっきょく: tiệm thuốc)\nCách ghi nhớ: xác chết 尸  có khả 可 năng đóng thành cục",
+    "romaji": "Cục",
+    "jlptLevel": 3
+  },
+  {
+    "front": "居",
+    "back": "Ý nghĩa: Ở, cư trú\nÂm Hán Việt: Cư\nBộ thủ: 尸 (Thi)\nOnyomi (Âm On): キョ\nKunyomi (Âm Kun): いる\nVí dụ Onyomi:\n  - 居住 (きょじゅう: cư trú),  同居 (どうきょ: sống cùng nhau)\nVí dụ Kunyomi:\n  - 居る(いる: ở)\nCách ghi nhớ: xác chết 尸  tìm ngôi mộ cổ 古 để cư trú",
+    "romaji": "Cư",
+    "jlptLevel": 3
+  },
+  {
+    "front": "差",
+    "back": "Ý nghĩa: Khác biệt, khoảng cách\nÂm Hán Việt: Sai\nBộ thủ: 巾 (Cân)\nOnyomi (Âm On): サ\nKunyomi (Âm Kun): さす\nVí dụ Onyomi:\n  - 差別 (さべつ: phân biệt),  交差点 (こうさてん: ngã tư)\nVí dụ Kunyomi:\n  - 差す (さす: khác biệt)\nCách ghi nhớ: công 工 nhân ăn thịt dê 羊 là sai trái",
+    "romaji": "Sai",
+    "jlptLevel": 3
+  },
+  {
+    "front": "市",
+    "back": "Ý nghĩa: Thành phố, chợ\nÂm Hán Việt: Thị\nBộ thủ: 巾 (Cân)\nOnyomi (Âm On): シ\nKunyomi (Âm Kun): いち\nVí dụ Onyomi:\n  - 市場 (いちば: chợ),  市民 (しみん: dân thành phố)\nVí dụ Kunyomi:\n  - 市 (いち: chợ)\nCách ghi nhớ: Đầu 亠 đội khăn 巾 là người  thành phố",
+    "romaji": "Thị",
+    "jlptLevel": 3
+  },
+  {
+    "front": "師",
+    "back": "Ý nghĩa: Thầy, giáo viên\nÂm Hán Việt: Sư\nBộ thủ: 巾 (Cân)\nOnyomi (Âm On): シ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 医師 (いし: bác sĩ),  教師 (きょうし: giáo viên)\nCách ghi nhớ: Nguyên 帥 soái là 1 vị giáo sư giỏi",
+    "romaji": "Sư",
+    "jlptLevel": 3
+  },
+  {
+    "front": "席",
+    "back": "Ý nghĩa: Chỗ ngồi\nÂm Hán Việt: Tịch\nBộ thủ: 巾 (Cân)\nOnyomi (Âm On): セキ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 🎧席 (しゅっせき: tham dự),  座席 (ざせき: chỗ ngồi)\nCách ghi nhớ: Dưới Hiên nhà 广 cô thảo 艹 1 mình quàng khăn 巾 ngồi chờ khách hàng",
+    "romaji": "Tịch",
+    "jlptLevel": 3
+  },
+  {
+    "front": "常",
+    "back": "Ý nghĩa: Thông thường\nÂm Hán Việt: Thường\nBộ thủ: 巾 (Cân)\nOnyomi (Âm On): ジョウ\nKunyomi (Âm Kun): つね\nVí dụ Onyomi:\n  - 日常 (にちじょう: hằng ngày),  常識 (じょうしき: kiến thức chung)\nVí dụ Kunyomi:\n  - 常に (つねに: luôn luôn)\nCách ghi nhớ: hòa thượng 尚 quàng 1 chiếc khăn 巾 rất bình thường 般",
+    "romaji": "Thường",
+    "jlptLevel": 3
+  },
+  {
+    "front": "平",
+    "back": "Ý nghĩa: Hòa bình, phẳng\nÂm Hán Việt: Bình\nBộ thủ: 干 (Can)\nOnyomi (Âm On): ヘイ\nKunyomi (Âm Kun): たいら\nVí dụ Onyomi:\n  - 平和 (へいわ: hòa bình),  平等 (びょうどう: bình đẳng)\nVí dụ Kunyomi:\n  - 平ら(たいら: phẳng)\nCách ghi nhớ: 2 二 can = 1 bình",
+    "romaji": "Bình",
+    "jlptLevel": 3
+  },
+  {
+    "front": "幸",
+    "back": "Ý nghĩa: Hạnh phúc\nÂm Hán Việt: Hạnh\nBộ thủ: 干 (Can)\nOnyomi (Âm On): コウ\nKunyomi (Âm Kun): さいわい\nVí dụ Onyomi:\n  - 幸福 (こうふく: hạnh phúc),  幸運 (こううん: may mắn)\nVí dụ Kunyomi:\n  - 幸い (さいわい: may mắn)\nCách ghi nhớ: Qua 10 十 lần cay 辛 đắng thì có hạnh phúc",
+    "romaji": "Hạnh",
+    "jlptLevel": 3
+  },
+  {
+    "front": "幾",
+    "back": "Ý nghĩa: Bao nhiêu, vài\nÂm Hán Việt: Kỷ\nBộ thủ: 幺 (Yêu)\nOnyomi (Âm On): キ\nKunyomi (Âm Kun): いくつ\nVí dụ Onyomi:\n  - 幾何学 (きかがく: hình học)\nVí dụ Kunyomi:\n  - 幾つ (いくつ: bao nhiêu tuổi)\nCách ghi nhớ: người  qua 戈 2 lần yêu 幺 biết bao nhiêu cho đủ",
+    "romaji": "Kỷ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "座",
+    "back": "Ý nghĩa: Ngồi\nÂm Hán Việt: Tọa\nBộ thủ: 广 (Nghiễm)\nOnyomi (Âm On): ザ\nKunyomi (Âm Kun): すわる\nVí dụ Onyomi:\n  - 座席 (ざせき: chỗ ngồi),  銀座 (ぎんざ: Ginza, tên địa danh)\nVí dụ Kunyomi:\n  - 座る(すわる: ngồi)\nCách ghi nhớ: Dưới Hiên nhà 广 2 người 人  ngồi trên Đất 土",
+    "romaji": "Tọa",
+    "jlptLevel": 3
+  },
+  {
+    "front": "庭",
+    "back": "Ý nghĩa: Sân vườn\nÂm Hán Việt: Đình\nBộ thủ: 广 (Nghiễm)\nOnyomi (Âm On): テイ\nKunyomi (Âm Kun): にわ\nVí dụ Onyomi:\n  - 庭園 (ていえん: vườn),  家庭 (かてい: gia đình)\nVí dụ Kunyomi:\n  - 庭 (にわ: sân vườn)\nCách ghi nhớ: Dưới Hiên nhà 广 của triều đình 廷 có sân vườn",
+    "romaji": "Đình",
+    "jlptLevel": 3
+  },
+  {
+    "front": "式",
+    "back": "Ý nghĩa: Lễ, kiểu\nÂm Hán Việt: Thức\nBộ thủ: 弋 (Dặc)\nOnyomi (Âm On): シキ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 方式 (ほうしき: phương thức),  結婚式 (けっこんしき: lễ cưới)\nCách ghi nhớ: đánh giặc 弋 cũng cần phải có công 工 thức",
+    "romaji": "Thức",
+    "jlptLevel": 3
+  },
+  {
+    "front": "引",
+    "back": "Ý nghĩa: Kéo\nÂm Hán Việt: Dẫn\nBộ thủ: 弓 (Cung)\nOnyomi (Âm On): イン\nKunyomi (Âm Kun): ひく\nVí dụ Onyomi:\n  - 引力 (いんりょく: lực hút),  引退 (いんたい: giải nghệ)\nVí dụ Kunyomi:\n  - 引く(ひく: kéo)\nCách ghi nhớ: Cầm dây cung 弓 kéo ra",
+    "romaji": "Dẫn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "当",
+    "back": "Ý nghĩa: Đúng, chính xác\nÂm Hán Việt: Đương\nBộ thủ: 小 (Tiểu)\nOnyomi (Âm On): トウ\nKunyomi (Âm Kun): あたる\nVí dụ Onyomi:\n  - 本当 (ほんとう: sự thật),  当時 (とうじ: thời đó)\nVí dụ Kunyomi:\n  - 当たる(あたる: trúng, đúng)\nCách ghi nhớ: Em xinh đẹp Tỏa sáng là Đương nhiên",
+    "romaji": "Đương",
+    "jlptLevel": 3
+  },
+  {
+    "front": "形",
+    "back": "Ý nghĩa: Hình dạng\nÂm Hán Việt: Hình\nBộ thủ: 彡 (Sam)\nOnyomi (Âm On): ケイ\nKunyomi (Âm Kun): かたち\nVí dụ Onyomi:\n  - 形状 (けいじょう: hình dáng),  人形 (にんぎょう: búp bê)\nVí dụ Kunyomi:\n  - 形 (かたち: hình dạng)\nCách ghi nhớ: Chắp 2 二 tay 廾  vén lại hình dạng của tóc 彡",
+    "romaji": "Hình",
+    "jlptLevel": 3
+  },
+  {
+    "front": "役",
+    "back": "Ý nghĩa: Vai trò, chức vụ\nÂm Hán Việt: Dịch\nBộ thủ: 彳 (Xích)\nOnyomi (Âm On): ヤク\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 役割 (やくわり: vai trò),  役立つ (やくだつ: hữu ích)\nCách ghi nhớ: Chiến dịch đè 彳 kẻ thù 殳",
+    "romaji": "Dịch",
+    "jlptLevel": 3
+  },
+  {
+    "front": "彼",
+    "back": "Ý nghĩa: Anh ta, bạn trai\nÂm Hán Việt: Bỉ\nBộ thủ: 彳 (Xích)\nOnyomi (Âm On): ヒ\nKunyomi (Âm Kun): かれ\nVí dụ Onyomi:\n  - 彼女 (かのじょ: cô ấy),  彼氏 (かれし: bạn trai)\nVí dụ Kunyomi:\n  - 彼 (かれ: anh ấy)\nCách ghi nhớ: đè 彳 lên da 皮 anh ấy",
+    "romaji": "Bỉ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "徒",
+    "back": "Ý nghĩa: Học trò, vô ích\nÂm Hán Việt: Đồ\nBộ thủ: 彳 (Xích)\nOnyomi (Âm On): ト\nKunyomi (Âm Kun): いたずら\nVí dụ Onyomi:\n  - 徒歩 (とほ: đi bộ),  生徒 (せいと: học sinh)\nVí dụ Kunyomi:\n  - 徒 (いたずら: vô ích)\nCách ghi nhớ: Đùa nghịch chạy 走 đè 彳 lên nhau là học sinh",
+    "romaji": "Đồ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "得",
+    "back": "Ý nghĩa: Được, có được\nÂm Hán Việt: Đắc\nBộ thủ: 彳 (Xích)\nOnyomi (Âm On): トク\nKunyomi (Âm Kun): える\nVí dụ Onyomi:\n  - 得意 (とくい: đắc ý, tự hào),  得点 (とくてん: điểm số)\nVí dụ Kunyomi:\n  - 得る(える: đạt được)\nCách ghi nhớ: người đè 彳 trong ngày 日 mùng 1 一 ko đi chơi thì thốn 寸 nhưng mà đắc ý",
+    "romaji": "Đắc",
+    "jlptLevel": 3
+  },
+  {
+    "front": "御",
+    "back": "Ý nghĩa: Kính thưa, ngài\nÂm Hán Việt: Ngự\nBộ thủ: 彳 (Xích)\nOnyomi (Âm On): ギ ョ、ゴ\nKunyomi (Âm Kun): おん\nVí dụ Onyomi:\n  - 御飯 (ごはん: cơm),  御家族 (ごかぞく: gia đình ngài)\nVí dụ Kunyomi:\n  - 御 (おん: kính ngữ)\nCách ghi nhớ: Tá 卸 người đè 彳 lên nhau đi trong vườn ngự uyển",
+    "romaji": "Ngự",
+    "jlptLevel": 3
+  },
+  {
+    "front": "必",
+    "back": "Ý nghĩa: Nhất định\nÂm Hán Việt: Tất\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): ヒツ\nKunyomi (Âm Kun): かならず\nVí dụ Onyomi:\n  - 必要 (ひつよう: cần thiết),  必死 (ひっし: quyết tâm)\nVí dụ Kunyomi:\n  - 必ず (かならず: chắc chắn)\nCách ghi nhớ: Bị đâm thì trái tim 心 tất yếu sẽ chết",
+    "romaji": "Tất",
+    "jlptLevel": 3
+  },
+  {
+    "front": "忘",
+    "back": "Ý nghĩa: Quên\nÂm Hán Việt: Vong\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): ボウ\nKunyomi (Âm Kun): わすれる\nVí dụ Onyomi:\n  - 忘年会 (ぼうねんかい: tiệc cuối năm),  忘却 (ぼうきゃく: lãng quên)\nVí dụ Kunyomi:\n  - 忘れる (わすれる: quên)\nCách ghi nhớ: người  đã chết 亡 nhưng trong tim 心 vẫn không quên được",
+    "romaji": "Vong",
+    "jlptLevel": 3
+  },
+  {
+    "front": "忙",
+    "back": "Ý nghĩa: Bận rộn\nÂm Hán Việt: Mang\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): ボウ\nKunyomi (Âm Kun): いそがしい\nVí dụ Onyomi:\n  - 多忙 (たぼう: rất bận),  忙殺 (ぼうさつ: bận rộn quá mức)\nVí dụ Kunyomi:\n  - 忙しい(いそがしい: bận rộn)\nCách ghi nhớ: Trái tim 忄 chết 亡 rồi mà vẫn mang nhiều bận rộn",
+    "romaji": "Mang",
+    "jlptLevel": 3
+  },
+  {
+    "front": "念",
+    "back": "Ý nghĩa: Suy nghĩ, cảm xúc\nÂm Hán Việt: Niệm\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): ネン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 記念 (きねん: kỷ niệm),  念願 (ねんがん: nguyện vọng)\nCách ghi nhớ: bây giờ 今 trong tim 心 chỉ còn lại kỷ niệm",
+    "romaji": "Niệm",
+    "jlptLevel": 3
+  },
+  {
+    "front": "怒",
+    "back": "Ý nghĩa: Giận dữ\nÂm Hán Việt: Nộ\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): ド\nKunyomi (Âm Kun): いかる\nVí dụ Onyomi:\n  - 怒鳴る(どなる: hét lên),  激怒 (げきど: giận dữ)\nVí dụ Kunyomi:\n  - 怒る(いかる: tức giận),  怒る (おこる: giận)\nCách ghi nhớ: Làm nô tỳ 奴 trong tim 心 rất phẫn nộ",
+    "romaji": "Nộ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "怖",
+    "back": "Ý nghĩa: Sợ hãi\nÂm Hán Việt: Phố\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): フ\nKunyomi (Âm Kun): こわい\nVí dụ Onyomi:\n  - 恐怖 (きょうふ: nỗi sợ),  怖い (こわい: sợ hãi)\nVí dụ Kunyomi:\n  - 怖い (こわい: sợ)\nCách ghi nhớ: Trái tim 忄 quấn vải 布 vì sợ hãi",
+    "romaji": "Phố",
+    "jlptLevel": 3
+  },
+  {
+    "front": "性",
+    "back": "Ý nghĩa: Giới tính, tính cách\nÂm Hán Việt: Tính\nBộ thủ: 忄 (Tâm)\nOnyomi (Âm On): セイ、ショウ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 性別 (せいべつ: giới tính),  性格 (せいかく: tính cách)\nCách ghi nhớ: Trái tim 忄 sinh 生 ra tính cách",
+    "romaji": "Tính",
+    "jlptLevel": 3
+  },
+  {
+    "front": "恐",
+    "back": "Ý nghĩa: Lo sợ, khủng khiếp\nÂm Hán Việt: Khủng\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): キョウ\nKunyomi (Âm Kun): こわい\nVí dụ Onyomi:\n  - 恐怖 (きょうふ: sợ hãi),  恐竜 (きょうりゅう: khủng long)\nVí dụ Kunyomi:\n  - 恐い (こわい: sợ)\nCách ghi nhớ: công 工 lực 力 phi phàm 凡 khiến trái tim 心 khủng hoảng",
+    "romaji": "Khủng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "恥",
+    "back": "Ý nghĩa: Xấu hổ\nÂm Hán Việt: Sỉ\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): チ\nKunyomi (Âm Kun): はじ\nVí dụ Onyomi:\n  - 恥ずかしい (はずかしい: ngượng),  恥辱 (ちじょく: sỉ nhục)\nVí dụ Kunyomi:\n  - 恥 (はじ: xấu hổ)\nCách ghi nhớ: Tai 耳 đỏ lên vì trong tim  心 Xấu hổ",
+    "romaji": "Sỉ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "息",
+    "back": "Ý nghĩa: Hơi thở\nÂm Hán Việt: Tức\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): ソク\nKunyomi (Âm Kun): いき\nVí dụ Onyomi:\n  - 休息 (きゅうそく: nghỉ ngơi),  息子 (むすこ: con trai)\nVí dụ Kunyomi:\n  - 息 (いき: hơi thở)\nCách ghi nhớ: Tự 自 thở bằng tim 心",
+    "romaji": "Tức",
+    "jlptLevel": 3
+  },
+  {
+    "front": "悲",
+    "back": "Ý nghĩa: Buồn\nÂm Hán Việt: Bi\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): ヒ\nKunyomi (Âm Kun): かなしい\nVí dụ Onyomi:\n  - 悲観 (ひかん: bi quan),  悲劇 (ひげき: bi kịch)\nVí dụ Kunyomi:\n  - 悲しい(かなしい: buồn)\nCách ghi nhớ: người phi 非 thường trái tim 心 hay gặp điều bi thảm",
+    "romaji": "Bi",
+    "jlptLevel": 3
+  },
+  {
+    "front": "情",
+    "back": "Ý nghĩa: Cảm xúc, tình cảm\nÂm Hán Việt: Tình\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): ジョウ\nKunyomi (Âm Kun): なさけ\nVí dụ Onyomi:\n  - 情報 (じょうほう: thông tin),  感情 (かんじょう: cảm xúc)\nVí dụ Kunyomi:\n  - 情け (なさけ: lòng trắc ẩn)\nCách ghi nhớ: Trái tim 忄 của thanh 青 niên rất giàu tình cảm",
+    "romaji": "Tình",
+    "jlptLevel": 3
+  },
+  {
+    "front": "想",
+    "back": "Ý nghĩa: Tưởng tượng, ý tưởng\nÂm Hán Việt: Tưởng\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): ソウ\nKunyomi (Âm Kun): おもう\nVí dụ Onyomi:\n  - 理想 (りそう: lý tưởng),  予想 (よそう: dự đoán)\nVí dụ Kunyomi:\n  - 想う(おもう: nghĩ)\nCách ghi nhớ: Trái tim 心 tương 相 tư đang tưởng tượng",
+    "romaji": "Tưởng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "愛",
+    "back": "Ý nghĩa: Yêu thương\nÂm Hán Việt: Ái\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): アイ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 愛情 (あいじょう: tình yêu),  恋愛 (れんあい: tình yêu)\nCách ghi nhớ: móng tay 爫 trong đêm 冖 cào cấu tim 心 sau 夂 đó yêu 愛",
+    "romaji": "Ái",
+    "jlptLevel": 3
+  },
+  {
+    "front": "感",
+    "back": "Ý nghĩa: Cảm thấy\nÂm Hán Việt: Cảm\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): カン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 感動 (かんどう: cảm động),  感謝 (かんしゃ: cảm ơn)\nCách ghi nhớ: Giờ tuất 戊 mồm 口 và tim 心 bắt Đầu có cảm giác",
+    "romaji": "Cảm",
+    "jlptLevel": 3
+  },
+  {
+    "front": "慣",
+    "back": "Ý nghĩa: Quen thuộc\nÂm Hán Việt: Quán\nBộ thủ: 心 (Tâm)\nOnyomi (Âm On): カン\nKunyomi (Âm Kun): なれる\nVí dụ Onyomi:\n  - 習慣 (しゅうかん: thói quen),  慣用句 (かんようく: thành ngữ)\nVí dụ Kunyomi:\n  - 慣れる (なれる: quen)\nCách ghi nhớ: Tập quán là sự nhất quán 貫 từ trái tim 忄",
+    "romaji": "Quán",
+    "jlptLevel": 3
+  },
+  {
+    "front": "成",
+    "back": "Ý nghĩa: Thành công, trở thành\nÂm Hán Việt: Thành\nBộ thủ: 戈 (Qua)\nOnyomi (Âm On): セイ\nKunyomi (Âm Kun): なる\nVí dụ Onyomi:\n  - 成長 (せいちょう: trưởng thành),  完成 (かんせい: hoàn thành)\nVí dụ Kunyomi:\n  - 成る(なる: trở thành)\nCách ghi nhớ: Qua 戈 vạn 万 lần luyện tập nhất định sẽ thành công",
+    "romaji": "Thành",
+    "jlptLevel": 3
+  },
+  {
+    "front": "戦",
+    "back": "Ý nghĩa: Chiến tranh, chiến đấu\nÂm Hán Việt: Chiến\nBộ thủ: 戈 (Qua)\nOnyomi (Âm On): セン\nKunyomi (Âm Kun): たたかう\nVí dụ Onyomi:\n  - 戦争 (せんそう: chiến tranh),  戦う(たたかう: chiến đấu)\nVí dụ Kunyomi:\n  - 戦う(たたかう: chiến đấu)\nCách ghi nhớ: Vượt qua 戈 chiến tranh 1 cách đơn giản 単",
+    "romaji": "Chiến",
+    "jlptLevel": 3
+  },
+  {
+    "front": "戻",
+    "back": "Ý nghĩa: Quay lại\nÂm Hán Việt: Lệ\nBộ thủ: 戸 (Hộ)\nOnyomi (Âm On): レイ\nKunyomi (Âm Kun): もどる\nVí dụ Onyomi:\n  - 戻す (もどす: trả lại),  取り戻す (とりもどす: lấy lại)\nVí dụ Kunyomi:\n  - 戻る(もどる: quay lại)\nCách ghi nhớ: Cánh cửa 戸 mở To 大 chào đón em quay lại",
+    "romaji": "Lệ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "所",
+    "back": "Ý nghĩa: Nơi chốn\nÂm Hán Việt: Sở\nBộ thủ: 戸 (Hộ)\nOnyomi (Âm On): ショ\nKunyomi (Âm Kun): ところ\nVí dụ Onyomi:\n  - 所有 (しょゆう: sở hữu),  場所 (ばしょ: địa điểm)\nVí dụ Kunyomi:\n  - 所 (ところ: nơi chốn)\nCách ghi nhớ: Cầm rìu 斤 đứng  trước cánh cửa 戸 là tên sở khanh",
+    "romaji": "Sở",
+    "jlptLevel": 3
+  },
+  {
+    "front": "才",
+    "back": "Ý nghĩa: Tài năng\nÂm Hán Việt: Tài\nBộ thủ: 扌 (Thủ)\nOnyomi (Âm On): サイ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 天才 (てんさい: thiên tài),  才能 (さいのう: tài năng)\nCách ghi nhớ: Ô, thiên tài",
+    "romaji": "Tài",
+    "jlptLevel": 3
+  },
+  {
+    "front": "打",
+    "back": "Ý nghĩa: Đánh\nÂm Hán Việt: Đả\nBộ thủ: 扌 (Thủ)\nOnyomi (Âm On): ダ\nKunyomi (Âm Kun): うつ\nVí dụ Onyomi:\n  - 打撃 (だげき: cú đánh),  打ち合わせ (うちあわせ: họp bàn)\nVí dụ Kunyomi:\n  - 打つ (うつ: đánh)\nCách ghi nhớ: tay 扌 cầm đinh 丁 để đánh",
+    "romaji": "Đả",
+    "jlptLevel": 3
+  },
+  {
+    "front": "払",
+    "back": "Ý nghĩa: Trả, quét\nÂm Hán Việt: Phất\nBộ thủ: 扌 (Thủ)\nOnyomi (Âm On): フツ\nKunyomi (Âm Kun): はらう\nVí dụ Onyomi:\n  - 支払い (しはらい: thanh toán),  払拭 (ふっしょく: xóa bỏ)\nVí dụ Kunyomi:\n  - 払う(はらう: trả tiền)\nCách ghi nhớ: tay 扌 cầm 4 triệu đi trả tiền",
+    "romaji": "Phất",
+    "jlptLevel": 3
+  },
+  {
+    "front": "投",
+    "back": "Ý nghĩa: Ném, đầu tư\nÂm Hán Việt: Đầu\nBộ thủ: 扌 (Thủ)\nOnyomi (Âm On): トウ\nKunyomi (Âm Kun): なげる\nVí dụ Onyomi:\n  - 投資 (とうし: đầu tư),  投票 (とうひょう: bỏ phiếu)\nVí dụ Kunyomi:\n  - 投げる (なげる: ném)\nCách ghi nhớ: Đầu tư vào tay 扌 kẻ thù 殳",
+    "romaji": "Đầu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "折",
+    "back": "Ý nghĩa: Gấp, bẻ\nÂm Hán Việt: Chiết\nBộ thủ: 扌 (Thủ)\nOnyomi (Âm On): セツ\nKunyomi (Âm Kun): おる\nVí dụ Onyomi:\n  - 右折 (うせつ: rẽ phải),  折り紙 (おりがみ: nghệ thuật gấp giấy)\nVí dụ Kunyomi:\n  - 折る(おる: gấp, bẻ)\nCách ghi nhớ: tay 扌 cầm rìu 斤 chặt gãy cây",
+    "romaji": "Chiết",
+    "jlptLevel": 3
+  },
+  {
+    "front": "抜",
+    "back": "Ý nghĩa: Nhổ, kéo ra\nÂm Hán Việt: Bạt\nBộ thủ: 扌 (Thủ)\nOnyomi (Âm On): バツ\nKunyomi (Âm Kun): ぬく\nVí dụ Onyomi:\n  - 抜群 (ばつぐん: xuất sắc),  抜く(ぬく: nhổ, rút ra)\nVí dụ Kunyomi:\n  - 抜ける(ぬける: rơi ra)\nCách ghi nhớ: tay 扌 đẩy bạn 友 xong rút ra",
+    "romaji": "Bạt",
+    "jlptLevel": 3
+  },
+  {
+    "front": "抱",
+    "back": "Ý nghĩa: Ôm, giữ\nÂm Hán Việt: Bão\nBộ thủ: 扌 (Thủ)\nOnyomi (Âm On): ホウ\nKunyomi (Âm Kun): だく\nVí dụ Onyomi:\n  - 抱負 (ほうふ: hoài bão),  抱く(だく: ôm),  抱える(かかえる: giữ)\nVí dụ Kunyomi:\n  - 抱く(だく: ôm)\nCách ghi nhớ: tay 扌 đang ôm cái bao 勹",
+    "romaji": "Bão",
+    "jlptLevel": 3
+  },
+  {
+    "front": "押",
+    "back": "Ý nghĩa: Ấn, đẩy\nÂm Hán Việt: Áp\nBộ thủ: 扌 (Thủ)\nOnyomi (Âm On): オウ\nKunyomi (Âm Kun): おす\nVí dụ Onyomi:\n  - 押入れ (おしいれ: tủ âm tường),  押さえる (おさえる: giữ)\nVí dụ Kunyomi:\n  - 押す (おす: ấn)\nCách ghi nhớ: Dùng tay 扌 ấn xuống cái vỏ 甲",
+    "romaji": "Áp",
+    "jlptLevel": 3
+  },
+  {
+    "front": "招",
+    "back": "Ý nghĩa: Mời\nÂm Hán Việt: Chiêu\nBộ thủ: 扌 (Thủ)\nOnyomi (Âm On): ショウ\nKunyomi (Âm Kun): まねく\nVí dụ Onyomi:\n  - 招待 (しょうたい: mời),  招く(まねく: mời gọi)\nVí dụ Kunyomi:\n  - 招く(まねく: mời)\nCách ghi nhớ: tay 扌 cầm 1 triệu 召  man đi chiêu đãi bạn bẽ",
+    "romaji": "Chiêu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "指",
+    "back": "Ý nghĩa: Ngón tay, chỉ đạo\nÂm Hán Việt: Chỉ\nBộ thủ: 扌 (Thủ)\nOnyomi (Âm On): シ\nKunyomi (Âm Kun): ゆび\nVí dụ Onyomi:\n  - 指定 (してい: chỉ định),  目指す (めざす: nhắm vào)\nVí dụ Kunyomi:\n  - 指 (ゆび: ngón tay)\nCách ghi nhớ: tay 扌 dùng để chỉ 旨 là ngón tay",
+    "romaji": "Chỉ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "捕",
+    "back": "Ý nghĩa: Bắt giữ\nÂm Hán Việt: Bổ\nBộ thủ: 扌 (Thủ)\nOnyomi (Âm On): ホ\nKunyomi (Âm Kun): つかまえる\nVí dụ Onyomi:\n  - 捕獲 (ほかく: bắt giữ),  捕まえる(つかまえる: bắt)\nVí dụ Kunyomi:\n  - 捕まえる (つかまえる: bắt giữ)\nCách ghi nhớ: Bổ sung 甫 tay 扌 để bắt",
+    "romaji": "Bổ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "掛",
+    "back": "Ý nghĩa: Treo, gọi\nÂm Hán Việt: Quải\nBộ thủ: 扌 (Thủ)\nOnyomi (Âm On): カイ\nKunyomi (Âm Kun): かける\nVí dụ Onyomi:\n  - 掛け算 (かけざん: phép nhân),  気掛かり(きがかり: lo lắng)\nVí dụ Kunyomi:\n  - 掛ける(かける: treo, gọi điện thoại)\nCách ghi nhớ: Ngọc Khuê 圭 dùng tay 扌 treo lên cái gì đó rất to ト",
+    "romaji": "Quải",
+    "jlptLevel": 3
+  },
+  {
+    "front": "探",
+    "back": "Ý nghĩa: Tìm kiếm\nÂm Hán Việt: Thám\nBộ thủ: 扌 (Thủ)\nOnyomi (Âm On): タン\nKunyomi (Âm Kun): さがす\nVí dụ Onyomi:\n  - 探検 (たんけん: thám hiểm),  探す (さがす: tìm kiếm)\nVí dụ Kunyomi:\n  - 探す (さがす: tìm kiếm)\nCách ghi nhớ: Trong đêm 冖 chân 儿 trèo lên cây 木 dùng tay 扌 để trinh thám",
+    "romaji": "Thám",
+    "jlptLevel": 3
+  },
+  {
+    "front": "支",
+    "back": "Ý nghĩa: Ủng hộ, chi trả\nÂm Hán Việt: Chi\nBộ thủ: 支 (Chi)\nOnyomi (Âm On): シ\nKunyomi (Âm Kun): ささえる\nVí dụ Onyomi:\n  - 支払 (しはらい: chi trả),  支える (ささえる: nâng đỡ)\nVí dụ Kunyomi:\n  - 支える(ささえる: nâng đỡ)\nCách ghi nhớ: Đi lại 又 ở 10 十 chi nhánh",
+    "romaji": "Chi",
+    "jlptLevel": 3
+  },
+  {
+    "front": "放",
+    "back": "Ý nghĩa: Phát, thả ra\nÂm Hán Việt: Phóng\nBộ thủ: 攴 (Phộc)\nOnyomi (Âm On): ホウ\nKunyomi (Âm Kun): はなす\nVí dụ Onyomi:\n  - 放送 (ほうそう: phát sóng),  解放 (かいほう: giải phóng)\nVí dụ Kunyomi:\n  - 放す (はなす: thả ra)\nCách ghi nhớ: đánh 攵 khắp 4 phương 方 để giải phóng",
+    "romaji": "Phóng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "政",
+    "back": "Ý nghĩa: Chính phủ, chính trị\nÂm Hán Việt: Chính\nBộ thủ: 攵 (Phộc)\nOnyomi (Âm On): セイ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 政府 (せいふ: chính phủ),  政治 (せいじ: chính trị)\nCách ghi nhớ: đánh 攵 giá chính xác 正 tình hình chính trị",
+    "romaji": "Chính",
+    "jlptLevel": 3
+  },
+  {
+    "front": "敗",
+    "back": "Ý nghĩa: Thất bại\nÂm Hán Việt: Bại\nBộ thủ: 攴 (Phộc)\nOnyomi (Âm On): ハイ\nKunyomi (Âm Kun): やぶれる\nVí dụ Onyomi:\n  - 失敗 (しっぱい: thất bại),  敗北 (はいぼく: thua trận)\nVí dụ Kunyomi:\n  - 敗れる (やぶれる: bị đánh bại)\nCách ghi nhớ: Bảo bối 貝 bị đánh 攵 cắp là thất bại",
+    "romaji": "Bại",
+    "jlptLevel": 3
+  },
+  {
+    "front": "散",
+    "back": "Ý nghĩa: Tản ra, rải rác\nÂm Hán Việt: Tán\nBộ thủ: 攴 (Phộc)\nOnyomi (Âm On): サン\nKunyomi (Âm Kun): ちる\nVí dụ Onyomi:\n  - 散歩 (さんぽ: đi bộ),  解散 (かいさん: giải tán)\nVí dụ Kunyomi:\n  - 散る(ちる: tản ra)\nCách ghi nhớ: Chị Nguyệt 月 đi tản bộ chỗ hàng rào thì bị đánh 攵",
+    "romaji": "Tán",
+    "jlptLevel": 3
+  },
+  {
+    "front": "数",
+    "back": "Ý nghĩa: Con số, đếm\nÂm Hán Việt: Số\nBộ thủ: 攴 (Phộc)\nOnyomi (Âm On): スウ\nKunyomi (Âm Kun): かず\nVí dụ Onyomi:\n  - 数学 (すうがく: toán học),  人数 (にんずう: số người)\nVí dụ Kunyomi:\n  - 数える(かぞえる: đếm)\nCách ghi nhớ: người phụ nữ 女 ăn gạo 米 đánh 攵 chồng là có số má",
+    "romaji": "Số",
+    "jlptLevel": 3
+  },
+  {
+    "front": "断",
+    "back": "Ý nghĩa: Từ chối, gián đoạn\nÂm Hán Việt: Đoạn\nBộ thủ: 斤 (Cân)\nOnyomi (Âm On): ダン\nKunyomi (Âm Kun): ことわる\nVí dụ Onyomi:\n  - 断念 (だんねん: từ bỏ),  判断 (はんだん: phán đoán)\nVí dụ Kunyomi:\n  - 断る(ことわる: từ chối)\nCách ghi nhớ: Chia cân 斤 lúa L gạo 米 xong 2 二 ta đoạn tuyệt từ đây",
+    "romaji": "Đoạn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "易",
+    "back": "Ý nghĩa: Dễ dàng, đơn giản\nÂm Hán Việt: Dịch\nBộ thủ: 日 (Nhật)\nOnyomi (Âm On): エキ\nKunyomi (Âm Kun): やさしい\nVí dụ Onyomi:\n  - 容易 (ようい: dễ dàng),  安易 (あんい: đơn giản)\nVí dụ Kunyomi:\n  - 易しい(やさしい: dễ dàng)\nCách ghi nhớ: Cả ngày 日 nằm vật 勿 vã vì không dịch chuyển được",
+    "romaji": "Dịch",
+    "jlptLevel": 3
+  },
+  {
+    "front": "昔",
+    "back": "Ý nghĩa: Ngày xưa\nÂm Hán Việt: Tích\nBộ thủ: 日 (Nhật)\nOnyomi (Âm On): セキ\nKunyomi (Âm Kun): むかし\nVí dụ Onyomi:\n  - 昔話 (むかしばなし: truyện cổ tích),  大昔 (おおむかし: ngày xưa)\nVí dụ Kunyomi:\n  - 昔 (むかし: ngày xưa)\nCách ghi nhớ: Ngồi dưới hàng rào cả ngày 日 để đọc truyện cổ tích",
+    "romaji": "Tích",
+    "jlptLevel": 3
+  },
+  {
+    "front": "昨",
+    "back": "Ý nghĩa: Hôm qua\nÂm Hán Việt: Tạc\nBộ thủ: 日 (Nhật)\nOnyomi (Âm On): サク\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 昨日 (さくじつ: hôm qua),  昨夜 (さくや: đêm qua)\nCách ghi nhớ: ngày 日 ép F lại  là ngày 日 hôm qua",
+    "romaji": "Tạc",
+    "jlptLevel": 3
+  },
+  {
+    "front": "晩",
+    "back": "Ý nghĩa: Buổi tối\nÂm Hán Việt: Vãn\nBộ thủ: 日 (Nhật)\nOnyomi (Âm On): バン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 今晩 (こんばん: tối nay),  晩御飯 (ばんごはん: bữa tối)\nCách ghi nhớ: Cả ngày 日 chỉ được miễn 免 tội vào buổi tối",
+    "romaji": "Vãn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "景",
+    "back": "Ý nghĩa: Cảnh sắc, phong cảnh\nÂm Hán Việt: Cảnh\nBộ thủ: 日 (Nhật)\nOnyomi (Âm On): ケイ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 景色 (けしき: phong cảnh),  背景 (はいけい: bối cảnh)\nCách ghi nhớ: Kinh đô 京 nhật 日 bản có cảnh sắc rất đẹp",
+    "romaji": "Cảnh",
+    "jlptLevel": 3
+  },
+  {
+    "front": "晴",
+    "back": "Ý nghĩa: Trời nắng\nÂm Hán Việt: Tình\nBộ thủ: 日 (Nhật)\nOnyomi (Âm On): セイ\nKunyomi (Âm Kun): はれる\nVí dụ Onyomi:\n  - 晴天 (せいてん: trời quang),  快晴 (かいせい: trời đẹp)\nVí dụ Kunyomi:\n  - 晴れる (はれる: trời quang)\nCách ghi nhớ: Cả ngày 日 bầu trời màu xanh 青 là trời nắng",
+    "romaji": "Tình",
+    "jlptLevel": 3
+  },
+  {
+    "front": "暗",
+    "back": "Ý nghĩa: Tối tăm, âm u\nÂm Hán Việt: Ám\nBộ thủ: 日 (Nhật)\nOnyomi (Âm On): アン\nKunyomi (Âm Kun): くらい\nVí dụ Onyomi:\n  - 暗記 (あんき: ghi nhớ),  暗示 (あんじ: ám chỉ)\nVí dụ Kunyomi:\n  - 暗い (くらい: tối)\nCách ghi nhớ: nghe âm thanh 音 cả ngày 日 làm tối ám ảnh",
+    "romaji": "Ám",
+    "jlptLevel": 3
+  },
+  {
+    "front": "暮",
+    "back": "Ý nghĩa: Cuối ngày, sinh sống\nÂm Hán Việt: Mộ\nBộ thủ: 日 (Nhật)\nOnyomi (Âm On): ボ\nKunyomi (Âm Kun): くれる\nVí dụ Onyomi:\n  - 夕暮れ (ゆうぐれ: hoàng hôn),  暮らす (くらす: sinh sống)\nVí dụ Kunyomi:\n  - 暮れる (くれる: hết ngày)\nCách ghi nhớ: Làm mô hình 莫 mặt trời 日 tối đen",
+    "romaji": "Mộ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "曲",
+    "back": "Ý nghĩa: Bài hát, gập\nÂm Hán Việt: Khúc\nBộ thủ: 曰 (Viết)\nOnyomi (Âm On): キョク\nKunyomi (Âm Kun): まがる\nVí dụ Onyomi:\n  - 曲線 (きょくせん: đường cong),  作曲 (さっきょく: sáng tác nhạc)\nVí dụ Kunyomi:\n  - 曲がる (まがる: rẽ, gập)\nCách ghi nhớ: Tự do 由  hát ca khúc",
+    "romaji": "Khúc",
+    "jlptLevel": 3
+  },
+  {
+    "front": "更",
+    "back": "Ý nghĩa: Thay đổi, thêm vào\nÂm Hán Việt: Canh\nBộ thủ: 曰 (Viết)\nOnyomi (Âm On): コウ\nKunyomi (Âm Kun): さら\nVí dụ Onyomi:\n  - 更新 (こうしん: cập nhật),  更に (さらに: thêm nữa)\nVí dụ Kunyomi:\n  - 更ける(ふける: về khuya)\nCách ghi nhớ: Đến 1 ngày 日 thế hệ 10 十 X sẽ canh tân đổi mới",
+    "romaji": "Canh",
+    "jlptLevel": 3
+  },
+  {
+    "front": "最",
+    "back": "Ý nghĩa: Nhất, cực kỳ\nÂm Hán Việt: Tối\nBộ thủ: 日 (Nhật)\nOnyomi (Âm On): サイ\nKunyomi (Âm Kun): もっとも\nVí dụ Onyomi:\n  - 最近 (さいきん: gần đây),  最後 (さいご: cuối cùng)\nVí dụ Kunyomi:\n  - 最も(もっとも: nhất)\nCách ghi nhớ: Mặt trời 日 là thủ 取 lĩnh tối cao",
+    "romaji": "Tối",
+    "jlptLevel": 3
+  },
+  {
+    "front": "望",
+    "back": "Ý nghĩa: Mong muốn, kỳ vọng\nÂm Hán Việt: Vọng\nBộ thủ: 月 (Nguyệt)\nOnyomi (Âm On): ボウ\nKunyomi (Âm Kun): のぞむ\nVí dụ Onyomi:\n  - 希望 (きぼう: hy vọng),  望遠鏡 (ぼうえんきょう: kính viễn vọng)\nVí dụ Kunyomi:\n  - 望む (のぞむ: mong muốn)\nCách ghi nhớ: Nguyệt 月 chết mất hy vọng 亡 lên làm vua 王",
+    "romaji": "Vọng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "期",
+    "back": "Ý nghĩa: Kỳ hạn, thời kỳ\nÂm Hán Việt: Kỳ\nBộ thủ: 月 (Nguyệt)\nOnyomi (Âm On): キ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 期間 (きかん: kỳ hạn),  学期 (がっき: học kỳ)\nCách ghi nhớ: Cuối tháng 月 là kỳ 其 hạn trả tiền",
+    "romaji": "Kỳ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "未",
+    "back": "Ý nghĩa: Chưa, không\nÂm Hán Việt: Vị\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): ミ\nKunyomi (Âm Kun): いまだ\nVí dụ Onyomi:\n  - 未来 (みらい: tương lai),  未定 (みてい: chưa quyết định)\nVí dụ Kunyomi:\n  - 未だ (いまだ: chưa)\nCách ghi nhớ: Vị thành niên to  bằng cái cây 木",
+    "romaji": "Vị",
+    "jlptLevel": 3
+  },
+  {
+    "front": "末",
+    "back": "Ý nghĩa: Cuối\nÂm Hán Việt: Mạt\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): マツ\nKunyomi (Âm Kun): すえ\nVí dụ Onyomi:\n  - 週末 (しゅうまつ: cuối tuần),  末期 (まっき: giai đoạn cuối)\nVí dụ Kunyomi:\n  - 末 (すえ: cuối)\nCách ghi nhớ: Mạt ngược với vị 未",
+    "romaji": "Mạt",
+    "jlptLevel": 3
+  },
+  {
+    "front": "束",
+    "back": "Ý nghĩa: Bó, buộc\nÂm Hán Việt: Thúc\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): ソク\nKunyomi (Âm Kun): たば\nVí dụ Onyomi:\n  - 約束 (やくそく: lời hứa),  束縛 (そくばく: trói buộc)\nVí dụ Kunyomi:\n  - 束 (たば: bó)\nCách ghi nhớ: mồm 口 bị buộc vào cây 木",
+    "romaji": "Thúc",
+    "jlptLevel": 3
+  },
+  {
+    "front": "杯",
+    "back": "Ý nghĩa: Cốc, chén\nÂm Hán Việt: Bôi\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): ハイ\nKunyomi (Âm Kun): さかずき\nVí dụ Onyomi:\n  - 乾杯 (かんぱい: cạn ly),  杯 (さかずき: cốc, chén)\nVí dụ Kunyomi:\n  - 杯 (さかずき: cốc, chén)\nCách ghi nhớ: cây 木 không 不 dùng làm chén",
+    "romaji": "Bôi",
+    "jlptLevel": 3
+  },
+  {
+    "front": "果",
+    "back": "Ý nghĩa: Kết quả, trái cây\nÂm Hán Việt: Quả\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): カ\nKunyomi (Âm Kun): はたす\nVí dụ Onyomi:\n  - 結果 (けっか: kết quả),  果物 (くだもの: trái cây)\nVí dụ Kunyomi:\n  - 果たす (はたす: hoàn thành)\nCách ghi nhớ: cây 木 trồng dưới ruộng 田 đang ra quả",
+    "romaji": "Quả",
+    "jlptLevel": 3
+  },
+  {
+    "front": "格",
+    "back": "Ý nghĩa: Tính cách, điều kiện\nÂm Hán Việt: Cách\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): カク\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 資格 (しかく: tư cách),  合格 (ごうかく: đỗ, đạt)\nCách ghi nhớ: Cái cây 木 thể hiện tích cách của các 各 vị",
+    "romaji": "Cách",
+    "jlptLevel": 3
+  },
+  {
+    "front": "構",
+    "back": "Ý nghĩa: Cấu trúc, lập kế hoạch\nÂm Hán Việt: Cấu\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): コウ\nKunyomi (Âm Kun): かまえる\nVí dụ Onyomi:\n  - 構造 (こうぞう: cấu tạo),  構成 (こうせい: cấu thành)\nVí dụ Kunyomi:\n  - 構える(かまえる: lập kế hoạch)\nCách ghi nhớ: Cấu tạo trong phòng kín 冓 toàn làm bằng cây 木 gỗ",
+    "romaji": "Cấu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "様",
+    "back": "Ý nghĩa: Hình dạng, ngài\nÂm Hán Việt: Dạng\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): ヨウ\nKunyomi (Âm Kun): さま\nVí dụ Onyomi:\n  - 様子 (ようす: tình trạng),  様々 (さまざま: đa dạng)\nVí dụ Kunyomi:\n  - 様 (さま: ngài)\nCách ghi nhớ: Hình dạng con dê 羊 đang uống nước 水 cạnh gốc cây 木",
+    "romaji": "Dạng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "権",
+    "back": "Ý nghĩa: Quyền lực\nÂm Hán Việt: Quyền\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): ケン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 権利 (けんり: quyền lợi),  主権 (しゅけん: chủ quyền)\nCách ghi nhớ: Buổi trưa 午 chim 隹 có quyền đứng  trên cây 木",
+    "romaji": "Quyền",
+    "jlptLevel": 3
+  },
+  {
+    "front": "横",
+    "back": "Ý nghĩa: Bên cạnh\nÂm Hán Việt: Hoành\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): オウ\nKunyomi (Âm Kun): よこ\nVí dụ Onyomi:\n  - 横断 (おうだん: băng qua),  横顔 (よこがお: nhìn nghiêng)\nVí dụ Kunyomi:\n  - 横 (よこ: bên cạnh)\nCách ghi nhớ: Dùng cây 木 màu Vàng 黄 làm trục hoành",
+    "romaji": "Hoành",
+    "jlptLevel": 3
+  },
+  {
+    "front": "機",
+    "back": "Ý nghĩa: Máy móc, cơ hội\nÂm Hán Việt: Cơ\nBộ thủ: 木 (Mộc)\nOnyomi (Âm On): キ\nKunyomi (Âm Kun): はた\nVí dụ Onyomi:\n  - 機械 (きかい: máy móc),  飛行機 (ひこうき: máy bay)\nVí dụ Kunyomi:\n  - 機 (はた: máy dệt)\nCách ghi nhớ: cây 木 qua 戈 bao nhiêu 幾 năm chế tạo thành máy móc",
+    "romaji": "Cơ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "欠",
+    "back": "Ý nghĩa: Thiếu, vắng\nÂm Hán Việt: Khiếm\nBộ thủ: 欠 (Khiếm)\nOnyomi (Âm On): ケツ\nKunyomi (Âm Kun): かける\nVí dụ Onyomi:\n  - 欠席 (けっせき: vắng mặt),  欠点 (けってん: khuyết điểm)\nVí dụ Kunyomi:\n  - 欠ける(かける: thiếu)\nCách ghi nhớ: Nằm ngủ chỉ có 1 người  thì thấy thiếu 欠",
+    "romaji": "Khiếm",
+    "jlptLevel": 3
+  },
+  {
+    "front": "次",
+    "back": "Ý nghĩa: Kế tiếp\nÂm Hán Việt: Thứ\nBộ thủ: 欠 (Khiếm)\nOnyomi (Âm On): ジ\nKunyomi (Âm Kun): つぐ\nVí dụ Onyomi:\n  - 次回 (じかい: lần tới),  目次 (もくじ: mục lục)\nVí dụ Kunyomi:\n  - 次ぐ(つぐ: kế tiếp)\nCách ghi nhớ: Thứ tiếp theo mà mùa hè không thể thiếu 欠 là băng 冫 đá",
+    "romaji": "Thứ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "欲",
+    "back": "Ý nghĩa: Mong muốn\nÂm Hán Việt: Dục\nBộ thủ: 欠 (Khiếm)\nOnyomi (Âm On): ヨク\nKunyomi (Âm Kun): ほしい\nVí dụ Onyomi:\n  - 欲望 (よくぼう: dục vọng),  食欲 (しょくよく: thèm ăn)\nVí dụ Kunyomi:\n  - 欲しい(ほしい: muốn)\nCách ghi nhớ: Ở trong cốc 谷 thiếu 欠 dục vọng",
+    "romaji": "Dục",
+    "jlptLevel": 3
+  },
+  {
+    "front": "歯",
+    "back": "Ý nghĩa: Răng\nÂm Hán Việt: Xỉ\nBộ thủ: 止 (Chỉ)\nOnyomi (Âm On): シ\nKunyomi (Âm Kun): は\nVí dụ Onyomi:\n  - 歯科 (しか: nha khoa),  歯車 (はぐるま: bánh răng)\nVí dụ Kunyomi:\n  - 歯 (は: răng)\nCách ghi nhớ: Đang há mồm 凵 ăn cơm gạo 米 thì phải dừng 止 lại xỉa răng",
+    "romaji": "Xỉ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "歳",
+    "back": "Ý nghĩa: Tuổi\nÂm Hán Việt: Tuế\nBộ thủ: 止 (Chỉ)\nOnyomi (Âm On): サイ\nKunyomi (Âm Kun): とし\nVí dụ Onyomi:\n  - 二十歳 (はたち: 20 tuổi),  歳月 (さいげつ: năm tháng)\nVí dụ Kunyomi:\n  - 歳 (とし: tuổi)\nCách ghi nhớ: dừng 止 lại đúng giờ tuất 戊 hỏi 1 一chú tiểu 小  bao nhiêu tuổi",
+    "romaji": "Tuế",
+    "jlptLevel": 3
+  },
+  {
+    "front": "残",
+    "back": "Ý nghĩa: Còn lại\nÂm Hán Việt: Tàn\nBộ thủ: 歹 (Ngạt)\nOnyomi (Âm On): ザン\nKunyomi (Âm Kun): のこる\nVí dụ Onyomi:\n  - 残業 (ざんぎょう: làm thêm giờ),  残念 (ざんねん: đáng tiếc)\nVí dụ Kunyomi:\n  - 残る(のこる: còn lại)\nCách ghi nhớ: Ngạt qua 戈 2 二 lần thì tàn 歹",
+    "romaji": "Tàn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "段",
+    "back": "Ý nghĩa: Giai đoạn, bậc\nÂm Hán Việt: Đoạn\nBộ thủ: 殳 (Thù)\nOnyomi (Âm On): ダン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 段階 (だんかい: giai đoạn),  手段 (しゅだん: phương pháp)\nCách ghi nhớ: Đến giai đoạn 2 二 phải ép F kẻ thù 殳",
+    "romaji": "Đoạn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "殺",
+    "back": "Ý nghĩa: Giết\nÂm Hán Việt: Sát\nBộ thủ: 殳 (Thù)\nOnyomi (Âm On): サツ\nKunyomi (Âm Kun): ころす\nVí dụ Onyomi:\n  - 殺人 (さつじん: kẻ giết người),  殺す (ころす: giết)\nVí dụ Kunyomi:\n  - 殺す (ころす: giết)\nCách ghi nhớ: đánh dấu X trên cây 木 là nơi sát hại kẻ thù 殳",
+    "romaji": "Sát",
+    "jlptLevel": 3
+  },
+  {
+    "front": "民",
+    "back": "Ý nghĩa: Người dân\nÂm Hán Việt: Dân\nBộ thủ: 氏 (Thị)\nOnyomi (Âm On): ミン\nKunyomi (Âm Kun): たみ\nVí dụ Onyomi:\n  - 民主 (みんしゅ: dân chủ),  国民 (こくみん: người dân)\nVí dụ Kunyomi:\n  - 民 (たみ: dân chúng)\nCách ghi nhớ: mồm 口 nói  ra họ 氏 tên mình là dân chúng",
+    "romaji": "Dân",
+    "jlptLevel": 3
+  },
+  {
+    "front": "求",
+    "back": "Ý nghĩa: Yêu cầu, mong muốn\nÂm Hán Việt: Cầu\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): キュウ\nKunyomi (Âm Kun): もとめる\nVí dụ Onyomi:\n  - 要求 (ようきゅう: yêu cầu),  求人 (きゅうじん: tuyển dụng)\nVí dụ Kunyomi:\n  - 求める (もとめる: yêu cầu)\nCách ghi nhớ: yêu cầu Đầu 亠 tiên là phải có 1 nước 水",
+    "romaji": "Cầu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "決",
+    "back": "Ý nghĩa: Quyết định\nÂm Hán Việt: Quyết\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): ケツ\nKunyomi (Âm Kun): きめる\nVí dụ Onyomi:\n  - 決定 (けってい: quyết định),  解決 (かいけつ: giải quyết)\nVí dụ Kunyomi:\n  - 決める (きめる: quyết định)\nCách ghi nhớ: Việc  của Đất nước 氵 là do trung ương 夬 quyết định",
+    "romaji": "Quyết",
+    "jlptLevel": 3
+  },
+  {
+    "front": "治",
+    "back": "Ý nghĩa: Trị liệu, chính trị\nÂm Hán Việt: Trị\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): ジ\nKunyomi (Âm Kun): おさめる\nVí dụ Onyomi:\n  - 政治 (せいじ: chính trị),  治療 (ちりょう: trị liệu)\nVí dụ Kunyomi:\n  - 治める (おさめる: trị vì)\nCách ghi nhớ: Dùng nước 氵 ở vũ đài 台 để trị liệu",
+    "romaji": "Trị",
+    "jlptLevel": 3
+  },
+  {
+    "front": "法",
+    "back": "Ý nghĩa: Luật pháp\nÂm Hán Việt: Pháp\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): ホウ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 法律 (ほうりつ: luật pháp),  方法 (ほうほう: phương pháp)\nCách ghi nhớ: Thủy 氵 trong quá khứ 去 đã sáng tạo ra phương pháp học kanji",
+    "romaji": "Pháp",
+    "jlptLevel": 3
+  },
+  {
+    "front": "泳",
+    "back": "Ý nghĩa: Bơi\nÂm Hán Việt: Vịnh\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): エイ\nKunyomi (Âm Kun): およぐ\nVí dụ Onyomi:\n  - 水泳 (すいえい: bơi lội),  泳ぐ(およぐ: bơi)\nVí dụ Kunyomi:\n  - 泳ぐ(およぐ: bơi)\nCách ghi nhớ: nước 氵 vĩnh cửu 永 dùng để bơi",
+    "romaji": "Vịnh",
+    "jlptLevel": 3
+  },
+  {
+    "front": "洗",
+    "back": "Ý nghĩa: Rửa\nÂm Hán Việt: Tẩy\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): セン\nKunyomi (Âm Kun): あらう\nVí dụ Onyomi:\n  - 洗濯 (せんたく: giặt giũ),  洗面 (せんめん: rửa mặt)\nVí dụ Kunyomi:\n  - 洗う(あらう: rửa)\nCách ghi nhớ: Tiên 先 sinh dùng nước 氵 để rửa",
+    "romaji": "Tẩy",
+    "jlptLevel": 3
+  },
+  {
+    "front": "活",
+    "back": "Ý nghĩa: Hoạt động\nÂm Hán Việt: Hoạt\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): カツ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 生活 (せいかつ: sinh hoạt),  活動 (かつどう: hoạt động)\nCách ghi nhớ: Lưỡi 舌 phải có nước 氵 mới sinh hoạt được",
+    "romaji": "Hoạt",
+    "jlptLevel": 3
+  },
+  {
+    "front": "流",
+    "back": "Ý nghĩa: Dòng chảy, lưu hành\nÂm Hán Việt: Lưu\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): リュウ\nKunyomi (Âm Kun): ながれる\nVí dụ Onyomi:\n  - 流行 (りゅうこう: lưu hành),  流れる (ながれる: chảy)\nVí dụ Kunyomi:\n  - 流れる (ながれる: chảy)\nCách ghi nhớ: Đầu 亠 tư 4 nước 氵 cho dòng sông 川 để giao lưu",
+    "romaji": "Lưu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "浮",
+    "back": "Ý nghĩa: Nổi\nÂm Hán Việt: Phù\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): フ\nKunyomi (Âm Kun): うく\nVí dụ Onyomi:\n  - 浮力 (ふりょく: lực nổi),  浮上 (ふじょう: nổi lên)\nVí dụ Kunyomi:\n  - 浮く(うく: nổi)\nCách ghi nhớ: trẻ con 子 búng móng tay 爫 xuống nước 氵 làm mọi thứ nổi lên",
+    "romaji": "Phù",
+    "jlptLevel": 3
+  },
+  {
+    "front": "消",
+    "back": "Ý nghĩa: Tắt, biến mất\nÂm Hán Việt: Tiêu\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): ショウ\nKunyomi (Âm Kun): きえる\nVí dụ Onyomi:\n  - 消費 (しょうひ: tiêu thụ),  消える(きえる: biến mất)\nVí dụ Kunyomi:\n  - 消える(きえる: tắt)\nCách ghi nhớ: nước 氵 xóa nhòa đi bức chân dung 肖",
+    "romaji": "Tiêu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "深",
+    "back": "Ý nghĩa: Sâu, sâu sắc\nÂm Hán Việt: Thâm\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): シン\nKunyomi (Âm Kun): ふかい\nVí dụ Onyomi:\n  - 深夜 (しんや: đêm khuya),  深い (ふかい: sâu)\nVí dụ Kunyomi:\n  - 深い (ふかい: sâu)\nCách ghi nhớ: Trong đêm 冖 chân 儿 trèo lên cây 木 ngã xuống nước 氵 sâu",
+    "romaji": "Thâm",
+    "jlptLevel": 3
+  },
+  {
+    "front": "済",
+    "back": "Ý nghĩa: Kết thúc\nÂm Hán Việt: Tế\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): サイ\nKunyomi (Âm Kun): すむ\nVí dụ Onyomi:\n  - 経済 (けいざい: kinh tế),  済む (すむ: kết thúc)\nVí dụ Kunyomi:\n  - 済む (すむ: kết thúc)\nCách ghi nhớ: nước 氵 tề 斉 kinh tế rất mạnh",
+    "romaji": "Tế",
+    "jlptLevel": 3
+  },
+  {
+    "front": "渡",
+    "back": "Ý nghĩa: Băng qua\nÂm Hán Việt: Độ\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): ト\nKunyomi (Âm Kun): わたる\nVí dụ Onyomi:\n  - 渡る(わたる: băng qua),  渡す (わたす: trao cho)\nVí dụ Kunyomi:\n  - 渡る(わたる: băng qua)\nCách ghi nhớ: nước 氵 lần 度 này dâng cao chúng ta phải cố gắng vượt qua",
+    "romaji": "Độ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "港",
+    "back": "Ý nghĩa: Bến cảng\nÂm Hán Việt: Cảng\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): コウ\nKunyomi (Âm Kun): みなと\nVí dụ Onyomi:\n  - 空港 (くうこう: sân bay),  港 (みなと: bến cảng)\nVí dụ Kunyomi:\n  - 港 (みなと: bến cảng)\nCách ghi nhớ: Hải cảng xẩy ra 2 己 trận hồng thủy 洪",
+    "romaji": "Cảng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "満",
+    "back": "Ý nghĩa: Đầy, thỏa mãn\nÂm Hán Việt: Mãn\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): マン\nKunyomi (Âm Kun): みちる\nVí dụ Onyomi:\n  - 満足 (まんぞく: thỏa mãn),  満ちる(みちる: đầy)\nVí dụ Kunyomi:\n  - 満ちる(みちる: đầy)\nCách ghi nhớ: Cả hai 両 Bố mẹ đều rất mãn nguyện khi cho thảo 艹 ra nước 氵 ngoài du học",
+    "romaji": "Mãn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "演",
+    "back": "Ý nghĩa: Biểu diễn\nÂm Hán Việt: Diễn\nBộ thủ: 水 (Thủy)\nOnyomi (Âm On): エン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 演技 (えんぎ: diễn xuất),  演説 (えんぜつ: diễn thuyết)\nCách ghi nhớ: Dưới mái nhà 宀 1 khi Tự do 由  sẽ đi 8 八 nước 氵 châu âu diễn xuất",
+    "romaji": "Diễn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "点",
+    "back": "Ý nghĩa: Điểm, chấm\nÂm Hán Việt: Điểm\nBộ thủ: 灬 (Hỏa)\nOnyomi (Âm On): テン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 点数 (てんすう: điểm số),  欠点 (けってん: khuyết điểm)\nCách ghi nhớ: Học máu lửa  ,,,, chiếm 占 hết phần người  khác để giành điểm cao",
+    "romaji": "Điểm",
+    "jlptLevel": 3
+  },
+  {
+    "front": "然",
+    "back": "Ý nghĩa: Tự nhiên, đương nhiên\nÂm Hán Việt: Nhiên\nBộ thủ: 灬 (Hỏa)\nOnyomi (Âm On): ゼン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 自然 (しぜん: tự nhiên),  全然 (ぜんぜん: hoàn toàn)\nCách ghi nhớ: Nguyệt 月 ăn chó 犬 nướng ,,,, rất Tự nhiên",
+    "romaji": "Nhiên",
+    "jlptLevel": 3
+  },
+  {
+    "front": "煙",
+    "back": "Ý nghĩa: Khói\nÂm Hán Việt: Yên\nBộ thủ: 火 (Hỏa)\nOnyomi (Âm On): エン\nKunyomi (Âm Kun): けむり\nVí dụ Onyomi:\n  - 煙突 (えんとつ: ống khói),  煙 (けむり: khói)\nVí dụ Kunyomi:\n  - 煙 (けむり: khói)\nCách ghi nhớ: lửa  火 đốt Đất 土 phía tây 西 bốc khói",
+    "romaji": "Yên",
+    "jlptLevel": 3
+  },
+  {
+    "front": "熱",
+    "back": "Ý nghĩa: Nhiệt, nóng\nÂm Hán Việt: Nhiệt\nBộ thủ: 灬 (Hỏa)\nOnyomi (Âm On): ネツ\nKunyomi (Âm Kun): あつい\nVí dụ Onyomi:\n  - 熱心 (ねっしん: nhiệt tình),  熱 (ねつ: sốt)\nVí dụ Kunyomi:\n  - 熱い (あつい: nóng)\nCách ghi nhớ: Tiên sinh chân 儿 Đất 土 đi trong vòng tròn lửa  ,,,, nên thấy nóng",
+    "romaji": "Nhiệt",
+    "jlptLevel": 3
+  },
+  {
+    "front": "犯",
+    "back": "Ý nghĩa: Phạm tội\nÂm Hán Việt: Phạm\nBộ thủ: 犬 (Khuyển)\nOnyomi (Âm On): ハン\nKunyomi (Âm Kun): おかす\nVí dụ Onyomi:\n  - 犯人 (はんにん: tội phạm),  犯す (おかす: vi phạm)\nVí dụ Kunyomi:\n  - 犯す (おかす: vi phạm)\nCách ghi nhớ: Bắt chó 犭 ăn C là vi phạm",
+    "romaji": "Phạm",
+    "jlptLevel": 3
+  },
+  {
+    "front": "状",
+    "back": "Ý nghĩa: Trạng thái\nÂm Hán Việt: Trạng\nBộ thủ: 犬 (Khuyển)\nOnyomi (Âm On): ジョウ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 状態 (じょうたい: trạng thái),  状況 (じょうきょう: tình hình)\nCách ghi nhớ: Trạng thái con chó 犬 đứng  cạnh tường",
+    "romaji": "Trạng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "猫",
+    "back": "Ý nghĩa: Con mèo\nÂm Hán Việt: Miêu\nBộ thủ: 犭 (Khuyển)\nOnyomi (Âm On): ビョウ\nKunyomi (Âm Kun): ねこ\nVí dụ Onyomi:\n  - 猫 (ねこ: mèo),  猫舌 (ねこじた: không ăn được đồ nóng)\nVí dụ Kunyomi:\n  - 猫 (ねこ: mèo)\nCách ghi nhớ: Con chó 犭 ăn cây non 苗 biến thành con mèo",
+    "romaji": "Miêu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "王",
+    "back": "Ý nghĩa: Vua, vua chúa\nÂm Hán Việt: Vương\nBộ thủ: 玉 (Ngọc)\nOnyomi (Âm On): オウ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 王国 (おうこく: vương quốc),  王様 (おうさま: vua)\nCách ghi nhớ: Có Ba ông Vua 王",
+    "romaji": "Vương",
+    "jlptLevel": 3
+  },
+  {
+    "front": "現",
+    "back": "Ý nghĩa: Hiện tại, xuất hiện\nÂm Hán Việt: Hiện\nBộ thủ: 玉 (Ngọc)\nOnyomi (Âm On): ゲン\nKunyomi (Âm Kun): あらわれる\nVí dụ Onyomi:\n  - 現在 (げんざい: hiện tại),  現れる (あらわれる: xuất hiện)\nVí dụ Kunyomi:\n  - 現れる (あらわれる: xuất hiện)\nCách ghi nhớ: Ông Vua 王 Nhìn 見 vào hiện thực",
+    "romaji": "Hiện",
+    "jlptLevel": 3
+  },
+  {
+    "front": "球",
+    "back": "Ý nghĩa: Quả bóng, địa cầu\nÂm Hán Việt: Cầu\nBộ thủ: 玉 (Ngọc)\nOnyomi (Âm On): キュウ\nKunyomi (Âm Kun): たま\nVí dụ Onyomi:\n  - 地球 (ちきゅう: trái đất),  野球 (やきゅう: bóng chày)\nVí dụ Kunyomi:\n  - 球 (たま: quả bóng)\nCách ghi nhớ: Vua 王 yêu cầu có cả địa cầu 求",
+    "romaji": "Cầu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "産",
+    "back": "Ý nghĩa: Sản xuất\nÂm Hán Việt: Sản\nBộ thủ: 生 (Sinh)\nOnyomi (Âm On): サン\nKunyomi (Âm Kun): うむ\nVí dụ Onyomi:\n  - 生産 (せいさん: sản xuất),  産む (うむ: sinh sản)\nVí dụ Kunyomi:\n  - 産む (うむ: sinh sản)\nCách ghi nhớ: đứng 立 trên sườn 厂 núi sinh 生 đẻ",
+    "romaji": "Sản",
+    "jlptLevel": 3
+  },
+  {
+    "front": "由",
+    "back": "Ý nghĩa: Nguyên nhân, lý do\nÂm Hán Việt: Do\nBộ thủ: 田 (Điền)\nOnyomi (Âm On): ユウ\nKunyomi (Âm Kun): よし\nVí dụ Onyomi:\n  - 自由 (じゆう: tự do), 理由 (りゆう: lý do)\nVí dụ Kunyomi:\n  - 由 (よし: nguyên nhân)\nCách ghi nhớ: Có nhiều ruộng 田 sẽ được sống thoải mái Tự  do",
+    "romaji": "Do",
+    "jlptLevel": 3
+  },
+  {
+    "front": "申",
+    "back": "Ý nghĩa: Nói, thỉnh cầu\nÂm Hán Việt: Thân\nBộ thủ: 田 (Điền)\nOnyomi (Âm On): シン\nKunyomi (Âm Kun): もうす\nVí dụ Onyomi:\n  - 申請 (しんせい: thỉnh cầu),  申し訳 (もうしわけ: lời xin lỗi)\nVí dụ Kunyomi:\n  - 申す (もうす: nói, thỉnh cầu)\nCách ghi nhớ: Gọi tên em trong 1 ngày 日",
+    "romaji": "Thân",
+    "jlptLevel": 3
+  },
+  {
+    "front": "留",
+    "back": "Ý nghĩa: Ở lại, giữ\nÂm Hán Việt: Lưu\nBộ thủ: 田 (Điền)\nOnyomi (Âm On): リュウ\nKunyomi (Âm Kun): とめる\nVí dụ Onyomi:\n  - 留学 (りゅうがく: du học),  留守 (るす: vắng nhà)\nVí dụ Kunyomi:\n  - 留める (とめる: giữ lại)\nCách ghi nhớ: Cầm đao 刀 lưu lại những vết tích trên ruộng 田",
+    "romaji": "Lưu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "番",
+    "back": "Ý nghĩa: Lượt, số\nÂm Hán Việt: Phiên\nBộ thủ: 田 (Điền)\nOnyomi (Âm On): バン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 番号 (ばんごう: số thứ tự),  一番 (いちばん: số một)\nCách ghi nhớ: Tới phiên mình đi cắt lúa gạo 米 trên ruộng 田",
+    "romaji": "Phiên",
+    "jlptLevel": 3
+  },
+  {
+    "front": "疑",
+    "back": "Ý nghĩa: Nghi ngờ\nÂm Hán Việt: Nghi\nBộ thủ: 疋 (Sơ)\nOnyomi (Âm On): ギ\nKunyomi (Âm Kun): うたがう\nVí dụ Onyomi:\n  - 疑問 (ぎもん: nghi vấn),  疑う(うたがう: nghi ngờ)\nVí dụ Kunyomi:\n  - 疑う(うたがう: nghi ngờ)\nCách ghi nhớ: Nhìn thấy Hạ 下 Nhân 人 nghi là Ma マ nên dùng thìa 匕 thay mũi tên 矢 bắn",
+    "romaji": "Nghi",
+    "jlptLevel": 3
+  },
+  {
+    "front": "疲",
+    "back": "Ý nghĩa: Mệt mỏi\nÂm Hán Việt: Bì\nBộ thủ: 疒 (Nạch)\nOnyomi (Âm On): ヒ\nKunyomi (Âm Kun): つかれる\nVí dụ Onyomi:\n  - 疲労 (ひろう: mệt mỏi),  疲れる (つかれる: mệt)\nVí dụ Kunyomi:\n  - 疲れる (つかれる: mệt mỏi)\nCách ghi nhớ: Phát bệnh 疒 trên da 皮 là mệt mỏi",
+    "romaji": "Bì",
+    "jlptLevel": 3
+  },
+  {
+    "front": "痛",
+    "back": "Ý nghĩa: Đau\nÂm Hán Việt: Thống\nBộ thủ: 疒 (Nạch)\nOnyomi (Âm On): ツウ\nKunyomi (Âm Kun): いたい\nVí dụ Onyomi:\n  - 痛み (いたみ: đau),  痛感 (つうかん: thấu hiểu)\nVí dụ Kunyomi:\n  - 痛い (いたい: đau)\nCách ghi nhớ: Sử dụng 用 Ma マ để chữa bệnh 疒 khỏi đau đớn",
+    "romaji": "Thống",
+    "jlptLevel": 3
+  },
+  {
+    "front": "登",
+    "back": "Ý nghĩa: Leo lên\nÂm Hán Việt: Đăng\nBộ thủ: 癶 (Bát)\nOnyomi (Âm On): トウ\nKunyomi (Âm Kun): のぼる\nVí dụ Onyomi:\n  - 登録 (とうろく: đăng ký),  登る(のぼる: leo lên)\nVí dụ Kunyomi:\n  - 登る(のぼる: leo lên)\nCách ghi nhớ: Đậu 豆 thì trở lại 癶 đăng ký",
+    "romaji": "Đăng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "皆",
+    "back": "Ý nghĩa: Mọi người\nÂm Hán Việt: Giai\nBộ thủ: 白 (Bạch)\nOnyomi (Âm On): カイ\nKunyomi (Âm Kun): みな\nVí dụ Onyomi:\n  - 皆無 (かいむ: không có gì),  皆さん (みなさん: mọi người)\nVí dụ Kunyomi:\n  - 皆 (みな: mọi người)\nCách ghi nhớ: Tỉ  比 Trắng 白 nhất trong tất cả mọi người",
+    "romaji": "Giai",
+    "jlptLevel": 3
+  },
+  {
+    "front": "盗",
+    "back": "Ý nghĩa: Trộm cắp\nÂm Hán Việt: Đạo\nBộ thủ: 皿 (Mãnh)\nOnyomi (Âm On): トウ\nKunyomi (Âm Kun): ぬすむ\nVí dụ Onyomi:\n  - 盗難 (とうなん: vụ trộm),  盗む (ぬすむ: trộm cắp)\nVí dụ Kunyomi:\n  - 盗む (ぬすむ: ăn cắp)\nCách ghi nhớ: Thứ tiếp theo 次 mà đạo tặc muốn lấy là chiếc đĩa 皿 cổ",
+    "romaji": "Đạo",
+    "jlptLevel": 3
+  },
+  {
+    "front": "直",
+    "back": "Ý nghĩa: Trực tiếp, sửa\nÂm Hán Việt: Trực\nBộ thủ: 目 (Mục)\nOnyomi (Âm On): チョク\nKunyomi (Âm Kun): なおす\nVí dụ Onyomi:\n  - 直接 (ちょくせつ: trực tiếp),  直す (なおす: sửa chữa)\nVí dụ Kunyomi:\n  - 直す (なおす: sửa chữa)\nCách ghi nhớ: 10 十 mắt 目 lớn Nhìn trực 直 tiếp",
+    "romaji": "Trực",
+    "jlptLevel": 3
+  },
+  {
+    "front": "相",
+    "back": "Ý nghĩa: Tương đương, đối tác\nÂm Hán Việt: Tương\nBộ thủ: 目 (Mục)\nOnyomi (Âm On): ソウ\nKunyomi (Âm Kun): あい\nVí dụ Onyomi:\n  - 相手 (あいて: đối tác),  相談 (そうだん: tư vấn)\nVí dụ Kunyomi:\n  - 相 (あい: cùng nhau)\nCách ghi nhớ: cây 木 tre có những mắt 目 tương Tự  nhau",
+    "romaji": "Tương",
+    "jlptLevel": 3
+  },
+  {
+    "front": "眠",
+    "back": "Ý nghĩa: Ngủ, buồn ngủ\nÂm Hán Việt: Miên\nBộ thủ: 目 (Mục)\nOnyomi (Âm On): ミン\nKunyomi (Âm Kun): ねむい\nVí dụ Onyomi:\n  - 眠い (ねむい: buồn ngủ),  睡眠 (すいみん: giấc ngủ)\nVí dụ Kunyomi:\n  - 眠る(ねむる: ngủ)\nCách ghi nhớ: mắt 目 dân chúng 民 đang ngủ",
+    "romaji": "Miên",
+    "jlptLevel": 3
+  },
+  {
+    "front": "石",
+    "back": "Ý nghĩa: Đá\nÂm Hán Việt: Thạch\nBộ thủ: 石 (Thạch)\nOnyomi (Âm On): セキ\nKunyomi (Âm Kun): いし\nVí dụ Onyomi:\n  - 石油 (せきゆ: dầu mỏ),  宝石 (ほうせき: đá quý)\nVí dụ Kunyomi:\n  - 石 (いし: hòn đá)\nCách ghi nhớ: Đá 石 thì Phải 右 nhẵn nhụi",
+    "romaji": "Thạch",
+    "jlptLevel": 3
+  },
+  {
+    "front": "破",
+    "back": "Ý nghĩa: Phá hủy, làm rách\nÂm Hán Việt: Phá\nBộ thủ: 石 (Thạch)\nOnyomi (Âm On): ハ\nKunyomi (Âm Kun): やぶる\nVí dụ Onyomi:\n  - 破壊 (はかい: phá hủy),  破る(やぶる: phá vỡ)\nVí dụ Kunyomi:\n  - 破る(やぶる: làm rách)\nCách ghi nhớ: Dùng Đá 石 phá rách da 皮",
+    "romaji": "Phá",
+    "jlptLevel": 3
+  },
+  {
+    "front": "確",
+    "back": "Ý nghĩa: Xác nhận\nÂm Hán Việt: Xác\nBộ thủ: 石 (Thạch)\nOnyomi (Âm On): カク\nKunyomi (Âm Kun): たしかめる\nVí dụ Onyomi:\n  - 確認 (かくにん: xác nhận),  確かめる (たしかめる: kiểm tra)\nVí dụ Kunyomi:\n  - 確か (たしか: chắc chắn)\nCách ghi nhớ: Trong đêm 冖 dùng Đá 石 ném chính xác vào con chim 隹",
+    "romaji": "Xác",
+    "jlptLevel": 3
+  },
+  {
+    "front": "示",
+    "back": "Ý nghĩa: Biểu thị, chỉ ra\nÂm Hán Việt: Thị\nBộ thủ: 礻 (Thị)\nOnyomi (Âm On): ジ\nKunyomi (Âm Kun): しめす\nVí dụ Onyomi:\n  - 指示 (しじ: chỉ thị),  示す (しめす: cho thấy)\nVí dụ Kunyomi:\n  - 示す (しめす: cho thấy)\nCách ghi nhớ: Chỉ thị 2 二 chú tiểu 小",
+    "romaji": "Thị",
+    "jlptLevel": 3
+  },
+  {
+    "front": "礼",
+    "back": "Ý nghĩa: Lễ nghi, cảm ơn\nÂm Hán Việt: Lễ\nBộ thủ: 礻 (Thị)\nOnyomi (Âm On): レイ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 礼儀 (れいぎ: lễ nghĩa),  失礼 (しつれい: thất lễ)\nCách ghi nhớ: Đích thị 礻 là lễ L",
+    "romaji": "Lễ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "祖",
+    "back": "Ý nghĩa: Tổ tiên\nÂm Hán Việt: Tổ\nBộ thủ: 礻 (Thị)\nOnyomi (Âm On): ソ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 祖先 (そせん: tổ tiên),  祖国 (そこく: tổ quốc)\nCách ghi nhớ: Ngoài 且 thị 礻 ra còn cúng tổ tiên các hoa quả khác",
+    "romaji": "Tổ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "神",
+    "back": "Ý nghĩa: Thần thánh\nÂm Hán Việt: Thần\nBộ thủ: 礻 (Thị)\nOnyomi (Âm On): シン\nKunyomi (Âm Kun): かみ\nVí dụ Onyomi:\n  - 神様 (かみさま: thần thánh),  神社 (じんじゃ: đền thờ thần)\nVí dụ Kunyomi:\n  - 神 (かみ: thần)\nCách ghi nhớ: Mang quả thị 礻 đến làm thân 申 với thần",
+    "romaji": "Thần",
+    "jlptLevel": 3
+  },
+  {
+    "front": "福",
+    "back": "Ý nghĩa: Phúc lợi, hạnh phúc\nÂm Hán Việt: Phúc\nBộ thủ: 礻 (Thị)\nOnyomi (Âm On): フク\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 幸福 (こうふく: hạnh phúc),  福祉 (ふくし: phúc lợi)\nCách ghi nhớ: 1 cái miệng 口 trên ruộng 田 được ăn thị 礻 là có phúc",
+    "romaji": "Phúc",
+    "jlptLevel": 3
+  },
+  {
+    "front": "科",
+    "back": "Ý nghĩa: Khoa học, môn học\nÂm Hán Việt: Khoa\nBộ thủ: 禾 (Hòa)\nOnyomi (Âm On): カ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 科学 (かがく: khoa học),  教科書 (きょうかしょ: sách giáo khoa)\nCách ghi nhớ: hòa 禾 dùng đấu 斗 nghiên cứu khoa học",
+    "romaji": "Khoa",
+    "jlptLevel": 3
+  },
+  {
+    "front": "程",
+    "back": "Ý nghĩa: Trình độ, mức độ\nÂm Hán Việt: Trình\nBộ thủ: 禾 (Hòa)\nOnyomi (Âm On): テイ\nKunyomi (Âm Kun): ほど\nVí dụ Onyomi:\n  - 程度 (ていど: trình độ),  日程 (にってい: lịch trình)\nVí dụ Kunyomi:\n  - 程 (ほど: mức độ)\nCách ghi nhớ: hòa 禾 đang Trình bày 呈 về Lộ trình học",
+    "romaji": "Trình",
+    "jlptLevel": 3
+  },
+  {
+    "front": "種",
+    "back": "Ý nghĩa: Chủng loại, hạt giống\nÂm Hán Việt: Chủng\nBộ thủ: 禾 (Hòa)\nOnyomi (Âm On): シュ\nKunyomi (Âm Kun): たね\nVí dụ Onyomi:\n  - 種類 (しゅるい: chủng loại),  種 (たね: hạt giống)\nVí dụ Kunyomi:\n  - 種 (たね: hạt giống)\nCách ghi nhớ: Trọng 重 lượng lúa 禾 gạo  là do chủng loại",
+    "romaji": "Chủng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "積",
+    "back": "Ý nghĩa: Tích lũy, chất đống\nÂm Hán Việt: Tích\nBộ thủ: 禾 (Hòa)\nOnyomi (Âm On): セキ\nKunyomi (Âm Kun): つむ\nVí dụ Onyomi:\n  - 積極的 (せっきょくてき: tích cực),  積む (つむ: chất đống)\nVí dụ Kunyomi:\n  - 積む (つむ: chất đống)\nCách ghi nhớ: Trách nhiệm 責 là phải tích trữ lúa 禾 gạo",
+    "romaji": "Tích",
+    "jlptLevel": 3
+  },
+  {
+    "front": "突",
+    "back": "Ý nghĩa: Đâm, xô đẩy\nÂm Hán Việt: Đột\nBộ thủ: 穴 (Huyệt)\nOnyomi (Âm On): トツ\nKunyomi (Âm Kun): つく\nVí dụ Onyomi:\n  - 衝突 (しょうとつ: xung đột),  突然 (とつぜん: đột nhiên)\nVí dụ Kunyomi:\n  - 突く(つく: đâm, chọc)\nCách ghi nhớ: Cái lỗ 穴 đột nhiên To 大 ra",
+    "romaji": "Đột",
+    "jlptLevel": 3
+  },
+  {
+    "front": "窓",
+    "back": "Ý nghĩa: Cửa sổ\nÂm Hán Việt: Song\nBộ thủ: 穴 (Huyệt)\nOnyomi (Âm On): ソウ\nKunyomi (Âm Kun): まど\nVí dụ Onyomi:\n  - 窓口 (まどぐち: cửa giao dịch),  窓 (まど: cửa sổ)\nVí dụ Kunyomi:\n  - 窓 (まど: cửa sổ)\nCách ghi nhớ: Trái tim 心 có 4 cái lỗ 穴 chính là cửa sổ tâm hồn",
+    "romaji": "Song",
+    "jlptLevel": 3
+  },
+  {
+    "front": "笑",
+    "back": "Ý nghĩa: Cười, vui vẻ\nÂm Hán Việt: Tiếu\nBộ thủ: 竹 (Trúc)\nOnyomi (Âm On): ショウ\nKunyomi (Âm Kun): わらう\nVí dụ Onyomi:\n  - 笑顔 (えがお: mặt cười),  笑う(わらう: cười)\nVí dụ Kunyomi:\n  - 笑う(わらう: cười)\nCách ghi nhớ: Đến thiên 天 trúc 竹 thì cười",
+    "romaji": "Tiếu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "等",
+    "back": "Ý nghĩa: Bình đẳng, vân vân\nÂm Hán Việt: Đẳng\nBộ thủ: 竹 (Trúc)\nOnyomi (Âm On): トウ\nKunyomi (Âm Kun): ひとしい\nVí dụ Onyomi:\n  - 平等 (びょうどう: bình đẳng),  等 (など: vân vân)\nVí dụ Kunyomi:\n  - 等しい(ひとしい: tương đương)\nCách ghi nhớ: trúc 竹 sống ở chùa 寺 được đối xử bình đẳng",
+    "romaji": "Đẳng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "箱",
+    "back": "Ý nghĩa: Hộp\nÂm Hán Việt: Tương\nBộ thủ: 竹 (Trúc)\nOnyomi (Âm On): ソウ\nKunyomi (Âm Kun): はこ\nVí dụ Onyomi:\n  - 郵便箱 (ゆうびんばこ: hộp thư),  箱 (はこ: hộp)\nVí dụ Kunyomi:\n  - 箱 (はこ: hộp)\nCách ghi nhớ: cây trúc 竹 tương 相 Tự nhau dùng làm hộp",
+    "romaji": "Tương",
+    "jlptLevel": 3
+  },
+  {
+    "front": "米",
+    "back": "Ý nghĩa: Gạo, Mỹ\nÂm Hán Việt: Mễ\nBộ thủ: 米 (Mễ)\nOnyomi (Âm On): ベイ\nKunyomi (Âm Kun): こめ\nVí dụ Onyomi:\n  - 米国 (べいこく: nước Mỹ),  白米 (はくまい: gạo trắng)\nVí dụ Kunyomi:\n  - 米 (こめ: gạo)\nCách ghi nhớ: cây 木 trổ ra bông gạo 米",
+    "romaji": "Mễ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "精",
+    "back": "Ý nghĩa: Tinh thần, tinh túy\nÂm Hán Việt: Tinh\nBộ thủ: 米 (Mễ)\nOnyomi (Âm On): セイ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 精神 (せいしん: tinh thần),  精々 (せいぜい: tối đa)\nCách ghi nhớ: Hạt gạo 米 xanh 青 đã được tinh luyện",
+    "romaji": "Tinh",
+    "jlptLevel": 3
+  },
+  {
+    "front": "約",
+    "back": "Ý nghĩa: Lời hứa, ước lượng\nÂm Hán Việt: Ước\nBộ thủ: 糸 (Mịch)\nOnyomi (Âm On): ヤク\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 約束 (やくそく: lời hứa),  予約 (よやく: đặt trước)\nCách ghi nhớ: bao 勺 nhiêu sợi 糸 tơ là bấy nhiêu giao ước",
+    "romaji": "Ước",
+    "jlptLevel": 3
+  },
+  {
+    "front": "組",
+    "back": "Ý nghĩa: Tổ chức, lắp ghép\nÂm Hán Việt: Tổ\nBộ thủ: 糸 (Mịch)\nOnyomi (Âm On): ソ\nKunyomi (Âm Kun): くむ\nVí dụ Onyomi:\n  - 組織 (そしき: tổ chức),  組 (くみ: lớp, tổ)\nVí dụ Kunyomi:\n  - 組む (くむ: lắp ghép)\nCách ghi nhớ: Ngoài 且 tơ lụa 糸 ra thì tổ chức còn bán các thứ khác",
+    "romaji": "Tổ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "経",
+    "back": "Ý nghĩa: Kinh tế, trải qua\nÂm Hán Việt: Kinh\nBộ thủ: 糸 (Mịch)\nOnyomi (Âm On): ケイ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 経済 (けいざい: kinh tế),  経験 (けいけん: kinh nghiệm)\nCách ghi nhớ: sợi 糸 tơ thần thánh 圣 tạo ra nền kinh tế mới",
+    "romaji": "Kinh",
+    "jlptLevel": 3
+  },
+  {
+    "front": "給",
+    "back": "Ý nghĩa: Cung cấp, tiền lương\nÂm Hán Việt: Cấp\nBộ thủ: 糸 (Mịch)\nOnyomi (Âm On): キュウ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 給料 (きゅうりょう: lương),  支給 (しきゅう: cung cấp)\nCách ghi nhớ: sợi 糸 tơ hợp 合 với việc cung cấp cho ngành dệt",
+    "romaji": "Cấp",
+    "jlptLevel": 3
+  },
+  {
+    "front": "絵",
+    "back": "Ý nghĩa: Bức tranh\nÂm Hán Việt: Hội\nBộ thủ: 糸 (Mịch)\nOnyomi (Âm On): エ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 絵画 (かいが: hội họa),  絵 (え: bức tranh)\nCách ghi nhớ: sợi 糸 tơ nhảy múa trong lễ hội 会 đẹp như bức tranh",
+    "romaji": "Hội",
+    "jlptLevel": 3
+  },
+  {
+    "front": "絶",
+    "back": "Ý nghĩa: Tuyệt đối, đoạn tuyệt\nÂm Hán Việt: Tuyệt\nBộ thủ: 糸 (Mịch)\nOnyomi (Âm On): ゼツ\nKunyomi (Âm Kun): たえる\nVí dụ Onyomi:\n  - 絶対 (ぜったい: tuyệt đối),  絶える(たえる: dừng)\nVí dụ Kunyomi:\n  - 絶える(たえる: dừng)\nCách ghi nhớ: sợi 糸 tơ màu sắc 色 đẹp tuyệt",
+    "romaji": "Tuyệt",
+    "jlptLevel": 3
+  },
+  {
+    "front": "続",
+    "back": "Ý nghĩa: Tiếp tục\nÂm Hán Việt: Tục\nBộ thủ: 糸 (Mịch)\nOnyomi (Âm On): ゾク\nKunyomi (Âm Kun): つづく\nVí dụ Onyomi:\n  - 続行 (ぞっこう: tiếp tục),  続ける(つづける: tiếp tục)\nVí dụ Kunyomi:\n  - 続く(つづく: tiếp tục)\nCách ghi nhớ: Tơ  糸 lụa được bán 売 liên tục",
+    "romaji": "Tục",
+    "jlptLevel": 3
+  },
+  {
+    "front": "緒",
+    "back": "Ý nghĩa: Dây, bắt đầu\nÂm Hán Việt: Tự\nBộ thủ: 糸 (Mịch)\nOnyomi (Âm On): ショ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 一緒 (いっしょ: cùng nhau),  情緒 (じょうちょ: cảm xúc)\nCách ghi nhớ: Cùng nhau dệt tơ 糸 với tác giả 者",
+    "romaji": "Tự",
+    "jlptLevel": 3
+  },
+  {
+    "front": "罪",
+    "back": "Ý nghĩa: Tội lỗi\nÂm Hán Việt: Tội\nBộ thủ: 网 (Võng)\nOnyomi (Âm On): ザイ\nKunyomi (Âm Kun): つみ\nVí dụ Onyomi:\n  - 罪人 (ざいにん: tội nhân),  罪 (つみ: tội lỗi)\nVí dụ Kunyomi:\n  - 罪 (つみ: tội lỗi)\nCách ghi nhớ: mắt ⺫ phi  非 thường của tội phạm",
+    "romaji": "Tội",
+    "jlptLevel": 3
+  },
+  {
+    "front": "置",
+    "back": "Ý nghĩa: Đặt, để\nÂm Hán Việt: Trí\nBộ thủ: 网 (Võng)\nOnyomi (Âm On): チ\nKunyomi (Âm Kun): おく\nVí dụ Onyomi:\n  - 位置 (いち: vị trí),  置く(おく: đặt, để)\nVí dụ Kunyomi:\n  - 置く(おく: đặt, để)\nCách ghi nhớ: mắt ⺫ Nhìn  trực 直 tiếp xem để đặt",
+    "romaji": "Trí",
+    "jlptLevel": 3
+  },
+  {
+    "front": "美",
+    "back": "Ý nghĩa: Đẹp\nÂm Hán Việt: Mỹ\nBộ thủ: 羊 (Dương)\nOnyomi (Âm On): ビ\nKunyomi (Âm Kun): うつくしい\nVí dụ Onyomi:\n  - 美術 (びじゅつ: mỹ thuật),  美しい (うつくしい: đẹp)\nVí dụ Kunyomi:\n  - 美しい(うつくしい: đẹp)\nCách ghi nhớ: Con dê 羊 To 大 là con dê đẹp",
+    "romaji": "Mỹ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "老",
+    "back": "Ý nghĩa: Già\nÂm Hán Việt: Lão\nBộ thủ: 老 (Lão)\nOnyomi (Âm On): ロウ\nKunyomi (Âm Kun): おいる\nVí dụ Onyomi:\n  - 老人 (ろうじん: người già),  敬老 (けいろう: kính lão)\nVí dụ Kunyomi:\n  - 老いる(おいる: già)\nCách ghi nhớ: Chống gậy xuống Đất 土 vẫn cười hihi ヒ là người già",
+    "romaji": "Lão",
+    "jlptLevel": 3
+  },
+  {
+    "front": "耳",
+    "back": "Ý nghĩa: Tai\nÂm Hán Việt: Nhĩ\nBộ thủ: 耳 (Nhĩ)\nOnyomi (Âm On): ジ\nKunyomi (Âm Kun): みみ\nVí dụ Onyomi:\n  - 耳鼻科 (じびか: khoa tai mũi),  耳 (みみ: tai)\nVí dụ Kunyomi:\n  - 耳 (みみ: tai)\nCách ghi nhớ: Tai 耳 gần giống mắt 目",
+    "romaji": "Nhĩ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "職",
+    "back": "Ý nghĩa: Công việc, chức vụ\nÂm Hán Việt: Chức\nBộ thủ: 耳 (Nhĩ)\nOnyomi (Âm On): ショク\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 職業 (しょくぎょう: nghề nghiệp),  退職 (たいしょく: nghỉ việc)\nCách ghi nhớ: Chức vụ của Tai 耳 là nghe Âm thanh 音 truyền qua 戈",
+    "romaji": "Chức",
+    "jlptLevel": 3
+  },
+  {
+    "front": "育",
+    "back": "Ý nghĩa: Nuôi dưỡng\nÂm Hán Việt: Dục\nBộ thủ: 肉 (Nhục)\nOnyomi (Âm On): イク\nKunyomi (Âm Kun): そだてる\nVí dụ Onyomi:\n  - 教育 (きょういく: giáo dục),  育てる(そだてる: nuôi dưỡng)\nVí dụ Kunyomi:\n  - 育てる(そだてる: nuôi dưỡng)\nCách ghi nhớ: Chị Nguyệt 月 Đầu 亠 tư 4 cho giáo dục",
+    "romaji": "Dục",
+    "jlptLevel": 3
+  },
+  {
+    "front": "背",
+    "back": "Ý nghĩa: Lưng, ngược lại\nÂm Hán Việt: Bối\nBộ thủ: 肉 (Nhục)\nOnyomi (Âm On): ハイ\nKunyomi (Âm Kun): せ、せい\nVí dụ Onyomi:\n  - 背景 (はいけい: bối cảnh),  背中 (せなか: lưng)\nVí dụ Kunyomi:\n  - 背 (せ: lưng)\nCách ghi nhớ: Chị Nguyệt 月 ngoảnh lưng về phía bắc 北",
+    "romaji": "Bối",
+    "jlptLevel": 3
+  },
+  {
+    "front": "能",
+    "back": "Ý nghĩa: Khả năng\nÂm Hán Việt: Năng\nBộ thủ: 肉 (Nhục)\nOnyomi (Âm On): ノウ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 可能 (かのう: khả năng),  能力 (のうりょく: năng lực)\nCách ghi nhớ: Có siêu năng lực chỉ cần cười hihi ヒ là có ngay 4 em Nguyệt 月",
+    "romaji": "Năng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "腹",
+    "back": "Ý nghĩa: Bụng\nÂm Hán Việt: Phúc\nBộ thủ: 肉 (Nhục)\nOnyomi (Âm On): フク\nKunyomi (Âm Kun): はら\nVí dụ Onyomi:\n  - お腹 (おなか: bụng),  腹痛 (ふくつう: đau bụng)\nVí dụ Kunyomi:\n  - 腹 (はら: bụng)\nCách ghi nhớ: Nguyệt 月 mệt 复 nhất ở cái bụng",
+    "romaji": "Phúc",
+    "jlptLevel": 3
+  },
+  {
+    "front": "舞",
+    "back": "Ý nghĩa: Nhảy múa\nÂm Hán Việt: Vũ\nBộ thủ: 舛 (Suyễn)\nOnyomi (Âm On): ブ\nKunyomi (Âm Kun): まう\nVí dụ Onyomi:\n  - 舞台 (ぶたい: sân khấu),  舞う(まう: nhảy múa)\nVí dụ Kunyomi:\n  - 舞う(まう: nhảy múa)\nCách ghi nhớ: Có người  nằm trên hàng rào bị hen suyễn nhưng vẫn khiêu vũ",
+    "romaji": "Vũ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "船",
+    "back": "Ý nghĩa: Con thuyền\nÂm Hán Việt: Thuyền\nBộ thủ: 舟 (Chu)\nOnyomi (Âm On): セン\nKunyomi (Âm Kun): ふね\nVí dụ Onyomi:\n  - 船長 (せんちょう: thuyền trưởng),  船 (ふね: thuyền)\nVí dụ Kunyomi:\n  - 船 (ふね: thuyền)\nCách ghi nhớ: Ngồi trên thuyền 舟 mở mồm 口 tám 八 chuyện",
+    "romaji": "Thuyền",
+    "jlptLevel": 3
+  },
+  {
+    "front": "良",
+    "back": "Ý nghĩa: Tốt, lành\nÂm Hán Việt: Lương\nBộ thủ: 艮 (Cấn)\nOnyomi (Âm On): リョウ\nKunyomi (Âm Kun): よい\nVí dụ Onyomi:\n  - 良好 (りょうこう: tốt đẹp),  改良 (かいりょう: cải tiến)\nVí dụ Kunyomi:\n  - 良い (よい: tốt)\nCách ghi nhớ: Cô gái vừa Trắng 白 vừa tốt 良 bụng",
+    "romaji": "Lương",
+    "jlptLevel": 3
+  },
+  {
+    "front": "若",
+    "back": "Ý nghĩa: Trẻ, non nớt\nÂm Hán Việt: Nhược\nBộ thủ: 艹 (Thảo)\nOnyomi (Âm On): ジャク\nKunyomi (Âm Kun): わかい\nVí dụ Onyomi:\n  - 若者 (わかもの: người trẻ),  若干 (じゃっかん: một ít)\nVí dụ Kunyomi:\n  - 若い (わかい: trẻ)\nCách ghi nhớ: Cô thảo 艹 phải 右 trẻ",
+    "romaji": "Nhược",
+    "jlptLevel": 3
+  },
+  {
+    "front": "苦",
+    "back": "Ý nghĩa: Đau khổ\nÂm Hán Việt: Khổ\nBộ thủ: 艹 (Thảo)\nOnyomi (Âm On): ク\nKunyomi (Âm Kun): くるしい\nVí dụ Onyomi:\n  - 苦労 (くろう: khó khăn),  苦痛 (くつう: đau đớn)\nVí dụ Kunyomi:\n  - 苦しい(くるしい: khổ sở)\nCách ghi nhớ: ngày  xưa 古 phải ăn cỏ 艹 thì rất là khổ",
+    "romaji": "Khổ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "草",
+    "back": "Ý nghĩa: Cỏ, thực vật\nÂm Hán Việt: Thảo\nBộ thủ: 艹 (Thảo)\nOnyomi (Âm On): ソウ\nKunyomi (Âm Kun): くさ\nVí dụ Onyomi:\n  - 草原 (そうげん: thảo nguyên),  草 (くさ: cỏ)\nVí dụ Kunyomi:\n  - 草 (くさ: cỏ)\nCách ghi nhớ: Cô thảo 艹 sáng sớm 早 đã đi cắt cỏ",
+    "romaji": "Thảo",
+    "jlptLevel": 3
+  },
+  {
+    "front": "落",
+    "back": "Ý nghĩa: Rơi, rụng\nÂm Hán Việt: Lạc\nBộ thủ: 艹 (Thảo)\nOnyomi (Âm On): ラク\nKunyomi (Âm Kun): おちる\nVí dụ Onyomi:\n  - 落下 (らっか: rơi xuống),  落ちる (おちる: rơi)\nVí dụ Kunyomi:\n  - 落ちる(おちる: rơi)\nCách ghi nhớ: Cô thảo 艹 đẩy các 各 vị rơi xuống nước 氵",
+    "romaji": "Lạc",
+    "jlptLevel": 3
+  },
+  {
+    "front": "葉",
+    "back": "Ý nghĩa: Lá cây\nÂm Hán Việt: Diệp\nBộ thủ: 艹 (Thảo)\nOnyomi (Âm On): ヨウ\nKunyomi (Âm Kun): は\nVí dụ Onyomi:\n  - 言葉 (ことば: từ ngữ),  木の葉 (このは: lá cây)\nVí dụ Kunyomi:\n  - 葉 (は: lá cây)\nCách ghi nhớ: cây 木 cỏ 艹 trên thế giới 世 đều có lá",
+    "romaji": "Diệp",
+    "jlptLevel": 3
+  },
+  {
+    "front": "薬",
+    "back": "Ý nghĩa: Thuốc\nÂm Hán Việt: Dược\nBộ thủ: 艹 (Thảo)\nOnyomi (Âm On): ヤク\nKunyomi (Âm Kun): くすり\nVí dụ Onyomi:\n  - 薬局 (やっきょく: hiệu thuốc),  薬 (くすり: thuốc)\nVí dụ Kunyomi:\n  - 薬 (くすり: thuốc)\nCách ghi nhớ: Loại cỏ 艹 khi uống làm mình vui 楽 là phương thuốc quý",
+    "romaji": "Dược",
+    "jlptLevel": 3
+  },
+  {
+    "front": "術",
+    "back": "Ý nghĩa: Kỹ thuật, nghệ thuật\nÂm Hán Việt: Thuật\nBộ thủ: 行 (Hành)\nOnyomi (Âm On): ジュツ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 技術 (ぎじゅつ: kỹ thuật),  手術 (しゅじゅつ: phẫu thuật)\nCách ghi nhớ: Hô ホ 1 phát tách đôi chữ hành 行  là phép thuật",
+    "romaji": "Thuật",
+    "jlptLevel": 3
+  },
+  {
+    "front": "表",
+    "back": "Ý nghĩa: Biểu hiện, bề mặt\nÂm Hán Việt: Biểu\nBộ thủ: 衣 (Y)\nOnyomi (Âm On): ヒョウ\nKunyomi (Âm Kun): おもて\nVí dụ Onyomi:\n  - 発表 (はっぴょう: phát biểu),  表現 (ひょうげん: biểu hiện)\nVí dụ Kunyomi:\n  - 表 (おもて: bề mặt)\nCách ghi nhớ: Ông chủ 主mặc y phục 衣  lịch sự đứng  phát biểu",
+    "romaji": "Biểu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "要",
+    "back": "Ý nghĩa: Cần thiết\nÂm Hán Việt: Yếu\nBộ thủ: 覀 (Áo)\nOnyomi (Âm On): ヨウ\nKunyomi (Âm Kun): いる\nVí dụ Onyomi:\n  - 重要 (じゅうよう: quan trọng),  要求 (ようきゅう: yêu cầu)\nVí dụ Kunyomi:\n  - 要る(いる: cần)\nCách ghi nhớ: Con gái 女 tây 西 thường yếu",
+    "romaji": "Yếu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "規",
+    "back": "Ý nghĩa: Quy tắc, quy định\nÂm Hán Việt: Quy\nBộ thủ: 覀 (Áo)\nOnyomi (Âm On): キ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 規則 (きそく: quy tắc),  規模 (きぼ: quy mô)\nCách ghi nhớ: Ông chồng 夫 Nhìn 見 vào quy tắc",
+    "romaji": "Quy",
+    "jlptLevel": 3
+  },
+  {
+    "front": "覚",
+    "back": "Ý nghĩa: Nhớ, cảm giác\nÂm Hán Việt: Giác\nBộ thủ: 見 (Kiến)\nOnyomi (Âm On): カク\nKunyomi (Âm Kun): おぼえる\nVí dụ Onyomi:\n  - 覚える(おぼえる: nhớ),  感覚 (かんかく: cảm giác)\nVí dụ Kunyomi:\n  - 覚える(おぼえる: nhớ)\nCách ghi nhớ: Nhìn 見 vào màn đêm 冖 toát 3 giọt mồ hôi là nhớ ra",
+    "romaji": "Giác",
+    "jlptLevel": 3
+  },
+  {
+    "front": "観",
+    "back": "Ý nghĩa: Quan sát, tầm nhìn\nÂm Hán Việt: Quan\nBộ thủ: 見 (Kiến)\nOnyomi (Âm On): カン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 観察 (かんさつ: quan sát),  観光 (かんこう: tham quan)\nCách ghi nhớ: Buổi trưa 午 Nhìn 見 chim 隹 là quan sát",
+    "romaji": "Quan",
+    "jlptLevel": 3
+  },
+  {
+    "front": "解",
+    "back": "Ý nghĩa: Giải quyết, cởi bỏ\nÂm Hán Việt: Giải\nBộ thủ: 角 (Giác)\nOnyomi (Âm On): カイ\nKunyomi (Âm Kun): とける\nVí dụ Onyomi:\n  - 理解 (りかい: lý giải),  解決 (かいけつ: giải quyết)\nVí dụ Kunyomi:\n  - 解く(とく: giải quyết, cởi bỏ)\nCách ghi nhớ: Cầm đao 刀 giải quyết con trâu 牛 ở trong góc 角",
+    "romaji": "Giải",
+    "jlptLevel": 3
+  },
+  {
+    "front": "記",
+    "back": "Ý nghĩa: Viết, ghi lại\nÂm Hán Việt: Ký\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): キ\nKunyomi (Âm Kun): しるす\nVí dụ Onyomi:\n  - 記録 (きろく: ghi chép),  記事 (きじ: bài báo)\nVí dụ Kunyomi:\n  - 記す (しるす: viết, ghi lại)\nCách ghi nhớ: Lời nói 言 của bản thân 己 mình để viết nhật ký",
+    "romaji": "Ký",
+    "jlptLevel": 3
+  },
+  {
+    "front": "訪",
+    "back": "Ý nghĩa: Thăm viếng\nÂm Hán Việt: Phỏng\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): ホウ\nKunyomi (Âm Kun): たずねる\nVí dụ Onyomi:\n  - 訪問 (ほうもん: thăm hỏi),  訪れる (おとずれる: ghé thăm)\nVí dụ Kunyomi:\n  - 訪ねる (たずねる: thăm)\nCách ghi nhớ: Lời nói 言 đi khắp 4 phương 方 để xin phỏng vấn",
+    "romaji": "Phỏng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "許",
+    "back": "Ý nghĩa: Cho phép, tha thứ\nÂm Hán Việt: Hứa\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): キョ\nKunyomi (Âm Kun): ゆるす\nVí dụ Onyomi:\n  - 許可 (きょか: cho phép),  許す (ゆるす: tha thứ)\nVí dụ Kunyomi:\n  - 許す (ゆるす: tha thứ)\nCách ghi nhớ: nói 言 chuyện buổi Trưa 午 cần sự Cho phép",
+    "romaji": "Hứa",
+    "jlptLevel": 3
+  },
+  {
+    "front": "認",
+    "back": "Ý nghĩa: Thừa nhận\nÂm Hán Việt: Nhận\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): ニン\nKunyomi (Âm Kun): みとめる\nVí dụ Onyomi:\n  - 認定 (にんてい: xác nhận),  認める (みとめる: thừa nhận)\nVí dụ Kunyomi:\n  - 認める (みとめる: thừa nhận)\nCách ghi nhớ: nói 言 lời nhẫn 忍 nại để xác nhận",
+    "romaji": "Nhận",
+    "jlptLevel": 3
+  },
+  {
+    "front": "誤",
+    "back": "Ý nghĩa: Sai lầm\nÂm Hán Việt: Ngộ\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): ゴ\nKunyomi (Âm Kun): あやまる\nVí dụ Onyomi:\n  - 誤解 (ごかい: hiểu lầm),  誤る(あやまる: phạm lỗi)\nVí dụ Kunyomi:\n  - 誤る(あやまる: sai lầm)\nCách ghi nhớ: Vừa nói 言 chuyện vừa ăn ngô 呉 thì sẽ giác ngộ",
+    "romaji": "Ngộ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "説",
+    "back": "Ý nghĩa: Giải thích, thuyết phục\nÂm Hán Việt: Thuyết\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): セツ\nKunyomi (Âm Kun): とく\nVí dụ Onyomi:\n  - 説明 (せつめい: giải thích),  小説 (しょうせつ: tiểu thuyết)\nVí dụ Kunyomi:\n  - 説く(とく: giải thích)\nCách ghi nhớ: Người nói 言 lấy tivi làm giả thuyết",
+    "romaji": "Thuyết",
+    "jlptLevel": 3
+  },
+  {
+    "front": "調",
+    "back": "Ý nghĩa: Điều tra, điều chỉnh\nÂm Hán Việt: Điều\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): チョウ\nKunyomi (Âm Kun): しらべる\nVí dụ Onyomi:\n  - 調査 (ちょうさ: điều tra),  調子 (ちょうし: tình trạng)\nVí dụ Kunyomi:\n  - 調べる (しらべる: điều tra)\nCách ghi nhớ: Vừa nói 言 vừa chu 周 mỏ ra là đang điều tra",
+    "romaji": "Điều",
+    "jlptLevel": 3
+  },
+  {
+    "front": "談",
+    "back": "Ý nghĩa: Nói chuyện\nÂm Hán Việt: Đàm\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): ダン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 相談 (そうだん: thảo luận),  会談 (かいだん: hội đàm)\nCách ghi nhớ: nói 言 tóe lửa  火 là đang đàm thoại",
+    "romaji": "Đàm",
+    "jlptLevel": 3
+  },
+  {
+    "front": "論",
+    "back": "Ý nghĩa: Lý luận, tranh luận\nÂm Hán Việt: Luận\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): ロン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 理論 (りろん: lý luận),  論文 (ろんぶん: luận văn)\nCách ghi nhớ: người  đọc 1 cuốn sách 冊 nói 言 lời tranh luận",
+    "romaji": "Luận",
+    "jlptLevel": 3
+  },
+  {
+    "front": "識",
+    "back": "Ý nghĩa: Nhận thức\nÂm Hán Việt: Thức\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): シキ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 意識 (いしき: ý thức),  知識 (ちしき: kiến thức)\nCách ghi nhớ: người có tri thức Âm thanh 音 chỉ cần nói 言 qua 戈 là hiểu",
+    "romaji": "Thức",
+    "jlptLevel": 3
+  },
+  {
+    "front": "警",
+    "back": "Ý nghĩa: Cảnh báo, cảnh sát\nÂm Hán Việt: Cảnh\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): ケイ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 警察 (けいさつ: cảnh sát),  警告 (けいこく: cảnh báo)\nCách ghi nhớ: nói 言 chuyện cung kính 敬 với cảnh sát",
+    "romaji": "Cảnh",
+    "jlptLevel": 3
+  },
+  {
+    "front": "議",
+    "back": "Ý nghĩa: Thảo luận, nghị luận\nÂm Hán Việt: Nghị\nBộ thủ: 言 (Ngôn)\nOnyomi (Âm On): ギ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 会議 (かいぎ: hội nghị),  議論 (ぎろん: thảo luận)\nCách ghi nhớ: nói 言 chuyện nghĩa khí 義 trong hội nghị",
+    "romaji": "Nghị",
+    "jlptLevel": 3
+  },
+  {
+    "front": "負",
+    "back": "Ý nghĩa: Thua, gánh vác\nÂm Hán Việt: Phụ\nBộ thủ: ♛ (Bối)\nOnyomi (Âm On): フ\nKunyomi (Âm Kun): まける\nVí dụ Onyomi:\n  - 負担 (ふたん: gánh nặng),  負ける (まける: thua)\nVí dụ Kunyomi:\n  - 負ける(まける: thua)\nCách ghi nhớ: Bị móc mất bảo bối 貝 thì thua",
+    "romaji": "Phụ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "財",
+    "back": "Ý nghĩa: Tiền tài, tài sản\nÂm Hán Việt: Tài\nBộ thủ: ♛ (Bối)\nOnyomi (Âm On): ザイ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 財産 (ざいさん: tài sản),  財政 (ざいせい: tài chính)\nCách ghi nhớ: Có nhiều bảo bối 貝 là thiên tài 才 trong lĩnh vực tài chính",
+    "romaji": "Tài",
+    "jlptLevel": 3
+  },
+  {
+    "front": "貧",
+    "back": "Ý nghĩa: Nghèo nàn\nÂm Hán Việt: Bần\nBộ thủ: ♛ (Bối)\nOnyomi (Âm On): ヒン\nKunyomi (Âm Kun): まずしい\nVí dụ Onyomi:\n  - 貧困 (ひんこん: nghèo khổ),  貧しい (まずしい: nghèo)\nVí dụ Kunyomi:\n  - 貧しい(まずしい: nghèo)\nCách ghi nhớ: Phân 分 chia bảo bối 貝 thì bị nghèo đi",
+    "romaji": "Bần",
+    "jlptLevel": 3
+  },
+  {
+    "front": "責",
+    "back": "Ý nghĩa: Trách nhiệm\nÂm Hán Việt: Trách\nBộ thủ: ♛ (Bối)\nOnyomi (Âm On): セキ\nKunyomi (Âm Kun): せめる\nVí dụ Onyomi:\n  - 責任 (せきにん: trách nhiệm),  責める (せめる: chỉ trích)\nVí dụ Kunyomi:\n  - 責める (せめる: trách móc)\nCách ghi nhớ: Ông Vua 王 giao bảo bối 貝 phải có trách nhiệm cất giữ",
+    "romaji": "Trách",
+    "jlptLevel": 3
+  },
+  {
+    "front": "費",
+    "back": "Ý nghĩa: Chi phí\nÂm Hán Việt: Phí\nBộ thủ: ♛ (Bối)\nOnyomi (Âm On): ヒ\nKunyomi (Âm Kun): ついやす\nVí dụ Onyomi:\n  - 費用 (ひよう: chi phí),  消費 (しょうひ: tiêu thụ)\nVí dụ Kunyomi:\n  - 費やす (ついやす: chi dùng)\nCách ghi nhớ: Đổi bảo bối 貝 lấy 1 cái điếu 弗 rất phí",
+    "romaji": "Phí",
+    "jlptLevel": 3
+  },
+  {
+    "front": "資",
+    "back": "Ý nghĩa: Tài sản, vốn\nÂm Hán Việt: Tư\nBộ thủ: ♛ (Bối)\nOnyomi (Âm On): シ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 資料 (しりょう: tài liệu),  資本 (しほん: vốn)\nCách ghi nhớ: Tiếp theo 次 sẽ mang bảo bối 貝 đi Đầu tư",
+    "romaji": "Tư",
+    "jlptLevel": 3
+  },
+  {
+    "front": "賛",
+    "back": "Ý nghĩa: Tán thành, đồng ý\nÂm Hán Việt: Tán\nBộ thủ: ♛ (Bối)\nOnyomi (Âm On): サン\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 賛成 (さんせい: tán thành),  賞賛 (しょうさん: khen ngợi)\nCách ghi nhớ: 2 二 ông chồng 夫 giơ bảo bối 貝 lên tán thành",
+    "romaji": "Tán",
+    "jlptLevel": 3
+  },
+  {
+    "front": "越",
+    "back": "Ý nghĩa: Vượt qua\nÂm Hán Việt: Việt\nBộ thủ: 走 (Tẩu)\nOnyomi (Âm On): エツ\nKunyomi (Âm Kun): こえる\nVí dụ Onyomi:\n  - 越える(こえる: vượt qua),  引っ越し(ひっこし: chuyển nhà)\nVí dụ Kunyomi:\n  - 越える(こえる: vượt qua)\nCách ghi nhớ: Chạy 走 vượt qua bụi cây 戊",
+    "romaji": "Việt",
+    "jlptLevel": 3
+  },
+  {
+    "front": "路",
+    "back": "Ý nghĩa: Đường, con đường\nÂm Hán Việt: Lộ\nBộ thủ: 足 (Túc)\nOnyomi (Âm On): ロ\nKunyomi (Âm Kun): じ\nVí dụ Onyomi:\n  - 道路 (どうろ: đường bộ),  進路 (しんろ: lộ trình)\nCách ghi nhớ: chân 足 các 各 vị đang đặt trên con đường",
+    "romaji": "Lộ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "身",
+    "back": "Ý nghĩa: Cơ thể, bản thân\nÂm Hán Việt: Thân\nBộ thủ: 身 (Thân)\nOnyomi (Âm On): シン\nKunyomi (Âm Kun): み\nVí dụ Onyomi:\n  - 身体 (しんたい: cơ thể),  🎧身 (しゅっしん: xuất thân)\nVí dụ Kunyomi:\n  - 身 (み: bản thân, cơ thể)\nCách ghi nhớ: Tự 自 bản thân  mình",
+    "romaji": "Thân",
+    "jlptLevel": 3
+  },
+  {
+    "front": "辞",
+    "back": "Ý nghĩa: Từ bỏ, từ chức\nÂm Hán Việt: Từ\nBộ thủ: 辛 (Tân)\nOnyomi (Âm On): ジ\nKunyomi (Âm Kun): やめる\nVí dụ Onyomi:\n  - 辞書 (じしょ: từ điển),  辞める (やめる: từ bỏ)\nVí dụ Kunyomi:\n  - 辞める (やめる: từ chức)\nCách ghi nhớ: Lưỡi 舌 ăn đồ cay 辛 thì phải ăn từ từ thôi",
+    "romaji": "Từ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "込",
+    "back": "Ý nghĩa: Vào trong, đông đúc\nÂm Hán Việt: Nhập\nBộ thủ: 入 (Nhập)\nOnyomi (Âm On): こむ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 込む (こむ: đông đúc),  申し込む (もうしこむ: đăng ký)\nVí dụ Kunyomi:\n  - 込む (こむ: đông đúc)\nCách ghi nhớ: Đi vào 入 nhiều dẫn 廴 đến đông đúc",
+    "romaji": "Nhập",
+    "jlptLevel": 3
+  },
+  {
+    "front": "迎",
+    "back": "Ý nghĩa: Đón tiếp\nÂm Hán Việt: Nghênh\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): ゲイ\nKunyomi (Âm Kun): むかえる\nVí dụ Onyomi:\n  - 歓迎 (かんげい: hoan nghênh),  迎える (むかえる: đón)\nVí dụ Kunyomi:\n  - 迎える(むかえる: đón tiếp)\nCách ghi nhớ: Ca sỹ ra CD mới dẫn 廴 đến được nghênh đón",
+    "romaji": "Nghênh",
+    "jlptLevel": 3
+  },
+  {
+    "front": "返",
+    "back": "Ý nghĩa: Trả lại\nÂm Hán Việt: Phản\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): ヘン\nKunyomi (Âm Kun): かえす\nVí dụ Onyomi:\n  - 返事 (へんじ: trả lời), 返す (かえす: trả lại)\nVí dụ Kunyomi:\n  - 返す (かえす: trả lại)\nCách ghi nhớ: Phản đối 反 dẫn 廴 đến trả lại",
+    "romaji": "Phản",
+    "jlptLevel": 3
+  },
+  {
+    "front": "迷",
+    "back": "Ý nghĩa: Lạc lối\nÂm Hán Việt: Mê\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): メイ\nKunyomi (Âm Kun): まよう\nVí dụ Onyomi:\n  - 迷惑 (めいわく: phiền phức),  迷う(まよう: lạc đường)\nVí dụ Kunyomi:\n  - 迷う(まよう: lạc đường)\nCách ghi nhớ: ăn nhiều gạo 米 dẫn 廴 đến mê luôn",
+    "romaji": "Mê",
+    "jlptLevel": 3
+  },
+  {
+    "front": "追",
+    "back": "Ý nghĩa: Theo đuổi, truy cứu\nÂm Hán Việt: Truy\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): ツイ\nKunyomi (Âm Kun): おう\nVí dụ Onyomi:\n  - 追求 (ついきゅう: theo đuổi),  追う(おう: theo đuổi)\nVí dụ Kunyomi:\n  - 追う(おう: đuổi theo)\nCách ghi nhớ: Đóng giả quan 追 dẫn 廴 đến bị truy đuổi",
+    "romaji": "Truy",
+    "jlptLevel": 3
+  },
+  {
+    "front": "退",
+    "back": "Ý nghĩa: Rút lui, thoái lui\nÂm Hán Việt: Thoái\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): タイ\nKunyomi (Âm Kun): しりぞく\nVí dụ Onyomi:\n  - 退院 (たいいん: xuất viện),  退職 (たいしょく: nghỉ hưu)\nVí dụ Kunyomi:\n  - 退く(しりぞく: rút lui)\nCách ghi nhớ: dẫn 廴 quân không tốt 艮 thì phải rút lui thôi",
+    "romaji": "Thoái",
+    "jlptLevel": 3
+  },
+  {
+    "front": "逃",
+    "back": "Ý nghĩa: Trốn thoát\nÂm Hán Việt: Đào\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): トウ\nKunyomi (Âm Kun): にげる\nVí dụ Onyomi:\n  - 逃亡 (とうぼう: đào tẩu),  逃げる (にげる: trốn thoát)\nVí dụ Kunyomi:\n  - 逃げる (にげる: trốn thoát)\nCách ghi nhớ: ăn trộm được nghìn tỷ 兆 dẫn 廴 đến đi đào tẩu",
+    "romaji": "Đào",
+    "jlptLevel": 3
+  },
+  {
+    "front": "途",
+    "back": "Ý nghĩa: Đường lối\nÂm Hán Việt: Đồ\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): ト\nKunyomi (Âm Kun): みち\nVí dụ Onyomi:\n  - 途中 (とちゅう: giữa chừng),  途上 (とじょう: đang trên đường)\nVí dụ Kunyomi:\n  - 途 (みち: đường)\nCách ghi nhớ: Dư thừa 余 đồ đạc dẫn 廴 đến bỏ lại trên con đường",
+    "romaji": "Đồ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "速",
+    "back": "Ý nghĩa: Nhanh chóng\nÂm Hán Việt: Tốc\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): ソク\nKunyomi (Âm Kun): はやい\nVí dụ Onyomi:\n  - 速度 (そくど: tốc độ), 速い (はやい: nhanh)\nVí dụ Kunyomi:\n  - 速い (はやい: nhanh)\nCách ghi nhớ: Càng thúc 束 càng dẫn 廴 tới tốc độ càng tăng",
+    "romaji": "Tốc",
+    "jlptLevel": 3
+  },
+  {
+    "front": "連",
+    "back": "Ý nghĩa: Kết nối, liên tục\nÂm Hán Việt: Liên\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): レン\nKunyomi (Âm Kun): つれる\nVí dụ Onyomi:\n  - 連絡 (れんらく: liên lạc),  連続 (れんぞく: liên tiếp)\nVí dụ Kunyomi:\n  - 連れる (つれる: dẫn theo)\nCách ghi nhớ: Em liên 連 làm xước xe 車",
+    "romaji": "Liên",
+    "jlptLevel": 3
+  },
+  {
+    "front": "進",
+    "back": "Ý nghĩa: Tiến bộ, tiến hành\nÂm Hán Việt: Tiến\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): シン\nKunyomi (Âm Kun): すすむ\nVí dụ Onyomi:\n  - 進行 (しんこう: tiến hành),  進む (すすむ: tiến lên)\nVí dụ Kunyomi:\n  - 進む (すすむ: tiến lên)\nCách ghi nhớ: dẫn 廴 chim 隹 tiến bộ",
+    "romaji": "Tiến",
+    "jlptLevel": 3
+  },
+  {
+    "front": "遅",
+    "back": "Ý nghĩa: Chậm trễ\nÂm Hán Việt: Trì\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): チ\nKunyomi (Âm Kun): おそい\nVí dụ Onyomi:\n  - 遅刻 (ちこく: đến muộn),  遅い (おそい: chậm)\nVí dụ Kunyomi:\n  - 遅い (おそい: chậm trễ)\nCách ghi nhớ: Gặp xác chết 尸  con dê 羊 dẫn 廴 tới đến muộn",
+    "romaji": "Trì",
+    "jlptLevel": 3
+  },
+  {
+    "front": "遊",
+    "back": "Ý nghĩa: Chơi, giải trí\nÂm Hán Việt: Du\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): ユウ\nKunyomi (Âm Kun): あそぶ\nVí dụ Onyomi:\n  - 遊園地 (ゆうえんち: khu vui chơi),  遊ぶ  (あそぶ: chơi)\nVí dụ Kunyomi:\n  - 遊ぶ (あそぶ: chơi)\nCách ghi nhớ: Bố mẹ dẫn 廴 nhau đi chơi khắp 4 phương 方 để con 子 nằm nhà",
+    "romaji": "Du",
+    "jlptLevel": 3
+  },
+  {
+    "front": "過",
+    "back": "Ý nghĩa: Quá mức, vượt qua\nÂm Hán Việt: Quá\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): カ\nKunyomi (Âm Kun): すぎる\nVí dụ Onyomi:\n  - 過去 (かこ: quá khứ),  過ぎる(すぎる: vượt qua)\nVí dụ Kunyomi:\n  - 過ぎる(すぎる: vượt qua)\nCách ghi nhớ: dẫn 廴 đi qua 咼 là quá rồi",
+    "romaji": "Quá",
+    "jlptLevel": 3
+  },
+  {
+    "front": "達",
+    "back": "Ý nghĩa: Đạt đến, bạn bè\nÂm Hán Việt: Đạt\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): タツ\nKunyomi (Âm Kun): たち\nVí dụ Onyomi:\n  - 友達 (ともだち: bạn bè),  達成 (たっせい: đạt được)\nCách ghi nhớ: Có Đất 土 nuôi dê 羊 dẫn 廴 tới thành đạt",
+    "romaji": "Đạt",
+    "jlptLevel": 3
+  },
+  {
+    "front": "違",
+    "back": "Ý nghĩa: Khác biệt, sai lầm\nÂm Hán Việt: Vi\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): イ\nKunyomi (Âm Kun): ちがう\nVí dụ Onyomi:\n  - 違反 (いはん: vi phạm),  違う(ちがう: khác)\nVí dụ Kunyomi:\n  - 違う(ちがう: khác)\nCách ghi nhớ: dẫn 廴 đi vi 韋 hành là sai trái",
+    "romaji": "Vi",
+    "jlptLevel": 3
+  },
+  {
+    "front": "遠",
+    "back": "Ý nghĩa: Xa xôi\nÂm Hán Việt: Viễn\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): エン\nKunyomi (Âm Kun): とおい\nVí dụ Onyomi:\n  - 遠足 (えんそく: dã ngoại),  遠い (とおい: xa)\nVí dụ Kunyomi:\n  - 遠い (とおい: xa)\nCách ghi nhớ: dẫn 廴 ra chỗ xa công viên",
+    "romaji": "Viễn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "適",
+    "back": "Ý nghĩa: Thích hợp\nÂm Hán Việt: Thích\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): テキ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 適当 (てきとう: thích hợp),  適切 (てきせ つ: thích đáng)\nCách ghi nhớ: dẫn 廴 đi ra đứng 立 trên biên giới 冂 cầm đồ cổ 古 rất thích hợp",
+    "romaji": "Thích",
+    "jlptLevel": 3
+  },
+  {
+    "front": "選",
+    "back": "Ý nghĩa: Lựa chọn\nÂm Hán Việt: Tuyển\nBộ thủ: 辵 (Sước)\nOnyomi (Âm On): セン\nKunyomi (Âm Kun): えらぶ\nVí dụ Onyomi:\n  - 選手 (せんしゅ: tuyển thủ),  選ぶ (えらぶ: chọn)\nVí dụ Kunyomi:\n  - 選ぶ (えらぶ: chọn)\nCách ghi nhớ: dẫn 廴 2 己 người  ra nơi công cộng 共 để tuyển chọn",
+    "romaji": "Tuyển",
+    "jlptLevel": 3
+  },
+  {
+    "front": "部",
+    "back": "Ý nghĩa: Bộ phận\nÂm Hán Việt: Bộ\nBộ thủ: 邑 (Ấp)\nOnyomi (Âm On): ブ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 部屋 (へや: phòng),  全部 (ぜんぶ: toàn bộ)\nCách ghi nhớ: đứng 立 há hốc mồm 口 khi Bồ 阝 vào chung bộ phận với mình",
+    "romaji": "Bộ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "都",
+    "back": "Ý nghĩa: Thủ đô, thành phố\nÂm Hán Việt: Đô\nBộ thủ: 邑 (Ấp)\nOnyomi (Âm On): ト\nKunyomi (Âm Kun): みやこ\nVí dụ Onyomi:\n  - 都市 (とし: thành phố),  首都 (しゅと: thủ đô)\nVí dụ Kunyomi:\n  - 都 (みやこ: thủ đô)\nCách ghi nhớ: Tác giả 者 đi chơi với Bồ 阝 ở kinh đô",
+    "romaji": "Đô",
+    "jlptLevel": 3
+  },
+  {
+    "front": "配",
+    "back": "Ý nghĩa: Phân phối\nÂm Hán Việt: Phối\nBộ thủ: 酉 (Dậu)\nOnyomi (Âm On): ハイ\nKunyomi (Âm Kun): くばる\nVí dụ Onyomi:\n  - 配達 (はいたつ: phân phát),  心配 (しんぱい: lo lắng)\nVí dụ Kunyomi:\n  - 配る(くばる: phân phát)\nCách ghi nhớ: Uống rượu 酉 xong bản thân 己 sẽ bị chi phối",
+    "romaji": "Phối",
+    "jlptLevel": 3
+  },
+  {
+    "front": "酒",
+    "back": "Ý nghĩa: Rượu\nÂm Hán Việt: Tửu\nBộ thủ: 酉 (Dậu)\nOnyomi (Âm On): シュ\nKunyomi (Âm Kun): さけ\nVí dụ Onyomi:\n  - 酒屋 (さかや: tiệm rượu),  酒 (さけ: rượu)\nVí dụ Kunyomi:\n  - 酒 (さけ: rượu)\nCách ghi nhớ: ở Tây rượu 酉 mà có nước 氵 với 1 lớp cặn là rượu 酒 ngon",
+    "romaji": "Tửu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "閉",
+    "back": "Ý nghĩa: Đóng\nÂm Hán Việt: Bế\nBộ thủ: 門 (Môn)\nOnyomi (Âm On): ヘイ\nKunyomi (Âm Kun): しめる\nVí dụ Onyomi:\n  - 閉店 (へいてん: đóng cửa hàng),  閉める (しめる: đóng)\nVí dụ Kunyomi:\n  - 閉める (しめる: đóng)\nCách ghi nhớ: Ô オ cổng 門 đang Đóng",
+    "romaji": "Bế",
+    "jlptLevel": 3
+  },
+  {
+    "front": "関",
+    "back": "Ý nghĩa: Liên quan, cổng\nÂm Hán Việt: Quan\nBộ thủ: 門 (Môn)\nOnyomi (Âm On): カン\nKunyomi (Âm Kun): せき\nVí dụ Onyomi:\n  - 関係 (かんけい: liên quan),  関所 (せきしょ: cổng)\nVí dụ Kunyomi:\n  - 関わる (かかわる: liên quan)\nCách ghi nhớ: Đến cổng 門 quan 关 tạo quan hệ",
+    "romaji": "Quan",
+    "jlptLevel": 3
+  },
+  {
+    "front": "阪",
+    "back": "Ý nghĩa: Dốc, Osaka\nÂm Hán Việt: Phản\nBộ thủ: 阜 (Phụ)\nOnyomi (Âm On): ハン\nKunyomi (Âm Kun): さか\nVí dụ Onyomi:\n  - 大阪 (おおさか: Osaka),  阪神 (はんしん: khu vực Osaka- Kobe)\nVí dụ Kunyomi:\n  - 阪 (さか: dốc)",
+    "romaji": "Phản",
+    "jlptLevel": 3
+  },
+  {
+    "front": "降",
+    "back": "Ý nghĩa: Rơi, xuống\nÂm Hán Việt: Giáng\nBộ thủ: 阜 (Phụ)\nOnyomi (Âm On): コウ\nKunyomi (Âm Kun): おりる\nVí dụ Onyomi:\n  - 下降 (かこう: hạ cánh),  降りる (おりる: xuống)\nVí dụ Kunyomi:\n  - 降りる(おりる: xuống)\nCách ghi nhớ: Em Bồ 阝 sau 夂 1 Năm 年 bị giáng chức",
+    "romaji": "Giáng",
+    "jlptLevel": 3
+  },
+  {
+    "front": "限",
+    "back": "Ý nghĩa: Giới hạn\nÂm Hán Việt: Hạn\nBộ thủ: 阜 (Phụ)\nOnyomi (Âm On): ゲン\nKunyomi (Âm Kun): かぎる\nVí dụ Onyomi:\n  - 期限 (きげん: kỳ hạn),  限る(かぎる: giới hạn)\nVí dụ Kunyomi:\n  - 限る(かぎる: giới hạn)\nCách ghi nhớ: Có Bồ 阝 là không tốt 艮 nên giới hạn thôi",
+    "romaji": "Hạn",
+    "jlptLevel": 3
+  },
+  {
+    "front": "除",
+    "back": "Ý nghĩa: Loại bỏ, ngoại trừ\nÂm Hán Việt: Trừ\nBộ thủ: 阜 (Phụ)\nOnyomi (Âm On): ジョ\nKunyomi (Âm Kun): のぞく\nVí dụ Onyomi:\n  - 掃除 (そうじ: dọn dẹp),  除く(のぞく: loại bỏ)\nVí dụ Kunyomi:\n  - 除く(のぞく: loại bỏ)\nCách ghi nhớ: Xóa bỏ những việc dư thừa 余 cho em bồ 阝",
+    "romaji": "Trừ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "険",
+    "back": "Ý nghĩa: Nguy hiểm\nÂm Hán Việt: Hiểm\nBộ thủ: 阜 (Phụ)\nOnyomi (Âm On): ケン\nKunyomi (Âm Kun): けわしい\nVí dụ Onyomi:\n  - 危険 (きけん: nguy hiểm),  保険 (ほけん: bảo hiểm)\nVí dụ Kunyomi:\n  - 険しい(けわしい: hiểm trở)\nCách ghi nhớ: Để Bồ 阝 mặc yếm rất nguy hiểm",
+    "romaji": "Hiểm",
+    "jlptLevel": 3
+  },
+  {
+    "front": "陽",
+    "back": "Ý nghĩa: Mặt trời, dương tính\nÂm Hán Việt: Dương\nBộ thủ: 阜 (Phụ)\nOnyomi (Âm On): ヨウ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 太陽 (たいよう: mặt trời),  陽気 (ようき: sảng khoái)\nCách ghi nhớ: Bố 阝 vật 勿 vã làm việc 1 ngày 日 dưới ánh mặt trời 日",
+    "romaji": "Dương",
+    "jlptLevel": 3
+  },
+  {
+    "front": "際",
+    "back": "Ý nghĩa: Dịp, biên giới\nÂm Hán Việt: Tế\nBộ thủ: 阜 (Phụ)\nOnyomi (Âm On): サイ\nKunyomi (Âm Kun): きわ\nVí dụ Onyomi:\n  - 国際 (こくさい: quốc tế),  交際 (こうさい: giao tiếp)\nVí dụ Kunyomi:\n  - 際 (きわ: bờ, biên giới)\nCách ghi nhớ: Đưa em Bồ 阝 đi lễ hội 祭 quốc tế",
+    "romaji": "Tế",
+    "jlptLevel": 3
+  },
+  {
+    "front": "雑",
+    "back": "Ý nghĩa: Tạp chí, hỗn tạp\nÂm Hán Việt: Tạp\nBộ thủ: 隹 (Chuy)\nOnyomi (Âm On): ザツ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 雑誌 (ざっし: tạp chí),  雑音 (ざつおん: tạp âm)\nCách ghi nhớ: 9 con chim 隹 đậu trên cây 木 rất tạp nham",
+    "romaji": "Tạp",
+    "jlptLevel": 3
+  },
+  {
+    "front": "難",
+    "back": "Ý nghĩa: Khó khăn\nÂm Hán Việt: Nan\nBộ thủ: 隹 (Chuy)\nOnyomi (Âm On): ナン\nKunyomi (Âm Kun): むずかしい\nVí dụ Onyomi:\n  - 難しい(むずかしい: khó),  困難 (こんなん: khó khăn)\nVí dụ Kunyomi:\n  - 難しい(むずかしい: khó)\nCách ghi nhớ: chồng 夫 cô thảo 艹 mồm 口 hét lên vì nuôi chim 隹 quá gian nan",
+    "romaji": "Nan",
+    "jlptLevel": 3
+  },
+  {
+    "front": "雪",
+    "back": "Ý nghĩa: Tuyết\nÂm Hán Việt: Tuyết\nBộ thủ: 雨 (Vũ)\nOnyomi (Âm On): セツ\nKunyomi (Âm Kun): ゆき\nVí dụ Onyomi:\n  - 大雪 (おおゆき: tuyết lớn),  雪 (ゆき: tuyết)\nVí dụ Kunyomi:\n  - 雪 (ゆき: tuyết)\nCách ghi nhớ: Em đi dưới trời mưa 雨 tuyết",
+    "romaji": "Tuyết",
+    "jlptLevel": 3
+  },
+  {
+    "front": "静",
+    "back": "Ý nghĩa: Yên lặng\nÂm Hán Việt: Tĩnh\nBộ thủ: 青 (Thanh)\nOnyomi (Âm On): セイ\nKunyomi (Âm Kun): しずか\nVí dụ Onyomi:\n  - 静止 (せいし: đứng yên),  静か (しずか: yên lặng)\nVí dụ Kunyomi:\n  - 静か (しずか: yên tĩnh)\nCách ghi nhớ: Bầu trời trong xanh 青 không có chiến tranh 争 thật yên tĩnh",
+    "romaji": "Tĩnh",
+    "jlptLevel": 3
+  },
+  {
+    "front": "非",
+    "back": "Ý nghĩa: Sai trái, phi pháp\nÂm Hán Việt: Phi\nBộ thủ: 非 (Phi)\nOnyomi (Âm On): ヒ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 非常 (ひじょう: khẩn cấp),  非行 (ひこう: hành vi sai trái)\nCách ghi nhớ: Giống hình cái thang ngược thật là phi thường",
+    "romaji": "Phi",
+    "jlptLevel": 3
+  },
+  {
+    "front": "面",
+    "back": "Ý nghĩa: Mặt, bề mặt\nÂm Hán Việt: Diện\nBộ thủ: 面 (Diện)\nOnyomi (Âm On): メン\nKunyomi (Âm Kun): おも\nVí dụ Onyomi:\n  - 画面 (がめん: màn hình),  面白い (おもしろい: thú vị)\nVí dụ Kunyomi:\n  - 面 (おも: mặt)\nCách ghi nhớ: Còn lại 1 一 mình 自 bị cả màn hình bao  quanh 口",
+    "romaji": "Diện",
+    "jlptLevel": 3
+  },
+  {
+    "front": "靴",
+    "back": "Ý nghĩa: Giày\nÂm Hán Việt: Ngoa\nBộ thủ: 革 (Cách)\nOnyomi (Âm On): カ\nKunyomi (Âm Kun): くつ\nVí dụ Onyomi:\n  - 革靴 (かわぐつ: giày da),  靴 (くつ: giày)\nVí dụ Kunyomi:\n  - 靴 (くつ: giày)\nCách ghi nhớ: Biến hóa 化 da thuộc thành giầy dép",
+    "romaji": "Ngoa",
+    "jlptLevel": 3
+  },
+  {
+    "front": "頂",
+    "back": "Ý nghĩa: Đỉnh, nhận\nÂm Hán Việt: Đỉnh\nBộ thủ: 頁 (Hiệt)\nOnyomi (Âm On): チョウ\nKunyomi (Âm Kun): いただく\nVí dụ Onyomi:\n  - 頂上 (ちょうじょう: đỉnh cao),  頂く(いただく: nhận)\nVí dụ Kunyomi:\n  - 頂く(いただく: nhận)\nCách ghi nhớ: Làm được cái đinh 丁 mỏng như tờ giấy 頁 là đỉnh cao",
+    "romaji": "Đỉnh",
+    "jlptLevel": 3
+  },
+  {
+    "front": "頭",
+    "back": "Ý nghĩa: Đầu\nÂm Hán Việt: Đầu\nBộ thủ: 頁 (Hiệt)\nOnyomi (Âm On): トウ\nKunyomi (Âm Kun): あたま\nVí dụ Onyomi:\n  - 頭痛 (ずつう: đau đầu),  頭 (あたま: cái đầu)\nVí dụ Kunyomi:\n  - 頭 (あたま: đầu)\nCách ghi nhớ: Đầu óc bã đậu 豆 không thể làm việc giấy 頁 tờ",
+    "romaji": "Đầu",
+    "jlptLevel": 3
+  },
+  {
+    "front": "頼",
+    "back": "Ý nghĩa: Nhờ vả, dựa dẫm\nÂm Hán Việt: Lại\nBộ thủ: 頁 (Hiệt)\nOnyomi (Âm On): ライ\nKunyomi (Âm Kun): たのむ\nVí dụ Onyomi:\n  - 信頼 (しんらい: tin tưởng),  頼む (たのむ: nhờ vả)\nVí dụ Kunyomi:\n  - 頼む (たのむ: nhờ vả)\nCách ghi nhớ: Cầm bó 束 tiền giấy 頁 nên rất ỷ lại",
+    "romaji": "Lại",
+    "jlptLevel": 3
+  },
+  {
+    "front": "顔",
+    "back": "Ý nghĩa: Khuôn mặt\nÂm Hán Việt: Nhan\nBộ thủ: 頁 (Hiệt)\nOnyomi (Âm On): ガン\nKunyomi (Âm Kun): かお\nVí dụ Onyomi:\n  - 笑顔 (えがお: mặt cười),  顔 (かお: mặt)\nVí dụ Kunyomi:\n  - 顔 (かお: mặt)\nCách ghi nhớ: đứng 立 ở sườn núi 厂 xõa tóc 彡 cầm tờ giấy  頁 che hết mặt",
+    "romaji": "Nhan",
+    "jlptLevel": 3
+  },
+  {
+    "front": "願",
+    "back": "Ý nghĩa: Mong muốn, nguyện vọng\nÂm Hán Việt: Nguyện\nBộ thủ: 頁 (Hiệt)\nOnyomi (Âm On): ガン\nKunyomi (Âm Kun): ねがう\nVí dụ Onyomi:\n  - 願書 (がんしょ: đơn xin),  願う(ねがう: mong muốn)\nVí dụ Kunyomi:\n  - 願う(ねがう: mong muốn)\nCách ghi nhớ: Nguyên 原 nhân viết lên giấy 頁 thành nguyện ước",
+    "romaji": "Nguyện",
+    "jlptLevel": 3
+  },
+  {
+    "front": "類",
+    "back": "Ý nghĩa: Loại, chủng loại\nÂm Hán Việt: Loại\nBộ thủ: 頁 (Hiệt)\nOnyomi (Âm On): ルイ\nKunyomi (Âm Kun): なし\nVí dụ Onyomi:\n  - 書類 (しょるい: tài liệu),  分類 (ぶんるい: phân loại)\nCách ghi nhớ: Chủng loại gạo 米 To 大 như giấy 頁",
+    "romaji": "Loại",
+    "jlptLevel": 3
+  },
+  {
+    "front": "飛",
+    "back": "Ý nghĩa: Bay\nÂm Hán Việt: Phi\nBộ thủ: 飛 (Phi)\nOnyomi (Âm On): ヒ\nKunyomi (Âm Kun): とぶ\nVí dụ Onyomi:\n  - 飛行機 (ひこうき: máy bay),  飛ぶ (とぶ: bay)\nVí dụ Kunyomi:\n  - 飛ぶ (とぶ: bay)\nCách ghi nhớ: Muốn bay lên  升 phải có đôi cánh",
+    "romaji": "Phi",
+    "jlptLevel": 3
+  },
+  {
+    "front": "首",
+    "back": "Ý nghĩa: Cái cổ, thủ lĩnh\nÂm Hán Việt: Thủ\nBộ thủ: 首 (Thủ)\nOnyomi (Âm On): シュ\nKunyomi (Âm Kun): くび\nVí dụ Onyomi:\n  - 首都 (しゅと: thủ đô),  首相 (しゅしょう: thủ tướng)\nVí dụ Kunyomi:\n  - 首 (くび: cổ)\nCách ghi nhớ: 21 䒑 tuổi Tự 自 mình làm thủ tướng",
+    "romaji": "Thủ",
+    "jlptLevel": 3
+  },
+  {
+    "front": "馬",
+    "back": "Ý nghĩa: Con ngựa\nÂm Hán Việt: Mã\nBộ thủ: 馬 (Mã)\nOnyomi (Âm On): バ\nKunyomi (Âm Kun): うま\nVí dụ Onyomi:\n  - 乗馬 (じょうば: cưỡi ngựa),  馬 (うま: ngựa)\nVí dụ Kunyomi:\n  - 馬 (うま: ngựa)\nCách ghi nhớ: dùng lửa  ,,,, nướng Năm 5 Con ngựa 馬 Khác nhau",
+    "romaji": "Mã",
+    "jlptLevel": 3
+  },
+  {
+    "front": "髪",
+    "back": "Ý nghĩa: Tóc\nÂm Hán Việt: Phát\nBộ thủ: 髟 (Tiêu)\nOnyomi (Âm On): ハツ\nKunyomi (Âm Kun): かみ\nVí dụ Onyomi:\n  - 髪の毛 (かみのけ: tóc),  白髪 (しらが: tóc bạc)\nVí dụ Kunyomi:\n  - 髪 (かみ: tóc)\nCách ghi nhớ: tóc 彡 của đứa bạn 友 rất dài = tóc 彡",
+    "romaji": "Phát",
+    "jlptLevel": 3
+  },
+  {
+    "front": "鳴",
+    "back": "Ý nghĩa: Kêu, hót\nÂm Hán Việt: Minh\nBộ thủ: 鳥 (Điểu)\nOnyomi (Âm On): メイ\nKunyomi (Âm Kun): なく\nVí dụ Onyomi:\n  - 悲鳴 (ひめい: tiếng la hét),  鳴く(なく: kêu, hót)\nVí dụ Kunyomi:\n  - 鳴く(なく: hót)\nCách ghi nhớ: mồm 口 con chim 鳥 đang hot",
+    "romaji": "Minh",
+    "jlptLevel": 3
+  }
+]

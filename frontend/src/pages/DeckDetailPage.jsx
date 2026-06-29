@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useRef } from 'react';
+import { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 import { Link, useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
@@ -8,7 +8,7 @@ import { useAuth } from '../hooks/useAuth';
 import KanjiInteractiveWorkspace from '../components/KanjiInteractiveWorkspace';
 import CollapsibleExample from '../components/CollapsibleExample';
 import BulkCardModal from '../components/BulkCardModal';
-import { BookOpen, Layers, RefreshCw, HelpCircle, PenTool, CheckSquare, Lock, Copy, Star, Volume2, List, LayoutGrid } from 'lucide-react';
+import { BookOpen, Layers, RefreshCw, HelpCircle, PenTool, CheckSquare, Lock, Copy, Star, Volume2, List, LayoutGrid, X } from 'lucide-react';
 import { annotateSentence, getHanViet } from '../utils/furiganaHelper';
 
 function speakJapanese(text) {
@@ -30,6 +30,9 @@ const getBookInfo = (deck) => {
   const nameLower = deck.name.toLowerCase();
   const descLower = (deck.description || '').toLowerCase();
   
+  if (nameLower.includes('2220') || nameLower.includes('kanji master') || nameLower.includes('hán tự master') || nameLower.includes('kanji-master')) {
+    return { id: '2220-kanji-master', title: '2220 Chữ Hán JLPT Master' };
+  }
   if (nameLower.includes('minna') || nameLower.includes('nihongo') || descLower.includes('minna')) {
     return { id: 'minna', title: 'Minna no Nihongo' };
   }
@@ -264,6 +267,155 @@ function DeckEditModal({ isOpen, onClose, onSave, deck }) {
   );
 }
 
+function VocabDetailModal({ isOpen, onClose, onSpeak, onToggleStar, card }) {
+  const cardFront = card?.front;
+  const hanVietText = useMemo(() => {
+    if (!cardFront) return '';
+    return getHanViet(cardFront);
+  }, [cardFront]);
+
+  if (!isOpen || !card) return null;
+
+  const isStarred = card.progress?.[0]?.isStarred || false;
+
+  // Split example sentence if available
+  const noteMatch = card.example ? card.example.match(/__NOTE__:\s*([\s\S]*)$/) : null;
+  const exampleNote = noteMatch ? noteMatch[1].trim() : '';
+  const cleanExample = card.example ? card.example.replace(/__NOTE__:\s*[\s\S]*$/, '').trim() : '';
+
+  const exampleParts = cleanExample ? cleanExample.split('\n') : [];
+  const exampleJp = exampleParts[0] || '';
+  const exampleVi = exampleParts[1] || '';
+
+  return createPortal(
+    <div 
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in"
+      onClick={onClose}
+    >
+      <div 
+        className="relative w-full max-w-md bg-surface-container-lowest border border-outline-variant/40 sharp-shadow-lg rounded-2xl overflow-hidden p-6 sm:p-8 animate-scale-up"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Top Control Bar */}
+        <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center gap-2">
+            <span className="px-2.5 py-1 text-xs font-bold uppercase tracking-wider text-primary border border-primary/20 bg-primary/5 rounded-lg">
+              Từ vựng N{card.jlptLevel || 5}
+            </span>
+          </div>
+          <div className="flex items-center gap-1.5">
+            {onToggleStar && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onToggleStar();
+                }}
+                className={`p-2 hover:bg-surface-container rounded-full transition-colors border border-outline-variant/20 ${
+                  isStarred ? 'text-amber-500' : 'text-on-surface-variant hover:text-amber-500'
+                }`}
+                title={isStarred ? 'Bỏ đánh dấu sao' : 'Đánh dấu sao'}
+              >
+                <Star className={`w-4 h-4 ${isStarred ? 'fill-amber-500 text-amber-500' : ''}`} />
+              </button>
+            )}
+            <button
+              onClick={onClose}
+              className="p-2 hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors rounded-full"
+            >
+              <X className="w-5 h-5" />
+            </button>
+          </div>
+        </div>
+
+        {/* Word Presentation */}
+        <div className="text-center mb-6">
+          <div className="flex items-center justify-center gap-3">
+            <h3 className="font-jp font-black text-4xl sm:text-5xl text-on-surface select-text tracking-tight">
+              {card.front}
+            </h3>
+            {onSpeak && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onSpeak(card.front);
+                }}
+                className="p-2 bg-primary/10 hover:bg-primary/20 text-primary rounded-full transition-colors"
+                title="Phát âm từ"
+              >
+                <Volume2 className="w-5 h-5" />
+              </button>
+            )}
+          </div>
+          <div className="flex items-center justify-center gap-2 mt-3 flex-wrap">
+            <span className="text-lg font-bold text-primary font-jp select-text">
+              {card.romaji || '-'}
+            </span>
+            {hanVietText && (
+              <span className="text-xs font-black tracking-wider text-secondary bg-secondary/10 border border-secondary/20 px-2.5 py-0.5 rounded-lg uppercase">
+                {hanVietText}
+              </span>
+            )}
+          </div>
+        </div>
+
+        {/* Divider */}
+        <div className="border-t border-outline-variant/20 my-5" />
+
+        {/* Meaning / Translation */}
+        <div className="mb-6 text-left">
+          <h5 className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2 font-headline">
+            Ý nghĩa
+          </h5>
+          <p className="text-lg font-bold text-on-surface leading-relaxed select-text whitespace-pre-wrap">
+            {card.back}
+          </p>
+        </div>
+
+        {/* Example Sentence */}
+        {exampleJp && (
+          <div className="space-y-3 bg-surface-container-low/40 p-4 rounded-xl border border-outline-variant/20 text-left">
+            <h5 className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest font-headline">
+              Ví dụ minh họa
+            </h5>
+            <div className="space-y-2">
+              <div className="flex items-start justify-between gap-4">
+                <span 
+                  className="text-base text-on-surface font-jp leading-loose select-text flex-1"
+                  dangerouslySetInnerHTML={{ __html: annotateSentence(exampleJp) }}
+                />
+                {onSpeak && (
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onSpeak(exampleJp);
+                    }}
+                    className="p-1.5 bg-surface-container/40 hover:bg-surface-container-high rounded-lg text-on-surface-variant hover:text-primary transition-colors shrink-0 border border-outline-variant/20 self-start"
+                    title="Nghe câu ví dụ"
+                  >
+                    <Volume2 className="w-3.5 h-3.5" />
+                  </button>
+                )}
+              </div>
+              {exampleVi && (
+                <p className="text-sm text-on-surface-variant select-text leading-relaxed font-medium">
+                  {exampleVi}
+                </p>
+              )}
+              {exampleNote && (
+                <div className="mt-2 text-xs text-amber-800 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 border border-amber-200/50 dark:border-amber-900/30 px-3 py-1.5 rounded-lg select-text font-medium flex items-start gap-1.5">
+                  <span className="font-bold text-amber-600 dark:text-amber-400 shrink-0">Chú ý:</span>
+                  <span>{exampleNote.replace(/^Chú ý:\s*/i, '')}</span>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>,
+    document.body
+  );
+}
+
 export default function DeckDetailPage() {
   const { deckId } = useParams();
   const navigate = useNavigate();
@@ -278,6 +430,8 @@ export default function DeckDetailPage() {
   const [showEditDeck, setShowEditDeck] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [activeKanjiCard, setActiveKanjiCard] = useState(null);
+  const [activeVocabCard, setActiveVocabCard] = useState(null);
+
   const [forking, setForking] = useState(false);
   const [viewMode, setViewMode] = useState('card');
   const [showStarredOnly, setShowStarredOnly] = useState(false);
@@ -300,11 +454,16 @@ export default function DeckDetailPage() {
     return deck?.cards?.filter((card) => card.progress?.[0]?.isStarred).length || 0;
   }, [deck]);
 
+  const currentActiveVocabCard = useMemo(() => {
+    if (!activeVocabCard || !deck?.cards) return null;
+    return deck.cards.find(c => c.id === activeVocabCard.id) || activeVocabCard;
+  }, [activeVocabCard, deck?.cards]);
+
   const activePracticeCardCount = useMemo(() => {
     return modalConfig.starredOnly ? starredCount : (deck?.cards?.length || 0);
   }, [deck, starredCount, modalConfig.starredOnly]);
 
-  const handleOpenPracticeModal = (type) => {
+  const handleOpenPracticeModal = useCallback((type) => {
     setModalPracticeType(type);
     setModalConfig({
       count: '10',
@@ -314,7 +473,7 @@ export default function DeckDetailPage() {
       isCustom: false
     });
     setShowPracticeModal(true);
-  };
+  }, [showStarredOnly, starredCount]);
 
   const handleStartPractice = () => {
     const finalCount = modalConfig.isCustom 
@@ -359,7 +518,7 @@ export default function DeckDetailPage() {
       newParams.delete('practice');
       setSearchParams(newParams, { replace: true });
     }
-  }, [deck, practiceParam, searchParams, setSearchParams]);
+  }, [deck, practiceParam, searchParams, setSearchParams, handleOpenPracticeModal]);
 
   const handleForkDeck = async () => {
     setForking(true);
@@ -642,18 +801,19 @@ export default function DeckDetailPage() {
       </section>
 
       {/* Stats */}
-      {stats && deck?.category !== 'HANTU' && (
+      {stats && (
         (() => {
           const total = stats.totalCards || 1;
           const newPct = (stats.newCards / total) * 100;
           const learningPct = (stats.learning / total) * 100;
           const reviewPct = (stats.review / total) * 100;
           const masteredPct = (stats.mastered / total) * 100;
+          const cardTypeLabel = deck?.category === 'HANTU' ? 'chữ Hán' : (deck?.category === 'NGUPHAP' ? 'ngữ pháp' : 'từ vựng');
           return (
             <div className="bg-surface-container-lowest p-4 border border-outline-variant/30 rounded-lg space-y-3 shadow-sm">
               <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-on-surface-variant">
                 <span>Tiến trình học tập</span>
-                <span className="text-on-surface">{stats.totalCards} từ vựng</span>
+                <span className="text-on-surface">{stats.totalCards} {cardTypeLabel}</span>
               </div>
               
               {/* Segmented Progress Bar */}
@@ -690,80 +850,68 @@ export default function DeckDetailPage() {
 
       {/* Learning Modes Toolbar & Actions (Search, Add Card) */}
       <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-4 border-b border-outline-variant/30">
-        {deck?.category !== 'HANTU' ? (
-          <div className="flex flex-wrap items-center gap-2">
-            {/* 1. Thẻ ghi nhớ */}
-            <Link
-              to={`/study/${deckId}?mode=normal${starredQuery}`}
-              className="px-3.5 py-2 bg-emerald-50 text-emerald-800 border border-emerald-200/60 hover:bg-emerald-100/70 hover:border-emerald-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
-            >
-              <Layers className="w-3.5 h-3.5 text-emerald-600" />
-              <span>Thẻ ghi nhớ</span>
-            </Link>
+        <div className="flex flex-wrap items-center gap-2">
+          {/* 1. Thẻ ghi nhớ */}
+          <Link
+            to={`/study/${deckId}?mode=normal${starredQuery}`}
+            className="px-3.5 py-2 bg-emerald-50 text-emerald-800 border border-emerald-200/60 hover:bg-emerald-100/70 hover:border-emerald-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
+          >
+            <Layers className="w-3.5 h-3.5 text-emerald-600" />
+            <span>Thẻ ghi nhớ</span>
+          </Link>
 
-            {/* 2. Học SRS */}
-            <Link
-              to={`/study/${deckId}?mode=srs${starredQuery}`}
-              className="px-3.5 py-2 bg-indigo-50 text-indigo-800 border border-indigo-200/60 hover:bg-indigo-100/70 hover:border-indigo-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md relative shadow-sm"
-            >
-              <RefreshCw className="w-3.5 h-3.5 text-indigo-600" />
-              <span>Học SRS</span>
-              {stats?.dueToday > 0 && (
-                <span className="absolute -top-1.5 -right-1.5 bg-secondary text-white text-[9px] font-black px-1.5 py-0.5 rounded-full border border-surface-container-lowest">
-                  {stats.dueToday}
-                </span>
-              )}
-            </Link>
-
-            {/* 3. Trắc nghiệm */}
-            <button
-              onClick={() => handleOpenPracticeModal('multiple-choice')}
-              className="px-3.5 py-2 bg-amber-50 text-amber-800 border border-amber-200/60 hover:bg-amber-100/70 hover:border-amber-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
-            >
-              <HelpCircle className="w-3.5 h-3.5 text-amber-600" />
-              <span>Trắc nghiệm</span>
-            </button>
-
-            {/* 4. Tự luận */}
-            <button
-              onClick={() => handleOpenPracticeModal('type-japanese')}
-              className="px-3.5 py-2 bg-blue-50 text-blue-800 border border-blue-200/60 hover:bg-blue-100/70 hover:border-blue-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
-            >
-              <PenTool className="w-3.5 h-3.5 text-blue-600" />
-              <span>Tự luận</span>
-            </button>
-
-            {/* 5. Hoàn thành câu */}
-            {hasExamples ? (
-              <button
-                onClick={() => handleOpenPracticeModal('fill-sentence')}
-                className="px-3.5 py-2 bg-rose-50 text-rose-800 border border-rose-200/60 hover:bg-rose-100/70 hover:border-rose-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
-              >
-                <CheckSquare className="w-3.5 h-3.5 text-rose-600" />
-                <span>Hoàn thành câu</span>
-              </button>
-            ) : (
-              <button
-                disabled
-                title="Cần câu ví dụ trong bộ thẻ để mở chế độ này"
-                className="px-3.5 py-2 bg-slate-50 border border-slate-200 text-slate-400 opacity-60 text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 rounded-md cursor-not-allowed"
-              >
-                <Lock className="w-3.5 h-3.5 text-slate-400" />
-                <span>Hoàn thành câu</span>
-              </button>
+          {/* 2. Học SRS */}
+          <Link
+            to={`/study/${deckId}?mode=srs${starredQuery}`}
+            className="px-3.5 py-2 bg-indigo-50 text-indigo-800 border border-indigo-200/60 hover:bg-indigo-100/70 hover:border-indigo-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md relative shadow-sm"
+          >
+            <RefreshCw className="w-3.5 h-3.5 text-indigo-600" />
+            <span>Học SRS</span>
+            {stats?.dueToday > 0 && (
+              <span className="absolute -top-1.5 -right-1.5 bg-secondary text-white text-[9px] font-black px-1.5 py-0.5 rounded-full border border-surface-container-lowest">
+                {stats.dueToday}
+              </span>
             )}
-          </div>
-        ) : (
-          <div className="flex items-center gap-2">
-            <div className="w-1 h-5 flex-shrink-0" style={{ background: 'var(--primary)' }} />
-            <h2 className="text-sm font-headline font-bold text-on-surface-variant uppercase tracking-wider">
-              Danh sách chữ Hán
-            </h2>
-            <span className="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-black rounded-full">
-              {deck?.cards?.length || 0}
-            </span>
-          </div>
-        )}
+          </Link>
+
+          {/* 3. Trắc nghiệm */}
+          <button
+            onClick={() => handleOpenPracticeModal('multiple-choice')}
+            className="px-3.5 py-2 bg-amber-50 text-amber-800 border border-amber-200/60 hover:bg-amber-100/70 hover:border-amber-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
+          >
+            <HelpCircle className="w-3.5 h-3.5 text-amber-600" />
+            <span>Trắc nghiệm</span>
+          </button>
+
+          {/* 4. Tự luận */}
+          <button
+            onClick={() => handleOpenPracticeModal('type-japanese')}
+            className="px-3.5 py-2 bg-blue-50 text-blue-800 border border-blue-200/60 hover:bg-blue-100/70 hover:border-blue-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
+          >
+            <PenTool className="w-3.5 h-3.5 text-blue-600" />
+            <span>Tự luận</span>
+          </button>
+
+          {/* 5. Hoàn thành câu */}
+          {hasExamples ? (
+            <button
+              onClick={() => handleOpenPracticeModal('fill-sentence')}
+              className="px-3.5 py-2 bg-rose-50 text-rose-800 border border-rose-200/60 hover:bg-rose-100/70 hover:border-rose-300 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5 rounded-md shadow-sm"
+            >
+              <CheckSquare className="w-3.5 h-3.5 text-rose-600" />
+              <span>Hoàn thành câu</span>
+            </button>
+          ) : (
+            <button
+              disabled
+              title="Cần câu ví dụ trong bộ thẻ để mở chế độ này"
+              className="px-3.5 py-2 bg-slate-50 border border-slate-200 text-slate-400 opacity-60 text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 rounded-md cursor-not-allowed"
+            >
+              <Lock className="w-3.5 h-3.5 text-slate-400" />
+              <span>Hoàn thành câu</span>
+            </button>
+          )}
+        </div>
 
         {/* Right side controls: compact search + action buttons */}
         <div className="flex items-center gap-2 w-full lg:w-auto justify-between lg:justify-end shrink-0">
@@ -1006,7 +1154,8 @@ export default function DeckDetailPage() {
                 return (
                   <div
                     key={card.id}
-                    className="vocab-card h-full rounded-2xl p-5 sm:p-6 shadow-sm flex flex-col relative text-on-surface border-l-[6px] border-l-primary/70 dark:border-l-primary border border-outline-variant/20"
+                    onClick={() => setActiveVocabCard(card)}
+                    className="vocab-card h-full rounded-2xl p-5 sm:p-6 shadow-sm flex flex-col relative text-on-surface border-l-[6px] border-l-primary/70 dark:border-l-primary border border-outline-variant/20 cursor-pointer"
                   >
                     {/* Top Row: Star & Volume controls */}
                     <div className="absolute top-4 right-4 flex items-center gap-2 z-10">
@@ -1110,9 +1259,12 @@ export default function DeckDetailPage() {
 
                       {/* Edit/Delete Admin overlay */}
                       {canModify && (
-                        <div className="flex gap-1 shrink-0 self-end">
+                        <div className="flex gap-1 shrink-0 self-end" onClick={(e) => e.stopPropagation()}>
                           <button
-                            onClick={() => setEditingCard(card)}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setEditingCard(card);
+                            }}
                             className="p-1.5 text-on-surface-variant hover:text-primary hover:bg-surface-container rounded-lg transition-colors border border-outline-variant/20 bg-surface-container-lowest shadow-sm"
                             title="Sửa thẻ"
                           >
@@ -1121,7 +1273,8 @@ export default function DeckDetailPage() {
                             </svg>
                           </button>
                           <button
-                            onClick={() => {
+                            onClick={(e) => {
+                              e.stopPropagation();
                               if (confirm('Bạn có chắc muốn xóa thẻ này?')) {
                                 deleteCardMutation.mutate(card.id);
                               }
@@ -1158,7 +1311,11 @@ export default function DeckDetailPage() {
                   </thead>
                   <tbody className="divide-y divide-outline-variant/20">
                     {filteredCards?.map((card, index) => (
-                      <tr key={card.id} className="hover:bg-surface-container/20 transition-colors">
+                      <tr 
+                        key={card.id} 
+                        onClick={() => setActiveVocabCard(card)}
+                        className="hover:bg-surface-container/20 transition-colors cursor-pointer"
+                      >
                         <td className="px-6 py-4 text-xs font-semibold text-on-surface-variant tabular-nums">{startStt + index}</td>
                         <td className="px-6 py-4 font-jp font-bold text-xl text-on-surface">{card.front}</td>
                         <td className="px-6 py-4 text-sm font-medium text-on-surface-variant font-jp">{card.romaji || '-'}</td>
@@ -1174,9 +1331,12 @@ export default function DeckDetailPage() {
                         </td>
                         {canModify && (
                           <td className="px-6 py-4 text-right">
-                            <div className="flex justify-end gap-1">
+                            <div className="flex justify-end gap-1" onClick={(e) => e.stopPropagation()}>
                               <button
-                                onClick={() => setEditingCard(card)}
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  setEditingCard(card);
+                                }}
                                 className="p-1.5 text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container rounded"
                               >
                                 <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
@@ -1258,6 +1418,16 @@ export default function DeckDetailPage() {
           card={activeKanjiCard}
           onClose={() => setActiveKanjiCard(null)}
           accentColor="var(--primary)"
+        />
+      )}
+
+      {activeVocabCard && (
+        <VocabDetailModal
+          isOpen={!!activeVocabCard}
+          onClose={() => setActiveVocabCard(null)}
+          onSpeak={speakJapanese}
+          onToggleStar={() => toggleStarMutation.mutate(activeVocabCard.id)}
+          card={currentActiveVocabCard}
         />
       )}
 

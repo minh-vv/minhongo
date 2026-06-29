@@ -37,6 +37,8 @@ export class AiRoadmapController {
       targetMonths: number;
       minutesPerDay: number;
       currentLevel: string;
+      targetJlpt?: number;
+      prioritySkills?: string[];
       achievements?: string;
       testResults?: TestResult[];
     },
