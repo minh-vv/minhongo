@@ -431,11 +431,6 @@ export default function DeckDetailPage() {
   const [activeKanjiCard, setActiveKanjiCard] = useState(null);
   const [activeVocabCard, setActiveVocabCard] = useState(null);
 
-  const currentActiveVocabCard = useMemo(() => {
-    if (!activeVocabCard || !deck?.cards) return null;
-    return deck.cards.find(c => c.id === activeVocabCard.id) || activeVocabCard;
-  }, [activeVocabCard, deck?.cards]);
-
   const [forking, setForking] = useState(false);
   const [viewMode, setViewMode] = useState('card');
   const [showStarredOnly, setShowStarredOnly] = useState(false);
@@ -457,6 +452,11 @@ export default function DeckDetailPage() {
   const starredCount = useMemo(() => {
     return deck?.cards?.filter((card) => card.progress?.[0]?.isStarred).length || 0;
   }, [deck]);
+
+  const currentActiveVocabCard = useMemo(() => {
+    if (!activeVocabCard || !deck?.cards) return null;
+    return deck.cards.find(c => c.id === activeVocabCard.id) || activeVocabCard;
+  }, [activeVocabCard, deck?.cards]);
 
   const activePracticeCardCount = useMemo(() => {
     return modalConfig.starredOnly ? starredCount : (deck?.cards?.length || 0);
